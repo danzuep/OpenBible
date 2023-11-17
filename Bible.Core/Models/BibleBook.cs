@@ -13,14 +13,14 @@ namespace Bible.Core.Models
         /// </summary>
         /// <param name="bookName">Book name</param>
         /// <param name="bibleVersion">Bible version</param>
-        /// <param name="synonyms">Alternative names</param>
+        /// <param name="aliases">Alternative names</param>
         /// <param name="content">Book content</param>
-        internal BibleBook(string bookName, string bibleVersion, IEnumerable<string> synonyms, BookContent content)
+        internal BibleBook(string bookName, string bibleVersion, IEnumerable<string> aliases, BookContent content)
         {
             _order = _createdOrder++;
             Name = bookName;
             Version = bibleVersion;
-            Synonyms = synonyms;
+            Aliases = aliases;
             Content = content;
         }
 
@@ -39,7 +39,7 @@ namespace Bible.Core.Models
         /// Standard abbreviations and Thompson Chain references pulled from the 5th edition
         /// of "The Christian Writer's Manual of Style", 2004 edition (ISBN: 9780310487715).
         /// </summary>
-        public IEnumerable<string> Synonyms { get; set; }
+        public IEnumerable<string> Aliases { get; set; }
 
         /// <summary>
         /// Chapters and verses.

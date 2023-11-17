@@ -2,7 +2,7 @@
 
 namespace Bible.Data.Models
 {
-    public class JsonSimpleBibleBook
+    public class SimpleBibleBookJson
     {
         [JsonPropertyName("Name")]
         public string Name { get; set; } = default!;

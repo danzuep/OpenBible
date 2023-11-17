@@ -1,4 +1,4 @@
-﻿using Bible.Models;
+﻿using Bible.Core.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

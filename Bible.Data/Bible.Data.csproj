@@ -4,6 +4,36 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <DeployOnBuild>false</DeployOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(MSBuildProjectName).Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--https://github.com/Glowstudent777/YouVersion-API/blob/main/src/api/v1/db/books.json-->
+    <None Update="Json\books.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Json\endpoints.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <!--https://github.com/aruljohn/Bible-kjv-->
+    <!--https://github.com/king-Alex-d-great/BibleIndexer-v2/blob/master/BibleIndexerV2/Data/books.json-->
+    <None Update="Json\kjv.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <!--https://app.thedigitalbiblelibrary.org/entry?id=-->
+    <None Update="Json\translations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <!--https://github.com/Glowstudent777/YouVersion-API/blob/main/src/api/v1/db/versions.json-->
+    <None Update="Json\versions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
