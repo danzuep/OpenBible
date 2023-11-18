@@ -25,6 +25,31 @@ namespace Bible.Data.Tests
         }
 
         [Theory]
+        [InlineData("Genesis", 50)]
+        [InlineData("Exodus", 40)]
+        public async Task GetBibleBookFromFileAsync_WithJsonFilePath_ReturnsConvertedBibleBooks(string bookName, int chapterCount)
+        {
+            var jsonFilePath = GetJsonFilePath("kjv");
+            var bible = await SerializerService.GetFromFileAsync<IReadOnlyList<SimpleBibleBookJson>>(jsonFilePath) ?? [];
+            var books = bible.Select(b => b.GetBibleBook("KJV"));
+            var book = books.FirstOrDefault(book => book.Reference.BookName == bookName);
+            Assert.NotNull(book);
+            Assert.Equal(chapterCount, book.ChapterCount);
+        }
+
+        [Theory]
+        [InlineData("Jesus", 943)]
+        public async Task SearchBibleAsync_WithJsonFilePath_ReturnsVerses(string searchQuery, int expectedCount)
+        {
+            var jsonFilePath = GetJsonFilePath("kjv");
+            var bible = await SerializerService.GetFromFileAsync<IReadOnlyList<SimpleBibleBookJson>>(jsonFilePath) ?? [];
+            var books = bible.Select(b => b.GetBibleBook("KJV"));
+            var verses = await books.SearchBibleAsync(searchQuery);
+            Assert.NotNull(verses);
+            Assert.Equal(expectedCount, verses.Count);
+        }
+
+        [Theory]
         [InlineData(BibleBookIndex.SecondCorinthians, 1, 3)]
         public async Task GetBibleBooksFromFileAsync_WithJsonFilePath_ReturnsBibleBook(BibleBookIndex book, int chapter, int verse)
         {
@@ -75,34 +100,20 @@ namespace Bible.Data.Tests
         }
 
         [Theory]
-        [InlineData("Romans", "12", "1", "web", "living sacrifice")]
-        public async Task GetBibleFromJsonAsync_WithUrlPath_ReturnsBible(string book, string chapter, string verse, string version, string expected)
+        [InlineData("1 John 4:7", "webbe", "love one another")]
+        public async Task GetVerseAsync_WithUrlPath_ReturnsJson(string reference, string translation, string expected)
         {
-            using var httpClient = new HttpClient { BaseAddress = new Uri(Constants.BibleWebEndpointSuperSearch) };
-            var query = $"api?bible={version}&reference={book}+{chapter}:{verse}";
-            var response = await httpClient.GetFromJsonAsync<BibleReferenceJsonResponse>(query); // ~1.3s
-            Assert.NotNull(response);
-            var result0 = response.Results[0];
-            Assert.Equal(book, result0.BookName);
-            var text = result0.Verses[version][chapter][verse].Text;
-            Assert.Contains(expected, text);
+            using var httpClient = new HttpClient();
+            var query = $"{Constants.BibleWebEndpointBibleApi}{reference}?translation={translation}";
+            var stream = await httpClient.GetStreamAsync(query);
+            var verse = await SerializerService.GetPropertyFromStreamAsync(stream); // ~1.1s
+            Assert.NotNull(verse);
+            Assert.Contains(expected, verse);
         }
 
         [Theory]
-        [InlineData(Constants.BibleYouVersionWebbeId, "ROM.12.1")]
-        public async Task GetBibleBooksAsync_WithUrlPath_ReturnsBible(string bibleId, string verseId)
-        {
-            using var httpClient = new HttpClient { BaseAddress = new Uri(Constants.BibleWebEndpointYouVersion1) };
-            httpClient.DefaultRequestHeaders.Add("api-key", Constants.BibleYouVersionApiKey);
-            var query = $"v1/bibles/{bibleId}/verses/{verseId}?content-type=json&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=false&include-verse-spans=false&use-org-id=false";
-            var response = await httpClient.GetFromJsonAsync<YouVersionVersesJsonResponse>(query); // ~2.0s
-            Assert.NotNull(response?.Data?.Id);
-            Assert.Equal(verseId, response.Data.Id);
-        }
-
-        [Theory]
-        [InlineData("1John", "4", "7")]
-        public async Task GetBibleBookAsync_WithUrlPath_ReturnsJsonBibleBook(string book, string chapter, string verse)
+        [InlineData("1John", "4", "7", "love one another")]
+        public async Task GetBibleBookAsync_WithUrlPath_ReturnsJsonBibleBook(string book, string chapter, string verse, string expected)
         {
             var query = $"{Constants.RawGitHubUserContentBibleKjvPath}{book}.json";
             var response = await _httpClient.GetFromJsonAsync<SimpleBookJson>(query); // ~0.5s
@@ -113,7 +124,33 @@ namespace Bible.Data.Tests
             var verseIndex = int.Parse(verse) - 1;
             var verseResponse = chapterResponse.Verses[verseIndex];
             Assert.Equal(verse, verseResponse.Verse);
-            Assert.NotNull(verseResponse.Text);
+            Assert.Contains(expected, verseResponse.Text);
+        }
+
+        [Theory]
+        [InlineData("Romans", "12", "1", "web", "living sacrifice")]
+        public async Task GetBibleFromJsonAsync_WithUrlPath_ReturnsBible(string book, string chapter, string verse, string version, string expected)
+        {
+            using var httpClient = new HttpClient { BaseAddress = new Uri(Constants.BibleWebEndpointSuperSearch) };
+            var query = $"api?bible={version}&reference={book}+{chapter}:{verse}";
+            var response = await httpClient.GetFromJsonAsync<BibleReferenceResponseJson>(query); // ~1.3s
+            Assert.NotNull(response);
+            var result0 = response.Results[0];
+            Assert.Equal(book, result0.BookName);
+            var text = result0.Verses[version][chapter][verse].Text;
+            Assert.Contains(expected, text);
+        }
+
+        [Theory(Skip = "API key required.")]
+        [InlineData(Constants.BibleYouVersionWebbeId, "ROM.12.1")]
+        public async Task GetBibleBooksAsync_WithUrlPath_ReturnsBible(string bibleId, string verseId)
+        {
+            using var httpClient = new HttpClient { BaseAddress = new Uri(Constants.BibleWebEndpointYouVersion1) };
+            httpClient.DefaultRequestHeaders.Add("api-key", Constants.BibleYouVersionApiKey);
+            var query = $"v1/bibles/{bibleId}/verses/{verseId}?content-type=json&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=false&include-verse-spans=false&use-org-id=false";
+            var response = await httpClient.GetFromJsonAsync<YouVersionVersesJsonResponse>(query); // ~2.0s
+            Assert.NotNull(response?.Data?.Id);
+            Assert.Equal(verseId, response.Data.Id);
         }
 
         [Theory(Skip = "Takes too long (~2.8s).")]

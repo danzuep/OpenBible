@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Bible.Core.Models
 {
-    public class BibleBook : IComparable<BibleBook>
+    public class BibleBook : IComparable<BibleBook>, IEquatable<BibleBook>
     {
         private static int _createdOrder;
         private readonly int _order;
@@ -11,40 +12,28 @@ namespace Bible.Core.Models
         /// <summary>
         /// Bible book constructor.
         /// </summary>
-        /// <param name="bookName">Book name</param>
-        /// <param name="bibleVersion">Bible version</param>
-        /// <param name="aliases">Alternative names</param>
+        /// <param name="reference">Translation and book name</param>
         /// <param name="content">Book content</param>
-        internal BibleBook(string bookName, string bibleVersion, IEnumerable<string> aliases, BookContent content)
+        public BibleBook(BibleReference reference, IEnumerable<BibleChapter> chapters)
         {
             _order = _createdOrder++;
-            Name = bookName;
-            Version = bibleVersion;
-            Aliases = aliases;
-            Content = content;
+            Reference = reference;
+            Chapters = chapters.ToArray();
         }
 
-        /// <summary>
-        /// Version of the bible used.
-        /// </summary>
-        public string Version { get; }
+        public BibleReference Reference { get; set; } = default!;
 
-        /// <summary>
-        /// Unabreviated name of the book.
-        /// </summary>
-        public string Name { get; }
-
-        /// <summary>
-        /// Abreviated names or common mis-spellings of the book.
-        /// Standard abbreviations and Thompson Chain references pulled from the 5th edition
-        /// of "The Christian Writer's Manual of Style", 2004 edition (ISBN: 9780310487715).
-        /// </summary>
-        public IEnumerable<string> Aliases { get; set; }
+        public int BookNumber { get; set; }
 
         /// <summary>
         /// Chapters and verses.
         /// </summary>
-        public BookContent Content { get; }
+        public IReadOnlyList<BibleChapter> Chapters { get; }
+
+        /// <summary>
+        /// Number of chapters.
+        /// </summary>
+        public int ChapterCount => Chapters.Count;
 
         /// <summary>
         /// Determines whether two objects are equal.
@@ -59,7 +48,7 @@ namespace Bible.Core.Models
                 return true;
 
             // one is null, but not both
-            if (book1 == null || book2 == null)
+            if (book1 is null || book2 is null)
                 return false;
 
             return book1.Equals(book2);
@@ -78,22 +67,20 @@ namespace Bible.Core.Models
         public static bool operator != (BibleBook book1, BibleBook book2) =>
             !EqualityTest(book1, book2);
 
+        public bool Equals(BibleBook? other) =>
+            other is BibleBook b && b.Reference.Equals(Reference);
+
         public override bool Equals(object other) =>
-            other is BibleBook b && (b.Version, b.Name).Equals((Version, Name));
+            other is BibleBook b && b.Reference.Equals(Reference);
 
         /// <inheritdoc cref="IComparable" />
         public int CompareTo(BibleBook other) =>
             _order.CompareTo(other._order);
 
         public override int GetHashCode() =>
-            (Version, Name).GetHashCode();
+            Reference.GetHashCode();
 
         public override string ToString() =>
-            $"{Name} ({Content.ChapterCount} Chapters)";
-
-        public bool Equals(BibleBook other)
-        {
-            throw new NotImplementedException();
-        }
+            $"{Reference} ({ChapterCount} Chapters)";
     }
 }

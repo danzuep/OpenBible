@@ -70,6 +70,14 @@ namespace Bible.Data.Services
             return result;
         }
 
+        public static async Task<string?> GetPropertyFromStreamAsync(Stream stream, string property = "text")
+        {
+            var jsonNode = await JsonNode.ParseAsync(stream);
+            var contentNode = jsonNode == null ? null : jsonNode[property];
+            var result = contentNode == null ? default : contentNode.GetValue<string>();
+            return result;
+        }
+
         public static async Task<T?> GetFromDocumentStreamAsync<T>(Stream stream, string value, string property = "Name")
         {
             JsonDocumentOptions options = new() { AllowTrailingCommas = true };

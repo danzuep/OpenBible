@@ -12,7 +12,7 @@ namespace Bible.Data.Models
         public T[] Results { get; set; } = [];
     }
 
-    public sealed class BibleReferenceJsonResponse : BibleResponse<BibleReferenceResults>
+    public sealed class BibleReferenceResponseJson : BibleResponse<BibleReferenceResultsJson>
     {
         [JsonPropertyName("hash")]
         public string? Hash { get; set; }
@@ -26,7 +26,7 @@ namespace Bible.Data.Models
         public Dictionary<string, int[]>? ChapterVerses { get; set; }
     }
 
-    public class BiblePagingResponse
+    public class BiblePagingResponseJson
     {
         [JsonPropertyName("total")]
         public int Total { get; set; }
@@ -47,7 +47,7 @@ namespace Bible.Data.Models
         public int To { get; set; }
     }
 
-    public class BibleReferenceResults
+    public class BibleReferenceResultsJson
     {
         [JsonPropertyName("book_id")]
         public int BookId { get; set; }
@@ -62,7 +62,7 @@ namespace Bible.Data.Models
         [JsonPropertyName("chapter_verse_raw")]
         public string? ChapterVerseRaw { get; set; }
         [JsonPropertyName("verses")]
-        public Dictionary<string, Dictionary<string, Dictionary<string, BibleReference>>> Verses { get; set; } = new();
+        public Dictionary<string, Dictionary<string, Dictionary<string, BibleReferenceJson>>> Verses { get; set; } = new();
         [JsonPropertyName("verses_count")]
         public int VersesCount { get; set; }
         [JsonPropertyName("single_verse")]
@@ -71,7 +71,7 @@ namespace Bible.Data.Models
         public object[]? Nav { get; set; }
     }
 
-    public class BibleReference
+    public class BibleReferenceJson
     {
         [JsonPropertyName("id")]
         public int Id { get; set; }

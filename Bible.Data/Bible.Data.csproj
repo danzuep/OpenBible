@@ -14,6 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <!--https://github.com/Glowstudent777/YouVersion-API/blob/main/src/api/v1/db/books.json-->
     <None Update="Json\books.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -21,7 +25,6 @@
     <None Update="Json\endpoints.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <!--https://github.com/aruljohn/Bible-kjv-->
     <!--https://github.com/king-Alex-d-great/BibleIndexer-v2/blob/master/BibleIndexerV2/Data/books.json-->
     <None Update="Json\kjv.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
