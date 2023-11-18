@@ -16,7 +16,8 @@ namespace BibleApp
         [ObservableProperty]
         private BibleChapter? selectedChapter;
 
-        public string Title { get; }
+        [ObservableProperty]
+        private string title;
 
         public MainPageViewModel()
         {
@@ -25,30 +26,5 @@ namespace BibleApp
             SelectedBook = bibleBooks.FirstOrDefault();
             Title = SelectedBook?.Reference.Translation ?? string.Empty;
         }
-
-        //[ObservableProperty]
-        //private ObservableCollection<VerseContent>? verseContents;
-
-        //[RelayCommand] private void OnSelectionChanged() {}
-
-        //private static IList<VerseContent> GetVerseCollection(BibleChapter? bibleChapter)
-        //{
-        //    var chapterContents = new List<VerseContent>();
-        //    if (bibleChapter?.Verses != null)
-        //    {
-        //        foreach (var verse in bibleChapter.Verses)
-        //        {
-        //            chapterContents.Add(new VerseContent
-        //            {
-        //                VerseNumber = verse.Number,
-        //                VerseText = verse.Text,
-        //            });
-        //        }
-        //    }
-        //    return chapterContents;
-        //}
-
-        //internal static ObservableCollection<VerseContent> GetVerseCollectionFromBibleChapter(BibleChapter? bibleChapter) =>
-        //    new ObservableCollection<VerseContent>(GetVerseCollection(bibleChapter));
     }
 }

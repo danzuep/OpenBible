@@ -5,7 +5,6 @@ namespace BibleApp
     public partial class MainPage : ContentPage
     {
         readonly MainPageViewModel _viewModel = new();
-        bool _selectionEnabled;
 
         public MainPage()
         {
@@ -27,12 +26,20 @@ namespace BibleApp
             }
         }
 
-        //private void OnChapterSelectionChanged(object sender, EventArgs e)
-        //{
-        //    if (sender is Picker picker && picker.SelectedItem is BibleChapter selectedChapter)
-        //    {
-        //        _viewModel.VerseContents = MainPageViewModel.GetVerseCollectionFromBibleChapter(selectedChapter);
-        //    }
-        //}
+        private void OnSwipeLeft(object sender, SwipedEventArgs e)
+        {
+            if (_viewModel.SelectedChapter?.ChapterNumber is int chapter && _viewModel.SelectedBook is BibleBook book && book.ChapterCount > chapter)
+            {
+                _viewModel.SelectedChapter = _viewModel.SelectedBook.Chapters[chapter];
+            }
+        }
+
+        private void OnSwipeRight(object sender, SwipedEventArgs e)
+        {
+            if (_viewModel.SelectedChapter?.ChapterNumber is int chapter && chapter > 1 && _viewModel.SelectedBook is not null)
+            {
+                _viewModel.SelectedChapter = _viewModel.SelectedBook.Chapters[chapter - 2];
+            }
+        }
     }
 }

@@ -24,37 +24,31 @@
         </StackLayout>
     </Shell.TitleView>
 
-    <ScrollView Padding="30,0">
-        <VerticalStackLayout Spacing="25">
-
-            <StackLayout
-                Margin="0,0,0,120"
-                BackgroundColor="Transparent"
-                BindableLayout.ItemsSource="{Binding SelectedChapter.Verses}">
-                <BindableLayout.ItemTemplate>
-                    <DataTemplate>
-                        <Grid Padding="0,5,0,0" BackgroundColor="Transparent">
-                            <Label VerticalOptions="Center">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding Number}" />
-                                        <Span Text=" " />
-                                        <Span Text="{Binding Text}" />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                        </Grid>
-                    </DataTemplate>
-                </BindableLayout.ItemTemplate>
-            </StackLayout>
-
-            <!--  TODO - Hanzi jyutping ruby characters, like furigana  -->
-            <!--
-                <StackLayout>
-                    <Label FontSize="16" Text="かんじ" />
-                    <Label FontSize="24" Text="漢字" />
-                </StackLayout>
-            -->
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10,10,10,10"
+            BindableLayout.ItemsSource="{Binding SelectedChapter.Verses}"
+            Spacing="10">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="15,*">
+                        <Grid.GestureRecognizers>
+                            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />
+                            <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeRight" />
+                        </Grid.GestureRecognizers>
+                        <Label
+                            FontSize="8"
+                            HorizontalTextAlignment="End"
+                            Text="{Binding Number}" />
+                        <!--  TODO - Hanzi jyutping ruby characters, like furigana  -->
+                        <Label
+                            Grid.Column="1"
+                            Padding="5,0"
+                            FontSize="16"
+                            Text="{Binding Text}" />
+                    </Grid>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
 
         </VerticalStackLayout>
     </ScrollView>
