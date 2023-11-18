@@ -4,31 +4,58 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <ScrollView>
-        <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Image
-                Aspect="AspectFit"
-                HeightRequest="185"
-                SemanticProperties.Description="dot net bot in a race car number eight"
-                Source="dotnet_bot.png" />
+    <Shell.TitleView>
+        <StackLayout>
+            <HorizontalStackLayout Spacing="25">
+                <Picker
+                    ItemDisplayBinding="{Binding Reference.BookName}"
+                    ItemsSource="{Binding BibleBooks}"
+                    SelectedIndexChanged="OnBookSelectionChanged"
+                    SelectedItem="{Binding SelectedBook}"
+                    WidthRequest="160" />
+                <Label Text="Ch." VerticalOptions="Center" />
+                <Picker
+                    ItemDisplayBinding="{Binding ChapterNumber}"
+                    ItemsSource="{Binding SelectedBook.Chapters}"
+                    SelectedItem="{Binding SelectedChapter}"
+                    WidthRequest="70" />
+                <Label Text="{Binding Title}" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+        </StackLayout>
+    </Shell.TitleView>
 
-            <Label
-                SemanticProperties.HeadingLevel="Level1"
-                Style="{StaticResource Headline}"
-                Text="Hello, World!" />
+    <ScrollView Padding="30,0">
+        <VerticalStackLayout Spacing="25">
 
-            <Label
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                SemanticProperties.HeadingLevel="Level2"
-                Style="{StaticResource SubHeadline}"
-                Text="Welcome to &#10;.NET Multi-platform App UI" />
+            <StackLayout
+                Margin="0,0,0,120"
+                BackgroundColor="Transparent"
+                BindableLayout.ItemsSource="{Binding SelectedChapter.Verses}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="0,5,0,0" BackgroundColor="Transparent">
+                            <Label VerticalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{Binding Number}" />
+                                        <Span Text=" " />
+                                        <Span Text="{Binding Text}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Grid>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </StackLayout>
 
-            <Button
-                x:Name="CounterBtn"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Text="Click me" />
+            <!--  TODO - Hanzi jyutping ruby characters, like furigana  -->
+            <!--
+                <StackLayout>
+                    <Label FontSize="16" Text="かんじ" />
+                    <Label FontSize="24" Text="漢字" />
+                </StackLayout>
+            -->
+
         </VerticalStackLayout>
     </ScrollView>
 

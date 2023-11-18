@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Bible.Core.Models
+﻿namespace Bible.Core.Models
 {
     public class BibleReference
     {
@@ -10,7 +8,6 @@ namespace Bible.Core.Models
         {
             Translation = bibleReference.Translation;
             BookName = bibleReference.BookName;
-            Aliases = bibleReference.Aliases;
             Reference = bibleReference.Reference;
         }
 
@@ -23,11 +20,6 @@ namespace Bible.Core.Models
         /// Unabreviated name of the book.
         /// </summary>
         public string BookName { get; set; } = default!;
-
-        /// <summary>
-        /// Abreviated or alternative names of the book.
-        /// </summary>
-        public IReadOnlyList<string>? Aliases { get; set; }
 
         /// <summary>
         /// Optional chapter and verse reference.
@@ -43,8 +35,8 @@ namespace Bible.Core.Models
         public override string ToString()
         {
             if (string.IsNullOrEmpty(Reference))
-                return $"{BookName} ({Translation})";
-            return $"{BookName} {Reference} {Translation}";
+                return $"({Translation}) {BookName}";
+            return $"({Translation}) {BookName} {Reference}";
         }
     }
 }

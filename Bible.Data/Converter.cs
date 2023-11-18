@@ -13,12 +13,24 @@ namespace Bible.Data
         {
             var reference = new BibleReference
             {
-                Translation = version,
-                BookName = jsonBook.Name,
-                Aliases = [jsonBook.Abbreviation]
+                Translation = version.Trim(),
+                BookName = jsonBook.Name
             };
             var chapters = GetBibleChapters(jsonBook.Content, reference);
-            var book = new BibleBook(reference, chapters);
+            var book = new BibleBook(reference, chapters)
+            {
+                Aliases = [jsonBook.Abbreviation]
+            };
+            return book;
+        }
+
+        public static BibleBook? GetBibleBook(this IEnumerable<BibleBook> bibleBooks, string bookName)
+        {
+            if (string.IsNullOrWhiteSpace(bookName)) return null;
+            bookName = bookName.Trim();
+            var book = bibleBooks.FirstOrDefault(book =>
+                bookName.Equals(book.Reference.BookName, StringComparison.OrdinalIgnoreCase) ||
+                (book.Aliases != null && book.Aliases.Contains(bookName, StringComparer.OrdinalIgnoreCase)));
             return book;
         }
 
@@ -28,18 +40,18 @@ namespace Bible.Data
             {
                 var chapterNumber = chapterIndex + _indexOffset;
                 var chapterReference = chapterNumber.ToString(CultureInfo.InvariantCulture);
+                var reference = new BibleReference(bibleReference) { Reference = chapterReference };
                 var chapter = new BibleChapter
                 {
                     ChapterNumber = chapterNumber,
-                    Reference = new(bibleReference) { Reference = chapterReference },
+                    Reference = reference,
                     Verses = chapterContent.Select((verseText, verseIndex) =>
                     {
                         var verseNumber = verseIndex + _indexOffset;
-                        var verseReference = $"{chapterNumber}:{verseNumber}";
                         var verse = new BibleVerse
                         {
-                            VerseNumber = verseNumber,
-                            Reference = new(bibleReference) { Reference = verseReference },
+                            Number = verseNumber,
+                            Reference = reference,
                             Text = verseText
                         };
                         return verse;
@@ -52,6 +64,8 @@ namespace Bible.Data
 
         public static async Task<IReadOnlyCollection<BibleVerse>> SearchBibleAsync(this IEnumerable<BibleBook> books, string query)
         {
+            if (string.IsNullOrWhiteSpace(query)) return [];
+            query = query.Trim();
             var verses = new ConcurrentBag<BibleVerse>();
             await Task.WhenAll(books.Select(async (book) =>
             {

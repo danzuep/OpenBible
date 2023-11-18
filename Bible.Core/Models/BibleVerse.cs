@@ -4,7 +4,9 @@
     {
         public BibleReference Reference { get; set; } = default!;
 
-        public int VerseNumber { get; set; }
+        public string VerseReference => $"{Reference}:{Number}";
+
+        public int Number { get; set; }
 
         public string Text { get; set; } = default!;
 
@@ -15,6 +17,6 @@
             Reference.GetHashCode();
 
         public override string ToString() =>
-            $"\"{Text}\" {Reference}";
+            $"{VerseReference} \"{Text}\"";
     }
 }

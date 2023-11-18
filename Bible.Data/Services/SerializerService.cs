@@ -1,4 +1,5 @@
-﻿using Bible.Data.Models;
+﻿using Bible.Core.Models;
+using Bible.Data.Models;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 
@@ -6,6 +7,9 @@ namespace Bible.Data.Services
 {
     public class SerializerService
     {
+        private static readonly string _baseFilePath = AppDomain.CurrentDomain.BaseDirectory;
+        public static string GetJsonFilePath(string name) => Path.Combine(_baseFilePath, "Json", $"{name}.json");
+
         /// <summary>
         /// Map the streamed data from a JSON file to an object.
         /// </summary>
@@ -17,6 +21,23 @@ namespace Bible.Data.Services
             using var fileStream = File.OpenRead(jsonFilePath);
             var result = await JsonSerializer.DeserializeAsync<T>(fileStream);
             return result;
+        }
+
+        public static IEnumerable<BibleBook> GetBibleBooks(string version = "KJV")
+        {
+            var jsonFilePath = GetJsonFilePath(version.ToLower());
+            using var fileStream = File.OpenRead(jsonFilePath);
+            var bible = JsonSerializer.Deserialize<SimpleBibleBookJson[]>(fileStream) ?? [];
+            var books = bible.Select(b => b.GetBibleBook(version));
+            return books;
+        }
+
+        public static async Task<IEnumerable<BibleBook>> GetBibleBooksAsync(string version = "KJV")
+        {
+            var jsonFilePath = GetJsonFilePath(version.ToLower());
+            var bible = await GetFromFileAsync<IEnumerable<SimpleBibleBookJson>>(jsonFilePath) ?? [];
+            var books = bible.Select(b => b.GetBibleBook(version));
+            return books;
         }
 
         private static async Task<JsonNode?> GetIndexedNodeFromFileAsync(string jsonFilePath, int index)

@@ -23,6 +23,11 @@ namespace Bible.Core.Models
 
         public BibleReference Reference { get; set; } = default!;
 
+        /// <summary>
+        /// Abreviated or alternative names of the book.
+        /// </summary>
+        public IReadOnlyList<string>? Aliases { get; set; }
+
         public int BookNumber { get; set; }
 
         /// <summary>

@@ -1,25 +1,38 @@
-﻿namespace BibleApp
+﻿using Bible.Core.Models;
+
+namespace BibleApp
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        readonly MainPageViewModel _viewModel = new();
+        bool _selectionEnabled;
 
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = _viewModel;
+            Title = _viewModel.Title;
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            base.OnAppearing();
         }
-    }
 
+        private void OnBookSelectionChanged(object sender, EventArgs e)
+        {
+            if (sender is Picker picker && picker.SelectedItem is BibleBook selectedBook)
+            {
+                _viewModel.SelectedChapter = selectedBook.Chapters.FirstOrDefault();
+            }
+        }
+
+        //private void OnChapterSelectionChanged(object sender, EventArgs e)
+        //{
+        //    if (sender is Picker picker && picker.SelectedItem is BibleChapter selectedChapter)
+        //    {
+        //        _viewModel.VerseContents = MainPageViewModel.GetVerseCollectionFromBibleChapter(selectedChapter);
+        //    }
+        //}
+    }
 }
