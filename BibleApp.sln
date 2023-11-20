@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleApp", "BibleApp\BibleApp.csproj", "{AA549469-2DCD-4F5C-8156-644C28A4C25D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.App", "Bible.App\Bible.App.csproj", "{AA549469-2DCD-4F5C-8156-644C28A4C25D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Core", "Bible.Core\Bible.Core.csproj", "{5FB85792-4610-4CC7-B8A6-90972AECA1AC}"
 EndProject
@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Data.Tests", "Bible.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Reader", "Bible.Reader\Bible.Reader.csproj", "{A5C0E35F-42FD-4F88-9019-5741C2BA1FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Reader.Tests", "Bible.Reader.Tests\Bible.Reader.Tests.csproj", "{0E39A94E-6B15-4D05-9324-4D582AEB8DA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Reader.Tests", "Bible.Reader.Tests\Bible.Reader.Tests.csproj", "{0E39A94E-6B15-4D05-9324-4D582AEB8DA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
