@@ -14,8 +14,7 @@ namespace Bible.Data.Tests
         [InlineData(BibleBookIndex.Genesis, "gn")]
         public async Task GetBibleBooksFromFileAsync_WithJsonFilePath_ReturnsBibleBooks(BibleBookIndex book, string abbreviation)
         {
-            var jsonFilePath = SerializerService.GetJsonFilePath("kjv");
-            var bible = await SerializerService.GetFromFileAsync<IReadOnlyList<SimpleBibleBookJson>>(jsonFilePath) ?? [];
+            var bible = await SerializerService.GetFromJsonFileAsync<IReadOnlyList<SimpleBibleBookJson>>("KJV") ?? [];
             var result = bible[(int)book];
             Assert.Equal(book.ToString(), result.Name);
             Assert.Equal(abbreviation, result.Abbreviation);
@@ -24,9 +23,9 @@ namespace Bible.Data.Tests
         [Theory]
         [InlineData("Genesis", 50)]
         [InlineData("Exodus", 40)]
-        public async Task GetBibleBookFromFileAsync_WithJsonFilePath_ReturnsConvertedBibleBooks(string bookName, int chapterCount)
+        public void GetBibleBookFromFile_WithJsonFilePath_ReturnsConvertedBibleBooks(string bookName, int chapterCount)
         {
-            var books = await SerializerService.GetBibleBooksAsync();
+            var books = SerializerService.GetBibleBooks();
             var book = books.GetBibleBook(bookName);
             Assert.NotNull(book);
             Assert.Equal(chapterCount, book.ChapterCount);
@@ -36,7 +35,7 @@ namespace Bible.Data.Tests
         [InlineData("Jesus", 943)]
         public async Task SearchBibleAsync_WithJsonFilePath_ReturnsVerses(string searchQuery, int expectedCount)
         {
-            var books = await SerializerService.GetBibleBooksAsync();
+            var books = SerializerService.GetBibleBooks();
             var verses = await books.SearchBibleAsync(searchQuery);
             Assert.NotNull(verses);
             Assert.Equal(expectedCount, verses.Count);
@@ -46,8 +45,7 @@ namespace Bible.Data.Tests
         [InlineData(BibleBookIndex.SecondCorinthians, 1, 3)]
         public async Task GetBibleBooksFromFileAsync_WithJsonFilePath_ReturnsBibleBook(BibleBookIndex book, int chapter, int verse)
         {
-            var jsonFilePath = SerializerService.GetJsonFilePath("kjv");
-            var verseText = await SerializerService.GetChapterVerseFromFileAsync(jsonFilePath, (int)book, chapter, verse);
+            var verseText = await SerializerService.GetChapterVerseFromFileAsync("KJV", (int)book, chapter, verse);
             Assert.NotNull(verseText);
         }
 
@@ -55,8 +53,7 @@ namespace Bible.Data.Tests
         [InlineData(BibleBookIndex.SecondCorinthians, "2 Corinthians", "2co", "God of all comfort")] // 1:3
         public async Task GetBibleBooksFromFileStreamAsync_WithJsonFilePath_ReturnsBibleBook(BibleBookIndex bookIndex, string bookName, string abbreviation, string expected)
         {
-            var jsonFilePath = SerializerService.GetJsonFilePath("kjv");
-            var result = await SerializerService.GetBibleBookFromStreamAsync(jsonFilePath, (int)bookIndex);
+            var result = await SerializerService.GetBibleBookFromStreamAsync("KJV", (int)bookIndex);
             Assert.NotNull(result);
             Assert.Equal(bookName, result.Name);
             Assert.Equal(abbreviation, result.Abbreviation);
@@ -68,28 +65,35 @@ namespace Bible.Data.Tests
         [InlineData(BibleBookIndex.Genesis)]
         public async Task GetBooksFromFileAsync_WithJsonFilePath_ReturnsBibleBooks(BibleBookIndex book)
         {
-            var jsonFilePath = SerializerService.GetJsonFilePath("books");
-            var bible = await SerializerService.GetFromFileAsync<YouVersionBooksJsonResponse>(jsonFilePath);
+            var bible = await SerializerService.GetFromJsonFileAsync<YouVersionBooksJsonResponse>("books");
             Assert.NotNull(bible);
             Assert.Equal(book.ToString(), bible.Books[(int)book].Book);
+        }
+
+        [Theory]
+        [InlineData("GEN", "Genesis", 50)]
+        public async Task GetBibleBookMetadataFromFileAsync_WithJsonFilePath_ReturnsBibleBooks(string bookId, string name, int chapters)
+        {
+            var bible = await SerializerService.GetFromJsonFileAsync<Dictionary<string, BibleBookMetadataJson>>("BibleCanonBooks.en");
+            Assert.NotNull(bible);
+            Assert.Equal(name, bible[bookId].Name);
+            Assert.Equal(chapters, bible[bookId].Chapters);
         }
 
         [Fact]
         public async Task GetTranslationsFromFileAsync_WithJsonFilePath_ReturnsBibleTranslations()
         {
-            var jsonFilePath = SerializerService.GetJsonFilePath("translations");
-            var bible = await SerializerService.GetFromFileAsync<Dictionary<string, string>>(jsonFilePath);
+            var bible = await SerializerService.GetFromJsonFileAsync<Dictionary<string, string>>("translations");
             Assert.NotNull(bible);
-            Assert.True(bible["WEBUS"] == "9879dbb7cfe39e4d-01");
+            Assert.Equal("9879dbb7cfe39e4d-01", bible["WEBUS"]);
         }
 
         [Fact]
         public async Task GetVersionsFromFileAsync_WithJsonFilePath_ReturnsBibleVersions()
         {
-            var jsonFilePath = SerializerService.GetJsonFilePath("versions");
-            var bible = await SerializerService.GetFromFileAsync<Dictionary<string, int>>(jsonFilePath);
+            var bible = await SerializerService.GetFromJsonFileAsync<Dictionary<string, int>>("versions");
             Assert.NotNull(bible);
-            Assert.True(bible.GetValueOrDefault("WEBUS") == 206);
+            Assert.Equal(206, bible.GetValueOrDefault("WEBUS"));
         }
 
         [Theory]

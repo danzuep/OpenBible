@@ -9,6 +9,8 @@ namespace Bible.Core.Models
         private static int _createdOrder;
         private readonly int _order;
 
+        public BibleBook() { }
+
         /// <summary>
         /// Bible book constructor.
         /// </summary>
@@ -33,7 +35,7 @@ namespace Bible.Core.Models
         /// <summary>
         /// Chapters and verses.
         /// </summary>
-        public IReadOnlyList<BibleChapter> Chapters { get; }
+        public IReadOnlyList<BibleChapter> Chapters { get; set; }
 
         /// <summary>
         /// Number of chapters.

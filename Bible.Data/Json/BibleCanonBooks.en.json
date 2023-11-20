@@ -1,0 +1,332 @@
+{
+  "GEN": {
+    "name": "Genesis",
+    "chapters": 50,
+    "aliases": [ "Genesis", "First Book of Moses", "Book of Beginnings", "Bereshith" ]
+  },
+  "EXO": {
+    "name": "Exodus",
+    "chapters": 40,
+    "aliases": [ "Exodus", "Second Book of Moses", "Book of Names", "Shemot" ]
+  },
+  "LEV": {
+    "name": "Leviticus",
+    "chapters": 27,
+    "aliases": [ "Leviticus", "Third Book of Moses" ]
+  },
+  "NUM": {
+    "name": "Numbers",
+    "chapters": 36,
+    "aliases": [ "Numbers", "Fourth Book of Moses" ]
+  },
+  "DEU": {
+    "name": "Deuteronomy",
+    "chapters": 34,
+    "aliases": [ "Deuteronomy", "Fifth Book of Moses" ]
+  },
+  "JOS": {
+    "name": "Joshua",
+    "chapters": 24,
+    "aliases": [ "Joshua", "Book of Joshua" ]
+  },
+  "JDG": {
+    "name": "Judges",
+    "chapters": 21,
+    "aliases": [ "Judges" ]
+  },
+  "RUT": {
+    "name": "Ruth",
+    "chapters": 4,
+    "aliases": [ "Ruth" ]
+  },
+  "1SA": {
+    "name": "1 Samuel",
+    "chapters": 31,
+    "aliases": [ "1 Samuel", "1st Samuel", "First Samuel" ]
+  },
+  "2SA": {
+    "name": "2 Samuel",
+    "chapters": 24,
+    "aliases": [ "2 Samuel", "2nd Samuel", "Second Samuel" ]
+  },
+  "1KI": {
+    "name": "1 Kings",
+    "chapters": 22,
+    "aliases": [ "1 Kings", "1st Kings", "First Kings" ]
+  },
+  "2KI": {
+    "name": "2 Kings",
+    "chapters": 25,
+    "aliases": [ "2 Kings", "2nd Kings", "Second Kings" ]
+  },
+  "1CH": {
+    "name": "1 Chronicles",
+    "chapters": 29,
+    "aliases": [ "1 Chronicles", "1st Chronicles", "First Chronicles" ]
+  },
+  "2CH": {
+    "name": "2 Chronicles",
+    "chapters": 36,
+    "aliases": [ "2 Chronicles", "2nd Chronicles", "Second Chronicles" ]
+  },
+  "EZR": {
+    "name": "Ezra",
+    "chapters": 10,
+    "aliases": [ "Ezra" ]
+  },
+  "NEH": {
+    "name": "Nehemiah",
+    "chapters": 13,
+    "aliases": [ "Nehemiah" ]
+  },
+  "EST": {
+    "name": "Esther",
+    "chapters": 10,
+    "aliases": [ "Esther" ]
+  },
+  "JOB": {
+    "name": "Job",
+    "chapters": 42,
+    "aliases": [ "Job" ]
+  },
+  "PSA": {
+    "name": "Psalms",
+    "chapters": 150,
+    "aliases": [ "Psalms", "Book of Psalms" ]
+  },
+  "PRO": {
+    "name": "Proverbs",
+    "chapters": 31,
+    "aliases": [ "Proverbs" ]
+  },
+  "ECC": {
+    "name": "Ecclesiastes",
+    "chapters": 12,
+    "aliases": [ "Ecclesiastes", "Qoheleth" ]
+  },
+  "SNG": {
+    "name": "Song of Songs",
+    "chapters": 8,
+    "aliases": [ "Song of Songs", "Song of Solomon", "Canticles" ]
+  },
+  "ISA": {
+    "name": "Isaiah",
+    "chapters": 66,
+    "aliases": [ "Isaiah" ]
+  },
+  "JER": {
+    "name": "Jeremiah",
+    "chapters": 52,
+    "aliases": [ "Jeremiah" ]
+  },
+  "LAM": {
+    "name": "Lamentations",
+    "chapters": 5,
+    "aliases": [ "Lamentations" ]
+  },
+  "EZK": {
+    "name": "Ezekiel",
+    "chapters": 48,
+    "aliases": [ "Ezekiel" ]
+  },
+  "DAN": {
+    "name": "Daniel",
+    "chapters": 12,
+    "aliases": [ "Daniel" ]
+  },
+  "HOS": {
+    "name": "Hosea",
+    "chapters": 14,
+    "aliases": [ "Hosea" ]
+  },
+  "JOL": {
+    "name": "Joel",
+    "chapters": 3,
+    "aliases": [ "Joel" ]
+  },
+  "AMO": {
+    "name": "Amos",
+    "chapters": 9,
+    "aliases": [ "Amos" ]
+  },
+  "OBA": {
+    "name": "Obadiah",
+    "chapters": 1,
+    "aliases": [ "Obadiah" ]
+  },
+  "JON": {
+    "name": "Jonah",
+    "chapters": 4,
+    "aliases": [ "Jonah" ]
+  },
+  "MIC": {
+    "name": "Micah",
+    "chapters": 7,
+    "aliases": [ "Micah" ]
+  },
+  "NAM": {
+    "name": "Nahum",
+    "chapters": 3,
+    "aliases": [ "Nahum" ]
+  },
+  "HAB": {
+    "name": "Habakkuk",
+    "chapters": 3,
+    "aliases": [ "Habakkuk" ]
+  },
+  "ZEP": {
+    "name": "Zephaniah",
+    "chapters": 3,
+    "aliases": [ "Zephaniah" ]
+  },
+  "HAG": {
+    "name": "Haggai",
+    "chapters": 2,
+    "aliases": [ "Haggai" ]
+  },
+  "ZEC": {
+    "name": "Zechariah",
+    "chapters": 14,
+    "aliases": [ "Zechariah" ]
+  },
+  "MAL": {
+    "name": "Malachi",
+    "chapters": 4,
+    "aliases": [ "Malachi" ]
+  },
+  "MAT": {
+    "name": "Matthew",
+    "chapters": 28,
+    "aliases": [ "Matthew" ]
+  },
+  "MRK": {
+    "name": "Mark",
+    "chapters": 16,
+    "aliases": [ "Mark" ]
+  },
+  "LUK": {
+    "name": "Luke",
+    "chapters": 24,
+    "aliases": [ "Luke" ]
+  },
+  "JHN": {
+    "name": "John",
+    "chapters": 21,
+    "aliases": [ "John" ]
+  },
+  "ACT": {
+    "name": "Acts",
+    "chapters": 28,
+    "aliases": [ "Acts", "Acts of the Apostles" ]
+  },
+  "ROM": {
+    "name": "Romans",
+    "chapters": 16,
+    "aliases": [ "Romans" ]
+  },
+  "1CO": {
+    "name": "1 Corinthians",
+    "chapters": 16,
+    "aliases": [ "1 Corinthians", "1st Corinthians", "First Corinthians" ]
+  },
+  "2CO": {
+    "name": "2 Corinthians",
+    "chapters": 13,
+    "aliases": [ "2 Corinthians", "2nd Corinthians", "Second Corinthians" ]
+  },
+  "GAL": {
+    "name": "Galatians",
+    "chapters": 6,
+    "aliases": [ "Galatians" ]
+  },
+  "EPH": {
+    "name": "Ephesians",
+    "chapters": 6,
+    "aliases": [ "Ephesians" ]
+  },
+  "PHP": {
+    "name": "Philippians",
+    "chapters": 4,
+    "aliases": [ "Philippians" ]
+  },
+  "COL": {
+    "name": "Colossians",
+    "chapters": 4,
+    "aliases": [ "Colossians" ]
+  },
+  "1TH": {
+    "name": "1 Thessalonians",
+    "chapters": 5,
+    "aliases": [ "1 Thessalonians", "1st Thessalonians", "First Thessalonians" ]
+  },
+  "2TH": {
+    "name": "2 Thessalonians",
+    "chapters": 3,
+    "aliases": [ "2 Thessalonians", "2nd Thessalonians", "Second Thessalonians" ]
+  },
+  "1TI": {
+    "name": "1 Timothy",
+    "chapters": 6,
+    "aliases": [ "1 Timothy", "1st Timothy", "First Timothy" ]
+  },
+  "2TI": {
+    "name": "2 Timothy",
+    "chapters": 4,
+    "aliases": [ "2 Timothy", "2nd Timothy", "Second Timothy" ]
+  },
+  "TIT": {
+    "name": "Titus",
+    "chapters": 3,
+    "aliases": [ "Titus" ]
+  },
+  "PHM": {
+    "name": "Philemon",
+    "chapters": 1,
+    "aliases": [ "Philemon" ]
+  },
+  "HEB": {
+    "name": "Hebrews",
+    "chapters": 13,
+    "aliases": [ "Hebrews" ]
+  },
+  "JAS": {
+    "name": "James",
+    "chapters": 5,
+    "aliases": [ "James" ]
+  },
+  "1PE": {
+    "name": "1 Peter",
+    "chapters": 5,
+    "aliases": [ "1 Peter", "1st Peter", "First Peter" ]
+  },
+  "2PE": {
+    "name": "2 Peter",
+    "chapters": 3,
+    "aliases": [ "2 Peter", "2nd Peter", "Second Peter" ]
+  },
+  "1JN": {
+    "name": "1 John",
+    "chapters": 5,
+    "aliases": [ "1 John", "1st John", "First John" ]
+  },
+  "2JN": {
+    "name": "2 John",
+    "chapters": 1,
+    "aliases": [ "2 John", "2nd John", "Second John" ]
+  },
+  "3JN": {
+    "name": "3 John",
+    "chapters": 1,
+    "aliases": [ "3 John", "3rd John", "Third John" ]
+  },
+  "JUD": {
+    "name": "Jude",
+    "chapters": 1,
+    "aliases": [ "Jude" ]
+  },
+  "REV": {
+    "name": "Revelation",
+    "chapters": 22,
+    "aliases": [ "Revelation", "The Revelation of John" ]
+  }
+}

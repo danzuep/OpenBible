@@ -69,4 +69,11 @@
         Jude = 64,
         Revelation = 65
     }
+
+    public enum BibleBookNumber
+    {
+        First = 1,
+        Second = 2,
+        Third = 3
+    }
 }

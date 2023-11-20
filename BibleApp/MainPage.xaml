@@ -13,13 +13,16 @@
                     SelectedIndexChanged="OnBookSelectionChanged"
                     SelectedItem="{Binding SelectedBook}"
                     WidthRequest="160" />
-                <Label Text="Ch." VerticalOptions="Center" />
                 <Picker
                     ItemDisplayBinding="{Binding ChapterNumber}"
                     ItemsSource="{Binding SelectedBook.Chapters}"
                     SelectedItem="{Binding SelectedChapter}"
                     WidthRequest="70" />
-                <Label Text="{Binding Title}" VerticalOptions="Center" />
+                <Picker
+                    ItemsSource="{Binding Translations}"
+                    SelectedIndexChanged="OnTranslationSelectionChanged"
+                    SelectedItem="{Binding SelectedTranslation}"
+                    WidthRequest="120" />
             </HorizontalStackLayout>
         </StackLayout>
     </Shell.TitleView>

@@ -1,14 +1,18 @@
 ﻿using Bible.Core.Models;
-using Bible.Data.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
-using System.Collections.ObjectModel;
 
 namespace BibleApp
 {
     public sealed partial class MainPageViewModel : ObservableObject
     {
         [ObservableProperty]
-        private ObservableCollection<BibleBook> bibleBooks;
+        private string[] translations = ["eng-WEB", "zho-CUV"];
+
+        [ObservableProperty]
+        private string selectedTranslation;
+
+        [ObservableProperty]
+        private IReadOnlyList<BibleBook>? bibleBooks;
 
         [ObservableProperty]
         private BibleBook? selectedBook;
@@ -16,15 +20,9 @@ namespace BibleApp
         [ObservableProperty]
         private BibleChapter? selectedChapter;
 
-        [ObservableProperty]
-        private string title;
-
         public MainPageViewModel()
         {
-            var bibleBooks = SerializerService.GetBibleBooks().ToArray();
-            BibleBooks = new ObservableCollection<BibleBook>(bibleBooks);
-            SelectedBook = bibleBooks.FirstOrDefault();
-            Title = SelectedBook?.Reference.Translation ?? string.Empty;
+            SelectedTranslation = Translations[0];
         }
     }
 }

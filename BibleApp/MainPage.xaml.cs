@@ -1,4 +1,6 @@
 ﻿using Bible.Core.Models;
+using Bible.Reader.Models;
+using Bible.Reader;
 
 namespace BibleApp
 {
@@ -10,12 +12,21 @@ namespace BibleApp
         {
             InitializeComponent();
             BindingContext = _viewModel;
-            Title = _viewModel.Title;
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
+        }
+
+        private void OnTranslationSelectionChanged(object sender, EventArgs e)
+        {
+            if (sender is Picker picker && picker.SelectedItem is string selectedTranslation)
+            {
+                _viewModel.BibleBooks = BibleReader.LoadBible<XmlZefania>(selectedTranslation).Books;
+                _viewModel.SelectedBook = _viewModel.BibleBooks.FirstOrDefault();
+                _viewModel.SelectedChapter = _viewModel.SelectedBook?.Chapters.FirstOrDefault();
+            }
         }
 
         private void OnBookSelectionChanged(object sender, EventArgs e)

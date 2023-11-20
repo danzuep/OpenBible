@@ -19,14 +19,17 @@
 
   <ItemGroup>
     <!--https://github.com/Glowstudent777/YouVersion-API/blob/main/src/api/v1/db/books.json-->
-    <None Update="Json\books.json">
+    <None Update="Json\NonCanonicalBooks.en.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Json\BibleCanonBooks.en.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Json\endpoints.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <!--https://github.com/king-Alex-d-great/BibleIndexer-v2/blob/master/BibleIndexerV2/Data/books.json-->
-    <None Update="Json\kjv.json">
+    <None Update="Json\KJV.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <!--https://app.thedigitalbiblelibrary.org/entry?id=-->
@@ -37,6 +40,16 @@
     <None Update="Json\versions.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Xml\eng-WEB.zefania.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Xml\zho-CUV.zefania.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Xsd\" />
   </ItemGroup>
 
 </Project>

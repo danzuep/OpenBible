@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleApp", "BibleApp\BibleApp.csproj", "{AA549469-2DCD-4F5C-8156-644C28A4C25D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleApp", "BibleApp\BibleApp.csproj", "{AA549469-2DCD-4F5C-8156-644C28A4C25D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Core", "Bible.Core\Bible.Core.csproj", "{5FB85792-4610-4CC7-B8A6-90972AECA1AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Core", "Bible.Core\Bible.Core.csproj", "{5FB85792-4610-4CC7-B8A6-90972AECA1AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Data", "Bible.Data\Bible.Data.csproj", "{22F276FE-CA72-46EE-9F05-5169B2EF5089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Data", "Bible.Data\Bible.Data.csproj", "{22F276FE-CA72-46EE-9F05-5169B2EF5089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Data.Tests", "Bible.Data.Tests\Bible.Data.Tests.csproj", "{BA6EF550-0628-4A7B-B1C1-BDC1CCBB4C32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Data.Tests", "Bible.Data.Tests\Bible.Data.Tests.csproj", "{BA6EF550-0628-4A7B-B1C1-BDC1CCBB4C32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Reader", "Bible.Reader\Bible.Reader.csproj", "{A5C0E35F-42FD-4F88-9019-5741C2BA1FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Reader.Tests", "Bible.Reader.Tests\Bible.Reader.Tests.csproj", "{0E39A94E-6B15-4D05-9324-4D582AEB8DA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{BA6EF550-0628-4A7B-B1C1-BDC1CCBB4C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA6EF550-0628-4A7B-B1C1-BDC1CCBB4C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA6EF550-0628-4A7B-B1C1-BDC1CCBB4C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C0E35F-42FD-4F88-9019-5741C2BA1FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C0E35F-42FD-4F88-9019-5741C2BA1FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C0E35F-42FD-4F88-9019-5741C2BA1FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C0E35F-42FD-4F88-9019-5741C2BA1FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E39A94E-6B15-4D05-9324-4D582AEB8DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E39A94E-6B15-4D05-9324-4D582AEB8DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E39A94E-6B15-4D05-9324-4D582AEB8DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E39A94E-6B15-4D05-9324-4D582AEB8DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

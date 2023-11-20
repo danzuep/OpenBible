@@ -2,22 +2,37 @@
 using Bible.Data.Models;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using System.Xml.Serialization;
 
 namespace Bible.Data.Services
 {
     public class SerializerService
     {
-        private static readonly string _baseFilePath = AppDomain.CurrentDomain.BaseDirectory;
-        public static string GetJsonFilePath(string name) => Path.Combine(_baseFilePath, "Json", $"{name}.json");
+        private static readonly string _baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        private const string _relativeDirectory = "..\\..\\..\\..\\Bible.Data\\";
+        public static string GetJsonFilePath(string name, string prefix = $"{_relativeDirectory}Json", string suffix = ".json") =>
+            Path.Combine(_baseDirectory, prefix, $"{name}{suffix}");
+        public static string GetXmlFilePath(string name, string prefix = $"{_relativeDirectory}Xml", string suffix = ".xml") =>
+            Path.Combine(_baseDirectory, prefix, $"{name}{suffix}");
+
+        public static T? GetFromXmlFile<T>(string xmlFileName) where T : class
+        {
+            var xmlFilePath = GetXmlFilePath(xmlFileName);
+            using var fileStream = File.OpenRead(xmlFilePath);
+            var serializer = new XmlSerializer(typeof(T));
+            var result = serializer.Deserialize(fileStream) as T;
+            return result;
+        }
 
         /// <summary>
         /// Map the streamed data from a JSON file to an object.
         /// </summary>
         /// <typeparam name="T">Object to map to.</typeparam>
-        /// <param name="jsonFilePath">JSON file path.</param>
+        /// <param name="jsonFileName">JSON file name.</param>
         /// <returns>Mapped object.</returns>
-        public static async Task<T?> GetFromFileAsync<T>(string jsonFilePath)
+        public static async Task<T?> GetFromJsonFileAsync<T>(string jsonFileName)
         {
+            var jsonFilePath = GetJsonFilePath(jsonFileName);
             using var fileStream = File.OpenRead(jsonFilePath);
             var result = await JsonSerializer.DeserializeAsync<T>(fileStream);
             return result;
@@ -25,17 +40,9 @@ namespace Bible.Data.Services
 
         public static IEnumerable<BibleBook> GetBibleBooks(string version = "KJV")
         {
-            var jsonFilePath = GetJsonFilePath(version.ToLower());
+            var jsonFilePath = GetJsonFilePath(version);
             using var fileStream = File.OpenRead(jsonFilePath);
             var bible = JsonSerializer.Deserialize<SimpleBibleBookJson[]>(fileStream) ?? [];
-            var books = bible.Select(b => b.GetBibleBook(version));
-            return books;
-        }
-
-        public static async Task<IEnumerable<BibleBook>> GetBibleBooksAsync(string version = "KJV")
-        {
-            var jsonFilePath = GetJsonFilePath(version.ToLower());
-            var bible = await GetFromFileAsync<IEnumerable<SimpleBibleBookJson>>(jsonFilePath) ?? [];
             var books = bible.Select(b => b.GetBibleBook(version));
             return books;
         }
@@ -59,10 +66,11 @@ namespace Bible.Data.Services
         /// Map the streamed data from a JSON file to an object.
         /// </summary>
         /// <typeparam name="T">Object to map to.</typeparam>
-        /// <param name="jsonFilePath">JSON file path.</param>
+        /// <param name="jsonFileName">JSON file name.</param>
         /// <returns>Mapped object.</returns>
-        public static async Task<string?> GetChapterVerseFromFileAsync(string jsonFilePath, int bookIndex, int chapter, int verse, string contentProperty = "Chapters")
+        public static async Task<string?> GetChapterVerseFromFileAsync(string jsonFileName, int bookIndex, int chapter, int verse, string contentProperty = "Chapters")
         {
+            var jsonFilePath = GetJsonFilePath(jsonFileName);
             var bookNode = await GetIndexedNodeFromFileAsync(jsonFilePath, bookIndex);
             var contentNode = bookNode == null ? null : bookNode[contentProperty];
             var verseNode = contentNode == null ? null : contentNode[chapter - 1]![verse - 1];
@@ -73,10 +81,11 @@ namespace Bible.Data.Services
         /// <summary>
         /// Map the streamed data from a JSON file to an object.
         /// </summary>
-        /// <param name="jsonFilePath">JSON file path.</param>
+        /// <param name="jsonFileName">JSON file name.</param>
         /// <returns>Mapped object.</returns>
-        public static async Task<SimpleBibleBookJson> GetBibleBookFromStreamAsync(string jsonFilePath, int bookIndex, string contentProperty = "Chapters", string nameProperty = "Name", string abbreviationProperty = "Abbreviation")
+        public static async Task<SimpleBibleBookJson> GetBibleBookFromStreamAsync(string jsonFileName, int bookIndex, string contentProperty = "Chapters", string nameProperty = "Name", string abbreviationProperty = "Abbreviation")
         {
+            var jsonFilePath = GetJsonFilePath(jsonFileName);
             var bookNode = await GetIndexedNodeFromFileAsync(jsonFilePath, bookIndex);
             var nameValue = bookNode == null ? null : bookNode[nameProperty]?.GetValue<string>();
             var abbreviationValue = bookNode == null ? null : bookNode[abbreviationProperty]?.GetValue<string>();
