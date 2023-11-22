@@ -8,7 +8,7 @@
 
         public int Number { get; set; }
 
-        public string Text { get; set; } = default!;
+        public string Text { get; set; } = default;
 
         public override bool Equals(object other) =>
             other is BibleVerse p && p.Reference.Equals(Reference);
@@ -17,6 +17,6 @@
             Reference.GetHashCode();
 
         public override string ToString() =>
-            $"{VerseReference} \"{Text}\"";
+            $"{VerseReference} {Text}";
     }
 }

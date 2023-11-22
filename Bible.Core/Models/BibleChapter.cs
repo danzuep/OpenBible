@@ -11,7 +11,7 @@ namespace Bible.Core.Models
         public IReadOnlyList<BibleVerse> Verses { get; set; } = default!;
 
         public override bool Equals(object other) =>
-            other is BibleChapter p && p.Reference.Equals(Reference);
+            other is BibleChapter p && (p.Reference?.Equals(Reference) ?? false);
 
         public override int GetHashCode() =>
             Reference.GetHashCode();

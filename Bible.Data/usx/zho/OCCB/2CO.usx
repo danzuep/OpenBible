@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="2CO" style="id">- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)</book>
+  <para style="h">哥林多後書</para>
+  <para style="toc1">哥林多後書</para>
+  <para style="toc2">哥林多後書</para>
+  <para style="toc3">林後</para>
+  <para style="mt1">哥林多後書</para>
+  <chapter number="1" style="c" sid="2CO 1"/>
+  <para style="s1">問候</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 1:1"/>我是奉上帝旨意作基督耶穌使徒的<char style="pn">保羅</char>，與<char style="pn">提摩太</char>弟兄寫信給在<char style="pn">哥林多</char>的上帝的教會以及<char style="pn">亞該亞</char>境內所有的聖徒。<verse eid="2CO 1:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="2CO 1:2"/>願我們的父上帝和主耶穌基督賜給你們恩典和平安！<verse eid="2CO 1:2"/></para>
+  <para style="s1">上帝的安慰</para>
+  <para style="p">
+    <verse number="3" style="v" sid="2CO 1:3"/>我們主耶穌基督的父上帝當受讚美！祂是仁慈的父和賜一切安慰的上帝。 <verse eid="2CO 1:3"/><verse number="4" style="v" sid="2CO 1:4"/>我們遭遇任何患難，祂都安慰我們，使我們能夠用祂給我們的安慰去安慰那些在各樣患難中的人。 <verse eid="2CO 1:4"/><verse number="5" style="v" sid="2CO 1:5"/>正如我們多受基督的苦難，也靠基督多得安慰。 <verse eid="2CO 1:5"/><verse number="6" style="v" sid="2CO 1:6"/>我們遭受患難，是為了使你們得到安慰和拯救；我們得到安慰，也是為了使你們得到安慰，以便你們能忍受像我們所遭遇的各樣苦難。 <verse eid="2CO 1:6"/><verse number="7" style="v" sid="2CO 1:7"/>我們對你們堅信不移，因為知道你們既和我們同受苦難，也必和我們同得安慰。<verse eid="2CO 1:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="2CO 1:8"/>弟兄姊妹，希望你們知道我們在<char style="pn">亞細亞</char>所遭遇的苦難。那時我們承受極大的壓力，超過了我們的極限，甚至連活命的指望都沒了。 <verse eid="2CO 1:8"/><verse number="9" style="v" sid="2CO 1:9"/>我們心裡覺得必死無疑，這使我們不倚靠自己，只倚靠使死人復活的上帝。 <verse eid="2CO 1:9"/><verse number="10" style="v" sid="2CO 1:10"/>祂曾救我們脫離可怕的死亡，並且還要救我們。我們深信祂必繼續救我們。 <verse eid="2CO 1:10"/><verse number="11" style="v" sid="2CO 1:11"/>你們也要用祈禱幫助我們，使恩典藉著許多人的禱告臨到我們，眾人便因此為我們感恩。<verse eid="2CO 1:11"/></para>
+  <para style="s1">保羅改變計劃</para>
+  <para style="p">
+    <verse number="12" style="v" sid="2CO 1:12"/>我們引以為榮的是：我們為人處世是本著上帝所賜的聖潔和誠實，倚靠祂的恩典，不倚靠人的聰明才智，對待你們更是這樣。這一點，我們的良心可以作證。 <verse eid="2CO 1:12"/><verse number="13-14" style="v" sid="2CO 1:13-14"/>我們不寫任何你們不能讀、不能懂的內容。你們現在對我們有幾分認識，但我盼望你們最終完全認識到：當主耶穌再來的日子，你們將以我們為榮，我們也將以你們為榮。<verse eid="2CO 1:13-14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2CO 1:15"/>我有這樣的把握，所以早就計劃去你們那裡，使你們有再次蒙福的機會。 <verse eid="2CO 1:15"/><verse number="16" style="v" sid="2CO 1:16"/>我打算經過你們那裡去<char style="pn">馬其頓</char>，再從<char style="pn">馬其頓</char>回到你們那裡，然後你們為我送行前往<char style="pn">猶太</char>。 <verse eid="2CO 1:16"/><verse number="17" style="v" sid="2CO 1:17"/>我定了這計劃，難道會反覆無常嗎？難道我是意氣用事，出爾反爾嗎？ <verse eid="2CO 1:17"/><verse number="18" style="v" sid="2CO 1:18"/>我在信實的上帝面前保證：我們對你們說的話絕不會忽是忽非！ <verse eid="2CO 1:18"/><verse number="19" style="v" sid="2CO 1:19"/>我和<char style="pn">西拉</char>、<char style="pn">提摩太</char>在你們當中傳揚的上帝之子耶穌基督，絕不會忽是忽非，在祂只有「是」。 <verse eid="2CO 1:19"/><verse number="20" style="v" sid="2CO 1:20"/>因為上帝的一切應許在基督裡都是確實的，所以我們也是藉著基督說「阿們」，將榮耀歸於上帝。 <verse eid="2CO 1:20"/><verse number="21" style="v" sid="2CO 1:21"/>是上帝使我們和你們一同在基督裡堅立。祂膏抹了我們， <verse eid="2CO 1:21"/><verse number="22" style="v" sid="2CO 1:22"/>在我們身上蓋了祂自己的印記，並讓聖靈住在我們心中作擔保。<verse eid="2CO 1:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="2CO 1:23"/>我求上帝為我作見證：我沒有去<char style="pn">哥林多</char>，是為了寬容你們。 <verse eid="2CO 1:23"/><verse number="24" style="v" sid="2CO 1:24"/>我們並不是要操縱你們的信仰，而是要幫助你們，使你們喜樂，因為你們在信仰上已經站穩了。<verse eid="2CO 1:24"/></para>
+  <chapter eid="2CO 1"/>
+  <chapter number="2" style="c" sid="2CO 2"/>
+  <para style="s1">愛之深責之切</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 2:1"/>我已經決定了，下次到你們那裡時不再使大家憂傷。 <verse eid="2CO 2:1"/><verse number="2" style="v" sid="2CO 2:2"/>如果我使你們憂傷，那麼除了因我而憂傷的你們，還有誰能使我喜樂呢？ <verse eid="2CO 2:2"/><verse number="3" style="v" sid="2CO 2:3"/>我曾為這事寫信給你們，免得我到你們那裡時，那些本該使我喜樂的人反而使我憂傷。我也深信你們會以我的喜樂為你們的喜樂。 <verse eid="2CO 2:3"/><verse number="4" style="v" sid="2CO 2:4"/>我心裡萬分難過、淚流滿面地給你們寫了前一封信，並非要使你們憂傷，而是要你們明白我是多麼愛你們。<verse eid="2CO 2:4"/></para>
+  <para style="s1">要饒恕犯罪的人</para>
+  <para style="p">
+    <verse number="5" style="v" sid="2CO 2:5"/>那個令人憂傷的人與其說使我憂傷，倒不如說使大家都有幾分憂傷。我只說幾分憂傷，是怕說得太重。 <verse eid="2CO 2:5"/><verse number="6" style="v" sid="2CO 2:6"/>這樣的人受了眾人的譴責也就夠了。 <verse eid="2CO 2:6"/><verse number="7" style="v" sid="2CO 2:7"/>你們現在要饒恕他、安慰他，免得他憂傷過度而一蹶不振。 <verse eid="2CO 2:7"/><verse number="8" style="v" sid="2CO 2:8"/>我勸你們要讓他確實知道你們仍然愛他。 <verse eid="2CO 2:8"/><verse number="9" style="v" sid="2CO 2:9"/>為此，我也曾寫信給你們，要考驗你們，看你們是否凡事順服。 <verse eid="2CO 2:9"/><verse number="10" style="v" sid="2CO 2:10"/>你們饒恕誰，我也饒恕誰。我若饒恕，是為了你們的緣故在基督面前饒恕的， <verse eid="2CO 2:10"/><verse number="11" style="v" sid="2CO 2:11"/>免得撒旦乘虛而入，因為我們並非不知道牠的詭計。<verse eid="2CO 2:11"/></para>
+  <para style="s1">基督的香氣</para>
+  <para style="p">
+    <verse number="12" style="v" sid="2CO 2:12"/>我前往<char style="pn">特羅亞</char>傳揚基督的福音時，主為我打開了傳福音的大門。 <verse eid="2CO 2:12"/><verse number="13" style="v" sid="2CO 2:13"/>那時，因為沒有找到<char style="pn">提多</char>弟兄，我心裡不安，便辭別眾人前往<char style="pn">馬其頓</char>。<verse eid="2CO 2:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="2CO 2:14"/>感謝上帝，祂常常在基督裡率領我們走在凱旋的行列中，又藉著我們到處散發那因認識基督而有的香氣。 <verse eid="2CO 2:14"/><verse number="15" style="v" sid="2CO 2:15"/>不論是在得救的人當中還是在滅亡的人當中，對上帝來說，我們都是基督的馨香之氣。 <verse eid="2CO 2:15"/><verse number="16" style="v" sid="2CO 2:16"/>對滅亡的人而言，這香氣是叫人死亡的香氣；對得救的人來說，這香氣卻是叫人得生命的香氣。誰能擔當這樣的重任呢？ <verse eid="2CO 2:16"/><verse number="17" style="v" sid="2CO 2:17"/>我們並不像許多人為了牟利而出賣上帝的道。我們是上帝差遣的，在上帝面前靠著基督誠誠實實地講道。<verse eid="2CO 2:17"/></para>
+  <chapter eid="2CO 2"/>
+  <chapter number="3" style="c" sid="2CO 3"/>
+  <para style="s1">保羅的薦信</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 3:1"/>難道我們又是在稱讚自己嗎？難道我們像別人一樣，需要拿著推薦信去見你們，或拿著你們的推薦信去見別人嗎？ <verse eid="2CO 3:1"/><verse number="2" style="v" sid="2CO 3:2"/>你們自己就是我們的推薦信，寫在了我們心坎上，眾所周知，人人可讀。 <verse eid="2CO 3:2"/><verse number="3" style="v" sid="2CO 3:3"/>顯然，你們是從基督而來的一封信，是我們工作的成果。這信不是用筆墨寫成的，而是藉著永活上帝的靈寫成的；不是寫在石版上的，而是刻在心版上的。<verse eid="2CO 3:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="2CO 3:4"/>我們靠著基督在上帝面前有這樣的確信。 <verse eid="2CO 3:4"/><verse number="5" style="v" sid="2CO 3:5"/>我們並不認為自己能夠承擔什麼，我們能夠承擔全是靠上帝。 <verse eid="2CO 3:5"/><verse number="6" style="v" sid="2CO 3:6"/>祂使我們能夠擔任新約的執事。這新約不是用律法條文立的，而是聖靈的工作，因為律法條文帶來死亡，但聖靈賜下生命。<verse eid="2CO 3:6"/></para>
+  <para style="s1">新約的榮耀</para>
+  <para style="p">
+    <verse number="7" style="v" sid="2CO 3:7"/>這帶來死亡、刻在石版上的律法條文事工尚且有榮耀，甚至使<char style="pn">摩西</char>的臉上發出榮光，儘管很快就消逝了，<char style="pn">以色列</char>人仍然無法定睛看他， <verse eid="2CO 3:7"/><verse number="8" style="v" sid="2CO 3:8"/>那麼聖靈的事工豈不更有榮耀嗎？ <verse eid="2CO 3:8"/><verse number="9" style="v" sid="2CO 3:9"/>那定人罪的事工尚且有榮耀，這賜人義的事工豈不更有榮耀嗎？ <verse eid="2CO 3:9"/><verse number="10" style="v" sid="2CO 3:10"/>其實先前的榮耀和現今的大榮耀相比，就黯然失色了。 <verse eid="2CO 3:10"/><verse number="11" style="v" sid="2CO 3:11"/>那漸漸消逝的尚且有榮耀，這永遠長存的更是榮耀無比。<verse eid="2CO 3:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2CO 3:12"/>我們因為有這極大的盼望，就放膽無懼， <verse eid="2CO 3:12"/><verse number="13" style="v" sid="2CO 3:13"/>不像<char style="pn">摩西</char>將帕子蒙在臉上，以免<char style="pn">以色列</char>人看見那漸漸消逝的榮光。 <verse eid="2CO 3:13"/><verse number="14" style="v" sid="2CO 3:14"/>但<char style="pn">以色列</char>人心裡剛硬，直到今日，他們每逢讀舊約的時候，同樣的帕子還在那裡，沒有揭去。因為只有在基督裡，那帕子才能被除去。 <verse eid="2CO 3:14"/><verse number="15" style="v" sid="2CO 3:15"/>時至今日，每逢他們讀<char style="pn">摩西</char>律法的時候，帕子仍然蒙在他們心上。 <verse eid="2CO 3:15"/><verse number="16" style="v" sid="2CO 3:16"/>然而，他們一旦歸向基督，那帕子就被除去了。 <verse eid="2CO 3:16"/><verse number="17" style="v" sid="2CO 3:17"/>主就是那靈，主的靈在哪裡，哪裡就有自由。 <verse eid="2CO 3:17"/><verse number="18" style="v" sid="2CO 3:18"/>我們這些臉上不再蒙著帕子的人，可以像鏡子一樣反映主的榮光，漸漸變成主的樣子，榮上加榮。這都是主的作為，主就是那靈。<verse eid="2CO 3:18"/></para>
+  <chapter eid="2CO 3"/>
+  <chapter number="4" style="c" sid="2CO 4"/>
+  <para style="s1">瓦器中的寶貝</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 4:1"/>我們既蒙憐憫，接受了這傳福音的職分，就決不氣餒。 <verse eid="2CO 4:1"/><verse number="2" style="v" sid="2CO 4:2"/>我們棄絕了見不得人的可恥行為，不用狡詐的手段，不曲解上帝的道，而是把真理講解明白，好讓大家的良心在上帝面前為我們作證。<verse eid="2CO 4:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="2CO 4:3"/>然而，即使我們所傳的福音被遮蔽，也是在那些滅亡的人當中被遮蔽。 <verse eid="2CO 4:3"/><verse number="4" style="v" sid="2CO 4:4"/>那些不信的人是被這世界的神弄瞎了心眼，以致看不見基督榮耀的福音之光。基督是上帝的真像。 <verse eid="2CO 4:4"/><verse number="5" style="v" sid="2CO 4:5"/>我們並非傳揚自己，而是傳揚耶穌基督是主，並且為耶穌的緣故作你們的奴僕。 <verse eid="2CO 4:5"/><verse number="6" style="v" sid="2CO 4:6"/>因為那吩咐光從黑暗中照射出來<note caller="+" style="f"><char style="fr" closed="false">4·6 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 1:3">創世記1·3</ref>。</char></char></note>的上帝光照了我們的心，為要讓我們認識上帝在耶穌基督臉上所彰顯的榮耀之光。<verse eid="2CO 4:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2CO 4:7"/>我們不過是瓦器，裡面卻有這寶貝，要顯明這莫大的能力是上帝的，而不是我們自己的。 <verse eid="2CO 4:7"/><verse number="8" style="v" sid="2CO 4:8"/>我們壓力重重，卻沒有崩潰；心裡困惑，卻不絕望； <verse eid="2CO 4:8"/><verse number="9" style="v" sid="2CO 4:9"/>遭受迫害，卻沒有被遺棄；被打倒了，卻沒有死亡。 <verse eid="2CO 4:9"/><verse number="10" style="v" sid="2CO 4:10"/>我們身上常常帶著耶穌的死，好使耶穌的生命也彰顯在我們身上。 <verse eid="2CO 4:10"/><verse number="11" style="v" sid="2CO 4:11"/>因為我們這些活著的人常常為耶穌的緣故而面臨死亡的威脅，好使耶穌的生命在我們這終有一死的身體上彰顯出來。 <verse eid="2CO 4:11"/><verse number="12" style="v" sid="2CO 4:12"/>因此，死亡籠罩著我們，而生命卻運行在你們身上。<verse eid="2CO 4:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="2CO 4:13"/>聖經上說：「我相信，所以才說。」<note caller="+" style="f"><char style="fr" closed="false">4·13 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 116:10">詩篇116·10</ref>。</char></char></note>我們有同樣的信心，我們也相信，所以才這樣說。 <verse eid="2CO 4:13"/><verse number="14" style="v" sid="2CO 4:14"/>我們知道，使主耶穌復活的上帝必使我們與耶穌一同復活，並且使我們和你們一起站在祂面前。 <verse eid="2CO 4:14"/><verse number="15" style="v" sid="2CO 4:15"/>其實一切都是為了你們，好叫恩典臨到更多的人，有更多人向上帝感恩，使上帝得榮耀。<verse eid="2CO 4:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="2CO 4:16"/>所以，我們不氣餒。身體雖然日漸衰殘，內在的生命卻日日更新。 <verse eid="2CO 4:16"/><verse number="17" style="v" sid="2CO 4:17"/>我們這短暫輕微的苦難正在為我們成就極大無比、永遠的榮耀。 <verse eid="2CO 4:17"/><verse number="18" style="v" sid="2CO 4:18"/>我們注重的，並非看得見的事物，而是看不見的事物，因為看得見的事物都是暫時的，看不見的事物才是永恆的。<verse eid="2CO 4:18"/></para>
+  <chapter eid="2CO 4"/>
+  <chapter number="5" style="c" sid="2CO 5"/>
+  <para style="s1">天上的房屋</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 5:1"/>我們知道，身體是我們在地上住的帳篷，如果毀壞了，我們就從上帝那裡得到一個住處，不是人手造的，而是天上永恆的「房屋」。 <verse eid="2CO 5:1"/><verse number="2" style="v" sid="2CO 5:2"/>我們在這地上的「帳篷」裡歎息，渴望早日遷進那天上的「居所」，好像更換新衣。 <verse eid="2CO 5:2"/><verse number="3" style="v" sid="2CO 5:3"/>我們一旦穿上新衣，就不會赤身露體了。 <verse eid="2CO 5:3"/><verse number="4" style="v" sid="2CO 5:4"/>我們在這「帳篷」裡勞苦歎息，並非想脫去這地上的身體，而是想穿上那天上的新身體，讓永恆的生命吞滅必朽的身體。 <verse eid="2CO 5:4"/><verse number="5" style="v" sid="2CO 5:5"/>上帝為此目的預備了我們，並賜給我們聖靈作擔保。<verse eid="2CO 5:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="2CO 5:6"/>所以，我們總是坦然無懼，儘管知道住在身體之內便無法與主在一起。 <verse eid="2CO 5:6"/><verse number="7" style="v" sid="2CO 5:7"/>因為我們行事為人是憑信心，不是憑眼見。 <verse eid="2CO 5:7"/><verse number="8" style="v" sid="2CO 5:8"/>是的，我們坦然無懼，甚至更樂意離開身體，回到天家與主相聚。 <verse eid="2CO 5:8"/><verse number="9" style="v" sid="2CO 5:9"/>因此，我們立定心志，無論是住在身體之內還是離開身體，都要取悅主。 <verse eid="2CO 5:9"/><verse number="10" style="v" sid="2CO 5:10"/>因為我們所有的人都要出現在基督的審判台前，好按照各人肉身所行的善惡接受賞罰。<verse eid="2CO 5:10"/></para>
+  <para style="s1">勸人與上帝和好</para>
+  <para style="p">
+    <verse number="11" style="v" sid="2CO 5:11"/>我們知道主是當受敬畏的，所以勸人歸信祂。我們的內心如何，上帝知道，我盼望你們的良心也知道。 <verse eid="2CO 5:11"/><verse number="12" style="v" sid="2CO 5:12"/>我們不是再次稱讚自己，而是讓你們有機會以我們為榮，叫你們可以反駁那些只貪圖外表虛榮、不注重內在實質的人。 <verse eid="2CO 5:12"/><verse number="13" style="v" sid="2CO 5:13"/>我們如果瘋狂，那是為了上帝；我們如果清醒，那是為了你們。 <verse eid="2CO 5:13"/><verse number="14" style="v" sid="2CO 5:14"/>因為基督的愛激勵我們，因為我們確信：基督一人既代替眾人死了，眾人就都死了。 <verse eid="2CO 5:14"/><verse number="15" style="v" sid="2CO 5:15"/>祂為眾人死，是要叫那些活著的人不再為自己活，而是要為替他們死而復活的基督活。<verse eid="2CO 5:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="2CO 5:16"/>從今以後，我們不再以世人的眼光看人了，雖然我們曾這樣看待基督，現在卻不再這樣看待祂了。 <verse eid="2CO 5:16"/><verse number="17" style="v" sid="2CO 5:17"/>若有人在基督裡，他就是新造的人，舊事已過，看啊，一切都更新了。 <verse eid="2CO 5:17"/><verse number="18" style="v" sid="2CO 5:18"/>這一切都是上帝的作為，祂藉著基督使我們與祂和好，又把勸人與祂和好的職分賜給了我們。 <verse eid="2CO 5:18"/><verse number="19" style="v" sid="2CO 5:19"/>也就是說，上帝在基督裡使世人與自己和好，不再追究他們的過犯。祂已託付我們去傳揚這和好之道。 <verse eid="2CO 5:19"/><verse number="20" style="v" sid="2CO 5:20"/>所以我們現在是基督的大使，可以說上帝正藉著我們發出呼求。我們替基督懇求你們：要與上帝和好！ <verse eid="2CO 5:20"/><verse number="21" style="v" sid="2CO 5:21"/>上帝使無罪的基督擔當我們的罪，使我們可以藉著基督成為上帝接納的義人。<verse eid="2CO 5:21"/></para>
+  <chapter eid="2CO 5"/>
+  <chapter number="6" style="c" sid="2CO 6"/>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 6:1"/>身為上帝的同工，我們勸你們不要辜負祂的恩典。 <verse eid="2CO 6:1"/><verse number="2" style="v" sid="2CO 6:2"/>因為祂說：</para>
+  <para style="q1" vid="2CO 6:2">「在悅納的時候，</para>
+  <para style="q1" vid="2CO 6:2">我應允了你；</para>
+  <para style="q1" vid="2CO 6:2">在拯救的日子，</para>
+  <para style="q1" vid="2CO 6:2">我幫助了你。」<note caller="+" style="f"><char style="fr" closed="false">6·2 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 49:8">以賽亞書49·8</ref>。</char></char></note></para>
+  <para style="m" vid="2CO 6:2">看啊，現在正是悅納的時候！看啊，現在正是拯救的日子！<verse eid="2CO 6:2"/></para>
+  <para style="s1">上帝僕人的品格</para>
+  <para style="p">
+    <verse number="3" style="v" sid="2CO 6:3"/>為了避免有人毀謗我們的職分，我們凡事儘量不妨礙別人， <verse eid="2CO 6:3"/><verse number="4" style="v" sid="2CO 6:4"/>反倒在任何事上都顯明自己是上帝的僕人。不論遭遇什麼患難、艱苦、貧窮、 <verse eid="2CO 6:4"/><verse number="5" style="v" sid="2CO 6:5"/>鞭打、囚禁、暴亂、辛勞、無眠或饑餓，我們都堅忍到底， <verse eid="2CO 6:5"/><verse number="6" style="v" sid="2CO 6:6"/>靠著純潔、知識、忍耐、仁慈、聖靈的感動、無偽的愛心、 <verse eid="2CO 6:6"/><verse number="7" style="v" sid="2CO 6:7"/>真理之道、上帝的大能、左右手中的公義兵器， <verse eid="2CO 6:7"/><verse number="8" style="v" sid="2CO 6:8"/>無論是得榮耀還是受羞辱，遭毀謗還是得稱讚，都顯明自己是上帝的僕人。我們被視為騙子，卻是誠實無偽； <verse eid="2CO 6:8"/><verse number="9" style="v" sid="2CO 6:9"/>似乎默默無聞，卻是家喻戶曉；似乎快死了，看啊！我們卻仍然活著；受嚴刑拷打，卻沒有喪命； <verse eid="2CO 6:9"/><verse number="10" style="v" sid="2CO 6:10"/>似乎鬱鬱寡歡，卻常常喜樂；似乎一貧如洗，卻使多人富足；似乎一無所有，卻樣樣都有！<verse eid="2CO 6:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2CO 6:11"/>
+    <char style="pn">哥林多</char>人啊！我們對你們推心置腹，開誠佈公， <verse eid="2CO 6:11"/><verse number="12" style="v" sid="2CO 6:12"/>毫無保留，只是你們自己心胸狹窄。 <verse eid="2CO 6:12"/><verse number="13" style="v" sid="2CO 6:13"/>現在請你們也向我們敞開心懷。我這樣說，是把你們當成自己的兒女。<verse eid="2CO 6:13"/></para>
+  <para style="s1">永活上帝的殿</para>
+  <para style="p">
+    <verse number="14" style="v" sid="2CO 6:14"/>不要和非信徒同負一軛，因為公義和不法怎能合作呢？光明和黑暗怎能共存呢？ <verse eid="2CO 6:14"/><verse number="15" style="v" sid="2CO 6:15"/>基督與魔鬼<note caller="+" style="f"><char style="fr" closed="false">6·15 </char><char style="ft" closed="false">「魔鬼」希臘文是「彼列」。</char></note>怎能相容呢？信徒與非信徒有什麼相干呢？ <verse eid="2CO 6:15"/><verse number="16" style="v" sid="2CO 6:16"/>上帝的殿與偶像怎能相提並論呢？因為我們就是永活上帝的殿，正如上帝說：</para>
+  <para style="q1" vid="2CO 6:16">「我要住在他們中間，</para>
+  <para style="q1" vid="2CO 6:16">在他們當中往來；</para>
+  <para style="q1" vid="2CO 6:16">我要作他們的上帝，</para>
+  <para style="q1" vid="2CO 6:16">他們要作我的子民。」<note caller="+" style="f"><char style="fr" closed="false">6·16 </char><char style="ft" closed="false"><char style="xt"><ref loc="LEV 26:12">利未記26·12</ref>；<ref loc="JER 32:38">耶利米書32·38</ref>；<ref loc="EZK 37:27">以西結書37·27</ref>。</char></char></note><verse eid="2CO 6:16"/></para>
+  <para style="m">
+    <verse number="17" style="v" sid="2CO 6:17"/>主又說：</para>
+  <para style="q1" vid="2CO 6:17">「所以，你們要從他們中間出來，</para>
+  <para style="q1" vid="2CO 6:17">離開他們，不要沾染污穢之物，</para>
+  <para style="q1" vid="2CO 6:17">我就接納你們。<note caller="+" style="f"><char style="fr" closed="false">6·17 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 52:11">以賽亞書52·11</ref>；<ref loc="EZK 20:34">以西結書20·34</ref>、<ref loc="EZK 20:41">41</ref>。</char></char></note><verse eid="2CO 6:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="2CO 6:18"/>我要作你們的父親，</para>
+  <para style="q1" vid="2CO 6:18">你們要作我的兒女。</para>
+  <para style="q1" vid="2CO 6:18">這是全能的主說的。」<note caller="+" style="f"><char style="fr" closed="false">6·18 </char><char style="ft" closed="false"><char style="xt"><ref loc="2SA 7:14">撒母耳記下7·14</ref>；<ref loc="2SA 7:8">7·8</ref>。</char></char></note><verse eid="2CO 6:18"/></para>
+  <chapter eid="2CO 6"/>
+  <chapter number="7" style="c" sid="2CO 7"/>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 7:1"/>親愛的弟兄姊妹，我們既然有這些應許，就當洗淨自己身體和靈魂一切的污穢，存著敬畏上帝的心追求完全聖潔。<verse eid="2CO 7:1"/></para>
+  <para style="s1">保羅的喜樂</para>
+  <para style="p">
+    <verse number="2" style="v" sid="2CO 7:2"/>請你們敞開心懷接納我們。我們沒有虧負過任何人，沒有敗壞過任何人，也沒有佔過任何人的便宜。 <verse eid="2CO 7:2"/><verse number="3" style="v" sid="2CO 7:3"/>我這樣說，並不是要定你們的罪，因為我曾經說過，我們心裡常惦記你們，願意和你們生死與共。 <verse eid="2CO 7:3"/><verse number="4" style="v" sid="2CO 7:4"/>我非常信任你們，以你們為榮。我因你們大受激勵，在我們所受的一切患難中，我仍然充滿喜樂。<verse eid="2CO 7:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="2CO 7:5"/>我們到<char style="pn">馬其頓</char>的時候，身心無法安歇，面臨著重重患難，外有衝突，內有恐懼。 <verse eid="2CO 7:5"/><verse number="6" style="v" sid="2CO 7:6"/>但安慰沮喪之人的上帝藉著<char style="pn">提多</char>的到來激勵了我們。 <verse eid="2CO 7:6"/><verse number="7" style="v" sid="2CO 7:7"/>我們得到激勵，不但是因為<char style="pn">提多</char>來了，也因為看到他從你們那裡得到了激勵。他把你們對我的想念、對我的熱心和你們的哀痛都告訴了我，這使我更加歡喜。<verse eid="2CO 7:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="2CO 7:8"/>我曾為從前寫的那封信令你們憂傷而後悔，但現在不後悔了，因為我知道那封信令你們憂傷只是暫時的。 <verse eid="2CO 7:8"/><verse number="9" style="v" sid="2CO 7:9"/>現在我很歡喜，當然不是因為你們憂傷而歡喜，而是看見你們因憂傷而悔改了。因為你們這樣憂傷合乎上帝的心意，使你們不致因我們而受到任何損失。 <verse eid="2CO 7:9"/><verse number="10" style="v" sid="2CO 7:10"/>合乎上帝心意的憂傷會帶來悔改，使人得到救恩，永不後悔，但世俗的憂傷只會帶來死亡。<verse eid="2CO 7:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2CO 7:11"/>你們看，合乎上帝心意的憂傷使你們產生了何等的熱誠啊！你們何等地認真辯白、對罪憤慨、心生敬畏、充滿盼望和熱情、樂意懲處罪惡。你們在各方面已顯明自己在那件事上是清白的。<verse eid="2CO 7:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2CO 7:12"/>因此，雖然我給你們寫過信，但並非為了那犯錯的人或那受害的人而寫的，而是為了讓你們在上帝面前看到自己對我們所存的熱心。 <verse eid="2CO 7:12"/><verse number="13" style="v" sid="2CO 7:13"/>我們也因此得到了激勵。讓我們更歡喜的是<char style="pn">提多</char>也很喜樂，因為他的心從你們那裡得到了安慰。 <verse eid="2CO 7:13"/><verse number="14" style="v" sid="2CO 7:14"/>我若對<char style="pn">提多</char>誇獎了你們什麼，也不覺得慚愧，因為我先前向<char style="pn">提多</char>誇獎你們的話都證明是真實的，正如我告訴你們的一切都是真實的。 <verse eid="2CO 7:14"/><verse number="15" style="v" sid="2CO 7:15"/><char style="pn">提多</char>想到你們眾人的順服並怎樣戰戰兢兢地接待他，便更加愛你們了。 <verse eid="2CO 7:15"/><verse number="16" style="v" sid="2CO 7:16"/>現在，我對你們可以完全放心了，這真讓我歡喜。<verse eid="2CO 7:16"/></para>
+  <chapter eid="2CO 7"/>
+  <chapter number="8" style="c" sid="2CO 8"/>
+  <para style="s1">鼓勵信徒慷慨捐助</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 8:1"/>弟兄姊妹，我們現在要讓你們知道上帝向<char style="pn">馬其頓</char>各教會所施的恩典。 <verse eid="2CO 8:1"/><verse number="2" style="v" sid="2CO 8:2"/>他們雖然遭遇極大的患難，受盡熬煉，卻充滿了喜樂，在極度貧窮的情況下仍然十分慷慨樂捐。 <verse eid="2CO 8:2"/><verse number="3" style="v" sid="2CO 8:3"/>我可以證明，他們是甘心樂意，盡其所能地捐助，甚至超過了自己的能力。 <verse eid="2CO 8:3"/><verse number="4" style="v" sid="2CO 8:4"/>他們懇求我們准許他們參與供應有需要的聖徒。 <verse eid="2CO 8:4"/><verse number="5" style="v" sid="2CO 8:5"/>他們這樣做超過了我們的期望，並且他們按照上帝的旨意首先把自己獻給主，然後獻給我們。<verse eid="2CO 8:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="2CO 8:6"/>所以，我們勸<char style="pn">提多</char>要繼續完成他早先在你們當中開始的這件善事。 <verse eid="2CO 8:6"/><verse number="7" style="v" sid="2CO 8:7"/>你們既然在信心、口才、知識、熱心和對我們的愛心上都有突出的表現，也要在這件善事上有突出的表現。 <verse eid="2CO 8:7"/><verse number="8" style="v" sid="2CO 8:8"/>我說這話並非命令你們，而是藉著別人的熱心考驗一下你們愛心的真偽。 <verse eid="2CO 8:8"/><verse number="9" style="v" sid="2CO 8:9"/>因為你們知道我們主耶穌基督的恩典，祂本來富足，卻為你們的緣故變得貧窮，使你們藉著祂的貧窮可以變得富足。<verse eid="2CO 8:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="2CO 8:10"/>關於捐助的事，我把自己的意見告訴你們：你們一年前開始捐助，並且甘心樂意——這對你們有益。 <verse eid="2CO 8:10"/><verse number="11" style="v" sid="2CO 8:11"/>你們要有始有終，既有懇切願意的心，就要量力而行，辦妥這事。 <verse eid="2CO 8:11"/><verse number="12" style="v" sid="2CO 8:12"/>因為人只要按自己的能力甘心樂意地去做，必蒙上帝悅納，上帝不會讓人做力所不逮之事。 <verse eid="2CO 8:12"/><verse number="13" style="v" sid="2CO 8:13"/>這不是說要別人脫離困境，要你們陷入困境，而是要均平。 <verse eid="2CO 8:13"/><verse number="14" style="v" sid="2CO 8:14"/>現在你們這些富足的人可以幫補那些有需要的人，以便你們有需要的時候，那些富足的人也可以幫補你們，這樣就可以均平了。 <verse eid="2CO 8:14"/><verse number="15" style="v" sid="2CO 8:15"/>正如聖經上說：「多拾的沒有剩餘，少拾的也沒有缺乏。」<note caller="+" style="f"><char style="fr" closed="false">8·15 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 16:18">出埃及記16·18</ref>。</char></char></note><verse eid="2CO 8:15"/></para>
+  <para style="s1">託人送捐款</para>
+  <para style="p">
+    <verse number="16" style="v" sid="2CO 8:16"/>感謝上帝！祂感動了<char style="pn">提多</char>的心，使他像我一樣熱誠地關懷你們。 <verse eid="2CO 8:16"/><verse number="17" style="v" sid="2CO 8:17"/>這固然是他聽了我們的勸告，但也是他自己非常熱誠，自願去你們那裡。 <verse eid="2CO 8:17"/><verse number="18" style="v" sid="2CO 8:18"/>我們還要派一位弟兄和他同去，這位弟兄在傳福音的事上得到各地教會的讚許。 <verse eid="2CO 8:18"/><verse number="19" style="v" sid="2CO 8:19"/>此外，他還受各教會的委派與我們同行，把交給我們的捐款送去，使主得榮耀，並表明我們熱誠相助的心。 <verse eid="2CO 8:19"/><verse number="20" style="v" sid="2CO 8:20"/>我們這樣做是為了避免有人挑我們的不是，因我們經手的捐款數目可觀。 <verse eid="2CO 8:20"/><verse number="21" style="v" sid="2CO 8:21"/>無論在主面前或在人面前，我們務求行事為人光明磊落。<verse eid="2CO 8:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="2CO 8:22"/>我們還要再派一位弟兄和他們一同去你們那裡。我們經過多次多方的考驗，證實他很熱心，而且他因為十分信任你們，現在更熱心了。 <verse eid="2CO 8:22"/><verse number="23" style="v" sid="2CO 8:23"/>至於<char style="pn">提多</char>，他是我的同伴，與我一同服侍你們。另外兩位弟兄是眾教會的代表，是基督的榮耀。 <verse eid="2CO 8:23"/><verse number="24" style="v" sid="2CO 8:24"/>所以，你們要在眾教會面前向他們證明你們的愛心，以及我誇耀你們的話並非虛言。<verse eid="2CO 8:24"/></para>
+  <chapter eid="2CO 8"/>
+  <chapter number="9" style="c" sid="2CO 9"/>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 9:1"/>關於捐助聖徒的事，其實我不必再寫信提醒你們， <verse eid="2CO 9:1"/><verse number="2" style="v" sid="2CO 9:2"/>因我知道你們的熱心。我向<char style="pn">馬其頓</char>教會的人誇耀你們，說<char style="pn">亞該亞</char>人的捐款在一年前就預備好了，你們的熱心激勵了許多人。 <verse eid="2CO 9:2"/><verse number="3" style="v" sid="2CO 9:3"/>現在我先派這幾位弟兄到你們那裡，以便你們把捐款預備好，正如我所說的那樣，免得我們在這件事上誇耀你們的話成了虛言。 <verse eid="2CO 9:3"/><verse number="4" style="v" sid="2CO 9:4"/>因為萬一有<char style="pn">馬其頓</char>的人與我同去，發現你們並沒有準備好，別說我們會因如此信任你們而羞愧，你們更會無地自容。 <verse eid="2CO 9:4"/><verse number="5" style="v" sid="2CO 9:5"/>因此，我認為有必要請那幾位弟兄先去你們那裡，將你們從前認捐的款項收集妥當，這樣就表明你們的捐贈是出於甘心樂意，而不是出於勉強。<verse eid="2CO 9:5"/></para>
+  <para style="s1">甘心樂意地捐助</para>
+  <para style="p">
+    <verse number="6" style="v" sid="2CO 9:6"/>要記住：「少種的少收，多種的多收。」 <verse eid="2CO 9:6"/><verse number="7" style="v" sid="2CO 9:7"/>各人心裡想捐多少就捐多少，不要勉強，不要為難。因為捐得甘心樂意的人才是上帝所喜愛的。 <verse eid="2CO 9:7"/><verse number="8" style="v" sid="2CO 9:8"/>上帝能夠把各樣恩典多多賜給你們，使你們在各方面常常富足有餘，可以多行各種善事。 <verse eid="2CO 9:8"/><verse number="9" style="v" sid="2CO 9:9"/>正如聖經上說：</para>
+  <para style="q1" vid="2CO 9:9">「他慷慨施捨、賙濟窮人，</para>
+  <para style="q1" vid="2CO 9:9">他的公義永遠長存。」<note caller="+" style="f"><char style="fr" closed="false">9·9 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 112:9">詩篇112·9</ref>。</char></char></note><verse eid="2CO 9:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="2CO 9:10"/>賜農夫種子又賜人糧食的上帝，必加倍賜給你們種子，使你們收穫更多仁義的果實， <verse eid="2CO 9:10"/><verse number="11" style="v" sid="2CO 9:11"/>叫你們事事豐裕，可以多多施捨。這樣，從我們這裡得到你們幫助的人便會向上帝獻上感恩。 <verse eid="2CO 9:11"/><verse number="12" style="v" sid="2CO 9:12"/>因為這件善事不單可以幫助經濟困難的聖徒，也使許多人對上帝充滿感恩。 <verse eid="2CO 9:12"/><verse number="13" style="v" sid="2CO 9:13"/>通過這件善事，他們會把榮耀歸給上帝，因為看見你們信服基督的福音，慷慨地幫助他們及眾人。 <verse eid="2CO 9:13"/><verse number="14" style="v" sid="2CO 9:14"/>他們也會因上帝賜給你們的豐盛恩典而熱切地為你們禱告。 <verse eid="2CO 9:14"/><verse number="15" style="v" sid="2CO 9:15"/>感謝上帝，祂的恩賜真是無以言表！<verse eid="2CO 9:15"/></para>
+  <chapter eid="2CO 9"/>
+  <chapter number="10" style="c" sid="2CO 10"/>
+  <para style="s1">保羅論自己的職分</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 10:1"/>你們以為我在你們中間的時候很溫和，不在你們中間的時候卻很嚴厲。如今，我<char style="pn">保羅</char>以基督的謙卑和溫柔親自勸你們： <verse eid="2CO 10:1"/><verse number="2" style="v" sid="2CO 10:2"/>我去的時候，但求我不必這樣嚴厲地對待你們，我的嚴厲是用來對付那些說我們憑血氣行事的人。 <verse eid="2CO 10:2"/><verse number="3" style="v" sid="2CO 10:3"/>因為我們雖然活在血肉之軀裡，但在屬靈爭戰上卻不憑血氣之勇。 <verse eid="2CO 10:3"/><verse number="4" style="v" sid="2CO 10:4"/>我們爭戰的兵器不是屬血氣的，而是從上帝而來的能力，可以摧毀堅固的營壘， <verse eid="2CO 10:4"/><verse number="5" style="v" sid="2CO 10:5"/>擊破一切謬論和阻礙人們認識上帝的驕傲言論，奪回被擄去的心思意念，使其順服基督。 <verse eid="2CO 10:5"/><verse number="6" style="v" sid="2CO 10:6"/>等你們完全順服主後，我們就要懲罰所有叛逆的人。<verse eid="2CO 10:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2CO 10:7"/>你們只會看事情的表面。如果有人相信自己屬於基督，他就應該再想一想，我們跟他一樣也是屬於基督的。 <verse eid="2CO 10:7"/><verse number="8" style="v" sid="2CO 10:8"/>因為主賜給我們權柄是為了造就你們，不是為了毀壞你們，就算我為這權柄稍微誇口，也不會感到羞愧。 <verse eid="2CO 10:8"/><verse number="9" style="v" sid="2CO 10:9"/>我不想你們認為我寫信是要威嚇你們。 <verse eid="2CO 10:9"/><verse number="10" style="v" sid="2CO 10:10"/>因為有人說：「他信中的話有分量，很嚴厲，他本人卻軟弱無能，言語粗俗。」 <verse eid="2CO 10:10"/><verse number="11" style="v" sid="2CO 10:11"/>說這話的人要留心：我們不在你們那裡的時候，在信上怎麼說，與你們見面時也會怎麼做。<verse eid="2CO 10:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2CO 10:12"/>我們不敢和那些自我推薦的人相提並論！他們以自己的尺度衡量自己，自我比較，實在不明智！ <verse eid="2CO 10:12"/><verse number="13" style="v" sid="2CO 10:13"/>但我們並非漫無邊際地誇口，而是在上帝為我們定下的範圍之內誇口，你們也包括在這範圍之內。 <verse eid="2CO 10:13"/><verse number="14" style="v" sid="2CO 10:14"/>其實把你們包括在我們誇口的範圍之內一點都不過分，因為我們首先把基督的福音傳到你們那裡。 <verse eid="2CO 10:14"/><verse number="15" style="v" sid="2CO 10:15"/>我們沒有超出範圍拿別人辛勞的成果誇口，只盼望隨著你們信心的增長，我們的範圍也得到極大的擴展， <verse eid="2CO 10:15"/><verse number="16" style="v" sid="2CO 10:16"/>使我們可以把福音傳到你們以外的地方，而不是在別人的工作範圍內拿別人的成就誇口。 <verse eid="2CO 10:16"/><verse number="17" style="v" sid="2CO 10:17"/>「要誇耀，就當誇耀主的作為。」<note caller="+" style="f"><char style="fr" closed="false">10·17 </char><char style="ft" closed="false"><char style="xt"><ref loc="JER 9:24">耶利米書9·24</ref>。</char></char></note> <verse eid="2CO 10:17"/><verse number="18" style="v" sid="2CO 10:18"/>因為，蒙悅納的是主所稱許的人，而不是自我稱許的人。<verse eid="2CO 10:18"/></para>
+  <chapter eid="2CO 10"/>
+  <chapter number="11" style="c" sid="2CO 11"/>
+  <para style="s1">保羅與假使徒</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 11:1"/>請你們包容我的這點愚妄吧！我知道你們一定會包容我。 <verse eid="2CO 11:1"/><verse number="2" style="v" sid="2CO 11:2"/>我以上帝痛恨不貞的愛愛你們。因為我曾把你們當作貞潔的少女許配給一位丈夫——基督。 <verse eid="2CO 11:2"/><verse number="3" style="v" sid="2CO 11:3"/>但我真怕你們會像被狡猾的蛇欺騙的夏娃一樣，思想受迷惑，失去了對基督純真專一的心。 <verse eid="2CO 11:3"/><verse number="4" style="v" sid="2CO 11:4"/>有人來傳另一位耶穌——與我們所傳的不同，或要你們接受另一個靈——與你們所接受的不同，或要你們相信另一種福音——與你們所相信的不同，你們竟欣然容忍。 <verse eid="2CO 11:4"/><verse number="5" style="v" sid="2CO 11:5"/>我想，我一點也不比那些「超級使徒」差。 <verse eid="2CO 11:5"/><verse number="6" style="v" sid="2CO 11:6"/>我雖然不善辭令，但我認識真理。這一點，我們在各方面已經向你們證明了。<verse eid="2CO 11:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2CO 11:7"/>我為了把上帝的福音白白地傳給你們，甘願卑微，以提升你們，我這樣做有罪嗎？ <verse eid="2CO 11:7"/><verse number="8" style="v" sid="2CO 11:8"/>我「搶奪」其他教會，拿了他們的資助，來服侍你們。 <verse eid="2CO 11:8"/><verse number="9" style="v" sid="2CO 11:9"/>我在你們那裡經濟拮据的時候，沒有拖累過你們任何人，因為<char style="pn">馬其頓</char>來的弟兄補足了我的缺乏。我沒有在任何方面成為你們的負擔，將來也不會成為你們的負擔。 <verse eid="2CO 11:9"/><verse number="10" style="v" sid="2CO 11:10"/>我憑我心中基督的真理說，<char style="pn">亞該亞</char>地區無人會阻止我這樣誇口。 <verse eid="2CO 11:10"/><verse number="11" style="v" sid="2CO 11:11"/>為什麼呢？難道我不愛你們嗎？上帝知道我愛你們！<verse eid="2CO 11:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2CO 11:12"/>我現在所做的，將來還會繼續做下去，為了要斷絕那些投機分子的機會，使他們無法在所誇耀的事上被認為與我們一樣。 <verse eid="2CO 11:12"/><verse number="13" style="v" sid="2CO 11:13"/>其實這些人是假使徒，為人詭詐，冒充基督的使徒。 <verse eid="2CO 11:13"/><verse number="14" style="v" sid="2CO 11:14"/>這不足為奇，因為連撒旦都裝成光明的天使， <verse eid="2CO 11:14"/><verse number="15" style="v" sid="2CO 11:15"/>牠的爪牙若冒充公義的僕人，又何足為奇呢？他們最終必得到應得的報應。<verse eid="2CO 11:15"/></para>
+  <para style="s1">保羅的諸多苦難</para>
+  <para style="p">
+    <verse number="16" style="v" sid="2CO 11:16"/>我再說，誰也別把我當作傻瓜。你們如果真這麼想，那就把我當傻瓜看待吧！好讓我也能說幾句自誇的話。 <verse eid="2CO 11:16"/><verse number="17" style="v" sid="2CO 11:17"/>我這樣說，並不是主的意思，而是像一個傻瓜一樣誇口。 <verse eid="2CO 11:17"/><verse number="18" style="v" sid="2CO 11:18"/>既然許多人憑血氣誇口，我當然也可以誇口。 <verse eid="2CO 11:18"/><verse number="19" style="v" sid="2CO 11:19"/>因為你們這些聰明人竟然甘願忍受那些傻瓜， <verse eid="2CO 11:19"/><verse number="20" style="v" sid="2CO 11:20"/>就算有人奴役、剝削、利用、侮辱你們，打你們耳光，你們都能逆來順受！ <verse eid="2CO 11:20"/><verse number="21" style="v" sid="2CO 11:21"/>慚愧得很，我必須說，我們太軟弱了，做不出那樣的事！</para>
+  <para style="p" vid="2CO 11:21">然而，別人敢誇口的，我再講一句傻話，我也敢。 <verse eid="2CO 11:21"/><verse number="22" style="v" sid="2CO 11:22"/>他們是<char style="pn">希伯來</char>人，我也是。他們是<char style="pn">以色列</char>人，我也是。他們是<char style="pn">亞伯拉罕</char>的子孫，我也是。 <verse eid="2CO 11:22"/><verse number="23" style="v" sid="2CO 11:23"/>他們自稱是基督的僕人，我說句狂話，我更是！我比他們更辛苦，坐牢更多，身受更重的鞭打，經常出生入死。 <verse eid="2CO 11:23"/><verse number="24" style="v" sid="2CO 11:24"/>我被<char style="pn">猶太</char>同胞鞭打了五次，每次三十九鞭<note caller="+" style="f"><char style="fr" closed="false">11·24 </char><char style="ft" closed="false">「三十九鞭」希臘文是「四十鞭減一鞭」。</char></note>， <verse eid="2CO 11:24"/><verse number="25" style="v" sid="2CO 11:25"/>被人用棍打了三次，用石頭打了一次，遇到船難三次，曾在大海上漂浮了一天一夜。 <verse eid="2CO 11:25"/><verse number="26" style="v" sid="2CO 11:26"/>我常常四處奔波，遭遇江河的危險、盜賊的威脅、同胞的威脅、外族的威脅、城中的危險、曠野的危險、海上的危險和假信徒的威脅。 <verse eid="2CO 11:26"/><verse number="27" style="v" sid="2CO 11:27"/>我勞碌困苦，不得安眠，又饑又渴，挨餓受凍，赤身露體。 <verse eid="2CO 11:27"/><verse number="28" style="v" sid="2CO 11:28"/>此外，我還掛慮眾教會的事，天天承受著壓力。 <verse eid="2CO 11:28"/><verse number="29" style="v" sid="2CO 11:29"/>有誰軟弱，我不感同身受呢？有誰失足犯罪，我不心急如焚呢？<verse eid="2CO 11:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="2CO 11:30"/>如果一定要誇耀，我情願誇耀自己的軟弱。 <verse eid="2CO 11:30"/><verse number="31" style="v" sid="2CO 11:31"/>主耶穌的父上帝永受稱頌，祂知道我不撒謊。 <verse eid="2CO 11:31"/><verse number="32" style="v" sid="2CO 11:32"/>在<char style="pn">大馬士革</char>的時候，<char style="pn">亞哩達</char>王手下的總督吩咐人把守城門，要逮捕我。 <verse eid="2CO 11:32"/><verse number="33" style="v" sid="2CO 11:33"/>我被人用筐子從城牆上的窗戶縋下去，才逃出他的手掌。<verse eid="2CO 11:33"/></para>
+  <chapter eid="2CO 11"/>
+  <chapter number="12" style="c" sid="2CO 12"/>
+  <para style="s1">保羅得到的異象和啟示</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 12:1"/>自誇雖然無益，但我不得不繼續誇下去，談談主給我的異象和啟示。 <verse eid="2CO 12:1"/><verse number="2" style="v" sid="2CO 12:2"/>我知道一位基督徒<note caller="+" style="f"><char style="fr" closed="false">12·2 </char><char style="ft" closed="false">此人就是保羅本人，他不願誇耀自己的經歷。</char></note>在十四年前曾被提到第三層天上，是在肉身之內還是在肉身之外，我不知道，只有上帝知道。 <verse eid="2CO 12:2"/><verse number="3-4" style="v" sid="2CO 12:3-4"/>我知道這個人曾被提到天上的樂園裡，聽見了人不可言傳的隱祕事，是在肉身之內還是在肉身之外，我不知道，只有上帝知道。 <verse eid="2CO 12:3-4"/><verse number="5" style="v" sid="2CO 12:5"/>我要為這人誇口。至於我自己，我除了誇耀自己的軟弱以外，別無可誇。 <verse eid="2CO 12:5"/><verse number="6" style="v" sid="2CO 12:6"/>就算我誇口，也不是傻瓜，因為我所說的都是實話。只是我不會這樣做，恐怕有人把我看得太高，超過了他對我的所見所聞。<verse eid="2CO 12:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2CO 12:7"/>為了使我不至於因所受的啟示太大而自高，有一根刺在我身上，就是有撒旦的爪牙攻擊我，免得我驕傲自大。 <verse eid="2CO 12:7"/><verse number="8" style="v" sid="2CO 12:8"/>我曾三次祈求主叫這根刺離開我， <verse eid="2CO 12:8"/><verse number="9" style="v" sid="2CO 12:9"/>但祂說：「我的恩典足夠你用，因為我的能力在人的軟弱上更顯得全備。」所以，我更喜歡誇耀自己的軟弱，好讓基督的能力蔭庇我。 <verse eid="2CO 12:9"/><verse number="10" style="v" sid="2CO 12:10"/>因此，為了基督的緣故，我欣然面對軟弱、凌辱、艱難、迫害和困苦，因為我什麼時候軟弱，就什麼時候剛強。<verse eid="2CO 12:10"/></para>
+  <para style="s1">保羅關懷哥林多人</para>
+  <para style="p">
+    <verse number="11" style="v" sid="2CO 12:11"/>我成了「傻瓜」，是被你們逼的！你們本該稱許我才對。我雖然算不了什麼，卻沒有一點比不上那些「超級使徒」。 <verse eid="2CO 12:11"/><verse number="12" style="v" sid="2CO 12:12"/>我在你們中間百般地忍耐，用神蹟、奇事、異能證明自己是使徒。 <verse eid="2CO 12:12"/><verse number="13" style="v" sid="2CO 12:13"/>你們什麼地方不及其他教會呢？唯一的區別是我沒有成為你們的負擔！希望各位原諒我的不公道！<verse eid="2CO 12:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="2CO 12:14"/>如今我打算第三次到你們那裡去。我不會拖累你們，因為我想得到的是你們，而不是你們的財物。兒女不必為父母積財，父母應當為兒女積財。 <verse eid="2CO 12:14"/><verse number="15" style="v" sid="2CO 12:15"/>為了你們的靈魂，我甘願付出，包括自己的生命。難道我越愛你們，就越得不到你們的愛嗎？<verse eid="2CO 12:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="2CO 12:16"/>算了！我沒有拖累過你們，但竟然有人說我狡猾，用詭計騙你們。 <verse eid="2CO 12:16"/><verse number="17" style="v" sid="2CO 12:17"/>請問，在我派到你們那裡的人當中，我藉著誰佔過你們的便宜呢？ <verse eid="2CO 12:17"/><verse number="18" style="v" sid="2CO 12:18"/>我懇求<char style="pn">提多</char>去你們那裡，並派弟兄與他同去。難道<char style="pn">提多</char>佔過你們的便宜嗎？我們行事為人豈不是心靈相通，步調一致嗎？<verse eid="2CO 12:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="2CO 12:19"/>你們一直以為我們是替自己辯白，其實我們這番話是在基督裡、在上帝面前說的。親愛的弟兄姊妹，這一切都是為了造就你們。 <verse eid="2CO 12:19"/><verse number="20" style="v" sid="2CO 12:20"/>因為我怕到你們那裡的時候，我對你們的期望會落空，而你們對我也大失所望。我怕你們當中有紛爭、嫉妒、惱怒、仇恨、毀謗、閒話、狂傲和混亂。 <verse eid="2CO 12:20"/><verse number="21" style="v" sid="2CO 12:21"/>我怕再去你們那裡時，我的上帝會使我在你們面前感到羞愧，又怕看到許多從前犯罪、道德敗壞、淫亂放蕩的人仍然不肯悔改，便心裡悲傷。<verse eid="2CO 12:21"/></para>
+  <chapter eid="2CO 12"/>
+  <chapter number="13" style="c" sid="2CO 13"/>
+  <para style="s1">最後的警告</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2CO 13:1"/>這是我第三次要去你們那裡。聖經上說：「任何事必須有兩三個證人作證才能定案。」<note caller="+" style="f"><char style="fr" closed="false">13·1 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 19:15">申命記19·15</ref>。</char></char></note> <verse eid="2CO 13:1"/><verse number="2" style="v" sid="2CO 13:2"/>我第二次去探望你們的時候已經警告過了，如今我雖然不在你們那裡，但仍要再次警告那些從前犯了罪的人和其餘的人：我再來的時候，必不寬容。 <verse eid="2CO 13:2"/><verse number="3" style="v" sid="2CO 13:3"/>你們既然要我證明是基督藉著我說話，就當知道，基督處理你們這類的事絕不軟弱，祂在你們當中充滿能力。 <verse eid="2CO 13:3"/><verse number="4" style="v" sid="2CO 13:4"/>不錯，祂曾在軟弱中被釘在十字架上，但如今靠上帝的大能活著。我們也跟祂一樣軟弱，但為了你們，我們要靠上帝的大能和祂一同活著。<verse eid="2CO 13:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="2CO 13:5"/>你們要自我省察，看看自己是否真正信主，也要考驗自己。除非你們經不起考驗，否則，你們應該知道耶穌基督住在你們裡面。 <verse eid="2CO 13:5"/><verse number="6" style="v" sid="2CO 13:6"/>我希望你們會知道，我們是經得起考驗的。 <verse eid="2CO 13:6"/><verse number="7" style="v" sid="2CO 13:7"/>我們祈求上帝使你們一件惡事都不做，不是為了要顯明我們經得起考驗，而是要你們行事端正，就算我們經不起考驗也無妨。 <verse eid="2CO 13:7"/><verse number="8" style="v" sid="2CO 13:8"/>因為我們不能抵擋真理，只能擁護真理。 <verse eid="2CO 13:8"/><verse number="9" style="v" sid="2CO 13:9"/>只要你們剛強，我們就是軟弱也歡喜。我們為你們祈禱，盼望你們做純全的人。 <verse eid="2CO 13:9"/><verse number="10" style="v" sid="2CO 13:10"/>我寫這封信是預先警告你們，免得我到你們當中的時候，必須運用基督給我的權柄嚴厲地對待你們。基督賜給我這權柄是為了造就人，不是毀壞人。<verse eid="2CO 13:10"/></para>
+  <para style="s1">勸勉與祝福</para>
+  <para style="p">
+    <verse number="11" style="v" sid="2CO 13:11"/>最後，弟兄姊妹，你們要喜樂，追求完善，接受勸勉，同心合意，和睦共處。這樣，仁愛和平的上帝必常與你們同在。<verse eid="2CO 13:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2CO 13:12"/>你們要以聖潔的吻彼此問候。 <verse eid="2CO 13:12"/><verse number="13" style="v" sid="2CO 13:13"/>全體聖徒都問候你們。<verse eid="2CO 13:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="2CO 13:14"/>願主耶穌基督的恩典、上帝的慈愛、聖靈的感動，常與你們眾人同在！<verse eid="2CO 13:14"/></para>
+  <chapter eid="2CO 13"/>
+</usx>

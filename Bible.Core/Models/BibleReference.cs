@@ -24,7 +24,7 @@
         /// <summary>
         /// Optional chapter and verse reference.
         /// </summary>
-        public string? Reference { get; set; }
+        public string Reference { get; set; }
 
         public override bool Equals(object other) => other is BibleReference p &&
             (p.Translation, p.BookName, p.Reference).Equals((Translation, BookName, Reference));
@@ -35,8 +35,8 @@
         public override string ToString()
         {
             if (string.IsNullOrEmpty(Reference))
-                return $"({Translation}) {BookName}";
-            return $"({Translation}) {BookName} {Reference}";
+                return $"{Translation} {BookName}";
+            return $"{Translation} {BookName} {Reference}";
         }
     }
 }

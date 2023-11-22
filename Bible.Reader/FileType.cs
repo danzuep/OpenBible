@@ -4,6 +4,7 @@ namespace Bible.Reader
     {
         Unknown,
         Json,
-        Xml
+        Xml,
+        Usx,
     }
 }

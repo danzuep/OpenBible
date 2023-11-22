@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="SNG" style="id">- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)</book>
+  <para style="h">雅歌</para>
+  <para style="toc1">雅歌</para>
+  <para style="toc2">雅歌</para>
+  <para style="toc3">歌</para>
+  <para style="mt1">雅歌</para>
+  <chapter number="1" style="c" sid="SNG 1"/>
+  <para style="p">
+    <verse number="1" style="v" sid="SNG 1:1"/>這是<char style="pn">所羅門</char>的歌，是歌中最美妙的歌。<verse eid="SNG 1:1"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 1:2"/>深深地吻我吧！</para>
+  <para style="q1" vid="SNG 1:2">因為你的愛情比美酒更香甜。<verse eid="SNG 1:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 1:3"/>你的膏油芬芳怡人，</para>
+  <para style="q1" vid="SNG 1:3">你的美名馨香四溢，</para>
+  <para style="q1" vid="SNG 1:3">如同倒出來的香膏，</para>
+  <para style="q1" vid="SNG 1:3">難怪少女們都愛慕你。<verse eid="SNG 1:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 1:4"/>你帶我走，讓我們一起奔跑吧！</para>
+  <para style="q1" vid="SNG 1:4">王啊，把我帶進你的寢宮吧！</para>
+  <para style="sp" vid="SNG 1:4">耶路撒冷的少女：</para>
+  <para style="q1" vid="SNG 1:4">我們為你歡喜快樂，</para>
+  <para style="q1" vid="SNG 1:4">我們要頌揚你那勝似美酒的愛情。</para>
+  <para style="sp" vid="SNG 1:4">女子：</para>
+  <para style="q1" vid="SNG 1:4">難怪少女們都愛慕你！<verse eid="SNG 1:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 1:5"/>
+    <char style="pn">耶路撒冷</char>的少女啊！</para>
+  <para style="q1" vid="SNG 1:5">我雖然黑似<char style="pn">基達</char>的帳篷，</para>
+  <para style="q1" vid="SNG 1:5">卻美如<char style="pn">所羅門</char>的錦帳。<verse eid="SNG 1:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 1:6"/>不要因為我被太陽曬黑就看不起我。</para>
+  <para style="q1" vid="SNG 1:6">這是因為我的兄弟惱恨我，</para>
+  <para style="q1" vid="SNG 1:6">要我在烈日之下看守葡萄園，</para>
+  <para style="q1" vid="SNG 1:6">使我無暇照顧自己<note caller="+" style="f"><char style="fr" closed="false">1·6 </char><char style="ft" closed="false">「我無暇照顧自己」希伯來文是「我卻無法照料自己的葡萄園。」</char></note>。<verse eid="SNG 1:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 1:7"/>我心愛的人啊，告訴我吧，</para>
+  <para style="q1" vid="SNG 1:7">你在哪裡牧羊？</para>
+  <para style="q1" vid="SNG 1:7">中午帶羊去哪裡歇息？</para>
+  <para style="q1" vid="SNG 1:7">我何必在你同伴的羊群旁遊蕩，</para>
+  <para style="q1" vid="SNG 1:7">像風塵女子一樣呢？<verse eid="SNG 1:7"/></para>
+  <para style="sp">耶路撒冷的少女：</para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 1:8"/>絕色佳人啊！</para>
+  <para style="q1" vid="SNG 1:8">要是你不知道，</para>
+  <para style="q1" vid="SNG 1:8">就跟著羊群的足跡，</para>
+  <para style="q1" vid="SNG 1:8">到牧人的帳篷邊餵養你的山羊羔吧。<verse eid="SNG 1:8"/></para>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 1:9"/>我的愛人啊，</para>
+  <para style="q1" vid="SNG 1:9">你好比法老戰車上套的牝馬。<verse eid="SNG 1:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 1:10"/>耳環輝映你嫵媚的臉頰，</para>
+  <para style="q1" vid="SNG 1:10">珠鏈輕襯你美麗的頸項。<verse eid="SNG 1:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 1:11"/>我們要為你打造鑲有銀珠的金飾。<verse eid="SNG 1:11"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 1:12"/>王坐席的時候，</para>
+  <para style="q1" vid="SNG 1:12">我身上的哪噠香膏芬芳四溢。<verse eid="SNG 1:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 1:13"/>我的良人在我眼中，</para>
+  <para style="q1" vid="SNG 1:13">好像我懷中的一袋沒藥。<verse eid="SNG 1:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 1:14"/>我的良人在我眼中，</para>
+  <para style="q1" vid="SNG 1:14">好像<char style="pn">隱·基底</char>葡萄園中的鳳仙花。<verse eid="SNG 1:14"/></para>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 1:15"/>我的愛人啊！</para>
+  <para style="q1" vid="SNG 1:15">你真是美極了！美極了！</para>
+  <para style="q1" vid="SNG 1:15">你的雙眸好像鴿子。<verse eid="SNG 1:15"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 1:16"/>我的良人啊！</para>
+  <para style="q1" vid="SNG 1:16">你真英俊！真可愛！</para>
+  <para style="q1" vid="SNG 1:16">我們以青草作床榻，<verse eid="SNG 1:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="SNG 1:17"/>以香柏樹作屋梁，</para>
+  <para style="q1" vid="SNG 1:17">以松樹作椽子。<verse eid="SNG 1:17"/></para>
+  <chapter eid="SNG 1"/>
+  <chapter number="2" style="c" sid="SNG 2"/>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 2:1"/>我是<char style="pn">沙崙</char>平原的玫瑰花，</para>
+  <para style="q1" vid="SNG 2:1">是谷中的百合花。<verse eid="SNG 2:1"/></para>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 2:2"/>我的愛人在眾少女中，</para>
+  <para style="q1" vid="SNG 2:2">就像荊棘中的一朵百合花。<verse eid="SNG 2:2"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 2:3"/>我的良人在眾男子中，</para>
+  <para style="q1" vid="SNG 2:3">好像林中的一棵蘋果樹。</para>
+  <para style="q1" vid="SNG 2:3">我歡歡喜喜地坐在他的樹蔭下，</para>
+  <para style="q1" vid="SNG 2:3">輕嘗他香甜可口的果子。<verse eid="SNG 2:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 2:4"/>他帶我走進宴席大廳，</para>
+  <para style="q1" vid="SNG 2:4">眾人都看見他對我充滿柔情愛意。<verse eid="SNG 2:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 2:5"/>請用葡萄乾來補充我的力氣，</para>
+  <para style="q1" vid="SNG 2:5">用蘋果來提振我的精神，</para>
+  <para style="q1" vid="SNG 2:5">因為我思愛成病。<verse eid="SNG 2:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 2:6"/>他的左手扶著我的頭，</para>
+  <para style="q1" vid="SNG 2:6">他的右手緊抱著我。<verse eid="SNG 2:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 2:7"/>
+    <char style="pn">耶路撒冷</char>的少女啊！</para>
+  <para style="q1" vid="SNG 2:7">我指著羚羊和田野的母鹿<note caller="+" style="f"><char style="fr" closed="false">2·7 </char><char style="ft" closed="false">「羚羊和田野的母鹿」在希伯來文中與「萬軍之全能上帝」發音相似。</char></note>吩咐你們，</para>
+  <para style="q1" vid="SNG 2:7">不要叫醒或驚動愛情，</para>
+  <para style="q1" vid="SNG 2:7">等它自發吧。<verse eid="SNG 2:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 2:8"/>聽啊！是我良人的聲音，</para>
+  <para style="q1" vid="SNG 2:8">他攀過高崗，躍過山丘，</para>
+  <para style="q1" vid="SNG 2:8">終於來了！<verse eid="SNG 2:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 2:9"/>我的良人好像羚羊和幼鹿。</para>
+  <para style="q1" vid="SNG 2:9">看啊，他就在牆外，</para>
+  <para style="q1" vid="SNG 2:9">正從窗戶往裡觀看，</para>
+  <para style="q1" vid="SNG 2:9">從窗櫺間往裡凝視。<verse eid="SNG 2:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 2:10"/>他對我說：</para>
+  <para style="q1" vid="SNG 2:10">「我的愛人，起來吧！</para>
+  <para style="q1" vid="SNG 2:10">我的佳偶，跟我來！<verse eid="SNG 2:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 2:11"/>你看！冬天過去了，</para>
+  <para style="q1" vid="SNG 2:11">雨水止住了。<verse eid="SNG 2:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 2:12"/>大地百花盛開，</para>
+  <para style="q1" vid="SNG 2:12">百鳥爭鳴的季節已經來臨，</para>
+  <para style="q1" vid="SNG 2:12">田野也傳來斑鳩的叫聲。<verse eid="SNG 2:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 2:13"/>無花果快成熟了，</para>
+  <para style="q1" vid="SNG 2:13">葡萄樹也開滿了花，</para>
+  <para style="q1" vid="SNG 2:13">散發著陣陣芬芳。</para>
+  <para style="q1" vid="SNG 2:13">我的愛人，起來吧；</para>
+  <para style="q1" vid="SNG 2:13">我的佳偶，跟我來。」<verse eid="SNG 2:13"/></para>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 2:14"/>我的鴿子啊，</para>
+  <para style="q1" vid="SNG 2:14">你在巖穴中，</para>
+  <para style="q1" vid="SNG 2:14">在懸崖的隱秘處。</para>
+  <para style="q1" vid="SNG 2:14">讓我看看你的臉，</para>
+  <para style="q1" vid="SNG 2:14">聽聽你的聲音吧，</para>
+  <para style="q1" vid="SNG 2:14">因為你的聲音溫柔，</para>
+  <para style="q1" vid="SNG 2:14">你的臉龐秀麗。<verse eid="SNG 2:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 2:15"/>為我們抓住狐狸，</para>
+  <para style="q1" vid="SNG 2:15">抓住破壞葡萄園的小狐狸，</para>
+  <para style="q1" vid="SNG 2:15">因為我們的葡萄樹正在開花。<verse eid="SNG 2:15"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 2:16"/>我的良人屬於我，我也屬於他。</para>
+  <para style="q1" vid="SNG 2:16">他在百合花間牧放羊群。<verse eid="SNG 2:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="SNG 2:17"/>我的良人啊，</para>
+  <para style="q1" vid="SNG 2:17">涼風吹起、日影飛逝的時候，</para>
+  <para style="q1" vid="SNG 2:17">但願你快快回來，</para>
+  <para style="q1" vid="SNG 2:17">就像<char style="pn">比特</char>山的羚羊和小鹿一樣。<verse eid="SNG 2:17"/></para>
+  <para style="b"/>
+  <chapter eid="SNG 2"/>
+  <chapter number="3" style="c" sid="SNG 3"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 3:1"/>我夜晚躺在床上，</para>
+  <para style="q1" vid="SNG 3:1">思念著我心愛的人；</para>
+  <para style="q1" vid="SNG 3:1">我尋找他，卻找不到。<verse eid="SNG 3:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 3:2"/>我要起來尋遍城裡的街巷和廣場，</para>
+  <para style="q1" vid="SNG 3:2">我要尋找我心愛的人。</para>
+  <para style="q1" vid="SNG 3:2">我尋找他，卻尋不到。<verse eid="SNG 3:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 3:3"/>我遇上城中巡邏的守衛，</para>
+  <para style="q1" vid="SNG 3:3">就問：「你們看到我心愛的人了嗎？」<verse eid="SNG 3:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 3:4"/>我剛離開他們，便找到了我心愛的人。</para>
+  <para style="q1" vid="SNG 3:4">我拉著他，不讓他走；</para>
+  <para style="q1" vid="SNG 3:4">我把他帶回娘家，</para>
+  <para style="q1" vid="SNG 3:4">到懷我者的臥室。<verse eid="SNG 3:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 3:5"/>
+    <char style="pn">耶路撒冷</char>的少女啊！</para>
+  <para style="q1" vid="SNG 3:5">我指著羚羊和田野的母鹿吩咐你們，</para>
+  <para style="q1" vid="SNG 3:5">不要叫醒或驚動愛情，</para>
+  <para style="q1" vid="SNG 3:5">等它自發吧。<verse eid="SNG 3:5"/></para>
+  <para style="sp">耶路撒冷的少女：</para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 3:6"/>那像煙柱一樣從曠野上來，</para>
+  <para style="q1" vid="SNG 3:6">散發著商人販賣的沒藥、乳香等各樣芬芳之氣的是什麼呢？<verse eid="SNG 3:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 3:7"/>看啊，是<char style="pn">所羅門</char>的轎子，</para>
+  <para style="q1" vid="SNG 3:7">周圍是六十名勇士，</para>
+  <para style="q1" vid="SNG 3:7">都是<char style="pn">以色列</char>的精兵。<verse eid="SNG 3:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 3:8"/>他們個個驍勇善戰，手持利劍，</para>
+  <para style="q1" vid="SNG 3:8">腰配戰刀，防備夜間的偷襲。<verse eid="SNG 3:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 3:9"/>
+    <char style="pn">所羅門</char>王用<char style="pn">黎巴嫩</char>木為自己造了一頂轎子。<verse eid="SNG 3:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 3:10"/>銀轎柱、金靠背、紫錦坐墊，</para>
+  <para style="q1" vid="SNG 3:10">轎裡裝飾著<char style="pn">耶路撒冷</char>少女的愛情。<verse eid="SNG 3:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 3:11"/>
+    <char style="pn">錫安</char>的少女啊，</para>
+  <para style="q1" vid="SNG 3:11">出去看看<char style="pn">所羅門</char>王的風采吧！</para>
+  <para style="q1" vid="SNG 3:11">他頭上的王冠是他母親在他成婚那天，</para>
+  <para style="q1" vid="SNG 3:11">在他心中歡樂之日為他戴上的。<verse eid="SNG 3:11"/></para>
+  <chapter eid="SNG 3"/>
+  <chapter number="4" style="c" sid="SNG 4"/>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 4:1"/>我的愛人啊，你真美麗！真美麗！</para>
+  <para style="q1" vid="SNG 4:1">面紗下的雙眸好像鴿子，</para>
+  <para style="q1" vid="SNG 4:1">你的秀髮就好像躍下<char style="pn">基列</char>山岡的山羊群。<verse eid="SNG 4:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 4:2"/>你的牙齒如同一群新剪了毛、從水裡洗淨上來的母羊，</para>
+  <para style="q1" vid="SNG 4:2">成雙成對，</para>
+  <para style="q1" vid="SNG 4:2">一顆也沒有脫落。<verse eid="SNG 4:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 4:3"/>你的唇好像朱紅絲帶，</para>
+  <para style="q1" vid="SNG 4:3">你的口嬌美，</para>
+  <para style="q1" vid="SNG 4:3">你面紗後面的雙頰如兩瓣石榴。<verse eid="SNG 4:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 4:4"/>你的頸項宛若一行行石頭建造的<char style="pn">大衛</char>樓塔，</para>
+  <para style="q1" vid="SNG 4:4">上面裝飾著一千個勇士的盾牌。<verse eid="SNG 4:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 4:5"/>你的胸好像一對小鹿，</para>
+  <para style="q1" vid="SNG 4:5">一對在百合花間吃草的孿生小鹿。<verse eid="SNG 4:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 4:6"/>我要登上沒藥山和乳香岡，</para>
+  <para style="q1" vid="SNG 4:6">直到晚風吹起、日影消逝。<verse eid="SNG 4:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 4:7"/>我的愛人啊，</para>
+  <para style="q1" vid="SNG 4:7">你全然美麗，毫無瑕疵。<verse eid="SNG 4:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 4:8"/>我的新娘啊，</para>
+  <para style="q1" vid="SNG 4:8">跟我一起離開<char style="pn">黎巴嫩</char>，</para>
+  <para style="q1" vid="SNG 4:8">跟我一起離開<char style="pn">黎巴嫩</char>吧！</para>
+  <para style="q1" vid="SNG 4:8">離開<char style="pn">亞瑪拿</char>山頂，</para>
+  <para style="q1" vid="SNG 4:8">離開<char style="pn">示尼珥</char>山和<char style="pn">黑門</char>山巔，</para>
+  <para style="q1" vid="SNG 4:8">離開獅穴和豹山吧。<verse eid="SNG 4:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 4:9"/>我的妹妹，我的新娘啊，</para>
+  <para style="q1" vid="SNG 4:9">你奪去了我的心。</para>
+  <para style="q1" vid="SNG 4:9">你的秋波一閃，</para>
+  <para style="q1" vid="SNG 4:9">你項鏈上的明珠，</para>
+  <para style="q1" vid="SNG 4:9">奪去了我的心。<verse eid="SNG 4:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 4:10"/>我的妹妹，我的新娘啊，</para>
+  <para style="q1" vid="SNG 4:10">你的愛情多麼迷人，</para>
+  <para style="q1" vid="SNG 4:10">你的愛情比美酒香甜。</para>
+  <para style="q1" vid="SNG 4:10">你身上膏油的芬芳遠勝過一切香料。<verse eid="SNG 4:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 4:11"/>我的新娘，你的嘴唇滴蜜，</para>
+  <para style="q1" vid="SNG 4:11">你的舌頭底下藏著奶與蜜。</para>
+  <para style="q1" vid="SNG 4:11">你衣服散發的香氣，</para>
+  <para style="q1" vid="SNG 4:11">就像<char style="pn">黎巴嫩</char>山一樣芬芳。<verse eid="SNG 4:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 4:12"/>我的妹妹，我的新娘，</para>
+  <para style="q1" vid="SNG 4:12">你是緊鎖的園子，</para>
+  <para style="q1" vid="SNG 4:12">封閉的井，隱藏的泉源。<verse eid="SNG 4:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 4:13"/>你好像一個石榴果園，</para>
+  <para style="q1" vid="SNG 4:13">結滿了上好的果子，</para>
+  <para style="q1" vid="SNG 4:13">還有鳳仙花和哪噠樹、<verse eid="SNG 4:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 4:14"/>哪噠和番紅花、菖蒲和肉桂，</para>
+  <para style="q1" vid="SNG 4:14">以及各樣乳香木、沒藥、沉香和一切上好的香料。<verse eid="SNG 4:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 4:15"/>你是園中的甘泉，是活水的井，</para>
+  <para style="q1" vid="SNG 4:15">是從<char style="pn">黎巴嫩</char>流下來的溪水。<verse eid="SNG 4:15"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 4:16"/>北風啊，興起吧！</para>
+  <para style="q1" vid="SNG 4:16">南風啊，吹來吧！</para>
+  <para style="q1" vid="SNG 4:16">吹向我的園子，</para>
+  <para style="q1" vid="SNG 4:16">使它的清香四溢。</para>
+  <para style="q1" vid="SNG 4:16">願我的良人走進自己的園中，</para>
+  <para style="q1" vid="SNG 4:16">享受其中的珍果。<verse eid="SNG 4:16"/></para>
+  <chapter eid="SNG 4"/>
+  <chapter number="5" style="c" sid="SNG 5"/>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 5:1"/>我的妹妹，我的新娘啊，</para>
+  <para style="q1" vid="SNG 5:1">我已經來到自己的園中，</para>
+  <para style="q1" vid="SNG 5:1">採了我的沒藥和香料，</para>
+  <para style="q1" vid="SNG 5:1">品嘗了我的蜂房和蜂蜜，</para>
+  <para style="q1" vid="SNG 5:1">也享用了我的美酒和鮮奶。</para>
+  <para style="sp" vid="SNG 5:1">耶路撒冷的少女：</para>
+  <para style="q1" vid="SNG 5:1">朋友們，盡情吃喝吧。</para>
+  <para style="q1" vid="SNG 5:1">相愛的人啊，沉醉在愛中吧！<verse eid="SNG 5:1"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 5:2"/>我雖然躺在床上，心卻清醒。</para>
+  <para style="q1" vid="SNG 5:2">我聽見我的良人叩門，說：</para>
+  <para style="q1" vid="SNG 5:2">「開門吧！我的妹妹，我的愛人，</para>
+  <para style="q1" vid="SNG 5:2">我完美無瑕的小鴿子啊，</para>
+  <para style="q1" vid="SNG 5:2">我的頭上沾滿了露水，</para>
+  <para style="q1" vid="SNG 5:2">頭髮被夜間的露珠弄濕了。」<verse eid="SNG 5:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 5:3"/>可是我已經脫了衣裳，怎能再穿上呢？</para>
+  <para style="q1" vid="SNG 5:3">我已經洗了腳，怎能再沾土呢？<verse eid="SNG 5:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 5:4"/>我的良人從門孔伸進手來，</para>
+  <para style="q1" vid="SNG 5:4">我的心神隨之蕩漾，<verse eid="SNG 5:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 5:5"/>就起來為他開門；</para>
+  <para style="q1" vid="SNG 5:5">我的雙手滴下沒藥，</para>
+  <para style="q1" vid="SNG 5:5">門閂也沾了我指頭滴下的沒藥。<verse eid="SNG 5:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 5:6"/>我為良人開了門，</para>
+  <para style="q1" vid="SNG 5:6">他卻已經離開了。</para>
+  <para style="q1" vid="SNG 5:6">他的離去使我心中失落。<note caller="+" style="f"><char style="fr" closed="false">5·6 </char><char style="ft" closed="false">「他的離去使我心中失落」或譯「他說話時，我神不守舍」。</char></note></para>
+  <para style="q1" vid="SNG 5:6">我到處找他，卻找不著；</para>
+  <para style="q1" vid="SNG 5:6">我呼喚他，卻得不到回答。<verse eid="SNG 5:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 5:7"/>城中巡邏的衛兵遇見我，</para>
+  <para style="q1" vid="SNG 5:7">把我打傷了，</para>
+  <para style="q1" vid="SNG 5:7">看守城牆的人還搶走了我的披肩。<verse eid="SNG 5:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 5:8"/>
+    <char style="pn">耶路撒冷</char>的少女啊，</para>
+  <para style="q1" vid="SNG 5:8">我懇求你們，</para>
+  <para style="q1" vid="SNG 5:8">倘若遇見我的良人，</para>
+  <para style="q1" vid="SNG 5:8">請告訴他我思愛成病。<verse eid="SNG 5:8"/></para>
+  <para style="sp">耶路撒冷的少女：</para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 5:9"/>絕色佳人啊！</para>
+  <para style="q1" vid="SNG 5:9">你的良人與別的男子比較，</para>
+  <para style="q1" vid="SNG 5:9">究竟有什麼長處，</para>
+  <para style="q1" vid="SNG 5:9">以致你這樣懇求我們呢？<verse eid="SNG 5:9"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 5:10"/>我的良人紅光滿面，</para>
+  <para style="q1" vid="SNG 5:10">超越萬人。<verse eid="SNG 5:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 5:11"/>他頭如純金，</para>
+  <para style="q1" vid="SNG 5:11">頭髮像波浪，</para>
+  <para style="q1" vid="SNG 5:11">黑如烏鴉。<verse eid="SNG 5:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 5:12"/>他的眼睛清澈明亮，</para>
+  <para style="q1" vid="SNG 5:12">如同溪旁用奶洗淨的白鴿，</para>
+  <para style="q1" vid="SNG 5:12">如同鑲嵌合適的寶石。<verse eid="SNG 5:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 5:13"/>他的雙頰芬芳，</para>
+  <para style="q1" vid="SNG 5:13">猶如種滿香草的花圃。</para>
+  <para style="q1" vid="SNG 5:13">他的嘴唇好像滴著沒藥汁的百合花。<verse eid="SNG 5:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 5:14"/>他的雙臂如同鑲著水蒼玉的金杖，</para>
+  <para style="q1" vid="SNG 5:14">身體如同鑲嵌藍寶石的象牙。<verse eid="SNG 5:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 5:15"/>他的雙腿好像純金座上的白玉石柱，</para>
+  <para style="q1" vid="SNG 5:15">他的容貌像<char style="pn">黎巴嫩</char>，</para>
+  <para style="q1" vid="SNG 5:15">佳美如香柏樹。<verse eid="SNG 5:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 5:16"/>他的嘴甘甜，</para>
+  <para style="q1" vid="SNG 5:16">整個人都令人愛慕。</para>
+  <para style="q1" vid="SNG 5:16">
+    <char style="pn">耶路撒冷</char>的少女啊，</para>
+  <para style="q1" vid="SNG 5:16">這就是我的良人，</para>
+  <para style="q1" vid="SNG 5:16">我的朋友。<verse eid="SNG 5:16"/></para>
+  <chapter eid="SNG 5"/>
+  <chapter number="6" style="c" sid="SNG 6"/>
+  <para style="sp">耶路撒冷的少女：</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 6:1"/>絕色佳人啊，</para>
+  <para style="q1" vid="SNG 6:1">你的良人去了何處？</para>
+  <para style="q1" vid="SNG 6:1">你的良人轉往何方？</para>
+  <para style="q1" vid="SNG 6:1">我們好幫你尋找他。<verse eid="SNG 6:1"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 6:2"/>我的良人下到自己的園中，</para>
+  <para style="q1" vid="SNG 6:2">在香草花圃中牧放他的羊群，</para>
+  <para style="q1" vid="SNG 6:2">採集百合花。<verse eid="SNG 6:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 6:3"/>我屬於我的良人，</para>
+  <para style="q1" vid="SNG 6:3">我的良人也屬於我。</para>
+  <para style="q1" vid="SNG 6:3">他在百合花間牧放羊群。<verse eid="SNG 6:3"/></para>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 6:4"/>我的愛人啊，</para>
+  <para style="q1" vid="SNG 6:4">你像<char style="pn">得撒</char>一樣秀麗，</para>
+  <para style="q1" vid="SNG 6:4">像<char style="pn">耶路撒冷</char>一樣佳美，</para>
+  <para style="q1" vid="SNG 6:4">像旌旗飄揚的軍隊一樣威嚴。<verse eid="SNG 6:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 6:5"/>求你把視線移開吧，</para>
+  <para style="q1" vid="SNG 6:5">因為你的眼波使我迷亂。</para>
+  <para style="q1" vid="SNG 6:5">你的秀髮像從<char style="pn">基列</char>山坡下來的山羊群。<verse eid="SNG 6:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 6:6"/>你的牙齒如同一群從水裡洗淨上來的母羊，</para>
+  <para style="q1" vid="SNG 6:6">成雙成對，</para>
+  <para style="q1" vid="SNG 6:6">一顆也沒有脫落。<verse eid="SNG 6:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 6:7"/>你面紗後面的雙頰如兩瓣石榴。<verse eid="SNG 6:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 6:8"/>雖有六十個王后，</para>
+  <para style="q1" vid="SNG 6:8">八十個妃嬪和無數的宮女，<verse eid="SNG 6:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 6:9"/>但我完美無瑕的小鴿子獨一無二，</para>
+  <para style="q1" vid="SNG 6:9">她是她母親的獨女和最愛。</para>
+  <para style="q1" vid="SNG 6:9">眾女子看見她都誇她有福，</para>
+  <para style="q1" vid="SNG 6:9">王后和妃嬪見了也連連稱讚她，說：<verse eid="SNG 6:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 6:10"/>「這位燦爛似晨光，</para>
+  <para style="q1" vid="SNG 6:10">皎潔如月亮，明媚如太陽，</para>
+  <para style="q1" vid="SNG 6:10">亮麗如佈滿天際之星辰<note caller="+" style="f"><char style="fr" closed="false">6·10 </char><char style="ft" closed="false">「佈滿天際之星辰」希伯來文是「威嚴如旌旗飄揚的軍隊」，希伯來人常把星星比作天上的軍隊。</char></note>的是誰呢？」<verse eid="SNG 6:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 6:11"/>我下到核桃園中，</para>
+  <para style="q1" vid="SNG 6:11">要看看谷中嫩綠的花木，</para>
+  <para style="q1" vid="SNG 6:11">看看葡萄樹是否已發芽，</para>
+  <para style="q1" vid="SNG 6:11">石榴樹是否正在開花。<verse eid="SNG 6:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 6:12"/>不知不覺，</para>
+  <para style="q1" vid="SNG 6:12">我的心把我帶到我尊長的車上。<verse eid="SNG 6:12"/></para>
+  <para style="sp">耶路撒冷的少女：</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 6:13"/>回來吧，回來吧，</para>
+  <para style="q1" vid="SNG 6:13">
+    <char style="pn">書拉密</char>的少女！</para>
+  <para style="q1" vid="SNG 6:13">回來吧，回來吧，</para>
+  <para style="q1" vid="SNG 6:13">好讓我們再看看你！</para>
+  <para style="sp" vid="SNG 6:13">男子：</para>
+  <para style="q1" vid="SNG 6:13">你們為何目不轉睛地看著<char style="pn">書拉密</char>的少女，</para>
+  <para style="q1" vid="SNG 6:13">好像觀看<char style="pn">瑪哈念</char>的舞蹈呢？<verse eid="SNG 6:13"/></para>
+  <para style="b"/>
+  <chapter eid="SNG 6"/>
+  <chapter number="7" style="c" sid="SNG 7"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 7:1"/>我的公主啊，你的腳配上鞋多麼美啊！</para>
+  <para style="q1" vid="SNG 7:1">你美玉般圓潤的腿是巧匠的傑作。<verse eid="SNG 7:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 7:2"/>你的肚臍好像不缺調和酒的圓杯。</para>
+  <para style="q1" vid="SNG 7:2">你的腰好像被百合花環繞的麥堆。<verse eid="SNG 7:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 7:3"/>你的胸好像一對小鹿，</para>
+  <para style="q1" vid="SNG 7:3">一對孿生小鹿。<verse eid="SNG 7:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 7:4"/>你的脖子宛如象牙塔，</para>
+  <para style="q1" vid="SNG 7:4">眼睛好像<char style="pn">希實本</char>境內<char style="pn">巴特·拉並</char>門旁的水池。</para>
+  <para style="q1" vid="SNG 7:4">你的鼻子好像眺望<char style="pn">大馬士革</char>的<char style="pn">黎巴嫩</char>塔。<verse eid="SNG 7:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 7:5"/>你的頭高昂如<char style="pn">迦密</char>山，</para>
+  <para style="q1" vid="SNG 7:5">你的秀髮好像紫錦，</para>
+  <para style="q1" vid="SNG 7:5">君王的心被你的縷縷青絲繫住。<verse eid="SNG 7:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 7:6"/>我的愛人，你是多麼美麗，</para>
+  <para style="q1" vid="SNG 7:6">多麼討人喜愛，令人陶醉啊！<verse eid="SNG 7:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 7:7"/>你亭亭玉立如同棕樹，</para>
+  <para style="q1" vid="SNG 7:7">你的胸就像樹上的果串。<verse eid="SNG 7:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 7:8"/>我要攀上這棕樹，</para>
+  <para style="q1" vid="SNG 7:8">握住樹上的果子。</para>
+  <para style="q1" vid="SNG 7:8">願你的胸像葡萄串，</para>
+  <para style="q1" vid="SNG 7:8">你的氣息如蘋果般清香。<verse eid="SNG 7:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 7:9"/>你的親吻像上好的美酒。</para>
+  <para style="sp" vid="SNG 7:9">女子：</para>
+  <para style="q1" vid="SNG 7:9">願美酒流入我良人的口中，</para>
+  <para style="q1" vid="SNG 7:9">緩緩注入他陶醉的唇齒間。<verse eid="SNG 7:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 7:10"/>我屬於我的良人，</para>
+  <para style="q1" vid="SNG 7:10">是他所戀慕的。<verse eid="SNG 7:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 7:11"/>我的良人，來吧！</para>
+  <para style="q1" vid="SNG 7:11">讓我們到田間去，</para>
+  <para style="q1" vid="SNG 7:11">在村莊裡住宿吧。<verse eid="SNG 7:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 7:12"/>我們清晨去葡萄園，</para>
+  <para style="q1" vid="SNG 7:12">看看葡萄樹是否已經發芽開花，</para>
+  <para style="q1" vid="SNG 7:12">石榴樹是否正在開花。</para>
+  <para style="q1" vid="SNG 7:12">我要在那裡把我的愛情獻給你。<verse eid="SNG 7:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 7:13"/>那裡風茄飄香，</para>
+  <para style="q1" vid="SNG 7:13">門口有各樣上好的新陳美果。</para>
+  <para style="q1" vid="SNG 7:13">我的良人，這都是我為你存留的。<verse eid="SNG 7:13"/></para>
+  <para style="b"/>
+  <chapter eid="SNG 7"/>
+  <chapter number="8" style="c" sid="SNG 8"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 8:1"/>如果你是我的同胞兄弟就好了。</para>
+  <para style="q1" vid="SNG 8:1">這樣，在外頭遇見你，</para>
+  <para style="q1" vid="SNG 8:1">我也可以親吻你，</para>
+  <para style="q1" vid="SNG 8:1">沒有人會取笑我。<verse eid="SNG 8:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 8:2"/>我可以把你帶進教養我的母親家。</para>
+  <para style="q1" vid="SNG 8:2">我要給你喝石榴汁釀的醇酒。<verse eid="SNG 8:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 8:3"/>他的左手扶著我的頭，</para>
+  <para style="q1" vid="SNG 8:3">他的右手緊抱著我。<verse eid="SNG 8:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 8:4"/>
+    <char style="pn">耶路撒冷</char>的少女啊，</para>
+  <para style="q1" vid="SNG 8:4">我吩咐你們，</para>
+  <para style="q1" vid="SNG 8:4">不要叫醒或驚動愛情，</para>
+  <para style="q1" vid="SNG 8:4">等它自發吧。<verse eid="SNG 8:4"/></para>
+  <para style="sp">耶路撒冷的少女：</para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 8:5"/>那從曠野上來、靠在良人身旁的是誰呢？</para>
+  <para style="sp" vid="SNG 8:5">女子：</para>
+  <para style="q1" vid="SNG 8:5">我在蘋果樹下喚醒你，</para>
+  <para style="q1" vid="SNG 8:5">你母親在那裡懷你養你，</para>
+  <para style="q1" vid="SNG 8:5">為你受生產之苦。<verse eid="SNG 8:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 8:6"/>請把我印在你的心上，</para>
+  <para style="q1" vid="SNG 8:6">刻在你的手臂上，</para>
+  <para style="q1" vid="SNG 8:6">因為愛情如死亡一般堅固，</para>
+  <para style="q1" vid="SNG 8:6">嫉妒像陰間一樣殘酷，</para>
+  <para style="q1" vid="SNG 8:6">它燃起的火焰是燒滅一切的烈火。<verse eid="SNG 8:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 8:7"/>愛情，大水不能熄滅，</para>
+  <para style="q1" vid="SNG 8:7">江河不能淹沒。</para>
+  <para style="q1" vid="SNG 8:7">若有人想傾其家財買愛情，</para>
+  <para style="q1" vid="SNG 8:7">必遭唾棄。<verse eid="SNG 8:7"/></para>
+  <para style="sp">女子的兄長：</para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 8:8"/>我們有一個小妹，</para>
+  <para style="q1" vid="SNG 8:8">她的胸還沒有發育。</para>
+  <para style="q1" vid="SNG 8:8">若有人來提親，</para>
+  <para style="q1" vid="SNG 8:8">我們該怎麼辦？<verse eid="SNG 8:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 8:9"/>她若是牆，</para>
+  <para style="q1" vid="SNG 8:9">我們要在上面建造銀塔；</para>
+  <para style="q1" vid="SNG 8:9">她若是門，</para>
+  <para style="q1" vid="SNG 8:9">我們要用香柏木板圍護她。<verse eid="SNG 8:9"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 8:10"/>我是一面牆，</para>
+  <para style="q1" vid="SNG 8:10">我的雙乳像城樓，</para>
+  <para style="q1" vid="SNG 8:10">我在他眼中像找到平安的人。<verse eid="SNG 8:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 8:11"/>
+    <char style="pn">所羅門</char>在<char style="pn">巴力·哈們</char>有一個葡萄園，</para>
+  <para style="q1" vid="SNG 8:11">他把葡萄園租給看守的人，</para>
+  <para style="q1" vid="SNG 8:11">租金是每人一千塊銀子。<verse eid="SNG 8:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 8:12"/>我的葡萄園，我自己作主。</para>
+  <para style="q1" vid="SNG 8:12">
+    <char style="pn">所羅門</char>啊，你的一千塊銀子自己留著，</para>
+  <para style="q1" vid="SNG 8:12">二百塊銀子給管果園的人。<verse eid="SNG 8:12"/></para>
+  <para style="sp">男子：</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 8:13"/>你這住在園中的人啊，</para>
+  <para style="q1" vid="SNG 8:13">同伴們都在聆聽你的聲音，</para>
+  <para style="q1" vid="SNG 8:13">求你讓我也聽見吧！<verse eid="SNG 8:13"/></para>
+  <para style="sp">女子：</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 8:14"/>我的良人啊，</para>
+  <para style="q1" vid="SNG 8:14">願你像香草山上的羚羊和小鹿，</para>
+  <para style="q1" vid="SNG 8:14">快快來到我身邊！<verse eid="SNG 8:14"/></para>
+  <chapter eid="SNG 8"/>
+</usx>

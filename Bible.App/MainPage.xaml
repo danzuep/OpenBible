@@ -2,7 +2,11 @@
 <ContentPage
     x:Class="BibleApp.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:BibleApp.ViewModels">
+    <!--<ContentPage.BindingContext>
+        <vm:MainPageViewModel />
+    </ContentPage.BindingContext>-->
 
     <Shell.TitleView>
         <StackLayout>
@@ -45,10 +49,15 @@
                             Text="{Binding Number}" />
                         <!--  TODO - Hanzi jyutping ruby characters, like furigana  -->
                         <Label
+                            x:Name="VerseTextLabel"
                             Grid.Column="1"
                             Padding="5,0"
                             FontSize="16"
-                            Text="{Binding Text}" />
+                            Text="{Binding Text}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OnLabelTappedCommand}" CommandParameter="{Binding Source={x:Reference VerseTextLabel}}" />
+                            </Label.GestureRecognizers>
+                        </Label>
                     </Grid>
                 </DataTemplate>
             </BindableLayout.ItemTemplate>

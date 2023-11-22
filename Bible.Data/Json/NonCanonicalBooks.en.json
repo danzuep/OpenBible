@@ -1,113 +1,39 @@
 {
-  "TOB": {
-    "name": "Tobit"
-  },
-  "JDT": {
-    "name": "Judith"
-  },
-  "ESG": {
-    "name": "Esther (Greek)"
-  },
-  "WIS": {
-    "name": "Wisdom of Solomon"
-  },
-  "SIR": {
-    "name": "Sirach (Ecclesiasticus)"
-  },
-  "BAR": {
-    "name": "Baruch"
-  },
-  "LJE": {
-    "name": "Letter of Jeremiah"
-  },
-  "S3Y": {
-    "name": "Prayer of Azariah"
-  },
-  "SUS": {
-    "name": "Susanna"
-  },
-  "BEL": {
-    "name": "Bel and the Dragon"
-  },
-  "1MA": {
-    "name": "1 Maccabees"
-  },
-  "2MA": {
-    "name": "2 Maccabees"
-  },
-  "3MA": {
-    "name": "3 Maccabees"
-  },
-  "4MA": {
-    "name": "4 Maccabees"
-  },
-  "1ES": {
-    "name": "1 Esdras (Greek Ezra)"
-  },
-  "2ES": {
-    "name": "2 Esdras (Apocalypse of Ezra)"
-  },
-  "MAN": {
-    "name": "Prayer of Manasseh"
-  },
-  "PS2": {
-    "name": "Psalm 151"
-  },
-  "ODA": {
-    "name": "Odes"
-  },
-  "PSS": {
-    "name": "Psalms of Solomon"
-  },
-  "EZA": {
-    "name": "4 Ezra"
-  },
-  "5EZ": {
-    "name": "5 Ezra"
-  },
-  "6EZ": {
-    "name": "6 Ezra"
-  },
-  "DAG": {
-    "name": "Daniel (Greek)"
-  },
-  "PS3": {
-    "name": "5 Apocryphal Syriac Psalms"
-  },
-  "2BA": {
-    "name": "2 Baruch"
-  },
-  "LBA": {
-    "name": "Letter of Baruch"
-  },
-  "JUB": {
-    "name": "Jubilees"
-  },
-  "ENO": {
-    "name": "1 Enoch"
-  },
-  "1MQ": {
-    "name": "1 Meqabyan (Ethiopic Apocalypse of Enoch)"
-  },
-  "2MQ": {
-    "name": "2 Meqabyan (Slavonic Apocalypse of Enoch)"
-  },
-  "3MQ": {
-    "name": "3 Meqabyan (Hebrew Apocalypse of Enoch)"
-  },
-  "3BA": {
-    "name": "3 Baruch"
-  },
-  "4BA": {
-    "name": "4 Baruch"
-  },
-  "LET": {
-    "name": "Letter of Jeremiah"
-  },
-  "SIB": {
-    "name": "Sibylline Oracles"
-  },
-  "EPJ": {
-    "name": "Epistle of Jeremiah"
-  }
+  "TOB": "Tobit",
+  "JDT": "Judith",
+  "ESG": "Esther (Greek)",
+  "WIS": "Wisdom of Solomon",
+  "SIR": "Sirach (Ecclesiasticus)",
+  "BAR": "Baruch",
+  "LJE": "Letter of Jeremiah",
+  "S3Y": "Prayer of Azariah",
+  "SUS": "Susanna",
+  "BEL": "Bel and the Dragon",
+  "1MA": "1 Maccabees",
+  "2MA": "2 Maccabees",
+  "3MA": "3 Maccabees",
+  "4MA": "4 Maccabees",
+  "1ES": "1 Esdras (Greek Ezra)",
+  "2ES": "2 Esdras (Apocalypse of Ezra)",
+  "MAN": "Prayer of Manasseh",
+  "PS2": "Psalm 151",
+  "ODA": "Odes",
+  "PSS": "Psalms of Solomon",
+  "EZA": "4 Ezra",
+  "5EZ": "5 Ezra",
+  "6EZ": "6 Ezra",
+  "DAG": "Daniel (Greek)",
+  "PS3": "5 Apocryphal Syriac Psalms",
+  "2BA": "2 Baruch",
+  "LBA": "Letter of Baruch",
+  "JUB": "Jubilees",
+  "ENO": "1 Enoch",
+  "1MQ": "1 Meqabyan (Ethiopic Apocalypse of Enoch)",
+  "2MQ": "2 Meqabyan (Slavonic Apocalypse of Enoch)",
+  "3MQ": "3 Meqabyan (Hebrew Apocalypse of Enoch)",
+  "3BA": "3 Baruch",
+  "4BA": "4 Baruch",
+  "LET": "Letter of Jeremiah",
+  "SIB": "Sibylline Oracles",
+  "EPJ": "Epistle of Jeremiah"
 }

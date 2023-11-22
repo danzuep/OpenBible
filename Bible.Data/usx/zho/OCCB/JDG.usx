@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="JDG" style="id">- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)</book>
+  <para style="h">士師記</para>
+  <para style="toc1">士師記</para>
+  <para style="toc2">士師記</para>
+  <para style="toc3">士</para>
+  <para style="mt1">士師記</para>
+  <chapter number="1" style="c" sid="JDG 1"/>
+  <para style="s1">猶大支派攻打迦南人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 1:1"/>
+    <char style="pn">約書亞</char>去世以後，<char style="pn">以色列</char>人求問耶和華：「我們哪一個支派先上去攻打<char style="pn">迦南</char>人呢？」 <verse eid="JDG 1:1"/><verse number="2" style="v" sid="JDG 1:2"/>耶和華說：「<char style="pn">猶大</char>支派先去，我已把那片土地交在他們手中了。」 <verse eid="JDG 1:2"/><verse number="3" style="v" sid="JDG 1:3"/><char style="pn">猶大</char>人對同胞<char style="pn">西緬</char>人說：「請跟我們一同到我們分得的地方攻打<char style="pn">迦南</char>人，我們也會同樣幫助你們。」於是，<char style="pn">西緬</char>人便與<char style="pn">猶大</char>人同去。 <verse eid="JDG 1:3"/><verse number="4" style="v" sid="JDG 1:4"/><char style="pn">猶大</char>人上去攻打<char style="pn">迦南</char>人和<char style="pn">比利洗</char>人，耶和華使他們得勝，在<char style="pn">比色</char>殺了一萬敵軍。 <verse eid="JDG 1:4"/><verse number="5" style="v" sid="JDG 1:5"/>他們又在那裡遇見<char style="pn">亞多尼·比色</char>，與他交戰，打敗了他帶領的<char style="pn">迦南</char>人和<char style="pn">比利洗</char>人。 <verse eid="JDG 1:5"/><verse number="6" style="v" sid="JDG 1:6"/><char style="pn">亞多尼·比色</char>逃跑，他們追上去擒住他，砍掉他的大拇指和大腳趾。 <verse eid="JDG 1:6"/><verse number="7" style="v" sid="JDG 1:7"/><char style="pn">亞多尼·比色</char>說：「從前七十個王被我砍掉大拇指和大腳趾，在我桌下撿食物碎屑，現在上帝照我的行為報應我了。」他們把他帶到<char style="pn">耶路撒冷</char>，他就死在那裡。<verse eid="JDG 1:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JDG 1:8"/>
+    <char style="pn">猶大</char>人攻陷<char style="pn">耶路撒冷</char>，用刀殺了城內的所有居民，並放火焚城。 <verse eid="JDG 1:8"/><verse number="9" style="v" sid="JDG 1:9"/>隨後，他們下去攻打住在山區、南地和丘陵的<char style="pn">迦南</char>人， <verse eid="JDG 1:9"/><verse number="10" style="v" sid="JDG 1:10"/>又進攻住在<char style="pn">希伯崙</char>的<char style="pn">迦南</char>人，殺了<char style="pn">示篩</char>、<char style="pn">亞希幔</char>和<char style="pn">撻買</char>。<char style="pn">希伯崙</char>從前叫<char style="pn">基列·亞巴</char>。<verse eid="JDG 1:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JDG 1:11"/>他們從那裡出兵攻打<char style="pn">底璧</char>，<char style="pn">底璧</char>從前叫<char style="pn">基列·西弗</char>。 <verse eid="JDG 1:11"/><verse number="12" style="v" sid="JDG 1:12"/><char style="pn">迦勒</char>說：「誰攻取<char style="pn">基列·西弗</char>，我就把女兒<char style="pn">押撒</char>嫁給他。」 <verse eid="JDG 1:12"/><verse number="13" style="v" sid="JDG 1:13"/><char style="pn">迦勒</char>的弟弟<char style="pn">基納斯</char>的兒子<char style="pn">俄陀聶</char>攻取了那城，<char style="pn">迦勒</char>便把女兒<char style="pn">押撒</char>嫁給他。 <verse eid="JDG 1:13"/><verse number="14" style="v" sid="JDG 1:14"/><char style="pn">押撒</char>出嫁的時候，勸丈夫向她父親要一塊田。她剛下驢，<char style="pn">迦勒</char>便問她：「你想要什麼？」 <verse eid="JDG 1:14"/><verse number="15" style="v" sid="JDG 1:15"/>她回答說：「求你賜福給我，你既然把南地賜給我，求你也把水泉給我吧。」<char style="pn">迦勒</char>就把上泉和下泉都給了她。<verse eid="JDG 1:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JDG 1:16"/>
+    <char style="pn">摩西</char>岳父的後代<char style="pn">基尼</char>人和<char style="pn">猶大</char>人一同離開棕樹城<note caller="+" style="f"><char style="fr" closed="false">1·16 </char><char style="ft" closed="false">「棕樹城」即「耶利哥」。</char></note>，到<char style="pn">猶大</char>南部曠野的<char style="pn">亞拉得</char>附近，跟當地人一起居住。 <verse eid="JDG 1:16"/><verse number="17" style="v" sid="JDG 1:17"/>之後，<char style="pn">猶大</char>人隨同胞<char style="pn">西緬</char>人一起攻打<char style="pn">洗法</char>城內的<char style="pn">迦南</char>人，徹底毀滅了那城。因此那城叫<char style="pn">何珥瑪</char><note caller="+" style="f"><char style="fr" closed="false">1·17 </char><char style="ft" closed="false">「何珥瑪」意思是「覆滅之城」。</char></note>。 <verse eid="JDG 1:17"/><verse number="18" style="v" sid="JDG 1:18"/><char style="pn">猶大</char>人又奪取了<char style="pn">迦薩</char>、<char style="pn">亞實基倫</char>和<char style="pn">以革倫</char>三座城邑及周圍地區。 <verse eid="JDG 1:18"/><verse number="19" style="v" sid="JDG 1:19"/>耶和華與<char style="pn">猶大</char>人同在。他們攻佔了山區，卻沒能趕走平原的居民，因為那裡的人有鐵戰車。 <verse eid="JDG 1:19"/><verse number="20" style="v" sid="JDG 1:20"/>照<char style="pn">摩西</char>的吩咐，<char style="pn">迦勒</char>得到了<char style="pn">希伯崙</char>。他把<char style="pn">亞衲</char>三族的人從那裡趕走。 <verse eid="JDG 1:20"/><verse number="21" style="v" sid="JDG 1:21"/><char style="pn">便雅憫</char>人沒有趕走居住在<char style="pn">耶路撒冷</char>的<char style="pn">耶布斯</char>人，<char style="pn">耶布斯</char>人至今仍和他們住在一起。<verse eid="JDG 1:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JDG 1:22"/>
+    <char style="pn">約瑟</char>家族也上去攻打<char style="pn">伯特利</char>，耶和華與他們同在。 <verse eid="JDG 1:22"/><verse number="23" style="v" sid="JDG 1:23"/>他們先派人去打探<char style="pn">伯特利</char>，那裡從前名叫<char style="pn">路斯</char>。 <verse eid="JDG 1:23"/><verse number="24" style="v" sid="JDG 1:24"/>探子看見一個人從城裡出來，就對他說：「請你告訴我們進城的路，我們必善待你。」 <verse eid="JDG 1:24"/><verse number="25" style="v" sid="JDG 1:25"/>那人便告訴他們進城的路，他們用刀殺了城內所有的居民，只放走了那人及其全家。 <verse eid="JDG 1:25"/><verse number="26" style="v" sid="JDG 1:26"/>後來，那人搬到<char style="pn">赫</char>人的地方，築了一座城，稱之為<char style="pn">路斯</char>，沿用至今。<verse eid="JDG 1:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JDG 1:27"/>
+    <char style="pn">瑪拿西</char>人沒有趕走<char style="pn">伯·善</char>、<char style="pn">他納</char>、<char style="pn">多珥</char>、<char style="pn">以伯蓮</char>和<char style="pn">米吉多</char>眾城邑及其周圍村莊的居民，因為這些<char style="pn">迦南</char>人執意住在那裡。 <verse eid="JDG 1:27"/><verse number="28" style="v" sid="JDG 1:28"/><char style="pn">以色列</char>人強盛時，就強迫他們服勞役，卻沒有全部趕走他們。<verse eid="JDG 1:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JDG 1:29"/>
+    <char style="pn">以法蓮</char>人沒有趕走住在<char style="pn">基色</char>的<char style="pn">迦南</char>人，這些<char style="pn">迦南</char>人仍然住在他們當中。<verse eid="JDG 1:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="JDG 1:30"/>
+    <char style="pn">西布倫</char>人沒有趕走<char style="pn">基倫</char>和<char style="pn">拿哈拉</char>的居民，這些<char style="pn">迦南</char>人仍然住在他們當中，為他們服勞役。<verse eid="JDG 1:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JDG 1:31"/>
+    <char style="pn">亞設</char>人沒有趕走<char style="pn">亞柯</char>、<char style="pn">西頓</char>、<char style="pn">亞黑拉</char>、<char style="pn">亞革悉</char>、<char style="pn">黑巴</char>、<char style="pn">亞弗革</char>和<char style="pn">利合</char>的居民。 <verse eid="JDG 1:31"/><verse number="32" style="v" sid="JDG 1:32"/><char style="pn">亞設</char>人因為沒有趕出當地的<char style="pn">迦南</char>人，就住在他們當中。<verse eid="JDG 1:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JDG 1:33"/>
+    <char style="pn">拿弗他利</char>人沒有趕走<char style="pn">伯·示麥</char>和<char style="pn">伯·亞納</char>的居民，於是就住在這些<char style="pn">迦南</char>人當中，強迫他們服勞役。<verse eid="JDG 1:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JDG 1:34"/>
+    <char style="pn">亞摩利</char>人強迫<char style="pn">但</char>人住在山區，不准他們下到平原。 <verse eid="JDG 1:34"/><verse number="35" style="v" sid="JDG 1:35"/><char style="pn">亞摩利</char>人執意住在<char style="pn">希烈</char>山、<char style="pn">亞雅崙</char>和<char style="pn">沙賓</char>，但<char style="pn">約瑟</char>家族強盛時，就強迫他們服勞役。 <verse eid="JDG 1:35"/><verse number="36" style="v" sid="JDG 1:36"/><char style="pn">亞摩利</char>人的邊界從<char style="pn">亞克拉濱</char>山坡起，一直到<char style="pn">西拉</char>以北。<verse eid="JDG 1:36"/></para>
+  <chapter eid="JDG 1"/>
+  <chapter number="2" style="c" sid="JDG 2"/>
+  <para style="s1">耶和華責備以色列人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 2:1"/>耶和華的天使從<char style="pn">吉甲</char>來到<char style="pn">波金</char>，對<char style="pn">以色列</char>人說：「我帶你們出<char style="pn">埃及</char>，領你們來到我起誓要賜給你們祖先的土地。我說，『我永不廢棄跟你們立的約， <verse eid="JDG 2:1"/><verse number="2" style="v" sid="JDG 2:2"/>你們不可跟這裡的居民立約，要毀掉他們的祭壇。』可是你們為什麼不聽呢？ <verse eid="JDG 2:2"/><verse number="3" style="v" sid="JDG 2:3"/>因此，我告訴你們，我必不趕走這裡的居民，他們必成為你們肋旁的刺，他們的神明必成為你們的網羅。」 <verse eid="JDG 2:3"/><verse number="4" style="v" sid="JDG 2:4"/>耶和華的天使說完這些話，<char style="pn">以色列</char>人放聲大哭， <verse eid="JDG 2:4"/><verse number="5" style="v" sid="JDG 2:5"/>他們稱那地方為<char style="pn">波金</char><note caller="+" style="f"><char style="fr" closed="false">2·5 </char><char style="ft" closed="false">「波金」意思是「哭泣」。</char></note>，在那裡向耶和華獻祭。<verse eid="JDG 2:5"/></para>
+  <para style="s1">約書亞去世</para>
+  <para style="p">
+    <verse number="6" style="v" sid="JDG 2:6"/>
+    <char style="pn">約書亞</char>遣散<char style="pn">以色列</char>人後，他們便各自去攻佔所分得的土地。 <verse eid="JDG 2:6"/><verse number="7" style="v" sid="JDG 2:7"/><char style="pn">約書亞</char>在世的時候，<char style="pn">以色列</char>人都事奉耶和華。他死後，那些目睹耶和華為<char style="pn">以色列</char>人行大事的長老還在世的時候，<char style="pn">以色列</char>人仍事奉耶和華。 <verse eid="JDG 2:7"/><verse number="8" style="v" sid="JDG 2:8"/>耶和華的僕人、<char style="pn">嫩</char>的兒子<char style="pn">約書亞</char>去世時一百一十歲。 <verse eid="JDG 2:8"/><verse number="9" style="v" sid="JDG 2:9"/><char style="pn">以色列</char>人把他葬在他自己的土地上，在<char style="pn">迦實</char>山以北、<char style="pn">以法蓮</char>山區的<char style="pn">亭拿·希烈</char>。 <verse eid="JDG 2:9"/><verse number="10" style="v" sid="JDG 2:10"/>那一代人都去世後，新一代不認識耶和華，也不知道耶和華為<char style="pn">以色列</char>人所行的事。<verse eid="JDG 2:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JDG 2:11"/>
+    <char style="pn">以色列</char>人做耶和華視為惡的事，祭拜<char style="pn">巴力</char>。 <verse eid="JDG 2:11"/><verse number="12" style="v" sid="JDG 2:12"/>他們背棄了領他們祖先離開<char style="pn">埃及</char>的上帝耶和華，追隨、祭拜鄰邦的各種神明，因而惹耶和華發怒。 <verse eid="JDG 2:12"/><verse number="13" style="v" sid="JDG 2:13"/>他們背棄耶和華，去祭拜<char style="pn">巴力</char>和<char style="pn">亞斯她錄</char>。 <verse eid="JDG 2:13"/><verse number="14" style="v" sid="JDG 2:14"/>耶和華向他們發怒，使他們受到掠奪者的攻擊和四周仇敵的壓制，毫無抵抗之力。 <verse eid="JDG 2:14"/><verse number="15" style="v" sid="JDG 2:15"/>他們每次出戰，耶和華都出手與他們為敵，使他們戰敗，正如祂的誓言。他們苦不堪言。<verse eid="JDG 2:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JDG 2:16"/>後來，耶和華使士師<note caller="+" style="f"><char style="fr" closed="false">2·16 </char><char style="ft" closed="false">「士師」意思是「首領」。</char></note>興起，從掠奪者手中拯救他們。 <verse eid="JDG 2:16"/><verse number="17" style="v" sid="JDG 2:17"/>但他們不聽從士師的話，與其他神明苟合，祭拜它們，很快偏離他們祖先的道路，沒有像他們的祖先那樣遵行耶和華的命令。 <verse eid="JDG 2:17"/><verse number="18" style="v" sid="JDG 2:18"/>耶和華見他們因敵人的壓迫和苦待而哀號，就憐憫他們，使士師陸續興起，並與每位士師同在。士師在世之日，耶和華從仇敵手中拯救他們。 <verse eid="JDG 2:18"/><verse number="19" style="v" sid="JDG 2:19"/>士師去世以後，他們又故態復萌，追隨、祭拜其他神明，比他們的祖先更敗壞。他們執迷不悟，怙惡不悛。 <verse eid="JDG 2:19"/><verse number="20" style="v" sid="JDG 2:20"/>耶和華向他們發怒，說：「這百姓違背了我跟他們祖先所立的約，不聽從我的話。 <verse eid="JDG 2:20"/><verse number="21" style="v" sid="JDG 2:21"/>因此，我不再逐出<char style="pn">約書亞</char>去世時還沒有趕走的外族人， <verse eid="JDG 2:21"/><verse number="22" style="v" sid="JDG 2:22"/>我要藉此試驗<char style="pn">以色列</char>人，看他們是否像他們祖先一樣謹遵我的道。」 <verse eid="JDG 2:22"/><verse number="23" style="v" sid="JDG 2:23"/>這就是為什麼耶和華留下那些外族人，沒有立刻把他們趕走，也沒有把他們交在<char style="pn">約書亞</char>手中。<verse eid="JDG 2:23"/></para>
+  <chapter eid="JDG 2"/>
+  <chapter number="3" style="c" sid="JDG 3"/>
+  <para style="s1">迦南餘族</para>
+  <para style="p">
+    <verse number="1-2" style="v" sid="JDG 3:1-2"/>耶和華為了考驗那些沒有經歷過<char style="pn">迦南</char>戰事的<char style="pn">以色列</char>人，讓他們學習作戰，就留下了以下各族： <verse eid="JDG 3:1-2"/><verse number="3" style="v" sid="JDG 3:3"/>五個<char style="pn">非利士</char>王、所有的<char style="pn">迦南</char>人、<char style="pn">西頓</char>人和住在<char style="pn">巴力·黑門</char>山到<char style="pn">哈馬口</char>一帶的<char style="pn">黎巴嫩</char>山區的<char style="pn">希未</char>人。 <verse eid="JDG 3:3"/><verse number="4" style="v" sid="JDG 3:4"/>耶和華留下這幾個外族是要考驗<char style="pn">以色列</char>人，看他們是否願意遵從祂藉<char style="pn">摩西</char>向他們祖先頒佈的誡命。 <verse eid="JDG 3:4"/><verse number="5" style="v" sid="JDG 3:5"/><char style="pn">以色列</char>人住在這些<char style="pn">迦南</char>人、<char style="pn">赫</char>人、<char style="pn">亞摩利</char>人、<char style="pn">比利洗</char>人、<char style="pn">希未</char>人和<char style="pn">耶布斯</char>人當中， <verse eid="JDG 3:5"/><verse number="6" style="v" sid="JDG 3:6"/>跟他們通婚，祭拜他們的神明。<verse eid="JDG 3:6"/></para>
+  <para style="s1">士師俄陀聶</para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 3:7"/>
+    <char style="pn">以色列</char>人做耶和華視為惡的事，忘記他們的上帝耶和華，祭拜假神<char style="pn">巴力</char>和<char style="pn">亞舍拉</char>。 <verse eid="JDG 3:7"/><verse number="8" style="v" sid="JDG 3:8"/>耶和華向他們發怒，把他們交在<char style="pn">美索不達米亞</char>王<char style="pn">古珊·利薩田</char>的手中，受<char style="pn">古珊·利薩田</char>統治八年。 <verse eid="JDG 3:8"/><verse number="9" style="v" sid="JDG 3:9"/>他們向耶和華呼求，耶和華就使一位名叫<char style="pn">俄陀聶</char>的拯救者興起，他是<char style="pn">迦勒</char>弟弟<char style="pn">基納斯</char>的兒子。 <verse eid="JDG 3:9"/><verse number="10" style="v" sid="JDG 3:10"/>耶和華的靈降在<char style="pn">俄陀聶</char>身上，他就做了<char style="pn">以色列</char>的士師，領兵出戰。耶和華將<char style="pn">美索不達米亞</char>王<char style="pn">古珊·利薩田</char>交在他手中，他便戰勝了<char style="pn">古珊·利薩田</char>。 <verse eid="JDG 3:10"/><verse number="11" style="v" sid="JDG 3:11"/>此後，國內安享太平四十年，直到<char style="pn">俄陀聶</char>去世。<verse eid="JDG 3:11"/></para>
+  <para style="s1">士師以笏</para>
+  <para style="p">
+    <verse number="12" style="v" sid="JDG 3:12"/>之後，<char style="pn">以色列</char>人又做耶和華視為惡的事，耶和華就使<char style="pn">摩押</char>王<char style="pn">伊磯倫</char>強盛起來，攻打<char style="pn">以色列</char>人。 <verse eid="JDG 3:12"/><verse number="13" style="v" sid="JDG 3:13"/><char style="pn">伊磯倫</char>聯合<char style="pn">亞捫</char>人和<char style="pn">亞瑪力</char>人進攻<char style="pn">以色列</char>人，佔據了棕樹城， <verse eid="JDG 3:13"/><verse number="14" style="v" sid="JDG 3:14"/><char style="pn">以色列</char>人受<char style="pn">摩押</char>王<char style="pn">伊磯倫</char>統治十八年。 <verse eid="JDG 3:14"/><verse number="15" style="v" sid="JDG 3:15"/>他們呼求耶和華，耶和華就使一位名叫<char style="pn">以笏</char>的拯救者興起。他是<char style="pn">便雅憫</char>人<char style="pn">基拉</char>的兒子，善用左手。<char style="pn">以色列</char>人派他去向<char style="pn">摩押</char>王<char style="pn">伊磯倫</char>進貢。 <verse eid="JDG 3:15"/><verse number="16" style="v" sid="JDG 3:16"/>他造了一把約半米長的兩刃利劍，綁在右腿的衣服裡。 <verse eid="JDG 3:16"/><verse number="17" style="v" sid="JDG 3:17"/>他帶著貢物去見極其肥胖的<char style="pn">摩押</char>王<char style="pn">伊磯倫</char>。 <verse eid="JDG 3:17"/><verse number="18" style="v" sid="JDG 3:18"/><char style="pn">以笏</char>獻上了貢物之後，便讓抬貢物的人先回去。 <verse eid="JDG 3:18"/><verse number="19" style="v" sid="JDG 3:19"/>他自己從<char style="pn">吉甲</char>附近的石雕神像處折回王宮，對王說：「王啊，我有機密稟告。」王就命左右侍從迴避，眾人便都退去。 <verse eid="JDG 3:19"/><verse number="20" style="v" sid="JDG 3:20"/>當時王獨自坐在樓上的房間乘涼，<char style="pn">以笏</char>近前說：「我有從上帝而來的訊息要稟告。」王從座位上站起來的時候， <verse eid="JDG 3:20"/><verse number="21" style="v" sid="JDG 3:21"/><char style="pn">以笏</char>左手拔出藏在右腿上的劍刺進王的肚腹， <verse eid="JDG 3:21"/><verse number="22" style="v" sid="JDG 3:22"/>連劍柄也刺了進去，深深嵌入肥肉。<char style="pn">以笏</char>沒有拔劍， <verse eid="JDG 3:22"/><verse number="23" style="v" sid="JDG 3:23"/>便走出房間，把門都關上，鎖好。<verse eid="JDG 3:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JDG 3:24"/>
+    <char style="pn">以笏</char>走後，王的僕人過來，見房門緊鎖，以為王在大解。 <verse eid="JDG 3:24"/><verse number="25" style="v" sid="JDG 3:25"/>等了很久，門還沒開，他們很焦急，就拿鑰匙開門，發現他們的主人已經倒斃在地上。<verse eid="JDG 3:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JDG 3:26"/>他們等待的時候，<char style="pn">以笏</char>已經逃走了。他經過石雕神像處，逃往<char style="pn">西伊拉</char>。 <verse eid="JDG 3:26"/><verse number="27" style="v" sid="JDG 3:27"/>到了那裡，他就在<char style="pn">以法蓮</char>的山區吹響號角，召集<char style="pn">以色列</char>人。眾人跟隨<char style="pn">以笏</char>下山， <verse eid="JDG 3:27"/><verse number="28" style="v" sid="JDG 3:28"/><char style="pn">以笏</char>對他們說：「跟我來！耶和華已經把仇敵<char style="pn">摩押</char>人交在你們手中了。」於是，眾人跟著他下去佔領了通往<char style="pn">摩押</char>的<char style="pn">約旦</char>河各渡口，不許任何人渡河。 <verse eid="JDG 3:28"/><verse number="29" style="v" sid="JDG 3:29"/>當時他們殺了約一萬名強悍善戰的<char style="pn">摩押</char>勇士，沒有一人逃脫。 <verse eid="JDG 3:29"/><verse number="30" style="v" sid="JDG 3:30"/>這樣，<char style="pn">以色列</char>人征服了<char style="pn">摩押</char>人，國中安享太平八十年。<verse eid="JDG 3:30"/></para>
+  <para style="s1">珊迦</para>
+  <para style="p">
+    <verse number="31" style="v" sid="JDG 3:31"/>
+    <char style="pn">以笏</char>之後，<char style="pn">亞拿</char>的兒子<char style="pn">珊迦</char>拯救了<char style="pn">以色列</char>人。他曾用一根趕牛棍殺了六百名<char style="pn">非利士</char>人。<verse eid="JDG 3:31"/></para>
+  <chapter eid="JDG 3"/>
+  <chapter number="4" style="c" sid="JDG 4"/>
+  <para style="s1">士師底波拉</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 4:1"/>
+    <char style="pn">以笏</char>死後，<char style="pn">以色列</char>人又做耶和華視為惡的事。 <verse eid="JDG 4:1"/><verse number="2" style="v" sid="JDG 4:2"/>耶和華把他們交在統治<char style="pn">夏瑣</char>的<char style="pn">迦南</char>王<char style="pn">耶賓</char>手中。<char style="pn">耶賓</char>王的將軍叫<char style="pn">西西拉</char>，住在<char style="pn">夏羅設</char>。 <verse eid="JDG 4:2"/><verse number="3" style="v" sid="JDG 4:3"/><char style="pn">耶賓</char>王擁有九百輛鐵戰車，他殘暴地壓迫<char style="pn">以色列</char>人二十年。<char style="pn">以色列</char>人向耶和華呼求。<verse eid="JDG 4:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JDG 4:4"/>當時做<char style="pn">以色列</char>士師的是女先知<char style="pn">底波拉</char>，她是<char style="pn">拉比多</char>的妻子， <verse eid="JDG 4:4"/><verse number="5" style="v" sid="JDG 4:5"/>經常坐在<char style="pn">以法蓮</char>山區<char style="pn">拉瑪</char>和<char style="pn">伯特利</char>之間的<char style="pn">底波拉</char>棕樹下，審理<char style="pn">以色列</char>人的糾紛。 <verse eid="JDG 4:5"/><verse number="6" style="v" sid="JDG 4:6"/>她派人去<char style="pn">拿弗他利</char>的<char style="pn">基低斯</char>召來<char style="pn">亞比挪庵</char>的兒子<char style="pn">巴拉</char>，對他說：「<char style="pn">以色列</char>的上帝耶和華命你率領一萬<char style="pn">拿弗他利</char>人和<char style="pn">西布倫</char>人上<char style="pn">他泊</char>山。 <verse eid="JDG 4:6"/><verse number="7" style="v" sid="JDG 4:7"/>祂必使<char style="pn">耶賓</char>的將軍<char style="pn">西西拉</char>率領全軍和戰車到<char style="pn">基順</char>河與你交戰，祂必把<char style="pn">西西拉</char>交在你手中。」 <verse eid="JDG 4:7"/><verse number="8" style="v" sid="JDG 4:8"/><char style="pn">巴拉</char>回答說：「你跟我去，我就去；你不跟我去，我就不去。」 <verse eid="JDG 4:8"/><verse number="9" style="v" sid="JDG 4:9"/><char style="pn">底波拉</char>說：「好，我一定與你同去。不過，你這次出征一定得不到榮耀，因為耶和華要把<char style="pn">西西拉</char>交在一名婦人手上。」於是，<char style="pn">底波拉</char>起身與<char style="pn">巴拉</char>一同前往<char style="pn">基低斯</char>。 <verse eid="JDG 4:9"/><verse number="10" style="v" sid="JDG 4:10"/><char style="pn">巴拉</char>招聚了一萬名<char style="pn">拿弗他利</char>人和<char style="pn">西布倫</char>人，<char style="pn">底波拉</char>與他一起出征。<verse eid="JDG 4:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JDG 4:11"/>
+    <char style="pn">摩西</char>的岳父<char style="pn">何巴</char>的後人<char style="pn">基尼</char>人<char style="pn">希百</char>離開自己的族人，在<char style="pn">基低斯</char>附近<char style="pn">撒拿音</char>的橡樹旁搭帳篷居住。<verse eid="JDG 4:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JDG 4:12"/>
+    <char style="pn">西西拉</char>得知<char style="pn">亞比挪庵</char>的兒子<char style="pn">巴拉</char>已經上了<char style="pn">他泊</char>山， <verse eid="JDG 4:12"/><verse number="13" style="v" sid="JDG 4:13"/>便召集全軍和九百輛鐵戰車離開<char style="pn">夏羅設</char>，向<char style="pn">基順</char>河進軍。 <verse eid="JDG 4:13"/><verse number="14" style="v" sid="JDG 4:14"/><char style="pn">底波拉</char>對<char style="pn">巴拉</char>說：「出擊吧！今天耶和華要把<char style="pn">西西拉</char>交在你手中。看啊，耶和華已經率先出戰了！」於是，<char style="pn">巴拉</char>率領一萬人下了<char style="pn">他泊</char>山， <verse eid="JDG 4:14"/><verse number="15" style="v" sid="JDG 4:15"/>進攻<char style="pn">西西拉</char>。耶和華使<char style="pn">西西拉</char>的戰車和軍隊潰亂，敗在<char style="pn">巴拉</char>刀下。<char style="pn">西西拉</char>棄車徒步逃跑， <verse eid="JDG 4:15"/><verse number="16" style="v" sid="JDG 4:16"/><char style="pn">巴拉</char>追擊他的戰車和軍隊，直到<char style="pn">夏羅設</char>。<char style="pn">西西拉</char>全軍都死於刀下，無一逃脫。<verse eid="JDG 4:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JDG 4:17"/>只有<char style="pn">西西拉</char>一人徒步逃到<char style="pn">基尼</char>人<char style="pn">希百</char>的妻子<char style="pn">雅億</char>的帳篷，因為<char style="pn">夏瑣</char>王<char style="pn">耶賓</char>和<char style="pn">希百</char>家向來友好。 <verse eid="JDG 4:17"/><verse number="18" style="v" sid="JDG 4:18"/><char style="pn">雅億</char>出來迎接<char style="pn">西西拉</char>，對他說：「我主，請進，不用怕！」<char style="pn">西西拉</char>便走進帳篷，<char style="pn">雅億</char>為他蓋上毯子。 <verse eid="JDG 4:18"/><verse number="19" style="v" sid="JDG 4:19"/><char style="pn">西西拉</char>說：「我口渴，請給我一點水吧。」<char style="pn">雅億</char>打開皮袋給他奶喝，然後又給他蓋上毯子。 <verse eid="JDG 4:19"/><verse number="20" style="v" sid="JDG 4:20"/><char style="pn">西西拉</char>又說：「請你守著門口，倘若有人查問，你就說沒人來過這裡。」 <verse eid="JDG 4:20"/><verse number="21" style="v" sid="JDG 4:21"/><char style="pn">西西拉</char>因疲勞過度，沉沉入睡。<char style="pn">雅億</char>乘機拿起錘子和一根帳篷的橛子，悄悄地走到他身旁，把橛子釘進他的太陽穴，直插到地裡。<char style="pn">西西拉</char>就這樣死了。 <verse eid="JDG 4:21"/><verse number="22" style="v" sid="JDG 4:22"/><char style="pn">巴拉</char>追來了，<char style="pn">雅億</char>出來迎接他，對他說：「你找的人在這裡，進來看看吧。」<char style="pn">巴拉</char>和她進了帳篷，見<char style="pn">西西拉</char>死在那裡，太陽穴上還插著橛子。<verse eid="JDG 4:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JDG 4:23"/>那天，上帝使<char style="pn">以色列</char>人戰勝了<char style="pn">迦南</char>王<char style="pn">耶賓</char>。 <verse eid="JDG 4:23"/><verse number="24" style="v" sid="JDG 4:24"/><char style="pn">以色列</char>人越戰越勇，最終消滅了<char style="pn">迦南</char>王<char style="pn">耶賓</char>。<verse eid="JDG 4:24"/></para>
+  <chapter eid="JDG 4"/>
+  <chapter number="5" style="c" sid="JDG 5"/>
+  <para style="s1">底波拉和巴拉之歌</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 5:1"/>那一天，<char style="pn">底波拉</char>和<char style="pn">亞比挪庵</char>的兒子<char style="pn">巴拉</char>高唱凱歌：<verse eid="JDG 5:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JDG 5:2"/>「<char style="pn">以色列</char>的首領身先士卒，</para>
+  <para style="q1" vid="JDG 5:2">民眾前仆後繼，</para>
+  <para style="q1" vid="JDG 5:2">你們要讚美耶和華！<verse eid="JDG 5:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JDG 5:3"/>君王啊，請聽！首領啊，請側耳聽！</para>
+  <para style="q1" vid="JDG 5:3">我要向耶和華歌唱，</para>
+  <para style="q1" vid="JDG 5:3">我要歌頌<char style="pn">以色列</char>的上帝耶和華。<verse eid="JDG 5:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JDG 5:4"/>耶和華啊，當你從<char style="pn">西珥</char>出來，</para>
+  <para style="q1" vid="JDG 5:4">走過<char style="pn">以東</char>時，</para>
+  <para style="q1" vid="JDG 5:4">大地震動，</para>
+  <para style="q1" vid="JDG 5:4">天上下雨，</para>
+  <para style="q1" vid="JDG 5:4">雲降雨水。<verse eid="JDG 5:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JDG 5:5"/>在<char style="pn">西奈</char>山的耶和華面前，</para>
+  <para style="q1" vid="JDG 5:5">在<char style="pn">以色列</char>的上帝耶和華面前，</para>
+  <para style="q1" vid="JDG 5:5">群山震動。<verse eid="JDG 5:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JDG 5:6"/>在<char style="pn">亞拿</char>的兒子<char style="pn">珊迦</char>與<char style="pn">雅億</char>的時代，</para>
+  <para style="q1" vid="JDG 5:6">大路行人絕跡，</para>
+  <para style="q1" vid="JDG 5:6">旅客繞道前行。<verse eid="JDG 5:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JDG 5:7"/>我<char style="pn">底波拉</char>做<char style="pn">以色列</char>之母以前，</para>
+  <para style="q1" vid="JDG 5:7">
+    <char style="pn">以色列</char>的鄉村杳無人煙。<verse eid="JDG 5:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JDG 5:8"/>
+    <char style="pn">以色列</char>人選擇新的神明，</para>
+  <para style="q1" vid="JDG 5:8">便戰禍臨門，</para>
+  <para style="q1" vid="JDG 5:8">四萬<char style="pn">以色列</char>人中找不到一矛一盾。<verse eid="JDG 5:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JDG 5:9"/>我的心追隨<char style="pn">以色列</char>的首領，</para>
+  <para style="q1" vid="JDG 5:9">追隨民中踴躍出征的人。</para>
+  <para style="q1" vid="JDG 5:9">你們要讚美耶和華！<verse eid="JDG 5:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="JDG 5:10"/>「你們騎白驢的、坐繡花毯子的、步行的，</para>
+  <para style="q1" vid="JDG 5:10">都要傾聽。<verse eid="JDG 5:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JDG 5:11"/>歌樂手聚集在井旁，</para>
+  <para style="q1" vid="JDG 5:11">傳揚耶和華和祂<char style="pn">以色列</char>子民的勝利。</para>
+  <para style="q1" vid="JDG 5:11">耶和華的子民都來到城門口。<verse eid="JDG 5:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JDG 5:12"/>「<char style="pn">底波拉</char>啊，來吧，來吧，</para>
+  <para style="q1" vid="JDG 5:12">歌唱吧！</para>
+  <para style="q1" vid="JDG 5:12">
+    <char style="pn">亞比挪庵</char>的兒子<char style="pn">巴拉</char>啊，來吧，</para>
+  <para style="q1" vid="JDG 5:12">帶走你的戰俘吧！<verse eid="JDG 5:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JDG 5:13"/>倖存的<char style="pn">以色列</char>人響應他們的首領，</para>
+  <para style="q1" vid="JDG 5:13">耶和華的子民為我攻擊勇士。<verse eid="JDG 5:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JDG 5:14"/>他們有些來自原屬<char style="pn">亞瑪力</char>人的<char style="pn">以法蓮</char>，</para>
+  <para style="q1" vid="JDG 5:14">有些來自<char style="pn">便雅憫</char>，</para>
+  <para style="q1" vid="JDG 5:14">統領出自<char style="pn">瑪吉</char>，</para>
+  <para style="q1" vid="JDG 5:14">將官出自<char style="pn">西布倫</char>。<verse eid="JDG 5:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JDG 5:15"/>
+    <char style="pn">以薩迦</char>的首領與<char style="pn">底波拉</char>同往，</para>
+  <para style="q1" vid="JDG 5:15">
+    <char style="pn">以薩迦</char>人隨<char style="pn">巴拉</char>同去，</para>
+  <para style="q1" vid="JDG 5:15">眾人一起衝進山谷，</para>
+  <para style="q1" vid="JDG 5:15">
+    <char style="pn">呂便</char>人卻猶豫不決。<verse eid="JDG 5:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JDG 5:16"/>
+    <char style="pn">呂便</char>人為什麼坐在羊圈中聽悠悠笛聲？</para>
+  <para style="q1" vid="JDG 5:16">他們舉棋不定。<verse eid="JDG 5:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JDG 5:17"/>
+    <char style="pn">基列</char>人留在<char style="pn">約旦</char>河東岸。</para>
+  <para style="q1" vid="JDG 5:17">
+    <char style="pn">但</char>人為什麼停留在船上？</para>
+  <para style="q1" vid="JDG 5:17">
+    <char style="pn">亞設</char>人在海岸靜坐，</para>
+  <para style="q1" vid="JDG 5:17">在港口逗留。<verse eid="JDG 5:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JDG 5:18"/>但<char style="pn">西布倫</char>人捨生忘死，</para>
+  <para style="q1" vid="JDG 5:18">
+    <char style="pn">拿弗他利</char>人拼死鏖戰沙場。<verse eid="JDG 5:18"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="19" style="v" sid="JDG 5:19"/>「<char style="pn">迦南</char>諸王來戰，</para>
+  <para style="q1" vid="JDG 5:19">來到<char style="pn">米吉多</char>河邊的<char style="pn">他納</char>交戰，</para>
+  <para style="q1" vid="JDG 5:19">卻沒有掠走金銀。<verse eid="JDG 5:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JDG 5:20"/>星辰從天上爭戰，</para>
+  <para style="q1" vid="JDG 5:20">從它們的軌道攻擊<char style="pn">西西拉</char>。<verse eid="JDG 5:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JDG 5:21"/>古老的<char style="pn">基順</char>河沖走了敵人。</para>
+  <para style="q1" vid="JDG 5:21">我的心啊，要奮勇向前！<verse eid="JDG 5:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JDG 5:22"/>蹄聲隆隆，</para>
+  <para style="q1" vid="JDG 5:22">駿馬疾馳！<verse eid="JDG 5:22"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="23" style="v" sid="JDG 5:23"/>「耶和華的天使說，</para>
+  <para style="q1" vid="JDG 5:23">『要咒詛<char style="pn">米羅斯</char>，</para>
+  <para style="q1" vid="JDG 5:23">要重重地咒詛<char style="pn">米羅斯</char>的居民，</para>
+  <para style="q1" vid="JDG 5:23">因為他們沒有幫助耶和華，</para>
+  <para style="q1" vid="JDG 5:23">沒有幫助耶和華攻擊強敵。』<verse eid="JDG 5:23"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="24" style="v" sid="JDG 5:24"/>「<char style="pn">基尼</char>人<char style="pn">希百</char>的妻子<char style="pn">雅億</char>是婦人中最有福的，</para>
+  <para style="q1" vid="JDG 5:24">是住帳篷的婦人中最有福的。<verse eid="JDG 5:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JDG 5:25"/>
+    <char style="pn">西西拉</char>求水，</para>
+  <para style="q1" vid="JDG 5:25">
+    <char style="pn">雅億</char>給他奶喝，</para>
+  <para style="q1" vid="JDG 5:25">用珍貴的碗盛上乳酪。<verse eid="JDG 5:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JDG 5:26"/>
+    <char style="pn">雅億</char>左手拿起橛子，</para>
+  <para style="q1" vid="JDG 5:26">右手拿起工匠的錘子，</para>
+  <para style="q1" vid="JDG 5:26">猛擊<char style="pn">西西拉</char>，</para>
+  <para style="q1" vid="JDG 5:26">打碎了他的頭，</para>
+  <para style="q1" vid="JDG 5:26">刺透了他的太陽穴。<verse eid="JDG 5:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JDG 5:27"/>
+    <char style="pn">西西拉</char>屈身倒下，</para>
+  <para style="q1" vid="JDG 5:27">死在她腳前，</para>
+  <para style="q1" vid="JDG 5:27">一動不動地躺在那裡。<verse eid="JDG 5:27"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="28" style="v" sid="JDG 5:28"/>「<char style="pn">西西拉</char>的母親憑窗遠眺，</para>
+  <para style="q1" vid="JDG 5:28">隔著窗櫺喊道，</para>
+  <para style="q1" vid="JDG 5:28">『為什麼他的戰車遲遲不回？</para>
+  <para style="q1" vid="JDG 5:28">為什麼還聽不到車輪聲？』<verse eid="JDG 5:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JDG 5:29"/>聰明的宮女安慰她，</para>
+  <para style="q1" vid="JDG 5:29">她卻依然自言自語，<verse eid="JDG 5:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JDG 5:30"/>『莫非他們在搜索、瓜分戰利品？</para>
+  <para style="q1" vid="JDG 5:30">每人得到一兩個少女，</para>
+  <para style="q1" vid="JDG 5:30">
+    <char style="pn">西西拉</char>分得繡花彩巾，</para>
+  <para style="q1" vid="JDG 5:30">繡花的彩色圍巾作戰利品。』<verse eid="JDG 5:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JDG 5:31"/>耶和華啊，</para>
+  <para style="q1" vid="JDG 5:31">願你的敵人都像<char style="pn">西西拉</char>一樣滅亡！</para>
+  <para style="q1" vid="JDG 5:31">願愛你的人都如升起的太陽，</para>
+  <para style="q1" vid="JDG 5:31">光輝熠熠！」</para>
+  <para style="p" vid="JDG 5:31">此後，<char style="pn">以色列</char>安享太平四十年。<verse eid="JDG 5:31"/></para>
+  <chapter eid="JDG 5"/>
+  <chapter number="6" style="c" sid="JDG 6"/>
+  <para style="s1">士師基甸</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 6:1"/>後來，<char style="pn">以色列</char>人又做耶和華視為惡的事，耶和華就把他們交在<char style="pn">米甸</char>人手下七年。 <verse eid="JDG 6:1"/><verse number="2" style="v" sid="JDG 6:2"/><char style="pn">米甸</char>人勢力強盛，<char style="pn">以色列</char>人只好躲進山裡，藏在洞穴和營寨中。 <verse eid="JDG 6:2"/><verse number="3" style="v" sid="JDG 6:3"/>每當他們撒種的時候，<char style="pn">米甸</char>人、<char style="pn">亞瑪力</char>人及東方人就前來進犯， <verse eid="JDG 6:3"/><verse number="4" style="v" sid="JDG 6:4"/>在他們境內安營，摧毀他們遠至<char style="pn">迦薩</char>一帶的莊稼，不給他們留下任何糧食，也不留下一隻羊、一頭牛或驢。 <verse eid="JDG 6:4"/><verse number="5" style="v" sid="JDG 6:5"/>入侵者帶著牲畜和帳篷像蝗蟲一樣湧來，人和駱駝不計其數，摧毀了整個地區。 <verse eid="JDG 6:5"/><verse number="6" style="v" sid="JDG 6:6"/><char style="pn">以色列</char>人因<char style="pn">米甸</char>人的入侵而極其貧乏，就呼求耶和華。<verse eid="JDG 6:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 6:7"/>當<char style="pn">以色列</char>人因<char style="pn">米甸</char>人的入侵而呼求耶和華的時候， <verse eid="JDG 6:7"/><verse number="8" style="v" sid="JDG 6:8"/>耶和華就差遣先知對他們說：「<char style="pn">以色列</char>的上帝耶和華說，『我曾把你們從受奴役之地<char style="pn">埃及</char>領出來， <verse eid="JDG 6:8"/><verse number="9" style="v" sid="JDG 6:9"/>將你們從<char style="pn">埃及</char>人及一切欺壓者的手中拯救出來，從你們面前趕走他們，把他們的土地賜給你們。』 <verse eid="JDG 6:9"/><verse number="10" style="v" sid="JDG 6:10"/>我曾對你們說，『我是你們的上帝耶和華。你們雖然住在<char style="pn">亞摩利</char>人的地方，但不可祭拜他們的神明。』你們卻充耳不聞。」<verse eid="JDG 6:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JDG 6:11"/>一天，耶和華的天使來到<char style="pn">俄弗拉</char>，坐在<char style="pn">亞比以謝</char>族人<char style="pn">約阿施</char>的橡樹下。<char style="pn">約阿施</char>的兒子<char style="pn">基甸</char>因為要躲避<char style="pn">米甸</char>人，正躲在榨酒池裡打麥子。 <verse eid="JDG 6:11"/><verse number="12" style="v" sid="JDG 6:12"/>耶和華的天使向<char style="pn">基甸</char>顯現，對他說：「英勇的戰士啊，耶和華與你同在。」 <verse eid="JDG 6:12"/><verse number="13" style="v" sid="JDG 6:13"/><char style="pn">基甸</char>說：「我主啊，如果耶和華與我們同在，我們怎會有這些遭遇？我們的祖先說耶和華曾帶他們出<char style="pn">埃及</char>，但如今祂那些奇妙的作為在哪裡呢？現在祂已經丟棄我們，把我們交在<char style="pn">米甸</char>人手裡。」 <verse eid="JDG 6:13"/><verse number="14" style="v" sid="JDG 6:14"/>耶和華轉向他，說：「你盡自己的力量去從<char style="pn">米甸</char>人手中拯救<char style="pn">以色列</char>人吧，我現在派你去。」 <verse eid="JDG 6:14"/><verse number="15" style="v" sid="JDG 6:15"/><char style="pn">基甸</char>說：「主啊，我出身於<char style="pn">瑪拿西</char>支派最弱小的家族，在家裡最微不足道，我怎能拯救<char style="pn">以色列</char>人呢？」 <verse eid="JDG 6:15"/><verse number="16" style="v" sid="JDG 6:16"/>耶和華說：「我必與你同在，你必如擊打一人一樣擊打<char style="pn">米甸</char>人。」 <verse eid="JDG 6:16"/><verse number="17" style="v" sid="JDG 6:17"/><char style="pn">基甸</char>說：「如果我在你面前蒙恩，求你給我一個憑據，使我知道與我說話的真是你耶和華。 <verse eid="JDG 6:17"/><verse number="18" style="v" sid="JDG 6:18"/>請你在這裡等一等，讓我回去拿禮物獻給你。」耶和華說：「我必等你回來。」<verse eid="JDG 6:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JDG 6:19"/>
+    <char style="pn">基甸</char>回家預備了一隻山羊羔，用十公斤麵粉做了無酵餅，把肉放進籃子，把湯盛在壺中，然後拿到橡樹下獻上。 <verse eid="JDG 6:19"/><verse number="20" style="v" sid="JDG 6:20"/>上帝的天使對<char style="pn">基甸</char>說：「把肉和無酵餅放在這磐石上，把湯倒在上面。」他一一照做。 <verse eid="JDG 6:20"/><verse number="21" style="v" sid="JDG 6:21"/>耶和華的天使伸出手中的杖碰了一下餅和肉，火就從磐石中噴出來燒盡了它們。耶和華的天使也不見了。 <verse eid="JDG 6:21"/><verse number="22" style="v" sid="JDG 6:22"/><char style="pn">基甸</char>發現他果然是耶和華的天使，便說：「唉！主耶和華啊，不好了，我面對面見了你的天使。」 <verse eid="JDG 6:22"/><verse number="23" style="v" sid="JDG 6:23"/>耶和華對他說：「放心吧，不要害怕，你不會死。」 <verse eid="JDG 6:23"/><verse number="24" style="v" sid="JDG 6:24"/><char style="pn">基甸</char>在那裡為耶和華築了一座壇，稱之為「耶和華賜平安」。這壇如今仍在<char style="pn">亞比以謝</char>族的<char style="pn">俄弗拉</char>。<verse eid="JDG 6:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JDG 6:25"/>那天晚上，耶和華吩咐<char style="pn">基甸</char>：「牽來你父親的第二頭牛，就是那頭七歲的公牛，拆毀你父親為<char style="pn">巴力</char>築的祭壇，砍倒壇旁的<char style="pn">亞舍拉</char>神像。 <verse eid="JDG 6:25"/><verse number="26" style="v" sid="JDG 6:26"/>然後，在這座山頂上把石頭堆放整齊，為你的上帝耶和華築一座祭壇，用砍倒的<char style="pn">亞舍拉</char>神像作柴，把那頭公牛獻作燔祭。」 <verse eid="JDG 6:26"/><verse number="27" style="v" sid="JDG 6:27"/>於是，<char style="pn">基甸</char>帶了十個僕人遵命而行。不過，他因為害怕家人和城中的人，不敢在白天行動，便在夜間行動。<verse eid="JDG 6:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JDG 6:28"/>清早，城裡的人起來後，發現<char style="pn">巴力</char>的祭壇已經被人拆毀，壇旁的<char style="pn">亞舍拉</char>神像被砍倒，第二頭公牛被獻在新建的祭壇上。 <verse eid="JDG 6:28"/><verse number="29" style="v" sid="JDG 6:29"/>他們彼此議論說：「這是誰幹的？」他們仔細調查後得知是<char style="pn">約阿施</char>的兒子<char style="pn">基甸</char>所為， <verse eid="JDG 6:29"/><verse number="30" style="v" sid="JDG 6:30"/>便對<char style="pn">約阿施</char>說：「把你兒子交出來！他拆毀了<char style="pn">巴力</char>的祭壇，砍倒了壇旁的<char style="pn">亞舍拉</char>神像，我們要處死他！」 <verse eid="JDG 6:30"/><verse number="31" style="v" sid="JDG 6:31"/><char style="pn">約阿施</char>對氣勢洶洶的人群說：「你們這樣做是要為<char style="pn">巴力</char>辯護嗎？是要救它嗎？誰為<char style="pn">巴力</char>辯護，今天早晨就處死誰。有人拆毀<char style="pn">巴力</char>的祭壇，如果它是神明，就讓它為自己辯護吧！」 <verse eid="JDG 6:31"/><verse number="32" style="v" sid="JDG 6:32"/>因此，那天他們稱<char style="pn">基甸</char>為<char style="pn">耶路·巴力</char>，意思是「讓<char style="pn">巴力</char>為自己辯護」，因為他拆毀了<char style="pn">巴力</char>的祭壇。<verse eid="JDG 6:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JDG 6:33"/>那時，<char style="pn">米甸</char>人、<char style="pn">亞瑪力</char>人及東方人會合在一起，過了<char style="pn">約旦</char>河，在<char style="pn">耶斯列</char>的平原安營。 <verse eid="JDG 6:33"/><verse number="34" style="v" sid="JDG 6:34"/>耶和華的靈降在<char style="pn">基甸</char>身上，他就吹響號角，號召<char style="pn">亞比以謝</char>族的人跟從他。 <verse eid="JDG 6:34"/><verse number="35" style="v" sid="JDG 6:35"/>他派人走遍<char style="pn">瑪拿西</char>、<char style="pn">亞設</char>、<char style="pn">西布倫</char>和<char style="pn">拿弗他利</char>各支派召集軍隊，人們紛紛前來會合。 <verse eid="JDG 6:35"/><verse number="36" style="v" sid="JDG 6:36"/><char style="pn">基甸</char>對上帝說：「若如你所言，你要用我去拯救<char style="pn">以色列</char>人， <verse eid="JDG 6:36"/><verse number="37" style="v" sid="JDG 6:37"/>求你給個憑據。我把一團羊毛放在麥場上，若明天早晨只是羊毛上有露水，地面卻是乾的，我就知道，如你所言，你要用我去拯救<char style="pn">以色列</char>人。」 <verse eid="JDG 6:37"/><verse number="38" style="v" sid="JDG 6:38"/>果然如此，<char style="pn">基甸</char>一早醒來，從羊毛中擠出滿滿一碗露水。 <verse eid="JDG 6:38"/><verse number="39" style="v" sid="JDG 6:39"/><char style="pn">基甸</char>又對上帝說：「求你不要發怒，容許我再試一次，這次讓羊毛是乾的，地面有露水。」 <verse eid="JDG 6:39"/><verse number="40" style="v" sid="JDG 6:40"/>那天晚上，上帝就照他所求使地面佈滿露水，唯獨羊毛是乾的。<verse eid="JDG 6:40"/></para>
+  <chapter eid="JDG 6"/>
+  <chapter number="7" style="c" sid="JDG 7"/>
+  <para style="s1">基甸打敗米甸人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 7:1"/>
+    <char style="pn">耶路·巴力</char>，也就是<char style="pn">基甸</char>，清早起來，率領眾人在<char style="pn">哈律</char>泉旁紮營，<char style="pn">米甸</char>人的軍營在他們北邊靠近<char style="pn">摩利</char>山的谷中。<verse eid="JDG 7:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="JDG 7:2"/>耶和華對<char style="pn">基甸</char>說：「你的人太多了，我不能把<char style="pn">米甸</char>人交在你們手中，免得<char style="pn">以色列</char>人以為是靠自己的力量救了自己。 <verse eid="JDG 7:2"/><verse number="3" style="v" sid="JDG 7:3"/>你要向他們宣佈，膽小害怕的人可以離開<char style="pn">基列</char>山回家。」結果兩萬二千人離去，只剩下一萬人。<verse eid="JDG 7:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JDG 7:4"/>但耶和華對<char style="pn">基甸</char>說：「人還是太多，你帶他們到下面的泉水邊，我會在那裡為你挑選人員，我說誰跟你去誰就去，我說誰不能去誰就不要去。」 <verse eid="JDG 7:4"/><verse number="5" style="v" sid="JDG 7:5"/>於是，<char style="pn">基甸</char>把他們帶到泉水邊，耶和華對他說：「把像狗一樣用舌頭舔水喝的和跪著喝水的分開。」 <verse eid="JDG 7:5"/><verse number="6" style="v" sid="JDG 7:6"/>那時有三百人捧水舔著喝，其餘的都跪著喝。 <verse eid="JDG 7:6"/><verse number="7" style="v" sid="JDG 7:7"/>耶和華對<char style="pn">基甸</char>說：「我要用這三百舔水喝的人拯救你們，我要把<char style="pn">米甸</char>人交在你手中。讓其餘的人都回家吧。」 <verse eid="JDG 7:7"/><verse number="8" style="v" sid="JDG 7:8"/>於是，<char style="pn">基甸</char>留下這三百人，把其餘人的食物和號角收集起來，讓他們回家。<char style="pn">米甸</char>人的軍營就在他們下面的山谷裡。<verse eid="JDG 7:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JDG 7:9"/>當晚，耶和華吩咐<char style="pn">基甸</char>說：「起來，下去攻打敵營吧！我已把敵人交在你手中了。 <verse eid="JDG 7:9"/><verse number="10" style="v" sid="JDG 7:10"/>你如果害怕，可以和你的僕人<char style="pn">普拉</char>一起下到敵營， <verse eid="JDG 7:10"/><verse number="11" style="v" sid="JDG 7:11"/>聽聽他們說什麼，你就有膽量攻打敵營了。」於是，<char style="pn">基甸</char>就帶著僕人<char style="pn">普拉</char>下到敵營旁。 <verse eid="JDG 7:11"/><verse number="12" style="v" sid="JDG 7:12"/><char style="pn">米甸</char>人、<char style="pn">亞瑪力</char>人及東方人像蝗蟲一樣佈滿山谷，他們的駱駝如海邊的沙一樣不計其數。 <verse eid="JDG 7:12"/><verse number="13" style="v" sid="JDG 7:13"/><char style="pn">基甸</char>到了那裡，聽見一個人對同伴說：「我做了個夢，夢見一個大麥餅滾進<char style="pn">米甸</char>營中，把一個帳篷撞翻在地。」 <verse eid="JDG 7:13"/><verse number="14" style="v" sid="JDG 7:14"/>他的同伴說：「那不是別的，正是<char style="pn">以色列</char>人<char style="pn">約阿施</char>的兒子<char style="pn">基甸</char>的刀，上帝把<char style="pn">米甸</char>人和整個軍營都交在他手中了。」<verse eid="JDG 7:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JDG 7:15"/>
+    <char style="pn">基甸</char>聽了這夢和夢的解釋，就俯伏敬拜上帝。他回到<char style="pn">以色列</char>人的營中，大聲喊道：「起來吧，耶和華已經把<char style="pn">米甸</char>軍營交在你們手中了。」 <verse eid="JDG 7:15"/><verse number="16" style="v" sid="JDG 7:16"/><char style="pn">基甸</char>把三百人分成三隊，分給他們號角和藏有火把的瓦瓶， <verse eid="JDG 7:16"/><verse number="17" style="v" sid="JDG 7:17"/>對他們說：「你們要看我的行動，當我們走到敵營旁邊時，我怎麼做，你們也要怎麼做。 <verse eid="JDG 7:17"/><verse number="18" style="v" sid="JDG 7:18"/>我們這隊吹響號角時，你們也要在敵營四周吹響號角，高喊，『為了耶和華！為了<char style="pn">基甸</char>！』」<verse eid="JDG 7:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JDG 7:19"/>午夜初，守衛剛換班，<char style="pn">基甸</char>帶著一百人來到<char style="pn">米甸</char>營旁。他們吹響號角，打破手中的瓦瓶。 <verse eid="JDG 7:19"/><verse number="20" style="v" sid="JDG 7:20"/>其餘的二百人也吹響號角，打破瓦瓶。他們左手舉著火把，右手拿著號角，高喊：「為耶和華和<char style="pn">基甸</char>而戰！」 <verse eid="JDG 7:20"/><verse number="21" style="v" sid="JDG 7:21"/>他們在敵營周圍各守其位，<char style="pn">米甸</char>全軍邊喊邊逃。 <verse eid="JDG 7:21"/><verse number="22" style="v" sid="JDG 7:22"/><char style="pn">基甸</char>的三百人一起吹響號角時，耶和華使<char style="pn">米甸</char>人自相殘殺。他們逃往<char style="pn">西利拉</char>的<char style="pn">伯·哈示他</char>，一直逃到靠近<char style="pn">他巴</char>的<char style="pn">亞伯·米何拉</char>的邊境。<verse eid="JDG 7:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JDG 7:23"/>
+    <char style="pn">基甸</char>號召<char style="pn">拿弗他利</char>、<char style="pn">亞設</char>和<char style="pn">瑪拿西</char>的<char style="pn">以色列</char>人追殺<char style="pn">米甸</char>敗軍， <verse eid="JDG 7:23"/><verse number="24" style="v" sid="JDG 7:24"/>又派人到整個<char style="pn">以法蓮</char>山區，吩咐當地人攻打<char style="pn">米甸</char>人，佔據遠至<char style="pn">伯·巴拉</char>一帶的<char style="pn">約旦</char>河渡口。<char style="pn">以法蓮</char>人都遵命而行， <verse eid="JDG 7:24"/><verse number="25" style="v" sid="JDG 7:25"/>還生擒了<char style="pn">米甸</char>人的兩名首領<char style="pn">俄立</char>和<char style="pn">西伊伯</char>。他們在<char style="pn">俄立</char>磐石上殺死了<char style="pn">俄立</char>，在<char style="pn">西伊伯</char>榨酒池殺了<char style="pn">西伊伯</char>。他們繼續追殺<char style="pn">米甸</char>人，並帶著<char style="pn">俄立</char>和<char style="pn">西伊伯</char>的人頭穿過<char style="pn">約旦</char>河，交給<char style="pn">基甸</char>。<verse eid="JDG 7:25"/></para>
+  <chapter eid="JDG 7"/>
+  <chapter number="8" style="c" sid="JDG 8"/>
+  <para style="s1">基甸擒殺米甸二王</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 8:1"/>後來，<char style="pn">以法蓮</char>人對<char style="pn">基甸</char>說：「你攻打<char style="pn">米甸</char>人時為什麼不召我們去？你為什麼這樣對待我們？」他們與他激烈地爭論起來。<verse eid="JDG 8:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="JDG 8:2"/>
+    <char style="pn">基甸</char>說：「我怎能比得上你們呢？<char style="pn">以法蓮</char>人摘剩的葡萄豈不比我們<char style="pn">亞比以謝</char>族收穫的葡萄更好嗎？ <verse eid="JDG 8:2"/><verse number="3" style="v" sid="JDG 8:3"/>上帝把兩名<char style="pn">米甸</char>人的首領<char style="pn">俄立</char>和<char style="pn">西伊伯</char>交在了你們手中，我所做的怎能跟你們相比呢？」<char style="pn">基甸</char>這麼一說，他們的怒氣就平息了。<verse eid="JDG 8:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JDG 8:4"/>
+    <char style="pn">基甸</char>率領他的三百人渡過<char style="pn">約旦</char>河，雖然疲憊不堪，仍緊追敵人。 <verse eid="JDG 8:4"/><verse number="5" style="v" sid="JDG 8:5"/><char style="pn">基甸</char>對<char style="pn">疏割</char>的人說：「我們在追趕<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>兩個<char style="pn">米甸</char>王，十分疲憊，請給我的軍隊一些餅吃。」<verse eid="JDG 8:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JDG 8:6"/>
+    <char style="pn">疏割</char>的首領卻說：「你還沒有抓到<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>，我們憑什麼給你的軍隊餅吃？」<verse eid="JDG 8:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 8:7"/>
+    <char style="pn">基甸</char>說：「好吧，耶和華把<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>交在我們手中後，我必回來用荒野的荊棘抽打你們。」<verse eid="JDG 8:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JDG 8:8"/>
+    <char style="pn">基甸</char>又去<char style="pn">毗努伊勒</char>提出同樣的請求，他們的答復跟<char style="pn">疏割</char>人一樣。 <verse eid="JDG 8:8"/><verse number="9" style="v" sid="JDG 8:9"/><char style="pn">基甸</char>對那裡的人說：「我平安歸來時，必拆毀你們的這座城樓。」<verse eid="JDG 8:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JDG 8:10"/>那時，<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>率領東方各族的殘餘軍隊一萬五千人駐紮在<char style="pn">加各</char>，因為已經有十二萬刀兵被殺。 <verse eid="JDG 8:10"/><verse number="11" style="v" sid="JDG 8:11"/><char style="pn">基甸</char>取道<char style="pn">挪巴</char>和<char style="pn">約比哈</char>東邊遊牧者走的路，出其不意地突襲<char style="pn">米甸</char>人。 <verse eid="JDG 8:11"/><verse number="12" style="v" sid="JDG 8:12"/><char style="pn">米甸</char>二王<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>逃跑，<char style="pn">基甸</char>追上去擒住他們，擊潰他們全軍。<verse eid="JDG 8:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JDG 8:13"/>
+    <char style="pn">約阿施</char>的兒子<char style="pn">基甸</char>從戰場返回，經過<char style="pn">希列斯</char>山坡時， <verse eid="JDG 8:13"/><verse number="14" style="v" sid="JDG 8:14"/>抓住一個<char style="pn">疏割</char>的青年，問他<char style="pn">疏割</char>的首領和長老是誰，他就寫下<char style="pn">疏割</char>七十七位首領和長老的名字。 <verse eid="JDG 8:14"/><verse number="15" style="v" sid="JDG 8:15"/><char style="pn">基甸</char>到了<char style="pn">疏割</char>，對那裡的人說：「你們曾經譏笑我說，『你還沒有抓到<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>，我們憑什麼給你疲憊的軍隊餅吃？』看！<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>在這裡！」 <verse eid="JDG 8:15"/><verse number="16" style="v" sid="JDG 8:16"/>說完，就捉住城中的長老，用荒野的荊棘抽打他們。 <verse eid="JDG 8:16"/><verse number="17" style="v" sid="JDG 8:17"/>他又去拆毀<char style="pn">毗努伊勒</char>的城樓，殺了城裡的人。<verse eid="JDG 8:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JDG 8:18"/>
+    <char style="pn">基甸</char>問<char style="pn">西巴</char>和<char style="pn">撒慕拿</char>：「你們在<char style="pn">他泊</char>山殺的人是什麼樣子？」他們回答說：「他們長得像你，都像王子一樣。」<verse eid="JDG 8:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JDG 8:19"/>
+    <char style="pn">基甸</char>說：「他們是我同母所生的兄弟，我憑永活的耶和華起誓，如果你們當初不殺他們，今天我就不殺你們了。」 <verse eid="JDG 8:19"/><verse number="20" style="v" sid="JDG 8:20"/>於是，<char style="pn">基甸</char>對長子<char style="pn">益帖</char>說：「你殺死他們。」但<char style="pn">益帖</char>年紀小，心中害怕，不敢動手。<verse eid="JDG 8:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JDG 8:21"/>
+    <char style="pn">西巴</char>和<char style="pn">撒慕拿</char>對<char style="pn">基甸</char>說：「你親自動手吧！這是男子漢做的事。」<char style="pn">基甸</char>便親手殺了他們，拿走了他們駱駝頸上的月牙飾物。<verse eid="JDG 8:21"/></para>
+  <para style="s1">基甸造以弗得</para>
+  <para style="p">
+    <verse number="22" style="v" sid="JDG 8:22"/>
+    <char style="pn">以色列</char>人對<char style="pn">基甸</char>說：「你從<char style="pn">米甸</char>人手中救了我們，請你和你的子孫統治我們。」<verse eid="JDG 8:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JDG 8:23"/>
+    <char style="pn">基甸</char>回答說：「我和我子孫都不統治你們，統治你們的是耶和華。」 <verse eid="JDG 8:23"/><verse number="24" style="v" sid="JDG 8:24"/>他又說道：「我有一個要求，請你們把搶來的耳環都給我。」原來<char style="pn">米甸</char>人屬於<char style="pn">以實瑪利</char>族，都戴金耳環。<verse eid="JDG 8:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JDG 8:25"/>他們欣然同意，便鋪開一件外衣，各自把搶來的金耳環都放在上面， <verse eid="JDG 8:25"/><verse number="26" style="v" sid="JDG 8:26"/>重約二十公斤。此外，還有<char style="pn">米甸</char>王的月牙飾物、耳墜、紫袍以及駱駝頸上的金鏈。 <verse eid="JDG 8:26"/><verse number="27" style="v" sid="JDG 8:27"/><char style="pn">基甸</char>用這些金子造了一件以弗得聖衣，放在自己的家鄉<char style="pn">俄弗拉</char>。後來，<char style="pn">以色列</char>人拜那件以弗得，玷污自己，使<char style="pn">基甸</char>及其全家陷入網羅。<verse eid="JDG 8:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JDG 8:28"/>這樣，<char style="pn">米甸</char>人被<char style="pn">以色列</char>人征服了，從此一蹶不振。<char style="pn">基甸</char>在世之日，<char style="pn">以色列</char>境內安享太平四十年。<verse eid="JDG 8:28"/></para>
+  <para style="s1">基甸去世</para>
+  <para style="p">
+    <verse number="29" style="v" sid="JDG 8:29"/>
+    <char style="pn">約阿施</char>的兒子<char style="pn">耶路·巴力</char>返回家鄉居住。 <verse eid="JDG 8:29"/><verse number="30" style="v" sid="JDG 8:30"/>他有許多妻子，生了七十個兒子。 <verse eid="JDG 8:30"/><verse number="31" style="v" sid="JDG 8:31"/>他的妾住在<char style="pn">示劍</char>，也給他生了一個兒子，他給孩子取名叫<char style="pn">亞比米勒</char>。 <verse eid="JDG 8:31"/><verse number="32" style="v" sid="JDG 8:32"/><char style="pn">約阿施</char>的兒子<char style="pn">基甸</char>年高壽終，葬在<char style="pn">亞比以謝</char>族的<char style="pn">俄弗拉</char>，在他父親<char style="pn">約阿施</char>的墳墓裡。<verse eid="JDG 8:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JDG 8:33"/>
+    <char style="pn">基甸</char>剛去世，<char style="pn">以色列</char>人便又與<char style="pn">巴力</char>苟合，奉<char style="pn">巴力·比利土</char>為他們的神明， <verse eid="JDG 8:33"/><verse number="34" style="v" sid="JDG 8:34"/>忘記了他們的上帝耶和華曾經從四圍的仇敵手中拯救他們， <verse eid="JDG 8:34"/><verse number="35" style="v" sid="JDG 8:35"/>也沒有因<char style="pn">耶路·巴力</char>，就是<char style="pn">基甸</char>的功績而厚待他的家人。<verse eid="JDG 8:35"/></para>
+  <chapter eid="JDG 8"/>
+  <chapter number="9" style="c" sid="JDG 9"/>
+  <para style="s1">亞比米勒做王</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 9:1"/>
+    <char style="pn">耶路·巴力</char>的兒子<char style="pn">亞比米勒</char>去<char style="pn">示劍</char>的舅舅家，對外祖父全家說： <verse eid="JDG 9:1"/><verse number="2" style="v" sid="JDG 9:2"/>「請你們去問<char style="pn">示劍</char>人，<char style="pn">耶路·巴力</char>的七十個兒子統治他們好呢，還是一個人統治他們好呢？別忘記我是你們的骨肉至親。」 <verse eid="JDG 9:2"/><verse number="3" style="v" sid="JDG 9:3"/>他們便將他的話轉告<char style="pn">示劍</char>人。<char style="pn">示劍</char>人因為<char style="pn">亞比米勒</char>是他們的親戚，都擁護他， <verse eid="JDG 9:3"/><verse number="4" style="v" sid="JDG 9:4"/>從<char style="pn">巴力·比利土</char>的廟裡拿了七十塊銀子給他。他用這些錢收買了一班無賴做隨從。 <verse eid="JDG 9:4"/><verse number="5" style="v" sid="JDG 9:5"/>他前往<char style="pn">俄弗拉</char>，來到他父親家，在一塊磐石上殺死了他七十個同父異母的兄弟，只有<char style="pn">耶路·巴力</char>的小兒子<char style="pn">約坦</char>躲了起來，倖免於難。 <verse eid="JDG 9:5"/><verse number="6" style="v" sid="JDG 9:6"/><char style="pn">示劍</char>和<char style="pn">米羅</char>的人都聚集到<char style="pn">示劍</char>石柱旁的橡樹下，擁立<char style="pn">亞比米勒</char>為王。<verse eid="JDG 9:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 9:7"/>
+    <char style="pn">約坦</char>聽見這消息，便上到<char style="pn">基利心</char>山頂，高喊：「<char style="pn">示劍</char>人啊，你們要聽我說，這樣上帝也會聽你們說。 <verse eid="JDG 9:7"/><verse number="8" style="v" sid="JDG 9:8"/>從前，樹木要選一個王，它們對橄欖樹說，『你來做我們的王。』 <verse eid="JDG 9:8"/><verse number="9" style="v" sid="JDG 9:9"/>橄欖樹說，『我怎能因為貪圖淩駕於眾樹之上而停止出產用來尊崇神明與人的橄欖油呢？』 <verse eid="JDG 9:9"/><verse number="10" style="v" sid="JDG 9:10"/>樹木對無花果樹說，『你來做我們的王。』 <verse eid="JDG 9:10"/><verse number="11" style="v" sid="JDG 9:11"/>無花果樹說，『我怎能因為貪圖淩駕於眾樹之上而停止出產甜美的果子呢？』 <verse eid="JDG 9:11"/><verse number="12" style="v" sid="JDG 9:12"/>於是，樹木對葡萄樹說，『你來做我們的王。』 <verse eid="JDG 9:12"/><verse number="13" style="v" sid="JDG 9:13"/>葡萄樹說，『我怎能因為貪圖淩駕於眾樹之上而停止出產令神明和世人都快樂的美酒呢？』 <verse eid="JDG 9:13"/><verse number="14" style="v" sid="JDG 9:14"/>最後，所有的樹木都對荊棘說，『你來做我們的王。』 <verse eid="JDG 9:14"/><verse number="15" style="v" sid="JDG 9:15"/>荊棘回答說，『你們如果誠心立我為你們的王，就投靠在我的蔭下吧；不然，願火從荊棘中冒出來吞噬<char style="pn">黎巴嫩</char>的香柏樹。』<verse eid="JDG 9:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JDG 9:16"/>「現在你們立<char style="pn">亞比米勒</char>為王，光明正大嗎？你們有沒有善待<char style="pn">耶路·巴力</char>和他一家？有沒有按他的功績對待他？ <verse eid="JDG 9:16"/><verse number="17" style="v" sid="JDG 9:17"/>你們想想，從前我父親為你們出生入死，從<char style="pn">米甸</char>人手中拯救你們。 <verse eid="JDG 9:17"/><verse number="18" style="v" sid="JDG 9:18"/>現在你們卻背叛我父親家，在一塊磐石上殺死他七十個兒子。因為他婢女的兒子<char style="pn">亞比米勒</char>是你們的親戚，你們就立<char style="pn">亞比米勒</char>為<char style="pn">示劍</char>居民的王。 <verse eid="JDG 9:18"/><verse number="19" style="v" sid="JDG 9:19"/>如果你們光明正大地對待了<char style="pn">耶路·巴力</char>一家，願你們給<char style="pn">亞比米勒</char>帶來快樂，也願<char style="pn">亞比米勒</char>給你們帶來快樂。 <verse eid="JDG 9:19"/><verse number="20" style="v" sid="JDG 9:20"/>否則，願<char style="pn">亞比米勒</char>燒滅你們<char style="pn">示劍</char>人和<char style="pn">米羅</char>人，也願你們<char style="pn">示劍</char>人和<char style="pn">米羅</char>人燒滅<char style="pn">亞比米勒</char>。」 <verse eid="JDG 9:20"/><verse number="21" style="v" sid="JDG 9:21"/><char style="pn">約坦</char>因懼怕他的兄弟<char style="pn">亞比米勒</char>，就逃往<char style="pn">比珥</char>居住。<verse eid="JDG 9:21"/></para>
+  <para style="s1">亞比米勒毀滅示劍</para>
+  <para style="p">
+    <verse number="22" style="v" sid="JDG 9:22"/>
+    <char style="pn">亞比米勒</char>治理<char style="pn">以色列</char>三年後， <verse eid="JDG 9:22"/><verse number="23" style="v" sid="JDG 9:23"/>上帝派遣一個邪靈挑起<char style="pn">亞比米勒</char>和<char style="pn">示劍</char>人之間的爭端，<char style="pn">示劍</char>人用詭詐的手段對待<char style="pn">亞比米勒</char>。 <verse eid="JDG 9:23"/><verse number="24" style="v" sid="JDG 9:24"/>這是要懲罰<char style="pn">亞比米勒</char>和幫他殘殺<char style="pn">耶路·巴力</char>七十個兒子的<char style="pn">示劍</char>人。 <verse eid="JDG 9:24"/><verse number="25" style="v" sid="JDG 9:25"/><char style="pn">示劍</char>人在山頂設下埋伏，等候<char style="pn">亞比米勒</char>，他們搶劫所有過路的行人。有人把這事告訴了<char style="pn">亞比米勒</char>。<verse eid="JDG 9:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JDG 9:26"/>
+    <char style="pn">以別</char>的兒子<char style="pn">迦勒</char>和他的弟兄來到<char style="pn">示劍</char>，<char style="pn">示劍</char>人都信任他們。 <verse eid="JDG 9:26"/><verse number="27" style="v" sid="JDG 9:27"/><char style="pn">示劍</char>人出城到田間採摘葡萄，踩榨葡萄汁，然後在他們的神廟中歡宴，盡情吃喝，咒詛<char style="pn">亞比米勒</char>。 <verse eid="JDG 9:27"/><verse number="28" style="v" sid="JDG 9:28"/><char style="pn">以別</char>的兒子<char style="pn">迦勒</char>說：「<char style="pn">亞比米勒</char>是誰？我們<char style="pn">示劍</char>人是誰，竟要服侍他？他不就是<char style="pn">耶路·巴力</char>的兒子嗎？他的幫手不就是<char style="pn">西布勒</char>嗎？我們為什麼要服侍他？你們要服侍<char style="pn">示劍</char>人祖先<char style="pn">哈抹</char>的後代。 <verse eid="JDG 9:28"/><verse number="29" style="v" sid="JDG 9:29"/>要是這百姓歸我領導就好了！我會除掉<char style="pn">亞比米勒</char>，我會挑戰他召集全軍來戰<note caller="+" style="f"><char style="fr" closed="false">9·29 </char><char style="ft" closed="false">「我會挑戰他召集全軍來戰」參照《七十士譯本》；希伯來文作「他對亞比米勒說：『召集你的全軍來戰吧！』」</char></note>。」<verse eid="JDG 9:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="JDG 9:30"/>
+    <char style="pn">示劍</char>城的官長<char style="pn">西布勒</char>聽見<char style="pn">以別</char>的兒子<char style="pn">迦勒</char>的話，勃然大怒， <verse eid="JDG 9:30"/><verse number="31" style="v" sid="JDG 9:31"/>暗中派人對<char style="pn">亞比米勒</char>說：「<char style="pn">以別</char>的兒子<char style="pn">迦勒</char>和他的弟兄已經到了<char style="pn">示劍</char>，正在煽動全城反對你。 <verse eid="JDG 9:31"/><verse number="32" style="v" sid="JDG 9:32"/>請你晚上帶著部下埋伏在田間， <verse eid="JDG 9:32"/><verse number="33" style="v" sid="JDG 9:33"/>清晨日出時攻城。<char style="pn">迦勒</char>帶著部下出來應戰時，你便可以見機行事。」<verse eid="JDG 9:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JDG 9:34"/>於是，<char style="pn">亞比米勒</char>帶領軍隊夜間出發，兵分四路埋伏在<char style="pn">示劍</char>城外。 <verse eid="JDG 9:34"/><verse number="35" style="v" sid="JDG 9:35"/>早晨，<char style="pn">以別</char>的兒子<char style="pn">迦勒</char>出來站在城門口時，<char style="pn">亞比米勒</char>帶領部下從埋伏的地方衝了出來。 <verse eid="JDG 9:35"/><verse number="36" style="v" sid="JDG 9:36"/><char style="pn">迦勒</char>看見他們，便對<char style="pn">西布勒</char>說：「看！有人正從山頂下來。」<char style="pn">西布勒</char>說：「你把山影看成人了吧。」 <verse eid="JDG 9:36"/><verse number="37" style="v" sid="JDG 9:37"/><char style="pn">迦勒</char>說：「看！有人正從山上下來，還有一隊人正從占卜橡樹那邊的路上奔來。」 <verse eid="JDG 9:37"/><verse number="38" style="v" sid="JDG 9:38"/><char style="pn">西布勒</char>說：「你的豪氣哪裡去了？你曾說，『<char style="pn">亞比米勒</char>是誰，我們竟要服侍他？』這些不就是你譏笑的人嗎？出去迎戰吧！」 <verse eid="JDG 9:38"/><verse number="39" style="v" sid="JDG 9:39"/>於是，<char style="pn">迦勒</char>率領<char style="pn">示劍</char>人出城迎戰<char style="pn">亞比米勒</char>。 <verse eid="JDG 9:39"/><verse number="40" style="v" sid="JDG 9:40"/><char style="pn">迦勒</char>敗逃，<char style="pn">亞比米勒</char>緊追不捨，沿途有許多人受傷倒在地上，一直到城門口。 <verse eid="JDG 9:40"/><verse number="41" style="v" sid="JDG 9:41"/>之後，<char style="pn">亞比米勒</char>住在<char style="pn">亞魯瑪</char>，<char style="pn">西布勒</char>把<char style="pn">迦勒</char>和他的弟兄逐出<char style="pn">示劍</char>。<verse eid="JDG 9:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="JDG 9:42"/>第二天，<char style="pn">示劍</char>人出城來到田間。<char style="pn">亞比米勒</char>得知後， <verse eid="JDG 9:42"/><verse number="43" style="v" sid="JDG 9:43"/>把部下兵分三隊，埋伏在田間，等城裡的人出來時，伏擊他們。 <verse eid="JDG 9:43"/><verse number="44" style="v" sid="JDG 9:44"/><char style="pn">亞比米勒</char>率領一隊人衝到<char style="pn">示劍</char>的城門口，截斷<char style="pn">示劍</char>人的退路，其他兩隊擊殺田間的<char style="pn">示劍</char>人。 <verse eid="JDG 9:44"/><verse number="45" style="v" sid="JDG 9:45"/><char style="pn">亞比米勒</char>鏖戰一天，攻陷了<char style="pn">示劍</char>城，殺了城內的居民，把整座城夷為平地，還撒上了鹽。<verse eid="JDG 9:45"/></para>
+  <para style="p">
+    <verse number="46" style="v" sid="JDG 9:46"/>
+    <char style="pn">示劍</char>樓的人聽到風聲，躲進了<char style="pn">伊勒·比利土</char>神廟的內堂。 <verse eid="JDG 9:46"/><verse number="47" style="v" sid="JDG 9:47"/><char style="pn">亞比米勒</char>得知他們都聚在那裡後， <verse eid="JDG 9:47"/><verse number="48" style="v" sid="JDG 9:48"/>便領兵上<char style="pn">撒們</char>山用斧頭砍下樹枝，扛在肩上，並命令部下趕緊照做。 <verse eid="JDG 9:48"/><verse number="49" style="v" sid="JDG 9:49"/>他們都砍下樹枝，跟著<char style="pn">亞比米勒</char>把樹枝堆在神廟內堂的四周，放火燒死了<char style="pn">示劍</char>樓裡所有的人，男女約一千人。<verse eid="JDG 9:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="JDG 9:50"/>隨後，<char style="pn">亞比米勒</char>去圍攻<char style="pn">提備斯</char>，佔領了該城。 <verse eid="JDG 9:50"/><verse number="51" style="v" sid="JDG 9:51"/>全城的人連男帶女都逃進城中一座堅固的城樓內，鎖上大門，爬上樓頂。 <verse eid="JDG 9:51"/><verse number="52" style="v" sid="JDG 9:52"/><char style="pn">亞比米勒</char>攻打城樓，走到城樓門口正準備放火時， <verse eid="JDG 9:52"/><verse number="53" style="v" sid="JDG 9:53"/>有個婦人扔下一塊磨石，砸爛了他的頭。 <verse eid="JDG 9:53"/><verse number="54" style="v" sid="JDG 9:54"/><char style="pn">亞比米勒</char>連忙對為他拿兵器的年輕人說：「拔刀殺了我吧，免得人們說，『一位婦人殺了他。』」於是，那年輕人刺死了他。 <verse eid="JDG 9:54"/><verse number="55" style="v" sid="JDG 9:55"/><char style="pn">以色列</char>人見<char style="pn">亞比米勒</char>已死，便各自回家了。 <verse eid="JDG 9:55"/><verse number="56" style="v" sid="JDG 9:56"/>上帝就這樣使<char style="pn">亞比米勒</char>得到了報應，因為他殘殺了自己的七十個兄弟， <verse eid="JDG 9:56"/><verse number="57" style="v" sid="JDG 9:57"/>上帝也讓<char style="pn">示劍</char>人因自己的一切惡行而得到了報應。<char style="pn">耶路·巴力</char>的兒子<char style="pn">約坦</char>的咒詛臨到了他們。<verse eid="JDG 9:57"/></para>
+  <chapter eid="JDG 9"/>
+  <chapter number="10" style="c" sid="JDG 10"/>
+  <para style="s1">士師陀拉和雅珥</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 10:1"/>
+    <char style="pn">亞比米勒</char>死後，<char style="pn">以薩迦</char>人<char style="pn">陀拉</char>拯救了<char style="pn">以色列</char>人。他住在<char style="pn">以法蓮</char>山區的<char style="pn">沙密</char>，祖父是<char style="pn">朵多</char>，父親是<char style="pn">普瓦</char>。 <verse eid="JDG 10:1"/><verse number="2" style="v" sid="JDG 10:2"/><char style="pn">陀拉</char>做<char style="pn">以色列</char>的士師二十三年，死後葬在<char style="pn">沙密</char>。<verse eid="JDG 10:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="JDG 10:3"/>之後，<char style="pn">基列</char>人<char style="pn">雅珥</char>做<char style="pn">以色列</char>的士師二十二年。 <verse eid="JDG 10:3"/><verse number="4" style="v" sid="JDG 10:4"/>他有三十個兒子，每人騎一頭驢。他們在<char style="pn">基列</char>擁有三十座城，那些城到現在還叫「<char style="pn">雅珥</char>之城」。 <verse eid="JDG 10:4"/><verse number="5" style="v" sid="JDG 10:5"/><char style="pn">雅珥</char>死後，葬在<char style="pn">加們</char>。<verse eid="JDG 10:5"/></para>
+  <para style="s1">以色列人因犯罪而受罰</para>
+  <para style="p">
+    <verse number="6" style="v" sid="JDG 10:6"/>後來，<char style="pn">以色列</char>人又做耶和華視為惡的事，祭拜<char style="pn">巴力</char>和<char style="pn">亞斯她錄</char>，又拜<char style="pn">亞蘭</char>、<char style="pn">西頓</char>、<char style="pn">摩押</char>、<char style="pn">亞捫</char>和<char style="pn">非利士</char>的神明。他們背棄耶和華，不再事奉祂。 <verse eid="JDG 10:6"/><verse number="7" style="v" sid="JDG 10:7"/>耶和華向他們發怒，把他們交在<char style="pn">非利士</char>人和<char style="pn">亞捫</char>人手中。 <verse eid="JDG 10:7"/><verse number="8" style="v" sid="JDG 10:8"/>那年，<char style="pn">非利士</char>人和<char style="pn">亞捫</char>人擊垮了<char style="pn">以色列</char>人，壓迫<char style="pn">基列</char>地區、<char style="pn">約旦</char>河東<char style="pn">亞摩利</char>境內的<char style="pn">以色列</char>人達十八年。 <verse eid="JDG 10:8"/><verse number="9" style="v" sid="JDG 10:9"/><char style="pn">亞捫</char>人還渡過<char style="pn">約旦</char>河攻擊<char style="pn">猶大</char>、<char style="pn">便雅憫</char>和<char style="pn">以法蓮</char>支派，使<char style="pn">以色列</char>人苦不堪言。 <verse eid="JDG 10:9"/><verse number="10" style="v" sid="JDG 10:10"/>於是，他們呼求耶和華說：「我們背棄我們的上帝去祭拜<char style="pn">巴力</char>，我們得罪了你。」 <verse eid="JDG 10:10"/><verse number="11" style="v" sid="JDG 10:11"/>耶和華對他們說：「你們受<char style="pn">埃及</char>人、<char style="pn">亞摩利</char>人、<char style="pn">亞捫</char>人、<char style="pn">非利士</char>人、 <verse eid="JDG 10:11"/><verse number="12" style="v" sid="JDG 10:12"/><char style="pn">西頓</char>人、<char style="pn">亞瑪力</char>人和<char style="pn">馬雲</char>人的壓迫，就呼求我，我豈沒有拯救你們嗎？ <verse eid="JDG 10:12"/><verse number="13" style="v" sid="JDG 10:13"/>但你們竟背棄我，去事奉其他神明，所以我不再救你們。 <verse eid="JDG 10:13"/><verse number="14" style="v" sid="JDG 10:14"/>你們去呼求自己選擇的神明吧！你們有難，讓他們救你們吧！」 <verse eid="JDG 10:14"/><verse number="15" style="v" sid="JDG 10:15"/>他們對耶和華說：「我們犯了罪，任你處置我們，只求你今天拯救我們。」 <verse eid="JDG 10:15"/><verse number="16" style="v" sid="JDG 10:16"/><char style="pn">以色列</char>人除掉了他們的外邦神像，轉而事奉耶和華。耶和華不忍再看<char style="pn">以色列</char>人受苦。<verse eid="JDG 10:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JDG 10:17"/>當時，<char style="pn">亞捫</char>人整裝備戰，在<char style="pn">基列</char>安營；<char style="pn">以色列</char>人也集合起來，在<char style="pn">米斯巴</char>安營。 <verse eid="JDG 10:17"/><verse number="18" style="v" sid="JDG 10:18"/><char style="pn">基列</char>的首領們彼此商議說：「誰先攻打<char style="pn">亞捫</char>人，誰就做所有<char style="pn">基列</char>人的首領。」<verse eid="JDG 10:18"/></para>
+  <chapter eid="JDG 10"/>
+  <chapter number="11" style="c" sid="JDG 11"/>
+  <para style="s1">士師耶弗他</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 11:1"/>
+    <char style="pn">基列</char>人<char style="pn">耶弗他</char>是個英勇的戰士，他父親名叫<char style="pn">基列</char>，母親是個妓女。 <verse eid="JDG 11:1"/><verse number="2" style="v" sid="JDG 11:2"/><char style="pn">基列</char>的妻子還生了幾個兒子，他們長大後，便把<char style="pn">耶弗他</char>趕出家門，說：「你是別的女人生的，你休想繼承我們父親的任何產業。」 <verse eid="JDG 11:2"/><verse number="3" style="v" sid="JDG 11:3"/><char style="pn">耶弗他</char>只好逃走，住在<char style="pn">陀伯</char>地區。有一群匪徒聚集到他身邊，跟隨了他。<verse eid="JDG 11:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JDG 11:4"/>後來，<char style="pn">亞捫</char>人攻打<char style="pn">以色列</char>， <verse eid="JDG 11:4"/><verse number="5" style="v" sid="JDG 11:5"/><char style="pn">基列</char>的眾長老就去<char style="pn">陀伯</char>請<char style="pn">耶弗他</char>， <verse eid="JDG 11:5"/><verse number="6" style="v" sid="JDG 11:6"/>對他說：「請你回來做統帥帶領我們對抗<char style="pn">亞捫</char>人。」 <verse eid="JDG 11:6"/><verse number="7" style="v" sid="JDG 11:7"/><char style="pn">耶弗他</char>說：「從前你們不是厭惡我，把我從父親家趕走的嗎？現在你們遭難，為什麼來找我？」 <verse eid="JDG 11:7"/><verse number="8" style="v" sid="JDG 11:8"/><char style="pn">基列</char>的眾長老說：「我們現在是來請你跟我們一起回去抵抗<char style="pn">亞捫</char>人，你可以做所有<char style="pn">基列</char>人的首領。」 <verse eid="JDG 11:8"/><verse number="9" style="v" sid="JDG 11:9"/><char style="pn">耶弗他</char>說：「如果你們請我回去與<char style="pn">亞捫</char>人作戰，耶和華讓我打敗他們，我就真的可以做你們的首領嗎？」 <verse eid="JDG 11:9"/><verse number="10" style="v" sid="JDG 11:10"/><char style="pn">基列</char>的首領們說：「我們必聽從你的吩咐，有耶和華為我們作證。」 <verse eid="JDG 11:10"/><verse number="11" style="v" sid="JDG 11:11"/>於是，<char style="pn">耶弗他</char>便跟他們一起回去。民眾擁立他做他們的首領和元帥。<char style="pn">耶弗他</char>在<char style="pn">米斯巴</char>將之前所說的話在耶和華面前重申一遍。<verse eid="JDG 11:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JDG 11:12"/>然後，他派遣使者去問<char style="pn">亞捫</char>王：「你與我有什麼相干？為什麼要攻打我的領土？」 <verse eid="JDG 11:12"/><verse number="13" style="v" sid="JDG 11:13"/><char style="pn">亞捫</char>王對他的使者說：「因為<char style="pn">以色列</char>人從<char style="pn">埃及</char>出來的時候佔據了我們的土地，從<char style="pn">亞嫩</char>河到<char style="pn">雅博</char>河，一直到<char style="pn">約旦</char>河。現在你們要和平地歸還我們。」 <verse eid="JDG 11:13"/><verse number="14" style="v" sid="JDG 11:14"/><char style="pn">耶弗他</char>再差遣使者去見<char style="pn">亞捫</char>王， <verse eid="JDG 11:14"/><verse number="15" style="v" sid="JDG 11:15"/>對他說：「<char style="pn">以色列</char>人並沒有佔據<char style="pn">摩押</char>和<char style="pn">亞捫</char>的土地。 <verse eid="JDG 11:15"/><verse number="16" style="v" sid="JDG 11:16"/>當年<char style="pn">以色列</char>人離開<char style="pn">埃及</char>，經曠野渡過紅海來到<char style="pn">加低斯</char>， <verse eid="JDG 11:16"/><verse number="17" style="v" sid="JDG 11:17"/>然後派遣使者去見<char style="pn">以東</char>王，說，『求你讓我們經過你的領土。』<char style="pn">以東</char>王卻不答應。他們又派遣使者去見<char style="pn">摩押</char>王，<char style="pn">摩押</char>王也不答應。於是，<char style="pn">以色列</char>人就住在<char style="pn">加低斯</char>。 <verse eid="JDG 11:17"/><verse number="18" style="v" sid="JDG 11:18"/>後來，他們走過曠野，繞過<char style="pn">以東</char>和<char style="pn">摩押</char>，到了<char style="pn">摩押</char>的東邊，在<char style="pn">摩押</char>的邊界<char style="pn">亞嫩</char>河東岸紮營，並沒有進入<char style="pn">摩押</char>境內。 <verse eid="JDG 11:18"/><verse number="19" style="v" sid="JDG 11:19"/><char style="pn">以色列</char>人派遣使者去見<char style="pn">希實本</char>的<char style="pn">亞摩利</char>王<char style="pn">西宏</char>，對他說，『求讓我們經過你的領土前往我們自己的土地。』 <verse eid="JDG 11:19"/><verse number="20" style="v" sid="JDG 11:20"/>但<char style="pn">西宏</char>不信任<char style="pn">以色列</char>人，拒絕了他們的請求，並招聚全軍駐紮在<char style="pn">雅雜</char>，攻打他們。 <verse eid="JDG 11:20"/><verse number="21" style="v" sid="JDG 11:21"/>但<char style="pn">以色列</char>的上帝耶和華幫助<char style="pn">以色列</char>人戰勝<char style="pn">西宏</char>和他的軍隊，佔領了<char style="pn">亞摩利</char>人所有的土地， <verse eid="JDG 11:21"/><verse number="22" style="v" sid="JDG 11:22"/>從<char style="pn">亞嫩</char>河直到<char style="pn">雅博</char>河，從曠野直到<char style="pn">約旦</char>河。 <verse eid="JDG 11:22"/><verse number="23" style="v" sid="JDG 11:23"/>既然是<char style="pn">以色列</char>的上帝耶和華為祂的<char style="pn">以色列</char>子民趕走了<char style="pn">亞摩利</char>人，你憑什麼要奪取這塊土地？ <verse eid="JDG 11:23"/><verse number="24" style="v" sid="JDG 11:24"/>你擁有你們的神明<char style="pn">基抹</char>給你們的土地，我們也要擁有我們的上帝耶和華賜給我們的土地。 <verse eid="JDG 11:24"/><verse number="25" style="v" sid="JDG 11:25"/>難道你比<char style="pn">摩押</char>王<char style="pn">西撥</char>的兒子<char style="pn">巴勒</char>更強嗎？他從未挑戰過<char style="pn">以色列</char>人，也未和<char style="pn">以色列</char>人交過戰。 <verse eid="JDG 11:25"/><verse number="26" style="v" sid="JDG 11:26"/>三百年來，<char style="pn">以色列</char>人一直住在<char style="pn">希實本</char>及其周圍的鄉村、<char style="pn">亞羅珥</char>及其周圍的鄉村和<char style="pn">亞嫩</char>河沿岸一帶的城邑。在這期間，你們為什麼不收回這些土地呢？ <verse eid="JDG 11:26"/><verse number="27" style="v" sid="JDG 11:27"/>我們沒有得罪你們，你們卻攻打我們。願審判者耶和華今天在<char style="pn">以色列</char>人和<char style="pn">亞捫</char>人之間主持公道。」 <verse eid="JDG 11:27"/><verse number="28" style="v" sid="JDG 11:28"/>可是，<char style="pn">亞捫</char>王不理會<char style="pn">耶弗他</char>派使者所傳的話。<verse eid="JDG 11:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JDG 11:29"/>那時，耶和華的靈降在<char style="pn">耶弗他</char>身上，他便經過<char style="pn">基列</char>和<char style="pn">瑪拿西</char>，來到<char style="pn">基列</char>的<char style="pn">米斯巴</char>，然後從那裡去迎戰<char style="pn">亞捫</char>人。 <verse eid="JDG 11:29"/><verse number="30" style="v" sid="JDG 11:30"/>他向耶和華許願說：「如果你把<char style="pn">亞捫</char>人交在我手中， <verse eid="JDG 11:30"/><verse number="31" style="v" sid="JDG 11:31"/>讓我平安歸來，第一個從我家門出來迎接我的人必歸給你，我必把他獻給你作燔祭。」 <verse eid="JDG 11:31"/><verse number="32" style="v" sid="JDG 11:32"/>於是，<char style="pn">耶弗他</char>率軍與<char style="pn">亞捫</char>人作戰，耶和華把敵人交在他手中， <verse eid="JDG 11:32"/><verse number="33" style="v" sid="JDG 11:33"/>他大敗敵軍，摧毀了從<char style="pn">亞羅珥</char>到<char style="pn">米匿</char>、遠至<char style="pn">亞備勒·基拉明</char>的二十座城。這樣，<char style="pn">以色列</char>人征服了<char style="pn">亞捫</char>人。<verse eid="JDG 11:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JDG 11:34"/>
+    <char style="pn">耶弗他</char>返回自己在<char style="pn">米斯巴</char>的家，他的獨生女兒敲著鼓、跳著舞出來迎接他。 <verse eid="JDG 11:34"/><verse number="35" style="v" sid="JDG 11:35"/>他一見自己的女兒，便撕裂衣服，說：「唉，我的女兒啊，你真讓我傷心欲絕，禍患臨頭！我向耶和華許了願，不能收回了！」 <verse eid="JDG 11:35"/><verse number="36" style="v" sid="JDG 11:36"/>他女兒說：「父親啊，你既然向耶和華許了願，就照你許的願對待我吧！因為耶和華幫你打敗了敵軍<char style="pn">亞捫</char>人，為你報了仇。 <verse eid="JDG 11:36"/><verse number="37" style="v" sid="JDG 11:37"/>但求你先給我兩個月的時間，讓我和同伴到山上去為我終身未嫁哀哭。」 <verse eid="JDG 11:37"/><verse number="38" style="v" sid="JDG 11:38"/><char style="pn">耶弗他</char>答應了，給了她兩個月的時間。於是，她便和同伴到山上為自己終身未嫁哀哭。 <verse eid="JDG 11:38"/><verse number="39" style="v" sid="JDG 11:39"/>兩個月後，她回到父親那裡。她父親履行了自己所許的願。她從未與男人同房。自此以後，在<char style="pn">以色列</char>有個習俗： <verse eid="JDG 11:39"/><verse number="40" style="v" sid="JDG 11:40"/>每年<char style="pn">以色列</char>的女子都去為<char style="pn">基列</char>人<char style="pn">耶弗他</char>的女兒哀哭四天。<verse eid="JDG 11:40"/></para>
+  <chapter eid="JDG 11"/>
+  <chapter number="12" style="c" sid="JDG 12"/>
+  <para style="s1">耶弗他打敗以法蓮人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 12:1"/>後來，<char style="pn">以法蓮</char>人召集軍隊，渡過<char style="pn">約旦</char>河來到<char style="pn">撒分</char>。他們對<char style="pn">耶弗他</char>說：「你為什麼不召我們一起去攻打<char style="pn">亞捫</char>人呢？我們要把你和你的房子一起燒掉。」 <verse eid="JDG 12:1"/><verse number="2" style="v" sid="JDG 12:2"/><char style="pn">耶弗他</char>說：「我和我的人民與<char style="pn">亞捫</char>人激戰時，我曾召你們參戰，你們卻不肯來援救我們。 <verse eid="JDG 12:2"/><verse number="3" style="v" sid="JDG 12:3"/>我見你們不來援救，只好冒死去迎戰<char style="pn">亞捫</char>人，耶和華把敵人交在了我手中。你們今天為什麼來攻打我呢？」 <verse eid="JDG 12:3"/><verse number="4" style="v" sid="JDG 12:4"/><char style="pn">以法蓮</char>人說：「你們這些在<char style="pn">以法蓮</char>和<char style="pn">瑪拿西</char>境內的<char style="pn">基列</char>人不過是<char style="pn">以法蓮</char>的逃兵。」於是，<char style="pn">耶弗他</char>號召<char style="pn">基列</char>人起來迎戰<char style="pn">以法蓮</char>人，打敗了他們。 <verse eid="JDG 12:4"/><verse number="5" style="v" sid="JDG 12:5"/><char style="pn">基列</char>人佔據<char style="pn">約旦</char>河各渡口，不讓<char style="pn">以法蓮</char>人過去。如果有<char style="pn">以法蓮</char>的逃兵請求過河，<char style="pn">基列</char>人便問他：「你是<char style="pn">以法蓮</char>人嗎？」如果他否認， <verse eid="JDG 12:5"/><verse number="6" style="v" sid="JDG 12:6"/>他們就讓他說「<char style="pn">示播列</char>」。<char style="pn">以法蓮</char>人因為咬字不清，會把「<char style="pn">示播列</char>」說成「<char style="pn">西播列</char>」，<char style="pn">基列</char>人便抓住他，在<char style="pn">約旦</char>河渡口處死他。那時，有四萬二千名<char style="pn">以法蓮</char>人被殺。<verse eid="JDG 12:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 12:7"/>
+    <char style="pn">基列</char>人<char style="pn">耶弗他</char>做<char style="pn">以色列</char>的士師六年，死後葬在<char style="pn">基列</char>的一座城裡。<verse eid="JDG 12:7"/></para>
+  <para style="s1">以比贊、以倫、押頓</para>
+  <para style="p">
+    <verse number="8" style="v" sid="JDG 12:8"/>
+    <char style="pn">耶弗他</char>死後，<char style="pn">伯利恆</char>人<char style="pn">以比贊</char>做<char style="pn">以色列</char>的士師。 <verse eid="JDG 12:8"/><verse number="9" style="v" sid="JDG 12:9"/>他有三十個兒子、三十個女兒，他從別的宗族給兒子們娶來三十個媳婦，又把女兒都嫁到別的宗族。他做<char style="pn">以色列</char>的士師七年， <verse eid="JDG 12:9"/><verse number="10" style="v" sid="JDG 12:10"/>死後葬在<char style="pn">伯利恆</char>。 <verse eid="JDG 12:10"/><verse number="11" style="v" sid="JDG 12:11"/><char style="pn">以比贊</char>死後，<char style="pn">西布倫</char>人<char style="pn">以倫</char>做<char style="pn">以色列</char>的士師十年。 <verse eid="JDG 12:11"/><verse number="12" style="v" sid="JDG 12:12"/>他死後葬在<char style="pn">西布倫</char>的<char style="pn">亞雅崙</char>。 <verse eid="JDG 12:12"/><verse number="13" style="v" sid="JDG 12:13"/><char style="pn">以倫</char>死後，<char style="pn">比拉頓</char>人<char style="pn">希列</char>的兒子<char style="pn">押頓</char>做<char style="pn">以色列</char>的士師。 <verse eid="JDG 12:13"/><verse number="14" style="v" sid="JDG 12:14"/>他有四十個兒子、三十個孫子，他的兒孫每人騎一頭驢。<char style="pn">押頓</char>做<char style="pn">以色列</char>的士師八年， <verse eid="JDG 12:14"/><verse number="15" style="v" sid="JDG 12:15"/>他死後葬在<char style="pn">以法蓮</char>的<char style="pn">比拉頓</char>，在<char style="pn">亞瑪力</char>人的山區。<verse eid="JDG 12:15"/></para>
+  <chapter eid="JDG 12"/>
+  <chapter number="13" style="c" sid="JDG 13"/>
+  <para style="s1">參孫的出生</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 13:1"/>
+    <char style="pn">以色列</char>人又做耶和華視為惡的事，耶和華就把他們交在<char style="pn">非利士</char>人手中四十年。<verse eid="JDG 13:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="JDG 13:2"/>
+    <char style="pn">瑣拉</char>城住了一個<char style="pn">但</char>支派的人，名叫<char style="pn">瑪挪亞</char>。他妻子不能生育，沒有孩子。 <verse eid="JDG 13:2"/><verse number="3" style="v" sid="JDG 13:3"/>耶和華的天使向那婦人顯現，對她說：「你雖然不生育，但不久你必懷孕生一個兒子。 <verse eid="JDG 13:3"/><verse number="4" style="v" sid="JDG 13:4"/>現在，你要留心，不可喝淡酒和烈酒，不可吃任何不潔之物。 <verse eid="JDG 13:4"/><verse number="5" style="v" sid="JDG 13:5"/>你必懷孕生一個兒子，你不可為他剃頭，因為他一出生就要歸給上帝做拿細耳人<note caller="+" style="f"><char style="fr" closed="false">13·5 </char><char style="ft" closed="false">「拿細耳人」參見<char style="xt"><ref loc="NUM 6:1-8">民數記6·1‑8</ref></char>。</char></note>。他要從<char style="pn">非利士</char>人手中拯救<char style="pn">以色列</char>人。」 <verse eid="JDG 13:5"/><verse number="6" style="v" sid="JDG 13:6"/>婦人就去對丈夫說：「有一位上帝的僕人向我顯現，他的容貌像上帝的天使，非常可畏。我沒有問他從哪裡來，他也沒有把名字告訴我。 <verse eid="JDG 13:6"/><verse number="7" style="v" sid="JDG 13:7"/>他對我說，『你必懷孕生一個兒子，現在不可喝淡酒和烈酒，不可吃任何不潔之物，因為孩子一出生就要獻給耶和華，終生做拿細耳人。』」<verse eid="JDG 13:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JDG 13:8"/>
+    <char style="pn">瑪挪亞</char>向耶和華祈求說：「主啊，求你再派你的僕人到這裡來，教我們怎樣照顧要出生的孩子。」 <verse eid="JDG 13:8"/><verse number="9" style="v" sid="JDG 13:9"/>上帝應允了他的祈求。他妻子正坐在田間的時候，上帝的天使再次向她顯現。當時她丈夫<char style="pn">瑪挪亞</char>不在場。 <verse eid="JDG 13:9"/><verse number="10" style="v" sid="JDG 13:10"/>她趕忙跑去告訴她丈夫說：「那天來的那人又向我顯現了。」 <verse eid="JDG 13:10"/><verse number="11" style="v" sid="JDG 13:11"/><char style="pn">瑪挪亞</char>起來跟隨妻子來到那人面前，問他：「跟我妻子說話的就是你嗎？」他答道：「是我。」 <verse eid="JDG 13:11"/><verse number="12" style="v" sid="JDG 13:12"/><char style="pn">瑪挪亞</char>問道：「你的話應驗以後，我們應該怎樣撫養這孩子？他該做什麼？」 <verse eid="JDG 13:12"/><verse number="13" style="v" sid="JDG 13:13"/>耶和華的天使說：「你的妻子必須謹記我的一切吩咐。 <verse eid="JDG 13:13"/><verse number="14" style="v" sid="JDG 13:14"/>她不可吃葡萄樹所結的果實，淡酒和烈酒都不可喝，不可吃任何不潔之物。她必須遵行我的一切吩咐。」<verse eid="JDG 13:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JDG 13:15"/>
+    <char style="pn">瑪挪亞</char>說：「請你留下來，我們要預備一隻山羊羔給你吃。」 <verse eid="JDG 13:15"/><verse number="16" style="v" sid="JDG 13:16"/>當時，<char style="pn">瑪挪亞</char>仍然不知道那人是耶和華的天使。天使說：「我就是留下來也不會吃你預備的食物。你如果預備燔祭，就把它獻給耶和華吧！」 <verse eid="JDG 13:16"/><verse number="17" style="v" sid="JDG 13:17"/><char style="pn">瑪挪亞</char>說：「請告訴我你的名字，當一切應驗的時候，我們好向你表達敬意。」 <verse eid="JDG 13:17"/><verse number="18" style="v" sid="JDG 13:18"/>耶和華的天使說：「何必問我的名字呢？我的名字奇妙難測。」 <verse eid="JDG 13:18"/><verse number="19" style="v" sid="JDG 13:19"/>於是，<char style="pn">瑪挪亞</char>就把一隻山羊羔和素祭放在磐石上，獻給耶和華。就在這時候，天使在<char style="pn">瑪挪亞</char>夫婦面前行了一件奇妙的事： <verse eid="JDG 13:19"/><verse number="20" style="v" sid="JDG 13:20"/>火焰從祭壇上升起的時候，耶和華的天使也在祭壇的火焰中升上去了。<char style="pn">瑪挪亞</char>夫婦見狀便俯伏在地。<verse eid="JDG 13:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JDG 13:21"/>耶和華的天使後來沒再向<char style="pn">瑪挪亞</char>夫婦子顯現，<char style="pn">瑪挪亞</char>才知道他是耶和華的天使。 <verse eid="JDG 13:21"/><verse number="22" style="v" sid="JDG 13:22"/><char style="pn">瑪挪亞</char>對妻子說：「我們必死無疑，因為我們看見了上帝。」 <verse eid="JDG 13:22"/><verse number="23" style="v" sid="JDG 13:23"/>他妻子卻說：「耶和華如果要殺我們，就不會接受我們的燔祭和素祭了，也不會讓我們看見這些事，更不會這時候跟我們說這些話。」<verse eid="JDG 13:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JDG 13:24"/>後來<char style="pn">瑪挪亞</char>的妻子生了個兒子，她給孩子取名叫<char style="pn">參孫</char>。這孩子漸漸長大，耶和華賜福給他。 <verse eid="JDG 13:24"/><verse number="25" style="v" sid="JDG 13:25"/>當他在<char style="pn">瑣拉</char>和<char style="pn">以實陶</char>之間的<char style="pn">瑪哈尼·但</char>的時候，耶和華的靈開始感動他。<verse eid="JDG 13:25"/></para>
+  <chapter eid="JDG 13"/>
+  <chapter number="14" style="c" sid="JDG 14"/>
+  <para style="s1">參孫娶非利士女子為妻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 14:1"/>
+    <char style="pn">參孫</char>下到<char style="pn">亭拿</char>，在那裡看中了一個<char style="pn">非利士</char>女子。 <verse eid="JDG 14:1"/><verse number="2" style="v" sid="JDG 14:2"/>他回到家裡便對父母說：「我在<char style="pn">亭拿</char>看中一個<char style="pn">非利士</char>女子，把她給我娶來做妻子吧！」 <verse eid="JDG 14:2"/><verse number="3" style="v" sid="JDG 14:3"/>他父母說：「難道我們的親族和同胞中沒有合適的女子嗎？你為什麼要娶未受割禮的<char style="pn">非利士</char>人的女子呢？」<char style="pn">參孫</char>卻說：「我很喜歡她，請給我把她娶過來吧！」<verse eid="JDG 14:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JDG 14:4"/>他的父母不知道這事是出於耶和華的旨意，祂要找機會對付<char style="pn">非利士</char>人。那時，<char style="pn">非利士</char>人統治著<char style="pn">以色列</char>。<verse eid="JDG 14:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JDG 14:5"/>
+    <char style="pn">參孫</char>跟父母一起去<char style="pn">亭拿</char>，走到<char style="pn">亭拿</char>的葡萄園時，有一頭猛獅吼叫著撲向他。 <verse eid="JDG 14:5"/><verse number="6" style="v" sid="JDG 14:6"/>耶和華的靈突然降在<char style="pn">參孫</char>身上，他雖然手無寸鐵，竟撕裂了那頭獅子，就像撕裂一隻山羊羔一樣。他沒有把這事告訴父母。 <verse eid="JDG 14:6"/><verse number="7" style="v" sid="JDG 14:7"/>到了<char style="pn">亭拿</char>，<char style="pn">參孫</char>跟那女子交談，很喜歡她。 <verse eid="JDG 14:7"/><verse number="8" style="v" sid="JDG 14:8"/>過了些日子，<char style="pn">參孫</char>下去迎娶她，途中他順便去看那隻死獅子，見死獅子體內有一群蜜蜂和一些蜂蜜， <verse eid="JDG 14:8"/><verse number="9" style="v" sid="JDG 14:9"/>就用手取了一些蜜，邊走邊吃。到了父母那裡，他給了他們一些，他們也吃了。但他沒有告訴父母蜂蜜是從死獅子體內取的。<verse eid="JDG 14:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JDG 14:10"/>
+    <char style="pn">參孫</char>的父親去那女子家，<char style="pn">參孫</char>按習俗擺設宴席。 <verse eid="JDG 14:10"/><verse number="11" style="v" sid="JDG 14:11"/>眾人看見<char style="pn">參孫</char>，就安排了三十個人陪他。 <verse eid="JDG 14:11"/><verse number="12" style="v" sid="JDG 14:12"/><char style="pn">參孫</char>對他們說：「我出一個謎語，如果你們可以在這七天的婚宴期間猜出來，我就送你們三十件細麻衣和三十件外袍。 <verse eid="JDG 14:12"/><verse number="13" style="v" sid="JDG 14:13"/>如果猜不中，你們就要給我三十件細麻衣和三十件外袍。」他們說：「請你出謎語吧！」 <verse eid="JDG 14:13"/><verse number="14" style="v" sid="JDG 14:14"/><char style="pn">參孫</char>說：</para>
+  <para style="q1" vid="JDG 14:14">「食物出自食者，</para>
+  <para style="q1" vid="JDG 14:14">甜物出自強者。」</para>
+  <para style="m" vid="JDG 14:14">三天過後，他們仍然猜不出來。<verse eid="JDG 14:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JDG 14:15"/>到了第四天，他們對<char style="pn">參孫</char>的妻子說：「你要哄你的丈夫把謎底說出來，不然我們就把你和你父親一家全燒死。你們邀請我們來，難道是要奪取我們的家產嗎？」 <verse eid="JDG 14:15"/><verse number="16" style="v" sid="JDG 14:16"/>於是，<char style="pn">參孫</char>的妻子向他哭訴說：「你是恨我，不是愛我。你給我的族人出了謎語，卻沒有告訴我謎底。」<char style="pn">參孫</char>回答說：「我連父母都沒有告訴，又怎能告訴你呢？」 <verse eid="JDG 14:16"/><verse number="17" style="v" sid="JDG 14:17"/>在七天的婚宴期間，她一直在丈夫跟前哭哭啼啼。到了第七天，<char style="pn">參孫</char>經不住妻子的催逼就把謎底告訴了她。她把謎底告訴了她的族人。 <verse eid="JDG 14:17"/><verse number="18" style="v" sid="JDG 14:18"/>在第七天日落之前，城裡的人對<char style="pn">參孫</char>說：</para>
+  <para style="q1" vid="JDG 14:18">「有什麼比蜂蜜更甜？</para>
+  <para style="q1" vid="JDG 14:18">有什麼比獅子更強？」</para>
+  <para style="m" vid="JDG 14:18">
+    <char style="pn">參孫</char>說：</para>
+  <para style="q1" vid="JDG 14:18">「你們若不是利用我的小母牛耕田，</para>
+  <para style="q1" vid="JDG 14:18">肯定猜不出來。」<verse eid="JDG 14:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JDG 14:19"/>耶和華的靈突然降在<char style="pn">參孫</char>身上，他便去<char style="pn">亞實基倫</char>殺了三十個人，取走他們的衣服，交給猜中謎語的那些人，然後怒氣沖沖地回父親家去了。 <verse eid="JDG 14:19"/><verse number="20" style="v" sid="JDG 14:20"/><char style="pn">參孫</char>的妻子後來歸了他的伴郎。<verse eid="JDG 14:20"/></para>
+  <chapter eid="JDG 14"/>
+  <chapter number="15" style="c" sid="JDG 15"/>
+  <para style="s1">參孫向非利士人報仇</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 15:1"/>過了些日子，在割麥的時候，<char style="pn">參孫</char>帶著一隻山羊羔去探望他妻子。他說：「我要進內室見我妻子。」他岳父卻不讓他進去， <verse eid="JDG 15:1"/><verse number="2" style="v" sid="JDG 15:2"/>並對他說：「我以為你非常恨她，所以我把她改嫁給你的伴郎了。她妹子不是比她更美嗎？你可以娶來代替她。」<verse eid="JDG 15:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="JDG 15:3"/>
+    <char style="pn">參孫</char>說：「這次我要加害<char style="pn">非利士</char>人，可不能怪我了。」<verse eid="JDG 15:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JDG 15:4"/>於是，他出去捉了三百隻狐狸，把牠們的尾巴一對一對綁起來，將火把綁在兩條尾巴中間， <verse eid="JDG 15:4"/><verse number="5" style="v" sid="JDG 15:5"/>然後點燃火把，把狐狸放進<char style="pn">非利士</char>人的麥田裡，將割好的麥捆和未割的麥子、葡萄園和橄欖園都燒毀了。 <verse eid="JDG 15:5"/><verse number="6" style="v" sid="JDG 15:6"/><char style="pn">非利士</char>人問：「這是誰幹的？」有人回答說：「是<char style="pn">亭拿</char>人的女婿<char style="pn">參孫</char>幹的，因為他岳父把他的妻子嫁給了他的伴郎。」<char style="pn">非利士</char>人就去放火燒死了<char style="pn">參孫</char>的妻子和岳父。 <verse eid="JDG 15:6"/><verse number="7" style="v" sid="JDG 15:7"/><char style="pn">參孫</char>說：「你們既然這樣做，我不向你們報仇誓不甘休。」 <verse eid="JDG 15:7"/><verse number="8" style="v" sid="JDG 15:8"/><char style="pn">參孫</char>大肆擊殺他們，殺死了很多人。事後，他下到<char style="pn">以坦</char>，住在那裡的巖洞裡。<verse eid="JDG 15:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JDG 15:9"/>
+    <char style="pn">非利士</char>人進犯<char style="pn">猶大</char>，在<char style="pn">利希</char>一帶紮營。 <verse eid="JDG 15:9"/><verse number="10" style="v" sid="JDG 15:10"/><char style="pn">猶大</char>人問他們：「你們為什麼來攻打我們？」<char style="pn">非利士</char>人回答說：「我們來捉拿<char style="pn">參孫</char>，向他以報還報。」 <verse eid="JDG 15:10"/><verse number="11" style="v" sid="JDG 15:11"/>於是，有三千<char style="pn">猶大</char>人去<char style="pn">以坦</char>的巖洞找<char style="pn">參孫</char>，對他說：「難道你不知道<char style="pn">非利士</char>人是我們的統治者嗎？你為什麼連累我們？」<char style="pn">參孫</char>回答說：「我只是以牙還牙。」 <verse eid="JDG 15:11"/><verse number="12" style="v" sid="JDG 15:12"/><char style="pn">猶大</char>人說：「我們來是要捉拿你，把你交給<char style="pn">非利士</char>人。」<char style="pn">參孫</char>說：「你們要起誓不會親手殺我。」 <verse eid="JDG 15:12"/><verse number="13" style="v" sid="JDG 15:13"/>他們說：「我們不會殺你，只將你綁起來交給<char style="pn">非利士</char>人。」於是，他們用兩根新繩子把<char style="pn">參孫</char>捆綁起來帶出巖洞。<verse eid="JDG 15:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JDG 15:14"/>
+    <char style="pn">參孫</char>來到<char style="pn">利希</char>，<char style="pn">非利士</char>人就吶喊著迎了上去。耶和華的靈突然降在<char style="pn">參孫</char>身上，綁在他手臂上的繩子就像被火燒的麻線一樣脫落下來。 <verse eid="JDG 15:14"/><verse number="15" style="v" sid="JDG 15:15"/>他看到一塊還沒有乾的驢腮骨，就撿起來用它殺了一千個<char style="pn">非利士</char>人。 <verse eid="JDG 15:15"/><verse number="16" style="v" sid="JDG 15:16"/><char style="pn">參孫</char>說：</para>
+  <para style="q1" vid="JDG 15:16">「用這驢腮骨，我殺人成堆；</para>
+  <para style="q1" vid="JDG 15:16">用這驢腮骨，我殺死千人。」<verse eid="JDG 15:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JDG 15:17"/>說完，他扔掉了手中的驢腮骨。因此，那地方叫<char style="pn">拉末·利希</char><note caller="+" style="f"><char style="fr" closed="false">15·17 </char><char style="ft" closed="false">「拉末·利希」意思是「腮骨崗」。</char></note>。<verse eid="JDG 15:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JDG 15:18"/>
+    <char style="pn">參孫</char>覺得非常口渴，便向耶和華呼求說：「你既然藉著僕人的手大敗敵人，難道你會讓我渴死、落在這些未受割禮的人手中嗎？」 <verse eid="JDG 15:18"/><verse number="19" style="v" sid="JDG 15:19"/>於是，上帝使<char style="pn">利希</char>的一處窪地裂開，湧出水來。<char style="pn">參孫</char>喝後恢復了精神。因此，那水泉叫<char style="pn">隱·哈歌利</char><note caller="+" style="f"><char style="fr" closed="false">15·19 </char><char style="ft" closed="false">「隱·哈歌利」意思是「呼求者的泉」。</char></note>。那水泉今天還在<char style="pn">利希</char>。 <verse eid="JDG 15:19"/><verse number="20" style="v" sid="JDG 15:20"/>在<char style="pn">非利士</char>人統治期間，<char style="pn">參孫</char>做<char style="pn">以色列</char>的士師二十年。<verse eid="JDG 15:20"/></para>
+  <chapter eid="JDG 15"/>
+  <chapter number="16" style="c" sid="JDG 16"/>
+  <para style="s1">參孫和大利拉</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 16:1"/>一天，<char style="pn">參孫</char>去<char style="pn">迦薩</char>，看見一個妓女，就與她親近。 <verse eid="JDG 16:1"/><verse number="2" style="v" sid="JDG 16:2"/><char style="pn">迦薩</char>人得知<char style="pn">參孫</char>來了，便包圍那地方，整夜埋伏在城門口，沒有動手，心想：「等天一亮，我們就殺掉他。」 <verse eid="JDG 16:2"/><verse number="3" style="v" sid="JDG 16:3"/>可是，<char style="pn">參孫</char>睡到半夜就起來，把城門的門扇連門框和門閂一同拆下，扛到<char style="pn">希伯崙</char>對面的山頂上。<verse eid="JDG 16:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JDG 16:4"/>後來，<char style="pn">參孫</char>在<char style="pn">梭烈</char>谷愛上一位名叫<char style="pn">大利拉</char>的女子。 <verse eid="JDG 16:4"/><verse number="5" style="v" sid="JDG 16:5"/><char style="pn">非利士</char>人的首領就上去見這女子，對她說：「請你哄<char style="pn">參孫</char>說出他為何有這麼大力氣，我們怎樣才能制伏他，把他綁起來。事後，我們每人會給你一千一百塊銀子。」 <verse eid="JDG 16:5"/><verse number="6" style="v" sid="JDG 16:6"/>於是，<char style="pn">大利拉</char>問<char style="pn">參孫</char>：「求你告訴我，你為什麼有這麼大力氣？用什麼辦法才能把你綁起來制伏你？」<verse eid="JDG 16:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 16:7"/>
+    <char style="pn">參孫</char>說：「如果他們用七根還沒乾的青繩子綁住我，我就會像普通人一樣軟弱。」 <verse eid="JDG 16:7"/><verse number="8" style="v" sid="JDG 16:8"/><char style="pn">非利士</char>人的首領便把七根還沒乾的青繩子交給<char style="pn">大利拉</char>，她用那些繩子把<char style="pn">參孫</char>綁起來。 <verse eid="JDG 16:8"/><verse number="9" style="v" sid="JDG 16:9"/>有人已預先埋伏在她的內室，於是她喊道：「<char style="pn">參孫</char>，<char style="pn">非利士</char>人來捉你了！」但<char style="pn">參孫</char>掙斷了繩子，就像掙斷火燒過的麻線一樣。因此，仍然沒有人知道他為何力氣過人。<verse eid="JDG 16:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JDG 16:10"/>
+    <char style="pn">大利拉</char>對<char style="pn">參孫</char>說：「你說謊捉弄我。現在請你告訴我，用什麼方法才能綁住你？」 <verse eid="JDG 16:10"/><verse number="11" style="v" sid="JDG 16:11"/><char style="pn">參孫</char>回答說：「如果他們用從未用過的新繩子綁住我，我就會像普通人一樣軟弱。」 <verse eid="JDG 16:11"/><verse number="12" style="v" sid="JDG 16:12"/>於是，<char style="pn">大利拉</char>讓人埋伏在內室，她用七根新繩子綁住<char style="pn">參孫</char>，然後喊道：「<char style="pn">參孫</char>，<char style="pn">非利士</char>人來捉你了！」結果，<char style="pn">參孫</char>掙斷了手臂上的繩子，就像掙斷一根線一樣。<verse eid="JDG 16:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JDG 16:13"/>
+    <char style="pn">大利拉</char>對<char style="pn">參孫</char>說：「到現在你還是說謊捉弄我。請你告訴我，用什麼方法才能綁住你？」<char style="pn">參孫</char>說：「你把我的七根髮辮和織布機的線編在一起，用梭子扎緊，我就會像普通人一樣軟弱。」 <verse eid="JDG 16:13"/><verse number="14" style="v" sid="JDG 16:14"/>於是，<char style="pn">大利拉</char>把他的髮辮和織布機的線編在一起，用梭子扎緊，然後喊道：「<char style="pn">參孫</char>，<char style="pn">非利士</char>人來捉你了！」<char style="pn">參孫</char>醒來，掙脫了織布機的梭子和線。<verse eid="JDG 16:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JDG 16:15"/>
+    <char style="pn">大利拉</char>對<char style="pn">參孫</char>說：「你既然不跟我說真心話，還說什麼愛我！你捉弄了我三次，沒告訴我你為何力氣過人。」 <verse eid="JDG 16:15"/><verse number="16" style="v" sid="JDG 16:16"/><char style="pn">大利拉</char>天天在他跟前嘮叨不停，以致他煩得要死， <verse eid="JDG 16:16"/><verse number="17" style="v" sid="JDG 16:17"/>就把秘密告訴了她。他說：「我從不剃髮，因為我一出生就獻給上帝做拿細耳人了。如果剃掉我的頭髮，我就會失去力氣，像普通人一樣軟弱。」<verse eid="JDG 16:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JDG 16:18"/>
+    <char style="pn">大利拉</char>見他說出了心中的秘密，就派人去通知<char style="pn">非利士</char>人的首領，說：「你們再來一次吧，他已經把秘密告訴我了。」於是，他們帶著銀子去了。 <verse eid="JDG 16:18"/><verse number="19" style="v" sid="JDG 16:19"/><char style="pn">大利拉</char>哄<char style="pn">參孫</char>枕著她的腿睡覺，然後叫人來剃掉他的七根髮辮，使他力氣盡失，無力反抗。 <verse eid="JDG 16:19"/><verse number="20" style="v" sid="JDG 16:20"/>她喊道：「<char style="pn">參孫</char>，<char style="pn">非利士</char>人來捉你了！」<char style="pn">參孫</char>醒來，心想：「我要像前幾次一樣掙脫捆綁。」他卻不知道耶和華已經離開他了。 <verse eid="JDG 16:20"/><verse number="21" style="v" sid="JDG 16:21"/><char style="pn">非利士</char>人拿住他，剜了他的眼睛，把他帶到<char style="pn">迦薩</char>，用銅鏈鎖住他，讓他在監牢裡推磨。 <verse eid="JDG 16:21"/><verse number="22" style="v" sid="JDG 16:22"/>後來，他的頭髮又漸漸長出來了。<verse eid="JDG 16:22"/></para>
+  <para style="s1">參孫之死</para>
+  <para style="p">
+    <verse number="23" style="v" sid="JDG 16:23"/>
+    <char style="pn">非利士</char>人的首領聚在一起向他們的神明<char style="pn">大袞</char>獻大祭，歡呼說：「我們的神把仇敵<char style="pn">參孫</char>交在我們手中了。」 <verse eid="JDG 16:23"/><verse number="24" style="v" sid="JDG 16:24"/>眾人看見<char style="pn">參孫</char>，就讚美他們的神明，說：「我們的神把仇敵交在我們手中了，他曾毀壞我們的田地，殺死我們許多人。」 <verse eid="JDG 16:24"/><verse number="25" style="v" sid="JDG 16:25"/>他們都興高采烈，並喊道：「把<char style="pn">參孫</char>帶來讓我們消遣消遣。」於是，有人把<char style="pn">參孫</char>從監牢裡提出來供他們消遣，他們讓他站在兩根柱子中間。 <verse eid="JDG 16:25"/><verse number="26" style="v" sid="JDG 16:26"/><char style="pn">參孫</char>對拉著他手的童僕說：「帶我到支撐這廟宇的柱子那裡，我想靠一靠。」 <verse eid="JDG 16:26"/><verse number="27" style="v" sid="JDG 16:27"/>那時，廟裡擠滿了男男女女，<char style="pn">非利士</char>人的首領們都在場，房頂上還有三千男女看<char style="pn">參孫</char>的熱鬧。<verse eid="JDG 16:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JDG 16:28"/>
+    <char style="pn">參孫</char>呼求耶和華，說：「主耶和華啊，求你眷顧我！上帝啊，求你再賜給我一次力量，使我向<char style="pn">非利士</char>人報剜眼之仇。」 <verse eid="JDG 16:28"/><verse number="29" style="v" sid="JDG 16:29"/><char style="pn">參孫</char>就抱住廟宇中央的兩根柱子，一手抱一根， <verse eid="JDG 16:29"/><verse number="30" style="v" sid="JDG 16:30"/>然後喊道：「我要跟<char style="pn">非利士</char>人同歸於盡！」於是，他用盡全力推柱子，廟宇倒塌，壓住裡面的首領和民眾。<char style="pn">參孫</char>死時殺的人比他活著時殺的還多。 <verse eid="JDG 16:30"/><verse number="31" style="v" sid="JDG 16:31"/><char style="pn">參孫</char>的兄弟和家人取走他的屍體，葬在<char style="pn">瑣拉</char>和<char style="pn">以實陶</char>之間他父親<char style="pn">瑪挪亞</char>的墓地裡。<char style="pn">參孫</char>做<char style="pn">以色列</char>的士師二十年。<verse eid="JDG 16:31"/></para>
+  <chapter eid="JDG 16"/>
+  <chapter number="17" style="c" sid="JDG 17"/>
+  <para style="s1">米迦的神像</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 17:1"/>
+    <char style="pn">以法蓮</char>山區住了一個名叫<char style="pn">米迦</char>的人。 <verse eid="JDG 17:1"/><verse number="2" style="v" sid="JDG 17:2"/>他對母親說：「你那一千一百塊銀子被拿走了，你因此說了咒詛的話，我都聽見了。看啊，銀子在我這裡，是我拿去的。」他母親說：「我兒啊，願耶和華賜福給你！」 <verse eid="JDG 17:2"/><verse number="3" style="v" sid="JDG 17:3"/><char style="pn">米迦</char>把一千一百塊銀子還給母親。他母親說：「我要為我兒把這些銀子獻給耶和華，用來雕刻、鑄造神像。我會把銀子交還給你。」 <verse eid="JDG 17:3"/><verse number="4" style="v" sid="JDG 17:4"/><char style="pn">米迦</char>把銀子還給母親後，他母親拿出二百塊銀子交給銀匠雕刻、鑄造神像，放在<char style="pn">米迦</char>的房子裡。 <verse eid="JDG 17:4"/><verse number="5" style="v" sid="JDG 17:5"/><char style="pn">米迦</char>有一個神廟，他製造了一件以弗得和一些家庭神像，並指派他的一個兒子做祭司。 <verse eid="JDG 17:5"/><verse number="6" style="v" sid="JDG 17:6"/>那時，<char style="pn">以色列</char>沒有王，人人各行其是。<verse eid="JDG 17:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 17:7"/>
+    <char style="pn">猶大</char>的<char style="pn">伯利恆</char>住著一個年輕的<char style="pn">利未</char>人。 <verse eid="JDG 17:7"/><verse number="8" style="v" sid="JDG 17:8"/>他離開<char style="pn">伯利恆</char>想到別的地方居住，一路走到<char style="pn">以法蓮</char>山區<char style="pn">米迦</char>的家。 <verse eid="JDG 17:8"/><verse number="9" style="v" sid="JDG 17:9"/><char style="pn">米迦</char>問他：「你從哪裡來？」他回答說：「我是從<char style="pn">猶大</char>的<char style="pn">伯利恆</char>來的<char style="pn">利未</char>人，要找一個住的地方。」 <verse eid="JDG 17:9"/><verse number="10" style="v" sid="JDG 17:10"/><char style="pn">米迦</char>說：「你就住在我這裡吧，做我的師父和祭司。我每年給你十塊銀子，還為你提供衣服和飲食。」<char style="pn">利未</char>人就進了<char style="pn">米迦</char>的家， <verse eid="JDG 17:10"/><verse number="11" style="v" sid="JDG 17:11"/>住了下來。<char style="pn">米迦</char>待他就像待自己的兒子一樣。 <verse eid="JDG 17:11"/><verse number="12" style="v" sid="JDG 17:12"/>這樣，<char style="pn">米迦</char>派他做祭司，讓他住在自己家裡。 <verse eid="JDG 17:12"/><verse number="13" style="v" sid="JDG 17:13"/><char style="pn">米迦</char>說：「現在我有一個<char style="pn">利未</char>人做我的祭司，我知道耶和華一定會恩待我。」<verse eid="JDG 17:13"/></para>
+  <chapter eid="JDG 17"/>
+  <chapter number="18" style="c" sid="JDG 18"/>
+  <para style="s1">米迦和但支派</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 18:1"/>那時<char style="pn">以色列</char>沒有王。<char style="pn">但</char>支派的人正在尋找可以居住的地方，因為他們在<char style="pn">以色列</char>各支派中還沒有得到屬於自己的土地。 <verse eid="JDG 18:1"/><verse number="2" style="v" sid="JDG 18:2"/><char style="pn">但</char>支派的人從<char style="pn">瑣拉</char>和<char style="pn">以實陶</char>派本族的五名勇士去打探、察看那個地方，並吩咐說：「你們去察看那個地方。」他們到了<char style="pn">以法蓮</char>山區，在<char style="pn">米迦</char>家裡借宿。 <verse eid="JDG 18:2"/><verse number="3" style="v" sid="JDG 18:3"/>他們到了<char style="pn">米迦</char>家，聽出那<char style="pn">利未</char>青年的口音，就轉身進去問他：「誰帶你來這裡的？你在這裡做什麼？你為什麼在這裡？」 <verse eid="JDG 18:3"/><verse number="4" style="v" sid="JDG 18:4"/>那青年便把<char style="pn">米迦</char>聘他做祭司的事告訴了他們。 <verse eid="JDG 18:4"/><verse number="5" style="v" sid="JDG 18:5"/>他們說：「請你求問上帝，看看我們是否一路順利。」 <verse eid="JDG 18:5"/><verse number="6" style="v" sid="JDG 18:6"/>祭司說：「你們安心去吧，耶和華會一路眷顧你們。」<verse eid="JDG 18:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JDG 18:7"/>五人啟程來到<char style="pn">拉億</char>，發現當地人像<char style="pn">西頓</char>人一樣無憂無慮，生活安寧，毫無防範，繁榮富足。他們離<char style="pn">西頓</char>很遠，與外界沒有來往。<verse eid="JDG 18:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JDG 18:8"/>五人回到<char style="pn">瑣拉</char>和<char style="pn">以實陶</char>後，族人問他們：「你們有什麼發現嗎？」 <verse eid="JDG 18:8"/><verse number="9" style="v" sid="JDG 18:9"/>他們回答說：「我們前去攻取那地方吧！我們已經打探清楚了，那地方非常好。你們還等什麼？要趕快去佔領那地方。 <verse eid="JDG 18:9"/><verse number="10" style="v" sid="JDG 18:10"/>你們到了那裡，會看見當地的居民毫無防範，那裡地大物博，一無所缺。上帝已經把那地方賜給我們了。」<verse eid="JDG 18:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JDG 18:11"/>
+    <char style="pn">但</char>支派便從<char style="pn">瑣拉</char>和<char style="pn">以實陶</char>派出六百個帶兵器的人。 <verse eid="JDG 18:11"/><verse number="12" style="v" sid="JDG 18:12"/>他們來到<char style="pn">猶大</char>的<char style="pn">基列·耶琳</char>的西邊安營。因此，那地方至今仍叫<char style="pn">瑪哈尼·但</char><note caller="+" style="f"><char style="fr" closed="false">18·12 </char><char style="ft" closed="false">「瑪哈尼·但」意思是「但的軍營」。</char></note>。 <verse eid="JDG 18:12"/><verse number="13" style="v" sid="JDG 18:13"/>然後，他們去<char style="pn">以法蓮</char>山區，來到<char style="pn">米迦</char>的家。<verse eid="JDG 18:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JDG 18:14"/>偵察過<char style="pn">拉億</char>的五個人對其餘的人說：「你們知道嗎？這家有以弗得、一些家庭神像、一個雕刻的偶像和一個金屬鑄像。想一想我們該怎麼辦。」 <verse eid="JDG 18:14"/><verse number="15" style="v" sid="JDG 18:15"/>那五個人就進入<char style="pn">米迦</char>的家裡，到年輕的<char style="pn">利未</char>人房間向他問安， <verse eid="JDG 18:15"/><verse number="16" style="v" sid="JDG 18:16"/>隨行的六百人帶著兵器留在門口。 <verse eid="JDG 18:16"/><verse number="17" style="v" sid="JDG 18:17"/>當時祭司也和那六百個帶兵器的人站在門口。那五個人進去拿走了雕刻的偶像、以弗得、家庭神像及金屬鑄像。 <verse eid="JDG 18:17"/><verse number="18" style="v" sid="JDG 18:18"/>祭司見那五人進入<char style="pn">米迦</char>家拿走雕刻的偶像、以弗得、家庭神像及金屬鑄像，就問他們：「你們在做什麼？」<verse eid="JDG 18:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JDG 18:19"/>他們說：「安靜，別作聲，跟我們來，做我們的師父和祭司吧。做<char style="pn">以色列</char>一個支派、一個宗族的祭司難道不比做一家人的祭司更好嗎？」 <verse eid="JDG 18:19"/><verse number="20" style="v" sid="JDG 18:20"/>祭司聽了非常高興，就帶著以弗得、家庭神像及雕刻的偶像跟隨了他們。 <verse eid="JDG 18:20"/><verse number="21" style="v" sid="JDG 18:21"/>他們轉身離去，兒女、牲畜和財物在隊伍前面。<verse eid="JDG 18:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JDG 18:22"/>他們離開<char style="pn">米迦</char>的家一段路後，<char style="pn">米迦</char>召集鄰居趕了上來， <verse eid="JDG 18:22"/><verse number="23" style="v" sid="JDG 18:23"/>向他們大喊。<char style="pn">但</char>支派的人轉身問<char style="pn">米迦</char>：「你們召集這麼多人來做什麼？」 <verse eid="JDG 18:23"/><verse number="24" style="v" sid="JDG 18:24"/><char style="pn">米迦</char>說：「你們帶走了我的神像和祭司，把我洗劫一空，還問我想做什麼！」 <verse eid="JDG 18:24"/><verse number="25" style="v" sid="JDG 18:25"/><char style="pn">但</char>支派的人說：「別再多說了，不然我們當中性情暴躁的人會攻擊你們，使你全家喪命。」 <verse eid="JDG 18:25"/><verse number="26" style="v" sid="JDG 18:26"/><char style="pn">但</char>支派的人繼續趕路。<char style="pn">米迦</char>見對方人多勢眾，就回家去了。<verse eid="JDG 18:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JDG 18:27"/>
+    <char style="pn">但</char>支派的人帶著<char style="pn">米迦</char>的神像和他的祭司來到<char style="pn">拉億</char>，那裡的人生活安寧，毫無防範。他們用刀殺掉當地的居民，放火燒了城。 <verse eid="JDG 18:27"/><verse number="28" style="v" sid="JDG 18:28"/><char style="pn">拉億</char>離<char style="pn">西頓</char>很遠，當地的居民與外界沒有來往，以致孤立無援。這城位於<char style="pn">伯·利合</char>附近的山谷中，<char style="pn">但</char>支派的人重建該城，住在那裡。 <verse eid="JDG 18:28"/><verse number="29" style="v" sid="JDG 18:29"/>這座城原來叫<char style="pn">拉億</char>，他們用祖先<char style="pn">以色列</char>的兒子<char style="pn">但</char>的名字為該城重新命名。 <verse eid="JDG 18:29"/><verse number="30" style="v" sid="JDG 18:30"/><char style="pn">但</char>支派的人把神像豎立起來，又指派<char style="pn">摩西</char>的孫子、<char style="pn">革舜</char>的兒子<char style="pn">約拿單</char>及其子孫做<char style="pn">但</char>支派的祭司，直到該地遭受擄掠為止。 <verse eid="JDG 18:30"/><verse number="31" style="v" sid="JDG 18:31"/>上帝的會幕設立在<char style="pn">示羅</char>期間，<char style="pn">米迦</char>的神像一直豎立在<char style="pn">但</char>。<verse eid="JDG 18:31"/></para>
+  <chapter eid="JDG 18"/>
+  <chapter number="19" style="c" sid="JDG 19"/>
+  <para style="s1">利未人和他的妾</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 19:1"/>那時候，<char style="pn">以色列</char>沒有王。有一個<char style="pn">利未</char>人住在<char style="pn">以法蓮</char>山區的偏遠地帶，他娶了<char style="pn">猶大</char>的<char style="pn">伯利恆</char>的一個女子為妾。 <verse eid="JDG 19:1"/><verse number="2" style="v" sid="JDG 19:2"/>那女子不忠，離開丈夫回到<char style="pn">猶大</char>的<char style="pn">伯利恆</char>的父親家，住了四個月。 <verse eid="JDG 19:2"/><verse number="3" style="v" sid="JDG 19:3"/>後來，她丈夫帶著一個僕人和兩頭驢去見她，用好話勸她回去。那女子帶他去見自己的父親。她父親看見女婿來了，便熱情地接待他， <verse eid="JDG 19:3"/><verse number="4" style="v" sid="JDG 19:4"/>留他在家裡小住。他便在那裡住了三天，一起吃住。 <verse eid="JDG 19:4"/><verse number="5" style="v" sid="JDG 19:5"/>第四天，他清早起來準備回家，岳父對他說：「吃點東西補充體力後再走吧。」 <verse eid="JDG 19:5"/><verse number="6" style="v" sid="JDG 19:6"/>於是，二人坐下來一起吃喝。岳父對他說：「再住一夜，高興高興吧。」 <verse eid="JDG 19:6"/><verse number="7" style="v" sid="JDG 19:7"/>他不肯答應，起來要走，但岳父一再挽留，他就又住了一夜。 <verse eid="JDG 19:7"/><verse number="8" style="v" sid="JDG 19:8"/>第五天清早起來，他準備回家，岳父對他說：「吃點東西補充體力，太陽偏西再走吧。」於是，二人一同吃飯。 <verse eid="JDG 19:8"/><verse number="9" style="v" sid="JDG 19:9"/>他帶著妾和僕人起來要走的時候，岳父對他說：「看啊，太陽偏西了，天色已晚，再住一夜高興高興，明天一早再走吧。」<verse eid="JDG 19:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JDG 19:10"/>可是，他不願意再留一夜，就備好兩頭驢，帶著他的妾走了，來到<char style="pn">耶布斯</char>附近。<char style="pn">耶布斯</char>就是<char style="pn">耶路撒冷</char>。 <verse eid="JDG 19:10"/><verse number="11" style="v" sid="JDG 19:11"/>他們臨近<char style="pn">耶布斯</char>時，天快黑了，僕人對主人說：「我們不如就在<char style="pn">耶布斯</char>人的城裡住宿吧。」 <verse eid="JDG 19:11"/><verse number="12" style="v" sid="JDG 19:12"/>主人說：「我們不可在非<char style="pn">以色列</char>人的外邦城邑住宿，不如趕到<char style="pn">基比亞</char>。」 <verse eid="JDG 19:12"/><verse number="13" style="v" sid="JDG 19:13"/>他又說：「我們前往<char style="pn">基比亞</char>或<char style="pn">拉瑪</char>住宿吧。」 <verse eid="JDG 19:13"/><verse number="14" style="v" sid="JDG 19:14"/>於是，他們繼續前行，到<char style="pn">便雅憫</char>境內的<char style="pn">基比亞</char>時，天已經黑了。 <verse eid="JDG 19:14"/><verse number="15" style="v" sid="JDG 19:15"/>他們決定在那裡過夜。因為沒有人接待他們，他們只好在城中的廣場露宿。<verse eid="JDG 19:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JDG 19:16"/>那時，有一個老人從田間工作回來，經過那裡。他本來是<char style="pn">以法蓮</char>山區的人，現在住在<char style="pn">便雅憫</char>境內的<char style="pn">基比亞</char>。 <verse eid="JDG 19:16"/><verse number="17" style="v" sid="JDG 19:17"/>他看見有人在城中的廣場露宿，就問：「你們從哪裡來，要到哪裡去？」 <verse eid="JDG 19:17"/><verse number="18" style="v" sid="JDG 19:18"/><char style="pn">利未</char>人回答說：「我們從<char style="pn">猶大</char>的<char style="pn">伯利恆</char>來，正要回家去。我住在<char style="pn">以法蓮</char>山區的偏遠地帶。我現在要去耶和華的殿。這裡沒有人接待我。 <verse eid="JDG 19:18"/><verse number="19" style="v" sid="JDG 19:19"/>其實我有糧草餵驢，我和我的妾及僕人也有餅和酒，什麼也不缺。」 <verse eid="JDG 19:19"/><verse number="20" style="v" sid="JDG 19:20"/>那老人說：「歡迎到我家來，我會供應你們的需要，千萬不可在街頭露宿。」 <verse eid="JDG 19:20"/><verse number="21" style="v" sid="JDG 19:21"/>於是，那老人帶他們回家，餵他們的驢。他們洗完腳後，便一起吃喝。<verse eid="JDG 19:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JDG 19:22"/>他們正歡樂的時候，城裡的一群無賴前來圍住房子，連連叩門，對年長的家主說：「把你家裡的客人交出來，我們要跟他交合。」 <verse eid="JDG 19:22"/><verse number="23" style="v" sid="JDG 19:23"/>老人出去對他們說：「弟兄們啊，不要做這種惡事！這人是我的客人，不要幹這種卑鄙的事！ <verse eid="JDG 19:23"/><verse number="24" style="v" sid="JDG 19:24"/>我有個女兒，仍是處女，還有這人的妾，我把她們交出來，任你們玩弄，只是不要對這人幹這種卑鄙的事。」 <verse eid="JDG 19:24"/><verse number="25" style="v" sid="JDG 19:25"/>他們卻不肯聽。<char style="pn">利未</char>人就把自己的妾推出去交給他們。他們強暴她，終夜凌辱她，直到天快亮才放她走。 <verse eid="JDG 19:25"/><verse number="26" style="v" sid="JDG 19:26"/>天亮時她回到丈夫住宿的房子門前，就仆倒在地。<verse eid="JDG 19:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JDG 19:27"/>早晨，她丈夫起來打開房門要上路，發現她倒臥在門前，雙手搭在門檻上， <verse eid="JDG 19:27"/><verse number="28" style="v" sid="JDG 19:28"/>就對她說：「起來，我們走吧！」她卻沒有反應。於是，他就把她的屍體放在驢背上啟程回家。 <verse eid="JDG 19:28"/><verse number="29" style="v" sid="JDG 19:29"/>回到家裡，他用刀把屍體切成十二塊，派人送往<char style="pn">以色列</char>全境。 <verse eid="JDG 19:29"/><verse number="30" style="v" sid="JDG 19:30"/>看見的人都說：「自從<char style="pn">以色列</char>人離開<char style="pn">埃及</char>以來，這種事從未發生過，也從未見過。我們必須商量一下，看看該怎麼辦。」<verse eid="JDG 19:30"/></para>
+  <chapter eid="JDG 19"/>
+  <chapter number="20" style="c" sid="JDG 20"/>
+  <para style="s1">討伐基比亞</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 20:1"/>於是，從<char style="pn">但</char>到<char style="pn">別示巴</char>以及<char style="pn">基列</char>的全體<char style="pn">以色列</char>人齊心來到<char style="pn">米斯巴</char>，聚集在耶和華面前。 <verse eid="JDG 20:1"/><verse number="2" style="v" sid="JDG 20:2"/><char style="pn">以色列</char>各支派的首領都參加了這次上帝子民的聚會，當時有四十萬持刀的步兵。 <verse eid="JDG 20:2"/><verse number="3" style="v" sid="JDG 20:3"/><char style="pn">便雅憫</char>人也聽見<char style="pn">以色列</char>人聚集在<char style="pn">米斯巴</char>的消息。<char style="pn">以色列</char>人問那個<char style="pn">利未</char>人：「請告訴我們，這件邪惡的事是怎麼發生的？」 <verse eid="JDG 20:3"/><verse number="4" style="v" sid="JDG 20:4"/>那<char style="pn">利未</char>人，就是被害女子的丈夫說：「我和我的妾到<char style="pn">便雅憫</char>的<char style="pn">基比亞</char>住宿。 <verse eid="JDG 20:4"/><verse number="5" style="v" sid="JDG 20:5"/>那天晚上，<char style="pn">基比亞</char>人攻擊我，包圍我們住宿的房子，要殺死我。他們把我的妾蹂躪致死。 <verse eid="JDG 20:5"/><verse number="6" style="v" sid="JDG 20:6"/>我就把她的屍體切成塊，送到<char style="pn">以色列</char>的各個地區，因為<char style="pn">基比亞</char>人做了邪惡、無恥的事。 <verse eid="JDG 20:6"/><verse number="7" style="v" sid="JDG 20:7"/><char style="pn">以色列</char>人啊，你們看該怎麼處理吧！」<verse eid="JDG 20:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JDG 20:8"/>眾人起來異口同聲地說：「我們誰也不回帳篷，誰也不回家。 <verse eid="JDG 20:8"/><verse number="9" style="v" sid="JDG 20:9"/>現在我們要抽籤去攻打<char style="pn">基比亞</char>。 <verse eid="JDG 20:9"/><verse number="10" style="v" sid="JDG 20:10"/>我們要從各支派中抽出十分之一的人負責運糧，等軍隊到達<char style="pn">便雅憫</char>的<char style="pn">基比亞</char>後，就可以討伐在<char style="pn">以色列</char>做出這種卑鄙之事的<char style="pn">基比亞</char>人。」 <verse eid="JDG 20:10"/><verse number="11" style="v" sid="JDG 20:11"/>於是，<char style="pn">以色列</char>人團結一致，一起去攻打那城。<verse eid="JDG 20:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JDG 20:12"/>
+    <char style="pn">以色列</char>各支派差人去對<char style="pn">便雅憫</char>各地的人說：「你們中間怎麼發生了這種邪惡的事！ <verse eid="JDG 20:12"/><verse number="13" style="v" sid="JDG 20:13"/>現在把那些<char style="pn">基比亞</char>的無賴交出來，我們要處死他們，從<char style="pn">以色列</char>剷除罪惡。」<char style="pn">便雅憫</char>人卻充耳不聞， <verse eid="JDG 20:13"/><verse number="14" style="v" sid="JDG 20:14"/>還從各城聚集到<char style="pn">基比亞</char>，要跟<char style="pn">以色列</char>人打仗。 <verse eid="JDG 20:14"/><verse number="15" style="v" sid="JDG 20:15"/><char style="pn">便雅憫</char>人從各城召集了兩萬六千刀兵，還從<char style="pn">基比亞</char>召集了七百精兵。 <verse eid="JDG 20:15"/><verse number="16" style="v" sid="JDG 20:16"/>軍中有七百精兵善用左手甩石，毫髮不差。 <verse eid="JDG 20:16"/><verse number="17" style="v" sid="JDG 20:17"/>其他十一個<char style="pn">以色列</char>支派則召集了四十萬刀兵，個個善戰。<verse eid="JDG 20:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JDG 20:18"/>
+    <char style="pn">以色列</char>人到<char style="pn">伯特利</char>去求問上帝，說：「我們當中哪個支派應當先去攻打<char style="pn">便雅憫</char>人呢？」耶和華說：「<char style="pn">猶大</char>支派。」<verse eid="JDG 20:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JDG 20:19"/>第二天清早，<char style="pn">以色列</char>人起來在<char style="pn">基比亞</char>附近安營， <verse eid="JDG 20:19"/><verse number="20" style="v" sid="JDG 20:20"/>朝著<char style="pn">便雅憫</char>人擺開陣勢，準備攻打他們。 <verse eid="JDG 20:20"/><verse number="21" style="v" sid="JDG 20:21"/><char style="pn">便雅憫</char>人從<char style="pn">基比亞</char>出來，當天殺了<char style="pn">以色列</char>軍兩萬二千人。 <verse eid="JDG 20:21"/><verse number="22" style="v" sid="JDG 20:22"/><char style="pn">以色列</char>人重整士氣，仍在前一天列陣的地方列陣。 <verse eid="JDG 20:22"/><verse number="23" style="v" sid="JDG 20:23"/>列陣之前，他們在耶和華面前一直哀哭到晚上。他們求問耶和華，說：「我們應該再上去攻打我們的同胞<char style="pn">便雅憫</char>人嗎？」耶和華說：「要上去攻打他們。」<verse eid="JDG 20:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JDG 20:24"/>第二天，<char style="pn">以色列</char>人前去攻打<char style="pn">便雅憫</char>人。 <verse eid="JDG 20:24"/><verse number="25" style="v" sid="JDG 20:25"/><char style="pn">便雅憫</char>人從<char style="pn">基比亞</char>出來迎戰，又殺了<char style="pn">以色列</char>軍一萬八千刀兵。 <verse eid="JDG 20:25"/><verse number="26" style="v" sid="JDG 20:26"/><char style="pn">以色列</char>全軍來到<char style="pn">伯特利</char>，坐在耶和華面前哀哭，那天他們一直禁食到晚上，又在耶和華面前獻上燔祭和平安祭。 <verse eid="JDG 20:26"/><verse number="27-28" style="v" sid="JDG 20:27-28"/>那時，上帝的約櫃就在那裡，<char style="pn">亞倫</char>的孫子、<char style="pn">以利亞撒</char>的兒子<char style="pn">非尼哈</char>任祭司。<char style="pn">以色列</char>人求問耶和華，說：「我們應該再去攻打我們的同胞<char style="pn">便雅憫</char>人嗎？還是退兵？」耶和華說：「去攻打吧，因為明天我必把他們交在你們手中。」<verse eid="JDG 20:27-28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JDG 20:29"/>
+    <char style="pn">以色列</char>人在<char style="pn">基比亞</char>周圍設下伏兵。 <verse eid="JDG 20:29"/><verse number="30" style="v" sid="JDG 20:30"/>第三天，<char style="pn">以色列</char>人又像前兩次一樣在<char style="pn">基比亞</char>列陣，攻打<char style="pn">便雅憫</char>人。 <verse eid="JDG 20:30"/><verse number="31" style="v" sid="JDG 20:31"/><char style="pn">便雅憫</char>人前來迎戰，被<char style="pn">以色列</char>人誘到城外。他們又像前兩次一樣擊殺<char style="pn">以色列</char>人，大約三十名<char style="pn">以色列</char>人死在通往<char style="pn">基比亞</char>和<char style="pn">伯特利</char>的兩條路上。 <verse eid="JDG 20:31"/><verse number="32" style="v" sid="JDG 20:32"/><char style="pn">便雅憫</char>人說：「我們又像以前一樣打敗他們了。」但<char style="pn">以色列</char>人已經商議好，用詐敗的方法誘敵離城到大路上來。 <verse eid="JDG 20:32"/><verse number="33" style="v" sid="JDG 20:33"/><char style="pn">以色列</char>全軍在<char style="pn">巴力·他瑪</char>列陣反攻，埋伏在<char style="pn">基比亞</char>西面的<char style="pn">以色列</char>人也衝了出來。 <verse eid="JDG 20:33"/><verse number="34" style="v" sid="JDG 20:34"/>有一萬<char style="pn">以色列</char>精兵從正面攻打<char style="pn">基比亞</char>，戰事非常激烈。<char style="pn">便雅憫</char>人大禍臨頭了仍懵然不知。 <verse eid="JDG 20:34"/><verse number="35" style="v" sid="JDG 20:35"/>耶和華幫助<char style="pn">以色列</char>人戰勝了<char style="pn">便雅憫</char>人。那天，<char style="pn">以色列</char>人殺了<char style="pn">便雅憫</char>兩萬五千一百刀兵。 <verse eid="JDG 20:35"/><verse number="36" style="v" sid="JDG 20:36"/><char style="pn">便雅憫</char>人這才意識到自己戰敗了。</para>
+  <para style="p" vid="JDG 20:36">原來<char style="pn">以色列</char>人在<char style="pn">便雅憫</char>人面前詐敗，因為他們仰仗在<char style="pn">基比亞</char>附近設下的伏兵。 <verse eid="JDG 20:36"/><verse number="37" style="v" sid="JDG 20:37"/>那些伏兵迅速衝進<char style="pn">基比亞</char>，用刀殺了全城的人。 <verse eid="JDG 20:37"/><verse number="38" style="v" sid="JDG 20:38"/><char style="pn">以色列</char>人和伏兵已有約定，伏兵在城內點起一股濃煙時， <verse eid="JDG 20:38"/><verse number="39" style="v" sid="JDG 20:39"/><char style="pn">以色列</char>人便轉身殺回。<char style="pn">便雅憫</char>人殺了詐敗的<char style="pn">以色列</char>軍大約三十人，以為像以前一樣打敗了他們。 <verse eid="JDG 20:39"/><verse number="40" style="v" sid="JDG 20:40"/>這時<char style="pn">基比亞</char>城已濃煙滾滾，<char style="pn">便雅憫</char>人回頭觀望，只見全城濃煙四起。 <verse eid="JDG 20:40"/><verse number="41" style="v" sid="JDG 20:41"/><char style="pn">以色列</char>人轉身殺了回來，<char style="pn">便雅憫</char>人大驚失色，知道大禍臨頭了。 <verse eid="JDG 20:41"/><verse number="42" style="v" sid="JDG 20:42"/>他們從<char style="pn">以色列</char>人面前轉身逃往曠野，卻無法逃脫。<char style="pn">以色列</char>人從各城出來夾攻他們。 <verse eid="JDG 20:42"/><verse number="43" style="v" sid="JDG 20:43"/><char style="pn">以色列</char>人圍攻<char style="pn">便雅憫</char>人，一路追殺他們直到<char style="pn">基比亞</char>的東邊。 <verse eid="JDG 20:43"/><verse number="44" style="v" sid="JDG 20:44"/><char style="pn">便雅憫</char>人共死了一萬八千名勇士。 <verse eid="JDG 20:44"/><verse number="45" style="v" sid="JDG 20:45"/>餘下的人都逃往曠野的<char style="pn">臨門</char>巖，沿途有五千人被殺。<char style="pn">以色列</char>人追殺他們，一直追到<char style="pn">基頓</char>，又消滅了他們兩千人。 <verse eid="JDG 20:45"/><verse number="46" style="v" sid="JDG 20:46"/>那天，<char style="pn">便雅憫</char>人共死了兩萬五千名英勇的刀兵， <verse eid="JDG 20:46"/><verse number="47" style="v" sid="JDG 20:47"/>只有六百人逃到了<char style="pn">臨門</char>巖，在那裡住了四個月。 <verse eid="JDG 20:47"/><verse number="48" style="v" sid="JDG 20:48"/><char style="pn">以色列</char>人回師<char style="pn">便雅憫</char>境內，用刀將各城的男女老少以及牲畜全部殺死，又放火燒毀所有的城邑。<verse eid="JDG 20:48"/></para>
+  <chapter eid="JDG 20"/>
+  <chapter number="21" style="c" sid="JDG 21"/>
+  <para style="s1">為便雅憫支派娶妻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JDG 21:1"/>
+    <char style="pn">以色列</char>人曾在<char style="pn">米斯巴</char>起誓不把女兒嫁給<char style="pn">便雅憫</char>人。 <verse eid="JDG 21:1"/><verse number="2" style="v" sid="JDG 21:2"/>他們來到<char style="pn">伯特利</char>，坐在上帝面前放聲痛哭，直到黃昏。 <verse eid="JDG 21:2"/><verse number="3" style="v" sid="JDG 21:3"/>他們說：「<char style="pn">以色列</char>的上帝耶和華啊，<char style="pn">以色列</char>現今為何少了一個支派呢？為何發生了這樣的事呢？」 <verse eid="JDG 21:3"/><verse number="4" style="v" sid="JDG 21:4"/>第二天，眾人清早起來在那裡築了一座祭壇，獻上燔祭和平安祭。 <verse eid="JDG 21:4"/><verse number="5" style="v" sid="JDG 21:5"/>他們彼此議論說：「我們到<char style="pn">米斯巴</char>聚集在耶和華面前的時候，各支派中誰沒有來呢？」原來，他們曾經起誓說：凡不到<char style="pn">米斯巴</char>聚集在耶和華面前的人都要被處死。 <verse eid="JDG 21:5"/><verse number="6" style="v" sid="JDG 21:6"/><char style="pn">以色列</char>人為他們的同胞<char style="pn">便雅憫</char>人難過，說：「如今<char style="pn">以色列</char>絕了一個支派。 <verse eid="JDG 21:6"/><verse number="7" style="v" sid="JDG 21:7"/>我們曾經在耶和華面前起誓，決不把女兒嫁給<char style="pn">便雅憫</char>人，現在我們應該怎麼辦，才能使他們剩下來的人得到妻子呢？」<verse eid="JDG 21:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JDG 21:8"/>他們又查問各支派中誰沒有到<char style="pn">米斯巴</char>聚集在耶和華面前，結果發現<char style="pn">基列·雅比</char>人缺席， <verse eid="JDG 21:8"/><verse number="9" style="v" sid="JDG 21:9"/>因為點兵的時候，沒有一個<char style="pn">基列·雅比</char>人在場。 <verse eid="JDG 21:9"/><verse number="10" style="v" sid="JDG 21:10"/>於是，會眾派出一萬二千精兵，命令他們用刀殺掉<char style="pn">基列·雅比</char>人及其婦女和孩子。 <verse eid="JDG 21:10"/><verse number="11" style="v" sid="JDG 21:11"/>他們對精兵說：「你們所要做的就是消滅所有的男子和已婚婦女。」 <verse eid="JDG 21:11"/><verse number="12" style="v" sid="JDG 21:12"/>他們在<char style="pn">基列·雅比</char>的居民中找到四百名處女，把她們帶回<char style="pn">迦南</char>的<char style="pn">示羅</char>營地。<verse eid="JDG 21:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JDG 21:13"/>全體會眾又派人到<char style="pn">臨門</char>巖去跟<char style="pn">便雅憫</char>人講和。 <verse eid="JDG 21:13"/><verse number="14" style="v" sid="JDG 21:14"/>於是，<char style="pn">便雅憫</char>人返回了家鄉，<char style="pn">以色列</char>人把從<char style="pn">基列·雅比</char>居民中留下來的四百個處女給他們做妻子，但還是不夠。 <verse eid="JDG 21:14"/><verse number="15" style="v" sid="JDG 21:15"/>眾人為<char style="pn">便雅憫</char>支派難過，因為耶和華使<char style="pn">以色列</char>少了一個支派。<verse eid="JDG 21:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JDG 21:16"/>會眾的長老說：「<char style="pn">便雅憫</char>支派的女子都死了，我們應該怎麼辦才能使餘下的人有妻子呢？ <verse eid="JDG 21:16"/><verse number="17" style="v" sid="JDG 21:17"/><char style="pn">便雅憫</char>的餘民必須成家立後，以免<char style="pn">以色列</char>失去一個支派。 <verse eid="JDG 21:17"/><verse number="18" style="v" sid="JDG 21:18"/>可是我們又不能把女兒嫁給他們，因為我們曾經起誓，『把女兒嫁給<char style="pn">便雅憫</char>人的必受咒詛。』」 <verse eid="JDG 21:18"/><verse number="19" style="v" sid="JDG 21:19"/>有人想起在<char style="pn">示羅</char>每年都有耶和華的節期。<char style="pn">示羅</char>在<char style="pn">利波拿</char>以南、<char style="pn">伯特利</char>以北至<char style="pn">示劍</char>的大路東面。 <verse eid="JDG 21:19"/><verse number="20" style="v" sid="JDG 21:20"/>於是，他們對<char style="pn">便雅憫</char>人說：「你們去埋伏在葡萄園裡， <verse eid="JDG 21:20"/><verse number="21" style="v" sid="JDG 21:21"/>見到<char style="pn">示羅</char>的女子出來跳舞時，就衝出去各自搶一個，帶回<char style="pn">便雅憫</char>做妻子。 <verse eid="JDG 21:21"/><verse number="22" style="v" sid="JDG 21:22"/>倘若她們的父親或弟兄前來抱怨，我們會說，『求你們看在我們的情面上恩待他們，因為我們從戰場上帶回的女子不夠分給他們做妻子。何況又不是你們把女兒嫁給他們的，所以罪不在你們。』」 <verse eid="JDG 21:22"/><verse number="23" style="v" sid="JDG 21:23"/><char style="pn">便雅憫</char>人就依計行事，從跳舞的女子中各自搶了一個，帶回自己的家鄉做妻子。他們重建城邑，住在其中。 <verse eid="JDG 21:23"/><verse number="24" style="v" sid="JDG 21:24"/>於是，<char style="pn">以色列</char>人離開那裡，各回自己的支派、宗族和家園。<verse eid="JDG 21:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JDG 21:25"/>那時，<char style="pn">以色列</char>沒有王，人人各行其是。<verse eid="JDG 21:25"/></para>
+  <chapter eid="JDG 21"/>
+</usx>

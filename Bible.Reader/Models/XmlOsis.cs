@@ -2,7 +2,7 @@
 {
     using System.Xml.Serialization;
 
-    [XmlRoot(ElementName = "osis", Namespace = "http://www.w3.org/2001/XMLSchema")]
+    [XmlRoot(ElementName = "osis")]
     public class Osis
     {
         [XmlElement(ElementName = "osisCorpus")]

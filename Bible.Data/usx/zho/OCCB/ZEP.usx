@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="ZEP" style="id">- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)</book>
+  <para style="h">西番雅書</para>
+  <para style="toc1">西番雅書</para>
+  <para style="toc2">西番雅書</para>
+  <para style="toc3">番</para>
+  <para style="mt1">西番雅書</para>
+  <chapter number="1" style="c" sid="ZEP 1"/>
+  <para style="p">
+    <verse number="1" style="v" sid="ZEP 1:1"/>
+    <char style="pn">亞們</char>的兒子<char style="pn">猶大</char>王<char style="pn">約西亞</char>執政期間，耶和華的話傳給了<char style="pn">希西迦</char>的玄孫、<char style="pn">亞瑪利亞</char>的曾孫、<char style="pn">基大利</char>的孫子、<char style="pn">古示</char>的兒子<char style="pn">西番雅</char>。<verse eid="ZEP 1:1"/></para>
+  <para style="s1">耶和華審判的日子</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="ZEP 1:2"/>耶和華說：</para>
+  <para style="q1" vid="ZEP 1:2">「我必毀滅地上的一切。<verse eid="ZEP 1:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="ZEP 1:3"/>我必毀滅人類、獸類、</para>
+  <para style="q1" vid="ZEP 1:3">天上的鳥和海裡的魚。</para>
+  <para style="q1" vid="ZEP 1:3">我必使惡人倒斃，</para>
+  <para style="q1" vid="ZEP 1:3">我必剷除地上的人類。</para>
+  <para style="q1" vid="ZEP 1:3">這是耶和華說的。<verse eid="ZEP 1:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="ZEP 1:4"/>「我必伸手攻擊<char style="pn">猶大</char>，</para>
+  <para style="q1" vid="ZEP 1:4">攻擊<char style="pn">耶路撒冷</char>的所有居民，</para>
+  <para style="q1" vid="ZEP 1:4">清除<char style="pn">巴力</char>的殘跡及拜偶像之祭司的名號。<verse eid="ZEP 1:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="ZEP 1:5"/>我必剷除那些在屋頂祭拜天上萬象的人，</para>
+  <para style="q1" vid="ZEP 1:5">剷除敬拜耶和華並憑祂起誓又憑<char style="pn">米勒公</char>起誓的人，<verse eid="ZEP 1:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="ZEP 1:6"/>剷除離棄耶和華、不尋求祂、不求問祂的人。」<verse eid="ZEP 1:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="ZEP 1:7"/>要在主耶和華面前肅靜，</para>
+  <para style="q1" vid="ZEP 1:7">因為耶和華的日子近了。</para>
+  <para style="q1" vid="ZEP 1:7">耶和華已準備好祭物，</para>
+  <para style="q1" vid="ZEP 1:7">潔淨了祂邀請的人。<verse eid="ZEP 1:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="ZEP 1:8"/>耶和華說：「在給耶和華獻祭之日，</para>
+  <para style="q1" vid="ZEP 1:8">我必懲罰首領和王子，</para>
+  <para style="q1" vid="ZEP 1:8">以及所有穿外族服裝的人。<verse eid="ZEP 1:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="ZEP 1:9"/>到那日，我必懲罰所有跳過門檻<note caller="+" style="f"><char style="fr" closed="false">1·9 </char><char style="ft" closed="false">「跳過門檻……的人」指祭拜偶像的人，參見<char style="xt"><ref loc="1SA 5:5">撒母耳記上5·5</ref></char>。</char></note>、</para>
+  <para style="q1" vid="ZEP 1:9">使主人的家充滿暴力和欺詐的人。<verse eid="ZEP 1:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="ZEP 1:10"/>到那日，魚門必傳出哭喊聲，</para>
+  <para style="q1" vid="ZEP 1:10">新區必響起哀號聲，</para>
+  <para style="q1" vid="ZEP 1:10">山陵必發出崩裂的巨響。</para>
+  <para style="q1" vid="ZEP 1:10">這是耶和華說的。<verse eid="ZEP 1:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="ZEP 1:11"/>市場區的居民啊，哀哭吧！</para>
+  <para style="q1" vid="ZEP 1:11">因為所有的商人必滅亡，</para>
+  <para style="q1" vid="ZEP 1:11">所有做買賣的必被剷除。<verse eid="ZEP 1:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="ZEP 1:12"/>那時，我必提著燈巡察<char style="pn">耶路撒冷</char>，</para>
+  <para style="q1" vid="ZEP 1:12">懲罰那些安於罪中的人。</para>
+  <para style="q1" vid="ZEP 1:12">他們心想，『耶和華不賜福也不降禍。』<verse eid="ZEP 1:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="ZEP 1:13"/>他們的財物必遭搶掠，</para>
+  <para style="q1" vid="ZEP 1:13">家園必淪為廢墟。</para>
+  <para style="q1" vid="ZEP 1:13">他們建造房屋，卻不能住在裡面；</para>
+  <para style="q1" vid="ZEP 1:13">栽種葡萄園，卻喝不到葡萄酒。<verse eid="ZEP 1:13"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="14" style="v" sid="ZEP 1:14"/>「耶和華的大日子近了，</para>
+  <para style="q1" vid="ZEP 1:14">近了，很快就到了。</para>
+  <para style="q1" vid="ZEP 1:14">那將是痛苦的日子，</para>
+  <para style="q1" vid="ZEP 1:14">勇士也必淒聲哀號。<verse eid="ZEP 1:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="ZEP 1:15"/>那是降烈怒的日子，</para>
+  <para style="q1" vid="ZEP 1:15">是困苦艱難的日子，</para>
+  <para style="q1" vid="ZEP 1:15">是摧殘毀壞的日子，</para>
+  <para style="q1" vid="ZEP 1:15">是黑暗幽冥的日子，</para>
+  <para style="q1" vid="ZEP 1:15">是陰霾密佈的日子，<verse eid="ZEP 1:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="ZEP 1:16"/>是吹號吶喊、</para>
+  <para style="q1" vid="ZEP 1:16">攻打堅城高壘的日子。<verse eid="ZEP 1:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="ZEP 1:17"/>「我要使災難臨到人類，</para>
+  <para style="q1" vid="ZEP 1:17">以致他們行路像瞎眼的，</para>
+  <para style="q1" vid="ZEP 1:17">因為他們得罪了耶和華。</para>
+  <para style="q1" vid="ZEP 1:17">他們的血必如灰塵般被倒出，</para>
+  <para style="q1" vid="ZEP 1:17">他們的屍體必如糞便般被丟棄。<verse eid="ZEP 1:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="ZEP 1:18"/>在耶和華發怒的日子，</para>
+  <para style="q1" vid="ZEP 1:18">他們的金銀救不了他們。</para>
+  <para style="q1" vid="ZEP 1:18">祂的怒火必吞噬大地，</para>
+  <para style="q1" vid="ZEP 1:18">祂必驟然毀滅一切世人。」<verse eid="ZEP 1:18"/></para>
+  <chapter eid="ZEP 1"/>
+  <chapter number="2" style="c" sid="ZEP 2"/>
+  <para style="s1">呼籲百姓悔改</para>
+  <para style="p">
+    <verse number="1-2" style="v" sid="ZEP 2:1-2"/>不知羞恥的國民啊，</para>
+  <para style="q1" vid="ZEP 2:1-2">趁命令尚未發出、</para>
+  <para style="q1" vid="ZEP 2:1-2">日子尚未消逝如風中的糠秕、</para>
+  <para style="q1" vid="ZEP 2:1-2">耶和華的烈怒尚未臨到你們、</para>
+  <para style="q1" vid="ZEP 2:1-2">祂向你們發怒的日子尚未來臨，</para>
+  <para style="q1" vid="ZEP 2:1-2">要聚集，聚集起來！<verse eid="ZEP 2:1-2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="ZEP 2:3"/>世上所有遵守耶和華典章的謙卑人啊，</para>
+  <para style="q1" vid="ZEP 2:3">要尋求耶和華，追求公義，追求謙卑。</para>
+  <para style="q1" vid="ZEP 2:3">也許在耶和華發怒的日子，</para>
+  <para style="q1" vid="ZEP 2:3">你們可以得到庇護。<verse eid="ZEP 2:3"/></para>
+  <para style="s1">審判以色列的鄰國</para>
+  <para style="q1">
+    <verse number="4" style="v" sid="ZEP 2:4"/>
+    <char style="pn">迦薩</char>必被拋棄，</para>
+  <para style="q1" vid="ZEP 2:4">
+    <char style="pn">亞實基倫</char>必淪為廢墟，</para>
+  <para style="q1" vid="ZEP 2:4">
+    <char style="pn">亞實突</char>的居民必在中午被趕走，</para>
+  <para style="q1" vid="ZEP 2:4">
+    <char style="pn">以革倫</char>必被連根拔除。<verse eid="ZEP 2:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="ZEP 2:5"/>住在海邊的<char style="pn">基利提</char>人啊，</para>
+  <para style="q1" vid="ZEP 2:5">你們有禍了！</para>
+  <para style="q1" vid="ZEP 2:5">
+    <char style="pn">非利士</char>人的<char style="pn">迦南</char>啊，</para>
+  <para style="q1" vid="ZEP 2:5">耶和華宣告要毀滅你，</para>
+  <para style="q1" vid="ZEP 2:5">使你杳無人煙。<verse eid="ZEP 2:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="ZEP 2:6"/>沿海地區必成為草場，</para>
+  <para style="q1" vid="ZEP 2:6">有牧人的居所和羊圈。<verse eid="ZEP 2:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="ZEP 2:7"/>那裡必歸給<char style="pn">猶大</char>家的餘民，</para>
+  <para style="q1" vid="ZEP 2:7">他們必在那裡放牧，</para>
+  <para style="q1" vid="ZEP 2:7">晚上睡在<char style="pn">亞實基倫</char>的房屋裡，</para>
+  <para style="q1" vid="ZEP 2:7">因為他們的上帝耶和華必眷顧他們，</para>
+  <para style="q1" vid="ZEP 2:7">使他們回歸故土。<verse eid="ZEP 2:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8-9" style="v" sid="ZEP 2:8-9"/>
+    <char style="pn">以色列</char>的上帝——萬軍之耶和華說：</para>
+  <para style="q1" vid="ZEP 2:8-9">「我聽見了<char style="pn">摩押</char>人的譭謗和<char style="pn">亞捫</char>人的辱罵。</para>
+  <para style="q1" vid="ZEP 2:8-9">他們譭謗我的子民，揚言侵佔他們的土地。</para>
+  <para style="q1" vid="ZEP 2:8-9">我憑自己的永恆起誓，</para>
+  <para style="q1" vid="ZEP 2:8-9">
+    <char style="pn">摩押</char>和<char style="pn">亞捫</char>必刺草叢生、鹽坑遍地、永遠荒廢，</para>
+  <para style="q1" vid="ZEP 2:8-9">如<char style="pn">所多瑪</char>和<char style="pn">蛾摩拉</char>一樣。</para>
+  <para style="q1" vid="ZEP 2:8-9">我餘下的子民必擄掠他們，</para>
+  <para style="q1" vid="ZEP 2:8-9">我倖存的百姓必承受他們的土地。」<verse eid="ZEP 2:8-9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="ZEP 2:10"/>這是他們的報應，</para>
+  <para style="q1" vid="ZEP 2:10">因為他們狂妄自大，</para>
+  <para style="q1" vid="ZEP 2:10">羞辱萬軍之耶和華的子民。<verse eid="ZEP 2:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="ZEP 2:11"/>耶和華必令他們恐懼，</para>
+  <para style="q1" vid="ZEP 2:11">因為祂要削弱世上的神明。</para>
+  <para style="q1" vid="ZEP 2:11">天下萬民必在本地敬拜祂。<verse eid="ZEP 2:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="ZEP 2:12"/>
+    <char style="pn">古實</char>人啊，</para>
+  <para style="q1" vid="ZEP 2:12">你們也必死在耶和華的刀下。<verse eid="ZEP 2:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="ZEP 2:13"/>祂必伸手攻擊北方，毀滅<char style="pn">亞述</char>，</para>
+  <para style="q1" vid="ZEP 2:13">使<char style="pn">尼尼微</char>一片荒涼，</para>
+  <para style="q1" vid="ZEP 2:13">如乾旱的曠野。<verse eid="ZEP 2:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="ZEP 2:14"/>牲畜和野獸必躺臥在那裡，</para>
+  <para style="q1" vid="ZEP 2:14">貓頭鷹和刺蝟棲身在房柱上，</para>
+  <para style="q1" vid="ZEP 2:14">窗口傳出鳥鳴，</para>
+  <para style="q1" vid="ZEP 2:14">門庭都必破敗，</para>
+  <para style="q1" vid="ZEP 2:14">露出香柏木梁。<verse eid="ZEP 2:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="ZEP 2:15"/>這就是那歡樂安逸、</para>
+  <para style="q1" vid="ZEP 2:15">自以為天下無雙的城，</para>
+  <para style="q1" vid="ZEP 2:15">現在竟然如此荒涼，</para>
+  <para style="q1" vid="ZEP 2:15">成為野獸棲息之地！</para>
+  <para style="q1" vid="ZEP 2:15">路過的人都搖手嘲笑它。<verse eid="ZEP 2:15"/></para>
+  <chapter eid="ZEP 2"/>
+  <chapter number="3" style="c" sid="ZEP 3"/>
+  <para style="s1">耶路撒冷的敗壞</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="ZEP 3:1"/>這叛逆、污穢、充滿壓迫的城有禍了！<verse eid="ZEP 3:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="ZEP 3:2"/>她不聽命令，不受管教；</para>
+  <para style="q1" vid="ZEP 3:2">不倚靠耶和華，</para>
+  <para style="q1" vid="ZEP 3:2">不親近她的上帝。<verse eid="ZEP 3:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="ZEP 3:3"/>她的首領是咆哮的獅子，</para>
+  <para style="q1" vid="ZEP 3:3">她的審判官是夜間的豺狼，</para>
+  <para style="q1" vid="ZEP 3:3">不留一點獵物到天明。<verse eid="ZEP 3:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="ZEP 3:4"/>她的先知狂妄詭詐，</para>
+  <para style="q1" vid="ZEP 3:4">她的祭司褻瀆聖殿，違背律法。<verse eid="ZEP 3:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="ZEP 3:5"/>但城中的耶和華是公義的，</para>
+  <para style="q1" vid="ZEP 3:5">祂絕不做不義之事。</para>
+  <para style="q1" vid="ZEP 3:5">祂每天早晨伸張正義，從不間斷。</para>
+  <para style="q1" vid="ZEP 3:5">然而，不義之人卻不知羞恥。<verse eid="ZEP 3:5"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="6" style="v" sid="ZEP 3:6"/>「我已消滅列國，</para>
+  <para style="q1" vid="ZEP 3:6">摧毀他們的城樓，</para>
+  <para style="q1" vid="ZEP 3:6">使他們的街道荒廢，沒有路人；</para>
+  <para style="q1" vid="ZEP 3:6">他們的城邑淪為廢墟，杳無人跡，沒有居民。<verse eid="ZEP 3:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="ZEP 3:7"/>我以為這城一定會敬畏我，接受管教，</para>
+  <para style="q1" vid="ZEP 3:7">這樣我就不必照所定的毀滅她的居所。</para>
+  <para style="q1" vid="ZEP 3:7">然而，他們卻更加熱衷於犯罪作惡。<verse eid="ZEP 3:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="ZEP 3:8"/>「因此，要等候我，</para>
+  <para style="q1" vid="ZEP 3:8">等候我起來指控的日子。</para>
+  <para style="q1" vid="ZEP 3:8">我已決定召集列國，匯聚列邦，</para>
+  <para style="q1" vid="ZEP 3:8">向他們傾倒我的烈怒，</para>
+  <para style="q1" vid="ZEP 3:8">我的怒火必吞噬天下。</para>
+  <para style="q1" vid="ZEP 3:8">這是耶和華說的。<verse eid="ZEP 3:8"/></para>
+  <para style="s1">耶和華的拯救</para>
+  <para style="q1">
+    <verse number="9" style="v" sid="ZEP 3:9"/>「那時，我必潔淨萬民的口，</para>
+  <para style="q1" vid="ZEP 3:9">他們好求告我的名，</para>
+  <para style="q1" vid="ZEP 3:9">同心合意地事奉我。<verse eid="ZEP 3:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="ZEP 3:10"/>那些敬拜我的，</para>
+  <para style="q1" vid="ZEP 3:10">就是我那些分散的子民必從<char style="pn">古實</char>河對岸帶著供物來獻給我。<verse eid="ZEP 3:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="ZEP 3:11"/>到那天，你必不再因背叛我而羞愧，</para>
+  <para style="q1" vid="ZEP 3:11">因為那時我必除掉你那裡的狂傲之徒，</para>
+  <para style="q1" vid="ZEP 3:11">你在我的聖山上必不再高傲。<verse eid="ZEP 3:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="ZEP 3:12"/>我必把謙卑貧苦的人留在你那裡，</para>
+  <para style="q1" vid="ZEP 3:12">他們必投靠在耶和華的名下。<verse eid="ZEP 3:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="ZEP 3:13"/>
+    <char style="pn">以色列</char>的餘民必不再作惡，</para>
+  <para style="q1" vid="ZEP 3:13">不再撒謊，口中不再出詭詐之言。</para>
+  <para style="q1" vid="ZEP 3:13">他們吃喝躺臥，無人驚擾。」<verse eid="ZEP 3:13"/></para>
+  <para style="s1">歡樂之歌</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="ZEP 3:14"/>少女<char style="pn">錫安</char>啊，歌唱吧！</para>
+  <para style="q1" vid="ZEP 3:14">
+    <char style="pn">以色列</char>啊，歡呼吧！</para>
+  <para style="q1" vid="ZEP 3:14">少女<char style="pn">耶路撒冷</char>啊，盡情地歡喜快樂吧！<verse eid="ZEP 3:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="ZEP 3:15"/>耶和華已經撤銷對你的刑罰，</para>
+  <para style="q1" vid="ZEP 3:15">趕走你的仇敵，</para>
+  <para style="q1" vid="ZEP 3:15">
+    <char style="pn">以色列</char>的王耶和華與你同在，</para>
+  <para style="q1" vid="ZEP 3:15">你必不再懼怕災禍。<verse eid="ZEP 3:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="ZEP 3:16"/>到那天，<char style="pn">耶路撒冷</char>必聽到這樣的話：</para>
+  <para style="q1" vid="ZEP 3:16">「<char style="pn">錫安</char>啊，不要害怕！不要雙手發軟！<verse eid="ZEP 3:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="ZEP 3:17"/>你的上帝耶和華與你同在，</para>
+  <para style="q1" vid="ZEP 3:17">祂是大能的拯救者，</para>
+  <para style="q1" vid="ZEP 3:17">祂必因你而歡喜快樂，歡然歌唱，</para>
+  <para style="q1" vid="ZEP 3:17">用祂的愛安慰你。」<verse eid="ZEP 3:17"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="18" style="v" sid="ZEP 3:18"/>「我必招聚你那裡因不能守節期而憂愁的人，</para>
+  <para style="q1" vid="ZEP 3:18">使你不再蒙受羞辱。<verse eid="ZEP 3:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="ZEP 3:19"/>看啊，那時我必懲罰所有欺壓你的人，</para>
+  <para style="q1" vid="ZEP 3:19">拯救瘸腿的，召回分散的，</para>
+  <para style="q1" vid="ZEP 3:19">使他們的羞辱化為尊榮，聲名遠揚。<verse eid="ZEP 3:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="ZEP 3:20"/>那時，我必招聚你們，帶你們回到故土。</para>
+  <para style="q1" vid="ZEP 3:20">你們親眼目睹我帶你們回到故土後，</para>
+  <para style="q1" vid="ZEP 3:20">我必使你們在天下萬民中聲名遠揚，得享尊榮。」</para>
+  <para style="q1" vid="ZEP 3:20">這是耶和華說的。<verse eid="ZEP 3:20"/></para>
+  <chapter eid="ZEP 3"/>
+</usx>

@@ -1,6 +1,7 @@
 ﻿using Bible.Core.Models;
-using Bible.Reader.Models;
 using Bible.Reader;
+using Bible.Reader.Models;
+using BibleApp.ViewModels;
 
 namespace BibleApp
 {
@@ -16,6 +17,7 @@ namespace BibleApp
 
         protected override void OnAppearing()
         {
+            //_viewModel.SelectedChapter = await BibleReader.GetFromUsxFileAsync("zho/OCCB/GEN");
             base.OnAppearing();
         }
 
@@ -23,7 +25,8 @@ namespace BibleApp
         {
             if (sender is Picker picker && picker.SelectedItem is string selectedTranslation)
             {
-                _viewModel.BibleBooks = BibleReader.LoadBible<XmlZefania>(selectedTranslation).Books;
+                _viewModel.BibleBooks = BibleReader.LoadZefBible(selectedTranslation).Books;
+                //_viewModel.BibleBooks = BibleReader.LoadUsxBible(selectedTranslation).Books;
                 _viewModel.SelectedBook = _viewModel.BibleBooks.FirstOrDefault();
                 _viewModel.SelectedChapter = _viewModel.SelectedBook?.Chapters.FirstOrDefault();
             }

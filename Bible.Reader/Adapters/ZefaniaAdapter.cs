@@ -8,11 +8,11 @@ namespace Bible.Reader.Adapters
 {
     public static class ZefaniaAdapter
     {
-        public static BibleModel ToBibleFormat(this XmlZefania xmlBible, string language = null, string abbreviation = null)
+        public static BibleModel ToBibleFormat(this XmlZefania05 xmlBible, string language = null, string translation = null)
         {
             var bibleReference = new BibleReference
             {
-                Translation = abbreviation ?? xmlBible.Version.Trim()
+                Translation = translation ?? xmlBible.Version.Trim()
             };
             bool isDate = DateTime.TryParse(xmlBible.Information?.Date, out DateTime date);
             var bible = new BibleModel

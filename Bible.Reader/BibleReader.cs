@@ -1,26 +1,46 @@
 ﻿using Bible.Core.Models;
 using Bible.Reader.Adapters;
 using Bible.Reader.Models;
+using Bible.Reader.Models.YourNamespace;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Net.Security;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 
 namespace Bible.Reader
 {
     public class BibleReader
     {
-        public static BibleModel LoadBible<T>(string fileName, string suffix = ".zefania.xml") where T : class
+        //https://raw.githubusercontent.com/kohelet-net-admin/zefania-xml-bibles/master/Bibles/
+
+        public static BibleModel LoadZefBible(string fileName, string suffix = ".xml")
         {
+            var info = fileName.Split('/');
             FileType? fileType = null;
-            if (suffix.EndsWith(".xml"))
+            if (suffix.EndsWith(".usx"))
+                fileType = FileType.Usx;
+            else if (suffix.EndsWith(".xml"))
                 fileType = FileType.Xml;
             else if (suffix.EndsWith(".json"))
                 fileType = FileType.Json;
-            var bibleFile = GetFromFile<XmlZefania>($"{fileName}{suffix}", fileType);
-            var info = fileName.Split('-');
+            //Type type = fileName == "zho/OCCB/GEN" ? typeof(XmlUsx3) : typeof(XmlZefania05);
+            var bibleFile = GetFromFile<XmlZefania05>($"{fileName}{suffix}", fileType);
+            var bible = bibleFile.ToBibleFormat(info[0], info[1]);
+            return bible;
+        }
+
+        public static BibleModel LoadUsxBible(string fileName)
+        {
+            var info = fileName.Split('/');
+            //var fileType = fileName == "zho/OCCB/GEN" ? FileType.Usx : FileType.Xml;
+            var bibleFile = GetFromFile<XmlUsx3>(fileName, FileType.Usx);
             var bible = bibleFile.ToBibleFormat(info[0], info[1]);
             return bible;
         }
@@ -29,24 +49,28 @@ namespace Bible.Reader
         /// Map file data to an object.
         /// </summary>
         /// <typeparam name="T">Object to map to.</typeparam>
-        /// <param name="filePath">File path.</param>
+        /// <param name="fileName">File name.</param>
         /// <param name="fileType">File type.</param>
         /// <returns>Mapped object.</returns>
         /// <inheritdoc cref="File.OpenRead"/>
-        public static T GetFromFile<T>(string filePath, FileType? fileType) where T : class
+        public static T GetFromFile<T>(string fileName, FileType? fileType) where T : class
         {
             T result = fileType switch
             {
-                FileType.Json => GetFromJsonFile<T>(filePath),
-                FileType.Xml => GetFromXmlFile<T>(filePath),
+                FileType.Json => GetFromJsonFile<T>(fileName),
+                FileType.Xml => GetFromXmlFile<T>(fileName),
+                FileType.Usx => GetFromUsxFile<T>(fileName),
                 _ => throw new NotImplementedException()
             };
             return result;
         }
 
         private static readonly string _baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-        private static string ExpandPath(string fileName, string prefix, string suffix)
+        private static string ExpandPath(string fileName, FileType fileType)
         {
+            string prefix, suffix;
+            var typeName = fileType.ToString().ToLowerInvariant();
+            (prefix, suffix) = (typeName, $".{typeName}");
             if (!Path.HasExtension(fileName) || !fileName.EndsWith(suffix))
                 fileName += suffix;
             if (fileName.StartsWith(_baseDirectory[..15]))
@@ -59,7 +83,97 @@ namespace Bible.Reader
                 var name = Path.GetFileName(fileName);
                 return Path.Combine(directory, prefix, name);
             }
-            return Path.Combine(_baseDirectory, prefix, fileName);
+            return Path.Combine(_baseDirectory, "..", prefix, fileName);
+        }
+
+        /// <inheritdoc cref="GetFromFile{T}"/>
+        private static T GetFromUsxFile<T>(string fileName) where T : class
+        {
+            var filePath = ExpandPath(fileName, FileType.Usx);
+            using var fileStream = File.OpenRead(filePath);
+            var serializer = new XmlSerializer(typeof(T));
+            var result = serializer.Deserialize(fileStream) as T;
+            return result;
+        }
+
+        /// <inheritdoc cref="GetFromFile{T}"/>
+        public static async Task<BibleChapter> GetFromUsxFileAsync(string fileName, string bookId = "GEN", string chapterNumber = "1")
+        {
+            var verses = new List<BibleVerse>();
+            var filePath = ExpandPath(fileName, FileType.Usx);
+            using var xmlStream = File.OpenRead(filePath);
+            var doc = await XDocument.LoadAsync(xmlStream, LoadOptions.None, CancellationToken.None);
+            //var bookElement = doc.Descendants("book")
+            //    .FirstOrDefault(e => e.Attribute("code")?.Value == bookId);
+            var chapterElement = doc.Descendants("chapter")
+                .FirstOrDefault(c => c.Attribute("style")?.Value == "c" &&
+                    c.Attribute("number")?.Value == chapterNumber);
+            var chapterReference = new BibleReference
+            {
+                Translation = "OCCB",
+                BookName = chapterElement.Attribute("sid").Value
+            };
+            var paragraphs = chapterElement?.ElementsAfterSelf()
+                .Where(p => p.Name == "para" && p.Attribute("style")?.Value == "p");
+            foreach (var paragraph in paragraphs)
+            {
+                //var verse = paragraph.Descendants("verse").FirstOrDefault(v => v.Attribute("number")?.Value == verseNum && v.Attribute("style")?.Value == "v");
+                //var verseElements = paragraph.Descendants("verse").ToList();
+                var paragraphNodes = paragraph.DescendantNodes().ToList();
+
+                bool isVerseNode = false;
+                XElement usxClosingTag = null;
+                var verse = new BibleVerse();
+                foreach (var node in paragraphNodes)
+                {
+                    if (node is XElement verseElement)
+                    {
+                        if (verseElement.Name == "verse")
+                        {
+                            isVerseNode = true;
+                            usxClosingTag = paragraphNodes.OfType<XElement>()
+                                .LastOrDefault(d => d.NodeType == XmlNodeType.EndElement);
+                            if (verseElement.Attribute("style")?.Value == "v" &&
+                                verseElement.Attribute("sid") != null &&
+                                int.TryParse(verseElement.Attribute("number")?.Value, out int verseNumber))
+                            {
+                                verse.Number = verseNumber;
+                                verse.Reference = chapterReference;
+                            }
+                            else if (verseElement.Attribute("eid") != null)
+                            {
+                                verses.Add(verse);
+                                verse = new BibleVerse();
+                            }
+                            else
+                            {
+                                System.Diagnostics.Debugger.Break();
+                            }
+                        }
+                        else
+                        {
+                            // metadata like notes etc.
+                            //isVerseNode = verseElement == usxClosingTag;
+                            //if (verseElement.Name.LocalName.StartsWith("</"))
+                            //    System.Diagnostics.Debugger.Break();
+                        }
+                    }
+                    else if (isVerseNode && node is XText textNode && string.IsNullOrEmpty(verse.Text))
+                    {
+                        verse.Text = textNode.Value;
+                        isVerseNode = false;
+                        // TODO - filter out metadata like notes etc. then add subsequent text, c.f. GEN 1:5
+                    }
+                    else
+                    {
+                        // metadata contents
+                    }
+                }
+                break;
+            }
+            var chapter = new BibleChapter { Verses = verses };
+            //var book = new BibleBook { Chapters = new List<BibleChapter> { chapter } };
+            return chapter;
         }
 
         /// <summary>
@@ -68,9 +182,9 @@ namespace Bible.Reader
         /// <typeparam name="T">Object to map to.</typeparam>
         /// <param name="xmlFileName">XML file name.</param>
         /// <inheritdoc cref="GetFromFile{T}"/>
-        private static T GetFromXmlFile<T>(string xmlFileName, string prefix = "Xml", string suffix = ".xml") where T : class
+        private static T GetFromXmlFile<T>(string xmlFileName) where T : class
         {
-            var xmlFilePath = ExpandPath(xmlFileName, prefix, suffix);
+            var xmlFilePath = ExpandPath(xmlFileName, FileType.Xml);
             using var fileStream = File.OpenRead(xmlFilePath);
             var serializer = new XmlSerializer(typeof(T));
             var result = serializer.Deserialize(fileStream) as T;
@@ -83,9 +197,9 @@ namespace Bible.Reader
         /// <typeparam name="T">Object to map to.</typeparam>
         /// <param name="jsonFileName">JSON file name.</param>
         /// <inheritdoc cref="GetFromFile{T}"/>
-        private static T GetFromJsonFile<T>(string jsonFileName, string prefix = "Json", string suffix = ".json") where T : class
+        private static T GetFromJsonFile<T>(string jsonFileName) where T : class
         {
-            var jsonFilePath = ExpandPath(jsonFileName, prefix, suffix);
+            var jsonFilePath = ExpandPath(jsonFileName, FileType.Json);
             using var utf8Json = File.OpenRead(jsonFilePath);
             var result = JsonSerializer.Deserialize<T>(utf8Json);
             return result;
