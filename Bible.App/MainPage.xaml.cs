@@ -15,9 +15,10 @@ namespace BibleApp
             BindingContext = _viewModel;
         }
 
+        private static readonly string _testUsxBook = "zho/OCCB/GEN";
         protected override void OnAppearing()
         {
-            //_viewModel.SelectedChapter = await BibleReader.GetFromUsxFileAsync("zho/OCCB/GEN");
+            //BibleReader.TransformUsx2Xml($"{_testUsxBook}.usx");
             base.OnAppearing();
         }
 
@@ -25,8 +26,14 @@ namespace BibleApp
         {
             if (sender is Picker picker && picker.SelectedItem is string selectedTranslation)
             {
-                _viewModel.BibleBooks = BibleReader.LoadZefBible(selectedTranslation).Books;
-                //_viewModel.BibleBooks = BibleReader.LoadUsxBible(selectedTranslation).Books;
+                if (selectedTranslation != _testUsxBook)
+                {
+                    _viewModel.BibleBooks = BibleReader.LoadZefBible(selectedTranslation).Books;
+                }
+                else
+                {
+                    _viewModel.BibleBooks = BibleReader.LoadUsxBible(selectedTranslation).Books;
+                }
                 _viewModel.SelectedBook = _viewModel.BibleBooks.FirstOrDefault();
                 _viewModel.SelectedChapter = _viewModel.SelectedBook?.Chapters.FirstOrDefault();
             }

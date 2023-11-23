@@ -10,7 +10,7 @@ namespace Bible.Reader
     {
         Unknown,
         Usfm,       // [Unified Standard Format Markers for Paratext](https://ubsicap.github.io/usfm/|https://markups.paratext.org/usfm/)
-        Usx3,       // [Unified Scripture XML v3](https://ubsicap.github.io/usx/) [rng](https://github.com/ubsicap/usx/blob/master/schema/usx.rng)
+        Usx,        // [Unified Scripture XML](https://ubsicap.github.io/usx/) [rng](https://github.com/ubsicap/usx/blob/master/schema/usx.rng)
         Usfx,       // [Unified Standard Format XML](https://ebible.org/usfx/) [xsd](https://github.com/Freely-Given-org/BibleOrgSys/blob/main/ExternalSchemas/usfx.xsd)
         Osis,       // [Open Scriptural Information Standard](https://crosswire.org/osis/) [xsd](https://github.com/schierlm/BibleMultiConverter/blob/master/biblemulticonverter-schemas/src/main/resources/osisCore.2.1.1.xsd)
         Zef05,      // [Zefania XML 2005](https://bgfdb.de/zefaniaxml/bml/) [xsd](https://raw.githubusercontent.com/kohelet-net-admin/zefania-xml-bibles/master/Schema/zef2005.xsd)

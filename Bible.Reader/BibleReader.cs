@@ -39,7 +39,7 @@ namespace Bible.Reader
         {
             var info = fileName.Split('/');
             //var fileType = fileName == "zho/OCCB/GEN" ? FileType.Usx : FileType.Xml;
-            var bibleFile = GetFromFile<XmlUsx3>(fileName, FileType.Usx);
+            var bibleFile = GetFromFile<XmlUsx>(fileName, FileType.Usx);
             var bible = bibleFile.ToBibleFormat(info[0], info[1]);
             return bible;
         }
@@ -58,7 +58,7 @@ namespace Bible.Reader
             {
                 FileType.Json => GetFromJsonFile<T>(fileName),
                 FileType.Xml => GetFromXmlFile<T>(fileName),
-                FileType.Usx => GetFromUsxFile<T>(fileName),
+                FileType.Usx => GetFromXmlFile<T>(fileName),
                 _ => throw new NotImplementedException()
             };
             return result;
@@ -86,7 +86,7 @@ namespace Bible.Reader
         }
 
         /// <inheritdoc cref="GetFromFile{T}"/>
-        private static T GetFromUsxFile<T>(string fileName) where T : class
+        public static T GetFromUsxFile<T>(string fileName) where T : class
         {
             var filePath = ExpandPath(fileName, FileType.Usx);
             using var fileStream = File.OpenRead(filePath);
@@ -95,110 +95,40 @@ namespace Bible.Reader
             return result;
         }
 
-        /// <inheritdoc cref="GetFromFile{T}"/>
-        public static async Task<BibleChapter> GetFromUsxFileAsync(string fileName, string bookId = "GEN", string chapterNumber = "1")
-        {
-            var verses = new List<BibleVerse>();
-            var filePath = ExpandPath(fileName, FileType.Usx);
-            using var xmlStream = File.OpenRead(filePath);
-            var doc = await XDocument.LoadAsync(xmlStream, LoadOptions.None, CancellationToken.None);
-            //var bookElement = doc.Descendants("book")
-            //    .FirstOrDefault(e => e.Attribute("code")?.Value == bookId);
-            var chapterElement = doc.Descendants("chapter")
-                .FirstOrDefault(c => c.Attribute("style")?.Value == "c" &&
-                    c.Attribute("number")?.Value == chapterNumber);
-            var chapterReference = new BibleReference
-            {
-                Translation = "OCCB",
-                BookName = chapterElement.Attribute("sid").Value
-            };
-            var paragraphs = chapterElement?.ElementsAfterSelf()
-                .Where(p => p.Name == "para" && p.Attribute("style")?.Value == "p");
-            foreach (var paragraph in paragraphs)
-            {
-                //var verse = paragraph.Descendants("verse").FirstOrDefault(v => v.Attribute("number")?.Value == verseNum && v.Attribute("style")?.Value == "v");
-                //var verseElements = paragraph.Descendants("verse").ToList();
-                var paragraphNodes = paragraph.DescendantNodes(); //.ToList();
-
-                bool isVerseNode = false;
-                XElement usxClosingTag = null;
-                var verse = new BibleVerse();
-                foreach (var node in paragraphNodes)
-                {
-                    if (node is XElement verseElement)
-                    {
-                        if (verseElement.Name == "verse")
-                        {
-                            isVerseNode = true;
-                            usxClosingTag = paragraphNodes.OfType<XElement>()
-                                .LastOrDefault(d => d.NodeType == XmlNodeType.EndElement);
-                            if (verseElement.Attribute("style")?.Value == "v" &&
-                                verseElement.Attribute("sid") != null &&
-                                int.TryParse(verseElement.Attribute("number")?.Value, out int verseNumber))
-                            {
-                                verse.Number = verseNumber;
-                                verse.Reference = chapterReference;
-                            }
-                            else if (verseElement.Attribute("eid") != null)
-                            {
-                                verses.Add(verse);
-                                verse = new BibleVerse();
-                            }
-                            else
-                            {
-                                System.Diagnostics.Debugger.Break();
-                            }
-                        }
-                        else
-                        {
-                            // metadata like notes etc.
-                            //isVerseNode = verseElement == usxClosingTag;
-                            //if (verseElement.Name.LocalName.StartsWith("</"))
-                            //    System.Diagnostics.Debugger.Break();
-                        }
-                    }
-                    else if (isVerseNode && node is XText textNode && string.IsNullOrEmpty(verse.Text))
-                    {
-                        verse.Text = textNode.Value;
-                        isVerseNode = false;
-                        // TODO - filter out metadata like notes etc. then add subsequent text, c.f. GEN 1:5
-                    }
-                    else
-                    {
-                        // metadata contents
-                    }
-                }
-                break;
-            }
-            var chapter = new BibleChapter { Verses = verses };
-            //var book = new BibleBook { Chapters = new List<BibleChapter> { chapter } };
-            return chapter;
-        }
-
         private const string _relativeDirectory = "..\\..\\..\\..\\Bible.Data\\";
         private static string ExpandXsltPath(string fileName) =>
             Path.Combine(_baseDirectory, _relativeDirectory, Path.GetExtension(fileName).TrimStart('.'), fileName);
+        private static readonly string[] _xsltFiles = new string[] { "usx2xml01verses.xslt", "usx2xml02chapters.xslt" };
 
         /// <inheritdoc cref="GetFromFile{T}"/>
-        public static void TransformUsx2Xml(string inputFile, string xsltFile = "usx2xml.xslt", string outputSuffix = ".xml")
+        public static void TransformUsx2Xml(string inputFile, string outputSuffix = ".xml")
         {
-            // Load the input XML document
-            var xmlDoc = new XmlDocument();
-            var inPath = ExpandXsltPath(inputFile);
-            xmlDoc.Load(inPath);
-
-            // Load the XSLT stylesheet
-            var xslt = new XslCompiledTransform();
-            var xsltPath = ExpandXsltPath(xsltFile);
-            xslt.Load(xsltPath);
-
-            // Perform the transformation
+            // Get the output path
             var inputExtension = Path.GetExtension(inputFile).ToCharArray();
             var outputFileName = $"{inputFile.TrimEnd(inputExtension)}{outputSuffix}";
             var outPath = ExpandXsltPath(outputFileName);
             var outDirectory = Path.GetDirectoryName(outPath);
-            Directory.CreateDirectory(outDirectory);
-            xslt.Transform(xmlDoc, null, new XmlTextWriter(outPath, null));
+
+            // Initialise variables
+            var xmlDoc = new XmlDocument();
+            var inPath = ExpandXsltPath(inputFile);
+            var xslt = new XslCompiledTransform();
+
+            foreach (var xsltFile in _xsltFiles)
+            {
+                // Load the input XML document
+                xmlDoc.Load(inPath);
+
+                // Load the XSLT stylesheet
+                var xsltPath = ExpandXsltPath(xsltFile);
+                xslt.Load(xsltPath);
+
+                // Perform the transformation
+                Directory.CreateDirectory(outDirectory);
+                using var writer = new XmlTextWriter(outPath, null);
+                xslt.Transform(xmlDoc, null, writer);
+                inPath = outPath;
+            }
 
             System.Diagnostics.Debug.WriteLine($"File transformed to {outPath}.");
         }

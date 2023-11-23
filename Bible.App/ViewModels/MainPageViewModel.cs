@@ -8,7 +8,7 @@ namespace BibleApp.ViewModels
     {
         [ObservableProperty]
         private string[] translations = [
-            //"zho/OCCB/GEN",
+            "zho/OCCB/GEN",
             "chi/CUV",
             "chi/CUVS",
             "tha/KJVTHAI",

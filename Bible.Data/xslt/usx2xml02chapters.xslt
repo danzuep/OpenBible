@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <!-- root usx element -->
-  <!--<xsl:template match="usx">
-    <xsl:copy>
-      --><!-- only copy attributes (@*) and nodes descended from or preceding the first chapter element --><!--
-      <xsl:apply-templates select="@*|node()[ancestor::chapter or following-sibling::chapter[1]]"/>
-    </xsl:copy>
-  </xsl:template>-->
-
   <!-- paragraph elements -->
   <xsl:template match="para">
     <!--only copy attributes and nodes that come before the first chapter element-->

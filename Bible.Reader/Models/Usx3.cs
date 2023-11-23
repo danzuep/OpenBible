@@ -11,15 +11,15 @@ namespace Bible.Reader.Models
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
     [XmlRoot(ElementName = "usx", IsNullable = false)]
-    public class XmlUsx3 : IXmlUsx3Base
+    public class Usx3 : IUsx3Base
     {
         [XmlAttribute("version")]
         public decimal Version { get; set; }
 
-        [XmlElement("book", typeof(XmlUsx3Book))]
-        [XmlElement("chapter", typeof(XmlUsx3Chapter))]
-        [XmlElement("para", typeof(XmlUsx3Paragraph))]
-        public XmlUsx3CollationBase[] Items { get; set; }
+        [XmlElement("book", typeof(Usx3Book))]
+        [XmlElement("para", typeof(Usx3Paragraph))]
+        [XmlElement("chapter", typeof(Usx3Chapter))]
+        public Usx3CollationBase[] Items { get; set; }
     }
 
     /// <summary>
@@ -28,7 +28,7 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Book : XmlUsx3CollationBase
+    public class Usx3Book : Usx3CollationBase
     {
         [XmlAttribute("code")]
         public string Id { get; set; }
@@ -43,7 +43,7 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Chapter : XmlUsx3StartEndBase
+    public class Usx3Chapter : Usx3StartEndBase
     {
         [XmlAttribute("number")]
         public int Number { get; set; }
@@ -55,13 +55,13 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Paragraph : XmlUsx3CollationBase
+    public class Usx3Paragraph : Usx3CollationBase
     {
-        [XmlElement("char", typeof(XmlUsx3Char))]
-        [XmlElement("note", typeof(XmlUsx3Note))]
-        [XmlElement("verse", typeof(XmlUsx3Verse))]
-        [XmlElement("optbreak", typeof(XmlUsx3OptionalBreak))]
-        public XmlUsx3StyleBase[] Items { get; set; }
+        [XmlElement("char", typeof(Usx3Char))]
+        [XmlElement("note", typeof(Usx3Note))]
+        [XmlElement("verse", typeof(Usx3Verse))]
+        [XmlElement("optbreak", typeof(Usx3OptionalBreak))]
+        public Usx3StyleBase[] Items { get; set; }
 
         [XmlText]
         public string[] Text { get; set; }
@@ -73,7 +73,7 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Char : XmlUsx3CharBase
+    public class Usx3Char : Usx3CharBase
     {
         [XmlText]
         public string Value { get; set; }
@@ -90,10 +90,10 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Note : XmlUsx3StyleBase
+    public class Usx3Note : Usx3StyleBase
     {
-        [XmlElement("char", typeof(XmlUsx3ParaNoteChar))]
-        public XmlUsx3CharBase[] Chars { get; set; }
+        [XmlElement("char", typeof(Usx3ParaNoteChar))]
+        public Usx3CharBase[] Chars { get; set; }
 
         [XmlAttribute("caller")]
         public string Caller { get; set; }
@@ -113,10 +113,10 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3ParaNoteChar : XmlUsx3CharBase
+    public class Usx3ParaNoteChar : Usx3CharBase
     {
         [XmlElement("char")]
-        public XmlUsx3CrossReferenceChar[] Char { get; set; }
+        public Usx3CrossReferenceChar[] Char { get; set; }
     }
 
     /// <summary>
@@ -125,13 +125,13 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3CrossReferenceChar : XmlUsx3CharBase
+    public class Usx3CrossReferenceChar : Usx3CharBase
     {
         [XmlAttribute("closed")]
         public bool Closed { get; set; }
 
         [XmlElement("ref")]
-        public XmlUsx3Reference[] Reference { get; set; }
+        public Usx3Reference[] Reference { get; set; }
 
         [XmlText]
         public string[] Text { get; set; }
@@ -143,7 +143,7 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Reference : IXmlUsx3Base
+    public class Usx3Reference : IUsx3Base
     {
         [XmlAttribute("loc")]
         public string Location { get; set; }
@@ -158,10 +158,13 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Verse : XmlUsx3StartEndBase
+    public class Usx3Verse : Usx3StartEndBase
     {
         [XmlAttribute("number")]
         public string Number { get; set; }
+
+        [XmlText]
+        public string Text { get; set; }
     }
 
     /// <summary>
@@ -170,7 +173,7 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3Milestone : XmlUsx3StartEndBase { }
+    public class Usx3Milestone : Usx3StartEndBase { }
 
     /// <summary>
     /// <see href="https://ubsicap.github.io/usx/elements.html#optbreak"/>
@@ -178,9 +181,9 @@ namespace Bible.Reader.Models
     [Serializable]
     [DesignerCategory("code")]
     [XmlType(AnonymousType = true)]
-    public class XmlUsx3OptionalBreak : XmlUsx3StyleBase { }
+    public class Usx3OptionalBreak : Usx3StyleBase { }
 
-    public abstract class XmlUsx3StartEndBase : XmlUsx3CollationBase
+    public abstract class Usx3StartEndBase : Usx3CollationBase
     {
         [XmlAttribute("sid")]
         public string StartId { get; set; }
@@ -189,15 +192,15 @@ namespace Bible.Reader.Models
         public string EndId { get; set; }
     }
 
-    public abstract class XmlUsx3CollationBase : XmlUsx3StyleBase { }
+    public abstract class Usx3CollationBase : Usx3StyleBase { }
 
-    public abstract class XmlUsx3CharBase : XmlUsx3StyleBase { }
+    public abstract class Usx3CharBase : Usx3StyleBase { }
 
-    public abstract class XmlUsx3StyleBase : IXmlUsx3Base
+    public abstract class Usx3StyleBase : IUsx3Base
     {
         [XmlAttribute("style")]
         public string Style { get; set; }
     }
 
-    public interface IXmlUsx3Base { }
+    public interface IUsx3Base { }
 }
