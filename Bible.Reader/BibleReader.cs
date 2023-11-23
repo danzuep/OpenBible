@@ -1,18 +1,17 @@
 ﻿using Bible.Core.Models;
 using Bible.Reader.Adapters;
 using Bible.Reader.Models;
-using Bible.Reader.Models.YourNamespace;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net.Security;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
+using System.Xml.Xsl;
 
 namespace Bible.Reader
 {
@@ -119,7 +118,7 @@ namespace Bible.Reader
             {
                 //var verse = paragraph.Descendants("verse").FirstOrDefault(v => v.Attribute("number")?.Value == verseNum && v.Attribute("style")?.Value == "v");
                 //var verseElements = paragraph.Descendants("verse").ToList();
-                var paragraphNodes = paragraph.DescendantNodes().ToList();
+                var paragraphNodes = paragraph.DescendantNodes(); //.ToList();
 
                 bool isVerseNode = false;
                 XElement usxClosingTag = null;
@@ -174,6 +173,34 @@ namespace Bible.Reader
             var chapter = new BibleChapter { Verses = verses };
             //var book = new BibleBook { Chapters = new List<BibleChapter> { chapter } };
             return chapter;
+        }
+
+        private const string _relativeDirectory = "..\\..\\..\\..\\Bible.Data\\";
+        private static string ExpandXsltPath(string fileName) =>
+            Path.Combine(_baseDirectory, _relativeDirectory, Path.GetExtension(fileName).TrimStart('.'), fileName);
+
+        /// <inheritdoc cref="GetFromFile{T}"/>
+        public static void TransformUsx2Xml(string inputFile, string xsltFile = "usx2xml.xslt", string outputSuffix = ".xml")
+        {
+            // Load the input XML document
+            var xmlDoc = new XmlDocument();
+            var inPath = ExpandXsltPath(inputFile);
+            xmlDoc.Load(inPath);
+
+            // Load the XSLT stylesheet
+            var xslt = new XslCompiledTransform();
+            var xsltPath = ExpandXsltPath(xsltFile);
+            xslt.Load(xsltPath);
+
+            // Perform the transformation
+            var inputExtension = Path.GetExtension(inputFile).ToCharArray();
+            var outputFileName = $"{inputFile.TrimEnd(inputExtension)}{outputSuffix}";
+            var outPath = ExpandXsltPath(outputFileName);
+            var outDirectory = Path.GetDirectoryName(outPath);
+            Directory.CreateDirectory(outDirectory);
+            xslt.Transform(xmlDoc, null, new XmlTextWriter(outPath, null));
+
+            System.Diagnostics.Debug.WriteLine($"File transformed to {outPath}.");
         }
 
         /// <summary>

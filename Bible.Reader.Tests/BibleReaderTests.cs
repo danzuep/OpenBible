@@ -1,6 +1,5 @@
 global using Xunit;
 global using Bible.Reader.Models;
-using Microsoft.VisualBasic.FileIO;
 using System.Xml.Linq;
 
 namespace Bible.Reader.Tests
@@ -11,6 +10,8 @@ namespace Bible.Reader.Tests
         private const string _relativeDirectory = "..\\..\\..\\..\\Bible.Data\\";
         private static string ExpandFilePath(string fileName, FileType fileType) =>
             Path.Combine(_baseDirectory, _relativeDirectory, fileType.ToString(), fileName);
+        private static string ExpandXsltPath(string fileName) =>
+            Path.Combine(_baseDirectory, _relativeDirectory, "xslt", fileName);
 
         [Theory]
         [InlineData("eng/WEB")]
@@ -38,15 +39,73 @@ namespace Bible.Reader.Tests
         }
 
         [Fact]
-        public void GetTextBetweenXmlElements()
+        public void GetTextBetweenUsxElements()
         {
             string xml = @"<usx>
                 <chapter number='1' style='c' sid='TST 1'/>
                 <verse number='1' style='v' sid='TST 1:1'/>Text to find.<verse eid='TST 1:1'/>
                 <chapter eid='TST 1'/>
               </usx>";
-            var textToFind = XDocument.Parse(xml).Descendants().DescendantNodes().OfType<XText>().First(); //.ElementAt(1).NextNode;
+            var textToFind = XDocument.Parse(xml).Descendants().DescendantNodes().OfType<XText>().First();
             Assert.Equal("Text to find.", textToFind.Value);
+        }
+
+        [Theory]
+        [InlineData("zho/OCCB/GEN")]
+        public void TransformUsx2XmlToChapters(string file)
+        {
+            BibleReader.TransformUsx2Xml($"{file}.usx", "usx2xml02chapters.xslt", "_chapters.xml");
+            //BibleReader.TransformUsx2Xml("_GEN_1_1_verses.xml", "_GEN_1_1_chapters.xml", "usx2xml02chapters.xslt");
+        }
+
+        [Theory]
+        [InlineData("zho/OCCB/GEN")]
+        public void TransformUsx2XmlVersesFromChapters(string file)
+        {
+            BibleReader.TransformUsx2Xml($"{file}_chapters.xml", "usx2xml01verses.xslt", "_verses.xml");
+            //BibleReader.TransformUsx2Xml("OCCB GEN 1 1-8.txt", "_GEN_1_1_verses.xml", "usx2xml01verses.xslt");
+        }
+
+        [Theory]
+        [InlineData("zho/OCCB/GEN")]
+        public void TransformUsx2XmlVerses(string file)
+        {
+            BibleReader.TransformUsx2Xml($"{file}.usx", "usx2xml01verses.xslt", ".xml");
+            //BibleReader.TransformUsx2Xml("OCCB GEN 1 1-8.txt", "_GEN_1_1_verses.xml", "usx2xml01verses.xslt");
+        }
+
+        [Theory]
+        [InlineData("zho/OCCB/GEN")]
+        public void TransformUsx2XmlChapters(string file)
+        {
+            BibleReader.TransformUsx2Xml($"{file}.xml", "usx2xml02chapters.xslt", "_chapters.xml");
+            //BibleReader.TransformUsx2Xml("_GEN_1_1_verses.xml", "_GEN_1_1_chapters.xml", "usx2xml02chapters.xslt");
+        }
+
+        [Theory]
+        [InlineData("zho/OCCB/GEN")]
+        public void TransformUsx2XmlBook(string file)
+        {
+            BibleReader.TransformUsx2Xml($"{file}_chapters.xml", "usx2xml03book.xslt", "_book.xml");
+            //BibleReader.TransformUsx2Xml("OCCB GEN 1 1-8.txt", "_GEN_1_1_verses.xml", "usx2xml01verses.xslt");
+        }
+
+        //[Fact]
+        //public void CleanupXmlWithUsxByElement()
+        //{
+        //    BibleReader.TransformUsx2Xml("_GEN_1_1_chapters.xml", "_GEN_1_1.xml", "usx2xml10cleanup.xslt");
+        //}
+
+        //[Fact]
+        //public void TransformUsx2XmlByElement()
+        //{
+        //    BibleReader.TransformUsx2Xml("OCCB GEN 1 1-8.txt", ".xml", "usx2xml.xslt");
+        //}
+
+        [Fact]
+        public void TransformUsx2Xml()
+        {
+            BibleReader.TransformUsx2Xml("zho/OCCB/GEN.usx");
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Bible.Reader
     public enum BibleFormat
     {
         Unknown,
-        Usfm,       // [Unified Standard Format Markers for Paratext](https://ubsicap.github.io/usfm/)
+        Usfm,       // [Unified Standard Format Markers for Paratext](https://ubsicap.github.io/usfm/|https://markups.paratext.org/usfm/)
         Usx3,       // [Unified Scripture XML v3](https://ubsicap.github.io/usx/) [rng](https://github.com/ubsicap/usx/blob/master/schema/usx.rng)
         Usfx,       // [Unified Standard Format XML](https://ebible.org/usfx/) [xsd](https://github.com/Freely-Given-org/BibleOrgSys/blob/main/ExternalSchemas/usfx.xsd)
         Osis,       // [Open Scriptural Information Standard](https://crosswire.org/osis/) [xsd](https://github.com/schierlm/BibleMultiConverter/blob/master/biblemulticonverter-schemas/src/main/resources/osisCore.2.1.1.xsd)
