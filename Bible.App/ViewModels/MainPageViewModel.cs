@@ -1,7 +1,8 @@
 ﻿using Bible.Core.Models;
-using Bible.Reader;
+using Bible.Interfaces;
 using BibleApp.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 
 namespace BibleApp.ViewModels
@@ -42,38 +43,36 @@ namespace BibleApp.ViewModels
         private byte _chapterIndex => ChapterIndex < byte.MinValue ? byte.MinValue : (byte)ChapterIndex;
 
         private BibleModel? _bible;
+        private readonly IBibleService _readerService;
 
-        public MainPageViewModel()
+        public MainPageViewModel(IBibleService readerService)
         {
+            _readerService = readerService;
             SelectedTranslation = Translations[0];
         }
 
-        private BibleModel LoadTranslation(string translation)
+        internal void GetTranslation(string? translation)
         {
+            //ArgumentNullException.ThrowIfNull(translation);
+            translation ??= SelectedTranslation;
             Bible = new() { Translation = translation };
-            //BibleReader.TransformUsx2Xml($"{_testUsxBook}.usx");
-            var bible = translation != _testUsxBook ?
-                BibleReader.LoadZefBible(translation) :
-                BibleReader.LoadUsxBible(translation);
-            return bible;
-        }
-
-        internal void LoadBibleBooks()
-        {
-            _bible = LoadTranslation(SelectedTranslation);
-            foreach (var book in _bible.Books)
+            _bible = _readerService.LoadBible(translation);
+            if (_bible != null)
             {
-                var bibleBook = new BookUiModel
+                foreach (var book in _bible.Books)
                 {
-                    Id = book.Id,
-                    Name = book.Reference.BookName,
-                    ChapterCount = book.ChapterCount
-                };
-                Bible?.Books.Add(bibleBook);
+                    var bibleBook = new BookUiModel
+                    {
+                        Id = book.Id,
+                        Name = book.Reference.BookName,
+                        ChapterCount = book.ChapterCount
+                    };
+                    Bible?.Books.Add(bibleBook);
+                }
             }
         }
 
-        private ChapterUiModel LoadChapter(byte bookIndex, byte chapterIndex)
+        private ChapterUiModel GetChapter(byte bookIndex, byte chapterIndex)
         {
             var bibleChapter = new ChapterUiModel { Id = chapterIndex + 1 };
             if (_bible != null)
@@ -87,6 +86,6 @@ namespace BibleApp.ViewModels
             return bibleChapter;
         }
 
-        internal ChapterUiModel LoadChapter() => LoadChapter(_bookIndex, _chapterIndex);
+        internal ChapterUiModel GetChapter() => GetChapter(_bookIndex, _chapterIndex);
     }
 }

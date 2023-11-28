@@ -1,29 +1,33 @@
 ﻿using BibleApp.ViewModels;
+using CommunityToolkit.Mvvm.DependencyInjection;
 
 namespace BibleApp
 {
-    public partial class MainPage : ContentPage
+    public sealed partial class MainPage : ContentPage
     {
-        readonly MainPageViewModel _viewModel = new();
+        private MainPageViewModel _viewModel => (MainPageViewModel)BindingContext;
 
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = _viewModel;
+            BindingContext = Ioc.Default.GetRequiredService<MainPageViewModel>();
         }
 
         private void OnTranslationSelectionChanged(object sender, EventArgs e)
         {
             if (sender is Picker picker && picker.SelectedItem is string selectedTranslation)
                 System.Diagnostics.Debug.Assert(selectedTranslation == _viewModel.SelectedTranslation);
-            _viewModel.LoadBibleBooks();
+            _viewModel.GetTranslation(_viewModel.SelectedTranslation);
             bibleBookPicker.SelectedIndex = 0;
         }
 
         private void OnBookSelectionChanged(object sender, EventArgs e)
         {
-            bibleChapterPicker.ItemsSource = _viewModel.SelectedBook?.ChapterNumbers;
-            bibleChapterPicker.SelectedIndex = 0;
+            if (bibleBookPicker.SelectedIndex >= 0)
+            {
+                bibleChapterPicker.ItemsSource = _viewModel.SelectedBook?.ChapterNumbers;
+                bibleChapterPicker.SelectedIndex = 0;
+            }
         }
 
         private void OnChapterSelectionChanged(object sender, EventArgs e)
@@ -31,7 +35,7 @@ namespace BibleApp
             if (bibleChapterPicker.SelectedIndex >= 0)
             {
                 _viewModel.SelectedChapter?.Verses.Clear();
-                _viewModel.SelectedChapter = _viewModel.LoadChapter();
+                _viewModel.SelectedChapter = _viewModel.GetChapter();
             }
         }
 

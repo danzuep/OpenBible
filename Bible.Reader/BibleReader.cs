@@ -1,4 +1,5 @@
 ﻿using Bible.Core.Models;
+using Bible.Interfaces;
 using Bible.Reader.Adapters;
 using Bible.Reader.Models;
 using System;
@@ -12,30 +13,31 @@ using System.Xml.Xsl;
 
 namespace Bible.Reader
 {
-    public class BibleReader
+    public sealed class BibleReader : IBibleService
     {
-        public static BibleModel LoadZefBible(string fileName, string suffix = ".xml")
+        public BibleModel LoadBible(string fileName, string suffix = ".xml")
         {
             var info = fileName.Split('/');
             FileType? fileType = null;
-            if (suffix.EndsWith(".usx"))
+            if (suffix.EndsWith(".usx", StringComparison.OrdinalIgnoreCase))
                 fileType = FileType.Usx;
-            else if (suffix.EndsWith(".xml"))
+            else if (suffix.EndsWith(".xml", StringComparison.OrdinalIgnoreCase))
                 fileType = FileType.Xml;
-            else if (suffix.EndsWith(".json"))
+            else if (suffix.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
                 fileType = FileType.Json;
-            //Type type = fileName == "zho/OCCB/GEN" ? typeof(XmlUsx3) : typeof(XmlZefania05);
-            var bibleFile = GetFromFile<XmlZefania05>($"{fileName}{suffix}", fileType);
-            var bible = bibleFile.ToBibleFormat(info[0], info[1]);
-            return bible;
-        }
-
-        public static BibleModel LoadUsxBible(string fileName)
-        {
-            var info = fileName.Split('/');
-            //var fileType = fileName == "zho/OCCB/GEN" ? FileType.Usx : FileType.Xml;
-            var bibleFile = GetFromFile<XmlUsx>(fileName, FileType.Usx);
-            var bible = bibleFile.ToBibleFormat(info[0], info[1]);
+            BibleModel bible;
+            if (fileType != FileType.Usx)
+            {
+                //Type type = fileName == "zho/OCCB/GEN" ? typeof(XmlUsx3) : typeof(XmlZefania05);
+                var bibleFile = GetFromFile<XmlZefania05>($"{fileName}{suffix}", fileType);
+                bible = bibleFile.ToBibleFormat(info[0], info[1]);
+            }
+            else
+            {
+                //var fileType = fileName == "zho/OCCB/GEN" ? FileType.Usx : FileType.Xml;
+                var bibleFile = GetFromFile<XmlUsx>(fileName, FileType.Usx);
+                bible = bibleFile.ToBibleFormat(info[0], info[1]);
+            }
             return bible;
         }
 

@@ -1,0 +1,1 @@
+powershell -NoExit .\pack.ps1
