@@ -10,7 +10,6 @@ namespace Bible.Reader.Adapters
 {
     public static class UsxAdapter
     {
-        private static readonly char[] _trimChars = new char[] { '\r', '\n' };
         public static BibleModel ToBibleFormat(this XmlUsx xmlBible, string language = null, string translation = null)
         {
             var bibleReference = new BibleReference
@@ -32,7 +31,7 @@ namespace Bible.Reader.Adapters
                     var bookReference = new BibleReference(bibleReference) { BookName = bibleBookName };
                     var bibleBook = new BibleBook
                     {
-                        BookNumber = (int)bibleBookId,
+                        Id = (int)bibleBookId,
                         Reference = bookReference,
                         Aliases = Array.Empty<string>(),
                         Chapters = xmlBible.Items.OfType<XmlUsxChapter>().Select(chapter =>
@@ -51,14 +50,13 @@ namespace Bible.Reader.Adapters
                                     {
                                         if (verse != null)
                                         {
-                                            var verseText = string.Join("", verse.Text).Trim(_trimChars);
                                             var bibleVerse = new BibleVerse
                                             {
                                                 Reference = chapterReference,
-                                                Text = verseText
+                                                Text = verse.VerseText
                                             };
                                             if (int.TryParse(verse.Number, out int verseNumber))
-                                                bibleVerse.Number = verseNumber;
+                                                bibleVerse.Id = verseNumber;
                                             verses.Add(bibleVerse);
                                         }
                                     }
@@ -66,7 +64,7 @@ namespace Bible.Reader.Adapters
                             }
                             var bibleChapter = new BibleChapter
                             {
-                                ChapterNumber = chapter.Number,
+                                Id = chapter.Number,
                                 Reference = chapterReference,
                                 Verses = verses
                             };

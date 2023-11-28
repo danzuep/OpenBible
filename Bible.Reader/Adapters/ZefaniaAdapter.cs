@@ -29,7 +29,7 @@ namespace Bible.Reader.Adapters
                     var bookReference = new BibleReference(bibleReference) { BookName = book.Name };
                     var bibleBook = new BibleBook
                     {
-                        BookNumber = book.Number,
+                        Id = book.Number,
                         Reference = bookReference,
                         Aliases = Array.Empty<string>(),
                         Chapters = book.Chapters.Select(chapter =>
@@ -38,12 +38,12 @@ namespace Bible.Reader.Adapters
                             var chapterReference = new BibleReference(bookReference) { Reference = chapterNumber };
                             var bibleChapter = new BibleChapter
                             {
-                                ChapterNumber = chapter.Number,
+                                Id = chapter.Number,
                                 Reference = chapterReference,
                                 Verses = chapter.Verses
                                     .Select(verse => new BibleVerse
                                     {
-                                        Number = verse.Number,
+                                        Id = verse.Number,
                                         Reference = chapterReference,
                                         Text = verse.Text?.Trim(new char[] { '\r', '\n' })
                                     }).ToArray()

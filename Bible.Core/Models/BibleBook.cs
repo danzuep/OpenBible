@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Bible.Core.Models
 {
-    public class BibleBook : IComparable<BibleBook>, IEquatable<BibleBook>
+    public sealed class BibleBook : IComparable<BibleBook>, IEquatable<BibleBook>
     {
         private static int _createdOrder;
         private readonly int _order;
@@ -28,9 +28,9 @@ namespace Bible.Core.Models
         /// <summary>
         /// Abreviated or alternative names of the book.
         /// </summary>
-        public IReadOnlyList<string>? Aliases { get; set; }
+        public IReadOnlyList<string> Aliases { get; set; }
 
-        public int BookNumber { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Chapters and verses.
@@ -74,7 +74,7 @@ namespace Bible.Core.Models
         public static bool operator != (BibleBook book1, BibleBook book2) =>
             !EqualityTest(book1, book2);
 
-        public bool Equals(BibleBook? other) =>
+        public bool Equals(BibleBook other) =>
             other is BibleBook b && b.Reference.Equals(Reference);
 
         public override bool Equals(object other) =>

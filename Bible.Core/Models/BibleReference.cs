@@ -1,6 +1,8 @@
-﻿namespace Bible.Core.Models
+﻿using System;
+
+namespace Bible.Core.Models
 {
-    public class BibleReference
+    public sealed class BibleReference : IEquatable<BibleReference>, IComparable<BibleReference>
     {
         public BibleReference() { }
 
@@ -26,7 +28,16 @@
         /// </summary>
         public string Reference { get; set; }
 
-        public override bool Equals(object other) => other is BibleReference p &&
+        public int CompareTo(BibleReference other)
+        {
+            if (other == null) return 1;
+            return (other.Translation, other.BookName, other.Reference).CompareTo((Translation, BookName, Reference));
+        }
+
+        public override bool Equals(object other) =>
+            other is BibleReference p && p.Equals(this);
+
+        public bool Equals(BibleReference other) => other is BibleReference p &&
             (p.Translation, p.BookName, p.Reference).Equals((Translation, BookName, Reference));
 
         public override int GetHashCode() =>

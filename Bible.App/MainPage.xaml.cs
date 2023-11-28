@@ -1,7 +1,4 @@
-﻿using Bible.Core.Models;
-using Bible.Reader;
-using Bible.Reader.Models;
-using BibleApp.ViewModels;
+﻿using BibleApp.ViewModels;
 
 namespace BibleApp
 {
@@ -15,52 +12,39 @@ namespace BibleApp
             BindingContext = _viewModel;
         }
 
-        private static readonly string _testUsxBook = "zho/OCCB/GEN";
-        protected override void OnAppearing()
-        {
-            //BibleReader.TransformUsx2Xml($"{_testUsxBook}.usx");
-            base.OnAppearing();
-        }
-
         private void OnTranslationSelectionChanged(object sender, EventArgs e)
         {
             if (sender is Picker picker && picker.SelectedItem is string selectedTranslation)
             {
-                if (selectedTranslation != _testUsxBook)
-                {
-                    _viewModel.BibleBooks = BibleReader.LoadZefBible(selectedTranslation).Books;
-                }
-                else
-                {
-                    _viewModel.BibleBooks = BibleReader.LoadUsxBible(selectedTranslation).Books;
-                }
-                _viewModel.SelectedBook = _viewModel.BibleBooks.FirstOrDefault();
-                _viewModel.SelectedChapter = _viewModel.SelectedBook?.Chapters.FirstOrDefault();
+                if (selectedTranslation != _viewModel.SelectedTranslation)
+                    System.Diagnostics.Debugger.Break();
+                _viewModel.LoadSelectedBible(selectedTranslation);
+                //bibleBookPicker.ItemsSource = _viewModel._bible.Books;
+                bibleBookPicker.SelectedIndex = 0;
             }
         }
 
         private void OnBookSelectionChanged(object sender, EventArgs e)
         {
-            if (sender is Picker picker && picker.SelectedItem is BibleBook selectedBook)
-            {
-                _viewModel.SelectedChapter = selectedBook.Chapters.FirstOrDefault();
-            }
+            //bibleChapterPicker.ItemsSource = _viewModel._bibleBook.ChapterNumbers;
+            bibleChapterPicker.SelectedIndex = 0;
+        }
+
+        private void OnChapterSelectionChanged(object sender, EventArgs e)
+        {
+            //_viewModel.BibleVerses = _viewModel._bibleChapter.Verses;
         }
 
         private void OnSwipeLeft(object sender, SwipedEventArgs e)
         {
-            if (_viewModel.SelectedChapter?.ChapterNumber is int chapter && _viewModel.SelectedBook is BibleBook book && book.ChapterCount > chapter)
-            {
-                _viewModel.SelectedChapter = _viewModel.SelectedBook.Chapters[chapter];
-            }
+            if (_viewModel._bibleBook.Chapters.Count > bibleChapterPicker.SelectedIndex + 1)
+                bibleChapterPicker.SelectedIndex++;
         }
 
         private void OnSwipeRight(object sender, SwipedEventArgs e)
         {
-            if (_viewModel.SelectedChapter?.ChapterNumber is int chapter && chapter > 1 && _viewModel.SelectedBook is not null)
-            {
-                _viewModel.SelectedChapter = _viewModel.SelectedBook.Chapters[chapter - 2];
-            }
+            if (bibleChapterPicker.SelectedIndex > 0)
+                bibleChapterPicker.SelectedIndex--;
         }
     }
 }

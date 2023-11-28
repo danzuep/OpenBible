@@ -12,17 +12,23 @@
         <StackLayout>
             <HorizontalStackLayout Spacing="25">
                 <Picker
-                    ItemDisplayBinding="{Binding Reference.BookName}"
-                    ItemsSource="{Binding BibleBooks}"
+                    x:Name="bibleBookPicker"
+                    ItemDisplayBinding="{Binding Name}"
+                    ItemsSource="{Binding BibleModel.Books}"
+                    SelectedIndex="{Binding BookIndex}"
                     SelectedIndexChanged="OnBookSelectionChanged"
                     SelectedItem="{Binding SelectedBook}"
                     WidthRequest="160" />
                 <Picker
-                    ItemDisplayBinding="{Binding ChapterNumber}"
+                    x:Name="bibleChapterPicker"
+                    ItemDisplayBinding="{Binding Id}"
                     ItemsSource="{Binding SelectedBook.Chapters}"
+                    SelectedIndex="{Binding ChapterIndex}"
+                    SelectedIndexChanged="OnChapterSelectionChanged"
                     SelectedItem="{Binding SelectedChapter}"
                     WidthRequest="70" />
                 <Picker
+                    x:Name="bibleTranslationPicker"
                     ItemsSource="{Binding Translations}"
                     SelectedIndexChanged="OnTranslationSelectionChanged"
                     SelectedItem="{Binding SelectedTranslation}"
@@ -34,34 +40,29 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="10,10,10,10"
-            BindableLayout.ItemsSource="{Binding SelectedChapter.Verses}"
+            BindableLayout.ItemsSource="{Binding SelectedChapter.Verses, Mode=OneWay}"
             Spacing="10">
             <BindableLayout.ItemTemplate>
                 <DataTemplate>
                     <Grid ColumnDefinitions="15,*">
-                        <Grid.GestureRecognizers>
-                            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />
-                            <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeRight" />
-                        </Grid.GestureRecognizers>
                         <Label
                             FontSize="8"
                             HorizontalTextAlignment="End"
-                            Text="{Binding Number}" />
+                            Text="{Binding Id, Mode=OneWay}" />
                         <!--  TODO - Hanzi jyutping ruby characters, like furigana  -->
                         <Label
                             x:Name="VerseTextLabel"
                             Grid.Column="1"
                             Padding="5,0"
                             FontSize="16"
-                            Text="{Binding Text}">
-                            <Label.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding OnLabelTappedCommand}" CommandParameter="{Binding Source={x:Reference VerseTextLabel}}" />
-                            </Label.GestureRecognizers>
-                        </Label>
+                            Text="{Binding Text, Mode=OneWay}" />
                     </Grid>
                 </DataTemplate>
             </BindableLayout.ItemTemplate>
-
+            <VerticalStackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />
+                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeRight" />
+            </VerticalStackLayout.GestureRecognizers>
         </VerticalStackLayout>
     </ScrollView>
 

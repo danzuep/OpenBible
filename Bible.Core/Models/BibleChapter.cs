@@ -2,11 +2,11 @@
 
 namespace Bible.Core.Models
 {
-    public class BibleChapter
+    public sealed class BibleChapter
     {
         public BibleReference Reference { get; set; } = default!;
 
-        public int ChapterNumber { get; set; }
+        public int Id { get; set; }
 
         public IReadOnlyList<BibleVerse> Verses { get; set; } = default!;
 

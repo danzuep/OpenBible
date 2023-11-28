@@ -17,8 +17,10 @@ namespace Bible.Data
                 BookName = jsonBook.Name
             };
             var chapters = GetBibleChapters(jsonBook.Content, reference);
-            var book = new BibleBook(reference, chapters)
+            var book = new BibleBook
             {
+                Reference = reference,
+                Chapters = chapters,
                 Aliases = [jsonBook.Abbreviation]
             };
             return book;
@@ -43,14 +45,14 @@ namespace Bible.Data
                 var reference = new BibleReference(bibleReference) { Reference = chapterReference };
                 var chapter = new BibleChapter
                 {
-                    ChapterNumber = chapterNumber,
+                    Id = chapterNumber,
                     Reference = reference,
                     Verses = chapterContent.Select((verseText, verseIndex) =>
                     {
                         var verseNumber = verseIndex + _indexOffset;
                         var verse = new BibleVerse
                         {
-                            Number = verseNumber,
+                            Id = verseNumber,
                             Reference = reference,
                             Text = verseText
                         };

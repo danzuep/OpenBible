@@ -17,8 +17,6 @@ namespace Bible.Reader
 {
     public class BibleReader
     {
-        //https://raw.githubusercontent.com/kohelet-net-admin/zefania-xml-bibles/master/Bibles/
-
         public static BibleModel LoadZefBible(string fileName, string suffix = ".xml")
         {
             var info = fileName.Split('/');
@@ -64,7 +62,6 @@ namespace Bible.Reader
             return result;
         }
 
-        private static readonly string _baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
         private static string ExpandPath(string fileName, FileType fileType)
         {
             string prefix, suffix;
@@ -72,7 +69,8 @@ namespace Bible.Reader
             (prefix, suffix) = (typeName, $".{typeName}");
             if (!Path.HasExtension(fileName) || !fileName.EndsWith(suffix))
                 fileName += suffix;
-            if (fileName.StartsWith(_baseDirectory[..15]))
+            string baseDirectory = _baseDirectory; //AppDomain.CurrentDomain.BaseDirectory;
+            if (fileName.StartsWith(baseDirectory[..15]))
             {
                 var directory = Path.GetDirectoryName(fileName);
                 if (directory.EndsWith(prefix))
@@ -82,7 +80,7 @@ namespace Bible.Reader
                 var name = Path.GetFileName(fileName);
                 return Path.Combine(directory, prefix, name);
             }
-            return Path.Combine(_baseDirectory, "..", prefix, fileName);
+            return Path.Combine(baseDirectory, "..", prefix, fileName);
         }
 
         /// <inheritdoc cref="GetFromFile{T}"/>
@@ -96,6 +94,7 @@ namespace Bible.Reader
         }
 
         private const string _relativeDirectory = "..\\..\\..\\..\\Bible.Data\\";
+        private static readonly string _baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
         private static string ExpandXsltPath(string fileName) =>
             Path.Combine(_baseDirectory, _relativeDirectory, Path.GetExtension(fileName).TrimStart('.'), fileName);
         private static readonly string[] _xsltFiles = new string[] { "usx2xml01verses.xslt", "usx2xml02chapters.xslt" };

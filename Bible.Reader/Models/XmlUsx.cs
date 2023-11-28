@@ -68,9 +68,6 @@ namespace Bible.Reader.Models
         [XmlElement("optbreak", typeof(XmlUsxOptionalBreak))]
         public XmlUsxStyleBase[] Items { get; set; }
 
-        [XmlText]
-        public string[] Text { get; set; }
-
         [XmlAttribute("vid")]
         public string VerseId { get; set; }
     }
@@ -175,6 +172,9 @@ namespace Bible.Reader.Models
 
         [XmlText]
         public string[] Text { get; set; } = Array.Empty<string>();
+
+        private static readonly char[] _trimChars = new char[] { '\r', '\n' };
+        public string VerseText => string.Join("", Text).Trim(_trimChars);
     }
 
     /// <summary>

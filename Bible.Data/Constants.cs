@@ -22,8 +22,10 @@
     // List of data sources: https://hackathon.bible/data/
     // XML file: "https://bible4u.net/static/bible_files/xml/WEB_xml.zip"
     // https://www.ph4.org/_dl.php?back=bbl&a=Bible_Chinese_CUV_Strong&b=zefania&c 中文和合本 繁體中文版連史特朗經文滙篇 (public domain)
+    // https://github.com/Glowstudent777/YouVersion-API/blob/main/src/api/v1/db/books.json (also versions)
     public static readonly string BibleAppEndpoint = "youversion://bible?reference=";
     internal static readonly string BibleYouVersionApiKey = "YOUR_KEY_GOES_HERE";
+    // https://app.thedigitalbiblelibrary.org/entry?id=
     internal const string BibleYouVersionWebId = "9879dbb7cfe39e4d-01";
     internal const string BibleYouVersionWebbeId = "7142879509583d59-01";
     internal const string BibleYouVersionNivId = "78a9f6124f344018-01";
