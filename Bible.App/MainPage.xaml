@@ -14,18 +14,15 @@
                 <Picker
                     x:Name="bibleBookPicker"
                     ItemDisplayBinding="{Binding Name}"
-                    ItemsSource="{Binding BibleModel.Books}"
+                    ItemsSource="{Binding Bible.Books}"
                     SelectedIndex="{Binding BookIndex}"
                     SelectedIndexChanged="OnBookSelectionChanged"
                     SelectedItem="{Binding SelectedBook}"
                     WidthRequest="160" />
                 <Picker
                     x:Name="bibleChapterPicker"
-                    ItemDisplayBinding="{Binding Id}"
-                    ItemsSource="{Binding SelectedBook.Chapters}"
                     SelectedIndex="{Binding ChapterIndex}"
                     SelectedIndexChanged="OnChapterSelectionChanged"
-                    SelectedItem="{Binding SelectedChapter}"
                     WidthRequest="70" />
                 <Picker
                     x:Name="bibleTranslationPicker"

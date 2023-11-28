@@ -1,4 +1,5 @@
-﻿using Bible.Reader;
+﻿using Bible.Core.Models;
+using Bible.Reader;
 using BibleApp.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
@@ -8,16 +9,13 @@ namespace BibleApp.ViewModels
     public sealed partial class MainPageViewModel : ObservableObject
     {
         [ObservableProperty]
-        private BibleUiModel? bibleModel;
+        private BibleUiModel? bible;
 
         [ObservableProperty]
         private BookUiModel? selectedBook;
 
         [ObservableProperty]
         private ChapterUiModel? selectedChapter;
-
-        //[ObservableProperty]
-        //private ObservableCollection<VerseUiModel>? bibleVerses;
 
         private const string _testUsxBook = "zho/OCCB/GEN";
 
@@ -40,40 +38,55 @@ namespace BibleApp.ViewModels
         [ObservableProperty]
         private int chapterIndex;
 
-        private int _bookIndex => BookIndex < 0 ? 0 : BookIndex;
-        private int _chapterIndex => ChapterIndex < 0 ? 0 : ChapterIndex;
+        private byte _bookIndex => BookIndex < byte.MinValue ? byte.MinValue : (byte)BookIndex;
+        private byte _chapterIndex => ChapterIndex < byte.MinValue ? byte.MinValue : (byte)ChapterIndex;
 
-        internal BibleUiModel _bible => BibleModel ?? new();
-        internal BookUiModel _bibleBook => _bible.Books[_bookIndex];
-        internal ChapterUiModel _bibleChapter => _bibleBook.Chapters[_chapterIndex];
+        private BibleModel? _bible;
 
         public MainPageViewModel()
         {
             SelectedTranslation = Translations[0];
         }
 
-        internal void LoadSelectedBible(string translation)
+        private BibleModel LoadTranslation(string translation)
         {
+            Bible = new() { Translation = translation };
             //BibleReader.TransformUsx2Xml($"{_testUsxBook}.usx");
             var bible = translation != _testUsxBook ?
                 BibleReader.LoadZefBible(translation) :
                 BibleReader.LoadUsxBible(translation);
-            BibleModel = new() { Translation = translation };
-            foreach (var book in bible.Books)
+            return bible;
+        }
+
+        internal void LoadBibleBooks()
+        {
+            _bible = LoadTranslation(SelectedTranslation);
+            foreach (var book in _bible.Books)
             {
-                var bibleBook = new BookUiModel { Id = book.Id, Name = book.Reference.BookName };
-                foreach (var chapter in book.Chapters)
+                var bibleBook = new BookUiModel
                 {
-                    var bibleChapter = new ChapterUiModel { Id = chapter.Id };
-                    foreach (var verse in chapter.Verses)
-                    {
-                        var bibleVerse = new VerseUiModel { Id = verse.Id, Text = verse.Text };
-                        bibleChapter.Verses.Add(bibleVerse);
-                    }
-                    bibleBook.Chapters.Add(bibleChapter);
-                }
-                BibleModel.Books.Add(bibleBook);
+                    Id = book.Id,
+                    Name = book.Reference.BookName,
+                    ChapterCount = book.ChapterCount
+                };
+                Bible?.Books.Add(bibleBook);
             }
         }
+
+        private ChapterUiModel LoadChapter(byte bookIndex, byte chapterIndex)
+        {
+            var bibleChapter = new ChapterUiModel { Id = chapterIndex + 1 };
+            if (_bible != null)
+            {
+                foreach (var verse in _bible.Books[bookIndex].Chapters[chapterIndex].Verses)
+                {
+                    var bibleVerse = new VerseUiModel { Id = verse.Id, Text = verse.Text };
+                    bibleChapter.Verses.Add(bibleVerse);
+                }
+            }
+            return bibleChapter;
+        }
+
+        internal ChapterUiModel LoadChapter() => LoadChapter(_bookIndex, _chapterIndex);
     }
 }

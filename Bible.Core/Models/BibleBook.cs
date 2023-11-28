@@ -28,7 +28,7 @@ namespace Bible.Core.Models
         /// <summary>
         /// Abreviated or alternative names of the book.
         /// </summary>
-        public IReadOnlyList<string> Aliases { get; set; }
+        public IList<string> Aliases { get; set; }
 
         public int Id { get; set; }
 

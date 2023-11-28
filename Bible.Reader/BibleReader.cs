@@ -2,14 +2,11 @@
 using Bible.Reader.Adapters;
 using Bible.Reader.Models;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
-using System.Xml.Linq;
 using System.Xml.Serialization;
 using System.Xml.Xsl;
 

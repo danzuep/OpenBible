@@ -15,29 +15,29 @@ namespace BibleApp
         private void OnTranslationSelectionChanged(object sender, EventArgs e)
         {
             if (sender is Picker picker && picker.SelectedItem is string selectedTranslation)
-            {
-                if (selectedTranslation != _viewModel.SelectedTranslation)
-                    System.Diagnostics.Debugger.Break();
-                _viewModel.LoadSelectedBible(selectedTranslation);
-                //bibleBookPicker.ItemsSource = _viewModel._bible.Books;
-                bibleBookPicker.SelectedIndex = 0;
-            }
+                System.Diagnostics.Debug.Assert(selectedTranslation == _viewModel.SelectedTranslation);
+            _viewModel.LoadBibleBooks();
+            bibleBookPicker.SelectedIndex = 0;
         }
 
         private void OnBookSelectionChanged(object sender, EventArgs e)
         {
-            //bibleChapterPicker.ItemsSource = _viewModel._bibleBook.ChapterNumbers;
+            bibleChapterPicker.ItemsSource = _viewModel.SelectedBook?.ChapterNumbers;
             bibleChapterPicker.SelectedIndex = 0;
         }
 
         private void OnChapterSelectionChanged(object sender, EventArgs e)
         {
-            //_viewModel.BibleVerses = _viewModel._bibleChapter.Verses;
+            if (bibleChapterPicker.SelectedIndex >= 0)
+            {
+                _viewModel.SelectedChapter?.Verses.Clear();
+                _viewModel.SelectedChapter = _viewModel.LoadChapter();
+            }
         }
 
         private void OnSwipeLeft(object sender, SwipedEventArgs e)
         {
-            if (_viewModel._bibleBook.Chapters.Count > bibleChapterPicker.SelectedIndex + 1)
+            if (_viewModel.SelectedBook?.ChapterCount > bibleChapterPicker.SelectedIndex + 1)
                 bibleChapterPicker.SelectedIndex++;
         }
 

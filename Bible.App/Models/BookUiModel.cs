@@ -11,13 +11,15 @@ namespace BibleApp.Models
         [ObservableProperty]
         private string name = default!;
 
-        [ObservableProperty]
-        private ObservableCollection<ChapterUiModel> chapters = new();
+        //[ObservableProperty]
+        //private ObservableCollection<ChapterUiModel> chapters = new();
+
+        public int ChapterCount { get; init; }
 
         public ObservableCollection<int> ChapterNumbers =>
-            new(Enumerable.Range(1, Chapters.Count));
+            new(Enumerable.Range(1, ChapterCount));
 
         public override string ToString() =>
-            $"Book #{Id}, {Name} ({Chapters.Count} chapters)";
+            $"Book #{Id}, {Name} ({ChapterCount} chapters)";
     }
 }
