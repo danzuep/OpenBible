@@ -1,6 +1,7 @@
 global using Xunit;
 global using Bible.Reader.Models;
 using System.Xml.Linq;
+using Bible.Reader.Services;
 
 namespace Bible.Reader.Tests
 {

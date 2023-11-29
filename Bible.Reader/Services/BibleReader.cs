@@ -11,11 +11,11 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Xsl;
 
-namespace Bible.Reader
+namespace Bible.Reader.Services
 {
-    public sealed class BibleReader : IBibleService
+    public sealed class BibleReader : IDataService<BibleModel>
     {
-        public BibleModel LoadBible(string fileName, string suffix = ".xml")
+        public BibleModel Load(string fileName, string suffix = ".xml")
         {
             var info = fileName.Split('/');
             FileType? fileType = null;

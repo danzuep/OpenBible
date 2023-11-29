@@ -11,6 +11,7 @@ namespace BibleApp
         {
             InitializeComponent();
             BindingContext = Ioc.Default.GetRequiredService<MainPageViewModel>();
+            //bibleChapterPicker.Focus();
         }
 
         private void OnTranslationSelectionChanged(object sender, EventArgs e)
@@ -32,10 +33,14 @@ namespace BibleApp
 
         private void OnChapterSelectionChanged(object sender, EventArgs e)
         {
-            if (bibleChapterPicker.SelectedIndex >= 0)
+            if (bibleChapterPicker.SelectedIndex >= 0 && _viewModel.Chapter != null)
             {
-                _viewModel.SelectedChapter?.Verses.Clear();
-                _viewModel.SelectedChapter = _viewModel.GetChapter();
+                //if (_viewModel.SelectedChapter == null)
+                //    _viewModel.SelectedChapter = new();
+                //_viewModel.SelectedChapter.Verses.Clear();
+                //foreach (var verse in _viewModel.Chapter.Verses)
+                //    _viewModel.SelectedChapter.Verses.Add(verse);
+                _viewModel.SelectedChapter = _viewModel.Chapter;
             }
         }
 

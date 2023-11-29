@@ -1,5 +1,8 @@
-dotnet clean ../BibleApp.sln --configuration Release
-dotnet build ../BibleApp.sln --configuration Release
+$projectName = "Bible.App"; #(Get-Item $projectFile).BaseName
+$target="../${projectName}/${projectName}.csproj";
+
+#dotnet clean $target
+#dotnet build $target
 
 # build to release folder
-dotnet publish BibleApp/Bible.App/Bible.App.csproj -c Release -o release --nologo
+dotnet publish $target -c Release -o release --nologo

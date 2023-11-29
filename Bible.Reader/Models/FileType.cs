@@ -1,4 +1,4 @@
-namespace Bible.Reader
+namespace Bible.Reader.Models
 {
     public enum FileType
     {

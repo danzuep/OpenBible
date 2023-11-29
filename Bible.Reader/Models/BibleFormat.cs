@@ -1,4 +1,4 @@
-namespace Bible.Reader
+namespace Bible.Reader.Models
 {
     /// <summary>
     /// Formats gleaned from [SimpleBibleReader](https://trumpet-call.org/simplebiblereader/) (Public Domain).

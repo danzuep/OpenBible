@@ -1,5 +1,6 @@
 ﻿using Bible.Core.Models;
 using Bible.Interfaces;
+using Bible.Reader.Services;
 using BibleApp.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -20,8 +21,7 @@ namespace BibleApp.ViewModels
 
         private const string _testUsxBook = "zho/OCCB/GEN";
 
-        [ObservableProperty]
-        private ObservableCollection<string> translations = [
+        public ObservableCollection<string> Translations { get; } = [
             "eng/WEB",
             "eng/WEBBE",
             "eng/WEBME",
@@ -42,10 +42,9 @@ namespace BibleApp.ViewModels
         private byte _bookIndex => BookIndex < byte.MinValue ? byte.MinValue : (byte)BookIndex;
         private byte _chapterIndex => ChapterIndex < byte.MinValue ? byte.MinValue : (byte)ChapterIndex;
 
-        private BibleModel? _bible;
-        private readonly IBibleService _readerService;
+        private readonly IDataService<BibleUiModel> _readerService;
 
-        public MainPageViewModel(IBibleService readerService)
+        public MainPageViewModel(IDataService<BibleUiModel> readerService)
         {
             _readerService = readerService;
             SelectedTranslation = Translations[0];
@@ -55,37 +54,12 @@ namespace BibleApp.ViewModels
         {
             //ArgumentNullException.ThrowIfNull(translation);
             translation ??= SelectedTranslation;
-            Bible = new() { Translation = translation };
-            _bible = _readerService.LoadBible(translation);
-            if (_bible != null)
-            {
-                foreach (var book in _bible.Books)
-                {
-                    var bibleBook = new BookUiModel
-                    {
-                        Id = book.Id,
-                        Name = book.Reference.BookName,
-                        ChapterCount = book.ChapterCount
-                    };
-                    Bible?.Books.Add(bibleBook);
-                }
-            }
+            Bible = _readerService.Load(translation);
         }
 
-        private ChapterUiModel GetChapter(byte bookIndex, byte chapterIndex)
-        {
-            var bibleChapter = new ChapterUiModel { Id = chapterIndex + 1 };
-            if (_bible != null)
-            {
-                foreach (var verse in _bible.Books[bookIndex].Chapters[chapterIndex].Verses)
-                {
-                    var bibleVerse = new VerseUiModel { Id = verse.Id, Text = verse.Text };
-                    bibleChapter.Verses.Add(bibleVerse);
-                }
-            }
-            return bibleChapter;
-        }
-
-        internal ChapterUiModel GetChapter() => GetChapter(_bookIndex, _chapterIndex);
+        internal ChapterUiModel? Chapter =>
+            _readerService is BibleUiData reader ?
+            reader.GetChapter(_bookIndex, _chapterIndex) :
+            Bible?.Books[_bookIndex].Chapters[_chapterIndex];
     }
 }

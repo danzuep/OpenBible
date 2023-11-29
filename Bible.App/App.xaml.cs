@@ -1,5 +1,6 @@
 ﻿using Bible.Interfaces;
-using Bible.Reader;
+using Bible.Reader.Services;
+using BibleApp.Models;
 using BibleApp.ViewModels;
 using CommunityToolkit.Mvvm.DependencyInjection;
 
@@ -20,7 +21,13 @@ namespace BibleApp
                 Ioc.Default.ConfigureServices(
                     new ServiceCollection()
                     //Services
-                    .AddSingleton<IBibleService, BibleReader>()
+#if DEBUG
+                    //.AddSingleton<IDataService<BibleUiModel>, TestUiData>()
+                    .AddSingleton<IDataService<BibleUiModel>, BibleUiData>()
+#else
+                    //.AddSingleton<IBibleService, BibleReader>()
+                    .AddSingleton<IDataService<BibleUiModel>, BibleUiData>()
+#endif
                     //ViewModels
                     .AddTransient<MainPageViewModel>()
                     .BuildServiceProvider());

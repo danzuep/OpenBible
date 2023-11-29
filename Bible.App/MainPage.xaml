@@ -13,22 +13,22 @@
             <HorizontalStackLayout Spacing="25">
                 <Picker
                     x:Name="bibleBookPicker"
-                    ItemDisplayBinding="{Binding Name}"
-                    ItemsSource="{Binding Bible.Books}"
-                    SelectedIndex="{Binding BookIndex}"
+                    ItemDisplayBinding="{Binding Name, Mode=OneWay}"
+                    ItemsSource="{Binding Bible.Books, Mode=OneWay}"
+                    SelectedIndex="{Binding BookIndex, Mode=TwoWay}"
                     SelectedIndexChanged="OnBookSelectionChanged"
-                    SelectedItem="{Binding SelectedBook}"
+                    SelectedItem="{Binding SelectedBook, Mode=TwoWay}"
                     WidthRequest="160" />
                 <Picker
                     x:Name="bibleChapterPicker"
-                    SelectedIndex="{Binding ChapterIndex}"
+                    SelectedIndex="{Binding ChapterIndex, Mode=TwoWay}"
                     SelectedIndexChanged="OnChapterSelectionChanged"
                     WidthRequest="70" />
                 <Picker
                     x:Name="bibleTranslationPicker"
-                    ItemsSource="{Binding Translations, Mode=TwoWay}"
+                    ItemsSource="{Binding Translations, Mode=OneTime}"
                     SelectedIndexChanged="OnTranslationSelectionChanged"
-                    SelectedItem="{Binding SelectedTranslation}"
+                    SelectedItem="{Binding SelectedTranslation, Mode=TwoWay}"
                     WidthRequest="120" />
             </HorizontalStackLayout>
         </StackLayout>

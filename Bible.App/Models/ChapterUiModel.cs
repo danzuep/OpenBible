@@ -5,11 +5,15 @@ namespace BibleApp.Models
 {
     public sealed partial class ChapterUiModel : ObservableObject
     {
-        [ObservableProperty]
-        private int id;
+        //[ObservableProperty]
+        //private int id;
 
-        [ObservableProperty]
-        private ObservableCollection<VerseUiModel> verses = new();
+        //[ObservableProperty]
+        //private IList<VerseUiModel> verses = new List<VerseUiModel>();
+
+        public int Id { get; set; }
+
+        public ObservableCollection<VerseUiModel> Verses { get; set; } = new();
 
         public override string ToString() =>
             $"Chapter {Id} ({Verses.Count} verses)";
