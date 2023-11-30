@@ -14,8 +14,8 @@ namespace BibleApp.ViewModels
         [ObservableProperty]
         private int chapterIndex;
 
-        //[ObservableProperty]
-        //private int selectedChapter;
+        [ObservableProperty]
+        private VerseUiModel? selectedVerse;
 
         public ObservableCollection<VerseUiModel> Verses { get; }
 

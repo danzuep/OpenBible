@@ -25,36 +25,15 @@
                         <mct:EventToCommandBehavior Command="{Binding ChapterSelectedCommand}" EventName="SelectedIndexChanged" />
                     </Picker.Behaviors>
                 </Picker>
-                <!--  x:TypeArguments="system:EventArgs"  -->
-                <!--<Label Text="{Binding Source={x:Reference chapterPicker}, Path=SelectedItem, StringFormat='Chapter {0}'}" VerticalOptions="Center" />-->
-                <!--<ListView ItemsSource="{Binding ChapterNumbers, Mode=OneWay}" SelectedItem="{Binding SelectedChapter, Mode=TwoWay}">
-                    <ListView.ItemTemplate>
-                        <DataTemplate x:DataType="x:String">
-                            <ViewCell>
-                                <Label Margin="10" Text="{Binding Path=., StringFormat='Chapter {0}'}" />
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                    <ListView.Behaviors>
-                        <mct:EventToCommandBehavior
-                            Command="{Binding ChapterSelectedCommand}"
-                            CommandParameter="{Binding SelectedChapter}"
-                            EventName="ItemSelected" />
-                    </ListView.Behaviors>
-                </ListView>-->
             </HorizontalStackLayout>
-
         </StackLayout>
     </Shell.TitleView>
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="10,10,10,10"
-            BindableLayout.ItemsSource="{Binding Verses, Mode=OneTime}"
-            Spacing="10">
-            <BindableLayout.ItemTemplate>
-                <DataTemplate>
-                    <Grid ColumnDefinitions="15,*">
+    <ListView ItemsSource="{Binding Verses, Mode=OneTime}" SelectedItem="{Binding SelectedVerse, Mode=OneWayToSource}">
+        <ListView.ItemTemplate>
+            <DataTemplate x:DataType="m:VerseUiModel">
+                <ViewCell>
+                    <Grid Margin="5" ColumnDefinitions="15,*">
                         <Label
                             FontSize="8"
                             HorizontalTextAlignment="End"
@@ -66,9 +45,9 @@
                             FontSize="16"
                             Text="{Binding Text, Mode=OneTime, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
                     </Grid>
-                </DataTemplate>
-            </BindableLayout.ItemTemplate>
-        </VerticalStackLayout>
-    </ScrollView>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 
 </pages:BasePage>
