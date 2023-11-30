@@ -1,6 +1,4 @@
-﻿using Bible.Interfaces;
-using BibleApp.Models;
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 
@@ -14,23 +12,28 @@ namespace BibleApp.ViewModels
         [ObservableProperty]
         private int chapterIndex;
 
-        public IReadOnlyList<VerseUiModel> Verses { get; private set; }
+        public IReadOnlyList<string> Verses { get; private set; }
 
-        private readonly IDataService<VerseUiModel> _readerService;
-
-        public MainPageViewModel(IDataService<VerseUiModel> readerService)
+        public MainPageViewModel()
         {
-            _readerService = readerService;
             ChapterNumbers = new(Enumerable.Range(1, _chapterCount));
             ChapterIndex = 0;
-            Verses = _readerService.LoadVerses(1);
+            Verses = LoadVerses(1);
         }
 
         [RelayCommand]
         private void ChapterSelected(int? chapterNumber)
         {
-            Verses = _readerService.LoadVerses(ChapterIndex + 1);
+            Verses = LoadVerses(ChapterIndex + 1);
             OnPropertyChanged(nameof(Verses));
+        }
+
+        private IReadOnlyList<string> LoadVerses(int chapterNumber)
+        {
+            int verseCount = Random.Shared.Next(2, 176);
+            var verses = Enumerable.Range(1, verseCount)
+                .Select(v => $"Chapter #{chapterNumber}, Verse #{v}.");
+            return verses.ToArray();
         }
     }
 }
