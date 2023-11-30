@@ -1,5 +1,4 @@
-﻿using Bible.Core.Models;
-using Bible.Interfaces;
+﻿using Bible.Interfaces;
 using Bible.Reader.Services;
 using BibleApp.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -31,35 +30,46 @@ namespace BibleApp.ViewModels
             "tha/KJVTHAI"];
 
         [ObservableProperty]
-        private string selectedTranslation;
+        private int translationIndex = -1;
 
         [ObservableProperty]
-        private int bookIndex;
+        private int bookIndex = -1;
 
         [ObservableProperty]
-        private int chapterIndex;
+        private int chapterIndex = -1;
 
-        private byte _bookIndex => BookIndex < byte.MinValue ? byte.MinValue : (byte)BookIndex;
-        private byte _chapterIndex => ChapterIndex < byte.MinValue ? byte.MinValue : (byte)ChapterIndex;
+        private byte _bookIndexChecked => BookIndex < byte.MinValue ? byte.MinValue : (byte)BookIndex;
+        private byte _chapterIndexChecked => ChapterIndex < byte.MinValue ? byte.MinValue : (byte)ChapterIndex;
 
         private readonly IDataService<BibleUiModel> _readerService;
 
         public MainPageViewModel(IDataService<BibleUiModel> readerService)
         {
             _readerService = readerService;
-            SelectedTranslation = Translations[0];
         }
 
-        internal void GetTranslation(string? translation)
+        [RelayCommand]
+        private void TranslationSelected(object? value)
         {
-            //ArgumentNullException.ThrowIfNull(translation);
-            translation ??= SelectedTranslation;
-            Bible = _readerService.Load(translation);
+            Bible = _readerService.Load(Translations[TranslationIndex]);
+            BookIndex = 0;
+        }
+
+        [RelayCommand]
+        private void BookSelected(object? value)
+        {
+            ChapterIndex = 0;
+        }
+
+        [RelayCommand]
+        private void ChapterSelected(object? value)
+        {
+            SelectedChapter = Bible?.Books[_bookIndexChecked].Chapters[_chapterIndexChecked];
         }
 
         internal ChapterUiModel? Chapter =>
             _readerService is BibleUiData reader ?
-            reader.GetChapter(_bookIndex, _chapterIndex) :
-            Bible?.Books[_bookIndex].Chapters[_chapterIndex];
+            reader.GetChapter(_bookIndexChecked, _chapterIndexChecked) :
+            Bible?.Books[_bookIndexChecked].Chapters[_chapterIndexChecked];
     }
 }

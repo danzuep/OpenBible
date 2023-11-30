@@ -54,7 +54,7 @@ namespace Bible.Reader.Services
         public ChapterUiModel? GetChapter(byte bookIndex, byte chapterIndex) =>
             GetChapter(_bible, bookIndex, chapterIndex);
 
-        public static BibleUiModel GetBible(BibleModel? bible, string translation)
+        public static BibleUiModel GetBible(BibleModel? bible, string translation, bool addChapters = true)
         {
             var bibleModel = new BibleUiModel() { Translation = translation };
             if (bible != null)
@@ -67,6 +67,19 @@ namespace Bible.Reader.Services
                         Name = book.Reference.BookName,
                         ChapterCount = book.ChapterCount
                     };
+                    if (addChapters)
+                    {
+                        foreach (var chapter in book.Chapters)
+                        {
+                            var bibleChapter = new ChapterUiModel { Id = chapter.Id };
+                            foreach (var verse in chapter.Verses)
+                            {
+                                var bibleVerse = new VerseUiModel { Id = verse.Id, Text = verse.Text };
+                                bibleChapter.Verses.Add(bibleVerse);
+                            }
+                            bibleBook.Chapters.Add(bibleChapter);
+                        }
+                    }
                     bibleModel.Books.Add(bibleBook);
                 }
             }

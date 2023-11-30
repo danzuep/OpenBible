@@ -3,10 +3,17 @@
     x:Class="BibleApp.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:vm="clr-namespace:BibleApp.ViewModels">
-    <!--<ContentPage.BindingContext>
+    xmlns:m="clr-namespace:BibleApp.Models"
+    xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:pages="clr-namespace:BibleApp.Pages"
+    xmlns:vm="clr-namespace:BibleApp.ViewModels"
+    x:DataType="vm:MainPageViewModel">
+    <!--
+    x:TypeArguments="vm:MainPageViewModel"
+    <ContentPage.BindingContext>
         <vm:MainPageViewModel />
-    </ContentPage.BindingContext>-->
+    </ContentPage.BindingContext>
+    -->
 
     <Shell.TitleView>
         <StackLayout>
@@ -16,31 +23,48 @@
                     ItemDisplayBinding="{Binding Name, Mode=OneWay}"
                     ItemsSource="{Binding Bible.Books, Mode=OneWay}"
                     SelectedIndex="{Binding BookIndex, Mode=TwoWay}"
-                    SelectedIndexChanged="OnBookSelectionChanged"
                     SelectedItem="{Binding SelectedBook, Mode=TwoWay}"
-                    WidthRequest="160" />
+                    WidthRequest="160">
+                    <Picker.Behaviors>
+                        <mct:EventToCommandBehavior Command="{Binding BookSelectedCommand}" EventName="SelectedIndexChanged" />
+                    </Picker.Behaviors>
+                </Picker>
                 <Picker
                     x:Name="bibleChapterPicker"
+                    ItemsSource="{Binding SelectedBook.ChapterNumbers, Mode=OneWay}"
                     SelectedIndex="{Binding ChapterIndex, Mode=TwoWay}"
-                    SelectedIndexChanged="OnChapterSelectionChanged"
-                    WidthRequest="70" />
+                    WidthRequest="70">
+                    <Picker.Behaviors>
+                        <mct:EventToCommandBehavior Command="{Binding ChapterSelectedCommand}" EventName="SelectedIndexChanged" />
+                    </Picker.Behaviors>
+                </Picker>
                 <Picker
                     x:Name="bibleTranslationPicker"
                     ItemsSource="{Binding Translations, Mode=OneTime}"
-                    SelectedIndexChanged="OnTranslationSelectionChanged"
-                    SelectedItem="{Binding SelectedTranslation, Mode=TwoWay}"
-                    WidthRequest="120" />
+                    SelectedIndex="{Binding TranslationIndex, Mode=TwoWay}"
+                    WidthRequest="120">
+                    <Picker.Behaviors>
+                        <mct:EventToCommandBehavior Command="{Binding TranslationSelectedCommand}" EventName="SelectedIndexChanged" />
+                    </Picker.Behaviors>
+                </Picker>
             </HorizontalStackLayout>
         </StackLayout>
     </Shell.TitleView>
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="10,10,10,10"
-            BindableLayout.ItemsSource="{Binding SelectedChapter.Verses, Mode=OneWay}"
-            Spacing="10">
-            <BindableLayout.ItemTemplate>
-                <DataTemplate>
+    <Grid>
+        <CollectionView
+            x:Name="collectionView"
+            IsGrouped="true"
+            ItemsSource="{Binding SelectedBook, Mode=OneWay}">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout
+                    ItemSpacing="5"
+                    Orientation="Vertical"
+                    SnapPointsAlignment="Start"
+                    SnapPointsType="MandatorySingle" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="m:VerseUiModel">
                     <Grid ColumnDefinitions="15,*">
                         <Label
                             FontSize="8"
@@ -55,12 +79,12 @@
                             Text="{Binding Text, Mode=OneWay}" />
                     </Grid>
                 </DataTemplate>
-            </BindableLayout.ItemTemplate>
-            <VerticalStackLayout.GestureRecognizers>
-                <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />
-                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeRight" />
-            </VerticalStackLayout.GestureRecognizers>
-        </VerticalStackLayout>
-    </ScrollView>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Grid.GestureRecognizers>
+            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />
+            <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeRight" />
+        </Grid.GestureRecognizers>
+    </Grid>
 
 </ContentPage>
