@@ -1,31 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
+<pages:BasePage
     x:Class="BibleApp.Pages.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:m="clr-namespace:BibleApp.Models"
-    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:pages="clr-namespace:BibleApp.Pages"
     xmlns:vm="clr-namespace:BibleApp.ViewModels"
-    x:DataType="vm:MainPageViewModel">
-    <!--  x:TypeArguments="vm:MainPageViewModel"  -->
+    x:DataType="vm:MainPageViewModel"
+    x:TypeArguments="vm:MainPageViewModel">
+
+    <pages:BasePage.Resources>
+        <ResourceDictionary>
+            <mct:SelectedItemEventArgsConverter x:Key="SelectedItemEventArgsConverter" />
+        </ResourceDictionary>
+    </pages:BasePage.Resources>
+
     <Shell.TitleView>
         <StackLayout>
             <HorizontalStackLayout Spacing="25">
                 <Label Text="Chapter" VerticalOptions="Center" />
-                <Picker ItemsSource="{Binding ChapterNumbers, Mode=TwoWay}" SelectedIndex="{Binding ChapterIndex}">
+                <Picker ItemsSource="{Binding ChapterNumbers, Mode=OneTime}" SelectedIndex="{Binding ChapterIndex, Mode=TwoWay}">
                     <Picker.Behaviors>
-                        <toolkit:EventToCommandBehavior Command="{Binding ChapterSelectedCommand}" EventName="SelectedIndexChanged" />
+                        <mct:EventToCommandBehavior Command="{Binding ChapterSelectedCommand}" EventName="SelectedIndexChanged" />
                     </Picker.Behaviors>
                 </Picker>
+                <!--  x:TypeArguments="system:EventArgs"  -->
                 <!--<Label Text="{Binding Source={x:Reference chapterPicker}, Path=SelectedItem, StringFormat='Chapter {0}'}" VerticalOptions="Center" />-->
+                <!--<ListView ItemsSource="{Binding ChapterNumbers, Mode=OneWay}" SelectedItem="{Binding SelectedChapter, Mode=TwoWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <ViewCell>
+                                <Label Margin="10" Text="{Binding Path=., StringFormat='Chapter {0}'}" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.Behaviors>
+                        <mct:EventToCommandBehavior
+                            Command="{Binding ChapterSelectedCommand}"
+                            CommandParameter="{Binding SelectedChapter}"
+                            EventName="ItemSelected" />
+                    </ListView.Behaviors>
+                </ListView>-->
             </HorizontalStackLayout>
+
         </StackLayout>
     </Shell.TitleView>
 
     <ScrollView>
         <VerticalStackLayout
             Padding="10,10,10,10"
-            BindableLayout.ItemsSource="{Binding Verses, Mode=OneWay}"
+            BindableLayout.ItemsSource="{Binding Verses, Mode=OneTime}"
             Spacing="10">
             <BindableLayout.ItemTemplate>
                 <DataTemplate>
@@ -33,17 +58,17 @@
                         <Label
                             FontSize="8"
                             HorizontalTextAlignment="End"
-                            Text="{Binding Id, Mode=OneWay, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
+                            Text="{Binding Id, Mode=OneTime, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
                         <Label
                             x:Name="VerseTextLabel"
                             Grid.Column="1"
                             Padding="5,0"
                             FontSize="16"
-                            Text="{Binding Text, Mode=OneWay, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
+                            Text="{Binding Text, Mode=OneTime, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
                     </Grid>
                 </DataTemplate>
             </BindableLayout.ItemTemplate>
         </VerticalStackLayout>
     </ScrollView>
 
-</ContentPage>
+</pages:BasePage>

@@ -3,16 +3,21 @@ using CommunityToolkit.Mvvm.DependencyInjection;
 
 namespace BibleApp.Pages
 {
-    public abstract class BasePage<TViewModel> : ContentPage where TViewModel : ObservableObject
+    public abstract class BasePage<TViewModel> : BasePage where TViewModel : ObservableObject
     {
-        public new TViewModel BindingContext => _viewModel;
+        public TViewModel ViewModel { get; }
 
-        private readonly TViewModel _viewModel;
-
-        protected BasePage(TViewModel? viewModel = null)
+        protected BasePage(TViewModel? viewModel = null) : base()
         {
-            viewModel ??= Ioc.Default.GetRequiredService<TViewModel>();
-            _viewModel = viewModel;
+            ViewModel = viewModel ?? Ioc.Default.GetRequiredService<TViewModel>();
+            BindingContext = ViewModel;
+        }
+    }
+
+    public abstract class BasePage : ContentPage
+    {
+        protected BasePage()
+        {
             if (string.IsNullOrWhiteSpace(Title))
                 Title = GetType().Name;
         }
