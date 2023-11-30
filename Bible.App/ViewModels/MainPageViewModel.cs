@@ -14,10 +14,7 @@ namespace BibleApp.ViewModels
         [ObservableProperty]
         private int chapterIndex;
 
-        [ObservableProperty]
-        private VerseUiModel? selectedVerse;
-
-        public ObservableCollection<VerseUiModel> Verses { get; }
+        public IReadOnlyList<VerseUiModel> Verses { get; private set; }
 
         private readonly IDataService<VerseUiModel> _readerService;
 
@@ -26,18 +23,14 @@ namespace BibleApp.ViewModels
             _readerService = readerService;
             ChapterNumbers = new(Enumerable.Range(1, _chapterCount));
             ChapterIndex = 0;
-            Verses = new(_readerService.LoadVerses(1));
+            Verses = _readerService.LoadVerses(1);
         }
 
         [RelayCommand]
         private void ChapterSelected(int? chapterNumber)
         {
-            var verses = _readerService.LoadVerses(ChapterIndex + 1);
-            Verses.Clear();
-            foreach (var verse in verses)
-            {
-                Verses.Add(verse);
-            }
+            Verses = _readerService.LoadVerses(ChapterIndex + 1);
+            OnPropertyChanged(nameof(Verses));
         }
     }
 }

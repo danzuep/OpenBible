@@ -29,11 +29,14 @@
         </StackLayout>
     </Shell.TitleView>
 
-    <ListView ItemsSource="{Binding Verses, Mode=OneTime}" SelectedItem="{Binding SelectedVerse, Mode=OneWayToSource}">
-        <ListView.ItemTemplate>
-            <DataTemplate x:DataType="m:VerseUiModel">
-                <ViewCell>
-                    <Grid Margin="5" ColumnDefinitions="15,*">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10,10,10,10"
+            BindableLayout.ItemsSource="{Binding Verses, Mode=OneWay}"
+            Spacing="5">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate x:DataType="m:VerseUiModel">
+                    <Grid ColumnDefinitions="15,*">
                         <Label
                             FontSize="8"
                             HorizontalTextAlignment="End"
@@ -45,9 +48,9 @@
                             FontSize="16"
                             Text="{Binding Text, Mode=OneTime, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
                     </Grid>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </VerticalStackLayout>
+    </ScrollView>
 
 </pages:BasePage>
