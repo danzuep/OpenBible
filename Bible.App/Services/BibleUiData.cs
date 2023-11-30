@@ -15,72 +15,28 @@ namespace Bible.Reader.Services
             return GetBible(_bible, translation);
         }
 
-        public BibleUiModel LoadMock(BibleModel bible, string translation)
-        {
-            var bibleModel = new BibleUiModel() { Translation = translation };
-            if (bible != null)
-            {
-                foreach (var book in bible.Books)
-                {
-                    var bibleBook = new BookUiModel
-                    {
-                        Id = book.Id,
-                        Name = book.Reference.BookName,
-                        ChapterCount = book.ChapterCount
-                    };
-                    bibleModel.Books.Add(bibleBook);
-                }
-            }
-            return bibleModel;
-        }
-
-        private static ChapterUiModel GetChapter(BibleModel? bible, byte bookIndex, byte chapterIndex)
-        {
-            var bibleChapter = new ChapterUiModel { Id = chapterIndex + 1 };
-            if (bible != null)
-            {
-                foreach (var verse in bible.Books[bookIndex].Chapters[chapterIndex].Verses)
-                {
-                    var bibleVerse = new VerseUiModel { Id = verse.Id, Text = verse.Text };
-                    bibleChapter.Verses.Add(bibleVerse);
-                }
-            }
-            return bibleChapter;
-        }
-
-        public static ChapterUiModel? GetChapter(BibleUiModel? bible, byte bookIndex, byte chapterIndex) =>
-            bible?.Books[bookIndex].Chapters[chapterIndex];
-
-        public ChapterUiModel? GetChapter(byte bookIndex, byte chapterIndex) =>
-            GetChapter(_bible, bookIndex, chapterIndex);
-
         public static BibleUiModel GetBible(BibleModel? bible, string translation, bool addChapters = true)
         {
-            var bibleModel = new BibleUiModel() { Translation = translation };
+            var bibleModel = new BibleUiModel(translation);
             if (bible != null)
             {
                 foreach (var book in bible.Books)
                 {
-                    var bibleBook = new BookUiModel
-                    {
-                        Id = book.Id,
-                        Name = book.Reference.BookName,
-                        ChapterCount = book.ChapterCount
-                    };
+                    var bibleBook = new BookUiModel(book.Id, book.Reference.BookName, book.ChapterCount);
                     if (addChapters)
                     {
                         foreach (var chapter in book.Chapters)
                         {
-                            var bibleChapter = new ChapterUiModel { Id = chapter.Id };
+                            var bibleChapter = new ChapterUiModel(chapter.Id) { Copyright = translation };
                             foreach (var verse in chapter.Verses)
                             {
-                                var bibleVerse = new VerseUiModel { Id = verse.Id, Text = verse.Text };
-                                bibleChapter.Verses.Add(bibleVerse);
+                                var bibleVerse = new VerseUiModel(verse.Id, verse.Text);
+                                bibleChapter.Add(bibleVerse);
                             }
-                            bibleBook.Chapters.Add(bibleChapter);
+                            bibleBook.Add(bibleChapter);
                         }
                     }
-                    bibleModel.Books.Add(bibleBook);
+                    bibleModel.Add(bibleBook);
                 }
             }
             return bibleModel;

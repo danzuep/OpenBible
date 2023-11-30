@@ -1,21 +1,20 @@
-using CommunityToolkit.Mvvm.ComponentModel;
-using System.Collections.ObjectModel;
-
 namespace BibleApp.Models
 {
-    public sealed partial class BibleUiModel : ObservableObject
+    public sealed partial class BibleUiModel : List<BookUiModel>
     {
-        //[ObservableProperty]
-        //private string translation = default!;
+        public string Translation { get; } = default!;
 
-        //[ObservableProperty]
-        //private IList<BookUiModel> books = new List<BookUiModel>();
+        public BibleUiModel(string translation) : base(new List<BookUiModel>())
+        {
+            Translation = translation;
+        }
 
-        public string Translation { get; set; } = default!;
-
-        public ObservableCollection<BookUiModel> Books { get; set; } = new();
+        public BibleUiModel(List<BookUiModel> books, string translation) : base(books)
+        {
+            Translation = translation;
+        }
 
         public override string ToString() =>
-            $"Bible: {Translation} ({Books.Count} books)";
+            $"Bible: {Translation} ({this.Count} books)";
     }
 }

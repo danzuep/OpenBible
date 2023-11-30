@@ -1,21 +1,16 @@
-using CommunityToolkit.Mvvm.ComponentModel;
-
 namespace BibleApp.Models
 {
-    public sealed partial class VerseUiModel : ObservableObject
+    public sealed partial class VerseUiModel
     {
-        //[ObservableProperty]
-        //private bool isSelected;
+        public int Id { get; }
 
-        //[ObservableProperty]
-        //private int id;
+        public string Text { get; }
 
-        //[ObservableProperty]
-        //private string text = default!;
-
-        public int Id { get; set; }
-
-        public string Text { get; set; } = default!;
+        public VerseUiModel(int id, string text)
+        {
+            Id = id;
+            Text = text;
+        }
 
         public override string ToString() =>
             $"{Id} {Text}";

@@ -21,23 +21,23 @@
                 <Picker
                     x:Name="bibleBookPicker"
                     ItemDisplayBinding="{Binding Name, Mode=OneWay}"
-                    ItemsSource="{Binding Bible.Books, Mode=OneWay}"
+                    ItemsSource="{Binding Bible, Mode=OneWay}"
                     SelectedIndex="{Binding BookIndex, Mode=TwoWay}"
-                    SelectedItem="{Binding SelectedBook, Mode=TwoWay}"
-                    WidthRequest="160">
-                    <Picker.Behaviors>
-                        <mct:EventToCommandBehavior Command="{Binding BookSelectedCommand}" EventName="SelectedIndexChanged" />
-                    </Picker.Behaviors>
-                </Picker>
+                    SelectedIndexChanged="OnBookSelectionChanged"
+                    WidthRequest="160" />
                 <Picker
                     x:Name="bibleChapterPicker"
-                    ItemsSource="{Binding SelectedBook.ChapterNumbers, Mode=OneWay}"
+                    ItemDisplayBinding="{Binding Id, Mode=OneWay}"
+                    ItemsSource="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem, Mode=OneWay}"
                     SelectedIndex="{Binding ChapterIndex, Mode=TwoWay}"
-                    WidthRequest="70">
-                    <Picker.Behaviors>
-                        <mct:EventToCommandBehavior Command="{Binding ChapterSelectedCommand}" EventName="SelectedIndexChanged" />
-                    </Picker.Behaviors>
-                </Picker>
+                    SelectedIndexChanged="OnChapterSelectionChanged"
+                    WidthRequest="70" />
+                <Picker
+                    x:Name="bibleVersePicker"
+                    ItemDisplayBinding="{Binding Id, Mode=OneWay}"
+                    ItemsSource="{Binding Source={x:Reference bibleChapterPicker}, Path=SelectedItem, Mode=OneWay}"
+                    SelectedIndexChanged="OnVerseSelectionChanged"
+                    WidthRequest="70" />
                 <Picker
                     x:Name="bibleTranslationPicker"
                     ItemsSource="{Binding Translations, Mode=OneTime}"
@@ -55,13 +55,19 @@
         <CollectionView
             x:Name="collectionView"
             IsGrouped="true"
-            ItemsSource="{Binding SelectedBook, Mode=OneWay}">
+            ItemsSource="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem, Mode=OneWay}"
+            Scrolled="OnCollectionViewScrolled">
+            <CollectionView.GroupHeaderTemplate>
+                <DataTemplate x:DataType="m:ChapterUiModel">
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        Text="{Binding Path=Id, StringFormat='Chapter {0}'}"
+                        TextColor="LightGray" />
+                </DataTemplate>
+            </CollectionView.GroupHeaderTemplate>
             <CollectionView.ItemsLayout>
-                <LinearItemsLayout
-                    ItemSpacing="5"
-                    Orientation="Vertical"
-                    SnapPointsAlignment="Start"
-                    SnapPointsType="MandatorySingle" />
+                <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="m:VerseUiModel">
@@ -69,7 +75,8 @@
                         <Label
                             FontSize="8"
                             HorizontalTextAlignment="End"
-                            Text="{Binding Id, Mode=OneWay}" />
+                            Text="{Binding Id, Mode=OneWay}"
+                            TextColor="LightGray" />
                         <!--  TODO - Hanzi jyutping ruby characters, like furigana  -->
                         <Label
                             x:Name="VerseTextLabel"
@@ -80,6 +87,11 @@
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+            <CollectionView.GroupFooterTemplate>
+                <DataTemplate x:DataType="m:ChapterUiModel">
+                    <Label Text="{Binding Path=Copyright, StringFormat='© {0}'}" TextColor="Gray" />
+                </DataTemplate>
+            </CollectionView.GroupFooterTemplate>
         </CollectionView>
         <Grid.GestureRecognizers>
             <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />

@@ -1,5 +1,4 @@
 ﻿using Bible.Interfaces;
-using Bible.Reader.Services;
 using BibleApp.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -11,12 +10,6 @@ namespace BibleApp.ViewModels
     {
         [ObservableProperty]
         private BibleUiModel? bible;
-
-        [ObservableProperty]
-        private BookUiModel? selectedBook;
-
-        [ObservableProperty]
-        private ChapterUiModel? selectedChapter;
 
         private const string _testUsxBook = "zho/OCCB/GEN";
 
@@ -38,9 +31,6 @@ namespace BibleApp.ViewModels
         [ObservableProperty]
         private int chapterIndex = -1;
 
-        private byte _bookIndexChecked => BookIndex < byte.MinValue ? byte.MinValue : (byte)BookIndex;
-        private byte _chapterIndexChecked => ChapterIndex < byte.MinValue ? byte.MinValue : (byte)ChapterIndex;
-
         private readonly IDataService<BibleUiModel> _readerService;
 
         public MainPageViewModel(IDataService<BibleUiModel> readerService)
@@ -54,22 +44,5 @@ namespace BibleApp.ViewModels
             Bible = _readerService.Load(Translations[TranslationIndex]);
             BookIndex = 0;
         }
-
-        [RelayCommand]
-        private void BookSelected(object? value)
-        {
-            ChapterIndex = 0;
-        }
-
-        [RelayCommand]
-        private void ChapterSelected(object? value)
-        {
-            SelectedChapter = Bible?.Books[_bookIndexChecked].Chapters[_chapterIndexChecked];
-        }
-
-        internal ChapterUiModel? Chapter =>
-            _readerService is BibleUiData reader ?
-            reader.GetChapter(_bookIndexChecked, _chapterIndexChecked) :
-            Bible?.Books[_bookIndexChecked].Chapters[_chapterIndexChecked];
     }
 }

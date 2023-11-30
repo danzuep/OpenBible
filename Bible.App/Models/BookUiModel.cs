@@ -1,46 +1,33 @@
+using Bible.Reader.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
 
 namespace BibleApp.Models
 {
-    public sealed partial class BookUiModel : ObservableObject
+    [ObservableObject]
+    public sealed partial class BookUiModel : List<ChapterUiModel>
     {
-        //[ObservableProperty]
-        //private int id;
+        public int Id { get; }
 
-        //[ObservableProperty]
-        //private string name = default!;
+        public string Name { get; } = default!;
 
-        //[ObservableProperty]
-        //private IList<ChapterUiModel> chapters = new List<ChapterUiModel>();
+        public ObservableCollection<int> ChapterNumbers { get; }
 
-        public int Id { get; set; }
-
-        public string Name { get; set; } = default!;
-
-        public ObservableCollection<ChapterUiModel> Chapters { get; set; } = new();
-
-
-        private int _chapterCount = 1;
-        public int ChapterCount
+        public BookUiModel(int id, string name, int chapterCount) : base(new List<ChapterUiModel>())
         {
-            get => _chapterCount;
-            init
-            {
-                if (SetProperty(ref _chapterCount, value))
-                {
-                    _chapterNumbers = new(ParallelEnumerable.Range(1, _chapterCount));
-                    OnPropertyChanged(nameof(ChapterNumbers));
-                }
-            }
+            Id = id;
+            Name = name;
+            ChapterNumbers = new(Enumerable.Range(1, chapterCount));
         }
 
-        Lazy<IEnumerable<int>>? _chapterNumbers;
-
-        public ObservableCollection<int> ChapterNumbers =>
-            new(_chapterNumbers?.Value ?? [1]);
-
+        public BookUiModel(List<ChapterUiModel> chapters, int id, string name) : base(chapters)
+        {
+            Id = id;
+            Name = name;
+            ChapterNumbers = new(Enumerable.Range(1, chapters.Count));
+        }
+        
         public override string ToString() =>
-            $"Book #{Id}, {Name} ({ChapterCount} chapters)";
+            $"Book #{Id}, {Name} ({this.Count} chapters)";
     }
 }

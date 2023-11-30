@@ -1,21 +1,22 @@
-using CommunityToolkit.Mvvm.ComponentModel;
-using System.Collections.ObjectModel;
-
 namespace BibleApp.Models
 {
-    public sealed partial class ChapterUiModel : ObservableObject
+    public sealed partial class ChapterUiModel : List<VerseUiModel>
     {
-        //[ObservableProperty]
-        //private int id;
+        public int Id { get; }
 
-        //[ObservableProperty]
-        //private IList<VerseUiModel> verses = new List<VerseUiModel>();
+        public string? Copyright { get; set; }
 
-        public int Id { get; set; }
+        public ChapterUiModel(int id) : base(new List<VerseUiModel>())
+        {
+            Id = id;
+        }
 
-        public ObservableCollection<VerseUiModel> Verses { get; set; } = new();
+        public ChapterUiModel(List<VerseUiModel> verses, int id) : base(verses)
+        {
+            Id = id;
+        }
 
         public override string ToString() =>
-            $"Chapter {Id} ({Verses.Count} verses)";
+            $"Chapter {Id} ({this.Count} verses)";
     }
 }
