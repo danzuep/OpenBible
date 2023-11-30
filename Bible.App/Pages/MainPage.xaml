@@ -1,29 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<pages:BasePage
+<ContentPage
     x:Class="BibleApp.Pages.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-    xmlns:pages="clr-namespace:BibleApp.Pages"
-    xmlns:vm="clr-namespace:BibleApp.ViewModels"
-    x:DataType="vm:MainPageViewModel"
-    x:TypeArguments="vm:MainPageViewModel">
-
-    <pages:BasePage.Resources>
-        <ResourceDictionary>
-            <mct:SelectedItemEventArgsConverter x:Key="SelectedItemEventArgsConverter" />
-        </ResourceDictionary>
-    </pages:BasePage.Resources>
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <Shell.TitleView>
         <StackLayout>
             <HorizontalStackLayout Spacing="25">
                 <Label Text="Chapter" VerticalOptions="Center" />
-                <Picker ItemsSource="{Binding ChapterNumbers, Mode=OneTime}" SelectedIndex="{Binding ChapterIndex, Mode=TwoWay}">
-                    <Picker.Behaviors>
-                        <mct:EventToCommandBehavior Command="{Binding ChapterSelectedCommand}" EventName="SelectedIndexChanged" />
-                    </Picker.Behaviors>
-                </Picker>
+                <Picker x:Name="chapterPicker" SelectedIndexChanged="OnSelectedIndexChanged" />
             </HorizontalStackLayout>
         </StackLayout>
     </Shell.TitleView>
@@ -44,4 +29,4 @@
         </VerticalStackLayout>
     </ScrollView>
 
-</pages:BasePage>
+</ContentPage>
