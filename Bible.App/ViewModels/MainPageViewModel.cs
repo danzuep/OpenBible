@@ -1,6 +1,4 @@
-﻿using Bible.Core.Models;
-using Bible.Interfaces;
-using Bible.Reader.Services;
+﻿using Bible.Interfaces;
 using BibleApp.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -10,56 +8,33 @@ namespace BibleApp.ViewModels
 {
     public sealed partial class MainPageViewModel : ObservableObject
     {
-        [ObservableProperty]
-        private BibleUiModel? bible;
-
-        [ObservableProperty]
-        private BookUiModel? selectedBook;
-
-        [ObservableProperty]
-        private ChapterUiModel? selectedChapter;
-
-        private const string _testUsxBook = "zho/OCCB/GEN";
-
-        public ObservableCollection<string> Translations { get; } = [
-            "eng/WEB",
-            "eng/WEBBE",
-            "eng/WEBME",
-            "chi/CUV",
-            "chi/CUVS",
-            //_testUsxBook,
-            "tha/KJVTHAI"];
-
-        [ObservableProperty]
-        private string selectedTranslation;
-
-        [ObservableProperty]
-        private int bookIndex;
+        private int _chapterCount = 150;
+        public ObservableCollection<int> ChapterNumbers { get; }
 
         [ObservableProperty]
         private int chapterIndex;
 
-        private byte _bookIndex => BookIndex < byte.MinValue ? byte.MinValue : (byte)BookIndex;
-        private byte _chapterIndex => ChapterIndex < byte.MinValue ? byte.MinValue : (byte)ChapterIndex;
+        public ObservableCollection<VerseUiModel> Verses { get; }
 
-        private readonly IDataService<BibleUiModel> _readerService;
+        private readonly IDataService<VerseUiModel> _readerService;
 
-        public MainPageViewModel(IDataService<BibleUiModel> readerService)
+        public MainPageViewModel(IDataService<VerseUiModel> readerService)
         {
             _readerService = readerService;
-            SelectedTranslation = Translations[0];
+            ChapterNumbers = new(Enumerable.Range(1, _chapterCount));
+            ChapterIndex = 0;
+            Verses = new(_readerService.LoadVerses(1));
         }
 
-        internal void GetTranslation(string? translation)
+        [RelayCommand]
+        private void ChapterSelected()
         {
-            //ArgumentNullException.ThrowIfNull(translation);
-            translation ??= SelectedTranslation;
-            Bible = _readerService.Load(translation);
+            var verses = _readerService.LoadVerses(ChapterIndex + 1);
+            Verses.Clear();
+            foreach (var verse in verses)
+            {
+                Verses.Add(verse);
+            }
         }
-
-        internal ChapterUiModel? Chapter =>
-            _readerService is BibleUiData reader ?
-            reader.GetChapter(_bookIndex, _chapterIndex) :
-            Bible?.Books[_bookIndex].Chapters[_chapterIndex];
     }
 }

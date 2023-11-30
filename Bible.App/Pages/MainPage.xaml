@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="BibleApp.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:m="clr-namespace:BibleApp.Models"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:vm="clr-namespace:BibleApp.ViewModels"
+    x:DataType="vm:MainPageViewModel">
+    <!--  x:TypeArguments="vm:MainPageViewModel"  -->
+    <Shell.TitleView>
+        <StackLayout>
+            <HorizontalStackLayout Spacing="25">
+                <Label Text="Chapter" VerticalOptions="Center" />
+                <Picker ItemsSource="{Binding ChapterNumbers, Mode=TwoWay}" SelectedIndex="{Binding ChapterIndex}">
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior Command="{Binding ChapterSelectedCommand}" EventName="SelectedIndexChanged" />
+                    </Picker.Behaviors>
+                </Picker>
+                <!--<Label Text="{Binding Source={x:Reference chapterPicker}, Path=SelectedItem, StringFormat='Chapter {0}'}" VerticalOptions="Center" />-->
+            </HorizontalStackLayout>
+        </StackLayout>
+    </Shell.TitleView>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10,10,10,10"
+            BindableLayout.ItemsSource="{Binding Verses, Mode=OneWay}"
+            Spacing="10">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="15,*">
+                        <Label
+                            FontSize="8"
+                            HorizontalTextAlignment="End"
+                            Text="{Binding Id, Mode=OneWay, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
+                        <Label
+                            x:Name="VerseTextLabel"
+                            Grid.Column="1"
+                            Padding="5,0"
+                            FontSize="16"
+                            Text="{Binding Text, Mode=OneWay, Source={RelativeSource AncestorType={x:Type m:VerseUiModel}}}" />
+                    </Grid>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

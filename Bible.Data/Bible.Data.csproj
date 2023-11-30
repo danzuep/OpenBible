@@ -14,24 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="xsd\usfx.xsd">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="xsd\zef2005.xsd">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="xsd\zef2014.xsd">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <!--<None Update="json\**" CopyToOutputDirectory="PreserveNewest" />-->
-    <!--<None Update="usx\**" CopyToOutputDirectory="PreserveNewest" />-->
     <None Update="xml\**" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 

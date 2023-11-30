@@ -21,13 +21,7 @@ namespace BibleApp
                 Ioc.Default.ConfigureServices(
                     new ServiceCollection()
                     //Services
-#if DEBUG
-                    //.AddSingleton<IDataService<BibleUiModel>, TestUiData>()
-                    .AddSingleton<IDataService<BibleUiModel>, BibleUiData>()
-#else
-                    //.AddSingleton<IBibleService, BibleReader>()
-                    .AddSingleton<IDataService<BibleUiModel>, BibleUiData>()
-#endif
+                    .AddSingleton<IDataService<VerseUiModel>, TestUiData>()
                     //ViewModels
                     .AddTransient<MainPageViewModel>()
                     .BuildServiceProvider());
