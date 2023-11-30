@@ -1,4 +1,6 @@
-﻿namespace BibleApp.Pages
+﻿using BibleApp.Models;
+
+namespace BibleApp.Pages
 {
     public sealed partial class MainPage : ContentPage
     {
@@ -10,26 +12,29 @@
                 Title = GetType().Name;
             chapterPicker.ItemsSource = Enumerable.Range(1, 150).ToArray();
             chapterPicker.SelectedIndex = 0;
-            Verses = LoadVerses(1);
         }
 
-        public IReadOnlyList<string> Verses { get; private set; }
-
-        private IReadOnlyList<string> LoadVerses(int chapterNumber)
-        {
-            int verseCount = Random.Shared.Next(2, 176);
-            var verses = Enumerable.Range(1, verseCount)
-                .Select(v => $"Chapter #{chapterNumber}, Verse #{v}.");
-            return verses.ToArray();
-        }
+        public Chapter? Chapter { get; private set; }
 
         private void OnSelectedIndexChanged(object sender, EventArgs e)
         {
-            if (sender is Picker picker && picker.SelectedItem is int chapter)
+            if (sender is Picker picker && picker.SelectedItem is int chapterNumber)
             {
-                Verses = LoadVerses(chapter);
-                OnPropertyChanged(nameof(Verses));
+                Chapter = Data.LoadChapter(chapterNumber);
+                OnPropertyChanged(nameof(Chapter));
             }
+        }
+
+        private async void OnClickedEvent(object sender, EventArgs e)
+        {
+            await Task.CompletedTask;
+            var parameters = new Dictionary<string, object?> { { "Chapter", Chapter } };
+            await Shell.Current.GoToAsync(nameof(ChapterPage), parameters);
+        }
+
+        private void OnClickedEventScroll(object sender, EventArgs e)
+        {
+            collectionView.ScrollTo(12, position: ScrollToPosition.Start);
         }
     }
 }

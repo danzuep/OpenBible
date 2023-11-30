@@ -2,31 +2,36 @@
 <ContentPage
     x:Class="BibleApp.Pages.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:page="clr-namespace:BibleApp.Pages">
 
     <Shell.TitleView>
         <StackLayout>
             <HorizontalStackLayout Spacing="25">
                 <Label Text="Chapter" VerticalOptions="Center" />
                 <Picker x:Name="chapterPicker" SelectedIndexChanged="OnSelectedIndexChanged" />
+                <Button Clicked="OnClickedEvent" Text="View" />
+                <Button Clicked="OnClickedEventScroll" Text="Scroll" />
             </HorizontalStackLayout>
         </StackLayout>
     </Shell.TitleView>
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="10,10,10,10"
-            BindableLayout.ItemsSource="{Binding Verses, Mode=OneWay}"
-            Spacing="5">
-            <BindableLayout.ItemTemplate>
-                <DataTemplate x:DataType="x:String">
-                    <Label
-                        Padding="5,0"
-                        FontSize="16"
-                        Text="{Binding Path=., Mode=OneTime}" />
-                </DataTemplate>
-            </BindableLayout.ItemTemplate>
-        </VerticalStackLayout>
-    </ScrollView>
+    <CollectionView x:Name="collectionView" ItemsSource="{Binding Chapter.Verses, Mode=OneWay}">
+        <CollectionView.ItemsLayout>
+            <LinearItemsLayout
+                ItemSpacing="5"
+                Orientation="Vertical"
+                SnapPointsAlignment="Start"
+                SnapPointsType="MandatorySingle" />
+        </CollectionView.ItemsLayout>
+        <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="x:String">
+                <Label
+                    Padding="5,0"
+                    FontSize="16"
+                    Text="{Binding Path=., Mode=OneTime}" />
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
 
 </ContentPage>
