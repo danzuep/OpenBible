@@ -22,12 +22,12 @@ namespace Bible.Reader.Services
             {
                 foreach (var book in bible.Books)
                 {
-                    var bibleBook = new BookUiModel(book.Id, book.Reference.BookName, book.ChapterCount);
+                    var bibleBook = new BookUiModel(book.Id, book.Reference.BookName, book.ChapterCount) { Copyright = translation };
                     if (addChapters)
                     {
                         foreach (var chapter in book.Chapters)
                         {
-                            var bibleChapter = new ChapterUiModel(chapter.Id) { Copyright = translation };
+                            var bibleChapter = new ChapterUiModel(chapter.Id);
                             foreach (var verse in chapter.Verses)
                             {
                                 var bibleVerse = new VerseUiModel(verse.Id, verse.Text);

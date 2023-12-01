@@ -1,6 +1,8 @@
-﻿namespace BibleApp
+﻿using BibleApp.Pages;
+
+namespace BibleApp
 {
-    public partial class AppShell : Shell
+    public sealed partial class AppShell : Shell
     {
         public AppShell()
         {

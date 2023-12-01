@@ -4,8 +4,6 @@ namespace BibleApp.Models
     {
         public int Id { get; }
 
-        public string? Copyright { get; set; }
-
         public ChapterUiModel(int id) : base(new List<VerseUiModel>())
         {
             Id = id;

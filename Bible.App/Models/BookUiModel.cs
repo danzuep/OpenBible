@@ -1,4 +1,3 @@
-using Bible.Reader.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
 
@@ -10,6 +9,8 @@ namespace BibleApp.Models
         public int Id { get; }
 
         public string Name { get; } = default!;
+
+        public string? Copyright { get; set; }
 
         public ObservableCollection<int> ChapterNumbers { get; }
 

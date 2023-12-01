@@ -6,7 +6,7 @@ using CommunityToolkit.Mvvm.DependencyInjection;
 
 namespace BibleApp
 {
-    public partial class App : Application
+    public sealed partial class App : Application
     {
         private bool _initialized;
 

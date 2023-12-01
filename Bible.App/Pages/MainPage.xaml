@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="BibleApp.MainPage"
+<pages:BasePage
+    x:Class="BibleApp.Pages.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:m="clr-namespace:BibleApp.Models"
     xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:pages="clr-namespace:BibleApp.Pages"
+    xmlns:views="clr-namespace:BibleApp.Views"
     xmlns:vm="clr-namespace:BibleApp.ViewModels"
-    x:DataType="vm:MainPageViewModel">
+    x:DataType="vm:MainPageViewModel"
+    x:TypeArguments="vm:MainPageViewModel">
     <!--
-    x:TypeArguments="vm:MainPageViewModel"
     <ContentPage.BindingContext>
         <vm:MainPageViewModel />
     </ContentPage.BindingContext>
@@ -33,12 +34,6 @@
                     SelectedIndexChanged="OnChapterSelectionChanged"
                     WidthRequest="70" />
                 <Picker
-                    x:Name="bibleVersePicker"
-                    ItemDisplayBinding="{Binding Id, Mode=OneWay}"
-                    ItemsSource="{Binding Source={x:Reference bibleChapterPicker}, Path=SelectedItem, Mode=OneWay}"
-                    SelectedIndexChanged="OnVerseSelectionChanged"
-                    WidthRequest="70" />
-                <Picker
                     x:Name="bibleTranslationPicker"
                     ItemsSource="{Binding Translations, Mode=OneTime}"
                     SelectedIndex="{Binding TranslationIndex, Mode=TwoWay}"
@@ -51,52 +46,30 @@
         </StackLayout>
     </Shell.TitleView>
 
-    <Grid>
+    <Grid RowDefinitions="*,30">
         <CollectionView
-            x:Name="collectionView"
-            IsGrouped="true"
+            x:Name="chapterCollectionView"
             ItemsSource="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem, Mode=OneWay}"
-            Scrolled="OnCollectionViewScrolled">
-            <CollectionView.GroupHeaderTemplate>
-                <DataTemplate x:DataType="m:ChapterUiModel">
-                    <Label
-                        FontAttributes="Bold"
-                        FontSize="18"
-                        Text="{Binding Path=Id, StringFormat='Chapter {0}'}"
-                        TextColor="LightGray" />
-                </DataTemplate>
-            </CollectionView.GroupHeaderTemplate>
+            Scrolled="OnChapterCollectionViewScrolled">
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout ItemSpacing="5" Orientation="Vertical" />
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="m:VerseUiModel">
-                    <Grid ColumnDefinitions="15,*">
-                        <Label
-                            FontSize="8"
-                            HorizontalTextAlignment="End"
-                            Text="{Binding Id, Mode=OneWay}"
-                            TextColor="LightGray" />
-                        <!--  TODO - Hanzi jyutping ruby characters, like furigana  -->
-                        <Label
-                            x:Name="VerseTextLabel"
-                            Grid.Column="1"
-                            Padding="5,0"
-                            FontSize="16"
-                            Text="{Binding Text, Mode=OneWay}" />
-                    </Grid>
+                <DataTemplate x:DataType="m:ChapterUiModel">
+                    <VerticalStackLayout>
+                        <views:ChapterView BindingContext="{Binding .}" />
+                    </VerticalStackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-            <CollectionView.GroupFooterTemplate>
-                <DataTemplate x:DataType="m:ChapterUiModel">
-                    <Label Text="{Binding Path=Copyright, StringFormat='© {0}'}" TextColor="Gray" />
-                </DataTemplate>
-            </CollectionView.GroupFooterTemplate>
         </CollectionView>
+        <Label
+            Grid.Row="1"
+            Text="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem.Copyright, StringFormat='© {0}'}"
+            TextColor="Gray" />
         <Grid.GestureRecognizers>
             <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />
             <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeRight" />
         </Grid.GestureRecognizers>
     </Grid>
 
-</ContentPage>
+</pages:BasePage>

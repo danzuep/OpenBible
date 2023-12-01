@@ -72,4 +72,16 @@
 	  <ProjectReference Include="..\Bible.Reader\Bible.Reader.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Views\BookView.xaml.cs">
+	    <DependentUpon>BookView.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\BookView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
