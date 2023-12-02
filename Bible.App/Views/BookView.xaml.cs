@@ -1,6 +1,6 @@
-﻿using BibleApp.Models;
+﻿using Bible.App.Models;
 
-namespace BibleApp.Views
+namespace Bible.App.Views
 {
     [QueryProperty(nameof(BookUiModel), "Book")]
     public sealed partial class BookView : ContentView

@@ -1,4 +1,4 @@
-namespace BibleApp.Models
+namespace Bible.App.Models
 {
     public sealed partial class ChapterUiModel : List<VerseUiModel>
     {

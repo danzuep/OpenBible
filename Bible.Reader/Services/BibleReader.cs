@@ -1,5 +1,5 @@
-﻿using Bible.Core.Models;
-using Bible.Interfaces;
+﻿using Bible.Core.Abstractions;
+using Bible.Core.Models;
 using Bible.Reader.Adapters;
 using Bible.Reader.Models;
 using System;
@@ -63,13 +63,11 @@ namespace Bible.Reader.Services
 
         private static string ExpandPath(string fileName, FileType fileType)
         {
-            string prefix, suffix;
             var typeName = fileType.ToString().ToLowerInvariant();
-            (prefix, suffix) = (typeName, $".{typeName}");
+            (string prefix, string suffix) = (typeName, $".{typeName}");
             if (!Path.HasExtension(fileName) || !fileName.EndsWith(suffix))
                 fileName += suffix;
-            string baseDirectory = _baseDirectory; //AppDomain.CurrentDomain.BaseDirectory;
-            if (fileName.StartsWith(baseDirectory[..15]))
+            if (fileName.StartsWith(_baseDirectory[..15]) || _baseDirectory.StartsWith('/'))
             {
                 var directory = Path.GetDirectoryName(fileName);
                 if (directory.EndsWith(prefix))
@@ -79,7 +77,16 @@ namespace Bible.Reader.Services
                 var name = Path.GetFileName(fileName);
                 return Path.Combine(directory, prefix, name);
             }
-            return Path.Combine(baseDirectory, "..", prefix, fileName);
+            else if (_baseDirectory.StartsWith('/'))
+            {
+                //var appDataDirectory = Microsoft.Maui.Storage.FileSystem.Current.AppDataDirectory;
+                //using var fileStream = await FileSystem.Current.OpenAppPackageFileAsync(filePath);
+                //var assets = Application.Context.Assets;
+                //using var fileStream = await FileSystem.OpenPackageFileAsync(filePath);
+                //var fullPath = Path.Combine(FileSystem.AppDataDirectory, "MyFolder", "myfile.txt");
+                return Path.Combine(_baseDirectory, prefix, fileName);
+            }
+            return Path.Combine(_baseDirectory, "..", prefix, fileName);
         }
 
         /// <inheritdoc cref="GetFromFile{T}"/>

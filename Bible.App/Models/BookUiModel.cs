@@ -1,7 +1,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
 
-namespace BibleApp.Models
+namespace Bible.App.Models
 {
     [ObservableObject]
     public sealed partial class BookUiModel : List<ChapterUiModel>

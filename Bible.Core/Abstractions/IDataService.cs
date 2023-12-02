@@ -1,4 +1,4 @@
-﻿namespace Bible.Interfaces
+﻿namespace Bible.Core.Abstractions
 {
     public interface IDataService<T>
     {

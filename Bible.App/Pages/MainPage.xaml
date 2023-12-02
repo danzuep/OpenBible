@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <pages:BasePage
-    x:Class="BibleApp.Pages.MainPage"
+    x:Class="Bible.App.Pages.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:m="clr-namespace:BibleApp.Models"
+    xmlns:m="clr-namespace:Bible.App.Models"
     xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-    xmlns:pages="clr-namespace:BibleApp.Pages"
-    xmlns:views="clr-namespace:BibleApp.Views"
-    xmlns:vm="clr-namespace:BibleApp.ViewModels"
+    xmlns:pages="clr-namespace:Bible.App.Pages"
+    xmlns:views="clr-namespace:Bible.App.Views"
+    xmlns:vm="clr-namespace:Bible.App.ViewModels"
     x:DataType="vm:MainPageViewModel"
     x:TypeArguments="vm:MainPageViewModel">
     <!--

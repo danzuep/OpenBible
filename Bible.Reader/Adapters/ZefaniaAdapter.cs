@@ -3,6 +3,7 @@ using Bible.Reader.Models;
 using System;
 using System.Globalization;
 using System.Linq;
+using System.Transactions;
 
 namespace Bible.Reader.Adapters
 {
@@ -10,17 +11,15 @@ namespace Bible.Reader.Adapters
     {
         public static BibleModel ToBibleFormat(this XmlZefania05 xmlBible, string language = null, string translation = null)
         {
-            var bibleReference = new BibleReference
-            {
-                Translation = translation ?? xmlBible.Version.Trim()
-            };
+            var bibleReference = new BibleReference { Translation = translation };
             bool isDate = DateTime.TryParse(xmlBible.Information?.Date, out DateTime date);
             var bible = new BibleModel
             {
                 Information = new BibleInformation()
                 {
                     Name = xmlBible.BibleName?.Trim(),
-                    Translation = xmlBible.Version?.Trim(),
+                    Translation = translation,
+                    Version = xmlBible.Version?.Trim(),
                     IsoLanguage = language ?? xmlBible.Information?.Language?.Trim(),
                     PublishedYear = isDate ? date.Year : default,
                 },

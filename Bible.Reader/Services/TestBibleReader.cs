@@ -1,10 +1,10 @@
-﻿using Bible.Core.Models;
-using Bible.Interfaces;
+﻿using Bible.Core.Abstractions;
+using Bible.Core.Models;
 using System.Linq;
 
 namespace Bible.Reader.Services
 {
-    public sealed class MockBibleReader : IDataService<BibleModel>
+    public sealed class TestBibleReader : IDataService<BibleModel>
     {
         public BibleModel Load(string fileName, string suffix = ".xml")
         {

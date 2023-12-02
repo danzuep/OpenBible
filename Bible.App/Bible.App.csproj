@@ -21,24 +21,50 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>BibleApp</ApplicationTitle>
+		<ApplicationTitle>Open Bible app</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.bibleapp</ApplicationId>
+		<ApplicationId>com.danzuep.bibleapp</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
+    <!-- %APPDATA%\Microsoft\UserSecrets\ -->
+		<UserSecretsId>BibleApp-0e005d03-3ba9-41c2-9309-7994ffddc789</UserSecretsId>
+	</PropertyGroup>
+  
+  <PropertyGroup>
+    <Authors>Daniel Collingwood</Authors>
+    <Description>Open-source Bible app for any platform.</Description>
+    <RepositoryUrl>https://github.com/danzuep/BibleApp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>
+      0.1.0 Simple Bible reader
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
-		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
-		<UserSecretsId>0e005d03-3ba9-41c2-9309-7994ffddc789</UserSecretsId>
-	</PropertyGroup>
-
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+  </PropertyGroup>
+  
+  <!-- https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0#define-build-properties-in-your-project-file -->
+  <PropertyGroup Condition="$(TargetFramework.Contains('-android')) and '$(Configuration)' == 'Release'">
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <AndroidSigningKeyStore>../release/BibleApp.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyAlias>BibleApp-key</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>env:AndroidSigningPassword</AndroidSigningKeyPass>
+    <AndroidSigningStorePass>env:AndroidSigningPassword</AndroidSigningStorePass>
+  </PropertyGroup>
+  
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -56,7 +82,7 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
-
+  
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="7.0.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
@@ -70,18 +96,6 @@
 	  <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
 	  <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
 	  <ProjectReference Include="..\Bible.Reader\Bible.Reader.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="Views\BookView.xaml.cs">
-	    <DependentUpon>BookView.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Views\BookView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

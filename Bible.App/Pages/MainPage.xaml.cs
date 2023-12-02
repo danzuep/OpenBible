@@ -1,8 +1,8 @@
-﻿using BibleApp.Models;
-using BibleApp.ViewModels;
-using BibleApp.Views;
+﻿using Bible.App.Models;
+using Bible.App.ViewModels;
+using Bible.App.Views;
 
-namespace BibleApp.Pages
+namespace Bible.App.Pages
 {
     public sealed partial class MainPage : BasePage<MainPageViewModel>
     {
@@ -23,16 +23,23 @@ namespace BibleApp.Pages
             ViewModel.ChapterIndex = 0;
         }
 
+        bool isChapterViewChange;
+
         private void OnChapterSelectionChanged(object sender, EventArgs e)
         {
-            if (sender is Picker picker && picker.SelectedItem is ChapterUiModel chapter && chapter.Id > 0)
+            if (isChapterViewChange)
+                isChapterViewChange = false;
+            else if (sender is Picker picker && picker.SelectedItem is ChapterUiModel chapter && chapter.Id > 0)
                 chapterCollectionView.ScrollTo(chapter.Id - 1, position: ScrollToPosition.Start, animate: false);
         }
 
         private void OnChapterCollectionViewScrolled(object sender, ItemsViewScrolledEventArgs e)
         {
             if (ViewModel.ChapterIndex != e.FirstVisibleItemIndex)
+            {
+                isChapterViewChange = true;
                 ViewModel.ChapterIndex = e.FirstVisibleItemIndex;
+            }
         }
 
         private async void OnChapterClickedEvent(object sender, EventArgs e)
@@ -47,14 +54,14 @@ namespace BibleApp.Pages
 
         private void OnSwipeLeft(object sender, SwipedEventArgs e)
         {
-            if (ViewModel.Bible?[ViewModel.BookIndex]?.Count > bibleChapterPicker.SelectedIndex + 1)
-                bibleChapterPicker.SelectedIndex++;
+            if (ViewModel.BookIndex >= 0 && ViewModel.Bible?[ViewModel.BookIndex]?.Count > ViewModel.ChapterIndex + 1)
+                ViewModel.ChapterIndex++;
         }
 
         private void OnSwipeRight(object sender, SwipedEventArgs e)
         {
-            if (bibleChapterPicker.SelectedIndex > 0)
-                bibleChapterPicker.SelectedIndex--;
+            if (ViewModel.ChapterIndex > 0)
+                ViewModel.ChapterIndex--;
         }
     }
 }

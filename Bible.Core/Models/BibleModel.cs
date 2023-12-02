@@ -29,6 +29,7 @@ namespace Bible.Core.Models
         public string IsoLanguage { get; set; }
         public string Translation { get; set; }
         public string Publisher { get; set; }
+        public string Version { get; set; }
         public int? PublishedYear { get; set; }
 
         public override string ToString() =>

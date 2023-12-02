@@ -1,12 +1,18 @@
-﻿using Bible.Interfaces;
-using BibleApp.Models;
+﻿using Bible.App.Models;
+using Bible.App.Abstractions;
 
 namespace Bible.Reader.Services
 {
-    public sealed class TestUiData : IDataService<BibleUiModel>
+    public sealed class TestUiData : IUiDataService
     {
         public BibleUiModel Load(string fileName, string suffix = ".xml") =>
             LoadTest(66, suffix.Length * 3, fileName.Length * 3);
+
+        public async Task<BibleUiModel> LoadAsync(string fileName)
+        {
+            await Task.CompletedTask;
+            return Load(fileName);
+        }
 
         public BibleUiModel LoadTest(int bookCount, int chapterCount, int verseCount, string name = "Books, Chapters, and Verses")
         {

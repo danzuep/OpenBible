@@ -1,10 +1,12 @@
-﻿using Bible.Interfaces;
-using BibleApp.Models;
+﻿using Bible.Core.Abstractions;
+using Bible.Reader.Services;
+using Bible.App.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
+using Bible.App.Abstractions;
 
-namespace BibleApp.ViewModels
+namespace Bible.App.ViewModels
 {
     public sealed partial class MainPageViewModel : ObservableObject
     {
@@ -28,20 +30,26 @@ namespace BibleApp.ViewModels
         [ObservableProperty]
         private int bookIndex = -1;
 
-        [ObservableProperty]
-        private int chapterIndex = -1;
+        private int _chapterIndex = -1;
+        public int ChapterIndex
+        {
+            get => _chapterIndex;
+            set => SetProperty(ref _chapterIndex, value);
+        }
 
-        private readonly IDataService<BibleUiModel> _readerService;
+        private readonly IUiDataService _readerService;
 
-        public MainPageViewModel(IDataService<BibleUiModel> readerService)
+        public MainPageViewModel(IUiDataService readerService)
         {
             _readerService = readerService;
         }
 
         [RelayCommand]
-        private void TranslationSelected(object? value)
+        private async Task TranslationSelectedAsync(object? value)
         {
-            Bible = _readerService.Load(Translations[TranslationIndex]);
+            var fileName = Translations[TranslationIndex];
+            Bible = await _readerService.LoadAsync(fileName);
+            //Bible = _readerService.Load(fileName);
             BookIndex = 0;
         }
     }

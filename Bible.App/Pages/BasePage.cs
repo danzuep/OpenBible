@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.DependencyInjection;
 
-namespace BibleApp.Pages
+namespace Bible.App.Pages
 {
     public abstract class BasePage<TViewModel> : BasePage where TViewModel : ObservableObject
     {

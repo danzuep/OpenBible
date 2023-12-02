@@ -1,12 +1,12 @@
-namespace BibleApp.Models
+namespace Bible.App.Models
 {
     public sealed partial class BibleUiModel : List<BookUiModel>
     {
-        public string Translation { get; } = default!;
+        public string Translation { get; }
 
-        public BibleUiModel(string translation) : base(new List<BookUiModel>())
+        public BibleUiModel(string? translation) : base(new List<BookUiModel>())
         {
-            Translation = translation;
+            Translation = translation ?? string.Empty;
         }
 
         public BibleUiModel(List<BookUiModel> books, string translation) : base(books)

@@ -1,4 +1,4 @@
-﻿using BibleApp.Pages;
+﻿using Bible.App.Pages;
 
 namespace BibleApp
 {
