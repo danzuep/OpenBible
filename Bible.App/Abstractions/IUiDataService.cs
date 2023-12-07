@@ -1,10 +1,9 @@
-﻿using Bible.Core.Abstractions;
-using Bible.App.Models;
+﻿using Bible.App.Models;
 
 namespace Bible.App.Abstractions
 {
-    public interface IUiDataService : IDataService<BibleUiModel>
+    public interface IUiDataService
     {
-        Task<BibleUiModel> LoadAsync(string fileName);
+        Task<BibleUiModel> LoadFileAsync(string fileName);
     }
 }

@@ -77,15 +77,6 @@ namespace Bible.Reader.Services
                 var name = Path.GetFileName(fileName);
                 return Path.Combine(directory, prefix, name);
             }
-            else if (_baseDirectory.StartsWith('/'))
-            {
-                //var appDataDirectory = Microsoft.Maui.Storage.FileSystem.Current.AppDataDirectory;
-                //using var fileStream = await FileSystem.Current.OpenAppPackageFileAsync(filePath);
-                //var assets = Application.Context.Assets;
-                //using var fileStream = await FileSystem.OpenPackageFileAsync(filePath);
-                //var fullPath = Path.Combine(FileSystem.AppDataDirectory, "MyFolder", "myfile.txt");
-                return Path.Combine(_baseDirectory, prefix, fileName);
-            }
             return Path.Combine(_baseDirectory, "..", prefix, fileName);
         }
 

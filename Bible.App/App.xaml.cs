@@ -22,7 +22,7 @@ namespace BibleApp
                 Ioc.Default.ConfigureServices(
                     new ServiceCollection()
                     //Services
-                    .AddSingleton<IDataService<BibleModel>, BibleReader>()
+                    //.AddSingleton<IDataService<BibleModel>, BibleReader>()
                     .AddSingleton<IUiDataService, BibleUiData>()
 #if DEBUG
                     //.AddSingleton<IUiDataService, TestUiData>()

@@ -1,0 +1,1 @@
+powershell -NoExit .\publish.ps1

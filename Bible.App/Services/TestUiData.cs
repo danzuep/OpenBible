@@ -5,13 +5,10 @@ namespace Bible.Reader.Services
 {
     public sealed class TestUiData : IUiDataService
     {
-        public BibleUiModel Load(string fileName, string suffix = ".xml") =>
-            LoadTest(66, suffix.Length * 3, fileName.Length * 3);
-
-        public async Task<BibleUiModel> LoadAsync(string fileName)
+        public async Task<BibleUiModel> LoadFileAsync(string fileName)
         {
             await Task.CompletedTask;
-            return Load(fileName);
+            return LoadTest(66, fileName.Length * 2, fileName.Length * 3);
         }
 
         public BibleUiModel LoadTest(int bookCount, int chapterCount, int verseCount, string name = "Books, Chapters, and Verses")

@@ -13,6 +13,6 @@ namespace Bible.App.Models
         }
 
         public override string ToString() =>
-            $"{Id} {Text}";
+            $"[{Id}] {Text}";
     }
 }

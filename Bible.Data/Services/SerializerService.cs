@@ -2,7 +2,6 @@
 using Bible.Data.Models;
 using System.Text.Json;
 using System.Text.Json.Nodes;
-using System.Xml.Serialization;
 
 namespace Bible.Data.Services
 {
@@ -12,17 +11,6 @@ namespace Bible.Data.Services
         private const string _relativeDirectory = "..\\..\\..\\..\\Bible.Data\\";
         public static string GetJsonFilePath(string name, string prefix = $"{_relativeDirectory}Json", string suffix = ".json") =>
             Path.Combine(_baseDirectory, prefix, $"{name}{suffix}");
-        public static string GetXmlFilePath(string name, string prefix = $"{_relativeDirectory}Xml", string suffix = ".xml") =>
-            Path.Combine(_baseDirectory, prefix, $"{name}{suffix}");
-
-        public static T? GetFromXmlFile<T>(string xmlFileName) where T : class
-        {
-            var xmlFilePath = GetXmlFilePath(xmlFileName);
-            using var fileStream = File.OpenRead(xmlFilePath);
-            var serializer = new XmlSerializer(typeof(T));
-            var result = serializer.Deserialize(fileStream) as T;
-            return result;
-        }
 
         /// <summary>
         /// Map the streamed data from a JSON file to an object.

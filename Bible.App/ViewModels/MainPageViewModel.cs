@@ -1,6 +1,4 @@
-﻿using Bible.Core.Abstractions;
-using Bible.Reader.Services;
-using Bible.App.Models;
+﻿using Bible.App.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
@@ -13,7 +11,7 @@ namespace Bible.App.ViewModels
         [ObservableProperty]
         private BibleUiModel? bible;
 
-        private const string _testUsxBook = "zho/OCCB/GEN";
+        //private const string _testUsxBook = "zho/OCCB/GEN";
 
         public ObservableCollection<string> Translations { get; } = [
             "eng/WEB",
@@ -30,12 +28,8 @@ namespace Bible.App.ViewModels
         [ObservableProperty]
         private int bookIndex = -1;
 
-        private int _chapterIndex = -1;
-        public int ChapterIndex
-        {
-            get => _chapterIndex;
-            set => SetProperty(ref _chapterIndex, value);
-        }
+        [ObservableProperty]
+        private int chapterIndex = -1;
 
         private readonly IUiDataService _readerService;
 
@@ -48,8 +42,7 @@ namespace Bible.App.ViewModels
         private async Task TranslationSelectedAsync(object? value)
         {
             var fileName = Translations[TranslationIndex];
-            Bible = await _readerService.LoadAsync(fileName);
-            //Bible = _readerService.Load(fileName);
+            Bible = await _readerService.LoadFileAsync(fileName);
             BookIndex = 0;
         }
     }
