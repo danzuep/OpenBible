@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="BibleApp.AppShell"
+    x:Class="Bible.App.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pages="clr-namespace:Bible.App.Pages"
-    Title="BibleApp"
+    Title="Bible App"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent

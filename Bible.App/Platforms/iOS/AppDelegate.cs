@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace BibleApp
+namespace Bible.App
 {
     [Register("AppDelegate")]
     public sealed class AppDelegate : MauiUIApplicationDelegate

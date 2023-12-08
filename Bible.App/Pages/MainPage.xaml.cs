@@ -11,11 +11,26 @@ namespace Bible.App.Pages
             InitializeComponent();
         }
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
+            await Task.CompletedTask;
             base.OnAppearing();
-            ViewModel.TranslationIndex = 0;
-            bibleChapterPicker.Focus();
+            await ViewModel.RefreshIdentifiersAsync();
+        }
+
+        private void OnLanguageSelectionChanged(object sender, EventArgs e)
+        {
+            if (sender is Picker picker && picker.SelectedItem is string selectedLanguage &&
+                ViewModel.Identifiers.TryGetValue(selectedLanguage, out List<TranslationUiModel>? translations))
+            {
+                bibleTranslationPicker.ItemsSource = translations;
+                if (ViewModel.SelectedLanguage == MainPageViewModel.Eng)
+                    bibleTranslationPicker.SelectedItem = translations
+                        .FirstOrDefault(t => t.Identifier == MainPageViewModel.Web);
+                if (bibleTranslationPicker.SelectedItem == null)
+                    bibleTranslationPicker.SelectedIndex = 0;
+                bibleChapterPicker.Focus();
+            }
         }
 
         private void OnBookSelectionChanged(object sender, EventArgs e)
@@ -29,13 +44,15 @@ namespace Bible.App.Pages
         {
             if (isChapterViewChange)
                 isChapterViewChange = false;
-            else if (sender is Picker picker && picker.SelectedItem is ChapterUiModel chapter && chapter.Id > 0)
+            else if (sender is Picker picker && picker.SelectedItem is ChapterUiModel chapter && chapter.Id > 1)
+            {
                 chapterCollectionView.ScrollTo(chapter.Id - 1, position: ScrollToPosition.Start, animate: false);
+            }
         }
 
         private void OnChapterCollectionViewScrolled(object sender, ItemsViewScrolledEventArgs e)
         {
-            if (ViewModel.ChapterIndex != e.FirstVisibleItemIndex)
+            if (ViewModel.ChapterIndex != e.FirstVisibleItemIndex && e.FirstVisibleItemIndex >= 0) // && e.VerticalDelta > 10
             {
                 isChapterViewChange = true;
                 ViewModel.ChapterIndex = e.FirstVisibleItemIndex;

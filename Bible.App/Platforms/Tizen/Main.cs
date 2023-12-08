@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace BibleApp
+namespace Bible.App
 {
     internal class Program : MauiApplication
     {

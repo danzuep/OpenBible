@@ -15,6 +15,13 @@
         <vm:MainPageViewModel />
     </ContentPage.BindingContext>
     -->
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem
+            Command="{Binding NavigateCommand}"
+            CommandParameter="{x:Type views:SettingsPage}"
+            IconImageSource="{StaticResource FontIconSettings}"
+            Text="Setup" />
+    </ContentPage.ToolbarItems>-->
 
     <Shell.TitleView>
         <StackLayout>
@@ -35,13 +42,21 @@
                     WidthRequest="70" />
                 <Picker
                     x:Name="bibleTranslationPicker"
-                    ItemsSource="{Binding Translations, Mode=OneTime}"
-                    SelectedIndex="{Binding TranslationIndex, Mode=TwoWay}"
+                    ItemsSource="{Binding Translations, Mode=OneWay}"
                     WidthRequest="120">
                     <Picker.Behaviors>
-                        <mct:EventToCommandBehavior Command="{Binding TranslationSelectedCommand}" EventName="SelectedIndexChanged" />
+                        <mct:EventToCommandBehavior
+                            Command="{Binding TranslationSelectedCommand}"
+                            CommandParameter="{Binding Source={x:Reference bibleTranslationPicker}, Path=SelectedItem, Mode=OneWay}"
+                            EventName="SelectedIndexChanged" />
                     </Picker.Behaviors>
                 </Picker>
+                <Picker
+                    x:Name="bibleLanguagePicker"
+                    ItemsSource="{Binding Languages, Mode=OneTime}"
+                    SelectedIndexChanged="OnLanguageSelectionChanged"
+                    SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
+                    WidthRequest="90" />
             </HorizontalStackLayout>
         </StackLayout>
     </Shell.TitleView>

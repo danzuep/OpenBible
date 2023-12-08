@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace BibleApp
+namespace Bible.App
 {
     public sealed class Program
     {

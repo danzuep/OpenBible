@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace BibleApp
+namespace Bible.App
 {
     [Application]
     public sealed class MainApplication : MauiApplication

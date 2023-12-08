@@ -3,7 +3,6 @@ using Bible.Reader.Models;
 using System;
 using System.Globalization;
 using System.Linq;
-using System.Transactions;
 
 namespace Bible.Reader.Adapters
 {

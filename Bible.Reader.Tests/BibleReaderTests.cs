@@ -33,9 +33,9 @@ namespace Bible.Reader.Tests
             var filePath = ExpandFilePath(fileName, fileType);
             var bible = BibleReader.GetFromFile<Usx3>(filePath, fileType);
             Assert.NotNull(bible);
-            var book = bible.Items.OfType<XmlUsx3Book>().First();
+            var book = bible.Items.OfType<Usx3Book>().First();
             Assert.Equal("GEN", book.Id);
-            var chapter = bible.Items.OfType<XmlUsx3Chapter>().First();
+            var chapter = bible.Items.OfType<Usx3Chapter>().First();
             Assert.Equal(1, chapter.Number);
         }
 

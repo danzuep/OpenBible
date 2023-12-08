@@ -1,15 +1,14 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.DependencyInjection;
+﻿using System.ComponentModel;
 
 namespace Bible.App.Pages
 {
-    public abstract class BasePage<TViewModel> : BasePage where TViewModel : ObservableObject
+    public abstract class BasePage<TViewModel> : BasePage where TViewModel : class, INotifyPropertyChanged
     {
-        public TViewModel ViewModel { get; }
+        public TViewModel ViewModel { get; private set; }
 
         protected BasePage(TViewModel? viewModel = null) : base()
         {
-            ViewModel = viewModel ?? Ioc.Default.GetRequiredService<TViewModel>();
+            ViewModel = viewModel ?? MauiProgram.GetRequiredService<TViewModel>();
             BindingContext = ViewModel;
         }
     }
@@ -18,8 +17,8 @@ namespace Bible.App.Pages
     {
         protected BasePage()
         {
-            if (string.IsNullOrWhiteSpace(Title))
-                Title = GetType().Name;
+            //if (string.IsNullOrWhiteSpace(Title))
+            //    Title = GetType().Name;
         }
     }
 }

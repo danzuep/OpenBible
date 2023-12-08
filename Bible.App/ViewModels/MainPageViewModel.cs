@@ -3,27 +3,27 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 using Bible.App.Abstractions;
+using Microsoft.Extensions.Logging.Abstractions;
+using Microsoft.Extensions.Logging;
 
 namespace Bible.App.ViewModels
 {
-    public sealed partial class MainPageViewModel : ObservableObject
+    public sealed partial class MainPageViewModel : BaseViewModel
     {
         [ObservableProperty]
         private BibleUiModel? bible;
 
-        //private const string _testUsxBook = "zho/OCCB/GEN";
-
-        public ObservableCollection<string> Translations { get; } = [
-            "eng/WEB",
-            "eng/WEBBE",
-            "eng/WEBME",
-            "chi/CUV",
-            "chi/CUVS",
-            //_testUsxBook,
-            "tha/KJVTHAI"];
+        public ObservableCollection<string> Languages { get; } = [];
 
         [ObservableProperty]
-        private int translationIndex = -1;
+        private string? selectedLanguage;
+
+        internal static readonly string Eng = "eng";
+        internal static readonly string Web = "WEB";
+        static readonly string _webName = "World English Bible";
+        public IList<TranslationUiModel> Translations { get; internal set; } = [];
+
+        public Dictionary<string, List<TranslationUiModel>> Identifiers { get; } = [];
 
         [ObservableProperty]
         private int bookIndex = -1;
@@ -32,17 +32,79 @@ namespace Bible.App.ViewModels
         private int chapterIndex = -1;
 
         private readonly IUiDataService _readerService;
+        private readonly ILogger _logger;
 
-        public MainPageViewModel(IUiDataService readerService)
+        public MainPageViewModel(IUiDataService readerService, ILogger? logger = null)
         {
             _readerService = readerService;
+            // TODO: fix logging injection
+            _logger = logger ?? NullLogger<MainPageViewModel>.Instance;
+        }
+
+        void InitializeSelections()
+        {
+            SelectedLanguage ??= Eng;
+            Translations = Identifiers[SelectedLanguage];
+        }
+
+        void Initialize()
+        {
+            Identifiers.Add(Eng, [new(Web, _webName)]);
+            Languages.Add(Eng);
+            InitializeSelections();
+        }
+
+        internal async Task RefreshIdentifiersAsync()
+        {
+            if (Connectivity.Current.NetworkAccess != NetworkAccess.Internet && !Identifiers.Any())
+                Initialize();
+            else
+            {
+                Identifiers.Clear();
+                Languages.Clear();
+                var translations = _readerService.AsyncGetBibleInfo();
+                await foreach (var bibleInfo in translations)
+                {
+                    var translation = new TranslationUiModel(bibleInfo.Identifier, bibleInfo.Name);
+                    if (Identifiers.ContainsKey(bibleInfo.Language))
+                        Identifiers[bibleInfo.Language].Add(translation);
+                    else
+                    {
+                        Identifiers.Add(bibleInfo.Language, [translation]);
+                        Languages.Add(bibleInfo.Language);
+                    }
+                }
+                if (!Identifiers.Any() || !Languages.Contains(Eng))
+                    Initialize();
+                else
+                    InitializeSelections();
+            }
         }
 
         [RelayCommand]
-        private async Task TranslationSelectedAsync(object? value)
+        private async Task TranslationSelectedAsync(TranslationUiModel? value)
         {
-            var fileName = Translations[TranslationIndex];
-            Bible = await _readerService.LoadFileAsync(fileName);
+            try
+            {
+                if (value != null && Identifiers.Count > 1)
+                {
+                    Bible = await _readerService.GetBibleAsync(value.Identifier);
+                }
+                if (Bible == null)
+                {
+                    Bible = await _readerService.LoadFileAsync(string.Join('/', Eng, Web));
+                }
+            }
+            catch (OperationCanceledException ex)
+            {
+                _logger.LogDebug(ex, ex.Message);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.Message);
+                System.Diagnostics.Debugger.Break();
+            }
+            ChapterIndex = -1;
             BookIndex = 0;
         }
     }
