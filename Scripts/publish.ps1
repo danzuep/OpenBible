@@ -15,6 +15,7 @@ $projectFile = "${projectFolder}/${projectAppName}/${projectAppName}.csproj";
 
 # restore the base project dependencies
 Set-Location -Path "${projectFolder}";
+dotnet clean;
 dotnet restore "${projectFile}";
 if (-not $?) {
     Write-Host "Project file not found.";

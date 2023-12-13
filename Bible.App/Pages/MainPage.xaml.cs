@@ -29,7 +29,6 @@ namespace Bible.App.Pages
                         .FirstOrDefault(t => t.Identifier == MainPageViewModel.Web);
                 if (bibleTranslationPicker.SelectedItem == null)
                     bibleTranslationPicker.SelectedIndex = 0;
-                bibleChapterPicker.Focus();
             }
         }
 
