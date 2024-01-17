@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Web", "Bible.Web\Bible.Web.csproj", "{083EA897-F0B8-4F47-84B3-0113EAFB6990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Web", "Bible.Web\Bible.Web.csproj", "{083EA897-F0B8-4F47-84B3-0113EAFB6990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Web.Client", "Bible.Web.Client\Bible.Web.Client.csproj", "{6DC562F8-71E6-44B5-B4DF-63FEB1A45A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Web.Client", "Bible.Web.Client\Bible.Web.Client.csproj", "{6DC562F8-71E6-44B5-B4DF-63FEB1A45A00}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Core", "Bible.Core\Bible.Core.csproj", "{FBD56AE9-A02E-43BF-9FFA-CC79829E98FA}"
 EndProject

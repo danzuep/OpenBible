@@ -1,14 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>Daniel Collingwood</Authors>
+    <Description>Open-source Blazor Bible website.</Description>
+    <RepositoryUrl>https://github.com/danzuep/BibleApp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PublishDir>../publish</PublishDir>
+    <PackageReleaseNotes>
+      0.1.0 Simple Bible website
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bible.Web.Client\Bible.Web.Client.csproj" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
+    <ProjectReference Include="..\Bible.Reader\Bible.Reader.csproj" />
+    <ProjectReference Include="..\Bible.Web.Client\Bible.Web.Client.csproj" />
   </ItemGroup>
 
 </Project>

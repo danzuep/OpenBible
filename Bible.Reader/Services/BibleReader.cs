@@ -55,7 +55,8 @@ namespace Bible.Reader.Services
             {
                 FileType.Json => GetFromJsonFile<T>(fileName),
                 FileType.Xml => GetFromXmlFile<T>(fileName),
-                FileType.Usx => GetFromXmlFile<T>(fileName),
+                //FileType.Usx => GetFromXmlFile<T>(fileName),
+                FileType.Usx => GetFromUsxFile<T>(fileName),
                 _ => throw new NotImplementedException()
             };
             return result;

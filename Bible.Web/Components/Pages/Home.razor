@@ -1,7 +1,37 @@
 ﻿@page "/"
+@using Bible.Core.Abstractions
+@using Bible.Core.Models
+@using Bible.Reader.Models
+@using Bible.Reader.Services
+@using Bible.Reader.Adapters
+@inject IDataService<BibleModel> DataService
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>John 1:1-4</h1>
 
-Welcome to your new app.
+<p>@john1</p>
+
+@code {
+    string john1 = "1 In the beginning was the Word, and the Word was with God, and the Word was God. 2 He was with God in the beginning. 3 Through him all things were made; without him nothing was made that has been made. 4 In him was life, and that life was the light of all mankind.";
+    public BibleModel? bibleModel { get; set; }
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     bibleModel = await DataService?.LoadAsync("eng/WEB");
+    //     string fileName = "zho/OCCB/GEN";
+    //     bibleModel = BibleReader.GetFromFile<BibleModel>(fileName, FileType.Usx);
+    //     bibleModel = DataService?.Load(fileName, ".usx");
+    //     string version = "eng/WEB";
+    //     bibleModel = DataService?.Load(version);
+    //     BibleReader.TransformUsx2Xml(file);
+    // }
+
+    // protected override void OnInitialized()
+    // {
+    //     string fileName = "zho/OCCB/GEN";
+    //     var bibleFile = BibleReader.GetFromFile<XmlUsx>(fileName, FileType.Usx);
+    //     var info = fileName.Split('/');
+    //     bibleModel = bibleFile.ToBibleFormat(info[0], info[1]);
+    // }
+}

@@ -1,4 +1,9 @@
+using Bible.Core.Abstractions;
+using Bible.Core.Models;
+using Bible.Reader.Services;
+using Bible.Web.Abstractions;
 using Bible.Web.Components;
+using Bible.Web.Services;
 
 namespace Bible.Web
 {
@@ -12,6 +17,8 @@ namespace Bible.Web
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents()
                 .AddInteractiveWebAssemblyComponents();
+
+            RegisterIoC(builder.Services);
 
             var app = builder.Build();
 
@@ -38,6 +45,18 @@ namespace Bible.Web
                 .AddAdditionalAssemblies(typeof(Client._Imports).Assembly);
 
             app.Run();
+        }
+
+        static IServiceCollection RegisterIoC(IServiceCollection services)
+        {
+#if DEBUG
+            services.AddLogging(o => o.AddDebug());
+#endif
+            services.AddSingleton<WebZefaniaService>();
+            services.AddSingleton<IUiDataService, BibleUiDataService>();
+            services.AddSingleton<IDataService<BibleModel>, BibleReader>();
+
+            return services;
         }
     }
 }

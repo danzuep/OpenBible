@@ -25,14 +25,21 @@
     // https://github.com/Glowstudent777/YouVersion-API/blob/main/src/api/v1/db/books.json (also versions)
     public static readonly string BibleAppEndpoint = "youversion://bible?reference=";
     internal static readonly string BibleYouVersionApiKey = "YOUR_KEY_GOES_HERE";
+    // https://app.thedigitalbiblelibrary.org/static/docs/api/index.html#get--api-public_entries_list
+    // https://thedigitalbiblelibrary.org/api/
+    // https://app.thedigitalbiblelibrary.org/entry/download_archive?id=9879dbb7cfe39e4d&license=4019&revision=97&type=release
+    // https://app.thedigitalbiblelibrary.org/entry/download_listing?id=a6e06d2c5b90ad89&license=42446&revision=
     // https://app.thedigitalbiblelibrary.org/entry?id=
     internal const string BibleYouVersionWebId = "9879dbb7cfe39e4d-01";
     internal const string BibleYouVersionWebbeId = "7142879509583d59-01";
     internal const string BibleYouVersionNivId = "78a9f6124f344018-01";
+    internal const string BibleYouVersionNivArchiveId = "5dd1a42b02d2dee6";
     internal const string BibleYouVersionEsv16Id = "f421fe261da7624f-01";
     internal const string BibleYouVersionCevId = "555fef9a6cb31151-01";
+    internal const string BibleYouVersionOccbArchiveId = "a6e06d2c5b90ad89";
     internal const string BibleYouVersionGntdId = "61fd76eafa1577c2-02";
     internal const string BibleYouVersionNrsvId = "1fd99b0d5841e19b-02";
     internal const string BibleYouVersionAmpId = "a81b73293d3080c9-01";
     internal const string BibleYouVersionWebbeBooksChapters = $"/bibles/{BibleYouVersionWebbeId}/books/GEN/chapters";
+    // USX to HTML: https://github.com/ubsicap/usx/issues/39
 }
