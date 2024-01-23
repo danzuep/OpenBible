@@ -1,0 +1,68 @@
+﻿@page "/feed"
+@using System.ServiceModel.Syndication
+@using System.Xml
+@inject HttpClient httpClient
+
+<PageTitle>Verse of the Day</PageTitle>
+
+<h1>@pageTitle</h1>
+
+<hr />
+
+@if (feedItems == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    foreach (var feedItem in feedItems)
+    {
+        <div class="card-body">
+            <h4>@feedItem.Title</h4>
+            <p>@feedItem.Content</p>
+        </div>
+    }
+}
+
+<div class="card-footer">
+    <footer>
+        <em>@copyright</em>
+    </footer>
+</div>
+
+@code {
+    static readonly string defaultFeed = "https://www.biblegateway.com/votd/get/?format=atom";
+    string? pageTitle;
+    List<FeedItem>? feedItems;
+    string? copyright;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetFeedAsync(defaultFeed);
+    }
+
+    private async Task GetFeedAsync(string feedUrl)
+    {
+        using var xmlStream = await httpClient.GetStreamAsync(feedUrl);
+        using var xmlReader = XmlReader.Create(xmlStream);
+        var feed = SyndicationFeed.Load(xmlReader);
+        pageTitle = feed.Title?.Text;
+        copyright = feed.Id?.Split(',').LastOrDefault();
+        feedItems = new List<FeedItem>();
+        foreach (var item in feed.Items)
+        {
+            if (item?.Content is TextSyndicationContent content && !string.IsNullOrWhiteSpace(content.Text))
+            {
+                var feedText = content.Text.Replace("&ldquo;[", "<strong>");
+                var strongEnd = feedText.IndexOf("]");
+                if (feedText.StartsWith("<strong>") && strongEnd > 0)
+                    feedText = feedText.Remove(strongEnd, 1).Insert(strongEnd, "</strong><br />");
+                feedItems.Add(new(item.Title.Text, (MarkupString)feedText));
+            }
+            else if (!string.IsNullOrWhiteSpace(item?.Title.Text))
+                feedItems.Add(new(item.Title.Text, new()));
+        }
+    }
+
+    record FeedItem(string? Title, MarkupString Content);
+}
