@@ -1,0 +1,109 @@
+name: "Build"
+
+on:
+  workflow_call:
+    inputs:
+      project-name:
+        description: 'The name of the project'
+        required: true
+        type: string
+      project-version:
+        description: 'The project version'
+        required: true
+        type: string
+      project-output:
+        description: "Path of the publish output directory"
+        default: "publish"
+        type: string
+      name:
+        description: 'Artifact name'
+        default: 'github-pages'
+        type: string
+    outputs:
+      project_file:
+        description: 'The project file name'
+        value: ${{ jobs.build_website.outputs.project-file }}
+      page_url:
+        description: 'The webpage URL'
+        value: ${{ jobs.deploy.outputs.page_url }}
+
+jobs:
+  build_website:
+    name: Build
+    runs-on: 'ubuntu-latest'
+    env:
+      PROJECT_PATH: "./${{ inputs.project-name }}/${{ inputs.project-name }}.csproj"
+      NET_VERSION: '8.x'
+
+    outputs:
+      project-file: ${{ env.PROJECT_PATH }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # https://github.com/actions/setup-dotnet
+    - name: Get .NET ${{ env.NET_VERSION }} externals
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.NET_VERSION }}
+        dotnet-quality: 'ga'
+
+    # https://github.com/dotnet/runtime/blob/main/src/mono/wasm/features.md
+    - name: Install .NET WebAssembly workload
+      run: dotnet workload install wasm-tools;
+        # dotnet workload restore;
+
+    - name: Restore project dependencies
+      run: |
+        dotnet restore ${{ env.PROJECT_PATH }}
+        dotnet publish ${{ env.PROJECT_PATH }} -c:Release -p:Version=${{ inputs.project-version }} -o:${{ inputs.project-output }} --no-restore --nologo
+
+    # "https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-8.0#github-pages"
+    # "To deploy folders starting with underscore, add an empty .nojekyll file to the Git branch."
+    - name: Add .nojekyll file
+      run: touch "${{ inputs.project-output }}/wwwroot/.nojekyll"
+
+    # # changes the base-tag in index.html from '/' to match GitHub Pages repository subdirectory
+    # - name: Change base-tag in index.html from / to the repository name
+    #   run: |
+    #     repositoryName=$(basename '${{ github.repository }}')
+    #     echo "Repository name: $repositoryName"
+    #     sed -i 's/<base href="\/" \/>/<base href="\/$repositoryName\/" \/>/g' "${{ inputs.project-output }}/wwwroot/index.html"
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    # https://github.com/actions/upload-pages-artifact
+    - name: Upload GitHub Pages artifact for web
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: "${{ inputs.project-output }}/wwwroot"
+
+  # Deploy job
+  deploy:
+    name: Deploy App to GitHub Pages
+    # Add a dependency to the build job
+    needs:
+      - build_website
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: ${{ inputs.name }}
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      # https://github.com/actions/deploy-pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action

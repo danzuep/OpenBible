@@ -9,6 +9,9 @@
     <PackageReleaseNotes>
       0.1.0 Simple Bible website
     </PackageReleaseNotes>
+    <RunAOTCompilation>true</RunAOTCompilation>
+    <WasmStripILAfterAOT>true</WasmStripILAfterAOT>
+    <StaticWebAssetsEnabled>true</StaticWebAssetsEnabled>
   </PropertyGroup>
 
   <ItemGroup>
