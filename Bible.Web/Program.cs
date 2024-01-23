@@ -49,6 +49,7 @@ namespace Bible.Web
 
         static IServiceCollection RegisterIoC(IServiceCollection services)
         {
+            services.AddHttpClient();
 #if DEBUG
             services.AddLogging(o => o.AddDebug());
 #endif

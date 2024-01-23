@@ -1,0 +1,76 @@
+﻿@page "/feed"
+@using System.ServiceModel.Syndication
+@using System.Xml
+@inject HttpClient httpClient
+
+<PageTitle>Verse of the Day</PageTitle>
+
+<h1>@pageTitle</h1>
+@* 
+<select class="dropdown" @onchange="OnValueChangedAsync" title="Select feed source ">
+    @foreach (var feedUrl in feedUrls)
+    {
+        <option>@feedUrl</option>
+    }
+</select>
+ *@
+<hr />
+
+@if (feedItems == null)
+{
+    <p><em>Loading...</em></p>
+    @* <div id="dailyVersesWrapper"></div>
+    <script async defer src="https://dailyverses.net/get/verse.js?language=niv"></script> *@
+}
+else
+{
+    foreach (var feedItem in feedItems)
+    {
+        <h4>@feedItem.Title</h4>
+        <p>@feedItem.Content</p>
+        <hr />
+    }
+}
+
+@code {
+    static readonly string defaultFeed = "https://www.biblegateway.com/votd/get/?format=atom";
+    // static readonly List<string> feedUrls = new()
+    // {
+    //     defaultFeed,
+    //     "https://feeds.feedburner.com/hl-devos-votd"
+    // };
+    string? pageTitle;
+    List<FeedItem>? feedItems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetFeedAsync(defaultFeed);
+    }
+
+    private async Task GetFeedAsync(string feedUrl)
+    {
+        using var xmlStream = await httpClient.GetStreamAsync(feedUrl);
+        using var xmlReader = XmlReader.Create(xmlStream);
+        var feed = SyndicationFeed.Load(xmlReader);
+        pageTitle = feed.Title.Text;
+        feedItems = new List<FeedItem>();
+        foreach (var item in feed.Items)
+        {
+            if (item?.Content is TextSyndicationContent content && !string.IsNullOrWhiteSpace(content.Text))
+                feedItems.Add(new(item.Title.Text, (MarkupString)content.Text));
+            else if (!string.IsNullOrWhiteSpace(item?.Title.Text))
+                feedItems.Add(new(item.Title.Text, new()));
+        }
+    }
+
+    // private async Task OnValueChangedAsync(ChangeEventArgs e)
+    // {
+    //     if (e?.Value?.ToString() is string selectedFeed)
+    //     {
+    //         await GetFeedAsync(selectedFeed);
+    //         StateHasChanged();
+    //     }
+    // }
+
+    record FeedItem(string? Title, MarkupString Content);
+}
