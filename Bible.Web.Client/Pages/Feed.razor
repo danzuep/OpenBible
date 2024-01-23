@@ -1,0 +1,58 @@
+﻿@page "/feed"
+@using System.ServiceModel.Syndication
+@using System.Xml
+@rendermode InteractiveAuto
+
+<PageTitle>@pageTitle</PageTitle>
+
+<h1>@pageTitle</h1>
+
+@if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(content))
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @((MarkupString)content)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}
+
+@code {
+    string? title;
+    string? content;
+    string? pageTitle;
+    static readonly string feedUrl = "https://www.biblegateway.com/votd/get/?format=atom";
+
+	// bool isRendered;
+	
+    // protected override void OnAfterRender(bool firstRender)
+    // {
+    //     if (firstRender) { }
+    // }
+
+    // protected override void OnParametersSet()
+    
+    // protected override async Task OnInitializedAsync()
+    
+    protected override void OnInitialized()
+    {
+        var xmlReader = XmlReader.Create(feedUrl);
+        var feed = SyndicationFeed.Load(xmlReader);
+        pageTitle = feed.Title.Text;
+        var item = feed.Items.FirstOrDefault();
+        title = item?.Title.Text;
+        content = (item?.Content as TextSyndicationContent)?.Text;
+    }
+}
