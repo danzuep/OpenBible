@@ -1,13 +1,18 @@
-﻿@inherits LayoutComponentBase
+﻿@using System.Reflection
+@inherits LayoutComponentBase
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
-
+    
     <main>
-        <div class="top-row px-4 auth">
-            <LoginDisplay />
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        <div class="top-row px-4" style="display: flex;">
+            <div style="flex: 1;" class="text-muted" data-toggle="tooltip" title="@informationalVersion">
+                @displayVersion
+            </div>
+            <div style="flex: 1; text-align: right;">
+                <a class="btn btn-link navbar-item" href="@library" target="_blank">Bible Versions</a>
+            </div>
         </div>
 
         <article class="content px-4">
@@ -15,3 +20,19 @@
         </article>
     </main>
 </div>
+
+@code {
+    static string library = "https://app.thedigitalbiblelibrary.org/entries/open_access_entries?type=text";
+    string? informationalVersion;
+    string? displayVersion;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        var assembly = Assembly.GetExecutingAssembly();
+        informationalVersion = assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()
+            ?.InformationalVersion ?? assembly.GetName().Version?.ToString() ?? "0.1.0";
+        var assemblyVersion = informationalVersion.Split('+')[0];
+        displayVersion = $"v{assemblyVersion}";
+    }
+}
