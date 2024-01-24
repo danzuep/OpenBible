@@ -1,0 +1,81 @@
+# name: Build
+
+on:
+  workflow_call:
+    inputs:
+      project_name:
+        description: 'The name of the project'
+        required: true
+        type: string
+      project_version:
+        description: 'The project version'
+        required: true
+        type: string
+      project_output:
+        description: "Path of the publish output directory"
+        default: "publish"
+        type: string
+    outputs:
+      project_path:
+        description: 'The project file path'
+        value: ${{ jobs.build_website.outputs.project_path }}
+
+jobs:
+  build_website:
+    name: 🧱 ${{ inputs.project_name }} 🏗 ${{ inputs.project_version }}
+    runs-on: 'ubuntu-latest'
+    env:
+      NET_VERSION: '8.x'
+      PROJECT_PATH: "./${{ inputs.project_name }}/${{ inputs.project_name }}.csproj"
+    outputs:
+      project_path: ${{ env.PROJECT_PATH }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # https://github.com/actions/setup-dotnet
+      - name: Get .NET ${{ env.NET_VERSION }} externals
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.NET_VERSION }}
+          dotnet-quality: 'ga'
+
+      # https://github.com/actions/cache/blob/main/examples.md#c---nuget
+      - name: Get any cached NuGet packages from the last run
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: ${{ runner.os }}-nuget-
+
+      # https://github.com/dotnet/runtime/blob/main/src/mono/wasm/features.md
+      - name: Install .NET WebAssembly workload
+        run: dotnet workload install wasm-tools;
+
+      - name: Restore project dependencies
+        working-directory: ${{ inputs.project_name }}
+        run: dotnet restore
+
+      - name: Version and publish the project
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c:Release -p:GHPages=true -p:Version=${{ inputs.project_version }} -o:${{ inputs.project_output }} --no-restore --nologo
+
+      # "https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-8.0#github-pages"
+      - name: Add an empty .nojekyll file to deploy folders starting with an underscore
+        run: touch "${{ inputs.project_output }}/wwwroot/.nojekyll"
+
+      - name: Change base-tag in index.html from '/'' to the repository name for GitHub Pages
+        shell: bash
+        run: |
+          repositoryName=$(basename '${{ github.repository }}')
+          echo "Renaming base-tag in index.html from '/' to the repository name: $repositoryName"
+          sed -i "s/<base href=\"\\/\" \/>/<base href=\"\\/${repositoryName}\\/\" \/>/g" "${{ inputs.project_output }}/wwwroot/index.html"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # https://github.com/actions/upload-pages-artifact
+      - name: Upload GitHub Pages artifact for web
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "${{ inputs.project_output }}/wwwroot"

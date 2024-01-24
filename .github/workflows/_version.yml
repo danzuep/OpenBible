@@ -1,0 +1,119 @@
+# name: 🧬 Version
+# run-name: Get version with GitVersion
+
+on:
+  workflow_call:
+    inputs:
+      project_search:
+        description: 'The name of the project to search for'
+        required: false
+        type: string
+    outputs:
+      repositoryName:
+        description: 'The repository app project name'
+        value: ${{ jobs.version.outputs.repositoryName }}
+      projectFile:
+        description: 'The repository app project file'
+        value: ${{ jobs.version.outputs.projectFile }}
+      semVer:
+        description: 'GitVersion semantic version'
+        value: ${{ jobs.version.outputs.semVer }}
+
+jobs:
+  version:
+    name: 🧬 GitVersion
+    runs-on: 'ubuntu-latest'
+
+    outputs: # alternative usage: $GitVersion_<outputName>
+      semVer: ${{ steps.gitversion.outputs.semVer }}
+      fullSemVer: ${{ steps.gitversion.outputs.fullSemVer }}
+      nuGetVersion: ${{ steps.gitversion.outputs.nuGetVersion }}
+      majorMinorPatch: ${{ steps.gitversion.outputs.majorMinorPatch }}
+      preReleaseLabel: ${{ steps.gitversion.outputs.preReleaseLabel }}
+      commitDate: ${{ steps.gitversion.outputs.commitDate }}
+      repositoryName: ${{ steps.metadata.outputs.repositoryName }}
+      projectFile: ${{ steps.metadata.outputs.projectFile }}
+
+    steps:
+      # https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
+      - name: Fetch all tags and branches for GitVersion
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # https://github.com/GitTools/actions/blob/main/docs/examples/github/gitversion/setup/usage-examples.md#example-1
+      - name: Set up GitVersion
+        uses: gittools/actions/gitversion/setup@v0
+        with:
+          versionSpec: '5.x'
+
+      # https://github.com/GitTools/actions/blob/main/docs/examples/github/gitversion/execute/usage-examples.md#example-5
+      # For a list of all GitVersion Version Variables, see https://gitversion.net/docs/reference/variables
+      # pwsh> dotnet-gitversion | ConvertFrom-Json
+      - name: Use GitVersion to determine version
+        id: gitversion # e.g. steps.gitversion.outputs.<outputName>
+        uses: gittools/actions/gitversion/execute@v0
+
+      - run: |
+          echo 'Get the repository project name.'
+          repositoryName=$(basename '${{ github.repository }}')
+          echo "Repository name: $repositoryName"
+          echo "repositoryName=${repositoryName}" >> $GITHUB_ENV
+
+      - run: |
+          echo "Generate release notes from the Git commit log."
+          echo "## $repositoryName" > release-notes.txt
+          git log --pretty=format:"- %s" >> release-notes.txt
+
+      - run: |
+          echo 'Save the project name to a file.'
+          echo "repositoryName=${repositoryName}" > version.txt
+
+      - run: |
+          echo 'Save the repository solution file path'
+          shopt -s globstar
+          for solution in ./*.sln; do
+            echo "Solution file: $solution"
+            echo "solutionFile=${solution}" >> version.txt
+          done
+
+      - id: metadata
+        shell: bash
+        run: |
+          echo 'Save the main app project file path'
+          echo "repositoryName=${repositoryName}" >> $GITHUB_OUTPUT
+          echo "Project name to search for: ${{ inputs.project_search }}"
+          searchName="${{ inputs.project_search }}"
+          for project in ./**/*.csproj; do
+            echo "Project file: $project"
+            if [[ $project == *"${searchName}"* ]]; then
+              echo "projectFile=${project}" >> $GITHUB_OUTPUT
+            fi
+            echo "projectFile=${project}" >> version.txt
+          done
+
+      - run: |
+          echo 'Save the GitVersion environment variables to a file.'
+          for var in $(env | grep '^GitVersion_' | cut -d= -f1); do
+              echo "$var=${!var}" >> version.txt
+          done
+
+      # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#adding-a-job-summary
+      - name: Markdown workflow job summary
+        run: |
+          echo '### ${{ env.workflowVersion }} build summary' >> $GITHUB_STEP_SUMMARY
+          echo "Repository: ${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
+          echo "Branch: ${{ github.ref }}" >> $GITHUB_STEP_SUMMARY
+          echo 'Commit Date: ${{ steps.gitversion.outputs.commitDate }}' >> $GITHUB_STEP_SUMMARY
+          echo 'Full Semantic Version: ${{ steps.gitversion.outputs.fullSemVer }}' >> $GITHUB_STEP_SUMMARY
+          echo 'Pre-release Label: ${{ steps.gitversion.outputs.preReleaseLabel }}' >> $GITHUB_STEP_SUMMARY
+        env:
+          workflowVersion: '${{ steps.metadata.outputs.repositoryName }} version ${{ steps.gitversion.outputs.semVer }}'
+
+      # https://github.com/actions/upload-artifact
+      - name: Upload version artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          path: |
+            version.txt
+            release-notes.txt
