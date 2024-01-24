@@ -13,6 +13,10 @@ namespace Bible.Web
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+#if DEBUG
+            builder.Services.AddLogging(o => o.AddDebug());
+#endif
+
             await builder.Build().RunAsync();
         }
     }
