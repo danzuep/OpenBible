@@ -17,6 +17,6 @@ namespace Bible.Core.Models
             Reference.GetHashCode();
 
         public override string ToString() =>
-            Reference.ToString();
+            Reference.ToReference();
     }
 }

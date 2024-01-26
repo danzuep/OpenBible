@@ -10,7 +10,6 @@
 
 @if (feedItems == null)
 {
-    @* <p><em>Loading...</em></p> *@
     <div id="dailyVersesWrapper"></div>
     <script async defer src="https://dailyverses.net/get/verse.js?language=niv"></script>
 }
@@ -22,10 +21,11 @@ else
         <p>@feedItem.Content</p>
         <hr />
     }
+    @* <ListGenericItems TExample="FeedItem" ItemList="@feedItems" /> *@
 }
 
 @code {
-    static readonly string defaultFeed = "https://www.biblegateway.com/votd/get/?format=atom";
+    // static readonly string defaultFeed = "https://www.biblegateway.com/votd/get/?format=atom";
     string pageTitle = "Verse of the Day";
     List<FeedItem>? feedItems;
     HttpClient httpClient = new();

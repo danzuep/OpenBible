@@ -1,3 +1,5 @@
+using Bible.Core.Models;
+using Bible.Web.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -13,11 +15,20 @@ namespace Bible.Web
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-#if DEBUG
-            builder.Services.AddLogging(o => o.AddDebug());
-#endif
+            RegisterIoC(builder.Services);
 
             await builder.Build().RunAsync();
+        }
+
+        static IServiceCollection RegisterIoC(IServiceCollection services)
+        {
+#if DEBUG
+            services.AddLogging(o => o.AddDebug());
+#endif
+            // Services
+            services.AddSingleton<IDataService<IEnumerable<BibleBook>>, DataService>();
+
+            return services;
         }
     }
 }

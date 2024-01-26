@@ -10,18 +10,26 @@
             <div style="flex: 1;" class="text-muted" data-toggle="tooltip" title="@informationalVersion">
                 @displayVersion
             </div>
+@* 
+            <SearchBox @bind-SearchText="@SearchText" />
+ *@
             <div style="flex: 1; text-align: right;">
                 <a class="btn btn-link navbar-item" href="@library" target="_blank">Bible Versions</a>
             </div>
         </div>
 
         <article class="content px-4">
-            @Body
+            <CascadingValue Value="@SearchText">
+                @Body
+            </CascadingValue>
         </article>
     </main>
 </div>
 
 @code {
+    public string SearchText { get; set; } = "John 1";
+
+    string searchText = string.Empty;
     static string library = "https://app.thedigitalbiblelibrary.org/entries/open_access_entries?type=text";
     string? informationalVersion;
     string? displayVersion;

@@ -1,0 +1,30 @@
+﻿@using System.Diagnostics.CodeAnalysis
+
+<div class="nav-item px-5">
+    <ListGenericItems2 TItem="int" ItemList="@chapters" Context="chapter">
+        <ItemTemplate>
+            <NavLink class="nav-link" href="@($"{Book}/{chapter}")">
+                <button>@chapter</button>
+            </NavLink>
+        </ItemTemplate>
+    </ListGenericItems2>
+</div>
+
+@code {
+    [Parameter]
+    public int ChapterCount { get; set; } = 1;
+
+    [Parameter, AllowNull, EditorRequired]
+    public string Book { get; set; }
+
+    [Parameter]
+    public EventCallback<int> SelectionChanged { get; set; }
+
+    private IReadOnlyList<int>? chapters;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        chapters = Enumerable.Range(1, ChapterCount).ToList();
+    }
+}

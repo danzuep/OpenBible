@@ -1,12 +1,74 @@
 ﻿@page "/"
+@* @page "/{BookName}/{ChapterNumber}" *@
+@using Bible.Core.Models
+@using System.Diagnostics.CodeAnalysis
+@inject IDataService<IEnumerable<BibleBook>> DataService
 
 <PageTitle>Bible</PageTitle>
 
-<h1>@reference</h1>
+<div>
+    <input class="rounded" @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search" />
+    <button @onclick="LoadBookAndChapter">Go</button>
+</div>
 
-<p>@verseText</p>
+<BibleChapterTemplate BibleChapter="@bibleChapter" />
 
 @code {
-    string reference = "John 1:1-4";
-    string verseText = "1 In the beginning was the Word, and the Word was with God, and the Word was God. 2 He was with God in the beginning. 3 Through him all things were made; without him nothing was made that has been made. 4 In him was life, and that life was the light of all mankind.";
+    // [CascadingParameter]
+    public string? SearchText { get; set; } = "John 1";
+
+    public BibleChapter? bibleChapter { get; set; }
+
+    string? bookName;
+    int chapterNumber = 1;
+
+    IEnumerable<BibleBook>? bibleBooks;
+
+    MarkupString? bibleVerses;
+
+    List<BibleFootnote> verseNotes = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        bibleBooks = await DataService.LoadAsync();
+        LoadBookAndChapter();
+    }
+
+    void LoadBookAndChapter()
+    {
+        GetBookAndChapter();
+        var bibleBook = bibleBooks!.Where(b => b.Reference.BookName == bookName).FirstOrDefault();
+        bibleChapter = bibleBook?.Chapters.Where(c => c.Id == chapterNumber).FirstOrDefault();
+        StateHasChanged();
+    }
+
+    void GetBookAndChapter()
+    {
+        var chars = new char[] { ' ', '_', '-', ':', ';' };
+        var words = SearchText?.Split(chars);
+        if (words?.Length > 0)
+        {
+            if (!char.IsDigit(words[0][0]))
+            {
+                bookName = words[0];
+                if (words.Length > 1 && int.TryParse(words[1], out int chapter))
+                {
+                    chapterNumber = chapter;
+                }
+            }
+            else if (words.Length > 1)
+            {
+                bookName = string.Join(' ', words[0], words[1]);
+                if (words.Length > 2 && int.TryParse(words[2], out int chapter))
+                {
+                    chapterNumber = chapter;
+                }
+            }
+            else
+            {
+                bookName = SearchText;
+            }
+        }
+    }
 }
