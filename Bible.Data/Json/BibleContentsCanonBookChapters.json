@@ -1,0 +1,398 @@
+[
+  {
+    "Id": "GEN",
+    "Name": "Genesis",
+    "ChapterCount": 50,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "EXO",
+    "Name": "Exodus",
+    "ChapterCount": 40,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "LEV",
+    "Name": "Leviticus",
+    "ChapterCount": 27,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "NUM",
+    "Name": "Numbers",
+    "ChapterCount": 36,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "DEU",
+    "Name": "Deuteronomy",
+    "ChapterCount": 34,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "JOS",
+    "Name": "Joshua",
+    "ChapterCount": 24,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "JDG",
+    "Name": "Judges",
+    "ChapterCount": 21,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "RUT",
+    "Name": "Ruth",
+    "ChapterCount": 4,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "1SA",
+    "Name": "1 Samuel",
+    "ChapterCount": 31,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "2SA",
+    "Name": "2 Samuel",
+    "ChapterCount": 24,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "1KI",
+    "Name": "1 Kings",
+    "ChapterCount": 22,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "2KI",
+    "Name": "2 Kings",
+    "ChapterCount": 25,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "1CH",
+    "Name": "1 Chronicles",
+    "ChapterCount": 29,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "2CH",
+    "Name": "2 Chronicles",
+    "ChapterCount": 36,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "EZR",
+    "Name": "Ezra",
+    "ChapterCount": 10,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "NEH",
+    "Name": "Nehemiah",
+    "ChapterCount": 13,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "EST",
+    "Name": "Esther",
+    "ChapterCount": 10,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "JOB",
+    "Name": "Job",
+    "ChapterCount": 42,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "PSA",
+    "Name": "Psalms",
+    "ChapterCount": 150,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "PRO",
+    "Name": "Proverbs",
+    "ChapterCount": 31,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "ECC",
+    "Name": "Ecclesiastes",
+    "ChapterCount": 12,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "SNG",
+    "Name": "Song of Solomon",
+    "ChapterCount": 8,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "ISA",
+    "Name": "Isaiah",
+    "ChapterCount": 66,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "JER",
+    "Name": "Jeremiah",
+    "ChapterCount": 52,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "LAM",
+    "Name": "Lamentations",
+    "ChapterCount": 5,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "EZK",
+    "Name": "Ezekiel",
+    "ChapterCount": 48,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "DAN",
+    "Name": "Daniel",
+    "ChapterCount": 12,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "HOS",
+    "Name": "Hosea",
+    "ChapterCount": 14,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "JOL",
+    "Name": "Joel",
+    "ChapterCount": 3,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "AMO",
+    "Name": "Amos",
+    "ChapterCount": 9,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "OBA",
+    "Name": "Obadiah",
+    "ChapterCount": 1,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "JON",
+    "Name": "Jonah",
+    "ChapterCount": 4,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "MIC",
+    "Name": "Micah",
+    "ChapterCount": 7,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "NAM",
+    "Name": "Nahum",
+    "ChapterCount": 3,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "HAB",
+    "Name": "Habakkuk",
+    "ChapterCount": 3,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "ZEP",
+    "Name": "Zephaniah",
+    "ChapterCount": 3,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "HAG",
+    "Name": "Haggai",
+    "ChapterCount": 2,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "ZEC",
+    "Name": "Zechariah",
+    "ChapterCount": 14,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "MAL",
+    "Name": "Malachi",
+    "ChapterCount": 4,
+    "IsNewTestament": false
+  },
+  {
+    "Id": "MAT",
+    "Name": "Matthew",
+    "ChapterCount": 28,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "MRK",
+    "Name": "Mark",
+    "ChapterCount": 16,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "LUK",
+    "Name": "Luke",
+    "ChapterCount": 24,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "JHN",
+    "Name": "John",
+    "ChapterCount": 21,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "ACT",
+    "Name": "Acts",
+    "ChapterCount": 28,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "ROM",
+    "Name": "Romans",
+    "ChapterCount": 16,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "1CO",
+    "Name": "1 Corinthians",
+    "ChapterCount": 16,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "2CO",
+    "Name": "2 Corinthians",
+    "ChapterCount": 13,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "GAL",
+    "Name": "Galatians",
+    "ChapterCount": 6,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "EPH",
+    "Name": "Ephesians",
+    "ChapterCount": 6,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "PHP",
+    "Name": "Philippians",
+    "ChapterCount": 4,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "COL",
+    "Name": "Colossians",
+    "ChapterCount": 4,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "1TH",
+    "Name": "1 Thessalonians",
+    "ChapterCount": 5,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "2TH",
+    "Name": "2 Thessalonians",
+    "ChapterCount": 3,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "1TI",
+    "Name": "1 Timothy",
+    "ChapterCount": 6,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "2TI",
+    "Name": "2 Timothy",
+    "ChapterCount": 4,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "TIT",
+    "Name": "Titus",
+    "ChapterCount": 3,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "PHM",
+    "Name": "Philemon",
+    "ChapterCount": 1,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "HEB",
+    "Name": "Hebrews",
+    "ChapterCount": 13,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "JAS",
+    "Name": "James",
+    "ChapterCount": 5,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "1PE",
+    "Name": "1 Peter",
+    "ChapterCount": 5,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "2PE",
+    "Name": "2 Peter",
+    "ChapterCount": 3,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "1JN",
+    "Name": "1 John",
+    "ChapterCount": 5,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "2JN",
+    "Name": "2 John",
+    "ChapterCount": 1,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "3JN",
+    "Name": "3 John",
+    "ChapterCount": 1,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "JUD",
+    "Name": "Jude",
+    "ChapterCount": 1,
+    "IsNewTestament": true
+  },
+  {
+    "Id": "REV",
+    "Name": "Revelation",
+    "ChapterCount": 22,
+    "IsNewTestament": true
+  }
+]

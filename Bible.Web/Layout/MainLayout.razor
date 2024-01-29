@@ -1,38 +1,48 @@
-﻿@using System.Reflection
-@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-    
-    <main>
-        <div class="top-row px-4" style="display: flex;">
-            <div style="flex: 1;" class="text-muted" data-toggle="tooltip" title="@informationalVersion">
-                @displayVersion
-            </div>
-@* 
-            <SearchBox @bind-SearchText="@SearchText" />
- *@
-            <div style="flex: 1; text-align: right;">
-                <a class="btn btn-link navbar-item" href="@library" target="_blank">Bible Versions</a>
-            </div>
-        </div>
+﻿@inherits LayoutComponentBase
+@using System.Reflection
 
-        <article class="content px-4">
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudText Typo="Typo.h5" Class="ml-3">Open Bible</MudText>
+        <MudText Typo="Typo.h5" Class="ml-3" data-toggle="tooltip" title="@informationalVersion">@displayVersion</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="@SearchText" Immediate="true" Variant="Variant.Outlined" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" />
+        <MudSpacer />
+        <MudLink Class="ml-3" Href="https://github.com/danzuep/BibleApp" Target="_blank" Color="Color.Inherit">Source</MudLink>
+        <MudLink Class="ml-3" Href="@library" Target="_blank" Color="Color.Inherit">Bible Versions</MudLink>
+        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+        <NavMenu />
+    </MudDrawer>
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.ExtraLarge">
             <CascadingValue Value="@SearchText">
                 @Body
             </CascadingValue>
-        </article>
-    </main>
-</div>
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+<style>
+    .mud-input-slot {
+        color: white !important;
+    }
+</style>
 
 @code {
-    public string SearchText { get; set; } = "John 1";
+    public string? SearchText { get; set; } = "John 1";
 
     string searchText = string.Empty;
     static string library = "https://app.thedigitalbiblelibrary.org/entries/open_access_entries?type=text";
     string? informationalVersion;
     string? displayVersion;
+    bool _drawerOpen = true;
 
     protected override void OnInitialized()
     {
@@ -42,5 +52,10 @@
             ?.InformationalVersion ?? assembly.GetName().Version?.ToString() ?? "0.1.0";
         var assemblyVersion = informationalVersion.Split('+')[0];
         displayVersion = $"v{assemblyVersion}";
+    }
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
     }
 }

@@ -1,30 +1,27 @@
-﻿@using System.Diagnostics.CodeAnalysis
+@using Bible.Web.Models
+@inject NavigationManager Navigation
 
-<div class="nav-item px-5">
-    <ListGenericItems2 TItem="int" ItemList="@chapters" Context="chapter">
+<MudNavGroup Title="@Title" Expanded="@Expanded" ExpandIcon="@Icons.Material.Filled.ExpandMore">
+    <ListGenericItems2 TItem="BibleBookNav" ItemList="@ItemList" Context="book">
         <ItemTemplate>
-            <NavLink class="nav-link" href="@($"{Book}/{chapter}")">
-                <button>@chapter</button>
-            </NavLink>
+            <MudNavGroup Title="@book.Name" ExpandIcon="@Icons.Material.Filled.ExpandMore">
+                <ListGenericItems2 TItem="int" ItemList="@book.Chapters" Context="chapter">
+                    <ItemTemplate>
+                        <MudNavLink href="@($"{book.Name}/{chapter}")">@chapter</MudNavLink>
+                    </ItemTemplate>
+                </ListGenericItems2>
+            </MudNavGroup>
         </ItemTemplate>
     </ListGenericItems2>
-</div>
+</MudNavGroup>
 
 @code {
     [Parameter]
-    public int ChapterCount { get; set; } = 1;
-
-    [Parameter, AllowNull, EditorRequired]
-    public string Book { get; set; }
+    public string? Title { get; set; }
 
     [Parameter]
-    public EventCallback<int> SelectionChanged { get; set; }
+    public bool Expanded { get; set; }
 
-    private IReadOnlyList<int>? chapters;
-
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-        chapters = Enumerable.Range(1, ChapterCount).ToList();
-    }
+    [Parameter]
+    public IEnumerable<BibleBookNav>? ItemList { get; set; }
 }

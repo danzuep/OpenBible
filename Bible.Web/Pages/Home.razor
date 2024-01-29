@@ -1,46 +1,23 @@
 ﻿@page "/"
-@* @page "/{BookName}/{ChapterNumber}" *@
 @using Bible.Core.Models
 @using System.Diagnostics.CodeAnalysis
 @inject IDataService<IEnumerable<BibleBook>> DataService
 
 <PageTitle>Bible</PageTitle>
 
-<div>
-    <input class="rounded" @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search" />
-    <button @onclick="LoadBookAndChapter">Go</button>
-</div>
-
-<BibleChapterTemplate BibleChapter="@bibleChapter" />
+<BookChapter BookName="@bookName" ChapterNumber="@chapterNumber" />
 
 @code {
-    // [CascadingParameter]
-    public string? SearchText { get; set; } = "John 1";
-
-    public BibleChapter? bibleChapter { get; set; }
+    [CascadingParameter]
+    public string? SearchText { get; set; } //= "John 1";
 
     string? bookName;
     int chapterNumber = 1;
 
-    IEnumerable<BibleBook>? bibleBooks;
-
-    MarkupString? bibleVerses;
-
-    List<BibleFootnote> verseNotes = new();
-
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
-        await base.OnInitializedAsync();
-        bibleBooks = await DataService.LoadAsync();
-        LoadBookAndChapter();
-    }
-
-    void LoadBookAndChapter()
-    {
+        base.OnInitialized();
         GetBookAndChapter();
-        var bibleBook = bibleBooks!.Where(b => b.Reference.BookName == bookName).FirstOrDefault();
-        bibleChapter = bibleBook?.Chapters.Where(c => c.Id == chapterNumber).FirstOrDefault();
-        StateHasChanged();
     }
 
     void GetBookAndChapter()

@@ -2,6 +2,7 @@ using Bible.Core.Models;
 using Bible.Web.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using MudBlazor.Services;
 
 namespace Bible.Web
 {
@@ -26,6 +27,9 @@ namespace Bible.Web
             services.AddLogging(o => o.AddDebug());
 #endif
             // Services
+            services.AddMudServices();
+            services.AddScoped<IBibleBookNameService, BibleBookNameService>();
+            services.AddScoped<IMenuService, MenuService>();
             services.AddSingleton<IDataService<IEnumerable<BibleBook>>, DataService>();
 
             return services;

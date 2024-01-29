@@ -1,38 +1,27 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">Open Bible</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+﻿@using System.Diagnostics.CodeAnalysis
+@using Bible.Web.Models
+@inject IMenuService MenuService
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="feed">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Daily Verse
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> @book
-            </NavLink>
-        </div>
-        <SideSelector Book="@book" ChapterCount="@chapterCount" />
-    </nav>
-</div>
+<MudNavMenu>
+    <MudNavLink Href="" Match="NavLinkMatch.All">Open Bible</MudNavLink>
+    <MudNavLink Href="feed" Match="NavLinkMatch.Prefix">Daily Verse</MudNavLink>
+    <SideSelector Title="Old Testament" ItemList="@oldTestament" />
+    <SideSelector Title="New Testament" ItemList="@newTestament" Expanded="true" />
+</MudNavMenu>
 
 @code {
-    private string book = "John";
-    private int chapterCount = 21;
+    [Parameter]
+    public EventCallback<int> SelectionChanged { get; set; }
 
-    private bool collapseNavMenu = true;
+    private IReadOnlyList<BibleBookNav>? oldTestament;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private IReadOnlyList<BibleBookNav>? newTestament;
 
-    private void ToggleNavMenu()
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        await base.OnInitializedAsync();
+        var bibleBooks = await MenuService.LoadAsync();
+        oldTestament = bibleBooks.Where(b => !b.IsNewTestament).ToList();
+        newTestament = bibleBooks.Where(b => b.IsNewTestament).ToList();
     }
 }

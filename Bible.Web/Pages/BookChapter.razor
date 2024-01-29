@@ -1,11 +1,13 @@
-﻿@using System.Diagnostics.CodeAnalysis
+﻿@page "/{BookName=John}/{ChapterNumber:int}"
+@using System.Diagnostics.CodeAnalysis
 @using Bible.Core.Models
 @using Bible.Data;
 @using System.Text
+@inject IDataService<IEnumerable<BibleBook>> DataService
 
 @* See also: https://github.com/MeysamMoghaddam/BlazorEpubReader/blob/master/Epub.razor *@
 
-@if (BibleChapter is null)
+@if (bibleVerses is null)
 {
     <h1>John 1:1-4 (NIV)</h1>
 
@@ -16,11 +18,11 @@
         <sup>4</sup> In him was life, and that life was the light of all mankind.
     </p>
 
-    <p><em>Loading...</em></p>
+    @* <p><em>Loading...</em></p> *@
 }
 else
 {
-    <h2>@BibleChapter</h2>
+    <h2>@reference</h2>
 
     <p>
         @bibleVerses
@@ -42,26 +44,30 @@ else
 }
 
 @code {
-    [Parameter, AllowNull, EditorRequired]
-    public BibleChapter BibleChapter
-    {
-        get => _bibleChapter ?? new();
-        set
-        {
-            _bibleChapter = value;
-            ToMarkup(value);
-        }
-    }
-    private BibleChapter? _bibleChapter;
+    string page => $"{BookName}/{ChapterNumber}";
+    string reference => $"{BookName} {ChapterNumber}";
+
+    [Parameter, EditorRequired]
+    public string? BookName { get; set; }
+
+    [Parameter]
+    public int ChapterNumber { get; set; } = 1;
 
     MarkupString? bibleVerses;
 
     List<BibleFootnote> verseNotes = new();
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        base.OnInitialized();
-        ToMarkup(BibleChapter);
+        await base.OnInitializedAsync();
+        _ = await DataService.LoadAsync();
+    }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        var bibleChapter = DataService.LoadChapter(BookName, ChapterNumber);
+        ToMarkup(bibleChapter);
     }
 
     private void ToMarkup(BibleChapter? bibleChapter)

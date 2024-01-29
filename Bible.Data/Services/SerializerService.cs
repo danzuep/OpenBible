@@ -54,12 +54,13 @@ namespace Bible.Data.Services
             return book;
         }
 
-        public static async Task<IEnumerable<BibleBook>> GetBibleBooksFromResourceAsync(string bibleTranslation = "KJV")
+        public static async Task<BibleModel> GetBibleFromResourceAsync(string bibleTranslation = "KJV")
         {
             var resourceName = $"Bible.Data.Json.{bibleTranslation.ToLowerInvariant()}.json";
-            var bible = await GetFromJsonResourceAsync<SimpleBibleBookJson[]>(resourceName) ?? [];
-            var books = bible.Select(b => b.GetBibleBook(bibleTranslation));
-            return books;
+            var bibleJson = await GetFromJsonResourceAsync<SimpleBibleBookJson[]>(resourceName) ?? [];
+            var books = bibleJson.Select(b => b.GetBibleBook(bibleTranslation));
+            var bible = new BibleModel() { Books = books.ToArray(), Information = new() { Translation = bibleTranslation } };
+            return bible;
         }
 
         public static IEnumerable<BibleBook> GetBibleBooks(string version = "KJV")

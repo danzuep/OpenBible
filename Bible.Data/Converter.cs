@@ -88,9 +88,12 @@ namespace Bible.Data
                         break;
                     fragmentStartIndex = noteEndIndex + 1;
                     var footnote = bibleVerse.Text[++noteStartIndex..noteEndIndex];
-                    var fnId = $"{bibleVerse.Id}{(char)('a' + footnotes.Count)}";
-                    verse.Append("<sup><a href=\"#footnote-").Append(fnId)
-                        .Append("\">[").Append(fnId).Append("]</a></sup>");
+                    var fnChar = (char)('a' + footnotes.Count);
+                    var fnId = $"{bibleVerse.Id}{fnChar}";
+                    var page = bibleVerse.Reference.ToPath();
+                    verse.Append("<sup><a href=\"").Append(page)
+                        .Append("#footnote-").Append(fnId)
+                        .Append("\">[").Append(fnChar).Append("]</a></sup>");
                     footnotes.Add(new BibleFootnote(fnId, footnote));
                     // $"<li id=\"footnote-{fnId}\">[{fnId}] {footnote}</li>";
                     noteStartIndex = bibleVerse.Text.IndexOf(start, noteEndIndex);
