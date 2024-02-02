@@ -18,11 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!--<None Update="json\**" CopyToOutputDirectory="PreserveNewest" />-->
-    <!--<None Update="usx\**" CopyToOutputDirectory="PreserveNewest" />-->
-    <!--<None Update="xsd\**" CopyToOutputDirectory="PreserveNewest" />-->
-    <!--<None Update="xml\**" CopyToOutputDirectory="PreserveNewest" />-->
-    <!--<MauiAsset Include="xml\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />-->
+    <EmbeddedResource Include="Json\BibleContentsCanonBookChapters.json" />
+    <EmbeddedResource Include="Json\kjv.json" />
   </ItemGroup>
 
 </Project>

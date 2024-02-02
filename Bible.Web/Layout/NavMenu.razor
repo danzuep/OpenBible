@@ -1,0 +1,27 @@
+﻿@using System.Diagnostics.CodeAnalysis
+@using Bible.Web.Models
+@inject IMenuService MenuService
+
+<MudNavMenu>
+    <MudNavLink Href="" Match="NavLinkMatch.All">Open Bible</MudNavLink>
+    <MudNavLink Href="feed" Match="NavLinkMatch.Prefix">Daily Verse</MudNavLink>
+    <SideSelector Title="Old Testament" ItemList="@oldTestament" />
+    <SideSelector Title="New Testament" ItemList="@newTestament" Expanded="true" />
+</MudNavMenu>
+
+@code {
+    [Parameter]
+    public EventCallback<int> SelectionChanged { get; set; }
+
+    private IReadOnlyList<BibleBookNav>? oldTestament;
+
+    private IReadOnlyList<BibleBookNav>? newTestament;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        var bibleBooks = await MenuService.LoadAsync();
+        oldTestament = bibleBooks.Where(b => !b.IsNewTestament).ToList();
+        newTestament = bibleBooks.Where(b => b.IsNewTestament).ToList();
+    }
+}

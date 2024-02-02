@@ -2,6 +2,7 @@
 using Bible.Data.Models;
 using System.Collections.Concurrent;
 using System.Globalization;
+using System.Text;
 
 namespace Bible.Data
 {
@@ -62,6 +63,51 @@ namespace Bible.Data
                 return chapter;
             });
             return chapters.ToArray();
+        }
+
+        public static (string, BibleFootnote[]) SplitVerseFootnotes(this BibleVerse bibleVerse, char start = '{', char end = '}')
+        {
+            if (string.IsNullOrEmpty(bibleVerse?.Text))
+                return (string.Empty, []);
+            var verse = new StringBuilder("<sup>")
+                .Append(bibleVerse.Id).Append("</sup>");
+            try
+            {
+                int noteStartIndex = bibleVerse.Text.IndexOf(start);
+                if (noteStartIndex == -1)
+                    return ($"{verse}{bibleVerse.Text}", []);
+                int fragmentStartIndex = 0;
+                string fragment;
+                List<BibleFootnote> footnotes = new();
+                do
+                {
+                    fragment = bibleVerse.Text[fragmentStartIndex..noteStartIndex];
+                    verse.Append(fragment);
+                    var noteEndIndex = bibleVerse.Text.IndexOf(end, noteStartIndex);
+                    if (noteEndIndex == -1)
+                        break;
+                    fragmentStartIndex = noteEndIndex + 1;
+                    var footnote = bibleVerse.Text[++noteStartIndex..noteEndIndex];
+                    var fnChar = (char)('a' + footnotes.Count);
+                    var fnId = $"{bibleVerse.Id}{fnChar}";
+                    var page = bibleVerse.Reference.ToPath();
+                    verse.Append("<sup><a href=\"").Append(page)
+                        .Append("#footnote-").Append(fnId)
+                        .Append("\">[").Append(fnChar).Append("]</a></sup>");
+                    footnotes.Add(new BibleFootnote(fnId, footnote));
+                    // $"<li id=\"footnote-{fnId}\">[{fnId}] {footnote}</li>";
+                    noteStartIndex = bibleVerse.Text.IndexOf(start, noteEndIndex);
+                }
+                while (noteStartIndex != -1);
+                fragment = bibleVerse.Text[fragmentStartIndex..];
+                verse.Append(fragment);
+                return (verse.ToString(), footnotes.ToArray());
+            }
+            catch
+            {
+                System.Diagnostics.Debugger.Break();
+                return ($"{verse}{bibleVerse.Text}", []);
+            }
         }
 
         public static async Task<IReadOnlyCollection<BibleVerse>> SearchBibleAsync(this IEnumerable<BibleBook> books, string query)

@@ -1,5 +1,6 @@
 ﻿using Bible.Core.Models;
 using Bible.Data.Models;
+using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 
@@ -24,6 +25,42 @@ namespace Bible.Data.Services
             using var fileStream = File.OpenRead(jsonFilePath);
             var result = await JsonSerializer.DeserializeAsync<T>(fileStream);
             return result;
+        }
+
+        /// <summary>
+        /// Map the streamed data from a JSON resource to an object.
+        /// </summary>
+        /// <typeparam name="T">Object to map to.</typeparam>
+        /// <param name="resourceName">JSON resource name.</param>
+        /// <returns>Mapped object.</returns>
+        public static async Task<T?> GetFromJsonResourceAsync<T>(string resourceName)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            using var fileStream = assembly.GetManifestResourceStream(resourceName);
+            T? result = default;
+            if (fileStream != null)
+            {
+                result = await JsonSerializer.DeserializeAsync<T>(fileStream);
+            }
+            return result;
+        }
+
+        public static async Task<BibleBook> GetBibleBookFromResourceAsync(string bibleTranslation = "KJV", string bookName = "John")
+        {
+            var resourceName = $"Bible.Data.Json.{bibleTranslation.ToLowerInvariant()}.json";
+            var bible = await GetFromJsonResourceAsync<SimpleBibleBookJson[]>(resourceName) ?? [];
+            var books = bible.Where(b => b.Name == bookName).Select(b => b.GetBibleBook(bibleTranslation));
+            var book = books.Single();
+            return book;
+        }
+
+        public static async Task<BibleModel> GetBibleFromResourceAsync(string bibleTranslation = "KJV")
+        {
+            var resourceName = $"Bible.Data.Json.{bibleTranslation.ToLowerInvariant()}.json";
+            var bibleJson = await GetFromJsonResourceAsync<SimpleBibleBookJson[]>(resourceName) ?? [];
+            var books = bibleJson.Select(b => b.GetBibleBook(bibleTranslation));
+            var bible = new BibleModel() { Books = books.ToArray(), Information = new() { Translation = bibleTranslation } };
+            return bible;
         }
 
         public static IEnumerable<BibleBook> GetBibleBooks(string version = "KJV")

@@ -43,6 +43,23 @@ namespace Bible.Core.Models
         public override int GetHashCode() =>
             (Translation, BookName, Reference).GetHashCode();
 
+        public string ToReference()
+        {
+            if (string.IsNullOrEmpty(Reference))
+                return $"{BookName} ({Translation})";
+            return $"{BookName} {Reference} ({Translation})";
+        }
+
+        public string ToPath()
+        {
+            if (string.IsNullOrEmpty(Reference))
+                return BookName;
+            var ch = Reference.Split(new char[] { ':', ' ' });
+            if (ch.Length > 1)
+                return $"{BookName}/{Reference[0]}";
+            return $"{BookName}/{Reference}";
+        }
+
         public override string ToString()
         {
             if (string.IsNullOrEmpty(Reference))

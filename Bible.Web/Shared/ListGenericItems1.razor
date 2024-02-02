@@ -1,0 +1,16 @@
+@typeparam TItem
+
+@if (ItemList is not null)
+{
+    <ul>
+        @foreach (var item in ItemList)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+
+@code {
+    [Parameter]
+    public IEnumerable<TItem>? ItemList { get; set; }
+}
