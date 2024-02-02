@@ -1,23 +1,31 @@
 ﻿@page "/"
 @using Bible.Core.Models
 @using System.Diagnostics.CodeAnalysis
-@inject IDataService<IEnumerable<BibleBook>> DataService
+@inject NavigationManager Navigation
 
 <PageTitle>Bible</PageTitle>
 
-<BookChapter BookName="@bookName" ChapterNumber="@chapterNumber" />
+<p><em>Loading...</em></p>
+@* <BookChapter BookName="@_bookName" ChapterNumber="@_chapterNumber" /> *@
 
 @code {
     [CascadingParameter]
     public string? SearchText { get; set; } //= "John 1";
 
-    string? bookName;
-    int chapterNumber = 1;
+    string? _bookName;
+    int _chapterNumber = 1;
 
-    protected override void OnInitialized()
+    protected override void OnAfterRender(bool firstRender)
     {
-        base.OnInitialized();
-        GetBookAndChapter();
+        base.OnAfterRender(firstRender);
+        if (firstRender)
+        {
+            Task.Run(() =>
+            {
+                GetBookAndChapter();
+                Navigation.NavigateTo($"{_bookName}/{_chapterNumber}");
+            });
+        }
     }
 
     void GetBookAndChapter()
@@ -28,23 +36,23 @@
         {
             if (!char.IsDigit(words[0][0]))
             {
-                bookName = words[0];
+                _bookName = words[0];
                 if (words.Length > 1 && int.TryParse(words[1], out int chapter))
                 {
-                    chapterNumber = chapter;
+                    _chapterNumber = chapter;
                 }
             }
             else if (words.Length > 1)
             {
-                bookName = string.Join(' ', words[0], words[1]);
+                _bookName = string.Join(' ', words[0], words[1]);
                 if (words.Length > 2 && int.TryParse(words[2], out int chapter))
                 {
-                    chapterNumber = chapter;
+                    _chapterNumber = chapter;
                 }
             }
             else
             {
-                bookName = SearchText;
+                _bookName = SearchText;
             }
         }
     }

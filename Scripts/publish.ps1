@@ -42,6 +42,8 @@ if (-Not (Test-Path -Path "${kestorePath}" -PathType Leaf))
     keytool -list -keystore "${kestorePath}";
 }
 
+# dotnet workload install maui-android;
+
 # https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0
 dotnet publish $projectFile -c $configuration -f $targetFramework /p:Version=$buildVersion --no-restore --nologo;
 if (-not $?) {

@@ -4,13 +4,7 @@
 <MudNavGroup Title="@Title" Expanded="@Expanded" ExpandIcon="@Icons.Material.Filled.ExpandMore">
     <ListGenericItems2 TItem="BibleBookNav" ItemList="@ItemList" Context="book">
         <ItemTemplate>
-            <MudNavGroup Title="@book.Name" ExpandIcon="@Icons.Material.Filled.ExpandMore">
-                <ListGenericItems2 TItem="int" ItemList="@book.Chapters" Context="chapter">
-                    <ItemTemplate>
-                        <MudNavLink href="@($"{book.Name}/{chapter}")">@chapter</MudNavLink>
-                    </ItemTemplate>
-                </ListGenericItems2>
-            </MudNavGroup>
+            <MudNavLink href="@($"{book.Name}/1")">@book.Name</MudNavLink>
         </ItemTemplate>
     </ListGenericItems2>
 </MudNavGroup>
