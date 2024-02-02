@@ -1,0 +1,81 @@
+﻿@inherits LayoutComponentBase
+@using System.Reflection
+@inject IJSRuntime JsRuntime
+
+<MudThemeProvider @ref="@_mudThemeProvider" @bind-IsDarkMode="@_isDarkMode" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudText Typo="Typo.h5" Class="ml-3" Align="Align.Center">Open Bible</MudText>
+        <MudText Typo="Typo.h5" Class="ml-3" Align="Align.Left" data-toggle="tooltip" title="@informationalVersion">@displayVersion</MudText>
+        <MudSpacer />
+        @* <MudTextField @bind-Value="@SearchText" Immediate="true" Variant="Variant.Outlined" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" />
+        <MudSpacer /> *@
+        <MudTooltip Duration="1000" Text="@_themeTooltip">
+            <MudSwitch @bind-Value="@_isDarkMode" T="bool" Color="Color.Inherit" ThumbIcon="@_themeIcon" Class="ml-3" />
+        </MudTooltip>
+        <MudIconButton Icon="@Icons.Custom.Brands.GitHub" OnClick="GoToSource" Color="Color.Inherit" aria-label="github" />
+        <MudLink Class="ml-3" Href="@library" Target="_blank" Color="Color.Inherit">Bible Versions</MudLink>
+        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+        <NavMenu />
+    </MudDrawer>
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.ExtraLarge">
+            <CascadingValue Value="@SearchText">
+                @Body
+            </CascadingValue>
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    public string? SearchText { get; set; } = "John 1";
+
+    static readonly string library = "https://app.thedigitalbiblelibrary.org/entries/open_access_entries?type=text";
+    static readonly string _sourceCodeUrl = "https://github.com/danzuep/BibleApp";
+    string? informationalVersion;
+    string? displayVersion;
+    bool _drawerOpen = true;
+    MudThemeProvider _mudThemeProvider = null!;
+    bool _isDarkMode;
+    string _themeTooltip => _isDarkMode == true ? "Switch to Light Theme" : "Switch to Dark Theme";
+    string _themeIcon => _isDarkMode == true ? Icons.Material.Outlined.DarkMode : Icons.Material.Outlined.LightMode;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        var assembly = Assembly.GetExecutingAssembly();
+        informationalVersion = assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()
+            ?.InformationalVersion ?? assembly.GetName().Version?.ToString() ?? "0.1.0";
+        var assemblyVersion = informationalVersion.Split('+')[0];
+        displayVersion = $"v{assemblyVersion}";
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var systemThem = await _mudThemeProvider.GetSystemPreference();
+            if (systemThem != _isDarkMode)
+            {
+                _isDarkMode = systemThem;
+                StateHasChanged();
+            }
+        }
+    }
+
+    async Task GoToSource()
+    {
+        await JsRuntime.InvokeVoidAsync("open", _sourceCodeUrl, "_blank");
+    }
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}

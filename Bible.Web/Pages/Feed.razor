@@ -1,0 +1,54 @@
+﻿@page "/feed"
+@using System.ServiceModel.Syndication
+@using System.Xml
+
+<PageTitle>Verse of the Day</PageTitle>
+
+<h1 style="color: dimgrey;">@pageTitle</h1>
+
+<hr />
+
+@if (feedItems == null)
+{
+    <div id="dailyVersesWrapper"></div>
+    <script async defer src="https://dailyverses.net/get/verse.js?language=niv"></script>
+}
+else
+{
+    foreach (var feedItem in feedItems)
+    {
+        <h4>@feedItem.Title</h4>
+        <p>@feedItem.Content</p>
+        <hr />
+    }
+}
+
+@code {
+    // static readonly string defaultFeed = "https://www.biblegateway.com/votd/get/?format=atom";
+    string pageTitle = "Verse of the Day";
+    List<FeedItem>? feedItems;
+    HttpClient httpClient = new();
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     await GetFeedAsync(defaultFeed);
+    // }
+
+    private async Task GetFeedAsync(string feedUrl)
+    {
+        using var xmlStream = await httpClient.GetStreamAsync(feedUrl);
+        using var xmlReader = XmlReader.Create(xmlStream);
+        var feed = SyndicationFeed.Load(xmlReader);
+        pageTitle = feed.Title.Text;
+        feedItems = new List<FeedItem>();
+        foreach (var item in feed.Items)
+        {
+            if (item?.Content is TextSyndicationContent content && !string.IsNullOrWhiteSpace(content.Text))
+                feedItems.Add(new(item.Title.Text, (MarkupString)content.Text));
+            else if (!string.IsNullOrWhiteSpace(item?.Title.Text))
+                feedItems.Add(new(item.Title.Text, new()));
+        }
+    }
+
+    record FeedItem(string? Title, MarkupString Content);
+}

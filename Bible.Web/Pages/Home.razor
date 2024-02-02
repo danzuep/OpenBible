@@ -1,0 +1,59 @@
+﻿@page "/"
+@using Bible.Core.Models
+@using System.Diagnostics.CodeAnalysis
+@inject NavigationManager Navigation
+
+<PageTitle>Bible</PageTitle>
+
+<p><em>Loading...</em></p>
+@* <BookChapter BookName="@_bookName" ChapterNumber="@_chapterNumber" /> *@
+
+@code {
+    [CascadingParameter]
+    public string? SearchText { get; set; } //= "John 1";
+
+    string? _bookName;
+    int _chapterNumber = 1;
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        if (firstRender)
+        {
+            Task.Run(() =>
+            {
+                GetBookAndChapter();
+                Navigation.NavigateTo($"{_bookName}/{_chapterNumber}");
+            });
+        }
+    }
+
+    void GetBookAndChapter()
+    {
+        var chars = new char[] { ' ', '_', '-', ':', ';' };
+        var words = SearchText?.Split(chars);
+        if (words?.Length > 0)
+        {
+            if (!char.IsDigit(words[0][0]))
+            {
+                _bookName = words[0];
+                if (words.Length > 1 && int.TryParse(words[1], out int chapter))
+                {
+                    _chapterNumber = chapter;
+                }
+            }
+            else if (words.Length > 1)
+            {
+                _bookName = string.Join(' ', words[0], words[1]);
+                if (words.Length > 2 && int.TryParse(words[2], out int chapter))
+                {
+                    _chapterNumber = chapter;
+                }
+            }
+            else
+            {
+                _bookName = SearchText;
+            }
+        }
+    }
+}

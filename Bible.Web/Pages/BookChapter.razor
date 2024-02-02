@@ -1,0 +1,89 @@
+﻿@page "/{BookName=John}/{ChapterNumber:int}"
+@using System.Diagnostics.CodeAnalysis
+@using Bible.Core.Models
+@using Bible.Data;
+@using System.Text
+@inject IDataService<IEnumerable<BibleBook>> DataService
+
+@* See also: https://github.com/MeysamMoghaddam/BlazorEpubReader/blob/master/Epub.razor *@
+
+@if (_bibleBook is null)
+{
+    <h1>John 1:1-4 (NIV)</h1>
+
+    <p>
+        <sup>1</sup> In the beginning was the Word, and the Word was with God, and the Word was God.
+        <sup>2</sup> He was with God in the beginning.
+        <sup>3</sup> Through him all things were made; without him nothing was made that has been made.
+        <sup>4</sup> In him was life, and that life was the light of all mankind.
+    </p>
+}
+else
+{
+    <div class="d-flex flex-column align-center">
+        <MudPagination BoundaryCount="1" MiddleCount="5" Count="@_chapterCount" Selected="@ChapterNumber" SelectedChanged="ChapterChanged" Class="mt-4" />
+    </div>
+
+    <h2>@_reference</h2>
+
+    <p>
+        @_bibleVerses
+    </p>
+
+    @foreach (var note in _verseNotes)
+    {
+        <div id="footnote-@note.Id" class="footnote">[@note.Id] @note.Content</div>
+    }
+
+    @* <ListGenericItems1 TItem="BibleFootnote" ItemList="@verseNotes" /> *@
+    
+    <style>
+        .footnote {
+            font-size: 0.8em;
+            font-style: italic;
+        }
+    </style>
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public string? BookName { get; set; }
+
+    [Parameter]
+    public int ChapterNumber { get; set; } = 1;
+
+    string page => $"{BookName}/{ChapterNumber}";
+    string? _reference;
+    BibleBook? _bibleBook;
+    int _chapterCount => _bibleBook?.ChapterCount ?? 0;
+    MarkupString? _bibleVerses;
+    List<BibleFootnote> _verseNotes = new();
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        Task.Run(async () =>
+        {
+            _bibleBook = await DataService.LoadBookAsync(BookName);
+            ChapterChanged(ChapterNumber);
+        });
+    }
+
+    private void ChapterChanged(int chapterNumber)
+    {
+        ChapterNumber = chapterNumber;
+        var bibleChapter = _bibleBook?.Chapters.FirstOrDefault(c => c.Id == ChapterNumber);
+        if (bibleChapter == null)
+            return;
+        _reference = bibleChapter.Reference.ToReference();
+        var chapter = new StringBuilder();
+        foreach (var bibleVerse in bibleChapter.Verses)
+        {
+            (var verseMarkup, var footnotes) = bibleVerse.SplitVerseFootnotes();
+            chapter.Append(verseMarkup).Append(" ");
+            _verseNotes.AddRange(footnotes);
+        }
+        _bibleVerses = (MarkupString)chapter.ToString();
+        StateHasChanged();
+    }
+}

@@ -1,0 +1,21 @@
+@using Bible.Web.Models
+@inject NavigationManager Navigation
+
+<MudNavGroup Title="@Title" Expanded="@Expanded" ExpandIcon="@Icons.Material.Filled.ExpandMore">
+    <ListGenericItems2 TItem="BibleBookNav" ItemList="@ItemList" Context="book">
+        <ItemTemplate>
+            <MudNavLink href="@($"{book.Name}/1")">@book.Name</MudNavLink>
+        </ItemTemplate>
+    </ListGenericItems2>
+</MudNavGroup>
+
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public bool Expanded { get; set; }
+
+    [Parameter]
+    public IEnumerable<BibleBookNav>? ItemList { get; set; }
+}
