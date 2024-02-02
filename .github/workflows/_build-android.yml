@@ -1,0 +1,88 @@
+name: 🚀 Publish Android package
+run-name: Publish Android package
+
+on:
+  workflow_call:
+    inputs:
+      projectFile:
+        description: 'The project file path'
+        required: true
+        type: string
+      version:
+        description: 'Package version'
+        required: true
+        type: string
+      environment:
+        description: 'The publish environment'
+        default: release
+        type: string
+
+env:
+    DotNetVersion: 8.x
+    DotNetTarget: net8.0
+
+jobs:
+  deploy:
+    name: Android
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    steps:
+      - name: Checkout the source repository from Git
+        uses: actions/checkout@v4
+
+      # - name: Download artifacts from the restore job
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: restored
+      #     path: .
+
+      # https://github.com/actions/setup-dotnet
+      - name: Get .NET ${{ env.DotNetVersion }} externals
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DotNetVersion }}
+          dotnet-quality: 'ga'
+
+      # https://github.com/actions/cache/blob/main/examples.md#c---nuget
+      - name: Get any cached NuGet packages from the last run
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: ${{ runner.os }}-nuget-
+
+      # Preinstalled on Windows: https://github.com/actions/runner-images/blob/main/images/windows/Windows2022-Readme.md
+      - name: Install .NET MAUI
+        run: dotnet workload install maui-android;
+
+      - name: Publish Android package
+        run: |
+          echo "Project File: $projectFile";
+          echo "Project Version: $buildVersion";
+          echo "Target Framework: $targetFramework";
+          dotnet publish $projectFile /p:Version=$buildVersion -f $targetFramework --nologo;
+        env:
+          projectFile: '${{ inputs.projectFile }}'
+          buildVersion: '${{ inputs.version }}'
+          targetFramework: "${{ env.DotNetTarget }}-android"
+
+      - name: Markdown workflow job summary
+        shell: bash
+        run: |
+          repositoryName=$(basename '${{ github.repository }}')
+          echo "### $repositoryName ${{ inputs.version }} apk published" >> $GITHUB_STEP_SUMMARY
+
+      # https://github.com/actions/upload-artifact
+      - name: Upload apk artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          path: "publish/*-Signed.apk"
+
+  metadata:
+    name: Fastlane
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Statically validate Fastlane metadata for Android
+        uses: ashutoshgngwr/validate-fastlane-supply-metadata@v2

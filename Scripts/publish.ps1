@@ -1,3 +1,5 @@
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
 if ([string]::IsNullOrEmpty($Env:AndroidSigningPassword))
 {
 	Write-Host "Keystore secret password not set, exiting.";
@@ -36,14 +38,26 @@ if (-Not (Test-Path -Path "${kestoreFolder}" -PathType Container))
 $kestorePath = [IO.Path]::Combine($kestoreFolder, $keystoreFile);
 if (-Not (Test-Path -Path "${kestorePath}" -PathType Leaf))
 {
-    # https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0
     keytool -genkeypair -v -keystore "${kestorePath}" -alias "${androidSigningAlias}" -keyalg RSA -keysize 2048 -validity 10000;
     keytool -list -keystore "${kestorePath}";
 }
 
+# dotnet workload install maui-android;
+
+# https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0
 dotnet publish $projectFile -c $configuration -f $targetFramework /p:Version=$buildVersion --no-restore --nologo;
 if (-not $?) {
-    Write-Host "Project failed to publish.";
+    Write-Host "Project failed to publish for Android.";
     Exit 1;
 }
+
+# https://learn.microsoft.com/en-us/dotnet/maui/windows/deployment/publish-unpackaged-cli?view=net-maui-8.0
+$runtimeIdentifier = "win10-x64";
+$targetFramework = "${dotnetTarget}-windows10.0.19041.0";
+dotnet publish $projectFile -c $configuration -f $targetFramework -p:Version=$buildVersion -p:RuntimeIdentifierOverride=$runtimeIdentifier -p:WindowsPackageType=None --no-restore --nologo;
+if (-not $?) {
+    Write-Host "Project failed to publish for Windows.";
+    Exit 1;
+}
+
 Write-Host "Project published to ${publishPath}.";

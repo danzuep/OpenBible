@@ -1,0 +1,15 @@
+name: Development
+run-name: Get version and build release notes
+
+on:
+  workflow_dispatch:
+
+# Cancel any other running workflows with the same ID
+concurrency:
+  group: cd-release-${{ github.ref }}
+  cancel-in-progress: true
+
+# https://docs.github.com/en/actions/using-workflows/reusing-workflows
+jobs:
+  version:
+    uses: ./.github/workflows/_version.yml

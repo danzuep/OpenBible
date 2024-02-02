@@ -1,0 +1,39 @@
+name: Release
+run-name: Publish website branch to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.*'
+    branches:
+      - website
+
+# Cancel any other running workflows with the same ID
+concurrency:
+  group: cd-release-${{ github.ref }}
+  cancel-in-progress: true
+
+# https://docs.github.com/en/actions/using-workflows/reusing-workflows
+jobs:
+  version:
+    uses: ./.github/workflows/_version.yml
+    with:
+      project_search: "Bible.*"
+
+  build:
+    needs: [ version ]
+    uses: ./.github/workflows/_build-web.yml
+    with:
+      project_name: "Bible.Web"
+      project_version: ${{ needs.version.outputs.semVer }}
+
+  deploy:
+    if: ${{ github.event_name != 'pull_request' }}
+    needs: [ build ]
+    uses: ./.github/workflows/_deploy-web.yml
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    secrets: inherit
