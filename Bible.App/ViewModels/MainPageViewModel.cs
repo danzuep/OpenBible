@@ -10,8 +10,16 @@ namespace Bible.App.ViewModels
 {
     public sealed partial class MainPageViewModel : BaseViewModel
     {
-        [ObservableProperty]
-        private BibleUiModel? bible;
+        private WeakReference<BibleUiModel?> _bibleReference = new(default);
+
+        public BibleUiModel? Bible
+        {
+            get
+            {
+                _bibleReference.TryGetTarget(out BibleUiModel? bible);
+                return bible;
+            }
+        }
 
         public ObservableCollection<string> Languages { get; } = [];
 
@@ -86,13 +94,20 @@ namespace Bible.App.ViewModels
         {
             try
             {
-                if (value != null && Identifiers.Count > 1)
+                if (!_bibleReference.TryGetTarget(out BibleUiModel? bible) || bible == null || bible.Translation != value?.Identifier)
                 {
-                    Bible = await _readerService.GetBibleAsync(value.Identifier);
-                }
-                if (Bible == null)
-                {
-                    Bible = await _readerService.LoadFileAsync(string.Join('/', Eng, Web));
+                    // The object has been garbage collected, so we need to recreate it
+                    if (value != null && Identifiers.Count > 1)
+                    {
+                        bible = await _readerService.GetBibleAsync(value.Identifier);
+                        _bibleReference.SetTarget(bible);
+                    }
+                    if (bible == null)
+                    {
+                        bible = await _readerService.LoadFileAsync(string.Join('/', Eng, Web));
+                        _bibleReference.SetTarget(bible);
+                    }
+                    OnPropertyChanged(nameof(Bible));
                 }
             }
             catch (OperationCanceledException ex)
