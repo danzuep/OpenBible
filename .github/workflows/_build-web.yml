@@ -72,7 +72,7 @@ jobs:
           sed -i "s/<base href=\"\\/\" \/>/<base href=\"\\/${repositoryName}\\/\" \/>/g" "${{ inputs.project_output }}/wwwroot/index.html"
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       # https://github.com/actions/upload-pages-artifact
       - name: Upload GitHub Pages artifact for web
