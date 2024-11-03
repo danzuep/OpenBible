@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
+  <PropertyGroup>
     <Description>Open-source Bible app for any platform.</Description>
     <Authors>Daniel Collingwood</Authors>
     <RepositoryUrl>https://github.com/danzuep/BibleApp</RepositoryUrl>
@@ -20,15 +20,15 @@
     <!-- App Identifier -->
     <ApplicationId>com.danzuep.bibleapp</ApplicationId>
 
-		<!-- Versions -->
+    <!-- Versions -->
     <ApplicationDisplayVersion>$(Version)</ApplicationDisplayVersion>
-    <ApplicationVersion>$(Version)</ApplicationVersion>
+    <ApplicationVersion>1</ApplicationVersion>
 
-		<!-- C# Hot Reload -->
-		<UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
+    <!-- C# Hot Reload -->
+    <UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
 
-		<!-- %APPDATA%\Microsoft\UserSecrets\ -->
-		<UserSecretsId>BibleApp-0e005d03-3ba9-41c2-9309-7994ffddc789</UserSecretsId>
+    <!-- %APPDATA%\Microsoft\UserSecrets\ -->
+    <UserSecretsId>BibleApp-0e005d03-3ba9-41c2-9309-7994ffddc789</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -40,16 +40,16 @@
     <!-- <TargetFrameworks>$(TargetFrameworks);$(NetVersion)-tizen</TargetFrameworks> -->
 
     <!-- Note for MacCatalyst:
-		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
-		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
-		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
-		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
+    The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
+    When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
+    The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
+    either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
     <!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
 
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('windows'))">
@@ -61,50 +61,52 @@
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
   </PropertyGroup>
   
-	<!-- https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0#define-build-properties-in-your-project-file -->
+  <!-- https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0#define-build-properties-in-your-project-file -->
   <PropertyGroup Condition="$(TargetFramework.Contains('-windows'))">
-		<OutputType>WinExe</OutputType>
-		<RuntimeIdentifier>win10-x64</RuntimeIdentifier>
-	</PropertyGroup>
+    <PublishDir>../publish/windows</PublishDir>
+    <OutputType>WinExe</OutputType>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <!-- <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>true</PublishTrimmed>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract> -->
+  </PropertyGroup>
   
-	<PropertyGroup Condition="$(TargetFramework.Contains('-android')) and '$(Configuration)' == 'Release'">
-		<AndroidKeyStore>True</AndroidKeyStore>
-		<AndroidPackageFormats>apk</AndroidPackageFormats>
-		<AndroidSigningKeyStore>../release/android.keystore</AndroidSigningKeyStore>
-		<AndroidSigningKeyAlias>android-key</AndroidSigningKeyAlias>
-		<AndroidSigningKeyPass>env:AndroidSigningPassword</AndroidSigningKeyPass>
-		<AndroidSigningStorePass>env:AndroidSigningPassword</AndroidSigningStorePass>
-	</PropertyGroup>
+  <PropertyGroup Condition="$(TargetFramework.Contains('-android')) and '$(Configuration)' == 'Release'">
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <AndroidSigningKeyStore>../release/android.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyAlias>android-key</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>env:AndroidSigningPassword</AndroidSigningKeyPass>
+    <AndroidSigningStorePass>env:AndroidSigningPassword</AndroidSigningStorePass>
+  </PropertyGroup>
   
   <PropertyGroup Condition="$(TargetFramework.Contains('-ios')) and '$(Configuration)' == 'Release'">
-		<RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
-	</PropertyGroup>
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+  </PropertyGroup>
   
-	<ItemGroup>
-		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" />
+  <ItemGroup>
+    <!-- App Icon -->
+    <MauiIcon Include="Resources\AppIcon\appicon.svg" />
 
-		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+    <!-- Splash Screen -->
+    <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
-		<!-- Images -->
-		<MauiImage Include="Resources\Images\*" />
+    <!-- Images -->
+    <MauiImage Include="Resources\Images\*" />
     
-		<!-- Custom Fonts -->
-		<MauiFont Include="Resources\Fonts\*" />
+    <!-- Custom Fonts -->
+    <MauiFont Include="Resources\Fonts\*" />
 
-		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
-		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
-	</ItemGroup>
+    <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+    <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
   
-	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui" Version="9.1.0" />
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.1" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.92" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.92" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Maui" Version="9.1.0" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.92" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.92" />
+  </ItemGroup>
 
   <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
@@ -117,9 +119,9 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
-	  <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
-	  <ProjectReference Include="..\Bible.Reader\Bible.Reader.csproj" />
-	</ItemGroup>
+    <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
+    <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
+    <ProjectReference Include="..\Bible.Reader\Bible.Reader.csproj" />
+  </ItemGroup>
 
 </Project>
