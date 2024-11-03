@@ -25,25 +25,17 @@
 
     <Shell.TitleView>
         <StackLayout>
-            <HorizontalStackLayout Spacing="25">
+            <HorizontalStackLayout Padding="0,0" Spacing="15">
                 <Picker
-                    x:Name="bibleBookPicker"
-                    ItemDisplayBinding="{Binding Name, Mode=OneWay}"
-                    ItemsSource="{Binding Bible, Mode=OneWay}"
-                    SelectedIndex="{Binding BookIndex, Mode=TwoWay}"
-                    SelectedIndexChanged="OnBookSelectionChanged"
-                    WidthRequest="160" />
-                <Picker
-                    x:Name="bibleChapterPicker"
-                    ItemDisplayBinding="{Binding Id, Mode=OneWay}"
-                    ItemsSource="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem, Mode=OneWay}"
-                    SelectedIndex="{Binding ChapterIndex, Mode=TwoWay}"
-                    SelectedIndexChanged="OnChapterSelectionChanged"
-                    WidthRequest="70" />
+                    x:Name="bibleLanguagePicker"
+                    ItemsSource="{Binding Languages, Mode=OneTime}"
+                    SelectedIndexChanged="OnLanguageSelectionChanged"
+                    SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
+                    WidthRequest="90" />
                 <Picker
                     x:Name="bibleTranslationPicker"
                     ItemsSource="{Binding Translations, Mode=OneWay}"
-                    WidthRequest="120">
+                    WidthRequest="240">
                     <Picker.Behaviors>
                         <mct:EventToCommandBehavior
                             Command="{Binding TranslationSelectedCommand}"
@@ -51,17 +43,11 @@
                             EventName="SelectedIndexChanged" />
                     </Picker.Behaviors>
                 </Picker>
-                <Picker
-                    x:Name="bibleLanguagePicker"
-                    ItemsSource="{Binding Languages, Mode=OneTime}"
-                    SelectedIndexChanged="OnLanguageSelectionChanged"
-                    SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
-                    WidthRequest="90" />
             </HorizontalStackLayout>
         </StackLayout>
     </Shell.TitleView>
 
-    <Grid RowDefinitions="*,30">
+    <Grid RowDefinitions="*,50">
         <CollectionView
             x:Name="chapterCollectionView"
             ItemsSource="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem, Mode=OneWay}"
@@ -77,10 +63,29 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Label
+        <HorizontalStackLayout
             Grid.Row="1"
-            Text="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem.Copyright, StringFormat='© {0}'}"
-            TextColor="Gray" />
+            Padding="15,0"
+            Spacing="15">
+            <Picker
+                x:Name="bibleBookPicker"
+                ItemDisplayBinding="{Binding Name, Mode=OneWay}"
+                ItemsSource="{Binding Bible, Mode=OneWay}"
+                SelectedIndex="{Binding BookIndex, Mode=TwoWay}"
+                SelectedIndexChanged="OnBookSelectionChanged"
+                WidthRequest="160" />
+            <Picker
+                x:Name="bibleChapterPicker"
+                ItemDisplayBinding="{Binding Id, Mode=OneWay}"
+                ItemsSource="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem, Mode=OneWay}"
+                SelectedIndex="{Binding ChapterIndex, Mode=TwoWay}"
+                SelectedIndexChanged="OnChapterSelectionChanged"
+                WidthRequest="70" />
+            <Label
+                Text="{Binding Source={x:Reference bibleBookPicker}, Path=SelectedItem.Copyright, StringFormat='© {0}'}"
+                TextColor="Gray"
+                VerticalOptions="Center" />
+        </HorizontalStackLayout>
         <Grid.GestureRecognizers>
             <SwipeGestureRecognizer Direction="Left" Swiped="OnSwipeLeft" />
             <SwipeGestureRecognizer Direction="Right" Swiped="OnSwipeRight" />

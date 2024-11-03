@@ -23,6 +23,7 @@ namespace Bible.App.Pages
             if (sender is Picker picker && picker.SelectedItem is string selectedLanguage &&
                 ViewModel.Identifiers.TryGetValue(selectedLanguage, out List<TranslationUiModel>? translations))
             {
+                //SemanticScreenReader.Announce(selectedLanguage);
                 bibleTranslationPicker.ItemsSource = translations;
                 if (ViewModel.SelectedLanguage == MainPageViewModel.Eng)
                     bibleTranslationPicker.SelectedItem = translations
@@ -35,6 +36,10 @@ namespace Bible.App.Pages
         private void OnBookSelectionChanged(object sender, EventArgs e)
         {
             ViewModel.ChapterIndex = 0;
+            //if (sender is Picker picker && picker.SelectedItem is BookUiModel book && book.Id > 1)
+            //{
+            //    SemanticScreenReader.Announce(book.Id.ToString());
+            //}
         }
 
         bool isChapterViewChange;
@@ -45,6 +50,7 @@ namespace Bible.App.Pages
                 isChapterViewChange = false;
             else if (sender is Picker picker && picker.SelectedItem is ChapterUiModel chapter && chapter.Id > 1)
             {
+                //SemanticScreenReader.Announce(chapter.Id.ToString());
                 chapterCollectionView.ScrollTo(chapter.Id - 1, position: ScrollToPosition.Start, animate: false);
             }
         }

@@ -1,51 +1,52 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Description>Open-source Bible app for any platform.</Description>
-		<Authors>Daniel Collingwood</Authors>
-		<RepositoryUrl>https://github.com/danzuep/BibleApp</RepositoryUrl>
-		<RepositoryType>Git</RepositoryType>
-		<PublishDir>../publish</PublishDir>
-		<PackageReleaseNotes>
-			0.1.0 Simple Bible reader
-		</PackageReleaseNotes>
+    <Description>Open-source Bible app for any platform.</Description>
+    <Authors>Daniel Collingwood</Authors>
+    <RepositoryUrl>https://github.com/danzuep/BibleApp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PublishDir>../publish</PublishDir>
+    <OutputType>Exe</OutputType>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <RootNamespace>Bible.App</RootNamespace>
+    <PackageReleaseNotes>
+      0.1.0 Simple Bible reader
+    </PackageReleaseNotes>
 
-    <TargetFrameworks>$(NetVersion)-android</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('macOS'))">$(TargetFrameworks);$(NetVersion)-ios;$(NetVersion)-macios</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);$(NetVersion)-windows10.0.19041.0</TargetFrameworks>
-    
-		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
-		<!-- <TargetFrameworks>$(TargetFrameworks);$(NetVersion)-tizen</TargetFrameworks> -->
+    <!-- Display name -->
+    <ApplicationTitle>Open Bible</ApplicationTitle>
 
-		<!-- Note for MacCatalyst:
-		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
-		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
-		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
-		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
-		<!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
-
-		<OutputType>Exe</OutputType>
-		<UseMaui>true</UseMaui>
-		<SingleProject>true</SingleProject>
-		<RootNamespace>Bible.App</RootNamespace>
-
-		<!-- Display name -->
-		<ApplicationTitle>Open Bible</ApplicationTitle>
-
-		<!-- App Identifier -->
-		<ApplicationId>com.danzuep.bibleapp</ApplicationId>
+    <!-- App Identifier -->
+    <ApplicationId>com.danzuep.bibleapp</ApplicationId>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
-		<ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>$(Version)</ApplicationDisplayVersion>
+    <ApplicationVersion>$(Version)</ApplicationVersion>
 
 		<!-- C# Hot Reload -->
 		<UseInterpreter Condition="'$(Configuration)' == 'Debug'">True</UseInterpreter>
 
 		<!-- %APPDATA%\Microsoft\UserSecrets\ -->
 		<UserSecretsId>BibleApp-0e005d03-3ba9-41c2-9309-7994ffddc789</UserSecretsId>
-  
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>$(NetVersion)-android</TargetFrameworks>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('macOS'))">$(TargetFrameworks);$(NetVersion)-ios;$(NetVersion)-macios</TargetFrameworks>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);$(NetVersion)-windows10.0.19041.0</TargetFrameworks>
+
+    <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+    <!-- <TargetFrameworks>$(TargetFrameworks);$(NetVersion)-tizen</TargetFrameworks> -->
+
+    <!-- Note for MacCatalyst:
+		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
+		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
+		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
+		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
+    <!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
+
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
@@ -105,7 +106,17 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
 	</ItemGroup>
 
-	<ItemGroup>
+  <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(Configuration)' == 'Debug'">
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
 	  <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
 	  <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
 	  <ProjectReference Include="..\Bible.Reader\Bible.Reader.csproj" />

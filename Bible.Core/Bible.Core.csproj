@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <None Include="../*" LinkBase="Solution Items" />
+    <None Include="../.github/**" LinkBase="Solution Items/Pipeline" />
   </ItemGroup>
 
 </Project>

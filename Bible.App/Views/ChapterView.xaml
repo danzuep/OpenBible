@@ -8,9 +8,10 @@
 
     <Grid RowDefinitions="30,*">
         <Label
+            Padding="7,0"
             FontAttributes="Bold"
             FontSize="18"
-            Text="{Binding Path=Id, StringFormat='Chapter {0}'}"
+            Text="{Binding Path=Id, StringFormat='{0}'}"
             TextColor="LightGray" />
         <VerticalStackLayout
             Grid.Row="1"

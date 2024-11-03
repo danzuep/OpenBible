@@ -60,7 +60,7 @@ jobs:
           echo "Project File: $projectFile";
           echo "Project Version: $buildVersion";
           echo "Target Framework: $targetFramework";
-          dotnet publish $projectFile /p:Version=$buildVersion -f $targetFramework --nologo;
+          dotnet publish $projectFile -f $targetFramework /p:Version=$buildVersion --nologo;
         env:
           projectFile: '${{ inputs.projectFile }}'
           buildVersion: '${{ inputs.version }}'
