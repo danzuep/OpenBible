@@ -1,16 +1,6 @@
-if ([string]::IsNullOrEmpty($Env:AndroidSigningPassword))
-{
-	Write-Host "Keystore secret password not set, exiting.";
-	return;
-}
+$projectFolder = $(Get-Item (Split-Path -Path $PSScriptRoot -Parent)).FullName;
 
-$projectDirectory = (Get-Item (Split-Path -Path $PSScriptRoot -Parent));
-$projectFolder = $projectDirectory.FullName;
-$projectFile = "${projectFolder}/${projectAppName}/${projectAppName}.csproj";
-$publishOutputFolder = "publish";
-$publishPath = [IO.Path]::Combine($projectFolder, $publishOutputFolder);
-
-. "${projectFolder}/Scripts/version.ps1";
+. "${projectFolder}/Scripts/_version.ps1";
 
 Write-Host "Preparing to publish project to ${publishPath}.";
 
@@ -23,6 +13,11 @@ if (-not $?) {
     Exit 1;
 }
 
+if ([string]::IsNullOrEmpty($Env:AndroidSigningPassword))
+{
+	Write-Host "Keystore secret password not set, exiting.";
+	return;
+}
 $keystoreFile = "android.keystore";
 $androidSigningAlias = "android-key";
 $targetFramework = "${dotnetTarget}-android";
@@ -52,3 +47,5 @@ if (-not $?) {
     Write-Host "Project failed to publish for Android.";
     Exit 1;
 }
+
+Write-Host "Project published to ${publishPath}.";

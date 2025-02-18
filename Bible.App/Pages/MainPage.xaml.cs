@@ -21,8 +21,9 @@ namespace Bible.App.Pages
         private void OnLanguageSelectionChanged(object sender, EventArgs e)
         {
             if (sender is Picker picker && picker.SelectedItem is string selectedLanguage &&
-                ViewModel.Identifiers.TryGetValue(selectedLanguage, out List<TranslationUiModel>? translations))
+                ViewModel.Identifiers.Any(a => a.Language == selectedLanguage))
             {
+                var translations = ViewModel.Identifiers.First(a => a.Language == selectedLanguage);
                 //SemanticScreenReader.Announce(selectedLanguage);
                 bibleTranslationPicker.ItemsSource = translations;
                 if (ViewModel.SelectedLanguage == MainPageViewModel.Eng)

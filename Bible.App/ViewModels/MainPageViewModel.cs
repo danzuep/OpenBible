@@ -1,15 +1,18 @@
-﻿using Bible.App.Models;
-using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using Bible.App.Abstractions;
-using Microsoft.Extensions.Logging.Abstractions;
+using Bible.App.Models;
+using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Bible.App.ViewModels
 {
     public sealed partial class MainPageViewModel : BaseViewModel
     {
+        internal static readonly string Eng = "eng";
+        internal static readonly string Web = "WEB";
+        static readonly string _webName = "World English Bible";
+
         private WeakReference<BibleUiModel?> _bibleReference = new(default);
 
         public BibleUiModel? Bible
@@ -21,43 +24,61 @@ namespace Bible.App.ViewModels
             }
         }
 
-        public ObservableCollection<string> Languages { get; } = [];
+        public ObservableCollection<string> Languages { get; } = new();
 
-        [ObservableProperty]
-        private string? selectedLanguage;
+        private string _selectedLanguage = Eng;
+        public string SelectedLanguage
+        {
+            get => _selectedLanguage;
+            set => SetProperty(ref _selectedLanguage, value);
+        }
 
-        internal static readonly string Eng = "eng";
-        internal static readonly string Web = "WEB";
-        static readonly string _webName = "World English Bible";
-        public IList<TranslationUiModel> Translations { get; internal set; } = [];
+        public ObservableCollection<TranslationUiModel> Translations { get; } = new();
+        private string _selectedTranslation = Web;
+        public string SelectedTranslation
+        {
+            get => _selectedTranslation;
+            set => SetProperty(ref _selectedTranslation, value);
+        }
 
-        public Dictionary<string, List<TranslationUiModel>> Identifiers { get; } = [];
+        public ObservableCollection<LanguageUiModel> Identifiers { get; } = new();
 
-        [ObservableProperty]
-        private int bookIndex = -1;
+        private int _bookIndex = -1;
+        public int BookIndex
+        {
+            get => _bookIndex;
+            set => SetProperty(ref _bookIndex, value);
+        }
 
-        [ObservableProperty]
-        private int chapterIndex = -1;
+        private int _chapterIndex = -1;
+        public int ChapterIndex
+        {
+            get => _chapterIndex;
+            set => SetProperty(ref _chapterIndex, value);
+        }
 
         private readonly IUiDataService _readerService;
-        private readonly ILogger _logger;
+        private readonly ILogger<MainPageViewModel> _logger;
 
-        public MainPageViewModel(IUiDataService readerService, ILogger? logger = null)
+        public MainPageViewModel(IUiDataService readerService, ILogger<MainPageViewModel>? logger = null)
         {
             _readerService = readerService;
-            // TODO: fix logging injection
             _logger = logger ?? NullLogger<MainPageViewModel>.Instance;
         }
 
         void InitializeSelections()
         {
             SelectedLanguage ??= Eng;
-            Translations = Identifiers[SelectedLanguage];
+            Translations.Clear();
+            foreach (var translation in Identifiers.First(i => i.Language == SelectedLanguage))
+            {
+                Translations.Add(translation);
+            }
         }
 
         void Initialize()
         {
-            Identifiers.Add(Eng, [new(Web, _webName)]);
+            Identifiers.Add(new(Eng, [new(Web, _webName)]));
             Languages.Add(Eng);
             InitializeSelections();
         }
@@ -71,14 +92,15 @@ namespace Bible.App.ViewModels
                 Identifiers.Clear();
                 Languages.Clear();
                 var translations = _readerService.AsyncGetBibleInfo();
-                await foreach (var bibleInfo in translations)
+                await foreach (var bibleInfo in translations.ConfigureAwait(false))
                 {
                     var translation = new TranslationUiModel(bibleInfo.Identifier, bibleInfo.Name);
-                    if (Identifiers.ContainsKey(bibleInfo.Language))
-                        Identifiers[bibleInfo.Language].Add(translation);
+                    var identifier = Identifiers.FirstOrDefault(i => i.Language == bibleInfo.Language);
+                    if (identifier?.Language != null)
+                        identifier.Add(translation);
                     else
                     {
-                        Identifiers.Add(bibleInfo.Language, [translation]);
+                        Identifiers.Add(new LanguageUiModel(bibleInfo.Language, new List<TranslationUiModel> { translation }));
                         Languages.Add(bibleInfo.Language);
                     }
                 }
@@ -99,12 +121,12 @@ namespace Bible.App.ViewModels
                     // The object has been garbage collected, so we need to recreate it
                     if (value != null && Identifiers.Count > 1)
                     {
-                        bible = await _readerService.GetBibleAsync(value.Identifier);
+                        bible = await _readerService.GetBibleAsync(value.Identifier).ConfigureAwait(false);
                         _bibleReference.SetTarget(bible);
                     }
                     if (bible == null)
                     {
-                        bible = await _readerService.LoadFileAsync(string.Join('/', Eng, Web));
+                        bible = await _readerService.LoadFileAsync(string.Join('/', Eng, Web)).ConfigureAwait(false);
                         _bibleReference.SetTarget(bible);
                     }
                     OnPropertyChanged(nameof(Bible));

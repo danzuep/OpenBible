@@ -35,6 +35,7 @@
                 <Picker
                     x:Name="bibleTranslationPicker"
                     ItemsSource="{Binding Translations, Mode=OneWay}"
+                    SelectedItem="{Binding SelectedTranslation, Mode=TwoWay}"
                     WidthRequest="240">
                     <Picker.Behaviors>
                         <mct:EventToCommandBehavior
