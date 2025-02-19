@@ -74,11 +74,12 @@ namespace Bible.App.ViewModels
             {
                 Translations.Add(translation);
             }
+            SelectedTranslation ??= Web;
         }
 
         void Initialize()
         {
-            Identifiers.Add(new(Eng, [new(Web, _webName)]));
+            Identifiers.Add(new(Eng, [new(Web, _webName, isDownloaded: true)]));
             Languages.Add(Eng);
             InitializeSelections();
         }
@@ -123,6 +124,7 @@ namespace Bible.App.ViewModels
                     {
                         bible = await _readerService.GetBibleAsync(value.Identifier).ConfigureAwait(false);
                         _bibleReference.SetTarget(bible);
+                        Translations.First(t => t.Identifier == value.Identifier).IsDownloaded = true;
                     }
                     if (bible == null)
                     {

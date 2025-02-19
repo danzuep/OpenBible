@@ -34,6 +34,7 @@
                     WidthRequest="90" />
                 <Picker
                     x:Name="bibleTranslationPicker"
+                    ItemDisplayBinding="{Binding DisplayText}"
                     ItemsSource="{Binding Translations, Mode=OneWay}"
                     SelectedItem="{Binding SelectedTranslation, Mode=TwoWay}"
                     WidthRequest="240">

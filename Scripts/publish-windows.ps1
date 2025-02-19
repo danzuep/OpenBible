@@ -16,9 +16,10 @@ if (-not $?) {
 }
 
 # https://learn.microsoft.com/en-us/dotnet/maui/windows/deployment/publish-unpackaged-cli?view=net-maui-8.0
-if (-not (dotnet workload list | Select-String -Pattern 'maui-windows')) {
+$workloadName = 'maui-windows';
+if (-not (dotnet workload list | Select-String -Pattern $workloadName)) {
     Write-Host "MAUI Windows workload not found. Installing..."
-    dotnet workload install maui-windows;
+    dotnet workload install $workloadName;
 } else {
     Write-Host "MAUI Windows workload is already installed."
 }
@@ -27,6 +28,7 @@ $targetFramework = "${dotnetTarget}-windows10.0.19041.0";
 dotnet publish $projectFile -c $configuration -f $targetFramework /p:Version=$buildVersion -v minimal --no-restore --nologo;
 if (-not $?) {
     Write-Host "Project failed to publish for Windows.";
+    dotnet workload update $workloadName;
     Exit 1;
 }
 

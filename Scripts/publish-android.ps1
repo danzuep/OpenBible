@@ -35,9 +35,10 @@ if (-Not (Test-Path -Path "${kestorePath}" -PathType Leaf))
 }
 
 # https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0
-if (-not (dotnet workload list | Select-String -Pattern 'maui-android')) {
+$workloadName = 'maui-android';
+if (-not (dotnet workload list | Select-String -Pattern $workloadName)) {
     Write-Host "MAUI Android workload not found. Installing..."
-    dotnet workload install maui-android;
+    dotnet workload install $workloadName;
 } else {
     Write-Host "MAUI Android workload is already installed."
 }
@@ -45,6 +46,7 @@ if (-not (dotnet workload list | Select-String -Pattern 'maui-android')) {
 dotnet publish $projectFile -c $configuration -f $targetFramework -p:Version=$buildVersion -v minimal --no-restore --nologo;
 if (-not $?) {
     Write-Host "Project failed to publish for Android.";
+    dotnet workload update $workloadName;
     Exit 1;
 }
 

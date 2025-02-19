@@ -69,15 +69,15 @@
 
   <!-- https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-cli?view=net-maui-8.0#define-build-properties-in-your-project-file -->
   <PropertyGroup Condition="$(TargetFramework.Contains('-windows'))">
-    <PublishDir>../publish/windows</PublishDir>
     <WindowsPackageType>None</WindowsPackageType>
+    <PublishDir>../publish/windows</PublishDir>
     <OutputType>WinExe</OutputType>
-    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <!--<PublishReadyToRun>false</PublishReadyToRun>-->
     <SelfContained>true</SelfContained>
-    <PublishReadyToRun>false</PublishReadyToRun>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
     <!--<PublishTrimmed>true</PublishTrimmed>-->
     <!--<PublishSingleFile>true</PublishSingleFile>-->
-    <!--<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>-->
   </PropertyGroup>
 
   <PropertyGroup Condition="$(TargetFramework.Contains('-android')) and '$(Configuration)' == 'Release'">
