@@ -2,10 +2,11 @@
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
+using Bible.Backend.Abstractions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace Bible.Backend
+namespace Bible.Backend.Services
 {
     public class XmlParser : IDeserialize
     {

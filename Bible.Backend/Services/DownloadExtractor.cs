@@ -1,9 +1,8 @@
 ﻿using System.IO.Compression;
-using System.Xml.Serialization;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace Bible.Backend
+namespace Bible.Backend.Services
 {
     public class DownloadExtractor
     {

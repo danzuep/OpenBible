@@ -1,4 +1,5 @@
 ﻿using System.Xml.Serialization;
+using Bible.Backend.Abstractions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 

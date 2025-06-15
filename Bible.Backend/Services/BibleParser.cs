@@ -1,21 +1,27 @@
 ﻿using System.Text;
+using Bible.Backend.Models;
 
-namespace Bible.Backend
+namespace Bible.Backend.Services
 {
     public class BibleParser
     {
-        public static string WriteToMarkdown(UsxScriptureBook book)
+        public static string WriteToMarkdown(UsxScriptureBook? book)
         {
+            if (book == null)
+            {
+                return string.Empty;
+            }
+
             var stringBuilder = new StringBuilder();
 
-            foreach (var paragraph in book.ParagraphContent)
+            foreach (var paragraph in book.Content.OfType<UsxPara>())
             {
                 if (paragraph.Style == "h" &&
                     paragraph.Content.FirstOrDefault() is string bookName)
                 {
                     stringBuilder.AppendLine($"## {bookName}");
                     stringBuilder.AppendLine();
-                    stringBuilder.AppendLine($"### Chapter {book.ChapterMarker.Number}");
+                    //stringBuilder.AppendLine($"### Chapter {book.Content.Number}");
                 }
                 else if (paragraph.Style == "p")
                 {

@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using System.Text;
+using Bible.Backend.Models;
+using Bible.Backend.Services;
 
 namespace Bible.Backend.Test
 {
@@ -25,7 +27,7 @@ namespace Bible.Backend.Test
             var usxFilePath = Path.Combine(translation, $"{bookCode}.usx");
             var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
-            var paragraphs = book.ParagraphContent.Where(b => b.Style == "p");
+            var paragraphs = book.Content.Where(b => b.Style == "p");
             foreach (var paragraph in paragraphs)
             {
                 var stringBuilder = new StringBuilder();
@@ -72,7 +74,7 @@ namespace Bible.Backend.Test
             var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
             var stringBuilder = new StringBuilder();
-            var paragraphs = book.ParagraphContent.Where(b => b.Style == "p");
+            var paragraphs = book.Content.Where(b => b.Style == "p");
             foreach (var paragraph in paragraphs)
             {
                 foreach (var item in paragraph.Content)
