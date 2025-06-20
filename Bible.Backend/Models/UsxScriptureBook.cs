@@ -1,10 +1,9 @@
 ﻿namespace Bible.Backend.Models
 {
-    using System.Collections.Generic;
+    using System.Xml;
     using System.Xml.Serialization;
 
-    // "https://ubsicap.github.io/";
-
+    /// <see href="https://ubsicap.github.io/"/>
     [XmlRoot("usx")]
     public class UsxScriptureBook
     {
@@ -45,7 +44,7 @@
 
     public class UsxPara : UsxStyleBase
     {
-        [XmlElement("char", typeof(UsxChar))]
+        [XmlElement("char", typeof(UsxCharContent))]
         [XmlElement("verse", typeof(UsxMarker))]
         [XmlElement("ms", typeof(UsxMilestone))]
         [XmlElement("optbreak", typeof(UsxLineBreak))]
@@ -55,16 +54,39 @@
         public object[] Content { get; set; }
     }
 
-    public class UsxChar : UsxStyleBase, IUsxTextBase
+    public abstract class UsxCharBase : UsxStyleBase, IUsxTextBase
     {
-        [XmlAttribute("strong")]
-        public string Strong { get; set; }
-
         [XmlText]
         public string Text { get; set; }
 
         public override string ToString() =>
+            $"{Text} ({Style})";
+    }
+
+    public class UsxCharStrong : UsxCharBase, IUsxTextBase
+    {
+        [XmlAttribute("strong")]
+        public string Strong { get; set; }
+
+        public override string ToString() =>
             $"{Text} ({Style}, {Strong})";
+    }
+
+    public class UsxCharContent : UsxCharBase, IUsxTextBase
+    {
+        [XmlElement("char", typeof(UsxCharStrong))]
+        [XmlText(typeof(string))]
+        public object[] Content { get; set; }
+    }
+
+    public class UsxCharRef : UsxStyleBase
+    {
+        [XmlAttribute("closed")]
+        public bool Closed { get; set; }
+
+        [XmlElement("ref", typeof(UsxReference))]
+        [XmlText(typeof(string))]
+        public object[] Content { get; set; }
     }
 
     public class UsxNote : UsxStyleBase
@@ -73,13 +95,7 @@
         public string Caller { get; set; }
 
         [XmlElement("char")]
-        public UsxChar[] References { get; set; }
-
-        public override string ToString()
-        {
-            var text = References.Select(r => string.Join("", r.Text));
-            return $"{text}, ({Style}, {Caller})";
-        }
+        public UsxCharRef[] Entries { get; set; }
     }
 
     public sealed class UsxMilestone : UsxSidEidBase

@@ -18,6 +18,16 @@ namespace Bible.Backend.Test
             Debug.WriteLine(text);
         }
 
+        [Fact]
+        public void BibleParser_WithUsx_DeserializesToMarkdown()
+        {
+            var deserializer = new XDocParser();
+            var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleApiConstants.UsxWebbeMat5);
+            Assert.NotNull(book);
+            var text = BibleParser.WriteToMarkdown(book);
+            Debug.WriteLine(text);
+        }
+
         [Theory]
         [InlineData("WEBBE", "3JN")]
         //[InlineData("WEBBE", "JUD")]
