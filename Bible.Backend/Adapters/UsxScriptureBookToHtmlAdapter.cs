@@ -84,12 +84,12 @@ namespace Bible.Backend.Adapters
                     stringBuilder.Append(headingText);
                     stringBuilder.AppendLine("</h2></a>");
                 }
-                else if (content is UsxMarker chapterMarker && chapterMarker.Number != 0)
+                else if (content is UsxMarker chapterMarker && !string.IsNullOrEmpty(chapterMarker.Number))
                 {
-                    chapterNumber = chapterMarker.Number;
+                    _ = int.TryParse(chapterMarker.Number, out chapterNumber);
                     stringBuilder.AppendFormat("<a href=\"#{0}-c-{1}\">", bookName, chapterNumber);
                     stringBuilder.Append($"<h3 id=\"{bookName}-{chapterMarker.Style}-{chapterNumber}\">");
-                    stringBuilder.Append(chapterMarker.Number.ToString());
+                    stringBuilder.Append(chapterMarker.Number);
                     stringBuilder.AppendLine("</h3></a>");
                 }
                 else if (content is UsxPara paragraph && paragraph.Content != null && chapterNumber > 0)
@@ -150,10 +150,10 @@ namespace Bible.Backend.Adapters
                 {
                     stringBuilder.Append(UsxToHtml(value, addStrongs));
                 }
-                else if (item is UsxMarker verseMarker && verseMarker.Number != 0)
+                else if (item is UsxMarker verseMarker && !string.IsNullOrEmpty(verseMarker.Number))
                 {
                     stringBuilder.Append("<sup>");
-                    stringBuilder.Append(verseMarker.Number.ToString(CultureInfo.InvariantCulture));
+                    stringBuilder.Append(verseMarker.Number);
                     stringBuilder.Append("</sup>");
                 }
                 else if (addNotes && item is UsxNote usxNote)
@@ -176,6 +176,10 @@ namespace Bible.Backend.Adapters
             stringBuilder.AppendFormat("<li id=\"footnote-{0}\">", index);
             foreach (var usxChar in usxChars)
             {
+                if (usxChar.Content == null)
+                {
+                    continue;
+                }
                 foreach (var item in usxChar.Content)
                 {
                     if (!linkAdded)

@@ -21,7 +21,10 @@ public class Program
         //Example2();
         //MarkdownExample(logger);
         //HtmlExample(logger);
-        await ConvertToHtmlAsync();
+        //await ConvertToHtmlAsync();
+        //await DownloadToHtmlAsync();
+        //await DeserializeToHtmlAsync();
+        await DeserializeAllToHtmlAsync(logger);
 
         Console.WriteLine();
         Console.WriteLine("Press any key to exit...");
@@ -136,5 +139,95 @@ public class Program
             var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
             await File.WriteAllTextAsync(outFilePath, book?.ToHtml());
         }
+    }
+
+    private static async Task DownloadToHtmlAsync(string translation = "OCCB")
+    {
+        // https://app.thedigitalbiblelibrary.org/entry/download_archive?id=a6e06d2c5b90ad89&license=42446&revision=5&type=release
+        var usxFolderName = "a6e06d2c5b90ad89-rev5-2024-04-29-release";
+        var extract = $"{translation}-a6e06d2c5b90ad89";
+
+        var userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+        var downloadPath = Path.Combine(userProfile, "Downloads");
+        var usxFilePath = Path.Combine(downloadPath, usxFolderName);
+        var outputPath = Path.Combine(downloadPath, translation);
+        var extractPath = Path.Combine(downloadPath, extract);
+
+        //var downloadExtractor = new DownloadExtractor();
+        //await downloadExtractor.DownloadExtractAsync(translation, usxFolderName);
+        //ZipFile.ExtractToDirectory($"{usxFilePath}.zip", extractPath);
+
+        Directory.CreateDirectory(outputPath);
+
+        var deserializer = new XDocParser();
+        var usxParser = new UsxParser(deserializer);
+        var files = usxParser.Deserialize<UsxScriptureBook>(extractPath);
+
+        foreach (var book in files)
+        {
+            var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
+            await File.WriteAllTextAsync(outFilePath, book?.ToHtml());
+        }
+    }
+
+    private static async Task DeserializeToHtmlAsync(string name = "eng-WEBU", string usxFolderName = "9879dbb7cfe39e4d-rev139-2025-06-20-release")
+    {
+        var biblePath = GetBiblePath();
+        var userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+        var usxFilePath = Path.Combine(userProfile, "Downloads", usxFolderName);
+        var outputPath = Path.Combine(biblePath, "texts", name);
+
+        Directory.CreateDirectory(outputPath);
+
+        var deserializer = new XDocParser();
+        var usxParser = new UsxParser(deserializer);
+        var files = usxParser.Deserialize<UsxScriptureBook>(usxFilePath);
+
+        foreach (var book in files)
+        {
+            var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
+            await File.WriteAllTextAsync(outFilePath, book?.ToHtml());
+        }
+    }
+
+    private static async Task DeserializeAllToHtmlAsync(ILogger logger, string suffix = "-usx")
+    {
+        var biblePath = GetBiblePath();
+        var deserializer = new XDocParser();
+        var usxParser = new UsxParser(deserializer);
+        foreach (var usxPath in Directory.EnumerateDirectories(biblePath))
+        {
+            var folderName = Path.GetFileName(usxPath);
+            if (string.IsNullOrEmpty(folderName) || !folderName.EndsWith(suffix))
+            {
+                continue;
+            }
+            var bibleVersion = folderName[..^suffix.Length];
+            logger.LogInformation(bibleVersion);
+            Directory.CreateDirectory(Path.Combine(biblePath, bibleVersion));
+
+            var files = usxParser.Deserialize<UsxScriptureBook>(usxPath);
+            var outputPath = Path.Combine(biblePath, bibleVersion);
+
+            foreach (var book in files)
+            {
+                var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
+                await File.WriteAllTextAsync(outFilePath, book?.ToHtml());
+                logger.LogInformation(outFilePath);
+            }
+        }
+    }
+
+    private static string GetBiblePath(string thisProject = "OpenBible", string bibleProjectName = "Bible")
+    {
+        do
+        {
+            thisProject = Path.Combine("..", thisProject);
+        }
+        while (!Directory.Exists(thisProject));
+
+        var biblePath = Path.Combine(thisProject, "..", bibleProjectName);
+
+        return biblePath;
     }
 }

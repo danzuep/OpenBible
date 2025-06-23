@@ -35,7 +35,7 @@ namespace Bible.Backend.Adapters
                 }
                 else if (content is UsxMarker chapterMarker)
                 {
-                    if (chapterMarker.Style == "c" && chapterMarker.Number != 0)
+                    if (chapterMarker.Style == "c" && !string.IsNullOrEmpty(chapterMarker.Number))
                     {
                         bibleChapter = chapterMarker.SetBibleChapterReference(bibleReference);
                     }
@@ -63,9 +63,10 @@ namespace Bible.Backend.Adapters
 
         private static BibleChapter SetBibleChapterReference(this UsxMarker chapterMarker, BibleReference bibleReference)
         {
+            _ = int.TryParse(chapterMarker.Number, out var chapterNumber);
             var bibleChapter = new BibleChapter
             {
-                Id = chapterMarker.Number
+                Id = chapterNumber
             };
             if (!string.IsNullOrEmpty(chapterMarker.StartId) &&
                 chapterMarker.StartId.Split(' ').LastOrDefault() is string chapter)
@@ -74,7 +75,7 @@ namespace Bible.Backend.Adapters
             }
             else
             {
-                var chapterReference = chapterMarker.Number.ToString(CultureInfo.InvariantCulture);
+                var chapterReference = chapterMarker.Number;
                 bibleChapter.Reference = new BibleReference(bibleReference) { Reference = chapterReference };
             }
             return bibleChapter;
@@ -100,9 +101,10 @@ namespace Bible.Backend.Adapters
                 }
                 else if (item is UsxMarker verseMarker && verseMarker.Style == "v")
                 {
-                    if (verseMarker.Number != 0)
+                    if (!string.IsNullOrEmpty(verseMarker.Number))
                     {
-                        bibleVerse.Id = verseMarker.Number;
+                        _ = int.TryParse(verseMarker.Number, out var verseNumber);
+                        bibleVerse.Id = verseNumber;
 
                         if (!string.IsNullOrEmpty(verseMarker.StartId) &&
                             verseMarker.StartId.Split(' ').LastOrDefault() is string chapterVerse)

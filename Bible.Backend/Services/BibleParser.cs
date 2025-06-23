@@ -35,7 +35,7 @@ namespace Bible.Backend.Services
                         {
                             stringBuilder.Append(value.Text);
                         }
-                        else if (item is UsxMarker verseMarker && verseMarker.Number != 0)
+                        else if (item is UsxMarker verseMarker && !string.IsNullOrEmpty(verseMarker.Number))
                         {
                             stringBuilder.Append($"[{verseMarker.Number}]");
                         }

@@ -23,7 +23,7 @@ namespace Bible.Backend.Adapters
                 {
                     stringBuilder.AppendLine($"## {bookName}");
                 }
-                else if (content is UsxMarker chapterMarker && chapterMarker.Number != 0)
+                else if (content is UsxMarker chapterMarker && !string.IsNullOrEmpty(chapterMarker.Number))
                 {
                     stringBuilder.AppendLine($"### {chapterMarker.Number}");
                 }
@@ -54,7 +54,7 @@ namespace Bible.Backend.Adapters
                 {
                     stringBuilder.Append(UsxToMarkdown(value, addStrongs));
                 }
-                else if (item is UsxMarker verseMarker && verseMarker.Number != 0)
+                else if (item is UsxMarker verseMarker && !string.IsNullOrEmpty(verseMarker.Number))
                 {
                     stringBuilder.AppendFormat("*{0}* ", verseMarker.Number);
                 }

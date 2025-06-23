@@ -36,7 +36,7 @@
     public class UsxMarker : UsxSidEidBase
     {
         [XmlAttribute("number")]
-        public int Number { get; set; }
+        public string Number { get; set; }
 
         public override string ToString() =>
             $"{Number} ({Style}, {StartId}{EndId})";
