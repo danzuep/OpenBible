@@ -19,12 +19,12 @@ public class Program
 
         //Example1();
         //Example2();
-        //MarkdownExample(logger);
+        MarkdownExample(logger);
         //HtmlExample(logger);
         //await ConvertToHtmlAsync();
         //await DownloadToHtmlAsync();
         //await DeserializeToHtmlAsync();
-        await DeserializeAllToHtmlAsync(logger);
+        //await DeserializeAllToHtmlAsync(logger);
 
         Console.WriteLine();
         Console.WriteLine("Press any key to exit...");
