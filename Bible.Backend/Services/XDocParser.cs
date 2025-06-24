@@ -42,64 +42,12 @@ namespace Bible.Backend.Services
 
         private T? Deserialize<T>(XDocument xDocument)
         {
-            var uglifiedDoc = GetUglifiedXml(xDocument);
             var serializer = new XmlSerializer(typeof(T));
-            using (var reader = uglifiedDoc.CreateReader())
+            using (var reader = xDocument.CreateReader())
             {
                 var result = (T?)serializer.Deserialize(reader);
                 return result;
             }
-        }
-
-        private async Task<XDocument> GetUglifiedXmlStreamAsync(Stream inputStream, CancellationToken cancellationToken = default)
-        {
-            var doc = await XDocument.LoadAsync(inputStream, LoadOptions.None, cancellationToken);
-
-            var outputStream = new MemoryStream();
-
-            var settings = new XmlWriterSettings
-            {
-                Indent = false,
-                NewLineHandling = NewLineHandling.None,
-                Encoding = System.Text.Encoding.UTF8,
-                OmitXmlDeclaration = false
-            };
-
-            using (var writer = XmlWriter.Create(outputStream, settings))
-            {
-                await doc.WriteToAsync(writer, cancellationToken);
-            }
-
-            outputStream.Position = 0; // Reset to beginning
-
-            // Load the uglified XML back into a new XDocument (this normalizes whitespace as serialized)
-            var uglifiedDoc = await XDocument.LoadAsync(outputStream, Settings, cancellationToken);
-
-            return uglifiedDoc;
-        }
-
-        private XDocument GetUglifiedXml(XDocument xDocument)
-        {
-            var outputStream = new MemoryStream();
-
-            var settings = new XmlWriterSettings
-            {
-                Indent = false,
-                NewLineHandling = NewLineHandling.None,
-                Encoding = Encoding.UTF8,
-                OmitXmlDeclaration = true
-            };
-
-            using (var writer = XmlWriter.Create(outputStream, settings))
-            {
-                xDocument.WriteTo(writer);
-            }
-
-            outputStream.Position = 0; // Reset to beginning
-
-            var uglifiedDoc = XDocument.Load(outputStream, Settings);
-
-            return uglifiedDoc;
         }
     }
 }
