@@ -76,9 +76,9 @@ namespace Bible.Backend.Adapters
             foreach (var content in book.Content)
             {
                 if (content is UsxPara heading && heading.Style == "h" &&
-                    heading.Content.FirstOrDefault() is string headingText)
+                    heading.Content.FirstOrDefault() is UsxHeading headingText)
                 {
-                    bookName = headingText;
+                    bookName = headingText.Text;
                     stringBuilder.AppendFormat("<a href=\"#{0}-h\">", bookName);
                     stringBuilder.Append($"<h2 id=\"{heading.Style}-{headingText}\">");
                     stringBuilder.Append(headingText);
@@ -95,7 +95,7 @@ namespace Bible.Backend.Adapters
                 else if (content is UsxPara paragraph && paragraph.Content != null && chapterNumber > 0)
                 {
                     stringBuilder.AppendFormat("<p>{0}</p>",
-                        paragraph.ToHtml(footnotes, enableFootnotes, enableStrongs));
+                        paragraph.ToHtml(enableStrongs, enableFootnotes, footnotes));
                 }
             }
 
@@ -136,63 +136,29 @@ namespace Bible.Backend.Adapters
             return stringBuilder.ToString().Trim();
         }
 
-        internal static string ToHtml(this UsxPara paragraph, IList<string> footnotes, bool addNotes, bool addStrongs)
+        private static string ToFootnoteRefs(this UsxFootnote usxFootnote, int index)
         {
-            var stringBuilder = new StringBuilder();
-
-            foreach (var item in paragraph.Content)
+            if (usxFootnote == null)
             {
-                if (item is string textValue)
-                {
-                    stringBuilder.Append(WebUtility.HtmlEncode(textValue));
-                }
-                else if (item is IUsxTextBase value)
-                {
-                    stringBuilder.Append(UsxToHtml(value, addStrongs));
-                }
-                else if (item is UsxMarker verseMarker && !string.IsNullOrEmpty(verseMarker.Number))
-                {
-                    stringBuilder.Append("<sup>");
-                    stringBuilder.Append(verseMarker.Number);
-                    stringBuilder.Append("</sup>");
-                }
-                else if (addNotes && item is UsxNote usxNote)
-                {
-                    var index = footnotes.Count;
-                    stringBuilder.Append(
-                        $"<sup><a href=\"#footnote-{index}\" id=\"ref-{index}\">†</a></sup>");
-                    footnotes.Add(usxNote.Entries.ToFootnoteRefs(index));
-                }
+                return string.Empty;
             }
 
-            return stringBuilder.ToString();
-        }
-
-        private static string ToFootnoteRefs(this IEnumerable<UsxCharRef> usxChars, int index)
-        {
             var stringBuilder = new StringBuilder();
             var linkAdded = false;
 
             stringBuilder.AppendFormat("<li id=\"footnote-{0}\">", index);
-            foreach (var usxChar in usxChars)
+            foreach (var item in usxFootnote.Content)
             {
-                if (usxChar.Content == null)
+                if (!linkAdded)
                 {
-                    continue;
+                    linkAdded = true;
+                    stringBuilder.AppendFormat(
+                        "<a href=\"#ref-{0}\" title=\"Back to reference ↩\">{1}</a>",
+                        index, UsxToHtml(item));
                 }
-                foreach (var item in usxChar.Content)
+                else
                 {
-                    if (!linkAdded)
-                    {
-                        linkAdded = true;
-                        stringBuilder.AppendFormat(
-                            "<a href=\"#ref-{0}\" title=\"Back to reference ↩\">{1}</a>",
-                            index, UsxToHtml(item));
-                    }
-                    else
-                    {
-                        stringBuilder.Append(UsxToHtml(item));
-                    }
+                    stringBuilder.Append(UsxToHtml(item));
                 }
             }
             stringBuilder.Append("</li>");
@@ -211,7 +177,7 @@ namespace Bible.Backend.Adapters
             {
                 return WebUtility.HtmlEncode(text);
             }
-            else if (item is UsxCharContent usxCharWj && usxCharWj.Content != null)
+            else if (item is UsxChar usxCharWj && usxCharWj.Content != null)
             {
                 var contents = usxCharWj.ToHtml(addStrongs);
                 if (usxCharWj.Style == "wj")
@@ -223,38 +189,60 @@ namespace Bible.Backend.Adapters
                     return contents;
                 }
             }
-            else if (addStrongs && item is UsxCharStrong usxCharW && !string.IsNullOrEmpty(usxCharW.Strong))
+            else if (addStrongs && item is UsxChar usxCharW && !string.IsNullOrEmpty(usxCharW.Strong))
             {
+                var usxCharWText = UsxToHtml(usxCharW.Content, addStrongs);
                 return string.Format("<span class=\"word-link\" link-data=\"{0}{1}\">{2}</span>",
                     "https://www.blueletterbible.org/lexicon/",
                     WebUtility.UrlEncode(usxCharW.Strong),
-                    WebUtility.HtmlEncode(usxCharW.Text));
+                    WebUtility.HtmlEncode(usxCharWText));
             }
-            else if (item is UsxReference crossReference)
+            else if (item is UsxCrossReference crossReference)
             {
                 return string.Format("<a href=\"{0}{1}\" title=\"Bible link\" target=\"_blank\">{2}</a>",
                     "https://www.biblegateway.com/passage/?search=",
                     WebUtility.UrlEncode(crossReference.Location),
                     WebUtility.HtmlEncode(crossReference.Location));
             }
-            else if (item is IUsxTextBase value)
+            else if (item is UsxContent usx && usx.Content != null)
             {
-                return WebUtility.HtmlEncode(value.Text);
+                return UsxToHtml(usx.Content, addStrongs);
             }
 
             return string.Empty;
         }
 
-        private static string ToHtml(this UsxCharContent usxChar, bool addStrongs)
+        private static string ToHtml(this UsxContent compound, bool addStrongs, bool addNotes = false, IList<string>? footnotes = null)
         {
             var stringBuilder = new StringBuilder();
 
-            foreach (var item in usxChar.Content)
+            foreach (var item in compound.Content)
             {
-                stringBuilder.Append(UsxToHtml(item, addStrongs));
+                if (item is UsxHeading text)
+                {
+                    stringBuilder.Append(WebUtility.HtmlEncode(text.Text));
+                }
+                else if (item is UsxMarker verseMarker && !string.IsNullOrEmpty(verseMarker.Number))
+                {
+                    stringBuilder.Append("<sup>");
+                    stringBuilder.Append(verseMarker.Number);
+                    stringBuilder.Append("</sup>");
+                }
+                else if (addNotes && footnotes != null && item is UsxFootnote usxNote)
+                {
+                    var index = footnotes.Count;
+                    stringBuilder.Append(
+                        $"<sup><a href=\"#footnote-{index}\" id=\"ref-{index}\">†</a></sup>");
+                    footnotes.Add(usxNote.ToFootnoteRefs(index));
+                }
+                else
+                {
+                    stringBuilder.Append(UsxToHtml(item, addStrongs));
+                }
             }
 
             return stringBuilder.ToString();
         }
+
     }
 }

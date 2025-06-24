@@ -17,9 +17,9 @@ namespace Bible.Backend.Services
             foreach (var paragraph in book.Content.OfType<UsxPara>())
             {
                 if (paragraph.Style == "h" &&
-                    paragraph.Content.FirstOrDefault() is string bookName)
+                    paragraph.Content.FirstOrDefault() is UsxHeading bookName)
                 {
-                    stringBuilder.AppendLine($"## {bookName}");
+                    stringBuilder.AppendLine($"## {bookName.Text}");
                     stringBuilder.AppendLine();
                     //stringBuilder.AppendLine($"### Chapter {book.Content.Number}");
                 }
@@ -27,13 +27,9 @@ namespace Bible.Backend.Services
                 {
                     foreach (var item in paragraph.Content)
                     {
-                        if (item is string textValue)
+                        if (item is UsxHeading text)
                         {
-                            stringBuilder.Append(textValue);
-                        }
-                        else if (item is IUsxTextBase value)
-                        {
-                            stringBuilder.Append(value.Text);
+                            stringBuilder.Append(text.Text);
                         }
                         else if (item is UsxMarker verseMarker && !string.IsNullOrEmpty(verseMarker.Number))
                         {
@@ -46,11 +42,11 @@ namespace Bible.Backend.Services
                         else if (item is UsxMilestone milestone)
                         {
                         }
-                        else if (item is UsxReference reference)
+                        else if (item is UsxCrossReference reference)
                         {
                             stringBuilder.Append($"[({reference.Location})]");
                         }
-                        else if (item is UsxNote footNote)
+                        else if (item is UsxFootnote footNote)
                         {
                             stringBuilder.Append($"[^{footNote.Caller}]");
                         }

@@ -28,9 +28,9 @@ namespace Bible.Backend.Adapters
             foreach (var content in book.Content)
             {
                 if (content is UsxPara heading && heading.Style == "h" &&
-                    heading.Content.FirstOrDefault() is string bookName)
+                    heading.Content.FirstOrDefault() is UsxHeading bookName)
                 {
-                    bibleReference.BookName = bookName;
+                    bibleReference.BookName = bookName.Text;
                     //bibleBook.Reference = bibleReference;
                 }
                 else if (content is UsxMarker chapterMarker)
@@ -81,7 +81,7 @@ namespace Bible.Backend.Adapters
             return bibleChapter;
         }
 
-        internal static IEnumerable<BibleVerse> ToBibleFormat(this UsxPara paragraph, BibleReference bibleReference, StringBuilder stringBuilder)
+        internal static IEnumerable<BibleVerse> ToBibleFormat(this UsxContent paragraph, BibleReference bibleReference, StringBuilder stringBuilder)
         {
             if (paragraph == null || paragraph.Style != "p")
             {
@@ -91,13 +91,9 @@ namespace Bible.Backend.Adapters
             var bibleVerse = new BibleVerse();
             foreach (var item in paragraph.Content)
             {
-                if (item is string textValue)
+                if (item is UsxHeading textValue)
                 {
-                    stringBuilder.Append(textValue);
-                }
-                else if (item is IUsxTextBase value)
-                {
-                    stringBuilder.Append(value.Text);
+                    stringBuilder.Append(textValue.Text);
                 }
                 else if (item is UsxMarker verseMarker && verseMarker.Style == "v")
                 {
@@ -126,6 +122,13 @@ namespace Bible.Backend.Adapters
 
                         stringBuilder.Clear();
                         bibleVerse = new BibleVerse();
+                    }
+                }
+                else if (item is UsxContent usx && usx.Content != null)
+                {
+                    foreach (var verse in usx.ToBibleFormat(bibleReference, stringBuilder))
+                    {
+                        yield return verse;
                     }
                 }
             }

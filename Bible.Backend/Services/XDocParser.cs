@@ -1,6 +1,4 @@
-﻿using System.Text;
-using System.Xml;
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
 using System.Xml.Serialization;
 using Bible.Backend.Abstractions;
 using Microsoft.Extensions.Logging;

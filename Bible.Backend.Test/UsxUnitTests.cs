@@ -37,7 +37,7 @@ namespace Bible.Backend.Test
             var usxFilePath = Path.Combine(translation, $"{bookCode}.usx");
             var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
-            var paragraphs = book.Content.Where(b => b.Style == "p");
+            var paragraphs = book.Content.OfType<UsxPara>().Where(b => b.Style == "p");
             foreach (var paragraph in paragraphs)
             {
                 var stringBuilder = new StringBuilder();
@@ -45,18 +45,14 @@ namespace Bible.Backend.Test
                 foreach (var item in paragraph.Content)
                 {
                     if (item is UsxMarker verseMarker &&
-                        verseMarker.Number != 0 &&
+                        !string.IsNullOrEmpty(verseMarker.Number) &&
                         string.IsNullOrEmpty(verseMarker.EndId))
                     {
                         stringBuilder.AppendLine();
                         stringBuilder.Append(verseMarker.Number);
                         stringBuilder.Append(" ");
                     }
-                    else if (item is string textValue)
-                    {
-                        stringBuilder.Append(textValue);
-                    }
-                    else if (item is IUsxTextBase value)
+                    else if (item is UsxHeading text)
                     {
                         if (!isInitialized)
                         {
@@ -66,7 +62,7 @@ namespace Bible.Backend.Test
                         {
                             stringBuilder.Append(" ");
                         }
-                        stringBuilder.Append(value.Text);
+                        stringBuilder.Append(text.Text);
                     }
                 }
                 Debug.WriteLine(stringBuilder.ToString());
@@ -84,25 +80,21 @@ namespace Bible.Backend.Test
             var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
             var stringBuilder = new StringBuilder();
-            var paragraphs = book.Content.Where(b => b.Style == "p");
+            var paragraphs = book.Content.OfType<UsxContent>().Where(b => b.Style == "p");
             foreach (var paragraph in paragraphs)
             {
                 foreach (var item in paragraph.Content)
                 {
                     if (item is UsxMarker verseMarker &&
-                        verseMarker.Number != 0 &&
+                        !string.IsNullOrEmpty(verseMarker.Number) &&
                         string.IsNullOrEmpty(verseMarker.EndId))
                     {
                         stringBuilder.Append(verseMarker.Number);
                         stringBuilder.Append(" ");
                     }
-                    else if (item is string textValue)
+                    else if (item is UsxHeading text)
                     {
-                        stringBuilder.Append(textValue);
-                    }
-                    else if (item is IUsxTextBase value)
-                    {
-                        stringBuilder.Append(value.Text);
+                        stringBuilder.Append(text.Text);
                     }
                 }
                 Debug.WriteLine(stringBuilder.ToString());

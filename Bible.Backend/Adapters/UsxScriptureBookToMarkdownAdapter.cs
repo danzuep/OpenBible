@@ -1,12 +1,20 @@
 ﻿using System.Net;
 using System.Text;
 using Bible.Backend.Models;
+using Bible.Backend.Services;
 
 namespace Bible.Backend.Adapters
 {
     public static class UsxScriptureBookToMarkdownAdapter
     {
-        public static string ToMarkdown(this UsxScriptureBook? book, bool addFootnotes = false, bool addInlineStrongs = false)
+        public static string ToMarkdown(this UsxScriptureBook book, bool addFootnotes = false, bool addInlineStrongs = false)
+        {
+            var visitor = UsxToMarkdownVisitor.Create(book);
+            var markdown = visitor.GetMarkdown();
+            return markdown;
+        }
+
+        private static string UsxToMarkdown(this UsxScriptureBook? book, bool addFootnotes = false, bool addInlineStrongs = false)
         {
             if (book == null)
             {
@@ -14,14 +22,14 @@ namespace Bible.Backend.Adapters
             }
 
             var stringBuilder = new StringBuilder();
-            var footnotes = new Dictionary<string, UsxCharRef[]>();
+            var footnotes = new Dictionary<string, UsxFootnote>();
 
             foreach (var content in book.Content)
             {
                 if (content is UsxPara heading && heading.Style == "h" &&
-                    heading.Content.FirstOrDefault() is string bookName)
+                    heading.Content.FirstOrDefault() is UsxHeading bookName)
                 {
-                    stringBuilder.AppendLine($"## {bookName}");
+                    stringBuilder.AppendLine($"## {bookName.Text}");
                 }
                 else if (content is UsxMarker chapterMarker && !string.IsNullOrEmpty(chapterMarker.Number))
                 {
@@ -42,33 +50,33 @@ namespace Bible.Backend.Adapters
             return fullText;
         }
 
-        private static void AppendMarkdownPara(this StringBuilder stringBuilder, UsxPara paragraph, IDictionary<string, UsxCharRef[]> footnotes, bool addNotes, bool addStrongs)
+        private static void AppendMarkdownPara(this StringBuilder stringBuilder, UsxPara paragraph, IDictionary<string, UsxFootnote> footnotes, bool addNotes, bool addStrongs)
         {
             foreach (var item in paragraph.Content)
             {
-                if (item is string textValue)
+                if (item is UsxHeading text)
                 {
-                    stringBuilder.Append(textValue);
-                }
-                else if (item is IUsxTextBase value)
-                {
-                    stringBuilder.Append(UsxToMarkdown(value, addStrongs));
+                    stringBuilder.Append(text.Text);
                 }
                 else if (item is UsxMarker verseMarker && !string.IsNullOrEmpty(verseMarker.Number))
                 {
                     stringBuilder.AppendFormat("*{0}* ", verseMarker.Number);
                 }
-                else if (addNotes && item is UsxNote usxNote)
+                else if (addNotes && item is UsxFootnote usxNote)
                 {
                     var footnoteId = footnotes.Count + 1;
                     var key = $"{usxNote.Caller}{footnoteId:000}";
                     stringBuilder.AppendFormat("[^{0}]", key);
-                    footnotes.Add(key, usxNote.Entries);
+                    footnotes.Add(key, usxNote);
+                }
+                else
+                {
+                    stringBuilder.Append(UsxToMarkdown(item, addStrongs));
                 }
             }
         }
 
-        private static void AppendMarkdownNotes(this StringBuilder stringBuilder, IDictionary<string, UsxCharRef[]> footnotes)
+        private static void AppendMarkdownNotes(this StringBuilder stringBuilder, IDictionary<string, UsxFootnote> footnotes)
         {
             stringBuilder.AppendLine();
             stringBuilder.AppendLine();
@@ -90,16 +98,17 @@ namespace Bible.Backend.Adapters
             }
         }
 
-        private static string ToMarkdownRefs(this IEnumerable<UsxCharRef> usxChars)
+        private static string ToMarkdownRefs(this UsxFootnote usxChar)
         {
             var stringBuilder = new StringBuilder();
 
-            foreach (var usxChar in usxChars)
+            foreach (var item in usxChar.Content)
             {
-                foreach (var item in usxChar.Content)
+                if (usxChar.Content == null)
                 {
-                    stringBuilder.Append(UsxToMarkdown(item));
+                    continue;
                 }
+                stringBuilder.Append(UsxToMarkdown(item));
             }
 
             return stringBuilder.ToString();
@@ -112,29 +121,30 @@ namespace Bible.Backend.Adapters
                 return string.Empty;
             }
 
-            if (item is string text)
+            if (item is UsxHeading text)
             {
-                return text;
+                return text.Text;
             }
-            else if (item is UsxCharContent usxCharWj && usxCharWj.Content != null)
+            else if (item is UsxChar usxCharWj && usxCharWj.Content != null)
             {
                 return string.Concat(usxCharWj.Content.Select(c => UsxToMarkdown(c, addStrongs)));
             }
-            else if (addStrongs && item is UsxCharStrong usxCharW && !string.IsNullOrEmpty(usxCharW.Strong))
+            else if (addStrongs && item is UsxChar usxCharW && !string.IsNullOrEmpty(usxCharW.Strong))
             {
-                return string.Format("[{0}]({1}{2})", usxCharW.Text,
+                var usxCharWText = UsxToMarkdown(usxCharW.Content, addStrongs);
+                return string.Format("[{0}]({1}{2})", usxCharWText,
                     "https://www.blueletterbible.org/lexicon/",
                     WebUtility.UrlEncode(usxCharW.Strong));
             }
-            else if (item is UsxReference crossReference)
+            else if (item is UsxCrossReference crossReference)
             {
                 return string.Format("[{0}]({1}{2})", crossReference.Location,
                     "https://www.biblegateway.com/passage/?search=",
                     WebUtility.UrlEncode(crossReference.Location));
             }
-            else if (item is IUsxTextBase value)
+            else if (item is UsxContent usx)
             {
-                return value.Text;
+                UsxToMarkdown(usx.Content, addStrongs);
             }
 
             return string.Empty;

@@ -2,6 +2,7 @@
 
 using System;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Bible.Backend;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Adapters;
@@ -19,12 +20,13 @@ public class Program
 
         //Example1();
         //Example2();
-        MarkdownExample(logger);
+        //MarkdownVisitorExample(logger);
+        //HtmlVisitorExample(logger);
         //HtmlExample(logger);
         //await ConvertToHtmlAsync();
         //await DownloadToHtmlAsync();
         //await DeserializeToHtmlAsync();
-        //await DeserializeAllToHtmlAsync(logger);
+        await DeserializeAllToHtmlAsync(logger);
 
         Console.WriteLine();
         Console.WriteLine("Press any key to exit...");
@@ -105,12 +107,66 @@ public class Program
         await File.WriteAllTextAsync(outputPath, html);
     }
 
+    private static async Task MiniMarkdownExample(ILogger logger)
+    {
+        try
+        {
+            var deserializer = new XDocParser();
+            var book = deserializer.DeserializeXml<UsxParaBaseTest>(BibleApiConstants.UsxWebbe3JN_1_1);
+            var visitor = new UsxToMarkdownVisitor();
+            visitor.Accept(book?.Para);
+            var markdown = visitor.GetMarkdown();
+            logger.LogInformation(markdown);
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, ex.Message);
+        }
+    }
+
+    private static async Task MarkdownVisitorExample(ILogger logger)
+    {
+        try
+        {
+            var deserializer = new XDocParser();
+            var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleApiConstants.UsxWebbeMat5);
+            var visitor = UsxToMarkdownVisitor.Create(book);
+            var markdown = visitor.GetMarkdown();
+            logger.LogInformation(markdown);
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, ex.Message);
+        }
+    }
+
+    private static async Task HtmlVisitorExample(ILogger logger)
+    {
+        try
+        {
+            var deserializer = new XDocParser();
+            var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleApiConstants.UsxWebbe3JN);
+            var visitor = UsxToHtmlVisitor.Create(book);
+            logger.LogInformation(visitor.GetHtml());
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, ex.Message);
+        }
+    }
+
     private static async Task MarkdownExample(ILogger logger)
     {
-        var deserializer = new XDocParser();
-        var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleApiConstants.UsxWebbeMat5);
-        logger.LogInformation(book?.ToMarkdown());
-        //logger.LogInformation(book?.ToHtml());
+        try
+        {
+            var deserializer = new XDocParser();
+            var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleApiConstants.UsxWebbeMat5);
+            logger.LogInformation(book?.ToMarkdown());
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, ex.Message);
+        }
     }
 
     private static async Task HtmlExample(ILogger logger)
@@ -190,7 +246,7 @@ public class Program
         }
     }
 
-    private static async Task DeserializeAllToHtmlAsync(ILogger logger, string suffix = "-usx")
+    private static async Task DeserializeAllToOldHtmlAsync(ILogger logger, string suffix = "-usx")
     {
         var biblePath = GetBiblePath();
         var deserializer = new XDocParser();
@@ -213,6 +269,39 @@ public class Program
             {
                 var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
                 await File.WriteAllTextAsync(outFilePath, book?.ToHtml());
+                logger.LogInformation(outFilePath);
+            }
+        }
+    }
+
+    private static async Task DeserializeAllToHtmlAsync(ILogger logger, string suffix = "-usx")
+    {
+        var biblePath = GetBiblePath();
+        var sitePath = Path.Combine(biblePath, "_site");
+        var textsPath = Path.Combine(biblePath, "texts");
+        logger.LogInformation(textsPath);
+
+        var deserializer = new XDocParser();
+        var usxParser = new UsxParser(deserializer);
+
+        foreach (var versionPath in Directory.EnumerateDirectories(sitePath))
+        {
+            var suffixLength = versionPath.EndsWith(suffix) ? suffix.Length : 0;
+            var versionName = Path.GetFileName(versionPath)[..^suffixLength];
+            logger.LogInformation(versionName);
+
+            var outputPath = Path.Combine(textsPath, versionName);
+            Directory.CreateDirectory(outputPath);
+
+            var files = usxParser.Deserialize<UsxScriptureBook>(versionPath);
+
+            foreach (var book in files)
+            {
+                //var usxToMarkdownVisitor = UsxToMarkdownVisitor.Create(book);
+                //logger.LogInformation(usxToMarkdownVisitor.GetMarkdown());
+                var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
+                var usxToHtmlVisitor = UsxToHtmlVisitor.Create(book);
+                await File.WriteAllTextAsync(outFilePath, usxToHtmlVisitor.GetHtml());
                 logger.LogInformation(outFilePath);
             }
         }

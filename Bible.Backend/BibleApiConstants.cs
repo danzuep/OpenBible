@@ -19,7 +19,7 @@
     public static readonly string SampleSuffix = $"{Version}{Bibles}{WEBBE}{Passages}{Jud1}{PassageSuffix}";
     public static readonly string SampleFull = $"{BaseUrl}{SampleSuffix}";
 
-    public static readonly string UsxWebbe3JN = @" <?xml version=""1.0"" encoding=""utf-8""?>
+    public static readonly string UsxWebbe3JN = @"<?xml version=""1.0"" encoding=""utf-8""?>
 <usx version=""3.0"">
   <book code=""3JN"" style=""id"">64-3JN-web.sfm World English Bible British Edition (WEBBE)</book>
   <para style=""ide"">UTF-8</para>
@@ -197,4 +197,10 @@
   <chapter eid=""MAT 5"" />
 </usx>";
 
+    public static readonly string UsxWebbe3JN_1_1 = @"<usx version=""3.0"">
+  <para style=""p"">
+    <verse number=""1"" style=""v"" sid=""3JN 1:1"" />
+    <char style=""w"" strong=""G1722"">The</char> <char style=""w"" strong=""G4245"">elder</char> <char style=""w"" strong=""G1722"">to</char> <char style=""w"" strong=""G1050"">Gaius</char> <char style=""w"" strong=""G1722"">the</char> beloved, <char style=""w"" strong=""G3739"">whom</char> <char style=""w"" strong=""G1473"">I</char> love <char style=""w"" strong=""G1722"">in</char> truth.<verse eid=""3JN 1:1"" />
+  </para>
+</usx>";
 }
