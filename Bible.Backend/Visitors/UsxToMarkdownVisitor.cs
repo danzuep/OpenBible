@@ -1,4 +1,4 @@
-﻿namespace Bible.Backend.Services;
+﻿namespace Bible.Backend.Visitors;
 
 using System.Net;
 using System.Text;

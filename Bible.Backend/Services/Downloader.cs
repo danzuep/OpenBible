@@ -1,18 +1,17 @@
-﻿using System.IO.Compression;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Bible.Backend.Services
 {
-    public class DownloadExtractor
+    public class Downloader
     {
         private readonly HttpClient _httpClient;
-        private readonly ILogger<DownloadExtractor> _logger;
+        private readonly ILogger<Downloader> _logger;
 
-        public DownloadExtractor(HttpClient? httpClient = null, ILogger<DownloadExtractor>? logger = null)
+        public Downloader(HttpClient? httpClient = null, ILogger<Downloader>? logger = null)
         {
             _httpClient = httpClient ?? DigitalBibleLibraryConstants.HttpClient;
-            _logger = logger ?? NullLogger<DownloadExtractor>.Instance;
+            _logger = logger ?? NullLogger<Downloader>.Instance;
         }
 
         private async Task DownloadAsync(string url, string outputPath)
@@ -30,17 +29,6 @@ namespace Bible.Backend.Services
             var downloadsPath = Path.Combine(userProfile, "Downloads", Path.GetRandomFileName() + extension);
             await DownloadAsync(url, downloadsPath);
             return downloadsPath;
-        }
-
-        public void Extract(string downloadsPath, string extractPath)
-        {
-            ZipFile.ExtractToDirectory(downloadsPath, extractPath);
-        }
-
-        public async Task DownloadExtractAsync(string url, string extractPath)
-        {
-            var downloadsPath = await DownloadAsync(url);
-            ZipFile.ExtractToDirectory(downloadsPath, extractPath);
         }
     }
 }

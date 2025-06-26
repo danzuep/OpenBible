@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using System.IO;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Services;
 
@@ -7,43 +6,6 @@ namespace Bible.Backend
 {
     public abstract class ParsingStrategy
     {
-        protected static string? FindFile(string folderPath, string fileToFind = "1CO.")
-        {
-            if (!Directory.Exists(folderPath))
-            {
-                return null;
-            }
-            var files = Directory.EnumerateFiles(folderPath);
-            foreach (var file in files)
-            {
-                var fileName = Path.GetFileName(file);
-                if (fileName.StartsWith(fileToFind, StringComparison.OrdinalIgnoreCase))
-                {
-                    return file;
-                }
-            }
-            return null;
-        }
-
-        protected static IEnumerable<string> FindFolders(string folderPath, string searchPattern = "*.usx")
-        {
-            if (!Directory.Exists(folderPath))
-            {
-                yield break;
-            }
-            var folders = new List<string>();
-            var files = Directory.EnumerateFiles(folderPath, searchPattern);
-            foreach (var file in files)
-            {
-                var folderName = Path.GetDirectoryName(file);
-                if (!string.IsNullOrEmpty(folderName) && !folders.Contains(folderName))
-                {
-                    folders.Add(folderName);
-                    yield return folderName;
-                }
-            }
-        }
-
         private static int GetVersion(string name)
         {
             if (string.IsNullOrEmpty(name))
@@ -81,34 +43,6 @@ namespace Bible.Backend
             }
             return Directory.EnumerateFiles(folder, $"*.{fileType}");
         }
-
-        private static IReadOnlyList<BibleFileType> _usxFileTypes =
-        [
-            BibleFileType.Usx1, BibleFileType.Usx2, BibleFileType.Usx3, BibleFileType.Usx4
-        ];
-
-        protected IReadOnlyList<BibleFileType> GetTypes(string? filePath)
-        {
-            if (string.IsNullOrEmpty(filePath))
-            {
-                return Array.Empty<BibleFileType>();
-            }
-            var extension = Path.GetExtension(filePath).ToLowerInvariant();
-            return extension switch
-            {
-                ".usx" => _usxFileTypes,
-                _ => Array.Empty<BibleFileType>(),
-            };
-        }
-
-        protected bool CanHandle(string? fileExtension, params string[] validExtensions)
-        {
-            if (string.IsNullOrEmpty(fileExtension) || validExtensions == null)
-            {
-                return false;
-            }
-            return validExtensions.Contains(fileExtension);
-        }
     }
 
     public class UsxParser : ParsingStrategy
@@ -117,7 +51,7 @@ namespace Bible.Backend
 
         public UsxParser(IDeserialize? deserializer = null)
         {
-            _deserializer = deserializer ?? new XmlParser();
+            _deserializer = deserializer ?? new XDocParser();
         }
 
         public IEnumerable<T> Deserialize<T>(string path) where T : class
@@ -132,26 +66,6 @@ namespace Bible.Backend
                 }
             }
         }
-        //public IEnumerable<T> Deserialize<T>(string folderPath) where T : class
-        //{
-        //    var filePath = FindFile(folderPath);
-        //    var folder = Path.GetDirectoryName(folderPath);
-        //    if (!string.IsNullOrEmpty(folder) &&
-        //        //GetTypes(filePath).Contains(BibleFileType.Usx4) &&
-        //        CanHandle(Path.GetExtension(filePath), ".usx"))
-        //    {
-        //        var deserializer = new XmlParser();
-        //        var files = Directory.EnumerateFiles(folder);
-        //        foreach (var file in files)
-        //        {
-        //            var deserialized = deserializer.Deserialize<T>(file);
-        //            if (deserialized != null)
-        //            {
-        //                yield return deserialized;
-        //            }
-        //        }
-        //    }
-        //}
     }
 
     public enum BibleFileType

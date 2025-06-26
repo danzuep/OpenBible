@@ -2,6 +2,8 @@ using System.Diagnostics;
 using System.Text;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
+using Bible.Backend.Visitors;
+using Microsoft.Extensions.Logging;
 
 namespace Bible.Backend.Test
 {
@@ -14,18 +16,19 @@ namespace Bible.Backend.Test
             var deserializer = new XDocParser();
             var book = deserializer.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
-            var text = BibleParser.WriteToMarkdown(book);
-            Debug.WriteLine(text);
+            var visitor = UsxToMarkdownVisitor.Create(book);
+            var markdown = visitor.GetMarkdown();
+            Debug.WriteLine(markdown);
         }
 
         [Fact]
         public void BibleParser_WithUsx_DeserializesToMarkdown()
         {
             var deserializer = new XDocParser();
-            var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleApiConstants.UsxWebbeMat5);
+            var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleUsxSamples.UsxWebbeMat5);
             Assert.NotNull(book);
-            var text = BibleParser.WriteToMarkdown(book);
-            Debug.WriteLine(text);
+            var visitor = UsxToHtmlVisitor.Create(book);
+            Debug.WriteLine(visitor.GetHtml());
         }
 
         [Theory]
@@ -33,7 +36,7 @@ namespace Bible.Backend.Test
         //[InlineData("WEBBE", "JUD")]
         public void XmlParser_WithValidUsx_Deserializes(string translation, string bookCode)
         {
-            var xmlParser = new XmlParser();
+            var xmlParser = new XDocParser();
             var usxFilePath = Path.Combine(translation, $"{bookCode}.usx");
             var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
