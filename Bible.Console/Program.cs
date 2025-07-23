@@ -25,7 +25,7 @@ public class Program
         Console.ReadKey();
     }
 
-    private static void Visitor<T>(Func<T,string,string> function, ILogger logger, string? suffix = null, bool isTest = false)
+    private static void Visitor<T>(Func<T, string, string> function, ILogger logger, string? suffix = null, bool isTest = false)
     {
         var biblePath = GetBiblePath();
         var sitePath = Path.Combine(biblePath, "_site");
@@ -46,25 +46,17 @@ public class Program
             }
 
             var outputPath = Path.Combine(textsPath, versionName);
+            Directory.CreateDirectory(outputPath);
 
-            var versions = usxParser.DeserializeAll<T>(versionPath);
+            var books = usxParser.Deserialize<T>(versionPath);
 
-            foreach (var version in versions)
+            foreach (var book in books)
             {
-                var key = Path.GetFileName(version.Key);
-                var pathWithKey = Path.Combine(outputPath, key);
-                if (!isTest)
+                var text = function(book, outputPath);
+                if (isTest)
                 {
-                    Directory.CreateDirectory(pathWithKey);
-                }
-                foreach (var book in version.Value)
-                {
-                    var text = function(book, pathWithKey);
-                    if (isTest)
-                    {
-                        logger.LogInformation($"{versionName}-{key}-{book}");
-                        return;
-                    }
+                    logger.LogInformation($"{versionName}-{book}");
+                    return;
                 }
             }
         }
