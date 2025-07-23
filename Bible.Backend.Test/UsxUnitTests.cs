@@ -17,7 +17,7 @@ namespace Bible.Backend.Test
             var book = deserializer.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
             var visitor = UsxToMarkdownVisitor.Create(book);
-            var markdown = visitor.GetMarkdown();
+            var markdown = visitor.GetFullText();
             Debug.WriteLine(markdown);
         }
 
@@ -28,7 +28,7 @@ namespace Bible.Backend.Test
             var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleUsxSamples.UsxWebbeMat5);
             Assert.NotNull(book);
             var visitor = UsxToHtmlVisitor.Create(book);
-            Debug.WriteLine(visitor.GetHtml());
+            Debug.WriteLine(visitor.GetFullText());
         }
 
         [Theory]

@@ -54,9 +54,13 @@ namespace Bible.Backend
             _deserializer = deserializer ?? new XDocParser();
         }
 
-        public IEnumerable<T> Deserialize<T>(string path) where T : class
+        private IEnumerable<T> Deserialize<T>(IEnumerable<string>? files)
         {
-            var files = GetFiles(path, "usx");
+            if (files == null)
+            {
+                yield break;
+            }
+
             foreach (var file in files)
             {
                 var deserialized = _deserializer.Deserialize<T>(file);
@@ -64,6 +68,30 @@ namespace Bible.Backend
                 {
                     yield return deserialized;
                 }
+            }
+        }
+
+        public IEnumerable<T> Deserialize<T>(string path, string fileType = "usx")
+        {
+            var files = GetFiles(path, fileType);
+            return Deserialize<T>(files);
+        }
+
+        public IEnumerable<KeyValuePair<string, IEnumerable<T>>> DeserializeAll<T>(string path, string fileType = "usx")
+        {
+            var folders = Directory.EnumerateDirectories(path, $"*{fileType}*", SearchOption.AllDirectories);
+            if (folders == null)
+            {
+                yield break;
+            }
+            foreach (var folder in folders)
+            {
+                var versions = Directory.EnumerateFiles(folder, $"*.{fileType}");
+                if (versions == null)
+                {
+                    continue;
+                }
+                yield return new(folder, Deserialize<T>(versions));
             }
         }
     }

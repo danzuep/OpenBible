@@ -1,5 +1,6 @@
 ﻿namespace Bible.Backend.Visitors;
 
+using System;
 using System.Net;
 using System.Text;
 using Bible.Backend.Models;
@@ -16,14 +17,20 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
 
     public UsxToMarkdownVisitor(IOptions<UsxVisitorOptions>? options = null)
     {
-        _options = options?.Value ?? new UsxVisitorOptions();
+        _options = options?.Value ?? new UsxVisitorOptions
+        {
+            EnableCrossReferences = false,
+            EnableFootnotes = true
+        };
     }
+
+    private readonly List<UsxFootnote> _footnotes = new();
 
     private readonly UsxVisitorOptions _options;
 
     private readonly StringBuilder _sb = new();
 
-    public string GetMarkdown() => _sb.ToString();
+    private static string[] _paraStylesToHide = ["ide", "toc", "mt"];
 
     public void Visit(UsxIdentification identification)
     {
@@ -36,14 +43,15 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
 
     public void Visit(UsxPara para)
     {
-        if (!para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase))
-        {
-            this.Accept(para?.Content);
-        }
-        else if (para.Text is string heading)
+        if (para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
+            para.Text is string heading)
         {
             _sb.AppendLine($"## {heading}");
             _sb.AppendLine();
+        }
+        else if (!_paraStylesToHide.Any(h => para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase)))
+        {
+            this.Accept(para?.Content);
         }
     }
 
@@ -52,6 +60,11 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
         if (!string.IsNullOrEmpty(marker.Number))
         {
             _sb.AppendLine($"### Chapter {marker.Number}");
+            _sb.AppendLine();
+        }
+        else
+        {
+            _sb.AppendLine();
             _sb.AppendLine();
         }
     }
@@ -66,7 +79,6 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
 
     public void Visit(UsxChar ch)
     {
-        _sb.Append(ch.Text);
         this.Accept(ch?.Content);
     }
 
@@ -77,23 +89,53 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
 
     public void Visit(UsxMilestone milestone)
     {
-        // Can be ignored or treated as special markup if needed
     }
 
     public void Visit(UsxLineBreak lineBreak)
     {
-        _sb.Append("  \n"); // Markdown line break
+        _sb.Append("  \n");
     }
 
     public void Visit(UsxCrossReference reference)
     {
-        _sb.Append($"[{reference.Location}](https://www.biblegateway.com/passage/?search={WebUtility.UrlEncode(reference.Location)})");
+        if (_options.EnableCrossReferences)
+            _sb.Append($"[{reference.Location}](https://www.biblegateway.com/passage/?search={WebUtility.UrlEncode(reference.Location)})");
     }
 
-    public void Visit(UsxFootnote footnote)
+    public void Visit(UsxFootnote note)
     {
         if (_options.EnableFootnotes)
-            _sb.Append($"[^footnote{footnote.Caller}]");
-        // Actual footnote text can be collected separately for appending at end
+        {
+            var index = _footnotes.Count + 1;
+            _sb.Append($"[^{index}]");
+            _footnotes.Add(note);
+        }
+    }
+
+    public string GetFullText()
+    {
+        if (_footnotes.Any())
+        {
+            _sb.AppendLine();
+            for (var i = 0; i < _footnotes.Count; i++)
+            {
+                AppendFootnote(i);
+            }
+        }
+
+        return _sb.ToString();
+    }
+
+    private void AppendFootnote(int index)
+    {
+        if (_footnotes[index].Content is object[] items)
+        {
+            _sb.Append($"[^{index + 1}]: ");
+            foreach (var item in items)
+            {
+                this.Accept(item);
+            }
+            _sb.AppendLine();
+        }
     }
 }

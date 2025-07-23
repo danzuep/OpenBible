@@ -3,9 +3,11 @@
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.IO.Compression;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Microsoft.VisualBasic.FileIO;
 
 class Program
 {
@@ -22,7 +24,11 @@ class Program
     private static async Task DownloadExtractAllAsync(ILogger logger)
     {
         var biblePath = GetBiblePath();
-        var json = File.ReadAllText(Path.Combine(biblePath, "data.json"));
+        var sitePath = Path.Combine(biblePath, "_site");
+        var textsPath = Path.Combine(biblePath, "texts");
+        var dataPath = Path.Combine(biblePath, "data.json");
+        logger.LogInformation(dataPath);
+        var json = File.ReadAllText(dataPath);
 
         var options = new JsonSerializerOptions
         {
@@ -31,26 +37,26 @@ class Program
 
         var rootObject = JsonSerializer.Deserialize<MetadataRoot>(json, options);
 
-        if (rootObject != null)
+        if (rootObject?.Metadata == null)
         {
-            var downloadExtractor = new DownloadExtractor(DigitalBibleLibraryConstants.HttpClient);
+            return;
+        }
 
-            foreach (var kvp in rootObject.Metadata)
+        var downloadExtractor = new DownloadExtractor(DigitalBibleLibraryConstants.HttpClient, logger);
+
+        foreach (var kvp in rootObject.Metadata)
+        {
+            logger.LogInformation($"ID: {kvp.Value.Path}");
+            logger.LogInformation($"Name: {kvp.Value.Name}");
+            var extractPath = Path.Combine(sitePath, $"{kvp.Value.Path}");
+            if (Directory.Exists(extractPath))
             {
-                var extractPath = Path.Combine(biblePath, "texts", $"{kvp.Value.Path}");
-                if (Directory.Exists(extractPath))
-                {
-                    continue;
-                }
-                var downloadUrl = DigitalBibleLibraryConstants.GetDowloadUrl(kvp.Key, kvp.Value.LicenseId);
+                continue;
+            }
 
-                Debug.WriteLine($"GET {downloadUrl}");
-                Debug.WriteLine($"Name: {kvp.Value.Name}");
-                Console.WriteLine($"Name: {kvp.Value.Name}");
-                Console.WriteLine($"GET {downloadUrl}");
-                Console.WriteLine($"Dowloading to: {extractPath}");
-                Console.WriteLine("...");
-
+            if (kvp.Value.Path.StartsWith("eng-WEBU"))
+            {
+                var downloadUrl = DigitalBibleLibraryConstants.GetDownloadUrl(kvp.Key, kvp.Value.LicenseId);
                 await downloadExtractor.DownloadExtractZipAsync(downloadUrl, extractPath);
             }
         }

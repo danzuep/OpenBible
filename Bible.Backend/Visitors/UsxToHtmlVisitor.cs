@@ -34,8 +34,6 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     private readonly StringBuilder _sb = new();
 
-    public string GetHtml() => GetFullHtml();
-
     public void Visit(UsxIdentification identification)
     {
         if (!string.IsNullOrEmpty(identification.Name))
@@ -148,20 +146,14 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
     {
         if (_options.EnableFootnotes)
         {
-            var index = _footnotes.Count; // _reference
+            var index = _footnotes.Count + 1;
             _sb.AppendFormat("<sup id=\"note-{0}\"><a class=\"usx-note\" title=\"{1}{2}\" href=\"#footnote-{0}\">†</a></sup>",
                 index, note.Style, note.Caller);
             _footnotes.Add(note);
         }
     }
 
-    private string GetFullHtml()
-    {
-        AddFootnotesSection();
-        return _sb.GetFullHtml(_options, _reference);
-    }
-
-    private void AddFootnotesSection()
+    public string GetFullText()
     {
         if (_footnotes.Any())
         {
@@ -172,54 +164,40 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
             for (var i = 0; i < _footnotes.Count; i++)
             {
-                AppendFootnote(_footnotes[i], i);
+                AppendFootnote(i);
             }
 
             _sb.AppendLine("</ol>");
             _sb.AppendLine("</details>");
             _sb.AppendLine("</section>");
         }
+
+        return _sb.GetFullHtml(_options, _reference);
     }
 
-    private void AppendFootnote(UsxFootnote usxFootnote, int index)
+    private void AppendFootnote(int index)
     {
         var linkAdded = false;
-        _sb.AppendFormat("<li id=\"footnote-{0}\">", index);
-        foreach (var item in usxFootnote.Content)
+        if (_footnotes[index].Content is object[] items)
         {
-            if (!linkAdded)
+            var id = index + 1;
+            _sb.AppendFormat("<li id=\"footnote-{0}\">", id);
+            foreach (var item in items)
             {
-                linkAdded = true;
-                _sb.AppendFormat(
-                    "<a href=\"#note-{0}\" title=\"Back to reference ↩\">{1}</a>",
-                    index, UsxToHtml(item));
+                if (!linkAdded)
+                {
+                    linkAdded = true;
+                    _sb.AppendFormat("<a href=\"#note-{0}\" title=\"Back to reference ↩\">", id);
+                    this.Accept(item);
+                    _sb.Append("</a>");
+                }
+                else
+                {
+                    this.Accept(item);
+                }
             }
-            else
-            {
-                _sb.Append(UsxToHtml(item));
-            }
+            _sb.AppendLine("</li>");
         }
-        _sb.Append("</li>");
-    }
-
-    private static string UsxToHtml(object item)
-    {
-        if (item is string text)
-        {
-            return WebUtility.HtmlEncode(text);
-        }
-        else if (item is UsxContent usx && usx.Content != null)
-        {
-            return UsxToHtml(usx.Content);
-        }
-        else if (item is IEnumerable<object> objects)
-        {
-            foreach (var obj in objects)
-            {
-                return UsxToHtml(obj);
-            }
-        }
-        return string.Empty;
     }
 }
 
