@@ -3,50 +3,43 @@ using System.IO.Compression;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
-namespace Bible.Downloader
+namespace Bible.Backend.Services
 {
     public class DownloadExtractor
     {
         private readonly HttpClient _httpClient;
-        private readonly ILogger _logger;
+        private readonly ILogger<DownloadExtractor> _logger;
 
-        public DownloadExtractor(HttpClient httpClient)
+        public DownloadExtractor(HttpClient? httpClient = null, ILogger<DownloadExtractor>? logger = null)
         {
-            _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
-            _logger = NullLogger<DownloadExtractor>.Instance;
+            _httpClient = httpClient ?? DigitalBibleLibraryConstants.HttpClient;
+            _logger = logger ?? NullLogger<DownloadExtractor>.Instance;
         }
 
-        public DownloadExtractor(HttpClient httpClient, ILogger? logger) : this(httpClient)
+        private async Task DownloadAsync(string url, string outputPath)
         {
-            if (logger != null)
+            if (File.Exists(outputPath))
             {
-                _logger = logger;
+                return;
             }
-        }
-
-        public async Task<string?> DownloadAsync(string url, string? outputPath = null, string? extension = null)
-        {
-            outputPath ??= Path.GetRandomFileName();
-            if (!string.IsNullOrEmpty(extension))
-            {
-                outputPath += extension;
-            }
-            if (Path.Exists(outputPath))
-            {
-                return outputPath;
-            }
-
             _logger.LogInformation($"GET {_httpClient.BaseAddress}/{url}");
             using var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
             if (response.Content.Headers.ContentDisposition?.FileName is string filename)
             {
                 _logger.LogInformation($"FileName: {filename}");
-                await using var fs = new FileStream(outputPath, FileMode.Create, FileAccess.Write, FileShare.None);
-                await response.Content.CopyToAsync(fs);
-                return outputPath;
             }
-            return null;
+            await using var fs = new FileStream(outputPath, FileMode.Create, FileAccess.Write, FileShare.None);
+            await response.Content.CopyToAsync(fs);
+        }
+
+        public async Task<string> DownloadAsync(string url)
+        {
+            var extension = Path.GetExtension(url);
+            var userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            var downloadsPath = Path.Combine(userProfile, "Downloads", Path.GetRandomFileName() + extension);
+            await DownloadAsync(url, downloadsPath);
+            return downloadsPath;
         }
 
         public void ExtractToDirectory(string downloadsPath, string extractPath)
@@ -59,12 +52,13 @@ namespace Bible.Downloader
         {
             try
             {
-                var downloadsPath = await DownloadAsync(url, extractPath, ".zip");
-                if (string.IsNullOrEmpty(downloadsPath))
+                extractPath ??= Path.GetRandomFileName();
+                await DownloadAsync(url, extractPath);
+                if (string.IsNullOrEmpty(extractPath))
                 {
                     return false;
                 }
-                ExtractToDirectory(downloadsPath, extractPath);
+                ExtractToDirectory(extractPath, extractPath);
                 return true;
             }
             catch (Exception ex)

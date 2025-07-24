@@ -1,4 +1,4 @@
-﻿namespace Bible.Downloader;
+﻿namespace Bible.Backend.Models;
 
 using System;
 using System.Collections.Generic;

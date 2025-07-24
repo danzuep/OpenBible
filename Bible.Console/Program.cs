@@ -2,7 +2,6 @@
 
 using System;
 using System.Threading.Tasks;
-using Bible.Backend;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
@@ -18,53 +17,16 @@ public class Program
 
         //MarkdownVisitorExample(logger);
         //HtmlVisitorExample(logger);
-        DeserializelToHtml(logger);
+        await DeserializelToHtmlAsync(logger);
 
         Console.WriteLine();
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
     }
 
-    private static void Visitor<T>(Func<T, string, string> function, ILogger logger, string? suffix = null, bool isTest = false)
-    {
-        var biblePath = GetBiblePath();
-        var sitePath = Path.Combine(biblePath, "_site");
-        var textsPath = Path.Combine(biblePath, "texts");
-        logger.LogInformation(textsPath);
-
-        var deserializer = new XDocParser();
-        var usxParser = new UsxParser(deserializer);
-
-        foreach (var versionPath in Directory.EnumerateDirectories(sitePath))
-        {
-            var suffixLength = !string.IsNullOrEmpty(suffix) && versionPath.EndsWith(suffix) ? suffix.Length : 0;
-            var versionName = Path.GetFileName(versionPath)[..^suffixLength];
-            logger.LogInformation(versionName);
-            if (!versionName.StartsWith("eng-WEBBE"))
-            {
-                continue;
-            }
-
-            var outputPath = Path.Combine(textsPath, versionName);
-            Directory.CreateDirectory(outputPath);
-
-            var books = usxParser.Deserialize<T>(versionPath);
-
-            foreach (var book in books)
-            {
-                var text = function(book, outputPath);
-                if (isTest)
-                {
-                    logger.LogInformation($"{versionName}-{book}");
-                    return;
-                }
-            }
-        }
-    }
-
     private static void MarkdownVisitorExample(ILogger logger)
     {
-        Visitor<UsxScriptureBook>((book, _) =>
+        XmlConverter.Visitor<UsxScriptureBook>((book, _) =>
         {
             var usxVisitor = UsxToMarkdownVisitor.Create(book);
             var text = usxVisitor.GetFullText();
@@ -75,7 +37,7 @@ public class Program
 
     private static void HtmlVisitorExample(ILogger logger)
     {
-        Visitor<UsxScriptureBook>(static (book, _) =>
+        XmlConverter.Visitor<UsxScriptureBook>(static (book, _) =>
         {
             var usxVisitor = UsxToHtmlVisitor.Create(book);
             var text = usxVisitor.GetFullText();
@@ -83,9 +45,11 @@ public class Program
         }, logger);
     }
 
-    private static void DeserializelToHtml(ILogger logger)
+    private static async Task DeserializelToHtmlAsync(ILogger logger)
     {
-        Visitor<UsxScriptureBook>((book, outputPath) =>
+        await XmlConverter.XmlMetadataToJsonAsync(logger);
+
+        XmlConverter.Visitor<UsxScriptureBook>((book, outputPath) =>
         {
             var usxVisitor = UsxToHtmlVisitor.Create(book);
             var html = usxVisitor.GetFullText();
@@ -94,18 +58,5 @@ public class Program
             logger.LogInformation(outFilePath);
             return html;
         }, logger);
-    }
-
-    private static string GetBiblePath(string thisProject = "OpenBible", string bibleProjectName = "Bible")
-    {
-        do
-        {
-            thisProject = Path.Combine("..", thisProject);
-        }
-        while (!Directory.Exists(thisProject));
-
-        var biblePath = Path.Combine(thisProject, "..", bibleProjectName);
-
-        return biblePath;
     }
 }
