@@ -1,6 +1,7 @@
 ﻿namespace Bible.Console;
 
 using System;
+using System.Text;
 using System.Threading.Tasks;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
@@ -14,49 +15,78 @@ public class Program
         using var loggerFactory = LoggerFactory.Create(builder =>
             builder.AddDebug().AddConsole());
         var logger = loggerFactory.CreateLogger<Program>();
+        var converter = new XmlConverter(logger);
 
-        //MarkdownVisitorExample(logger);
-        //HtmlVisitorExample(logger);
-        await DeserializelToHtmlAsync(logger);
+        //await converter.ParseUnihanAsync();
+        var unihan = await converter.ConvertUnihanAsync();
+        //var unihan = await converter.GetUnihanAsync();
+
+        //MarkdownVisitorExample(converter);
+        HtmlVisitorExample(converter, unihan);
+        //await DeserializelToHtmlAsync(converter);
 
         Console.WriteLine();
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadKey();
+        //Console.WriteLine("Press any key to exit...");
+        //Console.ReadKey();
     }
 
-    private static void MarkdownVisitorExample(ILogger logger)
+    private static void MarkdownVisitorExample(XmlConverter converter)
     {
-        XmlConverter.Visitor<UsxScriptureBook>((book, _) =>
+        converter.Visitor<UsxScriptureBook>((book, outputPath) =>
         {
-            var usxVisitor = UsxToMarkdownVisitor.Create(book);
-            var text = usxVisitor.GetFullText();
-            logger.LogInformation(text);
+            var text = UsxToMarkdownVisitor.GetFullText(book);
+            converter.Logger.LogInformation(text);
             return text;
-        }, logger, isTest: true);
+        }, sample: "eng-WEBBE");
     }
 
-    private static void HtmlVisitorExample(ILogger logger)
+    private static void HtmlVisitorExample(XmlConverter converter, UnihanLookup? unihan)
     {
-        XmlConverter.Visitor<UsxScriptureBook>(static (book, _) =>
+        converter.Visitor<UsxScriptureBook>((book, outputPath) =>
         {
-            var usxVisitor = UsxToHtmlVisitor.Create(book);
-            var text = usxVisitor.GetFullText();
-            return text;
-        }, logger);
-    }
-
-    private static async Task DeserializelToHtmlAsync(ILogger logger)
-    {
-        await XmlConverter.XmlMetadataToJsonAsync(logger);
-
-        XmlConverter.Visitor<UsxScriptureBook>((book, outputPath) =>
-        {
-            var usxVisitor = UsxToHtmlVisitor.Create(book);
-            var html = usxVisitor.GetFullText();
+            if (unihan != null)
+            {
+                var fileName = Path.GetFileNameWithoutExtension(outputPath);
+                var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var fields))
+                {
+                    var unihanField = fields.First();
+                    unihan.Field = unihanField;
+                }
+            }
+            var text = UsxToHtmlVisitor.GetFullText(book, unihan);
             var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
-            File.WriteAllText(outFilePath, html);
-            logger.LogInformation(outFilePath);
+            File.WriteAllText(outFilePath, text, Encoding.UTF8);
+            converter.Logger.LogInformation(outFilePath);
+            return text;
+        }, sample: "zho-Hant-OCCB");
+    }
+
+    private static async Task DeserializelToHtmlAsync(XmlConverter converter, UnihanLookup? unihan)
+    {
+        await converter.XmlMetadataToJsonAsync();
+
+        converter.Visitor<UsxScriptureBook>((book, outputPath) =>
+        {
+            if (unihan != null)
+            {
+                var fileName = Path.GetFileNameWithoutExtension(outputPath);
+                var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var fields))
+                {
+                    var unihanField = fields.First();
+                    unihan.Field = unihanField;
+                }
+                else
+                {
+                    unihan = null;
+                }
+            }
+            var html = UsxToHtmlVisitor.GetFullText(book, unihan);
+            var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
+            File.WriteAllText(outFilePath, html, Encoding.UTF8);
+            converter.Logger.LogInformation(outFilePath);
             return html;
-        }, logger);
+        });
     }
 }

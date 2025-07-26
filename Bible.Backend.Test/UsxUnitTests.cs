@@ -3,9 +3,8 @@ using System.Text;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
-using Microsoft.Extensions.Logging;
 
-namespace Bible.Backend.Test
+namespace Bible.Backend.Tests
 {
     public class UsxUnitTests
     {
@@ -16,8 +15,7 @@ namespace Bible.Backend.Test
             var deserializer = new XDocParser();
             var book = deserializer.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
-            var visitor = UsxToMarkdownVisitor.Create(book);
-            var markdown = visitor.GetFullText();
+            var markdown = UsxToMarkdownVisitor.GetFullText(book);
             Debug.WriteLine(markdown);
         }
 
@@ -27,8 +25,8 @@ namespace Bible.Backend.Test
             var deserializer = new XDocParser();
             var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleUsxSamples.UsxWebbeMat5);
             Assert.NotNull(book);
-            var visitor = UsxToHtmlVisitor.Create(book);
-            Debug.WriteLine(visitor.GetFullText());
+            var html = UsxToHtmlVisitor.GetFullText(book);
+            Debug.WriteLine(html);
         }
 
         [Theory]

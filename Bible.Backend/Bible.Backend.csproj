@@ -17,8 +17,4 @@
     <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="~/Downloads/*.zip" LinkBase="Downloads" />
-  </ItemGroup>
-
 </Project>

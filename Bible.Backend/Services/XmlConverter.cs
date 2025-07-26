@@ -1,18 +1,59 @@
-﻿using System.Xml;
+﻿using System.Text.Json;
+using System.Xml;
+using Bible.Backend.Models;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
+using Microsoft.Extensions.Logging.Abstractions;
 using Formatting = Newtonsoft.Json.Formatting;
 
 namespace Bible.Backend.Services
 {
-    public static class XmlConverter
+    public class XmlConverter
     {
-        public static void Visitor<T>(Func<T, string, string> function, ILogger logger, string suffix = "-usx", bool isTest = false)
+        private readonly ILogger _logger;
+
+        public XmlConverter(ILogger? logger = null)
         {
-            var biblePath = GetBiblePath();
-            var sitePath = Path.Combine(biblePath, "_site");
-            var textsPath = Path.Combine(biblePath, "texts");
-            logger.LogInformation(textsPath);
+            _logger = logger ?? NullLogger.Instance;
+        }
+
+        public ILogger Logger => _logger;
+
+        public async Task ParseUnihanAsync()
+        {
+            (var sitePath, var assetPath) = GetPaths();
+            var inputPath = Path.Combine(sitePath, "Unihan_Readings.txt");
+            var outputPath = Path.Combine(assetPath, "Unihan_Readings.json");
+            var unihanSerializer = new UnihanSerializer();
+            await unihanSerializer.ParseAsync(inputPath, outputPath);
+        }
+
+        public async Task<UnihanLookup> ConvertUnihanAsync()
+        {
+            (var sitePath, var assetPath) = GetPaths();
+            var inputPath = Path.Combine(sitePath, "Unihan_Readings.txt");
+            var outputPath = Path.Combine(assetPath, "Unihan_Readings.json");
+            if (File.Exists(outputPath))
+            {
+                try
+                {
+                    var unihanText = await File.ReadAllTextAsync(outputPath);
+                    var deserialized = JsonSerializer.Deserialize<UnihanLookup>(unihanText);
+                    if (deserialized != null)
+                    {
+                        return deserialized;
+                    }
+                }
+                catch { }
+            }
+            var parser = new UnihanParserService();
+            var unihan = await parser.ParseAsync<UnihanLookup>(inputPath, outputPath);
+            return unihan;
+        }
+
+        public void Visitor<T>(Func<T, string, string> function, string suffix = "-usx", string? sample = null)
+        {
+            (var sitePath, var assetPath) = GetPaths();
+            this._logger.LogInformation(assetPath);
 
             var deserializer = new XDocParser();
             var usxParser = new UsxParser(deserializer);
@@ -21,13 +62,13 @@ namespace Bible.Backend.Services
             {
                 var suffixLength = versionPath.EndsWith(suffix) ? suffix.Length : 0;
                 var versionName = Path.GetFileName(versionPath)[..^suffixLength];
-                logger.LogInformation(versionName);
-                if (isTest && !versionName.StartsWith("eng-WEBBE"))
+                this._logger.LogInformation(versionName);
+                if (!string.IsNullOrEmpty(sample) && !versionName.StartsWith(sample))
                 {
                     continue;
                 }
 
-                var outputPath = Path.Combine(textsPath, versionName);
+                var outputPath = Path.Combine(assetPath, versionName);
                 Directory.CreateDirectory(outputPath);
 
                 var books = usxParser.Deserialize<T>(versionPath);
@@ -35,27 +76,25 @@ namespace Bible.Backend.Services
                 foreach (var book in books)
                 {
                     var text = function(book, outputPath);
-                    if (isTest)
+                    if (!string.IsNullOrEmpty(sample))
                     {
-                        logger.LogInformation($"{versionName}-{book}");
+                        this._logger.LogInformation($"{versionName}-{book}");
                         return;
                     }
                 }
             }
         }
 
-        public static async Task XmlMetadataToJsonAsync(ILogger logger, string suffix = "-usx", bool isTest = false)
+        public async Task XmlMetadataToJsonAsync(string suffix = "-usx", bool isTest = false)
         {
-            var biblePath = GetBiblePath();
-            var sitePath = Path.Combine(biblePath, "_site");
-            var textsPath = Path.Combine(biblePath, "texts");
-            logger.LogInformation(textsPath);
+            (var sitePath, var assetPath) = GetPaths();
+            _logger.LogInformation(assetPath);
 
             foreach (var versionPath in Directory.EnumerateDirectories(sitePath))
             {
                 var suffixLength = versionPath.EndsWith(suffix) ? suffix.Length : 0;
                 var versionName = Path.GetFileName(versionPath)[..^suffixLength];
-                logger.LogInformation(versionName);
+                _logger.LogInformation(versionName);
                 if (isTest && !versionName.StartsWith("eng-WEBBE"))
                 {
                     continue;
@@ -66,10 +105,10 @@ namespace Bible.Backend.Services
                 {
                     return;
                 }
-                logger.LogInformation(xmlFilePath);
+                _logger.LogInformation(xmlFilePath);
 
-                var textVersionPath = Path.Combine(textsPath, versionName);
-                logger.LogInformation(textVersionPath);
+                var textVersionPath = Path.Combine(assetPath, versionName);
+                _logger.LogInformation(textVersionPath);
 
                 var outputPath = Directory.Exists(textVersionPath) ?
                     Path.Combine(textVersionPath, "_metadata.json") :
@@ -96,9 +135,24 @@ namespace Bible.Backend.Services
                 xmlDoc.RemoveChild(xmlDoc.FirstChild);
             }
 
-            var json = JsonConvert.SerializeXmlNode(xmlDoc, Formatting.Indented, omitRootObject);
+            var json = Newtonsoft.Json.JsonConvert.SerializeXmlNode(xmlDoc, Formatting.Indented, omitRootObject);
 
             return json;
+        }
+
+        private string GetBibleAssetPath(string? biblePath = null)
+        {
+            biblePath ??= GetBiblePath();
+            var assetPath = Path.Combine(biblePath, "src", "Bible.WebView", "Resources", "Raw");
+            return assetPath;
+        }
+
+        private (string, string) GetPaths()
+        {
+            var biblePath = GetBiblePath();
+            var sitePath = Path.Combine(biblePath, "_site");
+            var assetPath = GetBibleAssetPath(biblePath);
+            return (sitePath, assetPath);
         }
 
         private static string GetBiblePath(string thisProject = "OpenBible", string bibleProjectName = "Bible")

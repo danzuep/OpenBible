@@ -7,11 +7,12 @@ using Microsoft.Extensions.Options;
 
 public sealed class UsxToHtmlVisitor : IUsxVisitor
 {
-    public static UsxToHtmlVisitor Create(UsxScriptureBook? usxScriptureBook, UsxVisitorOptions? options = null)
+    public static string GetFullText(UsxScriptureBook? usxScriptureBook, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
     {
         var visitor = new UsxToHtmlVisitor(options);
+        visitor.Unihan = unihan;
         visitor.Accept(usxScriptureBook);
-        return visitor;
+        return visitor.GetFullText();
     }
 
     public UsxToHtmlVisitor(IOptions<UsxVisitorOptions>? options = null)
@@ -26,6 +27,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         };
     }
 
+    public UnihanLookup? Unihan { get; set; }
+
     private readonly List<UsxFootnote> _footnotes = new();
 
     private readonly UsxVisitorReference _reference = new();
@@ -33,6 +36,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
     private readonly UsxVisitorOptions _options;
 
     private readonly StringBuilder _sb = new();
+
+    private static string[] _paraStylesToHide = ["ide", "toc", "mt"];
 
     public void Visit(UsxIdentification identification)
     {
@@ -50,22 +55,22 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     public void Visit(UsxPara para)
     {
-        var hidden = new string[] { "toc", "mt" };
-        if (!para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase))
-        {
-            var hide = hidden.Any(h => para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase));
-            _sb.AppendFormat("<p id=\"{0}-{1}\" class=\"usx-{0}\" {2}>",
-                para.Style, _reference, hide ? "hidden" : string.Empty);
-            this.Accept(para?.Content);
-            _sb.AppendLine("</p>");
-        }
-        else if (para.Text is string heading)
+        if (para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
+            para.Text is string heading)
         {
             if (string.IsNullOrEmpty(_reference.BookCode))
                 _reference.BookCode = heading;
             _sb.AppendFormat("<a href=\"#{1}\"><{0} id=\"{1}\" class=\"usx-{2}\">{3}</{0}></a>",
                 "h2", _reference, para.Style, WebUtility.HtmlEncode(heading));
             _sb.AppendLine();
+        }
+        else
+        {
+            var hide = _paraStylesToHide.Any(h => para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase));
+            _sb.AppendFormat("<p id=\"{0}-{1}\" class=\"usx-{0}\" {2}>",
+                para.Style, _reference, hide ? "hidden" : string.Empty);
+            this.Accept(para?.Content);
+            _sb.AppendLine("</p>");
         }
     }
 
@@ -94,25 +99,55 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     public void Visit(UsxChar usxChar)
     {
-        if (_options.EnableStrongs)
+        if (Unihan != null && Unihan.Field.HasValue && usxChar.Text is string text)
+        {
+            _sb.AppendFormat("<span class=\"usx-{0}\">", usxChar.Style);
+            foreach (var character in text)
+            {
+                Visit(character, Unihan.Field.Value);
+            }
+            _sb.Append("</span>");
+        }
+        else if (_options.EnableStrongs && !string.IsNullOrEmpty(usxChar.Strong))
         {
             _sb.AppendFormat("<span id=\"{0}-{1}\" class=\"usx-{0}\" link-data=\"{2}{3}\">",
                 usxChar.Style, _reference, "https://www.blueletterbible.org/lexicon/",
                 WebUtility.UrlEncode(usxChar.Strong));
-            this.Accept(usxChar?.Content);
+            this.Accept(usxChar.Content);
             _sb.Append("</span>");
         }
-        else if (usxChar.Style.Equals("w", StringComparison.OrdinalIgnoreCase))
+        else if (!_options.EnableStrongs && usxChar.Style.Equals("w", StringComparison.OrdinalIgnoreCase))
         {
-            this.Accept(usxChar?.Content);
+            this.Accept(usxChar.Content);
         }
         else
         {
             _sb.AppendFormat("<span id=\"{0}-{1}\" class=\"usx-{0}\">",
                 usxChar.Style, _reference);
-            this.Accept(usxChar?.Content);
+            this.Accept(usxChar.Content);
             _sb.Append("</span>");
         }
+    }
+
+    public void Visit(char unihanCharacter, UnihanField unihanField)
+    {
+        var fields = new UnihanField[] { UnihanField.kDefinition, unihanField };
+        if (Unihan != null &&
+            Unihan.TryGetEntryText(unihanCharacter, fields, out var entryText))
+        {
+            _sb.AppendFormat("<span class=\"usx-w unihan\" link-data=\"{0}\">", entryText);
+            _sb.Append(unihanCharacter);
+            _sb.Append("</span>");
+        }
+        else
+        {
+            _sb.Append(unihanCharacter);
+        }
+    }
+
+    public void Visit(IReadOnlyDictionary<UnihanField, string> dictionary)
+    {
+
     }
 
     public void Visit(string text)
@@ -198,120 +233,5 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
             }
             _sb.AppendLine("</li>");
         }
-    }
-}
-
-internal static class HtmlCssBuilder
-{
-    private static readonly string _wjStyle = @"
-      /* Style for words of Jesus */
-      .usx-wj {
-        color: #b22222; /* Firebrick red */
-        font-weight: bold;
-      }
-";
-    private static readonly string _wStyle = @"
-      /* Style for Strong's number hover notes */
-      .usx-w {
-        position: relative;
-      }
-      .usx-w::after {
-        content: attr(link-data);
-        position: absolute;
-        left: 50%;
-        bottom: 120%;
-        transform: translateX(-50%);
-        background: #333;
-        color: #fff;
-        padding: 3px 6px;
-        border-radius: 4px;
-        white-space: nowrap;
-        font-size: 0.8em;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 0.3s ease;
-        z-index: 10;
-      }
-      .usx-w:hover::after {
-        opacity: 1;
-      }
-";
-
-    private static readonly string _aStyle = @"
-      /* Remove the default blue underline from URLs */
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-      /* Style for hidden text */
-      .usx-id {
-        display: none;
-      }
-      .usx-ide {
-        display: none;
-      }
-      /* Style for a subtitle below a heading */
-      .usx-toc1 {
-          font-size: 0.9em;
-          color: gray;
-          margin-top: 0.2em;
-          font-weight: normal;
-      }
-";
-
-    public static void AppendStyleCss(this StringBuilder stringBuilder, UsxVisitorOptions options)
-    {
-        stringBuilder.AppendFormat("    <style>{0}", _aStyle);
-        if (options.EnableRedLetters)
-        {
-            stringBuilder.Append(_wjStyle);
-        }
-        if (options.EnableStrongs)
-        {
-            stringBuilder.Append(_wStyle);
-        }
-        stringBuilder.AppendLine("    </style>");
-    }
-
-    public static string GetFullHtml(this StringBuilder stringBuilder, UsxVisitorOptions options, UsxVisitorReference reference)
-    {
-        var chapterLinks = string.Empty;
-        if (options.EnableChapterLinks && int.TryParse(reference.Chapter, out var chapterNumber))
-        {
-            chapterLinks = GenerateChapterLinks(chapterNumber, reference.BookCode);
-            stringBuilder.AppendLine();
-        }
-
-        var body = stringBuilder.ToString();
-        stringBuilder.Clear();
-        stringBuilder.AppendLine("<!DOCTYPE html>");
-        stringBuilder.AppendLine("<html lang=\"en\">");
-        stringBuilder.AppendLine("  <head>");
-        stringBuilder.AppendFormat("    <title>{0}", reference.Title);
-        stringBuilder.AppendLine("</title>");
-        stringBuilder.AppendStyleCss(options);
-        stringBuilder.AppendLine("  </head>");
-        stringBuilder.AppendLine();
-        stringBuilder.AppendLine("  <body>");
-        stringBuilder.AppendLine(chapterLinks);
-        stringBuilder.AppendLine(body);
-        stringBuilder.AppendLine("  </body>");
-        stringBuilder.AppendLine("</html>");
-        return stringBuilder.ToString();
-    }
-
-    private static string GenerateChapterLinks(int chapterCount, string? bookCode)
-    {
-        var stringBuilder = new StringBuilder();
-
-        stringBuilder.AppendFormat("<a href=\"#{0}\">#</a> ", bookCode);
-        for (int i = 1; i <= chapterCount; i++)
-        {
-            stringBuilder.AppendFormat("<a href=\"#{0}.{1}\">[{1}]</a> ", bookCode, i);
-        }
-        stringBuilder.AppendLine();
-        stringBuilder.AppendLine();
-
-        return stringBuilder.ToString().Trim();
     }
 }

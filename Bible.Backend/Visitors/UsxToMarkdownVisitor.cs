@@ -8,11 +8,11 @@ using Microsoft.Extensions.Options;
 
 public sealed class UsxToMarkdownVisitor : IUsxVisitor
 {
-    public static UsxToMarkdownVisitor Create(UsxScriptureBook? usxScriptureBook, UsxVisitorOptions? options = null)
+    public static string GetFullText(UsxScriptureBook? usxScriptureBook, UsxVisitorOptions? options = null)
     {
         var visitor = new UsxToMarkdownVisitor(options);
         visitor.Accept(usxScriptureBook);
-        return visitor;
+        return visitor.GetFullText();
     }
 
     public UsxToMarkdownVisitor(IOptions<UsxVisitorOptions>? options = null)
