@@ -22,7 +22,7 @@ namespace Bible.Backend.Services
         {
             (var sitePath, var assetPath) = GetPaths();
             var inputPath = Path.Combine(sitePath, "Unihan_Readings.txt");
-            var outputPath = Path.Combine(assetPath, "Unihan_Readings.json");
+            var outputPath = Path.Combine(sitePath, "Unihan_Readings.json");
             var unihanSerializer = new UnihanSerializer();
             await unihanSerializer.ParseAsync(inputPath, outputPath);
         }
@@ -31,7 +31,7 @@ namespace Bible.Backend.Services
         {
             (var sitePath, var assetPath) = GetPaths();
             var inputPath = Path.Combine(sitePath, "Unihan_Readings.txt");
-            var outputPath = Path.Combine(assetPath, "Unihan_Readings.json");
+            var outputPath = Path.Combine(sitePath, "Unihan_Readings.json");
             if (File.Exists(outputPath))
             {
                 try
@@ -76,7 +76,7 @@ namespace Bible.Backend.Services
                 foreach (var book in books)
                 {
                     var text = function(book, outputPath);
-                    if (!string.IsNullOrEmpty(sample))
+                    if (text != null && !string.IsNullOrEmpty(sample))
                     {
                         this._logger.LogInformation($"{versionName}-{book}");
                         return;
@@ -114,9 +114,11 @@ namespace Bible.Backend.Services
                     Path.Combine(textVersionPath, "_metadata.json") :
                     $"{textVersionPath}_metadata.json";
 
-                var json = ConvertXmlToJson(xmlFilePath, outputPath, omitRootObject: false);
-
-                await File.WriteAllTextAsync(outputPath, json);
+                if (!File.Exists(outputPath))
+                {
+                    var json = ConvertXmlToJson(xmlFilePath, outputPath, omitRootObject: false);
+                    await File.WriteAllTextAsync(outputPath, json);
+                }
             }
         }
 
@@ -140,18 +142,11 @@ namespace Bible.Backend.Services
             return json;
         }
 
-        private string GetBibleAssetPath(string? biblePath = null)
+        private static (string, string) GetPaths(string? biblePath = null)
         {
             biblePath ??= GetBiblePath();
-            var assetPath = Path.Combine(biblePath, "src", "Bible.WebView", "Resources", "Raw");
-            return assetPath;
-        }
-
-        private (string, string) GetPaths()
-        {
-            var biblePath = GetBiblePath();
             var sitePath = Path.Combine(biblePath, "_site");
-            var assetPath = GetBibleAssetPath(biblePath);
+            var assetPath = Path.Combine(biblePath, "texts");
             return (sitePath, assetPath);
         }
 

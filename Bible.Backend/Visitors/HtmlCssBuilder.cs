@@ -61,6 +61,23 @@ internal static class HtmlCssBuilder
       }
 ";
 
+    private static readonly string _rtHideStyle = @"
+      /* Hide the rt elements by default */
+      rt.unihan {
+        display: none;
+      }
+";
+
+    private static readonly string _rubyStyle = @"
+      /* When checkbox is checked, show the ruby text */
+      #toggle-ruby:checked ~ p ruby rt.unihan {
+        display: ruby-text; /* shows the ruby annotation */
+      }
+
+      ruby {
+        font-size: 1em;
+      }
+";
     public static void AppendStyleCss(this StringBuilder stringBuilder, UsxVisitorOptions options)
     {
         stringBuilder.AppendFormat("    <style>{0}", _aStyle);
@@ -71,6 +88,10 @@ internal static class HtmlCssBuilder
         if (options.EnableStrongs)
         {
             stringBuilder.Append(_wStyle);
+        }
+        if (options.EnableRubyText)
+        {
+            stringBuilder.Append(_rubyStyle);
         }
         stringBuilder.AppendLine("    </style>");
     }
@@ -96,6 +117,7 @@ internal static class HtmlCssBuilder
         stringBuilder.AppendLine("  </head>");
         stringBuilder.AppendLine();
         stringBuilder.AppendLine("  <body>");
+        //stringBuilder.AppendLine("  <label><input type=\"checkbox\" id=\"toggle-ruby\" />Show Ruby Text</label>");
         stringBuilder.AppendLine(chapterLinks);
         stringBuilder.AppendLine(body);
         stringBuilder.AppendLine("  </body>");

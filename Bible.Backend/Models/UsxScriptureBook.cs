@@ -180,6 +180,7 @@ public sealed class UsxVisitorOptions : IOptions<UsxVisitorOptions>
     public bool EnableFootnotes { get; set; }
     public bool EnableCrossReferences { get; set; }
     public bool EnableChapterLinks { get; set; }
+    public bool EnableRubyText { get; set; }
 
     public UsxVisitorOptions Value => this;
 }

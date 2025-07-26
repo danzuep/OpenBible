@@ -35,15 +35,16 @@ namespace Bible.Backend.Models
 
     public class UnihanRelay : IUnihanReadings
     {
-        public Action<string, UnihanField, string>? Action { get; set; }
+        public Action<int, UnihanField, string>? Action { get; set; }
 
         public void AddEntry(string codepoint, string field, string value)
         {
-            var unicode = ConvertToUnicode(codepoint);
+            //var unicodeCodepoint = ConvertToUnicode(codepoint);
+            var unicodeCodepoint = ConvertToCodepoint(codepoint);
             // Parse field string to UnihanField enum (Unknown by default)
             _ = Enum.TryParse<UnihanField>(field, out var unihanField);
             // Invoke optional action with these values
-            Action?.Invoke(unicode, unihanField, value);
+            Action?.Invoke(unicodeCodepoint, unihanField, value);
         }
 
         /// <summary>
@@ -99,7 +100,7 @@ namespace Bible.Backend.Models
         }
 
         // Adds entry to an ansynchronous write buffer
-        public void AddEntry(string codepoint, UnihanField field, string value)
+        public void AddEntry(int codepoint, UnihanField field, string value)
         {
             if (_jsonBufferWriter == null)
             {
@@ -117,20 +118,20 @@ namespace Bible.Backend.Models
 
         private class UnihanJsonEntry
         {
-            public UnihanJsonEntry(string codepoint, UnihanField field, string value)
+            public UnihanJsonEntry(int codepoint, UnihanField field, string value)
             {
                 Key = codepoint;
                 Field = field;
                 Value = value;
             }
 
-            public string Key { get; }
+            public int Key { get; }
             public UnihanField Field { get; }
             public string Value { get; }
         }
     }
 
-    public class UnihanLookup : Dictionary<char, Dictionary<UnihanField, IList<string>>>, IUnihanReadings
+    public class UnihanLookup : Dictionary<int, Dictionary<UnihanField, IList<string>>>, IUnihanReadings
     {
         private readonly UnihanRelay _unihanRelay;
 
@@ -146,12 +147,7 @@ namespace Bible.Backend.Models
             _unihanRelay.AddEntry(codepoint, field, value);
         }
 
-        public void AddEntry(string codepoint, UnihanField field, string value)
-        {
-            AddEntry(codepoint[0], field, value);
-        }
-
-        public void AddEntry(char codepoint, UnihanField field, string value)
+        public void AddEntry(int codepoint, UnihanField field, string value)
         {
             if (!this.ContainsKey(codepoint))
             {
@@ -168,7 +164,7 @@ namespace Bible.Backend.Models
             }
         }
 
-        public bool TryGetEntryText(char codepoint, IList<UnihanField>? fields, out string entryText)
+        public bool TryGetEntryText(int codepoint, IList<UnihanField>? fields, out string entryText)
         {
             if (!this.ContainsKey(codepoint))
             {

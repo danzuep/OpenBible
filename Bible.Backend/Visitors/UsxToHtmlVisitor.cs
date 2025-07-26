@@ -23,6 +23,7 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
             EnableCrossReferences = true,
             EnableRedLetters = true,
             EnableStrongs = true,
+            EnableRubyText = true,
             EnableFootnotes = true
         };
     }
@@ -102,10 +103,17 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         if (Unihan != null && Unihan.Field.HasValue && usxChar.Text is string text)
         {
             _sb.AppendFormat("<span class=\"usx-{0}\">", usxChar.Style);
+#if NET5_0_OR_GREATER
+            foreach (var rune in text.EnumerateRunes())
+            {
+                AddRubyText(rune.Value, Unihan.Field.Value);
+            }
+#else
             foreach (var character in text)
             {
-                Visit(character, Unihan.Field.Value);
+                AddRubyText(character, Unihan.Field.Value);
             }
+#endif
             _sb.Append("</span>");
         }
         else if (_options.EnableStrongs && !string.IsNullOrEmpty(usxChar.Strong))
@@ -129,15 +137,17 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         }
     }
 
-    public void Visit(char unihanCharacter, UnihanField unihanField)
+    private void AddRubyText(int codepoint, UnihanField unihanField)
     {
-        var fields = new UnihanField[] { UnihanField.kDefinition, unihanField };
+        var fields = new UnihanField[] { unihanField }; // UnihanField.kDefinition
+        var unihanCharacter = char.ConvertFromUtf32(codepoint);
         if (Unihan != null &&
-            Unihan.TryGetEntryText(unihanCharacter, fields, out var entryText))
+            Unihan.TryGetEntryText(codepoint, fields, out var entryText))
         {
-            _sb.AppendFormat("<span class=\"usx-w unihan\" link-data=\"{0}\">", entryText);
+            _sb.Append("<ruby>");
             _sb.Append(unihanCharacter);
-            _sb.Append("</span>");
+            _sb.AppendFormat("<rt class=\"unihan\">{0}</rt>", entryText);
+            _sb.Append("</ruby>");
         }
         else
         {
@@ -145,15 +155,27 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         }
     }
 
-    public void Visit(IReadOnlyDictionary<UnihanField, string> dictionary)
+#if NET5_0_OR_GREATER
+    public void Visit(string text)
     {
-
+        if (Unihan != null && Unihan.Field.HasValue)
+        {
+            foreach (var rune in text.EnumerateRunes())
+            {
+                AddRubyText(rune.Value, Unihan.Field.Value);
+            }
+        }
+        else
+        {
+            _sb.Append(WebUtility.HtmlEncode(text));
+        }
     }
-
+#else
     public void Visit(string text)
     {
         _sb.Append(WebUtility.HtmlEncode(text));
     }
+#endif
 
     public void Visit(UsxMilestone milestone)
     {

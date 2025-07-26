@@ -22,8 +22,8 @@ public class Program
         //var unihan = await converter.GetUnihanAsync();
 
         //MarkdownVisitorExample(converter);
-        HtmlVisitorExample(converter, unihan);
-        //await DeserializelToHtmlAsync(converter);
+        //HtmlVisitorExample(converter, unihan);
+        await DeserializeToHtmlAsync(converter, unihan);
 
         Console.WriteLine();
         //Console.WriteLine("Press any key to exit...");
@@ -44,14 +44,17 @@ public class Program
     {
         converter.Visitor<UsxScriptureBook>((book, outputPath) =>
         {
+            if (!book.Translation.BookCode.Equals("3JN"))
+            {
+                return null!;
+            }
             if (unihan != null)
             {
                 var fileName = Path.GetFileNameWithoutExtension(outputPath);
                 var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var fields))
+                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var unihanFields))
                 {
-                    var unihanField = fields.First();
-                    unihan.Field = unihanField;
+                    unihan.Field = unihanFields.FirstOrDefault();
                 }
             }
             var text = UsxToHtmlVisitor.GetFullText(book, unihan);
@@ -59,10 +62,10 @@ public class Program
             File.WriteAllText(outFilePath, text, Encoding.UTF8);
             converter.Logger.LogInformation(outFilePath);
             return text;
-        }, sample: "zho-Hant-OCCB");
+        }, sample: "zho-Hans-OCCB");
     }
 
-    private static async Task DeserializelToHtmlAsync(XmlConverter converter, UnihanLookup? unihan)
+    private static async Task DeserializeToHtmlAsync(XmlConverter converter, UnihanLookup? unihan)
     {
         await converter.XmlMetadataToJsonAsync();
 
@@ -72,14 +75,9 @@ public class Program
             {
                 var fileName = Path.GetFileNameWithoutExtension(outputPath);
                 var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var fields))
+                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var unihanFields))
                 {
-                    var unihanField = fields.First();
-                    unihan.Field = unihanField;
-                }
-                else
-                {
-                    unihan = null;
+                    unihan.Field = unihanFields.FirstOrDefault();
                 }
             }
             var html = UsxToHtmlVisitor.GetFullText(book, unihan);
