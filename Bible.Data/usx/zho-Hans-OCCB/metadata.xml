@@ -1,0 +1,759 @@
+<?xml version="1.0" standalone="yes"?><DBLMetadata version="2.2.1" id="7ea794434e9ea7ee" revision="3">
+    <identification>
+      <name>Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</name>
+      <nameLocal>Biblica® 圣经当代译本开放资源</nameLocal>
+      <description>Chinese, Mandarin: Biblica® 圣经当代译本开放资源 (Bible)</description>
+      <descriptionLocal>圣经</descriptionLocal>
+      <abbreviation>OCCB</abbreviation>
+      <abbreviationLocal>OCCB</abbreviationLocal>
+      <scope>Bible</scope>
+      <dateCompleted>2023-01-01</dateCompleted>
+      <bundleProducer>Paratext/9.4.101.7</bundleProducer>
+      <systemId type="paratext">
+        <id>7ea794434e9ea7eebf30948dee25ae5085598bbf</id>
+        <csetId>dec1a89561fcf5fdf3a603977092637199adc245</csetId>
+        <name>zhsOCC22</name>
+        <fullName>Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</fullName>
+      </systemId>
+      <systemId type="ptreg">
+        <id>XcsvnfSwr2eQ8oL79</id>
+      </systemId>
+    </identification>
+    <type>
+      <medium>text</medium>
+      <isConfidential>false</isConfidential>
+      <hasCharacters>true</hasCharacters>
+      <isTranslation>true</isTranslation>
+      <isExpression>true</isExpression>
+      <translationType>Revision</translationType>
+      <audience>Basic</audience>
+      <projectType>Standard</projectType>
+    </type>
+    <relationships/>
+    <agencies>
+      <rightsHolder>
+        <abbr>Biblica</abbr>
+        <url>http://www.Biblica.com/permissions</url>
+        <nameLocal>Biblica, Inc.</nameLocal>
+        <uid>545d2cb00fd5dca263562474</uid>
+        <name>Biblica, Inc.</name>
+      </rightsHolder>
+      <rightsAdmin>
+        <url>http://www.Biblica.com/permissions</url>
+        <uid>545d2cb00fd5dca263562474</uid>
+        <name>Biblica, Inc.</name>
+      </rightsAdmin>
+      <contributor>
+        <content>true</content>
+        <publication>true</publication>
+        <management>true</management>
+        <finance>true</finance>
+        <qa>true</qa>
+        <uid>545d2cb00fd5dca263562474</uid>
+        <name>Biblica, Inc.</name>
+      </contributor>
+    </agencies>
+    <language>
+      <iso>cmn</iso>
+      <name>Chinese, Mandarin</name>
+      <nameLocal>中文</nameLocal>
+      <script>Han (Simplified variant)</script>
+      <scriptCode>Hans</scriptCode>
+      <scriptDirection>LTR</scriptDirection>
+      <ldml>cmn-Hans</ldml>
+      <numerals>Arabic</numerals>
+    </language>
+    <countries>
+      <country>
+        <iso>CN</iso>
+        <name>China</name>
+      </country>
+      <country>
+        <iso>MY</iso>
+        <name>Malaysia</name>
+      </country>
+      <country>
+        <iso>SG</iso>
+        <name>Singapore</name>
+      </country>
+    </countries>
+    <format>
+      <usxVersion>3.0</usxVersion>
+      <versedParagraphs>false</versedParagraphs>
+    </format>
+    <names>
+      <name id="book-gen">
+        <abbr>创</abbr>
+        <short>创世记</short>
+        <long>创世记</long>
+      </name>
+      <name id="book-exo">
+        <abbr>出</abbr>
+        <short>出埃及记</short>
+        <long>出埃及记</long>
+      </name>
+      <name id="book-lev">
+        <abbr>利</abbr>
+        <short>利未记</short>
+        <long>利未记</long>
+      </name>
+      <name id="book-num">
+        <abbr>民</abbr>
+        <short>民数记</short>
+        <long>民数记</long>
+      </name>
+      <name id="book-deu">
+        <abbr>申</abbr>
+        <short>申命记</short>
+        <long>申命记</long>
+      </name>
+      <name id="book-jos">
+        <abbr>书</abbr>
+        <short>约书亚记</short>
+        <long>约书亚记</long>
+      </name>
+      <name id="book-jdg">
+        <abbr>士</abbr>
+        <short>士师记</short>
+        <long>士师记</long>
+      </name>
+      <name id="book-rut">
+        <abbr>得</abbr>
+        <short>路得记</short>
+        <long>路得记</long>
+      </name>
+      <name id="book-1sa">
+        <abbr>撒上</abbr>
+        <short>撒母耳记上</short>
+        <long>撒母耳记上</long>
+      </name>
+      <name id="book-2sa">
+        <abbr>撒下</abbr>
+        <short>撒母耳记下</short>
+        <long>撒母耳记下</long>
+      </name>
+      <name id="book-1ki">
+        <abbr>王上</abbr>
+        <short>列王纪上</short>
+        <long>列王纪上</long>
+      </name>
+      <name id="book-2ki">
+        <abbr>王下</abbr>
+        <short>列王纪下</short>
+        <long>列王纪下</long>
+      </name>
+      <name id="book-1ch">
+        <abbr>代上</abbr>
+        <short>历代志上</short>
+        <long>历代志上</long>
+      </name>
+      <name id="book-2ch">
+        <abbr>代下</abbr>
+        <short>历代志下</short>
+        <long>历代志下</long>
+      </name>
+      <name id="book-ezr">
+        <abbr>拉</abbr>
+        <short>以斯拉记</short>
+        <long>以斯拉记</long>
+      </name>
+      <name id="book-neh">
+        <abbr>尼</abbr>
+        <short>尼希米记</short>
+        <long>尼希米记</long>
+      </name>
+      <name id="book-est">
+        <abbr>斯</abbr>
+        <short>以斯帖记</short>
+        <long>以斯帖记</long>
+      </name>
+      <name id="book-job">
+        <abbr>伯</abbr>
+        <short>约伯记</short>
+        <long>约伯记</long>
+      </name>
+      <name id="book-psa">
+        <abbr>诗</abbr>
+        <short>诗篇</short>
+        <long>诗篇</long>
+      </name>
+      <name id="book-pro">
+        <abbr>箴</abbr>
+        <short>箴言</short>
+        <long>箴言</long>
+      </name>
+      <name id="book-ecc">
+        <abbr>传</abbr>
+        <short>传道书</short>
+        <long>传道书</long>
+      </name>
+      <name id="book-sng">
+        <abbr>歌</abbr>
+        <short>雅歌</short>
+        <long>雅歌</long>
+      </name>
+      <name id="book-isa">
+        <abbr>赛</abbr>
+        <short>以赛亚书</short>
+        <long>以赛亚书</long>
+      </name>
+      <name id="book-jer">
+        <abbr>耶</abbr>
+        <short>耶利米书</short>
+        <long>耶利米书</long>
+      </name>
+      <name id="book-lam">
+        <abbr>哀</abbr>
+        <short>耶利米哀歌</short>
+        <long>耶利米哀歌</long>
+      </name>
+      <name id="book-ezk">
+        <abbr>结</abbr>
+        <short>以西结书</short>
+        <long>以西结书</long>
+      </name>
+      <name id="book-dan">
+        <abbr>但</abbr>
+        <short>但以理书</short>
+        <long>但以理书</long>
+      </name>
+      <name id="book-hos">
+        <abbr>何</abbr>
+        <short>何西阿书</short>
+        <long>何西阿书</long>
+      </name>
+      <name id="book-jol">
+        <abbr>珥</abbr>
+        <short>约珥书</short>
+        <long>约珥书</long>
+      </name>
+      <name id="book-amo">
+        <abbr>摩</abbr>
+        <short>阿摩司书</short>
+        <long>阿摩司书</long>
+      </name>
+      <name id="book-oba">
+        <abbr>俄</abbr>
+        <short>俄巴底亚书</short>
+        <long>俄巴底亚书</long>
+      </name>
+      <name id="book-jon">
+        <abbr>拿</abbr>
+        <short>约拿书</short>
+        <long>约拿书</long>
+      </name>
+      <name id="book-mic">
+        <abbr>弥</abbr>
+        <short>弥迦书</short>
+        <long>弥迦书</long>
+      </name>
+      <name id="book-nam">
+        <abbr>鸿</abbr>
+        <short>那鸿书</short>
+        <long>那鸿书</long>
+      </name>
+      <name id="book-hab">
+        <abbr>哈</abbr>
+        <short>哈巴谷书</short>
+        <long>哈巴谷书</long>
+      </name>
+      <name id="book-zep">
+        <abbr>番</abbr>
+        <short>西番雅书</short>
+        <long>西番雅书</long>
+      </name>
+      <name id="book-hag">
+        <abbr>该</abbr>
+        <short>哈该书</short>
+        <long>哈该书</long>
+      </name>
+      <name id="book-zec">
+        <abbr>亚</abbr>
+        <short>撒迦利亚书</short>
+        <long>撒迦利亚书</long>
+      </name>
+      <name id="book-mal">
+        <abbr>玛</abbr>
+        <short>玛拉基书</short>
+        <long>玛拉基书</long>
+      </name>
+      <name id="book-mat">
+        <abbr>太</abbr>
+        <short>马太福音</short>
+        <long>马太福音</long>
+      </name>
+      <name id="book-mrk">
+        <abbr>可</abbr>
+        <short>马可福音</short>
+        <long>马可福音</long>
+      </name>
+      <name id="book-luk">
+        <abbr>路</abbr>
+        <short>路加福音</short>
+        <long>路加福音</long>
+      </name>
+      <name id="book-jhn">
+        <abbr>约</abbr>
+        <short>约翰福音</short>
+        <long>约翰福音</long>
+      </name>
+      <name id="book-act">
+        <abbr>徒</abbr>
+        <short>使徒行传</short>
+        <long>使徒行传</long>
+      </name>
+      <name id="book-rom">
+        <abbr>罗</abbr>
+        <short>罗马书</short>
+        <long>罗马书</long>
+      </name>
+      <name id="book-1co">
+        <abbr>林前</abbr>
+        <short>哥林多前书</short>
+        <long>哥林多前书</long>
+      </name>
+      <name id="book-2co">
+        <abbr>林后</abbr>
+        <short>哥林多后书</short>
+        <long>哥林多后书</long>
+      </name>
+      <name id="book-gal">
+        <abbr>加</abbr>
+        <short>加拉太书</short>
+        <long>加拉太书</long>
+      </name>
+      <name id="book-eph">
+        <abbr>弗</abbr>
+        <short>以弗所书</short>
+        <long>以弗所书</long>
+      </name>
+      <name id="book-php">
+        <abbr>腓</abbr>
+        <short>腓立比书</short>
+        <long>腓立比书</long>
+      </name>
+      <name id="book-col">
+        <abbr>西</abbr>
+        <short>歌罗西书</short>
+        <long>歌罗西书</long>
+      </name>
+      <name id="book-1th">
+        <abbr>帖前</abbr>
+        <short>帖撒罗尼迦前书</short>
+        <long>帖撒罗尼迦前书</long>
+      </name>
+      <name id="book-2th">
+        <abbr>帖后</abbr>
+        <short>帖撒罗尼迦后书</short>
+        <long>帖撒罗尼迦后书</long>
+      </name>
+      <name id="book-1ti">
+        <abbr>提前</abbr>
+        <short>提摩太前书</short>
+        <long>提摩太前书</long>
+      </name>
+      <name id="book-2ti">
+        <abbr>提后</abbr>
+        <short>提摩太后书</short>
+        <long>提摩太后书</long>
+      </name>
+      <name id="book-tit">
+        <abbr>多</abbr>
+        <short>提多书</short>
+        <long>提多书</long>
+      </name>
+      <name id="book-phm">
+        <abbr>门</abbr>
+        <short>腓利门书</short>
+        <long>腓利门书</long>
+      </name>
+      <name id="book-heb">
+        <abbr>来</abbr>
+        <short>希伯来书</short>
+        <long>希伯来书</long>
+      </name>
+      <name id="book-jas">
+        <abbr>雅</abbr>
+        <short>雅各书</short>
+        <long>雅各书</long>
+      </name>
+      <name id="book-1pe">
+        <abbr>彼前</abbr>
+        <short>彼得前书</short>
+        <long>彼得前书</long>
+      </name>
+      <name id="book-2pe">
+        <abbr>彼后</abbr>
+        <short>彼得后书</short>
+        <long>彼得后书</long>
+      </name>
+      <name id="book-1jn">
+        <abbr>约壹</abbr>
+        <short>约翰一书</short>
+        <long>约翰一书</long>
+      </name>
+      <name id="book-2jn">
+        <abbr>约贰</abbr>
+        <short>约翰二书</short>
+        <long>约翰二书</long>
+      </name>
+      <name id="book-3jn">
+        <abbr>约叁</abbr>
+        <short>约翰三书</short>
+        <long>约翰三书</long>
+      </name>
+      <name id="book-jud">
+        <abbr>犹</abbr>
+        <short>犹大书</short>
+        <long>犹大书</long>
+      </name>
+      <name id="book-rev">
+        <abbr>启</abbr>
+        <short>启示录</short>
+        <long>启示录</long>
+      </name>
+    </names>
+    <manifest>
+      <resource checksum="473820337ace1e9993026e81fcf12b8d" mimeType="application/xml" size="249958" uri="release/USX_1/1CH.usx"/>
+      <resource checksum="42834944ae6687b0216160016af8c792" mimeType="application/xml" size="89341" uri="release/USX_1/1CO.usx"/>
+      <resource checksum="67944cf11aa8e606b5724d03ea7f7d68" mimeType="application/xml" size="21479" uri="release/USX_1/1JN.usx"/>
+      <resource checksum="57096cb1355ffe9d358c4348def6bfdf" mimeType="application/xml" size="194546" uri="release/USX_1/1KI.usx"/>
+      <resource checksum="62f1b52fa6a3bf2cc5d1ec0bdf2dda41" mimeType="application/xml" size="24788" uri="release/USX_1/1PE.usx"/>
+      <resource checksum="79d20a93118408c2381cefc76f9d6a96" mimeType="application/xml" size="207481" uri="release/USX_1/1SA.usx"/>
+      <resource checksum="4d13d66c0fad8ff449896f7092ce12cc" mimeType="application/xml" size="18117" uri="release/USX_1/1TH.usx"/>
+      <resource checksum="48880a7c4a34f1179f40cbd00431f005" mimeType="application/xml" size="22628" uri="release/USX_1/1TI.usx"/>
+      <resource checksum="06e6ca74e1761ddea7912b8a55879bea" mimeType="application/xml" size="218930" uri="release/USX_1/2CH.usx"/>
+      <resource checksum="1e7479943e5a3a101873fda7e8a63cae" mimeType="application/xml" size="55823" uri="release/USX_1/2CO.usx"/>
+      <resource checksum="155c56ce8215a8c4e18fec2935cf2f2b" mimeType="application/xml" size="3163" uri="release/USX_1/2JN.usx"/>
+      <resource checksum="292aaa32106250da41ba5a293199c616" mimeType="application/xml" size="194284" uri="release/USX_1/2KI.usx"/>
+      <resource checksum="c8398597bfaf5d9c4c98e227edf30cd0" mimeType="application/xml" size="13953" uri="release/USX_1/2PE.usx"/>
+      <resource checksum="123c025524e9906bd91e4f354adf4926" mimeType="application/xml" size="183836" uri="release/USX_1/2SA.usx"/>
+      <resource checksum="d9debbcc1733f51126189c07d4ba5b6f" mimeType="application/xml" size="9875" uri="release/USX_1/2TH.usx"/>
+      <resource checksum="edb4655073260dfadbe7b0e3cf510330" mimeType="application/xml" size="17591" uri="release/USX_1/2TI.usx"/>
+      <resource checksum="381367507387e529ae3c136ddd977dc0" mimeType="application/xml" size="3390" uri="release/USX_1/3JN.usx"/>
+      <resource checksum="275a8b8315a61dceefbe5cded4593ad0" mimeType="application/xml" size="234742" uri="release/USX_1/ACT.usx"/>
+      <resource checksum="855f2aa1f6c2d14c9190714a28ba6605" mimeType="application/xml" size="52539" uri="release/USX_1/AMO.usx"/>
+      <resource checksum="c9f237470e413c8dcac7b02c55743efb" mimeType="application/xml" size="19589" uri="release/USX_1/COL.usx"/>
+      <resource checksum="504204ad77bb0566cea683f3ea11b04c" mimeType="application/xml" size="80998" uri="release/USX_1/DAN.usx"/>
+      <resource checksum="5810eada53bdf163f32c440211fd0f8f" mimeType="application/xml" size="212136" uri="release/USX_1/DEU.usx"/>
+      <resource checksum="5fbbeff75b8203c001ee678ee38769a9" mimeType="application/xml" size="44755" uri="release/USX_1/ECC.usx"/>
+      <resource checksum="23be770852374e735d2f1376f106dde1" mimeType="application/xml" size="28238" uri="release/USX_1/EPH.usx"/>
+      <resource checksum="5852abf1e82f84ddbd0308b9b0d4d213" mimeType="application/xml" size="43132" uri="release/USX_1/EST.usx"/>
+      <resource checksum="6bb94fd2b1d572bd8bfba11b467147a7" mimeType="application/xml" size="251708" uri="release/USX_1/EXO.usx"/>
+      <resource checksum="2a8daa826533abab946b44ca2fe9ad72" mimeType="application/xml" size="278552" uri="release/USX_1/EZK.usx"/>
+      <resource checksum="e9358f53698c80c7025c4f36e0210acf" mimeType="application/xml" size="71668" uri="release/USX_1/EZR.usx"/>
+      <resource checksum="255f36d430df7fc7814ec566e922734c" mimeType="application/xml" size="34244" uri="release/USX_1/GAL.usx"/>
+      <resource checksum="ac4b6fb6b20833169cfedd623231043a" mimeType="application/xml" size="356015" uri="release/USX_1/GEN.usx"/>
+      <resource checksum="00e9e3571ebbc7835f0df88268fc7574" mimeType="application/xml" size="19385" uri="release/USX_1/HAB.usx"/>
+      <resource checksum="4b5edaf9a1afff8e984ed93bc14da10f" mimeType="application/xml" size="9202" uri="release/USX_1/HAG.usx"/>
+      <resource checksum="262f32b9054e6b4656ce6cacb1ef36b0" mimeType="application/xml" size="74095" uri="release/USX_1/HEB.usx"/>
+      <resource checksum="52a2d4cb79b3d16d6cba47543eea2628" mimeType="application/xml" size="73945" uri="release/USX_1/HOS.usx"/>
+      <resource checksum="0eb776f0956803fb7f79191033b0f1f9" mimeType="application/xml" size="423862" uri="release/USX_1/ISA.usx"/>
+      <resource checksum="ef267c660852fcf50fddb7b91bce06d5" mimeType="application/xml" size="21668" uri="release/USX_1/JAS.usx"/>
+      <resource checksum="232e289bf8312d63070061da8da3786b" mimeType="application/xml" size="160482" uri="release/USX_1/JDG.usx"/>
+      <resource checksum="b6ac22db302ebef11020f95ca006284b" mimeType="application/xml" size="402101" uri="release/USX_1/JER.usx"/>
+      <resource checksum="9bf607977416c16c69d5efe4074350c2" mimeType="application/xml" size="183899" uri="release/USX_1/JHN.usx"/>
+      <resource checksum="882326a150746e69c98dbd78ab933d88" mimeType="application/xml" size="239356" uri="release/USX_1/JOB.usx"/>
+      <resource checksum="00001b345fd43046da748f35eb7a5619" mimeType="application/xml" size="25064" uri="release/USX_1/JOL.usx"/>
+      <resource checksum="926de3e969c071e85b21f38026902c9a" mimeType="application/xml" size="12013" uri="release/USX_1/JON.usx"/>
+      <resource checksum="d3535533842e0a3d8eb047717c80cafb" mimeType="application/xml" size="168556" uri="release/USX_1/JOS.usx"/>
+      <resource checksum="ca321a15bb21e77a625a29001a092e9b" mimeType="application/xml" size="6528" uri="release/USX_1/JUD.usx"/>
+      <resource checksum="7772325d97fdd857e4ffb2f2e1313608" mimeType="application/xml" size="44913" uri="release/USX_1/LAM.usx"/>
+      <resource checksum="df016205e82b537bfc9e078e9cd36612" mimeType="application/xml" size="163836" uri="release/USX_1/LEV.usx"/>
+      <resource checksum="995f53713e28b24b8ba5d89eafcd18fb" mimeType="application/xml" size="244778" uri="release/USX_1/LUK.usx"/>
+      <resource checksum="3eafb9982526de365777b02464c4e268" mimeType="application/xml" size="14101" uri="release/USX_1/MAL.usx"/>
+      <resource checksum="8ca2860903bdf238d1e9e9426ecfaea4" mimeType="application/xml" size="230763" uri="release/USX_1/MAT.usx"/>
+      <resource checksum="49b74a1f90f0d2429dc658da4890d22f" mimeType="application/xml" size="41094" uri="release/USX_1/MIC.usx"/>
+      <resource checksum="916d2183cf04139be38d381a5971034f" mimeType="application/xml" size="140483" uri="release/USX_1/MRK.usx"/>
+      <resource checksum="7fbaf2762a69d22aa441c75c98f40560" mimeType="application/xml" size="17421" uri="release/USX_1/NAM.usx"/>
+      <resource checksum="caf2d12d1b567bf20c340dcdb8bb2c41" mimeType="application/xml" size="104587" uri="release/USX_1/NEH.usx"/>
+      <resource checksum="3a201d610031d571fc746b4c76ee2f7c" mimeType="application/xml" size="273260" uri="release/USX_1/NUM.usx"/>
+      <resource checksum="16032a228c5c4935773793287910da0f" mimeType="application/xml" size="8701" uri="release/USX_1/OBA.usx"/>
+      <resource checksum="57bb93d9cbc5876c9c81d85fd46330a4" mimeType="application/xml" size="5363" uri="release/USX_1/PHM.usx"/>
+      <resource checksum="ff5d4e36a0348e01c41340b367b2c2b0" mimeType="application/xml" size="21183" uri="release/USX_1/PHP.usx"/>
+      <resource checksum="92550dff275c22046a1ae6fe9c755ea0" mimeType="application/xml" size="199500" uri="release/USX_1/PRO.usx"/>
+      <resource checksum="59bd201690a4fbeaad2c8426b8bcaa73" mimeType="application/xml" size="620058" uri="release/USX_1/PSA.usx"/>
+      <resource checksum="2e8f9a1f354b9eed02a6d364d5d24320" mimeType="application/xml" size="95754" uri="release/USX_1/REV.usx"/>
+      <resource checksum="d2e55322ddee3894d804cd922b9b1e70" mimeType="application/xml" size="101507" uri="release/USX_1/ROM.usx"/>
+      <resource checksum="986f6a4c0f4ad1c28daa1abfa9e4e29a" mimeType="application/xml" size="22642" uri="release/USX_1/RUT.usx"/>
+      <resource checksum="a18cf75049f4f04711269bb19560368c" mimeType="application/xml" size="38649" uri="release/USX_1/SNG.usx"/>
+      <resource checksum="9776b97919e731e4f267a814d3a6305a" mimeType="application/xml" size="9227" uri="release/USX_1/TIT.usx"/>
+      <resource checksum="3ef889c6001adbf12976a724f78fd7f1" mimeType="application/xml" size="55380" uri="release/USX_1/ZEC.usx"/>
+      <resource checksum="5eae38cd4971de6b1f21feed8e864c47" mimeType="application/xml" size="19165" uri="release/USX_1/ZEP.usx"/>
+      <resource checksum="23d2acbd65a2ae6a503a1a0682b450a9" mimeType="application/xml" size="3792" uri="release/cmn-Hans.ldml"/>
+      <resource checksum="5fd20c3678c7034a06319ae5c0651e4d" mimeType="application/xml" size="105535" uri="release/styles.xml"/>
+      <resource checksum="ad829a7d2ac2acbed7a573364ce818df" mimeType="text/plain" size="15359" uri="release/versification.vrs"/>
+      <resource checksum="21f687a7d90644eddfc261a2f63aad2c" mimeType="application/zip" size="1422558" uri="source/source.zip"/>
+    </manifest>
+    <source>
+      <canonicalContent>
+        <book code="1CH"/>
+        <book code="1CO"/>
+        <book code="1JN"/>
+        <book code="1KI"/>
+        <book code="1PE"/>
+        <book code="1SA"/>
+        <book code="1TH"/>
+        <book code="1TI"/>
+        <book code="2CH"/>
+        <book code="2CO"/>
+        <book code="2JN"/>
+        <book code="2KI"/>
+        <book code="2PE"/>
+        <book code="2SA"/>
+        <book code="2TH"/>
+        <book code="2TI"/>
+        <book code="3JN"/>
+        <book code="ACT"/>
+        <book code="AMO"/>
+        <book code="COL"/>
+        <book code="DAN"/>
+        <book code="DEU"/>
+        <book code="ECC"/>
+        <book code="EPH"/>
+        <book code="EST"/>
+        <book code="EXO"/>
+        <book code="EZK"/>
+        <book code="EZR"/>
+        <book code="GAL"/>
+        <book code="GEN"/>
+        <book code="HAB"/>
+        <book code="HAG"/>
+        <book code="HEB"/>
+        <book code="HOS"/>
+        <book code="ISA"/>
+        <book code="JAS"/>
+        <book code="JDG"/>
+        <book code="JER"/>
+        <book code="JHN"/>
+        <book code="JOB"/>
+        <book code="JOL"/>
+        <book code="JON"/>
+        <book code="JOS"/>
+        <book code="JUD"/>
+        <book code="LAM"/>
+        <book code="LEV"/>
+        <book code="LUK"/>
+        <book code="MAL"/>
+        <book code="MAT"/>
+        <book code="MIC"/>
+        <book code="MRK"/>
+        <book code="NAM"/>
+        <book code="NEH"/>
+        <book code="NUM"/>
+        <book code="OBA"/>
+        <book code="PHM"/>
+        <book code="PHP"/>
+        <book code="PRO"/>
+        <book code="PSA"/>
+        <book code="REV"/>
+        <book code="ROM"/>
+        <book code="RUT"/>
+        <book code="SNG"/>
+        <book code="TIT"/>
+        <book code="ZEC"/>
+        <book code="ZEP"/>
+      </canonicalContent>
+      <structure>
+        <content src="source/source.zip" role="sourceZip"/>
+      </structure>
+    </source>
+    <publications>
+      <publication id="p1" default="true">
+        <name>Biblica® Open Chinese Contemporary Bible Simplified 2022</name>
+        <nameLocal>当代译本</nameLocal>
+        <description>Bible</description>
+        <descriptionLocal>圣经</descriptionLocal>
+        <abbreviation>OCCB</abbreviation>
+        <canonicalContent>
+          <book code="1CH"/>
+          <book code="1CO"/>
+          <book code="1JN"/>
+          <book code="1KI"/>
+          <book code="1PE"/>
+          <book code="1SA"/>
+          <book code="1TH"/>
+          <book code="1TI"/>
+          <book code="2CH"/>
+          <book code="2CO"/>
+          <book code="2JN"/>
+          <book code="2KI"/>
+          <book code="2PE"/>
+          <book code="2SA"/>
+          <book code="2TH"/>
+          <book code="2TI"/>
+          <book code="3JN"/>
+          <book code="ACT"/>
+          <book code="AMO"/>
+          <book code="COL"/>
+          <book code="DAN"/>
+          <book code="DEU"/>
+          <book code="ECC"/>
+          <book code="EPH"/>
+          <book code="EST"/>
+          <book code="EXO"/>
+          <book code="EZK"/>
+          <book code="EZR"/>
+          <book code="GAL"/>
+          <book code="GEN"/>
+          <book code="HAB"/>
+          <book code="HAG"/>
+          <book code="HEB"/>
+          <book code="HOS"/>
+          <book code="ISA"/>
+          <book code="JAS"/>
+          <book code="JDG"/>
+          <book code="JER"/>
+          <book code="JHN"/>
+          <book code="JOB"/>
+          <book code="JOL"/>
+          <book code="JON"/>
+          <book code="JOS"/>
+          <book code="JUD"/>
+          <book code="LAM"/>
+          <book code="LEV"/>
+          <book code="LUK"/>
+          <book code="MAL"/>
+          <book code="MAT"/>
+          <book code="MIC"/>
+          <book code="MRK"/>
+          <book code="NAM"/>
+          <book code="NEH"/>
+          <book code="NUM"/>
+          <book code="OBA"/>
+          <book code="PHM"/>
+          <book code="PHP"/>
+          <book code="PRO"/>
+          <book code="PSA"/>
+          <book code="REV"/>
+          <book code="ROM"/>
+          <book code="RUT"/>
+          <book code="SNG"/>
+          <book code="TIT"/>
+          <book code="ZEC"/>
+          <book code="ZEP"/>
+        </canonicalContent>
+        <structure>
+          <content name="book-gen" src="release/USX_1/GEN.usx" role="GEN"/>
+          <content name="book-exo" src="release/USX_1/EXO.usx" role="EXO"/>
+          <content name="book-lev" src="release/USX_1/LEV.usx" role="LEV"/>
+          <content name="book-num" src="release/USX_1/NUM.usx" role="NUM"/>
+          <content name="book-deu" src="release/USX_1/DEU.usx" role="DEU"/>
+          <content name="book-jos" src="release/USX_1/JOS.usx" role="JOS"/>
+          <content name="book-jdg" src="release/USX_1/JDG.usx" role="JDG"/>
+          <content name="book-rut" src="release/USX_1/RUT.usx" role="RUT"/>
+          <content name="book-1sa" src="release/USX_1/1SA.usx" role="1SA"/>
+          <content name="book-2sa" src="release/USX_1/2SA.usx" role="2SA"/>
+          <content name="book-1ki" src="release/USX_1/1KI.usx" role="1KI"/>
+          <content name="book-2ki" src="release/USX_1/2KI.usx" role="2KI"/>
+          <content name="book-1ch" src="release/USX_1/1CH.usx" role="1CH"/>
+          <content name="book-2ch" src="release/USX_1/2CH.usx" role="2CH"/>
+          <content name="book-ezr" src="release/USX_1/EZR.usx" role="EZR"/>
+          <content name="book-neh" src="release/USX_1/NEH.usx" role="NEH"/>
+          <content name="book-est" src="release/USX_1/EST.usx" role="EST"/>
+          <content name="book-job" src="release/USX_1/JOB.usx" role="JOB"/>
+          <content name="book-psa" src="release/USX_1/PSA.usx" role="PSA"/>
+          <content name="book-pro" src="release/USX_1/PRO.usx" role="PRO"/>
+          <content name="book-ecc" src="release/USX_1/ECC.usx" role="ECC"/>
+          <content name="book-sng" src="release/USX_1/SNG.usx" role="SNG"/>
+          <content name="book-isa" src="release/USX_1/ISA.usx" role="ISA"/>
+          <content name="book-jer" src="release/USX_1/JER.usx" role="JER"/>
+          <content name="book-lam" src="release/USX_1/LAM.usx" role="LAM"/>
+          <content name="book-ezk" src="release/USX_1/EZK.usx" role="EZK"/>
+          <content name="book-dan" src="release/USX_1/DAN.usx" role="DAN"/>
+          <content name="book-hos" src="release/USX_1/HOS.usx" role="HOS"/>
+          <content name="book-jol" src="release/USX_1/JOL.usx" role="JOL"/>
+          <content name="book-amo" src="release/USX_1/AMO.usx" role="AMO"/>
+          <content name="book-oba" src="release/USX_1/OBA.usx" role="OBA"/>
+          <content name="book-jon" src="release/USX_1/JON.usx" role="JON"/>
+          <content name="book-mic" src="release/USX_1/MIC.usx" role="MIC"/>
+          <content name="book-nam" src="release/USX_1/NAM.usx" role="NAM"/>
+          <content name="book-hab" src="release/USX_1/HAB.usx" role="HAB"/>
+          <content name="book-zep" src="release/USX_1/ZEP.usx" role="ZEP"/>
+          <content name="book-hag" src="release/USX_1/HAG.usx" role="HAG"/>
+          <content name="book-zec" src="release/USX_1/ZEC.usx" role="ZEC"/>
+          <content name="book-mal" src="release/USX_1/MAL.usx" role="MAL"/>
+          <content name="book-mat" src="release/USX_1/MAT.usx" role="MAT"/>
+          <content name="book-mrk" src="release/USX_1/MRK.usx" role="MRK"/>
+          <content name="book-luk" src="release/USX_1/LUK.usx" role="LUK"/>
+          <content name="book-jhn" src="release/USX_1/JHN.usx" role="JHN"/>
+          <content name="book-act" src="release/USX_1/ACT.usx" role="ACT"/>
+          <content name="book-rom" src="release/USX_1/ROM.usx" role="ROM"/>
+          <content name="book-1co" src="release/USX_1/1CO.usx" role="1CO"/>
+          <content name="book-2co" src="release/USX_1/2CO.usx" role="2CO"/>
+          <content name="book-gal" src="release/USX_1/GAL.usx" role="GAL"/>
+          <content name="book-eph" src="release/USX_1/EPH.usx" role="EPH"/>
+          <content name="book-php" src="release/USX_1/PHP.usx" role="PHP"/>
+          <content name="book-col" src="release/USX_1/COL.usx" role="COL"/>
+          <content name="book-1th" src="release/USX_1/1TH.usx" role="1TH"/>
+          <content name="book-2th" src="release/USX_1/2TH.usx" role="2TH"/>
+          <content name="book-1ti" src="release/USX_1/1TI.usx" role="1TI"/>
+          <content name="book-2ti" src="release/USX_1/2TI.usx" role="2TI"/>
+          <content name="book-tit" src="release/USX_1/TIT.usx" role="TIT"/>
+          <content name="book-phm" src="release/USX_1/PHM.usx" role="PHM"/>
+          <content name="book-heb" src="release/USX_1/HEB.usx" role="HEB"/>
+          <content name="book-jas" src="release/USX_1/JAS.usx" role="JAS"/>
+          <content name="book-1pe" src="release/USX_1/1PE.usx" role="1PE"/>
+          <content name="book-2pe" src="release/USX_1/2PE.usx" role="2PE"/>
+          <content name="book-1jn" src="release/USX_1/1JN.usx" role="1JN"/>
+          <content name="book-2jn" src="release/USX_1/2JN.usx" role="2JN"/>
+          <content name="book-3jn" src="release/USX_1/3JN.usx" role="3JN"/>
+          <content name="book-jud" src="release/USX_1/JUD.usx" role="JUD"/>
+          <content name="book-rev" src="release/USX_1/REV.usx" role="REV"/>
+        </structure>
+      </publication>
+    </publications>
+    <copyright>
+      <fullStatement>
+        <statementContent type="xhtml">
+          <p>Biblica® 圣经当代译本™开放资源</p>
+          <p>版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.</p>
+          <p>Biblica® Open Chinese Contemporary Bible™ (Simplified Script)</p>
+          <p>Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.</p>
+          <p>“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。</p>
+          <p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.</p>
+        </statementContent>
+      </fullStatement>
+    </copyright>
+    <promotion>
+      <promoVersionInfo contentType="xhtml">
+        <p>Biblica® 圣经当代译本™开放资源</p>
+        <p>版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.</p>
+        <p>Biblica® Open Chinese Contemporary Bible™ (Simplified Script)</p>
+        <p>Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.</p>
+        <p>“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。</p>
+        <p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.</p>
+        <p>――――――</p>
+        <h3>Creative Commons License</h3>
+        <p>本《圣经/新约/音频》或“作品”是按照知识共享协议-同样分享4.0国际许可证（CC BY-SA）提供的。许可证详情，请访问<a href="https://creativecommons.org/licenses/by-sa/4.0">https://creativecommons.org/licenses/by-sa/4.0</a>，或发邮件到Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+        <p>“Biblica”是国际圣经协会注册的商标。若使用Biblica®商标，必须先获得国际圣经协会的书面许可。只要保持内容不变，包括“Biblica®”商标，就可以获准拷贝和分发本作品。改变或翻译本作品将产生衍生作品，生产方需要删除Biblica®商标。若出版衍生作品，则必须在可查阅的地方，如网站列出修改内容。也必须提供原作品的来源：原作品属于国际圣经协会，“在<a href="https://biblica.com">www.biblica.com</a> and <a href="https://open.bible">open.bible</a>可以免费使用.”</p>
+        <p>无论是保持本作品原貌，还是创造了衍生作品，必须在作品书名页或版权页写上如下版权声明：</p>
+        <p>Biblica® 圣经当代译本™开放资源</p>
+        <p>版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.</p>
+        <p>Biblica® Open Chinese Contemporary Bible™ (Simplified Script)</p>
+        <p>Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.</p>
+        <p>“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。</p>
+        <p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.</p>
+        <p>必须同意按照同样的许可证（CC BY-SA）和规则提供您的衍生作品。</p>
+        <p>如果想通知国际圣经协会有关您对本作品的翻译，请通过<a href="https://open.bible/#feedback">https://open.bible/#feedback</a>联系我们。</p>
+        <p>――――――</p>
+        <p>This work is made available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0">https://creativecommons.org/licenses/by-sa/4.0</a> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+        <p>Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at <a href="https://biblica.com/">www.biblica.com</a> and <a href="https://open.bible/">open.bible</a>.”</p>
+        <p>Notice of copyright must appear on the title or copyright page of the work as follows:</p>
+        <p>Biblica® 圣经当代译本™开放资源</p>
+        <p>版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.</p>
+        <p>Biblica® Open Chinese Contemporary Bible™ (Simplified Script)</p>
+        <p>Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.</p>
+        <p>“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。</p>
+        <p>“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.</p>
+        <p>You must also make your derivative work available under the same license (CC BY-SA).</p>
+        <p>If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at <a href="https://open.bible/#feedback">https://open.bible/#feedback</a>. </p>
+      </promoVersionInfo>
+    </promotion>
+    <archiveStatus>
+      <archivistName>John Dunham</archivistName>
+      <dateArchived>2023-10-29T15:00:03.259387</dateArchived>
+      <dateUpdated>2024-04-29T21:47:16.627434</dateUpdated>
+      <comments>Remove checkboxes</comments>
+    </archiveStatus>
+  </DBLMetadata>
