@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Data", "Bible.Data\Bi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Core", "Bible.Core\Bible.Core.csproj", "{4701F49F-8015-49D2-823C-78BABEAEE81C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Backend", "Bible.Backend\Bible.Backend.csproj", "{B078A78C-EEFA-A862-2CA1-E6761CDE2998}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4701F49F-8015-49D2-823C-78BABEAEE81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4701F49F-8015-49D2-823C-78BABEAEE81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4701F49F-8015-49D2-823C-78BABEAEE81C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B078A78C-EEFA-A862-2CA1-E6761CDE2998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B078A78C-EEFA-A862-2CA1-E6761CDE2998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B078A78C-EEFA-A862-2CA1-E6761CDE2998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B078A78C-EEFA-A862-2CA1-E6761CDE2998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

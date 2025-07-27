@@ -20,8 +20,6 @@
         private int[] _chapters = [1];
         public IReadOnlyList<int> Chapters => _chapters;
 
-        public BibleBookNav() { }
-
         public override string ToString() =>
             $"{Id}-{Name}-{ChapterCount}";
     }
