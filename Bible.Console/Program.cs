@@ -18,16 +18,15 @@ public class Program
         var converter = new XmlConverter(logger);
 
         //await converter.ParseUnihanAsync();
-        var unihan = await converter.ConvertUnihanAsync();
-        //var unihan = await converter.GetUnihanAsync();
+        var unihan = await converter.LoadUnihanAsync();
 
         //MarkdownVisitorExample(converter);
         //HtmlVisitorExample(converter, unihan);
         await DeserializeToHtmlAsync(converter, unihan);
 
         Console.WriteLine();
-        //Console.WriteLine("Press any key to exit...");
-        //Console.ReadKey();
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 
     private static void MarkdownVisitorExample(XmlConverter converter)
@@ -62,7 +61,7 @@ public class Program
             File.WriteAllText(outFilePath, text, Encoding.UTF8);
             converter.Logger.LogInformation(outFilePath);
             return text;
-        }, sample: "zho-Hans-OCCB");
+        }, sample: "zho-Hant-OCCB");
     }
 
     private static async Task DeserializeToHtmlAsync(XmlConverter converter, UnihanLookup? unihan)

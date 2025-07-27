@@ -27,7 +27,7 @@ namespace Bible.Backend.Services
             await unihanSerializer.ParseAsync(inputPath, outputPath);
         }
 
-        public async Task<UnihanLookup> ConvertUnihanAsync()
+        public async Task<UnihanLookup> LoadUnihanAsync()
         {
             (var sitePath, var assetPath) = GetPaths();
             var inputPath = Path.Combine(sitePath, "Unihan_Readings.txt");
@@ -43,7 +43,10 @@ namespace Bible.Backend.Services
                         return deserialized;
                     }
                 }
-                catch { }
+                catch (Exception ex)
+                {
+                    _logger.LogDebug(ex, ex.Message);
+                }
             }
             var parser = new UnihanParserService();
             var unihan = await parser.ParseAsync<UnihanLookup>(inputPath, outputPath);

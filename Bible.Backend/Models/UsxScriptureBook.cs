@@ -1,6 +1,5 @@
 ﻿namespace Bible.Backend.Models;
 
-using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 using Microsoft.Extensions.Options;

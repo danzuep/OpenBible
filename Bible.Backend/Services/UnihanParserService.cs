@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-using Bible.Backend.Models;
+using Bible.Backend.Abstractions;
 
 namespace Bible.Backend.Services
 {
