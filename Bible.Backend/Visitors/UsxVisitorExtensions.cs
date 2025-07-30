@@ -1,4 +1,5 @@
-﻿using Bible.Backend.Models;
+﻿using Bible.Backend.Abstractions;
+using Bible.Backend.Models;
 
 public static class UsxVisitorExtensions
 {

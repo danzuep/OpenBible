@@ -24,9 +24,25 @@ namespace Bible.Core.Models
         public string BookName { get; set; } = default!;
 
         /// <summary>
+        /// Three-letter abbreviation of the book name.
+        /// </summary>
+        public string BookCode { get; set; } = default!;
+
+        /// <summary>
         /// Optional chapter and verse reference.
+        /// TODO: replace with chapter verse.
         /// </summary>
         public string Reference { get; set; }
+
+        /// <summary>
+        /// Optional chapter reference.
+        /// </summary>
+        public string Chapter { get; set; }
+
+        /// <summary>
+        /// Optional verse reference.
+        /// </summary>
+        public string Verse { get; set; }
 
         public int CompareTo(BibleReference other)
         {
@@ -48,6 +64,22 @@ namespace Bible.Core.Models
             if (string.IsNullOrEmpty(Reference))
                 return $"{BookName} ({Translation})";
             return $"{BookName} {Reference} ({Translation})";
+        }
+
+        public string ToSearch()
+        {
+            if (!string.IsNullOrEmpty(Reference))
+                return $"{BookCode}.{Reference}?v={Translation}";
+            if (!string.IsNullOrEmpty(Verse))
+                return $"{BookCode}.{Chapter}.{Verse}?v={Translation}";
+            else if (!string.IsNullOrEmpty(Chapter))
+                return $"{BookCode}.{Chapter}?v={Translation}";
+            else if (!string.IsNullOrEmpty(BookCode))
+                return $"{BookCode}?v={Translation}";
+            else if (!string.IsNullOrEmpty(BookName))
+                return $"{BookName}?v={Translation}";
+            else
+                return Translation ?? "_";
         }
 
         public string ToPath()

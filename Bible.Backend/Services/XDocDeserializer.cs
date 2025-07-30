@@ -6,13 +6,13 @@ using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Bible.Backend.Services
 {
-    public class XDocParser : IDeserialize
+    public class XDocDeserializer : IDeserializer
     {
-        private readonly ILogger<XDocParser> _logger;
+        private readonly ILogger<XDocDeserializer> _logger;
 
-        public XDocParser(ILogger<XDocParser>? logger = null)
+        public XDocDeserializer(ILogger<XDocDeserializer>? logger = null)
         {
-            _logger = logger ?? NullLogger<XDocParser>.Instance;
+            _logger = logger ?? NullLogger<XDocDeserializer>.Instance;
         }
 
         public LoadOptions Settings { get; set; } = LoadOptions.PreserveWhitespace;
@@ -21,24 +21,36 @@ namespace Bible.Backend.Services
         {
             using var reader = new StringReader(xml);
             var xdoc = XDocument.Load(reader, Settings);
-            return Deserialize<T>(xdoc);
+            var deserialized = Deserialize<T>(xdoc);
+            _logger.LogDebug($"Deserialized XML of length {xml.Length}");
+            return deserialized;
         }
 
         public T? Deserialize<T>(string filePath)
         {
             using var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             var xdoc = XDocument.Load(stream, Settings);
-            return Deserialize<T>(xdoc);
+            var deserialized = Deserialize<T>(xdoc);
+            _logger.LogDebug($"Deserialized {filePath}");
+            return deserialized;
+        }
+
+        public async Task<TOut?> DeserializeAsync<TIn, TOut>(string filePath, Func<TIn?, TOut?> transform, CancellationToken cancellationToken = default)
+        {
+            var deserialized = await DeserializeAsync<TIn>(filePath, cancellationToken);
+            return transform(deserialized);
         }
 
         public async Task<T?> DeserializeAsync<T>(string filePath, CancellationToken cancellationToken)
         {
             using var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             var xdoc = await XDocument.LoadAsync(stream, Settings, cancellationToken);
-            return Deserialize<T>(xdoc);
+            var deserialized = Deserialize<T>(xdoc);
+            _logger.LogDebug($"Deserialized {filePath}");
+            return deserialized;
         }
 
-        private T? Deserialize<T>(XDocument xDocument)
+        private static T? Deserialize<T>(XDocument xDocument)
         {
             var serializer = new XmlSerializer(typeof(T));
             using (var reader = xDocument.CreateReader())

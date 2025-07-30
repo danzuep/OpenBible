@@ -1,9 +1,9 @@
-﻿@page "/{BookName=John}/{ChapterNumber:int}"
+﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookName=JHN}/{ChapterNumber:int}"
 @using System.Diagnostics.CodeAnalysis
 @using Bible.Core.Models
 @using Bible.Data;
 @using System.Text
-@inject IDataService<IEnumerable<BibleBook>> DataService
+@inject IBibleDataService DataService
 
 @* See also: https://github.com/MeysamMoghaddam/BlazorEpubReader/blob/master/Epub.razor *@
 
@@ -47,6 +47,12 @@ else
 
 @code {
     [Parameter, EditorRequired]
+    public string? Language { get; set; }
+
+    [Parameter, EditorRequired]
+    public string? BibleVersion { get; set; }
+
+    [Parameter, EditorRequired]
     public string? BookName { get; set; }
 
     [Parameter]
@@ -64,7 +70,8 @@ else
         base.OnParametersSet();
         Task.Run(async () =>
         {
-            _bibleBook = await DataService.LoadBookAsync(BookName);
+            var version = string.Join("-", Language, BibleVersion);
+            _bibleBook = await DataService.LoadBookAsync(version, BookName);
             ChapterChanged(ChapterNumber);
         });
     }

@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>$(NetVersion)</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RunAOTCompilation>true</RunAOTCompilation>
+    <!--<RunAOTCompilation>true</RunAOTCompilation>-->
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Bible.Backend\Bible.Backend.csproj" />
+    <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
     <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
   </ItemGroup>
 

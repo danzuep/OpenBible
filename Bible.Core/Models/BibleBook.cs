@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Bible.Core.Models
+﻿namespace Bible.Core.Models
 {
     public sealed class BibleBook : IComparable<BibleBook>, IEquatable<BibleBook>
     {
@@ -20,7 +16,7 @@ namespace Bible.Core.Models
         {
             _order = _createdOrder++;
             Reference = reference;
-            Chapters = chapters.ToArray();
+            Chapters = chapters.ToList();
         }
 
         public BibleReference Reference { get; set; } = default!;
@@ -28,14 +24,16 @@ namespace Bible.Core.Models
         /// <summary>
         /// Abreviated or alternative names of the book.
         /// </summary>
-        public IList<string> Aliases { get; set; } = Array.Empty<string>();
+        public IReadOnlyList<string> Aliases { get; set; } = new List<string>();
+        //public List<string> Aliases { get; set; } = new();
 
         public int Id { get; set; }
 
         /// <summary>
         /// Chapters and verses.
         /// </summary>
-        public IReadOnlyList<BibleChapter> Chapters { get; set; }
+        public IReadOnlyList<BibleChapter> Chapters { get; set; } = new List<BibleChapter>();
+        //public List<BibleChapter> Chapters { get; set; } = new();
 
         /// <summary>
         /// Number of chapters.

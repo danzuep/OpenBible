@@ -58,8 +58,8 @@ namespace Bible.Backend.Services
             (var sitePath, var assetPath) = GetPaths();
             this._logger.LogInformation(assetPath);
 
-            var deserializer = new XDocParser();
-            var usxParser = new UsxParser(deserializer);
+            var deserializer = new XDocDeserializer();
+            var usxParser = new UsxVersionParser(deserializer);
 
             foreach (var versionPath in Directory.EnumerateDirectories(sitePath))
             {
@@ -74,7 +74,7 @@ namespace Bible.Backend.Services
                 var outputPath = Path.Combine(assetPath, versionName);
                 Directory.CreateDirectory(outputPath);
 
-                var books = usxParser.Deserialize<T>(versionPath);
+                var books = usxParser.Enumerate<T>(versionPath);
 
                 foreach (var book in books)
                 {

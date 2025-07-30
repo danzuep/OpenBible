@@ -2,6 +2,7 @@
 
 using System.Net;
 using System.Text;
+using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
 using Microsoft.Extensions.Options;
 
@@ -38,16 +39,17 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     private readonly StringBuilder _sb = new();
 
-    private static string[] _paraStylesToHide = ["ide", "toc", "mt"];
+    private static readonly IReadOnlyList<string> _paraStylesToHide =
+        UsxToMarkdownVisitor.ParaStylesToHide;
 
     public void Visit(UsxIdentification identification)
     {
-        if (!string.IsNullOrEmpty(identification.Name))
+        if (!string.IsNullOrEmpty(identification.BookName))
         {
             _reference.BookCode = identification.BookCode;
             //int firstSpaceIndex = identification.Name.IndexOf(' ') + 1;
             //var bookName = identification.Name[firstSpaceIndex..];
-            var bookName = identification.Name;
+            var bookName = identification.BookName;
             _sb.AppendFormat("<{0} id=\"{2}-{1}\" class=\"usx-{2}\">{3}</{0}>",
                 "h1", _reference, identification.Style, WebUtility.HtmlEncode(bookName));
             _sb.AppendLine();
@@ -103,17 +105,10 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         if (Unihan != null && Unihan.Field.HasValue && usxChar.Text is string text)
         {
             _sb.AppendFormat("<span class=\"usx-{0}\">", usxChar.Style);
-#if NET5_0_OR_GREATER
             foreach (var rune in text.EnumerateRunes())
             {
                 AddRubyText(rune.Value, Unihan.Field.Value);
             }
-#else
-            foreach (var character in text)
-            {
-                AddRubyText(character, Unihan.Field.Value);
-            }
-#endif
             _sb.Append("</span>");
         }
         else if (_options.EnableStrongs && !string.IsNullOrEmpty(usxChar.Strong))
@@ -155,7 +150,6 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         }
     }
 
-#if NET5_0_OR_GREATER
     public void Visit(string text)
     {
         if (Unihan != null && Unihan.Field.HasValue)
@@ -170,12 +164,6 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
             _sb.Append(WebUtility.HtmlEncode(text));
         }
     }
-#else
-    public void Visit(string text)
-    {
-        _sb.Append(WebUtility.HtmlEncode(text));
-    }
-#endif
 
     public void Visit(UsxMilestone milestone)
     {

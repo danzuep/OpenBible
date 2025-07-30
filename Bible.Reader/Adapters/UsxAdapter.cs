@@ -1,10 +1,6 @@
-﻿using Bible.Core.Models;
-using Bible.Reader.Extensions;
+﻿using System.Globalization;
+using Bible.Core.Models;
 using Bible.Reader.Models;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
 
 namespace Bible.Reader.Adapters
 {

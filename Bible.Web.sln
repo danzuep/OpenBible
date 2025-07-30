@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Core", "Bible.Core\Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Backend", "Bible.Backend\Bible.Backend.csproj", "{B078A78C-EEFA-A862-2CA1-E6761CDE2998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Reader", "Bible.Reader\Bible.Reader.csproj", "{A08FB2D4-9436-5E30-D4F0-9DD48D30B8CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B078A78C-EEFA-A862-2CA1-E6761CDE2998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B078A78C-EEFA-A862-2CA1-E6761CDE2998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B078A78C-EEFA-A862-2CA1-E6761CDE2998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08FB2D4-9436-5E30-D4F0-9DD48D30B8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08FB2D4-9436-5E30-D4F0-9DD48D30B8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08FB2D4-9436-5E30-D4F0-9DD48D30B8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08FB2D4-9436-5E30-D4F0-9DD48D30B8CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,16 +28,16 @@ public sealed class UsxIdentification : UsxStyleBase
     public string BookCode { get; set; }
 
     [XmlText]
-    public string Name { get; set; }
+    public string BookName { get; set; }
 
     public static implicit operator string?(UsxIdentification text) =>
-        text?.Name;
+        text?.BookName;
 
     public static implicit operator UsxIdentification(string value) =>
-        new UsxIdentification { Name = value };
+        new UsxIdentification { BookName = value };
 
     public override string ToString() =>
-        $"{Name} ({Style}, {BookCode})";
+        $"{BookName} ({Style}, {BookCode})";
 }
 
 public abstract class UsxMarker : UsxSidEidBase

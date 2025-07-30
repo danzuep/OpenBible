@@ -1,4 +1,6 @@
-﻿namespace Bible.Backend.Models
+﻿using Bible.Backend.Models;
+
+namespace Bible.Backend.Abstractions
 {
     public interface IUsxVisitor
     {

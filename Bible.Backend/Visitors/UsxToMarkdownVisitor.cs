@@ -3,6 +3,7 @@
 using System;
 using System.Net;
 using System.Text;
+using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
 using Microsoft.Extensions.Options;
 
@@ -30,13 +31,14 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
 
     private readonly StringBuilder _sb = new();
 
-    private static string[] _paraStylesToHide = ["ide", "toc", "mt"];
+    internal static readonly IReadOnlyList<string> ParaStylesToHide =
+        ["ide", "toc", "mt"];
 
     public void Visit(UsxIdentification identification)
     {
-        if (!string.IsNullOrEmpty(identification.Name))
+        if (!string.IsNullOrEmpty(identification.BookName))
         {
-            _sb.AppendLine($"# {identification.Name}");
+            _sb.AppendLine($"# {identification.BookName}");
             _sb.AppendLine();
         }
     }
@@ -49,7 +51,7 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
             _sb.AppendLine($"## {heading}");
             _sb.AppendLine();
         }
-        else if (!_paraStylesToHide.Any(h => para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase)))
+        else if (!ParaStylesToHide.Any(h => para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase)))
         {
             this.Accept(para?.Content);
         }

@@ -1,3 +1,7 @@
+using Bible.Backend.Abstractions;
+using Bible.Backend.Services;
+using Bible.Backend.Visitors;
+using Bible.Core.Abstractions;
 using Bible.Core.Models;
 using Bible.Web.Services;
 using Microsoft.AspNetCore.Components.Web;
@@ -30,7 +34,13 @@ namespace Bible.Web
             services.AddMudServices();
             services.AddScoped<IBibleBookNameService, BibleBookNameService>();
             services.AddScoped<IMenuService, MenuService>();
-            services.AddSingleton<IDataService<IEnumerable<BibleBook>>, DataService>();
+            services.AddSingleton<IBibleDataService, DataService>();
+            services.AddScoped<IDeserializer, XDocDeserializer>();
+            services.AddScoped<IBulkParser, UsxVersionParser>();
+            services.AddScoped<IParser<BibleBook>, UsxToBibleBookParser>();
+            services.AddScoped<IDataService<BibleModel>, UsxToBibleModelParser>();
+            //services.AddScoped<IUnihanReadings, UnihanSerializer>();
+            //services.AddScoped<IUsxVisitor, UsxToBibleBookVisitor>();
 
             return services;
         }

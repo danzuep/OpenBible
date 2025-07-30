@@ -23,14 +23,15 @@
             Task.Run(() =>
             {
                 GetBookAndChapter();
-                Navigation.NavigateTo($"{_bookName}/{_chapterNumber}");
+                // Navigation.NavigateTo($"{_bookName}/{_chapterNumber}");
+                Navigation.NavigateTo($"eng/WEBBE/JHN/{_chapterNumber}");
             });
         }
     }
 
     void GetBookAndChapter()
     {
-        var chars = new char[] { ' ', '_', '-', ':', ';' };
+        var chars = new char[] { ' ', '_', '-', ':', ';', '.' };
         var words = SearchText?.Split(chars);
         if (words?.Length > 0)
         {

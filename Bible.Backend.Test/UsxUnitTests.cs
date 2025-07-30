@@ -12,7 +12,7 @@ namespace Bible.Backend.Tests
         [InlineData("WEBBE/3JN.usx")]
         public void BibleParser_WithValidUsx_DeserializesToMarkdown(string usxFilePath)
         {
-            var deserializer = new XDocParser();
+            var deserializer = new XDocDeserializer();
             var book = deserializer.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
             var markdown = UsxToMarkdownVisitor.GetFullText(book);
@@ -22,7 +22,7 @@ namespace Bible.Backend.Tests
         [Fact]
         public void BibleParser_WithUsx_DeserializesToMarkdown()
         {
-            var deserializer = new XDocParser();
+            var deserializer = new XDocDeserializer();
             var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleUsxSamples.UsxWebbeMat5);
             Assert.NotNull(book);
             var html = UsxToHtmlVisitor.GetFullText(book);
@@ -34,7 +34,7 @@ namespace Bible.Backend.Tests
         //[InlineData("WEBBE", "JUD")]
         public void XmlParser_WithValidUsx_Deserializes(string translation, string bookCode)
         {
-            var xmlParser = new XDocParser();
+            var xmlParser = new XDocDeserializer();
             var usxFilePath = Path.Combine(translation, $"{bookCode}.usx");
             var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);
@@ -76,7 +76,7 @@ namespace Bible.Backend.Tests
         //[InlineData("WEBBE", "JUD")]
         public void XDocParser_WithValidUsx_Deserializes(string translation, string bookCode)
         {
-            var xmlParser = new XDocParser();
+            var xmlParser = new XDocDeserializer();
             var usxFilePath = Path.Combine(translation, $"{bookCode}.usx");
             var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
             Assert.NotNull(book);

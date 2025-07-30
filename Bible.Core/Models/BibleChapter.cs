@@ -4,11 +4,12 @@ namespace Bible.Core.Models
 {
     public sealed class BibleChapter
     {
-        public BibleReference Reference { get; set; } = default!;
+        public BibleReference Reference { get; set; } = new();
 
         public int Id { get; set; }
 
         public IReadOnlyList<BibleVerse> Verses { get; set; } = default!;
+        //public List<BibleVerse> Verses { get; set; } = new();
 
         public override bool Equals(object other) =>
             other is BibleChapter p && (p.Reference?.Equals(Reference) ?? false);

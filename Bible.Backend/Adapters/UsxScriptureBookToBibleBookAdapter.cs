@@ -28,7 +28,7 @@ namespace Bible.Backend.Adapters
             foreach (var content in book.Content)
             {
                 if (content is UsxPara heading && heading.Style == "h" &&
-                    heading.Content.FirstOrDefault() is UsxHeading bookName)
+                    heading.Content?.FirstOrDefault() is UsxHeading bookName)
                 {
                     bibleReference.BookName = bookName.Text;
                     //bibleBook.Reference = bibleReference;
@@ -83,7 +83,7 @@ namespace Bible.Backend.Adapters
 
         internal static IEnumerable<BibleVerse> ToBibleFormat(this UsxContent paragraph, BibleReference bibleReference, StringBuilder stringBuilder)
         {
-            if (paragraph == null || paragraph.Style != "p")
+            if (paragraph == null || paragraph.Content == null || paragraph.Style != "p")
             {
                 yield break;
             }
@@ -131,7 +131,12 @@ namespace Bible.Backend.Adapters
                         yield return verse;
                     }
                 }
+                else if (item is string text)
+                {
+                    bibleVerse.Text += text;
+                }
             }
+            yield return bibleVerse;
         }
     }
 }

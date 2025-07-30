@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
 
 namespace Bible.Core.Models
 {
-    public sealed class BibleModel
+    public sealed class BibleModel : IEnumerable<BibleBook>
     {
         /// <summary>
         /// Information about the bible.
@@ -13,11 +13,18 @@ namespace Bible.Core.Models
         /// Books of the bible.
         /// </summary>
         public IReadOnlyList<BibleBook> Books { get; set; }
+        //public List<BibleBook> Books { get; set; }
 
         /// <summary>
         /// Number of books.
         /// </summary>
         public int BookCount => Books.Count;
+
+        public IEnumerator<BibleBook> GetEnumerator() =>
+            Books.GetEnumerator();
+
+        IEnumerator IEnumerable.GetEnumerator() =>
+            GetEnumerator();
 
         public override string ToString() =>
             $"{Information} ({BookCount} Books)";

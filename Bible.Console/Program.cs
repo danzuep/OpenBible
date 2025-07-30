@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
+using Bible.Core.Models;
 using Microsoft.Extensions.Logging;
 
 public class Program
@@ -15,18 +16,38 @@ public class Program
         using var loggerFactory = LoggerFactory.Create(builder =>
             builder.AddDebug().AddConsole());
         var logger = loggerFactory.CreateLogger<Program>();
-        var converter = new XmlConverter(logger);
 
+        //LoadBible(loggerFactory);
+        await LoadBibleBookAsync(loggerFactory);
+        //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
-        var unihan = await converter.LoadUnihanAsync();
+        //var unihan = await converter.LoadUnihanAsync();
 
         //MarkdownVisitorExample(converter);
         //HtmlVisitorExample(converter, unihan);
-        await DeserializeToHtmlAsync(converter, unihan);
+        //await DeserializeToHtmlAsync(converter, unihan);
 
         Console.WriteLine();
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadKey();
+        //Console.WriteLine("Press any key to exit...");
+        //Console.ReadKey();
+    }
+
+    private static async Task<BibleBook?> LoadBibleBookAsync(ILoggerFactory loggerFactory, string version = "eng-WEBBE", string bookName = "JHN")
+    {
+        var deserializer = new XDocDeserializer(loggerFactory.CreateLogger<XDocDeserializer>());
+        var usxParser = new UsxToBibleBookParser(deserializer);
+        var bibleBook = await usxParser.ParseAsync(version, bookName);
+        var verse = bibleBook?.Chapters[0].Verses[0];
+        return bibleBook;
+    }
+
+    private static BibleModel LoadBible(ILoggerFactory loggerFactory, string version = "eng-WEBBE")
+    {
+        var deserializer = new XDocDeserializer(loggerFactory.CreateLogger<XDocDeserializer>());
+        var usxParser = new UsxVersionParser(deserializer);
+        var dataService = new UsxToBibleModelParser(usxParser);
+        var bible = dataService.Load(version);
+        return bible;
     }
 
     private static void MarkdownVisitorExample(XmlConverter converter)
