@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="JHN" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">约翰福音</para>
+  <para style="toc1">约翰福音</para>
+  <para style="toc2">约翰福音</para>
+  <para style="toc3">约</para>
+  <para style="mt1">约翰福音</para>
+  <chapter number="1" style="c" sid="JHN 1"/>
+  <para style="s1">生命之道</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 1:1"/>太初，道已经存在，道与上帝同在，道就是上帝。 <verse eid="JHN 1:1"/><verse number="2" style="v" sid="JHN 1:2"/>祂太初就与上帝同在。 <verse eid="JHN 1:2"/><verse number="3" style="v" sid="JHN 1:3"/>万物都是借着祂造的<note caller="+" style="f"><char style="fr" closed="false">1:3 </char><char style="ft" closed="false">“造的”或译“存在”。</char></note>，受造之物没有一样不是借着祂造的。 <verse eid="JHN 1:3"/><verse number="4" style="v" sid="JHN 1:4"/>祂里面有生命，这生命是人类的光。 <verse eid="JHN 1:4"/><verse number="5" style="v" sid="JHN 1:5"/>光照进黑暗里，黑暗不能吞灭<note caller="+" style="f"><char style="fr" closed="false">1:5 </char><char style="ft" closed="false">“吞灭”或译“接受”或“明白”。</char></note>光。<verse eid="JHN 1:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 1:6"/>有一个上帝差来的人名叫<char style="pn">约翰</char>， <verse eid="JHN 1:6"/><verse number="7" style="v" sid="JHN 1:7"/>他作为见证人来为光做见证，叫世人可以借着他相信。 <verse eid="JHN 1:7"/><verse number="8" style="v" sid="JHN 1:8"/><char style="pn">约翰</char>不是那光，而是那光的见证人。 <verse eid="JHN 1:8"/><verse number="9" style="v" sid="JHN 1:9"/>那照亮世人的真光来到了世上。 <verse eid="JHN 1:9"/><verse number="10" style="v" sid="JHN 1:10"/>祂来到世上，借祂而造的世界却不认识祂。 <verse eid="JHN 1:10"/><verse number="11" style="v" sid="JHN 1:11"/>祂来到自己的地方，自己人却不接受祂。 <verse eid="JHN 1:11"/><verse number="12" style="v" sid="JHN 1:12"/>但所有接受祂的，就是那些信祂的人，祂就赐给他们权利成为上帝的儿女。 <verse eid="JHN 1:12"/><verse number="13" style="v" sid="JHN 1:13"/>这些人不是从血缘关系生的，也不是从情欲或人意生的，而是从上帝生的。<verse eid="JHN 1:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JHN 1:14"/>道成为肉身，住在我们中间，充满了恩典和真理。我们见过祂的荣耀，正是父独一儿子的荣耀。<verse eid="JHN 1:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 1:15"/>
+    <char style="pn">约翰</char>为祂做见证，高声喊道：“这就是我以前所说的那位，‘祂在我之后来，却比我位分高，因为祂在我之前已经存在了。’” <verse eid="JHN 1:15"/><verse number="16" style="v" sid="JHN 1:16"/>从祂的丰盛里，我们一次又一次地领受了恩典。 <verse eid="JHN 1:16"/><verse number="17" style="v" sid="JHN 1:17"/>因为律法是借着<char style="pn">摩西</char>颁布的，恩典和真理则是借着耶稣基督赐下来的。 <verse eid="JHN 1:17"/><verse number="18" style="v" sid="JHN 1:18"/>从来没有人见过上帝，只有父怀中的独一上帝<note caller="+" style="f"><char style="fr" closed="false">1:18 </char><char style="ft" closed="false">“独一上帝”有古卷作“独一儿子”。</char></note>把祂显明出来。<verse eid="JHN 1:18"/></para>
+  <para style="s1">施洗者约翰的见证</para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 1:19"/>以下是<char style="pn">约翰</char>的见证。<char style="pn">犹太</char>人从<char style="pn">耶路撒冷</char>派祭司和<char style="pn">利未</char>人来查问<char style="pn">约翰</char>是谁。 <verse eid="JHN 1:19"/><verse number="20" style="v" sid="JHN 1:20"/><char style="pn">约翰</char>毫不隐瞒地说：“我不是基督。”<verse eid="JHN 1:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 1:21"/>他们问：“那么，你是谁？是<char style="pn">以利亚</char>吗？”</para>
+  <para style="p" vid="JHN 1:21">他说：“不是。”</para>
+  <para style="p" vid="JHN 1:21">他们又问：“你是那位先知吗？”</para>
+  <para style="p" vid="JHN 1:21">他说：“不是。”<verse eid="JHN 1:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 1:22"/>他们又追问：“你到底是谁？你自己说出来吧，我们好回复差我们来的人。”<verse eid="JHN 1:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 1:23"/>他就用<char style="pn">以赛亚</char>先知的话说：“我就是那个在旷野大声呼喊‘修直主的路’<note caller="+" style="f"><char style="fr" closed="false">1:23 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 40:3">以赛亚书40:3</ref>。</char></char></note>的人。”<verse eid="JHN 1:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 1:24"/>
+    <char style="pn">法利赛</char>人派来的那些人问他： <verse eid="JHN 1:24"/><verse number="25" style="v" sid="JHN 1:25"/>“你既然不是基督，不是<char style="pn">以利亚</char>，也不是那位先知，那你为什么给人施洗呢？”<verse eid="JHN 1:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 1:26"/>
+    <char style="pn">约翰</char>答道：“我用水施洗，但在你们中间站着一位你们不认识的， <verse eid="JHN 1:26"/><verse number="27" style="v" sid="JHN 1:27"/>祂在我之后来，我连给祂解鞋带都不配。” <verse eid="JHN 1:27"/><verse number="28" style="v" sid="JHN 1:28"/>这事发生在<char style="pn">约旦</char>河东岸的<char style="pn">伯大尼</char>，就是<char style="pn">约翰</char>给人施洗的地方。<verse eid="JHN 1:28"/></para>
+  <para style="s1">上帝的羔羊</para>
+  <para style="p">
+    <verse number="29" style="v" sid="JHN 1:29"/>次日，<char style="pn">约翰</char>看见耶稣走过来，就说：“看啊！上帝的羔羊，除去世人罪恶的！ <verse eid="JHN 1:29"/><verse number="30" style="v" sid="JHN 1:30"/>我说过，‘有一个人在我之后来，却比我位分高，因为祂在我之前已经存在了。’这就是我说的那位。 <verse eid="JHN 1:30"/><verse number="31" style="v" sid="JHN 1:31"/>我以前并不认识祂，现在我用水给人施洗，是要把祂显明给<char style="pn">以色列</char>人。”<verse eid="JHN 1:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="JHN 1:32"/>
+    <char style="pn">约翰</char>又做见证说：“我看见圣灵好像鸽子一样从天降下，住在祂身上。 <verse eid="JHN 1:32"/><verse number="33" style="v" sid="JHN 1:33"/>我本来不认识祂，但那位差我来用水给人施洗的告诉我，‘你看见圣灵降下，住在谁身上，谁就是用圣灵给人施洗的。’ <verse eid="JHN 1:33"/><verse number="34" style="v" sid="JHN 1:34"/>我看见了，便做见证：祂就是上帝的儿子。”<verse eid="JHN 1:34"/></para>
+  <para style="s1">第一批门徒</para>
+  <para style="p">
+    <verse number="35" style="v" sid="JHN 1:35"/>再次日，<char style="pn">约翰</char>和两个门徒站在那里， <verse eid="JHN 1:35"/><verse number="36" style="v" sid="JHN 1:36"/>他看见耶稣经过，就说：“看啊！这是上帝的羔羊！” <verse eid="JHN 1:36"/><verse number="37" style="v" sid="JHN 1:37"/>两个门徒听见他的话，便跟从了耶稣。 <verse eid="JHN 1:37"/><verse number="38" style="v" sid="JHN 1:38"/>耶稣转过身来，看见他们跟着，便问：“你们想要什么？”</para>
+  <para style="p" vid="JHN 1:38">他们说：“老师<note caller="+" style="f"><char style="fr" closed="false">1:38 </char><char style="ft" closed="false">“老师”希腊文是“拉比”，特指犹太教的老师，下同。</char></note>，你住在哪里？”<verse eid="JHN 1:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="JHN 1:39"/>耶稣说：“你们来看吧。”他们便跟着去看耶稣住的地方。那时大约下午四点，他们就住在耶稣那里。 <verse eid="JHN 1:39"/><verse number="40" style="v" sid="JHN 1:40"/>听见<char style="pn">约翰</char>的话后跟从耶稣的两个人中，有一个是<char style="pn">西门·彼得</char>的弟弟<char style="pn">安得烈</char>。 <verse eid="JHN 1:40"/><verse number="41" style="v" sid="JHN 1:41"/>他首先去找他哥哥<char style="pn">西门</char>，说：“我们找到弥赛亚了！”弥赛亚的意思是基督<note caller="+" style="f"><char style="fr" closed="false">1:41 </char><char style="ft" closed="false">希伯来文的“弥赛亚”和希腊文的“基督”都是“受膏者”的意思。</char></note>。 <verse eid="JHN 1:41"/><verse number="42" style="v" sid="JHN 1:42"/>他带着<char style="pn">西门</char>去见耶稣。</para>
+  <para style="p" vid="JHN 1:42">耶稣看着<char style="pn">西门</char>，对他说：“你是<char style="pn">约翰</char>的儿子<char style="pn">西门</char>，你要叫<char style="pn">矶法</char>。”<char style="pn">矶法</char>的意思是<char style="pn">彼得</char><note caller="+" style="f"><char style="fr" closed="false">1:42 </char><char style="ft" closed="false">“矶法”和“彼得”分别是亚兰语和希腊语，都是“磐石”的意思。</char></note>。<verse eid="JHN 1:42"/></para>
+  <para style="p">
+    <verse number="43" style="v" sid="JHN 1:43"/>又过了一天，耶稣决定去<char style="pn">加利利</char>。祂找到<char style="pn">腓力</char>，就对他说：“跟从我！” <verse eid="JHN 1:43"/><verse number="44" style="v" sid="JHN 1:44"/><char style="pn">腓力</char>是<char style="pn">伯赛大</char>人，与<char style="pn">彼得</char>、<char style="pn">安得烈</char>是同乡。 <verse eid="JHN 1:44"/><verse number="45" style="v" sid="JHN 1:45"/><char style="pn">腓力</char>去找<char style="pn">拿但业</char>，对他说：“我们遇见了<char style="pn">摩西</char>律法和先知记载的那位！祂是<char style="pn">约瑟</char>的儿子，<char style="pn">拿撒勒</char>人耶稣。”<verse eid="JHN 1:45"/></para>
+  <para style="p">
+    <verse number="46" style="v" sid="JHN 1:46"/>
+    <char style="pn">拿但业</char>说：“<char style="pn">拿撒勒</char>能出什么好的？”</para>
+  <para style="p" vid="JHN 1:46">
+    <char style="pn">腓力</char>说：“你来看看吧！”<verse eid="JHN 1:46"/></para>
+  <para style="p">
+    <verse number="47" style="v" sid="JHN 1:47"/>耶稣看见<char style="pn">拿但业</char>走过来，就指着他说：“看啊，这是个真正的<char style="pn">以色列</char>人！他心里毫无诡诈。”<verse eid="JHN 1:47"/></para>
+  <para style="p">
+    <verse number="48" style="v" sid="JHN 1:48"/>
+    <char style="pn">拿但业</char>问耶稣：“你怎么会认识我？”</para>
+  <para style="p" vid="JHN 1:48">耶稣答道：“你在无花果树下，<char style="pn">腓力</char>叫你之前，我就看见你了。”<verse eid="JHN 1:48"/></para>
+  <para style="p">
+    <verse number="49" style="v" sid="JHN 1:49"/>
+    <char style="pn">拿但业</char>说：“老师，你是上帝的儿子！你是<char style="pn">以色列</char>的王！”<verse eid="JHN 1:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="JHN 1:50"/>耶稣说：“我说看见你在无花果树下，你就信我吗？将来你还要看见比这更大的事。 <verse eid="JHN 1:50"/><verse number="51" style="v" sid="JHN 1:51"/>我实实在在地告诉你们，你们会看见天开了，上帝的天使以人子<note caller="+" style="f"><char style="fr" closed="false">1:51 </char><char style="ft" closed="false">“人子”是耶稣的自称，耶稣在这里自比天梯，背景请参见<char style="xt"><ref loc="GEN 28:12">创世记28:12</ref></char>。</char></note>为梯上上下下。”<verse eid="JHN 1:51"/></para>
+  <chapter eid="JHN 1"/>
+  <chapter number="2" style="c" sid="JHN 2"/>
+  <para style="s1">变水为酒</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 2:1"/>第三天，有人在<char style="pn">加利利</char>的<char style="pn">迦拿</char>举办婚宴，耶稣的母亲在场。 <verse eid="JHN 2:1"/><verse number="2" style="v" sid="JHN 2:2"/>耶稣和门徒也应邀赴宴。 <verse eid="JHN 2:2"/><verse number="3" style="v" sid="JHN 2:3"/>酒喝完了，耶稣的母亲就对祂说：“他们没有酒了。” <verse eid="JHN 2:3"/><verse number="4" style="v" sid="JHN 2:4"/>耶稣说：“女士，何必把我牵扯进去？我的时候还没有到。” <verse eid="JHN 2:4"/><verse number="5" style="v" sid="JHN 2:5"/>祂母亲对仆人说：“祂叫你们做什么，你们就做什么。” <verse eid="JHN 2:5"/><verse number="6" style="v" sid="JHN 2:6"/>那里有六口<char style="pn">犹太</char>人用来行洁净礼仪的石缸，每口可以盛约一百升水。<verse eid="JHN 2:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 2:7"/>耶稣对仆人说：“把缸倒满水！”他们就往缸里倒水，一直满到缸口。 <verse eid="JHN 2:7"/><verse number="8" style="v" sid="JHN 2:8"/>耶稣又说：“现在舀些出来，送给宴席总管。”他们就送了去。 <verse eid="JHN 2:8"/><verse number="9" style="v" sid="JHN 2:9"/>那些仆人知道酒是怎么来的，宴席总管并不知道。他尝过那水变的酒后，便把新郎叫来， <verse eid="JHN 2:9"/><verse number="10" style="v" sid="JHN 2:10"/>对他说：“人们都是先拿好酒款待客人，等客人喝够了，再把次等的拿出来，你却把好酒留到现在！” <verse eid="JHN 2:10"/><verse number="11" style="v" sid="JHN 2:11"/>这是耶稣第一次行神迹，是在<char style="pn">加利利</char>的<char style="pn">迦拿</char>行的，彰显了祂的荣耀，门徒都信了祂。<verse eid="JHN 2:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 2:12"/>这事以后，耶稣和祂的母亲、弟弟及门徒一起去<char style="pn">迦百农</char>住了几天。<verse eid="JHN 2:12"/></para>
+  <para style="s1">洁净圣殿</para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 2:13"/>
+    <char style="pn">犹太</char>人的逾越节快到了，耶稣便上<char style="pn">耶路撒冷</char>去。 <verse eid="JHN 2:13"/><verse number="14" style="v" sid="JHN 2:14"/>祂看见圣殿外院有人在卖牛羊和鸽子，还有人坐在那里兑换银币， <verse eid="JHN 2:14"/><verse number="15" style="v" sid="JHN 2:15"/>就用绳子做成鞭子把牛羊赶出去，抛散钱商的银币，推翻他们的桌子， <verse eid="JHN 2:15"/><verse number="16" style="v" sid="JHN 2:16"/>又对卖鸽子的说：“把这些东西拿出去！不要把我父的殿当作市场。” <verse eid="JHN 2:16"/><verse number="17" style="v" sid="JHN 2:17"/>祂的门徒想起圣经上说：“我为你的殿心急如焚。”<note caller="+" style="f"><char style="fr" closed="false">2:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 69:9">诗篇69:9</ref>。</char></char></note><verse eid="JHN 2:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JHN 2:18"/>当时，<char style="pn">犹太</char>人质问祂：“你能显什么神迹向我们证明你有权柄这样做？”<verse eid="JHN 2:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 2:19"/>耶稣回答说：“你们拆毁这座殿，我三天之内就会把它重建起来。”<verse eid="JHN 2:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 2:20"/>他们说：“这座殿用了四十六年才建成，你三天之内就要把它重建起来吗？” <verse eid="JHN 2:20"/><verse number="21" style="v" sid="JHN 2:21"/>其实耶稣说的殿是指自己的身体， <verse eid="JHN 2:21"/><verse number="22" style="v" sid="JHN 2:22"/>等到祂从死里复活以后，祂的门徒想起这句话，就相信了圣经和耶稣所传的道。<verse eid="JHN 2:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 2:23"/>耶稣在<char style="pn">耶路撒冷</char>过逾越节期间，许多人看见祂行的神迹，就信了祂。 <verse eid="JHN 2:23"/><verse number="24" style="v" sid="JHN 2:24"/>耶稣却不信任他们，因为祂洞悉万人。 <verse eid="JHN 2:24"/><verse number="25" style="v" sid="JHN 2:25"/>不用别人告诉祂，祂也深知人的内心。<verse eid="JHN 2:25"/></para>
+  <chapter eid="JHN 2"/>
+  <chapter number="3" style="c" sid="JHN 3"/>
+  <para style="s1">论重生</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 3:1"/>有一个法利赛人名叫<char style="pn">尼哥德慕</char>，是<char style="pn">犹太</char>人的官。 <verse eid="JHN 3:1"/><verse number="2" style="v" sid="JHN 3:2"/>一天晚上，他来见耶稣，说：“老师，我们知道你是上帝差来教导人的，因为如果没有上帝的同在，没有人能行你所行的神迹。”<verse eid="JHN 3:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="JHN 3:3"/>耶稣说：“我实实在在地告诉你，人若不重生<note caller="+" style="f"><char style="fr" closed="false">3:3 </char><char style="ft" closed="false">“重生”或译“生自上面”，7节同。</char></note>，就不能看见上帝的国。”<verse eid="JHN 3:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JHN 3:4"/>
+    <char style="pn">尼哥德慕</char>说：“人老了，怎能重生呢？难道要再进母腹生一次吗？”<verse eid="JHN 3:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JHN 3:5"/>耶稣说：“我实实在在地告诉你，人若不是从水和圣灵生的，就不能进上帝的国。 <verse eid="JHN 3:5"/><verse number="6" style="v" sid="JHN 3:6"/>从肉体生的还是肉体，从灵生的才是灵。 <verse eid="JHN 3:6"/><verse number="7" style="v" sid="JHN 3:7"/>我说你们必须重生，你不要惊奇。 <verse eid="JHN 3:7"/><verse number="8" style="v" sid="JHN 3:8"/>风随意吹动，你听见它的声音，却不知道它从哪里来、往哪里去。凡从灵生的人也是这样。”<verse eid="JHN 3:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 3:9"/>
+    <char style="pn">尼哥德慕</char>又问：“这怎么可能呢？”<verse eid="JHN 3:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 3:10"/>耶稣说：“你是<char style="pn">以色列</char>人的老师，还不明白这事吗？ <verse eid="JHN 3:10"/><verse number="11" style="v" sid="JHN 3:11"/>我实实在在地告诉你，我们所说的是自己知道的，所见证的是自己见过的，可是你们不肯接受我们的见证。 <verse eid="JHN 3:11"/><verse number="12" style="v" sid="JHN 3:12"/>我对你们说地上的事，你们尚且不信，要是说天上的事，你们怎么会信呢？ <verse eid="JHN 3:12"/><verse number="13" style="v" sid="JHN 3:13"/>除了从天上降下来的人子<note caller="+" style="f"><char style="fr" closed="false">3:13 </char><char style="ft" closed="false">“从天上降下来的人子”有古卷作：“从天降下、仍旧在天的人子”。</char></note>以外，没有人到过天上。 <verse eid="JHN 3:13"/><verse number="14" style="v" sid="JHN 3:14"/><char style="pn">摩西</char>在旷野怎样举起铜蛇，人子也必照样被举起来， <verse eid="JHN 3:14"/><verse number="15" style="v" sid="JHN 3:15"/>叫一切信祂的人都得到永生。<verse eid="JHN 3:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 3:16"/>“因为上帝爱世人，甚至将祂独一的儿子赐给他们，叫一切信祂的人不致灭亡，反得永生。 <verse eid="JHN 3:16"/><verse number="17" style="v" sid="JHN 3:17"/>上帝差祂的儿子到世上来，不是要定世人的罪，而是要借着祂的儿子拯救世人。 <verse eid="JHN 3:17"/><verse number="18" style="v" sid="JHN 3:18"/>信祂的人不会被定罪，不信的人已经被定罪，因为他们不信上帝独一的儿子。 <verse eid="JHN 3:18"/><verse number="19" style="v" sid="JHN 3:19"/>光来到世上，世人因为自己的行为邪恶而不爱光，反爱黑暗，这就是他们被定罪的原因。 <verse eid="JHN 3:19"/><verse number="20" style="v" sid="JHN 3:20"/>作恶的人恨光，不肯接近光，恐怕他们的罪行暴露出来。 <verse eid="JHN 3:20"/><verse number="21" style="v" sid="JHN 3:21"/>但遵行真理的人喜欢接近光，好显明他们所做的是靠上帝做的。”<verse eid="JHN 3:21"/></para>
+  <para style="s1">施洗者约翰论耶稣</para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 3:22"/>这事之后，耶稣和门徒前往<char style="pn">犹太</char>地区，在那里住下，给人施洗。 <verse eid="JHN 3:22"/><verse number="23-24" style="v" sid="JHN 3:23-24"/>那时<char style="pn">约翰</char>还没有入狱，他在靠近<char style="pn">撒冷</char>的<char style="pn">哀嫩</char>也给人施洗。那里水多，众人都去受洗。 <verse eid="JHN 3:23-24"/><verse number="25" style="v" sid="JHN 3:25"/><char style="pn">约翰</char>的门徒和一个<char style="pn">犹太</char>人为了洁净的礼仪争辩起来， <verse eid="JHN 3:25"/><verse number="26" style="v" sid="JHN 3:26"/>于是他们来见<char style="pn">约翰</char>，说：“老师，你看，以前在<char style="pn">约旦</char>河东岸和你在一起、你为祂做见证的那位在给人施洗，众人都去祂那里了！”<verse eid="JHN 3:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JHN 3:27"/>
+    <char style="pn">约翰</char>回答说：“除非是从天上赐的，否则人什么都得不到。 <verse eid="JHN 3:27"/><verse number="28" style="v" sid="JHN 3:28"/>你们自己可以为我做见证，我说过我不是基督，我只是奉差遣在祂前面预备道路。 <verse eid="JHN 3:28"/><verse number="29" style="v" sid="JHN 3:29"/>娶新娘的是新郎，伴郎听见新郎的声音，就会欢喜快乐。因此，我现在也心满意足了。 <verse eid="JHN 3:29"/><verse number="30" style="v" sid="JHN 3:30"/>祂必兴旺，我必衰微。<verse eid="JHN 3:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 3:31"/>“从上面来的超越万物；从地上来的，属于地，他所谈论的也不外乎地上的事。从天上来的超越万物。 <verse eid="JHN 3:31"/><verse number="32" style="v" sid="JHN 3:32"/>祂见证的是自己的所见所闻，只是没有人接受祂的见证。 <verse eid="JHN 3:32"/><verse number="33" style="v" sid="JHN 3:33"/>接受祂见证的人印证了上帝是真实的。 <verse eid="JHN 3:33"/><verse number="34" style="v" sid="JHN 3:34"/>上帝所差来的，说的是上帝的话，因为上帝将圣灵无限量地赐给祂。 <verse eid="JHN 3:34"/><verse number="35" style="v" sid="JHN 3:35"/>父爱子，已把万物交在祂手里。 <verse eid="JHN 3:35"/><verse number="36" style="v" sid="JHN 3:36"/>信子的人有永生；不信子的人得不到永生，上帝的烈怒常在他身上。”<verse eid="JHN 3:36"/></para>
+  <chapter eid="JHN 3"/>
+  <chapter number="4" style="c" sid="JHN 4"/>
+  <para style="s1">井边谈道</para>
+  <para style="p">
+    <verse number="1-3" style="v" sid="JHN 4:1-3"/>耶稣得知法利赛人听见祂比<char style="pn">约翰</char>收徒施洗的人数还多，便离开<char style="pn">犹太</char>，返回<char style="pn">加利利</char>。其实不是耶稣亲自施洗，而是祂的门徒施洗。 <verse eid="JHN 4:1-3"/><verse number="4" style="v" sid="JHN 4:4"/>祂回<char style="pn">加利利</char>的路上必须经过<char style="pn">撒玛利亚</char>。 <verse eid="JHN 4:4"/><verse number="5" style="v" sid="JHN 4:5"/>于是，祂来到<char style="pn">撒玛利亚</char>的一座城，名叫<char style="pn">叙加</char>，靠近<char style="pn">雅各</char>留给他儿子<char style="pn">约瑟</char>的那块地。 <verse eid="JHN 4:5"/><verse number="6" style="v" sid="JHN 4:6"/><char style="pn">雅各</char>井就在那个地方。耶稣走路疲乏，便坐在井旁休息。那时大约是正午。<verse eid="JHN 4:6"/></para>
+  <para style="p">
+    <verse number="7-8" style="v" sid="JHN 4:7-8"/>门徒都进城买食物去了。有一个<char style="pn">撒玛利亚</char>的妇人来打水，耶稣对她说：“请给我一点水喝。”<verse eid="JHN 4:7-8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 4:9"/>
+    <char style="pn">撒玛利亚</char>妇人说：“你是个<char style="pn">犹太</char>人，怎么向我这<char style="pn">撒玛利亚</char>妇人要水喝？”原来<char style="pn">犹太</char>人和<char style="pn">撒玛利亚</char>人互不往来。<verse eid="JHN 4:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 4:10"/>耶稣回答说：“要是你知道上帝的恩赐，又知道向你要水喝的是谁，你早就求祂了，祂也早就把活水给你了。”<verse eid="JHN 4:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 4:11"/>妇人说：“先生，你没有打水的器具，井又深，你从哪里得到活水呢？ <verse eid="JHN 4:11"/><verse number="12" style="v" sid="JHN 4:12"/>我们的祖先<char style="pn">雅各</char>把这口井留给我们，他自己和他的儿女、牲畜都喝这井里的水，难道你比他更大吗？”<verse eid="JHN 4:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 4:13"/>耶稣说：“人喝了这井里的水，还会再渴， <verse eid="JHN 4:13"/><verse number="14" style="v" sid="JHN 4:14"/>但是喝了我所赐的水，永远不会再渴。我所赐的水要在他里面成为生命的泉源，涌流不息，直到永生。”<verse eid="JHN 4:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 4:15"/>妇人说：“先生，请你把这水赐给我，我就不会再渴了，也用不着来打水了。”<verse eid="JHN 4:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 4:16"/>耶稣说：“去叫你的丈夫来。”<verse eid="JHN 4:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 4:17"/>妇人说：“我没有丈夫。”耶稣说：“你说的对，你没有丈夫， <verse eid="JHN 4:17"/><verse number="18" style="v" sid="JHN 4:18"/>因为你有过五个丈夫了，现在和你在一起的也不是你丈夫。你说的是实话。”<verse eid="JHN 4:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 4:19"/>妇人说：“先生，我看你一定是先知。 <verse eid="JHN 4:19"/><verse number="20" style="v" sid="JHN 4:20"/>我们的祖先一向都是在这山上敬拜上帝，你们却说<char style="pn">耶路撒冷</char>才是敬拜的地方。”<verse eid="JHN 4:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 4:21"/>耶稣回答说：“妇人，你要信我。时候快到了，你们将不在这山上或<char style="pn">耶路撒冷</char>敬拜父。 <verse eid="JHN 4:21"/><verse number="22" style="v" sid="JHN 4:22"/>你们不知道你们敬拜的是谁，我们知道我们敬拜的是谁，因为救恩是从<char style="pn">犹太</char>人出来的。 <verse eid="JHN 4:22"/><verse number="23" style="v" sid="JHN 4:23"/>时候快到了，现在就是，真正敬拜父的，要用心灵<note caller="+" style="f"><char style="fr" closed="false">4:23 </char><char style="ft" closed="false">“用心灵”或译“靠圣灵”；24节同。</char></note>、按真理敬拜祂，因为父寻找的正是这样敬拜祂的人。 <verse eid="JHN 4:23"/><verse number="24" style="v" sid="JHN 4:24"/>上帝是灵，所以必须用心灵、按真理敬拜祂。”<verse eid="JHN 4:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 4:25"/>妇人说：“我知道那被称为基督的弥赛亚要来。祂来了，会把一切都告诉我们。”<verse eid="JHN 4:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 4:26"/>耶稣说：“我这位跟你说话的就是。”<verse eid="JHN 4:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JHN 4:27"/>这时，门徒回来了，看见耶稣和一个妇人谈话，感到惊奇，可是没有人问：“你想要什么？”或问：“你为什么和她说话？”<verse eid="JHN 4:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 4:28"/>那妇人撇下水罐，回到城里，对人们说： <verse eid="JHN 4:28"/><verse number="29" style="v" sid="JHN 4:29"/>“你们快来看啊！有一个人把我做过的事都说了出来。莫非祂就是基督？” <verse eid="JHN 4:29"/><verse number="30" style="v" sid="JHN 4:30"/>众人听了就到城外去见耶稣。<verse eid="JHN 4:30"/></para>
+  <para style="s1">撒种与收割</para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 4:31"/>其间，门徒对耶稣说：“老师，请吃点东西吧。”<verse eid="JHN 4:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="JHN 4:32"/>耶稣说：“我有食物吃，是你们不知道的。”<verse eid="JHN 4:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JHN 4:33"/>门徒彼此议论说：“难道有人给祂吃的了？”<verse eid="JHN 4:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JHN 4:34"/>耶稣说：“我的食物就是遵行差我来者的旨意，完成祂的工作。 <verse eid="JHN 4:34"/><verse number="35" style="v" sid="JHN 4:35"/>你们不是说还有四个月才到收割的时候吗？举目向田观看吧，庄稼已经熟了，可以收割了。 <verse eid="JHN 4:35"/><verse number="36" style="v" sid="JHN 4:36"/>收割的人可以得到报酬并为永生收获果实，叫撒种的和收割的一同快乐。 <verse eid="JHN 4:36"/><verse number="37" style="v" sid="JHN 4:37"/>俗语说得好，‘那人撒种，这人收割。’ <verse eid="JHN 4:37"/><verse number="38" style="v" sid="JHN 4:38"/>我派你们去收割那些你们没有劳作的庄稼，别人劳苦，你们享受他们劳苦的成果。”<verse eid="JHN 4:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="JHN 4:39"/>那城里有许多<char style="pn">撒玛利亚</char>人信了耶稣，因为那妇人做见证说：“祂把我做过的事都说了出来。” <verse eid="JHN 4:39"/><verse number="40" style="v" sid="JHN 4:40"/><char style="pn">撒玛利亚</char>人来见耶稣，恳求祂留下来，祂就在那里住了两天。 <verse eid="JHN 4:40"/><verse number="41" style="v" sid="JHN 4:41"/>因为耶稣传的道，信的人更多了。 <verse eid="JHN 4:41"/><verse number="42" style="v" sid="JHN 4:42"/>他们对那妇人说：“现在我们信，不再是因为你的话，而是我们亲耳听见了，知道祂真是世人的救主。”<verse eid="JHN 4:42"/></para>
+  <para style="s1">耶稣治好大臣的儿子</para>
+  <para style="p">
+    <verse number="43" style="v" sid="JHN 4:43"/>两天后，耶稣动身前往<char style="pn">加利利</char>。 <verse eid="JHN 4:43"/><verse number="44" style="v" sid="JHN 4:44"/>祂以前说过：“先知在本乡不受人尊敬。” <verse eid="JHN 4:44"/><verse number="45" style="v" sid="JHN 4:45"/>然而，祂回到<char style="pn">加利利</char>却受到当地人欢迎，因为他们上<char style="pn">耶路撒冷</char>过节时，看见了祂的一切作为。<verse eid="JHN 4:45"/></para>
+  <para style="p">
+    <verse number="46" style="v" sid="JHN 4:46"/>祂又到了<char style="pn">加利利</char>的<char style="pn">迦拿</char>，就是祂从前把水变成酒的地方。有一个大臣的儿子在<char style="pn">迦百农</char>患了病。 <verse eid="JHN 4:46"/><verse number="47" style="v" sid="JHN 4:47"/>大臣听说耶稣从<char style="pn">犹太</char>来到<char style="pn">加利利</char>，立刻赶来见祂，求祂去医治他病危的儿子。<verse eid="JHN 4:47"/></para>
+  <para style="p">
+    <verse number="48" style="v" sid="JHN 4:48"/>耶稣对他说：“你们不看见神迹奇事，总不相信。”<verse eid="JHN 4:48"/></para>
+  <para style="p">
+    <verse number="49" style="v" sid="JHN 4:49"/>大臣说：“先生，趁我的孩子还没死，求你赶快去！”<verse eid="JHN 4:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="JHN 4:50"/>耶稣说：“回去吧，你的儿子好了。”他相信耶稣的话，就回去了。<verse eid="JHN 4:50"/></para>
+  <para style="p">
+    <verse number="51" style="v" sid="JHN 4:51"/>途中遇见奴仆来报信，说他儿子好了， <verse eid="JHN 4:51"/><verse number="52" style="v" sid="JHN 4:52"/>他就问什么时候好的。仆人说：“昨天下午一点钟烧就退了。”<verse eid="JHN 4:52"/></para>
+  <para style="p">
+    <verse number="53" style="v" sid="JHN 4:53"/>他知道正是那时候耶稣对他说：“你的儿子好了。”他和全家都信了。<verse eid="JHN 4:53"/></para>
+  <para style="p">
+    <verse number="54" style="v" sid="JHN 4:54"/>这是耶稣从<char style="pn">犹太</char>回到<char style="pn">加利利</char>后行的第二个神迹。<verse eid="JHN 4:54"/></para>
+  <chapter eid="JHN 4"/>
+  <chapter number="5" style="c" sid="JHN 5"/>
+  <para style="s1">耶稣在毕士大池边治病</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 5:1"/>这事以后，<char style="pn">犹太</char>人的一个节期到了，耶稣便上了<char style="pn">耶路撒冷</char>。 <verse eid="JHN 5:1"/><verse number="2" style="v" sid="JHN 5:2"/><char style="pn">耶路撒冷</char>靠近羊门的地方有一个水池，<char style="pn">希伯来</char>话叫<char style="pn">毕士大</char>，池边有五条走廊， <verse eid="JHN 5:2"/><verse number="3" style="v" sid="JHN 5:3"/>里面躺着许多瞎眼的、瘸腿的、瘫痪的等病人。 <verse eid="JHN 5:3"/><verse number="4" style="v" sid="JHN 5:4"/>他们都在等候主的天使偶尔来搅动池水。水动时，第一个下去的，无论患了什么病都会痊愈。<note caller="+" style="f"><char style="fr" closed="false">5:4 </char><char style="ft" closed="false">有古卷无4节。</char></note><verse eid="JHN 5:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JHN 5:5"/>那里有一个人病了三十八年。 <verse eid="JHN 5:5"/><verse number="6" style="v" sid="JHN 5:6"/>耶稣看他躺着，知道他病了很久，就问他：“你想痊愈吗？”<verse eid="JHN 5:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 5:7"/>那人回答说：“先生，水动的时候，没有人把我放进池子里，我要下去的时候，别人总是先我一步。”<verse eid="JHN 5:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 5:8"/>耶稣对他说：“起来，拿上你的垫子走吧！”<verse eid="JHN 5:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 5:9"/>那人立刻痊愈了，拿起垫子开始行走。那天是安息日， <verse eid="JHN 5:9"/><verse number="10" style="v" sid="JHN 5:10"/><char style="pn">犹太</char>人便对那人说：“今天是安息日，你不可拿着垫子走路。”<verse eid="JHN 5:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 5:11"/>他说：“那位医治我的叫我拿起垫子走。”<verse eid="JHN 5:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 5:12"/>他们问他：“叫你拿起垫子走的人是谁？”<verse eid="JHN 5:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 5:13"/>那人不知道是谁，因为那里人多，耶稣已经躲开了。<verse eid="JHN 5:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JHN 5:14"/>后来，耶稣在圣殿里遇见他，对他说：“你已经完全好了，不要再犯罪了，免得你遭遇更不幸的事。”<verse eid="JHN 5:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 5:15"/>那人便去告诉<char style="pn">犹太</char>人，医治他的是耶稣。 <verse eid="JHN 5:15"/><verse number="16" style="v" sid="JHN 5:16"/>因为耶稣在安息日给人治病，<char style="pn">犹太</char>人便开始迫害祂。 <verse eid="JHN 5:16"/><verse number="17" style="v" sid="JHN 5:17"/>耶稣对他们说：“我父至今仍在做工，我也在做工。”<verse eid="JHN 5:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JHN 5:18"/>
+    <char style="pn">犹太</char>人听了，更想杀祂，因祂不但干犯安息日，还称上帝为父，把自己看作与上帝平等。<verse eid="JHN 5:18"/></para>
+  <para style="s1">圣子的权柄</para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 5:19"/>耶稣说：“我实实在在地告诉你们，子凭自己什么都不能做，唯有看见父做什么，子才做什么。无论父做什么，子也照样做。 <verse eid="JHN 5:19"/><verse number="20" style="v" sid="JHN 5:20"/>父因为爱子，便把自己的一切作为给祂看，而且还要把比这些更大的作为给祂看，叫你们惊奇。 <verse eid="JHN 5:20"/><verse number="21" style="v" sid="JHN 5:21"/>父如何使死人复活并赐生命给他们，子也照样想赐生命给谁，就赐给谁。 <verse eid="JHN 5:21"/><verse number="22" style="v" sid="JHN 5:22"/>父不审判人，祂将审判的事全交给子， <verse eid="JHN 5:22"/><verse number="23" style="v" sid="JHN 5:23"/>叫人尊敬子如同尊敬父。不尊敬子的，就是不尊敬差子来的父。<verse eid="JHN 5:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 5:24"/>“我实实在在地告诉你们，谁听从我的话，又信差我来的那位，谁就有永生，不被定罪，已经出死入生了。 <verse eid="JHN 5:24"/><verse number="25" style="v" sid="JHN 5:25"/>我实实在在地告诉你们，时候快到了，现在就是，死人将听见上帝儿子的声音，听见的将活过来。 <verse eid="JHN 5:25"/><verse number="26" style="v" sid="JHN 5:26"/>因为正如父自己是生命的源头，祂也同样让子作生命的源头， <verse eid="JHN 5:26"/><verse number="27" style="v" sid="JHN 5:27"/>又把审判的权柄交给祂，因为祂是人子。 <verse eid="JHN 5:27"/><verse number="28" style="v" sid="JHN 5:28"/>你们不要惊奇，时候将到，一切在坟墓里的死人都要听见上帝儿子的声音， <verse eid="JHN 5:28"/><verse number="29" style="v" sid="JHN 5:29"/>他们都要从坟墓里出来。行善的人复活后得永生，作恶的人复活后被定罪。<verse eid="JHN 5:29"/></para>
+  <para style="s1">见证耶稣</para>
+  <para style="p">
+    <verse number="30" style="v" sid="JHN 5:30"/>“我凭自己不能做什么，我按从父听到的指示审判，我的审判是公平的；因为我不是按自己的旨意行，而是按差我来者的旨意行。<verse eid="JHN 5:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 5:31"/>“如果我为自己做见证，我的见证是无效的。 <verse eid="JHN 5:31"/><verse number="32" style="v" sid="JHN 5:32"/>然而，另有一位给我做见证，我知道他为我做的见证是真实的。 <verse eid="JHN 5:32"/><verse number="33" style="v" sid="JHN 5:33"/>你们曾派人到<char style="pn">约翰</char>那里，他为真理做过见证。 <verse eid="JHN 5:33"/><verse number="34" style="v" sid="JHN 5:34"/>其实我并不需要人的见证，我之所以提起这些事是为了使你们得救。 <verse eid="JHN 5:34"/><verse number="35" style="v" sid="JHN 5:35"/><char style="pn">约翰</char>是一盏点亮的明灯，你们情愿在他的光中欢乐一时。 <verse eid="JHN 5:35"/><verse number="36" style="v" sid="JHN 5:36"/>但是我有比<char style="pn">约翰</char>更大的见证，因为父交待我去完成的工作，就是我现在所做的工作，证明我是父差来的。 <verse eid="JHN 5:36"/><verse number="37" style="v" sid="JHN 5:37"/>差我来的父曾亲自为我做过见证。你们从未听过祂的声音，从未见过祂， <verse eid="JHN 5:37"/><verse number="38" style="v" sid="JHN 5:38"/>心里也没有祂的道，因为你们不信祂差来的那位。 <verse eid="JHN 5:38"/><verse number="39" style="v" sid="JHN 5:39"/>你们研读圣经，以为从圣经中可以得到永生。其实为我做见证的正是这圣经， <verse eid="JHN 5:39"/><verse number="40" style="v" sid="JHN 5:40"/>但你们却不肯到我这里来得生命。<verse eid="JHN 5:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="JHN 5:41"/>“我不接受人给的荣耀， <verse eid="JHN 5:41"/><verse number="42" style="v" sid="JHN 5:42"/>我知道你们没有爱上帝的心。 <verse eid="JHN 5:42"/><verse number="43" style="v" sid="JHN 5:43"/>我奉我父的名来，你们不接受我；若有人奉自己的名来，你们却接受他。 <verse eid="JHN 5:43"/><verse number="44" style="v" sid="JHN 5:44"/>你们喜欢互相恭维，却不追求从独一上帝来的荣耀，怎能信我呢？ <verse eid="JHN 5:44"/><verse number="45" style="v" sid="JHN 5:45"/>不要以为我会在父面前控告你们，控告你们的是你们所仰赖的<char style="pn">摩西</char>。 <verse eid="JHN 5:45"/><verse number="46" style="v" sid="JHN 5:46"/>你们若信<char style="pn">摩西</char>，就会信我，因为他的书里也提到我。 <verse eid="JHN 5:46"/><verse number="47" style="v" sid="JHN 5:47"/>你们如果连他写的都不信，又怎么会信我的话呢？”<verse eid="JHN 5:47"/></para>
+  <chapter eid="JHN 5"/>
+  <chapter number="6" style="c" sid="JHN 6"/>
+  <para style="s1">耶稣使五千人吃饱</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 6:1"/>事后，耶稣渡过<char style="pn">加利利</char>湖，就是<char style="pn">提比哩亚</char>湖。 <verse eid="JHN 6:1"/><verse number="2" style="v" sid="JHN 6:2"/>许多人因为见过耶稣治病的神迹，就跟随了祂。 <verse eid="JHN 6:2"/><verse number="3" style="v" sid="JHN 6:3"/>耶稣到了山上，与门徒一起坐下来。 <verse eid="JHN 6:3"/><verse number="4" style="v" sid="JHN 6:4"/>那时，<char style="pn">犹太</char>人的逾越节快到了。 <verse eid="JHN 6:4"/><verse number="5" style="v" sid="JHN 6:5"/>耶稣举目看见一大群人向祂走来，就对<char style="pn">腓力</char>说：“我们到哪里去买饼给他们吃呢？” <verse eid="JHN 6:5"/><verse number="6" style="v" sid="JHN 6:6"/>祂这样说是想考验<char style="pn">腓力</char>，其实祂知道怎么做。<verse eid="JHN 6:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 6:7"/>
+    <char style="pn">腓力</char>回答说：“就算买二百个银币<note caller="+" style="f"><char style="fr" closed="false">6:7 </char><char style="ft" closed="false">一个银币相当于当时一天的工钱。</char></note>的饼，也不够他们每人分一点儿啊！”<verse eid="JHN 6:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 6:8"/>另外一个门徒，<char style="pn">西门·彼得</char>的弟弟<char style="pn">安得烈</char>对耶稣说： <verse eid="JHN 6:8"/><verse number="9" style="v" sid="JHN 6:9"/>“这里有个小孩子，带了五个大麦饼和两条鱼。不过，这么多人，这一点东西实在无济于事。”<verse eid="JHN 6:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 6:10"/>耶稣说：“你们叫大家坐下。”那地方草很多，众人便坐下来，当时那里约有五千男人。 <verse eid="JHN 6:10"/><verse number="11" style="v" sid="JHN 6:11"/>耶稣拿起饼来祝谢后，分给坐着的众人，然后又照样分鱼，众人可以随意吃。 <verse eid="JHN 6:11"/><verse number="12" style="v" sid="JHN 6:12"/>众人吃饱后，耶稣对门徒说：“把剩下的零碎收拾起来，免得浪费。” <verse eid="JHN 6:12"/><verse number="13" style="v" sid="JHN 6:13"/>他们便把众人吃剩的那五个大麦饼的零碎收拾起来，装满了十二个篮子。 <verse eid="JHN 6:13"/><verse number="14" style="v" sid="JHN 6:14"/>众人看见耶稣行的这个神迹，都说：“这人真是那位要来到世上的先知！” <verse eid="JHN 6:14"/><verse number="15" style="v" sid="JHN 6:15"/>耶稣知道他们想强行立祂做王，便独自退到山上。<verse eid="JHN 6:15"/></para>
+  <para style="s1">耶稣在湖面上行走</para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 6:16"/>傍晚的时候，门徒来到湖边， <verse eid="JHN 6:16"/><verse number="17" style="v" sid="JHN 6:17"/>上了船，去湖对岸的<char style="pn">迦百农</char>。天色已暗，耶稣还没到他们那里。 <verse eid="JHN 6:17"/><verse number="18" style="v" sid="JHN 6:18"/>忽然，湖面上狂风大作，波涛汹涌。 <verse eid="JHN 6:18"/><verse number="19" style="v" sid="JHN 6:19"/>门徒摇着橹行了大约五六公里，突然看见耶稣在水面上朝他们的船走来，他们很害怕。 <verse eid="JHN 6:19"/><verse number="20" style="v" sid="JHN 6:20"/>耶稣对他们说：“是我，不要怕。” <verse eid="JHN 6:20"/><verse number="21" style="v" sid="JHN 6:21"/>于是门徒欢然接祂上船，船立刻到了目的地。<verse eid="JHN 6:21"/></para>
+  <para style="s1">生命之粮</para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 6:22"/>第二天，留在对岸的众人发现那里原来只有一条船，而耶稣没有和门徒一起坐船离开。 <verse eid="JHN 6:22"/><verse number="23" style="v" sid="JHN 6:23"/>后来，从<char style="pn">提比哩亚</char>来了几条小船，停泊在靠近主祝谢后给人吃饼的地方。 <verse eid="JHN 6:23"/><verse number="24" style="v" sid="JHN 6:24"/>众人发现耶稣和门徒都不在那里，就乘船到<char style="pn">迦百农</char>去找祂。<verse eid="JHN 6:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 6:25"/>他们在湖对岸找到了耶稣，对祂说：“老师，你什么时候到这里来的？”<verse eid="JHN 6:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 6:26"/>耶稣回答说：“我实实在在地告诉你们，你们找我，并不是因为看见了神迹，而是因为你们有饼吃，并且吃饱了。 <verse eid="JHN 6:26"/><verse number="27" style="v" sid="JHN 6:27"/>不要为必坏的食物劳碌，要为那存到永生的食物劳碌，就是人子要赐给你们的食物，因为人子有父上帝的印证。”<verse eid="JHN 6:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 6:28"/>众人问祂：“我们该做什么，才是做上帝的工作呢？”<verse eid="JHN 6:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JHN 6:29"/>耶稣说：“信上帝差来的那位，就是做上帝的工作。”<verse eid="JHN 6:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="JHN 6:30"/>他们又问：“那么，你要行什么神迹给我们看，好让我们信你呢？你要做什么呢？ <verse eid="JHN 6:30"/><verse number="31" style="v" sid="JHN 6:31"/>我们的祖先在旷野有吗哪吃，正如圣经上说，‘祂赐下天粮给他们吃。’<note caller="+" style="f"><char style="fr" closed="false">6:31 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 16:4">出埃及记16:4</ref>；<ref loc="NEH 9:15">尼希米记9:15</ref>；<ref loc="PSA 78:24">诗篇78:24</ref>、<ref loc="PSA 78:25">25</ref>。</char></char></note>”<verse eid="JHN 6:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="JHN 6:32"/>耶稣对他们说：“我实实在在地告诉你们，不是<char style="pn">摩西</char>将天上的粮赐给了你们，而是我父将天上的真粮赐给你们。 <verse eid="JHN 6:32"/><verse number="33" style="v" sid="JHN 6:33"/>因为上帝赐的粮就是从天降下、赐生命给世人的那位。”<verse eid="JHN 6:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JHN 6:34"/>他们说：“先生，求你常常把这种粮食赐给我们吧。”<verse eid="JHN 6:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="JHN 6:35"/>耶稣说：“我就是生命的粮，到我这里来的人必定不饿，信我的人必永远不渴。 <verse eid="JHN 6:35"/><verse number="36" style="v" sid="JHN 6:36"/>但我对你们说过，你们虽然亲眼看见我，还是不信。 <verse eid="JHN 6:36"/><verse number="37" style="v" sid="JHN 6:37"/>凡父赐给我的人，必到我这里来。到我这里来的，我决不丢弃他。 <verse eid="JHN 6:37"/><verse number="38" style="v" sid="JHN 6:38"/>因为我从天上下来，不是要成就自己的旨意，而是要成就差我来者的旨意。 <verse eid="JHN 6:38"/><verse number="39" style="v" sid="JHN 6:39"/>差我来者的旨意是，祂所赐给我的，我一个也不会失掉，在末日我要叫他们复活。 <verse eid="JHN 6:39"/><verse number="40" style="v" sid="JHN 6:40"/>因为我父的旨意是要叫一切看见儿子并相信的人得到永生，在末日，我要叫他们复活。”<verse eid="JHN 6:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="JHN 6:41"/>
+    <char style="pn">犹太</char>人听见耶稣说自己是从天上降下来的粮，就嘀嘀咕咕， <verse eid="JHN 6:41"/><verse number="42" style="v" sid="JHN 6:42"/>说：“这不是<char style="pn">约瑟</char>的儿子耶稣吗？祂的父母，我们都认识，祂现在怎么能说自己是从天上降下来的呢？”<verse eid="JHN 6:42"/></para>
+  <para style="p">
+    <verse number="43" style="v" sid="JHN 6:43"/>耶稣回答他们说：“你们不用嘀嘀咕咕。 <verse eid="JHN 6:43"/><verse number="44" style="v" sid="JHN 6:44"/>如果不是差我来的父吸引人，没有人能到我这里来。到我这里来的，在末日，我要叫他复活。 <verse eid="JHN 6:44"/><verse number="45" style="v" sid="JHN 6:45"/>先知书上说，‘他们都要受上帝的训诲。’<note caller="+" style="f"><char style="fr" closed="false">6:45 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 54:13">以赛亚书54:13</ref>。</char></char></note>这里是指凡听见父的教导又领会的人，都会到我这里来。 <verse eid="JHN 6:45"/><verse number="46" style="v" sid="JHN 6:46"/>这并不是说有人见过父，唯独从上帝而来的那位见过父。 <verse eid="JHN 6:46"/><verse number="47" style="v" sid="JHN 6:47"/>我实实在在地告诉你们，信我的人有永生。 <verse eid="JHN 6:47"/><verse number="48" style="v" sid="JHN 6:48"/>我是生命的粮。 <verse eid="JHN 6:48"/><verse number="49" style="v" sid="JHN 6:49"/>你们的祖先在旷野吃过吗哪，还是死了。 <verse eid="JHN 6:49"/><verse number="50" style="v" sid="JHN 6:50"/>但这是从天上降下来的粮，人吃了就不死。 <verse eid="JHN 6:50"/><verse number="51" style="v" sid="JHN 6:51"/>我就是天上降下来的生命之粮，人吃了这粮，必永远活着。我将要赐下的粮就是我的肉，是为了让世人得到生命。”<verse eid="JHN 6:51"/></para>
+  <para style="p">
+    <verse number="52" style="v" sid="JHN 6:52"/>
+    <char style="pn">犹太</char>人开始彼此争论，说：“这个人怎么能把自己的肉给我们吃呢？”<verse eid="JHN 6:52"/></para>
+  <para style="p">
+    <verse number="53" style="v" sid="JHN 6:53"/>耶稣说：“我实实在在地告诉你们，如果你们不吃人子的肉，不喝人子的血，你们里面就没有生命。 <verse eid="JHN 6:53"/><verse number="54" style="v" sid="JHN 6:54"/>吃我肉、喝我血的人有永生，在末日，我要叫他复活。 <verse eid="JHN 6:54"/><verse number="55" style="v" sid="JHN 6:55"/>因为我的肉是真粮食，我的血是真饮品， <verse eid="JHN 6:55"/><verse number="56" style="v" sid="JHN 6:56"/>吃我肉、喝我血的人常在我里面，我也常在他里面。 <verse eid="JHN 6:56"/><verse number="57" style="v" sid="JHN 6:57"/>永活的父差我来，我靠祂而活。同样，吃我肉的人也靠我而活。 <verse eid="JHN 6:57"/><verse number="58" style="v" sid="JHN 6:58"/>我是从天上降下来的真粮，吃这粮的人必永远活着，不像你们的祖先，虽然吃过吗哪，最后还是死了。”<verse eid="JHN 6:58"/></para>
+  <para style="p">
+    <verse number="59" style="v" sid="JHN 6:59"/>这番话是耶稣在<char style="pn">迦百农</char>会堂里教导人的时候讲的。<verse eid="JHN 6:59"/></para>
+  <para style="s1">永生之道</para>
+  <para style="p">
+    <verse number="60" style="v" sid="JHN 6:60"/>祂的许多门徒听了，就议论说：“这话实在难懂，谁能接受呢？”<verse eid="JHN 6:60"/></para>
+  <para style="p">
+    <verse number="61" style="v" sid="JHN 6:61"/>耶稣知道门徒在嘀咕，就说：“这话让你们反感吗？ <verse eid="JHN 6:61"/><verse number="62" style="v" sid="JHN 6:62"/>如果你们看见人子升到祂原来所在的地方，会怎么样呢？ <verse eid="JHN 6:62"/><verse number="63" style="v" sid="JHN 6:63"/>叫人活着的是灵，肉体毫无作用。我对你们说的话就是灵，就是生命。 <verse eid="JHN 6:63"/><verse number="64" style="v" sid="JHN 6:64"/>然而，你们中间有些人不信。”因为耶稣一开始就知道谁不信祂、谁会出卖祂。<verse eid="JHN 6:64"/></para>
+  <para style="p">
+    <verse number="65" style="v" sid="JHN 6:65"/>祂继续说：“所以我曾对你们说，如果不是我父赐恩，没有人能到我这里来。”<verse eid="JHN 6:65"/></para>
+  <para style="p">
+    <verse number="66" style="v" sid="JHN 6:66"/>从此，很多门徒离开了，不再跟从耶稣。<verse eid="JHN 6:66"/></para>
+  <para style="p">
+    <verse number="67" style="v" sid="JHN 6:67"/>于是耶稣问那十二个门徒：“你们也要离开我吗？”<verse eid="JHN 6:67"/></para>
+  <para style="p">
+    <verse number="68" style="v" sid="JHN 6:68"/>
+    <char style="pn">西门·彼得</char>答道：“主啊！你有永生之道，我们还跟从谁呢？ <verse eid="JHN 6:68"/><verse number="69" style="v" sid="JHN 6:69"/>我们已经相信并且知道你是上帝的圣者。”<verse eid="JHN 6:69"/></para>
+  <para style="p">
+    <verse number="70" style="v" sid="JHN 6:70"/>耶稣说：“我不是拣选了你们十二个人吗？但其中有一个是魔鬼。” <verse eid="JHN 6:70"/><verse number="71" style="v" sid="JHN 6:71"/>耶稣这话指的是<char style="pn">加略</char>人<char style="pn">西门</char>的儿子<char style="pn">犹大</char>，因为他是十二个门徒之一，后来出卖了耶稣。<verse eid="JHN 6:71"/></para>
+  <chapter eid="JHN 6"/>
+  <chapter number="7" style="c" sid="JHN 7"/>
+  <para style="s1">耶稣的弟弟不信祂</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 7:1"/>之后，耶稣周游<char style="pn">加利利</char>，不愿去<char style="pn">犹太</char>地区，因为<char style="pn">犹太</char>人想要杀祂。 <verse eid="JHN 7:1"/><verse number="2" style="v" sid="JHN 7:2"/><char style="pn">犹太</char>人的住棚节快到了， <verse eid="JHN 7:2"/><verse number="3" style="v" sid="JHN 7:3"/>耶稣的弟弟们对祂说：“离开这里，去<char style="pn">犹太</char>过节吧，好让你的门徒在那里也看见你所做的啊！ <verse eid="JHN 7:3"/><verse number="4" style="v" sid="JHN 7:4"/>因为人想出名，都不会暗地里行事，你既然可以做这些事，就把自己显给世人看吧！” <verse eid="JHN 7:4"/><verse number="5" style="v" sid="JHN 7:5"/>原来连祂的弟弟们也不信祂。<verse eid="JHN 7:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 7:6"/>耶稣对他们说：“我的时候还没有到，你们什么时候都很方便。 <verse eid="JHN 7:6"/><verse number="7" style="v" sid="JHN 7:7"/>世人不会恨你们，只会恨我，因为我指证他们行为邪恶。 <verse eid="JHN 7:7"/><verse number="8" style="v" sid="JHN 7:8"/>你们先去过节吧，我现在还不上去，因为我的时候还没有到。” <verse eid="JHN 7:8"/><verse number="9" style="v" sid="JHN 7:9"/>耶稣说完这些话，仍留在<char style="pn">加利利</char>。<verse eid="JHN 7:9"/></para>
+  <para style="s1">耶稣过住棚节</para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 7:10"/>他们走了以后，耶稣避开了人们的注意，暗地里上去过节。 <verse eid="JHN 7:10"/><verse number="11" style="v" sid="JHN 7:11"/><char style="pn">犹太</char>人在节期查问：“祂在哪里？”<verse eid="JHN 7:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 7:12"/>众人对祂议论纷纷，有些人说：“祂是好人。”有些说：“不，祂欺骗民众。” <verse eid="JHN 7:12"/><verse number="13" style="v" sid="JHN 7:13"/>不过，没有人敢公开议论祂的事，因为害怕<char style="pn">犹太</char>人。<verse eid="JHN 7:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JHN 7:14"/>节期约过了一半，耶稣来到圣殿教导人。 <verse eid="JHN 7:14"/><verse number="15" style="v" sid="JHN 7:15"/><char style="pn">犹太</char>人感到惊奇，说：“这个人没上过学，怎么懂得这么多呢？”<verse eid="JHN 7:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 7:16"/>耶稣说：“我的教导不是出于我自己，而是出于差我来的那位。 <verse eid="JHN 7:16"/><verse number="17" style="v" sid="JHN 7:17"/>人若愿意遵行上帝的旨意，就能分辨这些教导是出于上帝，还是出于我自己。 <verse eid="JHN 7:17"/><verse number="18" style="v" sid="JHN 7:18"/>凭自己讲论的人是要寻求自己的荣耀，但有一位只寻求差祂来者的荣耀，祂真实无伪，毫无不义。 <verse eid="JHN 7:18"/><verse number="19" style="v" sid="JHN 7:19"/><char style="pn">摩西</char>不是把律法传给了你们吗？你们却没有一个人遵守。为什么想要杀我呢？”<verse eid="JHN 7:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 7:20"/>众人回答说：“你一定是被鬼附身了！谁要杀你啊？”<verse eid="JHN 7:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 7:21"/>耶稣说：“我行了一件神迹，你们都感到惊奇。 <verse eid="JHN 7:21"/><verse number="22" style="v" sid="JHN 7:22"/><char style="pn">摩西</char>把割礼传给你们，你们也在安息日行割礼。其实割礼不是<char style="pn">摩西</char>定的，而是从祖先们的时代就有了。 <verse eid="JHN 7:22"/><verse number="23" style="v" sid="JHN 7:23"/>为了不违背<char style="pn">摩西</char>的律法，行割礼的那一天就算是安息日，你们还是照行割礼。那么，我在安息日使一个病人完全康复，你们为什么向我发怒呢？ <verse eid="JHN 7:23"/><verse number="24" style="v" sid="JHN 7:24"/>不要根据外表来断定是非，要按公义的原则判断。”<verse eid="JHN 7:24"/></para>
+  <para style="s1">耶稣是基督吗</para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 7:25"/>有些住在<char style="pn">耶路撒冷</char>的人说：“这不是他们要杀的那个人吗？ <verse eid="JHN 7:25"/><verse number="26" style="v" sid="JHN 7:26"/>你看祂这样公开讲道，居然没有人说什么，难道官长也真的认定祂是基督吗？ <verse eid="JHN 7:26"/><verse number="27" style="v" sid="JHN 7:27"/>可是我们知道这人从哪里来。基督来的时候，没有人知道祂从哪里来。”<verse eid="JHN 7:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 7:28"/>于是，耶稣在圣殿里高声教导人说：“你们认识我，也知道我从哪里来。其实我来不是出于自己的意思，差我来的那位是真实的，你们不认识祂。 <verse eid="JHN 7:28"/><verse number="29" style="v" sid="JHN 7:29"/>但我认识祂，因为我是从祂那里来的，差我来的就是祂。” <verse eid="JHN 7:29"/><verse number="30" style="v" sid="JHN 7:30"/>他们想捉拿耶稣，只是没有人下手，因为祂的时候还没有到。<verse eid="JHN 7:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 7:31"/>有许多人信了耶稣，他们说：“基督来的时候所行的神迹，难道会比这个人行的更多吗？”<verse eid="JHN 7:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="JHN 7:32"/>法利赛人听见众人这样议论耶稣，就联合祭司长派差役去抓祂。 <verse eid="JHN 7:32"/><verse number="33" style="v" sid="JHN 7:33"/>耶稣对众人说：“我暂时还会跟你们在一起，不久我要回到差我来的那位那里。 <verse eid="JHN 7:33"/><verse number="34" style="v" sid="JHN 7:34"/>那时你们要寻找我却找不到，你们也不能去我所在的地方。”<verse eid="JHN 7:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="JHN 7:35"/>
+    <char style="pn">犹太</char>人彼此议论说：“祂要去哪里，使我们找不着呢？难道祂要到我们<char style="pn">犹太</char>人侨居的<char style="pn">希腊</char>各地去教导<char style="pn">希腊</char>人吗？ <verse eid="JHN 7:35"/><verse number="36" style="v" sid="JHN 7:36"/>祂说我们找不到祂，又不能去祂所在的地方，是什么意思？”<verse eid="JHN 7:36"/></para>
+  <para style="s1">活水的江河</para>
+  <para style="p">
+    <verse number="37" style="v" sid="JHN 7:37"/>节期最后一天，也是整个节期的高潮，耶稣站起来高声说：“人若渴了，可以到我这里来喝。 <verse eid="JHN 7:37"/><verse number="38" style="v" sid="JHN 7:38"/>信我的人正如圣经所言，‘从他里面要流出活水的江河来。’” <verse eid="JHN 7:38"/><verse number="39" style="v" sid="JHN 7:39"/>耶稣这话是指信祂的人要领受圣灵，但当时圣灵还没有降临，因为耶稣还没有得到荣耀。<verse eid="JHN 7:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="JHN 7:40"/>听见这些话后，有些人说：“祂真是那位先知。” <verse eid="JHN 7:40"/><verse number="41" style="v" sid="JHN 7:41"/>也有些人说：“祂是基督。”还有些人说：“不会吧，基督怎么会出自<char style="pn">加利利</char>呢？ <verse eid="JHN 7:41"/><verse number="42" style="v" sid="JHN 7:42"/>圣经上不是说基督是<char style="pn">大卫</char>的后裔，要降生在<char style="pn">大卫</char>的故乡<char style="pn">伯利恒</char>吗？” <verse eid="JHN 7:42"/><verse number="43" style="v" sid="JHN 7:43"/>众人因为对耶稣的看法不同，就起了纷争。 <verse eid="JHN 7:43"/><verse number="44" style="v" sid="JHN 7:44"/>有些人想抓祂，只是没有人下手。<verse eid="JHN 7:44"/></para>
+  <para style="s1">犹太官长不信耶稣</para>
+  <para style="p">
+    <verse number="45" style="v" sid="JHN 7:45"/>祭司长和法利赛人看见差役空手回来，就问：“你们为什么不把祂带来呢？”<verse eid="JHN 7:45"/></para>
+  <para style="p">
+    <verse number="46" style="v" sid="JHN 7:46"/>差役答道：“从未有人像祂那样说话！”<verse eid="JHN 7:46"/></para>
+  <para style="p">
+    <verse number="47" style="v" sid="JHN 7:47"/>法利赛人说：“难道你们也被祂迷惑了吗？ <verse eid="JHN 7:47"/><verse number="48" style="v" sid="JHN 7:48"/>哪有官长和法利赛人信祂呢？ <verse eid="JHN 7:48"/><verse number="49" style="v" sid="JHN 7:49"/>这群不懂律法的人该受咒诅！”<verse eid="JHN 7:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="JHN 7:50"/>曾经夜访耶稣、属于他们当中一员的<char style="pn">尼哥德慕</char>说： <verse eid="JHN 7:50"/><verse number="51" style="v" sid="JHN 7:51"/>“难道不先听被告申辩并查明真相，我们的律法就定他的罪吗？”<verse eid="JHN 7:51"/></para>
+  <para style="p">
+    <verse number="52" style="v" sid="JHN 7:52"/>他们回答说：“难道你也是<char style="pn">加利利</char>人吗？你去查查看，就会知道没有先知是从<char style="pn">加利利</char>来的。”<verse eid="JHN 7:52"/></para>
+  <para style="p">
+    <verse number="53" style="v" sid="JHN 7:53"/>众人都回家去了。<verse eid="JHN 7:53"/></para>
+  <chapter eid="JHN 7"/>
+  <chapter number="8" style="c" sid="JHN 8"/>
+  <para style="s1">淫妇获赦</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 8:1"/>耶稣却上了橄榄山。 <verse eid="JHN 8:1"/><verse number="2" style="v" sid="JHN 8:2"/>清晨，祂又回到圣殿。百姓聚集在祂那里，祂就坐下来教导他们。 <verse eid="JHN 8:2"/><verse number="3" style="v" sid="JHN 8:3"/>这时候，律法教师和法利赛人带来一个通奸时被捉的女人，让她站在众人面前， <verse eid="JHN 8:3"/><verse number="4" style="v" sid="JHN 8:4"/>然后问耶稣：“老师，这个女人是在通奸时被捉到的。 <verse eid="JHN 8:4"/><verse number="5" style="v" sid="JHN 8:5"/>按<char style="pn">摩西</char>的律法，我们要用石头把她打死，你说该怎么处置她呢？”<verse eid="JHN 8:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 8:6"/>他们这样问是要试探耶稣，好找把柄控告祂。耶稣只是弯着腰用指头在地上写字。 <verse eid="JHN 8:6"/><verse number="7" style="v" sid="JHN 8:7"/>他们不断地追问耶稣，于是祂直起腰来，对他们说：“你们中间谁没有罪，谁就先拿石头打她吧。” <verse eid="JHN 8:7"/><verse number="8" style="v" sid="JHN 8:8"/>说完，又弯下腰在地上写字。<verse eid="JHN 8:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 8:9"/>他们听了这句话，就从老到少一个一个地走了，只剩下耶稣和那个女人在那里。 <verse eid="JHN 8:9"/><verse number="10" style="v" sid="JHN 8:10"/>耶稣直起腰来，说：“妇人，他们到哪里去了？没有人定你的罪吗？”<verse eid="JHN 8:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 8:11"/>她说：“主啊，没有。”</para>
+  <para style="p" vid="JHN 8:11">耶稣说：“我也不定你的罪。回去吧，从今以后不要再犯罪了。”<note caller="+" style="f"><char style="fr" closed="false">8:11 </char><char style="ft" closed="false">有古卷无<char style="xt"><ref loc="JHN 7:53-8:11">7:53—8:11</ref></char>节。</char></note><verse eid="JHN 8:11"/></para>
+  <para style="s1">世界的光</para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 8:12"/>耶稣又对众人说：“我是世界的光，凡跟从我的，必不会走在黑暗里，必要得到生命的光。”<verse eid="JHN 8:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 8:13"/>法利赛人对祂说：“你为自己做见证，你的见证无效。”<verse eid="JHN 8:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JHN 8:14"/>耶稣说：“即便我为自己做见证，我的见证仍然有效，因为我知道自己从哪里来、要到哪里去，你们却不知道我从哪里来、要到哪里去。 <verse eid="JHN 8:14"/><verse number="15" style="v" sid="JHN 8:15"/>你们只凭外表判断别人，我却不判断人。 <verse eid="JHN 8:15"/><verse number="16" style="v" sid="JHN 8:16"/>就算我判断人，我的判断也是真实的，因为我不是独自一人，还有差我来的父与我同在。 <verse eid="JHN 8:16"/><verse number="17" style="v" sid="JHN 8:17"/>你们的律法不是说两个人做见证就有效吗？ <verse eid="JHN 8:17"/><verse number="18" style="v" sid="JHN 8:18"/>我是自己为自己做见证，差我来的父也为我做见证。”<verse eid="JHN 8:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 8:19"/>他们问：“你的父在哪里？”</para>
+  <para style="p" vid="JHN 8:19">耶稣回答说：“你们不认识我，也不认识我的父。你们若认识我，也会认识我的父。” <verse eid="JHN 8:19"/><verse number="20" style="v" sid="JHN 8:20"/>耶稣在圣殿的库房这样教导人，但没有人抓祂，因为祂的时候还没有到。<verse eid="JHN 8:20"/></para>
+  <para style="s1">警告不信的人</para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 8:21"/>耶稣又对他们说：“我要走了，你们会寻找我，你们将死在自己的罪中。我去的地方，你们不能去。”<verse eid="JHN 8:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 8:22"/>
+    <char style="pn">犹太</char>人说：“祂说祂去的地方我们不能去，难道祂想自杀吗？”<verse eid="JHN 8:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 8:23"/>耶稣对他们说：“你们是从下面来的，我是从上面来的。你们属于这世界，我不属于这世界。 <verse eid="JHN 8:23"/><verse number="24" style="v" sid="JHN 8:24"/>所以我说你们将死在自己的罪中，你们如果不相信我就是<note caller="+" style="f"><char style="fr" closed="false">8:24 </char><char style="ft" closed="false">耶稣用“我就是”这个词提醒听众祂就是<char style="xt"><ref loc="EXO 3:14">出埃及记3:14</ref></char>节提到的那位自有永有的上帝，<char style="xt"><ref loc="JHN 8:28">8:28</ref></char>同。</char></note>那一位，一定会死在自己的罪中。”<verse eid="JHN 8:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 8:25"/>他们问：“你到底是谁？”</para>
+  <para style="p" vid="JHN 8:25">耶稣回答说：“我从一开始就告诉你们了。 <verse eid="JHN 8:25"/><verse number="26" style="v" sid="JHN 8:26"/>关于你们，我有许多要说、要审判的，但差我来的那位是真实的，我把从祂那里听到的告诉世人。” <verse eid="JHN 8:26"/><verse number="27" style="v" sid="JHN 8:27"/>他们不明白耶稣是指着父说的。<verse eid="JHN 8:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 8:28"/>于是耶稣说：“你们举起人子以后，必知道我就是那一位，并且知道我没有一件事是凭自己做的，我所说的都是父教导我的。 <verse eid="JHN 8:28"/><verse number="29" style="v" sid="JHN 8:29"/>差我来的那位跟我在一起，祂没有撇下我，让我孤单一人，因为我始终做祂喜悦的事。” <verse eid="JHN 8:29"/><verse number="30" style="v" sid="JHN 8:30"/>耶稣讲的时候，许多人信了祂。<verse eid="JHN 8:30"/></para>
+  <para style="s1">真正的自由</para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 8:31"/>耶稣对信祂的<char style="pn">犹太</char>人说：“你们若持守我的道，就真是我的门徒了。 <verse eid="JHN 8:31"/><verse number="32" style="v" sid="JHN 8:32"/>你们必认识真理，真理必叫你们得到自由。”<verse eid="JHN 8:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JHN 8:33"/>他们说：“我们是<char style="pn">亚伯拉罕</char>的子孙，从来没有做过奴隶，你怎么说我们可以得到自由呢？”<verse eid="JHN 8:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JHN 8:34"/>耶稣说：“我实实在在地告诉你们，所有犯罪的人都是罪的奴隶。 <verse eid="JHN 8:34"/><verse number="35" style="v" sid="JHN 8:35"/>奴隶不能永远留在主人的家里，只有儿子才可以。 <verse eid="JHN 8:35"/><verse number="36" style="v" sid="JHN 8:36"/>所以，如果上帝的儿子释放了你们，你们就真正自由了！<verse eid="JHN 8:36"/></para>
+  <para style="s1">耶稣和亚伯拉罕</para>
+  <para style="p">
+    <verse number="37" style="v" sid="JHN 8:37"/>“我知道你们是<char style="pn">亚伯拉罕</char>的子孙，但你们却想杀我，因为你们心里容不下我的道。 <verse eid="JHN 8:37"/><verse number="38" style="v" sid="JHN 8:38"/>我所说的，是我从父那里看到的，你们却照着你们父<note caller="+" style="f"><char style="fr" closed="false">8:38 </char><char style="ft" closed="false">犹太文化中，“父”可指生身的父，亦可泛指祖先。</char></note>的话去做。”<verse eid="JHN 8:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="JHN 8:39"/>他们说：“我们的父就是<char style="pn">亚伯拉罕</char>！”</para>
+  <para style="p" vid="JHN 8:39">耶稣说：“你们如果真是<char style="pn">亚伯拉罕</char>的子孙，一定会做他所做的事。 <verse eid="JHN 8:39"/><verse number="40" style="v" sid="JHN 8:40"/>我把从上帝那里听到的真理告诉你们，你们反要杀我，<char style="pn">亚伯拉罕</char>绝不做这样的事。 <verse eid="JHN 8:40"/><verse number="41" style="v" sid="JHN 8:41"/>你们是在做你们父所做的事。”</para>
+  <para style="p" vid="JHN 8:41">他们说：“我们不是从淫乱生的！我们只有一位父，就是上帝。”<verse eid="JHN 8:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="JHN 8:42"/>耶稣说：“如果上帝是你们的父，你们会爱我，因为我来自上帝。如今我在这里，我不是凭自己来的，而是上帝差我来的， <verse eid="JHN 8:42"/><verse number="43" style="v" sid="JHN 8:43"/>你们为什么不明白我的话呢？因为你们听不进去我的道。 <verse eid="JHN 8:43"/><verse number="44" style="v" sid="JHN 8:44"/>你们是出于你们的父魔鬼，你们乐意顺着它的私欲行。魔鬼从起初就是个杀人凶手，从不站在真理一边，因为它心里根本没有真理。说谎是它的本性，因为它是说谎者，又是谎言之父。 <verse eid="JHN 8:44"/><verse number="45" style="v" sid="JHN 8:45"/>所以，你们不信我，是因为我讲的是真理。 <verse eid="JHN 8:45"/><verse number="46" style="v" sid="JHN 8:46"/>你们谁能指证我有罪呢？如果我讲的是真理，你们为什么不信我呢？ <verse eid="JHN 8:46"/><verse number="47" style="v" sid="JHN 8:47"/>出于上帝的人听上帝的话，你们不听上帝的话，因为你们不是出于上帝。”<verse eid="JHN 8:47"/></para>
+  <para style="p">
+    <verse number="48" style="v" sid="JHN 8:48"/>
+    <char style="pn">犹太</char>人对祂说：“我们说你是<char style="pn">撒玛利亚</char>人<note caller="+" style="f"><char style="fr" closed="false">8:48 </char><char style="ft" closed="false">撒玛利亚人血统不纯，常被犹太人藐视，并当作骂人的话。</char></note>，被鬼附身了，难道不对吗？”<verse eid="JHN 8:48"/></para>
+  <para style="p">
+    <verse number="49" style="v" sid="JHN 8:49"/>耶稣说：“我没有被鬼附身。我尊敬我的父，你们却侮辱我。 <verse eid="JHN 8:49"/><verse number="50" style="v" sid="JHN 8:50"/>我不为自己寻求荣耀，但有一位会为我寻求，祂也会断定谁是谁非。 <verse eid="JHN 8:50"/><verse number="51" style="v" sid="JHN 8:51"/>我实实在在地告诉你们，人如果遵行我的道，必永远不死。”<verse eid="JHN 8:51"/></para>
+  <para style="p">
+    <verse number="52" style="v" sid="JHN 8:52"/>那些<char style="pn">犹太</char>人说：“现在我们的确知道你是被鬼附身了！<char style="pn">亚伯拉罕</char>和众先知都死了，你还说人如果遵行你的道，必永远不死。 <verse eid="JHN 8:52"/><verse number="53" style="v" sid="JHN 8:53"/>难道你比我们的祖先<char style="pn">亚伯拉罕</char>还大吗？他死了，先知们也死了，你以为你是谁？”<verse eid="JHN 8:53"/></para>
+  <para style="p">
+    <verse number="54" style="v" sid="JHN 8:54"/>耶稣说：“如果我为自己争取荣耀，那荣耀算不了什么。但使我得荣耀的是我的父，你们也称祂为你们的上帝。 <verse eid="JHN 8:54"/><verse number="55" style="v" sid="JHN 8:55"/>你们不认识祂，我却认识祂。我如果说不认识祂，就会像你们一样是说谎的。然而，我认识祂，并且遵行祂的道。 <verse eid="JHN 8:55"/><verse number="56" style="v" sid="JHN 8:56"/>你们的祖先<char style="pn">亚伯拉罕</char>曾经欢欢喜喜地盼望看见我来的日子。他看见了，就欢喜快乐。”<verse eid="JHN 8:56"/></para>
+  <para style="p">
+    <verse number="57" style="v" sid="JHN 8:57"/>
+    <char style="pn">犹太</char>人说：“你还不到五十岁，怎么会见过<char style="pn">亚伯拉罕</char>呢？”<verse eid="JHN 8:57"/></para>
+  <para style="p">
+    <verse number="58" style="v" sid="JHN 8:58"/>耶稣说：“我实实在在地告诉你们，<char style="pn">亚伯拉罕</char>还没有出生，我就已经存在了<note caller="+" style="f"><char style="fr" closed="false">8:58 </char><char style="ft" closed="false">“我就已经存在了”希腊文是“我是”，参见<char style="xt"><ref loc="JHN 8:24">8:24</ref></char>注。</char></note>。” <verse eid="JHN 8:58"/><verse number="59" style="v" sid="JHN 8:59"/>于是，他们就拿起石头要打祂，耶稣却避开他们，离开了圣殿。<verse eid="JHN 8:59"/></para>
+  <chapter eid="JHN 8"/>
+  <chapter number="9" style="c" sid="JHN 9"/>
+  <para style="s1">医治生来瞎眼的人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 9:1"/>耶稣在路上看见一个生来瞎眼的人。 <verse eid="JHN 9:1"/><verse number="2" style="v" sid="JHN 9:2"/>门徒问耶稣：“老师，这个人生来瞎眼，是因为他犯了罪呢，还是他父母犯了罪呢？”<verse eid="JHN 9:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="JHN 9:3"/>耶稣说：“不是他犯了罪，也不是他父母犯了罪，而是要在他身上彰显上帝的作为。 <verse eid="JHN 9:3"/><verse number="4" style="v" sid="JHN 9:4"/>趁着白天，我们必须做差我来者的工作，黑夜一到，就没有人能工作了。 <verse eid="JHN 9:4"/><verse number="5" style="v" sid="JHN 9:5"/>我在世上的时候，是世界的光。”<verse eid="JHN 9:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 9:6"/>耶稣讲完后，便吐唾沫在地上，用唾沫和泥抹在那人的眼睛上， <verse eid="JHN 9:6"/><verse number="7" style="v" sid="JHN 9:7"/>对他说：“到<char style="pn">西罗亚</char>池去洗洗！”<char style="pn">西罗亚</char>是“奉差遣”的意思。那人照着去做，回来的时候已经能看见了。<verse eid="JHN 9:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 9:8"/>他的邻居和从前见他乞讨的人说：“他不是那个常坐在这里乞讨的人吗？”<verse eid="JHN 9:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 9:9"/>有人说：“是他。”有人说：“不是他，只是长得像他。”</para>
+  <para style="p" vid="JHN 9:9">他不停地说：“我就是那个人。”<verse eid="JHN 9:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 9:10"/>他们问：“你的眼睛是怎么好的？”<verse eid="JHN 9:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 9:11"/>他回答说：“有一位叫耶稣的人和泥抹我的眼睛，叫我到<char style="pn">西罗亚</char>池子去洗。我照着去做，眼睛就能看见了。”<verse eid="JHN 9:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 9:12"/>他们问：“那人在哪里？”他说：“我不知道。”<verse eid="JHN 9:12"/></para>
+  <para style="s1">盘问眼睛得医治的事</para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 9:13"/>他们就把这个从前瞎眼的人带到法利赛人那里。 <verse eid="JHN 9:13"/><verse number="14" style="v" sid="JHN 9:14"/>耶稣和泥开他眼睛那天是安息日。 <verse eid="JHN 9:14"/><verse number="15" style="v" sid="JHN 9:15"/>法利赛人也查问他的眼睛是怎么看见的。他回复说：“祂把泥抹在我的眼睛上，我去一洗，眼睛就看见了。”<verse eid="JHN 9:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 9:16"/>有些法利赛人说：“这人不是从上帝那里来的，因为祂不守安息日。”有些人却说：“罪人怎能行这样的神迹呢？”他们就争论起来。<verse eid="JHN 9:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 9:17"/>于是，他们又问那个瞎眼的人：“既然祂开了你的眼睛，你认为祂是什么人？”</para>
+  <para style="p" vid="JHN 9:17">他说：“祂是先知。”<verse eid="JHN 9:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JHN 9:18"/>
+    <char style="pn">犹太</char>人不相信他以前瞎眼，现在看见了，便叫来他的父母， <verse eid="JHN 9:18"/><verse number="19" style="v" sid="JHN 9:19"/>问他们：“这是你们的儿子吗？你们说他生来瞎眼，现在怎么能看见了？”<verse eid="JHN 9:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 9:20"/>他父母回答说：“我们知道他是我们的儿子，生来瞎眼。 <verse eid="JHN 9:20"/><verse number="21" style="v" sid="JHN 9:21"/>至于他现在怎么能看见了，我们就不知道了。是谁治好了他，我们也不知道。他现在已经长大成人，你们可以去问他，他自己可以回答。”<verse eid="JHN 9:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 9:22"/>他父母因为害怕那些<char style="pn">犹太</char>人，所以才这样说，因为那些<char style="pn">犹太</char>人早就商量好了，谁承认耶稣是基督，就把谁赶出会堂。 <verse eid="JHN 9:22"/><verse number="23" style="v" sid="JHN 9:23"/>因此他父母才说他已经长大成人，叫他们去问他。<verse eid="JHN 9:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 9:24"/>法利赛人又把那个从前瞎眼的人叫来，对他说：“你应该把荣耀归给上帝<note caller="+" style="f"><char style="fr" closed="false">9:24 </char><char style="ft" closed="false">这是古时叫人在上帝面前起誓说实话的惯用语，参见<char style="xt"><ref loc="JOS 7:19">约书亚记7:19</ref></char>。</char></note>！我们知道那个人是罪人。”<verse eid="JHN 9:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 9:25"/>他说：“祂是不是罪人，我不知道；我只知道我本来瞎眼，现在能看见了。”<verse eid="JHN 9:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 9:26"/>他们就问他：“祂向你做了些什么？祂是怎样治好你眼睛的？”<verse eid="JHN 9:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JHN 9:27"/>他回答说：“我已经告诉过你们了，你们不听，为什么又想听呢？难道你们也想做祂的门徒吗？”<verse eid="JHN 9:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 9:28"/>他们就骂他：“你才是祂的门徒！我们是<char style="pn">摩西</char>的门徒。 <verse eid="JHN 9:28"/><verse number="29" style="v" sid="JHN 9:29"/>我们知道上帝曾对<char style="pn">摩西</char>讲话，至于这个人，我们不知道祂是从哪里来的。”<verse eid="JHN 9:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="JHN 9:30"/>那人说：“祂开了我的眼睛，你们竟不知道祂从哪里来，真是奇怪。 <verse eid="JHN 9:30"/><verse number="31" style="v" sid="JHN 9:31"/>我们知道上帝不听罪人的祷告，只听那些敬拜祂、遵行祂旨意者的祷告。 <verse eid="JHN 9:31"/><verse number="32" style="v" sid="JHN 9:32"/>从创世以来，从未听过有人能把生来瞎眼的人治好。 <verse eid="JHN 9:32"/><verse number="33" style="v" sid="JHN 9:33"/>这个人如果不是从上帝那里来的，就什么也不能做。”<verse eid="JHN 9:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JHN 9:34"/>法利赛人斥责他：“你这生来就深陷罪中的家伙，居然敢教导我们！”于是把他赶了出去。<verse eid="JHN 9:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="JHN 9:35"/>耶稣听说了这事，后来祂找到这个人，对他说：“你信人子<note caller="+" style="f"><char style="fr" closed="false">9:35 </char><char style="ft" closed="false">“人子”有古卷作“上帝的儿子”。</char></note>吗？”<verse eid="JHN 9:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="JHN 9:36"/>他说：“先生，谁是人子？我要信祂。”<verse eid="JHN 9:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="JHN 9:37"/>耶稣说：“你已经看见祂了，现在跟你说话的就是祂。”<verse eid="JHN 9:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="JHN 9:38"/>他说：“主啊！我信！”他就敬拜耶稣。<verse eid="JHN 9:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="JHN 9:39"/>耶稣说：“我为了审判来到这世界，使瞎眼的可以看见，使看得见的反成了瞎眼的。”<verse eid="JHN 9:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="JHN 9:40"/>有些跟祂在一起的法利赛人听了这句话，就问：“难道我们也瞎了眼吗？”<verse eid="JHN 9:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="JHN 9:41"/>耶稣说：“你们如果是瞎眼的，就没有罪了。但现在你们自称看得见，所以仍然有罪。<verse eid="JHN 9:41"/></para>
+  <chapter eid="JHN 9"/>
+  <chapter number="10" style="c" sid="JHN 10"/>
+  <para style="s1">好牧人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 10:1"/>“我实实在在地告诉你们，不从门进羊圈而从别处爬进去的人就是贼，是强盗。 <verse eid="JHN 10:1"/><verse number="2" style="v" sid="JHN 10:2"/>从门进去的才是羊的牧人， <verse eid="JHN 10:2"/><verse number="3" style="v" sid="JHN 10:3"/>看门的会给他开门，羊也听他的声音。他按名字叫自己的羊，把它们领出来。 <verse eid="JHN 10:3"/><verse number="4" style="v" sid="JHN 10:4"/>领出来之后，自己便走在前面，羊群也跟着他，因为羊认得他的声音。 <verse eid="JHN 10:4"/><verse number="5" style="v" sid="JHN 10:5"/>羊从不跟随陌生人，见了陌生人就逃跑，因为它们不认得陌生人的声音。”<verse eid="JHN 10:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 10:6"/>耶稣讲了这个比喻，但听的人都不明白祂的意思。 <verse eid="JHN 10:6"/><verse number="7" style="v" sid="JHN 10:7"/>于是祂又说：“我实实在在地告诉你们，我就是羊的门。 <verse eid="JHN 10:7"/><verse number="8" style="v" sid="JHN 10:8"/>在我以前来的，都是贼，是强盗，羊不听从他们。 <verse eid="JHN 10:8"/><verse number="9" style="v" sid="JHN 10:9"/>我就是门，从我进来的必定得救，并且会安然出入，找到草吃。 <verse eid="JHN 10:9"/><verse number="10" style="v" sid="JHN 10:10"/>盗贼来，无非是要偷窃、杀害、毁坏。但我来是要羊得生命，并且得到丰盛的生命。<verse eid="JHN 10:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 10:11"/>“我是好牧人，好牧人为羊舍命。 <verse eid="JHN 10:11"/><verse number="12" style="v" sid="JHN 10:12"/>雇工不是牧人，羊也不是他的，他一见狼来了，必撇下羊逃命。狼就会抓住羊，驱散羊群。 <verse eid="JHN 10:12"/><verse number="13" style="v" sid="JHN 10:13"/>他逃走，因为他是雇工，并不在乎羊。 <verse eid="JHN 10:13"/><verse number="14" style="v" sid="JHN 10:14"/>我是好牧人，我认识我的羊，我的羊也认识我， <verse eid="JHN 10:14"/><verse number="15" style="v" sid="JHN 10:15"/>正如父认识我，我也认识父，并且我为羊舍命。 <verse eid="JHN 10:15"/><verse number="16" style="v" sid="JHN 10:16"/>我还有别的羊不在这羊圈里，我必须领他们回来，他们也必听我的声音。这样，我所有的羊将要合成一群，由一个牧人来带领。 <verse eid="JHN 10:16"/><verse number="17" style="v" sid="JHN 10:17"/>父爱我，因为我舍弃自己的生命，为了再得回生命。 <verse eid="JHN 10:17"/><verse number="18" style="v" sid="JHN 10:18"/>没有人能夺走我的生命，我是甘心舍弃的。我有权舍弃，也有权得回，这是我从父那里得到的命令。”<verse eid="JHN 10:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 10:19"/>
+    <char style="pn">犹太</char>人因这番话又起了纷争。 <verse eid="JHN 10:19"/><verse number="20" style="v" sid="JHN 10:20"/>他们当中好些人说：“祂被鬼附身了！祂疯了！何必听祂的？”<verse eid="JHN 10:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 10:21"/>又有些人说：“被鬼附身的人不会说这种话的，鬼能医治瞎眼的人吗？”<verse eid="JHN 10:21"/></para>
+  <para style="s1">被犹太人弃绝</para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 10:22"/>
+    <char style="pn">耶路撒冷</char>庆祝修殿节的时候到了，是在冬天。 <verse eid="JHN 10:22"/><verse number="23" style="v" sid="JHN 10:23"/>耶稣正在圣殿的<char style="pn">所罗门</char>廊行走， <verse eid="JHN 10:23"/><verse number="24" style="v" sid="JHN 10:24"/>一群<char style="pn">犹太</char>人围着祂说：“你让我们猜到什么时候呢？如果你是基督，就清楚地告诉我们吧！”<verse eid="JHN 10:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 10:25"/>耶稣回答说：“我已经告诉你们了，你们却不信。我奉我父的名所行的神迹也为我做见证， <verse eid="JHN 10:25"/><verse number="26" style="v" sid="JHN 10:26"/>只是你们不肯相信，因为你们不是我的羊。 <verse eid="JHN 10:26"/><verse number="27" style="v" sid="JHN 10:27"/>我的羊听我的声音，我也认识他们，他们也跟随我。 <verse eid="JHN 10:27"/><verse number="28" style="v" sid="JHN 10:28"/>我要赐他们永生，他们永不灭亡。没有人能从我的手里把他们抢走。 <verse eid="JHN 10:28"/><verse number="29" style="v" sid="JHN 10:29"/>我父把羊赐给我，祂比万物都大，没有人能从祂手中把羊抢走。 <verse eid="JHN 10:29"/><verse number="30" style="v" sid="JHN 10:30"/>我和父本为一。”<verse eid="JHN 10:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 10:31"/>于是<char style="pn">犹太</char>人又拿起石头要打祂。 <verse eid="JHN 10:31"/><verse number="32" style="v" sid="JHN 10:32"/>耶稣就问他们：“我将许多从父而来的善行显给你们看，你们为了哪一件事拿石头打我呢？”<verse eid="JHN 10:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JHN 10:33"/>
+    <char style="pn">犹太</char>人回答说：“我们不是因为你做的善事打你，而是因为你说了亵渎的话，你是人，却把自己当作上帝。”<verse eid="JHN 10:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JHN 10:34"/>耶稣说：“你们的律法书上不是写着‘我曾说你们都是神’<note caller="+" style="f"><char style="fr" closed="false">10:34 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 82:6">诗篇82:6</ref>。</char></char></note>吗？ <verse eid="JHN 10:34"/><verse number="35" style="v" sid="JHN 10:35"/>圣经上的话是不能废的，既然上帝称那些承受祂道的人为神， <verse eid="JHN 10:35"/><verse number="36" style="v" sid="JHN 10:36"/>而我是父分别出来又差到世上来的，我说自己是上帝的儿子，你们就指控我亵渎吗？ <verse eid="JHN 10:36"/><verse number="37" style="v" sid="JHN 10:37"/>如果我不做我父的事，你们不必信我。 <verse eid="JHN 10:37"/><verse number="38" style="v" sid="JHN 10:38"/>但如果我做了，你们纵然不信我，也应该相信我所做的事，这样你们就会知道并领会父在我里面，我也在父里面。”<verse eid="JHN 10:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="JHN 10:39"/>他们又要抓耶稣，但祂从他们手中逃脱了。<verse eid="JHN 10:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="JHN 10:40"/>后来，耶稣回到<char style="pn">约旦</char>河东岸<char style="pn">约翰</char>从前施洗的地方，在那里住下来。 <verse eid="JHN 10:40"/><verse number="41" style="v" sid="JHN 10:41"/>许多人来到祂那里。他们说：“虽然<char style="pn">约翰</char>没有行过神迹，可是<char style="pn">约翰</char>所说关于这人的事全是真的。” <verse eid="JHN 10:41"/><verse number="42" style="v" sid="JHN 10:42"/>那里有许多人信了耶稣。<verse eid="JHN 10:42"/></para>
+  <chapter eid="JHN 10"/>
+  <chapter number="11" style="c" sid="JHN 11"/>
+  <para style="s1">拉撒路病死</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 11:1"/>
+    <char style="pn">伯大尼</char>村有个名叫<char style="pn">拉撒路</char>的人病倒了。<char style="pn">伯大尼</char>是<char style="pn">玛丽亚</char>和她姐姐<char style="pn">玛大</char>居住的村庄。 <verse eid="JHN 11:1"/><verse number="2" style="v" sid="JHN 11:2"/>就是这个<char style="pn">玛丽亚</char>后来用香膏抹主，又用自己的头发擦干祂的脚，患病的<char style="pn">拉撒路</char>是她的弟弟。 <verse eid="JHN 11:2"/><verse number="3" style="v" sid="JHN 11:3"/>她们两姊妹托人去告诉耶稣，说：“主啊，你所爱的人病了！”<verse eid="JHN 11:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JHN 11:4"/>耶稣听见后，说：“这病不至于死，而是为了上帝的荣耀，使祂的儿子借此得到荣耀。” <verse eid="JHN 11:4"/><verse number="5" style="v" sid="JHN 11:5"/>耶稣一向爱<char style="pn">玛大</char>、她妹妹和<char style="pn">拉撒路</char>， <verse eid="JHN 11:5"/><verse number="6" style="v" sid="JHN 11:6"/>可是祂听到<char style="pn">拉撒路</char>有病的消息后，仍在原地逗留了两天， <verse eid="JHN 11:6"/><verse number="7" style="v" sid="JHN 11:7"/>然后才对门徒说：“我们回<char style="pn">犹太</char>吧！”<verse eid="JHN 11:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 11:8"/>门徒说：“老师，<char style="pn">犹太</char>人近来想拿石头打你，你还要去那里吗？”<verse eid="JHN 11:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 11:9"/>耶稣说：“白天不是有十二个小时吗？人在白天走路，不会跌倒，因为他看得见这世上的光。 <verse eid="JHN 11:9"/><verse number="10" style="v" sid="JHN 11:10"/>人在夜间走路，才会跌倒，因为没有光。” <verse eid="JHN 11:10"/><verse number="11" style="v" sid="JHN 11:11"/>接着耶稣又说：“我们的朋友<char style="pn">拉撒路</char>已经睡了，我去叫醒他。”<verse eid="JHN 11:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 11:12"/>门徒说：“主啊，他如果睡了，肯定会好的。” <verse eid="JHN 11:12"/><verse number="13" style="v" sid="JHN 11:13"/>其实耶稣是指他已经死了，门徒却以为他真的睡了。<verse eid="JHN 11:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JHN 11:14"/>于是，耶稣清楚地对他们说：“<char style="pn">拉撒路</char>死了。 <verse eid="JHN 11:14"/><verse number="15" style="v" sid="JHN 11:15"/>为了你们的缘故，我很高兴自己不在那里，好叫你们信我。现在我们可以去了。” <verse eid="JHN 11:15"/><verse number="16" style="v" sid="JHN 11:16"/>绰号“双胞胎”的<char style="pn">多马</char>对其他门徒说：“我们也去跟祂一块儿死吧。”<verse eid="JHN 11:16"/></para>
+  <para style="s1">拉撒路死而复活</para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 11:17"/>耶稣到了<char style="pn">伯大尼</char>，得知<char style="pn">拉撒路</char>已经在坟墓里四天了。 <verse eid="JHN 11:17"/><verse number="18" style="v" sid="JHN 11:18"/><char style="pn">伯大尼</char>离<char style="pn">耶路撒冷</char>不远，大约只有三公里的路， <verse eid="JHN 11:18"/><verse number="19" style="v" sid="JHN 11:19"/>很多<char style="pn">犹太</char>人来看望<char style="pn">玛大</char>和<char style="pn">玛丽亚</char>，为她们兄弟的事来安慰她们。<verse eid="JHN 11:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 11:20"/>
+    <char style="pn">玛大</char>听说耶稣来了，就去迎接祂，<char style="pn">玛丽亚</char>却仍然坐在家里。 <verse eid="JHN 11:20"/><verse number="21" style="v" sid="JHN 11:21"/><char style="pn">玛大</char>对耶稣说：“主啊，你如果早在这里，我弟弟就不会死了。 <verse eid="JHN 11:21"/><verse number="22" style="v" sid="JHN 11:22"/>就是现在我也知道你无论向上帝求什么，上帝必定赐给你。”<verse eid="JHN 11:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 11:23"/>耶稣说：“你弟弟必定复活。”<verse eid="JHN 11:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 11:24"/>
+    <char style="pn">玛大</char>说：“我知道，在末日复活的时候，他必复活。”<verse eid="JHN 11:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 11:25"/>耶稣说：“我是复活，我是生命。信我的人虽然死了，也必复活。 <verse eid="JHN 11:25"/><verse number="26" style="v" sid="JHN 11:26"/>凡活着信我的人必永远不死。你相信吗？”<verse eid="JHN 11:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JHN 11:27"/>
+    <char style="pn">玛大</char>说：“主啊，我信！我相信你是来到世界的基督，是上帝的儿子。”<verse eid="JHN 11:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 11:28"/>
+    <char style="pn">玛大</char>说完了，就回去悄悄地告诉她妹妹<char style="pn">玛丽亚</char>：“老师来了，祂叫你去。”<verse eid="JHN 11:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JHN 11:29"/>
+    <char style="pn">玛丽亚</char>听了，急忙起来到耶稣那里。 <verse eid="JHN 11:29"/><verse number="30" style="v" sid="JHN 11:30"/>那时，耶稣还没有进村子，仍在<char style="pn">玛大</char>迎接祂的地方。 <verse eid="JHN 11:30"/><verse number="31" style="v" sid="JHN 11:31"/>那些在家里安慰<char style="pn">玛丽亚</char>的<char style="pn">犹太</char>人，见她匆匆忙忙地起来出去了，以为她要去坟墓那里哭，就跟着出去。<verse eid="JHN 11:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="JHN 11:32"/>
+    <char style="pn">玛丽亚</char>来到耶稣那里，俯伏在祂脚前说：“主啊，你如果早在这里，我弟弟就不会死了。”<verse eid="JHN 11:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JHN 11:33"/>耶稣看见她和陪她来的<char style="pn">犹太</char>人都在哭，心中非常激愤和难过， <verse eid="JHN 11:33"/><verse number="34" style="v" sid="JHN 11:34"/>便问：“你们把他葬在哪里了？”</para>
+  <para style="p" vid="JHN 11:34">他们答道：“主啊，你来看。”<verse eid="JHN 11:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="JHN 11:35"/>耶稣哭了。<verse eid="JHN 11:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="JHN 11:36"/>
+    <char style="pn">犹太</char>人说：“你看！祂多么爱<char style="pn">拉撒路</char>啊！”<verse eid="JHN 11:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="JHN 11:37"/>其中也有人说：“祂既然能医治瞎眼的人，难道不能叫这个人不死吗？”<verse eid="JHN 11:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="JHN 11:38"/>耶稣又非常激愤地来到坟墓前。那坟墓是个洞，洞口堵着一块大石头。<verse eid="JHN 11:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="JHN 11:39"/>耶稣说：“把石头挪开。”</para>
+  <para style="p" vid="JHN 11:39">死者的姐姐<char style="pn">玛大</char>对祂说：“主啊，他死了四天了，肯定臭了。”<verse eid="JHN 11:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="JHN 11:40"/>耶稣说：“我不是跟你说过，只要你信，就会看见上帝的荣耀吗？”<verse eid="JHN 11:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="JHN 11:41"/>于是，他们把石头挪开，耶稣望着天说：“父啊，我感谢你，因为你已垂听了我的祷告， <verse eid="JHN 11:41"/><verse number="42" style="v" sid="JHN 11:42"/>我知道你常常垂听我的祷告。我这样说是为了周围站着的众人，好叫他们相信是你差我来的。”<verse eid="JHN 11:42"/></para>
+  <para style="p">
+    <verse number="43" style="v" sid="JHN 11:43"/>说完，就大声呼喊：“<char style="pn">拉撒路</char>，出来！” <verse eid="JHN 11:43"/><verse number="44" style="v" sid="JHN 11:44"/>那死者就出来了，手脚都缠着布条，脸上也包着布。</para>
+  <para style="p" vid="JHN 11:44">耶稣对他们说：“给他解开，让他走！”<verse eid="JHN 11:44"/></para>
+  <para style="s1">谋害耶稣</para>
+  <para style="p">
+    <verse number="45" style="v" sid="JHN 11:45"/>许多来看望<char style="pn">玛丽亚</char>的<char style="pn">犹太</char>人看见耶稣的作为，就信了祂， <verse eid="JHN 11:45"/><verse number="46" style="v" sid="JHN 11:46"/>但也有些人去见法利赛人，把耶稣所行的事告诉他们。 <verse eid="JHN 11:46"/><verse number="47" style="v" sid="JHN 11:47"/>祭司长和法利赛人便召开公会会议，说：“这人行了许多神迹，我们该怎么办呢？ <verse eid="JHN 11:47"/><verse number="48" style="v" sid="JHN 11:48"/>如果让祂这样继续下去，所有的人都会信祂，那时<char style="pn">罗马</char>人一定会来夺取我们的圣地，掳掠我们的人民。”<verse eid="JHN 11:48"/></para>
+  <para style="p">
+    <verse number="49" style="v" sid="JHN 11:49"/>那年担任大祭司的<char style="pn">该亚法</char>对他们说：“你们什么都不懂！ <verse eid="JHN 11:49"/><verse number="50" style="v" sid="JHN 11:50"/>你们没有认识到，对你们而言，与其整个民族灭亡，不如一人替众人死。” <verse eid="JHN 11:50"/><verse number="51" style="v" sid="JHN 11:51"/>其实这句话不是出于他自己，只因那年他是大祭司，上帝借着他预言耶稣将要替<char style="pn">犹太</char>民族死。 <verse eid="JHN 11:51"/><verse number="52" style="v" sid="JHN 11:52"/>祂不单是要替<char style="pn">犹太</char>民族死，也要把散居在各处的上帝的儿女聚集在一起。<verse eid="JHN 11:52"/></para>
+  <para style="p">
+    <verse number="53" style="v" sid="JHN 11:53"/>从那天起，他们就计划要杀害耶稣， <verse eid="JHN 11:53"/><verse number="54" style="v" sid="JHN 11:54"/>所以耶稣不再公开地在<char style="pn">犹太</char>人中间露面。祂离开那里，前往靠近旷野的地方，到了<char style="pn">以法莲</char>城，就和门徒住下来。<verse eid="JHN 11:54"/></para>
+  <para style="p">
+    <verse number="55" style="v" sid="JHN 11:55"/>
+    <char style="pn">犹太</char>人的逾越节快到了，有很多人从乡下上<char style="pn">耶路撒冷</char>，预备在过节前洁净自己。 <verse eid="JHN 11:55"/><verse number="56" style="v" sid="JHN 11:56"/>他们四处寻找耶稣，又彼此在圣殿里谈论：“你们怎么想？祂不会来过节吧？” <verse eid="JHN 11:56"/><verse number="57" style="v" sid="JHN 11:57"/>当时祭司长和法利赛人早已下令，任何人知道耶稣在哪里，都要报告，他们好去抓祂。<verse eid="JHN 11:57"/></para>
+  <chapter eid="JHN 11"/>
+  <chapter number="12" style="c" sid="JHN 12"/>
+  <para style="s1">香膏抹脚</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 12:1"/>逾越节前六天，耶稣来到<char style="pn">伯大尼</char>，就是祂叫<char style="pn">拉撒路</char>从死里复活的那个村子。 <verse eid="JHN 12:1"/><verse number="2" style="v" sid="JHN 12:2"/>村里有人为耶稣预备了晚饭，<char style="pn">拉撒路</char>也与耶稣同席，<char style="pn">玛大</char>在旁边伺候。 <verse eid="JHN 12:2"/><verse number="3" style="v" sid="JHN 12:3"/><char style="pn">玛丽亚</char>拿出一瓶<note caller="+" style="f"><char style="fr" closed="false">12:3 </char><char style="ft" closed="false">“一瓶”希腊文是“一罗马磅”，约325克。</char></note>珍贵的纯哪哒香膏来抹耶稣的脚，又用自己的头发去擦，屋里充满了香气。<verse eid="JHN 12:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JHN 12:4"/>有一个门徒，就是将要出卖耶稣的<char style="pn">加略</char>人<char style="pn">犹大</char>说： <verse eid="JHN 12:4"/><verse number="5" style="v" sid="JHN 12:5"/>“为什么不把香膏卖三百个银币<note caller="+" style="f"><char style="fr" closed="false">12:5 </char><char style="ft" closed="false">“三百个银币”相当于当时一个人一年的工钱。</char></note>去周济穷人呢？” <verse eid="JHN 12:5"/><verse number="6" style="v" sid="JHN 12:6"/>他这样说不是因为他真的关心穷人，而是因为他是个贼，负责保管钱袋，常从中偷拿财物。<verse eid="JHN 12:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 12:7"/>耶稣说：“由她吧！她这是为我安葬作预备。 <verse eid="JHN 12:7"/><verse number="8" style="v" sid="JHN 12:8"/>因为你们身边总会有穷人，可是你们身边不会总有我。”<verse eid="JHN 12:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 12:9"/>有许多<char style="pn">犹太</char>人知道耶稣在那里，就来看祂，不单是为了看耶稣，也想看看从死里复活的<char style="pn">拉撒路</char>。 <verse eid="JHN 12:9"/><verse number="10" style="v" sid="JHN 12:10"/>于是，祭司长计划连<char style="pn">拉撒路</char>也杀掉， <verse eid="JHN 12:10"/><verse number="11" style="v" sid="JHN 12:11"/>因为有许多<char style="pn">犹太</char>人因为<char style="pn">拉撒路</char>的缘故离开他们，去信了耶稣。<verse eid="JHN 12:11"/></para>
+  <para style="s1">光荣进圣城</para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 12:12"/>第二天，很多上来过节的人听见耶稣快到<char style="pn">耶路撒冷</char>了， <verse eid="JHN 12:12"/><verse number="13" style="v" sid="JHN 12:13"/>就拿着棕树枝出去迎接祂，高喊道：</para>
+  <para style="q1" vid="JHN 12:13">“和散那！”<note caller="+" style="f"><char style="fr" closed="false">12:13 </char><char style="ft" closed="false">“和散那”原意是“拯救我们”，此处有“赞美”的意思。</char></note></para>
+  <para style="b" vid="JHN 12:13"/>
+  <para style="q1" vid="JHN 12:13">“奉主名来的<char style="pn">以色列</char>王当受称颂！”<note caller="+" style="f"><char style="fr" closed="false">12:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 118:25">诗篇118:25</ref>、<ref loc="PSA 118:26">26</ref>。</char></char></note><verse eid="JHN 12:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JHN 12:14"/>那时，耶稣找到一头驴驹，就骑上它，正如圣经记载：<verse eid="JHN 12:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JHN 12:15"/>“少女<char style="pn">锡安</char>啊，不要害怕！</para>
+  <para style="q1" vid="JHN 12:15">看啊，你的君王骑着驴驹来了。”<note caller="+" style="f"><char style="fr" closed="false">12:15 </char><char style="ft" closed="false"><char style="xt"><ref loc="ZEC 9:9">撒迦利亚书9:9</ref>。</char></char></note><verse eid="JHN 12:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 12:16"/>起初门徒不明白这些事，耶稣得了荣耀之后，他们才想起圣经上这些有关耶稣的记载果然在祂身上应验了。 <verse eid="JHN 12:16"/><verse number="17" style="v" sid="JHN 12:17"/>那些亲眼看见耶稣叫<char style="pn">拉撒路</char>复活、走出坟墓的人不断传扬这件事。 <verse eid="JHN 12:17"/><verse number="18" style="v" sid="JHN 12:18"/>众人因为听说耶稣行了这神迹，都去迎接祂。 <verse eid="JHN 12:18"/><verse number="19" style="v" sid="JHN 12:19"/>法利赛人彼此议论说：“我们真是枉费心思！看啊，整个世界都跟着祂跑了。”<verse eid="JHN 12:19"/></para>
+  <para style="s1">耶稣预言自己的死</para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 12:20"/>有几个<char style="pn">希腊</char>人也在节期上<char style="pn">耶路撒冷</char>敬拜。 <verse eid="JHN 12:20"/><verse number="21" style="v" sid="JHN 12:21"/>他们去见<char style="pn">加利利</char>的<char style="pn">伯赛大</char>人<char style="pn">腓力</char>，请求说：“先生，我们想见见耶稣。” <verse eid="JHN 12:21"/><verse number="22" style="v" sid="JHN 12:22"/><char style="pn">腓力</char>把这件事告诉<char style="pn">安得烈</char>，二人去转告耶稣。<verse eid="JHN 12:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 12:23"/>耶稣说：“人子得荣耀的时候到了。 <verse eid="JHN 12:23"/><verse number="24" style="v" sid="JHN 12:24"/>我实实在在地告诉你们，一粒麦子如果不落在地里死了，仍是一粒，如果死了，就会结出许多麦粒来。 <verse eid="JHN 12:24"/><verse number="25" style="v" sid="JHN 12:25"/>爱惜自己生命的，会失掉生命；憎恶自己今世生命的，必保住生命，直到永生。 <verse eid="JHN 12:25"/><verse number="26" style="v" sid="JHN 12:26"/>谁要事奉我，就要跟从我。我在哪里，事奉我的人也要在哪里。我父必尊重事奉我的人。<verse eid="JHN 12:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="JHN 12:27"/>“我现在心里忧伤，说什么才好呢？求父救我离开这个时刻吗？然而，我原是为这个时刻来的。 <verse eid="JHN 12:27"/><verse number="28" style="v" sid="JHN 12:28"/>父啊！愿你使自己的名得荣耀！”</para>
+  <para style="p" vid="JHN 12:28">当时天上有声音说：“我已使自己的名得了荣耀，并且还要得荣耀。”<verse eid="JHN 12:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JHN 12:29"/>站在那里的人群中有人听见后，就说：“打雷了！”也有人说：“是天使在跟祂说话。”<verse eid="JHN 12:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="JHN 12:30"/>耶稣说：“这声音不是为我发出的，是为你们发出的。 <verse eid="JHN 12:30"/><verse number="31" style="v" sid="JHN 12:31"/>现在是这世界受审判的时候，这世界的王<note caller="+" style="f"><char style="fr" closed="false">12:31 </char><char style="ft" closed="false">“世界的王”指“魔鬼，又名撒旦”，参见<char style="xt"><ref loc="LUK 10:18">路加福音10:18</ref>；<ref loc="COL 2:15">歌罗西书2:15</ref>；<ref loc="1JN 3:8">约翰一书3:8</ref></char>。</char></note>要被赶出去了。 <verse eid="JHN 12:31"/><verse number="32" style="v" sid="JHN 12:32"/>至于我，当我从地上被举起来时，必吸引万人归向我。” <verse eid="JHN 12:32"/><verse number="33" style="v" sid="JHN 12:33"/>耶稣这句话指的是祂会怎样死。<verse eid="JHN 12:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JHN 12:34"/>众人问：“我们从律法书上知道，基督是永远长存的，你怎么说‘人子必须被举起来’呢？这人子是谁呢？”<verse eid="JHN 12:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="JHN 12:35"/>耶稣对他们说：“光在你们中间照耀的时候不多了，你们要趁着有光的时候走路，免得黑暗临到你们。走在黑暗里的人不知道要往哪里去。 <verse eid="JHN 12:35"/><verse number="36" style="v" sid="JHN 12:36"/>所以你们当趁着有光的时候信从光，好成为光明的儿女。”</para>
+  <para style="p" vid="JHN 12:36">耶稣说完后，便离开他们，隐藏起来。<verse eid="JHN 12:36"/></para>
+  <para style="s1">犹太人不信祂</para>
+  <para style="p">
+    <verse number="37" style="v" sid="JHN 12:37"/>耶稣虽然在他们面前行了许多神迹，他们还是不信祂。 <verse eid="JHN 12:37"/><verse number="38" style="v" sid="JHN 12:38"/>这是要应验<char style="pn">以赛亚</char>先知的话：</para>
+  <para style="q1" vid="JHN 12:38">“主啊，谁相信我们所传的呢？主的臂膀向谁彰显呢？”<note caller="+" style="f"><char style="fr" closed="false">12:38 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 53:1">以赛亚书53:1</ref>。</char></char></note><verse eid="JHN 12:38"/></para>
+  <para style="q1">
+    <verse number="39" style="v" sid="JHN 12:39"/>接着，<char style="pn">以赛亚</char>又说出他们不能信的缘故：<verse eid="JHN 12:39"/></para>
+  <para style="q1">
+    <verse number="40" style="v" sid="JHN 12:40"/>“主使他们眼瞎、心硬，</para>
+  <para style="q1" vid="JHN 12:40">免得他们眼睛看见，</para>
+  <para style="q1" vid="JHN 12:40">心里明白，回心转意，</para>
+  <para style="q1" vid="JHN 12:40">就被我医治。”<note caller="+" style="f"><char style="fr" closed="false">12:40 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 6:10">以赛亚书6:10</ref>。</char></char></note><verse eid="JHN 12:40"/></para>
+  <para style="m">
+    <verse number="41" style="v" sid="JHN 12:41"/>
+    <char style="pn">以赛亚</char>看见了祂的荣耀，所以才这样说。 <verse eid="JHN 12:41"/><verse number="42" style="v" sid="JHN 12:42"/>虽然这样，仍有很多<char style="pn">犹太</char>的官员信了耶稣，只是在法利赛人面前不敢公开承认，因为害怕会被赶出会堂。 <verse eid="JHN 12:42"/><verse number="43" style="v" sid="JHN 12:43"/>因为他们爱从世人而来的荣耀，胜过爱从上帝而来的荣耀。<verse eid="JHN 12:43"/></para>
+  <para style="s1">耶稣的道要审判人</para>
+  <para style="p">
+    <verse number="44" style="v" sid="JHN 12:44"/>耶稣高声说：“信我的，不只是信我，而是信差我来的那位。 <verse eid="JHN 12:44"/><verse number="45" style="v" sid="JHN 12:45"/>人看见了我，就是看见了差我来的那位。 <verse eid="JHN 12:45"/><verse number="46" style="v" sid="JHN 12:46"/>我来是要作世界的光，好叫信我的人脱离黑暗。 <verse eid="JHN 12:46"/><verse number="47" style="v" sid="JHN 12:47"/>听了我的话却不遵守的人，我不审判他，因为我来不是要审判世人，而是要拯救世人。 <verse eid="JHN 12:47"/><verse number="48" style="v" sid="JHN 12:48"/>弃绝我、不接受我话的人将受审判，我讲过的道在末日要审判他， <verse eid="JHN 12:48"/><verse number="49" style="v" sid="JHN 12:49"/>因为我不是凭自己讲的，我说什么、讲什么都是差我来的父吩咐的。 <verse eid="JHN 12:49"/><verse number="50" style="v" sid="JHN 12:50"/>我知道祂的命令能带来永生。所以祂怎么告诉我，我就怎么说。”<verse eid="JHN 12:50"/></para>
+  <chapter eid="JHN 12"/>
+  <chapter number="13" style="c" sid="JHN 13"/>
+  <para style="s1">耶稣为门徒洗脚</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 13:1"/>逾越节之前，耶稣知道自己快要离开世界回到父那里了。祂一直爱世上属自己的人，并且爱他们到底。 <verse eid="JHN 13:1"/><verse number="2" style="v" sid="JHN 13:2"/>吃晚饭的时候，魔鬼已经把出卖耶稣的念头放在<char style="pn">加略</char>人<char style="pn">西门</char>的儿子<char style="pn">犹大</char>的心里。 <verse eid="JHN 13:2"/><verse number="3" style="v" sid="JHN 13:3"/>耶稣知道父将一切交给了祂，也知道自己从上帝那里来，即将回到上帝那里， <verse eid="JHN 13:3"/><verse number="4" style="v" sid="JHN 13:4"/>就离席站起来，脱了外衣，拿了一条毛巾束在腰间， <verse eid="JHN 13:4"/><verse number="5" style="v" sid="JHN 13:5"/>然后倒了一盆水为门徒洗脚，用束在腰间的毛巾擦干。 <verse eid="JHN 13:5"/><verse number="6" style="v" sid="JHN 13:6"/>轮到<char style="pn">西门·彼得</char>的时候，他说：“主啊！你要洗我的脚吗？”<verse eid="JHN 13:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 13:7"/>耶稣回答说：“我这样做，你现在虽然不明白，将来一定会明白。”<verse eid="JHN 13:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 13:8"/>
+    <char style="pn">彼得</char>说：“你绝对不可洗我的脚。”</para>
+  <para style="p" vid="JHN 13:8">耶稣说：“如果我不洗你的脚，你就和我没有关系了。”<verse eid="JHN 13:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 13:9"/>
+    <char style="pn">西门·彼得</char>说：“主啊，不只我的脚，连我的手和头也洗吧。”<verse eid="JHN 13:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 13:10"/>耶稣说：“洗过澡的人全身是干净的，只要洗洗脚就好了。你们是干净的，但不是每一个都干净。”<verse eid="JHN 13:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 13:11"/>因为耶稣知道谁要出卖祂，所以说：“你们不是每一个都干净。”<verse eid="JHN 13:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 13:12"/>耶稣给门徒洗完了脚，便穿上外衣再次入席，然后问道：“我为你们做的，你们明白吗？ <verse eid="JHN 13:12"/><verse number="13" style="v" sid="JHN 13:13"/>你们称呼我‘老师’，也称呼我‘主’，你们称呼得对，因为我是。 <verse eid="JHN 13:13"/><verse number="14" style="v" sid="JHN 13:14"/>我是你们的老师，又是你们的主，尚且给你们洗脚，你们更应当彼此洗脚。 <verse eid="JHN 13:14"/><verse number="15" style="v" sid="JHN 13:15"/>我给你们立了榜样，好让你们效法我。 <verse eid="JHN 13:15"/><verse number="16" style="v" sid="JHN 13:16"/>我实实在在地告诉你们，奴仆不能大过主人，受差遣的也不能大过差遣他的人。 <verse eid="JHN 13:16"/><verse number="17" style="v" sid="JHN 13:17"/>你们既然明白这些道理，照着去做就有福了。 <verse eid="JHN 13:17"/><verse number="18" style="v" sid="JHN 13:18"/>我这话不是指着你们每一个人说的，我知道我拣选了谁。但这是为了要应验圣经上的话，‘吃我饭的人用脚踢我。’<note caller="+" style="f"><char style="fr" closed="false">13:18 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 41:9">诗篇41:9</ref>。</char></char></note> <verse eid="JHN 13:18"/><verse number="19" style="v" sid="JHN 13:19"/>我在事情还没有发生之前预先告诉你们，等事情发生以后，你们就会相信我是基督。 <verse eid="JHN 13:19"/><verse number="20" style="v" sid="JHN 13:20"/>我实实在在地告诉你们，谁接待我所差遣的，就是接待我；谁接待我，就是接待差我来的那位。”<verse eid="JHN 13:20"/></para>
+  <para style="s1">预言犹大卖主</para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 13:21"/>说完这番话，耶稣心里忧伤，便宣布说：“我实实在在地告诉你们，你们中间有一个人要出卖我。” <verse eid="JHN 13:21"/><verse number="22" style="v" sid="JHN 13:22"/>门徒面面相觑，不知道耶稣指的是谁。 <verse eid="JHN 13:22"/><verse number="23-24" style="v" sid="JHN 13:23-24"/><char style="pn">西门·彼得</char>向耶稣所爱的那个门徒点头示意，让他问耶稣到底是谁要出卖祂。那门徒挨在耶稣身边， <verse eid="JHN 13:23-24"/><verse number="25" style="v" sid="JHN 13:25"/>便顺势靠过去问耶稣：“主啊，是谁？”<verse eid="JHN 13:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 13:26"/>耶稣回答说：“我蘸一点饼给谁，就是谁。”耶稣就蘸了一点饼，递给<char style="pn">加略</char>人<char style="pn">西门</char>的儿子<char style="pn">犹大</char>。 <verse eid="JHN 13:26"/><verse number="27" style="v" sid="JHN 13:27"/><char style="pn">犹大</char>吃了以后，撒旦就进了他的心。耶稣对他说：“你要做的事，赶快去做吧！” <verse eid="JHN 13:27"/><verse number="28" style="v" sid="JHN 13:28"/>同桌吃饭的人都不明白耶稣这话的意思。 <verse eid="JHN 13:28"/><verse number="29" style="v" sid="JHN 13:29"/>因为<char style="pn">犹大</char>负责保管钱袋，有人以为耶稣是叫他去买过节的用品，或者去周济穷人。 <verse eid="JHN 13:29"/><verse number="30" style="v" sid="JHN 13:30"/><char style="pn">犹大</char>吃过那块饼后，立刻出去了。那时候是晚上。<verse eid="JHN 13:30"/></para>
+  <para style="s1">新命令</para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 13:31"/>
+    <char style="pn">犹大</char>出去以后，耶稣说：“现在人子得到荣耀了，上帝在人子身上也得了荣耀。 <verse eid="JHN 13:31"/><verse number="32" style="v" sid="JHN 13:32"/>上帝既然在人子身上得了荣耀，也要让人子在祂身上得荣耀，并且马上要使人子得荣耀。 <verse eid="JHN 13:32"/><verse number="33" style="v" sid="JHN 13:33"/>孩子们，我与你们同在的时间不多了，你们会寻找我，但我去的地方，你们不能去。这句话我以前对<char style="pn">犹太</char>人说过，现在也照样告诉你们。 <verse eid="JHN 13:33"/><verse number="34" style="v" sid="JHN 13:34"/>我赐给你们一条新命令：你们要彼此相爱。我怎样爱你们，你们也要怎样彼此相爱。 <verse eid="JHN 13:34"/><verse number="35" style="v" sid="JHN 13:35"/>你们如果彼此相爱，世人就会认出你们是我的门徒。”<verse eid="JHN 13:35"/></para>
+  <para style="s1">预言彼得不认主</para>
+  <para style="p">
+    <verse number="36" style="v" sid="JHN 13:36"/>
+    <char style="pn">西门·彼得</char>问耶稣：“主啊，你要到哪里去？”</para>
+  <para style="p" vid="JHN 13:36">耶稣回答说：“我要去的地方，你现在不能跟我去，但将来必定跟我去。”<verse eid="JHN 13:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="JHN 13:37"/>
+    <char style="pn">彼得</char>说：“主啊！为什么我现在不能跟你去呢？就是为你死，我也愿意！”<verse eid="JHN 13:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="JHN 13:38"/>耶稣说：“你真愿意为我死吗？我实实在在地告诉你，鸡叫以前，你会三次不认我。”<verse eid="JHN 13:38"/></para>
+  <chapter eid="JHN 13"/>
+  <chapter number="14" style="c" sid="JHN 14"/>
+  <para style="s1">耶稣是道路、真理、生命</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 14:1"/>“你们心里不要忧愁，你们要信上帝，也要信我。 <verse eid="JHN 14:1"/><verse number="2" style="v" sid="JHN 14:2"/>我父的家里有许多住处，不然我就不会说去为你们预备地方了。 <verse eid="JHN 14:2"/><verse number="3" style="v" sid="JHN 14:3"/>我预备好了以后，必定回来接你们到我那里。我在哪里，让你们也在哪里。 <verse eid="JHN 14:3"/><verse number="4" style="v" sid="JHN 14:4"/>你们知道哪条路通往我去的地方。”<verse eid="JHN 14:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JHN 14:5"/>
+    <char style="pn">多马</char>说：“主啊，你要去哪里，我们还不知道，又怎么会知道路呢？”<verse eid="JHN 14:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 14:6"/>耶稣说：“我就是道路、真理、生命，若不借着我，没有人能去父那里。 <verse eid="JHN 14:6"/><verse number="7" style="v" sid="JHN 14:7"/>你们若认识我，也会认识我的父。从现在起，你们确实认识祂，并且已经看见祂。”<verse eid="JHN 14:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 14:8"/>
+    <char style="pn">腓力</char>说：“主啊！求你让我们看看父，我们就心满意足了。”<verse eid="JHN 14:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 14:9"/>耶稣说：“<char style="pn">腓力</char>，我和你们相处了这么久，你还不认识我吗？人看见了我，就看见了父，你怎么说‘让我们看看父’呢？ <verse eid="JHN 14:9"/><verse number="10" style="v" sid="JHN 14:10"/>难道你不相信我在父里面，父也在我里面吗？我这些话不是凭自己讲的，而是住在我里面的父在做祂自己的工作。 <verse eid="JHN 14:10"/><verse number="11" style="v" sid="JHN 14:11"/>你们要相信我，我在父里面，父也在我里面。你们即使不信，也该因我所做的而信我。 <verse eid="JHN 14:11"/><verse number="12" style="v" sid="JHN 14:12"/>我实实在在地告诉你们，我所做的事，信我的人也要做，而且要做更大的事，因为我要回到父那里。 <verse eid="JHN 14:12"/><verse number="13" style="v" sid="JHN 14:13"/>你们奉我的名无论求什么，我必应允，好让父在子身上得荣耀。 <verse eid="JHN 14:13"/><verse number="14" style="v" sid="JHN 14:14"/>你们若奉我的名向我求什么，我必应允。<verse eid="JHN 14:14"/></para>
+  <para style="s1">应许赐下圣灵</para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 14:15"/>“你们若爱我，就必遵守我的命令。 <verse eid="JHN 14:15"/><verse number="16" style="v" sid="JHN 14:16"/>我会求父另外赐一位护慰者给你们，祂要永远和你们同在。 <verse eid="JHN 14:16"/><verse number="17" style="v" sid="JHN 14:17"/>祂是真理的灵，世人不能接受祂，因为他们看不见祂，也不认识祂。但你们认识祂，因祂常与你们同在，并且要住在你们里面。 <verse eid="JHN 14:17"/><verse number="18" style="v" sid="JHN 14:18"/>我不会撇下你们为孤儿，我必到你们这里来。 <verse eid="JHN 14:18"/><verse number="19" style="v" sid="JHN 14:19"/>不久，世人就看不见我了，而你们却能看见我，因为我活着，你们也要活着。 <verse eid="JHN 14:19"/><verse number="20" style="v" sid="JHN 14:20"/>到了那一天，你们就知道我在父里面，你们在我里面，我也在你们里面。 <verse eid="JHN 14:20"/><verse number="21" style="v" sid="JHN 14:21"/>接受我的命令又遵行的，就是爱我的人。爱我的，我父必定爱他，我也要爱他，并且要亲自向他显现。”<verse eid="JHN 14:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 14:22"/>
+    <char style="pn">犹大</char>（不是<char style="pn">加略</char>人<char style="pn">犹大</char>）问耶稣：“主啊，你为什么只向我们显现而不向世人显现呢？”<verse eid="JHN 14:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 14:23"/>耶稣回答说：“爱我的人必遵行我的道，我父也必爱他，并且我们要到他那里与他同住。 <verse eid="JHN 14:23"/><verse number="24" style="v" sid="JHN 14:24"/>不爱我的人不会遵行我的道。你们所听见的道不是出于我自己，而是出于差我来的父。 <verse eid="JHN 14:24"/><verse number="25" style="v" sid="JHN 14:25"/>我趁着与你们在一起，将这些事情都告诉了你们。 <verse eid="JHN 14:25"/><verse number="26" style="v" sid="JHN 14:26"/>但护慰者，就是父为我的名而差来的圣灵，将教导你们一切的事，并使你们想起我对你们说的一切话。 <verse eid="JHN 14:26"/><verse number="27" style="v" sid="JHN 14:27"/>我把平安留给你们，把我的平安赐给你们，我赐给你们的平安不像世人给的平安。你们心里不要忧愁，也不要害怕。<verse eid="JHN 14:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 14:28"/>“我对你们说过，我去了还要再回到你们这里。你们如果真的爱我，就会为我去父那里而欢喜快乐，因为父比我大。 <verse eid="JHN 14:28"/><verse number="29" style="v" sid="JHN 14:29"/>现在事情还没有发生，我便先告诉你们，到了事情发生的时候，你们就会相信。 <verse eid="JHN 14:29"/><verse number="30" style="v" sid="JHN 14:30"/>我不再跟你们多谈，因为世界的王快要来了。他根本没有力量胜过我， <verse eid="JHN 14:30"/><verse number="31" style="v" sid="JHN 14:31"/>但为了让世人知道我爱父，父怎么吩咐我，我就怎么做。起来，我们走吧！”<verse eid="JHN 14:31"/></para>
+  <chapter eid="JHN 14"/>
+  <chapter number="15" style="c" sid="JHN 15"/>
+  <para style="s1">真葡萄树</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 15:1"/>“我是真葡萄树，我父是栽培的人。 <verse eid="JHN 15:1"/><verse number="2" style="v" sid="JHN 15:2"/>属于我的枝子如果不结果子，祂就把它剪掉；如果结果子，祂便修剪它，让它结更多果子。 <verse eid="JHN 15:2"/><verse number="3" style="v" sid="JHN 15:3"/>因着我对你们讲的道，你们已经洁净了。 <verse eid="JHN 15:3"/><verse number="4" style="v" sid="JHN 15:4"/>你们要常在我里面，我就常在你们里面。枝子若离开葡萄树，就不能结果子。同样，你们若不常在我里面，也不能结果子。<verse eid="JHN 15:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JHN 15:5"/>“我是葡萄树，你们是枝子。常在我里面的，我也常在他里面，他就会多结果子，因为你们离了我什么都不能做。 <verse eid="JHN 15:5"/><verse number="6" style="v" sid="JHN 15:6"/>不常在我里面的人就像扔在外面枯干的枝子，最后只有被人拾起来扔进火里烧掉。 <verse eid="JHN 15:6"/><verse number="7" style="v" sid="JHN 15:7"/>你们若常在我里面，我的话也常在你们里面，无论你们求什么，都会得到应允。 <verse eid="JHN 15:7"/><verse number="8" style="v" sid="JHN 15:8"/>你们多结果子，证明自己是我的门徒，就会给我父带来荣耀。 <verse eid="JHN 15:8"/><verse number="9" style="v" sid="JHN 15:9"/>父怎样爱我，我也怎样爱你们。你们要常在我的爱中。 <verse eid="JHN 15:9"/><verse number="10" style="v" sid="JHN 15:10"/>你们若遵守我的命令，就必常在我的爱中，正如我遵守了父的命令，常在父的爱中一样。<verse eid="JHN 15:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 15:11"/>“我把这些事告诉你们，是要叫你们心里有我的喜乐，让你们的喜乐满溢。 <verse eid="JHN 15:11"/><verse number="12" style="v" sid="JHN 15:12"/>你们要彼此相爱，像我爱你们一样，这就是我的命令。 <verse eid="JHN 15:12"/><verse number="13" style="v" sid="JHN 15:13"/>为朋友舍命是最伟大的爱了。 <verse eid="JHN 15:13"/><verse number="14" style="v" sid="JHN 15:14"/>你们如果照我的吩咐去做，就是我的朋友。 <verse eid="JHN 15:14"/><verse number="15" style="v" sid="JHN 15:15"/>我不再称你们为奴仆，因为奴仆不知道主人的事。我称你们为朋友，因为我把从父那里听见的一切都告诉了你们。 <verse eid="JHN 15:15"/><verse number="16" style="v" sid="JHN 15:16"/>不是你们拣选了我，而是我拣选了你们，并且派你们出去结长存的果子。这样，你们奉我的名无论向父求什么，祂都会赐给你们。 <verse eid="JHN 15:16"/><verse number="17" style="v" sid="JHN 15:17"/>我把这些事吩咐你们，是要叫你们彼此相爱。<verse eid="JHN 15:17"/></para>
+  <para style="s1">被世人憎恶</para>
+  <para style="p">
+    <verse number="18" style="v" sid="JHN 15:18"/>“如果世人恨你们，要知道，他们恨你们以前已经恨我了。 <verse eid="JHN 15:18"/><verse number="19" style="v" sid="JHN 15:19"/>如果你们属于这个世界，世人一定会爱你们。可是你们不属于这世界，我已经把你们从世上拣选出来，因此世人恨你们。 <verse eid="JHN 15:19"/><verse number="20" style="v" sid="JHN 15:20"/>你们要记住我说的话，‘奴仆不能大过主人。’<note caller="+" style="f"><char style="fr" closed="false">15:20 </char><char style="ft" closed="false"><char style="xt"><ref loc="JHN 13:16">约翰福音13:16</ref>。</char></char></note>他们如果迫害我，也必迫害你们；他们如果遵行我的话，也必遵行你们的话。 <verse eid="JHN 15:20"/><verse number="21" style="v" sid="JHN 15:21"/>世人将因为我的名而这样对待你们，因为他们不认识差我来的那位。 <verse eid="JHN 15:21"/><verse number="22" style="v" sid="JHN 15:22"/>我如果没有来教导他们，他们就没有罪了，但现在他们的罪无可推诿。 <verse eid="JHN 15:22"/><verse number="23" style="v" sid="JHN 15:23"/>恨我的，也恨我的父。 <verse eid="JHN 15:23"/><verse number="24" style="v" sid="JHN 15:24"/>我如果没有在他们当中行过空前的神迹，他们就没有罪了。然而，他们亲眼看见了，却还是恨我和我的父。 <verse eid="JHN 15:24"/><verse number="25" style="v" sid="JHN 15:25"/>这是要应验他们律法书上的话，‘他们无故地恨我。’<note caller="+" style="f"><char style="fr" closed="false">15:25 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 35:19">诗篇35:19</ref>；<ref loc="PSA 69:4">69:4</ref>。</char></char></note><verse eid="JHN 15:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 15:26"/>“我要从父那里为你们差护慰者来，祂就是从父而来的真理之灵。祂来了要为我做见证。 <verse eid="JHN 15:26"/><verse number="27" style="v" sid="JHN 15:27"/>你们也要为我做见证，因为你们从开始就与我在一起。<verse eid="JHN 15:27"/></para>
+  <chapter eid="JHN 15"/>
+  <chapter number="16" style="c" sid="JHN 16"/>
+  <para style="s1">圣灵的工作</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 16:1"/>“我把这些事告诉你们，以免你们背弃信仰。 <verse eid="JHN 16:1"/><verse number="2" style="v" sid="JHN 16:2"/>人们将把你们赶出会堂，时候将到，杀害你们的人还以为是在事奉上帝。 <verse eid="JHN 16:2"/><verse number="3" style="v" sid="JHN 16:3"/>他们这样做，是因为他们根本不认识父，也不认识我。 <verse eid="JHN 16:3"/><verse number="4" style="v" sid="JHN 16:4"/>我把这些事提前告诉你们，是要叫你们到时候可以想起我曾跟你们讲过这些事。我以前没有告诉你们，那是因为我还跟你们在一起。<verse eid="JHN 16:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JHN 16:5"/>“现在我要去差我来的父那里，你们没有人问我去哪里。 <verse eid="JHN 16:5"/><verse number="6" style="v" sid="JHN 16:6"/>因为我把这些事告诉了你们，你们心里充满了忧愁。 <verse eid="JHN 16:6"/><verse number="7" style="v" sid="JHN 16:7"/>然而，我把实情告诉你们，我去对你们是有益的，因为如果我不去，护慰者就不会来，我去了就会派祂到你们这里来。 <verse eid="JHN 16:7"/><verse number="8" style="v" sid="JHN 16:8"/>祂来了，必让世人在罪、义和审判方面知罪。 <verse eid="JHN 16:8"/><verse number="9" style="v" sid="JHN 16:9"/>关于罪，是因为他们不信我； <verse eid="JHN 16:9"/><verse number="10" style="v" sid="JHN 16:10"/>关于义，是因为我要去父那里，你们再也看不到我了； <verse eid="JHN 16:10"/><verse number="11" style="v" sid="JHN 16:11"/>关于审判，是因为这世界的王受了审判。<verse eid="JHN 16:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 16:12"/>“我还有许多事情要告诉你们，可是你们现在还不能承受。 <verse eid="JHN 16:12"/><verse number="13" style="v" sid="JHN 16:13"/>等到真理之灵来了，祂会引导你们进入一切真理。祂不凭自己说话，而是把祂所听见的和有关将来的事告诉你们。 <verse eid="JHN 16:13"/><verse number="14" style="v" sid="JHN 16:14"/>祂也要把从我领受的指示你们，使我得荣耀。 <verse eid="JHN 16:14"/><verse number="15" style="v" sid="JHN 16:15"/>父的一切都是我的，所以我才说圣灵要把从我领受的指示你们。<verse eid="JHN 16:15"/></para>
+  <para style="s1">转忧为喜</para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 16:16"/>“不久，你们就见不到我了。再过不久，你们还会看见我。”<verse eid="JHN 16:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 16:17"/>几个门徒彼此议论说：“祂说，‘不久，你们就见不到我了，再过不久，你们还会看见我’，又说，‘因为我要去父那里’，这到底是什么意思呢？ <verse eid="JHN 16:17"/><verse number="18" style="v" sid="JHN 16:18"/>祂说‘不久’是什么意思呢？我们真不明白祂在说什么！”<verse eid="JHN 16:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 16:19"/>耶稣知道他们想问祂，就说：“我说，‘不久，你们就见不到我了。再过不久，你们还会看见我。’你们在议论这话是什么意思吗？ <verse eid="JHN 16:19"/><verse number="20" style="v" sid="JHN 16:20"/>我实实在在地告诉你们，你们将痛哭、哀号，世人却要欢喜；你们将忧愁，然而你们的忧愁将变为喜乐。 <verse eid="JHN 16:20"/><verse number="21" style="v" sid="JHN 16:21"/>妇人分娩时都会痛苦，但孩子生下来后，她就会因为这世界添了一个新生命而欢喜，忘掉了生产的剧痛。 <verse eid="JHN 16:21"/><verse number="22" style="v" sid="JHN 16:22"/>同样，现在你们痛苦，但到我再见你们的时候，你们的心必欢喜，而且这份喜乐是谁也夺不去的。<verse eid="JHN 16:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 16:23"/>“到那一天，你们就什么也不用问我了。我实实在在地告诉你们，你们奉我的名无论向父求什么，祂都会赐给你们。 <verse eid="JHN 16:23"/><verse number="24" style="v" sid="JHN 16:24"/>你们从来没有奉我的名求过什么，你们现在求，就必得到，好使你们的喜乐满溢。<verse eid="JHN 16:24"/></para>
+  <para style="s1">胜过世界</para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 16:25"/>“我一直用比喻跟你们讲这些事，不久，我就不再用比喻了，而是清楚地把父的事告诉你们。 <verse eid="JHN 16:25"/><verse number="26" style="v" sid="JHN 16:26"/>到那天，你们将要奉我的名祈求，我不是说我要为你们向父祈求。 <verse eid="JHN 16:26"/><verse number="27" style="v" sid="JHN 16:27"/>父爱你们，因为你们一直爱我，并且相信我来自上帝。 <verse eid="JHN 16:27"/><verse number="28" style="v" sid="JHN 16:28"/>我从父那里来到这个世界，现在我要离开这个世界回到父那里。”<verse eid="JHN 16:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JHN 16:29"/>门徒说：“现在你直截了当地告诉我们，不再用比喻了。 <verse eid="JHN 16:29"/><verse number="30" style="v" sid="JHN 16:30"/>现在我们知道你无所不知，无需人问你什么，因此我们相信你来自上帝。”<verse eid="JHN 16:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 16:31"/>耶稣说：“你们现在相信吗？ <verse eid="JHN 16:31"/><verse number="32" style="v" sid="JHN 16:32"/>看啊！时候快到了，现在就是，你们将要分散，各自回家，只留下我一人。不过，我并非一人，因为父与我在一起。 <verse eid="JHN 16:32"/><verse number="33" style="v" sid="JHN 16:33"/>我把这些事告诉你们，是要叫你们在我里面有平安。你们在世上会有苦难，但你们要放心，我已经胜过这个世界。”<verse eid="JHN 16:33"/></para>
+  <chapter eid="JHN 16"/>
+  <chapter number="17" style="c" sid="JHN 17"/>
+  <para style="s1">耶稣的祷告</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 17:1"/>耶稣说完后，就举目望着天说：“父啊！时候到了，愿你使你的儿子得荣耀，好让你的儿子也使你得荣耀。 <verse eid="JHN 17:1"/><verse number="2" style="v" sid="JHN 17:2"/>因为你把管理世人的权柄赐给了祂，使祂可以将永生赐予你赐给祂的人。 <verse eid="JHN 17:2"/><verse number="3" style="v" sid="JHN 17:3"/>这永生就是，认识你独一的真神，并且认识你差来的耶稣基督。 <verse eid="JHN 17:3"/><verse number="4" style="v" sid="JHN 17:4"/>我已经完成你交给我的工作，使你在地上得了荣耀。 <verse eid="JHN 17:4"/><verse number="5" style="v" sid="JHN 17:5"/>父啊，现在让我和你同享创世以前我们共有的荣耀吧！<verse eid="JHN 17:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 17:6"/>“你从世上赐给我的人，我已将你的名显明给他们。他们本来属于你，你将他们赐给了我，他们遵守了你的道。 <verse eid="JHN 17:6"/><verse number="7" style="v" sid="JHN 17:7"/>如今他们知道，我所领受的一切都是从你而来的， <verse eid="JHN 17:7"/><verse number="8" style="v" sid="JHN 17:8"/>因为我已经把你赐给我的道赐给他们，他们也接受了，并且确实知道我是从你那里来的，也相信是你差遣了我。<verse eid="JHN 17:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="JHN 17:9"/>“我不为世人祈求，却为他们祈求，就是为你赐给我的那些人祈求，因为他们属于你。 <verse eid="JHN 17:9"/><verse number="10" style="v" sid="JHN 17:10"/>凡属于我的都是你的，凡属于你的也都是我的，并且我从他们身上得了荣耀。 <verse eid="JHN 17:10"/><verse number="11" style="v" sid="JHN 17:11"/>现在我要离开这个世界去你那里了，他们却仍然留在世上。圣父啊，求你为了自己的名，就是你赐给我的名而保守他们，使他们像我们一样合而为一。 <verse eid="JHN 17:11"/><verse number="12" style="v" sid="JHN 17:12"/>我和他们在一起的时候，靠着你赐给我的名保守他们，护卫他们。除了那个注定灭亡的人以外，他们一个也没有灭亡，这是为了应验圣经上的话。<verse eid="JHN 17:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 17:13"/>“现在我要去你那里了，我在世上这样说，是要叫他们心里充满我的喜乐。 <verse eid="JHN 17:13"/><verse number="14" style="v" sid="JHN 17:14"/>我已将你的道赐给他们，世人恨他们，因为他们像我一样不属于这个世界。 <verse eid="JHN 17:14"/><verse number="15" style="v" sid="JHN 17:15"/>我不求你带他们离开这个世界，但求你保守他们脱离那恶者。 <verse eid="JHN 17:15"/><verse number="16" style="v" sid="JHN 17:16"/>因为他们像我一样不属于这个世界。 <verse eid="JHN 17:16"/><verse number="17" style="v" sid="JHN 17:17"/>求你用真理使他们圣洁。你的道就是真理。 <verse eid="JHN 17:17"/><verse number="18" style="v" sid="JHN 17:18"/>你怎样差我到世上来，我也照样差他们到世人中间。 <verse eid="JHN 17:18"/><verse number="19" style="v" sid="JHN 17:19"/>为了他们，我献上自己，使他们借着真理可以圣洁。<verse eid="JHN 17:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 17:20"/>“我不但为这些人祈求，也为那些因他们的话而信我的人祈求， <verse eid="JHN 17:20"/><verse number="21" style="v" sid="JHN 17:21"/>使他们都合而为一，正如父你在我里面，我在你里面一样，使他们也在我们里面，好让世人相信是你差我来的。 <verse eid="JHN 17:21"/><verse number="22" style="v" sid="JHN 17:22"/>我又将你赐给我的荣耀赐给他们，使他们像我们一样合而为一。 <verse eid="JHN 17:22"/><verse number="23" style="v" sid="JHN 17:23"/>我在他们里面，你在我里面，使他们完完全全地合而为一。这样，世人便知道我是你差来的，而且知道你像爱我一样爱他们。<verse eid="JHN 17:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 17:24"/>“父啊！我在哪里，愿你赐给我的人也在哪里，好让他们看见你赐给我的荣耀，因为在创世以前你已经爱我了。 <verse eid="JHN 17:24"/><verse number="25" style="v" sid="JHN 17:25"/>公义的父啊！尽管世人不认识你，但我认识你，这些人也知道是你差我来的。 <verse eid="JHN 17:25"/><verse number="26" style="v" sid="JHN 17:26"/>我使他们认识了你的名，我还要使他们更认识你的名，好让你对我的爱存在他们里面，我也在他们里面。”<verse eid="JHN 17:26"/></para>
+  <chapter eid="JHN 17"/>
+  <chapter number="18" style="c" sid="JHN 18"/>
+  <para style="s1">耶稣被捕</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 18:1"/>耶稣祷告完毕，就带着门徒穿过<char style="pn">汲沦</char>溪，进了那里的一个园子。 <verse eid="JHN 18:1"/><verse number="2" style="v" sid="JHN 18:2"/>因为耶稣时常带着门徒到那里聚会，所以出卖耶稣的<char style="pn">犹大</char>也知道那地方。 <verse eid="JHN 18:2"/><verse number="3" style="v" sid="JHN 18:3"/>这时，<char style="pn">犹大</char>带着一队士兵以及祭司长和法利赛人的差役，拿着灯笼、火把和兵器来了。 <verse eid="JHN 18:3"/><verse number="4" style="v" sid="JHN 18:4"/>耶稣知道将要发生在自己身上的一切事，于是出来问他们：“你们找谁？”<verse eid="JHN 18:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JHN 18:5"/>他们回答说：“<char style="pn">拿撒勒</char>人耶稣！”</para>
+  <para style="p" vid="JHN 18:5">耶稣说：“我就是。”那时出卖耶稣的<char style="pn">犹大</char>也站在他们当中。<verse eid="JHN 18:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 18:6"/>他们听到耶稣说“我就是”，便后退跌倒在地上。<verse eid="JHN 18:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 18:7"/>耶稣又问：“你们找谁？”</para>
+  <para style="p" vid="JHN 18:7">他们说：“<char style="pn">拿撒勒</char>人耶稣。”<verse eid="JHN 18:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 18:8"/>耶稣说：“我已经告诉你们我就是。你们既然找我，就让这些人走吧。” <verse eid="JHN 18:8"/><verse number="9" style="v" sid="JHN 18:9"/>这是要应验祂以前说的：“你赐给我的人一个也没有失掉。”<note caller="+" style="f"><char style="fr" closed="false">18:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="JHN 6:39">约翰福音6:39</ref>。</char></char></note><verse eid="JHN 18:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 18:10"/>
+    <char style="pn">西门·彼得</char>带着一把刀，他拔刀向大祭司的奴仆<char style="pn">马勒古</char>砍去，削掉了他的右耳。<verse eid="JHN 18:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 18:11"/>耶稣对<char style="pn">彼得</char>说：“收刀入鞘吧！我父赐给我的杯，我怎能不喝呢？”<verse eid="JHN 18:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 18:12"/>千夫长带着士兵和<char style="pn">犹太</char>人的差役抓住耶稣，把祂捆绑起来。 <verse eid="JHN 18:12"/><verse number="13" style="v" sid="JHN 18:13"/>他们押着耶稣先去见<char style="pn">亚那</char>，他是那一年的大祭司<char style="pn">该亚法</char>的岳父。 <verse eid="JHN 18:13"/><verse number="14" style="v" sid="JHN 18:14"/>这个<char style="pn">该亚法</char>以前曾对<char style="pn">犹太</char>人建议说：“不如一人替众人死。”<verse eid="JHN 18:14"/></para>
+  <para style="s1">彼得不认主</para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 18:15"/>
+    <char style="pn">西门·彼得</char>和另一个门徒跟在耶稣后面。那门徒认识大祭司，就跟着耶稣进了大祭司的院子。 <verse eid="JHN 18:15"/><verse number="16" style="v" sid="JHN 18:16"/><char style="pn">彼得</char>留在门外。后来，认识大祭司的那个门徒出来对看门的婢女说了一声，便把<char style="pn">彼得</char>也带了进去。<verse eid="JHN 18:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 18:17"/>看门的婢女问<char style="pn">彼得</char>：“你不也是这个人的门徒吗？”</para>
+  <para style="p" vid="JHN 18:17">他说：“我不是。”<verse eid="JHN 18:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JHN 18:18"/>天气很冷，奴仆和差役生了一堆炭火，站着烤火取暖，<char style="pn">彼得</char>也跟他们站在一起烤火取暖。<verse eid="JHN 18:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 18:19"/>那时，大祭司正在盘问耶稣有关祂的门徒和祂的教导之事。<verse eid="JHN 18:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 18:20"/>耶稣说：“我是公开对世人讲的，我常在<char style="pn">犹太</char>人聚集的会堂和圣殿教导人，没有在背地里讲过什么。 <verse eid="JHN 18:20"/><verse number="21" style="v" sid="JHN 18:21"/>你何必问我呢？问那些听过我讲的人吧，他们知道我讲过什么。”<verse eid="JHN 18:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 18:22"/>耶稣话才说完，站在旁边的差役就打祂耳光，说：“你敢这样回答大祭司！”<verse eid="JHN 18:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 18:23"/>耶稣说：“如果我说错了，你可以指出我错在哪里。如果我说的对，你为什么打我呢？”<verse eid="JHN 18:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 18:24"/>
+    <char style="pn">亚那</char>派人把耶稣捆绑着押到大祭司<char style="pn">该亚法</char>那里。<verse eid="JHN 18:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 18:25"/>那时<char style="pn">西门·彼得</char>仍然站在那里烤火，有人问他：“你不也是祂的门徒吗？”</para>
+  <para style="p" vid="JHN 18:25">
+    <char style="pn">彼得</char>否认说：“我不是！”<verse eid="JHN 18:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 18:26"/>大祭司有个奴仆，跟被<char style="pn">彼得</char>削掉耳朵的那人是亲戚，他说：“我不是看见你和祂一起在园子里吗？” <verse eid="JHN 18:26"/><verse number="27" style="v" sid="JHN 18:27"/><char style="pn">彼得</char>再次否认。就在那时，鸡叫了。<verse eid="JHN 18:27"/></para>
+  <para style="s1">彼拉多审问耶稣</para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 18:28"/>黎明的时候，众人从<char style="pn">该亚法</char>那里把耶稣押往总督府，他们自己却没有进去，因为怕沾染污秽，不能吃逾越节的晚餐。 <verse eid="JHN 18:28"/><verse number="29" style="v" sid="JHN 18:29"/><char style="pn">彼拉多</char>出来问他们：“你们控告这个人什么罪？”<verse eid="JHN 18:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="JHN 18:30"/>他们回答说：“如果祂没有为非作歹，我们也不会把祂送到你这里来。”<verse eid="JHN 18:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 18:31"/>
+    <char style="pn">彼拉多</char>说：“你们把祂带走，按照你们的律法去审理吧。”</para>
+  <para style="p" vid="JHN 18:31">
+    <char style="pn">犹太</char>人说：“可是我们无权处死人。” <verse eid="JHN 18:31"/><verse number="32" style="v" sid="JHN 18:32"/>这是要应验耶稣预言自己会怎样死的话。<verse eid="JHN 18:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="JHN 18:33"/>
+    <char style="pn">彼拉多</char>回到总督府提审耶稣，问道：“你是<char style="pn">犹太</char>人的王吗？”<verse eid="JHN 18:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="JHN 18:34"/>耶稣回答说：“你这样问，是你自己的意思，还是听别人说的？”<verse eid="JHN 18:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="JHN 18:35"/>
+    <char style="pn">彼拉多</char>说：“难道我是<char style="pn">犹太</char>人吗？是你们<char style="pn">犹太</char>人和祭司长把你送来的。你到底做了什么？”<verse eid="JHN 18:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="JHN 18:36"/>耶稣答道：“我的国不属于这个世界，如果我的国属于这个世界，我的臣仆早就起来争战了，我也不会被交在<char style="pn">犹太</char>人的手里。但现在我的国不属于这个世界。”<verse eid="JHN 18:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="JHN 18:37"/>于是<char style="pn">彼拉多</char>对祂说：“那么，你是王吗？”</para>
+  <para style="p" vid="JHN 18:37">耶稣说：“你说我是王，我正是为此而生，也为此来到世上为真理做见证，属于真理的人都听从我的话。”<verse eid="JHN 18:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="JHN 18:38"/>
+    <char style="pn">彼拉多</char>说：“真理是什么？”说完了，又到外面对<char style="pn">犹太</char>人说：“我查不出祂有什么罪。 <verse eid="JHN 18:38"/><verse number="39" style="v" sid="JHN 18:39"/>不过按照惯例，在逾越节我要给你们释放一个人。你们要我为你们释放<char style="pn">犹太</char>人的王吗？”<verse eid="JHN 18:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="JHN 18:40"/>众人又高喊：“不要这个人！我们要<char style="pn">巴拉巴</char>！”<char style="pn">巴拉巴</char>是个强盗。<verse eid="JHN 18:40"/></para>
+  <chapter eid="JHN 18"/>
+  <chapter number="19" style="c" sid="JHN 19"/>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 19:1"/>于是<char style="pn">彼拉多</char>命人鞭打耶稣。 <verse eid="JHN 19:1"/><verse number="2" style="v" sid="JHN 19:2"/>士兵用荆棘编成冠冕戴在祂头上，又拿紫袍给祂穿上， <verse eid="JHN 19:2"/><verse number="3" style="v" sid="JHN 19:3"/>来到祂面前说：“<char style="pn">犹太</char>人的王万岁！”然后又用手掌打祂。<verse eid="JHN 19:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="JHN 19:4"/>
+    <char style="pn">彼拉多</char>又走到外面对众人说：“我把祂带到你们面前，好让你们知道我查不出祂有什么罪。” <verse eid="JHN 19:4"/><verse number="5" style="v" sid="JHN 19:5"/>于是，耶稣戴着荆棘冠冕、穿着紫色长袍走出来。<char style="pn">彼拉多</char>对众人说：“你们看这个人！”<verse eid="JHN 19:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 19:6"/>祭司长和差役一看见耶稣，就喊道：“把祂钉在十字架上！把祂钉在十字架上！”</para>
+  <para style="p" vid="JHN 19:6">
+    <char style="pn">彼拉多</char>说：“你们自己把祂带去钉十字架吧！因为我查不出祂有什么罪。”<verse eid="JHN 19:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 19:7"/>
+    <char style="pn">犹太</char>人回答说：“我们有律法，按照那律法，祂理当被处死，因为祂自称是上帝的儿子。”<verse eid="JHN 19:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JHN 19:8"/>
+    <char style="pn">彼拉多</char>听了这话，更加害怕， <verse eid="JHN 19:8"/><verse number="9" style="v" sid="JHN 19:9"/>又将耶稣带回总督府，问祂：“你到底是从哪里来的？”但耶稣没有回答。<verse eid="JHN 19:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 19:10"/>
+    <char style="pn">彼拉多</char>说：“你不回答我吗？难道你不知道我有权释放你，也有权把你钉在十字架上吗？”<verse eid="JHN 19:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 19:11"/>耶稣回答说：“若非从天上赐下权柄给你，你根本无权处置我。因此，把我交给你的那人罪更大。”<verse eid="JHN 19:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 19:12"/>从那时起，<char style="pn">彼拉多</char>想要释放耶稣，可是<char style="pn">犹太</char>人却一直喊叫：“你如果释放这个人，就不是凯撒的忠臣<note caller="+" style="f"><char style="fr" closed="false">19:12 </char><char style="ft" closed="false">“忠臣”希腊文是“朋友”。</char></note>。凡自以为王的，就是背叛凯撒。”<verse eid="JHN 19:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 19:13"/>
+    <char style="pn">彼拉多</char>听了这话，就带着耶稣来到一个地方，名叫“铺石地”，<char style="pn">希伯来</char>话叫<char style="pn">厄巴大</char>。<char style="pn">彼拉多</char>在那里开庭审判祂。 <verse eid="JHN 19:13"/><verse number="14" style="v" sid="JHN 19:14"/>那天正是逾越节的预备日，大约正午，<char style="pn">彼拉多</char>对<char style="pn">犹太</char>人说：“看，你们的王！”<verse eid="JHN 19:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 19:15"/>众人喊道：“除掉祂！除掉祂！把祂钉在十字架上！”</para>
+  <para style="p" vid="JHN 19:15">
+    <char style="pn">彼拉多</char>说：“我可以把你们的王钉在十字架上吗？”</para>
+  <para style="p" vid="JHN 19:15">祭司长答道：“除了凯撒，我们没有别的王！”<verse eid="JHN 19:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 19:16"/>于是，<char style="pn">彼拉多</char>将耶稣交给他们去钉十字架，他们就把耶稣带走了。<verse eid="JHN 19:16"/></para>
+  <para style="s1">钉十字架</para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 19:17"/>耶稣背着自己的十字架出来，前往髑髅地<note caller="+" style="f"><char style="fr" closed="false">19:17 </char><char style="ft" closed="false">可能当地的石灰岩地形看起来像一具骷髅头，故此得名。</char></note>，那地方<char style="pn">希伯来</char>话叫<char style="pn">各各他</char>。 <verse eid="JHN 19:17"/><verse number="18" style="v" sid="JHN 19:18"/>他们在那里把耶稣钉在十字架上。同时还钉了两个人，一边一个，耶稣在当中。 <verse eid="JHN 19:18"/><verse number="19" style="v" sid="JHN 19:19"/><char style="pn">彼拉多</char>写了一个告示，安在十字架上，上面写着：“<char style="pn">犹太</char>人的王，<char style="pn">拿撒勒</char>人耶稣。” <verse eid="JHN 19:19"/><verse number="20" style="v" sid="JHN 19:20"/>因为耶稣被钉十字架的地方离城不远，告示上面的字是用<char style="pn">希伯来</char>、<char style="pn">罗马</char>、<char style="pn">希腊</char>三种文字写的，所以很多<char style="pn">犹太</char>人读了上面的字。<verse eid="JHN 19:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 19:21"/>
+    <char style="pn">犹太</char>人的祭司长对<char style="pn">彼拉多</char>说：“不要写‘<char style="pn">犹太</char>人的王’，应该写‘这人自称是<char style="pn">犹太</char>人的王’。”<verse eid="JHN 19:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 19:22"/>
+    <char style="pn">彼拉多</char>说：“我写了就写了。”<verse eid="JHN 19:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 19:23"/>士兵把耶稣钉在十字架上，又把祂的衣服分成四份，每人一份。剩下的内衣从上到下是一块布，没有缝口。 <verse eid="JHN 19:23"/><verse number="24" style="v" sid="JHN 19:24"/>他们就商量说：“不要撕破它，让我们抽签决定给谁吧。”<note caller="+" style="f"><char style="fr" closed="false">19:24 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 22:18">诗篇22:18</ref>。</char></char></note>这件事是要应验圣经上的话：“他们分了我的外衣，又为我的内衣抽签。”士兵果然这样做了。<verse eid="JHN 19:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="JHN 19:25"/>耶稣的十字架旁边站着祂母亲、祂母亲的姊妹、<char style="pn">革罗罢</char>的妻子<char style="pn">玛丽亚</char>和<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>。 <verse eid="JHN 19:25"/><verse number="26" style="v" sid="JHN 19:26"/>耶稣看见祂的母亲和祂爱的门徒都站在旁边，就对母亲说：“女士，看啊，他是你的儿子。” <verse eid="JHN 19:26"/><verse number="27" style="v" sid="JHN 19:27"/>然后对那门徒说：“看啊，她是你的母亲。”从那天起，那个门徒就把她接到自己家里去了。<verse eid="JHN 19:27"/></para>
+  <para style="s1">耶稣之死</para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 19:28"/>之后，耶稣知道一切都完成了，就说：“我渴了。”这是要应验圣经上的话。 <verse eid="JHN 19:28"/><verse number="29" style="v" sid="JHN 19:29"/>那里有一个器皿盛满了酸酒。有人用海绵蘸满了酸酒，绑在牛膝草上送到祂嘴边， <verse eid="JHN 19:29"/><verse number="30" style="v" sid="JHN 19:30"/>耶稣喝了那酸酒，然后说：“成了！”就垂下头来，将灵魂交给了上帝。<verse eid="JHN 19:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="JHN 19:31"/>因为那天是预备日，第二天的安息日是个大日子，为了避免在安息日有尸首留在十字架上，<char style="pn">犹太</char>人便求<char style="pn">彼拉多</char>叫人打断他们的腿，把他们搬走。 <verse eid="JHN 19:31"/><verse number="32" style="v" sid="JHN 19:32"/>于是，士兵上前把与耶稣同钉十字架的两个人的腿都打断了。 <verse eid="JHN 19:32"/><verse number="33" style="v" sid="JHN 19:33"/>但是他们来到耶稣那里时，发现祂已经死了，就没有打断祂的腿， <verse eid="JHN 19:33"/><verse number="34" style="v" sid="JHN 19:34"/>只是有一个士兵用矛刺了一下祂的肋旁，顿时有血和水流了出来。 <verse eid="JHN 19:34"/><verse number="35" style="v" sid="JHN 19:35"/>看见这事的人为此做见证，他的见证是真实的，他知道自己所说的是事实，好让你们可以相信。 <verse eid="JHN 19:35"/><verse number="36" style="v" sid="JHN 19:36"/>这些事的发生是为了应验圣经上的话：“祂的骨头一根也不会折断。”<note caller="+" style="f"><char style="fr" closed="false">19:36 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 12:46">出埃及记12:46</ref>；<ref loc="NUM 9:12">民数记9:12</ref>；<ref loc="PSA 34:20">诗篇34:20</ref>。</char></char></note> <verse eid="JHN 19:36"/><verse number="37" style="v" sid="JHN 19:37"/>还有经文说：“他们必仰望自己所刺的那位。”<note caller="+" style="f"><char style="fr" closed="false">19:37 </char><char style="ft" closed="false"><char style="xt"><ref loc="ZEC 12:10">撒迦利亚书12:10</ref>。</char></char></note><verse eid="JHN 19:37"/></para>
+  <para style="s1">安葬耶稣</para>
+  <para style="p">
+    <verse number="38" style="v" sid="JHN 19:38"/>事后，有一个名叫<char style="pn">约瑟</char>的<char style="pn">亚利马太</char>人请求<char style="pn">彼拉多</char>让他为耶稣收尸。他因为畏惧<char style="pn">犹太</char>人，只是暗中做耶稣的门徒。<char style="pn">彼拉多</char>批准后，他就把耶稣的遗体领去。 <verse eid="JHN 19:38"/><verse number="39" style="v" sid="JHN 19:39"/>曾经夜访耶稣的<char style="pn">尼哥德慕</char>也来了，他带来了没药和沉香调成的香料，重约三十四公斤。 <verse eid="JHN 19:39"/><verse number="40" style="v" sid="JHN 19:40"/>他们按照<char style="pn">犹太</char>人殡葬的习俗，用细麻布加上香料把耶稣的遗体裹好。 <verse eid="JHN 19:40"/><verse number="41" style="v" sid="JHN 19:41"/>在耶稣被钉十字架的地方有一个园子，里边有一座新坟墓，从来没有安葬过人。 <verse eid="JHN 19:41"/><verse number="42" style="v" sid="JHN 19:42"/>因为那天是<char style="pn">犹太</char>人的预备日，这座新坟墓也在附近，他们就把耶稣安放在那里。<verse eid="JHN 19:42"/></para>
+  <chapter eid="JHN 19"/>
+  <chapter number="20" style="c" sid="JHN 20"/>
+  <para style="s1">耶稣复活</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 20:1"/>周日清晨，天还未亮，<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>就来到坟墓前，发现墓口的石头已经挪开了。 <verse eid="JHN 20:1"/><verse number="2" style="v" sid="JHN 20:2"/>她赶快跑去告诉<char style="pn">西门·彼得</char>和耶稣所爱的那个门徒，说：“有人把主从坟墓里搬走了，不知放到哪里去了。”<verse eid="JHN 20:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="JHN 20:3"/>
+    <char style="pn">彼得</char>和那个门徒听了就出去，往坟墓那边跑。 <verse eid="JHN 20:3"/><verse number="4" style="v" sid="JHN 20:4"/>两个人一起跑，但那个门徒比<char style="pn">彼得</char>跑得快，所以先到了坟墓。 <verse eid="JHN 20:4"/><verse number="5" style="v" sid="JHN 20:5"/>他没有进去，只是探头往里看，看见细麻布还在那里。 <verse eid="JHN 20:5"/><verse number="6" style="v" sid="JHN 20:6"/><char style="pn">西门·彼得</char>随后也来了，他进到里边，看到细麻布放在那里， <verse eid="JHN 20:6"/><verse number="7" style="v" sid="JHN 20:7"/>耶稣的裹头巾则卷着放在另一处，没有和细麻布放在一起。 <verse eid="JHN 20:7"/><verse number="8" style="v" sid="JHN 20:8"/>先到的那个门徒也进来了，看见这种情形就信了。 <verse eid="JHN 20:8"/><verse number="9" style="v" sid="JHN 20:9"/>因为他们还不明白圣经上有关耶稣必须从死里复活的话。 <verse eid="JHN 20:9"/><verse number="10" style="v" sid="JHN 20:10"/>然后，他们各自回家去了。<verse eid="JHN 20:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="JHN 20:11"/>
+    <char style="pn">玛丽亚</char>却站在坟墓外面哭泣，边哭边往坟墓里面看， <verse eid="JHN 20:11"/><verse number="12" style="v" sid="JHN 20:12"/>看见两个穿着白衣的天使，分别坐在原来安放耶稣遗体的头脚两端。<verse eid="JHN 20:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="JHN 20:13"/>天使对她说：“妇人，你为什么哭呢？”</para>
+  <para style="p" vid="JHN 20:13">她说：“有人把我的主搬走了，我不知道放在什么地方。” <verse eid="JHN 20:13"/><verse number="14" style="v" sid="JHN 20:14"/>说完，她转过身来，看见耶稣站在那里，但她不知道是耶稣。<verse eid="JHN 20:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 20:15"/>耶稣问她：“妇人，你为什么哭？你在找谁？”</para>
+  <para style="p" vid="JHN 20:15">
+    <char style="pn">玛丽亚</char>还以为祂是园丁，就说：“先生，如果是你把祂搬走了，请告诉我放在哪里了，我好搬回来。”<verse eid="JHN 20:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 20:16"/>耶稣说：“<char style="pn">玛丽亚</char>。”</para>
+  <para style="p" vid="JHN 20:16">
+    <char style="pn">玛丽亚</char>转向祂用<char style="pn">希伯来</char>话说：“拉波尼！”拉波尼的意思是老师。<verse eid="JHN 20:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 20:17"/>耶稣说：“不要拉着我，我还没有升到父那里。你先去找我的众弟兄，告诉他们我要升天去见我的父，也是你们的父；去见我的上帝，也是你们的上帝。”<verse eid="JHN 20:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="JHN 20:18"/>
+    <char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>就去向门徒报信，说：“我看见主了！”又把主对她说的话告诉门徒。<verse eid="JHN 20:18"/></para>
+  <para style="s1">向门徒显现</para>
+  <para style="p">
+    <verse number="19" style="v" sid="JHN 20:19"/>当晚，即周日晚上，门徒因为害怕<char style="pn">犹太</char>人，把房门都关上了。忽然，耶稣来了，站在他们当中，对他们说：“愿你们平安！” <verse eid="JHN 20:19"/><verse number="20" style="v" sid="JHN 20:20"/>说完，祂把手和肋旁给他们看。门徒看见主，十分欢喜。<verse eid="JHN 20:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="JHN 20:21"/>耶稣又说：“愿你们平安！父怎样差遣我，我也照样差遣你们。” <verse eid="JHN 20:21"/><verse number="22" style="v" sid="JHN 20:22"/>然后祂向他们吹了一口气，说：“你们领受圣灵吧！ <verse eid="JHN 20:22"/><verse number="23" style="v" sid="JHN 20:23"/>你们赦免谁的罪，谁的罪就得到赦免；你们不赦免谁的罪，谁的罪就得不到赦免。”<verse eid="JHN 20:23"/></para>
+  <para style="s1">向多马显现</para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 20:24"/>耶稣显现的时候，十二个门徒中绰号“双胞胎”的<char style="pn">多马</char>不在场。 <verse eid="JHN 20:24"/><verse number="25" style="v" sid="JHN 20:25"/>其他门徒告诉他：“我们看见主了！”可是<char style="pn">多马</char>说：“除非我亲眼看见祂手上的钉痕，用手摸到祂手上的钉痕和祂的肋旁，否则我决不信。”<verse eid="JHN 20:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="JHN 20:26"/>过了八天，门徒又聚在一起，<char style="pn">多马</char>也在，门都关着。突然耶稣来了，站在他们当中说：“愿你们平安！” <verse eid="JHN 20:26"/><verse number="27" style="v" sid="JHN 20:27"/>然后对<char style="pn">多马</char>说：“把你的指头放在我手上摸摸看，伸出手来摸摸我的肋旁。不要怀疑，要相信！”<verse eid="JHN 20:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="JHN 20:28"/>
+    <char style="pn">多马</char>回答说：“我的主，我的上帝！”<verse eid="JHN 20:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="JHN 20:29"/>耶稣说：“你看见我才信，那些没有看见就信的人有福了。”<verse eid="JHN 20:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="JHN 20:30"/>耶稣在门徒面前还行了许多神迹，只是没有记在这本书里。 <verse eid="JHN 20:30"/><verse number="31" style="v" sid="JHN 20:31"/>而记载这些事，是为了使你们相信耶稣就是基督，是上帝的儿子，并且使你们这些信祂的人可以靠祂的名得到生命。<verse eid="JHN 20:31"/></para>
+  <chapter eid="JHN 20"/>
+  <chapter number="21" style="c" sid="JHN 21"/>
+  <para style="s1">海边显现</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JHN 21:1"/>后来，耶稣在<char style="pn">提比哩亚</char>湖边又向门徒显现。当时的情形是这样： <verse eid="JHN 21:1"/><verse number="2" style="v" sid="JHN 21:2"/><char style="pn">西门·彼得</char>、绰号“双胞胎”的<char style="pn">多马</char>、<char style="pn">加利利</char>的<char style="pn">迦拿</char>人<char style="pn">拿但业</char>、<char style="pn">西庇太</char>的两个儿子以及其他两个门徒都在一起。<verse eid="JHN 21:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="JHN 21:3"/>
+    <char style="pn">西门·彼得</char>对他们说：“我要去打鱼！”</para>
+  <para style="p" vid="JHN 21:3">众人说：“我们也跟你去。”于是他们就出去，上了船，但那一夜什么也没打到。 <verse eid="JHN 21:3"/><verse number="4" style="v" sid="JHN 21:4"/>天将破晓的时候，耶稣站在岸上，但门徒都不知道是耶稣。<verse eid="JHN 21:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JHN 21:5"/>耶稣对他们说：“孩子们，打到鱼没有？”</para>
+  <para style="p" vid="JHN 21:5">他们回答说：“没有！”<verse eid="JHN 21:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="JHN 21:6"/>耶稣说：“在船的右边下网就会打到鱼。”于是他们照着祂的话把网撒下去，网到的鱼多到连网都拉不动。<verse eid="JHN 21:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="JHN 21:7"/>耶稣所爱的那个门徒对<char style="pn">彼得</char>说：“是主！”那时<char style="pn">西门·彼得</char>赤着身子，一听见是主，立刻束上外衣，跳进海里。 <verse eid="JHN 21:7"/><verse number="8" style="v" sid="JHN 21:8"/>其他门徒离岸不远，约有一百米，他们随后用船把那一网鱼拖到岸边。 <verse eid="JHN 21:8"/><verse number="9" style="v" sid="JHN 21:9"/>他们上岸后，看见有一堆炭火，上面有鱼和饼。<verse eid="JHN 21:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JHN 21:10"/>耶稣说：“拿几条刚打的鱼来。” <verse eid="JHN 21:10"/><verse number="11" style="v" sid="JHN 21:11"/><char style="pn">西门·彼得</char>就上船把网拉上岸。网里一共有一百五十三条大鱼！虽然鱼这么多，网却没有破。<verse eid="JHN 21:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JHN 21:12"/>耶稣又说：“你们来吃早餐吧！”没有一个门徒敢问祂是谁，他们都知道祂是主。 <verse eid="JHN 21:12"/><verse number="13" style="v" sid="JHN 21:13"/>耶稣过来把饼和鱼分给他们。<verse eid="JHN 21:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JHN 21:14"/>这是耶稣从死里复活后第三次向门徒显现。<verse eid="JHN 21:14"/></para>
+  <para style="s1">耶稣和彼得</para>
+  <para style="p">
+    <verse number="15" style="v" sid="JHN 21:15"/>吃过早餐后，耶稣对<char style="pn">西门·彼得</char>说：“<char style="pn">约翰</char>的儿子<char style="pn">西门</char>，你比这些人更爱我吗？<note caller="+" style="f"><char style="fr" closed="false">21:15 </char><char style="ft" closed="false">“你比这些人更爱我吗”或译“你爱我比爱这些更深吗”。</char></note>”</para>
+  <para style="p" vid="JHN 21:15">
+    <char style="pn">彼得</char>说：“主啊！是的，你知道我爱你。”</para>
+  <para style="p" vid="JHN 21:15">耶稣对他说：“你要喂养我的小羊。”<verse eid="JHN 21:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="JHN 21:16"/>耶稣第二次问：“<char style="pn">约翰</char>的儿子<char style="pn">西门</char>，你爱我吗？”</para>
+  <para style="p" vid="JHN 21:16">
+    <char style="pn">彼得</char>说：“主啊！是的，你知道我爱你。”</para>
+  <para style="p" vid="JHN 21:16">耶稣说：“你要牧养我的羊。”<verse eid="JHN 21:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="JHN 21:17"/>耶稣第三次问：“<char style="pn">约翰</char>的儿子<char style="pn">西门</char>，你爱我吗？”</para>
+  <para style="p" vid="JHN 21:17">
+    <char style="pn">彼得</char>因为耶稣一连三次这样问他，就难过起来，于是对耶稣说：“主啊！你无所不知，你知道我爱你。”</para>
+  <para style="p" vid="JHN 21:17">耶稣说：“你要喂养我的羊。 <verse eid="JHN 21:17"/><verse number="18" style="v" sid="JHN 21:18"/>我实实在在地告诉你，你年轻的时候，自己穿上衣服，想去哪里就去哪里。但到你年老的时候，你将伸出手来，别人要把你绑起来带到你不愿意去的地方。” <verse eid="JHN 21:18"/><verse number="19" style="v" sid="JHN 21:19"/>这话是暗示<char style="pn">彼得</char>将要怎样死来使上帝得荣耀。之后，耶稣又对他说：“你跟从我吧！”<verse eid="JHN 21:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JHN 21:20"/>
+    <char style="pn">彼得</char>转身看见耶稣所爱的那个门徒跟在后面，就是吃最后的晚餐时靠在耶稣身边问“主啊！是谁要出卖你”的那个门徒。 <verse eid="JHN 21:20"/><verse number="21" style="v" sid="JHN 21:21"/><char style="pn">彼得</char>问耶稣：“主啊！他将来会怎样呢？”<verse eid="JHN 21:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JHN 21:22"/>耶稣说：“我如果要他活到我再来，与你有什么关系？你只管跟从我吧！”<verse eid="JHN 21:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="JHN 21:23"/>于是在信徒中间就传说那个门徒不会死。其实耶稣并没有说他不会死，只是说：“我如果要他活到我再来，与你有什么关系？”<verse eid="JHN 21:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="JHN 21:24"/>为这些事做见证、记录这些事的就是那个门徒，我们都知道他的见证是真实的。 <verse eid="JHN 21:24"/><verse number="25" style="v" sid="JHN 21:25"/>耶稣还做了许多其他的事，如果都写成书，我想整个世界也容纳不下。<verse eid="JHN 21:25"/></para>
+  <chapter eid="JHN 21"/>
+</usx>

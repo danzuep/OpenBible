@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="AMO" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">阿摩司书</para>
+  <para style="toc1">阿摩司书</para>
+  <para style="toc2">阿摩司书</para>
+  <para style="toc3">摩</para>
+  <para style="mt1">阿摩司书</para>
+  <chapter number="1" style="c" sid="AMO 1"/>
+  <para style="p">
+    <verse number="1" style="v" sid="AMO 1:1"/>
+    <char style="pn">犹大</char>王<char style="pn">乌西雅</char>、<char style="pn">约阿施</char>的儿子<char style="pn">以色列</char>王<char style="pn">耶罗波安</char>执政期间，大地震前两年，<char style="pn">提哥亚</char>的牧人<char style="pn">阿摩司</char>看到了关于<char style="pn">以色列</char>的异象。以下是<char style="pn">阿摩司</char>的话。<verse eid="AMO 1:1"/></para>
+  <para style="b"/>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="2" style="v" sid="AMO 1:2"/>他说：</para>
+  <para style="q1" vid="AMO 1:2">“耶和华从<char style="pn">锡安</char>怒吼，</para>
+  <para style="q1" vid="AMO 1:2">从<char style="pn">耶路撒冷</char>发声。</para>
+  <para style="q1" vid="AMO 1:2">牧人的草场枯干，</para>
+  <para style="q1" vid="AMO 1:2">
+    <char style="pn">迦密</char>山顶枯黄。”<verse eid="AMO 1:2"/></para>
+  <para style="s1">对亚兰的审判</para>
+  <para style="q1">
+    <verse number="3" style="v" sid="AMO 1:3"/>耶和华说：</para>
+  <para style="q1" vid="AMO 1:3">“<char style="pn">大马士革</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 1:3">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 1:3">因为他们用打粮食的铁器蹂躏<char style="pn">基列</char>。<verse eid="AMO 1:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 1:4"/>所以，我要降火在<char style="pn">哈薛</char>的王宫，</para>
+  <para style="q1" vid="AMO 1:4">烧毁<char style="pn">便·哈达</char>的城堡。<verse eid="AMO 1:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 1:5"/>我要折断<char style="pn">大马士革</char>城的门闩，</para>
+  <para style="q1" vid="AMO 1:5">铲除<char style="pn">亚文</char>平原<note caller="+" style="f"><char style="fr" closed="false">1:5 </char><char style="ft" closed="false">“亚文平原”希伯来文是“邪恶谷”。亚文平原和伯·伊甸皆属于亚兰人。</char></note>的居民和<char style="pn">伯·伊甸</char>的掌权者，</para>
+  <para style="q1" vid="AMO 1:5">使<char style="pn">亚兰</char>人被掳到<char style="pn">吉珥</char><note caller="+" style="f"><char style="fr" closed="false">1:5 </char><char style="ft" closed="false">吉珥的位置不详，亚兰人原来自吉珥。</char></note>。</para>
+  <para style="q1" vid="AMO 1:5">这是耶和华说的。”<verse eid="AMO 1:5"/></para>
+  <para style="s1">对非利士的审判</para>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 1:6"/>耶和华说：</para>
+  <para style="q1" vid="AMO 1:6">“<char style="pn">迦萨</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 1:6">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 1:6">因为他们把被掳之人全都带走，</para>
+  <para style="q1" vid="AMO 1:6">卖到<char style="pn">以东</char>做奴隶。<verse eid="AMO 1:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 1:7"/>所以，我要降火在<char style="pn">迦萨</char>的城墙上，</para>
+  <para style="q1" vid="AMO 1:7">烧毁它的城堡。<verse eid="AMO 1:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 1:8"/>我要铲除<char style="pn">亚实突</char>的居民和<char style="pn">亚实基伦</char>的掌权者，</para>
+  <para style="q1" vid="AMO 1:8">伸手攻击<char style="pn">以革伦</char>，</para>
+  <para style="q1" vid="AMO 1:8">剩下的<char style="pn">非利士</char>人都要灭亡。</para>
+  <para style="q1" vid="AMO 1:8">这是主耶和华说的。”<verse eid="AMO 1:8"/></para>
+  <para style="s1">对泰尔的审判</para>
+  <para style="q1">
+    <verse number="9" style="v" sid="AMO 1:9"/>耶和华说：</para>
+  <para style="q1" vid="AMO 1:9">“<char style="pn">泰尔</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 1:9">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 1:9">因为他们背弃弟兄之盟，</para>
+  <para style="q1" vid="AMO 1:9">把被掳之人都卖到<char style="pn">以东</char>。<verse eid="AMO 1:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="AMO 1:10"/>所以，我要降火在<char style="pn">泰尔</char>的城墙上，</para>
+  <para style="q1" vid="AMO 1:10">烧毁它的城堡。”<verse eid="AMO 1:10"/></para>
+  <para style="s1">对以东的审判</para>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 1:11"/>耶和华说：</para>
+  <para style="q1" vid="AMO 1:11">“<char style="pn">以东</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 1:11">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 1:11">因为他们拔刀追赶自己的弟兄，</para>
+  <para style="q1" vid="AMO 1:11">没有半点怜悯之心；</para>
+  <para style="q1" vid="AMO 1:11">他们怒气不息，永怀愤怒。<verse eid="AMO 1:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 1:12"/>所以，我要降火在<char style="pn">提幔</char>，</para>
+  <para style="q1" vid="AMO 1:12">烧毁<char style="pn">波斯拉</char>的城堡。”<verse eid="AMO 1:12"/></para>
+  <para style="s1">对亚扪的审判</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="AMO 1:13"/>耶和华说：</para>
+  <para style="q1" vid="AMO 1:13">“<char style="pn">亚扪</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 1:13">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 1:13">因为他们为了扩张领土，</para>
+  <para style="q1" vid="AMO 1:13">竟剖开<char style="pn">基列</char>孕妇的肚腹。<verse eid="AMO 1:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="AMO 1:14"/>所以，我要在战争的呐喊声中，</para>
+  <para style="q1" vid="AMO 1:14">在狂风暴雨袭来时，</para>
+  <para style="q1" vid="AMO 1:14">降火在<char style="pn">拉巴</char>的城墙上，</para>
+  <para style="q1" vid="AMO 1:14">烧毁它的城堡。<verse eid="AMO 1:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="AMO 1:15"/>他们的君王和首领要一同被掳。</para>
+  <para style="q1" vid="AMO 1:15">这是耶和华说的。”<verse eid="AMO 1:15"/></para>
+  <chapter eid="AMO 1"/>
+  <chapter number="2" style="c" sid="AMO 2"/>
+  <para style="s1">对摩押的审判</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="AMO 2:1"/>耶和华说：</para>
+  <para style="q1" vid="AMO 2:1">“<char style="pn">摩押</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 2:1">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 2:1">因为他们把<char style="pn">以东</char>王的骸骨焚烧成灰。<verse eid="AMO 2:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="AMO 2:2"/>所以，我要降火在<char style="pn">摩押</char>，</para>
+  <para style="q1" vid="AMO 2:2">烧毁<char style="pn">加略</char>的城堡。</para>
+  <para style="q1" vid="AMO 2:2">
+    <char style="pn">摩押</char>要在战争的喧嚣、呐喊和号角声中灭亡。<verse eid="AMO 2:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="AMO 2:3"/>我要铲除<char style="pn">摩押</char>的首领，</para>
+  <para style="q1" vid="AMO 2:3">杀死那里所有的官长。</para>
+  <para style="q1" vid="AMO 2:3">这是耶和华说的。”<verse eid="AMO 2:3"/></para>
+  <para style="s1">对犹大的审判</para>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 2:4"/>耶和华说：</para>
+  <para style="q1" vid="AMO 2:4">“<char style="pn">犹大</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 2:4">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 2:4">因为他们厌弃耶和华的训诲，</para>
+  <para style="q1" vid="AMO 2:4">不遵守我的律例。</para>
+  <para style="q1" vid="AMO 2:4">他们祖先祭拜的偶像使他们走入歧途。<verse eid="AMO 2:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 2:5"/>所以，我要降火在<char style="pn">犹大</char>，</para>
+  <para style="q1" vid="AMO 2:5">烧毁<char style="pn">耶路撒冷</char>的城堡。”<verse eid="AMO 2:5"/></para>
+  <para style="s1">对以色列的审判</para>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 2:6"/>耶和华说：</para>
+  <para style="q1" vid="AMO 2:6">“<char style="pn">以色列</char>人三番四次地犯罪，</para>
+  <para style="q1" vid="AMO 2:6">我必不收回对他们的惩罚，</para>
+  <para style="q1" vid="AMO 2:6">因为他们为了银子卖掉义人，</para>
+  <para style="q1" vid="AMO 2:6">为了一双鞋卖掉穷人。<verse eid="AMO 2:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 2:7"/>他们践踏穷人如同践踏地上的尘土，</para>
+  <para style="q1" vid="AMO 2:7">使卑微的人无处申冤；</para>
+  <para style="q1" vid="AMO 2:7">父子同淫一女，亵渎我的圣名。<verse eid="AMO 2:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 2:8"/>在每座祭坛旁边，</para>
+  <para style="q1" vid="AMO 2:8">他们把穷人抵押的衣服铺开，躺在上面，</para>
+  <para style="q1" vid="AMO 2:8">又在上帝的殿里喝剥削来的酒。<verse eid="AMO 2:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="AMO 2:9"/>“<char style="pn">以色列</char>人啊，</para>
+  <para style="q1" vid="AMO 2:9">我在你们面前消灭了<char style="pn">亚摩利</char>人。</para>
+  <para style="q1" vid="AMO 2:9">虽然他们像香柏树那样高大，</para>
+  <para style="q1" vid="AMO 2:9">如橡树那样强壮，</para>
+  <para style="q1" vid="AMO 2:9">但我灭尽了他们上面的果子，</para>
+  <para style="q1" vid="AMO 2:9">砍断了他们下面的根。<verse eid="AMO 2:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="AMO 2:10"/>我曾带你们出<char style="pn">埃及</char>，</para>
+  <para style="q1" vid="AMO 2:10">在旷野引导你们四十年，</para>
+  <para style="q1" vid="AMO 2:10">使你们得到<char style="pn">亚摩利</char>人的土地。<verse eid="AMO 2:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 2:11"/>我从你们的子孙中兴起先知，</para>
+  <para style="q1" vid="AMO 2:11">从你们的青年中兴起拿细耳人<note caller="+" style="f"><char style="fr" closed="false">2:11 </char><char style="ft" closed="false">拿细耳人的详情参见<char style="xt"><ref loc="NUM 6:1-8">民数记6:1‑8</ref></char>。</char></note>。</para>
+  <para style="q1" vid="AMO 2:11">
+    <char style="pn">以色列</char>人啊，难道不是这样吗？</para>
+  <para style="q1" vid="AMO 2:11">这是耶和华说的。<verse eid="AMO 2:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 2:12"/>可是，你们迫使拿细耳人喝酒，</para>
+  <para style="q1" vid="AMO 2:12">禁止先知说预言。<verse eid="AMO 2:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="AMO 2:13"/>看啊，我要压碎你们，</para>
+  <para style="q1" vid="AMO 2:13">如满载谷物的车轧过一样。<verse eid="AMO 2:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="AMO 2:14"/>快捷的无法逃遁，</para>
+  <para style="q1" vid="AMO 2:14">强壮的无力可使，</para>
+  <para style="q1" vid="AMO 2:14">勇猛的救不了自己，<verse eid="AMO 2:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="AMO 2:15"/>拉弓的站立不住，</para>
+  <para style="q1" vid="AMO 2:15">腿快的无法逃脱，</para>
+  <para style="q1" vid="AMO 2:15">骑马的不能自救。<verse eid="AMO 2:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="AMO 2:16"/>到那日，最勇猛的战士也要赤身逃命。</para>
+  <para style="q1" vid="AMO 2:16">这是耶和华说的。<verse eid="AMO 2:16"/></para>
+  <chapter eid="AMO 2"/>
+  <chapter number="3" style="c" sid="AMO 3"/>
+  <para style="s1">责备以色列人</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="AMO 3:1"/>“<char style="pn">以色列</char>人啊，</para>
+  <para style="q1" vid="AMO 3:1">要听耶和华责备你们的话，</para>
+  <para style="q1" vid="AMO 3:1">责备我从<char style="pn">埃及</char>领出来的整个民族的话，<verse eid="AMO 3:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="AMO 3:2"/>‘世上万族之中，我只拣选了你们，</para>
+  <para style="q1" vid="AMO 3:2">所以我要因你们的罪恶而惩罚你们。’”<verse eid="AMO 3:2"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="3" style="v" sid="AMO 3:3"/>若非相约，</para>
+  <para style="q1" vid="AMO 3:3">二人怎会同行呢？<verse eid="AMO 3:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 3:4"/>若非捕到猎物，</para>
+  <para style="q1" vid="AMO 3:4">狮子怎会在林中咆哮呢？</para>
+  <para style="q1" vid="AMO 3:4">若非猎获食物，</para>
+  <para style="q1" vid="AMO 3:4">猛狮怎会在洞中吼叫呢？<verse eid="AMO 3:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 3:5"/>若非设下诱饵，</para>
+  <para style="q1" vid="AMO 3:5">鸟儿怎会落入圈套？</para>
+  <para style="q1" vid="AMO 3:5">若非捕获什么，</para>
+  <para style="q1" vid="AMO 3:5">圈套怎会收起来？<verse eid="AMO 3:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 3:6"/>若城中响起号角，</para>
+  <para style="q1" vid="AMO 3:6">居民岂不恐惧颤抖？</para>
+  <para style="q1" vid="AMO 3:6">若灾祸降临城中，</para>
+  <para style="q1" vid="AMO 3:6">岂不是耶和华的作为？<verse eid="AMO 3:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 3:7"/>的确，主耶和华不向祂的仆人——众先知显明祂的计划，</para>
+  <para style="q1" vid="AMO 3:7">就不会采取任何行动。<verse eid="AMO 3:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 3:8"/>狮子吼叫，谁不惧怕呢？</para>
+  <para style="q1" vid="AMO 3:8">主耶和华已发言，谁能不传讲呢？<verse eid="AMO 3:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="AMO 3:9"/>要向<char style="pn">亚实突</char>和<char style="pn">埃及</char>的城堡宣告：</para>
+  <para style="q1" vid="AMO 3:9">“你们要聚集到<char style="pn">撒玛利亚</char>的山上，</para>
+  <para style="q1" vid="AMO 3:9">看看城中的混乱和暴虐之事。<verse eid="AMO 3:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="AMO 3:10"/>他们不知正道，强取豪夺，</para>
+  <para style="q1" vid="AMO 3:10">把掳物囤积在他们的城堡中。</para>
+  <para style="q1" vid="AMO 3:10">这是耶和华说的。”<verse eid="AMO 3:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 3:11"/>所以，主耶和华说：</para>
+  <para style="q1" vid="AMO 3:11">“敌人要围攻此地，</para>
+  <para style="q1" vid="AMO 3:11">攻破你们的防守，</para>
+  <para style="q1" vid="AMO 3:11">抢掠你们的城堡。”<verse eid="AMO 3:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 3:12"/>耶和华说：</para>
+  <para style="q1" vid="AMO 3:12">“牧人从狮口中救羊，</para>
+  <para style="q1" vid="AMO 3:12">只能夺回两条腿和一块耳朵。</para>
+  <para style="q1" vid="AMO 3:12">同样，住在<char style="pn">撒玛利亚</char>的<char style="pn">以色列</char>人被救回的时候，</para>
+  <para style="q1" vid="AMO 3:12">也仅剩一角床榻和一片卧椅。”<verse eid="AMO 3:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="AMO 3:13"/>主——万军之上帝耶和华说：</para>
+  <para style="q1" vid="AMO 3:13">“你们要听这话，去警告<char style="pn">雅各</char>家。<verse eid="AMO 3:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="AMO 3:14"/>我追讨<char style="pn">以色列</char>人的罪时，</para>
+  <para style="q1" vid="AMO 3:14">要摧毁<char style="pn">伯特利</char>的祭坛，</para>
+  <para style="q1" vid="AMO 3:14">将祭坛的角砍落在地。<verse eid="AMO 3:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="AMO 3:15"/>我要拆毁过冬和避暑的房屋，</para>
+  <para style="q1" vid="AMO 3:15">破坏象牙装饰的宫殿，</para>
+  <para style="q1" vid="AMO 3:15">推倒许多宏伟的楼宇。</para>
+  <para style="q1" vid="AMO 3:15">这是耶和华说的。”<verse eid="AMO 3:15"/></para>
+  <para style="b"/>
+  <chapter eid="AMO 3"/>
+  <chapter number="4" style="c" sid="AMO 4"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="AMO 4:1"/>住在<char style="pn">撒玛利亚</char>山上的<char style="pn">巴珊</char>肥母牛啊，</para>
+  <para style="q1" vid="AMO 4:1">要听此言！</para>
+  <para style="q1" vid="AMO 4:1">你们压榨贫寒人，欺凌穷苦人，</para>
+  <para style="q1" vid="AMO 4:1">又叫丈夫拿酒来畅饮。<verse eid="AMO 4:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="AMO 4:2"/>因此，主耶和华凭祂的圣洁起誓：</para>
+  <para style="q1" vid="AMO 4:2">“时候快到了，</para>
+  <para style="q1" vid="AMO 4:2">有人要用鱼钩钩走你们，一个也不留。<verse eid="AMO 4:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="AMO 4:3"/>你们都要从城墙缺口走出来，</para>
+  <para style="q1" vid="AMO 4:3">被丢到<char style="pn">哈门</char>。</para>
+  <para style="q1" vid="AMO 4:3">这是耶和华说的。<verse eid="AMO 4:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 4:4"/>“<char style="pn">以色列</char>人啊，</para>
+  <para style="q1" vid="AMO 4:4">你们去<char style="pn">伯特利</char>犯罪吧，</para>
+  <para style="q1" vid="AMO 4:4">去<char style="pn">吉甲</char>增添罪恶吧！</para>
+  <para style="q1" vid="AMO 4:4">要每天早晨献上祭物，</para>
+  <para style="q1" vid="AMO 4:4">每三天奉上你们的十分之一。<verse eid="AMO 4:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 4:5"/>你们献上带酵的饼作感恩祭，</para>
+  <para style="q1" vid="AMO 4:5">并且到处夸耀你们自愿献的祭。</para>
+  <para style="q1" vid="AMO 4:5">
+    <char style="pn">以色列</char>人啊，这就是你们爱做的事。</para>
+  <para style="q1" vid="AMO 4:5">这是主耶和华说的。<verse eid="AMO 4:5"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 4:6"/>“我在各城降下饥荒，</para>
+  <para style="q1" vid="AMO 4:6">使你们遍地缺粮。</para>
+  <para style="q1" vid="AMO 4:6">尽管如此，你们仍不归向我。</para>
+  <para style="q1" vid="AMO 4:6">这是耶和华说的。<verse eid="AMO 4:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 4:7"/>“我在收割前三个月停止降雨。</para>
+  <para style="q1" vid="AMO 4:7">我在一座城降雨，</para>
+  <para style="q1" vid="AMO 4:7">在另一座城不降雨；</para>
+  <para style="q1" vid="AMO 4:7">我使一块田有雨水的滋润，</para>
+  <para style="q1" vid="AMO 4:7">另一块田因无雨而干裂。<verse eid="AMO 4:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 4:8"/>两三座城的人都踉踉跄跄地涌到一座城找水喝，</para>
+  <para style="q1" vid="AMO 4:8">水却不够喝。</para>
+  <para style="q1" vid="AMO 4:8">尽管如此，你们仍不归向我。</para>
+  <para style="q1" vid="AMO 4:8">这是耶和华说的。<verse eid="AMO 4:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="AMO 4:9"/>“我用热风和霉灾击打你们，</para>
+  <para style="q1" vid="AMO 4:9">叫蝗虫吞噬你们田园中的菜蔬、葡萄树、无花果树和橄榄树。</para>
+  <para style="q1" vid="AMO 4:9">尽管如此，你们仍不归向我。</para>
+  <para style="q1" vid="AMO 4:9">这是耶和华说的。<verse eid="AMO 4:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="AMO 4:10"/>“我在你们中间降下瘟疫，</para>
+  <para style="q1" vid="AMO 4:10">如从前降在<char style="pn">埃及</char>一样。</para>
+  <para style="q1" vid="AMO 4:10">我杀戮你们的青年，</para>
+  <para style="q1" vid="AMO 4:10">掳掠你们的战马，</para>
+  <para style="q1" vid="AMO 4:10">使你们军营中的死尸臭味扑鼻。</para>
+  <para style="q1" vid="AMO 4:10">尽管如此，你们仍不归向我。</para>
+  <para style="q1" vid="AMO 4:10">这是耶和华说的。<verse eid="AMO 4:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 4:11"/>“我在你们中间施行毁灭，</para>
+  <para style="q1" vid="AMO 4:11">如从前毁灭<char style="pn">所多玛</char>和<char style="pn">蛾摩拉</char>一样，</para>
+  <para style="q1" vid="AMO 4:11">使你们像从火里抽出的一根柴。</para>
+  <para style="q1" vid="AMO 4:11">尽管如此，你们仍不归向我。</para>
+  <para style="q1" vid="AMO 4:11">这是耶和华说的。<verse eid="AMO 4:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 4:12"/>“<char style="pn">以色列</char>人啊，</para>
+  <para style="q1" vid="AMO 4:12">我要这样惩罚你们。</para>
+  <para style="q1" vid="AMO 4:12">
+    <char style="pn">以色列</char>人啊，</para>
+  <para style="q1" vid="AMO 4:12">准备迎见你们的上帝吧！</para>
+  <para style="q1" vid="AMO 4:12">因为我要这样惩罚你们。”<verse eid="AMO 4:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="AMO 4:13"/>看啊，那位造山又造风、</para>
+  <para style="q1" vid="AMO 4:13">向人显明其心意、</para>
+  <para style="q1" vid="AMO 4:13">将黎明变为黑暗、</para>
+  <para style="q1" vid="AMO 4:13">踏在地之高处的，</para>
+  <para style="q1" vid="AMO 4:13">祂的名字是万军之上帝耶和华。<verse eid="AMO 4:13"/></para>
+  <chapter eid="AMO 4"/>
+  <chapter number="5" style="c" sid="AMO 5"/>
+  <para style="s1">劝以色列人悔改</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="AMO 5:1"/>
+    <char style="pn">以色列</char>家啊，</para>
+  <para style="q1" vid="AMO 5:1">听我为你们唱哀歌：<verse eid="AMO 5:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="AMO 5:2"/>“少女<char style="pn">以色列</char>跌倒了，</para>
+  <para style="q1" vid="AMO 5:2">再也站不起来；</para>
+  <para style="q1" vid="AMO 5:2">她被遗弃在自己的土地上，</para>
+  <para style="q1" vid="AMO 5:2">无人扶她起来。”<verse eid="AMO 5:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="AMO 5:3"/>因为主耶和华说：</para>
+  <para style="q1" vid="AMO 5:3">“<char style="pn">以色列</char>家的城邑中，</para>
+  <para style="q1" vid="AMO 5:3">出兵一千的，只有百人生还；</para>
+  <para style="q1" vid="AMO 5:3">出兵一百的，只有十人生还。”<verse eid="AMO 5:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 5:4"/>耶和华对<char style="pn">以色列</char>家说：</para>
+  <para style="q1" vid="AMO 5:4">“你们要寻求我，才能存活。<verse eid="AMO 5:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 5:5"/>不要去<char style="pn">伯特利</char>求问，</para>
+  <para style="q1" vid="AMO 5:5">不要进入<char style="pn">吉甲</char>，</para>
+  <para style="q1" vid="AMO 5:5">也不要前往<char style="pn">别示巴</char>，</para>
+  <para style="q1" vid="AMO 5:5">因为<char style="pn">吉甲</char>人必被掳去，</para>
+  <para style="q1" vid="AMO 5:5">
+    <char style="pn">伯特利</char>也必化为乌有。”<verse eid="AMO 5:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 5:6"/>你们要寻求耶和华，才能存活。</para>
+  <para style="q1" vid="AMO 5:6">否则，祂要在<char style="pn">约瑟</char>家<note caller="+" style="f"><char style="fr" closed="false">5:6 </char><char style="ft" closed="false">“约瑟家”此处指约瑟的子孙以法莲和玛拿西两个支派，圣经中有时用约瑟家代指北国以色列。</char></note>如烈火爆发，</para>
+  <para style="q1" vid="AMO 5:6">吞噬<char style="pn">伯特利</char>，无人能扑灭。<verse eid="AMO 5:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 5:7"/>你们这些使正义变为苦艾、将公义丢弃在地的人啊，<verse eid="AMO 5:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 5:8"/>那位造昴星和参星、</para>
+  <para style="q1" vid="AMO 5:8">使幽暗变为黎明、</para>
+  <para style="q1" vid="AMO 5:8">使白昼变为黑夜、</para>
+  <para style="q1" vid="AMO 5:8">召来海水浇在大地上的，</para>
+  <para style="q1" vid="AMO 5:8">祂的名字是耶和华。<verse eid="AMO 5:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="AMO 5:9"/>祂使毁灭如闪电临到强者，</para>
+  <para style="q1" vid="AMO 5:9">摧毁他们的坚城。<verse eid="AMO 5:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="AMO 5:10"/>你们憎恨在城门口主持公道的人，</para>
+  <para style="q1" vid="AMO 5:10">厌恶说话正直的人。<verse eid="AMO 5:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 5:11"/>你们践踏穷人，</para>
+  <para style="q1" vid="AMO 5:11">对他们横征暴敛。</para>
+  <para style="q1" vid="AMO 5:11">因此，你们用凿过的石头建房，</para>
+  <para style="q1" vid="AMO 5:11">却不得居住在里面；</para>
+  <para style="q1" vid="AMO 5:11">你们栽种佳美的葡萄园，</para>
+  <para style="q1" vid="AMO 5:11">却喝不到葡萄酒。<verse eid="AMO 5:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 5:12"/>我知道你们的过犯累累、罪恶无数。</para>
+  <para style="q1" vid="AMO 5:12">你们迫害义人，收受贿赂，</para>
+  <para style="q1" vid="AMO 5:12">在城门口冤枉穷人。<verse eid="AMO 5:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="AMO 5:13"/>这是邪恶的时代，</para>
+  <para style="q1" vid="AMO 5:13">所以明智者静默不言。<verse eid="AMO 5:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="AMO 5:14"/>你们要弃恶从善，才能存活。</para>
+  <para style="q1" vid="AMO 5:14">这样，万军之上帝耶和华必与你们同在，</para>
+  <para style="q1" vid="AMO 5:14">正如你们所说的。<verse eid="AMO 5:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="AMO 5:15"/>你们要恨恶邪恶，喜爱良善，</para>
+  <para style="q1" vid="AMO 5:15">在城门口伸张正义，</para>
+  <para style="q1" vid="AMO 5:15">也许万军之上帝耶和华会恩待<char style="pn">约瑟</char>的余民。<verse eid="AMO 5:15"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="16" style="v" sid="AMO 5:16"/>因此，主——万军之上帝耶和华说：</para>
+  <para style="q1" vid="AMO 5:16">“哀号之声要响遍各广场，</para>
+  <para style="q1" vid="AMO 5:16">哭喊之声将充满大街小巷。</para>
+  <para style="q1" vid="AMO 5:16">农夫被叫来哭泣，</para>
+  <para style="q1" vid="AMO 5:16">哭丧者被召来哀号。<verse eid="AMO 5:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="AMO 5:17"/>每个葡萄园都传出哀号声，</para>
+  <para style="q1" vid="AMO 5:17">因为我要从你们中间经过。</para>
+  <para style="q1" vid="AMO 5:17">这是耶和华说的。”<verse eid="AMO 5:17"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="18" style="v" sid="AMO 5:18"/>盼望耶和华的日子到来的人有祸了！</para>
+  <para style="q1" vid="AMO 5:18">你们为什么盼望耶和华的日子呢？</para>
+  <para style="q1" vid="AMO 5:18">那日将带来黑暗，而非光明。<verse eid="AMO 5:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="AMO 5:19"/>你们的光景将好像人逃避狮子，</para>
+  <para style="q1" vid="AMO 5:19">却遇上了熊，</para>
+  <para style="q1" vid="AMO 5:19">逃回家里，手扶墙壁，</para>
+  <para style="q1" vid="AMO 5:19">又被蛇咬。<verse eid="AMO 5:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="AMO 5:20"/>耶和华的日子将充满黑暗，毫无光明，</para>
+  <para style="q1" vid="AMO 5:20">一片漆黑，</para>
+  <para style="q1" vid="AMO 5:20">毫无亮光。<verse eid="AMO 5:20"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="21" style="v" sid="AMO 5:21"/>“我憎恶、鄙弃你们的节期，</para>
+  <para style="q1" vid="AMO 5:21">厌恶你们的圣会。<verse eid="AMO 5:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="AMO 5:22"/>即使你们献上燔祭和素祭，</para>
+  <para style="q1" vid="AMO 5:22">我也不悦纳；</para>
+  <para style="q1" vid="AMO 5:22">即使你们用肥美的牲畜献上平安祭，</para>
+  <para style="q1" vid="AMO 5:22">我也不屑一顾。<verse eid="AMO 5:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="AMO 5:23"/>消除你们嘈杂的歌声吧，</para>
+  <para style="q1" vid="AMO 5:23">我不想听到你们的琴音。<verse eid="AMO 5:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="AMO 5:24"/>唯愿公正如江河滔滔不尽，</para>
+  <para style="q1" vid="AMO 5:24">公义如溪流绵绵不绝。<verse eid="AMO 5:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="AMO 5:25"/>
+    <char style="pn">以色列</char>家啊，</para>
+  <para style="q1" vid="AMO 5:25">在旷野的四十年间，</para>
+  <para style="q1" vid="AMO 5:25">你们向我献过祭物和供物吗？<verse eid="AMO 5:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="AMO 5:26"/>你们抬着为自己造的神像，</para>
+  <para style="q1" vid="AMO 5:26">就是你们的王<char style="pn">撒固</char>和星神<char style="pn">迦温</char>。<verse eid="AMO 5:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="AMO 5:27"/>所以我要把你们流放到比<char style="pn">大马士革</char>还远的地方。”</para>
+  <para style="q1" vid="AMO 5:27">这是耶和华说的，祂的名字是万军之上帝。<verse eid="AMO 5:27"/></para>
+  <chapter eid="AMO 5"/>
+  <chapter number="6" style="c" sid="AMO 6"/>
+  <para style="s1">预言以色列的毁灭</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="AMO 6:1"/>在<char style="pn">锡安</char>生活安逸舒适的人啊，</para>
+  <para style="q1" vid="AMO 6:1">你们有祸了！</para>
+  <para style="q1" vid="AMO 6:1">在<char style="pn">撒玛利亚</char>山上自觉无忧的人啊，</para>
+  <para style="q1" vid="AMO 6:1">你们有祸了！</para>
+  <para style="q1" vid="AMO 6:1">你们是列国之首<char style="pn">以色列</char>的显要，</para>
+  <para style="q1" vid="AMO 6:1">
+    <char style="pn">以色列</char>人都仰望你们。<verse eid="AMO 6:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="AMO 6:2"/>你们去<char style="pn">甲尼</char>看看，</para>
+  <para style="q1" vid="AMO 6:2">然后从那里到<char style="pn">哈玛</char>大城，</para>
+  <para style="q1" vid="AMO 6:2">再到<char style="pn">非利士</char>人的<char style="pn">迦特</char>看看。</para>
+  <para style="q1" vid="AMO 6:2">你们比这些国家更好吗？</para>
+  <para style="q1" vid="AMO 6:2">他们的领土不比你们的更广阔吗？<verse eid="AMO 6:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="AMO 6:3"/>你们以为灾难的日子离得还远，</para>
+  <para style="q1" vid="AMO 6:3">就大肆施行暴政。<verse eid="AMO 6:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 6:4"/>你们躺在象牙床上，闲靠在卧榻上，</para>
+  <para style="q1" vid="AMO 6:4">你们吃养在圈里的肥嫩牛羊。<verse eid="AMO 6:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 6:5"/>你们伴着琴声唱慵懒的歌，</para>
+  <para style="q1" vid="AMO 6:5">像<char style="pn">大卫</char>一样为自己制造乐器。<verse eid="AMO 6:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 6:6"/>你们以大碗狂饮，</para>
+  <para style="q1" vid="AMO 6:6">用上等膏油抹身，</para>
+  <para style="q1" vid="AMO 6:6">却漠不关心<char style="pn">约瑟</char>家的衰亡。<verse eid="AMO 6:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 6:7"/>所以，你们要首先被掳，</para>
+  <para style="q1" vid="AMO 6:7">你们的宴乐将从此消逝！<verse eid="AMO 6:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 6:8"/>万军之上帝——主耶和华凭自己起誓说：</para>
+  <para style="q1" vid="AMO 6:8">“我憎恶<char style="pn">雅各</char>的骄傲，</para>
+  <para style="q1" vid="AMO 6:8">厌弃他的城堡。</para>
+  <para style="q1" vid="AMO 6:8">我要把城和城中的一切都交给敌人。”<verse eid="AMO 6:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="AMO 6:9"/>那时，如果一栋房子里剩下十人，这十人也要死亡。 <verse eid="AMO 6:9"/><verse number="10" style="v" sid="AMO 6:10"/>亲属抬出尸体焚烧时，必问内屋的人：“你那里还有别人吗？”那人必回答：“没有。”问的人必说：“不要作声，我们不可提耶和华的名。”<verse eid="AMO 6:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 6:11"/>看啊，耶和华一声令下，</para>
+  <para style="q1" vid="AMO 6:11">大屋顿成瓦砾，小房化为碎片。<verse eid="AMO 6:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 6:12"/>马能在悬崖上奔驰吗？</para>
+  <para style="q1" vid="AMO 6:12">牛能在海中耕作吗？</para>
+  <para style="q1" vid="AMO 6:12">你们却使公正沦为毒药，</para>
+  <para style="q1" vid="AMO 6:12">使公义之果变成苦艾。<verse eid="AMO 6:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="AMO 6:13"/>你们炫耀自己征服了<char style="pn">罗底巴</char>，</para>
+  <para style="q1" vid="AMO 6:13">吹嘘凭自己的能力夺取了<char style="pn">加宁</char>。<verse eid="AMO 6:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="AMO 6:14"/>万军之上帝耶和华说：</para>
+  <para style="q1" vid="AMO 6:14">“<char style="pn">以色列</char>家啊，</para>
+  <para style="q1" vid="AMO 6:14">我要使一个国家兴起攻击你们，</para>
+  <para style="q1" vid="AMO 6:14">从<char style="pn">哈马口</char>直至<char style="pn">亚拉巴</char>河，</para>
+  <para style="q1" vid="AMO 6:14">他们要到处欺压你们。”<verse eid="AMO 6:14"/></para>
+  <chapter eid="AMO 6"/>
+  <chapter number="7" style="c" sid="AMO 7"/>
+  <para style="s1">各种灾祸的异象</para>
+  <para style="p">
+    <verse number="1" style="v" sid="AMO 7:1"/>以下是主耶和华让我看见的异象：看啊，祂造了一大群蝗虫。那时，王室的作物已经收割，第二季作物刚开始发苗。 <verse eid="AMO 7:1"/><verse number="2" style="v" sid="AMO 7:2"/>蝗虫吃尽地上的青苗时，我说：“主耶和华啊，求你赦免！<char style="pn">雅各</char>那么弱小，他怎么受得了呢？” <verse eid="AMO 7:2"/><verse number="3" style="v" sid="AMO 7:3"/>于是，耶和华心生怜悯，说：“我不降这灾了。”<verse eid="AMO 7:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="AMO 7:4"/>以下是主耶和华让我看见的异象：看啊，主耶和华降下审判的大火。大火烧干了深渊，正在吞噬土地。 <verse eid="AMO 7:4"/><verse number="5" style="v" sid="AMO 7:5"/>那时，我说：“主耶和华啊，求你停止吧！<char style="pn">雅各</char>那么弱小，他怎么受得了呢？” <verse eid="AMO 7:5"/><verse number="6" style="v" sid="AMO 7:6"/>于是，耶和华心生怜悯，说：“我也不降这灾了。”<verse eid="AMO 7:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="AMO 7:7"/>以下是祂让我看见的异象：看啊，主站在一道按照准绳建造的墙边，手里拿着准绳。 <verse eid="AMO 7:7"/><verse number="8" style="v" sid="AMO 7:8"/>耶和华对我说：“<char style="pn">阿摩司</char>，你看见什么？”我答道：“一条准绳。”主说：“我要在我的<char style="pn">以色列</char>子民中吊起准绳，我不会再饶恕他们。 <verse eid="AMO 7:8"/><verse number="9" style="v" sid="AMO 7:9"/><char style="pn">以撒</char>子孙的丘坛必遭毁坏，<char style="pn">以色列</char>的庙宇必成废墟，我要用刀攻击<char style="pn">耶罗波安</char>王朝。”<verse eid="AMO 7:9"/></para>
+  <para style="s1">阿摩司被逐</para>
+  <para style="p">
+    <verse number="10" style="v" sid="AMO 7:10"/>
+    <char style="pn">伯特利</char>的祭司<char style="pn">亚玛谢</char>派人告诉<char style="pn">以色列</char>王<char style="pn">耶罗波安</char>：“<char style="pn">阿摩司</char>在<char style="pn">以色列</char>家图谋背叛你，我们国家无法容忍他的言论。 <verse eid="AMO 7:10"/><verse number="11" style="v" sid="AMO 7:11"/>因为<char style="pn">阿摩司</char>这样说，‘<char style="pn">耶罗波安</char>将丧身刀下，<char style="pn">以色列</char>人必被掳去，远离家乡。’”<verse eid="AMO 7:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="AMO 7:12"/>
+    <char style="pn">亚玛谢</char>对<char style="pn">阿摩司</char>说：“先见啊，走吧！逃回<char style="pn">犹大</char>去吧！你要在那里挣吃的，在那里说预言。 <verse eid="AMO 7:12"/><verse number="13" style="v" sid="AMO 7:13"/>不可再在<char style="pn">伯特利</char>说预言，这里是王的圣所，是国庙。”<verse eid="AMO 7:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="AMO 7:14"/>
+    <char style="pn">阿摩司</char>答道：“我本不是先知，也不是先知的门徒。我只是一个牧人，也看护桑树。 <verse eid="AMO 7:14"/><verse number="15" style="v" sid="AMO 7:15"/>但耶和华不再让我看守羊群，祂对我说，‘去！向我的<char style="pn">以色列</char>子民说预言。’ <verse eid="AMO 7:15"/><verse number="16" style="v" sid="AMO 7:16"/>现在你要听耶和华对你说的话。你说，‘不要说攻击<char style="pn">以色列</char>的预言，不要传讲攻击<char style="pn">以撒</char>子孙的信息。’ <verse eid="AMO 7:16"/><verse number="17" style="v" sid="AMO 7:17"/>所以耶和华说，‘你的妻子必在这城里沦为妓女，你的儿女必丧身刀下，你的田地必被人丈量、瓜分，你自己必死在异乡<note caller="+" style="f"><char style="fr" closed="false">7:17 </char><char style="ft" closed="false">“异乡”希伯来文是“不洁之地”，指不信上帝的国家。</char></note>。<char style="pn">以色列</char>人必被掳去，远离家乡。’”<verse eid="AMO 7:17"/></para>
+  <chapter eid="AMO 7"/>
+  <chapter number="8" style="c" sid="AMO 8"/>
+  <para style="s1">审判之日将临</para>
+  <para style="p">
+    <verse number="1" style="v" sid="AMO 8:1"/>这是主耶和华让我看见的异象：看啊，一篮夏天的果子。 <verse eid="AMO 8:1"/><verse number="2" style="v" sid="AMO 8:2"/>耶和华问我：“<char style="pn">阿摩司</char>，你看见什么？”我说：“我看见一篮夏天的果子。”祂说：“我<char style="pn">以色列</char>子民的结局<note caller="+" style="f"><char style="fr" closed="false">8:2 </char><char style="ft" closed="false">“结局”希伯来文中与“夏天的果子”发音相近。</char></note>到了，我不会再饶恕他们。 <verse eid="AMO 8:2"/><verse number="3" style="v" sid="AMO 8:3"/>到那日，宫殿里的歌声要变成哀号；尸横遍地，一片死寂。这是主耶和华说的。”<verse eid="AMO 8:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 8:4"/>践踏贫民、灭绝穷人的人啊，</para>
+  <para style="q1" vid="AMO 8:4">你们要听！<verse eid="AMO 8:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 8:5"/>你们盼望朔日<note caller="+" style="f"><char style="fr" closed="false">8:5 </char><char style="ft" closed="false">“朔日”即每月初一。</char></note>和安息日快点过去，</para>
+  <para style="q1" vid="AMO 8:5">你们好售卖谷物。</para>
+  <para style="q1" vid="AMO 8:5">你们用小升斗卖粮，</para>
+  <para style="q1" vid="AMO 8:5">用加重的砝码收银子，</para>
+  <para style="q1" vid="AMO 8:5">用诡诈的秤欺骗人。<verse eid="AMO 8:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 8:6"/>你们用银子买贫民，</para>
+  <para style="q1" vid="AMO 8:6">以一双鞋买穷人为奴，</para>
+  <para style="q1" vid="AMO 8:6">售卖掺了糠秕的麦子。<verse eid="AMO 8:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 8:7"/>耶和华凭<char style="pn">雅各</char>的骄傲起誓：</para>
+  <para style="q1" vid="AMO 8:7">“我决不会忘记你们的所作所为。<verse eid="AMO 8:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 8:8"/>这片土地要因此而震动，</para>
+  <para style="q1" vid="AMO 8:8">所有的居民都要悲哀。</para>
+  <para style="q1" vid="AMO 8:8">大地要像<char style="pn">尼罗</char>河一样涨起，如<char style="pn">埃及</char>的河流翻腾退落。”<verse eid="AMO 8:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="AMO 8:9"/>主耶和华说：</para>
+  <para style="q1" vid="AMO 8:9">“到那日，我要使太阳中午落下，</para>
+  <para style="q1" vid="AMO 8:9">使大地在白天一片黑暗。<verse eid="AMO 8:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="AMO 8:10"/>我要使你们的节期变为丧礼，</para>
+  <para style="q1" vid="AMO 8:10">叫你们的欢歌变为哀歌。</para>
+  <para style="q1" vid="AMO 8:10">我要使你们都腰束麻布，剃光头发；</para>
+  <para style="q1" vid="AMO 8:10">我要使你们伤心欲绝，如丧独生子；</para>
+  <para style="q1" vid="AMO 8:10">我要使那日成为痛苦的日子。”<verse eid="AMO 8:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 8:11"/>主耶和华说：</para>
+  <para style="q1" vid="AMO 8:11">“日子将到，我要使饥荒降在地上。</para>
+  <para style="q1" vid="AMO 8:11">人饥饿非因无饼，干渴非因无水，</para>
+  <para style="q1" vid="AMO 8:11">而是因为听不到耶和华的话。<verse eid="AMO 8:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 8:12"/>人们从南到北，从东到西<note caller="+" style="f"><char style="fr" closed="false">8:12 </char><char style="ft" closed="false">“从南到北，从东到西”希伯来文是“从这海到那海，从北到东”。海指西面的地中海和南面的死海。</char></note>，</para>
+  <para style="q1" vid="AMO 8:12">在境内四处奔走，</para>
+  <para style="q1" vid="AMO 8:12">要寻找耶和华的话却找不到。<verse eid="AMO 8:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="AMO 8:13"/>“到那日，</para>
+  <para style="q1" vid="AMO 8:13">“美丽少女和青春少男都要因干渴而昏倒；<verse eid="AMO 8:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="AMO 8:14"/>那些凭<char style="pn">撒玛利亚</char>、<char style="pn">但</char>和<char style="pn">别示巴</char>的神明起誓的，</para>
+  <para style="q1" vid="AMO 8:14">都要跌倒，永不再起来。”<verse eid="AMO 8:14"/></para>
+  <chapter eid="AMO 8"/>
+  <chapter number="9" style="c" sid="AMO 9"/>
+  <para style="s1">耶和华的审判</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="AMO 9:1"/>我看见主站在祭坛旁，祂说：</para>
+  <para style="q1" vid="AMO 9:1">“你要击打柱顶，使殿的根基震动；</para>
+  <para style="q1" vid="AMO 9:1">要打碎它们，使殿宇坍塌压死众人。</para>
+  <para style="q1" vid="AMO 9:1">侥幸生还的，我要用刀剑杀掉，</para>
+  <para style="q1" vid="AMO 9:1">无人能逃脱，无人能幸免。<verse eid="AMO 9:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="AMO 9:2"/>即使他们挖洞钻进阴间，</para>
+  <para style="q1" vid="AMO 9:2">我也要把他们揪出来；</para>
+  <para style="q1" vid="AMO 9:2">即使他们爬上高天，</para>
+  <para style="q1" vid="AMO 9:2">我也要把他们拉下来；<verse eid="AMO 9:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="AMO 9:3"/>即使他们藏在<char style="pn">迦密</char>山的峰顶，</para>
+  <para style="q1" vid="AMO 9:3">我也要去搜寻，捉住他们；</para>
+  <para style="q1" vid="AMO 9:3">即使他们潜到海底，</para>
+  <para style="q1" vid="AMO 9:3">我也要派海蛇去吞咬他们；<verse eid="AMO 9:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="AMO 9:4"/>即使他们被敌人掳去，</para>
+  <para style="q1" vid="AMO 9:4">我也要命刀剑追杀他们。</para>
+  <para style="q1" vid="AMO 9:4">我要定睛在他们身上，</para>
+  <para style="q1" vid="AMO 9:4">不是要赐福而是要降祸。”<verse eid="AMO 9:4"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="5" style="v" sid="AMO 9:5"/>主——万军之耶和华触摸大地，</para>
+  <para style="q1" vid="AMO 9:5">大地就消融，地上的人都要哀号；</para>
+  <para style="q1" vid="AMO 9:5">大地如<char style="pn">埃及</char>的<char style="pn">尼罗</char>河涨起退落。<verse eid="AMO 9:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="AMO 9:6"/>那位在天上建造楼阁，</para>
+  <para style="q1" vid="AMO 9:6">在大地之上立定穹苍，</para>
+  <para style="q1" vid="AMO 9:6">召来海水浇在大地上的——</para>
+  <para style="q1" vid="AMO 9:6">祂的名字是耶和华。<verse eid="AMO 9:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="AMO 9:7"/>耶和华说：</para>
+  <para style="q1" vid="AMO 9:7">“<char style="pn">以色列</char>人啊，</para>
+  <para style="q1" vid="AMO 9:7">在我眼中，你们不是和<char style="pn">古实</char>人一样吗？</para>
+  <para style="q1" vid="AMO 9:7">我不是领你们出<char style="pn">埃及</char>，</para>
+  <para style="q1" vid="AMO 9:7">领<char style="pn">非利士</char>人出<char style="pn">迦斐托</char><note caller="+" style="f"><char style="fr" closed="false">9:7 </char><char style="ft" closed="false">“迦斐托”即克里特岛。</char></note>，</para>
+  <para style="q1" vid="AMO 9:7">领<char style="pn">亚兰</char>人出<char style="pn">吉珥</char>吗？<verse eid="AMO 9:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="AMO 9:8"/>主耶和华的眼目察看这罪恶的国家，</para>
+  <para style="q1" vid="AMO 9:8">我要从地上除灭它，</para>
+  <para style="q1" vid="AMO 9:8">但不会完全毁灭<char style="pn">雅各</char>家。</para>
+  <para style="q1" vid="AMO 9:8">这是耶和华说的。<verse eid="AMO 9:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="AMO 9:9"/>“因为我要下令在万国中筛<char style="pn">以色列</char>家，</para>
+  <para style="q1" vid="AMO 9:9">就像人筛谷物，一粒石子也不会落在地上。<verse eid="AMO 9:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="AMO 9:10"/>在我的子民中，</para>
+  <para style="q1" vid="AMO 9:10">所有夸口说‘灾祸不会追上我们，也不会迎面而来’的罪人，</para>
+  <para style="q1" vid="AMO 9:10">都要死在刀下。<verse eid="AMO 9:10"/></para>
+  <para style="s1">以色列的复兴</para>
+  <para style="q1">
+    <verse number="11" style="v" sid="AMO 9:11"/>“到那日，</para>
+  <para style="q1" vid="AMO 9:11">我要重建<char style="pn">大卫</char>已倾覆的棚子，</para>
+  <para style="q1" vid="AMO 9:11">修补它城墙的缺口。</para>
+  <para style="q1" vid="AMO 9:11">我要从废墟中重建它，</para>
+  <para style="q1" vid="AMO 9:11">恢复它往日的荣耀。<verse eid="AMO 9:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="AMO 9:12"/>这样，<char style="pn">以色列</char>人必拥有<char style="pn">以东</char>所剩的和所有属于我名下的国家。</para>
+  <para style="q1" vid="AMO 9:12">这是要成就这事的耶和华说的。”<verse eid="AMO 9:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="AMO 9:13"/>耶和华说：</para>
+  <para style="q1" vid="AMO 9:13">“时候将到，</para>
+  <para style="q1" vid="AMO 9:13">五谷还未收完又该耕种了，</para>
+  <para style="q1" vid="AMO 9:13">葡萄还未踩完又该栽种了。</para>
+  <para style="q1" vid="AMO 9:13">甜酒从群山上滴下，在丘岭间流淌。<verse eid="AMO 9:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="AMO 9:14"/>我要使我被掳的<char style="pn">以色列</char>子民返乡，</para>
+  <para style="q1" vid="AMO 9:14">他们要重建废城并住在城中，</para>
+  <para style="q1" vid="AMO 9:14">栽种葡萄园，喝园中酿出的美酒，</para>
+  <para style="q1" vid="AMO 9:14">整理园圃，吃园中出产的佳果。<verse eid="AMO 9:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="AMO 9:15"/>我要将<char style="pn">以色列</char>人栽种在他们自己的土地上，</para>
+  <para style="q1" vid="AMO 9:15">他们永不再从我赐给他们的土地上被铲除。”</para>
+  <para style="b" vid="AMO 9:15"/>
+  <para style="q1" vid="AMO 9:15">这是你们的上帝耶和华说的。<verse eid="AMO 9:15"/></para>
+  <chapter eid="AMO 9"/>
+</usx>

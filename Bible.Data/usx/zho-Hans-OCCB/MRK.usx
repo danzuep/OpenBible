@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="MRK" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">马可福音</para>
+  <para style="toc1">马可福音</para>
+  <para style="toc2">马可福音</para>
+  <para style="toc3">可</para>
+  <para style="mt1">马可福音</para>
+  <chapter number="1" style="c" sid="MRK 1"/>
+  <para style="s1">施洗者约翰预备道路</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 1:1"/>有关上帝的儿子耶稣基督的福音是这样开始的， <verse eid="MRK 1:1"/><verse number="2" style="v" sid="MRK 1:2"/>正如<char style="pn">以赛亚</char>先知书上说：</para>
+  <para style="q1" vid="MRK 1:2">“看啊，我要差遣我的使者在你前面为你预备道路。<note caller="+" style="f"><char style="fr" closed="false">1:2 </char><char style="ft" closed="false"><char style="xt"><ref loc="MAL 3:1">玛拉基书3:1</ref>。</char></char></note><verse eid="MRK 1:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="MRK 1:3"/>他在旷野大声呼喊，</para>
+  <para style="q1" vid="MRK 1:3">‘预备主的道，</para>
+  <para style="q1" vid="MRK 1:3">修直祂的路。’<note caller="+" style="f"><char style="fr" closed="false">1:3 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 40:3">以赛亚书40:3</ref>。</char></char></note>”<verse eid="MRK 1:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 1:4"/>果然，施洗者<char style="pn">约翰</char>出现了，他在旷野宣讲悔改就得赦罪的洗礼。 <verse eid="MRK 1:4"/><verse number="5" style="v" sid="MRK 1:5"/><char style="pn">犹太</char>全境和<char style="pn">耶路撒冷</char>的居民都到<char style="pn">约翰</char>那里，承认他们的罪，在<char style="pn">约旦</char>河里接受他的洗礼。<verse eid="MRK 1:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 1:6"/>
+    <char style="pn">约翰</char>身穿骆驼毛的衣服，腰束皮带，吃的是蝗虫和野蜜。 <verse eid="MRK 1:6"/><verse number="7" style="v" sid="MRK 1:7"/>他传道说：“在我之后，有一位比我更有能力的要来，我连弯腰给祂解鞋带都不配。 <verse eid="MRK 1:7"/><verse number="8" style="v" sid="MRK 1:8"/>我是用水给你们施洗，但祂要用圣灵给你们施洗。”<verse eid="MRK 1:8"/></para>
+  <para style="s1">耶稣受洗</para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 1:9"/>那时，耶稣从<char style="pn">加利利</char>的<char style="pn">拿撒勒</char>来，在<char style="pn">约旦</char>河受了<char style="pn">约翰</char>的洗礼。 <verse eid="MRK 1:9"/><verse number="10" style="v" sid="MRK 1:10"/>耶稣从水中一上来，就看见天裂开了，圣灵好像鸽子一样降在祂身上， <verse eid="MRK 1:10"/><verse number="11" style="v" sid="MRK 1:11"/>有声音从天上传来：“你是我的爱子，我喜悦你。”<verse eid="MRK 1:11"/></para>
+  <para style="s1">耶稣受试探</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 1:12"/>圣灵随即催促祂到旷野。 <verse eid="MRK 1:12"/><verse number="13" style="v" sid="MRK 1:13"/>祂在旷野受撒旦的试探四十天。祂与野兽在一起，有天使伺候祂。<verse eid="MRK 1:13"/></para>
+  <para style="s1">呼召四渔夫</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 1:14"/>
+    <char style="pn">约翰</char>被捕后，耶稣来到<char style="pn">加利利</char>宣讲上帝的福音，说： <verse eid="MRK 1:14"/><verse number="15" style="v" sid="MRK 1:15"/>“时候到了，上帝的国临近了，你们要悔改，相信福音。”<verse eid="MRK 1:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 1:16"/>耶稣沿着<char style="pn">加利利</char>湖边走，看见<char style="pn">西门</char>和他弟弟<char style="pn">安得烈</char>正在向湖里撒网。他们是渔夫。 <verse eid="MRK 1:16"/><verse number="17" style="v" sid="MRK 1:17"/>耶稣对他们说：“来跟从我！我要使你们成为得人的渔夫。” <verse eid="MRK 1:17"/><verse number="18" style="v" sid="MRK 1:18"/>他们立刻撇下渔网，跟从了耶稣。<verse eid="MRK 1:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 1:19"/>耶稣往前走了不远，又看见<char style="pn">西庇太</char>的两个儿子<char style="pn">雅各</char>和<char style="pn">约翰</char>正在船上补网， <verse eid="MRK 1:19"/><verse number="20" style="v" sid="MRK 1:20"/>便立刻呼召他们。他们就辞别父亲<char style="pn">西庇太</char>和船上的雇工，跟从了耶稣。<verse eid="MRK 1:20"/></para>
+  <para style="s1">传道赶鬼</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 1:21"/>他们到了<char style="pn">迦百农</char>，耶稣在安息日去会堂里教导人。 <verse eid="MRK 1:21"/><verse number="22" style="v" sid="MRK 1:22"/>那里的人都很惊奇，因为祂教导他们时像个有权柄的人，不像律法教师。 <verse eid="MRK 1:22"/><verse number="23" style="v" sid="MRK 1:23"/>当时会堂里有一个被污鬼附身的人喊道： <verse eid="MRK 1:23"/><verse number="24" style="v" sid="MRK 1:24"/>“<char style="pn">拿撒勒</char>的耶稣啊，我们和你有什么关系？你是来毁灭我们吗？我知道你是谁，你是上帝的圣者！”<verse eid="MRK 1:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 1:25"/>耶稣责备它说：“住口，从他身上出来！”<verse eid="MRK 1:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 1:26"/>污鬼使那人抽搐了一阵，大叫一声，就从他身上出来了。 <verse eid="MRK 1:26"/><verse number="27" style="v" sid="MRK 1:27"/>众人都很惊讶，彼此议论说：“这是怎么回事？真是带着权柄的新教导啊！祂一发命令，污鬼都服从祂。” <verse eid="MRK 1:27"/><verse number="28" style="v" sid="MRK 1:28"/>于是，耶稣的名声立刻传遍了整个<char style="pn">加利利</char>一带。<verse eid="MRK 1:28"/></para>
+  <para style="s1">医病赶鬼</para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 1:29"/>耶稣同<char style="pn">雅各</char>和<char style="pn">约翰</char>离开会堂后，就来到<char style="pn">西门</char>和<char style="pn">安得烈</char>家。 <verse eid="MRK 1:29"/><verse number="30" style="v" sid="MRK 1:30"/>当时<char style="pn">西门</char>的岳母正发烧，躺在床上，他们立刻把这事告诉耶稣。 <verse eid="MRK 1:30"/><verse number="31" style="v" sid="MRK 1:31"/>耶稣走到她的床边，拉着她的手扶她起来，她的烧就退了，她便起来服侍他们。<verse eid="MRK 1:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 1:32"/>傍晚，日落之后，有人把病人和被鬼附身的人都带来见耶稣。 <verse eid="MRK 1:32"/><verse number="33" style="v" sid="MRK 1:33"/>全城的人都聚在门前。 <verse eid="MRK 1:33"/><verse number="34" style="v" sid="MRK 1:34"/>耶稣治好了许多患各种疾病的人，又赶出很多鬼。祂不许鬼说话，因为鬼认识祂。<verse eid="MRK 1:34"/></para>
+  <para style="s1">在加利利传道</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 1:35"/>第二天清早，天还没亮，耶稣就起来出门去荒僻的地方祷告。 <verse eid="MRK 1:35"/><verse number="36" style="v" sid="MRK 1:36"/><char style="pn">西门</char>和同伴们四处寻找耶稣， <verse eid="MRK 1:36"/><verse number="37" style="v" sid="MRK 1:37"/>找到后便对祂说：“大家都在找你呢！”<verse eid="MRK 1:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 1:38"/>耶稣却回答说：“我们到附近的乡镇去吧，我也好在那里传道，因为我就是为此而来的。”<verse eid="MRK 1:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 1:39"/>于是，耶稣走遍<char style="pn">加利利</char>，在各会堂传道，赶鬼。<verse eid="MRK 1:39"/></para>
+  <para style="s1">治好麻风病人</para>
+  <para style="p">
+    <verse number="40" style="v" sid="MRK 1:40"/>有一次，一个患麻风病的人来到耶稣面前，跪下央求：“如果你肯，就能使我洁净。”<verse eid="MRK 1:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 1:41"/>耶稣动了慈心，就伸手摸他，说：“我肯，你洁净了吧！” <verse eid="MRK 1:41"/><verse number="42" style="v" sid="MRK 1:42"/>那人的麻风病立即消失了，他就洁净了。 <verse eid="MRK 1:42"/><verse number="43" style="v" sid="MRK 1:43"/>耶稣随即让他回去并郑重地叮嘱： <verse eid="MRK 1:43"/><verse number="44" style="v" sid="MRK 1:44"/>“切勿把这事告诉别人，要去让祭司察看你的身体，并照<char style="pn">摩西</char>的规定献祭，向众人证明你已经洁净了。”<verse eid="MRK 1:44"/></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MRK 1:45"/>但那人离开之后，却到处传扬这件事，以致耶稣无法再公开进城。祂只能待在城外的旷野，可是人们仍从各处来找祂。<verse eid="MRK 1:45"/></para>
+  <chapter eid="MRK 1"/>
+  <chapter number="2" style="c" sid="MRK 2"/>
+  <para style="s1">治好瘫痪的人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 2:1"/>几天后，耶稣回到<char style="pn">迦百农</char>。祂在家的消息一传开， <verse eid="MRK 2:1"/><verse number="2" style="v" sid="MRK 2:2"/>许多人便蜂拥而来，连门外也挤满了人。耶稣正给他们讲道的时候， <verse eid="MRK 2:2"/><verse number="3" style="v" sid="MRK 2:3"/>有四个人抬着一个瘫痪的人来见祂。 <verse eid="MRK 2:3"/><verse number="4" style="v" sid="MRK 2:4"/>可是人太多了，他们无法抬到耶稣跟前，就拆掉耶稣所在房间的屋顶，将那人连垫子一起缒下去。 <verse eid="MRK 2:4"/><verse number="5" style="v" sid="MRK 2:5"/>耶稣看见他们的信心，就对瘫痪的人说：“孩子，你的罪得到赦免了！” <verse eid="MRK 2:5"/><verse number="6" style="v" sid="MRK 2:6"/>有几个律法教师坐在那里，心里议论说： <verse eid="MRK 2:6"/><verse number="7" style="v" sid="MRK 2:7"/>“这是什么话？祂是在亵渎上帝！除了上帝以外，谁能赦罪呢？”<verse eid="MRK 2:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MRK 2:8"/>耶稣立刻看透了他们的心思，就说：“你们为什么这样心里议论呢？ <verse eid="MRK 2:8"/><verse number="9" style="v" sid="MRK 2:9"/>对瘫痪的人说‘你的罪被赦免了’容易呢，还是说‘起来，收拾你的垫子走吧’容易呢？ <verse eid="MRK 2:9"/><verse number="10" style="v" sid="MRK 2:10"/>但我要让你们知道人子在世上有赦罪的权柄。”于是祂对那人说： <verse eid="MRK 2:10"/><verse number="11" style="v" sid="MRK 2:11"/>“我吩咐你起来拿上你的垫子回家去吧。” <verse eid="MRK 2:11"/><verse number="12" style="v" sid="MRK 2:12"/>那人就站起来，马上拿起垫子，当着众人的面走了出去。众人都十分惊奇，赞美上帝说：“我们从来没见过这样的事！”<verse eid="MRK 2:12"/></para>
+  <para style="s1">呼召利未</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 2:13"/>耶稣又出去到了湖边。有一大群人围拢过来，祂就教导他们。 <verse eid="MRK 2:13"/><verse number="14" style="v" sid="MRK 2:14"/>耶稣往前走的时候，看见<char style="pn">亚勒腓</char>的儿子<char style="pn">利未</char>坐在收税站里，就对他说：“跟从我！”<char style="pn">利未</char>就起来跟从了耶稣。<verse eid="MRK 2:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 2:15"/>后来，<char style="pn">利未</char>请耶稣和祂的门徒到家里坐席，同席的还有很多已经跟随耶稣的税吏和罪人。 <verse eid="MRK 2:15"/><verse number="16" style="v" sid="MRK 2:16"/>有几位法利赛人的律法教师看见耶稣跟税吏和罪人同席，就问耶稣的门徒：“祂为何跟税吏和罪人一起吃饭？”<verse eid="MRK 2:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 2:17"/>耶稣听见后，就对他们说：“健康的人不需要医生，有病的人才需要。我来不是召义人，而是召罪人。”<verse eid="MRK 2:17"/></para>
+  <para style="s1">论禁食</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 2:18"/>
+    <char style="pn">约翰</char>的门徒和法利赛人都在禁食的时候，有人来问耶稣：“<char style="pn">约翰</char>的门徒和法利赛人的门徒禁食，为什么你的门徒不禁食呢？”<verse eid="MRK 2:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 2:19"/>耶稣对他们说：“新郎和宾客还在一起的时候，宾客岂能禁食？新郎还跟他们在一起的时候，他们不能禁食。 <verse eid="MRK 2:19"/><verse number="20" style="v" sid="MRK 2:20"/>但有一天新郎将被带走，那时他们就要禁食了。<verse eid="MRK 2:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 2:21"/>“没有人会用新布来补旧衣服，否则新布会把旧衣服扯破，破洞会更大； <verse eid="MRK 2:21"/><verse number="22" style="v" sid="MRK 2:22"/>也没有人把新酒装在旧皮囊里，否则新酒会把旧皮囊胀破，酒和皮囊都毁了。所以，新酒一定要装在新皮囊里。”<verse eid="MRK 2:22"/></para>
+  <para style="s1">安息日的主</para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 2:23"/>有一个安息日，耶稣经过一片麦田，同行的门徒一边走一边掐麦穗。 <verse eid="MRK 2:23"/><verse number="24" style="v" sid="MRK 2:24"/>法利赛人对耶稣说：“看啊，他们为什么做安息日不准做的事？”<verse eid="MRK 2:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 2:25"/>耶稣回答说：“你们没有读过<char style="pn">大卫</char>的事迹吗？当时他和随从饥饿匮乏， <verse eid="MRK 2:25"/><verse number="26" style="v" sid="MRK 2:26"/>他进入上帝的殿吃了献给上帝的供饼，还给他的随从吃，这饼只有祭司才可以吃。这事在发生在<char style="pn">亚比亚他</char>做大祭司的时候。”<verse eid="MRK 2:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 2:27"/>然后，耶稣对他们说：“安息日是为人设立的，人不是为安息日设立的。 <verse eid="MRK 2:27"/><verse number="28" style="v" sid="MRK 2:28"/>所以，人子也是安息日的主。”<verse eid="MRK 2:28"/></para>
+  <chapter eid="MRK 2"/>
+  <chapter number="3" style="c" sid="MRK 3"/>
+  <para style="s1">治好手枯的人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 3:1"/>耶稣又进了会堂，那里有个人一只手是萎缩的。 <verse eid="MRK 3:1"/><verse number="2" style="v" sid="MRK 3:2"/>当时有好些人监视耶稣，看祂会不会在安息日医治这个人，好控告祂。<verse eid="MRK 3:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 3:3"/>耶稣对那一只手萎缩的人说：“起来，站在中间。” <verse eid="MRK 3:3"/><verse number="4" style="v" sid="MRK 3:4"/>然后问众人：“在安息日应该行善还是作恶？救人还是害人？”他们都不吭声。<verse eid="MRK 3:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 3:5"/>耶稣生气地看着四周这些人，为他们心里刚硬而深感难过。祂对那人说：“把手伸出来！”那人一伸手，手就复原了。 <verse eid="MRK 3:5"/><verse number="6" style="v" sid="MRK 3:6"/>法利赛人立刻出去，跟<char style="pn">希律</char>党的人策划怎样除掉耶稣。<verse eid="MRK 3:6"/></para>
+  <para style="s1">群众跟随耶稣</para>
+  <para style="p">
+    <verse number="7" style="v" sid="MRK 3:7"/>耶稣和门徒退到湖边，有一大群人从<char style="pn">加利利</char>来跟随祂。 <verse eid="MRK 3:7"/><verse number="8" style="v" sid="MRK 3:8"/>还有很多人听见耶稣的一切作为，就从<char style="pn">犹太</char>、<char style="pn">耶路撒冷</char>、<char style="pn">以土买</char>、<char style="pn">约旦</char>河东，甚至<char style="pn">泰尔</char>和<char style="pn">西顿</char>一带来找祂。 <verse eid="MRK 3:8"/><verse number="9" style="v" sid="MRK 3:9"/>耶稣见人多，就吩咐门徒为祂预备一条小船，以免人群拥挤祂。 <verse eid="MRK 3:9"/><verse number="10" style="v" sid="MRK 3:10"/>因为祂医治了很多人，凡有疾病的人都想挤过来摸祂。 <verse eid="MRK 3:10"/><verse number="11" style="v" sid="MRK 3:11"/>污鬼一看见祂，就俯伏在祂面前，大喊：“你是上帝的儿子！” <verse eid="MRK 3:11"/><verse number="12" style="v" sid="MRK 3:12"/>耶稣却严厉地警告它们不要泄露祂的身份。<verse eid="MRK 3:12"/></para>
+  <para style="s1">选立十二使徒</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 3:13"/>耶稣上了山，把自己想要的人召来，他们就来到祂面前。 <verse eid="MRK 3:13"/><verse number="14" style="v" sid="MRK 3:14"/>祂从中选出十二人立为使徒，让他们跟随自己，并且差遣他们出去传道， <verse eid="MRK 3:14"/><verse number="15" style="v" sid="MRK 3:15"/>赐他们赶鬼的权柄。<verse eid="MRK 3:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 3:16"/>祂设立的十二位使徒是：<char style="pn">西门</char>——耶稣给他取名叫<char style="pn">彼得</char>、 <verse eid="MRK 3:16"/><verse number="17" style="v" sid="MRK 3:17"/><char style="pn">西庇太</char>的儿子<char style="pn">雅各</char>和<char style="pn">雅各</char>的兄弟<char style="pn">约翰</char>——耶稣给他们取名叫“<char style="pn">半尼其</char>”，就是“雷霆之子”的意思、 <verse eid="MRK 3:17"/><verse number="18" style="v" sid="MRK 3:18"/><char style="pn">安得烈</char>、<char style="pn">腓力</char>、<char style="pn">巴多罗买</char>、<char style="pn">马太</char>、<char style="pn">多马</char>、<char style="pn">亚勒腓</char>的儿子<char style="pn">雅各</char>、<char style="pn">达太</char>、激进党人<char style="pn">西门</char>、 <verse eid="MRK 3:18"/><verse number="19" style="v" sid="MRK 3:19"/>及后来出卖耶稣的<char style="pn">加略</char>人<char style="pn">犹大</char>。<verse eid="MRK 3:19"/></para>
+  <para style="s1">耶稣和别西卜</para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 3:20"/>耶稣刚进家门，人群又聚集起来，以致祂和门徒都无暇吃饭。 <verse eid="MRK 3:20"/><verse number="21" style="v" sid="MRK 3:21"/>祂的亲属听见这个消息，就出来要制止祂，因为他们说祂疯了。<verse eid="MRK 3:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 3:22"/>从<char style="pn">耶路撒冷</char>下来的律法教师说：“祂被<char style="pn">别西卜</char>附身。”又说：“祂是靠鬼王赶鬼。”<verse eid="MRK 3:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 3:23"/>耶稣叫他们来，用比喻对他们说：“撒旦怎能驱逐撒旦呢？ <verse eid="MRK 3:23"/><verse number="24" style="v" sid="MRK 3:24"/>一个国内部自相纷争，必无法坚立。 <verse eid="MRK 3:24"/><verse number="25" style="v" sid="MRK 3:25"/>一个家内部自相纷争，必无法坚立。 <verse eid="MRK 3:25"/><verse number="26" style="v" sid="MRK 3:26"/>同样，撒旦如果与自己为敌，自相纷争，就站立不住，必然灭亡。 <verse eid="MRK 3:26"/><verse number="27" style="v" sid="MRK 3:27"/>没有人能进入壮汉家里抢夺财物，除非先把那壮汉捆绑起来，才能抢劫他的家。<verse eid="MRK 3:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 3:28"/>“我实在告诉你们，世人一切的罪和亵渎的话都可以得到赦免， <verse eid="MRK 3:28"/><verse number="29" style="v" sid="MRK 3:29"/>唯有亵渎圣灵的人永远得不到赦免，他们要永远担罪。” <verse eid="MRK 3:29"/><verse number="30" style="v" sid="MRK 3:30"/>耶稣这样说是因为他们诬蔑祂被污鬼附身。<verse eid="MRK 3:30"/></para>
+  <para style="s1">谁是耶稣的亲人</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 3:31"/>这时候，耶稣的母亲和兄弟来了，他们站在外面，托人叫耶稣。 <verse eid="MRK 3:31"/><verse number="32" style="v" sid="MRK 3:32"/>有许多人围坐在耶稣身边，他们告诉祂说：“看啊！你的母亲和兄弟在外面找你。”<verse eid="MRK 3:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 3:33"/>耶稣说：“谁是我的母亲？谁是我的兄弟？” <verse eid="MRK 3:33"/><verse number="34" style="v" sid="MRK 3:34"/>然后祂望着周围坐着的人说：“看啊，我的母亲和我的兄弟！ <verse eid="MRK 3:34"/><verse number="35" style="v" sid="MRK 3:35"/>凡遵行上帝旨意的人都是我的弟兄、姊妹和母亲。”<verse eid="MRK 3:35"/></para>
+  <chapter eid="MRK 3"/>
+  <chapter number="4" style="c" sid="MRK 4"/>
+  <para style="s1">撒种的比喻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 4:1"/>耶稣又开始在湖边教导，周围聚集了许多人，耶稣只好上到湖边的船上坐下，众人都站在岸上。 <verse eid="MRK 4:1"/><verse number="2" style="v" sid="MRK 4:2"/>耶稣用比喻教导他们许多事，在教导中祂说： <verse eid="MRK 4:2"/><verse number="3" style="v" sid="MRK 4:3"/>“听着！有一个农夫出去撒种。 <verse eid="MRK 4:3"/><verse number="4" style="v" sid="MRK 4:4"/>撒种的时候，有些种子落在路旁，被飞鸟吃掉了； <verse eid="MRK 4:4"/><verse number="5" style="v" sid="MRK 4:5"/>有些落在石头地上，因为泥土不深，种子很快就发芽了， <verse eid="MRK 4:5"/><verse number="6" style="v" sid="MRK 4:6"/>然而因为没有根，被太阳一晒就枯萎了； <verse eid="MRK 4:6"/><verse number="7" style="v" sid="MRK 4:7"/>有些落在荆棘丛中，荆棘长起来便把幼苗挤住了，以致不能结出果实； <verse eid="MRK 4:7"/><verse number="8" style="v" sid="MRK 4:8"/>有些落在沃土里，就发芽生长，结出果实，收成多达三十倍、六十倍、一百倍！” <verse eid="MRK 4:8"/><verse number="9" style="v" sid="MRK 4:9"/>然后祂说：“有耳可听的，都应当听。”<verse eid="MRK 4:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 4:10"/>当耶稣独自一人的时候，十二使徒和追随祂的人来请教比喻的意思。 <verse eid="MRK 4:10"/><verse number="11" style="v" sid="MRK 4:11"/>耶稣说：“上帝国的奥秘只让你们知道，对于外人，我全部用比喻， <verse eid="MRK 4:11"/><verse number="12" style="v" sid="MRK 4:12"/>使他们‘看了又看，却不领悟；听了又听，却不明白，免得他们回心转意，得到赦免。’<note caller="+" style="f"><char style="fr" closed="false">4:12 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 6:9">以赛亚书6:9</ref>、<ref loc="ISA 6:10">10</ref>。</char></char></note>”<verse eid="MRK 4:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 4:13"/>耶稣又对他们说：“你们不明白这个比喻，又怎能明白其他比喻呢？ <verse eid="MRK 4:13"/><verse number="14" style="v" sid="MRK 4:14"/>农夫撒的是上帝的道。 <verse eid="MRK 4:14"/><verse number="15" style="v" sid="MRK 4:15"/>种子落在路旁，是指人听了道，撒旦立刻过来夺去了撒在他们心里的道。 <verse eid="MRK 4:15"/><verse number="16" style="v" sid="MRK 4:16"/>种子落在石头地上，是指人听了道后，立刻欢喜地接受了， <verse eid="MRK 4:16"/><verse number="17" style="v" sid="MRK 4:17"/>但他们心里没有根基，不过是暂时接受，一旦为道遭受患难或迫害，就立刻放弃了。 <verse eid="MRK 4:17"/><verse number="18" style="v" sid="MRK 4:18"/>种子落在荆棘丛中，是指人虽然听过道， <verse eid="MRK 4:18"/><verse number="19" style="v" sid="MRK 4:19"/>但生活的忧虑、钱财的迷惑和其他欲望纷纷进来把道挤住了，以致不能结出果实。 <verse eid="MRK 4:19"/><verse number="20" style="v" sid="MRK 4:20"/>种子落在沃土里，是指人听了道，领受了，又结出果实，收成多达三十倍、六十倍、甚至一百倍。”<verse eid="MRK 4:20"/></para>
+  <para style="s1">灯的比喻</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 4:21"/>耶稣继续说：“人会把灯拿来放在斗底下或床底下吗？当然不会，他一定会把它放在灯台上。 <verse eid="MRK 4:21"/><verse number="22" style="v" sid="MRK 4:22"/>因为隐藏的事无不显露出来，掩盖的事终会被人知道。 <verse eid="MRK 4:22"/><verse number="23" style="v" sid="MRK 4:23"/>有耳可听的，就应当听。” <verse eid="MRK 4:23"/><verse number="24" style="v" sid="MRK 4:24"/>耶稣又说：“要好好思想你们所听到的，你们用什么量器量给人，就用什么量器量给你们，甚至要多给你们。 <verse eid="MRK 4:24"/><verse number="25" style="v" sid="MRK 4:25"/>因为凡有的，还要给他更多；凡没有的，连他仅有的也要夺去！”<verse eid="MRK 4:25"/></para>
+  <para style="s1">种子生长的比喻</para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 4:26"/>祂又说：“上帝的国就像一个人在地上撒种。 <verse eid="MRK 4:26"/><verse number="27" style="v" sid="MRK 4:27"/>他日出而作，日落而息。种子就在他不知不觉中渐渐发芽长大。 <verse eid="MRK 4:27"/><verse number="28" style="v" sid="MRK 4:28"/>大地会使种子生长，先发苗后吐穗，最终结出饱满的籽粒。 <verse eid="MRK 4:28"/><verse number="29" style="v" sid="MRK 4:29"/>庄稼成熟后，他就拿起镰刀来收割，因为收成的时候到了。”<verse eid="MRK 4:29"/></para>
+  <para style="s1">芥菜种的比喻</para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 4:30"/>耶稣说：“我们拿什么比作上帝的国呢？用什么比喻来解释呢？ <verse eid="MRK 4:30"/><verse number="31" style="v" sid="MRK 4:31"/>上帝的国就像一粒芥菜种。它是世上种子中最小的， <verse eid="MRK 4:31"/><verse number="32" style="v" sid="MRK 4:32"/>但种在地里，却能长得比各样蔬菜都大，有粗大的枝条，可以让飞鸟在它的树荫中栖息。”<verse eid="MRK 4:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 4:33"/>耶稣用了许多类似的比喻，按照众人所能领悟的给他们讲道。 <verse eid="MRK 4:33"/><verse number="34" style="v" sid="MRK 4:34"/>祂总是用比喻对他们讲论，只有单独和门徒在一起的时候，才把一切解释清楚。<verse eid="MRK 4:34"/></para>
+  <para style="s1">平息风浪</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 4:35"/>那天晚上，耶稣对门徒说：“我们渡到对岸去吧。” <verse eid="MRK 4:35"/><verse number="36" style="v" sid="MRK 4:36"/>他们就离开众人，上了耶稣乘坐的船，带祂一起渡到湖的对岸，还有其他船只跟着去。 <verse eid="MRK 4:36"/><verse number="37" style="v" sid="MRK 4:37"/>忽然，湖面上狂风大作，波浪撞击船身，船内几乎灌满了水。 <verse eid="MRK 4:37"/><verse number="38" style="v" sid="MRK 4:38"/>耶稣却还在船尾枕着枕头睡觉。门徒叫醒了祂，说：“老师，我们快淹死了，你怎么不管呢？”<verse eid="MRK 4:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 4:39"/>耶稣起来斥责狂风，对着湖面说：“静下来！停下来！”顿时风平浪静了。 <verse eid="MRK 4:39"/><verse number="40" style="v" sid="MRK 4:40"/>祂对门徒说：“你们为什么这样害怕呢？你们还是没有信心吗？”<verse eid="MRK 4:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 4:41"/>他们极其害怕，彼此议论说：“祂到底是谁？连风浪都听祂的！”<verse eid="MRK 4:41"/></para>
+  <chapter eid="MRK 4"/>
+  <chapter number="5" style="c" sid="MRK 5"/>
+  <para style="s1">治好被鬼附身的人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 5:1"/>他们来到湖对岸的<char style="pn">格拉森</char>地区。 <verse eid="MRK 5:1"/><verse number="2" style="v" sid="MRK 5:2"/>耶稣刚下船，迎面就遇见一个被污鬼附身的人，是从坟墓里出来的。 <verse eid="MRK 5:2"/><verse number="3" style="v" sid="MRK 5:3"/>那人以坟墓为家，没有人能把他捆住，就算用铁链也不行。 <verse eid="MRK 5:3"/><verse number="4" style="v" sid="MRK 5:4"/>因为有人多次用铁链和脚镣锁住他，但他挣断了铁链，砸碎了脚镣。没有人能制服他。 <verse eid="MRK 5:4"/><verse number="5" style="v" sid="MRK 5:5"/>他昼夜在坟场和山野间大喊大叫，又用石头砍自己。<verse eid="MRK 5:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 5:6"/>他远远看见耶稣，就跑过去跪下来拜祂，高声喊道： <verse eid="MRK 5:6"/><verse number="7" style="v" sid="MRK 5:7"/>“至高上帝的儿子耶稣啊，我和你有什么关系？看在上帝的份上，求你不要折磨我！” <verse eid="MRK 5:7"/><verse number="8" style="v" sid="MRK 5:8"/>原来，耶稣已经对他身上的鬼说：“污鬼，从这人身上出来！”<verse eid="MRK 5:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 5:9"/>耶稣问：“你叫什么名字？”</para>
+  <para style="p" vid="MRK 5:9">他说：“我的名字叫‘群’，因为我们是一大群。”<verse eid="MRK 5:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 5:10"/>接着污鬼再三哀求耶稣，不要把它们赶出那个地区。 <verse eid="MRK 5:10"/><verse number="11" style="v" sid="MRK 5:11"/>当时有一大群猪在附近山坡上吃食。 <verse eid="MRK 5:11"/><verse number="12" style="v" sid="MRK 5:12"/>污鬼就央求耶稣说：“让我们到猪群里去，附在它们身上吧！”<verse eid="MRK 5:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 5:13"/>耶稣允许了，污鬼就离开那人，进入猪群。那群猪就一路奔下陡坡，冲进湖里淹死了，约有两千头。<verse eid="MRK 5:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 5:14"/>放猪的人逃走了，把这事传遍了城里乡间，人们都跑来看个究竟。 <verse eid="MRK 5:14"/><verse number="15" style="v" sid="MRK 5:15"/>他们到了耶稣那里，看见那曾被群鬼附身的人神智清醒、衣着整齐地坐在那里，都很害怕。 <verse eid="MRK 5:15"/><verse number="16" style="v" sid="MRK 5:16"/>目击者把被鬼附身的人和猪群的事告诉了他们， <verse eid="MRK 5:16"/><verse number="17" style="v" sid="MRK 5:17"/>他们就请求耶稣离开他们那里。<verse eid="MRK 5:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 5:18"/>耶稣上船的时候，那曾被鬼附身的人恳求耶稣让他随行。 <verse eid="MRK 5:18"/><verse number="19" style="v" sid="MRK 5:19"/>耶稣没有答应，而是对他说：“回去见你的家人，把主为你所行的奇事和祂怜悯你的经过都告诉他们吧！”<verse eid="MRK 5:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 5:20"/>这人就回到<char style="pn">低加坡里</char>一带传扬耶稣为他所行的奇事，人们都很惊奇。<verse eid="MRK 5:20"/></para>
+  <para style="s1">耶稣医治有信心的人</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 5:21"/>耶稣再坐船回到对岸，有一大群人在岸边围着祂。 <verse eid="MRK 5:21"/><verse number="22" style="v" sid="MRK 5:22"/>这时来了一个名叫<char style="pn">雅鲁</char>的会堂主管，他一见到耶稣便俯伏在祂脚前， <verse eid="MRK 5:22"/><verse number="23" style="v" sid="MRK 5:23"/>迫切恳求说：“我小女儿快要死了，求你去把手按在她身上，医治她，救她一命。”<verse eid="MRK 5:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 5:24"/>耶稣和他同去，一大群人跟着祂，拥挤着祂。<verse eid="MRK 5:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 5:25"/>有一个妇人患血漏病已经十二年， <verse eid="MRK 5:25"/><verse number="26" style="v" sid="MRK 5:26"/>经过许多医生的诊治，受尽痛苦，耗尽钱财，病情仍没有好转，反而更加严重。 <verse eid="MRK 5:26"/><verse number="27" style="v" sid="MRK 5:27"/>她听见耶稣的事，就夹在人群中从耶稣背后摸祂的衣服， <verse eid="MRK 5:27"/><verse number="28" style="v" sid="MRK 5:28"/>心想：“我只要摸到祂的衣服，就会痊愈。”<verse eid="MRK 5:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 5:29"/>她的血漏立刻止住了，她感到自己痊愈了。 <verse eid="MRK 5:29"/><verse number="30" style="v" sid="MRK 5:30"/>耶稣马上知道有能力从自己身上发出，便在人群中转过身来问：“谁摸了我的衣服？”<verse eid="MRK 5:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 5:31"/>门徒对祂说：“你看，这么多人在你周围挤来挤去，你怎么问谁摸你呢？”<verse eid="MRK 5:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 5:32"/>耶稣环视四周，要找出摸祂的人。 <verse eid="MRK 5:32"/><verse number="33" style="v" sid="MRK 5:33"/>那妇人害怕得发抖，知道在自己身上发生了什么，就上前俯伏在耶稣脚前，将实情说了出来。<verse eid="MRK 5:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 5:34"/>耶稣说：“女儿，你的信心救了你。安心去吧！你的病好了。”<verse eid="MRK 5:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 5:35"/>耶稣还在说话的时候，有人从<char style="pn">雅鲁</char>家赶来，对<char style="pn">雅鲁</char>说：“你的女儿已经死了，何必再麻烦老师呢？”<verse eid="MRK 5:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="MRK 5:36"/>耶稣听了，就对<char style="pn">雅鲁</char>说：“不要怕，只要信。” <verse eid="MRK 5:36"/><verse number="37" style="v" sid="MRK 5:37"/>于是，祂带着<char style="pn">彼得</char>、<char style="pn">雅各</char>和<char style="pn">雅各</char>的弟弟<char style="pn">约翰</char>去<char style="pn">雅鲁</char>家，不准其他人跟着。 <verse eid="MRK 5:37"/><verse number="38" style="v" sid="MRK 5:38"/>他们到了会堂主管家，耶稣看见在场的人嚎啕大哭，场面混乱。 <verse eid="MRK 5:38"/><verse number="39" style="v" sid="MRK 5:39"/>耶稣进去问道：“你们为什么乱哄哄地哭叫呢？这孩子没有死，只是睡着了。”<verse eid="MRK 5:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="MRK 5:40"/>众人都讥笑祂。耶稣让他们全部出去，然后带着女孩的父母和三个门徒进了孩子的房间。 <verse eid="MRK 5:40"/><verse number="41" style="v" sid="MRK 5:41"/>祂拉着女孩的手说：“大利大，古米！”意思是：“小女孩，我吩咐你起来！”<verse eid="MRK 5:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="MRK 5:42"/>女孩应声而起，开始走动。当时她十二岁。在场的人都惊奇不已。 <verse eid="MRK 5:42"/><verse number="43" style="v" sid="MRK 5:43"/>耶稣郑重叮嘱他们不要把这事张扬出去，又吩咐他们给女孩东西吃。<verse eid="MRK 5:43"/></para>
+  <chapter eid="MRK 5"/>
+  <chapter number="6" style="c" sid="MRK 6"/>
+  <para style="s1">拿撒勒人厌弃耶稣</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 6:1"/>耶稣带着门徒离开那地方，回到自己的家乡。 <verse eid="MRK 6:1"/><verse number="2" style="v" sid="MRK 6:2"/>到了安息日，祂开始在会堂里教导人，众人听了都很惊奇，说：“这个人从哪里学来这些本领？祂怎么会有这种智慧？祂怎么会行这样的神迹？ <verse eid="MRK 6:2"/><verse number="3" style="v" sid="MRK 6:3"/>这不是那个木匠吗？祂不是<char style="pn">玛丽亚</char>的儿子吗？祂不是<char style="pn">雅各</char>、<char style="pn">约西</char>、<char style="pn">犹大</char>、<char style="pn">西门</char>的大哥吗？祂的妹妹们不也住在我们这里吗？”他们就对祂很反感。<verse eid="MRK 6:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 6:4"/>耶稣对他们说：“先知到处受人尊敬，只有在本乡、本族、本家例外。” <verse eid="MRK 6:4"/><verse number="5" style="v" sid="MRK 6:5"/>耶稣不能在那里行任何神迹，只把手按在几个病人身上，医治了他们。 <verse eid="MRK 6:5"/><verse number="6" style="v" sid="MRK 6:6"/>耶稣对他们的不信感到诧异，就去周围的村庄继续教导人。<verse eid="MRK 6:6"/></para>
+  <para style="s1">差遣十二使徒</para>
+  <para style="p">
+    <verse number="7" style="v" sid="MRK 6:7"/>耶稣召集了十二个使徒，差遣他们两个两个地出去，赐他们制服污鬼的权柄， <verse eid="MRK 6:7"/><verse number="8" style="v" sid="MRK 6:8"/>又吩咐他们路上除了手杖外什么都不要带，不要带食物和背包，腰袋里也不要带钱， <verse eid="MRK 6:8"/><verse number="9" style="v" sid="MRK 6:9"/>只穿一双鞋和一套衣服就够了。 <verse eid="MRK 6:9"/><verse number="10" style="v" sid="MRK 6:10"/>祂对他们说：“无论什么地方，你们进到哪户人家，就在哪里住下来，一直到离开那地方。 <verse eid="MRK 6:10"/><verse number="11" style="v" sid="MRK 6:11"/>如果某地方的人不接待你们，不听你们传的道，你们离开那里时要跺掉脚上的尘土，作为对他们的警告！”<verse eid="MRK 6:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 6:12"/>使徒便出去传道，劝人悔改， <verse eid="MRK 6:12"/><verse number="13" style="v" sid="MRK 6:13"/>赶出许多鬼，为许多病人抹油，治好他们。<verse eid="MRK 6:13"/></para>
+  <para style="s1">施洗者约翰遇害</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 6:14"/>耶稣声名远扬，希律王也听说了祂的事。有人说：“施洗者<char style="pn">约翰</char>从死里复活了，所以能行这些神迹。”<verse eid="MRK 6:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 6:15"/>也有人说：“祂是<char style="pn">以利亚</char>。”</para>
+  <para style="p" vid="MRK 6:15">还有人说：“祂是个先知，就像古代的一位先知。”<verse eid="MRK 6:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 6:16"/>
+    <char style="pn">希律</char>听到这些议论，就说：“被我斩首的<char style="pn">约翰</char>从死里复活了！” <verse eid="MRK 6:16"/><verse number="17" style="v" sid="MRK 6:17"/>原来<char style="pn">希律</char>娶了他兄弟<char style="pn">腓力</char>的妻子<char style="pn">希罗底</char>，并为她的缘故而派人逮捕了<char style="pn">约翰</char>，把他锁在监牢里。 <verse eid="MRK 6:17"/><verse number="18" style="v" sid="MRK 6:18"/>因为<char style="pn">约翰</char>曾对<char style="pn">希律</char>说：“你娶弟弟的妻子不合法。”<verse eid="MRK 6:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 6:19"/>
+    <char style="pn">希罗底</char>对<char style="pn">约翰</char>怀恨在心，想要杀掉他，只是不能得逞。 <verse eid="MRK 6:19"/><verse number="20" style="v" sid="MRK 6:20"/>因为<char style="pn">希律</char>知道<char style="pn">约翰</char>是个公义圣洁的人，所以敬畏他，并对他加以保护。尽管<char style="pn">约翰</char>所讲的道理令他困惑不安，他仍然喜欢听。<verse eid="MRK 6:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 6:21"/>机会终于来了。<char style="pn">希律</char>在自己的生日那天设宴招待文武百官和<char style="pn">加利利</char>的显要。 <verse eid="MRK 6:21"/><verse number="22" style="v" sid="MRK 6:22"/><char style="pn">希罗底</char>的女儿进来跳舞，甚得<char style="pn">希律</char>和客人的欢心。王对她说：“你想要什么，只管说。” <verse eid="MRK 6:22"/><verse number="23" style="v" sid="MRK 6:23"/>王还对她起誓说：“无论你要什么，哪怕是我的半壁江山，我都会给你。”<verse eid="MRK 6:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 6:24"/>她便出去问她母亲：“我应该要什么呢？”</para>
+  <para style="p" vid="MRK 6:24">她母亲说：“要施洗者<char style="pn">约翰</char>的头！”<verse eid="MRK 6:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 6:25"/>她马上回去向王请求说：“愿王立刻把施洗者<char style="pn">约翰</char>的头放在盘子里送给我。”<verse eid="MRK 6:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 6:26"/>王听到这个请求，感到十分为难，但因为在众宾客面前起了誓，就不好拒绝。 <verse eid="MRK 6:26"/><verse number="27" style="v" sid="MRK 6:27"/>他立刻命令卫兵进监牢砍了<char style="pn">约翰</char>的头， <verse eid="MRK 6:27"/><verse number="28" style="v" sid="MRK 6:28"/>放在盘子里送给女孩，她又转送给她母亲。 <verse eid="MRK 6:28"/><verse number="29" style="v" sid="MRK 6:29"/><char style="pn">约翰</char>的门徒听到这个消息，就来把<char style="pn">约翰</char>的尸体领回去，安葬在坟墓里。<verse eid="MRK 6:29"/></para>
+  <para style="s1">耶稣使五千人吃饱</para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 6:30"/>使徒们聚集在耶稣身边，向祂报告他们一切的工作和教导。 <verse eid="MRK 6:30"/><verse number="31" style="v" sid="MRK 6:31"/>耶稣对他们说：“你们单独跟我到荒僻的地方去歇一会儿吧。”因为当时来来往往的人很多，他们连吃饭的时间都没有。<verse eid="MRK 6:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 6:32"/>他们乘船单独到了一处荒僻的地方。 <verse eid="MRK 6:32"/><verse number="33" style="v" sid="MRK 6:33"/>可是有许多人看见他们离开，认出了他们，便从各城镇步行赶往那里，比他们先到达。 <verse eid="MRK 6:33"/><verse number="34" style="v" sid="MRK 6:34"/>耶稣一下船，看见这一大群人好像没有牧人的羊，心里怜悯他们，于是教导了他们许多道理。<verse eid="MRK 6:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 6:35"/>天色晚了，门徒过来对耶稣说：“时候已经不早了，这里又是荒郊野外， <verse eid="MRK 6:35"/><verse number="36" style="v" sid="MRK 6:36"/>请遣散众人，好让他们到周围的村庄去自己买些吃的。”<verse eid="MRK 6:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 6:37"/>耶稣说：“你们给他们吃的吧。”</para>
+  <para style="p" vid="MRK 6:37">门徒说：“难道要我们买二百个银币的饼给他们吃吗？”<verse eid="MRK 6:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 6:38"/>耶稣说：“去看看你们有多少饼。”</para>
+  <para style="p" vid="MRK 6:38">他们察看后，说：“有五个饼和两条鱼。”<verse eid="MRK 6:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 6:39"/>耶稣吩咐门徒叫众人分组坐在草地上。 <verse eid="MRK 6:39"/><verse number="40" style="v" sid="MRK 6:40"/>于是众人坐下，有的五十人一组，有的一百人一组。 <verse eid="MRK 6:40"/><verse number="41" style="v" sid="MRK 6:41"/>耶稣拿起那五个饼、两条鱼，举目望着天祝谢后，掰开饼递给门徒，让他们分给众人。祂又照样把那两条鱼分给众人。 <verse eid="MRK 6:41"/><verse number="42" style="v" sid="MRK 6:42"/>大家都吃了，并且吃饱了。 <verse eid="MRK 6:42"/><verse number="43" style="v" sid="MRK 6:43"/>门徒把剩下的碎饼、碎鱼收拾起来，装满了十二个篮子。 <verse eid="MRK 6:43"/><verse number="44" style="v" sid="MRK 6:44"/>当时吃饼的有五千男人。<verse eid="MRK 6:44"/></para>
+  <para style="s1">耶稣在湖面上行走</para>
+  <para style="p">
+    <verse number="45" style="v" sid="MRK 6:45"/>耶稣随即催门徒上船，叫他们先渡到湖对岸的<char style="pn">伯赛大</char>，祂则遣散众人。 <verse eid="MRK 6:45"/><verse number="46" style="v" sid="MRK 6:46"/>祂辞别了众人后，就上山去祷告。 <verse eid="MRK 6:46"/><verse number="47" style="v" sid="MRK 6:47"/>到了晚上，门徒的船在湖中心，耶稣独自留在岸上。 <verse eid="MRK 6:47"/><verse number="48" style="v" sid="MRK 6:48"/>祂看见门徒在逆风中摇橹，非常吃力。天将破晓的时候，祂从水面上朝门徒走去，想要从他们旁边经过。 <verse eid="MRK 6:48"/><verse number="49" style="v" sid="MRK 6:49"/>门徒看见祂在湖面上走，以为是幽灵，就惊叫起来。 <verse eid="MRK 6:49"/><verse number="50" style="v" sid="MRK 6:50"/>全船的人看见祂，都吓坏了。耶稣立刻对他们说：“放心吧！是我，不要怕。”<verse eid="MRK 6:50"/></para>
+  <para style="p">
+    <verse number="51" style="v" sid="MRK 6:51"/>耶稣上船到他们那里，风便停了。门徒心里大为惊奇， <verse eid="MRK 6:51"/><verse number="52" style="v" sid="MRK 6:52"/>因为他们仍然不明白耶稣分饼的事，心里还是愚顽。 <verse eid="MRK 6:52"/><verse number="53" style="v" sid="MRK 6:53"/>他们渡到湖对岸，来到<char style="pn">革尼撒勒</char>，在那里靠岸， <verse eid="MRK 6:53"/><verse number="54" style="v" sid="MRK 6:54"/>刚一下船，众人立刻认出了耶稣。 <verse eid="MRK 6:54"/><verse number="55" style="v" sid="MRK 6:55"/>他们跑遍那一带地方，用垫子把生病的人抬来，听到耶稣在哪里，就把病人抬到哪里。 <verse eid="MRK 6:55"/><verse number="56" style="v" sid="MRK 6:56"/>耶稣无论到哪一个村庄、城镇或乡下，人们总是把病人抬到街市上，求耶稣让他们摸一摸祂衣服的穗子，所有摸过的病人都好了。<verse eid="MRK 6:56"/></para>
+  <chapter eid="MRK 6"/>
+  <chapter number="7" style="c" sid="MRK 7"/>
+  <para style="s1">传统与诫命</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 7:1"/>有法利赛人和一些律法教师从<char style="pn">耶路撒冷</char>聚集到耶稣那里。 <verse eid="MRK 7:1"/><verse number="2" style="v" sid="MRK 7:2"/>他们看到祂的一些门徒吃饭前没有照礼仪洗手。 <verse eid="MRK 7:2"/><verse number="3" style="v" sid="MRK 7:3"/>因为法利赛人和所有的<char style="pn">犹太</char>人都拘守祖先的传统，总是先照礼仪洗手之后才吃饭； <verse eid="MRK 7:3"/><verse number="4" style="v" sid="MRK 7:4"/>从市场回来也要先洁净自己，然后才吃饭。他们还拘守许多其他规矩，如洗杯、罐、铜器等。<verse eid="MRK 7:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 7:5"/>他们质问耶稣：“为什么你的门徒违背祖先的传统，竟用不洁净的手吃饭呢？”<verse eid="MRK 7:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 7:6"/>耶稣回答说：“<char style="pn">以赛亚</char>针对你们这些伪君子说的预言一点没错，正如圣经上说，</para>
+  <para style="q1" vid="MRK 7:6">“‘这些人嘴上尊崇我，</para>
+  <para style="q1" vid="MRK 7:6">心却远离我。<verse eid="MRK 7:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="MRK 7:7"/>他们的教导无非是人的规条，</para>
+  <para style="q1" vid="MRK 7:7">他们敬拜我也是枉然。’<note caller="+" style="f"><char style="fr" closed="false">7:7 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 29:13">以赛亚书29:13</ref>。</char></char></note><verse eid="MRK 7:7"/></para>
+  <para style="m">
+    <verse number="8" style="v" sid="MRK 7:8"/>你们只知拘守人的传统，却无视上帝的诫命。” <verse eid="MRK 7:8"/><verse number="9" style="v" sid="MRK 7:9"/>耶稣又对他们说：“你们为了拘守传统，竟巧妙地废除了上帝的诫命。 <verse eid="MRK 7:9"/><verse number="10" style="v" sid="MRK 7:10"/><char style="pn">摩西</char>说，‘要孝敬父母’<note caller="+" style="f"><char style="fr" closed="false">7:10 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:12">出埃及记20:12</ref>；<ref loc="DEU 5:16">申命记5:16</ref>。</char></char></note>，又说，‘咒骂父母的，必被处死。’<note caller="+" style="f"><char style="fr" closed="false">7:10 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 21:17">出埃及记21:17</ref>；<ref loc="LEV 20:9">利未记20:9</ref>。</char></char></note> <verse eid="MRK 7:10"/><verse number="11" style="v" sid="MRK 7:11"/>你们却认为人若对父母说，‘我把供养你们的钱财已经全部奉献给上帝了’， <verse eid="MRK 7:11"/><verse number="12" style="v" sid="MRK 7:12"/>他就可以不再奉养父母。 <verse eid="MRK 7:12"/><verse number="13" style="v" sid="MRK 7:13"/>你们就是这样为了拘守传统而废除上帝的道，类似的情形还有很多。”<verse eid="MRK 7:13"/></para>
+  <para style="s1">内心的污秽</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 7:14"/>耶稣又召集众人，对他们说：“你们都要听我说，也要明白， <verse eid="MRK 7:14"/><verse number="15" style="v" sid="MRK 7:15"/>从外面进去的不会使人污秽，只有从人里面发出来的才会使人污秽。 <verse eid="MRK 7:15"/><verse number="16" style="v" sid="MRK 7:16"/>有耳可听的，都应当听！<note caller="+" style="f"><char style="fr" closed="false">7:16 </char><char style="ft" closed="false">有古卷无16节。</char></note>”<verse eid="MRK 7:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 7:17"/>耶稣离开众人，进了屋子，门徒问祂这比喻的意思。 <verse eid="MRK 7:17"/><verse number="18" style="v" sid="MRK 7:18"/>耶稣说：“你们也这样糊涂吗？岂不知从外面进去的，不会使人污秽， <verse eid="MRK 7:18"/><verse number="19" style="v" sid="MRK 7:19"/>因为不能进入他的心，只能进他的肠胃，最后排进厕所，也就是说所有的食物都是洁净的。”<verse eid="MRK 7:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 7:20"/>祂接着说：“从人里面发出来的才使人污秽， <verse eid="MRK 7:20"/><verse number="21" style="v" sid="MRK 7:21"/>因为从里面，就是从人的心里能够生出恶念、苟合、偷盗、谋杀、 <verse eid="MRK 7:21"/><verse number="22" style="v" sid="MRK 7:22"/>通奸、贪婪、邪恶、诡诈、放荡、嫉妒、毁谤、骄傲、愚妄。 <verse eid="MRK 7:22"/><verse number="23" style="v" sid="MRK 7:23"/>这一切恶事都是从里面生出来的，能使人污秽。”<verse eid="MRK 7:23"/></para>
+  <para style="s1">外族妇人的信心</para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 7:24"/>耶稣从那里启程去<char style="pn">泰尔</char>和<char style="pn">西顿</char>地区。祂进了一户人家，原本不想让人知道，却无法避开人们的注意。 <verse eid="MRK 7:24"/><verse number="25-26" style="v" sid="MRK 7:25-26"/>当时有一个妇人的小女儿被污鬼附身，她听见耶稣的事，就来俯伏在祂脚前，恳求祂赶出她女儿身上的鬼。这妇人是<char style="pn">希腊</char>人，来自<char style="pn">叙利亚</char>的<char style="pn">腓尼基</char>。<verse eid="MRK 7:25-26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 7:27"/>耶稣对她说：“要先让儿女们吃饱，因为把儿女的食物丢给狗吃不合适。”<verse eid="MRK 7:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 7:28"/>妇人说：“主啊，你说的对，但桌子下的狗也吃孩子们掉下来的碎渣呀！”<verse eid="MRK 7:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 7:29"/>耶稣说：“因为你这句话，你回去吧，鬼已经离开你的女儿了。”<verse eid="MRK 7:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 7:30"/>她回到家里，见女儿躺在床上，鬼已经离开了。<verse eid="MRK 7:30"/></para>
+  <para style="s1">医治聋哑人</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 7:31"/>耶稣离开<char style="pn">泰尔</char>地区，经过<char style="pn">西顿</char>，来到<char style="pn">低加坡里</char>地区的<char style="pn">加利利</char>湖。 <verse eid="MRK 7:31"/><verse number="32" style="v" sid="MRK 7:32"/>有人带着一个又聋又哑的人来见耶稣，恳求祂把手按在这个人身上。 <verse eid="MRK 7:32"/><verse number="33" style="v" sid="MRK 7:33"/>耶稣就带他离开众人走到一边，用指头伸进他的耳朵，又吐唾沫抹他的舌头， <verse eid="MRK 7:33"/><verse number="34" style="v" sid="MRK 7:34"/>望天长叹，对他说：“以法大！”意思是“开了吧！” <verse eid="MRK 7:34"/><verse number="35" style="v" sid="MRK 7:35"/>他的耳朵立刻开了，舌头灵活了，说话也清楚了。 <verse eid="MRK 7:35"/><verse number="36" style="v" sid="MRK 7:36"/>耶稣吩咐他们不要将这事告诉别人。可是耶稣越是这样吩咐，他们越是极力宣扬， <verse eid="MRK 7:36"/><verse number="37" style="v" sid="MRK 7:37"/>听见的人都十分惊奇，说：“祂做的一切都很好，甚至叫耳聋的听见，哑巴说话！”<verse eid="MRK 7:37"/></para>
+  <chapter eid="MRK 7"/>
+  <chapter number="8" style="c" sid="MRK 8"/>
+  <para style="s1">耶稣使四千人吃饱</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 8:1"/>那时，又有一大群人聚在一起，他们没有东西吃。耶稣就叫来门徒，说： <verse eid="MRK 8:1"/><verse number="2" style="v" sid="MRK 8:2"/>“我怜悯这些人，他们跟我在一起已经三天，没有任何吃的了。 <verse eid="MRK 8:2"/><verse number="3" style="v" sid="MRK 8:3"/>如果我让他们饿着肚子回家，他们在路上会体力不支，因为有些人是远道而来的。”<verse eid="MRK 8:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 8:4"/>门徒说：“在这荒郊野外，如何找到足够的食物给这些人吃呢？”<verse eid="MRK 8:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 8:5"/>耶稣问：“你们有多少饼？”</para>
+  <para style="p" vid="MRK 8:5">门徒答道：“七个。”<verse eid="MRK 8:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 8:6"/>耶稣便吩咐众人坐在地上，然后拿着那七个饼祝谢后，掰开，递给门徒，让门徒分给众人，门徒就把饼分给众人。 <verse eid="MRK 8:6"/><verse number="7" style="v" sid="MRK 8:7"/>他们还有几条小鱼。耶稣祝谢了，叫门徒分给众人。 <verse eid="MRK 8:7"/><verse number="8" style="v" sid="MRK 8:8"/>大家都吃了，并且吃饱了，剩下的零碎装满了七个筐子。 <verse eid="MRK 8:8"/><verse number="9" style="v" sid="MRK 8:9"/>吃的人约有四千。耶稣让众人回家后， <verse eid="MRK 8:9"/><verse number="10" style="v" sid="MRK 8:10"/>随即和门徒上船，来到<char style="pn">大玛努他</char>地区。<verse eid="MRK 8:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MRK 8:11"/>法利赛人出来盘问耶稣，要求祂从天上显一个神迹，好试探祂。 <verse eid="MRK 8:11"/><verse number="12" style="v" sid="MRK 8:12"/>耶稣深深叹息道：“这世代的人为什么总是要看神迹呢？我实在告诉你们，没有神迹给这世代的人看。” <verse eid="MRK 8:12"/><verse number="13" style="v" sid="MRK 8:13"/>然后，耶稣离开他们，乘船回对岸去了。<verse eid="MRK 8:13"/></para>
+  <para style="s1">防备法利赛人和希律的酵</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 8:14"/>门徒忘了带饼，船上只有一个饼。 <verse eid="MRK 8:14"/><verse number="15" style="v" sid="MRK 8:15"/>耶稣警告他们：“你们要谨慎，要提防法利赛人和<char style="pn">希律</char>的酵！”<verse eid="MRK 8:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 8:16"/>他们彼此议论说：“这是因为我们没有带饼吧。”<verse eid="MRK 8:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 8:17"/>耶稣知道他们的心思，就说：“你们为什么议论没有带饼的事呢？你们还不明白、不领悟吗？你们的心还是愚顽吗？ <verse eid="MRK 8:17"/><verse number="18" style="v" sid="MRK 8:18"/>你们有眼不会看，有耳不会听吗？你们不记得吗？ <verse eid="MRK 8:18"/><verse number="19" style="v" sid="MRK 8:19"/>我掰开五个饼分给五千人吃的时候，你们捡了多少篮的零碎呢？”</para>
+  <para style="p" vid="MRK 8:19">门徒答道：“十二篮。”<verse eid="MRK 8:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 8:20"/>耶稣又说：“我用七个饼喂饱四千人的时候，你们捡了多少筐零碎呢？”</para>
+  <para style="p" vid="MRK 8:20">门徒答道：“七筐。”<verse eid="MRK 8:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 8:21"/>耶稣接着说：“你们还不明白吗？”<verse eid="MRK 8:21"/></para>
+  <para style="s1">治好伯赛大瞎眼的人</para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 8:22"/>他们到了<char style="pn">伯赛大</char>，有人带来一个瞎眼的人，求耶稣摸他。 <verse eid="MRK 8:22"/><verse number="23" style="v" sid="MRK 8:23"/>耶稣拉着他的手带他走到村外，吐唾沫在他的眼睛上，并把手按在他身上，问他：“你看见什么了？”<verse eid="MRK 8:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 8:24"/>他抬头看了看，说：“我看见人们好像一棵棵的树，走来走去。”<verse eid="MRK 8:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 8:25"/>耶稣又把手按在他的眼睛上，他的眼睛便睁开了，视力也恢复了，什么都看得清清楚楚。 <verse eid="MRK 8:25"/><verse number="26" style="v" sid="MRK 8:26"/>耶稣叫他回家，并对他说：“不要再进这个村子了。”<verse eid="MRK 8:26"/></para>
+  <para style="s1">彼得宣告耶稣是基督</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 8:27"/>耶稣和门徒前往<char style="pn">凯撒利亚·腓立比</char>境内的村庄。在路上，祂问门徒：“人们说我是谁？”<verse eid="MRK 8:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 8:28"/>他们说：“有人说是施洗者<char style="pn">约翰</char>，有人说是<char style="pn">以利亚</char>，还有人说是其他某位先知。”<verse eid="MRK 8:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 8:29"/>耶稣又问他们：“那么，你们说我是谁？”</para>
+  <para style="p" vid="MRK 8:29">
+    <char style="pn">彼得</char>回答说：“你是基督！”<verse eid="MRK 8:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 8:30"/>耶稣叮嘱他们不可泄露祂的身份。<verse eid="MRK 8:30"/></para>
+  <para style="s1">耶稣预言自己的受难和复活</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 8:31"/>从此，耶稣开始教导他们，人子必须受许多苦，被长老、祭司长和律法教师弃绝，并且被杀害，但必在三天之后复活。 <verse eid="MRK 8:31"/><verse number="32" style="v" sid="MRK 8:32"/>耶稣清楚地把这些事告诉了他们，<char style="pn">彼得</char>就把祂拉到一边，开始责怪祂。 <verse eid="MRK 8:32"/><verse number="33" style="v" sid="MRK 8:33"/>耶稣转身看了看门徒，斥责<char style="pn">彼得</char>说：“撒旦，退到我后面去！因为你不考虑上帝的意思，只考虑人的意思。”<verse eid="MRK 8:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 8:34"/>祂叫众人和门徒一起过来，对他们说：“人若想跟从我，就当舍己，背起他的十字架跟从我。 <verse eid="MRK 8:34"/><verse number="35" style="v" sid="MRK 8:35"/>因为想救自己生命的，必失去生命；但为了我和福音失去生命的，必得到生命。 <verse eid="MRK 8:35"/><verse number="36" style="v" sid="MRK 8:36"/>人就算赚得全世界，却丧失自己的生命，又有什么益处呢？ <verse eid="MRK 8:36"/><verse number="37" style="v" sid="MRK 8:37"/>人还能拿什么换回自己的生命呢？<verse eid="MRK 8:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 8:38"/>“在这淫乱、罪恶的世代，如果有人以我和我的道为耻，人子在祂父的荣耀中与圣天使再来的时候，也要以他为耻。”<verse eid="MRK 8:38"/></para>
+  <chapter eid="MRK 8"/>
+  <chapter number="9" style="c" sid="MRK 9"/>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 9:1"/>耶稣继续说：“我实在告诉你们，有些站在这里的人会在有生之年看见上帝的国带着能力降临。”<verse eid="MRK 9:1"/></para>
+  <para style="s1">登山变象</para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 9:2"/>六天后，耶稣带着<char style="pn">彼得</char>、<char style="pn">雅各</char>和<char style="pn">约翰</char>单独登上一座高山。耶稣在他们面前改变了形象， <verse eid="MRK 9:2"/><verse number="3" style="v" sid="MRK 9:3"/>衣服洁白放光，世上没有人能把布漂得那么白。 <verse eid="MRK 9:3"/><verse number="4" style="v" sid="MRK 9:4"/>这时，<char style="pn">以利亚</char>和<char style="pn">摩西</char>向他们显现，他们在跟耶稣谈话。 <verse eid="MRK 9:4"/><verse number="5" style="v" sid="MRK 9:5"/><char style="pn">彼得</char>对耶稣说：“老师，我们在这里真好！我们搭三座帐篷吧，一座给你，一座给<char style="pn">摩西</char>，一座给<char style="pn">以利亚</char>。”<verse eid="MRK 9:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 9:6"/>其实<char style="pn">彼得</char>不知道说什么才好，因为他们都很害怕。 <verse eid="MRK 9:6"/><verse number="7" style="v" sid="MRK 9:7"/>就在这时候，有一朵云彩飘来笼罩他们，云彩中有声音说：“这是我的爱子，你们要听从祂。” <verse eid="MRK 9:7"/><verse number="8" style="v" sid="MRK 9:8"/>门徒立刻四处观看，发现没有其他人，只有耶稣和他们在那里。<verse eid="MRK 9:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 9:9"/>下山的时候，耶稣叮嘱他们在人子从死里复活之前，不要把刚才看见的告诉别人。<verse eid="MRK 9:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 9:10"/>门徒把这话谨记在心，彼此议论“从死里复活”这句话的意思。 <verse eid="MRK 9:10"/><verse number="11" style="v" sid="MRK 9:11"/>他们问耶稣：“律法教师为什么说<char style="pn">以利亚</char>必须先来？”<verse eid="MRK 9:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 9:12"/>耶稣回答说：“<char style="pn">以利亚</char>固然要先来复兴一切，但为什么圣经上说人子一定会饱受痛苦、遭人蔑视呢？ <verse eid="MRK 9:12"/><verse number="13" style="v" sid="MRK 9:13"/>其实我告诉你们，<char style="pn">以利亚</char>已经来了，人们却任意对待他，正如圣经的记载。”<verse eid="MRK 9:13"/></para>
+  <para style="s1">治好污鬼附身的孩子</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 9:14"/>他们与其他门徒会合时，看见一大群人围住门徒，几个律法教师正在跟他们辩论。 <verse eid="MRK 9:14"/><verse number="15" style="v" sid="MRK 9:15"/>众人一看到耶稣，都十分惊奇，立刻跑上去问候祂。 <verse eid="MRK 9:15"/><verse number="16" style="v" sid="MRK 9:16"/>耶稣问门徒：“你们跟他们辩论什么？”<verse eid="MRK 9:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 9:17"/>人群中有一个人答道：“老师，我带了我的儿子来找你，因为他被哑巴鬼附身。 <verse eid="MRK 9:17"/><verse number="18" style="v" sid="MRK 9:18"/>每次鬼控制他，把他摔在地上，他就口吐白沫，咬牙切齿，全身僵硬。我请你的门徒把鬼赶出去，但他们无能为力。”<verse eid="MRK 9:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 9:19"/>耶稣说：“唉，这不信的世代啊！我要跟你们在一起待多久，容忍你们多久呢？把他带到我这里来吧。”<verse eid="MRK 9:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 9:20"/>他们把那孩子带到耶稣面前。那鬼一见耶稣，就使孩子抽搐，倒在地上打滚，口吐白沫。 <verse eid="MRK 9:20"/><verse number="21" style="v" sid="MRK 9:21"/>耶稣问孩子的父亲：“他这样子多久了？”孩子的父亲回答道：“他从小就这样， <verse eid="MRK 9:21"/><verse number="22" style="v" sid="MRK 9:22"/>鬼常常将他扔进火里或水里，要害他的命。如果你能，求你怜悯我们，帮助我们吧！”<verse eid="MRK 9:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 9:23"/>耶稣说：“如果你能？对于相信的人，凡事都有可能！”<verse eid="MRK 9:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 9:24"/>孩子的父亲立刻高喊：“我信！但我信心不足，求你帮助我！”<verse eid="MRK 9:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 9:25"/>耶稣看见人群都跑了过来，就斥责那污鬼：“你这个聋哑鬼，我命令你从他身上出来，不许再进去！”<verse eid="MRK 9:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 9:26"/>那鬼发出喊叫，使孩子剧烈地抽搐了一阵，就出来了。孩子躺在地上一动也不动，很多人都说他死了。 <verse eid="MRK 9:26"/><verse number="27" style="v" sid="MRK 9:27"/>但耶稣拉着他的手扶他起来，他就站了起来。<verse eid="MRK 9:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 9:28"/>耶稣进屋后，门徒私下问祂：“我们为什么赶不走那鬼呢？”<verse eid="MRK 9:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 9:29"/>耶稣说：“要赶走这类鬼只有靠祷告<note caller="+" style="f"><char style="fr" closed="false">9:29 </char><char style="ft" closed="false">“祷告”有古卷作“祷告和禁食”。</char></note>。”<verse eid="MRK 9:29"/></para>
+  <para style="s1">再次预言受难</para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 9:30"/>他们离开那里，途经<char style="pn">加利利</char>。耶稣不想任何人知道祂的行踪， <verse eid="MRK 9:30"/><verse number="31" style="v" sid="MRK 9:31"/>因为祂在教导门徒。祂说：“人子将被交在人手中，被他们杀害，但三天之后，祂必复活。” <verse eid="MRK 9:31"/><verse number="32" style="v" sid="MRK 9:32"/>门徒却不明白这句话的意思，又不敢问祂。<verse eid="MRK 9:32"/></para>
+  <para style="s1">谁最伟大</para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 9:33"/>他们回到<char style="pn">迦百农</char>的住所，耶稣问门徒：“你们一路上争论些什么？”<verse eid="MRK 9:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 9:34"/>他们都沉默不语，因为刚才他们在争论谁最伟大。 <verse eid="MRK 9:34"/><verse number="35" style="v" sid="MRK 9:35"/>耶稣坐下，叫十二个门徒过来，对他们说：“谁想为首，就该在众人中做最小的，做众人的仆人。” <verse eid="MRK 9:35"/><verse number="36" style="v" sid="MRK 9:36"/>祂领了一个小孩子来，叫他站在门徒中间，又抱起他，对他们说： <verse eid="MRK 9:36"/><verse number="37" style="v" sid="MRK 9:37"/>“谁为了我的名接待这样一个小孩子，就是接待我；谁接待我，就是接待差我来的那位，而非接待我。”<verse eid="MRK 9:37"/></para>
+  <para style="s1">警戒犯罪</para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 9:38"/>
+    <char style="pn">约翰</char>对耶稣说：“老师，我们看见有人奉你的名赶鬼，就阻止他，因为他不是跟从我们的。”<verse eid="MRK 9:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 9:39"/>耶稣说：“不要阻止他，因为没有人奉我的名行过神迹后，会很快毁谤我。 <verse eid="MRK 9:39"/><verse number="40" style="v" sid="MRK 9:40"/>不反对我们的，就是支持我们的。 <verse eid="MRK 9:40"/><verse number="41" style="v" sid="MRK 9:41"/>我实在告诉你们，有人若因你们属于基督而给你们一杯水喝，也必得到赏赐。<verse eid="MRK 9:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="MRK 9:42"/>“不论谁使这样一个小信徒失足犯罪，他的下场比把大磨石拴在他脖子上扔到海里还要惨。 <verse eid="MRK 9:42"/><verse number="43-44" style="v" sid="MRK 9:43-44"/>如果你一只手使你犯罪，就砍掉它！残废着进入永生，胜过双手健全却落入地狱不灭的火中<note caller="+" style="f"><char style="fr" closed="false">9:43‑44 </char><char style="ft" closed="false">有古卷加“那里虫是不死的，火是不灭的”。</char></note>。 <verse eid="MRK 9:43-44"/><verse number="45-46" style="v" sid="MRK 9:45-46"/>如果你一只脚使你犯罪，就砍掉它！瘸着腿进入永生，胜过双脚健全却被扔进地狱<note caller="+" style="f" category="dup"><char style="fr" closed="false">9:45‑46 </char><char style="ft" closed="false">有古卷加“那里虫是不死的，火是不灭的”。</char></note>。 <verse eid="MRK 9:45-46"/><verse number="47" style="v" sid="MRK 9:47"/>如果你一只眼睛使你犯罪，就剜掉它！独眼进上帝的国，胜过双目健全却被扔进地狱。 <verse eid="MRK 9:47"/><verse number="48" style="v" sid="MRK 9:48"/>在那里，</para>
+  <para style="q1" vid="MRK 9:48">“‘虫不会死，</para>
+  <para style="q1" vid="MRK 9:48">火不会灭。’<note caller="+" style="f"><char style="fr" closed="false">9:48 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 66:24">以赛亚书66:24</ref>。</char></char></note><verse eid="MRK 9:48"/></para>
+  <para style="p">
+    <verse number="49" style="v" sid="MRK 9:49"/>“每个人都要被火炼，像被盐腌一样。 <verse eid="MRK 9:49"/><verse number="50" style="v" sid="MRK 9:50"/>盐本是好的，但如果失去咸味，怎能使它再咸呢？你们里面要有盐，要彼此和睦。”<verse eid="MRK 9:50"/></para>
+  <chapter eid="MRK 9"/>
+  <chapter number="10" style="c" sid="MRK 10"/>
+  <para style="s1">论婚姻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 10:1"/>耶稣离开那里，来到<char style="pn">犹太</char>地区和<char style="pn">约旦</char>河东岸，人群又聚集到祂那里。耶稣照常教导他们。 <verse eid="MRK 10:1"/><verse number="2" style="v" sid="MRK 10:2"/>一些法利赛人想试探耶稣，就来问祂：“男人可以休妻吗？” <verse eid="MRK 10:2"/><verse number="3" style="v" sid="MRK 10:3"/>耶稣反问道：“<char style="pn">摩西</char>怎么吩咐你们的？”<verse eid="MRK 10:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 10:4"/>他们说：“<char style="pn">摩西</char>准许人写休书休妻。”<verse eid="MRK 10:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 10:5"/>耶稣说：“<char style="pn">摩西</char>因为你们心里刚硬，才给你们写了这条诫命。 <verse eid="MRK 10:5"/><verse number="6" style="v" sid="MRK 10:6"/>太初创造时，‘上帝造了男人和女人。’<note caller="+" style="f"><char style="fr" closed="false">10:6 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 1:27">创世记1:27</ref>。</char></char></note> <verse eid="MRK 10:6"/><verse number="7" style="v" sid="MRK 10:7"/>‘因此，人要离开父母，与妻子结合， <verse eid="MRK 10:7"/><verse number="8" style="v" sid="MRK 10:8"/>二人成为一体。’<note caller="+" style="f"><char style="fr" closed="false">10:8 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 2:24">创世记2:24</ref>。</char></char></note>这样，夫妻不再是两个人，而是一体了。 <verse eid="MRK 10:8"/><verse number="9" style="v" sid="MRK 10:9"/>因此，上帝配合的，人不可分开。”<verse eid="MRK 10:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 10:10"/>回到屋里后，门徒追问耶稣这件事。 <verse eid="MRK 10:10"/><verse number="11" style="v" sid="MRK 10:11"/>耶稣说：“任何人休妻另娶，就是对妻子不忠，是犯通奸罪。 <verse eid="MRK 10:11"/><verse number="12" style="v" sid="MRK 10:12"/>同样，妻子若离弃丈夫另嫁，也是犯通奸罪。”<verse eid="MRK 10:12"/></para>
+  <para style="s1">祝福孩童</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 10:13"/>有人带着小孩子来要让耶稣为他们按手，门徒却责备他们。 <verse eid="MRK 10:13"/><verse number="14" style="v" sid="MRK 10:14"/>耶稣看见后很生气，对门徒说：“让小孩子到我这里来，不要阻止他们，因为上帝的国属于这样的人。 <verse eid="MRK 10:14"/><verse number="15" style="v" sid="MRK 10:15"/>我实在告诉你们，人若不像小孩子一样接受上帝的国，绝不能进去。” <verse eid="MRK 10:15"/><verse number="16" style="v" sid="MRK 10:16"/>于是，耶稣抱起小孩子，为他们按手祝福。<verse eid="MRK 10:16"/></para>
+  <para style="s1">永生的代价</para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 10:17"/>耶稣正要上路，有一个人跑来跪在祂跟前，问祂：“良善的老师，我该做什么才能承受永生？”<verse eid="MRK 10:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 10:18"/>耶稣说：“你为什么称我是良善的？只有上帝是良善的。 <verse eid="MRK 10:18"/><verse number="19" style="v" sid="MRK 10:19"/>你知道‘不可杀人，不可通奸，不可偷盗，不可作伪证，不可欺诈，要孝敬父母’<note caller="+" style="f"><char style="fr" closed="false">10:19 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:12-16">出埃及记20:12‑16</ref>；<ref loc="DEU 5:16-20">申命记5:16‑20</ref>。</char></char></note>这些诫命。”<verse eid="MRK 10:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 10:20"/>那人说：“老师，我从小就遵行这些诫命。”<verse eid="MRK 10:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 10:21"/>耶稣望着他，心中爱他，便说：“你还差一件事，就是去变卖你所有的产业，送给穷人，你必有财宝存在天上，然后你还要来跟从我。”<verse eid="MRK 10:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 10:22"/>那人听了，脸色骤变，便沮丧地走了，因为他有许多产业。 <verse eid="MRK 10:22"/><verse number="23" style="v" sid="MRK 10:23"/>耶稣环顾四周，对门徒说：“有钱人进上帝的国真难啊！”<verse eid="MRK 10:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 10:24"/>门徒听了感到惊奇，耶稣便再次对他们说：“孩子们，<note caller="+" style="f"><char style="fr" closed="false">10:24 </char><char style="ft" closed="false">有古卷此处有“依靠钱财的人”。</char></note>进上帝的国真难啊！ <verse eid="MRK 10:24"/><verse number="25" style="v" sid="MRK 10:25"/>骆驼穿过针眼比有钱人进上帝的国还容易呢！”<verse eid="MRK 10:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 10:26"/>门徒更加惊奇，便议论说：“这样，谁能得救呢？”<verse eid="MRK 10:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 10:27"/>耶稣看着他们说：“对人而言，这不可能，但对上帝而言，凡事都可能。”<verse eid="MRK 10:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 10:28"/>
+    <char style="pn">彼得</char>说：“你看，我们已经撇下一切来跟从你了。”<verse eid="MRK 10:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 10:29"/>耶稣说：“我实在告诉你们，任何人为了我和福音而撇下房屋、弟兄、姊妹、父母、儿女或田地， <verse eid="MRK 10:29"/><verse number="30" style="v" sid="MRK 10:30"/>今世必在房屋、弟兄、姊妹、父母、儿女或田地方面获得百倍的回报，来世必得永生。同时他也会受到迫害。 <verse eid="MRK 10:30"/><verse number="31" style="v" sid="MRK 10:31"/>然而，许多为首的将要殿后，殿后的将要为首。”<verse eid="MRK 10:31"/></para>
+  <para style="s1">耶稣第三次预言自己的受难</para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 10:32"/>在前往<char style="pn">耶路撒冷</char>的路上，耶稣走在众人前面，门徒感到惊奇，其他跟随的人也很害怕。</para>
+  <para style="p" vid="MRK 10:32">耶稣又把十二使徒叫到一旁，把自己将要遭遇的事告诉他们，说： <verse eid="MRK 10:32"/><verse number="33" style="v" sid="MRK 10:33"/>“看啊，我们现在前往<char style="pn">耶路撒冷</char>，人子将被交给祭司长和律法教师，他们要判祂死刑，把祂交给外族人。 <verse eid="MRK 10:33"/><verse number="34" style="v" sid="MRK 10:34"/>他们会嘲弄祂，向祂吐唾沫，鞭打祂，杀害祂。但是，三天之后祂必复活！”<verse eid="MRK 10:34"/></para>
+  <para style="s1">雅各与约翰的请求</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 10:35"/>
+    <char style="pn">西庇太</char>的两个儿子<char style="pn">雅各</char>和<char style="pn">约翰</char>上前对耶稣说：“老师，请你答应我们一个要求。”<verse eid="MRK 10:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="MRK 10:36"/>耶稣问：“什么要求？”<verse eid="MRK 10:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 10:37"/>他们说：“在你的荣耀中，求你让我们一个坐在你右边，一个坐在你左边。”<verse eid="MRK 10:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 10:38"/>耶稣说：“你们不知道自己在求什么。我要喝的那杯，你们能喝吗？我要受的洗，你们能受吗？”<verse eid="MRK 10:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 10:39"/>他们说：“我们能。”</para>
+  <para style="p" vid="MRK 10:39">耶稣说：“我要喝的那杯，你们也要喝；我所受的洗，你们也要受。 <verse eid="MRK 10:39"/><verse number="40" style="v" sid="MRK 10:40"/>不过谁坐在我的左右不是我来定，而是为谁预备的，就让谁坐。”<verse eid="MRK 10:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 10:41"/>其他十个门徒听见这事，很生<char style="pn">雅各</char>和<char style="pn">约翰</char>的气。 <verse eid="MRK 10:41"/><verse number="42" style="v" sid="MRK 10:42"/>于是，耶稣把他们叫来，对他们说：“你们知道，外族人有君王统治他们，有大臣管理他们， <verse eid="MRK 10:42"/><verse number="43" style="v" sid="MRK 10:43"/>但你们不可这样。你们中间谁想当首领，谁就要做大家的仆人； <verse eid="MRK 10:43"/><verse number="44" style="v" sid="MRK 10:44"/>谁想居首位，谁就要做大家的奴仆。 <verse eid="MRK 10:44"/><verse number="45" style="v" sid="MRK 10:45"/>因为就连人子也不是来受人服侍，而是来服侍人，并且牺牲性命，作许多人的赎价。”<verse eid="MRK 10:45"/></para>
+  <para style="s1">治好瞎眼的巴底买</para>
+  <para style="p">
+    <verse number="46" style="v" sid="MRK 10:46"/>耶稣和门徒来到<char style="pn">耶利哥</char>。当耶稣和门徒及一大群人出城的时候，有一个瞎眼的人坐在路旁乞讨，他的名字叫<char style="pn">巴底买</char>，是<char style="pn">底买</char>的儿子。 <verse eid="MRK 10:46"/><verse number="47" style="v" sid="MRK 10:47"/><char style="pn">巴底买</char>一听说是<char style="pn">拿撒勒</char>人耶稣，就喊道：“<char style="pn">大卫</char>的后裔耶稣啊，可怜我吧！”<verse eid="MRK 10:47"/></para>
+  <para style="p">
+    <verse number="48" style="v" sid="MRK 10:48"/>许多人都责备他，叫他不要吵，但他却更加大声喊道：“<char style="pn">大卫</char>的后裔啊，可怜我吧！”<verse eid="MRK 10:48"/></para>
+  <para style="p">
+    <verse number="49" style="v" sid="MRK 10:49"/>耶稣停下脚步，说：“叫他过来吧。”</para>
+  <para style="p" vid="MRK 10:49">他们就对那瞎眼的说：“好了，起来吧，祂叫你呢。”<verse eid="MRK 10:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="MRK 10:50"/>那人丢下外衣，跳了起来，走到耶稣面前。<verse eid="MRK 10:50"/></para>
+  <para style="p">
+    <verse number="51" style="v" sid="MRK 10:51"/>耶稣问他：“你要我为你做什么？”</para>
+  <para style="p" vid="MRK 10:51">他说：“老师，我想看见。”<verse eid="MRK 10:51"/></para>
+  <para style="p">
+    <verse number="52" style="v" sid="MRK 10:52"/>耶稣说：“去吧！你的信心救<note caller="+" style="f"><char style="fr" closed="false">10:52 </char><char style="ft" closed="false">“救”或译“医治”。</char></note>了你。”他立刻得见光明，在路上跟从了耶稣。<verse eid="MRK 10:52"/></para>
+  <chapter eid="MRK 10"/>
+  <chapter number="11" style="c" sid="MRK 11"/>
+  <para style="s1">骑驴进耶路撒冷</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 11:1"/>耶稣和门徒将近<char style="pn">耶路撒冷</char>，来到橄榄山的<char style="pn">伯法其</char>和<char style="pn">伯大尼</char>。耶稣派了两个门徒， <verse eid="MRK 11:1"/><verse number="2" style="v" sid="MRK 11:2"/>并嘱咐说：“你们去前面的村庄，一进村就会看见一头从来没有人骑过的驴驹拴在那里，你们把它解开牵来。 <verse eid="MRK 11:2"/><verse number="3" style="v" sid="MRK 11:3"/>若有人问你们为什么这样做，就说，‘主要用它，很快会把它送回来。’” <verse eid="MRK 11:3"/><verse number="4" style="v" sid="MRK 11:4"/>他们就去了，果然看见有一头驴驹拴在街道旁一户人家的门外，就解开它。 <verse eid="MRK 11:4"/><verse number="5" style="v" sid="MRK 11:5"/>旁边站着的几个人就问他们：“你们解开驴驹干什么？”<verse eid="MRK 11:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 11:6"/>门徒依照耶稣的吩咐回答，那些人就让他们牵走了。 <verse eid="MRK 11:6"/><verse number="7" style="v" sid="MRK 11:7"/>他们把驴驹牵到耶稣那里，把自己的外衣搭在驴背上，耶稣就骑了上去。 <verse eid="MRK 11:7"/><verse number="8" style="v" sid="MRK 11:8"/>许多人把衣服铺在路上，还有人将田间的树枝砍下来铺在路上。 <verse eid="MRK 11:8"/><verse number="9" style="v" sid="MRK 11:9"/>众人前呼后拥，高喊道：</para>
+  <para style="q1" vid="MRK 11:9">“和散那！”<note caller="+" style="f"><char style="fr" closed="false">11:9 </char><char style="ft" closed="false">“和散那”原意是“拯救我们”，此处有“赞美”的意思。</char></note></para>
+  <para style="b" vid="MRK 11:9"/>
+  <para style="q1" vid="MRK 11:9">“奉主名来的当受称颂！”<note caller="+" style="f"><char style="fr" closed="false">11:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 118:26">诗篇118:26</ref>。</char></char></note><verse eid="MRK 11:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="MRK 11:10"/>“那将要来临的我祖<char style="pn">大卫</char>的国度当受称颂！”</para>
+  <para style="b" vid="MRK 11:10"/>
+  <para style="q1" vid="MRK 11:10">“和散那归于至高之处的上帝！”<verse eid="MRK 11:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MRK 11:11"/>耶稣进了<char style="pn">耶路撒冷</char>，来到圣殿，巡视各处。那时天色已晚，耶稣便和十二使徒出城前往<char style="pn">伯大尼</char>。<verse eid="MRK 11:11"/></para>
+  <para style="s1">咒诅无花果树</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 11:12"/>第二天，他们离开<char style="pn">伯大尼</char>后，耶稣饿了。 <verse eid="MRK 11:12"/><verse number="13" style="v" sid="MRK 11:13"/>祂远远看见一棵长满叶子的无花果树，就走过去看能否找到果子。到了树下，却什么也找不到，只有叶子，因为当时不是收无花果的季节。 <verse eid="MRK 11:13"/><verse number="14" style="v" sid="MRK 11:14"/>祂对那棵树说：“愿今后无人再吃你的果子！”祂的门徒都听见了这句话。<verse eid="MRK 11:14"/></para>
+  <para style="s1">洁净圣殿</para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 11:15"/>他们来到<char style="pn">耶路撒冷</char>后，耶稣进入圣殿，赶走里面做买卖的人，推翻兑换钱币之人的桌子和卖鸽子之人的凳子， <verse eid="MRK 11:15"/><verse number="16" style="v" sid="MRK 11:16"/>不准人抬着货物穿过圣殿。 <verse eid="MRK 11:16"/><verse number="17" style="v" sid="MRK 11:17"/>祂教导他们说：“圣经上不是记载‘我的殿必称为万民祷告的殿’<note caller="+" style="f"><char style="fr" closed="false">11:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 56:7">以赛亚书56:7</ref>。</char></char></note>吗？你们竟把它变成了贼窝。<note caller="+" style="f"><char style="fr" closed="false">11:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="JER 7:11">耶利米书7:11</ref>。</char></char></note>”<verse eid="MRK 11:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 11:18"/>祭司长和律法教师听到这番话后，就策划如何杀害耶稣，只是害怕祂，因为百姓都对祂的教导感到惊奇。 <verse eid="MRK 11:18"/><verse number="19" style="v" sid="MRK 11:19"/>到了傍晚，耶稣和门徒去了城外。<verse eid="MRK 11:19"/></para>
+  <para style="s1">无花果树的教训</para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 11:20"/>早上，他们经过那棵无花果树，看见它连根都枯了。 <verse eid="MRK 11:20"/><verse number="21" style="v" sid="MRK 11:21"/><char style="pn">彼得</char>想起昨天发生的事，就对耶稣说：“老师，你看！你咒诅的无花果树已经枯了。”<verse eid="MRK 11:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 11:22"/>耶稣说：“你们要对上帝有信心。 <verse eid="MRK 11:22"/><verse number="23" style="v" sid="MRK 11:23"/>我实在告诉你们，不论何人，只要有信心，毫不疑惑，就是对这座山说，‘从这里挪开，投进大海里！’也必定为他成就。 <verse eid="MRK 11:23"/><verse number="24" style="v" sid="MRK 11:24"/>所以我告诉你们，你们无论祷告求什么，只要相信已经得到了，就必得到。 <verse eid="MRK 11:24"/><verse number="25" style="v" sid="MRK 11:25"/>你们站着祷告的时候，若想起有人得罪了你们，就要饶恕他。这样，你们天上的父也会饶恕你们的过犯。 <verse eid="MRK 11:25"/><verse number="26" style="v" sid="MRK 11:26"/>你们如果不饶恕别人，你们天上的父也不会饶恕你们的过犯。<note caller="+" style="f"><char style="fr" closed="false">11:26 </char><char style="ft" closed="false">有古卷无26节。</char></note>”<verse eid="MRK 11:26"/></para>
+  <para style="s1">质问耶稣的权柄</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 11:27"/>他们再次回到<char style="pn">耶路撒冷</char>。耶稣在圣殿里行走的时候，祭司长、律法教师和长老上前质问祂： <verse eid="MRK 11:27"/><verse number="28" style="v" sid="MRK 11:28"/>“你凭什么权柄做这些事？谁授权给你了？”<verse eid="MRK 11:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 11:29"/>耶稣说：“我要问你们一个问题，你们回答了，我就告诉你们我凭什么权柄做这些事。 <verse eid="MRK 11:29"/><verse number="30" style="v" sid="MRK 11:30"/><char style="pn">约翰</char>的洗礼是从天上来的，还是从人间来的？请回答我！”<verse eid="MRK 11:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 11:31"/>他们彼此议论说：“如果我们说‘是从天上来的’，祂一定会问，‘那你们为什么不信他？’ <verse eid="MRK 11:31"/><verse number="32" style="v" sid="MRK 11:32"/>但我们如果说‘是从人间来的’，又怕触怒百姓，因为他们都相信<char style="pn">约翰</char>真的是先知。” <verse eid="MRK 11:32"/><verse number="33" style="v" sid="MRK 11:33"/>于是，他们回答说：“我们不知道。”耶稣说：“我也不告诉你们我凭什么权柄做这些事。”<verse eid="MRK 11:33"/></para>
+  <chapter eid="MRK 11"/>
+  <chapter number="12" style="c" sid="MRK 12"/>
+  <para style="s1">凶狠的佃户</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 12:1"/>耶稣用比喻对他们说：“有人开垦了一个葡萄园，在四周围上篱笆，又在园中挖了一个榨酒池，建了一座瞭望台，然后把葡萄园租给佃户，就出远门了。<verse eid="MRK 12:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 12:2"/>“到了收获的季节，园主派奴仆去佃户那里收取他的那份果实。 <verse eid="MRK 12:2"/><verse number="3" style="v" sid="MRK 12:3"/>佃户却抓住奴仆，打了他一顿，使他空手而归。<verse eid="MRK 12:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 12:4"/>“园主又派另一个奴仆去。这一次，佃户不但把他打得头破血流，还侮辱他。 <verse eid="MRK 12:4"/><verse number="5" style="v" sid="MRK 12:5"/>园主再派一个奴仆前往，他们却把他杀掉了。园主后来派去的人不是挨打，就是被杀。 <verse eid="MRK 12:5"/><verse number="6" style="v" sid="MRK 12:6"/>最后只剩下园主的爱子，园主就派他去，以为那些佃户会尊重他的儿子。 <verse eid="MRK 12:6"/><verse number="7" style="v" sid="MRK 12:7"/>可是佃户却彼此商量说，‘这是产业继承人。来吧！我们杀掉他，产业就归我们了。’<verse eid="MRK 12:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MRK 12:8"/>“于是他们抓住他，杀了他，把他扔到葡萄园外。 <verse eid="MRK 12:8"/><verse number="9" style="v" sid="MRK 12:9"/>那么，园主会怎么做？他必来杀掉这些佃户，把葡萄园租给别人。 <verse eid="MRK 12:9"/><verse number="10" style="v" sid="MRK 12:10"/>圣经上说，</para>
+  <para style="q1" vid="MRK 12:10">“‘工匠丢弃的石头已成了房角石。<verse eid="MRK 12:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="MRK 12:11"/>这是主的作为，</para>
+  <para style="q1" vid="MRK 12:11">在我们看来奇妙莫测。’<note caller="+" style="f"><char style="fr" closed="false">12:11 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 118:22">诗篇118:22</ref>、<ref loc="PSA 118:23">23</ref>。</char></char></note></para>
+  <para style="m" vid="MRK 12:11">你们没有读过这段经文吗？”<verse eid="MRK 12:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 12:12"/>他们听出这比喻是针对他们说的，就想逮捕耶稣，但又害怕百姓，只好离开了。<verse eid="MRK 12:12"/></para>
+  <para style="s1">纳税给凯撒的问题</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 12:13"/>后来，他们派了几个法利赛人和<char style="pn">希律</char>党人到耶稣那里，企图利用祂所说的话设计陷害祂。<verse eid="MRK 12:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 12:14"/>他们上前对耶稣说：“老师，我们知道你诚实无伪，不徇情面，因为你不以貌取人，而是按真理传上帝的道。那么，向凯撒纳税对不对呢？ <verse eid="MRK 12:14"/><verse number="15" style="v" sid="MRK 12:15"/>我们该不该纳呢？”耶稣看破他们的阴谋，就说：“你们为什么试探我呢？拿一个银币来给我看。”<verse eid="MRK 12:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 12:16"/>他们就拿来一个银币，耶稣问他们：“上面刻的是谁的像和名号？”</para>
+  <para style="p" vid="MRK 12:16">他们说：“凯撒的。”<verse eid="MRK 12:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 12:17"/>耶稣说：“属于凯撒的东西应该给凯撒，属于上帝的东西应该给上帝。”</para>
+  <para style="p" vid="MRK 12:17">他们听了这话，都很惊奇。<verse eid="MRK 12:17"/></para>
+  <para style="s1">论复活</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 12:18"/>撒都该人向来不相信有复活的事，他们来问耶稣： <verse eid="MRK 12:18"/><verse number="19" style="v" sid="MRK 12:19"/>“老师，<char style="pn">摩西</char>为我们写下律例，如果一个人死了，留下妻子，又没有儿女，他的兄弟就当娶嫂嫂，替哥哥传宗接代。 <verse eid="MRK 12:19"/><verse number="20" style="v" sid="MRK 12:20"/>有弟兄七人，老大结了婚，没有孩子就死了。 <verse eid="MRK 12:20"/><verse number="21" style="v" sid="MRK 12:21"/>二弟把大嫂娶过来，也没有生孩子就死了，三弟也是一样， <verse eid="MRK 12:21"/><verse number="22" style="v" sid="MRK 12:22"/>七个人都没有留下孩子。最后，那女人也死了。 <verse eid="MRK 12:22"/><verse number="23" style="v" sid="MRK 12:23"/>那么，到复活的时候，她将是谁的妻子呢？因为七个人都娶过她。”<verse eid="MRK 12:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 12:24"/>耶稣说：“你们弄错了，因为你们不明白圣经，也不知道上帝的能力。 <verse eid="MRK 12:24"/><verse number="25" style="v" sid="MRK 12:25"/>死人复活之后，不娶也不嫁，就像天上的天使一样。 <verse eid="MRK 12:25"/><verse number="26" style="v" sid="MRK 12:26"/>关于死人复活的事，你们没有读过<char style="pn">摩西</char>书有关火中荆棘的记载吗？上帝对<char style="pn">摩西</char>说，‘我是<char style="pn">亚伯拉罕</char>的上帝，<char style="pn">以撒</char>的上帝，<char style="pn">雅各</char>的上帝。’<note caller="+" style="f"><char style="fr" closed="false">12:26 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 3:6">出埃及记3:6</ref>。</char></char></note> <verse eid="MRK 12:26"/><verse number="27" style="v" sid="MRK 12:27"/>上帝不是死人的上帝，而是活人的上帝。你们大错了！”<verse eid="MRK 12:27"/></para>
+  <para style="s1">最大的诫命</para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 12:28"/>有一位律法教师听到他们的辩论，觉得耶稣的回答很精彩，就走过去问道：“诫命中哪一条最重要呢？”<verse eid="MRK 12:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 12:29"/>耶稣回答道：“最重要的诫命是，‘听啊，<char style="pn">以色列</char>！主——我们的上帝是独一的主。 <verse eid="MRK 12:29"/><verse number="30" style="v" sid="MRK 12:30"/>你要全心、全情、全意、全力爱主你的上帝’<note caller="+" style="f"><char style="fr" closed="false">12:30 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 6:4">申命记6:4</ref>、<ref loc="DEU 6:5">5</ref>。</char></char></note>； <verse eid="MRK 12:30"/><verse number="31" style="v" sid="MRK 12:31"/>其次就是‘要爱邻如己’<note caller="+" style="f"><char style="fr" closed="false">12:31 </char><char style="ft" closed="false"><char style="xt"><ref loc="LEV 19:18">利未记19:18</ref>。</char></char></note>。再也没有任何诫命比这两条更重要了。”<verse eid="MRK 12:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 12:32"/>那位律法教师说：“老师，你说的对，上帝只有一位，除祂以外，别无他神。 <verse eid="MRK 12:32"/><verse number="33" style="v" sid="MRK 12:33"/>我们要全心、全意、全力爱祂，又要爱邻如己。这比一切燔祭等祭物都好。”<verse eid="MRK 12:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 12:34"/>耶稣见他答得很有智慧，就告诉他：“你离上帝的国不远了。”此后，再没人敢用问题刁难耶稣。<verse eid="MRK 12:34"/></para>
+  <para style="s1">基督的身份</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 12:35"/>耶稣在圣殿里教导的时候，问道：“律法教师怎么说基督是<char style="pn">大卫</char>的后裔呢？ <verse eid="MRK 12:35"/><verse number="36" style="v" sid="MRK 12:36"/><char style="pn">大卫</char>自己曾经受圣灵的感动，说，</para>
+  <para style="q1" vid="MRK 12:36">“‘主对我主说，</para>
+  <para style="q1" vid="MRK 12:36">你坐在我的右边，</para>
+  <para style="q1" vid="MRK 12:36">等我把你的仇敌放在你脚下。’<note caller="+" style="f"><char style="fr" closed="false">12:36 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 110:1">诗篇110:1</ref>。</char></char></note><verse eid="MRK 12:36"/></para>
+  <para style="m">
+    <verse number="37" style="v" sid="MRK 12:37"/>既然<char style="pn">大卫</char>自己称基督为主，基督又怎么会是<char style="pn">大卫</char>的后裔呢？”百姓听得津津有味。 <verse eid="MRK 12:37"/><verse number="38" style="v" sid="MRK 12:38"/>耶稣又教导他们，说：“你们要提防律法教师，他们爱穿着长袍招摇过市，喜欢人们在大街上问候他们， <verse eid="MRK 12:38"/><verse number="39" style="v" sid="MRK 12:39"/>又喜欢会堂里的上座和宴席中的首位。 <verse eid="MRK 12:39"/><verse number="40" style="v" sid="MRK 12:40"/>他们侵吞寡妇的家产，还假意做冗长的祷告。这种人必受到更严厉的惩罚。”<verse eid="MRK 12:40"/></para>
+  <para style="s1">穷寡妇的奉献</para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 12:41"/>然后，耶稣在圣殿的奉献箱对面坐下，看众人怎样奉献。很多财主奉献了大量的钱。 <verse eid="MRK 12:41"/><verse number="42" style="v" sid="MRK 12:42"/>后来一个穷寡妇来了，投进了相当于一文钱的两个小铜钱。 <verse eid="MRK 12:42"/><verse number="43" style="v" sid="MRK 12:43"/>耶稣叫门徒来，说：“我实在告诉你们，这位穷寡妇比其他人奉献的都多， <verse eid="MRK 12:43"/><verse number="44" style="v" sid="MRK 12:44"/>因为他们不过奉献了自己富余的，但这穷寡妇奉献了她赖以为生的一切。”<verse eid="MRK 12:44"/></para>
+  <chapter eid="MRK 12"/>
+  <chapter number="13" style="c" sid="MRK 13"/>
+  <para style="s1">预言圣殿被毁</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 13:1"/>耶稣走出圣殿的时候，有一个门徒对祂说：“老师，你看！这是多么大的石头，多么宏伟的建筑啊！”<verse eid="MRK 13:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 13:2"/>耶稣说：“你看见这些宏伟的建筑了吗？将来要被完全拆毁，找不到两块叠在一起的石头。”<verse eid="MRK 13:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 13:3"/>耶稣面向圣殿坐在橄榄山上，<char style="pn">彼得</char>、<char style="pn">雅各</char>、<char style="pn">约翰</char>和<char style="pn">安得烈</char>私下来问祂： <verse eid="MRK 13:3"/><verse number="4" style="v" sid="MRK 13:4"/>“请告诉我们，这些事什么时候会发生？有什么预兆？”<verse eid="MRK 13:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 13:5"/>耶稣回答说：“你们要小心，免得被人迷惑。 <verse eid="MRK 13:5"/><verse number="6" style="v" sid="MRK 13:6"/>将来会有许多人冒我的名来，说，‘我是基督’，欺骗许多人。<verse eid="MRK 13:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MRK 13:7"/>“你们听见战争爆发、战讯频传时，不要惊慌，因为这些事必然发生，只是末日还没有到。<verse eid="MRK 13:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MRK 13:8"/>“民族将攻打民族，国家将攻打国家，各处将有地震和饥荒。这些只是灾难<note caller="+" style="f"><char style="fr" closed="false">13:8 </char><char style="ft" closed="false">“灾难”希腊文是“生产之痛”。</char></note>的开始。<verse eid="MRK 13:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 13:9"/>“你们要小心谨慎，因为你们将被送上法庭，并在会堂里被鞭打，又将为了我的缘故在官长和君王面前做见证。 <verse eid="MRK 13:9"/><verse number="10" style="v" sid="MRK 13:10"/>不过，福音一定要先传遍天下。 <verse eid="MRK 13:10"/><verse number="11" style="v" sid="MRK 13:11"/>当你们被拘捕，押去受审时，不要先担心该说什么话，到时候赐给你们什么话，你们就说什么话，因为那时候说话的不是你们自己，而是圣灵。<verse eid="MRK 13:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 13:12"/>“那时，人将把自己的弟兄置于死地，父亲将把儿子置于死地，儿女将反叛父母，置他们于死地。 <verse eid="MRK 13:12"/><verse number="13" style="v" sid="MRK 13:13"/>你们将因我的名而被众人憎恨，但坚忍到底的必定得救。<verse eid="MRK 13:13"/></para>
+  <para style="s1">大灾难</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 13:14"/>“当你们看见‘那带来毁灭的可憎者’<note caller="+" style="f"><char style="fr" closed="false">13:14 </char><char style="ft" closed="false"><char style="xt"><ref loc="DAN 9:27">但以理书9:27</ref>；<ref loc="DAN 11:31">11:31</ref>；<ref loc="DAN 12:11">12:11</ref>。</char></char></note>站在不当站的地方时（读者须会意），<char style="pn">犹太</char>地区的人要逃到山上去； <verse eid="MRK 13:14"/><verse number="15" style="v" sid="MRK 13:15"/>在屋顶上的人不要下来，不要进屋拿东西； <verse eid="MRK 13:15"/><verse number="16" style="v" sid="MRK 13:16"/>在田间的人不要回家取外衣。 <verse eid="MRK 13:16"/><verse number="17" style="v" sid="MRK 13:17"/>那时，孕妇和哺育婴儿的母亲们可就遭殃了！ <verse eid="MRK 13:17"/><verse number="18" style="v" sid="MRK 13:18"/>你们要祈求上帝使这些事不要在冬天发生， <verse eid="MRK 13:18"/><verse number="19" style="v" sid="MRK 13:19"/>因为那是上帝创造天地以来空前绝后的大灾难。 <verse eid="MRK 13:19"/><verse number="20" style="v" sid="MRK 13:20"/>如果主不缩短灾期，恐怕没有人能活命，但为了祂的选民，祂已经缩短灾期。 <verse eid="MRK 13:20"/><verse number="21" style="v" sid="MRK 13:21"/>那时，如果有人对你们说，‘看啊，基督在这里！’或说，‘基督在那里！’你们不要相信。 <verse eid="MRK 13:21"/><verse number="22" style="v" sid="MRK 13:22"/>因为假基督和假先知将出现，行各种神迹奇事，如果可能，甚至要迷惑上帝的选民。 <verse eid="MRK 13:22"/><verse number="23" style="v" sid="MRK 13:23"/>你们要小心，我已经把一切预先告诉你们了。<verse eid="MRK 13:23"/></para>
+  <para style="s1">人子降临</para>
+  <para style="q1">
+    <verse number="24" style="v" sid="MRK 13:24"/>“大灾难过后，</para>
+  <para style="q1" vid="MRK 13:24">‘太阳昏暗，</para>
+  <para style="q1" vid="MRK 13:24">月亮无光，<verse eid="MRK 13:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="MRK 13:25"/>星宿陨落，</para>
+  <para style="q1" vid="MRK 13:25">天体震动。’<note caller="+" style="f"><char style="fr" closed="false">13:25 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 13:10">以赛亚书13:10</ref>；<ref loc="ISA 34:4">34:4</ref>。</char></char></note><verse eid="MRK 13:25"/></para>
+  <para style="m">
+    <verse number="26" style="v" sid="MRK 13:26"/>那时，世人必看到人子驾着云、带着极大的能力和荣耀降临。 <verse eid="MRK 13:26"/><verse number="27" style="v" sid="MRK 13:27"/>祂必差遣天使从四面八方、天涯海角招聚祂拣选的人。<verse eid="MRK 13:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 13:28"/>“你们可以从无花果树学个道理。当无花果树发芽长叶的时候，你们就知道夏天快来了。 <verse eid="MRK 13:28"/><verse number="29" style="v" sid="MRK 13:29"/>同样，当你们看见这些事情发生时，就知道人子快来了，就在门口。 <verse eid="MRK 13:29"/><verse number="30" style="v" sid="MRK 13:30"/>我实在告诉你们，这个世代还没有过去，这一切都要发生。 <verse eid="MRK 13:30"/><verse number="31" style="v" sid="MRK 13:31"/>天地都要消逝，但我的话永不消逝。<verse eid="MRK 13:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 13:32"/>“但没有人知道那日子和时辰何时来到，连天上的天使也不知道，人子也不知道，只有天父知道。 <verse eid="MRK 13:32"/><verse number="33" style="v" sid="MRK 13:33"/>你们要小心，保持警醒，因为你们不知道那日子何时来到。<verse eid="MRK 13:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 13:34"/>“这就好像一个人在出远门之前，把家中的事交给仆人，让他们各做各的工作，又吩咐守门的人要警醒。 <verse eid="MRK 13:34"/><verse number="35" style="v" sid="MRK 13:35"/>所以你们要警醒，因为你们不知道家主什么时候回来，可能是黄昏，可能是夜半，也可能是黎明或早上。 <verse eid="MRK 13:35"/><verse number="36" style="v" sid="MRK 13:36"/>别让他突然回来时看到你们在睡觉。 <verse eid="MRK 13:36"/><verse number="37" style="v" sid="MRK 13:37"/>我劝你们，也劝所有的人，要警醒！”<verse eid="MRK 13:37"/></para>
+  <chapter eid="MRK 13"/>
+  <chapter number="14" style="c" sid="MRK 14"/>
+  <para style="s1">谋害耶稣</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 14:1"/>再过两天就是逾越节和除酵节，祭司长和律法教师正暗暗地找机会拘捕、杀害耶稣。<verse eid="MRK 14:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 14:2"/>他们说：“我们不能在节期那天下手，以免在百姓中引起骚乱。”<verse eid="MRK 14:2"/></para>
+  <para style="s1">耶稣受膏</para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 14:3"/>耶稣在<char style="pn">伯大尼</char>患过麻风病的<char style="pn">西门</char>家里吃饭的时候，有个女人带了一瓶极贵重的纯哪哒香膏进来，把玉瓶打破，将香膏倒在耶稣头上。 <verse eid="MRK 14:3"/><verse number="4" style="v" sid="MRK 14:4"/>有些人生气地彼此议论说：“何必这样浪费香膏？ <verse eid="MRK 14:4"/><verse number="5" style="v" sid="MRK 14:5"/>这瓶香膏能卖三百多个银币<note caller="+" style="f"><char style="fr" closed="false">14:5 </char><char style="ft" closed="false">“三百多个银币”相当于当时人们一年的工钱。</char></note>来周济穷人。”他们就责备那女人。<verse eid="MRK 14:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 14:6"/>耶稣说：“随她吧！何必为难她呢？她在我身上做的是一件美事。 <verse eid="MRK 14:6"/><verse number="7" style="v" sid="MRK 14:7"/>因为你们身边总会有穷人，你们随时都可以帮助他们，可是你们身边不会总有我。 <verse eid="MRK 14:7"/><verse number="8" style="v" sid="MRK 14:8"/>她做了自己能做的。她是为我的安葬做准备，提前用香膏抹了我的身体。 <verse eid="MRK 14:8"/><verse number="9" style="v" sid="MRK 14:9"/>我实在告诉你们，无论福音传到世界哪个角落，人们都会传扬这女人的事迹，记念她。”<verse eid="MRK 14:9"/></para>
+  <para style="s1">犹大出卖耶稣</para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 14:10"/>十二使徒中的<char style="pn">加略</char>人<char style="pn">犹大</char>去见祭司长，要把耶稣出卖给他们。 <verse eid="MRK 14:10"/><verse number="11" style="v" sid="MRK 14:11"/>他们听了喜出望外，答应给他酬金。于是<char style="pn">犹大</char>伺机出卖耶稣。<verse eid="MRK 14:11"/></para>
+  <para style="s1">最后的晚餐</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 14:12"/>除酵节的第一天，就是宰杀逾越节羔羊的那天，门徒问耶稣：“你想让我们去哪里为你预备逾越节吃的晚餐呢？”<verse eid="MRK 14:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 14:13"/>耶稣就派了两个门徒，并嘱咐他们：“你们进城会看到一个人带着一瓶水迎面而来，你们就跟着他。 <verse eid="MRK 14:13"/><verse number="14" style="v" sid="MRK 14:14"/>他进哪一家，你们就对哪一家的主人说，‘老师问：祂的客房在哪里？祂要和门徒在里面吃逾越节的晚餐。’ <verse eid="MRK 14:14"/><verse number="15" style="v" sid="MRK 14:15"/>主人会带你们看楼上一间布置整齐的大房间，你们就在那里为我们预备吧。”<verse eid="MRK 14:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 14:16"/>两个门徒出去，进了城，所遇见的果然和耶稣所说的一样。他们就预备了逾越节的晚餐。<verse eid="MRK 14:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 14:17"/>傍晚，耶稣和十二使徒来了。 <verse eid="MRK 14:17"/><verse number="18" style="v" sid="MRK 14:18"/>用餐的时候，耶稣说：“我实在告诉你们，你们中间有一个人要出卖我，他正和我同桌吃饭。”<verse eid="MRK 14:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 14:19"/>他们感到忧伤，一个一个地问耶稣：“不是我吧？” <verse eid="MRK 14:19"/><verse number="20" style="v" sid="MRK 14:20"/>耶稣说：“是你们十二个人中的一个，他现在正和我一起在碗里蘸饼吃。 <verse eid="MRK 14:20"/><verse number="21" style="v" sid="MRK 14:21"/>人子要离世了，正如圣经对祂的记载，但那出卖人子的人有祸了，他还不如不生在这世上！”<verse eid="MRK 14:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 14:22"/>他们吃的时候，耶稣拿起饼来，祝谢后，掰开分给门徒，说：“拿去吃吧！这是我的身体。” <verse eid="MRK 14:22"/><verse number="23" style="v" sid="MRK 14:23"/>接着祂又拿起杯来，祝谢后，递给他们，他们都喝了。 <verse eid="MRK 14:23"/><verse number="24" style="v" sid="MRK 14:24"/>耶稣说：“这是我为万人所流的立约之血。 <verse eid="MRK 14:24"/><verse number="25" style="v" sid="MRK 14:25"/>我实在告诉你们，从今天起，一直到我在上帝的国喝新酒的那天之前，我不会再喝这葡萄酒。”<verse eid="MRK 14:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 14:26"/>他们唱完圣诗，就出门去了橄榄山。<verse eid="MRK 14:26"/></para>
+  <para style="s1">预言彼得不认主</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 14:27"/>耶稣对他们说：“你们都要背弃我，因为圣经上说，</para>
+  <para style="q1" vid="MRK 14:27">“‘我要击打牧人，</para>
+  <para style="q1" vid="MRK 14:27">羊群将四散。’<note caller="+" style="f"><char style="fr" closed="false">14:27 </char><char style="ft" closed="false"><char style="xt"><ref loc="ZEC 13:7">撒迦利亚书13:7</ref>。</char></char></note><verse eid="MRK 14:27"/></para>
+  <para style="m">
+    <verse number="28" style="v" sid="MRK 14:28"/>但我复活后，要先你们一步去<char style="pn">加利利</char>。”<verse eid="MRK 14:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 14:29"/>
+    <char style="pn">彼得</char>说：“即使所有人都背弃你，我也决不会背弃你！”<verse eid="MRK 14:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 14:30"/>耶稣说：“我实在告诉你，就在今天晚上鸡叫两次以前，你会三次不认我。”<verse eid="MRK 14:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 14:31"/>
+    <char style="pn">彼得</char>郑重地说：“就算我必须跟你一起死，我也不会不认你。”其他门徒也都这样说。<verse eid="MRK 14:31"/></para>
+  <para style="s1">客西马尼园的祷告</para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 14:32"/>他们到了<char style="pn">客西马尼</char>，耶稣对门徒说：“你们坐在这里，我要去祷告。”<verse eid="MRK 14:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 14:33"/>于是耶稣带着<char style="pn">彼得</char>、<char style="pn">雅各</char>和<char style="pn">约翰</char>一起去。祂极其忧伤和难过， <verse eid="MRK 14:33"/><verse number="34" style="v" sid="MRK 14:34"/>说：“我心里非常忧伤，几乎要死，你们留在这里警醒。” <verse eid="MRK 14:34"/><verse number="35" style="v" sid="MRK 14:35"/>耶稣往前走了不远，俯伏在地祷告：如果可以的话，不要让那时刻临到祂。<verse eid="MRK 14:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="MRK 14:36"/>祂说：“阿爸，父啊，你无所不能，求你撤去此杯。然而，愿你的旨意成就，而非我的意愿。”<verse eid="MRK 14:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 14:37"/>祂回来，见他们都睡着了，就对<char style="pn">彼得</char>说：“<char style="pn">西门</char>，你在睡觉吗？你不能警醒半个时辰吗？ <verse eid="MRK 14:37"/><verse number="38" style="v" sid="MRK 14:38"/>你们要警醒祷告，免得陷入诱惑。你们的心灵虽然愿意，肉体却很软弱。”<verse eid="MRK 14:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 14:39"/>耶稣又去祷告，所祈求的跟上次一样。 <verse eid="MRK 14:39"/><verse number="40" style="v" sid="MRK 14:40"/>祂回来时见他们又睡着了，因为他们困得眼皮发沉，也不知道对祂说什么。 <verse eid="MRK 14:40"/><verse number="41" style="v" sid="MRK 14:41"/>祂第三次祷告回来后，对他们说：“你们还在睡觉休息吗？够了，时候到了，看啊，人子要被交在罪人手中了。 <verse eid="MRK 14:41"/><verse number="42" style="v" sid="MRK 14:42"/>起来，我们走吧。看啊，出卖我的人已经来了！”<verse eid="MRK 14:42"/></para>
+  <para style="s1">耶稣被捕</para>
+  <para style="p">
+    <verse number="43" style="v" sid="MRK 14:43"/>耶稣还在说话的时候，十二使徒中的<char style="pn">犹大</char>来了，同来的还有祭司长、律法教师和长老派来的一群拿着刀棍的人。 <verse eid="MRK 14:43"/><verse number="44" style="v" sid="MRK 14:44"/>出卖耶稣的<char style="pn">犹大</char>预先和他们定了暗号，说：“我亲吻谁，谁就是耶稣，你们把祂抓起来，小心押走。”<verse eid="MRK 14:44"/></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MRK 14:45"/>
+    <char style="pn">犹大</char>随即走到耶稣跟前说：“老师”，然后亲吻耶稣。 <verse eid="MRK 14:45"/><verse number="46" style="v" sid="MRK 14:46"/>他们就下手捉拿耶稣。 <verse eid="MRK 14:46"/><verse number="47" style="v" sid="MRK 14:47"/>站在旁边的一个门徒拔出刀朝大祭司的奴仆砍去，削掉了他一只耳朵。<verse eid="MRK 14:47"/></para>
+  <para style="p">
+    <verse number="48" style="v" sid="MRK 14:48"/>耶稣问那群人：“你们像对付强盗一样拿着刀棍来抓我吗？ <verse eid="MRK 14:48"/><verse number="49" style="v" sid="MRK 14:49"/>我在圣殿里教导人时，天天和你们在一起，你们没有来抓我。你们现在这样做是要应验圣经的话。”<verse eid="MRK 14:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="MRK 14:50"/>那时，所有门徒都丢下祂逃走了。 <verse eid="MRK 14:50"/><verse number="51" style="v" sid="MRK 14:51"/>只有一个身上披着一块麻布的青年跟着耶稣。他们上去捉他， <verse eid="MRK 14:51"/><verse number="52" style="v" sid="MRK 14:52"/>他丢了那块麻布，赤身逃走了。<verse eid="MRK 14:52"/></para>
+  <para style="s1">大祭司审问耶稣</para>
+  <para style="p">
+    <verse number="53" style="v" sid="MRK 14:53"/>他们把耶稣押到大祭司那里，众祭司长、长老和律法教师都来了。 <verse eid="MRK 14:53"/><verse number="54" style="v" sid="MRK 14:54"/>那时<char style="pn">彼得</char>远远地跟着耶稣，一直进到大祭司的院子里，与卫兵们坐在一起烤火。 <verse eid="MRK 14:54"/><verse number="55" style="v" sid="MRK 14:55"/>祭司长和全公会的人正在寻找证据控告耶稣，要定祂死罪，只是找不到。 <verse eid="MRK 14:55"/><verse number="56" style="v" sid="MRK 14:56"/>不少人作伪证控告祂，他们的证词却不一致。 <verse eid="MRK 14:56"/><verse number="57" style="v" sid="MRK 14:57"/>后来，有几个人站起来作伪证说： <verse eid="MRK 14:57"/><verse number="58" style="v" sid="MRK 14:58"/>“我们听见祂说，‘我要拆毁这座人手建造的殿，三天内不靠人力另造一座。’” <verse eid="MRK 14:58"/><verse number="59" style="v" sid="MRK 14:59"/>即使这样，他们的证词也不一致。<verse eid="MRK 14:59"/></para>
+  <para style="p">
+    <verse number="60" style="v" sid="MRK 14:60"/>这时，大祭司在众人面前站起来质问耶稣：“你不回答吗？这些人作证控告你的是什么呢？”<verse eid="MRK 14:60"/></para>
+  <para style="p">
+    <verse number="61" style="v" sid="MRK 14:61"/>耶稣还是沉默不语，什么也不答。大祭司又问祂：“你是那当受称颂者的儿子基督吗？” <verse eid="MRK 14:61"/><verse number="62" style="v" sid="MRK 14:62"/>耶稣说：“我是！将来你们要看见人子坐在大能者的右边，驾着天上的云降临。”<verse eid="MRK 14:62"/></para>
+  <para style="p">
+    <verse number="63" style="v" sid="MRK 14:63"/>大祭司便撕裂衣服，说：“我们还需要什么证人呢？ <verse eid="MRK 14:63"/><verse number="64" style="v" sid="MRK 14:64"/>你们听见祂说亵渎的话了，你们看怎么办？”他们都判祂死罪。<verse eid="MRK 14:64"/></para>
+  <para style="p">
+    <verse number="65" style="v" sid="MRK 14:65"/>有几个人向祂吐唾沫，蒙上祂的眼睛，挥拳打祂，嘲笑祂说：“你说预言吧！”卫兵押祂下去时，也打祂。<verse eid="MRK 14:65"/></para>
+  <para style="s1">彼得三次不认耶稣</para>
+  <para style="p">
+    <verse number="66" style="v" sid="MRK 14:66"/>那时，<char style="pn">彼得</char>仍在院子里，大祭司的一个婢女走过来， <verse eid="MRK 14:66"/><verse number="67" style="v" sid="MRK 14:67"/>见<char style="pn">彼得</char>在烤火，打量了他一番，说：“你也跟<char style="pn">拿撒勒</char>人耶稣是一伙的。”<verse eid="MRK 14:67"/></para>
+  <para style="p">
+    <verse number="68" style="v" sid="MRK 14:68"/>“我不知道也不明白你在说什么！”<char style="pn">彼得</char>一边否认，一边躲到外院去。那时，鸡叫了。<verse eid="MRK 14:68"/></para>
+  <para style="p">
+    <verse number="69" style="v" sid="MRK 14:69"/>一会儿，那婢女又看见<char style="pn">彼得</char>，就对旁边的人说：“这个人跟他们是一伙的！” <verse eid="MRK 14:69"/><verse number="70" style="v" sid="MRK 14:70"/><char style="pn">彼得</char>又加以否认。</para>
+  <para style="p" vid="MRK 14:70">再过了一会儿，旁观的人也对<char style="pn">彼得</char>说：“你肯定跟他们是一伙的，因为你也是<char style="pn">加利利</char>人！”<verse eid="MRK 14:70"/></para>
+  <para style="p">
+    <verse number="71" style="v" sid="MRK 14:71"/>
+    <char style="pn">彼得</char>又赌咒又发誓，说：“我根本不认识你们说的这个人。” <verse eid="MRK 14:71"/><verse number="72" style="v" sid="MRK 14:72"/>就在这时候，鸡又叫了。<char style="pn">彼得</char>想起耶稣曾对他说：“在鸡叫两次以前，你会三次不认我”，忍不住痛哭起来。<verse eid="MRK 14:72"/></para>
+  <chapter eid="MRK 14"/>
+  <chapter number="15" style="c" sid="MRK 15"/>
+  <para style="s1">耶稣在彼拉多面前受审</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 15:1"/>清早，祭司长、长老、律法教师和全公会的人商定后，便把耶稣绑起来押送到<char style="pn">彼拉多</char>那里。<verse eid="MRK 15:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 15:2"/>
+    <char style="pn">彼拉多</char>问耶稣：“你是<char style="pn">犹太</char>人的王吗？”</para>
+  <para style="p" vid="MRK 15:2">耶稣回答说：“如你所言。”<verse eid="MRK 15:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 15:3"/>祭司长控告耶稣许多罪。<verse eid="MRK 15:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 15:4"/>
+    <char style="pn">彼拉多</char>又问道：“你看，他们控告你这么多，你都不回答吗？”<verse eid="MRK 15:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 15:5"/>耶稣仍旧一言不发，<char style="pn">彼拉多</char>感到惊奇。<verse eid="MRK 15:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 15:6"/>每逢逾越节，<char style="pn">彼拉多</char>都会照惯例按民众的要求释放一个囚犯。 <verse eid="MRK 15:6"/><verse number="7" style="v" sid="MRK 15:7"/>那时，有一个囚犯名叫<char style="pn">巴拉巴</char>，与其他作乱时杀过人的囚犯关在一起。 <verse eid="MRK 15:7"/><verse number="8" style="v" sid="MRK 15:8"/>百姓聚来，要求<char style="pn">彼拉多</char>照惯例释放一个囚犯。<verse eid="MRK 15:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 15:9"/>
+    <char style="pn">彼拉多</char>问：“你们要我为你们释放<char style="pn">犹太</char>人的王吗？” <verse eid="MRK 15:9"/><verse number="10" style="v" sid="MRK 15:10"/>因为他知道祭司长把耶稣押来是出于嫉妒。 <verse eid="MRK 15:10"/><verse number="11" style="v" sid="MRK 15:11"/>但祭司长却煽动百姓，叫他们要求<char style="pn">彼拉多</char>释放<char style="pn">巴拉巴</char>。<verse eid="MRK 15:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 15:12"/>
+    <char style="pn">彼拉多</char>又问他们：“那么，这位你们称为<char style="pn">犹太</char>人之王的，我如何处置呢？”<verse eid="MRK 15:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 15:13"/>他们高喊：“把祂钉在十字架上！”<verse eid="MRK 15:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 15:14"/>
+    <char style="pn">彼拉多</char>问：“为什么？祂犯了什么罪？”</para>
+  <para style="p" vid="MRK 15:14">他们却更大声地喊：“把祂钉在十字架上！”<verse eid="MRK 15:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 15:15"/>为了取悦众人，<char style="pn">彼拉多</char>释放了<char style="pn">巴拉巴</char>，下令将耶稣鞭打后交出去钉十字架。<verse eid="MRK 15:15"/></para>
+  <para style="s1">耶稣受辱</para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 15:16"/>于是，士兵把耶稣押进总督府的院子，集合了全营的士兵。 <verse eid="MRK 15:16"/><verse number="17" style="v" sid="MRK 15:17"/>他们给祂穿上紫袍，用荆棘编成冠冕戴在祂头上， <verse eid="MRK 15:17"/><verse number="18" style="v" sid="MRK 15:18"/>向祂行礼，并高呼：“<char style="pn">犹太</char>人的王万岁！” <verse eid="MRK 15:18"/><verse number="19" style="v" sid="MRK 15:19"/>他们用苇秆打祂的头，向祂吐唾沫，跪拜祂。 <verse eid="MRK 15:19"/><verse number="20" style="v" sid="MRK 15:20"/>戏弄完了，就脱去祂的紫袍，给祂穿上原来的衣服，押祂出去钉十字架。<verse eid="MRK 15:20"/></para>
+  <para style="s1">钉十字架</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 15:21"/>
+    <char style="pn">亚历山大</char>和<char style="pn">鲁孚</char>的父亲<char style="pn">古利奈</char>人<char style="pn">西门</char>从乡下来，途经那地方，卫兵就强迫他背耶稣的十字架。 <verse eid="MRK 15:21"/><verse number="22" style="v" sid="MRK 15:22"/>他们把耶稣带到<char style="pn">各各他</char>——意思是“髑髅地”， <verse eid="MRK 15:22"/><verse number="23" style="v" sid="MRK 15:23"/>拿没药调和的酒给祂喝，但祂不肯喝。 <verse eid="MRK 15:23"/><verse number="24" style="v" sid="MRK 15:24"/>他们把耶稣钉在十字架上，还抽签分祂的衣服。 <verse eid="MRK 15:24"/><verse number="25" style="v" sid="MRK 15:25"/>他们钉祂十字架的时间是在上午九点钟。 <verse eid="MRK 15:25"/><verse number="26" style="v" sid="MRK 15:26"/>祂的罪状牌上写着“<char style="pn">犹太</char>人的王”。<verse eid="MRK 15:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 15:27"/>他们还把两个强盗钉在十字架上，一个在祂右边，一个在祂左边， <verse eid="MRK 15:27"/><verse number="28" style="v" sid="MRK 15:28"/>这应验了圣经的话：“祂被列在罪犯中。”<note caller="+" style="f"><char style="fr" closed="false">15:28 </char><char style="ft" closed="false">有古卷无28节。</char></note> <verse eid="MRK 15:28"/><verse number="29" style="v" sid="MRK 15:29"/>过路的人都嘲笑祂，摇着头说：“哈，你这要把圣殿拆毁又在三天内重建的人啊， <verse eid="MRK 15:29"/><verse number="30" style="v" sid="MRK 15:30"/>救救你自己，从十字架上下来吧！”<verse eid="MRK 15:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 15:31"/>祭司长和律法教师也同样嘲讽祂，彼此议论说：“祂救了别人，却救不了自己！ <verse eid="MRK 15:31"/><verse number="32" style="v" sid="MRK 15:32"/><char style="pn">以色列</char>的王基督，现在从十字架上下来吧！让我们看看，我们就信了！”与祂同钉十字架的强盗也嘲笑祂。<verse eid="MRK 15:32"/></para>
+  <para style="s1">耶稣之死</para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 15:33"/>正午时分，黑暗笼罩着整个大地，一直到下午三点。 <verse eid="MRK 15:33"/><verse number="34" style="v" sid="MRK 15:34"/>大约下午三点，耶稣大声呼喊：“以罗伊，以罗伊，拉马撒巴各大尼？”意思是：“我的上帝，我的上帝，你为什么离弃我？”<note caller="+" style="f"><char style="fr" closed="false">15:34 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 22:1">诗篇22:1</ref>。</char></char></note><verse eid="MRK 15:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 15:35"/>有些站在旁边的人听见了，就说：“听，祂在呼叫<char style="pn">以利亚</char>。”<verse eid="MRK 15:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="MRK 15:36"/>有人跑去把一块海绵蘸满酸酒，绑在苇秆上送给祂喝，说：“等着吧，我们看看<char style="pn">以利亚</char>会不会救祂下来。”<verse eid="MRK 15:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 15:37"/>耶稣大叫一声，就断了气。 <verse eid="MRK 15:37"/><verse number="38" style="v" sid="MRK 15:38"/>圣殿的幔子从上到下裂成两半。 <verse eid="MRK 15:38"/><verse number="39" style="v" sid="MRK 15:39"/>站在对面的百夫长看见耶稣喊叫<note caller="+" style="f"><char style="fr" closed="false">15:39 </char><char style="ft" closed="false">有古卷无“喊叫”二字。</char></note>断气的情形，便说：“这人真是上帝的儿子！”<verse eid="MRK 15:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="MRK 15:40"/>有些妇女在远处观看，其中有<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>、小<char style="pn">雅各</char>和<char style="pn">约西</char>的母亲<char style="pn">玛丽亚</char>并<char style="pn">撒罗米</char>。 <verse eid="MRK 15:40"/><verse number="41" style="v" sid="MRK 15:41"/>耶稣在<char style="pn">加利利</char>时，她们就跟随祂、服侍祂了。此外还有好些跟着祂上<char style="pn">耶路撒冷</char>的妇女。<verse eid="MRK 15:41"/></para>
+  <para style="s1">安葬耶稣</para>
+  <para style="p">
+    <verse number="42" style="v" sid="MRK 15:42"/>那天是<char style="pn">犹太</char>人的预备日，也就是安息日的前一天。傍晚， <verse eid="MRK 15:42"/><verse number="43" style="v" sid="MRK 15:43"/><char style="pn">亚利马太</char>人<char style="pn">约瑟</char>鼓起勇气去见<char style="pn">彼拉多</char>，要求领取耶稣的遗体。他是一位德高望重的公会议员，一直在等候上帝的国。 <verse eid="MRK 15:43"/><verse number="44" style="v" sid="MRK 15:44"/><char style="pn">彼拉多</char>听见耶稣已经死了，十分惊讶，便把百夫长召来问个明白， <verse eid="MRK 15:44"/><verse number="45" style="v" sid="MRK 15:45"/>得知耶稣确实已死，便将耶稣的遗体交给<char style="pn">约瑟</char>。<verse eid="MRK 15:45"/></para>
+  <para style="p">
+    <verse number="46" style="v" sid="MRK 15:46"/>
+    <char style="pn">约瑟</char>把耶稣的遗体取下来，用买来的细麻布裹好，安放在一个在岩壁上凿出的墓穴里，又滚来一块大石头堵住墓口。 <verse eid="MRK 15:46"/><verse number="47" style="v" sid="MRK 15:47"/><char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>和<char style="pn">约西</char>的母亲<char style="pn">玛丽亚</char>都看到了安葬耶稣的地方。<verse eid="MRK 15:47"/></para>
+  <chapter eid="MRK 15"/>
+  <chapter number="16" style="c" sid="MRK 16"/>
+  <para style="s1">耶稣复活</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 16:1"/>过了安息日，<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>、<char style="pn">雅各</char>的母亲<char style="pn">玛丽亚</char>和<char style="pn">撒罗米</char>买了香料，要去抹耶稣的遗体。 <verse eid="MRK 16:1"/><verse number="2" style="v" sid="MRK 16:2"/>周日清早，太阳刚刚升起，她们就去坟墓那里。 <verse eid="MRK 16:2"/><verse number="3" style="v" sid="MRK 16:3"/>她们彼此议论说：“谁能替我们滚开墓口那块大石头呢？” <verse eid="MRK 16:3"/><verse number="4" style="v" sid="MRK 16:4"/>她们抬头一看，见那块大石头已经滚到一旁。 <verse eid="MRK 16:4"/><verse number="5" style="v" sid="MRK 16:5"/>她们进了坟墓，看见一位身穿洁白长袍的青年坐在右边，吓了一跳。 <verse eid="MRK 16:5"/><verse number="6" style="v" sid="MRK 16:6"/>那青年对她们说：“不要害怕，你们要找那位被钉十字架的<char style="pn">拿撒勒</char>人耶稣吗？祂已经复活了，不在这里。你们看！这是安放祂的地方。 <verse eid="MRK 16:6"/><verse number="7" style="v" sid="MRK 16:7"/>你们回去，告诉祂的门徒，特别是<char style="pn">彼得</char>，‘祂要先你们一步去<char style="pn">加利利</char>，你们将在那里见到祂，正如祂以前所说的一样。’”<verse eid="MRK 16:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MRK 16:8"/>她们从坟墓出来，跑走了，战战兢兢，不知所措，什么也没有对别人说，因为她们很害怕。<verse eid="MRK 16:8"/></para>
+  <para style="s1">耶稣显现</para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 16:9"/>耶稣在周日清晨复活后，首先向<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>显现，耶稣曾在她身上赶出七个鬼。 <verse eid="MRK 16:9"/><verse number="10" style="v" sid="MRK 16:10"/><char style="pn">玛丽亚</char>去告诉那些向来跟耶稣在一起的人，看见他们仍然在哭泣哀悼， <verse eid="MRK 16:10"/><verse number="11" style="v" sid="MRK 16:11"/>就告诉他们耶稣已经复活了，她还看见了耶稣，但他们不相信。<verse eid="MRK 16:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 16:12"/>此后，有两个门徒在去乡下的路上，看到耶稣变了形象向他们显现。 <verse eid="MRK 16:12"/><verse number="13" style="v" sid="MRK 16:13"/>他们回去告诉其他门徒，但门徒还是不相信。<verse eid="MRK 16:13"/></para>
+  <para style="s1">最后的使命</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 16:14"/>后来，当十一位门徒在一起吃饭的时候，耶稣向他们显现，责备他们硬着心不信，因为他们不肯相信那些人在祂复活后见过祂。 <verse eid="MRK 16:14"/><verse number="15" style="v" sid="MRK 16:15"/>耶稣又对他们说：“你们要到世界各地去，向天下人传扬福音。 <verse eid="MRK 16:15"/><verse number="16" style="v" sid="MRK 16:16"/>相信并接受洗礼的人必定得救，不信的人必被定罪。 <verse eid="MRK 16:16"/><verse number="17" style="v" sid="MRK 16:17"/>必有神迹随着信我的人，他们能奉我的名赶鬼，说新的方言， <verse eid="MRK 16:17"/><verse number="18" style="v" sid="MRK 16:18"/>又能用手拿蛇，万一喝了什么毒物，也不会受害。他们把手按在病人身上，病人就能痊愈。” <verse eid="MRK 16:18"/><verse number="19" style="v" sid="MRK 16:19"/>主耶稣说完这些话，就被接到天上，坐在上帝的右边。 <verse eid="MRK 16:19"/><verse number="20" style="v" sid="MRK 16:20"/>门徒出去到处传扬福音，主和他们一同做工，以神迹相伴来证实他们所传的道。<note caller="+" style="f"><char style="fr" closed="false">16:20 </char><char style="ft" closed="false">有古卷无9-20节。</char></note><verse eid="MRK 16:20"/></para>
+  <chapter eid="MRK 16"/>
+</usx>

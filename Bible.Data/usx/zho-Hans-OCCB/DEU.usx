@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="DEU" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">申命记</para>
+  <para style="toc1">申命记</para>
+  <para style="toc2">申命记</para>
+  <para style="toc3">申</para>
+  <para style="mt1">申命记</para>
+  <chapter number="1" style="c" sid="DEU 1"/>
+  <para style="s1">前言</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 1:1"/>以下是<char style="pn">摩西</char>对<char style="pn">以色列</char>人说的话。当时<char style="pn">以色列</char>人在<char style="pn">约旦</char>河东的旷野、<char style="pn">疏弗</char>对面的<char style="pn">亚拉巴</char>，即<char style="pn">巴兰</char>、<char style="pn">陀弗</char>、<char style="pn">拉班</char>、<char style="pn">哈洗录</char>和<char style="pn">底撒哈</char>之间。 <verse eid="DEU 1:1"/><verse number="2" style="v" sid="DEU 1:2"/>从<char style="pn">何烈</char>山取道<char style="pn">西珥</char>山到<char style="pn">加低斯·巴尼亚</char>，需十一天。 <verse eid="DEU 1:2"/><verse number="3" style="v" sid="DEU 1:3"/>在离开<char style="pn">埃及</char>后第四十年的十一月一日，<char style="pn">摩西</char>把耶和华的一切吩咐告诉了<char style="pn">以色列</char>人。 <verse eid="DEU 1:3"/><verse number="4" style="v" sid="DEU 1:4"/>那时，他已经打败了<char style="pn">希实本</char>的<char style="pn">亚摩利</char>王<char style="pn">西宏</char>，以及盘踞在<char style="pn">以得来</char>和<char style="pn">亚斯她录</char>的<char style="pn">巴珊</char>王<char style="pn">噩</char>。 <verse eid="DEU 1:4"/><verse number="5" style="v" sid="DEU 1:5"/><char style="pn">摩西</char>在<char style="pn">约旦</char>河东的<char style="pn">摩押</char>讲解律法，说： <verse eid="DEU 1:5"/><verse number="6" style="v" sid="DEU 1:6"/>“我们的上帝耶和华在<char style="pn">何烈</char>山对我们说，‘你们在这山上已经住了足够时日， <verse eid="DEU 1:6"/><verse number="7" style="v" sid="DEU 1:7"/>现在该启程前往<char style="pn">亚摩利</char>人的山区、<char style="pn">亚拉巴</char>地区、山地、丘陵、南地、沿海一带、<char style="pn">迦南</char>人之地和<char style="pn">黎巴嫩</char>，直到<char style="pn">幼发拉底</char>大河。 <verse eid="DEU 1:7"/><verse number="8" style="v" sid="DEU 1:8"/>看啊，我把那片土地赐给你们了，你们去占领吧，那是耶和华起誓要赐给你们祖先<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>、<char style="pn">雅各</char>和他们后裔的地方。’<verse eid="DEU 1:8"/></para>
+  <para style="s1">摩西设立首领</para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 1:9"/>“那时，我对你们说，‘我无法独自承担管理你们的重任， <verse eid="DEU 1:9"/><verse number="10" style="v" sid="DEU 1:10"/>因为你们的上帝耶和华使你们人丁兴旺，以致今天人数多如天上的星星。 <verse eid="DEU 1:10"/><verse number="11" style="v" sid="DEU 1:11"/>愿你们祖先的上帝耶和华使你们人数更增千倍，照祂的应许赐福给你们。 <verse eid="DEU 1:11"/><verse number="12" style="v" sid="DEU 1:12"/>但我怎能独自担当解决你们问题和争端的重任呢？ <verse eid="DEU 1:12"/><verse number="13" style="v" sid="DEU 1:13"/>你们要从各支派中选出有智慧、有见识、受尊重的人，我要立他们做你们的首领。’ <verse eid="DEU 1:13"/><verse number="14" style="v" sid="DEU 1:14"/>你们都同意这样的做法。 <verse eid="DEU 1:14"/><verse number="15" style="v" sid="DEU 1:15"/>于是，我把各支派中有智慧和受敬重的人立为你们的首领，即千夫长、百夫长、五十夫长、十夫长和其他官长，治理你们。 <verse eid="DEU 1:15"/><verse number="16" style="v" sid="DEU 1:16"/>我吩咐这些官员要聆听案件，公正地审理同胞之间，或与外族人之间的诉讼， <verse eid="DEU 1:16"/><verse number="17" style="v" sid="DEU 1:17"/>不可偏私，不分贵贱，不惧情面，因为判决来自上帝。如果案件太难，可以交给我处理。 <verse eid="DEU 1:17"/><verse number="18" style="v" sid="DEU 1:18"/>那时，我把一切当行之事都告诉了你们。<verse eid="DEU 1:18"/></para>
+  <para style="s1">派人打探迦南</para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 1:19"/>“我们照我们上帝耶和华的吩咐，从<char style="pn">何烈</char>山出发，走过你们所见的那大而可怕的旷野，前往<char style="pn">亚摩利</char>山区，来到<char style="pn">加低斯·巴尼亚</char>。 <verse eid="DEU 1:19"/><verse number="20" style="v" sid="DEU 1:20"/>我对你们说，‘我们的上帝耶和华赐给我们的<char style="pn">亚摩利</char>山区到了。 <verse eid="DEU 1:20"/><verse number="21" style="v" sid="DEU 1:21"/>看啊，你们祖先的上帝耶和华已把那片土地赐给你们，你们要照着祂的应许去占领那里，不要惊慌害怕。’ <verse eid="DEU 1:21"/><verse number="22" style="v" sid="DEU 1:22"/>你们都来对我说，‘我们要先派人去打探那地方，回来好告诉我们当走哪条路，当占哪些城。’ <verse eid="DEU 1:22"/><verse number="23" style="v" sid="DEU 1:23"/>我同意你们的建议，便从你们当中选出十二人，每支派选一人。 <verse eid="DEU 1:23"/><verse number="24" style="v" sid="DEU 1:24"/>他们前往山区，到了<char style="pn">以实各</char>谷，打探那地方。 <verse eid="DEU 1:24"/><verse number="25" style="v" sid="DEU 1:25"/>他们带回来一些那里的果子，禀告说，‘我们的上帝耶和华赐给我们的地方很好。’<verse eid="DEU 1:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="DEU 1:26"/>“但你们却违背你们上帝耶和华的命令，不肯上去。 <verse eid="DEU 1:26"/><verse number="27" style="v" sid="DEU 1:27"/>你们在帐篷中埋怨说，‘耶和华憎恨我们，所以才领我们离开<char style="pn">埃及</char>，要把我们交在<char style="pn">亚摩利</char>人手里，让他们消灭我们。 <verse eid="DEU 1:27"/><verse number="28" style="v" sid="DEU 1:28"/>我们能上哪里去呢？我们弟兄的报告让我们胆战心惊，他们说那里的人比我们高大，城邑雄伟，城墙高达云霄，还有<char style="pn">亚衲</char>人在那里。’ <verse eid="DEU 1:28"/><verse number="29" style="v" sid="DEU 1:29"/>我对你们说，‘不要惊慌，不要怕他们。 <verse eid="DEU 1:29"/><verse number="30" style="v" sid="DEU 1:30"/>你们的上帝耶和华必带领你们，为你们争战，正如祂当着你们的面在<char style="pn">埃及</char>所行的一样。 <verse eid="DEU 1:30"/><verse number="31" style="v" sid="DEU 1:31"/>你们在旷野曾目睹你们的上帝耶和华像父亲抱儿子一样，一路把你们抱到这地方。’ <verse eid="DEU 1:31"/><verse number="32-33" style="v" sid="DEU 1:32-33"/>祂为你们开路，为你们找安营的地方，夜间用火柱、白天用云柱为你们引路。尽管如此，你们还是不信靠你们的上帝耶和华。<verse eid="DEU 1:32-33"/></para>
+  <para style="s1">惩罚叛逆</para>
+  <para style="p">
+    <verse number="34" style="v" sid="DEU 1:34"/>“你们的埋怨惹耶和华发怒，祂起誓说， <verse eid="DEU 1:34"/><verse number="35" style="v" sid="DEU 1:35"/>‘这邪恶的一代没有一人能看见我起誓要赐给他们祖先的佳美之地， <verse eid="DEU 1:35"/><verse number="36" style="v" sid="DEU 1:36"/>只有<char style="pn">耶孚尼</char>的儿子<char style="pn">迦勒</char>能看见，我必把他所踏之地赐给他和他的子孙，因为他一心追随我。’ <verse eid="DEU 1:36"/><verse number="37" style="v" sid="DEU 1:37"/>因为你们的缘故，耶和华也向我发怒，说，‘你也不能进入那片土地， <verse eid="DEU 1:37"/><verse number="38" style="v" sid="DEU 1:38"/>但你的助手、<char style="pn">嫩</char>的儿子<char style="pn">约书亚</char>可以进入。你要鼓励他，因为他将带领<char style="pn">以色列</char>承受那片土地。 <verse eid="DEU 1:38"/><verse number="39" style="v" sid="DEU 1:39"/>你们说你们的子女会被掳去，但这些还不知善恶的孩子都将进入那片土地，我要把那里赐给他们，他们将占领那里。 <verse eid="DEU 1:39"/><verse number="40" style="v" sid="DEU 1:40"/>而你们要掉头，沿红海的路回到旷野。’<verse eid="DEU 1:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="DEU 1:41"/>“于是，你们对我说，‘我们得罪了耶和华，现在我们愿意遵从我们的上帝耶和华的吩咐，上去作战。’你们便各自拿起兵器，以为可以轻易攻占山区。 <verse eid="DEU 1:41"/><verse number="42" style="v" sid="DEU 1:42"/>但耶和华让我告诉你们，‘不要上去作战，以免被敌人打败，因为我不与你们同在。’ <verse eid="DEU 1:42"/><verse number="43" style="v" sid="DEU 1:43"/>我把耶和华的话转告了你们，但你们不听，竟违背耶和华的命令，擅自前往山区。 <verse eid="DEU 1:43"/><verse number="44" style="v" sid="DEU 1:44"/>住在山区的<char style="pn">亚摩利</char>人蜂拥出击，打败了你们，从<char style="pn">西珥</char>追杀你们，一直追到<char style="pn">何珥玛</char>。 <verse eid="DEU 1:44"/><verse number="45" style="v" sid="DEU 1:45"/>你们回来在耶和华面前哭泣，但耶和华不理会你们的哭声。 <verse eid="DEU 1:45"/><verse number="46" style="v" sid="DEU 1:46"/>因此，你们在<char style="pn">加低斯</char>住了很久。<verse eid="DEU 1:46"/></para>
+  <chapter eid="DEU 1"/>
+  <chapter number="2" style="c" sid="DEU 2"/>
+  <para style="s1">旷野漂流</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 2:1"/>“之后，我们遵照耶和华的吩咐掉转头，沿红海的路前往旷野，在<char style="pn">西珥</char>山区绕行了很久。 <verse eid="DEU 2:1"/><verse number="2" style="v" sid="DEU 2:2"/>后来，耶和华对我说， <verse eid="DEU 2:2"/><verse number="3" style="v" sid="DEU 2:3"/>‘你们在这山区绕行的日子够了，现在转向北方吧。 <verse eid="DEU 2:3"/><verse number="4" style="v" sid="DEU 2:4"/>你要吩咐民众：你们将经过<char style="pn">西珥</char>，那里住着你们的亲属<char style="pn">以扫</char>的子孙。他们惧怕你们，所以你们要格外谨慎， <verse eid="DEU 2:4"/><verse number="5" style="v" sid="DEU 2:5"/>不可挑起战争，因为我已把<char style="pn">西珥</char>山赐给<char style="pn">以扫</char>作产业，他们的土地，我一寸也不会赐给你们。 <verse eid="DEU 2:5"/><verse number="6" style="v" sid="DEU 2:6"/>你们吃的、喝的，都要花钱向他们买。 <verse eid="DEU 2:6"/><verse number="7" style="v" sid="DEU 2:7"/>你们的上帝耶和华使你们凡事蒙福，看顾着你们走过这辽阔的旷野，四十年来与你们同在，使你们一无所缺。’<verse eid="DEU 2:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="DEU 2:8"/>“于是，我们绕过我们亲属<char style="pn">以扫</char>的子孙所住的<char style="pn">西珥</char>，沿<char style="pn">亚拉巴</char>的路，经过<char style="pn">以拉他</char>、<char style="pn">以旬·迦别</char>，向<char style="pn">摩押</char>旷野走去。 <verse eid="DEU 2:8"/><verse number="9" style="v" sid="DEU 2:9"/>耶和华对我说，‘不可骚扰<char style="pn">摩押</char>人，不可挑起战争，因为我不会把他们的土地赐给你，我已把<char style="pn">亚珥</char>赐给<char style="pn">罗得</char>的子孙为业。’<verse eid="DEU 2:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 2:10"/>“从前<char style="pn">以米</char>人住在<char style="pn">亚珥</char>，他们人数众多，像<char style="pn">亚衲</char>人一样身材高大。 <verse eid="DEU 2:10"/><verse number="11" style="v" sid="DEU 2:11"/><char style="pn">以米</char>人同<char style="pn">亚衲</char>人一样也被称为<char style="pn">利乏音</char>人，但<char style="pn">摩押</char>人称他们为<char style="pn">以米</char>人。 <verse eid="DEU 2:11"/><verse number="12" style="v" sid="DEU 2:12"/>以前，<char style="pn">何利</char>人也住在<char style="pn">西珥</char>，但<char style="pn">以扫</char>的子孙消灭了他们，占领了他们的土地，住在那里，正如后来<char style="pn">以色列</char>人占领了耶和华赐给他们的土地。 <verse eid="DEU 2:12"/><verse number="13" style="v" sid="DEU 2:13"/>耶和华又说，‘现在，你们要动身过<char style="pn">撒烈</char>溪。’于是，我们过了<char style="pn">撒烈</char>溪。 <verse eid="DEU 2:13"/><verse number="14" style="v" sid="DEU 2:14"/>我们从离开<char style="pn">加低斯·巴尼亚</char>到穿过<char style="pn">撒烈</char>溪，用了三十八年。期间，那一代战士都死光了，正如耶和华的誓言。 <verse eid="DEU 2:14"/><verse number="15" style="v" sid="DEU 2:15"/>其实是耶和华的手攻击他们，直到把他们从营中全部消灭。<verse eid="DEU 2:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 2:16"/>“民中所有的战士都死后， <verse eid="DEU 2:16"/><verse number="17" style="v" sid="DEU 2:17"/>耶和华对我说， <verse eid="DEU 2:17"/><verse number="18" style="v" sid="DEU 2:18"/>‘今天你要经过<char style="pn">摩押</char>边境<char style="pn">亚珥</char>。 <verse eid="DEU 2:18"/><verse number="19" style="v" sid="DEU 2:19"/>到<char style="pn">亚扪</char>人之地后，不可骚扰他们，不可挑起战争，因为我不会把他们的土地赐给你们，我已把那里赐给<char style="pn">罗得</char>的子孙作产业。’ <verse eid="DEU 2:19"/><verse number="20" style="v" sid="DEU 2:20"/>那里以前也是<char style="pn">利乏音</char>人住的地方，<char style="pn">亚扪</char>人称<char style="pn">利乏音</char>人为<char style="pn">散送冥</char>， <verse eid="DEU 2:20"/><verse number="21" style="v" sid="DEU 2:21"/><char style="pn">利乏音</char>族人数众多，像<char style="pn">亚衲</char>人一样身材高大。耶和华在<char style="pn">亚扪</char>人面前消灭了他们，让<char style="pn">亚扪</char>人占领他们的土地，住在那里。 <verse eid="DEU 2:21"/><verse number="22" style="v" sid="DEU 2:22"/>耶和华也曾为<char style="pn">以扫</char>的子孙消灭住在<char style="pn">西珥</char>的<char style="pn">何利</char>人，让他们占据<char style="pn">何利</char>人的土地，住在那里，直到今日。 <verse eid="DEU 2:22"/><verse number="23" style="v" sid="DEU 2:23"/>同样，来自<char style="pn">克里特</char>的<char style="pn">迦斐托</char>人消灭了<char style="pn">迦萨</char>附近乡村的<char style="pn">亚卫</char>人，住在那里。 <verse eid="DEU 2:23"/><verse number="24" style="v" sid="DEU 2:24"/>耶和华说，‘起来穿过<char style="pn">亚嫩</char>谷。看啊，我已将<char style="pn">亚摩利</char>人<char style="pn">希实本</char>王<char style="pn">西宏</char>和他的土地交在你手中，你要攻打他，占领他的土地。 <verse eid="DEU 2:24"/><verse number="25" style="v" sid="DEU 2:25"/>从今天起，我要使天下万民在你面前惊恐万状，一听到你的名字就吓得发抖。’<verse eid="DEU 2:25"/></para>
+  <para style="s1">击败希实本王</para>
+  <para style="p">
+    <verse number="26" style="v" sid="DEU 2:26"/>“于是，我从<char style="pn">基底莫</char>旷野派使者去见<char style="pn">希实本</char>王<char style="pn">西宏</char>，提出和平的建议，说， <verse eid="DEU 2:26"/><verse number="27" style="v" sid="DEU 2:27"/>‘请允许我们从贵国经过，我们只走大路，不会偏离。 <verse eid="DEU 2:27"/><verse number="28" style="v" sid="DEU 2:28"/>我们吃的喝的，都会花钱向你买，只求让我们步行经过， <verse eid="DEU 2:28"/><verse number="29" style="v" sid="DEU 2:29"/>就像<char style="pn">西珥</char>的<char style="pn">以东</char>人和<char style="pn">亚珥</char>的<char style="pn">摩押</char>人那样对待我们，直到我们越过<char style="pn">约旦</char>河，进入我们的上帝耶和华所赐之地。’ <verse eid="DEU 2:29"/><verse number="30" style="v" sid="DEU 2:30"/><char style="pn">希实本</char>王<char style="pn">西宏</char>却拒绝我们的请求，因为我们的上帝耶和华使他心灵刚硬、顽固不化，好让我们击败他，正如今日的情形。 <verse eid="DEU 2:30"/><verse number="31" style="v" sid="DEU 2:31"/>耶和华对我说，‘看啊，我已把<char style="pn">西宏</char>和他的土地交给你了，去占领他的土地吧。’ <verse eid="DEU 2:31"/><verse number="32" style="v" sid="DEU 2:32"/><char style="pn">西宏</char>率领全军在<char style="pn">雅杂</char>与我们交战。 <verse eid="DEU 2:32"/><verse number="33" style="v" sid="DEU 2:33"/>我们的上帝耶和华使<char style="pn">西宏</char>父子及其军队败在我们手下，全军覆没。 <verse eid="DEU 2:33"/><verse number="34" style="v" sid="DEU 2:34"/>我们攻占了<char style="pn">西宏</char>的所有城邑，将其夷为平地，杀光城中的男女老幼，一个不留， <verse eid="DEU 2:34"/><verse number="35" style="v" sid="DEU 2:35"/>只留下牲畜和财物作战利品。 <verse eid="DEU 2:35"/><verse number="36" style="v" sid="DEU 2:36"/>从<char style="pn">亚嫩</char>谷边的<char style="pn">亚罗珥</char>和谷中的城，直到<char style="pn">基列</char>的所有城邑全被我们攻克，我们的上帝耶和华把这一切都交给了我们。 <verse eid="DEU 2:36"/><verse number="37" style="v" sid="DEU 2:37"/>我们遵照我们的上帝耶和华的吩咐，没有进犯<char style="pn">亚扪</char>人的土地，即<char style="pn">雅博</char>河一带和山区的城邑。<verse eid="DEU 2:37"/></para>
+  <chapter eid="DEU 2"/>
+  <chapter number="3" style="c" sid="DEU 3"/>
+  <para style="s1">击败巴珊王噩</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 3:1"/>“之后，我们前往<char style="pn">巴珊</char>，<char style="pn">巴珊</char>王<char style="pn">噩</char>率全军在<char style="pn">以得来</char>迎战我们。 <verse eid="DEU 3:1"/><verse number="2" style="v" sid="DEU 3:2"/>耶和华对我说，‘不要怕他，因为我已把他及其众民和土地交在你手中，你要像从前对付<char style="pn">希实本</char>的<char style="pn">亚摩利</char>王<char style="pn">西宏</char>一样对付他。’<verse eid="DEU 3:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="DEU 3:3"/>“我们的上帝耶和华把<char style="pn">巴珊</char>王<char style="pn">噩</char>及其众民交在我们手中，我们杀了他们，一个不留。 <verse eid="DEU 3:3"/><verse number="4" style="v" sid="DEU 3:4"/>我们占领了<char style="pn">亚珥歌伯</char>全境，即<char style="pn">巴珊</char>王<char style="pn">噩</char>的所有城邑，共六十座。 <verse eid="DEU 3:4"/><verse number="5" style="v" sid="DEU 3:5"/>这些城邑围墙高耸，门闩牢固。我们还占领了许多没有城墙的乡村。 <verse eid="DEU 3:5"/><verse number="6" style="v" sid="DEU 3:6"/>像对付<char style="pn">希实本</char>王<char style="pn">西宏</char>一样，我们将这些城邑夷为平地，城中的男女老幼一个不留， <verse eid="DEU 3:6"/><verse number="7" style="v" sid="DEU 3:7"/>只留下牲畜和财物作战利品。 <verse eid="DEU 3:7"/><verse number="8" style="v" sid="DEU 3:8"/>于是，我们攻占了<char style="pn">约旦</char>河东两个<char style="pn">亚摩利</char>王的土地，从<char style="pn">亚嫩</char>谷一直到<char style="pn">黑门</char>山—— <verse eid="DEU 3:8"/><verse number="9" style="v" sid="DEU 3:9"/><char style="pn">西顿</char>人称<char style="pn">黑门</char>山为<char style="pn">西连</char>，<char style="pn">亚摩利</char>人称之为<char style="pn">示尼珥</char>—— <verse eid="DEU 3:9"/><verse number="10" style="v" sid="DEU 3:10"/>我们攻占了高原的城邑、整个<char style="pn">基列</char>和<char style="pn">巴珊</char>，远至<char style="pn">巴珊</char>王<char style="pn">噩</char>的城邑<char style="pn">撒迦</char>和<char style="pn">以得来</char>。 <verse eid="DEU 3:10"/><verse number="11" style="v" sid="DEU 3:11"/><char style="pn">巴珊</char>王<char style="pn">噩</char>是最后一个<char style="pn">利乏音</char>人。他的床是铁做的，存放在<char style="pn">亚扪</char>人的<char style="pn">拉巴</char>城，长四米，宽一米八。<verse eid="DEU 3:11"/></para>
+  <para style="s1">分配约旦河东之地</para>
+  <para style="p">
+    <verse number="12" style="v" sid="DEU 3:12"/>“我们占领了这片土地后，我把<char style="pn">亚嫩</char>谷边的<char style="pn">亚罗珥</char>以北地区和<char style="pn">基列</char>山区的一半及其城邑，分给<char style="pn">吕便</char>支派和<char style="pn">迦得</char>支派， <verse eid="DEU 3:12"/><verse number="13" style="v" sid="DEU 3:13"/>把<char style="pn">基列</char>山区的另一半，以及<char style="pn">噩</char>的王国<char style="pn">巴珊</char>全境——整个<char style="pn">亚珥歌伯</char>分给<char style="pn">玛拿西</char>半个支派。<char style="pn">巴珊</char>地区又被称为<char style="pn">利乏音</char>人之地。 <verse eid="DEU 3:13"/><verse number="14" style="v" sid="DEU 3:14"/><char style="pn">玛拿西</char>的子孙<char style="pn">雅珥</char>得到<char style="pn">亚珥歌伯</char>全境，远至<char style="pn">基述</char>人和<char style="pn">玛迦</char>人的边界。他按自己的名字给<char style="pn">巴珊</char>取名叫<char style="pn">哈倭特·雅珥</char>，沿用至今。 <verse eid="DEU 3:14"/><verse number="15" style="v" sid="DEU 3:15"/>我又把<char style="pn">基列</char>分给<char style="pn">玛吉</char>， <verse eid="DEU 3:15"/><verse number="16" style="v" sid="DEU 3:16"/>把从<char style="pn">基列</char>到<char style="pn">亚嫩</char>谷，以谷中央为界，远至<char style="pn">亚扪</char>人的边界<char style="pn">雅博</char>河地区，分给<char style="pn">吕便</char>支派和<char style="pn">迦得</char>支派。 <verse eid="DEU 3:16"/><verse number="17" style="v" sid="DEU 3:17"/>我还把<char style="pn">亚拉巴</char>，就是以<char style="pn">约旦</char>河为界，从<char style="pn">基尼烈</char>直到东面<char style="pn">毗斯迦</char>山脚的<char style="pn">亚拉巴</char>海，即盐海地区给了他们。<verse eid="DEU 3:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="DEU 3:18"/>“那时我吩咐他们说，‘你们的上帝耶和华已经把这些地方赐给你们，但你们所有的战士必须带着兵器过河，做<char style="pn">以色列</char>同胞的先锋。 <verse eid="DEU 3:18"/><verse number="19" style="v" sid="DEU 3:19"/>我知道你们有许多牲畜，你们的妻子、儿女和牲畜可以留在我分给你们的城邑。 <verse eid="DEU 3:19"/><verse number="20" style="v" sid="DEU 3:20"/>等你们的上帝耶和华使其他<char style="pn">以色列</char>人和你们一样有了安身之所，占领了耶和华赐给他们的<char style="pn">约旦</char>河西之地后，你们才可以返回我分给你们的家园。’ <verse eid="DEU 3:20"/><verse number="21" style="v" sid="DEU 3:21"/>那时我吩咐<char style="pn">约书亚</char>说，‘你们的上帝耶和华怎样对付那两个王，你都亲眼看见了。耶和华必以同样的方式对付你将去攻占的各国。 <verse eid="DEU 3:21"/><verse number="22" style="v" sid="DEU 3:22"/>不要怕他们，因为你的上帝耶和华将为你们争战。’<verse eid="DEU 3:22"/></para>
+  <para style="s1">摩西不得进入迦南</para>
+  <para style="p">
+    <verse number="23" style="v" sid="DEU 3:23"/>“那时，我恳求耶和华，说， <verse eid="DEU 3:23"/><verse number="24" style="v" sid="DEU 3:24"/>‘主耶和华啊，你已向仆人彰显你的伟大和权能，天上地下没有神明可与你的大能作为相比！ <verse eid="DEU 3:24"/><verse number="25" style="v" sid="DEU 3:25"/>求你让我过去看看<char style="pn">约旦</char>河那边的佳美之地，那美好的山区和<char style="pn">黎巴嫩</char>。’ <verse eid="DEU 3:25"/><verse number="26" style="v" sid="DEU 3:26"/>但因你们的缘故，耶和华向我发怒，不听我的恳求，祂对我说，‘够了，不要再跟我提这件事。 <verse eid="DEU 3:26"/><verse number="27" style="v" sid="DEU 3:27"/>你可以上<char style="pn">毗斯迦</char>山顶，向东南西北眺望，亲眼看看那片土地，因为你不可过<char style="pn">约旦</char>河。 <verse eid="DEU 3:27"/><verse number="28" style="v" sid="DEU 3:28"/>你要委任<char style="pn">约书亚</char>，勉励他，支持他，因为他必带领<char style="pn">以色列</char>人过河，使他们承受你眺望的那片土地。’ <verse eid="DEU 3:28"/><verse number="29" style="v" sid="DEU 3:29"/>当时，我们驻扎在<char style="pn">伯·毗珥</char>对面的谷中。<verse eid="DEU 3:29"/></para>
+  <chapter eid="DEU 3"/>
+  <chapter number="4" style="c" sid="DEU 4"/>
+  <para style="s1">当守律法</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 4:1"/>“<char style="pn">以色列</char>人啊，要聆听我传授给你们的律例和典章，要切实遵行，以便你们可以存活，并进去占据你们祖先的上帝耶和华赐给你们的那片土地。 <verse eid="DEU 4:1"/><verse number="2" style="v" sid="DEU 4:2"/>我吩咐你们的，你们不可做任何增减，你们要遵守你们的上帝耶和华的命令。 <verse eid="DEU 4:2"/><verse number="3" style="v" sid="DEU 4:3"/>你们亲眼看见耶和华在<char style="pn">巴力·毗珥</char>事件中的作为，你们的上帝耶和华毁灭了你们中间所有拜<char style="pn">巴力·毗珥</char>的人， <verse eid="DEU 4:3"/><verse number="4" style="v" sid="DEU 4:4"/>但你们这些信靠你们的上帝耶和华的人至今都还活着。 <verse eid="DEU 4:4"/><verse number="5" style="v" sid="DEU 4:5"/>看啊，遵照我的上帝耶和华的吩咐，我把律例和典章传授给你们，好让你们在将要进去占领的土地上遵守。 <verse eid="DEU 4:5"/><verse number="6" style="v" sid="DEU 4:6"/>你们要谨遵这些律例和典章，因为这样就会让外族人看见你们的智慧和聪明。他们听见这些律例后，必说，‘这伟大的民族真有智慧和聪明！’ <verse eid="DEU 4:6"/><verse number="7" style="v" sid="DEU 4:7"/>我们的上帝耶和华与我们如此亲近，随时垂听我们的呼求，有哪个伟大民族的神明能与之相比？ <verse eid="DEU 4:7"/><verse number="8" style="v" sid="DEU 4:8"/>有哪个伟大的民族拥有我今天所传授给你们的如此公义的律例和典章？<verse eid="DEU 4:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 4:9"/>“要谨慎、小心，不可忘记亲眼所见的事，要一生铭记在心，并且告诉子子孙孙。 <verse eid="DEU 4:9"/><verse number="10" style="v" sid="DEU 4:10"/>那天，你们在<char style="pn">何烈</char>山站在你们的上帝耶和华面前，耶和华对我说，‘把民众招聚起来，让他们听我的教诲，学习一生敬畏我，并传授给自己的儿女。’ <verse eid="DEU 4:10"/><verse number="11" style="v" sid="DEU 4:11"/>你们来到山脚下，站在那里，山上烈焰冲天、乌云密布、极其幽暗。 <verse eid="DEU 4:11"/><verse number="12" style="v" sid="DEU 4:12"/>耶和华在火焰中对你们说话，你们只听见祂的声音，却看不见祂的形象。 <verse eid="DEU 4:12"/><verse number="13" style="v" sid="DEU 4:13"/>祂向你们宣告祂的约，就是祂吩咐你们遵守的十诫，并写在两块石版上。 <verse eid="DEU 4:13"/><verse number="14" style="v" sid="DEU 4:14"/>那时，耶和华吩咐我把律例和典章传授给你们，好让你们在将要占领的土地上遵守。<verse eid="DEU 4:14"/></para>
+  <para style="s1">不可拜偶像</para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 4:15"/>“你们要格外小心，耶和华在<char style="pn">何烈</char>山的火焰中对你们说话时，你们没有看见任何形象， <verse eid="DEU 4:15"/><verse number="16" style="v" sid="DEU 4:16"/>所以不可堕落，去为自己制造任何形状的神像——男人、女人、 <verse eid="DEU 4:16"/><verse number="17" style="v" sid="DEU 4:17"/>飞禽走兽、 <verse eid="DEU 4:17"/><verse number="18" style="v" sid="DEU 4:18"/>爬虫或鱼类的像。 <verse eid="DEU 4:18"/><verse number="19" style="v" sid="DEU 4:19"/>当你们举目观看你们的上帝耶和华赐给天下万民的日、月、星辰等天上万象时，不要受诱惑去跪拜、供奉它们。 <verse eid="DEU 4:19"/><verse number="20" style="v" sid="DEU 4:20"/>耶和华拯救你们脱离<char style="pn">埃及</char>那座铁熔炉，让你们做祂自己的子民，正如今日的情形。 <verse eid="DEU 4:20"/><verse number="21" style="v" sid="DEU 4:21"/>因你们的缘故，耶和华向我发怒，起誓不让我过<char style="pn">约旦</char>河、进入祂赐给你们作产业的那片佳美之地。 <verse eid="DEU 4:21"/><verse number="22" style="v" sid="DEU 4:22"/>我将死在<char style="pn">约旦</char>河这边，过不了<char style="pn">约旦</char>河。但你们必过去得到那片佳美之地。 <verse eid="DEU 4:22"/><verse number="23" style="v" sid="DEU 4:23"/>你们要谨慎，不可忘记你们的上帝耶和华与你们所立的约，不可违背你们上帝耶和华的禁令，去制造任何形状的神像。 <verse eid="DEU 4:23"/><verse number="24" style="v" sid="DEU 4:24"/>因为你们的上帝耶和华是烈火，是痛恨不贞的上帝。<verse eid="DEU 4:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="DEU 4:25"/>“将来，即使你们在那里安顿已久、子孙满堂，也不可堕落、制造任何形状的神像，不可做你们的上帝耶和华视为邪恶的事，惹祂发怒。 <verse eid="DEU 4:25"/><verse number="26" style="v" sid="DEU 4:26"/>否则，今天我叫天地作证，你们必很快从<char style="pn">约旦</char>河对面将要占领的土地上灭亡，你们必被彻底消灭，不得在那里长久居住。 <verse eid="DEU 4:26"/><verse number="27" style="v" sid="DEU 4:27"/>耶和华必把你们驱散到列邦，使你们在列邦中的人数所剩无几。 <verse eid="DEU 4:27"/><verse number="28" style="v" sid="DEU 4:28"/>你们必在那里供奉人用木石造的不会看、不会听、不会吃、不会闻的神像。 <verse eid="DEU 4:28"/><verse number="29" style="v" sid="DEU 4:29"/>但你们若在那里寻求你们的上帝耶和华，全心全意地寻求祂，就必寻见。 <verse eid="DEU 4:29"/><verse number="30" style="v" sid="DEU 4:30"/>日后，当你们遭遇这些事，受尽苦难的时候，必归向你们的上帝耶和华，听从祂。 <verse eid="DEU 4:30"/><verse number="31" style="v" sid="DEU 4:31"/>因为你们的上帝耶和华充满怜悯，祂不会抛弃你们，灭绝你们，也不会忘记祂与你们祖先所立的誓约。<verse eid="DEU 4:31"/></para>
+  <para style="s1">独一的上帝</para>
+  <para style="p">
+    <verse number="32" style="v" sid="DEU 4:32"/>“你们可以查考历史，自上帝在世上造人以来，这样的奇事，天地之间何曾有过？谁曾听闻？ <verse eid="DEU 4:32"/><verse number="33" style="v" sid="DEU 4:33"/>有哪个民族像你们一样，听见了上帝在火中说话，还活了下来？ <verse eid="DEU 4:33"/><verse number="34" style="v" sid="DEU 4:34"/>有哪个神明像你们的上帝耶和华那样在<char style="pn">埃及</char>当着你们的面降灾祸、行神迹奇事、发起战争、伸出臂膀、施展大能的手、以伟大而可畏的作为拯救一族脱离异邦？ <verse eid="DEU 4:34"/><verse number="35" style="v" sid="DEU 4:35"/>耶和华行这样的事，是要叫你们知道祂是上帝，除祂以外，别无他神。 <verse eid="DEU 4:35"/><verse number="36" style="v" sid="DEU 4:36"/>祂让你们听见祂从天上来的声音，好教导你们，又在地上让你们看见祂的烈火，并听见祂在烈火中说的话。 <verse eid="DEU 4:36"/><verse number="37" style="v" sid="DEU 4:37"/>因为祂爱你们的祖先，所以拣选他们的子孙，亲自用大能带你们出<char style="pn">埃及</char>， <verse eid="DEU 4:37"/><verse number="38" style="v" sid="DEU 4:38"/>赶走比你们强大的民族，领你们进入他们的土地，把他们的土地赐给你们作产业，正如今日的情形。 <verse eid="DEU 4:38"/><verse number="39" style="v" sid="DEU 4:39"/>所以，今天你们要知道并谨记，耶和华是天上地下的上帝，此外别无他神。 <verse eid="DEU 4:39"/><verse number="40" style="v" sid="DEU 4:40"/>我今天将祂的律例和诫命传授给你们，你们要遵守，以便你们及子孙都蒙福，在你们上帝耶和华所赐的土地上得享长寿。”<verse eid="DEU 4:40"/></para>
+  <para style="s1">设立避难城</para>
+  <para style="p">
+    <verse number="41" style="v" sid="DEU 4:41"/>那时，<char style="pn">摩西</char>在<char style="pn">约旦</char>河东划出三座城作避难城， <verse eid="DEU 4:41"/><verse number="42" style="v" sid="DEU 4:42"/>供素无冤仇却误杀他人者逃往避难。 <verse eid="DEU 4:42"/><verse number="43" style="v" sid="DEU 4:43"/>三座城分别是供<char style="pn">吕便</char>人避难的<char style="pn">比悉</char>，在旷野高原；供<char style="pn">迦得</char>人避难的<char style="pn">拉末</char>，在<char style="pn">基列</char>；供<char style="pn">玛拿西</char>人避难的<char style="pn">哥兰</char>，在<char style="pn">巴珊</char>。<verse eid="DEU 4:43"/></para>
+  <para style="s1">重申律法</para>
+  <para style="p">
+    <verse number="44" style="v" sid="DEU 4:44"/>以下是<char style="pn">摩西</char>颁布给<char style="pn">以色列</char>人的律法， <verse eid="DEU 4:44"/><verse number="45" style="v" sid="DEU 4:45"/>即在离开<char style="pn">埃及</char>后传授给他们的法度、律例和典章。 <verse eid="DEU 4:45"/><verse number="46" style="v" sid="DEU 4:46"/>当时他们在<char style="pn">约旦</char>河以东<char style="pn">伯·毗珥</char>对面的山谷，那里原属于<char style="pn">希实本</char>的<char style="pn">亚摩利</char>王<char style="pn">西宏</char>。<char style="pn">摩西</char>领<char style="pn">以色列</char>人离开<char style="pn">埃及</char>后消灭了<char style="pn">西宏</char>， <verse eid="DEU 4:46"/><verse number="47" style="v" sid="DEU 4:47"/>占领了他的土地，还占领了<char style="pn">巴珊</char>王<char style="pn">噩</char>的土地。<char style="pn">西宏</char>和<char style="pn">噩</char>是<char style="pn">约旦</char>河东<char style="pn">亚摩利</char>人的两个王， <verse eid="DEU 4:47"/><verse number="48" style="v" sid="DEU 4:48"/>其国土从<char style="pn">亚嫩</char>谷边的<char style="pn">亚罗珥</char>一直到<char style="pn">西云</char>山，即<char style="pn">黑门</char>山， <verse eid="DEU 4:48"/><verse number="49" style="v" sid="DEU 4:49"/>包括<char style="pn">约旦</char>河东的整个<char style="pn">亚拉巴</char>，远至<char style="pn">毗斯迦</char>山脚的<char style="pn">亚拉巴</char>海。<verse eid="DEU 4:49"/></para>
+  <chapter eid="DEU 4"/>
+  <chapter number="5" style="c" sid="DEU 5"/>
+  <para style="s1">十诫</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 5:1"/>
+    <char style="pn">摩西</char>把所有的<char style="pn">以色列</char>人召来，对他们说：“<char style="pn">以色列</char>人啊，要留心听我今天对你们宣讲的律例和典章，要学习并谨慎遵行。 <verse eid="DEU 5:1"/><verse number="2" style="v" sid="DEU 5:2"/>我们的上帝耶和华曾在<char style="pn">何烈</char>山与我们立约， <verse eid="DEU 5:2"/><verse number="3" style="v" sid="DEU 5:3"/>这约不是与我们祖先立的，而是与我们今天还活着的人立的。 <verse eid="DEU 5:3"/><verse number="4" style="v" sid="DEU 5:4"/>耶和华在山上的烈火中面对面跟你们说话。 <verse eid="DEU 5:4"/><verse number="5" style="v" sid="DEU 5:5"/>那时，因为你们害怕那烈火，没有到山上去，我就站在耶和华和你们中间，把耶和华的话传给你们。耶和华说：<verse eid="DEU 5:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 5:6"/>“‘我是你的上帝耶和华，曾把你从受奴役之地<char style="pn">埃及</char>领出来。<verse eid="DEU 5:6"/></para>
+  <para style="li1">
+    <verse number="7" style="v" sid="DEU 5:7"/>除我以外，你不可有别的神明。<verse eid="DEU 5:7"/></para>
+  <para style="li1">
+    <verse number="8" style="v" sid="DEU 5:8"/>不可为自己雕刻神像，不可仿照天上、地上和地底下水中的任何形象造神像， <verse eid="DEU 5:8"/><verse number="9" style="v" sid="DEU 5:9"/>不可跪拜它们，也不可供奉它们，因为我——你的上帝耶和华痛恨不贞，我必追讨背弃我之人的罪，从父到子直到三四代。 <verse eid="DEU 5:9"/><verse number="10" style="v" sid="DEU 5:10"/>但那些爱我、遵守我诫命的人，我必以慈爱待他们，直到千代。<verse eid="DEU 5:10"/></para>
+  <para style="li1">
+    <verse number="11" style="v" sid="DEU 5:11"/>不可妄用你上帝耶和华的名，违者必被耶和华定罪。<verse eid="DEU 5:11"/></para>
+  <para style="li1">
+    <verse number="12" style="v" sid="DEU 5:12"/>要遵照你的上帝耶和华的吩咐守安息日为圣日。 <verse eid="DEU 5:12"/><verse number="13" style="v" sid="DEU 5:13"/>你一周可劳碌工作六天， <verse eid="DEU 5:13"/><verse number="14" style="v" sid="DEU 5:14"/>但第七天是你的上帝耶和华的安息日，这一天你和儿女、仆婢、牛驴等牲畜及你那里的外族人不可做任何工，好让仆婢和你一样得到休息。 <verse eid="DEU 5:14"/><verse number="15" style="v" sid="DEU 5:15"/>要记住，你曾在<char style="pn">埃及</char>做奴隶，你的上帝耶和华伸出臂膀，用大能的手把你从那里领出来。因此，你的上帝耶和华吩咐你守安息日。<verse eid="DEU 5:15"/></para>
+  <para style="li1">
+    <verse number="16" style="v" sid="DEU 5:16"/>要遵照你的上帝耶和华的吩咐孝敬父母，以便在你的上帝耶和华要赐给你的土地上享长寿，蒙祝福。<verse eid="DEU 5:16"/></para>
+  <para style="li1">
+    <verse number="17" style="v" sid="DEU 5:17"/>不可杀人。<verse eid="DEU 5:17"/></para>
+  <para style="li1">
+    <verse number="18" style="v" sid="DEU 5:18"/>不可通奸。<verse eid="DEU 5:18"/></para>
+  <para style="li1">
+    <verse number="19" style="v" sid="DEU 5:19"/>不可偷盗。<verse eid="DEU 5:19"/></para>
+  <para style="li1">
+    <verse number="20" style="v" sid="DEU 5:20"/>不可作伪证陷害人。<verse eid="DEU 5:20"/></para>
+  <para style="li1">
+    <verse number="21" style="v" sid="DEU 5:21"/>不可贪恋别人的妻子，不可贪图别人的房屋、田地、仆婢、牛驴，或其他任何物品。’<verse eid="DEU 5:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 5:22"/>“这是耶和华在山上的烈火、乌云和幽暗中高声颁布给你们全体会众的诫命。此外，祂没有说别的。祂把这些话写在两块石版上交给我。 <verse eid="DEU 5:22"/><verse number="23" style="v" sid="DEU 5:23"/>当时，山上燃烧着烈焰，你们听见声音从黑暗中传来。你们各支派的首领和长老都到我跟前， <verse eid="DEU 5:23"/><verse number="24" style="v" sid="DEU 5:24"/>说，‘看啊，我们的上帝耶和华向我们彰显了祂的荣耀和威严，我们听见了祂从火中发出的声音。今天我们已经看见，人听见上帝说话后还能活着。 <verse eid="DEU 5:24"/><verse number="25" style="v" sid="DEU 5:25"/>但我们何必冒死，被这烈火吞噬呢？我们若再次听到我们的上帝耶和华的声音，必然丧命。 <verse eid="DEU 5:25"/><verse number="26" style="v" sid="DEU 5:26"/>世上有谁像我们一样，听见永活上帝从火中说话后还能活着呢？ <verse eid="DEU 5:26"/><verse number="27" style="v" sid="DEU 5:27"/>你近前听我们上帝耶和华所说的话，然后回来把祂的话告诉我们，我们必听从、遵行。’<verse eid="DEU 5:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="DEU 5:28"/>“耶和华听见了你们的话，就对我说，‘我听见了民众对你说的话，他们所说的都对。 <verse eid="DEU 5:28"/><verse number="29" style="v" sid="DEU 5:29"/>但愿他们常常敬畏我，遵从我的一切诫命，以便他们和他们的子孙世世代代可以蒙福。 <verse eid="DEU 5:29"/><verse number="30" style="v" sid="DEU 5:30"/>你吩咐他们回到自己的帐篷， <verse eid="DEU 5:30"/><verse number="31" style="v" sid="DEU 5:31"/>但你要留在我这里，我要把所有的诫命、律例和典章都赐给你，你要把这些传授给众人，使他们可以在我要赐给他们的土地上遵行。’ <verse eid="DEU 5:31"/><verse number="32" style="v" sid="DEU 5:32"/>所以，你们要谨遵你们上帝耶和华的吩咐，不可偏离左右。 <verse eid="DEU 5:32"/><verse number="33" style="v" sid="DEU 5:33"/>你们要遵行你们上帝耶和华的一切吩咐，就可以在你们将要占领的土地上存活、亨通、长久。<verse eid="DEU 5:33"/></para>
+  <chapter eid="DEU 5"/>
+  <chapter number="6" style="c" sid="DEU 6"/>
+  <para style="s1">最大的诫命</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 6:1"/>“你们的上帝耶和华吩咐我教导你们以下的诫命、律例和典章，以便你们在将要占领的土地上遵行。 <verse eid="DEU 6:1"/><verse number="2" style="v" sid="DEU 6:2"/>这样，你们就会得享长寿，你们及子孙就会终生敬畏你们的上帝耶和华，遵守祂借我吩咐你们的一切律例和诫命。 <verse eid="DEU 6:2"/><verse number="3" style="v" sid="DEU 6:3"/><char style="pn">以色列</char>人啊，你们要留心听，谨慎遵行，以便你们在那奶蜜之乡可以凡事顺利、人口极其繁盛，正如你们祖先的上帝耶和华给你们的应许。 <verse eid="DEU 6:3"/><verse number="4" style="v" sid="DEU 6:4"/>听啊，<char style="pn">以色列</char>人，耶和华是我们的上帝，耶和华是独一的。 <verse eid="DEU 6:4"/><verse number="5" style="v" sid="DEU 6:5"/>你们要全心、全意、全力爱你们的上帝耶和华。 <verse eid="DEU 6:5"/><verse number="6" style="v" sid="DEU 6:6"/>要将我今天吩咐你们的话牢记在心， <verse eid="DEU 6:6"/><verse number="7" style="v" sid="DEU 6:7"/>并教导你们的儿女，无论坐在家里或行在路上，或起或卧，都要讲论这些律例和诫命。 <verse eid="DEU 6:7"/><verse number="8" style="v" sid="DEU 6:8"/>要把它们系在手上、戴在额上作记号， <verse eid="DEU 6:8"/><verse number="9" style="v" sid="DEU 6:9"/>要写在城门上和自家的门框上。<verse eid="DEU 6:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 6:10"/>“你们的上帝耶和华将带你们进入祂向你们祖先<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>和<char style="pn">雅各</char>起誓要赐给你们的土地。那里宏伟壮观的城邑不是你们建造的， <verse eid="DEU 6:10"/><verse number="11" style="v" sid="DEU 6:11"/>满屋的美物不是你们积攒的，井不是你们挖掘的，葡萄园和橄榄树也不是你们栽种的。你们在那里吃饱喝足之后， <verse eid="DEU 6:11"/><verse number="12" style="v" sid="DEU 6:12"/>要小心，不可忘记把你们从受奴役之地<char style="pn">埃及</char>救出来的耶和华。 <verse eid="DEU 6:12"/><verse number="13" style="v" sid="DEU 6:13"/>要敬畏你们的上帝耶和华，事奉祂，凭祂的名起誓。 <verse eid="DEU 6:13"/><verse number="14" style="v" sid="DEU 6:14"/>不可随从周围各族的神明， <verse eid="DEU 6:14"/><verse number="15" style="v" sid="DEU 6:15"/>免得你们的上帝耶和华向你们发怒，把你们从世上消灭；因为祂住在你们当中，祂痛恨不贞。<verse eid="DEU 6:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 6:16"/>“不可像在<char style="pn">玛撒</char>那样试探你们的上帝耶和华。 <verse eid="DEU 6:16"/><verse number="17" style="v" sid="DEU 6:17"/>要谨遵你们的上帝耶和华吩咐你们的诫命、法度和律例。 <verse eid="DEU 6:17"/><verse number="18" style="v" sid="DEU 6:18"/>你们要做耶和华视为正与善的事，以便凡事顺利，得到耶和华起誓要赐给你们祖先的佳美之地， <verse eid="DEU 6:18"/><verse number="19" style="v" sid="DEU 6:19"/>从你们面前赶出所有敌人，正如耶和华所言。<verse eid="DEU 6:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="DEU 6:20"/>“将来你们的子孙会问，‘我们的上帝耶和华给你们颁布这些法度、律例和典章是什么意思？’ <verse eid="DEU 6:20"/><verse number="21" style="v" sid="DEU 6:21"/>你们要告诉他们，‘我们曾在<char style="pn">埃及</char>做法老的奴隶，耶和华用大能的手带我们出<char style="pn">埃及</char>。 <verse eid="DEU 6:21"/><verse number="22" style="v" sid="DEU 6:22"/>我们亲眼看见耶和华行伟大而可畏的神迹奇事，惩罚<char style="pn">埃及</char>和法老全家。 <verse eid="DEU 6:22"/><verse number="23" style="v" sid="DEU 6:23"/>祂带领我们离开<char style="pn">埃及</char>，为要把我们带进祂起誓要赐给我们祖先的这片土地。 <verse eid="DEU 6:23"/><verse number="24" style="v" sid="DEU 6:24"/>我们的上帝耶和华吩咐我们遵守这一切律例、敬畏祂，以便我们可以终生受益，生命无忧，正如今日的情形。 <verse eid="DEU 6:24"/><verse number="25" style="v" sid="DEU 6:25"/>我们若按照我们的上帝耶和华的吩咐，在祂面前谨遵这一切诫命，便被算为义人。’<verse eid="DEU 6:25"/></para>
+  <chapter eid="DEU 6"/>
+  <chapter number="7" style="c" sid="DEU 7"/>
+  <para style="s1">做上帝的子民</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 7:1"/>“你们的上帝耶和华带领你们进入将要占领的土地时，必从你们面前赶走<char style="pn">赫</char>人、<char style="pn">革迦撒</char>人、<char style="pn">亚摩利</char>人、<char style="pn">迦南</char>人、<char style="pn">比利洗</char>人、<char style="pn">希未</char>人和<char style="pn">耶布斯</char>人这七个比你们强大的民族。 <verse eid="DEU 7:1"/><verse number="2" style="v" sid="DEU 7:2"/>当你们的上帝耶和华把他们交在你们手里、使你们打败他们后，你们必须彻底毁灭他们。不可与他们立约，不可怜悯他们。 <verse eid="DEU 7:2"/><verse number="3" style="v" sid="DEU 7:3"/>不可与他们通婚，不可让你们的儿女与他们的儿女通婚， <verse eid="DEU 7:3"/><verse number="4" style="v" sid="DEU 7:4"/>因为他们会让你们的儿女离弃耶和华去拜其他神明，以致耶和华向你们发怒，迅速毁灭你们。 <verse eid="DEU 7:4"/><verse number="5" style="v" sid="DEU 7:5"/>你们要这样对待他们：拆毁他们的祭坛，打碎他们的神柱，砍下他们的<char style="pn">亚舍拉</char>神像，焚烧他们的偶像。 <verse eid="DEU 7:5"/><verse number="6" style="v" sid="DEU 7:6"/>因为你们是你们的上帝耶和华的圣民，祂从天下万族中拣选你们做祂宝贵的子民。<verse eid="DEU 7:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="DEU 7:7"/>“耶和华喜爱你们、拣选你们，不是因为你们的人口比别的民族多——其实你们在万族中是最小的—— <verse eid="DEU 7:7"/><verse number="8" style="v" sid="DEU 7:8"/>而是因为祂爱你们，遵守祂向你们祖先所起的誓。因此，祂用大能的手把你们从受奴役之地领出来，从<char style="pn">埃及</char>王法老手中救赎了你们。 <verse eid="DEU 7:8"/><verse number="9" style="v" sid="DEU 7:9"/>所以你们要知道，你们的上帝耶和华是上帝，是信实的上帝，祂向爱祂、遵守祂诫命的人守约、施慈爱直到千代。 <verse eid="DEU 7:9"/><verse number="10" style="v" sid="DEU 7:10"/>但祂必毫不迟延地当面报应、毁灭那些恨祂的人。 <verse eid="DEU 7:10"/><verse number="11" style="v" sid="DEU 7:11"/>所以，你们要谨遵我今天吩咐你们的诫命、律例和典章。<verse eid="DEU 7:11"/></para>
+  <para style="s1">遵守诫命必蒙福</para>
+  <para style="p">
+    <verse number="12" style="v" sid="DEU 7:12"/>“如果你们听从并谨遵这些典章，你们的上帝耶和华就会信守祂给你们祖先的誓约，以慈爱待你们。 <verse eid="DEU 7:12"/><verse number="13" style="v" sid="DEU 7:13"/>祂会爱你们，赐福给你们，使你们在祂向你们祖先起誓要赐给你们的土地上人丁兴旺，牛羊成群，收获丰富的谷物、新酒和油。 <verse eid="DEU 7:13"/><verse number="14" style="v" sid="DEU 7:14"/>天下万族之中，你们是最蒙福的，你们的男人、女人和牲畜没有不能生育的。 <verse eid="DEU 7:14"/><verse number="15" style="v" sid="DEU 7:15"/>耶和华要使你们免患疾病，免遭你们在<char style="pn">埃及</char>所见的恶疾，祂要把那些恶疾降在一切憎恶你们的人身上。 <verse eid="DEU 7:15"/><verse number="16" style="v" sid="DEU 7:16"/>你们必须灭绝你们的上帝耶和华交在你们手里的各族，不可怜悯他们，不可供奉他们的神明，因为那样会使你们陷入网罗。<verse eid="DEU 7:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="DEU 7:17"/>“也许你们心里会说，‘这些民族都比我们强大，我们怎能赶走他们呢？’ <verse eid="DEU 7:17"/><verse number="18" style="v" sid="DEU 7:18"/>不要怕他们，要牢记你们的上帝耶和华曾如何对付法老和整个<char style="pn">埃及</char>， <verse eid="DEU 7:18"/><verse number="19" style="v" sid="DEU 7:19"/>你们亲眼目睹祂如何降下大灾难、行神迹奇事、伸出臂膀和大能的手领你们离开<char style="pn">埃及</char>，祂也要这样对付你们所惧怕的各族。 <verse eid="DEU 7:19"/><verse number="20" style="v" sid="DEU 7:20"/>你们的上帝耶和华还要派黄蜂去攻击他们，直到躲藏起来的残存者也全部灭亡。 <verse eid="DEU 7:20"/><verse number="21" style="v" sid="DEU 7:21"/>不要惧怕他们，因为你们的上帝耶和华住在你们当中，祂是伟大而可畏的上帝。 <verse eid="DEU 7:21"/><verse number="22" style="v" sid="DEU 7:22"/>你们的上帝耶和华将在你们前面逐渐赶走那些民族，你们不可急速地灭尽他们，否则你们周围的野兽会大增，危害你们。 <verse eid="DEU 7:22"/><verse number="23" style="v" sid="DEU 7:23"/>你们的上帝耶和华要将他们交给你们，使他们惊恐万状，直到被灭绝。 <verse eid="DEU 7:23"/><verse number="24" style="v" sid="DEU 7:24"/>祂要将他们的王交在你们手中，无人能抵挡你们，你们要毁灭他们，使他们的名字从世上绝迹。 <verse eid="DEU 7:24"/><verse number="25" style="v" sid="DEU 7:25"/>你们要烧毁他们的神像，不可贪图神像上的金银，不可将那些金银据为己有，免得你们因此陷入网罗；因为那是你们的上帝耶和华所憎恶的。 <verse eid="DEU 7:25"/><verse number="26" style="v" sid="DEU 7:26"/>不可把可憎之物带到家里，否则你们会像它们一样被毁灭。你们要极其憎恶、厌弃它们，因为它们是当毁灭之物。<verse eid="DEU 7:26"/></para>
+  <chapter eid="DEU 7"/>
+  <chapter number="8" style="c" sid="DEU 8"/>
+  <para style="s1">不可忘记耶和华</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 8:1"/>“你们要谨遵我今日吩咐你们的一切诫命，以便能够存活，人丁兴旺，进入并得到耶和华起誓要赐给你们祖先的土地。 <verse eid="DEU 8:1"/><verse number="2" style="v" sid="DEU 8:2"/>要记住这四十年来，你们的上帝耶和华怎样在旷野一路引领你们，祂磨炼你们、考验你们，好知道你们的心意如何、肯不肯遵守祂的诫命。 <verse eid="DEU 8:2"/><verse number="3" style="v" sid="DEU 8:3"/>祂让你们忍饥挨饿，然后赐给你们祖祖辈辈从未见过的吗哪吃，为了使你们明白人活着不是单靠食物，而是靠耶和华口中的每一句话。 <verse eid="DEU 8:3"/><verse number="4" style="v" sid="DEU 8:4"/>这四十年来，你们的衣服没有穿破，双脚也没有走肿。 <verse eid="DEU 8:4"/><verse number="5" style="v" sid="DEU 8:5"/>你们心里要明白，你们的上帝耶和华管教你们，如同父亲管教儿子。<verse eid="DEU 8:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 8:6"/>“所以，你们要遵守你们的上帝耶和华的诫命，行祂的道，敬畏祂， <verse eid="DEU 8:6"/><verse number="7" style="v" sid="DEU 8:7"/>因为祂要带你们到一个佳美之地。那里的谷中和山间流淌着条条溪流、股股清泉； <verse eid="DEU 8:7"/><verse number="8" style="v" sid="DEU 8:8"/>那里盛产大麦、小麦、葡萄、无花果、石榴、橄榄油和蜂蜜； <verse eid="DEU 8:8"/><verse number="9" style="v" sid="DEU 8:9"/>那里食物充足，一无所缺；那里矿产资源丰富，石头就是铁，山中可以采铜。 <verse eid="DEU 8:9"/><verse number="10" style="v" sid="DEU 8:10"/>你们吃饱喝足后，要赞美你们的上帝耶和华，因为祂赐给你们那佳美之地。<verse eid="DEU 8:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="DEU 8:11"/>“你们要谨慎，免得忘记你们的上帝耶和华，不遵守我今天吩咐你们的诫命、典章和律例。 <verse eid="DEU 8:11"/><verse number="12" style="v" sid="DEU 8:12"/>否则，当你们丰衣足食、居室华美、 <verse eid="DEU 8:12"/><verse number="13" style="v" sid="DEU 8:13"/>牛羊成群、金银财物增多的时候， <verse eid="DEU 8:13"/><verse number="14" style="v" sid="DEU 8:14"/>切勿心骄气傲，忘记你们的上帝耶和华。祂把你们从受奴役之地<char style="pn">埃及</char>救出来， <verse eid="DEU 8:14"/><verse number="15" style="v" sid="DEU 8:15"/>带领你们走过干旱、可怕、毒蛇和蝎子出没的大旷野。祂使坚硬的磐石流出水来给你们喝， <verse eid="DEU 8:15"/><verse number="16" style="v" sid="DEU 8:16"/>在旷野中把你们祖先从未见过的吗哪赐给你们吃，为要磨炼你们、考验你们，使你们最终得到益处。 <verse eid="DEU 8:16"/><verse number="17" style="v" sid="DEU 8:17"/>你们切勿以为是凭自己的双手和能力致富的。 <verse eid="DEU 8:17"/><verse number="18" style="v" sid="DEU 8:18"/>要记住，是你们的上帝耶和华赐给你们致富的能力，为要坚立祂给你们祖先的誓约，正如今日的情形。<verse eid="DEU 8:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 8:19"/>“我今天警告你们，如果你们忘记你们的上帝耶和华，去追随、供奉、祭拜其他神明，你们必灭亡。 <verse eid="DEU 8:19"/><verse number="20" style="v" sid="DEU 8:20"/>如果你们不听从你们的上帝耶和华，你们必灭亡，正如祂使列国在你们面前灭亡一样。<verse eid="DEU 8:20"/></para>
+  <chapter eid="DEU 8"/>
+  <chapter number="9" style="c" sid="DEU 9"/>
+  <para style="s1">以色列人的悖逆</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 9:1"/>“<char style="pn">以色列</char>人啊，你们要听！今天你们要过<char style="pn">约旦</char>河，去赶出那些比你们强大的民族。他们住在城墙高耸入云的大城里， <verse eid="DEU 9:1"/><verse number="2" style="v" sid="DEU 9:2"/>是长得高大威猛的<char style="pn">亚衲</char>人。你们了解他们，也听人说过，‘谁能抵挡<char style="pn">亚衲</char>人呢？’ <verse eid="DEU 9:2"/><verse number="3" style="v" sid="DEU 9:3"/>但今天你们要知道，你们的上帝耶和华要走在你们前面，像烈火一样吞噬他们。祂要制服他们，使你们迅速赶走他们，毁灭他们，正如祂对你们的应许。<verse eid="DEU 9:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="DEU 9:4"/>“你们的上帝耶和华从你们面前赶走他们以后，你们心里不要以为耶和华带领你们占领那片土地是因为你们公义，其实是因为那里的民族邪恶，耶和华才将他们从你们面前赶走。 <verse eid="DEU 9:4"/><verse number="5" style="v" sid="DEU 9:5"/>你们能占领他们的土地并非因为你们公义、行为正直。你们的上帝耶和华从你们面前赶走那些民族，是因为他们邪恶，也是为了实现祂给你们祖先<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>和<char style="pn">雅各</char>的誓言。 <verse eid="DEU 9:5"/><verse number="6" style="v" sid="DEU 9:6"/>你们要知道，耶和华赐给你们那佳美之地不是因为你们公义。其实你们是顽固不化的人。<verse eid="DEU 9:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="DEU 9:7"/>“要牢记你们在旷野怎样触怒你们的上帝耶和华。从你们离开<char style="pn">埃及</char>那天来到这里，你们屡屡背叛耶和华。 <verse eid="DEU 9:7"/><verse number="8" style="v" sid="DEU 9:8"/>在<char style="pn">何烈</char>山，你们触怒了耶和华，以致祂要毁灭你们。 <verse eid="DEU 9:8"/><verse number="9" style="v" sid="DEU 9:9"/>那时，我上山去接受耶和华与你们立约的石版，在山上待了四十昼夜，没吃也没喝。 <verse eid="DEU 9:9"/><verse number="10" style="v" sid="DEU 9:10"/>耶和华把两块立约的石版交给我，上面刻着那天你们聚会时祂在山上的火焰中对你们说的话，是祂用手指刻上去的。 <verse eid="DEU 9:10"/><verse number="11" style="v" sid="DEU 9:11"/>四十昼夜后，耶和华把那两块刻着约的石版交给我， <verse eid="DEU 9:11"/><verse number="12" style="v" sid="DEU 9:12"/>对我说，‘快下山吧，因为你从<char style="pn">埃及</char>领出来的百姓已经败坏了。他们这么快就偏离了我吩咐他们走的道，为自己铸造了神像。’<verse eid="DEU 9:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="DEU 9:13"/>“耶和华又对我说，‘我已看出，这是顽固不化的百姓。 <verse eid="DEU 9:13"/><verse number="14" style="v" sid="DEU 9:14"/>不要拦我，我要毁灭他们，从世上抹去他们的名字。我要使你成为一个比他们更强大的民族。’ <verse eid="DEU 9:14"/><verse number="15" style="v" sid="DEU 9:15"/>我双手拿着那两块约版，转身从烈火熊熊的山上下来， <verse eid="DEU 9:15"/><verse number="16" style="v" sid="DEU 9:16"/>看见你们为自己铸造了牛犊像，得罪了你们的上帝耶和华，这么快就偏离了耶和华吩咐你们走的道， <verse eid="DEU 9:16"/><verse number="17" style="v" sid="DEU 9:17"/>就当着你们的面摔碎了那两块石版。<verse eid="DEU 9:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="DEU 9:18"/>“我又俯伏在耶和华面前，四十昼夜不吃不喝，因为你们犯了大罪，做耶和华憎恶的事，惹祂发怒。 <verse eid="DEU 9:18"/><verse number="19" style="v" sid="DEU 9:19"/>耶和华向你们发烈怒，要毁灭你们，我非常惧怕。但耶和华再次垂听了我的祈求。 <verse eid="DEU 9:19"/><verse number="20" style="v" sid="DEU 9:20"/>耶和华对<char style="pn">亚伦</char>非常愤怒，以致要杀掉他，于是我也为他祈求。 <verse eid="DEU 9:20"/><verse number="21" style="v" sid="DEU 9:21"/>我焚烧了你们铸造的罪恶之物牛犊像，把它打碎、磨成粉末，撒在从山上流下来的溪水中。<verse eid="DEU 9:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 9:22"/>“你们在<char style="pn">他备拉</char>、<char style="pn">玛撒</char>和<char style="pn">基博罗·哈他瓦</char>三番四次地触怒耶和华。 <verse eid="DEU 9:22"/><verse number="23" style="v" sid="DEU 9:23"/>你们的上帝耶和华吩咐你们离开<char style="pn">加低斯·巴尼亚</char>，去占领祂赐给你们的土地，你们却违背祂的命令，不信靠祂，也不听从祂。 <verse eid="DEU 9:23"/><verse number="24" style="v" sid="DEU 9:24"/>自从我认识你们以来，你们就不断地背叛耶和华。<verse eid="DEU 9:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="DEU 9:25"/>“因为耶和华说要毁灭你们，我就俯伏在耶和华面前四十昼夜， <verse eid="DEU 9:25"/><verse number="26" style="v" sid="DEU 9:26"/>向祂祈求说，‘主耶和华啊，求你不要毁灭你的子民！他们是你的产业，是你用大能的手从<char style="pn">埃及</char>救赎并带出来的。 <verse eid="DEU 9:26"/><verse number="27" style="v" sid="DEU 9:27"/>求你看在你仆人<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>和<char style="pn">雅各</char>的份上，不要计较这个民族的顽固、邪恶和罪过， <verse eid="DEU 9:27"/><verse number="28" style="v" sid="DEU 9:28"/>免得你带领我们离开之地的人说，你不能把他们领到你应许给他们的地方，你憎恶他们，所以把他们带到旷野杀了。 <verse eid="DEU 9:28"/><verse number="29" style="v" sid="DEU 9:29"/>他们毕竟是你的子民，你的产业，是你伸出大能的臂膀从<char style="pn">埃及</char>带出来的。’<verse eid="DEU 9:29"/></para>
+  <chapter eid="DEU 9"/>
+  <chapter number="10" style="c" sid="DEU 10"/>
+  <para style="s1">摩西重新接受诫命</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 10:1"/>“当时耶和华对我说，‘你要凿出两块石版，与前两块一样，也要做一个木柜，然后上山来见我。 <verse eid="DEU 10:1"/><verse number="2" style="v" sid="DEU 10:2"/>我要把你摔碎的那两块石版上的话重新写在你凿的石版上。你要把它们放在柜子里。’ <verse eid="DEU 10:2"/><verse number="3" style="v" sid="DEU 10:3"/>于是，我用皂荚木做了一个柜子，又凿出两块石版，与前两块一样，然后带着石版上了山。 <verse eid="DEU 10:3"/><verse number="4" style="v" sid="DEU 10:4"/>耶和华把你们在山脚下聚会时，祂在山上的火焰中向你们颁布的十条诫命，重新刻在石版上，并把石版交给我。 <verse eid="DEU 10:4"/><verse number="5" style="v" sid="DEU 10:5"/>我下山后，遵照耶和华的吩咐把石版放在我做的柜子里。现在石版仍放在那里。<verse eid="DEU 10:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 10:6"/>“我们从<char style="pn">亚干</char>人的井<note caller="+" style="f"><char style="fr" closed="false">10:6 </char><char style="ft" closed="false">“亚干人的井”或译“比罗比尼·亚干”或“比尼亚干井”。</char></note>出发，来到<char style="pn">摩西拉</char>。<char style="pn">亚伦</char>死在那里，并葬在那里，他儿子<char style="pn">以利亚撒</char>接替他做大祭司。 <verse eid="DEU 10:6"/><verse number="7" style="v" sid="DEU 10:7"/>我们从那里走到<char style="pn">谷歌大</char>，又走到溪流之乡<char style="pn">约巴他</char>。 <verse eid="DEU 10:7"/><verse number="8" style="v" sid="DEU 10:8"/>那时，耶和华把<char style="pn">利未</char>支派分别出来，派他们抬祂的约柜，侍立在祂面前事奉祂，奉祂的名祝福，至今未变。 <verse eid="DEU 10:8"/><verse number="9" style="v" sid="DEU 10:9"/>因此，<char style="pn">利未</char>人在众支派中没有分到土地作产业，耶和华是他们的产业，这是你们的上帝耶和华对他们的应许。<verse eid="DEU 10:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 10:10"/>“和前一次一样，我又在山上待了四十昼夜，耶和华又听了我的祈求，答应不毁灭你们。 <verse eid="DEU 10:10"/><verse number="11" style="v" sid="DEU 10:11"/>耶和华对我说，‘起来，带民众走吧，去占领我起誓要赐给他们祖先的土地。’<verse eid="DEU 10:11"/></para>
+  <para style="s1">耶和华的要求</para>
+  <para style="p">
+    <verse number="12" style="v" sid="DEU 10:12"/>“<char style="pn">以色列</char>人啊，你们的上帝耶和华对你们有何要求？无非要你们敬畏祂，遵行祂的旨意，爱祂，全心全意地事奉祂， <verse eid="DEU 10:12"/><verse number="13" style="v" sid="DEU 10:13"/>遵守祂的诫命和律例。我今天把这些诫命和律例赐给你们，是为了你们的益处。 <verse eid="DEU 10:13"/><verse number="14" style="v" sid="DEU 10:14"/>看啊，天和天上的天、大地和地上的万物，都属于你们的上帝耶和华。 <verse eid="DEU 10:14"/><verse number="15" style="v" sid="DEU 10:15"/>但耶和华只喜爱你们的祖先，从万族中拣选了他们的后裔——你们，正如今日的情形。 <verse eid="DEU 10:15"/><verse number="16" style="v" sid="DEU 10:16"/>所以，你们要洗心革面，不可再顽固不化。 <verse eid="DEU 10:16"/><verse number="17" style="v" sid="DEU 10:17"/>你们的上帝耶和华是万神之神、万主之主，是伟大、全能、可畏的上帝。祂不徇情面，不受贿赂； <verse eid="DEU 10:17"/><verse number="18" style="v" sid="DEU 10:18"/>祂为孤儿寡妇主持公道，关爱寄居者，供给他们衣食。 <verse eid="DEU 10:18"/><verse number="19" style="v" sid="DEU 10:19"/>所以，你们要爱寄居者，因为你们也曾寄居<char style="pn">埃及</char>。 <verse eid="DEU 10:19"/><verse number="20" style="v" sid="DEU 10:20"/>你们要敬畏你们的上帝耶和华，事奉祂，倚靠祂，凭祂的名起誓。 <verse eid="DEU 10:20"/><verse number="21" style="v" sid="DEU 10:21"/>你们要赞美祂，祂是你们的上帝，你们亲眼目睹了祂为你们做的伟大而可畏的事。 <verse eid="DEU 10:21"/><verse number="22" style="v" sid="DEU 10:22"/>当年你们祖先下<char style="pn">埃及</char>时，只有七十人，现在你们的上帝耶和华使你们多如天上的星辰。<verse eid="DEU 10:22"/></para>
+  <chapter eid="DEU 10"/>
+  <chapter number="11" style="c" sid="DEU 11"/>
+  <para style="s1">要听从耶和华</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 11:1"/>“你们要爱你们的上帝耶和华，时刻遵守祂的吩咐、律例、典章和诫命。 <verse eid="DEU 11:1"/><verse number="2" style="v" sid="DEU 11:2"/>要记住，我现在是对你们，而不是对你们的孩子说话。他们没有亲身经历、亲眼见过你们上帝耶和华的管教、威严、大能的手和伸出的臂膀； <verse eid="DEU 11:2"/><verse number="3" style="v" sid="DEU 11:3"/>祂怎样在<char style="pn">埃及</char>行神迹奇事对付<char style="pn">埃及</char>王法老及其整个国家； <verse eid="DEU 11:3"/><verse number="4" style="v" sid="DEU 11:4"/>怎样使红海淹没追赶你们的<char style="pn">埃及</char>军队和车马，将他们永远毁灭； <verse eid="DEU 11:4"/><verse number="5" style="v" sid="DEU 11:5"/>怎样在旷野一路看顾你们，一直来到这里； <verse eid="DEU 11:5"/><verse number="6" style="v" sid="DEU 11:6"/>怎样对付<char style="pn">吕便</char>人<char style="pn">以利押</char>的儿子<char style="pn">大坍</char>和<char style="pn">亚比兰</char>，使大地在<char style="pn">以色列</char>人当中裂开，吞没了他们及其家人、帐篷和所有随从。 <verse eid="DEU 11:6"/><verse number="7" style="v" sid="DEU 11:7"/>你们亲眼目睹了耶和华的这些伟大作为。<verse eid="DEU 11:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="DEU 11:8"/>“因此，你们要遵守我今天吩咐你们的诫命，以便有力量过河，攻取你们将要攻取的土地， <verse eid="DEU 11:8"/><verse number="9" style="v" sid="DEU 11:9"/>长久居住在耶和华起誓要赐给你们祖先及其后裔的奶蜜之乡。 <verse eid="DEU 11:9"/><verse number="10" style="v" sid="DEU 11:10"/>你们将要攻取的那片土地不像你们离开的<char style="pn">埃及</char>。在<char style="pn">埃及</char>你们撒种后，要像浇菜园一样辛勤灌溉<note caller="+" style="f"><char style="fr" closed="false">11:10 </char><char style="ft" closed="false">“辛勤灌溉”希伯来文是“用脚灌溉”。</char></note>。 <verse eid="DEU 11:10"/><verse number="11" style="v" sid="DEU 11:11"/>而你们将要占领的那片土地却有山有谷，雨水充足， <verse eid="DEU 11:11"/><verse number="12" style="v" sid="DEU 11:12"/>你们的上帝耶和华从岁首到年终时时看顾那里。<verse eid="DEU 11:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="DEU 11:13"/>“如果你们谨遵我今天吩咐你们的诫命，全心全意地爱你们的上帝耶和华，事奉祂， <verse eid="DEU 11:13"/><verse number="14" style="v" sid="DEU 11:14"/>祂就会按时给你们的土地降下秋雨和春雨，使你们收获谷物、新酒和油， <verse eid="DEU 11:14"/><verse number="15" style="v" sid="DEU 11:15"/>有草场饲养牲畜，丰衣足食。 <verse eid="DEU 11:15"/><verse number="16" style="v" sid="DEU 11:16"/>你们要谨慎，免得被迷惑，转而供奉、祭拜其他神明。 <verse eid="DEU 11:16"/><verse number="17" style="v" sid="DEU 11:17"/>否则，耶和华必向你们发怒，使天不下雨、地无出产，以致你们在祂赐给你们的佳美之地上迅速灭亡。<verse eid="DEU 11:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="DEU 11:18"/>“所以，你们要把我的这些吩咐铭记在心，系在手上，戴在额上作记号； <verse eid="DEU 11:18"/><verse number="19" style="v" sid="DEU 11:19"/>要用这些话教导你们的儿女，无论坐在家里或行在路上，或起或卧，都要讲论； <verse eid="DEU 11:19"/><verse number="20" style="v" sid="DEU 11:20"/>也要写在城门上和自家的门框上。 <verse eid="DEU 11:20"/><verse number="21" style="v" sid="DEU 11:21"/>这样，你们及子孙就可以生活在耶和华起誓要赐给你们祖先的土地上，与天地同长。 <verse eid="DEU 11:21"/><verse number="22" style="v" sid="DEU 11:22"/>如果你们谨遵我吩咐你们的这一切诫命——爱你们的上帝耶和华，遵行祂的旨意，依靠祂， <verse eid="DEU 11:22"/><verse number="23" style="v" sid="DEU 11:23"/>耶和华就会为你们赶走那些比你们强大的民族，你们也必占领他们的土地。 <verse eid="DEU 11:23"/><verse number="24" style="v" sid="DEU 11:24"/>你们脚掌踏过的地方都要归你们。你们的疆界南到旷野，北到<char style="pn">黎巴嫩</char>，东到<char style="pn">幼发拉底</char>大河，西到地中海。 <verse eid="DEU 11:24"/><verse number="25" style="v" sid="DEU 11:25"/>所到之处无人能抵挡你们，因为你们的上帝耶和华会使那些地方的人对你们充满惧怕，正如祂对你们的应许。<verse eid="DEU 11:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="DEU 11:26"/>“看啊，我今天把祝福和咒诅摆在你们面前。 <verse eid="DEU 11:26"/><verse number="27" style="v" sid="DEU 11:27"/>你们若遵行我今天吩咐你们的诫命，就会蒙福。 <verse eid="DEU 11:27"/><verse number="28" style="v" sid="DEU 11:28"/>你们若不遵行你们的上帝耶和华的诫命，偏离我今天吩咐你们当走的道路，随从不认识的其他神明，必受咒诅。 <verse eid="DEU 11:28"/><verse number="29" style="v" sid="DEU 11:29"/>你们的上帝耶和华带领你们进入并占领那片土地时，你们要在<char style="pn">基利心</char>山上宣告祝福，在<char style="pn">以巴路</char>山上宣告咒诅。 <verse eid="DEU 11:29"/><verse number="30" style="v" sid="DEU 11:30"/><char style="pn">基利心</char>山和<char style="pn">以巴路</char>山属于住在<char style="pn">亚拉巴</char>的<char style="pn">迦南</char>人，位于<char style="pn">约旦</char>河西岸的日落之处，在<char style="pn">吉甲</char>对面，靠近<char style="pn">摩利</char>橡树。 <verse eid="DEU 11:30"/><verse number="31" style="v" sid="DEU 11:31"/>你们就要穿过<char style="pn">约旦</char>河，占领耶和华赐给你们的土地了。你们占领那里并定居下来以后， <verse eid="DEU 11:31"/><verse number="32" style="v" sid="DEU 11:32"/>要谨遵我今天颁布给你们的一切律例和典章。<verse eid="DEU 11:32"/></para>
+  <chapter eid="DEU 11"/>
+  <chapter number="12" style="c" sid="DEU 12"/>
+  <para style="s1">合宜的敬拜</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 12:1"/>“只要你们生活在你们祖先的上帝耶和华赐给你们的土地上，就要谨遵以下律例和典章。<verse eid="DEU 12:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="DEU 12:2"/>“你们赶走那里的列邦后，要彻底摧毁他们在高山上、丘陵上、绿树下供奉其神明的地方。 <verse eid="DEU 12:2"/><verse number="3" style="v" sid="DEU 12:3"/>你们要拆毁他们的祭坛，打碎他们的神柱，焚烧他们的<char style="pn">亚舍拉</char>神像，砍倒他们神明的雕像，使他们的名字从那里消失。 <verse eid="DEU 12:3"/><verse number="4" style="v" sid="DEU 12:4"/>你们不可按照他们的方式敬拜你们的上帝耶和华。 <verse eid="DEU 12:4"/><verse number="5" style="v" sid="DEU 12:5"/>你们的上帝耶和华要在你们众支派中选一个地方作祂的居所，你们要去那里敬拜祂， <verse eid="DEU 12:5"/><verse number="6" style="v" sid="DEU 12:6"/>把你们的燔祭及其他祭物、十一奉献、举祭、还愿祭、自愿献的祭和头生的牛羊带到那里。 <verse eid="DEU 12:6"/><verse number="7" style="v" sid="DEU 12:7"/>你们和家人要在那里，在你们的上帝耶和华面前吃喝；要为你们所做的一切蒙祂赐福而欢喜快乐。<verse eid="DEU 12:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="DEU 12:8"/>“你们不可再像今日这样各行其是， <verse eid="DEU 12:8"/><verse number="9" style="v" sid="DEU 12:9"/>因为到如今你们还没有进入你们的上帝耶和华赐给你们作产业的安歇之地。 <verse eid="DEU 12:9"/><verse number="10" style="v" sid="DEU 12:10"/>但不久你们将渡过<char style="pn">约旦</char>河，定居在那片土地上。你们的上帝耶和华将使你们四境太平，安然居住， <verse eid="DEU 12:10"/><verse number="11" style="v" sid="DEU 12:11"/>你们要把我吩咐你们献的燔祭、各种牲祭、十一奉献、举祭和一切还愿祭，带到你们的上帝耶和华选定的敬拜场所。 <verse eid="DEU 12:11"/><verse number="12" style="v" sid="DEU 12:12"/>在那里，你们和儿女、仆婢及同城中没有分到土地作产业的<char style="pn">利未</char>人，要一起在你们的上帝耶和华面前欢喜快乐。 <verse eid="DEU 12:12"/><verse number="13" style="v" sid="DEU 12:13"/>你们切不可随处向耶和华献燔祭。 <verse eid="DEU 12:13"/><verse number="14" style="v" sid="DEU 12:14"/>耶和华会在你们的一个支派中选定敬拜的场所，你们只可以在那里献燔祭，做我吩咐你们的一切事。<verse eid="DEU 12:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 12:15"/>“你们可以随意在居住的各城宰杀牲畜吃，享受你们的上帝耶和华所赐的福，像吃羚羊和鹿一样。洁净的人和不洁净的人都可以吃。 <verse eid="DEU 12:15"/><verse number="16" style="v" sid="DEU 12:16"/>但你们不可吃血。要把血倒在地上，像倒水一样。 <verse eid="DEU 12:16"/><verse number="17" style="v" sid="DEU 12:17"/>不可在你们的城里吃十一奉献的谷物、新酒和油、头生的牛羊、还愿祭、自愿献的祭和举祭； <verse eid="DEU 12:17"/><verse number="18" style="v" sid="DEU 12:18"/>要在你们的上帝耶和华选定的地方，与儿女、仆婢及同城的<char style="pn">利未</char>人一起在你们的上帝耶和华面前吃。要为你们所做的一切，在你们的上帝耶和华面前欢喜快乐。 <verse eid="DEU 12:18"/><verse number="19" style="v" sid="DEU 12:19"/>切记，只要你们还住在自己的土地上，就不可忘记<char style="pn">利未</char>人。<verse eid="DEU 12:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="DEU 12:20"/>“你们的上帝耶和华按照祂的应许扩展你们的疆域后，你们若想吃肉，随时都可以吃。 <verse eid="DEU 12:20"/><verse number="21" style="v" sid="DEU 12:21"/>如果你们的上帝耶和华选定的敬拜场所离你们太远，你们可以在自己的城里，按照我的吩咐，随时宰杀耶和华赐给你们的牛羊吃， <verse eid="DEU 12:21"/><verse number="22" style="v" sid="DEU 12:22"/>就像你们吃羚羊和鹿一样。洁净的人和不洁净的人都可以吃。 <verse eid="DEU 12:22"/><verse number="23" style="v" sid="DEU 12:23"/>但你们切不可吃血，因为血就是生命；你们不可把生命和肉一起吃。 <verse eid="DEU 12:23"/><verse number="24" style="v" sid="DEU 12:24"/>你们切不可吃血，要把血倒在地上，像倒水一样。 <verse eid="DEU 12:24"/><verse number="25" style="v" sid="DEU 12:25"/>你们要做耶和华视为正的事——不可吃血，以便你们及子孙凡事顺利。 <verse eid="DEU 12:25"/><verse number="26" style="v" sid="DEU 12:26"/>你们要把圣物和还愿祭带到耶和华选定的地方。 <verse eid="DEU 12:26"/><verse number="27" style="v" sid="DEU 12:27"/>你们要在你们的上帝耶和华的祭坛上献燔祭，连肉带血都要献上。要把其他祭牲的血倒在坛上，但可以吃祭肉。 <verse eid="DEU 12:27"/><verse number="28" style="v" sid="DEU 12:28"/>你们要认真听从我给你们的这些吩咐，做你们的上帝耶和华视为正与善的事，以便你们及子孙凡事顺利，直到永远。<verse eid="DEU 12:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="DEU 12:29"/>“你们的上帝耶和华将为你们铲除列国。你们要赶走他们，住在他们的土地上。 <verse eid="DEU 12:29"/><verse number="30" style="v" sid="DEU 12:30"/>他们从你们面前被毁灭之后，你们要谨慎，不可受诱惑去效法他们的习俗，不可打听他们神明的事，说，‘这些民族怎样供奉他们的神明呢？我也要效法。’ <verse eid="DEU 12:30"/><verse number="31" style="v" sid="DEU 12:31"/>你们不可按照他们的方式敬拜你们的上帝耶和华。他们祭拜自己神明的种种行为令耶和华憎恶，他们甚至焚烧自己的儿女献给他们的神明。<verse eid="DEU 12:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="DEU 12:32"/>“你们要谨遵我的一切吩咐，不可增添，也不可删减。<verse eid="DEU 12:32"/></para>
+  <chapter eid="DEU 12"/>
+  <chapter number="13" style="c" sid="DEU 13"/>
+  <para style="s1">不可拜假神</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 13:1"/>“如果你们中间出现了先知或解梦的人，要显神迹奇事给你们看， <verse eid="DEU 13:1"/><verse number="2" style="v" sid="DEU 13:2"/>劝你们随从、供奉不认识的其他神明，即使他们显的神迹奇事应验了， <verse eid="DEU 13:2"/><verse number="3" style="v" sid="DEU 13:3"/>你们也不可听从他们。因为这是你们的上帝耶和华在试验你们，要看看你们是否全心全意地爱祂。 <verse eid="DEU 13:3"/><verse number="4" style="v" sid="DEU 13:4"/>你们要跟从你们的上帝耶和华，敬畏祂，遵守祂的诫命，听从祂的话，事奉祂，倚靠祂。 <verse eid="DEU 13:4"/><verse number="5" style="v" sid="DEU 13:5"/>必须处死那些先知或解梦的人，因为他们怂恿你们背叛你们的上帝耶和华、偏离祂吩咐你们当走的道路。你们的上帝耶和华曾带你们离开<char style="pn">埃及</char>，救赎你们脱离奴役。你们必须清除你们当中的邪恶。<verse eid="DEU 13:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 13:6"/>“如果你们的亲兄弟、儿女、爱妻或挚友暗中引诱你们去拜你们和你们祖先都不认识的其他神明， <verse eid="DEU 13:6"/><verse number="7" style="v" sid="DEU 13:7"/>引诱你们去拜你们周围各族的神明，或在附近或远在天边， <verse eid="DEU 13:7"/><verse number="8" style="v" sid="DEU 13:8"/>你们不可迁就、听从他们，不可怜惜他们，不可放过或包庇他们。 <verse eid="DEU 13:8"/><verse number="9" style="v" sid="DEU 13:9"/>必须处死他们。你们要首先下手，然后众人一起打死他们。 <verse eid="DEU 13:9"/><verse number="10" style="v" sid="DEU 13:10"/>你们要用石头打死他们，因为他们企图使你们背弃你们的上帝耶和华，祂曾把你们从受奴役之地<char style="pn">埃及</char>领出来。 <verse eid="DEU 13:10"/><verse number="11" style="v" sid="DEU 13:11"/>这样，所有<char style="pn">以色列</char>人听了就会害怕，必无人再敢在你们中间做这种恶事。<verse eid="DEU 13:11"/></para>
+  <para style="p">
+    <verse number="12-13" style="v" sid="DEU 13:12-13"/>“在你们的上帝耶和华将要赐给你们居住的各城中，如果你们听说某城里有恶人引诱城中的居民偏离正路，唆使他们去供奉你们不认识的其他神明， <verse eid="DEU 13:12-13"/><verse number="14" style="v" sid="DEU 13:14"/>你们要认真查明真相。如果传闻属实，你们当中确有此恶行， <verse eid="DEU 13:14"/><verse number="15" style="v" sid="DEU 13:15"/>你们一定要用刀杀光那城中的居民和牲畜。 <verse eid="DEU 13:15"/><verse number="16" style="v" sid="DEU 13:16"/>你们要把城中的财物堆在广场中心，然后放火焚烧那城和城中的财物，作为燔祭献给你们的上帝耶和华。城要永远荒废，不可重建。 <verse eid="DEU 13:16"/><verse number="17-18" style="v" sid="DEU 13:17-18"/>你们不可保留任何应当被毁灭的东西，这样耶和华就不再向你们发怒，转而施恩怜悯你们。</para>
+  <para style="p" vid="DEU 13:17-18">“只要你们遵守我今天吩咐你们的一切诫命，做耶和华视为正的事，祂必按照祂对你们祖先所起的誓，怜悯你们，使你们人丁兴旺。<verse eid="DEU 13:17-18"/></para>
+  <chapter eid="DEU 13"/>
+  <chapter number="14" style="c" sid="DEU 14"/>
+  <para style="s1">做圣洁的子民</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 14:1"/>“你们是你们上帝耶和华的儿女，不可为死人割伤自己或剃光前额。 <verse eid="DEU 14:1"/><verse number="2" style="v" sid="DEU 14:2"/>因为你们是你们的上帝耶和华的圣民，祂从天下万族中拣选你们作祂宝贵的产业。<verse eid="DEU 14:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="DEU 14:3"/>“你们不可吃任何可憎之物。 <verse eid="DEU 14:3"/><verse number="4" style="v" sid="DEU 14:4"/>但你们可以吃牛、绵羊、山羊、 <verse eid="DEU 14:4"/><verse number="5" style="v" sid="DEU 14:5"/>鹿、羚羊、狍子、野山羊、瞪羚、黄羊和野绵羊。 <verse eid="DEU 14:5"/><verse number="6" style="v" sid="DEU 14:6"/>凡蹄子分瓣且反刍的动物，你们都可以吃。 <verse eid="DEU 14:6"/><verse number="7" style="v" sid="DEU 14:7"/>在那些只反刍或只是蹄子分瓣的动物中，你们不可吃骆驼、野兔和石獾，因为它们虽反刍但蹄子不分瓣，是不洁净的。 <verse eid="DEU 14:7"/><verse number="8" style="v" sid="DEU 14:8"/>你们也不可吃猪，因为猪虽蹄子分瓣但不反刍，是不洁净的。你们不可吃这些动物的肉，也不可摸它们的尸体。<verse eid="DEU 14:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 14:9"/>“水族中，凡有鳍有鳞的，你们都可以吃。 <verse eid="DEU 14:9"/><verse number="10" style="v" sid="DEU 14:10"/>凡无鳍无鳞的都不洁净，你们不可吃。<verse eid="DEU 14:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="DEU 14:11"/>“你们可以吃洁净的鸟类。 <verse eid="DEU 14:11"/><verse number="12" style="v" sid="DEU 14:12"/>不可吃的鸟类有雕、胡兀鹫、黑秃鹫、 <verse eid="DEU 14:12"/><verse number="13" style="v" sid="DEU 14:13"/>鸢、隼类、 <verse eid="DEU 14:13"/><verse number="14" style="v" sid="DEU 14:14"/>乌鸦类、 <verse eid="DEU 14:14"/><verse number="15" style="v" sid="DEU 14:15"/>鸵鸟、夜鹰、海鸥、鹰类、 <verse eid="DEU 14:15"/><verse number="16" style="v" sid="DEU 14:16"/>小鸮、大鸮、仓鸮、 <verse eid="DEU 14:16"/><verse number="17" style="v" sid="DEU 14:17"/>鹈鹕、鱼鹰、鸬鹚、 <verse eid="DEU 14:17"/><verse number="18" style="v" sid="DEU 14:18"/>鹳、鹭鸟类、戴胜和蝙蝠。<verse eid="DEU 14:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 14:19"/>“凡有翅膀、会爬的昆虫都不洁净，你们不可吃。 <verse eid="DEU 14:19"/><verse number="20" style="v" sid="DEU 14:20"/>凡有翅膀的洁净之物，你们都可以吃。<verse eid="DEU 14:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="DEU 14:21"/>“你们不可吃死掉的动物，但可以送给住在你们城里的外族人吃，或卖给其他外族人。因为你们是你们的上帝耶和华的圣民。你们不可用母山羊的奶煮它的羊羔。<verse eid="DEU 14:21"/></para>
+  <para style="s1">十一奉献</para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 14:22"/>“你们每年要献出收成的十分之一； <verse eid="DEU 14:22"/><verse number="23" style="v" sid="DEU 14:23"/>要在你们的上帝耶和华选定的敬拜场所，在祂面前吃所献的十分之一的谷物、新酒、油以及头生的牛羊。这是为了让你们学习一生敬畏你们的上帝耶和华。 <verse eid="DEU 14:23"/><verse number="24" style="v" sid="DEU 14:24"/>如果你们的上帝耶和华赐福你们，使你们丰收，而你们住的地方离祂选定的敬拜场所太远，以致不能把收成的十分之一送去， <verse eid="DEU 14:24"/><verse number="25" style="v" sid="DEU 14:25"/>就可以把那些收成换成银钱，带到你们的上帝耶和华选定的场所。 <verse eid="DEU 14:25"/><verse number="26" style="v" sid="DEU 14:26"/>在那里，你们可以随意买牛、羊、淡酒或烈酒，然后一家人在你们的上帝耶和华面前吃喝快乐。 <verse eid="DEU 14:26"/><verse number="27" style="v" sid="DEU 14:27"/>不可忘记住在你们城里的<char style="pn">利未</char>人，因为<char style="pn">利未</char>人没有分到土地作产业。<verse eid="DEU 14:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="DEU 14:28"/>“每逢第三年末，你们要把那年所有出产的十分之一拿出来，存放在你们的城里， <verse eid="DEU 14:28"/><verse number="29" style="v" sid="DEU 14:29"/>让你们城中没有土地的<char style="pn">利未</char>人、寄居者和孤儿寡妇都可以来吃饱。这样，你们的上帝耶和华必使你们凡事蒙福。<verse eid="DEU 14:29"/></para>
+  <chapter eid="DEU 14"/>
+  <chapter number="15" style="c" sid="DEU 15"/>
+  <para style="s1">安息年</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 15:1"/>“每逢第七年末，你们要免除他人的债务。 <verse eid="DEU 15:1"/><verse number="2" style="v" sid="DEU 15:2"/>你们要这样做，所有债主都要免除同胞所欠的债务，不可向他们追讨，因为宣布免除债务的是耶和华。 <verse eid="DEU 15:2"/><verse number="3" style="v" sid="DEU 15:3"/>你们可以向外族人讨债，但无论同胞欠你什么债务，都要免除。 <verse eid="DEU 15:3"/><verse number="4-5" style="v" sid="DEU 15:4-5"/>只要你们留心听从你们上帝耶和华的话，谨遵我今天吩咐你们的诫命，祂必使你们在祂赐给你们作产业的土地上蒙福，你们中间不会有穷人。 <verse eid="DEU 15:4-5"/><verse number="6" style="v" sid="DEU 15:6"/>你们的上帝耶和华必照祂的应许赐福给你们，你们必借贷给多国，却不需要向他们借贷。你们必统治多国，却不被他们统治。<verse eid="DEU 15:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="DEU 15:7"/>“在进入你们的上帝耶和华将要赐给你们的土地后，如果你们居住的城中有贫穷的同胞，你们不可硬着心肠拒施援手。 <verse eid="DEU 15:7"/><verse number="8" style="v" sid="DEU 15:8"/>你们要伸出援手，按他们的所需慷慨地借给他们。 <verse eid="DEU 15:8"/><verse number="9" style="v" sid="DEU 15:9"/>你们要谨慎，不可因为免除债务的第七年将近，就心怀恶念，对贫穷同胞冷眼相待，拒施援手。否则，他们会向耶和华控诉你们，那时你们便有罪了。 <verse eid="DEU 15:9"/><verse number="10" style="v" sid="DEU 15:10"/>你们要慷慨给予，并且无怨无悔，因为你们的上帝耶和华必在你们所做的一切事上赐福给你们。 <verse eid="DEU 15:10"/><verse number="11" style="v" sid="DEU 15:11"/>你们居住的地方总会有穷人，所以我吩咐你们要慷慨地帮助贫穷和有需要的同胞。<verse eid="DEU 15:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="DEU 15:12"/>“如果你们的<char style="pn">希伯来</char>同胞，不论男女，卖身给你们为奴，他们要服侍你们六年，到第七年，你们要给他们自由。 <verse eid="DEU 15:12"/><verse number="13" style="v" sid="DEU 15:13"/>你们释放他们时，不可让他们空手离去， <verse eid="DEU 15:13"/><verse number="14" style="v" sid="DEU 15:14"/>要慷慨地把你们的上帝耶和华赐给你们的羊、五谷和酒分给他们。 <verse eid="DEU 15:14"/><verse number="15" style="v" sid="DEU 15:15"/>要记住，你们曾在<char style="pn">埃及</char>做奴隶，你们的上帝耶和华救赎了你们。所以，我今天吩咐你们这样做。 <verse eid="DEU 15:15"/><verse number="16" style="v" sid="DEU 15:16"/>如果你们的奴仆因为爱你们和你们的家人，与你们相处融洽，不愿意离去， <verse eid="DEU 15:16"/><verse number="17" style="v" sid="DEU 15:17"/>你们就要让他靠在门上，用锥子在他耳朵上扎个洞，他便终身成为你们的奴仆。对待婢女也要这样。 <verse eid="DEU 15:17"/><verse number="18" style="v" sid="DEU 15:18"/>你们释放奴仆时，不要不情愿，因为他们服侍你们六年，所做的是普通雇工的两倍。而且，你们的上帝耶和华也会在你们所做的一切事上赐福给你们。<verse eid="DEU 15:18"/></para>
+  <para style="s1">头生的牛羊</para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 15:19"/>“你们要把头生的公牛和公羊分别出来，献给你们的上帝耶和华。不可用头生的公牛耕田，也不要剪头生公羊的毛。 <verse eid="DEU 15:19"/><verse number="20" style="v" sid="DEU 15:20"/>每年，你们全家要去你们的上帝耶和华选定的地方，在祂面前吃这些头生的牛羊。 <verse eid="DEU 15:20"/><verse number="21" style="v" sid="DEU 15:21"/>如果这些牛羊有什么残疾，如瘸腿、瞎眼或其他缺陷，就不可献给你们的上帝耶和华。 <verse eid="DEU 15:21"/><verse number="22" style="v" sid="DEU 15:22"/>要在你们的城里吃这些牛羊。洁净的人和不洁净的人都可以吃，就像吃羚羊和鹿一样。 <verse eid="DEU 15:22"/><verse number="23" style="v" sid="DEU 15:23"/>但不可吃它们的血，要把血倒在地上，像倒水一样。<verse eid="DEU 15:23"/></para>
+  <chapter eid="DEU 15"/>
+  <chapter number="16" style="c" sid="DEU 16"/>
+  <para style="s1">逾越节</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 16:1"/>“你们要在亚笔月<note caller="+" style="f"><char style="fr" closed="false">16:1 </char><char style="ft" closed="false">亚笔月是犹太历的第一个月，约在阳历三月中旬到四月中旬，相当于中国的春分时节。</char></note>为你们的上帝耶和华守逾越节，因为祂在这个月的一个晚上带你们出了<char style="pn">埃及</char>。 <verse eid="DEU 16:1"/><verse number="2" style="v" sid="DEU 16:2"/>你们要在你们的上帝耶和华为祂的名选定的居所，把牛羊作为逾越节的祭牲献给祂。 <verse eid="DEU 16:2"/><verse number="3" style="v" sid="DEU 16:3"/>吃祭牲的时候，不可吃有酵的饼，七天之内要吃无酵饼，即忆苦饼，以便你们一生谨记离开<char style="pn">埃及</char>的日子，因为当时你们离开得很仓促。 <verse eid="DEU 16:3"/><verse number="4" style="v" sid="DEU 16:4"/>那七天之内，你们境内不可有酵母。第一天傍晚献的祭肉不可留到早晨。 <verse eid="DEU 16:4"/><verse number="5" style="v" sid="DEU 16:5"/>在你们的上帝耶和华将要赐给你们的各城中，你们不可献逾越节的祭牲， <verse eid="DEU 16:5"/><verse number="6" style="v" sid="DEU 16:6"/>而是要在傍晚日落时分，即你们离开<char style="pn">埃及</char>的时候，到你们的上帝耶和华为祂的名选定的居所献逾越节的祭牲。 <verse eid="DEU 16:6"/><verse number="7" style="v" sid="DEU 16:7"/>你们要在那里煮祭肉吃，第二天早晨可以返回自己的帐篷。 <verse eid="DEU 16:7"/><verse number="8" style="v" sid="DEU 16:8"/>在随后的六天之内，你们要吃无酵饼。第七天，要举行庄严的聚会，敬拜你们的上帝耶和华。那一天你们不可做工。<verse eid="DEU 16:8"/></para>
+  <para style="s1">七七收获节</para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 16:9"/>“从收割那天开始算起，你们要算出七周的时间。 <verse eid="DEU 16:9"/><verse number="10" style="v" sid="DEU 16:10"/>七周后，要为你们的上帝耶和华守七七收获节<note caller="+" style="f"><char style="fr" closed="false">16:10 </char><char style="ft" closed="false">“七七收获节”后称为五旬节。</char></note>。那时，你们要按照你们的上帝耶和华所赐的福分，甘心乐意地献上祭物。 <verse eid="DEU 16:10"/><verse number="11" style="v" sid="DEU 16:11"/>你们要和儿女、仆婢、同城的<char style="pn">利未</char>人、寄居者及孤儿寡妇，在你们的上帝耶和华为祂的名选定的居所，在祂面前一起欢喜快乐。 <verse eid="DEU 16:11"/><verse number="12" style="v" sid="DEU 16:12"/>你们要记住自己曾在<char style="pn">埃及</char>做过奴隶，因此要谨遵这些律例。<verse eid="DEU 16:12"/></para>
+  <para style="s1">住棚节</para>
+  <para style="p">
+    <verse number="13" style="v" sid="DEU 16:13"/>“在收藏好谷物和新酒后，你们要守七天的住棚节。 <verse eid="DEU 16:13"/><verse number="14" style="v" sid="DEU 16:14"/>住棚节期间，你们要和儿女、仆婢、同城的<char style="pn">利未</char>人、寄居者及孤儿寡妇一起欢庆。 <verse eid="DEU 16:14"/><verse number="15" style="v" sid="DEU 16:15"/>要在你们的上帝耶和华选定的地方，为祂守住棚节七天；要满心欢喜，因为你们的上帝耶和华赐福你们，使你们的出产丰富、凡事顺利。<verse eid="DEU 16:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 16:16"/>“你们所有男子要每年三次，即在除酵节、七七收获节和住棚节，在你们的上帝耶和华指定的地方朝见祂。你们不可空手朝见耶和华， <verse eid="DEU 16:16"/><verse number="17" style="v" sid="DEU 16:17"/>各人要按祂赐的福分，尽自己的能力献上礼物。<verse eid="DEU 16:17"/></para>
+  <para style="s1">委任审判官</para>
+  <para style="p">
+    <verse number="18" style="v" sid="DEU 16:18"/>“要在你们的上帝耶和华将要赐给你们的各城中，按支派委任审判官及其他官员。官员们要秉公审判， <verse eid="DEU 16:18"/><verse number="19" style="v" sid="DEU 16:19"/>不可徇私枉法、偏心待人，收受贿赂，因为贿赂蒙蔽智者的眼睛，使正直人颠倒是非。 <verse eid="DEU 16:19"/><verse number="20" style="v" sid="DEU 16:20"/>你们要追求公正公义，以便存活，承受你们的上帝耶和华赐给你们的土地。<verse eid="DEU 16:20"/></para>
+  <para style="s1">不可拜偶像</para>
+  <para style="p">
+    <verse number="21" style="v" sid="DEU 16:21"/>“在为你们的上帝耶和华建造的祭坛旁，你们不可竖立<char style="pn">亚舍拉</char>木神像， <verse eid="DEU 16:21"/><verse number="22" style="v" sid="DEU 16:22"/>也不可竖立神柱，因为这些是你们的上帝耶和华所憎恶的。<verse eid="DEU 16:22"/></para>
+  <chapter eid="DEU 16"/>
+  <chapter number="17" style="c" sid="DEU 17"/>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 17:1"/>“不可把有缺陷或残疾的牛羊献给你们的上帝耶和华，因为这是祂所憎恶的。<verse eid="DEU 17:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="DEU 17:2"/>“如果有人在你们的上帝耶和华赐给你们的各城镇做祂视为恶的事，违背祂的约， <verse eid="DEU 17:2"/><verse number="3" style="v" sid="DEU 17:3"/>不遵守祂的禁令，去供奉和祭拜其他神明，祭拜日、月或星辰， <verse eid="DEU 17:3"/><verse number="4" style="v" sid="DEU 17:4"/>你们得知后，必须彻底调查。如果属实，在<char style="pn">以色列</char>确实有人做这种可憎之事， <verse eid="DEU 17:4"/><verse number="5" style="v" sid="DEU 17:5"/>就要把那人带到城门口，用石头打死他。 <verse eid="DEU 17:5"/><verse number="6" style="v" sid="DEU 17:6"/>但你们不可单凭一个证人便处死那人，要有两三个证人方可处死他。 <verse eid="DEU 17:6"/><verse number="7" style="v" sid="DEU 17:7"/>证人要先扔石头，众人随后，这样就除掉了你们中间的罪恶。<verse eid="DEU 17:7"/></para>
+  <para style="s1">复杂案件的处理</para>
+  <para style="p">
+    <verse number="8" style="v" sid="DEU 17:8"/>“如果案件复杂，难以决断，如谋杀、诉讼、人身伤害等，就要把案件带到你们的上帝耶和华选定的地方， <verse eid="DEU 17:8"/><verse number="9" style="v" sid="DEU 17:9"/>交给当值的<char style="pn">利未</char>祭司和审判官去审理，他们要向你们宣告判决。 <verse eid="DEU 17:9"/><verse number="10" style="v" sid="DEU 17:10"/>你们必须执行他们在耶和华所选择的地方宣告的判决，你们要谨遵他们的一切指示。 <verse eid="DEU 17:10"/><verse number="11" style="v" sid="DEU 17:11"/>他们教导你们律法，宣布判决后，你们必须完全执行，丝毫不可偏离。 <verse eid="DEU 17:11"/><verse number="12" style="v" sid="DEU 17:12"/>如果有人胆敢违抗事奉你们上帝耶和华的祭司和审判官的判决，就必须处死他。如此，你们便从<char style="pn">以色列</char>除掉了罪恶， <verse eid="DEU 17:12"/><verse number="13" style="v" sid="DEU 17:13"/>使众人得知后心中害怕，不敢再任意妄为。<verse eid="DEU 17:13"/></para>
+  <para style="s1">立王的条例</para>
+  <para style="p">
+    <verse number="14" style="v" sid="DEU 17:14"/>“你们进入并占领你们的上帝耶和华将要赐给你们的土地，安顿下来后，就会想立自己的王，像周围的国家一样。 <verse eid="DEU 17:14"/><verse number="15" style="v" sid="DEU 17:15"/>那么，你们一定要立你们的上帝耶和华拣选的人；必须立你们的<char style="pn">以色列</char>同胞为王，不可立外族人。 <verse eid="DEU 17:15"/><verse number="16" style="v" sid="DEU 17:16"/>王不可拥有大量马匹，也不可派人到<char style="pn">埃及</char>去购买马匹，因为耶和华已经告诉你们不可回<char style="pn">埃及</char>。 <verse eid="DEU 17:16"/><verse number="17" style="v" sid="DEU 17:17"/>他不可拥有许多妃嫔，恐怕他的心会偏离耶和华，也不可为自己积蓄大量金银。 <verse eid="DEU 17:17"/><verse number="18" style="v" sid="DEU 17:18"/>他登基后，要按照<char style="pn">利未</char>祭司的律法书为自己抄录一份， <verse eid="DEU 17:18"/><verse number="19" style="v" sid="DEU 17:19"/>把它放在身边，一生诵读，以便学习敬畏他的上帝耶和华，遵守律法书上的一切诫命和律例。 <verse eid="DEU 17:19"/><verse number="20" style="v" sid="DEU 17:20"/>这样，他就不会妄自尊大，违背诫命，他和他的子孙就可以长久统治<char style="pn">以色列</char>。<verse eid="DEU 17:20"/></para>
+  <chapter eid="DEU 17"/>
+  <chapter number="18" style="c" sid="DEU 18"/>
+  <para style="s1">利未人的产业</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 18:1"/>“<char style="pn">利未</char>祭司及其他<char style="pn">利未</char>支派的人在<char style="pn">以色列</char>不可拥有土地。他们吃的是献给耶和华的火祭，那是他们的产业。 <verse eid="DEU 18:1"/><verse number="2" style="v" sid="DEU 18:2"/>他们在众支派中没有自己的产业，因为耶和华是他们的产业，这是祂的应许。 <verse eid="DEU 18:2"/><verse number="3" style="v" sid="DEU 18:3"/>众人所献的牛羊的前腿、腮颊和胃应归祭司。 <verse eid="DEU 18:3"/><verse number="4" style="v" sid="DEU 18:4"/>你们要给祭司初收的五谷、新酒、新油和初剪的羊毛。 <verse eid="DEU 18:4"/><verse number="5" style="v" sid="DEU 18:5"/>因为你们的上帝耶和华从各支派中拣选了<char style="pn">利未</char>人，让他们世代奉祂的名侍立供职。<verse eid="DEU 18:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 18:6"/>“<char style="pn">以色列</char>境内任何地方的<char style="pn">利未</char>人若愿意离开自己所住的城，一心要去耶和华选定的地方， <verse eid="DEU 18:6"/><verse number="7" style="v" sid="DEU 18:7"/>他可以像在耶和华面前事奉的其他<char style="pn">利未</char>人一样，在那里奉他的上帝耶和华之名事奉。 <verse eid="DEU 18:7"/><verse number="8" style="v" sid="DEU 18:8"/>除了变卖产业所得之外，他还可以分到与其他祭司同等分量的祭物。<verse eid="DEU 18:8"/></para>
+  <para style="s1">不可随从外族风俗</para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 18:9"/>“你们进入你们的上帝耶和华将要赐给你们的土地后，不可仿效当地民族的可憎行径。 <verse eid="DEU 18:9"/><verse number="10" style="v" sid="DEU 18:10"/>你们当中不可有人焚烧自己的子女作祭物，不可有人占卜、算命、作法、行邪术、 <verse eid="DEU 18:10"/><verse number="11" style="v" sid="DEU 18:11"/>念咒、做灵媒、行巫术或求问亡灵。 <verse eid="DEU 18:11"/><verse number="12" style="v" sid="DEU 18:12"/>凡做这些事的人都是耶和华所憎恶的。正是因为当地的民族做这些可憎之事，你们的上帝耶和华才要当着你们的面把他们赶走。 <verse eid="DEU 18:12"/><verse number="13" style="v" sid="DEU 18:13"/>你们要在你们的上帝耶和华面前纯全无过。<verse eid="DEU 18:13"/></para>
+  <para style="s1">耶和华使一位先知兴起</para>
+  <para style="p">
+    <verse number="14" style="v" sid="DEU 18:14"/>“你们将要赶走的那些民族听信术士和巫师，但你们的上帝耶和华不准你们仿效他们。 <verse eid="DEU 18:14"/><verse number="15" style="v" sid="DEU 18:15"/>你们的上帝耶和华要在你们中间兴起一位像我一样的先知，你们要听从他。 <verse eid="DEU 18:15"/><verse number="16" style="v" sid="DEU 18:16"/>这正是你们在<char style="pn">何烈</char>山聚会时向你们的上帝耶和华所求的，当时你们说，‘不要让我们再听见我们上帝耶和华的声音，也不要让我们再看见这烈火，免得我们死亡。’ <verse eid="DEU 18:16"/><verse number="17" style="v" sid="DEU 18:17"/>于是，耶和华对我说，‘他们说的对。 <verse eid="DEU 18:17"/><verse number="18" style="v" sid="DEU 18:18"/>我要在他们当中选立一位像你一样的先知，我会告诉他该说的话，他要把我的一切吩咐告诉他们。 <verse eid="DEU 18:18"/><verse number="19" style="v" sid="DEU 18:19"/>如果有人不听从他奉我的名所说的话，我必亲自惩罚那人。 <verse eid="DEU 18:19"/><verse number="20" style="v" sid="DEU 18:20"/>若有先知冒我的名说我未曾吩咐他的话，或以其他神明的名义说话，必须处死他。’ <verse eid="DEU 18:20"/><verse number="21" style="v" sid="DEU 18:21"/>你们也许心里会问，‘我们如何知道是否是耶和华说的话呢？’ <verse eid="DEU 18:21"/><verse number="22" style="v" sid="DEU 18:22"/>如果先知奉耶和华的名说的话没有应验，他的话就不是耶和华说的。他是妄自说预言，你们不用怕他。<verse eid="DEU 18:22"/></para>
+  <chapter eid="DEU 18"/>
+  <chapter number="19" style="c" sid="DEU 19"/>
+  <para style="s1">设立避难城</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 19:1"/>“你们的上帝耶和华毁灭那些民族，把他们的土地赐给你们，使你们赶走他们，住进他们的城邑和房屋后， <verse eid="DEU 19:1"/><verse number="2-3" style="v" sid="DEU 19:2-3"/>你们要把你们的上帝耶和华赐给你们的土地划分为三个地区，在每个地区设立一座避难城，修好通往这三座城的道路，以便误杀人者可以逃往最近的避难城。<verse eid="DEU 19:2-3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="DEU 19:4"/>“如果有人无意间杀了素无冤仇的同伴，他可以逃往避难城，以保住性命。 <verse eid="DEU 19:4"/><verse number="5" style="v" sid="DEU 19:5"/>例如，有人和朋友去森林砍树，砍伐时斧头脱柄，误杀了朋友，他就可以逃往其中一座避难城，以保住性命。 <verse eid="DEU 19:5"/><verse number="6" style="v" sid="DEU 19:6"/>否则，如果避难城离误杀人者太远，怒火中烧的报血仇者就会追上去杀死他。其实他是不该死的，因为他与被误杀的人素无冤仇。 <verse eid="DEU 19:6"/><verse number="7" style="v" sid="DEU 19:7"/>因此，我吩咐你们要设立三座避难城。<verse eid="DEU 19:7"/></para>
+  <para style="p">
+    <verse number="8-9" style="v" sid="DEU 19:8-9"/>“如果你们谨遵我今天吩咐你们的这一切诫命，爱你们的上帝耶和华，一生遵行祂的旨意，祂就会按照祂对你们祖先所起的誓，扩张你们的疆域，把应许给你们祖先的土地都赐给你们。那时，你们要再设三座避难城， <verse eid="DEU 19:8-9"/><verse number="10" style="v" sid="DEU 19:10"/>免得无辜人的血流在你们的上帝耶和华赐给你们作产业之地，以致你们担当枉杀无辜的罪。<verse eid="DEU 19:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="DEU 19:11"/>“如果有人因憎恨邻居而暗中埋伏，攻击并杀了邻居，然后逃到其中一座避难城， <verse eid="DEU 19:11"/><verse number="12" style="v" sid="DEU 19:12"/>他本城的长老要派人去把他带回来，交给报血仇的人，将他处死。 <verse eid="DEU 19:12"/><verse number="13" style="v" sid="DEU 19:13"/>不可怜悯他，要从<char style="pn">以色列</char>除掉这种滥杀无辜的罪，这样你们才会顺利。<verse eid="DEU 19:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="DEU 19:14"/>“在你们的上帝耶和华将要赐给你们作产业之地，你们不可挪动邻居的界石，因为那是先人立的。<verse eid="DEU 19:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 19:15"/>“无论是什么罪或过失，不可凭一个证人就定人的罪，必须有两三个证人作证才能定案。 <verse eid="DEU 19:15"/><verse number="16" style="v" sid="DEU 19:16"/>如果有人作伪证诬陷别人， <verse eid="DEU 19:16"/><verse number="17" style="v" sid="DEU 19:17"/>诉讼双方要站在耶和华面前，让当值的祭司和审判官定夺。 <verse eid="DEU 19:17"/><verse number="18" style="v" sid="DEU 19:18"/>审判官要仔细审查案件，如果发现那人作伪证诬陷同胞， <verse eid="DEU 19:18"/><verse number="19" style="v" sid="DEU 19:19"/>就要按照他企图加给被诬告者的伤害处罚他。这样，就从你们当中除掉了罪恶。 <verse eid="DEU 19:19"/><verse number="20" style="v" sid="DEU 19:20"/>其他人听说后，都会害怕，不敢再做这种恶事。 <verse eid="DEU 19:20"/><verse number="21" style="v" sid="DEU 19:21"/>你们对恶人不可心软，要以命偿命，以眼还眼，以牙还牙，以手还手，以脚还脚。<verse eid="DEU 19:21"/></para>
+  <chapter eid="DEU 19"/>
+  <chapter number="20" style="c" sid="DEU 20"/>
+  <para style="s1">交战的条例</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 20:1"/>“你们和敌人交战时，面对比你们强大的军队及战车战马，不要害怕，因为你们的上帝耶和华与你们同在，祂曾带你们出<char style="pn">埃及</char>。 <verse eid="DEU 20:1"/><verse number="2" style="v" sid="DEU 20:2"/>你们出战之前，祭司要上前鼓舞士气， <verse eid="DEU 20:2"/><verse number="3" style="v" sid="DEU 20:3"/>说，‘<char style="pn">以色列</char>人啊，听着！今天你们要和敌人交战，不要胆小害怕，也不要惊慌失措。 <verse eid="DEU 20:3"/><verse number="4" style="v" sid="DEU 20:4"/>因为你们的上帝耶和华要与你们同去，为你们争战，使你们战胜仇敌。’ <verse eid="DEU 20:4"/><verse number="5" style="v" sid="DEU 20:5"/>官长要对士兵说，‘你们谁建了新房子还没有举行奉献礼<note caller="+" style="f"><char style="fr" closed="false">20:5 </char><char style="ft" closed="false">“举行奉献礼”指入住前举行的仪式。</char></note>？他可以回家去，以免他阵亡了，别人为他的房子举行奉献礼。 <verse eid="DEU 20:5"/><verse number="6" style="v" sid="DEU 20:6"/>谁栽种了葡萄园还没有享受过园中的果子？他可以回家去，以免他阵亡了，别人享受他园中的果子。 <verse eid="DEU 20:6"/><verse number="7" style="v" sid="DEU 20:7"/>谁订了亲还没有迎娶？他可以回家去，以免他阵亡了，别人娶他的未婚妻。’ <verse eid="DEU 20:7"/><verse number="8" style="v" sid="DEU 20:8"/>官长也要告诉士兵，‘有没有胆怯、害怕的？他可以回家去，免得影响他人士气。’ <verse eid="DEU 20:8"/><verse number="9" style="v" sid="DEU 20:9"/>他们讲完后，就要委派将领率军出战。<verse eid="DEU 20:9"/></para>
+  <para style="s1">攻城之略</para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 20:10"/>“你们进攻一座城之前，要先给城中居民求和的机会。 <verse eid="DEU 20:10"/><verse number="11" style="v" sid="DEU 20:11"/>如果他们开城求和，城里所有人都要做你们的奴隶，为你们服劳役。 <verse eid="DEU 20:11"/><verse number="12" style="v" sid="DEU 20:12"/>如果他们不肯求和，要交战，你们就要围攻那城。 <verse eid="DEU 20:12"/><verse number="13" style="v" sid="DEU 20:13"/>你们的上帝耶和华把城交给你们时，你们要用刀杀光城里所有的男子， <verse eid="DEU 20:13"/><verse number="14" style="v" sid="DEU 20:14"/>但可以留下城中的妇女、孩童、牲畜及其他一切作战利品。你们可以享用仇敌的财物，那是你们的上帝耶和华赐给你们的。 <verse eid="DEU 20:14"/><verse number="15" style="v" sid="DEU 20:15"/>上述做法只适用于离你们很遥远的城邑，你们附近各族的城邑除外。 <verse eid="DEU 20:15"/><verse number="16" style="v" sid="DEU 20:16"/>你们的上帝耶和华将把你们附近各族的城邑赐给你们作产业，你们要将里面有气息的全部消灭。 <verse eid="DEU 20:16"/><verse number="17" style="v" sid="DEU 20:17"/>要遵照你们的上帝耶和华的吩咐，彻底灭绝<char style="pn">赫</char>人、<char style="pn">亚摩利</char>人、<char style="pn">迦南</char>人、<char style="pn">比利洗</char>人、<char style="pn">希未</char>人和<char style="pn">耶布斯</char>人， <verse eid="DEU 20:17"/><verse number="18" style="v" sid="DEU 20:18"/>免得他们将祭拜自己神明的可憎习俗传给你们，以致你们得罪你们的上帝耶和华。<verse eid="DEU 20:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 20:19"/>“你们围攻一座城久攻不下时，不可用斧头砍掉那里的树木，因为你们可以吃树上的果子。田间的树木岂是人，让你们围攻吗？ <verse eid="DEU 20:19"/><verse number="20" style="v" sid="DEU 20:20"/>但你们可以砍那些不结果子的树来建围城的工事，直到攻陷为止。<verse eid="DEU 20:20"/></para>
+  <chapter eid="DEU 20"/>
+  <chapter number="21" style="c" sid="DEU 21"/>
+  <para style="s1">杀人疑案的处理</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 21:1"/>“在你们的上帝耶和华将要赐给你们的土地上，如果发现有人被杀，陈尸野外，却不知道凶手是谁， <verse eid="DEU 21:1"/><verse number="2" style="v" sid="DEU 21:2"/>当地的长老和审判官就要去测量一下尸体距附近各城邑的距离。 <verse eid="DEU 21:2"/><verse number="3" style="v" sid="DEU 21:3"/>距离尸体最近的那城的长老们要牵一头从未负过轭、从未耕过地的小母牛， <verse eid="DEU 21:3"/><verse number="4" style="v" sid="DEU 21:4"/>去有溪流但无人耕种过的山谷，在那里把它的颈项打断。 <verse eid="DEU 21:4"/><verse number="5" style="v" sid="DEU 21:5"/><char style="pn">利未</char>祭司也要去，因为你们的上帝耶和华拣选他们在祂面前事奉、奉祂的名为人祝福，并审理各种纠纷及人身伤害的事。 <verse eid="DEU 21:5"/><verse number="6" style="v" sid="DEU 21:6"/>那城的长老们要在被打断颈项的小母牛上方洗手， <verse eid="DEU 21:6"/><verse number="7" style="v" sid="DEU 21:7"/>然后祷告说，‘我们的手没有杀这人，我们的眼也没有看见谁杀了他。 <verse eid="DEU 21:7"/><verse number="8" style="v" sid="DEU 21:8"/>耶和华啊，求你赦免你已经救赎的<char style="pn">以色列</char>子民，不要把杀害这无辜之人的罪算在你的子民身上。’这样，杀人的罪便可得到赦免。 <verse eid="DEU 21:8"/><verse number="9" style="v" sid="DEU 21:9"/>你们做耶和华视为正的事，就可以从你们中间除去杀害无辜之人的罪。<verse eid="DEU 21:9"/></para>
+  <para style="s1">娶女俘的条例</para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 21:10"/>“你们和敌人交战时，你们的上帝耶和华会把敌人交给你们，使他们成为你们的俘虏。 <verse eid="DEU 21:10"/><verse number="11" style="v" sid="DEU 21:11"/>如果你们有人在俘虏中看见美丽的女子，被她吸引，想娶她为妻， <verse eid="DEU 21:11"/><verse number="12" style="v" sid="DEU 21:12"/>就可以带她回家，让她剃去头发，修剪指甲， <verse eid="DEU 21:12"/><verse number="13" style="v" sid="DEU 21:13"/>换掉被俘时所穿的衣服，住在那人家中为她父母哀悼一个月。之后，那人便可以和她结为夫妻。 <verse eid="DEU 21:13"/><verse number="14" style="v" sid="DEU 21:14"/>如果那人不喜欢她，则要让她自由离去，绝不可卖掉她，也不可奴役她，因为他已经羞辱了她。<verse eid="DEU 21:14"/></para>
+  <para style="s1">长子的权利</para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 21:15"/>“如果一个人有两个妻子，一个受他宠爱，一个不受他宠爱，二人都给他生了儿子，但长子是不受宠爱的妻子生的， <verse eid="DEU 21:15"/><verse number="16" style="v" sid="DEU 21:16"/>分产业的时候，他不可废长立幼，把长子的权利给他所爱之妻生的儿子。 <verse eid="DEU 21:16"/><verse number="17" style="v" sid="DEU 21:17"/>他必须承认他不爱之妻所生的长子的名分，分给他双份产业，因为长子是他壮年时所生的儿子，应享有长子的权利。<verse eid="DEU 21:17"/></para>
+  <para style="s1">惩处逆子的条例</para>
+  <para style="p">
+    <verse number="18" style="v" sid="DEU 21:18"/>“如果一个人的儿子冥顽不灵、悖逆父母、屡教不改， <verse eid="DEU 21:18"/><verse number="19" style="v" sid="DEU 21:19"/>他父母要抓住他，把他带到城门口去见本城的长老，对他们说， <verse eid="DEU 21:19"/><verse number="20" style="v" sid="DEU 21:20"/>‘我们这个儿子冥顽不灵、悖逆成性，不肯听从我们，是个贪吃好酒之徒。’ <verse eid="DEU 21:20"/><verse number="21" style="v" sid="DEU 21:21"/>全城的人都要用石头打死他，从你们中间除掉这种罪恶。所有<char style="pn">以色列</char>人听说后，都会感到害怕。<verse eid="DEU 21:21"/></para>
+  <para style="s1">罪犯尸体的处理</para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 21:22"/>“如果有人犯了死罪，被处死后挂在木头上， <verse eid="DEU 21:22"/><verse number="23" style="v" sid="DEU 21:23"/>不可让尸体在木头上过夜，必须当天埋葬，因为凡挂在木头上的人都是上帝所咒诅的。你们不可玷污你们的上帝耶和华将要赐给你们的土地。<verse eid="DEU 21:23"/></para>
+  <chapter eid="DEU 21"/>
+  <chapter number="22" style="c" sid="DEU 22"/>
+  <para style="s1">其他条例</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 22:1"/>“如果你们看见同胞的牛或羊走迷了路，不可视而不见，要把它带回去交给失主。 <verse eid="DEU 22:1"/><verse number="2" style="v" sid="DEU 22:2"/>如果失主离你们很远，或者你们不知道失主是谁，就要把它牵回家，等失主来找时再还给他。 <verse eid="DEU 22:2"/><verse number="3" style="v" sid="DEU 22:3"/>见到同胞遗失的驴、衣物或其他东西，都要这样处理，不可视而不见。 <verse eid="DEU 22:3"/><verse number="4" style="v" sid="DEU 22:4"/>如果在路上看见同胞的牛或驴倒在地上，不可视而不见，要帮忙把它扶起来。<verse eid="DEU 22:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="DEU 22:5"/>“女人不可穿戴男人的衣物，男人也不可穿戴女人的衣物，因为这是你们的上帝耶和华所憎恶的。<verse eid="DEU 22:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 22:6"/>“如果你们在路边的树上或地上看见鸟巢，里面有雏鸟或蛋，并有母鸟伏在上面，不可把母鸟和雏鸟一起取走。 <verse eid="DEU 22:6"/><verse number="7" style="v" sid="DEU 22:7"/>你们可以取走雏鸟，但一定要放走母鸟。这样，你们就会凡事顺利，得享长寿。<verse eid="DEU 22:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="DEU 22:8"/>“建造新房时，要在房顶<note caller="+" style="f"><char style="fr" closed="false">22:8 </char><char style="ft" closed="false">以色列人的房子都是平顶房。</char></note>上安设围栏，免得有人从房顶上掉下来，由你们家承担流血之罪。<verse eid="DEU 22:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 22:9"/>“你们不可在葡萄园里种别的作物，否则你们的收成和园中的果子都要充公。 <verse eid="DEU 22:9"/><verse number="10" style="v" sid="DEU 22:10"/>不可让牛和驴同负一轭耕地。 <verse eid="DEU 22:10"/><verse number="11" style="v" sid="DEU 22:11"/>不可穿由羊毛和细麻合织的衣物。<verse eid="DEU 22:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="DEU 22:12"/>“要在外袍的四角缀上穗子。<verse eid="DEU 22:12"/></para>
+  <para style="s1">有关女子贞操的条例</para>
+  <para style="p">
+    <verse number="13" style="v" sid="DEU 22:13"/>“如果有人娶了妻子，与她同房后却不喜欢她， <verse eid="DEU 22:13"/><verse number="14" style="v" sid="DEU 22:14"/>诽谤她，说，‘我娶了她，与她亲近时发现她已经不是处女’， <verse eid="DEU 22:14"/><verse number="15" style="v" sid="DEU 22:15"/>女方父母就要把凭据拿到城门口的长老们面前，证明女儿的贞洁。 <verse eid="DEU 22:15"/><verse number="16" style="v" sid="DEU 22:16"/>女方的父亲要对他们说，‘我把女儿嫁给这个人，现在他不喜欢我女儿， <verse eid="DEU 22:16"/><verse number="17" style="v" sid="DEU 22:17"/>诽谤她，声称她结婚时已经不是处女，但这里有我女儿贞洁的凭据。’女方父母要把女儿新婚之夜用过的床单在本城的长老们面前展开。 <verse eid="DEU 22:17"/><verse number="18" style="v" sid="DEU 22:18"/>长老们就必须抓住那人惩处他， <verse eid="DEU 22:18"/><verse number="19" style="v" sid="DEU 22:19"/>罚他赔偿二十两银子给女方的父亲，因为他诽谤了一个<char style="pn">以色列</char>的处女。那女子仍要做他妻子，丈夫终生不可休她。<verse eid="DEU 22:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="DEU 22:20"/>“但如果那人的指控属实，没有找到那女子贞洁的凭据， <verse eid="DEU 22:20"/><verse number="21" style="v" sid="DEU 22:21"/>就要把她带到她父亲的家门前，由本城的人用石头打死她。因为她婚前淫乱，在<char style="pn">以色列</char>做了可耻的事。你们必须除掉你们中间的罪恶。<verse eid="DEU 22:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 22:22"/>“如果有人与有夫之妇通奸，必须处死奸夫和淫妇，这样就从<char style="pn">以色列</char>除掉了罪恶。<verse eid="DEU 22:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="DEU 22:23"/>“如果有人在城中遇见已经订婚的女子，与她行淫， <verse eid="DEU 22:23"/><verse number="24" style="v" sid="DEU 22:24"/>你们必须把二人带到城门口，用石头打死他们。那女子该死，因为她在城中却没有高声呼救；那男子该死，因为他奸污了别人的妻子。你们必须除去你们中间的罪恶。<verse eid="DEU 22:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="DEU 22:25"/>“如果有人在野外遇见已经订婚的女子，强奸了她，必须处死那男子。 <verse eid="DEU 22:25"/><verse number="26" style="v" sid="DEU 22:26"/>但不可处死那女子，因为她没有犯该死的罪，她像被攻击、杀害的人一样是无辜的。 <verse eid="DEU 22:26"/><verse number="27" style="v" sid="DEU 22:27"/>因为她是在野外被强奸，即使呼救也无人救她。<verse eid="DEU 22:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="DEU 22:28"/>“如果有人遇见未订婚的处女，强奸了她，被发现后， <verse eid="DEU 22:28"/><verse number="29" style="v" sid="DEU 22:29"/>这人要付给女方的父亲十两银子，并娶她为妻，终生不可休她，因为他奸污了她。<verse eid="DEU 22:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="DEU 22:30"/>“人不可娶他父亲的妻妾，因为这是对他父亲的羞辱。<verse eid="DEU 22:30"/></para>
+  <chapter eid="DEU 22"/>
+  <chapter number="23" style="c" sid="DEU 23"/>
+  <para style="s1">会众的资格</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 23:1"/>“凡睪丸受损或被阉割的，不可加入耶和华的会众。<verse eid="DEU 23:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="DEU 23:2"/>“私生子及其十代以内的子孙都不可加入耶和华的会众。<verse eid="DEU 23:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="DEU 23:3"/>“<char style="pn">亚扪</char>人或<char style="pn">摩押</char>人不可加入耶和华的会众，他们的子孙就是到了第十代也不可加入。 <verse eid="DEU 23:3"/><verse number="4" style="v" sid="DEU 23:4"/>因为在你们离开<char style="pn">埃及</char>的途中，他们没有用水和食物款待你们，还雇用<char style="pn">美索不达米亚</char>的<char style="pn">毗夺</char>人<char style="pn">比珥</char>的儿子<char style="pn">巴兰</char>咒诅你们。 <verse eid="DEU 23:4"/><verse number="5" style="v" sid="DEU 23:5"/>但你们的上帝耶和华不听<char style="pn">巴兰</char>的话，反而把咒诅变为祝福，因为祂爱你们。 <verse eid="DEU 23:5"/><verse number="6" style="v" sid="DEU 23:6"/>你们一生一世永不可为他们谋求平安和好处。<verse eid="DEU 23:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="DEU 23:7"/>“不可憎恶<char style="pn">以东</char>人，因为他们是你们的弟兄；也不可憎恶<char style="pn">埃及</char>人，因为你们曾经在<char style="pn">埃及</char>寄居。 <verse eid="DEU 23:7"/><verse number="8" style="v" sid="DEU 23:8"/>他们的第三代子孙可以加入耶和华的会众。<verse eid="DEU 23:8"/></para>
+  <para style="s1">保持军营圣洁的条例</para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 23:9"/>“你们出兵征战时，一定要远离恶事。 <verse eid="DEU 23:9"/><verse number="10" style="v" sid="DEU 23:10"/>如果有人因梦遗而不洁净，他就要离开营地，住在营外。 <verse eid="DEU 23:10"/><verse number="11" style="v" sid="DEU 23:11"/>傍晚他要沐浴，日落才可以回营。 <verse eid="DEU 23:11"/><verse number="12" style="v" sid="DEU 23:12"/>要在营外指定一个地方作方便之处。 <verse eid="DEU 23:12"/><verse number="13" style="v" sid="DEU 23:13"/>你们每人要装备一把铲子，便溺时要挖个洞，事后要掩埋。 <verse eid="DEU 23:13"/><verse number="14" style="v" sid="DEU 23:14"/>因为你们的上帝耶和华常在营中巡视，要保护你们，击败你们的仇敌。军营必须保持圣洁，免得祂在你们中间看到任何污秽之事，便离开你们。<verse eid="DEU 23:14"/></para>
+  <para style="s1">其他条例</para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 23:15"/>“如果有奴隶逃到你们那里避难，不可把逃亡的奴隶送交他们的主人。 <verse eid="DEU 23:15"/><verse number="16" style="v" sid="DEU 23:16"/>要让他们在你们当中选择他们喜欢的城邑与你们同住，不可压迫他们。<verse eid="DEU 23:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="DEU 23:17"/>“任何<char style="pn">以色列</char>人，不论男女，都不可做庙妓。 <verse eid="DEU 23:17"/><verse number="18" style="v" sid="DEU 23:18"/>不可把男女庙妓的收入带到你们上帝耶和华的殿还愿，因为两者都是你们的上帝耶和华所憎恶的。<verse eid="DEU 23:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 23:19"/>“你们借给同胞钱、粮食或其他任何东西，都不可收取利息。 <verse eid="DEU 23:19"/><verse number="20" style="v" sid="DEU 23:20"/>你们可以向外族人收取利息，但不可向同胞收取。这样，在你们将要占领的土地上，你们的上帝耶和华必使你们凡事蒙福。<verse eid="DEU 23:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="DEU 23:21"/>“如果你们向你们的上帝耶和华许愿，不可迟迟不还愿，因为你们的上帝耶和华必追讨许愿不还的罪。 <verse eid="DEU 23:21"/><verse number="22" style="v" sid="DEU 23:22"/>如果你们不许愿，反倒无罪。 <verse eid="DEU 23:22"/><verse number="23" style="v" sid="DEU 23:23"/>但如果你们亲口向你们的上帝耶和华许了愿，一定要履行诺言。<verse eid="DEU 23:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="DEU 23:24"/>“如果你们进了邻居的葡萄园，可以随意吃，但不可把葡萄放在篮子里带走。 <verse eid="DEU 23:24"/><verse number="25" style="v" sid="DEU 23:25"/>如果你们进了邻居的麦田，可以用手摘麦穗，但不可用镰刀割麦子。<verse eid="DEU 23:25"/></para>
+  <chapter eid="DEU 23"/>
+  <chapter number="24" style="c" sid="DEU 24"/>
+  <para style="s1">关于婚姻的条例</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 24:1"/>“如果有人娶妻后，发觉妻子行为不检，因而嫌弃她，他可以写休书给她，让她离开夫家。 <verse eid="DEU 24:1"/><verse number="2" style="v" sid="DEU 24:2"/>她离开后，可以自由再婚。 <verse eid="DEU 24:2"/><verse number="3" style="v" sid="DEU 24:3"/>如果她的后夫也嫌弃她，写休书给她，让她离开夫家，或者后夫死了， <verse eid="DEU 24:3"/><verse number="4" style="v" sid="DEU 24:4"/>前夫不可再娶这已被玷污的女子，因为那是耶和华所憎恶的。你们不可把这种罪恶带到你们的上帝耶和华将要赐给你们的土地上。<verse eid="DEU 24:4"/></para>
+  <para style="s1">体恤人情</para>
+  <para style="p">
+    <verse number="5" style="v" sid="DEU 24:5"/>“不可叫新婚的人从军出征或办理公务。他可以留在家里一年，使新婚的妻子快乐。<verse eid="DEU 24:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 24:6"/>“不可拿别人的磨或磨的上盘作抵押品，因为这等于拿他们的生命作抵押。<verse eid="DEU 24:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="DEU 24:7"/>“如果有人绑架自己的同胞，奴役他或卖掉他，必须处死绑架者，除掉你们中间的罪恶。<verse eid="DEU 24:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="DEU 24:8"/>“遇到麻风病，你们要谨遵<char style="pn">利未</char>祭司的指示。你们要谨遵我对他们的吩咐。 <verse eid="DEU 24:8"/><verse number="9" style="v" sid="DEU 24:9"/>要记住你们离开<char style="pn">埃及</char>后，你们的上帝耶和华在<char style="pn">米利暗</char>身上的作为。<verse eid="DEU 24:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 24:10"/>“如果你们借贷给同胞，不可走进他家里索取抵押物； <verse eid="DEU 24:10"/><verse number="11" style="v" sid="DEU 24:11"/>要站在外面，等他把抵押物拿出来。 <verse eid="DEU 24:11"/><verse number="12" style="v" sid="DEU 24:12"/>如果他是穷人，用自己的外袍作抵押，你们不可把他的外袍留到第二天， <verse eid="DEU 24:12"/><verse number="13" style="v" sid="DEU 24:13"/>要在当天日落之前还给他，好让他盖着外袍睡觉。他会因此祝福你们，你们的上帝耶和华也会将此视为你们的义行。<verse eid="DEU 24:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="DEU 24:14"/>“不可欺压穷苦的雇工，不论他们是你们的同胞，还是住在你们城中的外族人。 <verse eid="DEU 24:14"/><verse number="15" style="v" sid="DEU 24:15"/>你们要在每天日落前付给他们工钱，因为他们穷苦，靠工钱维生；否则他们向耶和华控诉你们，你们就有罪了。<verse eid="DEU 24:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 24:16"/>“不可因孩子犯罪而处死父亲，也不可因父亲犯罪而处死孩子。各人要自负罪责。<verse eid="DEU 24:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="DEU 24:17"/>“你们要公正地对待寄居者和孤儿，不可拿寡妇的衣物作抵押。 <verse eid="DEU 24:17"/><verse number="18" style="v" sid="DEU 24:18"/>要记住，你们曾在<char style="pn">埃及</char>做过奴隶，你们的上帝耶和华救赎了你们。所以，我吩咐你们这样行。<verse eid="DEU 24:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 24:19"/>“你们在田间收割庄稼时若遗落了一捆，不可回去取，要留给孤儿寡妇和寄居者。这样，你们的上帝耶和华必使你们凡事蒙福。 <verse eid="DEU 24:19"/><verse number="20" style="v" sid="DEU 24:20"/>你们打橄榄时，打过一次后不可再打，要把剩下的留给孤儿寡妇和寄居者。 <verse eid="DEU 24:20"/><verse number="21" style="v" sid="DEU 24:21"/>你们摘葡萄时，摘过一次后不可再摘，要把剩下的留给孤儿寡妇和寄居者。 <verse eid="DEU 24:21"/><verse number="22" style="v" sid="DEU 24:22"/>要记住，你们曾在<char style="pn">埃及</char>做过奴隶。所以，我吩咐你们这样行。<verse eid="DEU 24:22"/></para>
+  <chapter eid="DEU 24"/>
+  <chapter number="25" style="c" sid="DEU 25"/>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 25:1"/>“如果发生纠纷，双方告上法庭，审判官要判明是非。 <verse eid="DEU 25:1"/><verse number="2" style="v" sid="DEU 25:2"/>如果有罪的一方被判受鞭打，审判官要命令他当场伏在地上，按罪行轻重量刑。 <verse eid="DEU 25:2"/><verse number="3" style="v" sid="DEU 25:3"/>最多可以鞭打他四十下。如果超过四十下，你们就是在公开羞辱自己的同胞。<verse eid="DEU 25:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="DEU 25:4"/>“牛在踩谷时，不可笼住它的嘴。<verse eid="DEU 25:4"/></para>
+  <para style="s1">为死亡的兄弟传宗接代</para>
+  <para style="p">
+    <verse number="5" style="v" sid="DEU 25:5"/>“如果兄弟们住在一起，其中一个没有儿子便死了，死者的妻子不可改嫁外人。死者的兄弟要尽兄弟的责任娶她为妻。 <verse eid="DEU 25:5"/><verse number="6" style="v" sid="DEU 25:6"/>她生的第一个儿子要算为死者的儿子，免得死者在<char style="pn">以色列</char>无法留名。 <verse eid="DEU 25:6"/><verse number="7" style="v" sid="DEU 25:7"/>如果死者的兄弟不愿娶那寡妇，她要到城门口见长老们，告诉他们，‘我丈夫的兄弟不肯尽兄弟的责任娶我，不肯为我丈夫在<char style="pn">以色列</char>留名。’ <verse eid="DEU 25:7"/><verse number="8" style="v" sid="DEU 25:8"/>本城的长老们要把死者的兄弟召来，与他商谈。如果他执意不肯， <verse eid="DEU 25:8"/><verse number="9" style="v" sid="DEU 25:9"/>那寡妇要当着众长老的面，上前脱下他的鞋，吐唾沫在他脸上，说，‘这就是不肯为兄弟留后之人的下场。’ <verse eid="DEU 25:9"/><verse number="10" style="v" sid="DEU 25:10"/>从此以后，他的家在<char style="pn">以色列</char>要被称为‘被脱鞋者之家’。<verse eid="DEU 25:10"/></para>
+  <para style="s1">其他条例</para>
+  <para style="p">
+    <verse number="11" style="v" sid="DEU 25:11"/>“如果两个男人打架，其中一人的妻子为帮助丈夫而伸手抓住另外一人的下体， <verse eid="DEU 25:11"/><verse number="12" style="v" sid="DEU 25:12"/>就要砍掉她的手，不可怜悯她。<verse eid="DEU 25:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="DEU 25:13"/>“你们做买卖时，口袋里不可有一大一小两种砝码， <verse eid="DEU 25:13"/><verse number="14" style="v" sid="DEU 25:14"/>家里也不可用一大一小两种量器。 <verse eid="DEU 25:14"/><verse number="15" style="v" sid="DEU 25:15"/>你们必须使用准确公正的砝码和量器，以便在你们的上帝耶和华要赐给你们的土地上得享长寿。 <verse eid="DEU 25:15"/><verse number="16" style="v" sid="DEU 25:16"/>因为你们的上帝耶和华憎恶行事诡诈的人。<verse eid="DEU 25:16"/></para>
+  <para style="s1">灭绝亚玛力人的命令</para>
+  <para style="p">
+    <verse number="17" style="v" sid="DEU 25:17"/>“你们要记住，你们从<char style="pn">埃及</char>出来的路上，<char style="pn">亚玛力</char>人是怎样对待你们的。 <verse eid="DEU 25:17"/><verse number="18" style="v" sid="DEU 25:18"/>他们趁你们疲惫不堪时，袭击你们当中掉队的人，毫不敬畏上帝。 <verse eid="DEU 25:18"/><verse number="19" style="v" sid="DEU 25:19"/>所以，当你们的上帝耶和华赐给你们那片土地作产业、使你们四境安宁时，要灭绝<char style="pn">亚玛力</char>人，抹去世人对他们的记忆。你们要切记！<verse eid="DEU 25:19"/></para>
+  <chapter eid="DEU 25"/>
+  <chapter number="26" style="c" sid="DEU 26"/>
+  <para style="s1">奉献初熟的物产</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 26:1"/>“你们进入你们的上帝耶和华将要赐给你们作产业的土地，占领那里，安居下来以后， <verse eid="DEU 26:1"/><verse number="2" style="v" sid="DEU 26:2"/>要把在那里收获的各种初熟的物产放在篮子里，带到你们的上帝耶和华为祂的名选定的居所。 <verse eid="DEU 26:2"/><verse number="3" style="v" sid="DEU 26:3"/>你们要对当值的祭司说，‘今天我要向我们的上帝耶和华宣告，我已经进入祂向我们祖先起誓要赐给我们的土地。’ <verse eid="DEU 26:3"/><verse number="4" style="v" sid="DEU 26:4"/>祭司要从你们手中接过篮子，放在你们的上帝耶和华的祭坛前。 <verse eid="DEU 26:4"/><verse number="5" style="v" sid="DEU 26:5"/>你们要在你们的上帝耶和华面前宣告，‘我们的祖先原是漂泊的<char style="pn">亚兰</char>人。他下到<char style="pn">埃及</char>寄居时，家中人丁稀少，后来成为人口众多的强大民族。 <verse eid="DEU 26:5"/><verse number="6" style="v" sid="DEU 26:6"/><char style="pn">埃及</char>人苦待我们，压迫我们，强迫我们做苦工。 <verse eid="DEU 26:6"/><verse number="7" style="v" sid="DEU 26:7"/>于是，我们呼求我们祖先的上帝耶和华。祂听见我们的呼求，看见我们的痛苦、艰辛和所受的压迫， <verse eid="DEU 26:7"/><verse number="8" style="v" sid="DEU 26:8"/>就伸出臂膀，用大能的手行神迹奇事，以伟大而可畏的作为带我们出<char style="pn">埃及</char>。 <verse eid="DEU 26:8"/><verse number="9" style="v" sid="DEU 26:9"/>祂带领我们来到这个地方，把这奶蜜之乡赐给我们。 <verse eid="DEU 26:9"/><verse number="10" style="v" sid="DEU 26:10"/>耶和华啊，现在我从你赐给我的土地上带来初熟的物产。’你们要把篮子放在你们的上帝耶和华面前，敬拜祂。 <verse eid="DEU 26:10"/><verse number="11" style="v" sid="DEU 26:11"/>你们和<char style="pn">利未</char>人以及住在你们中间的外族人，都要因你们的上帝耶和华赐给你们和你们家人的福祉而欢喜快乐。<verse eid="DEU 26:11"/></para>
+  <para style="s1">十一奉献年</para>
+  <para style="p">
+    <verse number="12" style="v" sid="DEU 26:12"/>“每逢第三年是十一奉献年。你们应当把自己所有出产的十分之一拿出来分给<char style="pn">利未</char>人、寄居者和孤儿寡妇，使他们在你们居住的城邑吃饱喝足。 <verse eid="DEU 26:12"/><verse number="13" style="v" sid="DEU 26:13"/>然后，你们要在你们的上帝耶和华面前宣告，‘我已经按照你的诫命，从家里拿出圣物分给<char style="pn">利未</char>人、寄居者和孤儿寡妇。我没有触犯也没有忘记你的任何诫命。 <verse eid="DEU 26:13"/><verse number="14" style="v" sid="DEU 26:14"/>这些圣物，我守丧期间没有吃过，不洁净时没有拿过，也没有献给死人。我听从我的上帝耶和华，遵行你的一切吩咐。 <verse eid="DEU 26:14"/><verse number="15" style="v" sid="DEU 26:15"/>求你从天上圣洁的居所垂看，赐福给你的<char style="pn">以色列</char>子民和你赐给我们的土地，就是你向我们祖先起誓应许的奶蜜之乡。’<verse eid="DEU 26:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 26:16"/>“你们的上帝耶和华今天吩咐你们遵守这些律例和典章，你们要全心全意地谨慎遵守。 <verse eid="DEU 26:16"/><verse number="17" style="v" sid="DEU 26:17"/>你们今天已经宣布耶和华是你们的上帝，并愿意遵行祂的道，谨守祂的一切律例、诫命和典章，听从祂的话语。 <verse eid="DEU 26:17"/><verse number="18" style="v" sid="DEU 26:18"/>耶和华今天已经照祂的应许宣布你们是祂的子民，是祂宝贵的产业。因此，你们要遵守祂的一切诫命， <verse eid="DEU 26:18"/><verse number="19" style="v" sid="DEU 26:19"/>这样祂必使你们备受赞誉和尊崇，超越祂所造的万国，并照着祂的应许使你们做祂的圣民。”<verse eid="DEU 26:19"/></para>
+  <chapter eid="DEU 26"/>
+  <chapter number="27" style="c" sid="DEU 27"/>
+  <para style="s1">以巴路山上的律法</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 27:1"/>
+    <char style="pn">摩西</char>和<char style="pn">以色列</char>众长老吩咐民众说：“你们要遵守我今天吩咐你们的一切诫命。 <verse eid="DEU 27:1"/><verse number="2" style="v" sid="DEU 27:2"/>你们渡过<char style="pn">约旦</char>河、进入你们的上帝耶和华赐给你们的土地那天，要竖立几块大石，涂上石灰。 <verse eid="DEU 27:2"/><verse number="3" style="v" sid="DEU 27:3"/>你们渡过<char style="pn">约旦</char>河，进入你们祖先的上帝耶和华应许要赐给你们的奶蜜之乡后，要把这律法一字不漏地写在大石上。 <verse eid="DEU 27:3"/><verse number="4" style="v" sid="DEU 27:4"/>你们渡过<char style="pn">约旦</char>河后，要照我今日的吩咐，在<char style="pn">以巴路</char>山上竖立这些石头，涂上石灰。 <verse eid="DEU 27:4"/><verse number="5" style="v" sid="DEU 27:5"/>要在那里为你们的上帝耶和华筑一座石坛，不要用铁器凿刻石头。 <verse eid="DEU 27:5"/><verse number="6" style="v" sid="DEU 27:6"/>要用未凿过的石头为你们的上帝耶和华筑一座坛，在上面献燔祭给祂； <verse eid="DEU 27:6"/><verse number="7" style="v" sid="DEU 27:7"/>又要献上平安祭，在祂面前吃喝快乐。 <verse eid="DEU 27:7"/><verse number="8" style="v" sid="DEU 27:8"/>你们要把这律法一字不漏、清清楚楚地写在那几块大石上。”<verse eid="DEU 27:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 27:9"/>
+    <char style="pn">摩西</char>和<char style="pn">利未</char>祭司对全体<char style="pn">以色列</char>人说：“<char style="pn">以色列</char>人啊，要肃静聆听！你们今天已成为你们上帝耶和华的子民。 <verse eid="DEU 27:9"/><verse number="10" style="v" sid="DEU 27:10"/>你们要听从祂，遵守祂的诫命和律例，就是我今天吩咐你们的。”<verse eid="DEU 27:10"/></para>
+  <para style="s1">违命必受咒诅</para>
+  <para style="p">
+    <verse number="11" style="v" sid="DEU 27:11"/>那天，<char style="pn">摩西</char>吩咐民众说： <verse eid="DEU 27:11"/><verse number="12" style="v" sid="DEU 27:12"/>“你们渡过<char style="pn">约旦</char>河后，<char style="pn">西缅</char>、<char style="pn">利未</char>、<char style="pn">犹大</char>、<char style="pn">以萨迦</char>、<char style="pn">约瑟</char>和<char style="pn">便雅悯</char>各支派要站在<char style="pn">基利心</char>山上为民众祝福； <verse eid="DEU 27:12"/><verse number="13" style="v" sid="DEU 27:13"/><char style="pn">吕便</char>、<char style="pn">迦得</char>、<char style="pn">亚设</char>、<char style="pn">西布伦</char>、<char style="pn">但</char>和<char style="pn">拿弗他利</char>各支派要站在<char style="pn">以巴路</char>山上宣告咒诅。 <verse eid="DEU 27:13"/><verse number="14" style="v" sid="DEU 27:14"/><char style="pn">利未</char>人要对所有<char style="pn">以色列</char>人高声说：<verse eid="DEU 27:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 27:15"/>“‘凡雕刻或铸造耶和华所憎恶的神像，就是匠人制作的，并偷偷供奉的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:15">全体民众要回答说，‘阿们！’<verse eid="DEU 27:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 27:16"/>“‘凡不尊敬父母的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:16">全体民众要回答说，‘阿们！’<verse eid="DEU 27:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="DEU 27:17"/>“‘凡挪移邻居界石的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:17">全体民众要回答说，‘阿们！’<verse eid="DEU 27:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="DEU 27:18"/>“‘凡故意带领盲人走错路的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:18">全体民众要回答说，‘阿们！’<verse eid="DEU 27:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 27:19"/>“‘凡不为寄居者和孤儿寡妇伸张正义的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:19">全体民众要回答说，‘阿们！’<verse eid="DEU 27:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="DEU 27:20"/>“‘凡与父亲的妻妾乱伦的必受咒诅，因为他羞辱了父亲！’</para>
+  <para style="pr" vid="DEU 27:20">全体民众要回答说，‘阿们！’<verse eid="DEU 27:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="DEU 27:21"/>“‘凡与兽交合的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:21">全体民众要回答说，‘阿们！’<verse eid="DEU 27:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 27:22"/>“‘凡与同父异母或同母异父的姊妹乱伦的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:22">全体民众要回答说，‘阿们！’<verse eid="DEU 27:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="DEU 27:23"/>“‘凡与岳母乱伦的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:23">全体民众要回答说，‘阿们！’<verse eid="DEU 27:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="DEU 27:24"/>“‘凡暗杀邻居的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:24">全体民众要回答说，‘阿们！’<verse eid="DEU 27:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="DEU 27:25"/>“‘凡因收受贿赂而杀害无辜的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:25">全体民众要回答说，‘阿们！’<verse eid="DEU 27:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="DEU 27:26"/>“‘凡不遵行这律法的必受咒诅！’</para>
+  <para style="pr" vid="DEU 27:26">全体民众要回答说，‘阿们！’<verse eid="DEU 27:26"/></para>
+  <chapter eid="DEU 27"/>
+  <chapter number="28" style="c" sid="DEU 28"/>
+  <para style="s1">遵守诫命蒙祝福</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 28:1"/>“你们若全心顺服你们的上帝耶和华，谨遵祂今天借我吩咐你们的一切诫命，祂必使你们超越天下万国。 <verse eid="DEU 28:1"/><verse number="2" style="v" sid="DEU 28:2"/>你们若听从你们的上帝耶和华的话，以下这些福气必临到你们，追随你们。<verse eid="DEU 28:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="DEU 28:3"/>“无论你们在城里还是乡间，都必蒙福。<verse eid="DEU 28:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="DEU 28:4"/>“你们必子孙昌盛，五谷丰登，牛羊成群。<verse eid="DEU 28:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="DEU 28:5"/>“你们的篮子和揉面盆都必蒙福。<verse eid="DEU 28:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="DEU 28:6"/>“你们出入都必蒙福。<verse eid="DEU 28:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="DEU 28:7"/>“耶和华必使来犯之敌败在你们面前、溃不成军、四散逃命。<verse eid="DEU 28:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="DEU 28:8"/>“耶和华必使你们凡事蒙福、五谷满仓。你们的上帝耶和华必在祂赐给你们的土地上赐福你们。<verse eid="DEU 28:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 28:9"/>“你们若遵守你们上帝耶和华的诫命，遵行祂的旨意，祂必按自己的誓言立你们作祂圣洁的子民。 <verse eid="DEU 28:9"/><verse number="10" style="v" sid="DEU 28:10"/>天下万民将看出你们是耶和华名下的子民，并惧怕你们。<verse eid="DEU 28:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="DEU 28:11"/>“在耶和华向你们祖先起誓要赐给你们的土地上，祂必使你们子孙昌盛、牛羊成群、五谷丰登。 <verse eid="DEU 28:11"/><verse number="12" style="v" sid="DEU 28:12"/>耶和华要为你们打开天上的宝库，使你们风调雨顺、凡事蒙福。你们必借贷给多国，却无需向别国借贷。 <verse eid="DEU 28:12"/><verse number="13-14" style="v" sid="DEU 28:13-14"/>你们若听从你们的上帝耶和华借我今天吩咐你们的诫命，谨慎遵行，毫不偏离，也不随从、供奉其他神明，祂必使你们做首不做尾，居上不居下。<verse eid="DEU 28:13-14"/></para>
+  <para style="s1">违背诫命受咒诅</para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 28:15"/>“你们若不听从你们的上帝耶和华，不谨遵祂今天借我吩咐你们的一切诫命和律例，祂必使以下的咒诅临到你们，追随你们。<verse eid="DEU 28:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 28:16"/>“无论你们在城里还是乡间，都必受咒诅。<verse eid="DEU 28:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="DEU 28:17"/>“你们的篮子和揉面盆都必受咒诅。<verse eid="DEU 28:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="DEU 28:18"/>“妇女所生的，土地所产的，牛羊所生的都必受咒诅。<verse eid="DEU 28:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 28:19"/>“你们出入都必受咒诅。<verse eid="DEU 28:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="DEU 28:20"/>“因为你们作恶、背弃耶和华，祂要使你们凡事受咒诅、混乱不堪、饱受责罚，直到你们被毁灭，迅速灭亡。<verse eid="DEU 28:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="DEU 28:21"/>“耶和华要使瘟疫紧紧跟随你们，直到你们在将要占领的土地上被灭绝。<verse eid="DEU 28:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 28:22"/>“耶和华要使你们遭受痨病、热症、炎症、炙热、刀剑、干旱和霉烂之灾。这些要危害你们，直到你们灭亡。<verse eid="DEU 28:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="DEU 28:23"/>“耶和华要使你们头顶的天如铜，脚下的地如铁。<verse eid="DEU 28:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="DEU 28:24"/>“耶和华要使雨水变为尘土，降在你们身上，直到你们灭亡。<verse eid="DEU 28:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="DEU 28:25"/>“耶和华要使你们被敌人击败、溃不成军、四散逃命，下场令天下万国惊惧。 <verse eid="DEU 28:25"/><verse number="26" style="v" sid="DEU 28:26"/>你们的尸体要成为飞禽走兽的食物，必无人赶走它们。<verse eid="DEU 28:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="DEU 28:27"/>“耶和华要使你们患<char style="pn">埃及</char>的脓疮、肿瘤和癣疥，无药可治。<verse eid="DEU 28:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="DEU 28:28"/>“耶和华要使你们发疯、瞎眼、心智错乱。<verse eid="DEU 28:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="DEU 28:29"/>“你们必在大白天摸索，就像盲人在黑暗中摸索一样，你们的道路必不得亨通，你们要终日受人欺压抢掠，无人搭救。<verse eid="DEU 28:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="DEU 28:30"/>“你们聘了妻子，别人必占有她们；你们盖了房屋，必不能住在里面；你们栽种葡萄园，必吃不到园中的出产。<verse eid="DEU 28:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="DEU 28:31"/>“你们必看着自己的牛被宰杀却吃不到肉，自己的驴被抢走后一去不还，自己的羊被敌人掳走却无人搭救， <verse eid="DEU 28:31"/><verse number="32" style="v" sid="DEU 28:32"/>自己的儿女被外族人掳走，你们终日望眼欲穿，却无能为力。<verse eid="DEU 28:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="DEU 28:33"/>“与你们素不相识的民族必吃光你们土地的出产和劳碌所得，你们必常受欺压， <verse eid="DEU 28:33"/><verse number="34" style="v" sid="DEU 28:34"/>以致眼前的一切令你们发疯。<verse eid="DEU 28:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="DEU 28:35"/>“耶和华要使你们从头到脚长满毒疮，无药可治。<verse eid="DEU 28:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="DEU 28:36"/>“耶和华要带你们和你们立的王，到一个你们和你们祖先都不知道的国家，你们要在那里供奉木石神像。<verse eid="DEU 28:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="DEU 28:37"/>“在耶和华驱逐你们去的列国，你们的下场令人惊骇，被人嘲笑和讥讽。<verse eid="DEU 28:37"/></para>
+  <para style="p">
+    <verse number="38" style="v" sid="DEU 28:38"/>“你们种的多，却收的少，因为庄稼必被蝗虫吃掉。<verse eid="DEU 28:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="DEU 28:39"/>“你们栽种、修剪葡萄园，却吃不到葡萄，也喝不到葡萄酒，因为葡萄必被虫子吃掉。<verse eid="DEU 28:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="DEU 28:40"/>“你们境内长满橄榄树，却没有橄榄油抹身，因为橄榄必未熟先落。<verse eid="DEU 28:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="DEU 28:41"/>“你们生儿育女，却留不住一个，因为他们必被掳走。<verse eid="DEU 28:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="DEU 28:42"/>“蝗虫要吃光你们的树木和地上的出产。<verse eid="DEU 28:42"/></para>
+  <para style="p">
+    <verse number="43" style="v" sid="DEU 28:43"/>“你们中间的外族人要日益兴旺，你们却要日渐衰微。<verse eid="DEU 28:43"/></para>
+  <para style="p">
+    <verse number="44" style="v" sid="DEU 28:44"/>“他们要借贷给你们，你们却不能借贷给他们。他们要做首，你们要做尾。<verse eid="DEU 28:44"/></para>
+  <para style="p">
+    <verse number="45" style="v" sid="DEU 28:45"/>“因为你们不听从你们上帝耶和华的话，不遵守祂吩咐你们的诫命和律例，这些咒诅都必临到你们、追赶你们，直到毁灭你们。 <verse eid="DEU 28:45"/><verse number="46" style="v" sid="DEU 28:46"/>这些咒诅要永远作为你们和你们子孙的神迹奇事。 <verse eid="DEU 28:46"/><verse number="47" style="v" sid="DEU 28:47"/>因为你们在富足时不心甘情愿地事奉你们的上帝耶和华， <verse eid="DEU 28:47"/><verse number="48" style="v" sid="DEU 28:48"/>所以你们必饥饿干渴、赤身裸体、一无所有地侍奉耶和华派来攻击你们的敌人。祂要把铁轭加在你们的颈上，直到消灭你们。<verse eid="DEU 28:48"/></para>
+  <para style="p">
+    <verse number="49" style="v" sid="DEU 28:49"/>“耶和华要使一国从遥远的地极兴起，他们要如鹰飞来袭击你们。你们不懂他们的语言。 <verse eid="DEU 28:49"/><verse number="50" style="v" sid="DEU 28:50"/>他们面目狰狞，不尊重年老的，也不怜悯年少的。 <verse eid="DEU 28:50"/><verse number="51" style="v" sid="DEU 28:51"/>他们要吃光你们的牛羊、五谷、新酒和油，直到消灭你们。 <verse eid="DEU 28:51"/><verse number="52" style="v" sid="DEU 28:52"/>在你们的上帝耶和华所赐给你们的整片土地上，他们要把你们围困在各个城邑中，直到你们所依赖的高大坚固的城墙都倒塌。<verse eid="DEU 28:52"/></para>
+  <para style="p">
+    <verse number="53" style="v" sid="DEU 28:53"/>“当你们被敌人围困、陷入绝境时，你们必吃自己的亲生骨肉，就是你们的上帝耶和华赐给你们的儿女。 <verse eid="DEU 28:53"/><verse number="54-55" style="v" sid="DEU 28:54-55"/>你们被敌人围困在各城中，陷入绝境时，连你们中间最温柔体贴的男人也要独自吞吃子女的肉，不肯分给自己的兄弟、爱妻和剩下的儿女，因为他别无所有。 <verse eid="DEU 28:54-55"/><verse number="56-57" style="v" sid="DEU 28:56-57"/>你们被敌人困在各城中，陷入绝境时，连你们中间最温柔、娇嫩得连脚也不肯踏在地上的妇女，都要偷偷吃掉自己生的婴儿和胎胞，不肯分给所爱的丈夫和子女。<verse eid="DEU 28:56-57"/></para>
+  <para style="p">
+    <verse number="58" style="v" sid="DEU 28:58"/>“如果你们不谨遵这书上所写的一切律法，不敬畏你们的上帝耶和华那荣耀、可畏的名， <verse eid="DEU 28:58"/><verse number="59" style="v" sid="DEU 28:59"/>祂必使你们及子孙遭遇严重而长久的灾难和疾病， <verse eid="DEU 28:59"/><verse number="60" style="v" sid="DEU 28:60"/>使你们所惧怕的<char style="pn">埃及</char>人的一切疾病都降在你们身上，缠住你们， <verse eid="DEU 28:60"/><verse number="61" style="v" sid="DEU 28:61"/>还使各种未记在这律法书上的疾病和灾难降在你们身上，直到消灭你们。 <verse eid="DEU 28:61"/><verse number="62" style="v" sid="DEU 28:62"/>因为你们不听从你们的上帝耶和华的话，即使你们的人数多如天上的星，也将所剩无几。 <verse eid="DEU 28:62"/><verse number="63" style="v" sid="DEU 28:63"/>正如耶和华喜欢赐福你们，使你们人丁兴旺，祂也同样会不惜消灭你们，使你们在将要占领的土地上被铲除。<verse eid="DEU 28:63"/></para>
+  <para style="p">
+    <verse number="64" style="v" sid="DEU 28:64"/>“耶和华要把你们分散到天下万邦，你们要在那里供奉祖祖辈辈素不认识的木石神像。 <verse eid="DEU 28:64"/><verse number="65" style="v" sid="DEU 28:65"/>你们在万邦中将不得安宁，没有落脚之地，耶和华必使你们胆战心惊、目光呆滞、精神颓废。 <verse eid="DEU 28:65"/><verse number="66" style="v" sid="DEU 28:66"/>你们必惴惴不安，昼夜恐惧，生死难料。 <verse eid="DEU 28:66"/><verse number="67" style="v" sid="DEU 28:67"/>你们必看见可怕之事，以致心中充满恐惧，早上盼望天黑，晚上盼望天亮。 <verse eid="DEU 28:67"/><verse number="68" style="v" sid="DEU 28:68"/>耶和华必沿着我曾说你们再不会走的路线，用船把你们送回<char style="pn">埃及</char>。你们将在那里卖身做敌人的仆婢，却无人买。”<verse eid="DEU 28:68"/></para>
+  <chapter eid="DEU 28"/>
+  <chapter number="29" style="c" sid="DEU 29"/>
+  <para style="s1">在摩押立约</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 29:1"/>耶和华除了与<char style="pn">以色列</char>人在<char style="pn">何烈</char>山立约外，还在<char style="pn">摩押</char>吩咐<char style="pn">摩西</char>与<char style="pn">以色列</char>人立以下的约。<verse eid="DEU 29:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="DEU 29:2"/>
+    <char style="pn">摩西</char>召来所有<char style="pn">以色列</char>人，对他们说：“你们曾亲眼见过耶和华在<char style="pn">埃及</char>怎样对付法老及其臣仆和国民， <verse eid="DEU 29:2"/><verse number="3" style="v" sid="DEU 29:3"/>亲眼看见祂怎样降下巨大的灾难，行伟大的神迹奇事。 <verse eid="DEU 29:3"/><verse number="4" style="v" sid="DEU 29:4"/>但耶和华至今还没有赐给你们能明白的心、能看见的眼、能听清的耳。 <verse eid="DEU 29:4"/><verse number="5" style="v" sid="DEU 29:5"/>四十年来，耶和华领你们走过旷野，你们身上的衣服没有穿破，脚上的鞋没有穿坏； <verse eid="DEU 29:5"/><verse number="6" style="v" sid="DEU 29:6"/>你们没有吃饼，也没有喝淡酒和烈酒。这是为了让你们知道耶和华是你们的上帝。 <verse eid="DEU 29:6"/><verse number="7" style="v" sid="DEU 29:7"/>我们来到这里的时候，<char style="pn">希实本</char>王<char style="pn">西宏</char>和<char style="pn">巴珊</char>王<char style="pn">噩</char>都出来攻击我们，我们击败了他们， <verse eid="DEU 29:7"/><verse number="8" style="v" sid="DEU 29:8"/>并将占领的土地分给<char style="pn">吕便</char>支派、<char style="pn">迦得</char>支派和<char style="pn">玛拿西</char>半个支派作产业。 <verse eid="DEU 29:8"/><verse number="9" style="v" sid="DEU 29:9"/>所以，你们要谨遵这约上的话，以便凡事顺利。<verse eid="DEU 29:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 29:10"/>“今天，你们全都站在你们的上帝耶和华面前，包括你们的族长、长老、官员、所有<char style="pn">以色列</char>男子、 <verse eid="DEU 29:10"/><verse number="11" style="v" sid="DEU 29:11"/>你们的孩子、妻子和寄居在你们营中为你们砍柴挑水的外族人， <verse eid="DEU 29:11"/><verse number="12" style="v" sid="DEU 29:12"/>为要接受你们的上帝耶和华今天与你们立的誓约。 <verse eid="DEU 29:12"/><verse number="13" style="v" sid="DEU 29:13"/>这样，祂今天将确立你们作祂的子民、祂作你们的上帝，正如祂对你们的应许和对你们祖先<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>和<char style="pn">雅各</char>的誓言。 <verse eid="DEU 29:13"/><verse number="14" style="v" sid="DEU 29:14"/>耶和华的这誓约不仅是与你们立的， <verse eid="DEU 29:14"/><verse number="15" style="v" sid="DEU 29:15"/>也是与今天一同站在我们的上帝耶和华面前的人，以及今天不在这里的人<note caller="+" style="f"><char style="fr" closed="false">29:15 </char><char style="ft" closed="false">“今天不在这里的人”或译“我们将来的子孙”。</char></note>立的。<verse eid="DEU 29:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 29:16"/>“你们知道我们如何在<char style="pn">埃及</char>生活，也知道我们如何穿越列国来到这里。 <verse eid="DEU 29:16"/><verse number="17" style="v" sid="DEU 29:17"/>你们也见过他们可憎的木、石、金、银偶像。 <verse eid="DEU 29:17"/><verse number="18" style="v" sid="DEU 29:18"/>你们中间，不论男人或女人，家族或支派，切不可有人背弃我们的上帝耶和华，去祭拜列国的神明，你们中间切不可有残根长出苦毒的果实， <verse eid="DEU 29:18"/><verse number="19" style="v" sid="DEU 29:19"/>免得有人听了这誓言后，心存侥幸地说，‘即使我一意孤行，连累他人，也必平安无事。’ <verse eid="DEU 29:19"/><verse number="20" style="v" sid="DEU 29:20"/>耶和华绝不会赦免这样的人，祂必向这样的人发烈怒和义愤，使记在这书上的一切咒诅临到他身上，从世上抹去他的名字。 <verse eid="DEU 29:20"/><verse number="21" style="v" sid="DEU 29:21"/>耶和华必把他从<char style="pn">以色列</char>各支派中隔离出来，使他按律法书上约中的一切咒诅受惩罚。<verse eid="DEU 29:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="DEU 29:22"/>“你们的子孙后代和从远方来的外族人，必看见耶和华降在这地方的灾祸和疾病。 <verse eid="DEU 29:22"/><verse number="23" style="v" sid="DEU 29:23"/>遍地将是硫磺和盐，无法耕种，寸草不生，如同耶和华盛怒之下毁灭的<char style="pn">所多玛</char>、<char style="pn">蛾摩拉</char>、<char style="pn">押玛</char>和<char style="pn">洗扁</char>。 <verse eid="DEU 29:23"/><verse number="24" style="v" sid="DEU 29:24"/>万国必问，‘耶和华为什么要这样对待这地方？祂为什么大发烈怒？’ <verse eid="DEU 29:24"/><verse number="25" style="v" sid="DEU 29:25"/>必有人回答说，‘因为这地方的人背弃了他们祖先的上帝耶和华领他们出<char style="pn">埃及</char>时与他们所立的约， <verse eid="DEU 29:25"/><verse number="26" style="v" sid="DEU 29:26"/>去供奉其他神明，祭拜他们不认识、也非耶和华分派给他们的神明。 <verse eid="DEU 29:26"/><verse number="27" style="v" sid="DEU 29:27"/>因此，耶和华向这片土地发怒，把这书上写的一切咒诅都降在这里。 <verse eid="DEU 29:27"/><verse number="28" style="v" sid="DEU 29:28"/>耶和华在怒气、义愤和烈怒中把他们从这地方连根拔起，扔到别的地方，正如今日的情形。’<verse eid="DEU 29:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="DEU 29:29"/>“奥秘的事属于我们的上帝耶和华，只有显明的事永远属于我们和我们的子孙，以便我们可以遵守这律法上的一切话。”<verse eid="DEU 29:29"/></para>
+  <chapter eid="DEU 29"/>
+  <chapter number="30" style="c" sid="DEU 30"/>
+  <para style="s1">归向耶和华必蒙福</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 30:1"/>“当我向你们陈明的这些祝福和咒诅都应验在你们身上时，如果你们在你们的上帝耶和华驱逐你们去的各国中回想这些话， <verse eid="DEU 30:1"/><verse number="2" style="v" sid="DEU 30:2"/>归向你们的上帝耶和华，你们及子孙照我今天的吩咐，全心全意地听从祂的话， <verse eid="DEU 30:2"/><verse number="3" style="v" sid="DEU 30:3"/>祂必改变你们被掳的境遇，怜悯你们，把你们从祂驱逐你们去的列国招聚回来。 <verse eid="DEU 30:3"/><verse number="4" style="v" sid="DEU 30:4"/>即使你们被驱逐到天涯，你们的上帝耶和华也会召集你们，带你们回来， <verse eid="DEU 30:4"/><verse number="5" style="v" sid="DEU 30:5"/>带到你们祖先的土地上，使你们拥有那片土地，比你们祖先更加人丁兴旺、繁荣昌盛。 <verse eid="DEU 30:5"/><verse number="6" style="v" sid="DEU 30:6"/>你们的上帝耶和华要洁净你们和你们子孙的心，好让你们全心全意地爱祂，并且存活。 <verse eid="DEU 30:6"/><verse number="7" style="v" sid="DEU 30:7"/>你们的上帝耶和华要把所有的咒诅加在你们的仇敌及憎恶你们、迫害你们的人身上。 <verse eid="DEU 30:7"/><verse number="8" style="v" sid="DEU 30:8"/>你们必再次听从耶和华，遵行今天祂借我吩咐你们的一切诫命。 <verse eid="DEU 30:8"/><verse number="9-10" style="v" sid="DEU 30:9-10"/>倘若你们听从你们的上帝耶和华的话，遵守这律法书上的诫命和律例，全心全意地归向祂，祂必使你们凡事蒙福、儿女众多、牛羊成群、五谷丰登。因为祂必乐意再次赐福你们，像从前赐福你们祖先一样。<verse eid="DEU 30:9-10"/></para>
+  <para style="s1">生死抉择</para>
+  <para style="p">
+    <verse number="11" style="v" sid="DEU 30:11"/>“我今天颁布给你们的诫命，对你们来说不难，也非遥不可及。 <verse eid="DEU 30:11"/><verse number="12" style="v" sid="DEU 30:12"/>这诫命并非在天上，以致你们说，‘谁替我们上天取下来，讲给我们听，让我们遵行呢？’ <verse eid="DEU 30:12"/><verse number="13" style="v" sid="DEU 30:13"/>这诫命也不在海的彼岸，以致你们说，‘谁替我们过海取来，讲给我们听，好让我们遵行呢？’ <verse eid="DEU 30:13"/><verse number="14" style="v" sid="DEU 30:14"/>这话语近在咫尺，就在你口里，在你心中，好让你遵行。<verse eid="DEU 30:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="DEU 30:15"/>“看啊，今天我把生死祸福摆在你们面前。 <verse eid="DEU 30:15"/><verse number="16" style="v" sid="DEU 30:16"/>我今天吩咐你们要爱你们的上帝耶和华，遵行祂的旨意，遵守祂的诫命、律例和典章，以便你们可以存活，人丁兴旺，在你们将要占领的土地上蒙祂赐福。 <verse eid="DEU 30:16"/><verse number="17" style="v" sid="DEU 30:17"/>但倘若你们心中偏离，不肯听从，被引诱去祭拜、供奉其他神明， <verse eid="DEU 30:17"/><verse number="18" style="v" sid="DEU 30:18"/>我今天警告你们，你们必定灭亡，在<char style="pn">约旦</char>河西岸你们将要去占领的土地上无法长久。 <verse eid="DEU 30:18"/><verse number="19" style="v" sid="DEU 30:19"/>今天，我叫天地为你们作证，我已把生死祸福摆在你们面前。选择生命吧，以便你们及子孙可以存活。 <verse eid="DEU 30:19"/><verse number="20" style="v" sid="DEU 30:20"/>要爱你们的上帝耶和华，听从祂的话，倚靠祂，因为祂是你们的生命，祂必使你们长久住在祂起誓要赐给你们祖先<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>和<char style="pn">雅各</char>的土地上。”<verse eid="DEU 30:20"/></para>
+  <chapter eid="DEU 30"/>
+  <chapter number="31" style="c" sid="DEU 31"/>
+  <para style="s1">立约书亚做摩西的接班人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 31:1"/>
+    <char style="pn">摩西</char>继续对<char style="pn">以色列</char>人说： <verse eid="DEU 31:1"/><verse number="2" style="v" sid="DEU 31:2"/>“我现在已经一百二十岁了，无法再继续带领你们，耶和华曾说我不得过<char style="pn">约旦</char>河。 <verse eid="DEU 31:2"/><verse number="3" style="v" sid="DEU 31:3"/>你们的上帝耶和华要亲自带领你们过河，在你们面前消灭那里的各族，使你们占领他们的土地。<char style="pn">约书亚</char>将带领你们过河，正如耶和华所言。 <verse eid="DEU 31:3"/><verse number="4" style="v" sid="DEU 31:4"/>耶和华要毁灭那里的各族，像毁灭<char style="pn">亚摩利</char>二王<char style="pn">西宏</char>和<char style="pn">噩</char>及其国家一样。 <verse eid="DEU 31:4"/><verse number="5" style="v" sid="DEU 31:5"/>耶和华要把他们交给你们，你们要照我的一切吩咐处置他们。 <verse eid="DEU 31:5"/><verse number="6" style="v" sid="DEU 31:6"/>你们要刚强勇敢，不要惧怕他们，因为你们的上帝耶和华与你们同行，祂不会撇下你们，也不会离弃你们。”<verse eid="DEU 31:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="DEU 31:7"/>
+    <char style="pn">摩西</char>把<char style="pn">约书亚</char>叫来，当着全体<char style="pn">以色列</char>人的面对他说：“你要刚强勇敢！因为你要与百姓一同进入耶和华起誓要赐给他们祖先的土地，把土地分给他们作产业。 <verse eid="DEU 31:7"/><verse number="8" style="v" sid="DEU 31:8"/>耶和华必带领你，与你同在。祂不会撇下你，也不会离弃你。不要惊慌害怕。”<verse eid="DEU 31:8"/></para>
+  <para style="s1">每七年当众宣读律法一次</para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 31:9"/>
+    <char style="pn">摩西</char>把这律法写好，交给抬耶和华约柜的<char style="pn">利未</char>祭司和<char style="pn">以色列</char>的众长老。 <verse eid="DEU 31:9"/><verse number="10" style="v" sid="DEU 31:10"/><char style="pn">摩西</char>吩咐他们说：“每逢免除债务的第七年的住棚节， <verse eid="DEU 31:10"/><verse number="11" style="v" sid="DEU 31:11"/>所有<char style="pn">以色列</char>人到你们的上帝耶和华选定的地方朝见祂时，你们要当众大声宣读这律法。 <verse eid="DEU 31:11"/><verse number="12" style="v" sid="DEU 31:12"/>要招聚所有男女、孩童以及住在你们中间的外族人，让他们聆听这律法，学习敬畏你们的上帝耶和华，谨遵律法上的一切话。 <verse eid="DEU 31:12"/><verse number="13" style="v" sid="DEU 31:13"/>这样，他们那些还不知道这律法的孩子便有机会听到律法，在你们将要占领的<char style="pn">约旦</char>河西岸的土地上，学习终生敬畏你们的上帝耶和华。”<verse eid="DEU 31:13"/></para>
+  <para style="s1">上帝对摩西和约书亚的指示</para>
+  <para style="p">
+    <verse number="14" style="v" sid="DEU 31:14"/>耶和华对<char style="pn">摩西</char>说：“你快要离世了。叫<char style="pn">约书亚</char>与你一起到会幕，我要委派他。”<char style="pn">摩西</char>和<char style="pn">约书亚</char>就来到会幕。 <verse eid="DEU 31:14"/><verse number="15" style="v" sid="DEU 31:15"/>有云柱停在会幕入口的上方，耶和华在云柱中向他们显现。<verse eid="DEU 31:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="DEU 31:16"/>耶和华对<char style="pn">摩西</char>说：“你快要与祖先同眠了。这些百姓将很快在要占领的土地上与外族人的神明苟合，背弃我，违背我与他们所立的约。 <verse eid="DEU 31:16"/><verse number="17" style="v" sid="DEU 31:17"/>那时，我要向他们发怒，离弃他们，掩面不理他们。他们将被吞灭，遭遇许多祸患和灾难，以致他们会说，‘这些祸患临到我们，岂不是因为上帝不在我们中间了吗？’ <verse eid="DEU 31:17"/><verse number="18" style="v" sid="DEU 31:18"/>那时，我必掩面不理他们，因为他们祭拜其他神明，行为邪恶。<verse eid="DEU 31:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="DEU 31:19"/>“现在，你要写一首歌，教导<char style="pn">以色列</char>人，让他们吟唱，作为我指控他们的证据。 <verse eid="DEU 31:19"/><verse number="20" style="v" sid="DEU 31:20"/>因为当我把他们带到我起誓应许他们祖先的奶蜜之乡后，当他们在那里吃饱喝足后，就会嫌弃我，违背我与他们所立的约，去供奉其他神明。 <verse eid="DEU 31:20"/><verse number="21" style="v" sid="DEU 31:21"/>当许多祸患和灾难临到他们的时候，这首歌就要成为指控他们的证据，因为这首歌要在他们的子孙中世代流传。虽然我还没有带领他们进入我起誓应许之地，我已经知道他们的心思意念。” <verse eid="DEU 31:21"/><verse number="22" style="v" sid="DEU 31:22"/>当天，<char style="pn">摩西</char>就写下这首歌，传授给<char style="pn">以色列</char>人。<verse eid="DEU 31:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="DEU 31:23"/>耶和华嘱咐<char style="pn">嫩</char>的儿子<char style="pn">约书亚</char>：“你要刚强勇敢，因为你要带领<char style="pn">以色列</char>人进入我起誓应许他们的土地，我必与你同在。”<verse eid="DEU 31:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="DEU 31:24"/>
+    <char style="pn">摩西</char>把这律法都写在书上以后， <verse eid="DEU 31:24"/><verse number="25" style="v" sid="DEU 31:25"/>就吩咐抬耶和华约柜的<char style="pn">利未</char>人： <verse eid="DEU 31:25"/><verse number="26" style="v" sid="DEU 31:26"/>“把这律法书放在你们的上帝耶和华的约柜旁，作为指控你们的证据。 <verse eid="DEU 31:26"/><verse number="27" style="v" sid="DEU 31:27"/>因为我知道你们悖逆、顽固不化，我还活在你们中间的时候，你们尚且背叛上帝，何况我死后呢？ <verse eid="DEU 31:27"/><verse number="28" style="v" sid="DEU 31:28"/>把你们各支派的长老和首领招聚来，我要把这些话告诉他们，叫天地作证来指控他们。 <verse eid="DEU 31:28"/><verse number="29" style="v" sid="DEU 31:29"/>我知道，我死后你们会彻底堕落，偏离我吩咐你们行的道，做耶和华视为恶的事，惹祂发怒，将来祸患必临到你们。”<verse eid="DEU 31:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="DEU 31:30"/>然后，<char style="pn">摩西</char>把这首诗歌从头到尾读给<char style="pn">以色列</char>全体会众听。<verse eid="DEU 31:30"/></para>
+  <chapter eid="DEU 31"/>
+  <chapter number="32" style="c" sid="DEU 32"/>
+  <para style="s1">摩西之歌</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="DEU 32:1"/>“诸天啊，请听我说；</para>
+  <para style="q1" vid="DEU 32:1">大地啊，请听我言。<verse eid="DEU 32:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="DEU 32:2"/>愿我的教导如雨降下，</para>
+  <para style="q1" vid="DEU 32:2">愿我的话语如露滴落，</para>
+  <para style="q1" vid="DEU 32:2">像水滴滋润嫩草，</para>
+  <para style="q1" vid="DEU 32:2">像甘霖浇灌草木。<verse eid="DEU 32:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="DEU 32:3"/>我要宣扬耶和华的名，</para>
+  <para style="q1" vid="DEU 32:3">你们要颂赞我们上帝的伟大。<verse eid="DEU 32:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="DEU 32:4"/>“祂是磐石，</para>
+  <para style="q1" vid="DEU 32:4">祂的作为完美，</para>
+  <para style="q1" vid="DEU 32:4">祂按公义行事，</para>
+  <para style="q1" vid="DEU 32:4">祂信实可靠，公平正直。<verse eid="DEU 32:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="DEU 32:5"/>狡诈、堕落的一代啊，</para>
+  <para style="q1" vid="DEU 32:5">你们却对祂不忠，行事败坏，</para>
+  <para style="q1" vid="DEU 32:5">不配做祂的儿女。<verse eid="DEU 32:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="DEU 32:6"/>愚昧无知的人啊，</para>
+  <para style="q1" vid="DEU 32:6">你们就这样报答耶和华吗？</para>
+  <para style="q1" vid="DEU 32:6">祂是你们的父，你们的创造主，</para>
+  <para style="q1" vid="DEU 32:6">祂创造了你们，塑造了你们。<verse eid="DEU 32:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="DEU 32:7"/>“要回顾往昔，追溯历史；</para>
+  <para style="q1" vid="DEU 32:7">问你们的父亲，</para>
+  <para style="q1" vid="DEU 32:7">他们必回答你们；</para>
+  <para style="q1" vid="DEU 32:7">问你们的长者，</para>
+  <para style="q1" vid="DEU 32:7">他们必告诉你们。<verse eid="DEU 32:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="DEU 32:8"/>当初，至高者赐万国产业，</para>
+  <para style="q1" vid="DEU 32:8">把人类分开，</para>
+  <para style="q1" vid="DEU 32:8">祂依照天使<note caller="+" style="f"><char style="fr" closed="false">32:8 </char><char style="ft" closed="false">“天使”希伯来文是“以色列的儿子”。</char></note>的数目，</para>
+  <para style="q1" vid="DEU 32:8">为万族定疆界。<verse eid="DEU 32:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="DEU 32:9"/>但<char style="pn">以色列</char>人属于耶和华，</para>
+  <para style="q1" vid="DEU 32:9">
+    <char style="pn">雅各</char>是祂的产业。<verse eid="DEU 32:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="DEU 32:10"/>“在荒凉的旷野，</para>
+  <para style="q1" vid="DEU 32:10">在野兽吼叫的荒野，</para>
+  <para style="q1" vid="DEU 32:10">耶和华找到他们，</para>
+  <para style="q1" vid="DEU 32:10">庇护他们，看顾他们，</para>
+  <para style="q1" vid="DEU 32:10">保护他们如同保护眼中的瞳仁，<verse eid="DEU 32:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="DEU 32:11"/>又如老鹰搅动窝巢，</para>
+  <para style="q1" vid="DEU 32:11">盘旋在雏鹰之上，</para>
+  <para style="q1" vid="DEU 32:11">展开双翼接住它们，</para>
+  <para style="q1" vid="DEU 32:11">背着他们飞翔。<verse eid="DEU 32:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="DEU 32:12"/>耶和华独自带领他们，</para>
+  <para style="q1" vid="DEU 32:12">没有外族神明同在。<verse eid="DEU 32:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="DEU 32:13"/>耶和华使他们驰骋在大地的高处，</para>
+  <para style="q1" vid="DEU 32:13">吃田间的五谷，</para>
+  <para style="q1" vid="DEU 32:13">磐石中的蜂蜜，</para>
+  <para style="q1" vid="DEU 32:13">石头地产的油；<verse eid="DEU 32:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="DEU 32:14"/>吃牛酪和羊奶，</para>
+  <para style="q1" vid="DEU 32:14">肥美的羔羊，</para>
+  <para style="q1" vid="DEU 32:14">
+    <char style="pn">巴珊</char>的绵羊和山羊，</para>
+  <para style="q1" vid="DEU 32:14">上好的麦子；</para>
+  <para style="q1" vid="DEU 32:14">喝葡萄汁酿的酒。<verse eid="DEU 32:14"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="15" style="v" sid="DEU 32:15"/>“但<char style="pn">耶书仑</char><note caller="+" style="f"><char style="fr" closed="false">32:15 </char><char style="ft" closed="false">“耶书仑”是以色列的昵称。</char></note>吃饱喝足，</para>
+  <para style="q1" vid="DEU 32:15">养肥长壮后，就得意忘形，</para>
+  <para style="q1" vid="DEU 32:15">背弃造他们的上帝，</para>
+  <para style="q1" vid="DEU 32:15">藐视救他们的磐石。<verse eid="DEU 32:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="DEU 32:16"/>他们拜外族的神明，令祂愤恨；</para>
+  <para style="q1" vid="DEU 32:16">行可憎之事，惹祂发怒。<verse eid="DEU 32:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="DEU 32:17"/>他们祭拜的不是真神，</para>
+  <para style="q1" vid="DEU 32:17">而是鬼魔，</para>
+  <para style="q1" vid="DEU 32:17">是他们素不认识的新神明，</para>
+  <para style="q1" vid="DEU 32:17">是他们祖先所不敬畏的。<verse eid="DEU 32:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="DEU 32:18"/>他们轻视生他们的磐石，</para>
+  <para style="q1" vid="DEU 32:18">忘记养他们的上帝。<verse eid="DEU 32:18"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="19" style="v" sid="DEU 32:19"/>“耶和华看见祂儿女的恶行，</para>
+  <para style="q1" vid="DEU 32:19">就愤然厌弃他们，<verse eid="DEU 32:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="DEU 32:20"/>说，‘这堕落的子民，</para>
+  <para style="q1" vid="DEU 32:20">不忠的儿女！</para>
+  <para style="q1" vid="DEU 32:20">我要掩面不理他们，</para>
+  <para style="q1" vid="DEU 32:20">看他们的结局如何。<verse eid="DEU 32:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="DEU 32:21"/>他们拜假神，让我愤恨；</para>
+  <para style="q1" vid="DEU 32:21">供虚无之物，惹我发怒。</para>
+  <para style="q1" vid="DEU 32:21">我要借无名之民挑起他们的嫉妒，</para>
+  <para style="q1" vid="DEU 32:21">用愚昧的国民激起他们的怒气。<verse eid="DEU 32:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="DEU 32:22"/>我的怒火已经点燃，</para>
+  <para style="q1" vid="DEU 32:22">要烧到阴间的尽头，</para>
+  <para style="q1" vid="DEU 32:22">吞灭大地及其出产，</para>
+  <para style="q1" vid="DEU 32:22">甚至烧毁山的根基。<verse eid="DEU 32:22"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="23" style="v" sid="DEU 32:23"/>“‘我要使灾祸连连临到他们，</para>
+  <para style="q1" vid="DEU 32:23">我的箭都射向他们。<verse eid="DEU 32:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="DEU 32:24"/>他们必饱受饥荒之苦，</para>
+  <para style="q1" vid="DEU 32:24">被瘟疫和灾祸吞噬，</para>
+  <para style="q1" vid="DEU 32:24">被猛兽和毒蛇袭击。<verse eid="DEU 32:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="DEU 32:25"/>外有刀剑杀戮，</para>
+  <para style="q1" vid="DEU 32:25">内有恐惧笼罩，</para>
+  <para style="q1" vid="DEU 32:25">男女老幼无不丧命。<verse eid="DEU 32:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="DEU 32:26"/>我本要消灭他们，</para>
+  <para style="q1" vid="DEU 32:26">使世人忘记他们；<verse eid="DEU 32:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="DEU 32:27"/>但我怕敌人夸口，</para>
+  <para style="q1" vid="DEU 32:27">误以为这是他们的胜利，</para>
+  <para style="q1" vid="DEU 32:27">而非我的作为。’<verse eid="DEU 32:27"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="28" style="v" sid="DEU 32:28"/>“<char style="pn">以色列</char>人愚昧无知，毫无见识。<verse eid="DEU 32:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="DEU 32:29"/>如果他们有智慧，</para>
+  <para style="q1" vid="DEU 32:29">就能明白这一切，</para>
+  <para style="q1" vid="DEU 32:29">知道自己的结局。<verse eid="DEU 32:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="DEU 32:30"/>若不是他们的磐石卖掉他们，</para>
+  <para style="q1" vid="DEU 32:30">若不是耶和华抛弃他们，</para>
+  <para style="q1" vid="DEU 32:30">一人怎能赶散他们千人？</para>
+  <para style="q1" vid="DEU 32:30">二人怎能击溃他们万人？<verse eid="DEU 32:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="DEU 32:31"/>我们的敌人也承认他们的磐石不如我们的磐石。<verse eid="DEU 32:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="DEU 32:32"/>他们犹如来自<char style="pn">所多玛</char>、</para>
+  <para style="q1" vid="DEU 32:32">长在<char style="pn">蛾摩拉</char>的葡萄树，</para>
+  <para style="q1" vid="DEU 32:32">结的葡萄粒粒有毒，串串苦涩；<verse eid="DEU 32:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="DEU 32:33"/>酿的酒如蛇的毒液，</para>
+  <para style="q1" vid="DEU 32:33">如眼镜蛇的毒液。<verse eid="DEU 32:33"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="34" style="v" sid="DEU 32:34"/>“祂说，‘我把这一切积存起来，</para>
+  <para style="q1" vid="DEU 32:34">封在我的仓库里。<verse eid="DEU 32:34"/></para>
+  <para style="q1">
+    <verse number="35" style="v" sid="DEU 32:35"/>申冤在我，我必报应，</para>
+  <para style="q1" vid="DEU 32:35">到时候他们必站不住脚，</para>
+  <para style="q1" vid="DEU 32:35">他们遭祸的日子近了，</para>
+  <para style="q1" vid="DEU 32:35">他们的末日快要来了。’<verse eid="DEU 32:35"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="36" style="v" sid="DEU 32:36"/>“耶和华见自己的子民力量衰竭，</para>
+  <para style="q1" vid="DEU 32:36">奴隶和自由人所剩无几，</para>
+  <para style="q1" vid="DEU 32:36">必为他们主持公道，</para>
+  <para style="q1" vid="DEU 32:36">怜悯祂的仆人。<verse eid="DEU 32:36"/></para>
+  <para style="q1">
+    <verse number="37" style="v" sid="DEU 32:37"/>祂必说，‘你们的神明在哪里？</para>
+  <para style="q1" vid="DEU 32:37">庇护你们的磐石在哪里？<verse eid="DEU 32:37"/></para>
+  <para style="q1">
+    <verse number="38" style="v" sid="DEU 32:38"/>它们吃你们祭牲的脂肪，</para>
+  <para style="q1" vid="DEU 32:38">喝你们的奠酒。</para>
+  <para style="q1" vid="DEU 32:38">让它们起来帮助你们，</para>
+  <para style="q1" vid="DEU 32:38">庇护你们吧！<verse eid="DEU 32:38"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="39" style="v" sid="DEU 32:39"/>“‘你们现今要知道，</para>
+  <para style="q1" vid="DEU 32:39">唯有我是上帝；</para>
+  <para style="q1" vid="DEU 32:39">除我之外，别无他神。</para>
+  <para style="q1" vid="DEU 32:39">我掌管生死，我打伤、我医治；</para>
+  <para style="q1" vid="DEU 32:39">无人能逃出我的掌心。<verse eid="DEU 32:39"/></para>
+  <para style="q1">
+    <verse number="40" style="v" sid="DEU 32:40"/>我向天伸手，</para>
+  <para style="q1" vid="DEU 32:40">凭我的永恒起誓，<verse eid="DEU 32:40"/></para>
+  <para style="q1">
+    <verse number="41" style="v" sid="DEU 32:41"/>我要磨快闪亮的剑，</para>
+  <para style="q1" vid="DEU 32:41">主持公道，报应仇敌，</para>
+  <para style="q1" vid="DEU 32:41">惩罚恨我的人。<verse eid="DEU 32:41"/></para>
+  <para style="q1">
+    <verse number="42" style="v" sid="DEU 32:42"/>我要使我的箭饱饮鲜血，</para>
+  <para style="q1" vid="DEU 32:42">就是被杀被掳之人的血；</para>
+  <para style="q1" vid="DEU 32:42">我的剑要吞噬人肉，</para>
+  <para style="q1" vid="DEU 32:42">就是敌人将领的肉。’<verse eid="DEU 32:42"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="43" style="v" sid="DEU 32:43"/>“列邦啊，</para>
+  <para style="q1" vid="DEU 32:43">你们当与祂的子民一同欢乐！</para>
+  <para style="q1" vid="DEU 32:43">因为祂要为自己的仆人报血仇，</para>
+  <para style="q1" vid="DEU 32:43">报应祂的仇敌，</para>
+  <para style="q1" vid="DEU 32:43">洁净祂的土地和子民。”<verse eid="DEU 32:43"/></para>
+  <para style="b"/>
+  <para style="p">
+    <verse number="44" style="v" sid="DEU 32:44"/>
+    <char style="pn">摩西</char>和<char style="pn">嫩</char>的儿子<char style="pn">约书亚</char>把这首诗歌读给会众听。<verse eid="DEU 32:44"/></para>
+  <para style="s1">摩西的遗嘱</para>
+  <para style="p">
+    <verse number="45" style="v" sid="DEU 32:45"/>读完后，<char style="pn">摩西</char>又对<char style="pn">以色列</char>人说： <verse eid="DEU 32:45"/><verse number="46" style="v" sid="DEU 32:46"/>“要谨记我今天警告你们的话，要吩咐你们的子孙谨遵这律法上的一切话。 <verse eid="DEU 32:46"/><verse number="47" style="v" sid="DEU 32:47"/>这律法不是空话，而是你们的生命。你们若遵守这律法，就必长住在<char style="pn">约旦</char>河西岸你们将要占领的土地上。”<verse eid="DEU 32:47"/></para>
+  <para style="s1">预言摩西的死</para>
+  <para style="p">
+    <verse number="48" style="v" sid="DEU 32:48"/>当天，耶和华对<char style="pn">摩西</char>说： <verse eid="DEU 32:48"/><verse number="49" style="v" sid="DEU 32:49"/>“你去<char style="pn">耶利哥</char>对面的<char style="pn">摩押</char>，登上<char style="pn">亚巴琳</char>山区的<char style="pn">尼波</char>山，观看我要赐给<char style="pn">以色列</char>人作产业的<char style="pn">迦南</char>。 <verse eid="DEU 32:49"/><verse number="50" style="v" sid="DEU 32:50"/>之后，你会死在那山上，归到你祖先那里，如你哥哥<char style="pn">亚伦</char>在<char style="pn">何珥</char>山离世归祖一样。 <verse eid="DEU 32:50"/><verse number="51" style="v" sid="DEU 32:51"/>因为在<char style="pn">荀</char>旷野，在<char style="pn">加低斯</char>的<char style="pn">米利巴</char>泉旁，你和<char style="pn">亚伦</char>对我不忠，没有在<char style="pn">以色列</char>人中尊我为圣。 <verse eid="DEU 32:51"/><verse number="52" style="v" sid="DEU 32:52"/>所以，你只能远远地观看我要赐给<char style="pn">以色列</char>人的土地，却不能进去。”<verse eid="DEU 32:52"/></para>
+  <chapter eid="DEU 32"/>
+  <chapter number="33" style="c" sid="DEU 33"/>
+  <para style="s1">摩西最后的祝福</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 33:1"/>以下是上帝的仆人<char style="pn">摩西</char>临终时给<char style="pn">以色列</char>人的祝福：<verse eid="DEU 33:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="DEU 33:2"/>“耶和华从<char style="pn">西奈</char>山来，</para>
+  <para style="q1" vid="DEU 33:2">从<char style="pn">西珥</char>山向我们显现，</para>
+  <para style="q1" vid="DEU 33:2">祂从<char style="pn">巴兰</char>山发出光辉；</para>
+  <para style="q1" vid="DEU 33:2">祂带着千万圣者来临，</para>
+  <para style="q1" vid="DEU 33:2">祂右边有闪耀的光芒。<verse eid="DEU 33:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="DEU 33:3"/>祂深爱自己的子民，</para>
+  <para style="q1" vid="DEU 33:3">众圣者都听命于祂，</para>
+  <para style="q1" vid="DEU 33:3">伏在祂的脚前，</para>
+  <para style="q1" vid="DEU 33:3">领受祂的训诲。<verse eid="DEU 33:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="DEU 33:4"/>
+    <char style="pn">摩西</char>将律法颁布给我们，</para>
+  <para style="q1" vid="DEU 33:4">作为<char style="pn">雅各</char>子孙的产业。<verse eid="DEU 33:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="DEU 33:5"/>百姓的众首领齐聚，</para>
+  <para style="q1" vid="DEU 33:5">
+    <char style="pn">以色列</char>各支派集合之时，</para>
+  <para style="q1" vid="DEU 33:5">耶和华在<char style="pn">耶书仑</char>做王。”<verse eid="DEU 33:5"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="6" style="v" sid="DEU 33:6"/>
+    <char style="pn">摩西</char>祝福<char style="pn">吕便</char>支派说：</para>
+  <para style="q1" vid="DEU 33:6">“尽管<char style="pn">吕便</char>人数稀少，</para>
+  <para style="q1" vid="DEU 33:6">愿他存活，不致灭没。”<verse eid="DEU 33:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="DEU 33:7"/>
+    <char style="pn">摩西</char>祝福<char style="pn">犹大</char>支派说：</para>
+  <para style="q1" vid="DEU 33:7">“耶和华啊，</para>
+  <para style="q1" vid="DEU 33:7">求你听<char style="pn">犹大</char>人的呼求，</para>
+  <para style="q1" vid="DEU 33:7">带他们回归本族，</para>
+  <para style="q1" vid="DEU 33:7">出手为他们争战，</para>
+  <para style="q1" vid="DEU 33:7">帮他们对抗仇敌。”<verse eid="DEU 33:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="DEU 33:8"/>
+    <char style="pn">摩西</char>祝福<char style="pn">利未</char>支派说：</para>
+  <para style="q1" vid="DEU 33:8">“耶和华啊，</para>
+  <para style="q1" vid="DEU 33:8">求你把土明和乌陵赐给虔诚的<char style="pn">利未</char>人，</para>
+  <para style="q1" vid="DEU 33:8">你曾经在<char style="pn">玛撒</char>试验他们，</para>
+  <para style="q1" vid="DEU 33:8">在<char style="pn">米利巴</char>泉边与他们争论。<verse eid="DEU 33:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="DEU 33:9"/>为了听从你的话，遵守你的约，</para>
+  <para style="q1" vid="DEU 33:9">他们不顾父母，</para>
+  <para style="q1" vid="DEU 33:9">舍弃弟兄，抛下儿女。<verse eid="DEU 33:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="DEU 33:10"/>他们把你的典章传授给<char style="pn">雅各</char>，</para>
+  <para style="q1" vid="DEU 33:10">把你的律法传授给<char style="pn">以色列</char>；</para>
+  <para style="q1" vid="DEU 33:10">他们要把香献在你面前，</para>
+  <para style="q1" vid="DEU 33:10">把全牲燔祭献在你的坛上。<verse eid="DEU 33:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="DEU 33:11"/>耶和华啊，</para>
+  <para style="q1" vid="DEU 33:11">求你赐他们力量，</para>
+  <para style="q1" vid="DEU 33:11">悦纳他们的工作，</para>
+  <para style="q1" vid="DEU 33:11">击碎仇敌的腰杆，</para>
+  <para style="q1" vid="DEU 33:11">使敌人一蹶不振。”<verse eid="DEU 33:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="DEU 33:12"/>
+    <char style="pn">摩西</char>祝福<char style="pn">便雅悯</char>支派说：</para>
+  <para style="q1" vid="DEU 33:12">“耶和华所爱的人，</para>
+  <para style="q1" vid="DEU 33:12">安居在祂身边，</para>
+  <para style="q1" vid="DEU 33:12">安居在祂怀中，</para>
+  <para style="q1" vid="DEU 33:12">终日蒙祂庇护。”<verse eid="DEU 33:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="DEU 33:13"/>
+    <char style="pn">摩西</char>祝福<char style="pn">约瑟</char>家族说：</para>
+  <para style="q1" vid="DEU 33:13">“愿他们的土地蒙耶和华赐福，</para>
+  <para style="q1" vid="DEU 33:13">得天上的甘霖，</para>
+  <para style="q1" vid="DEU 33:13">及地下的泉源；<verse eid="DEU 33:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="DEU 33:14"/>得日月之辉，物产丰美；<verse eid="DEU 33:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="DEU 33:15"/>得古老群山之精华，</para>
+  <para style="q1" vid="DEU 33:15">永存丘陵之富饶；<verse eid="DEU 33:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="DEU 33:16"/>得大地的丰肥，</para>
+  <para style="q1" vid="DEU 33:16">蒙荆棘火中之上帝的恩宠。</para>
+  <para style="q1" vid="DEU 33:16">愿这些福气落在<char style="pn">约瑟</char>头上，</para>
+  <para style="q1" vid="DEU 33:16">临到弟兄中的王者身上。<verse eid="DEU 33:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="DEU 33:17"/>
+    <char style="pn">约瑟</char>威武如头生的公牛，</para>
+  <para style="q1" vid="DEU 33:17">有野牛的角，</para>
+  <para style="q1" vid="DEU 33:17">他用角抵万邦，</para>
+  <para style="q1" vid="DEU 33:17">直到地极。</para>
+  <para style="q1" vid="DEU 33:17">他的两角是数以万计的<char style="pn">以法莲</char>人和数以千计的<char style="pn">玛拿西</char>人。”<verse eid="DEU 33:17"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="18" style="v" sid="DEU 33:18"/>
+    <char style="pn">摩西</char>祝福<char style="pn">西布伦</char>和<char style="pn">以萨迦</char>支派说：</para>
+  <para style="q1" vid="DEU 33:18">“愿<char style="pn">西布伦</char>人欣然外出，</para>
+  <para style="q1" vid="DEU 33:18">愿<char style="pn">以萨迦</char>人在帐篷中欢喜。<verse eid="DEU 33:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="DEU 33:19"/>他们要招聚众人上山，</para>
+  <para style="q1" vid="DEU 33:19">一同献上公义的祭；</para>
+  <para style="q1" vid="DEU 33:19">他们汲取海里的财富和沙中的宝藏。”<verse eid="DEU 33:19"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="20" style="v" sid="DEU 33:20"/>
+    <char style="pn">摩西</char>祝福<char style="pn">迦得</char>支派说：</para>
+  <para style="q1" vid="DEU 33:20">“扩张<char style="pn">迦得</char>疆界的那位当受称颂！</para>
+  <para style="q1" vid="DEU 33:20">
+    <char style="pn">迦得</char>蹲伏如母狮，</para>
+  <para style="q1" vid="DEU 33:20">撕碎头颅和臂膀。<verse eid="DEU 33:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="DEU 33:21"/>他为自己选了最好的土地，</para>
+  <para style="q1" vid="DEU 33:21">是留给首领的那份。</para>
+  <para style="q1" vid="DEU 33:21">他与众首领同行，</para>
+  <para style="q1" vid="DEU 33:21">施行耶和华的公义和祂给<char style="pn">以色列</char>的典章。”<verse eid="DEU 33:21"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="22" style="v" sid="DEU 33:22"/>
+    <char style="pn">摩西</char>祝福<char style="pn">但</char>支派说：</para>
+  <para style="q1" vid="DEU 33:22">“<char style="pn">但</char>像一只从<char style="pn">巴珊</char>跃出的幼狮。”<verse eid="DEU 33:22"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="23" style="v" sid="DEU 33:23"/>
+    <char style="pn">摩西</char>祝福<char style="pn">拿弗他利</char>支派说：</para>
+  <para style="q1" vid="DEU 33:23">“<char style="pn">拿弗他利</char>人啊，</para>
+  <para style="q1" vid="DEU 33:23">你们饱尝耶和华的恩宠，</para>
+  <para style="q1" vid="DEU 33:23">满得祂的赐福，</para>
+  <para style="q1" vid="DEU 33:23">拥有西方和南方的土地。”<verse eid="DEU 33:23"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="24" style="v" sid="DEU 33:24"/>
+    <char style="pn">摩西</char>祝福<char style="pn">亚设</char>支派说：</para>
+  <para style="q1" vid="DEU 33:24">“愿<char style="pn">亚设</char>在众子中最蒙福，</para>
+  <para style="q1" vid="DEU 33:24">受众弟兄的恩待，</para>
+  <para style="q1" vid="DEU 33:24">双脚沐浴橄榄油，<verse eid="DEU 33:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="DEU 33:25"/>城门有铜锁铁闩，</para>
+  <para style="q1" vid="DEU 33:25">一生都充满力量。<verse eid="DEU 33:25"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="26" style="v" sid="DEU 33:26"/>“<char style="pn">耶书仑</char>啊，</para>
+  <para style="q1" vid="DEU 33:26">上帝独一无二，</para>
+  <para style="q1" vid="DEU 33:26">祂驰骋诸天，前来助你，</para>
+  <para style="q1" vid="DEU 33:26">穿越长空，充满威严。<verse eid="DEU 33:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="DEU 33:27"/>亘古的上帝是你的庇护，</para>
+  <para style="q1" vid="DEU 33:27">祂永恒的臂膀是你的依托。</para>
+  <para style="q1" vid="DEU 33:27">祂赶走你面前的仇敌，</para>
+  <para style="q1" vid="DEU 33:27">下令毁灭他们。<verse eid="DEU 33:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="DEU 33:28"/>
+    <char style="pn">以色列</char>安然居住，</para>
+  <para style="q1" vid="DEU 33:28">
+    <char style="pn">雅各</char>独居一处，</para>
+  <para style="q1" vid="DEU 33:28">那里盛产五谷新酒，</para>
+  <para style="q1" vid="DEU 33:28">有天上的雨露滋润。<verse eid="DEU 33:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="DEU 33:29"/>
+    <char style="pn">以色列</char>啊，你多么有福！</para>
+  <para style="q1" vid="DEU 33:29">蒙耶和华拯救之人啊，谁能像你？</para>
+  <para style="q1" vid="DEU 33:29">祂是你的盾牌，你得胜的宝剑。</para>
+  <para style="q1" vid="DEU 33:29">敌人要向你屈服，被你践踏。”<verse eid="DEU 33:29"/></para>
+  <chapter eid="DEU 33"/>
+  <chapter number="34" style="c" sid="DEU 34"/>
+  <para style="s1">摩西去世</para>
+  <para style="p">
+    <verse number="1" style="v" sid="DEU 34:1"/>
+    <char style="pn">摩西</char>从<char style="pn">摩押</char>平原登上<char style="pn">尼波</char>山，上到<char style="pn">耶利哥</char>对面的<char style="pn">毗斯迦</char>山顶。耶和华把整片土地指给他看，从<char style="pn">基列</char>一直到<char style="pn">但</char>， <verse eid="DEU 34:1"/><verse number="2" style="v" sid="DEU 34:2"/><char style="pn">拿弗他利</char>全境，<char style="pn">以法莲</char>和<char style="pn">玛拿西</char>地区，远至地中海的<char style="pn">犹大</char>全境， <verse eid="DEU 34:2"/><verse number="3" style="v" sid="DEU 34:3"/>南地和棕榈城<char style="pn">耶利哥</char>的谷地，远至<char style="pn">琐珥</char>。 <verse eid="DEU 34:3"/><verse number="4" style="v" sid="DEU 34:4"/>耶和华对<char style="pn">摩西</char>说：“这便是我向<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>和<char style="pn">雅各</char>起誓要赐给他们子孙的土地。现在我让你亲眼看到了，但你不能进入。”<verse eid="DEU 34:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="DEU 34:5"/>于是，耶和华的仆人<char style="pn">摩西</char>死在<char style="pn">摩押</char>，正如耶和华所言。 <verse eid="DEU 34:5"/><verse number="6" style="v" sid="DEU 34:6"/>耶和华把他安葬在<char style="pn">摩押</char>境内<char style="pn">伯·毗珥</char>对面的山谷，至今无人知道<char style="pn">摩西</char>的坟墓在哪里。 <verse eid="DEU 34:6"/><verse number="7" style="v" sid="DEU 34:7"/><char style="pn">摩西</char>去世时一百二十岁，眼睛没有昏花，精力没有衰败。 <verse eid="DEU 34:7"/><verse number="8" style="v" sid="DEU 34:8"/><char style="pn">以色列</char>人在<char style="pn">摩押</char>平原为<char style="pn">摩西</char>致哀三十天，服丧的日子才结束。<verse eid="DEU 34:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="DEU 34:9"/>
+    <char style="pn">嫩</char>的儿子<char style="pn">约书亚</char>充满了智慧之灵，因为<char style="pn">摩西</char>曾把手按在他身上。<char style="pn">以色列</char>人都听从他，遵守耶和华对<char style="pn">摩西</char>的吩咐。<verse eid="DEU 34:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="DEU 34:10"/>此后，<char style="pn">以色列</char>再也没有出现像<char style="pn">摩西</char>那样的先知，他曾面见耶和华， <verse eid="DEU 34:10"/><verse number="11" style="v" sid="DEU 34:11"/>奉耶和华的命令在<char style="pn">埃及</char>行神迹奇事，惩罚法老及其臣仆和国民， <verse eid="DEU 34:11"/><verse number="12" style="v" sid="DEU 34:12"/>在<char style="pn">以色列</char>人面前行伟大而可畏的事。<verse eid="DEU 34:12"/></para>
+  <chapter eid="DEU 34"/>
+</usx>

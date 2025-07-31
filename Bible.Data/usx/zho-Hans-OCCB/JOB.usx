@@ -1,0 +1,3391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="JOB" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">约伯记</para>
+  <para style="toc1">约伯记</para>
+  <para style="toc2">约伯记</para>
+  <para style="toc3">伯</para>
+  <para style="mt1">约伯记</para>
+  <chapter number="1" style="c" sid="JOB 1"/>
+  <para style="s1">约伯的敬虔</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 1:1"/>
+    <char style="pn">乌斯</char>有一个人名叫<char style="pn">约伯</char>，他纯全正直，敬畏上帝，远离罪恶。 <verse eid="JOB 1:1"/><verse number="2" style="v" sid="JOB 1:2"/>他有七子三女、 <verse eid="JOB 1:2"/><verse number="3" style="v" sid="JOB 1:3"/>七千只羊、三千只骆驼、五百对牛、五百头母驴及许多仆婢。他在东方人中最尊贵。 <verse eid="JOB 1:3"/><verse number="4" style="v" sid="JOB 1:4"/><char style="pn">约伯</char>的儿子们经常轮流在自己家里设宴，派人邀请他们的三个姊妹来一起吃喝。 <verse eid="JOB 1:4"/><verse number="5" style="v" sid="JOB 1:5"/>宴会的日子结束后，<char style="pn">约伯</char>便派人召来他的儿女，为他们行洁净礼。他清早起来，为他们每个人献上燔祭，因为他想：“也许我的孩子们犯了罪，心中亵渎了上帝。”<char style="pn">约伯</char>一贯这样做。<verse eid="JOB 1:5"/></para>
+  <para style="s1">撒旦控告约伯</para>
+  <para style="p">
+    <verse number="6" style="v" sid="JOB 1:6"/>有一天，众天使<note caller="+" style="f"><char style="fr" closed="false">1:6 </char><char style="ft" closed="false">“众天使”希伯来文是“上帝的众子”，<char style="xt"><ref loc="JOB 2:1">2:1</ref></char>和<char style="xt"><ref loc="JOB 38:7">38:7</ref></char>同。</char></note>来朝见耶和华，撒旦也在他们当中。 <verse eid="JOB 1:6"/><verse number="7" style="v" sid="JOB 1:7"/>耶和华问撒旦：“你从哪里来？”撒旦答道：“我在地上到处游走。” <verse eid="JOB 1:7"/><verse number="8" style="v" sid="JOB 1:8"/>耶和华问撒旦：“你注意到我的仆人<char style="pn">约伯</char>了吗？世上没有人像他那样纯全正直，敬畏我，远离罪恶。” <verse eid="JOB 1:8"/><verse number="9" style="v" sid="JOB 1:9"/>撒旦答道：“<char style="pn">约伯</char>敬畏你难道无缘无故吗？ <verse eid="JOB 1:9"/><verse number="10" style="v" sid="JOB 1:10"/>你岂没有用篱笆四面保护他和他全家及一切产业吗？你使他事事蒙福，牛羊遍地。 <verse eid="JOB 1:10"/><verse number="11" style="v" sid="JOB 1:11"/>倘若你伸手毁坏他拥有的一切，他必当面亵渎你。” <verse eid="JOB 1:11"/><verse number="12" style="v" sid="JOB 1:12"/>耶和华对撒旦说：“好吧，他的一切都在你手中，但不可伤害他。”撒旦便从耶和华面前退去。<verse eid="JOB 1:12"/></para>
+  <para style="s1">约伯失去所有</para>
+  <para style="p">
+    <verse number="13" style="v" sid="JOB 1:13"/>有一天，<char style="pn">约伯</char>的儿女正在长兄家吃喝， <verse eid="JOB 1:13"/><verse number="14" style="v" sid="JOB 1:14"/>有报信的人来对<char style="pn">约伯</char>说：“牛正在耕田、驴正在旁边吃草的时候， <verse eid="JOB 1:14"/><verse number="15" style="v" sid="JOB 1:15"/><char style="pn">示巴</char>人忽然来袭，抢走了牲口，用刀杀了你的仆人，只有我一人逃脱来向你报信。” <verse eid="JOB 1:15"/><verse number="16" style="v" sid="JOB 1:16"/>话音未落，又有人来报信说：“上帝的火从天而降，烧死了羊群和牧人，只有我一人逃脱来向你报信。” <verse eid="JOB 1:16"/><verse number="17" style="v" sid="JOB 1:17"/>话音未落，又有人来报信说：“<char style="pn">迦勒底</char>人分三队来袭，抢走了骆驼，用刀杀了你的仆人，只有我一人逃脱来向你报信。” <verse eid="JOB 1:17"/><verse number="18" style="v" sid="JOB 1:18"/>话音未落，又有人来报信说：“你的儿女正在长兄家吃喝的时候， <verse eid="JOB 1:18"/><verse number="19" style="v" sid="JOB 1:19"/>忽然从旷野刮来一阵狂风，摧毁了房子四角，房子倒塌，压死了屋里的年轻人，只有我一人逃脱来向你报信。”<verse eid="JOB 1:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="JOB 1:20"/>
+    <char style="pn">约伯</char>站起来，撕裂外袍，剃掉头发，俯伏在地上敬拜， <verse eid="JOB 1:20"/><verse number="21" style="v" sid="JOB 1:21"/>说：“我从母腹赤身而来，也必赤身而去。赏赐的是耶和华，收回的也是耶和华。耶和华的名当受称颂！” <verse eid="JOB 1:21"/><verse number="22" style="v" sid="JOB 1:22"/><char style="pn">约伯</char>遭此不幸，仍没有犯罪，也没有埋怨上帝。<verse eid="JOB 1:22"/></para>
+  <chapter eid="JOB 1"/>
+  <chapter number="2" style="c" sid="JOB 2"/>
+  <para style="s1">约伯失去健康</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 2:1"/>又有一天，众天使来朝见耶和华，撒旦也在他们当中。 <verse eid="JOB 2:1"/><verse number="2" style="v" sid="JOB 2:2"/>耶和华问撒旦：“你从哪里来？”撒旦答道：“我在地上到处游走。” <verse eid="JOB 2:2"/><verse number="3" style="v" sid="JOB 2:3"/>耶和华问道：“你注意到我的仆人<char style="pn">约伯</char>了吗？世上没有人像他那样纯全正直，敬畏我，远离罪恶。虽然你鼓动我无缘无故地攻击他、毁灭他，他仍然持守自己的纯正。” <verse eid="JOB 2:3"/><verse number="4" style="v" sid="JOB 2:4"/>撒旦回答说：“人会以皮换皮，为了保全生命，情愿舍弃一切。 <verse eid="JOB 2:4"/><verse number="5" style="v" sid="JOB 2:5"/>倘若你伸手伤害他的骨和肉，他必当面亵渎你。” <verse eid="JOB 2:5"/><verse number="6" style="v" sid="JOB 2:6"/>耶和华说：“好吧，他在你手中，但要留他一命。” <verse eid="JOB 2:6"/><verse number="7" style="v" sid="JOB 2:7"/>于是，撒旦从耶和华面前退去，开始加害<char style="pn">约伯</char>，使他从头到脚长毒疮。 <verse eid="JOB 2:7"/><verse number="8" style="v" sid="JOB 2:8"/><char style="pn">约伯</char>坐在炉灰中，拿瓦片刮身体。 <verse eid="JOB 2:8"/><verse number="9" style="v" sid="JOB 2:9"/>他的妻子对他说：“你还要持守自己的纯正吗？不如亵渎上帝，死掉算了！” <verse eid="JOB 2:9"/><verse number="10" style="v" sid="JOB 2:10"/>但<char style="pn">约伯</char>回答说：“你说话像个愚昧的妇人。难道我们只从上帝手里接受祝福，却不接受灾殃吗？”<char style="pn">约伯</char>遭此不幸，仍没有犯言语之罪。<verse eid="JOB 2:10"/></para>
+  <para style="s1">约伯的三个朋友</para>
+  <para style="p">
+    <verse number="11" style="v" sid="JOB 2:11"/>
+    <char style="pn">约伯</char>的三个朋友<char style="pn">提幔</char>人<char style="pn">以利法</char>、<char style="pn">书亚</char>人<char style="pn">比勒达</char>和<char style="pn">拿玛</char>人<char style="pn">琐法</char>听到他的不幸遭遇，便各自从家乡动身，相约一起来探望、安慰他。 <verse eid="JOB 2:11"/><verse number="12" style="v" sid="JOB 2:12"/>他们远远地看见<char style="pn">约伯</char>，几乎认不出是他，禁不住放声大哭，各自撕裂外袍，扬起尘土，让土落在头上。 <verse eid="JOB 2:12"/><verse number="13" style="v" sid="JOB 2:13"/>他们看到<char style="pn">约伯</char>极其痛苦，就陪着他在地上坐了七天七夜，没有对他说一句话。<verse eid="JOB 2:13"/></para>
+  <chapter eid="JOB 2"/>
+  <chapter number="3" style="c" sid="JOB 3"/>
+  <para style="s1">约伯咒诅自己</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 3:1"/>后来，<char style="pn">约伯</char>开口咒诅自己的生日， <verse eid="JOB 3:1"/><verse number="2" style="v" sid="JOB 3:2"/>说：<verse eid="JOB 3:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 3:3"/>“愿我出生的那日和怀我的那夜都灭没。<verse eid="JOB 3:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 3:4"/>愿那日一片黑暗，</para>
+  <para style="q1" vid="JOB 3:4">被天上的上帝遗忘，</para>
+  <para style="q1" vid="JOB 3:4">没有阳光照耀。<verse eid="JOB 3:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 3:5"/>愿那日被幽暗和浓浓的黑影笼罩，</para>
+  <para style="q1" vid="JOB 3:5">被密云覆盖，</para>
+  <para style="q1" vid="JOB 3:5">被阴暗淹没。<verse eid="JOB 3:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 3:6"/>愿那夜被幽暗吞噬，</para>
+  <para style="q1" vid="JOB 3:6">不列在年日中，</para>
+  <para style="q1" vid="JOB 3:6">不算在岁月里。<verse eid="JOB 3:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 3:7"/>愿那夜无人生育，</para>
+  <para style="q1" vid="JOB 3:7">毫无快乐之声。<verse eid="JOB 3:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 3:8"/>愿那些咒诅白日、</para>
+  <para style="q1" vid="JOB 3:8">能惹动海怪的人，</para>
+  <para style="q1" vid="JOB 3:8">咒诅那夜。<verse eid="JOB 3:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 3:9"/>愿那夜的晨星昏暗，</para>
+  <para style="q1" vid="JOB 3:9">等不到晨光的出现，</para>
+  <para style="q1" vid="JOB 3:9">看不见黎明的眼帘。<verse eid="JOB 3:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 3:10"/>因为那夜没有关闭我母胎的门，</para>
+  <para style="q1" vid="JOB 3:10">也没有遮住我眼前的患难。<verse eid="JOB 3:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 3:11"/>“为何我不出生时就夭折，</para>
+  <para style="q1" vid="JOB 3:11">出母胎时就断气？<verse eid="JOB 3:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 3:12"/>为何要把我抱在膝上，</para>
+  <para style="q1" vid="JOB 3:12">用乳汁哺育我？<verse eid="JOB 3:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 3:13"/>不然我早已安然躺卧、长眠安息，<verse eid="JOB 3:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 3:14"/>与世上的君王和谋臣作伴——他们为自己建造的宫殿已荒废，<verse eid="JOB 3:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 3:15"/>与房屋堆满金银的王侯同眠。<verse eid="JOB 3:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 3:16"/>为何我没有像未见天日就流产的婴儿一样消逝？<verse eid="JOB 3:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 3:17"/>那里，恶人不再搅扰，</para>
+  <para style="q1" vid="JOB 3:17">疲惫者得到安息，<verse eid="JOB 3:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 3:18"/>被囚者得到安宁，</para>
+  <para style="q1" vid="JOB 3:18">听不见监工的斥责。<verse eid="JOB 3:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 3:19"/>尊贵与卑贱的人都在那里，</para>
+  <para style="q1" vid="JOB 3:19">奴仆不再受主人的辖制。<verse eid="JOB 3:19"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 3:20"/>“为何赐光给受苦的人，</para>
+  <para style="q1" vid="JOB 3:20">赐生命给心灵痛苦的人？<verse eid="JOB 3:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 3:21"/>他们等候死亡却等不到，</para>
+  <para style="q1" vid="JOB 3:21">他们求死胜于求宝藏。<verse eid="JOB 3:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 3:22"/>他们归入坟墓时非常快乐，</para>
+  <para style="q1" vid="JOB 3:22">欣喜若狂。<verse eid="JOB 3:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 3:23"/>为何赐生命给前路渺茫、</para>
+  <para style="q1" vid="JOB 3:23">被上帝围困的人？<verse eid="JOB 3:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 3:24"/>我以叹息为食，</para>
+  <para style="q1" vid="JOB 3:24">呻吟如水涌流。<verse eid="JOB 3:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 3:25"/>我害怕的事发生了，</para>
+  <para style="q1" vid="JOB 3:25">我恐惧的事来临了。<verse eid="JOB 3:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 3:26"/>我不得安宁，</para>
+  <para style="q1" vid="JOB 3:26">不得平静，</para>
+  <para style="q1" vid="JOB 3:26">不得安息，</para>
+  <para style="q1" vid="JOB 3:26">只有患难。”<verse eid="JOB 3:26"/></para>
+  <chapter eid="JOB 3"/>
+  <chapter number="4" style="c" sid="JOB 4"/>
+  <para style="s1">以利法的责难</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 4:1"/>
+    <char style="pn">提幔</char>人<char style="pn">以利法</char>回答说：<verse eid="JOB 4:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 4:2"/>“若有人向你进言，</para>
+  <para style="q1" vid="JOB 4:2">你会厌烦吗？</para>
+  <para style="q1" vid="JOB 4:2">可是，谁能忍住不说呢？<verse eid="JOB 4:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 4:3"/>你曾教导许多人，</para>
+  <para style="q1" vid="JOB 4:3">使无力的手强壮。<verse eid="JOB 4:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 4:4"/>你的话使人免于跌倒，</para>
+  <para style="q1" vid="JOB 4:4">你使颤抖的膝硬朗。<verse eid="JOB 4:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 4:5"/>但现在苦难一来，</para>
+  <para style="q1" vid="JOB 4:5">你便灰心丧胆；</para>
+  <para style="q1" vid="JOB 4:5">灾祸来临，</para>
+  <para style="q1" vid="JOB 4:5">你便惊慌失措。<verse eid="JOB 4:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 4:6"/>你敬畏上帝还没有信心吗？</para>
+  <para style="q1" vid="JOB 4:6">你行为纯全还没有盼望吗？<verse eid="JOB 4:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 4:7"/>你想一想，</para>
+  <para style="q1" vid="JOB 4:7">哪有无辜的人灭亡？</para>
+  <para style="q1" vid="JOB 4:7">哪有正直的人遭殃？<verse eid="JOB 4:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 4:8"/>据我所见，</para>
+  <para style="q1" vid="JOB 4:8">播恶收恶，</para>
+  <para style="q1" vid="JOB 4:8">种祸得祸。<verse eid="JOB 4:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 4:9"/>他们被上帝的气息所毁，</para>
+  <para style="q1" vid="JOB 4:9">被上帝的怒气所灭。<verse eid="JOB 4:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 4:10"/>狮子咆哮，猛狮吼叫，</para>
+  <para style="q1" vid="JOB 4:10">雄狮的牙齿被敲掉。<verse eid="JOB 4:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 4:11"/>雄狮因无食而死，</para>
+  <para style="q1" vid="JOB 4:11">母狮的幼崽离散。<verse eid="JOB 4:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 4:12"/>“有信息暗暗地传给我，</para>
+  <para style="q1" vid="JOB 4:12">一声低语传入我耳中。<verse eid="JOB 4:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 4:13"/>夜间人们沉睡的时候，</para>
+  <para style="q1" vid="JOB 4:13">在搅扰思绪的异象中，<verse eid="JOB 4:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 4:14"/>恐惧袭来，</para>
+  <para style="q1" vid="JOB 4:14">令我战栗不已，</para>
+  <para style="q1" vid="JOB 4:14">全身发抖。<verse eid="JOB 4:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 4:15"/>有灵从我脸上拂过，</para>
+  <para style="q1" vid="JOB 4:15">使我毛骨悚然。<verse eid="JOB 4:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 4:16"/>那灵停住，</para>
+  <para style="q1" vid="JOB 4:16">我无法辨认其模样。</para>
+  <para style="q1" vid="JOB 4:16">眼前出现一个形状，</para>
+  <para style="q1" vid="JOB 4:16">寂静中听见有声音说，<verse eid="JOB 4:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 4:17"/>‘在上帝面前，世人岂算得上公义？</para>
+  <para style="q1" vid="JOB 4:17">在创造主面前，凡人岂算得上纯洁？<verse eid="JOB 4:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 4:18"/>连上帝的仆人都无法令祂信任，</para>
+  <para style="q1" vid="JOB 4:18">连祂的天使都被祂找出过错，<verse eid="JOB 4:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 4:19"/>更何况那源自尘土、</para>
+  <para style="q1" vid="JOB 4:19">住在土造的躯壳里、</para>
+  <para style="q1" vid="JOB 4:19">脆弱如蛾虫的世人呢？<verse eid="JOB 4:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 4:20"/>早晚之间，他们便被毁灭，</para>
+  <para style="q1" vid="JOB 4:20">永远消逝，无人察觉。<verse eid="JOB 4:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 4:21"/>他们帐篷的绳索拔掉了，</para>
+  <para style="q1" vid="JOB 4:21">他们昏昏聩聩地死去。’<verse eid="JOB 4:21"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 4"/>
+  <chapter number="5" style="c" sid="JOB 5"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 5:1"/>“你只管呼救吧，</para>
+  <para style="q1" vid="JOB 5:1">谁会回应你呢？</para>
+  <para style="q1" vid="JOB 5:1">你向哪位圣者求助呢？<verse eid="JOB 5:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 5:2"/>愤恨害死愚昧人，</para>
+  <para style="q1" vid="JOB 5:2">嫉妒杀死无知者。<verse eid="JOB 5:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 5:3"/>我见愚昧人扎了根，</para>
+  <para style="q1" vid="JOB 5:3">突然咒诅临到他家。<verse eid="JOB 5:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 5:4"/>他的儿女毫无安宁，</para>
+  <para style="q1" vid="JOB 5:4">在城门口受欺压也无人搭救。<verse eid="JOB 5:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 5:5"/>饥饿的人吞掉他的庄稼，</para>
+  <para style="q1" vid="JOB 5:5">连荆棘里的也不放过；</para>
+  <para style="q1" vid="JOB 5:5">干渴的人吞尽他的财富。<verse eid="JOB 5:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 5:6"/>苦难并非从土里长出，</para>
+  <para style="q1" vid="JOB 5:6">患难并非从地里生出。<verse eid="JOB 5:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 5:7"/>人生来必遇患难，</para>
+  <para style="q1" vid="JOB 5:7">正如火花必向上飞。<verse eid="JOB 5:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 5:8"/>“若是我，</para>
+  <para style="q1" vid="JOB 5:8">就向上帝求助，</para>
+  <para style="q1" vid="JOB 5:8">向祂陈明苦衷。<verse eid="JOB 5:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 5:9"/>祂行的奇事不可测度，</para>
+  <para style="q1" vid="JOB 5:9">祂行的神迹不可胜数。<verse eid="JOB 5:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 5:10"/>祂降下雨水浇灌大地，</para>
+  <para style="q1" vid="JOB 5:10">赐下甘霖滋润田园。<verse eid="JOB 5:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 5:11"/>祂提拔卑微的人，</para>
+  <para style="q1" vid="JOB 5:11">庇护哀痛的人。<verse eid="JOB 5:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 5:12"/>祂挫败狡猾人的阴谋，</para>
+  <para style="q1" vid="JOB 5:12">使他们无法得逞。<verse eid="JOB 5:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 5:13"/>祂使智者中了自己的诡计，</para>
+  <para style="q1" vid="JOB 5:13">使奸徒的计谋迅速落空。<verse eid="JOB 5:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 5:14"/>他们白天遇到黑暗，</para>
+  <para style="q1" vid="JOB 5:14">午间摸索如在夜晚。<verse eid="JOB 5:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 5:15"/>上帝拯救穷苦人脱离恶人的中伤，</para>
+  <para style="q1" vid="JOB 5:15">脱离残暴之徒的辖制，<verse eid="JOB 5:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 5:16"/>好使贫寒之人有盼望，</para>
+  <para style="q1" vid="JOB 5:16">使不义之徒哑口无言。<verse eid="JOB 5:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 5:17"/>“被上帝责备的人有福了，</para>
+  <para style="q1" vid="JOB 5:17">不可轻视全能者的管教。<verse eid="JOB 5:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 5:18"/>因为祂打伤，祂也包扎；</para>
+  <para style="q1" vid="JOB 5:18">祂击伤，祂也伸手医治。<verse eid="JOB 5:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 5:19"/>六次遭难，祂都救你；</para>
+  <para style="q1" vid="JOB 5:19">第七次，灾祸也伤不到你。<verse eid="JOB 5:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 5:20"/>饥荒时，祂必救你脱离死亡；</para>
+  <para style="q1" vid="JOB 5:20">战争中，祂必救你脱离刀剑。<verse eid="JOB 5:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 5:21"/>你必免受恶毒的毁谤，</para>
+  <para style="q1" vid="JOB 5:21">灾难来临也不惧怕。<verse eid="JOB 5:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 5:22"/>你必笑对灾殃和饥荒，</para>
+  <para style="q1" vid="JOB 5:22">毫不惧怕地上的野兽。<verse eid="JOB 5:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 5:23"/>你必与田间的石头立约，</para>
+  <para style="q1" vid="JOB 5:23">野兽必与你和平相处。<verse eid="JOB 5:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 5:24"/>你必知道家里安然无恙，</para>
+  <para style="q1" vid="JOB 5:24">察看羊圈，一只不少。<verse eid="JOB 5:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 5:25"/>你必知道子孙昌盛，</para>
+  <para style="q1" vid="JOB 5:25">后代如遍地的青草。<verse eid="JOB 5:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 5:26"/>你必寿终正寝才归坟墓，</para>
+  <para style="q1" vid="JOB 5:26">如同庄稼熟后才被收割。<verse eid="JOB 5:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 5:27"/>看啊，我们已经查验了，</para>
+  <para style="q1" vid="JOB 5:27">这一切真实可靠，</para>
+  <para style="q1" vid="JOB 5:27">你当聆听并学以致用。”<verse eid="JOB 5:27"/></para>
+  <chapter eid="JOB 5"/>
+  <chapter number="6" style="c" sid="JOB 6"/>
+  <para style="s1">约伯自述无辜</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 6:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 6:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 6:2"/>“要是能称量我的苦难，</para>
+  <para style="q1" vid="JOB 6:2">把我的灾殃放在秤上，<verse eid="JOB 6:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 6:3"/>那将比海沙还重；</para>
+  <para style="q1" vid="JOB 6:3">所以我言语鲁莽。<verse eid="JOB 6:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 6:4"/>因为全能者的箭射中我，</para>
+  <para style="q1" vid="JOB 6:4">箭毒侵蚀我的灵，</para>
+  <para style="q1" vid="JOB 6:4">祂使恐惧列队袭来。<verse eid="JOB 6:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 6:5"/>野驴有草岂会叫唤？</para>
+  <para style="q1" vid="JOB 6:5">牛有饲料岂会哞叫？<verse eid="JOB 6:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 6:6"/>淡食无盐岂可下咽？</para>
+  <para style="q1" vid="JOB 6:6">蛋清有什么滋味呢？<verse eid="JOB 6:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 6:7"/>我碰都不想碰，</para>
+  <para style="q1" vid="JOB 6:7">它们令我恶心。<verse eid="JOB 6:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 6:8"/>唯愿我的祈求蒙应允，</para>
+  <para style="q1" vid="JOB 6:8">愿上帝成全我的冀望，<verse eid="JOB 6:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 6:9"/>愿祂压碎我，</para>
+  <para style="q1" vid="JOB 6:9">伸手毁灭我。<verse eid="JOB 6:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 6:10"/>这样，我还能感到欣慰，</para>
+  <para style="q1" vid="JOB 6:10">在残酷的痛苦中雀跃，</para>
+  <para style="q1" vid="JOB 6:10">因我没有违背圣者之言。<verse eid="JOB 6:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 6:11"/>我有何力量可以支撑下去？</para>
+  <para style="q1" vid="JOB 6:11">有何前景让我忍耐下去？<verse eid="JOB 6:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 6:12"/>我的力量岂能坚如石？</para>
+  <para style="q1" vid="JOB 6:12">我岂是铜造之躯？<verse eid="JOB 6:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 6:13"/>我毫无自救之力，</para>
+  <para style="q1" vid="JOB 6:13">已到穷途末路。<verse eid="JOB 6:13"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 6:14"/>“即使绝望者抛弃对上帝的敬畏，</para>
+  <para style="q1" vid="JOB 6:14">也应该得到朋友的恩待。<verse eid="JOB 6:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 6:15"/>我的弟兄难以信赖，</para>
+  <para style="q1" vid="JOB 6:15">如同季节河，</para>
+  <para style="q1" vid="JOB 6:15">又像干涸的河床——<verse eid="JOB 6:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 6:16"/>结冰后颜色发黑，</para>
+  <para style="q1" vid="JOB 6:16">融雪后水流涨溢；<verse eid="JOB 6:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 6:17"/>水流在干季时消失，</para>
+  <para style="q1" vid="JOB 6:17">河床在烈日下干涸。<verse eid="JOB 6:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 6:18"/>商队偏离路线来找水喝，</para>
+  <para style="q1" vid="JOB 6:18">结果在荒漠中死去。<verse eid="JOB 6:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 6:19"/>
+    <char style="pn">提玛</char>的商队来找水喝，</para>
+  <para style="q1" vid="JOB 6:19">
+    <char style="pn">示巴</char>的旅客指望解渴，<verse eid="JOB 6:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 6:20"/>结果希望化为泡影，</para>
+  <para style="q1" vid="JOB 6:20">到了那里大失所望。<verse eid="JOB 6:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 6:21"/>你们同样也帮不了我，</para>
+  <para style="q1" vid="JOB 6:21">你们看见灾祸便害怕。<verse eid="JOB 6:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 6:22"/>我何尝对你们说过，</para>
+  <para style="q1" vid="JOB 6:22">‘请你们供应我，</para>
+  <para style="q1" vid="JOB 6:22">把你们的财产给我一份，<verse eid="JOB 6:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 6:23"/>从仇敌手中拯救我，</para>
+  <para style="q1" vid="JOB 6:23">从残暴之徒手中救赎我’？<verse eid="JOB 6:23"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 6:24"/>“请多赐教，我会闭口不言；</para>
+  <para style="q1" vid="JOB 6:24">请指出我错在何处。<verse eid="JOB 6:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 6:25"/>忠言何等逆耳！</para>
+  <para style="q1" vid="JOB 6:25">但你们的指责有何根据？<verse eid="JOB 6:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 6:26"/>你们既视绝望者的话如风，</para>
+  <para style="q1" vid="JOB 6:26">还要来纠正吗？<verse eid="JOB 6:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 6:27"/>你们甚至抽签得孤儿，</para>
+  <para style="q1" vid="JOB 6:27">把朋友当货物卖掉。<verse eid="JOB 6:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 6:28"/>恳请你们看着我，</para>
+  <para style="q1" vid="JOB 6:28">我在你们面前撒过谎吗？<verse eid="JOB 6:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 6:29"/>请三思而行，不可不公正；</para>
+  <para style="q1" vid="JOB 6:29">请重新考虑，因我诚实无过。<verse eid="JOB 6:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 6:30"/>我岂会说诡诈之言？</para>
+  <para style="q1" vid="JOB 6:30">我岂会是非不辨？<verse eid="JOB 6:30"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 6"/>
+  <chapter number="7" style="c" sid="JOB 7"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 7:1"/>“人生在世岂不像服劳役吗？</para>
+  <para style="q1" vid="JOB 7:1">他有生之年岂不像个雇工吗？<verse eid="JOB 7:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 7:2"/>他像切望阴凉的奴隶，</para>
+  <para style="q1" vid="JOB 7:2">又如期盼报酬的雇工。<verse eid="JOB 7:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 7:3"/>同样，我注定要度过虚空的岁月，</para>
+  <para style="q1" vid="JOB 7:3">熬过悲惨的黑夜。<verse eid="JOB 7:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 7:4"/>我躺在床上，盘算何时起来。</para>
+  <para style="q1" vid="JOB 7:4">长夜漫漫，我辗转难眠，直到拂晓。<verse eid="JOB 7:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 7:5"/>我身上布满蛆虫、伤疤，</para>
+  <para style="q1" vid="JOB 7:5">皮肤破裂，流脓不止。<verse eid="JOB 7:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 7:6"/>我的年日飞逝，比梭还快，</para>
+  <para style="q1" vid="JOB 7:6">转眼结束，毫无盼望。<verse eid="JOB 7:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 7:7"/>“上帝啊，别忘了我的生命不过是一口气，</para>
+  <para style="q1" vid="JOB 7:7">我再也看不见幸福。<verse eid="JOB 7:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 7:8"/>注视我的眼睛将再也看不见我，</para>
+  <para style="q1" vid="JOB 7:8">你将寻找我，而我已不复存在。<verse eid="JOB 7:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 7:9"/>人下到阴间不再上来，</para>
+  <para style="q1" vid="JOB 7:9">如同烟消云散；<verse eid="JOB 7:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 7:10"/>他永不再返回家园，</para>
+  <para style="q1" vid="JOB 7:10">故土也不再认识他。<verse eid="JOB 7:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 7:11"/>“因此我不再缄默不语，</para>
+  <para style="q1" vid="JOB 7:11">我要吐露胸中的悲痛，</para>
+  <para style="q1" vid="JOB 7:11">倾诉心里的苦楚。<verse eid="JOB 7:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 7:12"/>上帝啊，我岂是大海，岂是海怪，</para>
+  <para style="q1" vid="JOB 7:12">值得你这样防范我？<verse eid="JOB 7:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 7:13"/>我说床铺是我的安慰，</para>
+  <para style="q1" vid="JOB 7:13">卧榻可解除我的哀愁，<verse eid="JOB 7:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 7:14"/>这时你却用噩梦惊我，</para>
+  <para style="q1" vid="JOB 7:14">用异象吓我，<verse eid="JOB 7:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 7:15"/>以致我宁愿窒息而死，</para>
+  <para style="q1" vid="JOB 7:15">也不愿留着这身骨头。<verse eid="JOB 7:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 7:16"/>我厌恶生命，不想永活。</para>
+  <para style="q1" vid="JOB 7:16">不要管我，因为我的日子都是虚空。<verse eid="JOB 7:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 7:17"/>“人算什么，你竟这样看重他，</para>
+  <para style="q1" vid="JOB 7:17">这样关注他？<verse eid="JOB 7:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 7:18"/>你天天早上察看他，</para>
+  <para style="q1" vid="JOB 7:18">时时刻刻考验他。<verse eid="JOB 7:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 7:19"/>你的视线何时离开我，</para>
+  <para style="q1" vid="JOB 7:19">给我咽口唾沫的时间？<verse eid="JOB 7:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 7:20"/>鉴察世人的主啊，</para>
+  <para style="q1" vid="JOB 7:20">我若犯了罪，又于你何妨？</para>
+  <para style="q1" vid="JOB 7:20">为何把我当成你的箭靶？</para>
+  <para style="q1" vid="JOB 7:20">难道我成了你的重担？<verse eid="JOB 7:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 7:21"/>为何不赦免我的过犯，</para>
+  <para style="q1" vid="JOB 7:21">饶恕我的罪恶？</para>
+  <para style="q1" vid="JOB 7:21">我很快将归于尘土，</para>
+  <para style="q1" vid="JOB 7:21">你将寻找我，</para>
+  <para style="q1" vid="JOB 7:21">而我已不复存在。”<verse eid="JOB 7:21"/></para>
+  <chapter eid="JOB 7"/>
+  <chapter number="8" style="c" sid="JOB 8"/>
+  <para style="s1">比勒达发言</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 8:1"/>
+    <char style="pn">书亚</char>人<char style="pn">比勒达</char>回答说：<verse eid="JOB 8:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 8:2"/>“你要这样絮叨到何时？</para>
+  <para style="q1" vid="JOB 8:2">你的话犹如阵阵狂风。<verse eid="JOB 8:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 8:3"/>上帝岂会歪曲正义？</para>
+  <para style="q1" vid="JOB 8:3">全能者岂会颠倒是非？<verse eid="JOB 8:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 8:4"/>如果你的儿女得罪了祂，</para>
+  <para style="q1" vid="JOB 8:4">祂会给他们应有的惩罚。<verse eid="JOB 8:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 8:5"/>但你若寻求上帝，</para>
+  <para style="q1" vid="JOB 8:5">向全能者恳求；<verse eid="JOB 8:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 8:6"/>你若纯洁、正直，</para>
+  <para style="q1" vid="JOB 8:6">祂必起身相助，</para>
+  <para style="q1" vid="JOB 8:6">恢复你公义的家园。<verse eid="JOB 8:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 8:7"/>你起初虽然卑微，</para>
+  <para style="q1" vid="JOB 8:7">日后必兴旺发达。<verse eid="JOB 8:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 8:8"/>“你要请教先辈，</para>
+  <para style="q1" vid="JOB 8:8">探究祖先的经验。<verse eid="JOB 8:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 8:9"/>因为我们昨天才出生，一无所知，</para>
+  <para style="q1" vid="JOB 8:9">我们在世的日子如同掠影。<verse eid="JOB 8:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 8:10"/>先辈必给你教诲和指点，</para>
+  <para style="q1" vid="JOB 8:10">向你道出明智之言。<verse eid="JOB 8:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 8:11"/>“蒲草无泥岂可长高？</para>
+  <para style="q1" vid="JOB 8:11">芦苇无水岂可茂盛？<verse eid="JOB 8:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 8:12"/>它们还在生长、尚未割下，</para>
+  <para style="q1" vid="JOB 8:12">已比百草先枯萎。<verse eid="JOB 8:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 8:13"/>忘记上帝的人，结局也是如此；</para>
+  <para style="q1" vid="JOB 8:13">不信上帝的人，盼望终必破灭。<verse eid="JOB 8:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 8:14"/>他所仰仗的虚若游丝，</para>
+  <para style="q1" vid="JOB 8:14">他所倚靠的诚如蛛网。<verse eid="JOB 8:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 8:15"/>他倚靠它，它却支撑不住；</para>
+  <para style="q1" vid="JOB 8:15">他抓紧它，它却脆弱不稳。<verse eid="JOB 8:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 8:16"/>他像阳光下生机勃勃的植物，</para>
+  <para style="q1" vid="JOB 8:16">枝条爬满了园囿，<verse eid="JOB 8:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 8:17"/>根茎盘绕石堆，</para>
+  <para style="q1" vid="JOB 8:17">深深扎入石缝。<verse eid="JOB 8:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 8:18"/>一旦他被连根拔起，</para>
+  <para style="q1" vid="JOB 8:18">原处必否认见过他。<verse eid="JOB 8:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 8:19"/>他的生命就这样消逝<note caller="+" style="f"><char style="fr" closed="false">8:19 </char><char style="ft" closed="false">“他的生命就这样消逝”或译“这就是他一生的乐趣”。</char></note>，</para>
+  <para style="q1" vid="JOB 8:19">地上会兴起其他人。<verse eid="JOB 8:19"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 8:20"/>“上帝绝不会抛弃纯全的人，</para>
+  <para style="q1" vid="JOB 8:20">也不会扶持邪恶的人。<verse eid="JOB 8:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 8:21"/>祂要使你笑口常开，</para>
+  <para style="q1" vid="JOB 8:21">欢声不断。<verse eid="JOB 8:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 8:22"/>憎恨你的人必抱愧蒙羞，</para>
+  <para style="q1" vid="JOB 8:22">恶人的帐篷必不复存在。”<verse eid="JOB 8:22"/></para>
+  <chapter eid="JOB 8"/>
+  <chapter number="9" style="c" sid="JOB 9"/>
+  <para style="s1">约伯的回应</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 9:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 9:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 9:2"/>“不错，我知道你所言不虚，</para>
+  <para style="q1" vid="JOB 9:2">但人怎能在上帝面前算为义人？<verse eid="JOB 9:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 9:3"/>人若想与祂辩驳，</para>
+  <para style="q1" vid="JOB 9:3">千次也不能胜一次。<verse eid="JOB 9:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 9:4"/>祂充满智慧，能力无比，</para>
+  <para style="q1" vid="JOB 9:4">谁能抗拒祂还能平安无恙？<verse eid="JOB 9:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 9:5"/>祂可猝然挪动群山，</para>
+  <para style="q1" vid="JOB 9:5">在怒气中把山翻倒。<verse eid="JOB 9:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 9:6"/>祂震动大地，使其挪位，</para>
+  <para style="q1" vid="JOB 9:6">以致地的支柱摇撼。<verse eid="JOB 9:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 9:7"/>祂一声令下，</para>
+  <para style="q1" vid="JOB 9:7">太阳便不再升起，</para>
+  <para style="q1" vid="JOB 9:7">众星也不再发光。<verse eid="JOB 9:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 9:8"/>祂独自铺展穹苍，</para>
+  <para style="q1" vid="JOB 9:8">步行在海浪之上。<verse eid="JOB 9:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 9:9"/>祂创造了北斗星、参星、昴星及南天的星座。<verse eid="JOB 9:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 9:10"/>祂行的奇事不可测度，</para>
+  <para style="q1" vid="JOB 9:10">奇迹不可胜数。<verse eid="JOB 9:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 9:11"/>祂经过我身旁，我却看不见；</para>
+  <para style="q1" vid="JOB 9:11">祂从旁边掠过，我也无法察觉。<verse eid="JOB 9:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 9:12"/>祂若夺取，谁能阻挡？</para>
+  <para style="q1" vid="JOB 9:12">谁敢问祂，‘你做什么？’<verse eid="JOB 9:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 9:13"/>上帝不会忍怒不发，</para>
+  <para style="q1" vid="JOB 9:13">海怪<note caller="+" style="f"><char style="fr" closed="false">9:13 </char><char style="ft" closed="false">“海怪”希伯来文是“拉哈伯”，下同<char style="xt"><ref loc="JOB 26:12">26:12</ref></char>。</char></note>的帮手必屈膝在祂脚前。<verse eid="JOB 9:13"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 9:14"/>“因此，我怎敢与祂辩驳？</para>
+  <para style="q1" vid="JOB 9:14">怎敢措辞与祂理论？<verse eid="JOB 9:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 9:15"/>我纵然无辜，也无法申诉，</para>
+  <para style="q1" vid="JOB 9:15">只能乞求我的审判者施恩。<verse eid="JOB 9:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 9:16"/>即使我呼唤祂的时候，祂回应我，</para>
+  <para style="q1" vid="JOB 9:16">我仍不相信祂会垂听我的声音。<verse eid="JOB 9:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 9:17"/>祂用暴风摧毁我，</para>
+  <para style="q1" vid="JOB 9:17">无故地使我饱受创伤。<verse eid="JOB 9:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 9:18"/>祂不肯让我喘息，</para>
+  <para style="q1" vid="JOB 9:18">祂使我尝尽苦头。<verse eid="JOB 9:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 9:19"/>若论力量，祂甚强大；</para>
+  <para style="q1" vid="JOB 9:19">若上公堂，谁敢传祂？<verse eid="JOB 9:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 9:20"/>即使我清白无辜，我的口也会认罪；</para>
+  <para style="q1" vid="JOB 9:20">即使我纯全无过，祂也会判我有罪。<verse eid="JOB 9:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 9:21"/>我虽纯全无过，也已毫不在乎自己，</para>
+  <para style="q1" vid="JOB 9:21">我厌恶我的生命。<verse eid="JOB 9:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 9:22"/>因为，我认为都是一样，</para>
+  <para style="q1" vid="JOB 9:22">纯全无过的人和恶人都会被祂毁灭。<verse eid="JOB 9:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 9:23"/>灾祸突然夺走人命时，</para>
+  <para style="q1" vid="JOB 9:23">祂嘲笑无辜者的遭遇。<verse eid="JOB 9:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 9:24"/>大地落入恶人手中，</para>
+  <para style="q1" vid="JOB 9:24">蒙蔽审判官眼睛的不是祂是谁？<verse eid="JOB 9:24"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 9:25"/>“我的年日比信差还快，</para>
+  <para style="q1" vid="JOB 9:25">匆匆而过，不见幸福。<verse eid="JOB 9:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 9:26"/>我的岁月疾驰如蒲草船，</para>
+  <para style="q1" vid="JOB 9:26">快如急降抓食的老鹰。<verse eid="JOB 9:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 9:27"/>即使我说要忘掉怨恨，</para>
+  <para style="q1" vid="JOB 9:27">抛开愁容，强颜欢笑，<verse eid="JOB 9:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 9:28"/>诸多的患难仍使我惧怕，</para>
+  <para style="q1" vid="JOB 9:28">我知道祂<note caller="+" style="f"><char style="fr" closed="false">9:28 </char><char style="ft" closed="false">“祂”希伯来文是“你”，下同31节。</char></note>不承认我无辜。<verse eid="JOB 9:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 9:29"/>既然我被定为有罪，</para>
+  <para style="q1" vid="JOB 9:29">又何必徒然挣扎？<verse eid="JOB 9:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 9:30"/>即使我用雪水净身，</para>
+  <para style="q1" vid="JOB 9:30">用碱水洗手，<verse eid="JOB 9:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 9:31"/>祂仍会把我扔进污坑，</para>
+  <para style="q1" vid="JOB 9:31">连我的衣服也嫌弃我。<verse eid="JOB 9:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 9:32"/>祂并非世人，与我迥异，</para>
+  <para style="q1" vid="JOB 9:32">我无法与祂辩驳，一起对簿公堂。<verse eid="JOB 9:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 9:33"/>我俩中间没有仲裁者，</para>
+  <para style="q1" vid="JOB 9:33">无人为我们断定是非<note caller="+" style="f"><char style="fr" closed="false">9:33 </char><char style="ft" closed="false">“为我们断定是非”希伯来文是“把手按在我们身上”。</char></note>。<verse eid="JOB 9:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="JOB 9:34"/>若能拿开祂责打我的刑杖，</para>
+  <para style="q1" vid="JOB 9:34">使我不再受祂的惊吓，<verse eid="JOB 9:34"/></para>
+  <para style="q1">
+    <verse number="35" style="v" sid="JOB 9:35"/>我就会放胆发言，不必对祂心存恐惧，</para>
+  <para style="q1" vid="JOB 9:35">但现在我却不能这样<note caller="+" style="f"><char style="fr" closed="false">9:35 </char><char style="ft" closed="false">“但现在我却不能这样”或译“因为我知道自己的清白”。</char></note>。<verse eid="JOB 9:35"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 9"/>
+  <chapter number="10" style="c" sid="JOB 10"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 10:1"/>“我厌恶自己的生命，</para>
+  <para style="q1" vid="JOB 10:1">我要倾诉我的哀怨，</para>
+  <para style="q1" vid="JOB 10:1">吐露心中的苦水。<verse eid="JOB 10:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 10:2"/>我对上帝说，‘不要定我的罪。</para>
+  <para style="q1" vid="JOB 10:2">请告诉我，你为何指控我？<verse eid="JOB 10:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 10:3"/>难道你喜悦压迫、鄙视你造的人，</para>
+  <para style="q1" vid="JOB 10:3">却青睐恶人的计谋？<verse eid="JOB 10:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 10:4"/>难道你的眼是肉眼，</para>
+  <para style="q1" vid="JOB 10:4">目光如凡人一般？<verse eid="JOB 10:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 10:5"/>难道你的年日像人一样有限，</para>
+  <para style="q1" vid="JOB 10:5">岁月如世人般短暂？<verse eid="JOB 10:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 10:6"/>以致你探查我的过犯，</para>
+  <para style="q1" vid="JOB 10:6">追究我的罪愆？<verse eid="JOB 10:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 10:7"/>其实你知道我没有犯罪，</para>
+  <para style="q1" vid="JOB 10:7">无人能从你手中解救我。<verse eid="JOB 10:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 10:8"/>“‘你亲手造我塑我，</para>
+  <para style="q1" vid="JOB 10:8">现在却要毁灭我。<verse eid="JOB 10:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 10:9"/>别忘了你用泥土造我<note caller="+" style="f"><char style="fr" closed="false">10:9 </char><char style="ft" closed="false">“用泥土造我”或译“把我造的像泥土”。</char></note>，</para>
+  <para style="q1" vid="JOB 10:9">难道要使我复归尘土？<verse eid="JOB 10:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 10:10"/>你不是将我像奶一样倒出，</para>
+  <para style="q1" vid="JOB 10:10">使我像奶酪一样凝固吗？<note caller="+" style="f"><char style="fr" closed="false">10:10 </char><char style="ft" closed="false">此句描述胚胎在母腹中如何成形。</char></note><verse eid="JOB 10:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 10:11"/>你给我穿上皮肉，</para>
+  <para style="q1" vid="JOB 10:11">用筋骨把我编织。<verse eid="JOB 10:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 10:12"/>你赐我生命给我慈爱，</para>
+  <para style="q1" vid="JOB 10:12">你的眷顾使我保全性命。<verse eid="JOB 10:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 10:13"/>“‘但你心中藏着计划，</para>
+  <para style="q1" vid="JOB 10:13">我知道你早有此意，<verse eid="JOB 10:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 10:14"/>我若犯罪，你就鉴察，</para>
+  <para style="q1" vid="JOB 10:14">不肯赦免我的罪。<verse eid="JOB 10:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 10:15"/>我若有罪，便遭祸患；</para>
+  <para style="q1" vid="JOB 10:15">即使清白，也不敢抬头，</para>
+  <para style="q1" vid="JOB 10:15">因为我饱尝羞辱，吃尽苦头。<verse eid="JOB 10:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 10:16"/>我若昂首挺立，</para>
+  <para style="q1" vid="JOB 10:16">你会像狮子般追捕我，</para>
+  <para style="q1" vid="JOB 10:16">再次施展大能攻击我。<verse eid="JOB 10:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 10:17"/>你重新派证人指控我，</para>
+  <para style="q1" vid="JOB 10:17">你对我越来越愤怒，</para>
+  <para style="q1" vid="JOB 10:17">使军队轮流攻击我。<verse eid="JOB 10:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 10:18"/>你为何让我出母腹？</para>
+  <para style="q1" vid="JOB 10:18">我不如当时就死去，</para>
+  <para style="q1" vid="JOB 10:18">不被世人看见，<verse eid="JOB 10:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 10:19"/>好像我从未出生，</para>
+  <para style="q1" vid="JOB 10:19">一出母腹就被送进坟墓。<verse eid="JOB 10:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 10:20"/>我的年日不是所剩无几吗？</para>
+  <para style="q1" vid="JOB 10:20">求你放过我，</para>
+  <para style="q1" vid="JOB 10:20">让我欢乐片刻。<verse eid="JOB 10:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 10:21"/>我很快就一去不返，</para>
+  <para style="q1" vid="JOB 10:21">进入幽冥黑暗之地。<verse eid="JOB 10:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 10:22"/>那里一片漆黑，幽暗混乱；</para>
+  <para style="q1" vid="JOB 10:22">那里的光犹如黑暗。’”<verse eid="JOB 10:22"/></para>
+  <chapter eid="JOB 10"/>
+  <chapter number="11" style="c" sid="JOB 11"/>
+  <para style="s1">琐法的回答</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 11:1"/>
+    <char style="pn">拿玛</char>人<char style="pn">琐法</char>回答说：<verse eid="JOB 11:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 11:2"/>“难道滔滔不绝就无人反驳？</para>
+  <para style="q1" vid="JOB 11:2">难道唠唠叨叨就证明有理？<verse eid="JOB 11:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 11:3"/>你喋喋不休，岂能使人缄默不言？</para>
+  <para style="q1" vid="JOB 11:3">你嘲笑讥讽，岂不该有人使你羞愧？<verse eid="JOB 11:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 11:4"/>你自以为信仰纯全，</para>
+  <para style="q1" vid="JOB 11:4">在上帝眼中清白。<verse eid="JOB 11:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 11:5"/>唯愿上帝发言，</para>
+  <para style="q1" vid="JOB 11:5">开口驳斥你，<verse eid="JOB 11:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 11:6"/>告诉你智慧的奥秘，</para>
+  <para style="q1" vid="JOB 11:6">因为真智慧深奥难懂。</para>
+  <para style="q1" vid="JOB 11:6">要知道，上帝没有追究你全部的罪愆。<verse eid="JOB 11:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 11:7"/>“你能测度上帝的深奥，</para>
+  <para style="q1" vid="JOB 11:7">查明全能者的极限吗？<verse eid="JOB 11:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 11:8"/>那可比诸天还高，你能做什么？</para>
+  <para style="q1" vid="JOB 11:8">那可比阴间还深，你能知道什么？<verse eid="JOB 11:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 11:9"/>那可比大地还宽广，</para>
+  <para style="q1" vid="JOB 11:9">比海洋还辽阔。<verse eid="JOB 11:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 11:10"/>祂若来囚禁你，</para>
+  <para style="q1" vid="JOB 11:10">开庭审判，</para>
+  <para style="q1" vid="JOB 11:10">谁能阻拦？<verse eid="JOB 11:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 11:11"/>祂洞悉诡诈之人，</para>
+  <para style="q1" vid="JOB 11:11">看见罪恶，</para>
+  <para style="q1" vid="JOB 11:11">岂会不理？<verse eid="JOB 11:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 11:12"/>愚蠢人若能变得聪明，</para>
+  <para style="q1" vid="JOB 11:12">野驴驹也可生成人样。<verse eid="JOB 11:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 11:13"/>“你若把心安正，</para>
+  <para style="q1" vid="JOB 11:13">向祂伸出双手；<verse eid="JOB 11:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 11:14"/>你若除去手中的罪恶，</para>
+  <para style="q1" vid="JOB 11:14">不容帐篷里有任何不义，<verse eid="JOB 11:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 11:15"/>就必能无愧地仰起脸，</para>
+  <para style="q1" vid="JOB 11:15">站立得稳，无所畏惧。<verse eid="JOB 11:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 11:16"/>你必忘记自己的苦楚，</para>
+  <para style="q1" vid="JOB 11:16">它从你记忆中如流水逝去。<verse eid="JOB 11:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 11:17"/>你的人生将比正午还光明，</para>
+  <para style="q1" vid="JOB 11:17">生命中的黑暗也必像黎明。<verse eid="JOB 11:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 11:18"/>你必安稳，因有盼望，</para>
+  <para style="q1" vid="JOB 11:18">你必得到保护，安然歇息。<verse eid="JOB 11:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 11:19"/>你睡觉时必无人惊扰，</para>
+  <para style="q1" vid="JOB 11:19">许多人必求你施恩。<verse eid="JOB 11:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 11:20"/>但恶人必眼目失明，无路可逃，</para>
+  <para style="q1" vid="JOB 11:20">他们的指望只有死亡。”<verse eid="JOB 11:20"/></para>
+  <chapter eid="JOB 11"/>
+  <chapter number="12" style="c" sid="JOB 12"/>
+  <para style="s1">约伯的回答</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 12:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 12:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 12:2"/>“你们真是重要人物，</para>
+  <para style="q1" vid="JOB 12:2">你们死了，智慧也会消逝！<verse eid="JOB 12:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 12:3"/>但我也有心智，不比你们逊色。</para>
+  <para style="q1" vid="JOB 12:3">你们说的，谁不知道？<verse eid="JOB 12:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 12:4"/>我这求告上帝并蒙祂应允的人竟成了朋友的笑柄，</para>
+  <para style="q1" vid="JOB 12:4">我这公义纯全的人竟成了笑柄。<verse eid="JOB 12:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 12:5"/>安逸的人心中藐视灾祸，</para>
+  <para style="q1" vid="JOB 12:5">灾祸随时临到滑倒的人。<verse eid="JOB 12:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 12:6"/>强盗的帐篷太平，</para>
+  <para style="q1" vid="JOB 12:6">冒犯上帝、手捧神像的人安稳。<verse eid="JOB 12:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 12:7"/>“你去问走兽，它们会指教你；</para>
+  <para style="q1" vid="JOB 12:7">问天上的飞禽，它们会告诉你；<verse eid="JOB 12:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 12:8"/>向大地讨教，大地会指教你，</para>
+  <para style="q1" vid="JOB 12:8">或让海中的鱼为你阐明。<verse eid="JOB 12:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 12:9"/>它们当中哪个不知这是耶和华亲手所为？<verse eid="JOB 12:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 12:10"/>所有生命都在祂手中，</para>
+  <para style="q1" vid="JOB 12:10">世人的气息也不例外。<verse eid="JOB 12:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 12:11"/>耳朵岂不辨别话语，</para>
+  <para style="q1" vid="JOB 12:11">舌头岂不品尝食物？<verse eid="JOB 12:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 12:12"/>智慧与老人相伴，</para>
+  <para style="q1" vid="JOB 12:12">知识与长者为伍。<verse eid="JOB 12:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 12:13"/>“上帝有智慧和权能，</para>
+  <para style="q1" vid="JOB 12:13">谋略和知识属于祂。<verse eid="JOB 12:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 12:14"/>祂拆毁的，无法重建；</para>
+  <para style="q1" vid="JOB 12:14">祂囚禁的，无法获释。<verse eid="JOB 12:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 12:15"/>祂拦住水源，便有干旱；</para>
+  <para style="q1" vid="JOB 12:15">祂放开水源，大地被淹没。<verse eid="JOB 12:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 12:16"/>祂充满力量和智慧。</para>
+  <para style="q1" vid="JOB 12:16">骗子和受骗者都在祂权下。<verse eid="JOB 12:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 12:17"/>祂使谋士赤身被掳，</para>
+  <para style="q1" vid="JOB 12:17">使审判官愚拙不堪。<verse eid="JOB 12:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 12:18"/>祂除去君王的腰带，</para>
+  <para style="q1" vid="JOB 12:18">在他们腰间绑上囚索。<verse eid="JOB 12:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 12:19"/>祂使祭司赤身被掳，</para>
+  <para style="q1" vid="JOB 12:19">祂推翻久握大权者。<verse eid="JOB 12:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 12:20"/>祂夺去谋士的口才，</para>
+  <para style="q1" vid="JOB 12:20">祂拿走长者的洞见。<verse eid="JOB 12:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 12:21"/>祂使权贵倍受羞辱，</para>
+  <para style="q1" vid="JOB 12:21">祂除掉强者的权势。<verse eid="JOB 12:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 12:22"/>祂揭露黑暗中的奥秘，</para>
+  <para style="q1" vid="JOB 12:22">祂把幽暗带入光明中。<verse eid="JOB 12:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 12:23"/>祂使列国兴起又灭亡，</para>
+  <para style="q1" vid="JOB 12:23">祂使列国扩张又崩溃。<verse eid="JOB 12:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 12:24"/>祂夺去世人首领的心智，</para>
+  <para style="q1" vid="JOB 12:24">使他们在无路的荒野流浪。<verse eid="JOB 12:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 12:25"/>他们在无光的黑暗中摸索，</para>
+  <para style="q1" vid="JOB 12:25">像醉汉般踉踉跄跄。<verse eid="JOB 12:25"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 12"/>
+  <chapter number="13" style="c" sid="JOB 13"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 13:1"/>“这一切，我亲眼见过，</para>
+  <para style="q1" vid="JOB 13:1">亲耳听过，且已明白。<verse eid="JOB 13:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 13:2"/>你们知道的我也知道，</para>
+  <para style="q1" vid="JOB 13:2">我不比你们逊色。<verse eid="JOB 13:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 13:3"/>但我想和全能者对话，</para>
+  <para style="q1" vid="JOB 13:3">我渴望跟上帝理论。<verse eid="JOB 13:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 13:4"/>你们却编造谎言，</para>
+  <para style="q1" vid="JOB 13:4">都是无用的医生。<verse eid="JOB 13:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 13:5"/>但愿你们闭口不言，</para>
+  <para style="q1" vid="JOB 13:5">那样还算你们明智。<verse eid="JOB 13:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 13:6"/>请听我的申辩，</para>
+  <para style="q1" vid="JOB 13:6">留心听我口中的争讼。<verse eid="JOB 13:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 13:7"/>你们要为上帝说谎，</para>
+  <para style="q1" vid="JOB 13:7">为祂说诡诈的话吗？<verse eid="JOB 13:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 13:8"/>你们要偏袒上帝吗？</para>
+  <para style="q1" vid="JOB 13:8">你们要替祂辩护吗？<verse eid="JOB 13:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 13:9"/>祂查问你们时岂会有好结果？</para>
+  <para style="q1" vid="JOB 13:9">你们岂能像欺骗人一样欺骗祂？<verse eid="JOB 13:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 13:10"/>你们若暗中偏袒，</para>
+  <para style="q1" vid="JOB 13:10">祂必责备你们。<verse eid="JOB 13:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 13:11"/>难道祂的威严不令你们恐惧吗？</para>
+  <para style="q1" vid="JOB 13:11">难道你们不对祂充满敬畏吗？<verse eid="JOB 13:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 13:12"/>你们的名言是无用的灰烬，</para>
+  <para style="q1" vid="JOB 13:12">你们的雄辩是土筑的营垒。<verse eid="JOB 13:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 13:13"/>“你们住口，让我发言；</para>
+  <para style="q1" vid="JOB 13:13">我愿承担一切后果。<verse eid="JOB 13:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 13:14"/>我已经豁出性命，</para>
+  <para style="q1" vid="JOB 13:14">不惜冒生命危险。<verse eid="JOB 13:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 13:15"/>祂必杀我，我毫无指望，<note caller="+" style="f"><char style="fr" closed="false">13:15 </char><char style="ft" closed="false">“祂必杀我，我毫无指望”或译“即使祂杀我，我也信靠祂”。</char></note></para>
+  <para style="q1" vid="JOB 13:15">但我仍要在祂面前为自己申辩。<verse eid="JOB 13:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 13:16"/>这样我才能得救，</para>
+  <para style="q1" vid="JOB 13:16">因为不信上帝的人不可到祂面前。<verse eid="JOB 13:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 13:17"/>请留心听我说话，</para>
+  <para style="q1" vid="JOB 13:17">侧耳听我发言。<verse eid="JOB 13:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 13:18"/>看啊，我已准备好辩词，</para>
+  <para style="q1" vid="JOB 13:18">我知道自己有理。<verse eid="JOB 13:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 13:19"/>若有人能指控我，</para>
+  <para style="q1" vid="JOB 13:19">我就缄默，情愿死去。<verse eid="JOB 13:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 13:20"/>上帝啊，只求你应允我两件事，</para>
+  <para style="q1" vid="JOB 13:20">我就不躲避你的面，<verse eid="JOB 13:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 13:21"/>求你把手从我身上挪开，</para>
+  <para style="q1" vid="JOB 13:21">不要用你的威严惊吓我。<verse eid="JOB 13:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 13:22"/>这样，你传唤我，我必回应；</para>
+  <para style="q1" vid="JOB 13:22">或者让我陈述，你来回答。<verse eid="JOB 13:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 13:23"/>我究竟有什么过错和罪恶？</para>
+  <para style="q1" vid="JOB 13:23">求你指出我的过犯和罪愆。<verse eid="JOB 13:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 13:24"/>你为何掩面不看我？</para>
+  <para style="q1" vid="JOB 13:24">为何把我当作仇敌？<verse eid="JOB 13:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 13:25"/>你要恐吓一片风中的落叶吗？</para>
+  <para style="q1" vid="JOB 13:25">你要追赶枯干的草芥吗？<verse eid="JOB 13:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 13:26"/>你记下指控我的罪状，</para>
+  <para style="q1" vid="JOB 13:26">让我承担幼年的罪恶。<verse eid="JOB 13:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 13:27"/>你给我上了脚镣，</para>
+  <para style="q1" vid="JOB 13:27">监视我的一举一动，</para>
+  <para style="q1" vid="JOB 13:27">为我的脚掌设界限。<verse eid="JOB 13:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 13:28"/>我消逝如朽烂之物，</para>
+  <para style="q1" vid="JOB 13:28">又如虫蛀的衣服。<verse eid="JOB 13:28"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 13"/>
+  <chapter number="14" style="c" sid="JOB 14"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 14:1"/>“人为妇人所生，</para>
+  <para style="q1" vid="JOB 14:1">一生短暂，充满患难。<verse eid="JOB 14:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 14:2"/>他如花盛开，转眼凋谢；</para>
+  <para style="q1" vid="JOB 14:2">如影消逝，无法久留。<verse eid="JOB 14:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 14:3"/>你还察看这样的世人吗？</para>
+  <para style="q1" vid="JOB 14:3">还要把我带来受审吗？<verse eid="JOB 14:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 14:4"/>谁能使污秽产生洁净呢？</para>
+  <para style="q1" vid="JOB 14:4">没有人能。<verse eid="JOB 14:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 14:5"/>人的年日已被限定，</para>
+  <para style="q1" vid="JOB 14:5">你掌管他的岁月，</para>
+  <para style="q1" vid="JOB 14:5">设定他无法逾越的界限。<verse eid="JOB 14:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 14:6"/>求你转身，别去管他，</para>
+  <para style="q1" vid="JOB 14:6">好让他如雇工度完他的日子。<verse eid="JOB 14:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 14:7"/>树木若被砍下，还有希望，</para>
+  <para style="q1" vid="JOB 14:7">它仍可重新萌芽，</para>
+  <para style="q1" vid="JOB 14:7">嫩枝生长不息。<verse eid="JOB 14:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 14:8"/>虽然树根在土里衰老，</para>
+  <para style="q1" vid="JOB 14:8">树桩在地里死去，<verse eid="JOB 14:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 14:9"/>但一有水气，</para>
+  <para style="q1" vid="JOB 14:9">它就会像新栽的树一样发芽长枝。<verse eid="JOB 14:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 14:10"/>但人一死，就失去力量；</para>
+  <para style="q1" vid="JOB 14:10">人一咽气，就不知去向。<verse eid="JOB 14:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 14:11"/>湖水会枯竭，</para>
+  <para style="q1" vid="JOB 14:11">江河会干涸，<verse eid="JOB 14:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 14:12"/>人躺下便不再起来，</para>
+  <para style="q1" vid="JOB 14:12">到诸天不复存在，</para>
+  <para style="q1" vid="JOB 14:12">他仍不会醒来，</para>
+  <para style="q1" vid="JOB 14:12">不会从长眠中被唤醒。<verse eid="JOB 14:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 14:13"/>但愿你把我藏在阴间，</para>
+  <para style="q1" vid="JOB 14:13">把我藏起来直到你息怒，</para>
+  <para style="q1" vid="JOB 14:13">定下眷顾我的日期。<verse eid="JOB 14:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 14:14"/>人若死了，还能复生吗？</para>
+  <para style="q1" vid="JOB 14:14">我要在劳苦的岁月中等待，</para>
+  <para style="q1" vid="JOB 14:14">直到我得释放的日子来临。<verse eid="JOB 14:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 14:15"/>那时你呼唤，我便回应，</para>
+  <para style="q1" vid="JOB 14:15">你必惦念你亲手所造之物。<verse eid="JOB 14:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 14:16"/>那时你必数算我的脚步，</para>
+  <para style="q1" vid="JOB 14:16">但不会追究我的罪恶。<verse eid="JOB 14:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 14:17"/>我的过犯会被封在袋中，</para>
+  <para style="q1" vid="JOB 14:17">你会遮盖我的罪愆。<verse eid="JOB 14:17"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 14:18"/>“高山崩塌，</para>
+  <para style="q1" vid="JOB 14:18">磐石挪移；<verse eid="JOB 14:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 14:19"/>流水磨损石头，</para>
+  <para style="q1" vid="JOB 14:19">急流冲走泥土；</para>
+  <para style="q1" vid="JOB 14:19">你也这样粉碎人的希望。<verse eid="JOB 14:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 14:20"/>你永远击败他，使他消逝；</para>
+  <para style="q1" vid="JOB 14:20">你改变他的容颜，让他离世。<verse eid="JOB 14:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 14:21"/>他的后人得尊荣，他无从知晓；</para>
+  <para style="q1" vid="JOB 14:21">他们遭贬抑，他也无法察觉。<verse eid="JOB 14:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 14:22"/>他只感受到自身的痛苦，</para>
+  <para style="q1" vid="JOB 14:22">只为自己哀哭。”<verse eid="JOB 14:22"/></para>
+  <chapter eid="JOB 14"/>
+  <chapter number="15" style="c" sid="JOB 15"/>
+  <para style="s1">以利法再次发言</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 15:1"/>
+    <char style="pn">提幔</char>人<char style="pn">以利法</char>回答说：<verse eid="JOB 15:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 15:2"/>“智者岂会用空谈作答，</para>
+  <para style="q1" vid="JOB 15:2">满腹东风？<verse eid="JOB 15:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 15:3"/>申辩时岂会讲无用的话，</para>
+  <para style="q1" vid="JOB 15:3">说无益之言？<verse eid="JOB 15:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 15:4"/>你摒弃对上帝的敬畏，</para>
+  <para style="q1" vid="JOB 15:4">拒绝向祂默祷。<verse eid="JOB 15:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 15:5"/>你的罪指示你开口，</para>
+  <para style="q1" vid="JOB 15:5">使你说出诡诈之言。<verse eid="JOB 15:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 15:6"/>并非我定你的罪，</para>
+  <para style="q1" vid="JOB 15:6">定你罪的是你的口，</para>
+  <para style="q1" vid="JOB 15:6">指控你的是你的嘴唇。<verse eid="JOB 15:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 15:7"/>你岂是第一个出生的人？</para>
+  <para style="q1" vid="JOB 15:7">你岂在群山之前被造？<verse eid="JOB 15:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 15:8"/>你岂听过上帝的密旨？</para>
+  <para style="q1" vid="JOB 15:8">你岂独揽智慧？<verse eid="JOB 15:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 15:9"/>有何事你知而我们不知，</para>
+  <para style="q1" vid="JOB 15:9">你懂而我们不懂？<verse eid="JOB 15:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 15:10"/>我们这里有白发老人，</para>
+  <para style="q1" vid="JOB 15:10">比你父亲还年长。<verse eid="JOB 15:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 15:11"/>上帝用温柔的话安慰你，</para>
+  <para style="q1" vid="JOB 15:11">难道你还嫌不够吗？<verse eid="JOB 15:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 15:12"/>你为何失去理智，</para>
+  <para style="q1" vid="JOB 15:12">为何双眼冒火，<verse eid="JOB 15:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 15:13"/>以致你向上帝发怒，</para>
+  <para style="q1" vid="JOB 15:13">口出恶言？<verse eid="JOB 15:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 15:14"/>人算什么，怎能纯洁？</para>
+  <para style="q1" vid="JOB 15:14">妇人所生的算什么，怎能公义？<verse eid="JOB 15:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 15:15"/>连上帝的圣者都无法令祂信任，</para>
+  <para style="q1" vid="JOB 15:15">连诸天在祂的眼中都不洁净，<verse eid="JOB 15:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 15:16"/>更何况可憎败坏、</para>
+  <para style="q1" vid="JOB 15:16">嗜恶如喝水的世人？<verse eid="JOB 15:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 15:17"/>“让我告诉你，你好好听着。</para>
+  <para style="q1" vid="JOB 15:17">我要把所见的陈明，<verse eid="JOB 15:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 15:18"/>那是智者的教导，</para>
+  <para style="q1" vid="JOB 15:18">是他们未曾隐瞒的祖训。<verse eid="JOB 15:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 15:19"/>这片土地只赐给了他们，</para>
+  <para style="q1" vid="JOB 15:19">没有外人在他们中间出入。<verse eid="JOB 15:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 15:20"/>恶人一生受折磨，</para>
+  <para style="q1" vid="JOB 15:20">残暴之徒终身受苦。<verse eid="JOB 15:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 15:21"/>他耳边响着恐怖的声音，</para>
+  <para style="q1" vid="JOB 15:21">他安逸时遭强盗袭击。<verse eid="JOB 15:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 15:22"/>他不指望能逃脱黑暗，</para>
+  <para style="q1" vid="JOB 15:22">他注定要丧身刀下。<verse eid="JOB 15:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 15:23"/>他到处流浪，寻找食物，</para>
+  <para style="q1" vid="JOB 15:23">他知道黑暗之日快要来临。<verse eid="JOB 15:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 15:24"/>患难和痛苦使他害怕，</para>
+  <para style="q1" vid="JOB 15:24">像预备上阵的君王一样压制他。<verse eid="JOB 15:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 15:25"/>因为他挥拳对抗上帝，</para>
+  <para style="q1" vid="JOB 15:25">藐视全能者，<verse eid="JOB 15:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 15:26"/>手拿坚盾狂妄地冲撞祂。<verse eid="JOB 15:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 15:27"/>他满脸肥肉，</para>
+  <para style="q1" vid="JOB 15:27">腰间堆满脂肪。<verse eid="JOB 15:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 15:28"/>他活在毁灭的城邑，</para>
+  <para style="q1" vid="JOB 15:28">住在被人废弃、</para>
+  <para style="q1" vid="JOB 15:28">行将坍塌的房屋。<verse eid="JOB 15:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 15:29"/>他不再富足，</para>
+  <para style="q1" vid="JOB 15:29">家财不能久留，</para>
+  <para style="q1" vid="JOB 15:29">地产无法加增。<verse eid="JOB 15:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 15:30"/>他无法逃脱黑暗，</para>
+  <para style="q1" vid="JOB 15:30">火焰要烧焦他的嫩枝，</para>
+  <para style="q1" vid="JOB 15:30">上帝口中的气要毁灭他。<verse eid="JOB 15:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 15:31"/>他不可自欺，信靠虚空，</para>
+  <para style="q1" vid="JOB 15:31">因为虚空必成为他的回报。<verse eid="JOB 15:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 15:32"/>在他离世以前，虚空必临到他，</para>
+  <para style="q1" vid="JOB 15:32">他的枝子再不会青绿。<verse eid="JOB 15:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 15:33"/>他必像一棵葡萄树，</para>
+  <para style="q1" vid="JOB 15:33">葡萄未熟已掉落；</para>
+  <para style="q1" vid="JOB 15:33">又像一棵橄榄树，</para>
+  <para style="q1" vid="JOB 15:33">花刚开便凋零。<verse eid="JOB 15:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="JOB 15:34"/>不信上帝之辈必不生育，</para>
+  <para style="q1" vid="JOB 15:34">受贿者的帐篷必被火烧。<verse eid="JOB 15:34"/></para>
+  <para style="q1">
+    <verse number="35" style="v" sid="JOB 15:35"/>他们心怀不轨，生出罪恶，</para>
+  <para style="q1" vid="JOB 15:35">他们满腹诡诈。”<verse eid="JOB 15:35"/></para>
+  <chapter eid="JOB 15"/>
+  <chapter number="16" style="c" sid="JOB 16"/>
+  <para style="s1">约伯的回答</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 16:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 16:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 16:2"/>“这些话，我听过很多，</para>
+  <para style="q1" vid="JOB 16:2">你们的安慰无不让人愁烦。<verse eid="JOB 16:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 16:3"/>你们的空谈无休无止吗？</para>
+  <para style="q1" vid="JOB 16:3">是什么惹你们说个不停？<verse eid="JOB 16:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 16:4"/>倘若你我易地而处，</para>
+  <para style="q1" vid="JOB 16:4">我也能说你们那样的话，</para>
+  <para style="q1" vid="JOB 16:4">滔滔不绝地攻击你们，</para>
+  <para style="q1" vid="JOB 16:4">向你们摇头。<verse eid="JOB 16:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 16:5"/>但我会对你们讲鼓励的话，</para>
+  <para style="q1" vid="JOB 16:5">用劝慰之言减轻你们的痛苦。<verse eid="JOB 16:5"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 16:6"/>“我若申辩，痛苦不减；</para>
+  <para style="q1" vid="JOB 16:6">我若缄默，痛苦犹在。<verse eid="JOB 16:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 16:7"/>上帝啊，你无疑使我精疲力竭，</para>
+  <para style="q1" vid="JOB 16:7">家破人亡，<verse eid="JOB 16:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 16:8"/>你榨干了我，</para>
+  <para style="q1" vid="JOB 16:8">使我骨瘦如柴，</para>
+  <para style="q1" vid="JOB 16:8">这成了当面指控我的罪证。<verse eid="JOB 16:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 16:9"/>上帝在愤怒中撕裂我，迫害我，</para>
+  <para style="q1" vid="JOB 16:9">向我咬牙切齿；</para>
+  <para style="q1" vid="JOB 16:9">仇敌恶狠狠地盯着我。<verse eid="JOB 16:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 16:10"/>他们嘲笑我，</para>
+  <para style="q1" vid="JOB 16:10">轻蔑地掴我的脸，</para>
+  <para style="q1" vid="JOB 16:10">联合起来攻击我。<verse eid="JOB 16:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 16:11"/>上帝把我交给罪人，</para>
+  <para style="q1" vid="JOB 16:11">把我扔到恶人手中。<verse eid="JOB 16:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 16:12"/>我本来平顺，祂击垮了我，</para>
+  <para style="q1" vid="JOB 16:12">祂抓住我的颈项将我摔碎，</para>
+  <para style="q1" vid="JOB 16:12">把我当祂的箭靶。<verse eid="JOB 16:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 16:13"/>祂的弓箭手四面围住我，</para>
+  <para style="q1" vid="JOB 16:13">祂毫不留情地刺透我的肾脏，</para>
+  <para style="q1" vid="JOB 16:13">使我肝胆涂地。<verse eid="JOB 16:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 16:14"/>祂一次次地击伤我，</para>
+  <para style="q1" vid="JOB 16:14">像勇士一样扑向我。<verse eid="JOB 16:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 16:15"/>我将麻衣缝在皮肤上，</para>
+  <para style="q1" vid="JOB 16:15">把我的荣耀埋在尘土中。<verse eid="JOB 16:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 16:16"/>我哭得脸颊红肿，</para>
+  <para style="q1" vid="JOB 16:16">眼皮发黑。<verse eid="JOB 16:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 16:17"/>但我未行残暴之事，</para>
+  <para style="q1" vid="JOB 16:17">我的祷告纯真。<verse eid="JOB 16:17"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 16:18"/>“大地啊！不要掩盖我的血，</para>
+  <para style="q1" vid="JOB 16:18">不要让我的呼求销声匿迹。<verse eid="JOB 16:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 16:19"/>此时，我的见证人在天上，</para>
+  <para style="q1" vid="JOB 16:19">我的辩护者在高天上。<verse eid="JOB 16:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 16:20"/>我的朋友讥笑我，</para>
+  <para style="q1" vid="JOB 16:20">我在上帝面前泪水涌流。<verse eid="JOB 16:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 16:21"/>但愿人与上帝之间有仲裁者，</para>
+  <para style="q1" vid="JOB 16:21">如同人与人之间。<verse eid="JOB 16:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 16:22"/>因为我的年日不多，</para>
+  <para style="q1" vid="JOB 16:22">我快要踏上不归路。<verse eid="JOB 16:22"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 16"/>
+  <chapter number="17" style="c" sid="JOB 17"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 17:1"/>“我的心灵破碎，我的年日将尽，</para>
+  <para style="q1" vid="JOB 17:1">坟墓等候着我。<verse eid="JOB 17:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 17:2"/>无疑，嘲笑的人围着我，</para>
+  <para style="q1" vid="JOB 17:2">我眼睁睁地看着他们挑衅。<verse eid="JOB 17:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 17:3"/>上帝啊，求你为我作保。</para>
+  <para style="q1" vid="JOB 17:3">除你以外，谁肯做我的保人？<verse eid="JOB 17:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 17:4"/>你蒙蔽了他们的心智，</para>
+  <para style="q1" vid="JOB 17:4">因此你必不让他们得胜。<verse eid="JOB 17:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 17:5"/>人为了分产业而控告朋友，</para>
+  <para style="q1" vid="JOB 17:5">其子孙的眼睛要失明。<verse eid="JOB 17:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 17:6"/>上帝使我成了人们的笑柄，</para>
+  <para style="q1" vid="JOB 17:6">他们在我脸上吐唾沫。<verse eid="JOB 17:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 17:7"/>哀伤使我眼目昏花，</para>
+  <para style="q1" vid="JOB 17:7">我整个人骨瘦如柴。<verse eid="JOB 17:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 17:8"/>这使正直的人震惊，</para>
+  <para style="q1" vid="JOB 17:8">使无辜的人起来讨伐不敬虔的人。<verse eid="JOB 17:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 17:9"/>义人坚守自己的道，</para>
+  <para style="q1" vid="JOB 17:9">手洁的人更有力量。<verse eid="JOB 17:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 17:10"/>来吧，你们众人再来，</para>
+  <para style="q1" vid="JOB 17:10">我在你们中间不会找到一个智者。<verse eid="JOB 17:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 17:11"/>我的年日已尽，</para>
+  <para style="q1" vid="JOB 17:11">我的计划破灭，</para>
+  <para style="q1" vid="JOB 17:11">我的心愿落空。<verse eid="JOB 17:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 17:12"/>他们以黑夜为白昼，</para>
+  <para style="q1" vid="JOB 17:12">说光明与黑暗相似。<verse eid="JOB 17:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 17:13"/>我若期望阴间作我的家园，</para>
+  <para style="q1" vid="JOB 17:13">在黑暗之地铺设我的床榻，<verse eid="JOB 17:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 17:14"/>称坟墓为父亲，</para>
+  <para style="q1" vid="JOB 17:14">称蛆虫为母亲、姊妹，<verse eid="JOB 17:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 17:15"/>那么，我的希望在哪里？</para>
+  <para style="q1" vid="JOB 17:15">谁能看到我的希望？<verse eid="JOB 17:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 17:16"/>我的希望会跟我下到阴间，</para>
+  <para style="q1" vid="JOB 17:16">与我同归尘土吗？”<verse eid="JOB 17:16"/></para>
+  <chapter eid="JOB 17"/>
+  <chapter number="18" style="c" sid="JOB 18"/>
+  <para style="s1">比勒达发言</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 18:1"/>
+    <char style="pn">书亚</char>人<char style="pn">比勒达</char>回答说：<verse eid="JOB 18:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 18:2"/>“你要狡辩到何时呢？</para>
+  <para style="q1" vid="JOB 18:2">你先想清楚，然后我们再谈。<verse eid="JOB 18:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 18:3"/>为何你把我们当作牲畜，</para>
+  <para style="q1" vid="JOB 18:3">把我们视为蠢货？<verse eid="JOB 18:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 18:4"/>你这气得要撕碎自己的人，</para>
+  <para style="q1" vid="JOB 18:4">大地会因你而荒凉吗？</para>
+  <para style="q1" vid="JOB 18:4">磐石会因你而挪移吗？<verse eid="JOB 18:4"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 18:5"/>“恶人的光必熄灭。</para>
+  <para style="q1" vid="JOB 18:5">他的火焰不再闪耀。<verse eid="JOB 18:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 18:6"/>他帐篷中灯光暗淡，</para>
+  <para style="q1" vid="JOB 18:6">他上面的灯熄灭了。<verse eid="JOB 18:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 18:7"/>恶人强劲的步伐变得蹒跚，</para>
+  <para style="q1" vid="JOB 18:7">他必被自己的阴谋所害。<verse eid="JOB 18:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 18:8"/>他自陷网罗，</para>
+  <para style="q1" vid="JOB 18:8">步入圈套。<verse eid="JOB 18:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 18:9"/>套索缠住他的脚跟，</para>
+  <para style="q1" vid="JOB 18:9">网罗紧紧地罩住他。<verse eid="JOB 18:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 18:10"/>土里埋着绊他的绳索，</para>
+  <para style="q1" vid="JOB 18:10">路上有陷阱等待着他。<verse eid="JOB 18:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 18:11"/>恐惧四面笼罩着他，</para>
+  <para style="q1" vid="JOB 18:11">步步紧追着他。<verse eid="JOB 18:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 18:12"/>他饿得气力衰竭，</para>
+  <para style="q1" vid="JOB 18:12">灾祸随时临到他。<verse eid="JOB 18:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 18:13"/>疾病侵蚀他的皮肉，</para>
+  <para style="q1" vid="JOB 18:13">可怕的死亡吞噬他的肢体。<verse eid="JOB 18:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 18:14"/>他被拖出安稳的帐篷，</para>
+  <para style="q1" vid="JOB 18:14">被押到冥王<note caller="+" style="f"><char style="fr" closed="false">18:14 </char><char style="ft" closed="false">“冥王”希伯来文是“恐怖之王”。</char></note>那里。<verse eid="JOB 18:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 18:15"/>他的帐篷燃烧着烈焰，</para>
+  <para style="q1" vid="JOB 18:15">他的居所撒满了硫磺。<verse eid="JOB 18:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 18:16"/>他下面的根茎枯干，</para>
+  <para style="q1" vid="JOB 18:16">上面的枝子枯萎。<verse eid="JOB 18:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 18:17"/>他从世上销声匿迹，</para>
+  <para style="q1" vid="JOB 18:17">无人记得他的名字。<verse eid="JOB 18:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 18:18"/>他从光明中被赶入黑暗，</para>
+  <para style="q1" vid="JOB 18:18">他被逐出这个世界。<verse eid="JOB 18:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 18:19"/>他在本族中无子无孙，</para>
+  <para style="q1" vid="JOB 18:19">他所居之地无人生还。<verse eid="JOB 18:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 18:20"/>他的下场令西方的人震惊，</para>
+  <para style="q1" vid="JOB 18:20">令东方的人战栗。<verse eid="JOB 18:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 18:21"/>这就是不义之人的归宿，</para>
+  <para style="q1" vid="JOB 18:21">不认识上帝之人的下场。”<verse eid="JOB 18:21"/></para>
+  <chapter eid="JOB 18"/>
+  <chapter number="19" style="c" sid="JOB 19"/>
+  <para style="s1">约伯的回答</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 19:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 19:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 19:2"/>“你们要折磨我多久？</para>
+  <para style="q1" vid="JOB 19:2">用言语压碎我到何时？<verse eid="JOB 19:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 19:3"/>你们侮辱我已有十次之多，</para>
+  <para style="q1" vid="JOB 19:3">苦待我也不以为耻。<verse eid="JOB 19:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 19:4"/>即使我真有过错，</para>
+  <para style="q1" vid="JOB 19:4">也由我独自承担。<verse eid="JOB 19:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 19:5"/>你们若真要妄自尊大，</para>
+  <para style="q1" vid="JOB 19:5">利用我的耻辱来指责我，<verse eid="JOB 19:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 19:6"/>也该知道是上帝冤枉了我，</para>
+  <para style="q1" vid="JOB 19:6">用网罗套住我。<verse eid="JOB 19:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 19:7"/>我喊冤，却无人回应；</para>
+  <para style="q1" vid="JOB 19:7">我呼救，却不见公道。<verse eid="JOB 19:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 19:8"/>上帝筑起墙垒，阻断我的路，</para>
+  <para style="q1" vid="JOB 19:8">祂使黑暗笼罩我的路途。<verse eid="JOB 19:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 19:9"/>祂剥去我的荣耀，</para>
+  <para style="q1" vid="JOB 19:9">摘走我头上的冠冕。<verse eid="JOB 19:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 19:10"/>祂从四面攻击我，直到我消逝；</para>
+  <para style="q1" vid="JOB 19:10">祂把我的希望像树一样连根拔除。<verse eid="JOB 19:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 19:11"/>祂向我发烈怒，</para>
+  <para style="q1" vid="JOB 19:11">视我为仇敌。<verse eid="JOB 19:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 19:12"/>祂的大军蜂拥而来，</para>
+  <para style="q1" vid="JOB 19:12">筑起围城坡道攻击我，</para>
+  <para style="q1" vid="JOB 19:12">在我帐篷四周扎营。<verse eid="JOB 19:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 19:13"/>“祂使我的弟兄远离我，</para>
+  <para style="q1" vid="JOB 19:13">我的熟人完全背弃我。<verse eid="JOB 19:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 19:14"/>我的亲属离开我，</para>
+  <para style="q1" vid="JOB 19:14">我的挚友忘记我。<verse eid="JOB 19:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 19:15"/>我的客人和婢女都视我如陌路，</para>
+  <para style="q1" vid="JOB 19:15">把我当作外族人。<verse eid="JOB 19:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 19:16"/>我呼唤仆人，他却不回应；</para>
+  <para style="q1" vid="JOB 19:16">我开口哀求，他也不理睬。<verse eid="JOB 19:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 19:17"/>我妻子厌恶我的气息，</para>
+  <para style="q1" vid="JOB 19:17">我的手足都嫌弃我。<verse eid="JOB 19:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 19:18"/>连小孩子都鄙视我；</para>
+  <para style="q1" vid="JOB 19:18">我一出现，他们就嘲笑我。<verse eid="JOB 19:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 19:19"/>我的密友都憎恶我，</para>
+  <para style="q1" vid="JOB 19:19">我爱的人也反对我。<verse eid="JOB 19:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 19:20"/>我瘦得只剩下皮包骨，</para>
+  <para style="q1" vid="JOB 19:20">我离死亡仅一线之隔<note caller="+" style="f"><char style="fr" closed="false">19:20 </char><char style="ft" closed="false">“我离死亡仅一线之隔”希伯来文是“我只剩牙皮逃脱”。</char></note>。<verse eid="JOB 19:20"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 19:21"/>“我的朋友啊，可怜我吧！可怜我吧！</para>
+  <para style="q1" vid="JOB 19:21">因为上帝的手击打我。<verse eid="JOB 19:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 19:22"/>你们为何像上帝一样逼我？</para>
+  <para style="q1" vid="JOB 19:22">为何吃了我的肉还不满足？<verse eid="JOB 19:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 19:23"/>但愿把我的话写下来，</para>
+  <para style="q1" vid="JOB 19:23">记录在书卷上，<verse eid="JOB 19:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 19:24"/>用铁笔和铅镌刻在磐石上，</para>
+  <para style="q1" vid="JOB 19:24">直存到永远。<verse eid="JOB 19:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 19:25"/>我知道我的救赎主活着，</para>
+  <para style="q1" vid="JOB 19:25">最后祂必站在地上。<verse eid="JOB 19:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 19:26"/>我的皮肉虽然要朽烂，</para>
+  <para style="q1" vid="JOB 19:26">但我必活着<note caller="+" style="f"><char style="fr" closed="false">19:26 </char><char style="ft" closed="false">“活着”或译“在肉体之外”。</char></note>见上帝。<verse eid="JOB 19:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 19:27"/>我要亲自见祂，</para>
+  <para style="q1" vid="JOB 19:27">我要亲眼见祂。</para>
+  <para style="q1" vid="JOB 19:27">我心中充满渴望！<verse eid="JOB 19:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 19:28"/>你们说祸根在我身上，</para>
+  <para style="q1" vid="JOB 19:28">还想继续迫害我。<verse eid="JOB 19:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 19:29"/>你们自己应当畏惧刀剑，</para>
+  <para style="q1" vid="JOB 19:29">因为烈怒会带来刀剑的惩罚，</para>
+  <para style="q1" vid="JOB 19:29">那时你们将知道有审判。”<verse eid="JOB 19:29"/></para>
+  <chapter eid="JOB 19"/>
+  <chapter number="20" style="c" sid="JOB 20"/>
+  <para style="s1">琐法再度发言</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 20:1"/>
+    <char style="pn">拿玛</char>人<char style="pn">琐法</char>回答说：<verse eid="JOB 20:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 20:2"/>“我感到烦躁不安，</para>
+  <para style="q1" vid="JOB 20:2">心中有话不吐不快。<verse eid="JOB 20:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 20:3"/>我听见侮辱我的斥责，</para>
+  <para style="q1" vid="JOB 20:3">我的理智催促我回答。<verse eid="JOB 20:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 20:4"/>难道你不知道吗？从古至今，</para>
+  <para style="q1" vid="JOB 20:4">自从世上有人以来，<verse eid="JOB 20:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 20:5"/>恶人得势不会长久，</para>
+  <para style="q1" vid="JOB 20:5">不信上帝者的快乐转瞬即逝。<verse eid="JOB 20:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 20:6"/>虽然他傲气冲天，</para>
+  <para style="q1" vid="JOB 20:6">把头挺到云端，<verse eid="JOB 20:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 20:7"/>终必如自己的粪便永远消亡，</para>
+  <para style="q1" vid="JOB 20:7">见过他的人都不知他在何处。<verse eid="JOB 20:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 20:8"/>他如梦消逝，踪影杳然；</para>
+  <para style="q1" vid="JOB 20:8">如夜间的异象，飞逝而去。<verse eid="JOB 20:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 20:9"/>见过他的人不会再见到他，</para>
+  <para style="q1" vid="JOB 20:9">他将从家乡消失无踪。<verse eid="JOB 20:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 20:10"/>他的儿女要向穷人乞怜，</para>
+  <para style="q1" vid="JOB 20:10">他要亲手偿还不义之财。<verse eid="JOB 20:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 20:11"/>他的筋骨依然强健，</para>
+  <para style="q1" vid="JOB 20:11">却要随他葬入尘土。<verse eid="JOB 20:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 20:12"/>“他以邪恶为甘饴，</para>
+  <para style="q1" vid="JOB 20:12">将其藏在舌下，<verse eid="JOB 20:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 20:13"/>含在口中，</para>
+  <para style="q1" vid="JOB 20:13">慢慢品味。<verse eid="JOB 20:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 20:14"/>这食物在腹中变质，</para>
+  <para style="q1" vid="JOB 20:14">变成了蛇的毒液。<verse eid="JOB 20:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 20:15"/>他要吐出所吞下的财富，</para>
+  <para style="q1" vid="JOB 20:15">上帝要倒空他腹中之物。<verse eid="JOB 20:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 20:16"/>他吸吮蛇的毒液，</para>
+  <para style="q1" vid="JOB 20:16">被蛇的舌头害死。<verse eid="JOB 20:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 20:17"/>他无法享用流淌不尽的奶与蜜。<verse eid="JOB 20:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 20:18"/>他留不住劳碌的成果，</para>
+  <para style="q1" vid="JOB 20:18">无法享用所赚的财富。<verse eid="JOB 20:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 20:19"/>他欺压、抛弃穷人，</para>
+  <para style="q1" vid="JOB 20:19">强占他人的房屋。<verse eid="JOB 20:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 20:20"/>他贪欲无度，</para>
+  <para style="q1" vid="JOB 20:20">不放过任何喜爱之物。<verse eid="JOB 20:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 20:21"/>他吞掉一切所有，</para>
+  <para style="q1" vid="JOB 20:21">他的福乐不能长久。<verse eid="JOB 20:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 20:22"/>他在富足时将陷入困境，</para>
+  <para style="q1" vid="JOB 20:22">各种灾祸将接踵而至。<verse eid="JOB 20:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 20:23"/>上帝的怒火如雨降在他身上，</para>
+  <para style="q1" vid="JOB 20:23">填满他的肚腹。<verse eid="JOB 20:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 20:24"/>他躲过了铁刃，</para>
+  <para style="q1" vid="JOB 20:24">却被铜箭射穿。<verse eid="JOB 20:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 20:25"/>利箭穿透他的后背，</para>
+  <para style="q1" vid="JOB 20:25">闪亮的箭头刺破他的胆囊，</para>
+  <para style="q1" vid="JOB 20:25">恐怖笼罩着他。<verse eid="JOB 20:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 20:26"/>他的财宝消失在幽冥中，</para>
+  <para style="q1" vid="JOB 20:26">天火<note caller="+" style="f"><char style="fr" closed="false">20:26 </char><char style="ft" closed="false">“天火”希伯来文是“非人手点燃的火”。</char></note>要吞噬他，</para>
+  <para style="q1" vid="JOB 20:26">焚毁他帐篷中残留的一切。<verse eid="JOB 20:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 20:27"/>天要揭露他的罪恶，</para>
+  <para style="q1" vid="JOB 20:27">地要站出来指控他。<verse eid="JOB 20:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 20:28"/>在上帝发烈怒的日子，</para>
+  <para style="q1" vid="JOB 20:28">洪流将席卷他的家产。<verse eid="JOB 20:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 20:29"/>这便是上帝给恶人的归宿，</para>
+  <para style="q1" vid="JOB 20:29">是上帝让他们承受的结局。”<verse eid="JOB 20:29"/></para>
+  <chapter eid="JOB 20"/>
+  <chapter number="21" style="c" sid="JOB 21"/>
+  <para style="s1">约伯的回答</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 21:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 21:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 21:2"/>“你们仔细听我说，</para>
+  <para style="q1" vid="JOB 21:2">便是给我的慰藉。<verse eid="JOB 21:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 21:3"/>请容忍我把话说完，</para>
+  <para style="q1" vid="JOB 21:3">之后任凭你们嘲笑。<verse eid="JOB 21:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 21:4"/>我岂是向人抱怨？</para>
+  <para style="q1" vid="JOB 21:4">我有理由不耐烦。<verse eid="JOB 21:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 21:5"/>你们看到我会大吃一惊，</para>
+  <para style="q1" vid="JOB 21:5">吓得用手掩口。<verse eid="JOB 21:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 21:6"/>我一想到自己，就心惊胆战，</para>
+  <para style="q1" vid="JOB 21:6">浑身发抖。<verse eid="JOB 21:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 21:7"/>为何恶人活着，得享长寿，</para>
+  <para style="q1" vid="JOB 21:7">势力强大？<verse eid="JOB 21:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 21:8"/>他们的儿孙围绕膝前，</para>
+  <para style="q1" vid="JOB 21:8">他们得见后代茁壮成长。<verse eid="JOB 21:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 21:9"/>他们家中平安无惧，</para>
+  <para style="q1" vid="JOB 21:9">他们不被上帝杖打。<verse eid="JOB 21:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 21:10"/>他们的公牛繁殖力强，</para>
+  <para style="q1" vid="JOB 21:10">他们的母牛从不掉胎。<verse eid="JOB 21:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 21:11"/>他们让孩童像羊群一样走到户外，</para>
+  <para style="q1" vid="JOB 21:11">尽情地欢跳。<verse eid="JOB 21:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 21:12"/>他们伴着铃鼓和竖琴歌唱，</para>
+  <para style="q1" vid="JOB 21:12">在笛声中欢喜不已。<verse eid="JOB 21:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 21:13"/>他们一生幸福，</para>
+  <para style="q1" vid="JOB 21:13">安然下到阴间。<verse eid="JOB 21:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 21:14"/>他们对上帝说，‘离开我们，</para>
+  <para style="q1" vid="JOB 21:14">我们不想学习你的道。<verse eid="JOB 21:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 21:15"/>全能者是谁，竟要我们事奉祂？</para>
+  <para style="q1" vid="JOB 21:15">向祂祷告有何益处？’<verse eid="JOB 21:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 21:16"/>看啊，他们的幸福不在他们手中；</para>
+  <para style="q1" vid="JOB 21:16">因此，我决不苟同他们的谋划。<verse eid="JOB 21:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 21:17"/>“恶人的灯何曾熄灭？</para>
+  <para style="q1" vid="JOB 21:17">灾难何曾临到他们？</para>
+  <para style="q1" vid="JOB 21:17">上帝何曾发怒使他们受苦？<verse eid="JOB 21:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 21:18"/>他们何曾像风中的碎秸，</para>
+  <para style="q1" vid="JOB 21:18">像被暴风卷去的糠秕？<verse eid="JOB 21:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 21:19"/>你们说上帝会把惩罚留给他们的儿女，</para>
+  <para style="q1" vid="JOB 21:19">我认为不如报应在他们本人身上，</para>
+  <para style="q1" vid="JOB 21:19">让他们亲自领教。<verse eid="JOB 21:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 21:20"/>愿他们亲眼看见自己灭亡。</para>
+  <para style="q1" vid="JOB 21:20">愿他们喝下全能者的烈怒。<verse eid="JOB 21:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 21:21"/>因为他们的岁月一旦度尽，</para>
+  <para style="q1" vid="JOB 21:21">又怎会关心身后的家人？<verse eid="JOB 21:21"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 21:22"/>“上帝既审判身居高位者，</para>
+  <para style="q1" vid="JOB 21:22">谁还能传授知识给祂？<verse eid="JOB 21:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 21:23"/>有人至死仍充满活力，</para>
+  <para style="q1" vid="JOB 21:23">尽享平靖安逸。<verse eid="JOB 21:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 21:24"/>他营养充足，</para>
+  <para style="q1" vid="JOB 21:24">骨骼健壮。<verse eid="JOB 21:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 21:25"/>有人至死心中苦痛，</para>
+  <para style="q1" vid="JOB 21:25">从未尝过幸福的滋味。<verse eid="JOB 21:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 21:26"/>二者都埋入尘土，</para>
+  <para style="q1" vid="JOB 21:26">被蛆虫覆盖。<verse eid="JOB 21:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 21:27"/>我知道你们的想法，</para>
+  <para style="q1" vid="JOB 21:27">并那些冤枉我的诡计。<verse eid="JOB 21:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 21:28"/>你们问，‘权贵的房子如今何在？</para>
+  <para style="q1" vid="JOB 21:28">恶人住的帐篷今在何方？’<verse eid="JOB 21:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 21:29"/>难道你们没有问过旅客，</para>
+  <para style="q1" vid="JOB 21:29">不接受他们的说法？<verse eid="JOB 21:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 21:30"/>就是恶人在灾难之日幸存，</para>
+  <para style="q1" vid="JOB 21:30">在上帝发怒之日得以逃脱。<verse eid="JOB 21:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 21:31"/>谁会当面斥责他们的恶行，</para>
+  <para style="q1" vid="JOB 21:31">因其所作所为而报应他们？<verse eid="JOB 21:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 21:32"/>他们被抬入坟墓后，</para>
+  <para style="q1" vid="JOB 21:32">还有人看守墓地。<verse eid="JOB 21:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 21:33"/>他们在谷中的沃土安息，</para>
+  <para style="q1" vid="JOB 21:33">送葬的人前拥后随，不计其数。<verse eid="JOB 21:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="JOB 21:34"/>你们的空谈怎能安慰我？</para>
+  <para style="q1" vid="JOB 21:34">你们的回答纯属荒谬。”<verse eid="JOB 21:34"/></para>
+  <chapter eid="JOB 21"/>
+  <chapter number="22" style="c" sid="JOB 22"/>
+  <para style="s1">以利法再次回答</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 22:1"/>
+    <char style="pn">提幔</char>人<char style="pn">以利法</char>回答说：<verse eid="JOB 22:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 22:2"/>“人对上帝能有何益处？</para>
+  <para style="q1" vid="JOB 22:2">即使智者对祂又有何益？<verse eid="JOB 22:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 22:3"/>全能者岂会因你为人公义而喜悦，</para>
+  <para style="q1" vid="JOB 22:3">因你行为纯全而获利？<verse eid="JOB 22:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 22:4"/>祂岂会因你敬虔而责备你、审判你？<verse eid="JOB 22:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 22:5"/>你岂不是罪恶深重，</para>
+  <para style="q1" vid="JOB 22:5">过犯无数？<verse eid="JOB 22:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 22:6"/>你无故强取弟兄的物品作抵押，</para>
+  <para style="q1" vid="JOB 22:6">剥去贫寒者的衣服，任其赤身露体。<verse eid="JOB 22:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 22:7"/>你不给疲乏的人水喝，</para>
+  <para style="q1" vid="JOB 22:7">不给饥饿的人食物。<verse eid="JOB 22:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 22:8"/>土地归了权贵，</para>
+  <para style="q1" vid="JOB 22:8">只让显要占有。<verse eid="JOB 22:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 22:9"/>你让寡妇空手而去，</para>
+  <para style="q1" vid="JOB 22:9">你打断孤儿的臂膀。<verse eid="JOB 22:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 22:10"/>因此你周围布满网罗，</para>
+  <para style="q1" vid="JOB 22:10">恐惧突然笼罩你。<verse eid="JOB 22:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 22:11"/>黑暗遮掩你的视线，</para>
+  <para style="q1" vid="JOB 22:11">洪水淹没你。<verse eid="JOB 22:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 22:12"/>“上帝岂不在高天之上吗？</para>
+  <para style="q1" vid="JOB 22:12">看，天上的星宿何其高远！<verse eid="JOB 22:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 22:13"/>你却说，‘上帝知道什么？</para>
+  <para style="q1" vid="JOB 22:13">祂怎能穿透幽暗施行审判？<verse eid="JOB 22:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 22:14"/>当祂在穹苍巡弋时，</para>
+  <para style="q1" vid="JOB 22:14">密云挡住祂的视线。’<verse eid="JOB 22:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 22:15"/>难道你要走恶人的古道，</para>
+  <para style="q1" vid="JOB 22:15">步他们的后尘？<verse eid="JOB 22:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 22:16"/>他们死期未到便已夭逝，</para>
+  <para style="q1" vid="JOB 22:16">他们的根基被洪涛卷走。<verse eid="JOB 22:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 22:17"/>他们对上帝说，‘离开我们吧！</para>
+  <para style="q1" vid="JOB 22:17">全能者能把我们怎么样？’<verse eid="JOB 22:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 22:18"/>然而，是上帝把美物充满他们的家；</para>
+  <para style="q1" vid="JOB 22:18">因此，我决不苟同他们的谋划。<verse eid="JOB 22:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 22:19"/>义人看见他们的结局便欢喜，</para>
+  <para style="q1" vid="JOB 22:19">无辜者见了便嘲笑，<verse eid="JOB 22:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 22:20"/>说，‘我们的仇敌果然被铲除，</para>
+  <para style="q1" vid="JOB 22:20">他们的财产已被火吞噬。’<verse eid="JOB 22:20"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 22:21"/>“你要顺从上帝，与祂和好，</para>
+  <para style="q1" vid="JOB 22:21">福乐就会临到你。<verse eid="JOB 22:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 22:22"/>你要接受祂的教诲，</para>
+  <para style="q1" vid="JOB 22:22">把祂的话谨记在心。<verse eid="JOB 22:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 22:23"/>你若归向全能者，就必得到恢复。</para>
+  <para style="q1" vid="JOB 22:23">你若将罪恶从帐篷中远远赶走，<verse eid="JOB 22:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 22:24"/>将金子扔进尘土，</para>
+  <para style="q1" vid="JOB 22:24">将<char style="pn">俄斐</char>的金子丢在布满石头的溪谷，<verse eid="JOB 22:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 22:25"/>全能者必成为你的金子，</para>
+  <para style="q1" vid="JOB 22:25">成为你珍贵的银子。<verse eid="JOB 22:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 22:26"/>那时，你必以全能者为乐，</para>
+  <para style="q1" vid="JOB 22:26">你必抬头仰望上帝。<verse eid="JOB 22:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 22:27"/>你向祂祷告，祂必垂听，</para>
+  <para style="q1" vid="JOB 22:27">你必向祂还所许的愿。<verse eid="JOB 22:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 22:28"/>你想做的事都会成功，</para>
+  <para style="q1" vid="JOB 22:28">必有光照亮你的道路。<verse eid="JOB 22:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 22:29"/>人遭贬抑时，你说，‘他们太高傲了。’</para>
+  <para style="q1" vid="JOB 22:29">上帝拯救眼目低垂的人。<verse eid="JOB 22:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 22:30"/>祂甚至会解救有罪之人，</para>
+  <para style="q1" vid="JOB 22:30">他们必因你的手清洁而获救。”<verse eid="JOB 22:30"/></para>
+  <chapter eid="JOB 22"/>
+  <chapter number="23" style="c" sid="JOB 23"/>
+  <para style="s1">约伯的回答</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 23:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 23:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 23:2"/>“我的哀诉至今充满苦楚，</para>
+  <para style="q1" vid="JOB 23:2">祂的责罚使我呻吟不止。<verse eid="JOB 23:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 23:3"/>但愿我知道何处能寻见上帝，</para>
+  <para style="q1" vid="JOB 23:3">知道怎样去祂的居所。<verse eid="JOB 23:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 23:4"/>我好在祂面前陈明案情，</para>
+  <para style="q1" vid="JOB 23:4">滔滔不绝地为自己申辩；<verse eid="JOB 23:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 23:5"/>我好知道祂的答复，</para>
+  <para style="q1" vid="JOB 23:5">明白祂对我说的话。<verse eid="JOB 23:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 23:6"/>祂会用大能与我争辩吗？</para>
+  <para style="q1" vid="JOB 23:6">不会的，祂会垂听我的申诉，<verse eid="JOB 23:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 23:7"/>允许正直的人与祂理论，</para>
+  <para style="q1" vid="JOB 23:7">审判者会让我永远脱罪。<verse eid="JOB 23:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 23:8"/>“然而，我去东边，祂不在那里；</para>
+  <para style="q1" vid="JOB 23:8">我到西边，也找不到祂。<verse eid="JOB 23:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 23:9"/>祂在北边工作，我看不见祂；</para>
+  <para style="q1" vid="JOB 23:9">祂转到南边，我也看不见祂。<verse eid="JOB 23:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 23:10"/>但祂知道我的一举一动，</para>
+  <para style="q1" vid="JOB 23:10">我被祂试炼后必如纯金。<verse eid="JOB 23:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 23:11"/>我紧随祂的脚步，</para>
+  <para style="q1" vid="JOB 23:11">持守祂的道，没有偏离。<verse eid="JOB 23:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 23:12"/>我没有违背祂口中的诫命，</para>
+  <para style="q1" vid="JOB 23:12">我珍视祂的话语胜过我日用的饮食。<verse eid="JOB 23:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 23:13"/>祂独行其事，谁能阻挡祂？</para>
+  <para style="q1" vid="JOB 23:13">祂按自己的意愿行事。<verse eid="JOB 23:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 23:14"/>祂在我身上的计划必然实现，</para>
+  <para style="q1" vid="JOB 23:14">祂还有许多这样的计划。<verse eid="JOB 23:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 23:15"/>所以，我在祂面前惊恐不安。</para>
+  <para style="q1" vid="JOB 23:15">我想起这一切，便对祂充满恐惧。<verse eid="JOB 23:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 23:16"/>上帝使我心惊胆战，</para>
+  <para style="q1" vid="JOB 23:16">全能者使我惊恐不安。<verse eid="JOB 23:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 23:17"/>然而，我不会因为置身黑暗，</para>
+  <para style="q1" vid="JOB 23:17">被幽暗笼罩而缄默不言。<verse eid="JOB 23:17"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 23"/>
+  <chapter number="24" style="c" sid="JOB 24"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 24:1"/>“全能者为何不定下审判的日期？</para>
+  <para style="q1" vid="JOB 24:1">为何认识祂的人要空等一场？<verse eid="JOB 24:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 24:2"/>恶人挪移界石，</para>
+  <para style="q1" vid="JOB 24:2">抢夺羊群去牧养。<verse eid="JOB 24:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 24:3"/>他们牵走孤儿的驴，</para>
+  <para style="q1" vid="JOB 24:3">强取寡妇的牛作抵押。<verse eid="JOB 24:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 24:4"/>他们把贫民赶离正路，</para>
+  <para style="q1" vid="JOB 24:4">地上的穷人被迫东躲西藏。<verse eid="JOB 24:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 24:5"/>穷人如荒漠中的野驴，</para>
+  <para style="q1" vid="JOB 24:5">在荒地殷勤觅食，给儿女糊口。<verse eid="JOB 24:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 24:6"/>他们割田间的草料，</para>
+  <para style="q1" vid="JOB 24:6">摘恶人剩余的葡萄。<verse eid="JOB 24:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 24:7"/>他们整夜赤身露体，</para>
+  <para style="q1" vid="JOB 24:7">没有被子可以御寒。<verse eid="JOB 24:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 24:8"/>他们被山雨浇透，</para>
+  <para style="q1" vid="JOB 24:8">只能在岩石下栖身。<verse eid="JOB 24:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 24:9"/>恶人夺去寡母怀中的孤儿，</para>
+  <para style="q1" vid="JOB 24:9">强取穷人的孩子作抵押，<verse eid="JOB 24:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 24:10"/>使他们赤身露体地流浪，</para>
+  <para style="q1" vid="JOB 24:10">饿着肚子扛禾捆。<verse eid="JOB 24:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 24:11"/>他们在恶人的橄榄林中榨油，</para>
+  <para style="q1" vid="JOB 24:11">在酒池踩踏，却受干渴之苦。<verse eid="JOB 24:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 24:12"/>城中传来垂死之人的呻吟，</para>
+  <para style="q1" vid="JOB 24:12">受伤者不断呼救，</para>
+  <para style="q1" vid="JOB 24:12">上帝却置之不理。<verse eid="JOB 24:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 24:13"/>“有人与光明为敌，</para>
+  <para style="q1" vid="JOB 24:13">不认识光明之道，</para>
+  <para style="q1" vid="JOB 24:13">也不走光明之路。<verse eid="JOB 24:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 24:14"/>凶手黎明起来，</para>
+  <para style="q1" vid="JOB 24:14">杀害贫苦的人，</para>
+  <para style="q1" vid="JOB 24:14">夜晚又去做贼。<verse eid="JOB 24:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 24:15"/>奸夫的眼睛盼着黄昏，</para>
+  <para style="q1" vid="JOB 24:15">心想，‘没人会看见我’，</para>
+  <para style="q1" vid="JOB 24:15">并把脸蒙起来。<verse eid="JOB 24:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 24:16"/>盗贼夜间挖墙行窃，</para>
+  <para style="q1" vid="JOB 24:16">日间躲藏起来，</para>
+  <para style="q1" vid="JOB 24:16">不想认识光明。<verse eid="JOB 24:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 24:17"/>因为他们把暗夜当白昼，</para>
+  <para style="q1" vid="JOB 24:17">他们熟知暗夜的恐怖。<verse eid="JOB 24:17"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 24:18"/>“恶人如水上的泡沫。</para>
+  <para style="q1" vid="JOB 24:18">他们的产业被咒诅，</para>
+  <para style="q1" vid="JOB 24:18">无人踏足其葡萄园。<verse eid="JOB 24:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 24:19"/>阴间吞噬犯罪之人，</para>
+  <para style="q1" vid="JOB 24:19">如同干热吞噬融雪。<verse eid="JOB 24:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 24:20"/>他们的生母忘记他们，</para>
+  <para style="q1" vid="JOB 24:20">虫子在他们身上饱餐。</para>
+  <para style="q1" vid="JOB 24:20">没有人再记得他们，</para>
+  <para style="q1" vid="JOB 24:20">恶人像树木一样折断。<verse eid="JOB 24:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 24:21"/>他们恶待不育的妇人，</para>
+  <para style="q1" vid="JOB 24:21">毫不善待寡妇。<verse eid="JOB 24:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 24:22"/>但上帝用大能掳走权贵，</para>
+  <para style="q1" vid="JOB 24:22">他们再强大也难保性命。<verse eid="JOB 24:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 24:23"/>上帝让他们暂享安逸，</para>
+  <para style="q1" vid="JOB 24:23">但他们逃不过祂的眼睛。<verse eid="JOB 24:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 24:24"/>他们一时得势，转瞬消逝；</para>
+  <para style="q1" vid="JOB 24:24">他们沦为卑贱，像其他人一样灭亡，</para>
+  <para style="q1" vid="JOB 24:24">像麦穗一样被割掉。<verse eid="JOB 24:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 24:25"/>我说的都是实情，谁能否认？</para>
+  <para style="q1" vid="JOB 24:25">谁能证明我的话是空谈？”<verse eid="JOB 24:25"/></para>
+  <chapter eid="JOB 24"/>
+  <chapter number="25" style="c" sid="JOB 25"/>
+  <para style="s1">比勒达的回答</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 25:1"/>
+    <char style="pn">书亚</char>人<char style="pn">比勒达</char>回答说：<verse eid="JOB 25:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 25:2"/>“上帝掌管一切，威严可畏，</para>
+  <para style="q1" vid="JOB 25:2">祂在高天之上缔造和平。<verse eid="JOB 25:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 25:3"/>谁能计算祂天军的数目？</para>
+  <para style="q1" vid="JOB 25:3">谁不被祂的光辉照耀？<verse eid="JOB 25:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 25:4"/>世人怎能在上帝面前算为义人？</para>
+  <para style="q1" vid="JOB 25:4">妇人所生的怎能纯洁？<verse eid="JOB 25:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 25:5"/>在祂眼中，月亮算不上明亮，</para>
+  <para style="q1" vid="JOB 25:5">星辰也算不上皎洁，<verse eid="JOB 25:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 25:6"/>更何况是像蛆一样的人，</para>
+  <para style="q1" vid="JOB 25:6">像虫一样的世人呢？”<verse eid="JOB 25:6"/></para>
+  <chapter eid="JOB 25"/>
+  <chapter number="26" style="c" sid="JOB 26"/>
+  <para style="s1">约伯的回答</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 26:1"/>
+    <char style="pn">约伯</char>回答说：<verse eid="JOB 26:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 26:2"/>“你真是帮了软弱者的大忙！</para>
+  <para style="q1" vid="JOB 26:2">救了臂膀无力的人！<verse eid="JOB 26:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 26:3"/>无智慧的人真多亏你的指教！</para>
+  <para style="q1" vid="JOB 26:3">承蒙你的真知灼见！<verse eid="JOB 26:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 26:4"/>谁帮你说出这些话？</para>
+  <para style="q1" vid="JOB 26:4">谁的灵在借着你发言？<verse eid="JOB 26:4"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 26:5"/>“阴魂和水族在水底颤抖，<verse eid="JOB 26:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 26:6"/>阴间裸露在祂面前，</para>
+  <para style="q1" vid="JOB 26:6">灭亡之地毫无遮掩。<verse eid="JOB 26:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 26:7"/>祂将北极铺在空中，</para>
+  <para style="q1" vid="JOB 26:7">将地悬在虚无中；<verse eid="JOB 26:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 26:8"/>祂将水卷在密云中，</para>
+  <para style="q1" vid="JOB 26:8">云负重却不裂开。<verse eid="JOB 26:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 26:9"/>祂遮盖自己的宝座<note caller="+" style="f"><char style="fr" closed="false">26:9 </char><char style="ft" closed="false">“宝座”或译“满月”。</char></note>，</para>
+  <para style="q1" vid="JOB 26:9">把云彩铺在上面。<verse eid="JOB 26:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 26:10"/>祂在海面上画出地平线，</para>
+  <para style="q1" vid="JOB 26:10">作为光明与黑暗的交界。<verse eid="JOB 26:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 26:11"/>祂的斥责使天柱震动惊骇，<verse eid="JOB 26:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 26:12"/>祂的能力使大海平静，</para>
+  <para style="q1" vid="JOB 26:12">祂运用智慧击碎海怪。<verse eid="JOB 26:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 26:13"/>祂吹的气使天空晴朗，</para>
+  <para style="q1" vid="JOB 26:13">祂挥手刺穿逃跑的蛇。<verse eid="JOB 26:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 26:14"/>看啊，这不过是祂作为的一斑，</para>
+  <para style="q1" vid="JOB 26:14">是我们听到的点滴微音！</para>
+  <para style="q1" vid="JOB 26:14">谁能领悟祂的雷霆万钧？”<verse eid="JOB 26:14"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 26"/>
+  <chapter number="27" style="c" sid="JOB 27"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 27:1"/>
+    <char style="pn">约伯</char>接着说：<verse eid="JOB 27:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 27:2"/>“我凭不给我公道的永恒上帝，</para>
+  <para style="q1" vid="JOB 27:2">凭使我灵魂陷入痛苦的全能者起誓，<verse eid="JOB 27:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 27:3"/>只要我一息尚存，</para>
+  <para style="q1" vid="JOB 27:3">鼻中还有上帝之气，<verse eid="JOB 27:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 27:4"/>我的嘴唇决不说恶语，</para>
+  <para style="q1" vid="JOB 27:4">舌头决不讲谎话。<verse eid="JOB 27:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 27:5"/>我决不承认你们有理，</para>
+  <para style="q1" vid="JOB 27:5">我至死坚信自己无辜。<verse eid="JOB 27:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 27:6"/>我坚守自己的公义，决不放弃，</para>
+  <para style="q1" vid="JOB 27:6">我有生之年都问心无愧。<verse eid="JOB 27:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 27:7"/>“愿我仇敌的下场和恶人一样，</para>
+  <para style="q1" vid="JOB 27:7">愿我对头的结局和罪人相同。<verse eid="JOB 27:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 27:8"/>因为不敬虔的人将被铲除，上帝将夺去他的性命。</para>
+  <para style="q1" vid="JOB 27:8">那时，他还有何指望？<verse eid="JOB 27:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 27:9"/>患难临到他时，</para>
+  <para style="q1" vid="JOB 27:9">上帝岂会垂听他的呼求？<verse eid="JOB 27:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 27:10"/>他岂会以全能者为乐，</para>
+  <para style="q1" vid="JOB 27:10">时时求告上帝？<verse eid="JOB 27:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 27:11"/>“我要教导你们有关上帝的能力，</para>
+  <para style="q1" vid="JOB 27:11">我不会隐瞒全能者的作为。<verse eid="JOB 27:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 27:12"/>其实你们也曾亲眼目睹，</para>
+  <para style="q1" vid="JOB 27:12">为何还讲这些虚妄之言？<verse eid="JOB 27:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 27:13"/>“以下是上帝给恶人的归宿，</para>
+  <para style="q1" vid="JOB 27:13">全能者让凶徒承受的结局。<verse eid="JOB 27:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 27:14"/>他的儿女再多也难逃杀戮，</para>
+  <para style="q1" vid="JOB 27:14">他的子孙永远无法果腹。<verse eid="JOB 27:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 27:15"/>他幸存的后人被瘟疫吞噬，</para>
+  <para style="q1" vid="JOB 27:15">家中的寡妇也不哀哭。<verse eid="JOB 27:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 27:16"/>尽管他堆积的银子多如尘沙，</para>
+  <para style="q1" vid="JOB 27:16">储存的衣服高若土堆，<verse eid="JOB 27:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 27:17"/>但义人将穿他储存的衣服，</para>
+  <para style="q1" vid="JOB 27:17">清白的人将分他的银子。<verse eid="JOB 27:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 27:18"/>他建的房子像蛾茧，</para>
+  <para style="q1" vid="JOB 27:18">像守望者搭的草棚。<verse eid="JOB 27:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 27:19"/>他睡前还是富翁，</para>
+  <para style="q1" vid="JOB 27:19">醒来后财富已空。<verse eid="JOB 27:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 27:20"/>恐惧如洪水般淹没他，</para>
+  <para style="q1" vid="JOB 27:20">暴风在夜间把他卷去。<verse eid="JOB 27:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 27:21"/>东风把他刮走，</para>
+  <para style="q1" vid="JOB 27:21">吹得无影无踪。<verse eid="JOB 27:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 27:22"/>狂风<note caller="+" style="f"><char style="fr" closed="false">27:22 </char><char style="ft" closed="false">“狂风”希伯来文指代不清，也可译作“祂”，指上帝，23节同。</char></note>毫不留情地击打他，</para>
+  <para style="q1" vid="JOB 27:22">他拼命地逃离风的威力。<verse eid="JOB 27:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 27:23"/>狂风向他拍掌，</para>
+  <para style="q1" vid="JOB 27:23">呼啸着吹走他。<verse eid="JOB 27:23"/></para>
+  <chapter eid="JOB 27"/>
+  <chapter number="28" style="c" sid="JOB 28"/>
+  <para style="s1">智慧颂</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 28:1"/>“银从矿中采取，</para>
+  <para style="q1" vid="JOB 28:1">金有冶炼之地，<verse eid="JOB 28:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 28:2"/>铁从地下挖掘，</para>
+  <para style="q1" vid="JOB 28:2">铜从石中提炼。<verse eid="JOB 28:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 28:3"/>世人探寻黑暗的尽头，</para>
+  <para style="q1" vid="JOB 28:3">搜索幽暗的深处，</para>
+  <para style="q1" vid="JOB 28:3">要得隐藏的矿石。<verse eid="JOB 28:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 28:4"/>他们在杳无人烟、人踪绝迹之地开矿，</para>
+  <para style="q1" vid="JOB 28:4">他们远离人群，悬在半空摇来摇去。<verse eid="JOB 28:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 28:5"/>大地出产粮食，</para>
+  <para style="q1" vid="JOB 28:5">地下烈火翻腾。<verse eid="JOB 28:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 28:6"/>地下的石头出蓝宝石，</para>
+  <para style="q1" vid="JOB 28:6">还蕴藏着金沙。<verse eid="JOB 28:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 28:7"/>矿中的路径，猛禽不知道，</para>
+  <para style="q1" vid="JOB 28:7">鹰眼也未曾见过，<verse eid="JOB 28:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 28:8"/>猛兽未曾踏足，</para>
+  <para style="q1" vid="JOB 28:8">狮子未曾经过。<verse eid="JOB 28:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 28:9"/>世人开凿坚石，</para>
+  <para style="q1" vid="JOB 28:9">翻动山的根基，<verse eid="JOB 28:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 28:10"/>在岩石中凿通道，</para>
+  <para style="q1" vid="JOB 28:10">一览各样的宝藏。<verse eid="JOB 28:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 28:11"/>他们把水流截断，</para>
+  <para style="q1" vid="JOB 28:11">使隐藏之物显露。<verse eid="JOB 28:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 28:12"/>“然而，智慧何处寻？</para>
+  <para style="q1" vid="JOB 28:12">聪明之道在哪里？<verse eid="JOB 28:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 28:13"/>无人知道智慧的价值，</para>
+  <para style="q1" vid="JOB 28:13">人世间找不到她。<verse eid="JOB 28:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 28:14"/>深渊说，‘她不在我里面。’</para>
+  <para style="q1" vid="JOB 28:14">海洋说，‘她不在我这里。’<verse eid="JOB 28:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 28:15"/>金子买不到她，</para>
+  <para style="q1" vid="JOB 28:15">银子换不来她；<verse eid="JOB 28:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 28:16"/>
+    <char style="pn">俄斐</char>的金子无法与她相比，</para>
+  <para style="q1" vid="JOB 28:16">红玛瑙和蓝宝石不能与她媲美；<verse eid="JOB 28:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 28:17"/>黄金和水晶无法与她相比，</para>
+  <para style="q1" vid="JOB 28:17">纯金的器皿不能与她兑换；<verse eid="JOB 28:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 28:18"/>珊瑚和碧玉不能与她相提并论，</para>
+  <para style="q1" vid="JOB 28:18">红宝石的价值远不如她；<verse eid="JOB 28:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 28:19"/>
+    <char style="pn">古实</char>的黄玉无法与她相比，</para>
+  <para style="q1" vid="JOB 28:19">纯金不能与她等量齐观。<verse eid="JOB 28:19"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 28:20"/>“然而，智慧何处寻？</para>
+  <para style="q1" vid="JOB 28:20">聪明之道在哪里？<verse eid="JOB 28:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 28:21"/>众生的眼睛看不见她，</para>
+  <para style="q1" vid="JOB 28:21">空中的飞鸟找不到她。<verse eid="JOB 28:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 28:22"/>毁灭和死亡说，</para>
+  <para style="q1" vid="JOB 28:22">‘我们只风闻其名。’<verse eid="JOB 28:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 28:23"/>上帝认识通往智慧的路，</para>
+  <para style="q1" vid="JOB 28:23">祂知道智慧在哪里，<verse eid="JOB 28:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 28:24"/>因祂纵览地极，</para>
+  <para style="q1" vid="JOB 28:24">遍察天下万物。<verse eid="JOB 28:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 28:25"/>祂定下风的重量，</para>
+  <para style="q1" vid="JOB 28:25">量出水的规模；<verse eid="JOB 28:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 28:26"/>祂颁布雨露的规律，</para>
+  <para style="q1" vid="JOB 28:26">划定雷电的路线。<verse eid="JOB 28:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 28:27"/>那时祂已看见智慧，并评估她，</para>
+  <para style="q1" vid="JOB 28:27">坚立她，探察她。<verse eid="JOB 28:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 28:28"/>祂对世人说，‘敬畏主就是智慧，</para>
+  <para style="q1" vid="JOB 28:28">远离恶便是聪明。’”<verse eid="JOB 28:28"/></para>
+  <chapter eid="JOB 28"/>
+  <chapter number="29" style="c" sid="JOB 29"/>
+  <para style="s1">回忆昔日的幸福</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 29:1"/>
+    <char style="pn">约伯</char>接着说：<verse eid="JOB 29:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 29:2"/>“但愿我回到从前的岁月，</para>
+  <para style="q1" vid="JOB 29:2">回到上帝看顾我的日子。<verse eid="JOB 29:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 29:3"/>那时，祂的灯在我头上照耀，</para>
+  <para style="q1" vid="JOB 29:3">祂的光伴我走过黑暗。<verse eid="JOB 29:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 29:4"/>那时，我身强力壮，</para>
+  <para style="q1" vid="JOB 29:4">上帝是我家的密友；<verse eid="JOB 29:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 29:5"/>全能者尚与我同在，</para>
+  <para style="q1" vid="JOB 29:5">儿女围绕在我身旁；<verse eid="JOB 29:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 29:6"/>我用奶油洗脚，</para>
+  <para style="q1" vid="JOB 29:6">磐石为我涌出油河。<verse eid="JOB 29:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 29:7"/>“那时，我去城门口，</para>
+  <para style="q1" vid="JOB 29:7">到广场就坐，<verse eid="JOB 29:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 29:8"/>青年看见我便回避，</para>
+  <para style="q1" vid="JOB 29:8">老人也起身肃立；<verse eid="JOB 29:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 29:9"/>王侯都停止讲话，</para>
+  <para style="q1" vid="JOB 29:9">用手掩口；<verse eid="JOB 29:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 29:10"/>权贵都静默无声，</para>
+  <para style="q1" vid="JOB 29:10">舌头紧贴上膛。<verse eid="JOB 29:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 29:11"/>听见我的都祝福我，</para>
+  <para style="q1" vid="JOB 29:11">看见我的都称赞我。<verse eid="JOB 29:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 29:12"/>因为我拯救求助的穷人，</para>
+  <para style="q1" vid="JOB 29:12">解救无人援助的孤儿。<verse eid="JOB 29:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 29:13"/>临终的人为我祝福，</para>
+  <para style="q1" vid="JOB 29:13">我使寡妇心里欢唱。<verse eid="JOB 29:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 29:14"/>我以公义为衣穿在身上，</para>
+  <para style="q1" vid="JOB 29:14">公正是我的外袍和头巾。<verse eid="JOB 29:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 29:15"/>我做盲人的眼、</para>
+  <para style="q1" vid="JOB 29:15">瘸腿之人的脚；<verse eid="JOB 29:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 29:16"/>我做穷人的父，</para>
+  <para style="q1" vid="JOB 29:16">为陌生人申冤。<verse eid="JOB 29:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 29:17"/>我打落恶人的毒牙，</para>
+  <para style="q1" vid="JOB 29:17">从他们口中救出受害者。<verse eid="JOB 29:17"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 29:18"/>“我想，‘我必在家中安然离世，</para>
+  <para style="q1" vid="JOB 29:18">我的年日必多如尘沙。<verse eid="JOB 29:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 29:19"/>我的根伸展到水边，</para>
+  <para style="q1" vid="JOB 29:19">枝子整夜沐浴甘露。<verse eid="JOB 29:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 29:20"/>我的尊荣永不褪色。</para>
+  <para style="q1" vid="JOB 29:20">手中的弓常新不败。’<verse eid="JOB 29:20"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 29:21"/>“人们期待聆听我的话，</para>
+  <para style="q1" vid="JOB 29:21">默然等候我的指教。<verse eid="JOB 29:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 29:22"/>我讲完后，无人再发言；</para>
+  <para style="q1" vid="JOB 29:22">我的话滋润他们的心田。<verse eid="JOB 29:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 29:23"/>他们盼我如盼甘霖，</para>
+  <para style="q1" vid="JOB 29:23">张着口如慕春雨。<verse eid="JOB 29:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 29:24"/>我的微笑令他们受宠若惊，</para>
+  <para style="q1" vid="JOB 29:24">他们从不使我脸色不悦。<verse eid="JOB 29:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 29:25"/>我为他们选择道路，并且做首领，</para>
+  <para style="q1" vid="JOB 29:25">我就像住在军中的君王，</para>
+  <para style="q1" vid="JOB 29:25">又如伤心之人的安慰者。<verse eid="JOB 29:25"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 29"/>
+  <chapter number="30" style="c" sid="JOB 30"/>
+  <para style="s1">哀叹今日的痛苦</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 30:1"/>“但如今，比我年少的人竟嘲笑我，</para>
+  <para style="q1" vid="JOB 30:1">他们的父亲曾被我鄙视，</para>
+  <para style="q1" vid="JOB 30:1">连我的牧羊犬都不如。<verse eid="JOB 30:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 30:2"/>他们精力衰竭，</para>
+  <para style="q1" vid="JOB 30:2">无力的手于我何益？<verse eid="JOB 30:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 30:3"/>他们贫穷饥饿，瘦弱不堪，</para>
+  <para style="q1" vid="JOB 30:3">夜间在干旱荒凉之地啃食。<verse eid="JOB 30:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 30:4"/>他们在草丛中拔咸草充饥，</para>
+  <para style="q1" vid="JOB 30:4">以罗腾树根为食。<verse eid="JOB 30:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 30:5"/>他们被赶离人群，</para>
+  <para style="q1" vid="JOB 30:5">像贼一样被喝斥。<verse eid="JOB 30:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 30:6"/>他们只好住在荒谷，</para>
+  <para style="q1" vid="JOB 30:6">在地洞和岩穴栖身；<verse eid="JOB 30:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 30:7"/>在杂草间嚎叫如兽，</para>
+  <para style="q1" vid="JOB 30:7">在树丛中蜷缩一团。<verse eid="JOB 30:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 30:8"/>他们是愚昧无名之辈，</para>
+  <para style="q1" vid="JOB 30:8">被人用鞭子赶出境外。<verse eid="JOB 30:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 30:9"/>“如今，他们竟唱歌讽刺我，</para>
+  <para style="q1" vid="JOB 30:9">我成了他们的笑柄。<verse eid="JOB 30:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 30:10"/>他们厌恶我，不愿靠近我，</para>
+  <para style="q1" vid="JOB 30:10">任意朝我脸上吐唾沫。<verse eid="JOB 30:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 30:11"/>因为上帝苦待我，使我毫无力量，</para>
+  <para style="q1" vid="JOB 30:11">他们才在我面前肆无忌惮。<verse eid="JOB 30:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 30:12"/>这些无赖从右边攻击我，</para>
+  <para style="q1" vid="JOB 30:12">迫使我逃亡，</para>
+  <para style="q1" vid="JOB 30:12">他们展开攻势要毁灭我。<verse eid="JOB 30:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 30:13"/>他们截断我的路，</para>
+  <para style="q1" vid="JOB 30:13">想方设法害我，无人相助。<verse eid="JOB 30:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 30:14"/>他们冲破防线，</para>
+  <para style="q1" vid="JOB 30:14">从废墟中向我袭来。<verse eid="JOB 30:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 30:15"/>恐惧笼罩着我，</para>
+  <para style="q1" vid="JOB 30:15">我的尊荣随风而去，</para>
+  <para style="q1" vid="JOB 30:15">我的荣华如云消散。<verse eid="JOB 30:15"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 30:16"/>“如今我的生命将尽，</para>
+  <para style="q1" vid="JOB 30:16">痛苦的日子抓住我。<verse eid="JOB 30:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 30:17"/>夜间我的骨头刺痛，</para>
+  <para style="q1" vid="JOB 30:17">啃噬之痛无休无止。<verse eid="JOB 30:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 30:18"/>上帝猛力抓住我的衣服，</para>
+  <para style="q1" vid="JOB 30:18">紧紧地揪住我的衣领。<verse eid="JOB 30:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 30:19"/>祂把我扔进淤泥，</para>
+  <para style="q1" vid="JOB 30:19">使我如尘埃灰烬。<verse eid="JOB 30:19"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 30:20"/>“上帝啊！我向你呼求，你不回应；</para>
+  <para style="q1" vid="JOB 30:20">我站起来，你也不理睬。<verse eid="JOB 30:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 30:21"/>你变得对我残酷无情，</para>
+  <para style="q1" vid="JOB 30:21">用你大能的手迫害我，<verse eid="JOB 30:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 30:22"/>把我提到风中，让我被风吹走，</para>
+  <para style="q1" vid="JOB 30:22">被暴风抛来抛去。<verse eid="JOB 30:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 30:23"/>我知道你要带我去死亡之地，</para>
+  <para style="q1" vid="JOB 30:23">那是你为众生所定的归宿。<verse eid="JOB 30:23"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 30:24"/>“诚然，不幸的人在困境中呼救，</para>
+  <para style="q1" vid="JOB 30:24">无人会伸手加害他。<verse eid="JOB 30:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 30:25"/>难道我不曾为受苦的人哭泣，</para>
+  <para style="q1" vid="JOB 30:25">我的心不曾为穷困者悲伤吗？<verse eid="JOB 30:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 30:26"/>我盼望幸福，来的却是灾祸；</para>
+  <para style="q1" vid="JOB 30:26">我期待光明，来的却是黑暗。<verse eid="JOB 30:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 30:27"/>我心里一直烦乱不安，</para>
+  <para style="q1" vid="JOB 30:27">苦难的日子迎面袭来。<verse eid="JOB 30:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 30:28"/>我皮肤发黑，不是因为日晒，</para>
+  <para style="q1" vid="JOB 30:28">我在会众中站起来呼救。<verse eid="JOB 30:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 30:29"/>我成了豺狼的兄弟，</para>
+  <para style="q1" vid="JOB 30:29">鸵鸟的伙伴。<verse eid="JOB 30:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 30:30"/>我的皮肤发黑、脱落，</para>
+  <para style="q1" vid="JOB 30:30">我的骨头发热，如被火烧。<verse eid="JOB 30:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 30:31"/>我的琴唱出哀乐，</para>
+  <para style="q1" vid="JOB 30:31">我的箫奏出悲鸣。<verse eid="JOB 30:31"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 30"/>
+  <chapter number="31" style="c" sid="JOB 31"/>
+  <para style="s1">约伯最后的申辩</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 31:1"/>“我跟自己的眼睛立了约，</para>
+  <para style="q1" vid="JOB 31:1">决不贪看女色。<verse eid="JOB 31:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 31:2"/>天上的上帝所定的是什么？</para>
+  <para style="q1" vid="JOB 31:2">高处的全能者赐下什么产业？<verse eid="JOB 31:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 31:3"/>岂不是降灾难给不义之人，</para>
+  <para style="q1" vid="JOB 31:3">降祸患给作恶的人？<verse eid="JOB 31:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 31:4"/>上帝岂不鉴察我走的路，</para>
+  <para style="q1" vid="JOB 31:4">数算我的脚步？<verse eid="JOB 31:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 31:5"/>我何曾与虚假同行，</para>
+  <para style="q1" vid="JOB 31:5">疾步追随诡诈？<verse eid="JOB 31:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 31:6"/>愿上帝把我放在公义的天平上称量，</para>
+  <para style="q1" vid="JOB 31:6">让祂知道我的清白。<verse eid="JOB 31:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 31:7"/>倘若我的脚偏离正路，</para>
+  <para style="q1" vid="JOB 31:7">贪图眼目之欲，</para>
+  <para style="q1" vid="JOB 31:7">或手上粘着罪污，<verse eid="JOB 31:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 31:8"/>愿我种的庄稼被别人享用，</para>
+  <para style="q1" vid="JOB 31:8">我田中的出产被连根拔起。<verse eid="JOB 31:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 31:9"/>我的心若迷恋女人，</para>
+  <para style="q1" vid="JOB 31:9">在邻居的门口窥探，<verse eid="JOB 31:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 31:10"/>愿我妻子为别人推磨，</para>
+  <para style="q1" vid="JOB 31:10">愿别人与她同房。<verse eid="JOB 31:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 31:11"/>因为这是大恶，</para>
+  <para style="q1" vid="JOB 31:11">是当受审判的罪，<verse eid="JOB 31:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 31:12"/>是烧向灭亡的火焰，</para>
+  <para style="q1" vid="JOB 31:12">会吞噬我所有家业。<verse eid="JOB 31:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 31:13"/>我的仆婢告我，</para>
+  <para style="q1" vid="JOB 31:13">我也会讲公道，<verse eid="JOB 31:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 31:14"/>否则上帝追究，我怎么办？</para>
+  <para style="q1" vid="JOB 31:14">祂审问我，我如何回答？<verse eid="JOB 31:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 31:15"/>在母腹创造我的，岂不也创造了他们？</para>
+  <para style="q1" vid="JOB 31:15">岂不是同一位使我们在母腹中成胎？<verse eid="JOB 31:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 31:16"/>我何曾拒绝穷人的请求，</para>
+  <para style="q1" vid="JOB 31:16">或使寡妇眼露失望之情，<verse eid="JOB 31:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 31:17"/>或独吞我的食物，</para>
+  <para style="q1" vid="JOB 31:17">不与孤儿同享？<verse eid="JOB 31:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 31:18"/>我自幼就如父亲般抚养孤儿，</para>
+  <para style="q1" vid="JOB 31:18">我自出母胎就照顾寡妇。<verse eid="JOB 31:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 31:19"/>倘若我见有人冻得要死，</para>
+  <para style="q1" vid="JOB 31:19">或有穷人衣不蔽体，<verse eid="JOB 31:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 31:20"/>却没有把我的羊毛给他们御寒，</para>
+  <para style="q1" vid="JOB 31:20">以致他们向我道谢；<verse eid="JOB 31:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 31:21"/>倘若我仗着在城门口有势力，</para>
+  <para style="q1" vid="JOB 31:21">就动手欺负孤儿，<verse eid="JOB 31:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 31:22"/>情愿我的肩膀从肩胛脱落，</para>
+  <para style="q1" vid="JOB 31:22">我的手臂从手肘折断。<verse eid="JOB 31:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 31:23"/>因为我惧怕上帝降灾祸，</para>
+  <para style="q1" vid="JOB 31:23">我无法承担祂的威严。<verse eid="JOB 31:23"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 31:24"/>“我若仰仗金子，</para>
+  <para style="q1" vid="JOB 31:24">依靠纯金，<verse eid="JOB 31:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 31:25"/>因财富充裕、</para>
+  <para style="q1" vid="JOB 31:25">或家产丰足而欢喜；<verse eid="JOB 31:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 31:26"/>我若见太阳发光，</para>
+  <para style="q1" vid="JOB 31:26">明月在天上移动，<verse eid="JOB 31:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 31:27"/>就暗自心生迷恋，</para>
+  <para style="q1" vid="JOB 31:27">向它们吻手示敬，<verse eid="JOB 31:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 31:28"/>就是犯了当受审判的罪恶，</para>
+  <para style="q1" vid="JOB 31:28">因为这是背弃天上的上帝。<verse eid="JOB 31:28"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 31:29"/>“我何曾因敌人遭殃而欢喜，</para>
+  <para style="q1" vid="JOB 31:29">因他们遇祸而快乐？<verse eid="JOB 31:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 31:30"/>我从未咒诅他们丧命，</para>
+  <para style="q1" vid="JOB 31:30">以致我的口犯罪。<verse eid="JOB 31:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 31:31"/>住在我帐篷中的人，</para>
+  <para style="q1" vid="JOB 31:31">谁没饱餐我的肉食呢？<verse eid="JOB 31:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 31:32"/>我的家门向路人敞开，</para>
+  <para style="q1" vid="JOB 31:32">从未有旅客露宿街头。<verse eid="JOB 31:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 31:33"/>我何曾像亚当一样遮掩我的过犯，</para>
+  <para style="q1" vid="JOB 31:33">将罪恶藏在怀中，<verse eid="JOB 31:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="JOB 31:34"/>因害怕群众，</para>
+  <para style="q1" vid="JOB 31:34">畏惧族人的藐视，</para>
+  <para style="q1" vid="JOB 31:34">就默不作声、闭门不出？<verse eid="JOB 31:34"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="35" style="v" sid="JOB 31:35"/>“但愿有人听我申诉！</para>
+  <para style="q1" vid="JOB 31:35">看啊，我在这里画押，愿全能者回答我！</para>
+  <para style="q1" vid="JOB 31:35">愿我的控诉者写好状词！<verse eid="JOB 31:35"/></para>
+  <para style="q1">
+    <verse number="36" style="v" sid="JOB 31:36"/>我会把状词披在肩上，</para>
+  <para style="q1" vid="JOB 31:36">如冠冕一般戴在头上。<verse eid="JOB 31:36"/></para>
+  <para style="q1">
+    <verse number="37" style="v" sid="JOB 31:37"/>我会像王者一样到祂面前，</para>
+  <para style="q1" vid="JOB 31:37">向祂交代我的一切所为。<verse eid="JOB 31:37"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="38" style="v" sid="JOB 31:38"/>“若我的田地向我喊冤，</para>
+  <para style="q1" vid="JOB 31:38">条条犁沟一同哭诉；<verse eid="JOB 31:38"/></para>
+  <para style="q1">
+    <verse number="39" style="v" sid="JOB 31:39"/>若我白吃地的出产，</para>
+  <para style="q1" vid="JOB 31:39">或使地的主人丧命，<verse eid="JOB 31:39"/></para>
+  <para style="q1">
+    <verse number="40" style="v" sid="JOB 31:40"/>愿地长出蒺藜而非麦子，</para>
+  <para style="q1" vid="JOB 31:40">长出杂草而非大麦。”</para>
+  <para style="b" vid="JOB 31:40"/>
+  <para style="q1" vid="JOB 31:40">
+    <char style="pn">约伯</char>的话说完了。<verse eid="JOB 31:40"/></para>
+  <chapter eid="JOB 31"/>
+  <chapter number="32" style="c" sid="JOB 32"/>
+  <para style="s1">以利户的回答</para>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 32:1"/>三人见<char style="pn">约伯</char>自以为义，便不再回答他。 <verse eid="JOB 32:1"/><verse number="2" style="v" sid="JOB 32:2"/>那时，<char style="pn">兰</char>族的<char style="pn">布西</char>人<char style="pn">巴拉迦</char>的儿子<char style="pn">以利户</char>对<char style="pn">约伯</char>很恼火，因为<char style="pn">约伯</char>自以为义，不承认上帝的公义。 <verse eid="JOB 32:2"/><verse number="3" style="v" sid="JOB 32:3"/>他对<char style="pn">约伯</char>的三个朋友也很恼火，因为他们说<char style="pn">约伯</char>有罪，却无法回答<char style="pn">约伯</char>的质问<note caller="+" style="f"><char style="fr" closed="false">32:3 </char><char style="ft" closed="false">“因为他们说约伯有罪，却无法回答约伯的质问”有古卷作“因为他们无法回答约伯的质问，因而置上帝于不公”。</char></note>。 <verse eid="JOB 32:3"/><verse number="4" style="v" sid="JOB 32:4"/>由于不及他们年长，<char style="pn">以利户</char>便等他们说完才向<char style="pn">约伯</char>发言。 <verse eid="JOB 32:4"/><verse number="5" style="v" sid="JOB 32:5"/>他见三人无法回答<char style="pn">约伯</char>，很恼火。 <verse eid="JOB 32:5"/><verse number="6" style="v" sid="JOB 32:6"/>于是，<char style="pn">布西</char>人<char style="pn">巴拉迦</char>的儿子<char style="pn">以利户</char>说：</para>
+  <para style="q1" vid="JOB 32:6">“我年纪轻，你们是长辈，</para>
+  <para style="q1" vid="JOB 32:6">所以我畏惧，不敢向你们陈明观点。<verse eid="JOB 32:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 32:7"/>我想，前辈当先发言，</para>
+  <para style="q1" vid="JOB 32:7">长者当传授智慧。<verse eid="JOB 32:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 32:8"/>但只有人里面的灵——</para>
+  <para style="q1" vid="JOB 32:8">全能者的气息赐人悟性。<verse eid="JOB 32:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 32:9"/>长者不一定有智慧，</para>
+  <para style="q1" vid="JOB 32:9">年老不一定明白是非。<verse eid="JOB 32:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 32:10"/>因此，请听我说，</para>
+  <para style="q1" vid="JOB 32:10">我也要陈明观点。<verse eid="JOB 32:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 32:11"/>看啊，我一直等候你们发言，</para>
+  <para style="q1" vid="JOB 32:11">倾听你们的高见，</para>
+  <para style="q1" vid="JOB 32:11">等你们斟词酌句。<verse eid="JOB 32:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 32:12"/>我仔细聆听，</para>
+  <para style="q1" vid="JOB 32:12">发现你们无人能驳倒<char style="pn">约伯</char>，</para>
+  <para style="q1" vid="JOB 32:12">无人能答复他。<verse eid="JOB 32:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 32:13"/>你们不要说，‘我们找到了智慧，</para>
+  <para style="q1" vid="JOB 32:13">使他折服的是上帝而非人。’<verse eid="JOB 32:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 32:14"/>
+    <char style="pn">约伯</char>没有与我辩论，</para>
+  <para style="q1" vid="JOB 32:14">我也不会用你们的理论答复他。<verse eid="JOB 32:14"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 32:15"/>“他们惊慌失措，无言以对，</para>
+  <para style="q1" vid="JOB 32:15">再也说不出话来。<verse eid="JOB 32:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 32:16"/>难道他们不说话，站在那里无言以对，</para>
+  <para style="q1" vid="JOB 32:16">我就要等下去吗？<verse eid="JOB 32:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 32:17"/>我也要作出答复，</para>
+  <para style="q1" vid="JOB 32:17">陈明我的观点。<verse eid="JOB 32:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 32:18"/>因为我心里积满了话，</para>
+  <para style="q1" vid="JOB 32:18">我里面的灵催促我说出来。<verse eid="JOB 32:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 32:19"/>我里面像盛满了酒，却没有出口，</para>
+  <para style="q1" vid="JOB 32:19">又如将要破裂的新酒袋。<verse eid="JOB 32:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 32:20"/>我要一吐为快，</para>
+  <para style="q1" vid="JOB 32:20">我要开口答复。<verse eid="JOB 32:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 32:21"/>我不看人的情面，</para>
+  <para style="q1" vid="JOB 32:21">也不奉承人。<verse eid="JOB 32:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 32:22"/>我不懂奉承，</para>
+  <para style="q1" vid="JOB 32:22">否则，造物主会很快把我除掉。<verse eid="JOB 32:22"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 32"/>
+  <chapter number="33" style="c" sid="JOB 33"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 33:1"/>“<char style="pn">约伯</char>啊，请听我言，</para>
+  <para style="q1" vid="JOB 33:1">请留心听我每一句话。<verse eid="JOB 33:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 33:2"/>我要开口发言，</para>
+  <para style="q1" vid="JOB 33:2">我话已在舌尖。<verse eid="JOB 33:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 33:3"/>我的话发自正直的心，</para>
+  <para style="q1" vid="JOB 33:3">我的口如实陈明道理。<verse eid="JOB 33:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 33:4"/>上帝的灵创造了我，</para>
+  <para style="q1" vid="JOB 33:4">全能者的气赋予我生命。<verse eid="JOB 33:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 33:5"/>如果你能，就反驳我，</para>
+  <para style="q1" vid="JOB 33:5">站出来与我辩论。<verse eid="JOB 33:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 33:6"/>在上帝面前，我与你无异，</para>
+  <para style="q1" vid="JOB 33:6">也是泥土造的。<verse eid="JOB 33:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 33:7"/>所以你不用惧怕我，</para>
+  <para style="q1" vid="JOB 33:7">我不会对你施加压力。<verse eid="JOB 33:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 33:8"/>“你的话已进到我耳中，</para>
+  <para style="q1" vid="JOB 33:8">我听见你说，<verse eid="JOB 33:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 33:9"/>‘我纯全无过，</para>
+  <para style="q1" vid="JOB 33:9">我清白无罪，<verse eid="JOB 33:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 33:10"/>上帝却挑我的错，</para>
+  <para style="q1" vid="JOB 33:10">与我为敌；<verse eid="JOB 33:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 33:11"/>祂给我戴上脚镣，</para>
+  <para style="q1" vid="JOB 33:11">鉴察我的一举一动。’<verse eid="JOB 33:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 33:12"/>“我来答复你，你这话没有道理，</para>
+  <para style="q1" vid="JOB 33:12">因为上帝比世人大。<verse eid="JOB 33:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 33:13"/>你为何向祂抱怨，</para>
+  <para style="q1" vid="JOB 33:13">说祂不理会世人的话？<verse eid="JOB 33:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 33:14"/>上帝一再用各种方式说话，</para>
+  <para style="q1" vid="JOB 33:14">然而世人却不明白。<verse eid="JOB 33:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 33:15"/>人躺在床上沉睡时，</para>
+  <para style="q1" vid="JOB 33:15">在梦境和夜间的异象中，<verse eid="JOB 33:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 33:16"/>上帝开启他们的耳朵，</para>
+  <para style="q1" vid="JOB 33:16">用警告惊吓他们，<verse eid="JOB 33:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 33:17"/>使他们离开罪恶，</para>
+  <para style="q1" vid="JOB 33:17">不再骄傲，<verse eid="JOB 33:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 33:18"/>以免他们的灵魂坠入深坑，</para>
+  <para style="q1" vid="JOB 33:18">他们的性命被刀剑夺去。<verse eid="JOB 33:18"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 33:19"/>“人因受罚而卧病在床，</para>
+  <para style="q1" vid="JOB 33:19">骨头疼痛不止，<verse eid="JOB 33:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 33:20"/>以致毫无食欲，</para>
+  <para style="q1" vid="JOB 33:20">对佳肴心生厌恶。<verse eid="JOB 33:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 33:21"/>他日渐消瘦，</para>
+  <para style="q1" vid="JOB 33:21">只剩下骨头。<verse eid="JOB 33:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 33:22"/>他的灵魂临近深坑，</para>
+  <para style="q1" vid="JOB 33:22">他的生命濒临死亡。<verse eid="JOB 33:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 33:23"/>如果一千天使中有一位能做他的中保，</para>
+  <para style="q1" vid="JOB 33:23">指示他当行的事，<verse eid="JOB 33:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 33:24"/>上帝<note caller="+" style="f"><char style="fr" closed="false">33:24 </char><char style="ft" closed="false">“上帝”希伯来文是“他”，也可能指天使。</char></note>就会怜悯他，说，‘别让他下坟墓，</para>
+  <para style="q1" vid="JOB 33:24">我已得到他的赎金。’<verse eid="JOB 33:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 33:25"/>那时，他的皮肉比孩童还嫩，</para>
+  <para style="q1" vid="JOB 33:25">他将恢复青春的活力。<verse eid="JOB 33:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 33:26"/>他向上帝祷告时必蒙悦纳，</para>
+  <para style="q1" vid="JOB 33:26">他欢呼着朝见上帝，</para>
+  <para style="q1" vid="JOB 33:26">再度被祂视为义人。<verse eid="JOB 33:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 33:27"/>他会当众歌唱说，</para>
+  <para style="q1" vid="JOB 33:27">‘我犯了罪，颠倒是非，</para>
+  <para style="q1" vid="JOB 33:27">祂却没有按我的罪报应我。<verse eid="JOB 33:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 33:28"/>祂救赎我的灵魂，使之免下深坑，</para>
+  <para style="q1" vid="JOB 33:28">使我的生命得见光明。’<verse eid="JOB 33:28"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 33:29"/>“看啊，这都是上帝的作为，</para>
+  <para style="q1" vid="JOB 33:29">祂一次次地恩待世人，<verse eid="JOB 33:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 33:30"/>从深坑救回人的灵魂，</para>
+  <para style="q1" vid="JOB 33:30">使他沐浴生命之光。<verse eid="JOB 33:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 33:31"/>
+    <char style="pn">约伯</char>啊，留心听我说，</para>
+  <para style="q1" vid="JOB 33:31">不要作声，我要发言。<verse eid="JOB 33:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 33:32"/>你若有话，就答复我；</para>
+  <para style="q1" vid="JOB 33:32">你只管说，我愿看到你的清白。<verse eid="JOB 33:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 33:33"/>否则，请听我言；</para>
+  <para style="q1" vid="JOB 33:33">不要作声，我要传授你智慧。”<verse eid="JOB 33:33"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 33"/>
+  <chapter number="34" style="c" sid="JOB 34"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 34:1"/>
+    <char style="pn">以利户</char>又说：<verse eid="JOB 34:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 34:2"/>“各位智者，请听我言；</para>
+  <para style="q1" vid="JOB 34:2">明达之士，要侧耳听我的话。<verse eid="JOB 34:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 34:3"/>因为耳朵辨别话语，</para>
+  <para style="q1" vid="JOB 34:3">正如舌头品尝食物。<verse eid="JOB 34:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 34:4"/>我们来鉴别何为正，</para>
+  <para style="q1" vid="JOB 34:4">一起来认识何为善。<verse eid="JOB 34:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 34:5"/>
+    <char style="pn">约伯</char>曾说，‘我是清白的，</para>
+  <para style="q1" vid="JOB 34:5">上帝却夺去我的公道。<verse eid="JOB 34:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 34:6"/>我虽然有理，却被认为是撒谎者；</para>
+  <para style="q1" vid="JOB 34:6">我虽然无过，却受到致命的创伤。’<verse eid="JOB 34:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 34:7"/>有谁像<char style="pn">约伯</char>？</para>
+  <para style="q1" vid="JOB 34:7">他肆意嘲讽，<verse eid="JOB 34:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 34:8"/>与恶者为伍，</para>
+  <para style="q1" vid="JOB 34:8">同坏人作伴。<verse eid="JOB 34:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 34:9"/>因为他说，‘人取悦上帝毫无益处。’<verse eid="JOB 34:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 34:10"/>“所以明智的人啊，请听我言，</para>
+  <para style="q1" vid="JOB 34:10">上帝绝不会作恶，</para>
+  <para style="q1" vid="JOB 34:10">全能者绝无不义。<verse eid="JOB 34:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 34:11"/>祂按人所行的对待人，</para>
+  <para style="q1" vid="JOB 34:11">照人所做的报应人。<verse eid="JOB 34:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 34:12"/>上帝绝不会作恶，</para>
+  <para style="q1" vid="JOB 34:12">全能者不会颠倒是非。<verse eid="JOB 34:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 34:13"/>谁曾派祂治理大地，</para>
+  <para style="q1" vid="JOB 34:13">让祂掌管整个世界呢？<verse eid="JOB 34:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 34:14"/>上帝若决定收回自己的灵和气，<verse eid="JOB 34:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 34:15"/>所有生命将一同灭亡，</para>
+  <para style="q1" vid="JOB 34:15">世人也将归回尘土。<verse eid="JOB 34:15"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 34:16"/>“你若明理，请听我言，</para>
+  <para style="q1" vid="JOB 34:16">侧耳听我说。<verse eid="JOB 34:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 34:17"/>憎恶正义的岂可掌权？</para>
+  <para style="q1" vid="JOB 34:17">你要谴责公义的大能者吗？<verse eid="JOB 34:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 34:18"/>祂可以称君王为废物，</para>
+  <para style="q1" vid="JOB 34:18">称权贵为恶徒。<verse eid="JOB 34:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 34:19"/>祂不偏袒王侯，</para>
+  <para style="q1" vid="JOB 34:19">也不轻贫重富，</para>
+  <para style="q1" vid="JOB 34:19">因为他们都是祂亲手造的。<verse eid="JOB 34:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 34:20"/>他们夜半猝然死去，</para>
+  <para style="q1" vid="JOB 34:20">百姓震颤，继而消逝，</para>
+  <para style="q1" vid="JOB 34:20">权贵也被铲除，非借人手。<verse eid="JOB 34:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 34:21"/>祂注目世人所行之道，</para>
+  <para style="q1" vid="JOB 34:21">察看他们走的每一步。<verse eid="JOB 34:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 34:22"/>没有黑暗和阴影可供作恶者藏身。<verse eid="JOB 34:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 34:23"/>祂不必再三察验，</para>
+  <para style="q1" vid="JOB 34:23">把人召到面前审判。<verse eid="JOB 34:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 34:24"/>祂击垮权贵无需审查，</para>
+  <para style="q1" vid="JOB 34:24">另立他人取而代之。<verse eid="JOB 34:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 34:25"/>祂知道他们的行为，</para>
+  <para style="q1" vid="JOB 34:25">祂使他们在夜间倾覆、灭亡。<verse eid="JOB 34:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 34:26"/>祂当众击打他们，</para>
+  <para style="q1" vid="JOB 34:26">正如击打恶人。<verse eid="JOB 34:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 34:27"/>因为他们离弃祂，</para>
+  <para style="q1" vid="JOB 34:27">无视祂的正道，<verse eid="JOB 34:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 34:28"/>以致穷人的呼求传到祂那里，</para>
+  <para style="q1" vid="JOB 34:28">祂也听见了困苦者的呼求。<verse eid="JOB 34:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 34:29"/>但祂若保持缄默，谁能定祂有罪？</para>
+  <para style="q1" vid="JOB 34:29">祂若掩起脸来，谁能看得见祂？</para>
+  <para style="q1" vid="JOB 34:29">个人和国家都靠祂垂顾，<verse eid="JOB 34:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 34:30"/>以免不敬虔者做王，</para>
+  <para style="q1" vid="JOB 34:30">祸国殃民。<verse eid="JOB 34:30"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 34:31"/>“有谁对上帝说，</para>
+  <para style="q1" vid="JOB 34:31">‘我受了管教，不会再犯罪；<verse eid="JOB 34:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 34:32"/>我不明白的事，求你指教我；</para>
+  <para style="q1" vid="JOB 34:32">我若行了恶事，必不再行’？<verse eid="JOB 34:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 34:33"/>难道因为你拒绝接受，</para>
+  <para style="q1" vid="JOB 34:33">上帝就要迎合你的要求吗？</para>
+  <para style="q1" vid="JOB 34:33">要做抉择的是你，而非我，</para>
+  <para style="q1" vid="JOB 34:33">请说说你的高见。<verse eid="JOB 34:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="JOB 34:34"/>明达的人和听我发言的智者都会说，<verse eid="JOB 34:34"/></para>
+  <para style="q1">
+    <verse number="35" style="v" sid="JOB 34:35"/>‘<char style="pn">约伯</char>所言毫无知识，</para>
+  <para style="q1" vid="JOB 34:35">他的话没有智慧。’<verse eid="JOB 34:35"/></para>
+  <para style="q1">
+    <verse number="36" style="v" sid="JOB 34:36"/>愿<char style="pn">约伯</char>被试炼到底，</para>
+  <para style="q1" vid="JOB 34:36">因为他的回答如恶人之言。<verse eid="JOB 34:36"/></para>
+  <para style="q1">
+    <verse number="37" style="v" sid="JOB 34:37"/>他的叛逆使他罪上加罪，</para>
+  <para style="q1" vid="JOB 34:37">他在我们中间拍手讥笑，</para>
+  <para style="q1" vid="JOB 34:37">用许多话亵渎上帝。”<verse eid="JOB 34:37"/></para>
+  <chapter eid="JOB 34"/>
+  <chapter number="35" style="c" sid="JOB 35"/>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 35:1"/>
+    <char style="pn">以利户</char>又说：<verse eid="JOB 35:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 35:2"/>“你在上帝面前自以为义，</para>
+  <para style="q1" vid="JOB 35:2">你认为这合理吗？<verse eid="JOB 35:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 35:3"/>你还说，‘这与我何干？</para>
+  <para style="q1" vid="JOB 35:3">我不犯罪又有何益处？’<verse eid="JOB 35:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 35:4"/>我要答复你和你的朋友。<verse eid="JOB 35:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 35:5"/>要抬头观看诸天，</para>
+  <para style="q1" vid="JOB 35:5">瞻望头顶的穹苍。<verse eid="JOB 35:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 35:6"/>你若犯罪，与上帝何妨？</para>
+  <para style="q1" vid="JOB 35:6">你若罪恶累累，对祂有何影响？<verse eid="JOB 35:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 35:7"/>你若为人公义，与祂何益？</para>
+  <para style="q1" vid="JOB 35:7">祂从你手上能得什么好处？<verse eid="JOB 35:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 35:8"/>你的罪恶只能伤害你的同类，</para>
+  <para style="q1" vid="JOB 35:8">你的公义只能令世人受益。<verse eid="JOB 35:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 35:9"/>“人们因饱受压迫而呼求，</para>
+  <para style="q1" vid="JOB 35:9">因强权者的压制而求救。<verse eid="JOB 35:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 35:10"/>但无人问，‘创造我的上帝在哪里？</para>
+  <para style="q1" vid="JOB 35:10">祂使人夜间欢唱，<verse eid="JOB 35:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 35:11"/>使我们比地上的走兽聪明，</para>
+  <para style="q1" vid="JOB 35:11">比天上的飞鸟有智慧。’<verse eid="JOB 35:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 35:12"/>他们因恶人的嚣张而呼求，</para>
+  <para style="q1" vid="JOB 35:12">上帝却不回答。<verse eid="JOB 35:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 35:13"/>上帝必不垂听虚妄的呼求，</para>
+  <para style="q1" vid="JOB 35:13">全能者必不理会。<verse eid="JOB 35:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 35:14"/>更何况你说你看不见祂，</para>
+  <para style="q1" vid="JOB 35:14">你的案子已呈上，在等祂裁决。<verse eid="JOB 35:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 35:15"/>你还说祂没有发怒降罚，</para>
+  <para style="q1" vid="JOB 35:15">也毫不理会罪恶。<verse eid="JOB 35:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 35:16"/>
+    <char style="pn">约伯</char>啊，你说的尽是虚言，</para>
+  <para style="q1" vid="JOB 35:16">讲了一堆无知的话。”<verse eid="JOB 35:16"/></para>
+  <chapter eid="JOB 35"/>
+  <chapter number="36" style="c" sid="JOB 36"/>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 36:1"/>
+    <char style="pn">以利户</char>又说：<verse eid="JOB 36:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 36:2"/>“再给我片刻，容我讲明，</para>
+  <para style="q1" vid="JOB 36:2">我还有话替上帝说。<verse eid="JOB 36:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 36:3"/>我要旁征博引，</para>
+  <para style="q1" vid="JOB 36:3">证明我的创造主公义。<verse eid="JOB 36:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 36:4"/>我的话绝非虚言，</para>
+  <para style="q1" vid="JOB 36:4">知识全备者在你身旁。<verse eid="JOB 36:4"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 36:5"/>“上帝有大能，但不藐视人，</para>
+  <para style="q1" vid="JOB 36:5">祂无所不知。<verse eid="JOB 36:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 36:6"/>祂不容恶人活命，</para>
+  <para style="q1" vid="JOB 36:6">祂为穷苦人申冤。<verse eid="JOB 36:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 36:7"/>祂时时看顾义人，</para>
+  <para style="q1" vid="JOB 36:7">使他们与君王同坐宝座，</para>
+  <para style="q1" vid="JOB 36:7">永远受尊崇。<verse eid="JOB 36:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 36:8"/>他们若被锁链捆绑，</para>
+  <para style="q1" vid="JOB 36:8">被苦难的绳索缠住，<verse eid="JOB 36:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 36:9"/>祂就会指明他们的所作所为，</para>
+  <para style="q1" vid="JOB 36:9">让他们知道自己狂妄的罪愆。<verse eid="JOB 36:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 36:10"/>祂开启他们的耳朵，使之受教，</para>
+  <para style="q1" vid="JOB 36:10">督促他们离开罪恶。<verse eid="JOB 36:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 36:11"/>他们若听从、事奉祂，</para>
+  <para style="q1" vid="JOB 36:11">就可一生幸福，安享天年。<verse eid="JOB 36:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 36:12"/>否则，他们必死于刀下，</para>
+  <para style="q1" vid="JOB 36:12">在无知中灭亡。<verse eid="JOB 36:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 36:13"/>不信上帝的人心存愤怒，</para>
+  <para style="q1" vid="JOB 36:13">被上帝捆绑也不求救。<verse eid="JOB 36:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 36:14"/>他们早年丧命，</para>
+  <para style="q1" vid="JOB 36:14">与庙中的男妓一同夭亡。<verse eid="JOB 36:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 36:15"/>上帝借苦难拯救受苦的人，</para>
+  <para style="q1" vid="JOB 36:15">借患难开通他们的耳朵。<verse eid="JOB 36:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 36:16"/>祂也要引领你脱离困境，</para>
+  <para style="q1" vid="JOB 36:16">进入广阔自由之地，</para>
+  <para style="q1" vid="JOB 36:16">使你享受满桌佳肴。<verse eid="JOB 36:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 36:17"/>“但你饱受恶人当得的审判，</para>
+  <para style="q1" vid="JOB 36:17">审判和惩罚临到了你。<verse eid="JOB 36:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 36:18"/>当心，不可因愤怒而嘲骂，</para>
+  <para style="q1" vid="JOB 36:18">不可因赎金大就偏离正道。<verse eid="JOB 36:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 36:19"/>难道你呼求、使出浑身力气，</para>
+  <para style="q1" vid="JOB 36:19">就能脱离困境吗？<verse eid="JOB 36:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 36:20"/>不要渴望黑夜来临，</para>
+  <para style="q1" vid="JOB 36:20">那时众民在家中消亡。<verse eid="JOB 36:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 36:21"/>当心，不可转向罪恶，</para>
+  <para style="q1" vid="JOB 36:21">因你喜欢罪恶胜于苦难。<verse eid="JOB 36:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 36:22"/>看啊，上帝的能力无以伦比。</para>
+  <para style="q1" vid="JOB 36:22">谁能像祂那样赐人教诲？<verse eid="JOB 36:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 36:23"/>谁能为祂指定道路？</para>
+  <para style="q1" vid="JOB 36:23">谁能说祂行事不义？<verse eid="JOB 36:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 36:24"/>人们都歌唱祂的作为，</para>
+  <para style="q1" vid="JOB 36:24">你也要记得颂扬。<verse eid="JOB 36:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 36:25"/>祂的作为，天下人都已看见，</para>
+  <para style="q1" vid="JOB 36:25">世人从远处目睹。<verse eid="JOB 36:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 36:26"/>我们无法明白上帝的伟大，</para>
+  <para style="q1" vid="JOB 36:26">祂的年岁无法数算。<verse eid="JOB 36:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 36:27"/>祂吸取水滴，</para>
+  <para style="q1" vid="JOB 36:27">使之在云雾中化为雨，<verse eid="JOB 36:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 36:28"/>从云端沛然降下，</para>
+  <para style="q1" vid="JOB 36:28">滋润人间。<verse eid="JOB 36:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 36:29"/>谁能明白云层的铺展，</para>
+  <para style="q1" vid="JOB 36:29">及祂幔幕发出的雷声？<verse eid="JOB 36:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 36:30"/>祂在四围铺展闪电，</para>
+  <para style="q1" vid="JOB 36:30">覆盖大海的深处。<verse eid="JOB 36:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 36:31"/>祂借此治理万民，</para>
+  <para style="q1" vid="JOB 36:31">赐下丰富的食物。<verse eid="JOB 36:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 36:32"/>祂手握闪电，</para>
+  <para style="q1" vid="JOB 36:32">令它射向目标。<verse eid="JOB 36:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 36:33"/>雷声显明祂的作为，</para>
+  <para style="q1" vid="JOB 36:33">就连牲畜也能察觉。<verse eid="JOB 36:33"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 36"/>
+  <chapter number="37" style="c" sid="JOB 37"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 37:1"/>“因此我心战栗，</para>
+  <para style="q1" vid="JOB 37:1">在胸膛跳动。<verse eid="JOB 37:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 37:2"/>请仔细听祂发出的雷声，</para>
+  <para style="q1" vid="JOB 37:2">听祂口中发出的轰鸣。<verse eid="JOB 37:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 37:3"/>祂使闪电划过整个天空，</para>
+  <para style="q1" vid="JOB 37:3">亮光直照到地极。<verse eid="JOB 37:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 37:4"/>随后雷声隆隆，</para>
+  <para style="q1" vid="JOB 37:4">祂发出威严之声。</para>
+  <para style="q1" vid="JOB 37:4">祂一发声，雷电交加。<verse eid="JOB 37:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 37:5"/>上帝发出奇妙的雷声，</para>
+  <para style="q1" vid="JOB 37:5">我们无法测度祂伟大的作为。<verse eid="JOB 37:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 37:6"/>祂命雪降在大地，</para>
+  <para style="q1" vid="JOB 37:6">令雨倾盆倒下，<verse eid="JOB 37:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 37:7"/>使人们停下工作，</para>
+  <para style="q1" vid="JOB 37:7">以便世人都知道祂的作为。<verse eid="JOB 37:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 37:8"/>野兽躲进窝里，</para>
+  <para style="q1" vid="JOB 37:8">留在洞中。<verse eid="JOB 37:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 37:9"/>暴风从南天而来，</para>
+  <para style="q1" vid="JOB 37:9">寒流由北方而至。<verse eid="JOB 37:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 37:10"/>上帝嘘气成冰，</para>
+  <para style="q1" vid="JOB 37:10">使宽阔的水面凝结。<verse eid="JOB 37:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 37:11"/>祂使密云布满水气，</para>
+  <para style="q1" vid="JOB 37:11">从云端发出闪电。<verse eid="JOB 37:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 37:12"/>云随祂的指令旋转，</para>
+  <para style="q1" vid="JOB 37:12">在地面遵行祂的吩咐，<verse eid="JOB 37:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 37:13"/>或为惩罚大地，</para>
+  <para style="q1" vid="JOB 37:13">或为彰显慈爱。<verse eid="JOB 37:13"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 37:14"/>“<char style="pn">约伯</char>啊，请留心听，</para>
+  <para style="q1" vid="JOB 37:14">要驻足沉思上帝的奇妙作为。<verse eid="JOB 37:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 37:15"/>你知道上帝如何发出命令，</para>
+  <para style="q1" vid="JOB 37:15">使云中电光闪烁吗？<verse eid="JOB 37:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 37:16"/>你知道全知者的奇妙作为——</para>
+  <para style="q1" vid="JOB 37:16">祂如何使云彩飘浮吗？<verse eid="JOB 37:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 37:17"/>南风吹来，大地沉寂时，</para>
+  <para style="q1" vid="JOB 37:17">你就汗湿衣襟，你知道为何吗？<verse eid="JOB 37:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 37:18"/>你能像祂那样铺展坚如铜镜的穹苍吗？<verse eid="JOB 37:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 37:19"/>我们因愚昧而无法陈诉，</para>
+  <para style="q1" vid="JOB 37:19">请指教我们如何与祂对话。<verse eid="JOB 37:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 37:20"/>我怎敢与祂对话？</para>
+  <para style="q1" vid="JOB 37:20">岂有人自取灭亡？<verse eid="JOB 37:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 37:21"/>风吹散天空的云后，</para>
+  <para style="q1" vid="JOB 37:21">无人能仰视太阳的强光。<verse eid="JOB 37:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 37:22"/>北方出现金色的光芒，</para>
+  <para style="q1" vid="JOB 37:22">上帝充满可怕的威严。<verse eid="JOB 37:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 37:23"/>我们无法测度全能者，</para>
+  <para style="q1" vid="JOB 37:23">祂充满能力，无比正直公义，</para>
+  <para style="q1" vid="JOB 37:23">不恃强凌弱。<verse eid="JOB 37:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 37:24"/>所以，人们都敬畏祂，</para>
+  <para style="q1" vid="JOB 37:24">祂不看顾自以为有智慧的人。”<verse eid="JOB 37:24"/></para>
+  <chapter eid="JOB 37"/>
+  <chapter number="38" style="c" sid="JOB 38"/>
+  <para style="s1">耶和华回答约伯</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 38:1"/>那时，耶和华从旋风中对<char style="pn">约伯</char>说：<verse eid="JOB 38:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 38:2"/>“是谁用无知的话蒙蔽我的旨意？<verse eid="JOB 38:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 38:3"/>你要像勇士一样束腰备战，</para>
+  <para style="q1" vid="JOB 38:3">我来提问，你来回答。<verse eid="JOB 38:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 38:4"/>“我立大地根基的时候，你在哪里？</para>
+  <para style="q1" vid="JOB 38:4">你若那么聪明，请告诉我。<verse eid="JOB 38:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 38:5"/>你可知道谁为大地定的尺寸？</para>
+  <para style="q1" vid="JOB 38:5">谁用准绳把它丈量？<verse eid="JOB 38:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 38:6"/>是什么支撑大地的根基？</para>
+  <para style="q1" vid="JOB 38:6">谁为它安放的基石？<verse eid="JOB 38:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 38:7"/>当时晨星齐声歌唱，</para>
+  <para style="q1" vid="JOB 38:7">众天使都发出欢呼。<verse eid="JOB 38:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 38:8"/>“大海从母胎奔腾而出时，</para>
+  <para style="q1" vid="JOB 38:8">谁为它划定界限？<verse eid="JOB 38:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 38:9"/>是我为大海披上云彩，</para>
+  <para style="q1" vid="JOB 38:9">为它裹上厚厚的幽暗。<verse eid="JOB 38:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 38:10"/>是我为它划定界限，</para>
+  <para style="q1" vid="JOB 38:10">并安上门和闩，<verse eid="JOB 38:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 38:11"/>说，‘你到此为止，不可越界；</para>
+  <para style="q1" vid="JOB 38:11">你狂傲的波涛要停在这里。’<verse eid="JOB 38:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 38:12"/>“你生平可曾向晨曦发号施令，</para>
+  <para style="q1" vid="JOB 38:12">为黎明的曙光指定岗位，<verse eid="JOB 38:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 38:13"/>使阳光普照大地，</para>
+  <para style="q1" vid="JOB 38:13">抖出藏匿的恶人？<verse eid="JOB 38:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 38:14"/>日光使大地改观，如泥上盖印，</para>
+  <para style="q1" vid="JOB 38:14">万物如衣服般显出颜色。<verse eid="JOB 38:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 38:15"/>恶人得不到光明，</para>
+  <para style="q1" vid="JOB 38:15">强横的臂膀必折断。<verse eid="JOB 38:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 38:16"/>你可曾到过大海的源头，</para>
+  <para style="q1" vid="JOB 38:16">走过深渊的底部？<verse eid="JOB 38:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 38:17"/>死亡之门可曾向你显露？</para>
+  <para style="q1" vid="JOB 38:17">你可曾见过幽冥之门？<verse eid="JOB 38:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 38:18"/>你知道大地有多广阔吗？</para>
+  <para style="q1" vid="JOB 38:18">你若全知道，就告诉我吧。<verse eid="JOB 38:18"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 38:19"/>“哪条路通往光明的居所？</para>
+  <para style="q1" vid="JOB 38:19">哪里是黑暗的住处？<verse eid="JOB 38:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 38:20"/>你能把它们带回原处吗？</para>
+  <para style="q1" vid="JOB 38:20">你认识通往其居所的路吗？<verse eid="JOB 38:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 38:21"/>你肯定知道，</para>
+  <para style="q1" vid="JOB 38:21">因为那时你已出生，</para>
+  <para style="q1" vid="JOB 38:21">你的寿数又很长久！<verse eid="JOB 38:21"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 38:22"/>“你曾到过雪库，</para>
+  <para style="q1" vid="JOB 38:22">或见过雹仓吗？<verse eid="JOB 38:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 38:23"/>那是我为降灾之时，</para>
+  <para style="q1" vid="JOB 38:23">为争战之日而预备的。<verse eid="JOB 38:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 38:24"/>光从哪条路散开？</para>
+  <para style="q1" vid="JOB 38:24">东风从哪条路吹遍大地？<verse eid="JOB 38:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 38:25"/>谁为豪雨开水道，</para>
+  <para style="q1" vid="JOB 38:25">为雷电辟路径，<verse eid="JOB 38:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 38:26"/>使雨水降在杳无人烟之地，</para>
+  <para style="q1" vid="JOB 38:26">降在无人居住的旷野，<verse eid="JOB 38:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 38:27"/>以滋润荒凉不毛之地，</para>
+  <para style="q1" vid="JOB 38:27">使土地长出青草？<verse eid="JOB 38:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 38:28"/>雨水有父亲吗？</para>
+  <para style="q1" vid="JOB 38:28">谁生的露珠？<verse eid="JOB 38:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 38:29"/>冰出自谁的胎？</para>
+  <para style="q1" vid="JOB 38:29">谁生的天上的霜？<verse eid="JOB 38:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 38:30"/>水变得坚硬如石，</para>
+  <para style="q1" vid="JOB 38:30">深渊表面凝结成冰。<verse eid="JOB 38:30"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 38:31"/>“你能系住昴星的结，</para>
+  <para style="q1" vid="JOB 38:31">解开参星的带吗？<verse eid="JOB 38:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 38:32"/>你能按季节领出星座，</para>
+  <para style="q1" vid="JOB 38:32">引导北斗及其众星吗？<verse eid="JOB 38:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 38:33"/>你知道天的定律吗？</para>
+  <para style="q1" vid="JOB 38:33">你能使地服从天律吗？<verse eid="JOB 38:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="JOB 38:34"/>你能号令云彩，</para>
+  <para style="q1" vid="JOB 38:34">使倾盆大雨覆盖你吗？<verse eid="JOB 38:34"/></para>
+  <para style="q1">
+    <verse number="35" style="v" sid="JOB 38:35"/>你能命闪电发出，</para>
+  <para style="q1" vid="JOB 38:35">让它听候调遣吗？<verse eid="JOB 38:35"/></para>
+  <para style="q1">
+    <verse number="36" style="v" sid="JOB 38:36"/>谁将智慧放在人胸中？</para>
+  <para style="q1" vid="JOB 38:36">谁使人内心有聪明？<verse eid="JOB 38:36"/></para>
+  <para style="q1">
+    <verse number="37-38" style="v" sid="JOB 38:37-38"/>尘土结成硬团，</para>
+  <para style="q1" vid="JOB 38:37-38">土块黏在一起时，</para>
+  <para style="q1" vid="JOB 38:37-38">谁能凭智慧数算云彩？</para>
+  <para style="q1" vid="JOB 38:37-38">谁能倾倒天上的水囊？<verse eid="JOB 38:37-38"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="39-40" style="v" sid="JOB 38:39-40"/>“狮子卧在洞中，</para>
+  <para style="q1" vid="JOB 38:39-40">猛狮埋伏在隐秘处，</para>
+  <para style="q1" vid="JOB 38:39-40">你能为它们猎取食物，</para>
+  <para style="q1" vid="JOB 38:39-40">使它们饱餐吗？<verse eid="JOB 38:39-40"/></para>
+  <para style="q1">
+    <verse number="41" style="v" sid="JOB 38:41"/>乌鸦的幼雏饿得飞来飞去，</para>
+  <para style="q1" vid="JOB 38:41">向上帝哀鸣时，</para>
+  <para style="q1" vid="JOB 38:41">谁供应乌鸦食物？<verse eid="JOB 38:41"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 38"/>
+  <chapter number="39" style="c" sid="JOB 39"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 39:1"/>“你知道野山羊何时生产吗？</para>
+  <para style="q1" vid="JOB 39:1">你看过母鹿产仔吗？<verse eid="JOB 39:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 39:2"/>你能算出它们怀胎的月数吗？</para>
+  <para style="q1" vid="JOB 39:2">你知道它们分娩的日期吗？<verse eid="JOB 39:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 39:3"/>它们屈身产仔，</para>
+  <para style="q1" vid="JOB 39:3">结束分娩之痛。<verse eid="JOB 39:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 39:4"/>幼仔健壮，在荒野长大，</para>
+  <para style="q1" vid="JOB 39:4">离群而去，不再回来。<verse eid="JOB 39:4"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 39:5"/>“谁让野驴逍遥自在？</para>
+  <para style="q1" vid="JOB 39:5">谁解开了它的缰绳？<verse eid="JOB 39:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 39:6"/>我使它以旷野为家，</para>
+  <para style="q1" vid="JOB 39:6">以盐地作居所。<verse eid="JOB 39:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 39:7"/>它嗤笑城邑的喧闹，</para>
+  <para style="q1" vid="JOB 39:7">不听赶牲口的吆喝。<verse eid="JOB 39:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 39:8"/>它以群山作牧场，</para>
+  <para style="q1" vid="JOB 39:8">寻找各种青草。<verse eid="JOB 39:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 39:9"/>“野牛岂肯为你效劳，</para>
+  <para style="q1" vid="JOB 39:9">在你的槽旁过夜？<verse eid="JOB 39:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 39:10"/>你岂能用缰绳把野牛牵到犁沟？</para>
+  <para style="q1" vid="JOB 39:10">它岂肯跟着你在山谷耕地？<verse eid="JOB 39:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 39:11"/>你岂能倚靠它的大力，</para>
+  <para style="q1" vid="JOB 39:11">把你的重活交给它？<verse eid="JOB 39:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 39:12"/>岂能靠它运回粮食，</para>
+  <para style="q1" vid="JOB 39:12">替你堆聚到麦场？<verse eid="JOB 39:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 39:13"/>“鸵鸟欢然拍动翅膀，</para>
+  <para style="q1" vid="JOB 39:13">它岂有白鹳的翎羽？<verse eid="JOB 39:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 39:14"/>它将蛋产在地上，</para>
+  <para style="q1" vid="JOB 39:14">使蛋得到沙土的温暖，<verse eid="JOB 39:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 39:15"/>却不知蛋会被踩碎，</para>
+  <para style="q1" vid="JOB 39:15">或遭野兽践踏。<verse eid="JOB 39:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 39:16"/>它苛待雏鸟，好像它们并非己出，</para>
+  <para style="q1" vid="JOB 39:16">就算徒劳一场，它也不怕。<verse eid="JOB 39:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 39:17"/>因为上帝未赐它智慧，</para>
+  <para style="q1" vid="JOB 39:17">没有给它悟性。<verse eid="JOB 39:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 39:18"/>然而，一旦它展翅奔跑，</para>
+  <para style="q1" vid="JOB 39:18">必嗤笑马儿和骑士。<verse eid="JOB 39:18"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 39:19"/>“马的力量岂是你赐的？</para>
+  <para style="q1" vid="JOB 39:19">它颈上的鬃毛岂是你披的？<verse eid="JOB 39:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 39:20"/>岂是你使它跳跃如蝗虫，</para>
+  <para style="q1" vid="JOB 39:20">发出令人胆寒的长嘶？<verse eid="JOB 39:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 39:21"/>它在谷中刨地，</para>
+  <para style="q1" vid="JOB 39:21">炫耀力量，奋力冲向敌军。<verse eid="JOB 39:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 39:22"/>它嘲笑恐惧，毫不害怕，</para>
+  <para style="q1" vid="JOB 39:22">不因刀剑而退缩。<verse eid="JOB 39:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 39:23"/>它背上的箭袋铮铮作响，</para>
+  <para style="q1" vid="JOB 39:23">长矛和标枪闪闪发光。<verse eid="JOB 39:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 39:24"/>角声一响，它便无法静立，</para>
+  <para style="q1" vid="JOB 39:24">异常亢奋，急于驰骋大地。<verse eid="JOB 39:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 39:25"/>听到角声，它就发出长嘶，</para>
+  <para style="q1" vid="JOB 39:25">它老远便嗅到战争的气味，</para>
+  <para style="q1" vid="JOB 39:25">并听见呐喊和将领的号令。<verse eid="JOB 39:25"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 39:26"/>“鹰隼展翅翱翔，飞往南方，</para>
+  <para style="q1" vid="JOB 39:26">岂是靠你的智慧？<verse eid="JOB 39:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 39:27"/>秃鹰腾飞，在高处搭窝，</para>
+  <para style="q1" vid="JOB 39:27">岂是奉你的命令？<verse eid="JOB 39:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 39:28"/>它居住在悬崖上，</para>
+  <para style="q1" vid="JOB 39:28">盘踞在山岩峭壁，<verse eid="JOB 39:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 39:29"/>它从那里搜寻猎物，</para>
+  <para style="q1" vid="JOB 39:29">它的目光直达远方。<verse eid="JOB 39:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 39:30"/>它的幼雏噬血，</para>
+  <para style="q1" vid="JOB 39:30">哪里有尸体，它就在哪里。”<verse eid="JOB 39:30"/></para>
+  <chapter eid="JOB 39"/>
+  <chapter number="40" style="c" sid="JOB 40"/>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 40:1"/>耶和华又对<char style="pn">约伯</char>说：<verse eid="JOB 40:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 40:2"/>“强辩者岂可与全能者争论？</para>
+  <para style="q1" vid="JOB 40:2">与上帝辩驳的人请作出答复。”<verse eid="JOB 40:2"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 40:3"/>
+    <char style="pn">约伯</char>回答耶和华说：<verse eid="JOB 40:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 40:4"/>“我这样卑微，怎能答复你？</para>
+  <para style="q1" vid="JOB 40:4">我只有用手掩口。<verse eid="JOB 40:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 40:5"/>我说了一次，不能答复；</para>
+  <para style="q1" vid="JOB 40:5">说了两次，不敢再说。”<verse eid="JOB 40:5"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 40:6"/>那时，耶和华从旋风中对<char style="pn">约伯</char>说：<verse eid="JOB 40:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 40:7"/>“你要像勇士一样束腰备战，</para>
+  <para style="q1" vid="JOB 40:7">我来提问，你来回答。<verse eid="JOB 40:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 40:8"/>你要推翻我的公义，</para>
+  <para style="q1" vid="JOB 40:8">归罪于我而自以为义吗？<verse eid="JOB 40:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 40:9"/>你有上帝那样的臂膀吗？</para>
+  <para style="q1" vid="JOB 40:9">你能像祂那样发出雷鸣吗？<verse eid="JOB 40:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 40:10"/>请展示你的荣耀和光辉，</para>
+  <para style="q1" vid="JOB 40:10">披上你的尊荣和威严；<verse eid="JOB 40:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 40:11"/>发泄你满腔的怒火，</para>
+  <para style="q1" vid="JOB 40:11">鉴察一切骄傲的人，贬抑他们；<verse eid="JOB 40:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 40:12"/>鉴察一切骄傲的人，贬低他们，</para>
+  <para style="q1" vid="JOB 40:12">将恶人原地践踏；<verse eid="JOB 40:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 40:13"/>将他们一起埋进尘土，</para>
+  <para style="q1" vid="JOB 40:13">藏入幽冥。<verse eid="JOB 40:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 40:14"/>这样，我就承认你的右手能拯救自己。<verse eid="JOB 40:14"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 40:15"/>“你看河马，</para>
+  <para style="q1" vid="JOB 40:15">它和你都是我造的，</para>
+  <para style="q1" vid="JOB 40:15">它像牛一样吃草。<verse eid="JOB 40:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 40:16"/>你看它腰间的气力，</para>
+  <para style="q1" vid="JOB 40:16">它腹部肌肉的力量。<verse eid="JOB 40:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 40:17"/>它尾巴挺直如香柏树，</para>
+  <para style="q1" vid="JOB 40:17">大腿的筋紧密相连，<verse eid="JOB 40:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 40:18"/>骨头如铜管，</para>
+  <para style="q1" vid="JOB 40:18">四肢像铁棍。<verse eid="JOB 40:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 40:19"/>它是上帝创造的杰作，</para>
+  <para style="q1" vid="JOB 40:19">创造主赐给它利刃<note caller="+" style="f"><char style="fr" closed="false">40:19 </char><char style="ft" closed="false">“创造主赐给它利刃”或译“只有创造主能持利刃接近它”。</char></note>。<verse eid="JOB 40:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 40:20"/>群山供应它食物，</para>
+  <para style="q1" vid="JOB 40:20">百兽在那里玩耍。<verse eid="JOB 40:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 40:21"/>它躺在莲叶之下，</para>
+  <para style="q1" vid="JOB 40:21">藏在泥沼的芦苇间，<verse eid="JOB 40:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 40:22"/>莲叶为它遮荫，</para>
+  <para style="q1" vid="JOB 40:22">溪畔的柳树环绕它。<verse eid="JOB 40:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 40:23"/>河水泛滥，它不惊惧；</para>
+  <para style="q1" vid="JOB 40:23">
+    <char style="pn">约旦</char>河涨到它口边，它也无忧。<verse eid="JOB 40:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 40:24"/>谁能在它警觉时捕捉它，</para>
+  <para style="q1" vid="JOB 40:24">或用钩子穿透它的鼻子？<verse eid="JOB 40:24"/></para>
+  <para style="b"/>
+  <chapter eid="JOB 40"/>
+  <chapter number="41" style="c" sid="JOB 41"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="JOB 41:1"/>“你岂能用鱼钩钓海怪，</para>
+  <para style="q1" vid="JOB 41:1">用绳索绑住它的舌头？<verse eid="JOB 41:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 41:2"/>你岂能用绳子穿它的鼻子，</para>
+  <para style="q1" vid="JOB 41:2">用钩子穿它的腮骨？<verse eid="JOB 41:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 41:3"/>它岂会向你连连求饶，</para>
+  <para style="q1" vid="JOB 41:3">对你说柔和的话？<verse eid="JOB 41:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 41:4"/>它岂肯与你立约，</para>
+  <para style="q1" vid="JOB 41:4">一生做你的奴隶？<verse eid="JOB 41:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 41:5"/>你岂能拿它当小鸟玩耍，</para>
+  <para style="q1" vid="JOB 41:5">或拴起来给幼女取乐？<verse eid="JOB 41:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 41:6"/>渔夫们岂能把它当货物出售，</para>
+  <para style="q1" vid="JOB 41:6">卖给商人？<verse eid="JOB 41:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOB 41:7"/>你岂能在它皮上戳满长矛，</para>
+  <para style="q1" vid="JOB 41:7">头上插满鱼叉？<verse eid="JOB 41:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOB 41:8"/>你动手碰碰它，</para>
+  <para style="q1" vid="JOB 41:8">就知道是场恶战，绝不会再碰。<verse eid="JOB 41:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOB 41:9"/>企图捕捉它的都会失望，</para>
+  <para style="q1" vid="JOB 41:9">人看到它就会心惊胆战。<verse eid="JOB 41:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOB 41:10"/>再凶猛的人也不敢惹它。</para>
+  <para style="q1" vid="JOB 41:10">这样，谁能在我面前站立得住？<verse eid="JOB 41:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOB 41:11"/>谁给过我什么，要我偿还呢？</para>
+  <para style="q1" vid="JOB 41:11">天下万物都是我的。<verse eid="JOB 41:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOB 41:12"/>“关于它的四肢、大力和健美的身体，</para>
+  <para style="q1" vid="JOB 41:12">我不能缄默不言。<verse eid="JOB 41:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOB 41:13"/>谁能剥去它的外皮？</para>
+  <para style="q1" vid="JOB 41:13">谁能给它戴上辔头？<verse eid="JOB 41:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOB 41:14"/>谁能打开它的嘴巴？</para>
+  <para style="q1" vid="JOB 41:14">它的牙齿令人恐惧。<verse eid="JOB 41:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOB 41:15"/>它的脊背覆着行行鳞甲，</para>
+  <para style="q1" vid="JOB 41:15">牢牢地密封在一起，<verse eid="JOB 41:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOB 41:16"/>紧密无间，</para>
+  <para style="q1" vid="JOB 41:16">连气也透不进去。<verse eid="JOB 41:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOB 41:17"/>鳞甲彼此相连相扣，</para>
+  <para style="q1" vid="JOB 41:17">无法分开。<verse eid="JOB 41:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOB 41:18"/>它打喷嚏时，水光四射；</para>
+  <para style="q1" vid="JOB 41:18">它的眼睛亮如晨光；<verse eid="JOB 41:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOB 41:19"/>口中喷出火炬，</para>
+  <para style="q1" vid="JOB 41:19">迸出火星；<verse eid="JOB 41:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOB 41:20"/>鼻孔冒烟，</para>
+  <para style="q1" vid="JOB 41:20">如沸腾的锅和燃烧的芦苇；<verse eid="JOB 41:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOB 41:21"/>呼气可点燃煤炭，</para>
+  <para style="q1" vid="JOB 41:21">口中喷出火焰；<verse eid="JOB 41:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOB 41:22"/>颈项强而有力，</para>
+  <para style="q1" vid="JOB 41:22">恐惧在它前面开路；<verse eid="JOB 41:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="JOB 41:23"/>身上的皱褶紧密相连，</para>
+  <para style="q1" vid="JOB 41:23">牢牢地密封在一起；<verse eid="JOB 41:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOB 41:24"/>心坚如石，</para>
+  <para style="q1" vid="JOB 41:24">硬如磨石。<verse eid="JOB 41:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOB 41:25"/>它一站起来，勇士都害怕，</para>
+  <para style="q1" vid="JOB 41:25">见它冲来，他们慌忙退缩。<verse eid="JOB 41:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOB 41:26"/>刀剑挡不住它，</para>
+  <para style="q1" vid="JOB 41:26">长矛、标枪、尖戟也无能为力。<verse eid="JOB 41:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOB 41:27"/>它视铁如干草，</para>
+  <para style="q1" vid="JOB 41:27">视铜如朽木。<verse eid="JOB 41:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="JOB 41:28"/>利箭吓不跑它，</para>
+  <para style="q1" vid="JOB 41:28">弹石在它看来只是碎秸；<verse eid="JOB 41:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOB 41:29"/>棍棒无异于秸秆，</para>
+  <para style="q1" vid="JOB 41:29">它嗤笑投来的标枪。<verse eid="JOB 41:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOB 41:30"/>它腹部有锋利的瓦片，</para>
+  <para style="q1" vid="JOB 41:30">在淤泥上留下道道耙痕。<verse eid="JOB 41:30"/></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOB 41:31"/>它使深渊如锅翻腾，</para>
+  <para style="q1" vid="JOB 41:31">使大海如油锅滚动。<verse eid="JOB 41:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOB 41:32"/>它游过后留下一道波光，</para>
+  <para style="q1" vid="JOB 41:32">使深渊仿佛披上银发。<verse eid="JOB 41:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="JOB 41:33"/>地上没有动物能与它相比，</para>
+  <para style="q1" vid="JOB 41:33">像它那样无所畏惧。<verse eid="JOB 41:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="JOB 41:34"/>它藐视群雄，</para>
+  <para style="q1" vid="JOB 41:34">在高傲的百兽中称王。”<verse eid="JOB 41:34"/></para>
+  <chapter eid="JOB 41"/>
+  <chapter number="42" style="c" sid="JOB 42"/>
+  <para style="p">
+    <verse number="1" style="v" sid="JOB 42:1"/>
+    <char style="pn">约伯</char>回答耶和华说：<verse eid="JOB 42:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOB 42:2"/>“我知道你无所不能，</para>
+  <para style="q1" vid="JOB 42:2">你的旨意无不成就。<verse eid="JOB 42:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOB 42:3"/>你问，‘是谁用无知蒙蔽我的旨意？’</para>
+  <para style="q1" vid="JOB 42:3">诚然，我对所谈的事一无所知，</para>
+  <para style="q1" vid="JOB 42:3">这些事太奇妙，我无法明白。<verse eid="JOB 42:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOB 42:4"/>你说，‘你且听着，我要发言。</para>
+  <para style="q1" vid="JOB 42:4">我来提问，你来回答。’<verse eid="JOB 42:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOB 42:5"/>我从前风闻有你，</para>
+  <para style="q1" vid="JOB 42:5">现在亲眼看见你。<verse eid="JOB 42:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOB 42:6"/>因此我厌恶自己，</para>
+  <para style="q1" vid="JOB 42:6">在尘土和炉灰中忏悔。”<verse eid="JOB 42:6"/></para>
+  <para style="s1">结语</para>
+  <para style="p">
+    <verse number="7" style="v" sid="JOB 42:7"/>耶和华对<char style="pn">约伯</char>说完这些话后，就对<char style="pn">提幔</char>人<char style="pn">以利法</char>说：“你和你的两个朋友让我愤怒，因为你们对我的议论不如我仆人<char style="pn">约伯</char>说的有理。 <verse eid="JOB 42:7"/><verse number="8" style="v" sid="JOB 42:8"/>现在你们要取七头公牛和七只公羊，到我仆人<char style="pn">约伯</char>那里，为自己献上燔祭，因为你们对我的议论不如我仆人<char style="pn">约伯</char>说的有理。我仆人<char style="pn">约伯</char>会为你们祷告，我会悦纳他的祷告，不按你们的愚妄惩罚你们。” <verse eid="JOB 42:8"/><verse number="9" style="v" sid="JOB 42:9"/>于是，<char style="pn">提幔</char>人<char style="pn">以利法</char>、<char style="pn">书亚</char>人<char style="pn">比勒达</char>和<char style="pn">拿玛</char>人<char style="pn">琐法</char>遵命而行，耶和华悦纳了<char style="pn">约伯</char>的祷告。<verse eid="JOB 42:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="JOB 42:10"/>
+    <char style="pn">约伯</char>为朋友们祷告后，耶和华恢复了他以前的昌盛，并且耶和华赐给他的比以前多一倍。 <verse eid="JOB 42:10"/><verse number="11" style="v" sid="JOB 42:11"/><char style="pn">约伯</char>的兄弟姊妹和从前的朋友都来探望他，在他家里一同吃饭，为他遭受耶和华所降的种种灾难而安抚、慰问他。他们每人送他一块银子和一个金环。<verse eid="JOB 42:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="JOB 42:12"/>耶和华赐给<char style="pn">约伯</char>晚年的福分比起初更多：他有一万四千只羊、六千只骆驼、一千对牛和一千头母驴。 <verse eid="JOB 42:12"/><verse number="13" style="v" sid="JOB 42:13"/>他还有七个儿子和三个女儿。 <verse eid="JOB 42:13"/><verse number="14" style="v" sid="JOB 42:14"/>他给长女取名叫<char style="pn">耶米玛</char>、次女叫<char style="pn">基洗亚</char>、三女叫<char style="pn">基连·哈朴</char>。 <verse eid="JOB 42:14"/><verse number="15" style="v" sid="JOB 42:15"/>地上找不到像<char style="pn">约伯</char>三个女儿那样美丽的女子。<char style="pn">约伯</char>让她们与弟兄一同承受产业。 <verse eid="JOB 42:15"/><verse number="16" style="v" sid="JOB 42:16"/>此后，<char style="pn">约伯</char>又活了一百四十年，得见四代子孙。 <verse eid="JOB 42:16"/><verse number="17" style="v" sid="JOB 42:17"/><char style="pn">约伯</char>年纪老迈，寿终正寝。<verse eid="JOB 42:17"/></para>
+  <chapter eid="JOB 42"/>
+</usx>

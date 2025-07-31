@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="2JN" style="id">- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)</book>
+  <para style="h">約翰二書</para>
+  <para style="toc1">約翰二書</para>
+  <para style="toc2">約翰二書</para>
+  <para style="toc3">約貳</para>
+  <para style="mt1">約翰二書</para>
+  <chapter number="1" style="c" sid="2JN 1"/>
+  <para style="p">
+    <verse number="1" style="v" sid="2JN 1:1"/>我這作長老的寫信給蒙揀選的女士<note caller="+" style="f"><char style="fr" closed="false">1·1 </char><char style="ft" closed="false">學者一般認為「蒙揀選的女士」是指教會。</char></note>和你的兒女，就是我本著真理所愛的。不但我愛你們，一切認識真理的人也都愛你們， <verse eid="2JN 1:1"/><verse number="2" style="v" sid="2JN 1:2"/>這是因為真理在我們裡面，並且永遠與我們同在。<verse eid="2JN 1:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="2JN 1:3"/>父上帝和祂兒子耶穌基督的恩典、憐憫和平安，必在真理和愛中與我們同在！<verse eid="2JN 1:3"/></para>
+  <para style="s1">彼此相愛</para>
+  <para style="p">
+    <verse number="4" style="v" sid="2JN 1:4"/>我看見你一些兒女按照我們從父領受的命令遵行真理，感到非常欣慰。 <verse eid="2JN 1:4"/><verse number="5" style="v" sid="2JN 1:5"/>女士啊，我現在勸你，我們要彼此相愛。這不是新命令，而是我們從起初就已經領受的命令。 <verse eid="2JN 1:5"/><verse number="6" style="v" sid="2JN 1:6"/>愛就是遵行上帝的命令。你們要活出愛，這是你們從起初就聽到的命令。<verse eid="2JN 1:6"/></para>
+  <para style="s1">提防騙子</para>
+  <para style="p">
+    <verse number="7" style="v" sid="2JN 1:7"/>因為許多騙子已經來到世上，他們否認耶穌基督曾降世為人。這樣的人是騙子，是敵基督者。 <verse eid="2JN 1:7"/><verse number="8" style="v" sid="2JN 1:8"/>你們要謹慎，好得到完滿的賞賜，免得我們前功盡棄。 <verse eid="2JN 1:8"/><verse number="9" style="v" sid="2JN 1:9"/>凡偏離基督教導的人，都沒有上帝；凡遵守基督教導的人，都有父和子。 <verse eid="2JN 1:9"/><verse number="10" style="v" sid="2JN 1:10"/>若有人到你們那裡不傳基督的教導，不要請他到家裡，也不要問候他， <verse eid="2JN 1:10"/><verse number="11" style="v" sid="2JN 1:11"/>因為問候他就是與他同流合污。<verse eid="2JN 1:11"/></para>
+  <para style="s1">結語</para>
+  <para style="p">
+    <verse number="12" style="v" sid="2JN 1:12"/>我還有許多事要告訴你們，但不想藉助紙墨，只希望到你們那裡當面暢談，使我們喜樂滿溢。<verse eid="2JN 1:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="2JN 1:13"/>你那蒙揀選之姊妹的兒女問候你。<verse eid="2JN 1:13"/></para>
+  <chapter eid="2JN 1"/>
+</usx>

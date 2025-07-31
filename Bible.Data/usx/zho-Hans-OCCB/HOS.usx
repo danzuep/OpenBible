@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="HOS" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">何西阿书</para>
+  <para style="toc1">何西阿书</para>
+  <para style="toc2">何西阿书</para>
+  <para style="toc3">何</para>
+  <para style="mt1">何西阿书</para>
+  <chapter number="1" style="c" sid="HOS 1"/>
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 1:1"/>
+    <char style="pn">乌西雅</char>、<char style="pn">约坦</char>、<char style="pn">亚哈斯</char>和<char style="pn">希西迦</char>做<char style="pn">犹大</char>王，<char style="pn">约阿施</char>的儿子<char style="pn">耶罗波安</char>做<char style="pn">以色列</char>王期间，耶和华将祂的话传给<char style="pn">备利</char>的儿子<char style="pn">何西阿</char>。<verse eid="HOS 1:1"/></para>
+  <para style="s1">何西阿娶妻生子</para>
+  <para style="p">
+    <verse number="2" style="v" sid="HOS 1:2"/>耶和华首次传话给<char style="pn">何西阿</char>时，对他说：“你去娶一个妓女为妻，和她生养儿女，因为这片土地上的人极其淫乱，背弃了耶和华。” <verse eid="HOS 1:2"/><verse number="3" style="v" sid="HOS 1:3"/>于是，<char style="pn">何西阿</char>娶了<char style="pn">滴拉音</char>的女儿<char style="pn">歌蜜</char>为妻，她怀孕为他生了一个儿子。 <verse eid="HOS 1:3"/><verse number="4" style="v" sid="HOS 1:4"/>耶和华对<char style="pn">何西阿</char>说：“给他取名叫<char style="pn">耶斯列</char><note caller="+" style="f"><char style="fr" closed="false">1:4 </char><char style="ft" closed="false">“耶斯列”意思是“上帝撒种”。此处指上帝要像撒种一样驱散以色列人，但在<char style="xt"><ref loc="HOS 1:11">1:11</ref></char>指上帝要赐福他们，就像撒种后获得了大丰收。</char></note>，因为再过不久，我就要因<char style="pn">耶户</char>家在<char style="pn">耶斯列</char>的屠杀而惩罚他们，消灭<char style="pn">以色列</char>国。 <verse eid="HOS 1:4"/><verse number="5" style="v" sid="HOS 1:5"/>那时，我要在<char style="pn">耶斯列</char>平原折断<char style="pn">以色列</char>的弓。” <verse eid="HOS 1:5"/><verse number="6" style="v" sid="HOS 1:6"/>后来，<char style="pn">歌蜜</char>又怀孕生了一个女儿。耶和华对<char style="pn">何西阿</char>说：“给她取名叫<char style="pn">罗·路哈玛</char><note caller="+" style="f"><char style="fr" closed="false">1:6 </char><char style="ft" closed="false">“罗·路哈玛”意思是“不蒙怜悯”。</char></note>，因为我将不再怜悯<char style="pn">以色列</char>家，不再赦免他们的罪。 <verse eid="HOS 1:6"/><verse number="7" style="v" sid="HOS 1:7"/>但我要怜悯<char style="pn">犹大</char>家，使他们依靠他们的上帝耶和华得到拯救，而不是依靠战弓、刀剑、马匹、骑兵和战争。” <verse eid="HOS 1:7"/><verse number="8" style="v" sid="HOS 1:8"/><char style="pn">罗·路哈玛</char>断奶后，<char style="pn">歌蜜</char>又怀孕生了一个儿子。 <verse eid="HOS 1:8"/><verse number="9" style="v" sid="HOS 1:9"/>耶和华说：“给他取名叫<char style="pn">罗·阿米</char><note caller="+" style="f"><char style="fr" closed="false">1:9 </char><char style="ft" closed="false">“罗·阿米”意思是“不是我的子民”。</char></note>，因为<char style="pn">以色列</char>人不再是我的子民，我也不再是他们的上帝。<verse eid="HOS 1:9"/></para>
+  <para style="s1">以色列的复兴</para>
+  <para style="p">
+    <verse number="10" style="v" sid="HOS 1:10"/>“然而，<char style="pn">以色列</char>的人数必像海沙一样量不尽、数不完。从前我在什么地方对他们说‘你们不是我的子民’，将来也要在那里对他们说‘你们是永活上帝的儿女’。 <verse eid="HOS 1:10"/><verse number="11" style="v" sid="HOS 1:11"/>那时，<char style="pn">犹大</char>人和<char style="pn">以色列</char>人将被聚集在一起，为自己选立一位首领，从流亡之地返回故乡。<char style="pn">耶斯列</char>的日子将是伟大的日子。<verse eid="HOS 1:11"/></para>
+  <chapter eid="HOS 1"/>
+  <chapter number="2" style="c" sid="HOS 2"/>
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 2:1"/>“你们要称你们的弟兄为<char style="pn">阿米</char><note caller="+" style="f"><char style="fr" closed="false">2:1 </char><char style="ft" closed="false">“阿米”意思是“我的子民”。</char></note>，要称你们的姊妹为<char style="pn">路哈玛</char><note caller="+" style="f"><char style="fr" closed="false">2:1 </char><char style="ft" closed="false">“路哈玛”意思是“得蒙怜悯”。</char></note>。<verse eid="HOS 2:1"/></para>
+  <para style="s1">对不贞之妇的控诉</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 2:2"/>“你们去跟你们的母亲理论吧！</para>
+  <para style="q1" vid="HOS 2:2">因为她不再是我的妻子，</para>
+  <para style="q1" vid="HOS 2:2">我也不再是她的丈夫。</para>
+  <para style="q1" vid="HOS 2:2">叫她别再出卖色相，</para>
+  <para style="q1" vid="HOS 2:2">别再露出乳间的淫态。<verse eid="HOS 2:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 2:3"/>不然，我要剥光她的衣服，</para>
+  <para style="q1" vid="HOS 2:3">使她像初生之时一样赤身露体；</para>
+  <para style="q1" vid="HOS 2:3">我要使她像沙漠，如旱地，</para>
+  <para style="q1" vid="HOS 2:3">干渴而死。<verse eid="HOS 2:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 2:4"/>我也不怜悯她的儿女，</para>
+  <para style="q1" vid="HOS 2:4">因为他们都是娼妓所生的儿女。<verse eid="HOS 2:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 2:5"/>他们的母亲淫乱放荡，</para>
+  <para style="q1" vid="HOS 2:5">怀他们的人行为可耻，</para>
+  <para style="q1" vid="HOS 2:5">她竟说，‘我要跟随我的情人，</para>
+  <para style="q1" vid="HOS 2:5">他们给我食物和水、羊毛和麻布、油和酒。’<verse eid="HOS 2:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 2:6"/>因此，我要用荆棘围堵她的道，</para>
+  <para style="q1" vid="HOS 2:6">筑墙阻断她的去路。<verse eid="HOS 2:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 2:7"/>她要追随情人，却追不上；</para>
+  <para style="q1" vid="HOS 2:7">寻找情人，却找不到。</para>
+  <para style="q1" vid="HOS 2:7">于是，她说，‘我倒不如回到丈夫身边，</para>
+  <para style="q1" vid="HOS 2:7">我从前的光景比现在还好。’<verse eid="HOS 2:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 2:8"/>她不知道是我给她五谷、新酒和油，</para>
+  <para style="q1" vid="HOS 2:8">又赐给她大量金银，</para>
+  <para style="q1" vid="HOS 2:8">她却用这些供奉<char style="pn">巴力</char>。<verse eid="HOS 2:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 2:9"/>因此，到了收割和酿酒的季节，</para>
+  <para style="q1" vid="HOS 2:9">我要收走我的五谷和新酒，</para>
+  <para style="q1" vid="HOS 2:9">夺回我给她遮体的羊毛和麻布。<verse eid="HOS 2:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 2:10"/>我要当着她情人的面揭露她的淫荡，</para>
+  <para style="q1" vid="HOS 2:10">无人能从我手中把她救出去。<verse eid="HOS 2:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 2:11"/>我要终止她一切的欢庆，</para>
+  <para style="q1" vid="HOS 2:11">终止她的节日、朔日<note caller="+" style="f"><char style="fr" closed="false">2:11 </char><char style="ft" closed="false">“朔日”即每月初一。</char></note>、安息日及其他节期。<verse eid="HOS 2:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 2:12"/>她说她的葡萄树和无花果树是情人给她的嫖资，</para>
+  <para style="q1" vid="HOS 2:12">我要摧毁它们，</para>
+  <para style="q1" vid="HOS 2:12">使它们变为荒林，</para>
+  <para style="q1" vid="HOS 2:12">被野兽吞吃。<verse eid="HOS 2:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 2:13"/>我要惩罚她，</para>
+  <para style="q1" vid="HOS 2:13">因为她在节日向<char style="pn">巴力</char>烧香。</para>
+  <para style="q1" vid="HOS 2:13">那时她戴耳环佩首饰，</para>
+  <para style="q1" vid="HOS 2:13">追逐她的情人，把我忘记。</para>
+  <para style="q1" vid="HOS 2:13">这是耶和华说的。<verse eid="HOS 2:13"/></para>
+  <para style="s1">对不贞之妇的爱</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 2:14"/>“然而，我要引导她，</para>
+  <para style="q1" vid="HOS 2:14">领她到旷野，</para>
+  <para style="q1" vid="HOS 2:14">柔声安慰她。<verse eid="HOS 2:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 2:15"/>我要把葡萄园再赐给她，</para>
+  <para style="q1" vid="HOS 2:15">使灾祸之谷<note caller="+" style="f"><char style="fr" closed="false">2:15 </char><char style="ft" closed="false">“灾祸之谷”希伯来文是“亚割谷”，“亚割”意思是“灾祸”。参见约书亚记第七章。</char></note>成为希望之门。</para>
+  <para style="q1" vid="HOS 2:15">她要在那里欢唱，如在妙龄之时，</para>
+  <para style="q1" vid="HOS 2:15">如从<char style="pn">埃及</char>出来之日。”<verse eid="HOS 2:15"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 2:16"/>耶和华说：</para>
+  <para style="q1" vid="HOS 2:16">“那时，你要称我为丈夫，</para>
+  <para style="q1" vid="HOS 2:16">不再称我为主人<note caller="+" style="f"><char style="fr" closed="false">2:16 </char><char style="ft" closed="false">此处的“主人”希伯来文是“巴力”。“巴力”意思是“主人或丈夫”，也是迦南人神明的名字。</char></note>。<verse eid="HOS 2:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="HOS 2:17"/>我要从你口中除掉<char style="pn">巴力</char>的名字，</para>
+  <para style="q1" vid="HOS 2:17">再也不让你提起它们。<verse eid="HOS 2:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="HOS 2:18"/>那时，我要跟田间的走兽、空中的飞鸟及地上的爬虫立约。</para>
+  <para style="q1" vid="HOS 2:18">我要从地上折弓断剑，废止战事，</para>
+  <para style="q1" vid="HOS 2:18">使你安居乐业。<verse eid="HOS 2:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="HOS 2:19"/>我要聘你永远做我的妻，</para>
+  <para style="q1" vid="HOS 2:19">以仁义、正直、慈爱、怜悯聘你为妻。<verse eid="HOS 2:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="HOS 2:20"/>我要以信实聘你为妻，</para>
+  <para style="q1" vid="HOS 2:20">这样你必认识耶和华。”<verse eid="HOS 2:20"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="21" style="v" sid="HOS 2:21"/>耶和华说：</para>
+  <para style="q1" vid="HOS 2:21">“那时，我要应允，</para>
+  <para style="q1" vid="HOS 2:21">我要应允天的祈求，</para>
+  <para style="q1" vid="HOS 2:21">天要应允地的祈求，<verse eid="HOS 2:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="HOS 2:22"/>地要应允五谷、新酒和油的祈求，</para>
+  <para style="q1" vid="HOS 2:22">五谷、新酒和油要应允<char style="pn">耶斯列</char>的祈求。<verse eid="HOS 2:22"/></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="HOS 2:23"/>我要把你栽种在这片土地上，归我所有。</para>
+  <para style="q1" vid="HOS 2:23">我要怜悯那不蒙怜悯的人，</para>
+  <para style="q1" vid="HOS 2:23">对那不是我子民的人说，‘你是我的子民。’</para>
+  <para style="q1" vid="HOS 2:23">他们也要对我说，‘你是我的上帝。’”<verse eid="HOS 2:23"/></para>
+  <chapter eid="HOS 2"/>
+  <chapter number="3" style="c" sid="HOS 3"/>
+  <para style="s1">何西阿赎回不贞之妻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 3:1"/>耶和华对我说：“你要再去爱那个另有新欢的淫妇，像耶和华爱<char style="pn">以色列</char>人一样爱她。尽管<char style="pn">以色列</char>人祭拜其他神明，喜爱葡萄饼，耶和华仍然爱他们。” <verse eid="HOS 3:1"/><verse number="2" style="v" sid="HOS 3:2"/>于是，我用三两银子和二百公斤大麦赎回她， <verse eid="HOS 3:2"/><verse number="3" style="v" sid="HOS 3:3"/>对她说：“你要和我住许多日子。这期间不可行淫，不可亲近别的男人，我也不与你同房。” <verse eid="HOS 3:3"/><verse number="4" style="v" sid="HOS 3:4"/><char style="pn">以色列</char>人也要有许多日子没有君王和首领，没有祭祀和神柱，也没有以弗得和家庭神像。 <verse eid="HOS 3:4"/><verse number="5" style="v" sid="HOS 3:5"/>之后，<char style="pn">以色列</char>人将回心转意，寻求他们的上帝耶和华，归向他们的君王<char style="pn">大卫</char>。在末后的日子，他们将怀着敬畏的心归向耶和华，领受祂的恩惠。<verse eid="HOS 3:5"/></para>
+  <chapter eid="HOS 3"/>
+  <chapter number="4" style="c" sid="HOS 4"/>
+  <para style="s1">耶和华指控以色列</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 4:1"/>
+    <char style="pn">以色列</char>人啊，</para>
+  <para style="q1" vid="HOS 4:1">你们要听耶和华的话。</para>
+  <para style="q1" vid="HOS 4:1">祂指控住在这片土地上的居民，说：</para>
+  <para style="q1" vid="HOS 4:1">“这片土地上的人不忠不信，</para>
+  <para style="q1" vid="HOS 4:1">毫无良善，不认识上帝。<verse eid="HOS 4:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 4:2"/>他们赌咒、撒谎、凶杀、偷窃、通奸，</para>
+  <para style="q1" vid="HOS 4:2">为所欲为，血案累累。<verse eid="HOS 4:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 4:3"/>所以，这片土地要哀鸣，</para>
+  <para style="q1" vid="HOS 4:3">所有的居民都要消亡，</para>
+  <para style="q1" vid="HOS 4:3">田间的野兽、空中的飞鸟、</para>
+  <para style="q1" vid="HOS 4:3">水里的鱼类也要灭绝。”<verse eid="HOS 4:3"/></para>
+  <para style="b"/>
+  <para style="p">
+    <verse number="4" style="v" sid="HOS 4:4"/>耶和华说：</para>
+  <para style="q1" vid="HOS 4:4">“谁都不要指控别人，</para>
+  <para style="q1" vid="HOS 4:4">谁都不要责备别人，</para>
+  <para style="q1" vid="HOS 4:4">因为我要指控你们这些祭司。<verse eid="HOS 4:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 4:5"/>你们白天黑夜都要跌倒，</para>
+  <para style="q1" vid="HOS 4:5">先知也要跟你们一起跌倒，</para>
+  <para style="q1" vid="HOS 4:5">所以我要毁灭你们的母亲。<verse eid="HOS 4:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 4:6"/>我的子民因无知而遭灭。</para>
+  <para style="q1" vid="HOS 4:6">因为你们拒绝认识我，</para>
+  <para style="q1" vid="HOS 4:6">我也要拒绝让你们做我的祭司；</para>
+  <para style="q1" vid="HOS 4:6">因为你们忘记你们上帝的律法，</para>
+  <para style="q1" vid="HOS 4:6">我也要忘记你们的儿女。<verse eid="HOS 4:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 4:7"/>你们祭司越增多，</para>
+  <para style="q1" vid="HOS 4:7">所犯的罪也越多，</para>
+  <para style="q1" vid="HOS 4:7">所以我要使你们的尊荣变为羞耻。<verse eid="HOS 4:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 4:8"/>你们祭司食用我子民的赎罪祭，</para>
+  <para style="q1" vid="HOS 4:8">满心希望他们犯罪。<verse eid="HOS 4:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 4:9"/>将来，我的子民如何，</para>
+  <para style="q1" vid="HOS 4:9">你们祭司也如何。</para>
+  <para style="q1" vid="HOS 4:9">我要照你们的所作所为惩罚你们、报应你们，<verse eid="HOS 4:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 4:10"/>使你们吃却不得饱足，</para>
+  <para style="q1" vid="HOS 4:10">行淫却不得后代<note caller="+" style="f"><char style="fr" closed="false">4:10 </char><char style="ft" closed="false">“行淫却不得后代”此处的意思是指责以色列人祭拜迦南人掌管生育的神明。他们以为这样能带来更多后代。</char></note>。</para>
+  <para style="q1" vid="HOS 4:10">因为你们背弃耶和华，<verse eid="HOS 4:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 4:11"/>沉溺酒色，丧失心智。<verse eid="HOS 4:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 4:12"/>“我的子民祈求木头，</para>
+  <para style="q1" vid="HOS 4:12">随从木杖的指引。</para>
+  <para style="q1" vid="HOS 4:12">淫乱的心使他们走入歧途，</para>
+  <para style="q1" vid="HOS 4:12">他们不忠不贞，背弃他们的上帝。<verse eid="HOS 4:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 4:13"/>他们在山顶和高岗上的橡树、</para>
+  <para style="q1" vid="HOS 4:13">杨树和栗树下献祭烧香，</para>
+  <para style="q1" vid="HOS 4:13">因为树荫怡人。</para>
+  <para style="b" vid="HOS 4:13"/>
+  <para style="q1" vid="HOS 4:13">“所以，你们的女儿淫乱，</para>
+  <para style="q1" vid="HOS 4:13">你们的儿媳通奸。<verse eid="HOS 4:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 4:14"/>但我不会因此而惩罚她们，</para>
+  <para style="q1" vid="HOS 4:14">因为你们也与娼妓苟合，</para>
+  <para style="q1" vid="HOS 4:14">与庙妓一起献祭。</para>
+  <para style="q1" vid="HOS 4:14">无知的民族必走向灭亡。<verse eid="HOS 4:14"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 4:15"/>“虽然<char style="pn">以色列</char>如同妓女，对我不忠，</para>
+  <para style="q1" vid="HOS 4:15">但不要使<char style="pn">犹大</char>犯罪。</para>
+  <para style="q1" vid="HOS 4:15">不要到<char style="pn">吉甲</char>去，</para>
+  <para style="q1" vid="HOS 4:15">不要到<char style="pn">伯·亚文</char><note caller="+" style="f"><char style="fr" closed="false">4:15 </char><char style="ft" closed="false">“伯·亚文”意思是“罪恶之家”，在此指伯特利。“伯特利”意思是“上帝之家”，但当时已变成祭拜偶像之地。</char></note>去，</para>
+  <para style="q1" vid="HOS 4:15">不要凭永活的耶和华起誓。<verse eid="HOS 4:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 4:16"/>
+    <char style="pn">以色列</char>桀骜不驯，</para>
+  <para style="q1" vid="HOS 4:16">如同桀骜不驯的母牛。</para>
+  <para style="q1" vid="HOS 4:16">耶和华怎能牧养他们，</para>
+  <para style="q1" vid="HOS 4:16">如同在草场上牧养羊羔呢？<verse eid="HOS 4:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="HOS 4:17"/>
+    <char style="pn">以法莲</char>
+    <note caller="+" style="f">
+      <char style="fr" closed="false">4:17 </char>
+      <char style="ft" closed="false">“以法莲”为北国以色列最大的支派，圣经中有时用来代指北国以色列。本卷书中下同。</char>
+    </note>与偶像为伍，</para>
+  <para style="q1" vid="HOS 4:17">任由他吧！<verse eid="HOS 4:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="HOS 4:18"/>他们酒足兴尽之后，</para>
+  <para style="q1" vid="HOS 4:18">便不住地行淫；</para>
+  <para style="q1" vid="HOS 4:18">他们的首领恋慕羞耻之事。<verse eid="HOS 4:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="HOS 4:19"/>风要把他们卷走，</para>
+  <para style="q1" vid="HOS 4:19">他们必因所献的祭而蒙羞。<verse eid="HOS 4:19"/></para>
+  <chapter eid="HOS 4"/>
+  <chapter number="5" style="c" sid="HOS 5"/>
+  <para style="s1">对以色列和犹大的审判</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 5:1"/>“祭司啊，要听！</para>
+  <para style="q1" vid="HOS 5:1">
+    <char style="pn">以色列</char>家啊，要留心听！</para>
+  <para style="q1" vid="HOS 5:1">王室啊，要侧耳听！</para>
+  <para style="q1" vid="HOS 5:1">这是对你们的审判，</para>
+  <para style="q1" vid="HOS 5:1">因为你们像设在<char style="pn">米斯巴</char>的圈套，</para>
+  <para style="q1" vid="HOS 5:1">像铺在<char style="pn">他泊</char>山的网罗。<verse eid="HOS 5:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 5:2"/>你们这些叛逆之徒大肆杀戮，</para>
+  <para style="q1" vid="HOS 5:2">我要责罚你们所有人。<verse eid="HOS 5:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 5:3"/>我对<char style="pn">以法莲</char>一清二楚，<char style="pn">以色列</char>瞒不过我。</para>
+  <para style="q1" vid="HOS 5:3">
+    <char style="pn">以法莲</char>做了妓女，<char style="pn">以色列</char>被玷污了。”<verse eid="HOS 5:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 5:4"/>他们的恶行阻挠他们归向自己的上帝，</para>
+  <para style="q1" vid="HOS 5:4">因为淫乱之灵占据了他们的心，</para>
+  <para style="q1" vid="HOS 5:4">以致他们不认识耶和华。<verse eid="HOS 5:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 5:5"/>
+    <char style="pn">以色列</char>被自己的傲慢指控，</para>
+  <para style="q1" vid="HOS 5:5">
+    <char style="pn">以色列</char>和<char style="pn">以法莲</char>要跌倒在自己的罪中，</para>
+  <para style="q1" vid="HOS 5:5">
+    <char style="pn">犹大</char>也要一同跌倒。<verse eid="HOS 5:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 5:6"/>他们牵着牛羊去寻求耶和华，</para>
+  <para style="q1" vid="HOS 5:6">却寻不到，</para>
+  <para style="q1" vid="HOS 5:6">因为祂已离他们而去。<verse eid="HOS 5:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 5:7"/>他们对耶和华不忠，</para>
+  <para style="q1" vid="HOS 5:7">所生的是私生子，</para>
+  <para style="q1" vid="HOS 5:7">他们和他们的田地必在朔日被吞噬。<verse eid="HOS 5:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 5:8"/>耶和华说：</para>
+  <para style="q1" vid="HOS 5:8">“要在<char style="pn">基比亚</char>吹角，</para>
+  <para style="q1" vid="HOS 5:8">在<char style="pn">拉玛</char>鸣号，</para>
+  <para style="q1" vid="HOS 5:8">在<char style="pn">伯·亚文</char>呐喊，</para>
+  <para style="q1" vid="HOS 5:8">
+    <char style="pn">便雅悯</char>啊，敌人就在你身后！<verse eid="HOS 5:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 5:9"/>
+    <char style="pn">以法莲</char>啊，你要在受惩罚的日子沦为废墟！</para>
+  <para style="q1" vid="HOS 5:9">我要在<char style="pn">以色列</char>各支派中宣告将来必要发生的事！<verse eid="HOS 5:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 5:10"/>
+    <char style="pn">犹大</char>的首领如同擅移地界的人，</para>
+  <para style="q1" vid="HOS 5:10">侵吞<char style="pn">以色列</char>的领土，</para>
+  <para style="q1" vid="HOS 5:10">我要将烈怒如洪水般倾泻在他们身上。<verse eid="HOS 5:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 5:11"/>
+    <char style="pn">以法莲</char>因甘愿追随偶像而受欺压，</para>
+  <para style="q1" vid="HOS 5:11">被审判压碎。<verse eid="HOS 5:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 5:12"/>我要使<char style="pn">以法莲</char>像虫蛀的衣服，</para>
+  <para style="q1" vid="HOS 5:12">使<char style="pn">犹大</char>家像朽烂的木头。<verse eid="HOS 5:12"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 5:13"/>“<char style="pn">以法莲</char>见自己患病，</para>
+  <para style="q1" vid="HOS 5:13">
+    <char style="pn">犹大</char>见自己有伤，</para>
+  <para style="q1" vid="HOS 5:13">
+    <char style="pn">以法莲</char>便向强大的<char style="pn">亚述</char>王<note caller="+" style="f"><char style="fr" closed="false">5:13 </char><char style="ft" closed="false">“强大的亚述王”或译为“耶雷布王”，同<char style="xt"><ref loc="HOS 10:6">10:6</ref></char>。</char></note>求救。</para>
+  <para style="q1" vid="HOS 5:13">亚述王却不能医治你们，</para>
+  <para style="q1" vid="HOS 5:13">也无法为你们疗伤。<verse eid="HOS 5:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 5:14"/>我要像狮子一样对待<char style="pn">以法莲</char>，</para>
+  <para style="q1" vid="HOS 5:14">如猛狮一样对待<char style="pn">犹大</char>家，</para>
+  <para style="q1" vid="HOS 5:14">将他们撕碎、拖走，</para>
+  <para style="q1" vid="HOS 5:14">无人能营救他们。<verse eid="HOS 5:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 5:15"/>我要返回我的居所，</para>
+  <para style="q1" vid="HOS 5:15">直到他们知罪来寻求我。</para>
+  <para style="q1" vid="HOS 5:15">在苦难的日子里，</para>
+  <para style="q1" vid="HOS 5:15">他们必恳切地寻求我。”<verse eid="HOS 5:15"/></para>
+  <chapter eid="HOS 5"/>
+  <chapter number="6" style="c" sid="HOS 6"/>
+  <para style="s1">以色列和犹大不思悔改</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 6:1"/>“来吧，我们归向耶和华！</para>
+  <para style="q1" vid="HOS 6:1">祂撕裂我们，也必医治我们；</para>
+  <para style="q1" vid="HOS 6:1">祂打伤我们，也必为我们包扎。<verse eid="HOS 6:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 6:2"/>过两天，祂必复兴我们；</para>
+  <para style="q1" vid="HOS 6:2">第三天，祂必使我们站立起来，</para>
+  <para style="q1" vid="HOS 6:2">我们好在祂面前存活。<verse eid="HOS 6:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 6:3"/>让我们认识耶和华，</para>
+  <para style="q1" vid="HOS 6:3">竭力认识耶和华！</para>
+  <para style="q1" vid="HOS 6:3">祂如曙光一样必然出现，</para>
+  <para style="q1" vid="HOS 6:3">祂必像甘霖一样临到我们，</para>
+  <para style="q1" vid="HOS 6:3">又如滋润大地的春雨。”<verse eid="HOS 6:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 6:4"/>耶和华说：</para>
+  <para style="q1" vid="HOS 6:4">“<char style="pn">以法莲</char>啊，我该怎样待你呢？</para>
+  <para style="q1" vid="HOS 6:4">
+    <char style="pn">犹大</char>啊，我该怎样待你呢？</para>
+  <para style="q1" vid="HOS 6:4">你们对我的爱像晨雾，</para>
+  <para style="q1" vid="HOS 6:4">如转瞬即逝的朝露。<verse eid="HOS 6:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 6:5"/>所以，我借先知砍碎你们，</para>
+  <para style="q1" vid="HOS 6:5">用我的话杀戮你们，</para>
+  <para style="q1" vid="HOS 6:5">我的审判必如光临到你们。<verse eid="HOS 6:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 6:6"/>我要的是怜悯，而非祭物；</para>
+  <para style="q1" vid="HOS 6:6">我喜爱人认识我，胜于燔祭。<verse eid="HOS 6:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 6:7"/>可是，你们却如<char style="pn">亚当</char>一样背约，</para>
+  <para style="q1" vid="HOS 6:7">以诡诈待我。<verse eid="HOS 6:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 6:8"/>
+    <char style="pn">基列</char>是罪恶之城，</para>
+  <para style="q1" vid="HOS 6:8">到处血迹斑斑。<verse eid="HOS 6:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 6:9"/>祭司如同埋伏的强盗一样结伙打劫，</para>
+  <para style="q1" vid="HOS 6:9">在通往<char style="pn">示剑</char>的路上行凶作恶。<verse eid="HOS 6:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 6:10"/>我在<char style="pn">以色列</char>家看见了可怕之事，</para>
+  <para style="q1" vid="HOS 6:10">
+    <char style="pn">以法莲</char>不忠不贞，玷污了自己。<verse eid="HOS 6:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 6:11"/>“<char style="pn">犹大</char>啊，当我使我被掳的子民返乡时，</para>
+  <para style="q1" vid="HOS 6:11">你必得到我给你定的下场<note caller="+" style="f"><char style="fr" closed="false">6:11 </char><char style="ft" closed="false">“你必得到我给你定的下场”希伯来文是“我已经为你定下收割的时间”。</char></note>。<verse eid="HOS 6:11"/></para>
+  <chapter eid="HOS 6"/>
+  <chapter number="7" style="c" sid="HOS 7"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 7:1"/>当我要医治<char style="pn">以色列</char>的时候，</para>
+  <para style="q1" vid="HOS 7:1">
+    <char style="pn">以法莲</char>的罪就显露出来，</para>
+  <para style="q1" vid="HOS 7:1">
+    <char style="pn">撒玛利亚</char>
+    <note caller="+" style="f">
+      <char style="fr" closed="false">7:1 </char>
+      <char style="ft" closed="false">“撒玛利亚”为北国以色列的首都，此处代指以色列。本卷书中下同。</char>
+    </note>的恶就暴露出来。</para>
+  <para style="q1" vid="HOS 7:1">他们行事诡诈；</para>
+  <para style="q1" vid="HOS 7:1">盗贼进屋偷窃，强盗外出抢劫。<verse eid="HOS 7:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 7:2"/>他们没有想到我记得他们的所有恶行。</para>
+  <para style="q1" vid="HOS 7:2">如今他们的罪恶环绕他们，</para>
+  <para style="q1" vid="HOS 7:2">都暴露在我面前。<verse eid="HOS 7:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 7:3"/>他们以罪恶取悦君王，</para>
+  <para style="q1" vid="HOS 7:3">以谎言讨好首领。<verse eid="HOS 7:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 7:4"/>他们都是通奸之徒<note caller="+" style="f"><char style="fr" closed="false">7:4 </char><char style="ft" closed="false">“通奸之徒”此处指以色列人背弃耶和华，祭拜偶像。</char></note>，</para>
+  <para style="q1" vid="HOS 7:4">就像燃烧的火炉，</para>
+  <para style="q1" vid="HOS 7:4">从揉面到面团发起，</para>
+  <para style="q1" vid="HOS 7:4">烤饼的人不用挑旺炉火。<verse eid="HOS 7:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 7:5"/>君王宴乐的时候，</para>
+  <para style="q1" vid="HOS 7:5">首领们醉酒成病，</para>
+  <para style="q1" vid="HOS 7:5">君王也与轻慢上帝的人联手。<verse eid="HOS 7:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 7:6"/>他们的心如火炉，酝酿着阴谋。</para>
+  <para style="q1" vid="HOS 7:6">他们的怒气整夜冒烟，</para>
+  <para style="q1" vid="HOS 7:6">早晨爆发出熊熊烈焰。<verse eid="HOS 7:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 7:7"/>他们都像炙热的火炉，</para>
+  <para style="q1" vid="HOS 7:7">吞灭他们的首领。</para>
+  <para style="q1" vid="HOS 7:7">他们的君王都倒地而亡，</para>
+  <para style="q1" vid="HOS 7:7">没有一个向我求救。<verse eid="HOS 7:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 7:8"/>“<char style="pn">以法莲</char>与外族人混杂，</para>
+  <para style="q1" vid="HOS 7:8">就像没有翻过的饼<note caller="+" style="f"><char style="fr" closed="false">7:8 </char><char style="ft" closed="false">“没有翻过的饼”指一面烤焦一面生的饼，不能食用，意义见下节。</char></note>。<verse eid="HOS 7:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 7:9"/>外族人耗尽了他的力量，</para>
+  <para style="q1" vid="HOS 7:9">他却茫然不知。</para>
+  <para style="q1" vid="HOS 7:9">他头发斑白，</para>
+  <para style="q1" vid="HOS 7:9">却浑然不觉。<verse eid="HOS 7:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 7:10"/>
+    <char style="pn">以色列</char>人被自己的傲慢指控，</para>
+  <para style="q1" vid="HOS 7:10">他们却不归向他们的上帝耶和华，</para>
+  <para style="q1" vid="HOS 7:10">也不去寻求祂。<verse eid="HOS 7:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 7:11"/>
+    <char style="pn">以法莲</char>像鸽子一样愚蠢无知，</para>
+  <para style="q1" vid="HOS 7:11">他们向<char style="pn">埃及</char>求救，又投奔<char style="pn">亚述</char>。<verse eid="HOS 7:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 7:12"/>他们去的时候，</para>
+  <para style="q1" vid="HOS 7:12">我要张网网住他们，</para>
+  <para style="q1" vid="HOS 7:12">我要像打落飞鸟一样打落他们。</para>
+  <para style="q1" vid="HOS 7:12">我要按他们的恶行<note caller="+" style="f"><char style="fr" closed="false">7:12 </char><char style="ft" closed="false">“他们的恶行”希伯来文是“他们的会众所听到的”。</char></note>惩罚他们。<verse eid="HOS 7:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 7:13"/>他们有祸了，</para>
+  <para style="q1" vid="HOS 7:13">因为他们背弃我！</para>
+  <para style="q1" vid="HOS 7:13">他们要被毁灭了，</para>
+  <para style="q1" vid="HOS 7:13">因为他们背叛我！</para>
+  <para style="q1" vid="HOS 7:13">我要救赎他们，</para>
+  <para style="q1" vid="HOS 7:13">他们却向我撒谎。<verse eid="HOS 7:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 7:14"/>他们没有真心呼求我，</para>
+  <para style="q1" vid="HOS 7:14">只是在床上哭号。</para>
+  <para style="q1" vid="HOS 7:14">他们为求五谷和新酒而割伤自己，</para>
+  <para style="q1" vid="HOS 7:14">却背弃了我。<verse eid="HOS 7:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 7:15"/>我训练他们，使他们臂膀强壮，</para>
+  <para style="q1" vid="HOS 7:15">他们却阴谋作恶抗拒我。<verse eid="HOS 7:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 7:16"/>他们回转，却不肯转向至高者，</para>
+  <para style="q1" vid="HOS 7:16">他们就像无用的弓。</para>
+  <para style="q1" vid="HOS 7:16">他们的首领要因出言狂妄而丧身刀下，</para>
+  <para style="q1" vid="HOS 7:16">在<char style="pn">埃及</char>成为人们的笑柄。<verse eid="HOS 7:16"/></para>
+  <chapter eid="HOS 7"/>
+  <chapter number="8" style="c" sid="HOS 8"/>
+  <para style="s1">耶和华指责以色列人拜偶像</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 8:1"/>“吹响号角警告众人吧！</para>
+  <para style="q1" vid="HOS 8:1">敌人要如鹰扑向耶和华的家，</para>
+  <para style="q1" vid="HOS 8:1">因为百姓背弃我的约，</para>
+  <para style="q1" vid="HOS 8:1">违背我的律法。<verse eid="HOS 8:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 8:2"/>他们要向我呼求，</para>
+  <para style="q1" vid="HOS 8:2">‘我们的上帝啊，</para>
+  <para style="q1" vid="HOS 8:2">我们<char style="pn">以色列</char>人认识你。’<verse eid="HOS 8:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 8:3"/>
+    <char style="pn">以色列</char>已经弃绝良善，</para>
+  <para style="q1" vid="HOS 8:3">所以敌人要追赶他。<verse eid="HOS 8:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 8:4"/>他们拥立君王，未经我的同意；</para>
+  <para style="q1" vid="HOS 8:4">选立首领，没有让我知道。</para>
+  <para style="q1" vid="HOS 8:4">他们用金银为自己制造偶像，自取灭亡。<verse eid="HOS 8:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 8:5"/>我鄙弃<char style="pn">撒玛利亚</char>人所拜的牛犊，</para>
+  <para style="q1" vid="HOS 8:5">我要向他们发怒，</para>
+  <para style="q1" vid="HOS 8:5">他们到什么时候才能洁身自守呢？<verse eid="HOS 8:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 8:6"/>这牛犊是<char style="pn">以色列</char>的工匠造的，并不是上帝。</para>
+  <para style="q1" vid="HOS 8:6">
+    <char style="pn">撒玛利亚</char>的牛犊必被砸得粉碎。<verse eid="HOS 8:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 8:7"/>他们种的是风，</para>
+  <para style="q1" vid="HOS 8:7">收的是暴风。</para>
+  <para style="q1" vid="HOS 8:7">他们的庄稼长不出穗子，</para>
+  <para style="q1" vid="HOS 8:7">产不出面粉。</para>
+  <para style="q1" vid="HOS 8:7">就是有收成，</para>
+  <para style="q1" vid="HOS 8:7">也要被外族人吃掉。<verse eid="HOS 8:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 8:8"/>
+    <char style="pn">以色列</char>被吞灭了，</para>
+  <para style="q1" vid="HOS 8:8">他在列国之中，</para>
+  <para style="q1" vid="HOS 8:8">就像无用的器皿。<verse eid="HOS 8:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 8:9"/>他们投奔<char style="pn">亚述</char>，</para>
+  <para style="q1" vid="HOS 8:9">就像孤独漂泊的野驴。</para>
+  <para style="q1" vid="HOS 8:9">
+    <char style="pn">以法莲</char>收买情人。<verse eid="HOS 8:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 8:10"/>尽管他们在各国贿买盟友，</para>
+  <para style="q1" vid="HOS 8:10">如今我要把他们聚集起来审判。</para>
+  <para style="q1" vid="HOS 8:10">他们必因君王和首领的欺压而日渐衰微。<verse eid="HOS 8:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 8:11"/>“<char style="pn">以法莲</char>增建许多除罪的祭坛，</para>
+  <para style="q1" vid="HOS 8:11">这些祭坛却成为他的犯罪之处。<verse eid="HOS 8:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 8:12"/>我为他写下千万条的律法，</para>
+  <para style="q1" vid="HOS 8:12">他却视若无睹。<verse eid="HOS 8:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 8:13"/>他们献给我祭牲，并吃祭肉，</para>
+  <para style="q1" vid="HOS 8:13">但不蒙耶和华的悦纳。</para>
+  <para style="q1" vid="HOS 8:13">我必记住他们的罪恶，</para>
+  <para style="q1" vid="HOS 8:13">追讨他们的罪债，</para>
+  <para style="q1" vid="HOS 8:13">使他们回到<char style="pn">埃及</char>。<verse eid="HOS 8:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 8:14"/>
+    <char style="pn">以色列</char>忘记了他的创造主，</para>
+  <para style="q1" vid="HOS 8:14">建造许多宫殿；</para>
+  <para style="q1" vid="HOS 8:14">
+    <char style="pn">犹大</char>兴建许多坚城。</para>
+  <para style="q1" vid="HOS 8:14">但我要降火烧毁他们的城邑和堡垒。”<verse eid="HOS 8:14"/></para>
+  <chapter eid="HOS 8"/>
+  <chapter number="9" style="c" sid="HOS 9"/>
+  <para style="s1">何西阿宣布对以色列的惩罚</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 9:1"/>
+    <char style="pn">以色列</char>啊，</para>
+  <para style="q1" vid="HOS 9:1">不要欢喜快乐，</para>
+  <para style="q1" vid="HOS 9:1">不要像外族人那样欢喜快乐！</para>
+  <para style="q1" vid="HOS 9:1">因为你对你的上帝不忠不贞，</para>
+  <para style="q1" vid="HOS 9:1">喜爱在各麦场上接受嫖资。<verse eid="HOS 9:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 9:2"/>麦场上的谷物和榨酒池的酒将不够养活你们，</para>
+  <para style="q1" vid="HOS 9:2">新酒也必断绝。<verse eid="HOS 9:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 9:3"/>你们将不能再住在耶和华的土地上。</para>
+  <para style="q1" vid="HOS 9:3">
+    <char style="pn">以法莲</char>要返回<char style="pn">埃及</char>，</para>
+  <para style="q1" vid="HOS 9:3">在<char style="pn">亚述</char>吃不洁之物。<verse eid="HOS 9:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 9:4"/>你们将不能再献奠祭给耶和华，</para>
+  <para style="q1" vid="HOS 9:4">你们的祭牲也不蒙悦纳。</para>
+  <para style="q1" vid="HOS 9:4">这些祭物如居丧之人的食物，</para>
+  <para style="q1" vid="HOS 9:4">吃的人都被玷污。</para>
+  <para style="q1" vid="HOS 9:4">你们的食物只能供自己吃，</para>
+  <para style="q1" vid="HOS 9:4">不能带进耶和华的殿。<verse eid="HOS 9:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 9:5"/>在节日，在耶和华所定的节期里，</para>
+  <para style="q1" vid="HOS 9:5">你们要做什么呢？<verse eid="HOS 9:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 9:6"/>即使你们逃脱毁灭之灾，</para>
+  <para style="q1" vid="HOS 9:6">
+    <char style="pn">埃及</char>人也要把你们聚集起来，</para>
+  <para style="q1" vid="HOS 9:6">在<char style="pn">摩弗</char>埋葬你们。</para>
+  <para style="q1" vid="HOS 9:6">你们的珍贵银器要散落在荆棘中，</para>
+  <para style="q1" vid="HOS 9:6">你们的帐篷中要长满蒺藜。<verse eid="HOS 9:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 9:7"/>
+    <char style="pn">以色列</char>人受惩罚的日子近了，</para>
+  <para style="q1" vid="HOS 9:7">遭报应的时候到了！</para>
+  <para style="q1" vid="HOS 9:7">你们必知道。</para>
+  <para style="q1" vid="HOS 9:7">因为你们罪恶深重，充满憎恨，</para>
+  <para style="q1" vid="HOS 9:7">先知被当成傻瓜，</para>
+  <para style="q1" vid="HOS 9:7">被灵感动的人被视为疯子。<verse eid="HOS 9:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 9:8"/>先知为了上帝做<char style="pn">以法莲</char>的守望者，</para>
+  <para style="q1" vid="HOS 9:8">可是他走的路上布满网罗，</para>
+  <para style="q1" vid="HOS 9:8">在他上帝的家里遭人憎恨。<verse eid="HOS 9:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 9:9"/>你们败坏至极，</para>
+  <para style="q1" vid="HOS 9:9">恰如从前在<char style="pn">基比亚</char>的日子。</para>
+  <para style="q1" vid="HOS 9:9">耶和华必记住你们的罪恶，</para>
+  <para style="q1" vid="HOS 9:9">追讨你们的罪债。<verse eid="HOS 9:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 9:10"/>耶和华说：</para>
+  <para style="q1" vid="HOS 9:10">“昔日我看见<char style="pn">以色列</char>时，</para>
+  <para style="q1" vid="HOS 9:10">像在荒野看见葡萄；</para>
+  <para style="q1" vid="HOS 9:10">看见你们的祖先时，</para>
+  <para style="q1" vid="HOS 9:10">像在无花果树上看见初熟的果子。</para>
+  <para style="q1" vid="HOS 9:10">但他们却祭拜<char style="pn">巴力·毗珥</char>，</para>
+  <para style="q1" vid="HOS 9:10">把自己献给可耻的偶像，</para>
+  <para style="q1" vid="HOS 9:10">变得像他们所爱的偶像一样可憎。<verse eid="HOS 9:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 9:11"/>
+    <char style="pn">以法莲</char>人的荣耀要如鸟飞逝，</para>
+  <para style="q1" vid="HOS 9:11">你们将不能受孕，</para>
+  <para style="q1" vid="HOS 9:11">不能怀胎，</para>
+  <para style="q1" vid="HOS 9:11">也不能生育。<verse eid="HOS 9:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 9:12"/>你们纵然把孩子养大，</para>
+  <para style="q1" vid="HOS 9:12">我也要夺去他们的性命，一个也不留。</para>
+  <para style="q1" vid="HOS 9:12">我撇弃你们的时候，</para>
+  <para style="q1" vid="HOS 9:12">你们就有祸了！<verse eid="HOS 9:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 9:13"/>我看见<char style="pn">以法莲</char>栽种在草原上，美如<char style="pn">泰尔</char>，</para>
+  <para style="q1" vid="HOS 9:13">
+    <char style="pn">以法莲</char>却要把儿女交给屠杀者。”<verse eid="HOS 9:13"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 9:14"/>耶和华啊，求你给他们——</para>
+  <para style="q1" vid="HOS 9:14">你要给他们什么呢？</para>
+  <para style="q1" vid="HOS 9:14">求你使他们子宫流产，乳房干瘪。<verse eid="HOS 9:14"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 9:15"/>耶和华说：</para>
+  <para style="q1" vid="HOS 9:15">“因他们在<char style="pn">吉甲</char>的一切恶行，</para>
+  <para style="q1" vid="HOS 9:15">我已憎恶他们。</para>
+  <para style="q1" vid="HOS 9:15">因他们的恶行，</para>
+  <para style="q1" vid="HOS 9:15">我要将他们逐出我的家，</para>
+  <para style="q1" vid="HOS 9:15">不再爱他们，</para>
+  <para style="q1" vid="HOS 9:15">他们的首领都是悖逆之人。<verse eid="HOS 9:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 9:16"/>
+    <char style="pn">以法莲</char>要被击打，</para>
+  <para style="q1" vid="HOS 9:16">他们的根将枯干，</para>
+  <para style="q1" vid="HOS 9:16">再也不能结果。</para>
+  <para style="q1" vid="HOS 9:16">就算他们能生儿育女，</para>
+  <para style="q1" vid="HOS 9:16">我也要杀死他们心爱的孩子。”<verse eid="HOS 9:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="HOS 9:17"/>我的上帝必弃绝他们，</para>
+  <para style="q1" vid="HOS 9:17">因为他们不听从祂。</para>
+  <para style="q1" vid="HOS 9:17">他们必在列国中流离飘泊。<verse eid="HOS 9:17"/></para>
+  <para style="b"/>
+  <chapter eid="HOS 9"/>
+  <chapter number="10" style="c" sid="HOS 10"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 10:1"/>
+    <char style="pn">以色列</char>是茂盛的葡萄树，硕果累累。</para>
+  <para style="q1" vid="HOS 10:1">可是，他结果越多，</para>
+  <para style="q1" vid="HOS 10:1">建造的祭坛就越多；</para>
+  <para style="q1" vid="HOS 10:1">土地出产越丰富，</para>
+  <para style="q1" vid="HOS 10:1">他就把神柱装饰得越美丽。<verse eid="HOS 10:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 10:2"/>他们心怀诡诈，必受惩罚。</para>
+  <para style="q1" vid="HOS 10:2">耶和华要拆毁他们的祭坛，</para>
+  <para style="q1" vid="HOS 10:2">打碎他们的神柱。<verse eid="HOS 10:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 10:3"/>那时他们会说：</para>
+  <para style="q1" vid="HOS 10:3">“我们没有君王，</para>
+  <para style="q1" vid="HOS 10:3">因为我们不敬畏耶和华。</para>
+  <para style="q1" vid="HOS 10:3">君王能为我们做什么呢？”<verse eid="HOS 10:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 10:4"/>他们说虚话，起假誓，立空盟，</para>
+  <para style="q1" vid="HOS 10:4">因此不法之事滋长，</para>
+  <para style="q1" vid="HOS 10:4">犹如田间犁沟中蔓延的毒草。<verse eid="HOS 10:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 10:5"/>
+    <char style="pn">撒玛利亚</char>的居民要因<char style="pn">伯·亚文</char>的牛犊偶像而惊恐；</para>
+  <para style="q1" vid="HOS 10:5">祭拜它的人要哀伤，</para>
+  <para style="q1" vid="HOS 10:5">供奉它的祭司要痛哭，</para>
+  <para style="q1" vid="HOS 10:5">因为它的荣耀将离开他们。<verse eid="HOS 10:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 10:6"/>它要被带到<char style="pn">亚述</char>去，</para>
+  <para style="q1" vid="HOS 10:6">作为贡物献给强大的<char style="pn">亚述</char>王。</para>
+  <para style="q1" vid="HOS 10:6">
+    <char style="pn">以法莲</char>因此而受人嘲笑，</para>
+  <para style="q1" vid="HOS 10:6">
+    <char style="pn">以色列</char>因自己的偶像而蒙羞。<verse eid="HOS 10:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 10:7"/>
+    <char style="pn">撒玛利亚</char>和它的君王要被毁灭，</para>
+  <para style="q1" vid="HOS 10:7">像漂浮在水面上的枯枝一样消逝。<verse eid="HOS 10:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 10:8"/>
+    <char style="pn">以色列</char>犯罪之地——<char style="pn">亚文</char><note caller="+" style="f"><char style="fr" closed="false">10:8 </char><char style="ft" closed="false">“亚文”指伯·亚文，伯·亚文的意思见本卷书<char style="xt"><ref loc="HOS 4:15">4:15</ref></char>节注脚。</char></note>的丘坛要被拆毁。</para>
+  <para style="q1" vid="HOS 10:8">他们的祭坛上要长满荆棘和蒺藜。</para>
+  <para style="q1" vid="HOS 10:8">他们要向高山说：“遮盖我们吧！”</para>
+  <para style="q1" vid="HOS 10:8">对小丘说：“倒在我们身上吧！”<verse eid="HOS 10:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 10:9"/>耶和华说：</para>
+  <para style="q1" vid="HOS 10:9">“<char style="pn">以色列</char>人啊，从<char style="pn">基比亚</char>的日子以来，</para>
+  <para style="q1" vid="HOS 10:9">你们一直不断地犯罪，从未改变。</para>
+  <para style="q1" vid="HOS 10:9">难道战祸没有临到<char style="pn">基比亚</char>的邪恶之辈吗？<verse eid="HOS 10:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 10:10"/>我要按自己的心意惩罚你们。</para>
+  <para style="q1" vid="HOS 10:10">列国要联合攻击你们，</para>
+  <para style="q1" vid="HOS 10:10">惩罚你们的双重罪恶。<verse eid="HOS 10:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 10:11"/>
+    <char style="pn">以法莲</char>本是驯服的母牛犊，喜欢打谷，</para>
+  <para style="q1" vid="HOS 10:11">现在我要把轭套在它肥美的颈项上。</para>
+  <para style="q1" vid="HOS 10:11">我要驾驭<char style="pn">以法莲</char>，</para>
+  <para style="q1" vid="HOS 10:11">
+    <char style="pn">犹大</char>必耕田，</para>
+  <para style="q1" vid="HOS 10:11">
+    <char style="pn">雅各</char>
+    <note caller="+" style="f">
+      <char style="fr" closed="false">10:11 </char>
+      <char style="ft" closed="false">“雅各”在旧约中常与“以色列”互换使用，有时指以色列人的先祖雅各，有时指以色列民族。本节的以法莲和雅各都代指北国以色列。</char>
+    </note>必耙地。”<verse eid="HOS 10:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 10:12"/>你们要为自己种植公义，</para>
+  <para style="q1" vid="HOS 10:12">就能收获慈爱。</para>
+  <para style="q1" vid="HOS 10:12">现在是寻求耶和华的时候，</para>
+  <para style="q1" vid="HOS 10:12">你们要犁开刚硬的心田，</para>
+  <para style="q1" vid="HOS 10:12">等祂来使公义如雨浇灌你们。<verse eid="HOS 10:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 10:13"/>可是，你们种的是邪恶，</para>
+  <para style="q1" vid="HOS 10:13">收的是不义，</para>
+  <para style="q1" vid="HOS 10:13">吃的是谎言的果实。</para>
+  <para style="q1" vid="HOS 10:13">因为你们倚靠自己的力量，</para>
+  <para style="q1" vid="HOS 10:13">仰仗众多的勇士。<verse eid="HOS 10:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 10:14"/>因此，战争的喧嚣将从你们中间传出，</para>
+  <para style="q1" vid="HOS 10:14">你们的一切堡垒将被摧毁，</para>
+  <para style="q1" vid="HOS 10:14">恰如<char style="pn">沙勒幔</char>在战争之日摧毁<char style="pn">伯·亚比勒</char>，</para>
+  <para style="q1" vid="HOS 10:14">将城中的母子一同摔死。<verse eid="HOS 10:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 10:15"/>
+    <char style="pn">伯特利</char>
+    <note caller="+" style="f">
+      <char style="fr" closed="false">10:15 </char>
+      <char style="ft" closed="false">“伯特利”此处代指以色列人。</char>
+    </note>啊，你罪大恶极，</para>
+  <para style="q1" vid="HOS 10:15">必遭遇同样的下场。</para>
+  <para style="q1" vid="HOS 10:15">那日来临时，<char style="pn">以色列</char>的王将被彻底消灭。<verse eid="HOS 10:15"/></para>
+  <chapter eid="HOS 10"/>
+  <chapter number="11" style="c" sid="HOS 11"/>
+  <para style="s1">耶和华对以色列的爱</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 11:1"/>耶和华说：</para>
+  <para style="q1" vid="HOS 11:1">“<char style="pn">以色列</char>年幼时，我就爱他，</para>
+  <para style="q1" vid="HOS 11:1">视他为儿子，把他从<char style="pn">埃及</char>召出来。<verse eid="HOS 11:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 11:2"/>可是，我越召唤他们，他们就跑得越远，</para>
+  <para style="q1" vid="HOS 11:2">给<char style="pn">巴力</char>献祭，向偶像烧香。<verse eid="HOS 11:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 11:3"/>是我教<char style="pn">以法莲</char>学步，张开双臂抱他们，</para>
+  <para style="q1" vid="HOS 11:3">他们却不知道是我医治他们。<verse eid="HOS 11:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 11:4"/>我用慈绳爱索牵引他们，</para>
+  <para style="q1" vid="HOS 11:4">解开他们所负的重轭，</para>
+  <para style="q1" vid="HOS 11:4">弯腰喂养他们。<verse eid="HOS 11:4"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 11:5"/>“他们要返回<char style="pn">埃及</char>，</para>
+  <para style="q1" vid="HOS 11:5">
+    <char style="pn">亚述</char>要统治他们，</para>
+  <para style="q1" vid="HOS 11:5">因为他们不肯归向我。<verse eid="HOS 11:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 11:6"/>刀剑之灾要临到他们的城邑，</para>
+  <para style="q1" vid="HOS 11:6">毁坏他们的城门，将他们吞噬，</para>
+  <para style="q1" vid="HOS 11:6">因为他们倚仗自己的计谋。<verse eid="HOS 11:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 11:7"/>我的子民执意离我而去，</para>
+  <para style="q1" vid="HOS 11:7">他们虽然求告至高的我，</para>
+  <para style="q1" vid="HOS 11:7">我也不会救拔他们。<verse eid="HOS 11:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 11:8"/>
+    <char style="pn">以法莲</char>啊，我怎能舍弃你？</para>
+  <para style="q1" vid="HOS 11:8">
+    <char style="pn">以色列</char>啊，我怎能弃绝你？</para>
+  <para style="q1" vid="HOS 11:8">我怎能使你的下场如<char style="pn">押玛</char>？</para>
+  <para style="q1" vid="HOS 11:8">我怎能对待你如对待<char style="pn">洗扁</char>？</para>
+  <para style="q1" vid="HOS 11:8">我的心意改变，我满怀怜爱。<verse eid="HOS 11:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 11:9"/>我不再发烈怒，</para>
+  <para style="q1" vid="HOS 11:9">也不再毁灭<char style="pn">以法莲</char>。</para>
+  <para style="q1" vid="HOS 11:9">因为我是上帝，不是世人，</para>
+  <para style="q1" vid="HOS 11:9">是住在你们中间的圣者，</para>
+  <para style="q1" vid="HOS 11:9">我必不带着烈怒来临。<verse eid="HOS 11:9"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 11:10"/>“<char style="pn">以色列</char>子民必跟随耶和华，</para>
+  <para style="q1" vid="HOS 11:10">祂要像狮子一样吼叫。</para>
+  <para style="q1" vid="HOS 11:10">祂吼叫的时候，</para>
+  <para style="q1" vid="HOS 11:10">他们要战战兢兢地从西方来。<verse eid="HOS 11:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 11:11"/>他们必战战兢兢前来，</para>
+  <para style="q1" vid="HOS 11:11">就像从<char style="pn">埃及</char>赶来的鸟儿，</para>
+  <para style="q1" vid="HOS 11:11">像从<char style="pn">亚述</char>飞来的鸽子。</para>
+  <para style="q1" vid="HOS 11:11">我要带他们返回家园。</para>
+  <para style="q1" vid="HOS 11:11">这是耶和华说的。”<verse eid="HOS 11:11"/></para>
+  <para style="s1">对以色列和犹大的指控</para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 11:12"/>
+    <char style="pn">以法莲</char>用谎话包围我，</para>
+  <para style="q1" vid="HOS 11:12">
+    <char style="pn">以色列</char>家用诡诈环绕我；</para>
+  <para style="q1" vid="HOS 11:12">
+    <char style="pn">犹大</char>依然背离圣洁、信实的上帝<note caller="+" style="f"><char style="fr" closed="false">11:12 </char><char style="ft" closed="false">“犹大依然背离圣洁、信实的上帝”或译为“犹大却与上帝同行，忠于圣者”。</char></note>。<verse eid="HOS 11:12"/></para>
+  <para style="b"/>
+  <chapter eid="HOS 11"/>
+  <chapter number="12" style="c" sid="HOS 12"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 12:1"/>“<char style="pn">以法莲</char>以风为食，</para>
+  <para style="q1" vid="HOS 12:1">整天追逐东风，</para>
+  <para style="q1" vid="HOS 12:1">虚谎和暴力日益增多；</para>
+  <para style="q1" vid="HOS 12:1">他跟<char style="pn">亚述</char>结盟，</para>
+  <para style="q1" vid="HOS 12:1">向<char style="pn">埃及</char>进贡橄榄油。”<verse eid="HOS 12:1"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 12:2"/>耶和华指控<char style="pn">犹大</char>；</para>
+  <para style="q1" vid="HOS 12:2">祂要按<char style="pn">雅各</char>所行的惩罚他，</para>
+  <para style="q1" vid="HOS 12:2">照<char style="pn">雅各</char>所做的报应他。<verse eid="HOS 12:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 12:3"/>
+    <char style="pn">雅各</char>在母胎之中曾抓住哥哥的脚跟，</para>
+  <para style="q1" vid="HOS 12:3">壮年之时曾跟上帝角力。<verse eid="HOS 12:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 12:4"/>他跟天使角力得胜，</para>
+  <para style="q1" vid="HOS 12:4">向天使哭求福分。</para>
+  <para style="q1" vid="HOS 12:4">他在<char style="pn">伯特利</char>遇见祂，</para>
+  <para style="q1" vid="HOS 12:4">在那里与祂说话，<verse eid="HOS 12:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 12:5"/>祂就是万军之上帝耶和华，</para>
+  <para style="q1" vid="HOS 12:5">耶和华是祂的名。<verse eid="HOS 12:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 12:6"/>所以，你们要归向你们的上帝，</para>
+  <para style="q1" vid="HOS 12:6">持守仁爱和公义，常常等候祂。<verse eid="HOS 12:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 12:7"/>
+    <char style="pn">以法莲</char>是个奸商，</para>
+  <para style="q1" vid="HOS 12:7">手里拿着骗人的秤，喜欢压榨人。<verse eid="HOS 12:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 12:8"/>
+    <char style="pn">以法莲</char>说：“我发财了，</para>
+  <para style="q1" vid="HOS 12:8">我依靠自己致富。</para>
+  <para style="q1" vid="HOS 12:8">没有人能从我的劳碌中找出过错和罪恶。”<verse eid="HOS 12:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 12:9"/>耶和华说：</para>
+  <para style="q1" vid="HOS 12:9">“从你们出<char style="pn">埃及</char>以来，</para>
+  <para style="q1" vid="HOS 12:9">我就是你们的上帝耶和华。</para>
+  <para style="q1" vid="HOS 12:9">我要使你们再次住在帐篷里，</para>
+  <para style="q1" vid="HOS 12:9">就像从前守节期时一样。<verse eid="HOS 12:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 12:10"/>我曾对先知讲话，赐给他们许多异象，</para>
+  <para style="q1" vid="HOS 12:10">借他们用比喻警告你们。”<verse eid="HOS 12:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 12:11"/>
+    <char style="pn">基列</char>人充满罪恶，终必灭亡。</para>
+  <para style="q1" vid="HOS 12:11">他们在<char style="pn">吉甲</char>用公牛献祭，</para>
+  <para style="q1" vid="HOS 12:11">他们的祭坛像田间犁沟里的石堆。<verse eid="HOS 12:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 12:12"/>
+    <char style="pn">雅各</char>曾逃往<char style="pn">亚兰</char>，</para>
+  <para style="q1" vid="HOS 12:12">
+    <char style="pn">以色列</char>在那里为娶妻而服侍人，</para>
+  <para style="q1" vid="HOS 12:12">为得到妻子而替人牧羊。<verse eid="HOS 12:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 12:13"/>耶和华借着先知带领<char style="pn">以色列</char>离开<char style="pn">埃及</char>，</para>
+  <para style="q1" vid="HOS 12:13">也借着先知保护他。<verse eid="HOS 12:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 12:14"/>但<char style="pn">以法莲</char>却极大地触怒耶和华，</para>
+  <para style="q1" vid="HOS 12:14">所以他的主要让他血债血还，</para>
+  <para style="q1" vid="HOS 12:14">以羞辱还羞辱。<verse eid="HOS 12:14"/></para>
+  <para style="b"/>
+  <chapter eid="HOS 12"/>
+  <chapter number="13" style="c" sid="HOS 13"/>
+  <para style="s1">对以色列的最后审判</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 13:1"/>
+    <char style="pn">以法莲</char>支派在<char style="pn">以色列</char>地位崇高，</para>
+  <para style="q1" vid="HOS 13:1">他们一开口，人都恐惧颤抖。</para>
+  <para style="q1" vid="HOS 13:1">但他们却祭拜<char style="pn">巴力</char>，以致犯罪而亡。<verse eid="HOS 13:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 13:2"/>如今他们作恶日甚，</para>
+  <para style="q1" vid="HOS 13:2">为自己铸造神像，</para>
+  <para style="q1" vid="HOS 13:2">用银子精工制作偶像，</para>
+  <para style="q1" vid="HOS 13:2">但这统统不过是匠人之作。</para>
+  <para style="q1" vid="HOS 13:2">人们议论他们说：</para>
+  <para style="q1" vid="HOS 13:2">“那些献祭的人竟亲吻牛犊偶像！”<verse eid="HOS 13:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 13:3"/>他们像晨雾，如转瞬即逝的朝露，</para>
+  <para style="q1" vid="HOS 13:3">像麦场上飞旋而去的糠秕，</para>
+  <para style="q1" vid="HOS 13:3">又像窗口冒出的轻烟。<verse eid="HOS 13:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 13:4"/>耶和华说：</para>
+  <para style="q1" vid="HOS 13:4">“自从你们离开<char style="pn">埃及</char>以来，</para>
+  <para style="q1" vid="HOS 13:4">我就是你们的上帝耶和华。</para>
+  <para style="q1" vid="HOS 13:4">除我以外，你们不可有别的神明；</para>
+  <para style="q1" vid="HOS 13:4">在我以外，你们也没有别的救主。<verse eid="HOS 13:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 13:5"/>我曾在干旱的旷野照顾你们，<verse eid="HOS 13:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 13:6"/>但你们得到喂养，便得饱足。</para>
+  <para style="q1" vid="HOS 13:6">你们饱足以后，就心高气傲，忘记了我。<verse eid="HOS 13:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 13:7"/>因此，我要像狮子攻击你们，</para>
+  <para style="q1" vid="HOS 13:7">如豹子潜伏在路旁；<verse eid="HOS 13:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 13:8"/>我要像一头失了幼崽的母熊冲向你们，</para>
+  <para style="q1" vid="HOS 13:8">撕裂你们的胸膛；</para>
+  <para style="q1" vid="HOS 13:8">我要像母狮吞噬你们，</para>
+  <para style="q1" vid="HOS 13:8">像凶猛的野兽撕碎你们。<verse eid="HOS 13:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 13:9"/>“<char style="pn">以色列</char>啊，你要灭亡了，</para>
+  <para style="q1" vid="HOS 13:9">因为你抵挡我，抵挡你的帮助者。<verse eid="HOS 13:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 13:10"/>你曾求我为你设立君王和首领，</para>
+  <para style="q1" vid="HOS 13:10">现在拯救你的君王在哪里呢？</para>
+  <para style="q1" vid="HOS 13:10">在各城管理你的首领在哪里呢？<verse eid="HOS 13:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 13:11"/>我在愤怒中赐给你君王，</para>
+  <para style="q1" vid="HOS 13:11">也在愤怒中废黜他们。<verse eid="HOS 13:11"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 13:12"/>“<char style="pn">以法莲</char>的过犯已被记录在册，</para>
+  <para style="q1" vid="HOS 13:12">他的罪恶已被储存入库。<verse eid="HOS 13:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 13:13"/>临产的阵痛要临到他，</para>
+  <para style="q1" vid="HOS 13:13">但他是毫无智慧的孩子，</para>
+  <para style="q1" vid="HOS 13:13">分娩之时却不离开母腹。<verse eid="HOS 13:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 13:14"/>我要解救他们脱离阴间的权势吗？</para>
+  <para style="q1" vid="HOS 13:14">我要救赎他们脱离死亡吗？</para>
+  <para style="q1" vid="HOS 13:14">死亡啊，你的灾殃在哪里？</para>
+  <para style="q1" vid="HOS 13:14">阴间啊，你的毁灭在哪里？</para>
+  <para style="q1" vid="HOS 13:14">我必不施怜悯。<verse eid="HOS 13:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 13:15"/>尽管<char style="pn">以法莲</char>在众弟兄中最强盛，</para>
+  <para style="q1" vid="HOS 13:15">从耶和华而来的东风要从沙漠刮来，</para>
+  <para style="q1" vid="HOS 13:15">使清泉枯竭，水井干涸。</para>
+  <para style="q1" vid="HOS 13:15">他储藏的一切珍宝都要被掳去。<verse eid="HOS 13:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 13:16"/>
+    <char style="pn">撒玛利亚</char>人背叛了他们的上帝，</para>
+  <para style="q1" vid="HOS 13:16">要担当自己的罪过。</para>
+  <para style="q1" vid="HOS 13:16">他们将丧身刀下，</para>
+  <para style="q1" vid="HOS 13:16">他们的孩子要被摔死，</para>
+  <para style="q1" vid="HOS 13:16">孕妇要被剖腹。”<verse eid="HOS 13:16"/></para>
+  <chapter eid="HOS 13"/>
+  <chapter number="14" style="c" sid="HOS 14"/>
+  <para style="s1">悔改带来祝福</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 14:1"/>
+    <char style="pn">以色列</char>啊，</para>
+  <para style="q1" vid="HOS 14:1">你被自己的罪恶绊倒了，</para>
+  <para style="q1" vid="HOS 14:1">归向你的上帝耶和华吧！<verse eid="HOS 14:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 14:2"/>你要归向耶和华，</para>
+  <para style="q1" vid="HOS 14:2">向祂忏悔说：</para>
+  <para style="q1" vid="HOS 14:2">“求你赦免我们一切的罪，</para>
+  <para style="q1" vid="HOS 14:2">施恩悦纳我们，</para>
+  <para style="q1" vid="HOS 14:2">好叫我们以赞美为祭献给你！<verse eid="HOS 14:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 14:3"/>
+    <char style="pn">亚述</char>不能救我们，</para>
+  <para style="q1" vid="HOS 14:3">我们不再依靠战马，</para>
+  <para style="q1" vid="HOS 14:3">也不再称自己所造的神像为我们的上帝。</para>
+  <para style="q1" vid="HOS 14:3">因为孤儿在你那里才能得到怜悯。”<verse eid="HOS 14:3"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 14:4"/>耶和华说：</para>
+  <para style="q1" vid="HOS 14:4">“我要医治他们的叛道，</para>
+  <para style="q1" vid="HOS 14:4">心甘情愿地爱他们，</para>
+  <para style="q1" vid="HOS 14:4">因为我的怒气已经转离他们。<verse eid="HOS 14:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 14:5"/>我要像甘露一样滋润<char style="pn">以色列</char>，</para>
+  <para style="q1" vid="HOS 14:5">使他绽放如百合花，</para>
+  <para style="q1" vid="HOS 14:5">扎根如<char style="pn">黎巴嫩</char>的香柏树。<verse eid="HOS 14:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 14:6"/>他要长出嫩枝，</para>
+  <para style="q1" vid="HOS 14:6">他要像橄榄树一样荣美，</para>
+  <para style="q1" vid="HOS 14:6">如<char style="pn">黎巴嫩</char>的香柏树一般芳香。<verse eid="HOS 14:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 14:7"/>他要归回，住在我的荫下。</para>
+  <para style="q1" vid="HOS 14:7">他要茂盛如五谷，</para>
+  <para style="q1" vid="HOS 14:7">荣美如葡萄树，</para>
+  <para style="q1" vid="HOS 14:7">声名远扬如<char style="pn">黎巴嫩</char>的美酒。<verse eid="HOS 14:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 14:8"/>“<char style="pn">以法莲</char>啊，我与偶像有何关系？</para>
+  <para style="q1" vid="HOS 14:8">我应允你的祷告，看顾你。</para>
+  <para style="q1" vid="HOS 14:8">我像一棵青翠的松树，</para>
+  <para style="q1" vid="HOS 14:8">你的果实都来自于我。”<verse eid="HOS 14:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 14:9"/>让那些智者明白这一切，</para>
+  <para style="q1" vid="HOS 14:9">让那些明哲了解这一切。</para>
+  <para style="q1" vid="HOS 14:9">因为耶和华的道是正道，</para>
+  <para style="q1" vid="HOS 14:9">义人要行走在上面，</para>
+  <para style="q1" vid="HOS 14:9">罪人却在上面跌倒。<verse eid="HOS 14:9"/></para>
+  <chapter eid="HOS 14"/>
+</usx>

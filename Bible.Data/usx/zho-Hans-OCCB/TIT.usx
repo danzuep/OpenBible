@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="TIT" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">提多书</para>
+  <para style="toc1">提多书</para>
+  <para style="toc2">提多书</para>
+  <para style="toc3">多</para>
+  <para style="mt1">提多书</para>
+  <chapter number="1" style="c" sid="TIT 1"/>
+  <para style="s1">问候</para>
+  <para style="p">
+    <verse number="1" style="v" sid="TIT 1:1"/>我<char style="pn">保罗</char>做上帝的奴仆和耶稣基督的使徒，是为了使上帝拣选的人有信心并明白真理，从而过敬虔的生活， <verse eid="TIT 1:1"/><verse number="2" style="v" sid="TIT 1:2"/>有永生的盼望。这永生是从不说谎的上帝在亘古以前应许的。 <verse eid="TIT 1:2"/><verse number="3" style="v" sid="TIT 1:3"/>祂在所定的时候，借着人的传扬将自己的道显明出来。我奉我们救主上帝的命令传扬这道。<verse eid="TIT 1:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="TIT 1:4"/>
+    <char style="pn">提多</char>啊，我写信给你，就我们共同的信仰来说，你是我真正的儿子。</para>
+  <para style="p" vid="TIT 1:4">愿父上帝和我们的救主基督耶稣赐给你恩典和平安！<verse eid="TIT 1:4"/></para>
+  <para style="s1">长老的资格</para>
+  <para style="p">
+    <verse number="5" style="v" sid="TIT 1:5"/>当初，我把你留在<char style="pn">克里特</char>岛，是要你完成未办完的事工，并照我的指示在各城选立长老。 <verse eid="TIT 1:5"/><verse number="6" style="v" sid="TIT 1:6"/>做长老的必须无可指责，只有一位妻子，儿女都信主、没有放荡不羁的行为。 <verse eid="TIT 1:6"/><verse number="7" style="v" sid="TIT 1:7"/>身为上帝的管家，做监督的必须无可指责，不傲慢，不暴躁，不酗酒，不好斗，不贪财。 <verse eid="TIT 1:7"/><verse number="8" style="v" sid="TIT 1:8"/>他必须好客、乐善、自制、正直、圣洁、自律， <verse eid="TIT 1:8"/><verse number="9" style="v" sid="TIT 1:9"/>持守所领受的真道，以便能够以纯正的教导劝勉人，驳倒那些反对的人。<verse eid="TIT 1:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="TIT 1:10"/>因为有许多悖逆之人喜欢空谈，善于欺骗，尤其是那些奉行割礼的人。 <verse eid="TIT 1:10"/><verse number="11" style="v" sid="TIT 1:11"/>你一定要堵住他们的口，因为他们为了不义之财教不该教的，毁坏别人全家。 <verse eid="TIT 1:11"/><verse number="12" style="v" sid="TIT 1:12"/><char style="pn">克里特</char>人自己的一位先知说：“<char style="pn">克里特</char>人说谎成性，邪恶如兽，好吃懒做。” <verse eid="TIT 1:12"/><verse number="13" style="v" sid="TIT 1:13"/>这话是真的。因此你要严正地斥责他们，使他们有纯正的信仰， <verse eid="TIT 1:13"/><verse number="14" style="v" sid="TIT 1:14"/>不理会<char style="pn">犹太</char>人的无稽之谈和那些违背真理之人的诫律。 <verse eid="TIT 1:14"/><verse number="15" style="v" sid="TIT 1:15"/>对洁净的人而言，一切都是洁净的；对污秽不信的人而言，什么都不洁净，连他们的思想和良心都是污秽的。 <verse eid="TIT 1:15"/><verse number="16" style="v" sid="TIT 1:16"/>他们自称认识上帝，在行为上却否认祂。他们令人可憎，悖逆成性，一无是处。<verse eid="TIT 1:16"/></para>
+  <chapter eid="TIT 1"/>
+  <chapter number="2" style="c" sid="TIT 2"/>
+  <para style="s1">教导纯正的教义</para>
+  <para style="p">
+    <verse number="1" style="v" sid="TIT 2:1"/>你的教导要符合纯正的教义。 <verse eid="TIT 2:1"/><verse number="2" style="v" sid="TIT 2:2"/>劝年长的男子要节制、庄重、自律，有全备的信心、爱心和耐心。 <verse eid="TIT 2:2"/><verse number="3" style="v" sid="TIT 2:3"/>劝年长的妇女要过敬虔的生活，不说长道短，不做酒的奴隶，要以身作则。 <verse eid="TIT 2:3"/><verse number="4" style="v" sid="TIT 2:4"/>这样，她们就能教导年轻的妇女爱丈夫、爱儿女、 <verse eid="TIT 2:4"/><verse number="5" style="v" sid="TIT 2:5"/>自制、贞洁、持家、和善、顺服丈夫，免得上帝的道被人毁谤。<verse eid="TIT 2:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="TIT 2:6"/>劝勉年轻的男子要自制。 <verse eid="TIT 2:6"/><verse number="7" style="v" sid="TIT 2:7"/>你自己要在各样善行上做众人的榜样，在教导上要诚恳、认真、 <verse eid="TIT 2:7"/><verse number="8" style="v" sid="TIT 2:8"/>言语纯全、无可指责，让那些反对的人无话可说、自觉羞愧。<verse eid="TIT 2:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="TIT 2:9"/>劝勉做奴仆的要凡事顺服主人，让主人满意，不顶撞主人， <verse eid="TIT 2:9"/><verse number="10" style="v" sid="TIT 2:10"/>不偷拿主人的东西，为人要忠信可靠，好凡事尊崇我们救主上帝的教导。<verse eid="TIT 2:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="TIT 2:11"/>因为上帝拯救世人的恩典已经显明了， <verse eid="TIT 2:11"/><verse number="12" style="v" sid="TIT 2:12"/>这恩典教导我们除掉不敬虔的心和世俗的私欲，在今世过自律、公义、敬畏上帝的生活， <verse eid="TIT 2:12"/><verse number="13" style="v" sid="TIT 2:13"/>怀着美好的盼望等候我们伟大的上帝和救主耶稣基督的荣耀显现。 <verse eid="TIT 2:13"/><verse number="14" style="v" sid="TIT 2:14"/>主耶稣为我们牺牲自己，要救赎我们脱离一切罪恶，并洁净我们，使我们做祂热心行善的子民。<verse eid="TIT 2:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="TIT 2:15"/>你要讲明这些事，充分运用权柄来劝勉人、责备人，别让人轻看你。<verse eid="TIT 2:15"/></para>
+  <chapter eid="TIT 2"/>
+  <chapter number="3" style="c" sid="TIT 3"/>
+  <para style="s1">专心行善</para>
+  <para style="p">
+    <verse number="1" style="v" sid="TIT 3:1"/>你要提醒众人顺服执政掌权者，要服从，随时准备做各种善事。 <verse eid="TIT 3:1"/><verse number="2" style="v" sid="TIT 3:2"/>不要毁谤，不要争吵，要谦和、恭敬地对待每一个人。 <verse eid="TIT 3:2"/><verse number="3" style="v" sid="TIT 3:3"/>从前我们也愚蠢、悖逆、易受迷惑，受各种私欲和享乐驱使，心里充满恶念和嫉妒，令人憎恶，也彼此憎恨。 <verse eid="TIT 3:3"/><verse number="4" style="v" sid="TIT 3:4"/>但我们的救主上帝向人彰显了祂的恩慈和仁爱， <verse eid="TIT 3:4"/><verse number="5" style="v" sid="TIT 3:5"/>借着重生之洗和圣灵的更新拯救了我们，这并非因为我们有义行，而是因为祂的怜悯。 <verse eid="TIT 3:5"/><verse number="6" style="v" sid="TIT 3:6"/>上帝借着我们的救主耶稣基督把圣灵丰丰富富地浇灌在我们身上。 <verse eid="TIT 3:6"/><verse number="7" style="v" sid="TIT 3:7"/>这样，我们既然靠着祂的恩典被称为义人，就可以成为后嗣，有永生的盼望。 <verse eid="TIT 3:7"/><verse number="8" style="v" sid="TIT 3:8"/>以上这些话是可信的，希望你认真强调，使信上帝的人专心行善。这都是造福众人的美事。<verse eid="TIT 3:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="TIT 3:9"/>要避免愚昧的争论、有关家谱的辩驳和律法上的争执，因为这些毫无益处。 <verse eid="TIT 3:9"/><verse number="10" style="v" sid="TIT 3:10"/>对于制造分裂的人，警告过一两次后，要和他断绝来往。 <verse eid="TIT 3:10"/><verse number="11" style="v" sid="TIT 3:11"/>因为你知道这种人已经背道犯罪，自定己罪。<verse eid="TIT 3:11"/></para>
+  <para style="s1">信末的嘱咐与问候</para>
+  <para style="p">
+    <verse number="12" style="v" sid="TIT 3:12"/>我会派<char style="pn">亚提马</char>或者<char style="pn">推基古</char>去见你。到时候，你要尽快到<char style="pn">尼哥波立</char>来见我，因为我决定在那里过冬。 <verse eid="TIT 3:12"/><verse number="13" style="v" sid="TIT 3:13"/>你要为<char style="pn">西纳</char>律师和<char style="pn">亚波罗</char>送行，尽力帮助他们，让他们路上一无所缺。 <verse eid="TIT 3:13"/><verse number="14" style="v" sid="TIT 3:14"/>我们的弟兄姊妹也要学习行善，供应有急需的人，免得毫无建树。<verse eid="TIT 3:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="TIT 3:15"/>这里的弟兄姊妹都问候你，也请你问候那些因信仰而爱我们的人。</para>
+  <para style="p" vid="TIT 3:15">愿恩典常与你们众人同在！<verse eid="TIT 3:15"/></para>
+  <chapter eid="TIT 3"/>
+</usx>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="ROM" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">罗马书</para>
+  <para style="toc1">罗马书</para>
+  <para style="toc2">罗马书</para>
+  <para style="toc3">罗</para>
+  <para style="mt1">罗马书</para>
+  <chapter number="1" style="c" sid="ROM 1"/>
+  <para style="s1">问候</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 1:1"/>我是基督耶稣的奴仆<char style="pn">保罗</char>，蒙召做使徒，特为传上帝的福音。 <verse eid="ROM 1:1"/><verse number="2" style="v" sid="ROM 1:2"/>这福音是上帝从前借着众先知在圣经中应许的， <verse eid="ROM 1:2"/><verse number="3" style="v" sid="ROM 1:3"/>讲的是上帝的儿子——我们主耶稣基督的事。从肉身来看，祂是<char style="pn">大卫</char>的后裔； <verse eid="ROM 1:3"/><verse number="4" style="v" sid="ROM 1:4"/>从圣洁的灵来看，祂从死里复活，用大能显明自己是上帝的儿子。 <verse eid="ROM 1:4"/><verse number="5" style="v" sid="ROM 1:5"/>我们从祂领受了恩典并成为使徒，要带领万族的人信从祂，使祂的名得荣耀。 <verse eid="ROM 1:5"/><verse number="6" style="v" sid="ROM 1:6"/>你们也是其中蒙召信从耶稣基督的人。 <verse eid="ROM 1:6"/><verse number="7" style="v" sid="ROM 1:7"/>我问候所有住在<char style="pn">罗马</char>、上帝所爱、蒙召做圣徒的人。愿我们的父上帝和主耶稣基督赐给你们恩典和平安！<verse eid="ROM 1:7"/></para>
+  <para style="s1">保罗渴望去罗马</para>
+  <para style="p">
+    <verse number="8" style="v" sid="ROM 1:8"/>首先，我借着耶稣基督为各位感谢我的上帝，因为你们的信心正在传遍天下。 <verse eid="ROM 1:8"/><verse number="9-10" style="v" sid="ROM 1:9-10"/>我在祂儿子的福音事工上全心事奉的上帝可以为我做见证：我如何在祷告中常常想到你们，并求上帝让我照祂的旨意最终能去你们那里。 <verse eid="ROM 1:9-10"/><verse number="11" style="v" sid="ROM 1:11"/>因为我实在想见你们，好将一些属灵的恩赐分给你们，使你们坚固， <verse eid="ROM 1:11"/><verse number="12" style="v" sid="ROM 1:12"/>也可以说是借着我们彼此的信心互相激励。<verse eid="ROM 1:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="ROM 1:13"/>弟兄姊妹，我希望你们知道，我曾多次计划去你们那里，要在你们中间收获一些福音的果子，像在其他外族人中一样，只是至今仍有拦阻。 <verse eid="ROM 1:13"/><verse number="14" style="v" sid="ROM 1:14"/>不论是<char style="pn">希腊</char>人和非<char style="pn">希腊</char>人<note caller="+" style="f"><char style="fr" closed="false">1:14 </char><char style="ft" closed="false">“非希腊人”希腊文是“未开化的人”，指在希腊、罗马文化影响圈之外的人。</char></note>、智者和愚人，我对他们都有义务。 <verse eid="ROM 1:14"/><verse number="15" style="v" sid="ROM 1:15"/>所以，我也切望能将福音传给你们在<char style="pn">罗马</char>的人。<verse eid="ROM 1:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="ROM 1:16"/>我不以福音为耻，因为这福音是上帝的大能，要拯救一切相信的人，先是<char style="pn">犹太</char>人，然后是<char style="pn">希腊</char>人。 <verse eid="ROM 1:16"/><verse number="17" style="v" sid="ROM 1:17"/>这福音显明了上帝的义，这义始于信，终于信，正如圣经上说：“义人必靠信心而活。”<note caller="+" style="f"><char style="fr" closed="false">1:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="HAB 2:4">哈巴谷书2:4</ref>。</char></char></note><verse eid="ROM 1:17"/></para>
+  <para style="s1">人类的罪恶</para>
+  <para style="p">
+    <verse number="18" style="v" sid="ROM 1:18"/>上帝的烈怒从天上降下，要惩罚一切心中无神、行为不义的人，就是以不义压制真理的人。 <verse eid="ROM 1:18"/><verse number="19" style="v" sid="ROM 1:19"/>有关上帝的事情，可以让人类知道的都已经显而易见，因为上帝已经向人类显明了。 <verse eid="ROM 1:19"/><verse number="20" style="v" sid="ROM 1:20"/>自从创造天地以来，上帝永恒的大能和神性是明明可知的，虽然肉眼看不见，但透过受造之物就可以领悟，使人无法推诿。 <verse eid="ROM 1:20"/><verse number="21" style="v" sid="ROM 1:21"/>他们虽然明知有上帝，却不把祂当作上帝来荣耀祂，也不感谢祂。他们的思想因此变得荒谬无用，无知的心也变得昏暗不明。 <verse eid="ROM 1:21"/><verse number="22" style="v" sid="ROM 1:22"/>他们自以为聪明，其实愚不可及， <verse eid="ROM 1:22"/><verse number="23" style="v" sid="ROM 1:23"/>以必朽的人、飞禽、走兽和爬虫的形象来取代永恒上帝的荣耀。<verse eid="ROM 1:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="ROM 1:24"/>因此，上帝任凭他们随从内心的情欲行污秽的事，玷污彼此的身体。 <verse eid="ROM 1:24"/><verse number="25" style="v" sid="ROM 1:25"/>他们把上帝的真理当作谎言，祭拜、供奉受造之物，却不敬拜、事奉造物主。主是永远值得称颂的。阿们！<verse eid="ROM 1:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="ROM 1:26"/>因此，上帝任凭他们放纵可耻的情欲。女人放弃正常的两性关系，做出变态反常的事。 <verse eid="ROM 1:26"/><verse number="27" style="v" sid="ROM 1:27"/>同样，男人也背弃了和女人正常的两性关系，男与男彼此欲火焚烧，做出羞耻不堪的事。他们必因变态而遭受应得的报应。<verse eid="ROM 1:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="ROM 1:28"/>既然他们故意不认识上帝，上帝就任凭他们心思败坏，做不当做的事。 <verse eid="ROM 1:28"/><verse number="29" style="v" sid="ROM 1:29"/>他们心里塞满了各种不义、邪恶、贪婪、阴险、嫉妒、凶杀、纷争、诡诈和恶毒，他们说长道短、 <verse eid="ROM 1:29"/><verse number="30" style="v" sid="ROM 1:30"/>造谣中伤、怨恨上帝、欺侮别人、心骄气傲、自高自大、无恶不作、违背父母、 <verse eid="ROM 1:30"/><verse number="31" style="v" sid="ROM 1:31"/>愚钝无知、言而无信、无情无义、毫无怜悯。 <verse eid="ROM 1:31"/><verse number="32" style="v" sid="ROM 1:32"/>他们明明知道，按上帝公义的法则，做这些事的人该死，不但执迷不悟，还喜欢别人跟他们同流合污。<verse eid="ROM 1:32"/></para>
+  <chapter eid="ROM 1"/>
+  <chapter number="2" style="c" sid="ROM 2"/>
+  <para style="s1">上帝公义的审判</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 2:1"/>因此，你这论断人的啊，不管你是谁，都难逃罪责。你在什么事上论断别人，就在什么事上定了自己的罪，因为你论断别人，自己却在做同样的事。 <verse eid="ROM 2:1"/><verse number="2" style="v" sid="ROM 2:2"/>我们都知道，上帝必按真理审判做这些事的人。 <verse eid="ROM 2:2"/><verse number="3" style="v" sid="ROM 2:3"/>你这人啊，你论断别人，自己却做同样的事，你以为自己能逃脱上帝的审判吗？ <verse eid="ROM 2:3"/><verse number="4" style="v" sid="ROM 2:4"/>还是你藐视祂深厚的慈爱、宽容和忍耐，不知道祂的慈爱是要引导你悔改吗？ <verse eid="ROM 2:4"/><verse number="5" style="v" sid="ROM 2:5"/>你这样硬着心不肯悔改，等于是在为自己积蓄烈怒，上帝的烈怒必在祂施行公义审判的日子临到你。 <verse eid="ROM 2:5"/><verse number="6" style="v" sid="ROM 2:6"/>上帝必照各人的行为施行赏罚。<note caller="+" style="f"><char style="fr" closed="false">2:6 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 62:12">诗篇62:12</ref>；<ref loc="PRO 24:12">箴言24:12</ref>。</char></char></note> <verse eid="ROM 2:6"/><verse number="7" style="v" sid="ROM 2:7"/>凡是恒心行善、寻求荣耀、尊贵和永恒福分的人，祂要把永生赐给他们； <verse eid="ROM 2:7"/><verse number="8" style="v" sid="ROM 2:8"/>凡是自私自利、违背真理、行为不义的人，祂的烈怒和怒气要降在他们身上。 <verse eid="ROM 2:8"/><verse number="9" style="v" sid="ROM 2:9"/>一切作恶之人必受患难和痛苦，先是<char style="pn">犹太</char>人，然后是<char style="pn">希腊</char>人。 <verse eid="ROM 2:9"/><verse number="10" style="v" sid="ROM 2:10"/>一切行善之人必享荣耀、尊贵和平安，先是<char style="pn">犹太</char>人，然后是<char style="pn">希腊</char>人。 <verse eid="ROM 2:10"/><verse number="11" style="v" sid="ROM 2:11"/>因为上帝不偏待人。<verse eid="ROM 2:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="ROM 2:12"/>没有上帝律法的人若犯罪，虽然不按律法受审判，仍要灭亡；有上帝律法的人若犯罪，必按律法受审判。 <verse eid="ROM 2:12"/><verse number="13" style="v" sid="ROM 2:13"/>因为在上帝面前，不是仅仅听到律法的人是义人，而是遵行律法的人才能被称为义人。 <verse eid="ROM 2:13"/><verse number="14" style="v" sid="ROM 2:14"/>没有律法的外族人若顺着天性做合乎律法的事，他们虽然没有律法，自己就是自己的律法。 <verse eid="ROM 2:14"/><verse number="15" style="v" sid="ROM 2:15"/>这表明律法的要求刻在他们心里，他们的良心也可以做见证，并且他们的思想有时指控他们，有时为他们辩护。 <verse eid="ROM 2:15"/><verse number="16" style="v" sid="ROM 2:16"/>按照我所传的福音，到了审判之日，上帝要借着耶稣基督审判人一切隐秘的事。<verse eid="ROM 2:16"/></para>
+  <para style="s1">犹太人与律法</para>
+  <para style="p">
+    <verse number="17" style="v" sid="ROM 2:17"/>你自称是<char style="pn">犹太</char>人，倚仗上帝所赐的律法，自夸与上帝有特别的关系； <verse eid="ROM 2:17"/><verse number="18" style="v" sid="ROM 2:18"/>你受过律法的教导，知道上帝的旨意，能明辨是非； <verse eid="ROM 2:18"/><verse number="19" style="v" sid="ROM 2:19"/>你自信可以做盲人的向导、黑暗中的人的光、 <verse eid="ROM 2:19"/><verse number="20" style="v" sid="ROM 2:20"/>愚昧人的师傅、小孩子的老师，因为你从律法中得到了知识和真理。 <verse eid="ROM 2:20"/><verse number="21" style="v" sid="ROM 2:21"/>那么，你这教导别人的，为什么不教导自己呢？你教导人不可偷盗，自己却偷盗吗？ <verse eid="ROM 2:21"/><verse number="22" style="v" sid="ROM 2:22"/>你告诉他人不可通奸，自己却通奸吗？你憎恶偶像，自己却去偷庙里的东西吗？ <verse eid="ROM 2:22"/><verse number="23" style="v" sid="ROM 2:23"/>你以律法自夸，自己却违背律法羞辱上帝吗？ <verse eid="ROM 2:23"/><verse number="24" style="v" sid="ROM 2:24"/>正如圣经上说：“因你们的缘故，上帝的名在外族人中受到亵渎！”<note caller="+" style="f"><char style="fr" closed="false">2:24 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 52:5">以赛亚书52:5</ref>；<ref loc="EZK 36:22">以西结书36:22</ref>。</char></char></note><verse eid="ROM 2:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="ROM 2:25"/>如果你遵行律法，割礼才有价值；如果你违背律法，受了割礼也如同未受割礼。 <verse eid="ROM 2:25"/><verse number="26" style="v" sid="ROM 2:26"/>如果未受割礼的人遵行律法的教导，他岂不算是受了割礼吗？ <verse eid="ROM 2:26"/><verse number="27" style="v" sid="ROM 2:27"/>身体未受割礼却遵行律法的人，必审判你这有律法条文、受了割礼却违背律法的人。 <verse eid="ROM 2:27"/><verse number="28" style="v" sid="ROM 2:28"/>因为徒具外表的<char style="pn">犹太</char>人不是真正的<char style="pn">犹太</char>人，身体上的割礼也不是真正的割礼。 <verse eid="ROM 2:28"/><verse number="29" style="v" sid="ROM 2:29"/>唯有从心里做<char style="pn">犹太</char>人的才是真<char style="pn">犹太</char>人，真割礼是借着圣灵在心里受的割礼，不在于律法条文。这样的人得到的称赞不是从人来的，而是从上帝来的。<verse eid="ROM 2:29"/></para>
+  <chapter eid="ROM 2"/>
+  <chapter number="3" style="c" sid="ROM 3"/>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 3:1"/>那么，<char style="pn">犹太</char>人有什么长处呢？割礼有什么价值呢？ <verse eid="ROM 3:1"/><verse number="2" style="v" sid="ROM 3:2"/>其实在各方面有很多好处！首先，上帝的圣言托付给了<char style="pn">犹太</char>人。 <verse eid="ROM 3:2"/><verse number="3" style="v" sid="ROM 3:3"/>虽然有些人不信，但那有什么关系呢？难道上帝的信实可靠会因他们的不信而化为无有吗？ <verse eid="ROM 3:3"/><verse number="4" style="v" sid="ROM 3:4"/>当然不会！纵然人人都撒谎，上帝仍然真实可靠。正如圣经上说：</para>
+  <para style="q1" vid="ROM 3:4">“你的判语证明你是公义的；</para>
+  <para style="q1" vid="ROM 3:4">你虽被人控告，却终必得胜。”<note caller="+" style="f"><char style="fr" closed="false">3:4 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 51:4">诗篇51:4</ref>。</char></char></note><verse eid="ROM 3:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="ROM 3:5"/>我姑且用人的观点说：“如果我们的不义反衬出上帝的公义，我们该怎么说呢？上帝向我们发怒是祂不公正吗？” <verse eid="ROM 3:5"/><verse number="6" style="v" sid="ROM 3:6"/>当然不是！若是这样，上帝怎么能审判这世界呢？ <verse eid="ROM 3:6"/><verse number="7" style="v" sid="ROM 3:7"/>也许有人说：“如果我们的虚谎凸显出上帝的真实，增加祂的荣耀，为什么祂还要把我们当作罪人审判呢？” <verse eid="ROM 3:7"/><verse number="8" style="v" sid="ROM 3:8"/>为什么不干脆说“我们作恶吧，好成就善事”？有人毁谤我们，说我们传这种道理。这些人受审判是罪有应得！<verse eid="ROM 3:8"/></para>
+  <para style="s1">没有义人</para>
+  <para style="p">
+    <verse number="9" style="v" sid="ROM 3:9"/>那么，我们<char style="pn">犹太</char>人比别人优越吗？绝对不是！我们已经说过，无论是<char style="pn">犹太</char>人还是<char style="pn">希腊</char>人，所有的人都在罪的权势之下。 <verse eid="ROM 3:9"/><verse number="10" style="v" sid="ROM 3:10"/>正如圣经上说：</para>
+  <para style="q1" vid="ROM 3:10">“没有义人，连一个也没有，<verse eid="ROM 3:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="ROM 3:11"/>没有人明白，没有人寻求上帝。<verse eid="ROM 3:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="ROM 3:12"/>人人偏离正道，变得毫无价值。</para>
+  <para style="q1" vid="ROM 3:12">无人行善，连一个也没有。<note caller="+" style="f"><char style="fr" closed="false">3:12 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 14:1-3">诗篇14:1‑3</ref>；<ref loc="PSA 53:1-3">53:1‑3</ref>；<ref loc="ECC 7:20">传道书7:20</ref>。</char></char></note><verse eid="ROM 3:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="ROM 3:13"/>他们的喉咙是敞开的坟墓，</para>
+  <para style="q1" vid="ROM 3:13">舌头上尽是诡诈，<note caller="+" style="f"><char style="fr" closed="false">3:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 5:9">诗篇5:9</ref>。</char></char></note></para>
+  <para style="q1" vid="ROM 3:13">嘴唇有蛇的毒液，<note caller="+" style="f"><char style="fr" closed="false">3:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 140:3">诗篇140:3</ref>。</char></char></note><verse eid="ROM 3:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="ROM 3:14"/>满口咒诅，言语恶毒；<note caller="+" style="f"><char style="fr" closed="false">3:14 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 10:7">诗篇10:7</ref>。</char></char></note><verse eid="ROM 3:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="ROM 3:15"/>杀人流血，脚步飞快；<verse eid="ROM 3:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="ROM 3:16"/>所到之处，大肆毁灭；<verse eid="ROM 3:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="ROM 3:17"/>他们不知道平安之路；<note caller="+" style="f"><char style="fr" closed="false">3:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 59:7">以赛亚书59:7</ref>、<ref loc="ISA 59:8">8</ref>。</char></char></note><verse eid="ROM 3:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="ROM 3:18"/>他们眼中对上帝毫无畏惧。”<note caller="+" style="f"><char style="fr" closed="false">3:18 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 36:1">诗篇36:1</ref>。</char></char></note><verse eid="ROM 3:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="ROM 3:19"/>我们知道律法所讲的都是针对律法之下的人，好叫所有的人都无话可说，使全世界都伏在上帝的审判之下。 <verse eid="ROM 3:19"/><verse number="20" style="v" sid="ROM 3:20"/>因为无人能够靠遵行律法被上帝称为义人，律法的本意是要使人知罪。<verse eid="ROM 3:20"/></para>
+  <para style="s1">因信称义</para>
+  <para style="p">
+    <verse number="21" style="v" sid="ROM 3:21"/>但如今，上帝的义在律法以外显明出来，有律法和众先知做见证。 <verse eid="ROM 3:21"/><verse number="22" style="v" sid="ROM 3:22"/>人只要信耶稣基督，就可以被上帝称为义人，没有一个人例外。 <verse eid="ROM 3:22"/><verse number="23" style="v" sid="ROM 3:23"/>因为世人都犯了罪，亏缺上帝的荣耀， <verse eid="ROM 3:23"/><verse number="24" style="v" sid="ROM 3:24"/>但蒙上帝的恩典，靠着基督耶稣的救赎，就被无条件地称为义人。 <verse eid="ROM 3:24"/><verse number="25" style="v" sid="ROM 3:25"/>上帝借基督耶稣所流的血使祂成为赎罪祭，让人凭信心领受。这是为了显明上帝的义，因为祂用忍耐的心宽容人过去的罪， <verse eid="ROM 3:25"/><verse number="26" style="v" sid="ROM 3:26"/>好在现今显明祂的义，使人知道祂是公义的，祂也称信耶稣的为义人。<verse eid="ROM 3:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="ROM 3:27"/>既然如此，我们哪里能夸口呢？当然没有可夸的。靠什么方法让人不能夸口呢？靠遵行律法吗？不是！是靠信主的方法。 <verse eid="ROM 3:27"/><verse number="28" style="v" sid="ROM 3:28"/>因为我们坚信人被称为义人是借着信，不是靠遵行律法。 <verse eid="ROM 3:28"/><verse number="29" style="v" sid="ROM 3:29"/>难道上帝只是<char style="pn">犹太</char>人的上帝吗？祂不也是外族人的上帝吗？祂当然也是外族人的上帝。 <verse eid="ROM 3:29"/><verse number="30" style="v" sid="ROM 3:30"/>因为上帝只有一位，祂本着信称受割礼的人为义人，也本着信称未受割礼的人为义人。 <verse eid="ROM 3:30"/><verse number="31" style="v" sid="ROM 3:31"/>这么说来，我们是借着信废掉上帝的律法吗？当然不是！我们反倒是巩固律法。<verse eid="ROM 3:31"/></para>
+  <chapter eid="ROM 3"/>
+  <chapter number="4" style="c" sid="ROM 4"/>
+  <para style="s1">亚伯拉罕的榜样</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 4:1"/>那么，从我们的先祖<char style="pn">亚伯拉罕</char>身上，我们学到什么呢？ <verse eid="ROM 4:1"/><verse number="2" style="v" sid="ROM 4:2"/><char style="pn">亚伯拉罕</char>如果是因行为而被称为义人，就可以夸口了，但他在上帝面前没有可夸的。 <verse eid="ROM 4:2"/><verse number="3" style="v" sid="ROM 4:3"/>圣经上不是说<char style="pn">“亚伯拉罕</char>信上帝，就被算为义人”<note caller="+" style="f"><char style="fr" closed="false">4:3 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 15:6">创世记15:6</ref>。</char></char></note>吗？ <verse eid="ROM 4:3"/><verse number="4" style="v" sid="ROM 4:4"/>人工作得来的工钱不算是恩典，是应得的。 <verse eid="ROM 4:4"/><verse number="5" style="v" sid="ROM 4:5"/>但人不靠行为，只信称不敬虔之人为义人的上帝，他就因信而被算为义人。 <verse eid="ROM 4:5"/><verse number="6" style="v" sid="ROM 4:6"/><char style="pn">大卫</char>也说不靠行为被上帝算为义人的人有福了，他说： <verse eid="ROM 4:6"/><verse number="7" style="v" sid="ROM 4:7"/>“过犯得到赦免、罪恶被遮盖的人有福了。 <verse eid="ROM 4:7"/><verse number="8" style="v" sid="ROM 4:8"/>不被主算为有罪的人有福了。”<note caller="+" style="f"><char style="fr" closed="false">4:8 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 32:1">诗篇32:1</ref>、<ref loc="PSA 32:2">2</ref>。</char></char></note><verse eid="ROM 4:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="ROM 4:9"/>那么，这种福分只给受割礼的人吗？还是也给没有受割礼的人呢？因为我们说，<char style="pn">亚伯拉罕</char>信上帝，就被算为义人。 <verse eid="ROM 4:9"/><verse number="10" style="v" sid="ROM 4:10"/>他究竟是怎么被算为义人的呢？是他受割礼以前呢？还是以后呢？不是以后，而是以前。 <verse eid="ROM 4:10"/><verse number="11" style="v" sid="ROM 4:11"/>他后来受割礼只不过是一个记号，表明他在受割礼前已经因信被称为义人了。他因此成为一切未受割礼的信徒之父，使这些信徒也可以被算为义人。 <verse eid="ROM 4:11"/><verse number="12" style="v" sid="ROM 4:12"/>他也做了受割礼之人的父，这些人不只是受了割礼，还跟随我们先祖<char style="pn">亚伯拉罕</char>的脚步，效法他在未受割礼时的信心。<verse eid="ROM 4:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="ROM 4:13"/>上帝应许将世界赐给<char style="pn">亚伯拉罕</char>和他的子孙，不是因为<char style="pn">亚伯拉罕</char>遵行了律法，而是因为他因信被称为义人。 <verse eid="ROM 4:13"/><verse number="14" style="v" sid="ROM 4:14"/>如果只有遵行律法的人才可以承受应许，信心就没有价值，上帝的应许也就落了空。 <verse eid="ROM 4:14"/><verse number="15" style="v" sid="ROM 4:15"/>因为有律法，就有刑罚；哪里没有律法，哪里就没有违法的事。 <verse eid="ROM 4:15"/><verse number="16" style="v" sid="ROM 4:16"/>所以，上帝的应许是借着人的信心赐下的，好叫这一切都是出于上帝的恩典，确保应许归给所有<char style="pn">亚伯拉罕</char>的子孙，不单是律法之下的人，也包括一切效法<char style="pn">亚伯拉罕</char>信心的人。 <verse eid="ROM 4:16"/><verse number="17" style="v" sid="ROM 4:17"/><char style="pn">亚伯拉罕</char>在上帝面前是我们所有人的父，正如圣经上说：“我已立你为万族之父。”<note caller="+" style="f"><char style="fr" closed="false">4:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 17:5">创世记17:5</ref>。</char></char></note>他所信的上帝是能够使死人复活、使无变有的上帝。<verse eid="ROM 4:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="ROM 4:18"/>他在毫无指望的情况下仍然满怀盼望地相信上帝的应许，因而成为“万族之父”<note caller="+" style="f"><char style="fr" closed="false">4:18 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 15:5">创世记15:5</ref>。</char></char></note>，正如上帝的应许：“你的后裔必这么多。” <verse eid="ROM 4:18"/><verse number="19" style="v" sid="ROM 4:19"/>那时他将近百岁，知道自己的身体如同已死，<char style="pn">撒拉</char>也已经不能生育，但他的信心仍然没有动摇。 <verse eid="ROM 4:19"/><verse number="20" style="v" sid="ROM 4:20"/>他没有因不信而怀疑上帝的应许，反倒信心更加坚定，将荣耀归给上帝， <verse eid="ROM 4:20"/><verse number="21" style="v" sid="ROM 4:21"/>完全相信上帝必能实现祂的应许。 <verse eid="ROM 4:21"/><verse number="22" style="v" sid="ROM 4:22"/>所以，他因信被算为义人。 <verse eid="ROM 4:22"/><verse number="23" style="v" sid="ROM 4:23"/>“他被算为义人”这句话不单单是写给他的， <verse eid="ROM 4:23"/><verse number="24" style="v" sid="ROM 4:24"/>也是写给我们的。我们相信使我们主耶稣从死里复活的上帝，所以必被算为义人。 <verse eid="ROM 4:24"/><verse number="25" style="v" sid="ROM 4:25"/>耶稣受害而死是为了我们的过犯，祂复活是为了使我们被称为义人。<verse eid="ROM 4:25"/></para>
+  <chapter eid="ROM 4"/>
+  <chapter number="5" style="c" sid="ROM 5"/>
+  <para style="s1">与上帝和好</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 5:1"/>我们既然因信被称为义人，就借着我们的主耶稣基督与上帝和好了。 <verse eid="ROM 5:1"/><verse number="2" style="v" sid="ROM 5:2"/>我们又靠着祂，借着信进入现在所站的这恩典中，欢欢喜喜地盼望分享上帝的荣耀。 <verse eid="ROM 5:2"/><verse number="3" style="v" sid="ROM 5:3"/>不但如此，我们在苦难中也欢喜，因为知道苦难使人生忍耐， <verse eid="ROM 5:3"/><verse number="4" style="v" sid="ROM 5:4"/>忍耐生品格，品格生盼望。 <verse eid="ROM 5:4"/><verse number="5" style="v" sid="ROM 5:5"/>这种盼望不会落空，因为上帝的爱借着所赐给我们的圣灵已倾注在我们心中。<verse eid="ROM 5:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="ROM 5:6"/>当我们还软弱无助的时候，基督就在所定的日期为罪人死了。 <verse eid="ROM 5:6"/><verse number="7" style="v" sid="ROM 5:7"/>为义人死，是罕见的；为好人死，也许有敢做的； <verse eid="ROM 5:7"/><verse number="8" style="v" sid="ROM 5:8"/>但基督却在我们还做罪人的时候为我们死！上帝的爱就这样显明了。<verse eid="ROM 5:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="ROM 5:9"/>现在，我们既然因基督所流的血被称为义人，岂不更要靠着祂免受上帝的烈怒吗？ <verse eid="ROM 5:9"/><verse number="10" style="v" sid="ROM 5:10"/>我们如果还与上帝为敌的时候，尚且可以借着祂儿子的死亡与祂和好，和好之后岂不更要借着祂儿子的生命得到拯救吗？ <verse eid="ROM 5:10"/><verse number="11" style="v" sid="ROM 5:11"/>不但如此，我们借着主耶稣基督与上帝和好之后，还要借着祂以上帝为乐。<verse eid="ROM 5:11"/></para>
+  <para style="s1">亚当与基督</para>
+  <para style="p">
+    <verse number="12" style="v" sid="ROM 5:12"/>因此，罪怎样从一个人进入世界并带来死亡，死亡也怎样临到世人，因为世人都犯了罪。 <verse eid="ROM 5:12"/><verse number="13" style="v" sid="ROM 5:13"/>没有律法之前，罪已经在世上；但没有律法，罪也不算为罪。 <verse eid="ROM 5:13"/><verse number="14" style="v" sid="ROM 5:14"/>其实，从<char style="pn">亚当</char>到<char style="pn">摩西</char>的时代，死亡一直辖制着人类，甚至连那些不与<char style="pn">亚当</char>犯同样罪的人也不能幸免。<char style="pn">亚当</char>是将要来的那位的预表。<verse eid="ROM 5:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="ROM 5:15"/>然而，上帝的洪恩远超过<char style="pn">亚当</char>的过犯。若因这一人的过犯，众人都要死亡，那么上帝的恩典，也就是通过耶稣基督一人所赐的恩典，岂不要更丰富地临到众人吗？ <verse eid="ROM 5:15"/><verse number="16" style="v" sid="ROM 5:16"/>再者，上帝的恩赐不同于一人犯罪的后果。因为随一人犯罪而来的审判使人被定罪，随累累过犯而来的恩赐使人被称为义人。 <verse eid="ROM 5:16"/><verse number="17" style="v" sid="ROM 5:17"/>若因一人的过犯，死亡就借着这人做了王，那么接受上帝洪恩又得到祂所赐之义的人，岂不更要借着耶稣基督一人在生命中做王吗？<verse eid="ROM 5:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="ROM 5:18"/>如此说来，因为一次过犯，众人都被定罪；照样，因为一次义行，众人都被称为义人，得到生命。 <verse eid="ROM 5:18"/><verse number="19" style="v" sid="ROM 5:19"/>因为一人的悖逆，众人成为罪人；照样，因为一人的顺服，众人将被称为义人。 <verse eid="ROM 5:19"/><verse number="20" style="v" sid="ROM 5:20"/>律法的颁布，使过犯更多地显出来，只是哪里的罪越多，哪里的恩典就越丰富。 <verse eid="ROM 5:20"/><verse number="21" style="v" sid="ROM 5:21"/>所以，罪怎样掌权带来死亡<note caller="+" style="f"><char style="fr" closed="false">5:21 </char><char style="ft" closed="false">“罪怎样掌权带来死亡”或译“罪怎样借着死亡掌权”。</char></note>，恩典也照样借着义掌权，为要借着我们主耶稣基督带来永生。<verse eid="ROM 5:21"/></para>
+  <chapter eid="ROM 5"/>
+  <chapter number="6" style="c" sid="ROM 6"/>
+  <para style="s1">与基督同死同活</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 6:1"/>那么，我们该怎么说呢？我们可以继续犯罪，使恩典更丰富吗？ <verse eid="ROM 6:1"/><verse number="2" style="v" sid="ROM 6:2"/>当然不可！我们既然向罪死了，岂可继续活在罪中？ <verse eid="ROM 6:2"/><verse number="3" style="v" sid="ROM 6:3"/>难道你们不知道，我们受洗归属基督耶稣是和祂一同死吗？ <verse eid="ROM 6:3"/><verse number="4" style="v" sid="ROM 6:4"/>所以，我们借着洗礼和祂同死同埋葬了，为要行事为人有新生命的样式，正如基督借着父的荣耀从死里复活一样。<verse eid="ROM 6:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="ROM 6:5"/>我们如果已经在基督的死亡上与祂联合，也必在祂的复活上与祂联合。 <verse eid="ROM 6:5"/><verse number="6" style="v" sid="ROM 6:6"/>我们知道，我们的旧人已经和祂一同被钉在十字架上，使辖制我们身体的罪失去力量，使我们不再做罪的奴隶。 <verse eid="ROM 6:6"/><verse number="7" style="v" sid="ROM 6:7"/>因为死去的人已经脱离了罪。<verse eid="ROM 6:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="ROM 6:8"/>我们如果已经与基督同死，相信也必与祂同活。 <verse eid="ROM 6:8"/><verse number="9" style="v" sid="ROM 6:9"/>因为我们知道，基督既然从死里复活了，就不会再死，死亡也不能再控制祂。 <verse eid="ROM 6:9"/><verse number="10" style="v" sid="ROM 6:10"/>祂死，是向罪死，只死一次；祂活，却是向上帝活着。 <verse eid="ROM 6:10"/><verse number="11" style="v" sid="ROM 6:11"/>同样，你们在基督耶稣里应当看自己是向罪死了，向上帝活着。<verse eid="ROM 6:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="ROM 6:12"/>所以，不要让罪辖制你们必死的身体，使你们顺从身体的私欲。 <verse eid="ROM 6:12"/><verse number="13" style="v" sid="ROM 6:13"/>也不要将你们的肢体献给罪作不义的工具，而是要像一个从死里复活的人将自己献给上帝，把你们的肢体献给上帝作义的工具。 <verse eid="ROM 6:13"/><verse number="14" style="v" sid="ROM 6:14"/>罪不能再主宰你们，因为你们已经不在律法之下，而是在恩典之中。<verse eid="ROM 6:14"/></para>
+  <para style="s1">做义的奴仆</para>
+  <para style="p">
+    <verse number="15" style="v" sid="ROM 6:15"/>那么，我们在恩典之中，不在律法之下，就可以任意犯罪吗？当然不可！ <verse eid="ROM 6:15"/><verse number="16" style="v" sid="ROM 6:16"/>你们难道不明白吗？你们献身为奴服从谁，就是谁的奴隶。做罪的奴隶，结局是死亡；做上帝的奴仆，就被称为义人。 <verse eid="ROM 6:16"/><verse number="17" style="v" sid="ROM 6:17"/>感谢上帝！你们从前虽然做过罪的奴隶，现在却衷心服从了所传给你们的教导， <verse eid="ROM 6:17"/><verse number="18" style="v" sid="ROM 6:18"/>从罪中得到释放，成为义的奴仆。<verse eid="ROM 6:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="ROM 6:19"/>因为你们有人性的软弱，我就用简单的话向你们解释。以前你们将肢体献给肮脏不法的事，任其奴役，助长不法。现在你们要将肢体献给义，为义效劳，成为圣洁的人。 <verse eid="ROM 6:19"/><verse number="20" style="v" sid="ROM 6:20"/>你们做罪的奴隶时，不受义的约束， <verse eid="ROM 6:20"/><verse number="21" style="v" sid="ROM 6:21"/>做了现在引以为耻的事，得到什么益处呢？那些事只能导致死亡！ <verse eid="ROM 6:21"/><verse number="22" style="v" sid="ROM 6:22"/>但现在你们已从罪中得到释放，做了上帝的奴仆，结果使你们圣洁，最终得到永生。 <verse eid="ROM 6:22"/><verse number="23" style="v" sid="ROM 6:23"/>因为罪的代价就是死亡，而上帝借着我们的主基督耶稣赐下的礼物则是永生。<verse eid="ROM 6:23"/></para>
+  <chapter eid="ROM 6"/>
+  <chapter number="7" style="c" sid="ROM 7"/>
+  <para style="s1">婚姻关系的例子</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 7:1"/>弟兄姊妹，我现在对那些熟悉律法的人说：你们难道不知道律法只在人活着的时候管辖人吗？ <verse eid="ROM 7:1"/><verse number="2" style="v" sid="ROM 7:2"/>比方说，一个妇人结了婚，只要丈夫还在世，她就受律法的约束要与丈夫在一起。如果丈夫死了，她就脱离了与丈夫的婚姻关系。 <verse eid="ROM 7:2"/><verse number="3" style="v" sid="ROM 7:3"/>丈夫还活着的时候，她若与别的男人通奸，便被称为淫妇。丈夫若死了，她就脱离了与丈夫的婚姻关系，即使改嫁，也不是淫妇。<verse eid="ROM 7:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="ROM 7:4"/>我的弟兄姊妹，同样，你们借着基督的身体向着律法也死了，使你们可以归于另一位，就是从死里复活的基督，好为上帝结果子。 <verse eid="ROM 7:4"/><verse number="5" style="v" sid="ROM 7:5"/>从前我们受自己本性<note caller="+" style="f"><char style="fr" closed="false">7:5 </char><char style="ft" closed="false">“本性”希腊文是“肉体”，以下皆用相同译法。</char></note>的控制，因律法而激发的罪恶欲望在我们体内发作，以致结出死亡的果子。 <verse eid="ROM 7:5"/><verse number="6" style="v" sid="ROM 7:6"/>但现在，我们既然向着一度捆绑我们的律法死了，就脱离了律法的控制，能够以圣灵所赐的新样式，而不是按律法条文的旧样式事奉上帝。<verse eid="ROM 7:6"/></para>
+  <para style="s1">律法使人知罪</para>
+  <para style="p">
+    <verse number="7" style="v" sid="ROM 7:7"/>那么，我们该怎么说呢？律法是罪吗？当然不是！要是没有律法，我就不知道什么是罪。律法若不说“不可贪心”<note caller="+" style="f"><char style="fr" closed="false">7:7 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:17">出埃及记20:17</ref>；<ref loc="DEU 5:21">申命记5:21</ref>。</char></char></note>，我就不知道什么是贪心。 <verse eid="ROM 7:7"/><verse number="8" style="v" sid="ROM 7:8"/>然而，罪却趁机利用诫命在我里面生出各种贪念，因为没有律法，罪是死的。 <verse eid="ROM 7:8"/><verse number="9" style="v" sid="ROM 7:9"/>从前没有律法的时候，我是活的，但诫命来了之后，罪就活了，而我却死了。 <verse eid="ROM 7:9"/><verse number="10" style="v" sid="ROM 7:10"/>我发现那本来要使人活的诫命反而叫我死， <verse eid="ROM 7:10"/><verse number="11" style="v" sid="ROM 7:11"/>因为罪利用诫命趁机诱骗我，而且借着诫命杀了我。 <verse eid="ROM 7:11"/><verse number="12" style="v" sid="ROM 7:12"/>可见律法是圣洁的，诫命也是圣洁、公义、良善的。<verse eid="ROM 7:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="ROM 7:13"/>既然如此，难道是良善的诫命叫我死吗？当然不是！是罪借着良善的诫命叫我死，好让我们认识罪的真面目，并且罪借着诫命更显得邪恶至极！<verse eid="ROM 7:13"/></para>
+  <para style="s1">善恶相争</para>
+  <para style="p">
+    <verse number="14" style="v" sid="ROM 7:14"/>我们知道律法是属灵的，我却属乎肉体，已经卖给罪做奴隶了。 <verse eid="ROM 7:14"/><verse number="15" style="v" sid="ROM 7:15"/>我不明白自己的所作所为，因为我想做的，我不去做；而我憎恨的，我偏偏去做！ <verse eid="ROM 7:15"/><verse number="16" style="v" sid="ROM 7:16"/>如果我做我不想做的，我就承认律法是好的。 <verse eid="ROM 7:16"/><verse number="17" style="v" sid="ROM 7:17"/>其实不再是我在做，而是住在我里面的罪在做。 <verse eid="ROM 7:17"/><verse number="18" style="v" sid="ROM 7:18"/>我也知道，在我里面，就是我的本性里面毫无良善，我有行善的心愿，却没有行善的力量。 <verse eid="ROM 7:18"/><verse number="19" style="v" sid="ROM 7:19"/>我想行善，却不去行；我不想作恶，反倒去作。 <verse eid="ROM 7:19"/><verse number="20" style="v" sid="ROM 7:20"/>如果我做我不想做的，就不再是我在做，而是住在我里面的罪在做。<verse eid="ROM 7:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="ROM 7:21"/>因此，我发现一个律：我想行善的时候，恶就不放过我。 <verse eid="ROM 7:21"/><verse number="22" style="v" sid="ROM 7:22"/>按着我里面的意思<note caller="+" style="f"><char style="fr" closed="false">7:22 </char><char style="ft" closed="false">“里面的意思”希腊文是“里面的人”。</char></note>，我喜爱上帝的律。 <verse eid="ROM 7:22"/><verse number="23" style="v" sid="ROM 7:23"/>然而，我发觉在我身体内另有一个律和我心中的律作战，将我俘虏，使我服从身体内犯罪的律。 <verse eid="ROM 7:23"/><verse number="24" style="v" sid="ROM 7:24"/>我真是苦啊！谁能救我脱离这个被死亡控制的身体呢？ <verse eid="ROM 7:24"/><verse number="25" style="v" sid="ROM 7:25"/>感谢上帝，祂借着我们的主耶稣基督救了我！这样看来，我的内心服从上帝的律法，但我的本性却服从犯罪的律。<verse eid="ROM 7:25"/></para>
+  <chapter eid="ROM 7"/>
+  <chapter number="8" style="c" sid="ROM 8"/>
+  <para style="s1">随从圣灵而活</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 8:1"/>因此，如今那些在基督耶稣里的人不被定罪， <verse eid="ROM 8:1"/><verse number="2" style="v" sid="ROM 8:2"/>因为赐人生命之圣灵的律，已经在基督耶稣里使我获得自由，脱离了罪与死的律。 <verse eid="ROM 8:2"/><verse number="3" style="v" sid="ROM 8:3"/>律法因为人性软弱而无法成就的事，上帝亲自成就了。祂差遣自己的儿子成为和罪人一样有血有肉的人，作了赎罪祭，废掉了罪的权势， <verse eid="ROM 8:3"/><verse number="4" style="v" sid="ROM 8:4"/>使律法公义的要求实现在我们这些不随从本性、只随从圣灵而活的人身上。<verse eid="ROM 8:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="ROM 8:5"/>随从本性的人思想本性的事，随从圣灵的人思想圣灵的事。 <verse eid="ROM 8:5"/><verse number="6" style="v" sid="ROM 8:6"/>受本性支配的思想会导致死亡，受圣灵支配的思想会带来生命和平安。 <verse eid="ROM 8:6"/><verse number="7" style="v" sid="ROM 8:7"/>因为受本性支配的思想与上帝为敌，不服从上帝的律法，也无力服从。 <verse eid="ROM 8:7"/><verse number="8" style="v" sid="ROM 8:8"/>所以受本性控制的人不能让上帝喜悦。<verse eid="ROM 8:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="ROM 8:9"/>但如果上帝的灵住在你们里面，你们就不再受本性控制，而是受圣灵管理。人若没有基督的灵，就不属于基督。 <verse eid="ROM 8:9"/><verse number="10" style="v" sid="ROM 8:10"/>如果基督在你们里面，你们的身体虽然因罪而死亡，灵魂却因义而活着<note caller="+" style="f"><char style="fr" closed="false">8:10 </char><char style="ft" closed="false">“灵魂却因义而活着”或译“圣灵必因义而赐下生命”。</char></note>。 <verse eid="ROM 8:10"/><verse number="11" style="v" sid="ROM 8:11"/>如果使耶稣复活之上帝的灵住在你们里面，叫基督耶稣从死里复活的上帝，也必借着住在你们里面的圣灵，使你们终有一死的身体活过来。<verse eid="ROM 8:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="ROM 8:12"/>弟兄姊妹，这样看来，我们不必随从本性活着。 <verse eid="ROM 8:12"/><verse number="13" style="v" sid="ROM 8:13"/>你们若随从本性活着，必定死亡；若靠着圣灵除去身体的恶行，就必活着。 <verse eid="ROM 8:13"/><verse number="14" style="v" sid="ROM 8:14"/>因为凡有上帝的灵引导的人都是上帝的儿女。 <verse eid="ROM 8:14"/><verse number="15" style="v" sid="ROM 8:15"/>你们接受的圣灵不是使你们做奴隶，仍旧害怕，而是使你们做儿子，可以称上帝为“阿爸，父亲”。 <verse eid="ROM 8:15"/><verse number="16" style="v" sid="ROM 8:16"/>圣灵亲自与我们的心一同见证我们是上帝的儿女。 <verse eid="ROM 8:16"/><verse number="17" style="v" sid="ROM 8:17"/>我们既然是儿女，就是继承人，是上帝的继承人，并且与基督同做继承人。所以，我们现在若和基督一同受苦，将来也必和祂一同得荣耀。<verse eid="ROM 8:17"/></para>
+  <para style="s1">将来的荣耀</para>
+  <para style="p">
+    <verse number="18" style="v" sid="ROM 8:18"/>我认为，与将来要显给我们的荣耀相比，现在所受的痛苦简直微不足道。 <verse eid="ROM 8:18"/><verse number="19" style="v" sid="ROM 8:19"/>受造之物正热切等候上帝众子的显现， <verse eid="ROM 8:19"/><verse number="20" style="v" sid="ROM 8:20"/>因为受造之物处在虚空之下并非出于情愿，而是出于上帝的旨意。 <verse eid="ROM 8:20"/><verse number="21" style="v" sid="ROM 8:21"/>不过，受造之物仍然盼望脱离衰亡的束缚，享受上帝儿女荣耀的自由。 <verse eid="ROM 8:21"/><verse number="22" style="v" sid="ROM 8:22"/>我们知道一切受造之物至今都在呻吟，如同经历分娩之痛。 <verse eid="ROM 8:22"/><verse number="23" style="v" sid="ROM 8:23"/>不但如此，就是我们这些首先得到圣灵的人也在心里叹息，热切等候得到儿子的名分<note caller="+" style="f"><char style="fr" closed="false">8:23 </char><char style="ft" closed="false">“儿子的名分”指被收养为义子，可以享受和亲生儿子一样的权利。</char></note>，就是我们的身体得到救赎。 <verse eid="ROM 8:23"/><verse number="24" style="v" sid="ROM 8:24"/>我们得救的人有这个盼望。不过，看得见的盼望不算盼望，谁会盼望已经看见的呢？ <verse eid="ROM 8:24"/><verse number="25" style="v" sid="ROM 8:25"/>但我们若盼望那尚未看见的，就会忍耐等候。<verse eid="ROM 8:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="ROM 8:26"/>况且，我们软弱的时候，有圣灵帮助我们。我们不知道该怎样祷告，但圣灵亲自用说不出来的叹息替我们祈祷。 <verse eid="ROM 8:26"/><verse number="27" style="v" sid="ROM 8:27"/>洞悉人心的上帝知道圣灵的意思，因为圣灵是照着上帝的旨意替圣徒祈祷。<verse eid="ROM 8:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="ROM 8:28"/>我们知道，上帝使万事互相效力<note caller="+" style="f"><char style="fr" closed="false">8:28 </char><char style="ft" closed="false">“上帝使万事互相效力”或译“万事都互相效力”。</char></note>，使那些爱上帝的人，就是上帝按自己的旨意呼召的人得益处。 <verse eid="ROM 8:28"/><verse number="29" style="v" sid="ROM 8:29"/>因为上帝预先知道谁是属祂的人，并预定这些人要被塑造成祂儿子的形象，使祂的儿子在许多弟兄中成为长子。 <verse eid="ROM 8:29"/><verse number="30" style="v" sid="ROM 8:30"/>祂所预定的人，祂也呼召他们；祂所呼召的人，祂也称他们为义人；祂称之为义人的，祂也使他们得荣耀。<verse eid="ROM 8:30"/></para>
+  <para style="s1">上帝的爱</para>
+  <para style="p">
+    <verse number="31" style="v" sid="ROM 8:31"/>对于这些事，我们还可以说什么呢？上帝若帮助我们，谁能与我们对抗？ <verse eid="ROM 8:31"/><verse number="32" style="v" sid="ROM 8:32"/>上帝既然连自己的儿子也不顾惜，让祂为我们牺牲，岂不也把万物和祂一同白白地赐给我们吗？ <verse eid="ROM 8:32"/><verse number="33" style="v" sid="ROM 8:33"/>谁能指控上帝拣选的人呢？是上帝称我们为义人。 <verse eid="ROM 8:33"/><verse number="34" style="v" sid="ROM 8:34"/>谁能定我们有罪呢？基督耶稣已经替我们死了，而且从死里复活了，如今在上帝的右边正替我们祈祷。 <verse eid="ROM 8:34"/><verse number="35" style="v" sid="ROM 8:35"/>谁能使我们与基督的爱分离呢？难道是患难吗？困苦吗？迫害吗？饥饿吗？赤身露体吗？危险吗？刀剑吗？ <verse eid="ROM 8:35"/><verse number="36" style="v" sid="ROM 8:36"/>正如圣经上说：“为了你，我们终日出生入死，被视为待宰的羊。”<note caller="+" style="f"><char style="fr" closed="false">8:36 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 44:22">诗篇44:22</ref>。</char></char></note><verse eid="ROM 8:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="ROM 8:37"/>然而，靠着爱我们的主，我们在这一切事上已经得胜有余了。 <verse eid="ROM 8:37"/><verse number="38" style="v" sid="ROM 8:38"/>因为我深信无论是死、是生，是天使、是鬼魔，是现在的事、是将来的事， <verse eid="ROM 8:38"/><verse number="39" style="v" sid="ROM 8:39"/>是高天之上的、是大地深处的或是其他受造之物，都不能使我们与上帝在主基督耶稣里赐下的爱分离。<verse eid="ROM 8:39"/></para>
+  <chapter eid="ROM 8"/>
+  <chapter number="9" style="c" sid="ROM 9"/>
+  <para style="s1">上帝的选民</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 9:1"/>我在基督里说真话，绝无谎言。我被圣灵感动的良心可以作证， <verse eid="ROM 9:1"/><verse number="2" style="v" sid="ROM 9:2"/>我心里极为忧愁，痛苦不堪！ <verse eid="ROM 9:2"/><verse number="3" style="v" sid="ROM 9:3"/>为了我的弟兄——我的同胞<char style="pn">以色列</char>人，即使我自己被咒诅、与基督隔绝，我也愿意！ <verse eid="ROM 9:3"/><verse number="4" style="v" sid="ROM 9:4"/>身为<char style="pn">以色列</char>人，他们拥有上帝儿子的名分、上帝的荣耀、诸约、律法、敬拜礼仪和各种应许。 <verse eid="ROM 9:4"/><verse number="5" style="v" sid="ROM 9:5"/>蒙拣选的族长是他们的先祖，基督降世为人也是做<char style="pn">以色列</char>人。祂是至大至尊，永远当受称颂的上帝。阿们！<verse eid="ROM 9:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="ROM 9:6"/>当然，这并不表示上帝的话落了空，因为从<char style="pn">以色列</char>生的，并不都是<char style="pn">以色列</char>人， <verse eid="ROM 9:6"/><verse number="7" style="v" sid="ROM 9:7"/><char style="pn">亚伯拉罕</char>的后裔并不都是<char style="pn">亚伯拉罕</char>的儿女，圣经上说：“<char style="pn">以撒</char>生的才可算为你的后裔。”<note caller="+" style="f"><char style="fr" closed="false">9:7 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 21:12">创世记21:12</ref>。</char></char></note> <verse eid="ROM 9:7"/><verse number="8" style="v" sid="ROM 9:8"/>这话的意思是：凭血气所生的儿女并不是上帝的儿女，只有凭应许所生的才算是后裔。 <verse eid="ROM 9:8"/><verse number="9" style="v" sid="ROM 9:9"/>因为上帝曾这样应许他：“明年这时候，我会再来，<char style="pn">撒拉</char>必生一个儿子。”<note caller="+" style="f"><char style="fr" closed="false">9:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 18:10">创世记18:10</ref>、<ref loc="GEN 18:14">14</ref>。</char></char></note><verse eid="ROM 9:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="ROM 9:10"/>后来，<char style="pn">利百加</char>和我们的先祖<char style="pn">以撒</char>结婚，怀了双胞胎。 <verse eid="ROM 9:10"/><verse number="11" style="v" sid="ROM 9:11"/>在这对孩子还未出生，还没有显出谁善谁恶之时，上帝为了显明自己拣选人并不是按人的行为，而是按祂自己的旨意， <verse eid="ROM 9:11"/><verse number="12" style="v" sid="ROM 9:12"/>便对<char style="pn">利百加</char>说：“将来大的要服侍小的。”<note caller="+" style="f"><char style="fr" closed="false">9:12 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 25:23">创世记25:23</ref>。</char></char></note> <verse eid="ROM 9:12"/><verse number="13" style="v" sid="ROM 9:13"/>正如圣经上说：“我爱<char style="pn">雅各</char>，厌恶<char style="pn">以扫</char>。”<note caller="+" style="f"><char style="fr" closed="false">9:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="MAL 1:2">玛拉基书1:2</ref>、<ref loc="MAL 1:3">3</ref>。</char></char></note><verse eid="ROM 9:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="ROM 9:14"/>这样看来，我们该怎么说呢？难道上帝不公平吗？当然不是！ <verse eid="ROM 9:14"/><verse number="15" style="v" sid="ROM 9:15"/>祂曾对<char style="pn">摩西</char>说：</para>
+  <para style="q1" vid="ROM 9:15">“我要怜悯谁就怜悯谁，</para>
+  <para style="q1" vid="ROM 9:15">要恩待谁就恩待谁。”<note caller="+" style="f"><char style="fr" closed="false">9:15 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 33:19">出埃及记33:19</ref>。</char></char></note><verse eid="ROM 9:15"/></para>
+  <para style="m">
+    <verse number="16" style="v" sid="ROM 9:16"/>可见这并不在于人的意志和努力，而在于祂的怜悯。 <verse eid="ROM 9:16"/><verse number="17" style="v" sid="ROM 9:17"/>圣经记载着上帝对法老说的话：“我使你兴起是为了在你身上彰显我的权能，使我的名传遍天下。”<note caller="+" style="f"><char style="fr" closed="false">9:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 9:16">出埃及记9:16</ref>。</char></char></note> <verse eid="ROM 9:17"/><verse number="18" style="v" sid="ROM 9:18"/>总之，上帝要怜悯谁，就怜悯谁；要叫谁顽固，就叫谁顽固。<verse eid="ROM 9:18"/></para>
+  <para style="s1">上帝的烈怒和怜悯</para>
+  <para style="p">
+    <verse number="19" style="v" sid="ROM 9:19"/>这样，你肯定会对我说：“为什么上帝还指责人呢？谁能抗拒祂的旨意呢？” <verse eid="ROM 9:19"/><verse number="20" style="v" sid="ROM 9:20"/>你这个人啊！你是谁啊？竟敢顶撞上帝！受造之物怎能对造物的说：“你为什么把我造成这样？”<note caller="+" style="f"><char style="fr" closed="false">9:20 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 29:16">以赛亚书29:16</ref>；<ref loc="ISA 45:9">45:9</ref>。</char></char></note> <verse eid="ROM 9:20"/><verse number="21" style="v" sid="ROM 9:21"/>陶匠难道不可从一团泥中拿一部分造贵重的器皿，又拿一部分造平凡的器皿吗？<verse eid="ROM 9:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="ROM 9:22"/>倘若上帝想要显示祂的烈怒和权能，就尽量容忍祂预备要发烈怒来毁灭的器皿， <verse eid="ROM 9:22"/><verse number="23" style="v" sid="ROM 9:23"/>以便在祂预备施怜悯、赐荣耀的器皿上彰显祂丰盛的荣耀，又有何不可？ <verse eid="ROM 9:23"/><verse number="24" style="v" sid="ROM 9:24"/>那些蒙祂怜悯的器皿就是我们这些从<char style="pn">犹太</char>人和外族人中被上帝呼召的人。 <verse eid="ROM 9:24"/><verse number="25" style="v" sid="ROM 9:25"/>正如上帝在《何西阿书》上说：</para>
+  <para style="q1" vid="ROM 9:25">“本来不是我子民的，</para>
+  <para style="q1" vid="ROM 9:25">我要称他们为‘我的子民’<note caller="+" style="f"><char style="fr" closed="false">9:25 </char><char style="ft" closed="false"><char style="xt"><ref loc="HOS 2:23">何西阿书2:23</ref>。</char></char></note>；</para>
+  <para style="q1" vid="ROM 9:25">本来不是我所爱的，</para>
+  <para style="q1" vid="ROM 9:25">我要称他们为‘我所爱的’。<verse eid="ROM 9:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="ROM 9:26"/>从前我在什么地方对他们说，</para>
+  <para style="q1" vid="ROM 9:26">‘你们不是我的子民。’</para>
+  <para style="q1" vid="ROM 9:26">将来也要在那里对他们说，</para>
+  <para style="q1" vid="ROM 9:26">‘你们是永活上帝的儿女。’”<note caller="+" style="f"><char style="fr" closed="false">9:26 </char><char style="ft" closed="false"><char style="xt"><ref loc="HOS 1:10">何西阿书1:10</ref>。</char></char></note><verse eid="ROM 9:26"/></para>
+  <para style="m">
+    <verse number="27" style="v" sid="ROM 9:27"/>关于<char style="pn">以色列</char>人，<char style="pn">以赛亚</char>先知曾疾呼：</para>
+  <para style="q1" vid="ROM 9:27">“<char style="pn">以色列</char>人虽多如海沙，</para>
+  <para style="q1" vid="ROM 9:27">但得救的只是剩余的人，<verse eid="ROM 9:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="ROM 9:28"/>因为上帝要在世上迅速、</para>
+  <para style="q1" vid="ROM 9:28">彻底地执行祂的判决。”<note caller="+" style="f"><char style="fr" closed="false">9:28 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 10:22">以赛亚书10:22</ref>、<ref loc="ISA 10:23">23</ref>。</char></char></note><verse eid="ROM 9:28"/></para>
+  <para style="m">
+    <verse number="29" style="v" sid="ROM 9:29"/>正如<char style="pn">以赛亚</char>先前所言：</para>
+  <para style="q1" vid="ROM 9:29">“若不是万军之主给我们存留后裔，</para>
+  <para style="q1" vid="ROM 9:29">我们早就像<char style="pn">所多玛</char>和<char style="pn">蛾摩拉</char>一样灭亡了。”<note caller="+" style="f"><char style="fr" closed="false">9:29 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 1:9">以赛亚书1:9</ref>。</char></char></note><verse eid="ROM 9:29"/></para>
+  <para style="s1">以色列人和福音</para>
+  <para style="p">
+    <verse number="30" style="v" sid="ROM 9:30"/>这样看来，我们该怎么说呢？本来不追求义的外族人却得到了义，就是因信而得的义。 <verse eid="ROM 9:30"/><verse number="31" style="v" sid="ROM 9:31"/><char style="pn">以色列</char>人靠遵行律法追求义，却徒劳无功。 <verse eid="ROM 9:31"/><verse number="32" style="v" sid="ROM 9:32"/>为什么会这样呢？因为他们不凭信心、只靠自己的行为去追求义，结果被那块绊脚石绊倒了， <verse eid="ROM 9:32"/><verse number="33" style="v" sid="ROM 9:33"/>正如圣经上说：</para>
+  <para style="q1" vid="ROM 9:33">“看啊！我在<char style="pn">锡安</char>放了一块绊脚石，</para>
+  <para style="q1" vid="ROM 9:33">一块使人跌倒的磐石。</para>
+  <para style="q1" vid="ROM 9:33">但信靠祂的人必不会蒙羞。”<note caller="+" style="f"><char style="fr" closed="false">9:33 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 8:14">以赛亚书8:14</ref>；<ref loc="ISA 28:16">28:16</ref>。</char></char></note><verse eid="ROM 9:33"/></para>
+  <chapter eid="ROM 9"/>
+  <chapter number="10" style="c" sid="ROM 10"/>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 10:1"/>弟兄姊妹，我心里切望并向上帝祈求的，就是<char style="pn">以色列</char>人能够得救。 <verse eid="ROM 10:1"/><verse number="2" style="v" sid="ROM 10:2"/>我可以作证：他们对上帝有热心，但不是基于真知。 <verse eid="ROM 10:2"/><verse number="3" style="v" sid="ROM 10:3"/>因为他们不知道上帝的义，想努力建立自己的义，不肯服从上帝的义。 <verse eid="ROM 10:3"/><verse number="4" style="v" sid="ROM 10:4"/>其实基督是律法的终极目的，使所有相信的人都可以得到义。<verse eid="ROM 10:4"/></para>
+  <para style="s1">求告主名的都必得救</para>
+  <para style="p">
+    <verse number="5" style="v" sid="ROM 10:5"/>关于律法的义，<char style="pn">摩西</char>写道：“遵行律法的人必因此而活。”<note caller="+" style="f"><char style="fr" closed="false">10:5 </char><char style="ft" closed="false"><char style="xt"><ref loc="LEV 18:5">利未记18:5</ref>。</char></char></note> <verse eid="ROM 10:5"/><verse number="6" style="v" sid="ROM 10:6"/>但是关于以信心为本的义，圣经上说：“不要心里说，‘谁要升到天上去呢？’<note caller="+" style="f"><char style="fr" closed="false">10:6 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 30:12">申命记30:12</ref>。</char></char></note>意思是谁要把基督领下来， <verse eid="ROM 10:6"/><verse number="7" style="v" sid="ROM 10:7"/>或说，‘谁要下到阴间去呢？’<note caller="+" style="f"><char style="fr" closed="false">10:7 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 30:13">申命记30:13</ref>。</char></char></note>意思是谁要把基督从死人中领上来。” <verse eid="ROM 10:7"/><verse number="8" style="v" sid="ROM 10:8"/>其实这里是说：“这话语近在咫尺，就在你口里，在你心中。”<note caller="+" style="f"><char style="fr" closed="false">10:8 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 30:14">申命记30:14</ref>。</char></char></note>这话语就是我们所传的信主之道。 <verse eid="ROM 10:8"/><verse number="9" style="v" sid="ROM 10:9"/>你若口里承认耶稣是主，心里相信上帝使祂从死里复活，就必得救。 <verse eid="ROM 10:9"/><verse number="10" style="v" sid="ROM 10:10"/>因为人心里相信就可以被称为义人，口里承认就可以得救。 <verse eid="ROM 10:10"/><verse number="11" style="v" sid="ROM 10:11"/>圣经上说：“信靠祂的人必不会蒙羞。”<note caller="+" style="f"><char style="fr" closed="false">10:11 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 28:16">以赛亚书28:16</ref>。</char></char></note> <verse eid="ROM 10:11"/><verse number="12" style="v" sid="ROM 10:12"/><char style="pn">犹太</char>人和<char style="pn">希腊</char>人并没有分别，主是所有人的主，祂厚待所有求告祂的人， <verse eid="ROM 10:12"/><verse number="13" style="v" sid="ROM 10:13"/>因为“凡求告主名的人都必得救”<note caller="+" style="f"><char style="fr" closed="false">10:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="JOL 2:32">约珥书2:32</ref>。</char></char></note>。<verse eid="ROM 10:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="ROM 10:14"/>可是，人还没信祂，怎能求告祂呢？还没听说过祂，怎能信祂呢？没有人传道，怎能听说过祂呢？ <verse eid="ROM 10:14"/><verse number="15" style="v" sid="ROM 10:15"/>人没有受差遣，怎能传道呢？正如圣经上说：“那传福音之人的脚踪是何等佳美！”<note caller="+" style="f"><char style="fr" closed="false">10:15 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 52:7">以赛亚书52:7</ref>。</char></char></note> <verse eid="ROM 10:15"/><verse number="16" style="v" sid="ROM 10:16"/>只是并非人人都信福音，就像<char style="pn">以赛亚</char>先知所说的：“主啊！谁相信我们所传的呢？”<note caller="+" style="f"><char style="fr" closed="false">10:16 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 53:1">以赛亚书53:1</ref>。</char></char></note><verse eid="ROM 10:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="ROM 10:17"/>由此可见，听了道，才会信道；有了基督的话，才有道可听。 <verse eid="ROM 10:17"/><verse number="18" style="v" sid="ROM 10:18"/>但我要问，<char style="pn">以色列</char>人没有听过吗？当然听过。因为</para>
+  <para style="q1" vid="ROM 10:18">“他们的声音传遍天下，</para>
+  <para style="q1" vid="ROM 10:18">他们的话语传到地极。”<note caller="+" style="f"><char style="fr" closed="false">10:18 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 19:4">诗篇19:4</ref>。</char></char></note><verse eid="ROM 10:18"/></para>
+  <para style="m">
+    <verse number="19" style="v" sid="ROM 10:19"/>我再问，难道<char style="pn">以色列</char>人不知道吗？首先，<char style="pn">摩西</char>说：</para>
+  <para style="q1" vid="ROM 10:19">“我要借无名之民挑起你们的嫉妒，</para>
+  <para style="q1" vid="ROM 10:19">用愚昧的国民激起你们的怒气。”<note caller="+" style="f"><char style="fr" closed="false">10:19 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 32:21">申命记32:21</ref>。</char></char></note><verse eid="ROM 10:19"/></para>
+  <para style="m">
+    <verse number="20" style="v" sid="ROM 10:20"/>后来，<char style="pn">以赛亚</char>先知又放胆地说：</para>
+  <para style="q1" vid="ROM 10:20">“我让没有寻找我的人寻见，</para>
+  <para style="q1" vid="ROM 10:20">我向没有求问我的人显现。”<note caller="+" style="f"><char style="fr" closed="false">10:20 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 65:1">以赛亚书65:1</ref>。</char></char></note><verse eid="ROM 10:20"/></para>
+  <para style="m">
+    <verse number="21" style="v" sid="ROM 10:21"/>至于<char style="pn">以色列</char>人，他说：</para>
+  <para style="q1" vid="ROM 10:21">“我整天伸出双手招呼那悖逆顽固的子民。”<note caller="+" style="f"><char style="fr" closed="false">10:21 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 65:2">以赛亚书65:2</ref>。</char></char></note><verse eid="ROM 10:21"/></para>
+  <chapter eid="ROM 10"/>
+  <chapter number="11" style="c" sid="ROM 11"/>
+  <para style="s1">上帝不放弃以色列人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 11:1"/>这样，我要问，难道上帝放弃了祂的子民吗？当然没有！因我自己也是<char style="pn">以色列</char>人，是<char style="pn">亚伯拉罕</char>的后裔，属于<char style="pn">便雅悯</char>支派。 <verse eid="ROM 11:1"/><verse number="2" style="v" sid="ROM 11:2"/>上帝并没有放弃祂预先拣选的子民。你们不知道圣经上有关<char style="pn">以利亚</char>先知的记载吗？他在上帝面前控告<char style="pn">以色列</char>人，说： <verse eid="ROM 11:2"/><verse number="3" style="v" sid="ROM 11:3"/>“主啊！他们残杀你的先知，拆毁你的祭坛，只剩下我一个人，他们还要杀我。”<note caller="+" style="f"><char style="fr" closed="false">11:3 </char><char style="ft" closed="false"><char style="xt"><ref loc="1KI 19:10">列王纪上19:10</ref>、<ref loc="1KI 19:14">14</ref>。</char></char></note> <verse eid="ROM 11:3"/><verse number="4" style="v" sid="ROM 11:4"/>上帝怎样回答呢？祂说：“我为自己留下七千人，他们都未曾跪拜<char style="pn">巴力</char>。”<note caller="+" style="f"><char style="fr" closed="false">11:4 </char><char style="ft" closed="false"><char style="xt"><ref loc="1KI 19:18">列王纪上19:18</ref>。</char></char></note><verse eid="ROM 11:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="ROM 11:5"/>现在的情况也是一样，上帝按照拣选的恩典留下了少数人。 <verse eid="ROM 11:5"/><verse number="6" style="v" sid="ROM 11:6"/>既然说是出于恩典，就不再基于行为，不然恩典就不再是恩典了。 <verse eid="ROM 11:6"/><verse number="7" style="v" sid="ROM 11:7"/>这该怎么说呢？<char style="pn">以色列</char>人努力追求，却一无所得，只有蒙拣选的人得到了，其他人都变得顽固不化。 <verse eid="ROM 11:7"/><verse number="8" style="v" sid="ROM 11:8"/>正如圣经上说：</para>
+  <para style="q1" vid="ROM 11:8">“上帝使他们至今心智昏迷，</para>
+  <para style="q1" vid="ROM 11:8">眼睛看不见，耳朵听不到。”<note caller="+" style="f"><char style="fr" closed="false">11:8 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 29:4">申命记29:4</ref>；<ref loc="ISA 29:10">以赛亚书29:10</ref>。</char></char></note><verse eid="ROM 11:8"/></para>
+  <para style="m">
+    <verse number="9" style="v" sid="ROM 11:9"/>
+    <char style="pn">大卫</char>也说：</para>
+  <para style="q1" vid="ROM 11:9">“愿他们的宴席变为他们的网罗、</para>
+  <para style="q1" vid="ROM 11:9">陷阱、绊脚石和报应；<verse eid="ROM 11:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="ROM 11:10"/>愿他们眼目昏暗，</para>
+  <para style="q1" vid="ROM 11:10">无法看见，</para>
+  <para style="q1" vid="ROM 11:10">永远弯腰驼背。”<note caller="+" style="f"><char style="fr" closed="false">11:10 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 69:22">诗篇69:22</ref>、<ref loc="PSA 69:23">23</ref>。</char></char></note><verse eid="ROM 11:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="ROM 11:11"/>那么，我再问，<char style="pn">以色列</char>人一失足就再也爬不起来了吗？当然不是！恰好相反，因为他们的过犯，救恩临到了外族人，好使他们心生嫉妒。 <verse eid="ROM 11:11"/><verse number="12" style="v" sid="ROM 11:12"/>如果他们的过犯给世界带来富足，他们的失败给外族人带来富足，那么，他们完全恢复时又将带来怎样的祝福呢！<verse eid="ROM 11:12"/></para>
+  <para style="s1">外族人得救</para>
+  <para style="p">
+    <verse number="13" style="v" sid="ROM 11:13"/>现在我有话要对你们外族人说。因为我是外族人的使徒，我尊重自己的职分， <verse eid="ROM 11:13"/><verse number="14" style="v" sid="ROM 11:14"/>希望使我的骨肉同胞心生嫉妒，从而拯救他们当中的一些人。 <verse eid="ROM 11:14"/><verse number="15" style="v" sid="ROM 11:15"/>如果他们的被弃意味着人类与上帝和好，那么，他们被接纳时岂不意味着死而复生吗？ <verse eid="ROM 11:15"/><verse number="16" style="v" sid="ROM 11:16"/>首先用来献祭的那部分面团如果圣洁，整团面也圣洁；树根如果圣洁，树枝也圣洁。<verse eid="ROM 11:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="ROM 11:17"/>如果橄榄树上有些枝子被折下来，你这野橄榄枝被接上去，得以汲取橄榄树根供应的汁浆， <verse eid="ROM 11:17"/><verse number="18" style="v" sid="ROM 11:18"/>你就不可向折下来的枝子夸口。你若夸口，就该知道：不是你托住树根，而是树根托住你。 <verse eid="ROM 11:18"/><verse number="19" style="v" sid="ROM 11:19"/>你也许会说：“原来的枝子被折下来，是为了把我接上去。” <verse eid="ROM 11:19"/><verse number="20" style="v" sid="ROM 11:20"/>不错，他们因为不信才被折下来，你因为信才被接上去，但不要自高，要心存敬畏。 <verse eid="ROM 11:20"/><verse number="21" style="v" sid="ROM 11:21"/>上帝既然没有宽容原来的枝子，也不会宽容你。 <verse eid="ROM 11:21"/><verse number="22" style="v" sid="ROM 11:22"/>可见，上帝既慈爱又严厉。祂对堕落的人是严厉的，但只要你一直活在祂的爱中，祂会以慈爱对待你，不然你也会被砍下来。 <verse eid="ROM 11:22"/><verse number="23" style="v" sid="ROM 11:23"/>况且，<char style="pn">以色列</char>人如果不再顽固不信，必重新被接上去，因为上帝能把他们重新接上。 <verse eid="ROM 11:23"/><verse number="24" style="v" sid="ROM 11:24"/>你这从野生的橄榄树上砍下来的枝子，尚且可以违反自然，被接到好橄榄树上，何况原来的枝子被接回到原来的树上呢？<verse eid="ROM 11:24"/></para>
+  <para style="s1">全以色列都要得救</para>
+  <para style="p">
+    <verse number="25" style="v" sid="ROM 11:25"/>弟兄姊妹，我不愿意你们对以下这奥秘一无所知，免得你们自以为聪明。这奥秘就是：虽然有些<char style="pn">以色列</char>人的心刚硬，但等到外族人得救的数目满了以后， <verse eid="ROM 11:25"/><verse number="26" style="v" sid="ROM 11:26"/>全<char style="pn">以色列</char>都要得救。正如圣经上说：“救主必从<char style="pn">锡安</char>出来，祂将除去<char style="pn">雅各</char>子孙的罪恶。 <verse eid="ROM 11:26"/><verse number="27" style="v" sid="ROM 11:27"/>这是我与他们所立的约，那时我要除去他们的罪。”<note caller="+" style="f"><char style="fr" closed="false">11:27 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 59:20">以赛亚书59:20</ref>、<ref loc="ISA 59:21">21</ref>；<ref loc="ISA 27:9">27:9</ref>；<ref loc="JER 31:33">耶利米书31:33</ref>、<ref loc="JER 31:34">34</ref>。</char></char></note><verse eid="ROM 11:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="ROM 11:28"/>就福音而论，他们为你们的缘故而成为上帝的仇敌；就上帝的拣选而论，他们因祖先的缘故仍被上帝所爱。 <verse eid="ROM 11:28"/><verse number="29" style="v" sid="ROM 11:29"/>因为上帝的恩赐和呼召绝不会收回。 <verse eid="ROM 11:29"/><verse number="30" style="v" sid="ROM 11:30"/>你们从前不顺服上帝，然而因为他们的不顺服，你们现在反蒙了怜悯。 <verse eid="ROM 11:30"/><verse number="31" style="v" sid="ROM 11:31"/>同样，他们现在不顺服，是为了通过你们所蒙的怜悯，使他们现在也蒙怜悯。 <verse eid="ROM 11:31"/><verse number="32" style="v" sid="ROM 11:32"/>因为上帝把世人都归在不顺服之列，是为了要怜悯世人。<verse eid="ROM 11:32"/></para>
+  <para style="s1">颂赞上帝</para>
+  <para style="q1">
+    <verse number="33" style="v" sid="ROM 11:33"/>啊，上帝的智慧和知识多么博大精深！</para>
+  <para style="q1" vid="ROM 11:33">祂的判断多么难测！</para>
+  <para style="q1" vid="ROM 11:33">祂的踪迹多么难寻！<verse eid="ROM 11:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="ROM 11:34"/>谁曾知道主的心意？</para>
+  <para style="q1" vid="ROM 11:34">谁曾做过祂的谋士？<note caller="+" style="f"><char style="fr" closed="false">11:34 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 40:13">以赛亚书40:13</ref>。</char></char></note><verse eid="ROM 11:34"/></para>
+  <para style="q1">
+    <verse number="35" style="v" sid="ROM 11:35"/>谁给过祂什么，</para>
+  <para style="q1" vid="ROM 11:35">要祂偿还呢？<note caller="+" style="f"><char style="fr" closed="false">11:35 </char><char style="ft" closed="false"><char style="xt"><ref loc="JOB 41:11">约伯记41:11</ref>。</char></char></note><verse eid="ROM 11:35"/></para>
+  <para style="q1">
+    <verse number="36" style="v" sid="ROM 11:36"/>因为万物都源于祂，</para>
+  <para style="q1" vid="ROM 11:36">倚靠祂，归于祂。</para>
+  <para style="q1" vid="ROM 11:36">愿荣耀归给祂，</para>
+  <para style="q1" vid="ROM 11:36">直到永远。阿们！<verse eid="ROM 11:36"/></para>
+  <chapter eid="ROM 11"/>
+  <chapter number="12" style="c" sid="ROM 12"/>
+  <para style="s1">为事奉上帝而活</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 12:1"/>所以，弟兄姊妹，我凭上帝的怜悯劝你们献上自己的身体，作圣洁、蒙上帝悦纳的活祭。你们理当这样事奉。 <verse eid="ROM 12:1"/><verse number="2" style="v" sid="ROM 12:2"/>你们不可追随这世界的潮流，要随着思想的不断更新而改变，这样就能明辨上帝的旨意，知道什么是良善、纯全、蒙祂悦纳的。<verse eid="ROM 12:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="ROM 12:3"/>我凭上帝赐给我的恩典劝告各位，不要自视过高，要照着上帝赐给各人的信心中肯地看待自己。 <verse eid="ROM 12:3"/><verse number="4" style="v" sid="ROM 12:4"/>就像我们每个身体有许多肢体，各肢体功能不同， <verse eid="ROM 12:4"/><verse number="5" style="v" sid="ROM 12:5"/>我们虽然人多，但在基督里组成一个身体，彼此联结，互为肢体。 <verse eid="ROM 12:5"/><verse number="6" style="v" sid="ROM 12:6"/>我们照所得的恩典各有不同的恩赐。说预言的，要按着信心的程度说预言； <verse eid="ROM 12:6"/><verse number="7" style="v" sid="ROM 12:7"/>服侍的，要专心服侍；教导的，要专心教导； <verse eid="ROM 12:7"/><verse number="8" style="v" sid="ROM 12:8"/>劝勉的，要专心劝勉；施舍的，要慷慨施舍；治理的，要殷勤治理；怜悯的，要甘心怜悯。<verse eid="ROM 12:8"/></para>
+  <para style="s1">相爱相顾</para>
+  <para style="p">
+    <verse number="9" style="v" sid="ROM 12:9"/>爱必须真诚。要痛恨邪恶，一心向善。 <verse eid="ROM 12:9"/><verse number="10" style="v" sid="ROM 12:10"/>要彼此相爱如同手足，互相尊重，彼此谦让。 <verse eid="ROM 12:10"/><verse number="11" style="v" sid="ROM 12:11"/>要殷勤，不可懒惰，要常常火热地事奉主。 <verse eid="ROM 12:11"/><verse number="12" style="v" sid="ROM 12:12"/>盼望中要有喜乐，患难中要坚忍，祷告要恒切。 <verse eid="ROM 12:12"/><verse number="13" style="v" sid="ROM 12:13"/>圣徒有缺乏，要慷慨帮助；客人来访，要热诚款待。 <verse eid="ROM 12:13"/><verse number="14" style="v" sid="ROM 12:14"/>迫害你们的，要为他们祝福；要祝福，不可咒诅。 <verse eid="ROM 12:14"/><verse number="15" style="v" sid="ROM 12:15"/>要与喜乐的人同乐，与哀哭的人同哭。 <verse eid="ROM 12:15"/><verse number="16" style="v" sid="ROM 12:16"/>要彼此和睦。不可心高气傲，反要俯就卑微的人。不可自以为聪明。<verse eid="ROM 12:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="ROM 12:17"/>不要以恶报恶，要留心去做众人看为好的事。 <verse eid="ROM 12:17"/><verse number="18" style="v" sid="ROM 12:18"/>如果可能，总要尽力与人和睦相处。 <verse eid="ROM 12:18"/><verse number="19" style="v" sid="ROM 12:19"/>亲爱的弟兄姊妹，不要私自报复，要交给发烈怒的上帝，因为圣经上说：</para>
+  <para style="q1" vid="ROM 12:19">“主说，‘申冤在我，我必报应。’<note caller="+" style="f"><char style="fr" closed="false">12:19 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 32:35">申命记32:35</ref>。</char></char></note>”<verse eid="ROM 12:19"/></para>
+  <para style="m">
+    <verse number="20" style="v" sid="ROM 12:20"/>相反，</para>
+  <para style="q1" vid="ROM 12:20">“你的仇敌若饿了，就给他吃的；</para>
+  <para style="q1" vid="ROM 12:20">若渴了，就给他喝的；</para>
+  <para style="q1" vid="ROM 12:20">你这样做是把炭火堆在他头上。”<note caller="+" style="f"><char style="fr" closed="false">12:20 </char><char style="ft" closed="false"><char style="xt"><ref loc="PRO 25:21">箴言25:21</ref>、<ref loc="PRO 25:22">22</ref>。</char></char></note><verse eid="ROM 12:20"/></para>
+  <para style="m">
+    <verse number="21" style="v" sid="ROM 12:21"/>你不可被恶所胜，反要以善胜恶。<verse eid="ROM 12:21"/></para>
+  <chapter eid="ROM 12"/>
+  <chapter number="13" style="c" sid="ROM 13"/>
+  <para style="s1">服从政府的权柄</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 13:1"/>人人都要服从执掌权柄的，因为所有的权柄都是出于上帝。所有掌权的都是上帝设立的。 <verse eid="ROM 13:1"/><verse number="2" style="v" sid="ROM 13:2"/>所以，抗拒掌权者，就是抗拒上帝的命令，抗拒的人必自招惩罚。 <verse eid="ROM 13:2"/><verse number="3" style="v" sid="ROM 13:3"/>掌权的不是叫行善的惧怕，而是叫作恶的惧怕。你想不怕掌权的吗？就要行善，这样你会得到他的称赞。 <verse eid="ROM 13:3"/><verse number="4" style="v" sid="ROM 13:4"/>因为掌权的是上帝的仆人，对你有益处。然而，你若作恶，就该惧怕，因为他必将你绳之以法<note caller="+" style="f"><char style="fr" closed="false">13:4 </char><char style="ft" closed="false">“他必将你绳之以法”希腊文是“他佩剑，不只是作作样子”。</char></note>。他是上帝的仆人，代表上帝秉公行义，惩奸罚恶。 <verse eid="ROM 13:4"/><verse number="5" style="v" sid="ROM 13:5"/>所以，你们必须服从，不单是为了免受惩罚，也是为了良心无愧。<verse eid="ROM 13:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="ROM 13:6"/>你们纳税也是为了同样的缘故，因为掌权的是上帝的仆人，负责管理这类事务。 <verse eid="ROM 13:6"/><verse number="7" style="v" sid="ROM 13:7"/>凡是人该得的，都要给他。该得粮的，就纳粮给他；该得税的，就缴税给他；该惧怕的，就惧怕他；该尊敬的，就尊敬他。<verse eid="ROM 13:7"/></para>
+  <para style="s1">爱邻如己</para>
+  <para style="p">
+    <verse number="8" style="v" sid="ROM 13:8"/>凡事都不可亏欠人，但在彼此相爱方面要常常觉得亏欠。一个人爱别人，就成全了律法。 <verse eid="ROM 13:8"/><verse number="9" style="v" sid="ROM 13:9"/>因为“不可通奸、不可杀人、不可偷盗、不可贪心”<note caller="+" style="f"><char style="fr" closed="false">13:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:13-15">出埃及记20:13‑15</ref>、<ref loc="EXO 20:17">17</ref>；<ref loc="DEU 5:17-19">申命记5:17‑19</ref>、<ref loc="DEU 5:21">21</ref>。</char></char></note>以及其他诫命，都可以总结成一句话——“爱邻如己”<note caller="+" style="f"><char style="fr" closed="false">13:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="LEV 19:18">利未记19:18</ref>。</char></char></note>。 <verse eid="ROM 13:9"/><verse number="10" style="v" sid="ROM 13:10"/>爱不会作恶害人，所以爱成全了律法。<verse eid="ROM 13:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="ROM 13:11"/>还有，要知道现今是你们该睡醒的时候了！因为与初信的时候相比，我们得救的日子更近了。 <verse eid="ROM 13:11"/><verse number="12" style="v" sid="ROM 13:12"/>黑夜已深，白昼将临，我们要除掉黑暗的行为，穿上光明的盔甲<note caller="+" style="f"><char style="fr" closed="false">13:12 </char><char style="ft" closed="false">“穿上光明的盔甲”或译“带上光明的兵器”。</char></note>。 <verse eid="ROM 13:12"/><verse number="13" style="v" sid="ROM 13:13"/>我们要为人端正，光明磊落，不可荒宴醉酒，不可好色邪荡，不可嫉妒纷争。 <verse eid="ROM 13:13"/><verse number="14" style="v" sid="ROM 13:14"/>你们要活出主耶稣基督的荣美<note caller="+" style="f"><char style="fr" closed="false">13:14 </char><char style="ft" closed="false">“活出主耶稣基督的荣美”希腊文是“穿上主耶稣基督”。</char></note>，不可放纵本性的私欲。<verse eid="ROM 13:14"/></para>
+  <chapter eid="ROM 13"/>
+  <chapter number="14" style="c" sid="ROM 14"/>
+  <para style="s1">体恤软弱者</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 14:1"/>你们要接纳信心软弱的弟兄姊妹，不要因为看法不同便彼此争辩。 <verse eid="ROM 14:1"/><verse number="2" style="v" sid="ROM 14:2"/>有人相信什么都可以吃，但信心软弱的人只吃素菜。 <verse eid="ROM 14:2"/><verse number="3" style="v" sid="ROM 14:3"/>吃的人不可轻看不吃的人，不吃的人也不可论断吃的人，因为两者上帝都接纳。 <verse eid="ROM 14:3"/><verse number="4" style="v" sid="ROM 14:4"/>你是谁，竟然论断别人的仆人？他做得是否合宜，自然有他的主人负责。他必能做得合宜，因为主能使他做得合宜。<verse eid="ROM 14:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="ROM 14:5"/>有人认为这日比那日好，有人认为天天都一样，各人应该照着自己的信念拿定主意。 <verse eid="ROM 14:5"/><verse number="6" style="v" sid="ROM 14:6"/>守日子的人是为主而守，吃的人是为主而吃，因为他感谢上帝；不吃的人是为主不吃，他也同样感谢上帝。 <verse eid="ROM 14:6"/><verse number="7" style="v" sid="ROM 14:7"/>因为我们没有人为自己活，也没有人为自己死。 <verse eid="ROM 14:7"/><verse number="8" style="v" sid="ROM 14:8"/>我们活是为主而活，死是为主而死。因此，我们无论生死都是属主的人。 <verse eid="ROM 14:8"/><verse number="9" style="v" sid="ROM 14:9"/>正是为这个缘故，基督死了，又复活了，好做死人和活人的主。<verse eid="ROM 14:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="ROM 14:10"/>那么，你为什么论断弟兄姊妹呢？为什么轻视弟兄姊妹呢？将来我们都要一同站在上帝的审判台前。 <verse eid="ROM 14:10"/><verse number="11" style="v" sid="ROM 14:11"/>圣经上说：“主说，‘我凭我的永恒起誓，万膝必向我跪拜，万口必称颂上帝。’<note caller="+" style="f"><char style="fr" closed="false">14:11 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 45:23">以赛亚书45:23</ref>。</char></char></note>” <verse eid="ROM 14:11"/><verse number="12" style="v" sid="ROM 14:12"/>这样看来，我们各人都要向上帝交账。<verse eid="ROM 14:12"/></para>
+  <para style="s1">不要使人犯罪</para>
+  <para style="p">
+    <verse number="13" style="v" sid="ROM 14:13"/>所以，我们不可再互相论断，要下定决心不绊倒弟兄姊妹。 <verse eid="ROM 14:13"/><verse number="14" style="v" sid="ROM 14:14"/>我知道并靠着主耶稣深信，没有什么是不洁净的，但若有人以为某物不洁净，那对他来说就不洁净。 <verse eid="ROM 14:14"/><verse number="15" style="v" sid="ROM 14:15"/>你若因为吃的令弟兄姊妹伤心，就不是凭爱心行事。你不可因为食物而毁了基督舍命救赎的人。 <verse eid="ROM 14:15"/><verse number="16" style="v" sid="ROM 14:16"/>所以，不要让你们认为好的事被别人诟病。 <verse eid="ROM 14:16"/><verse number="17" style="v" sid="ROM 14:17"/>因为上帝的国不是关乎吃什么喝什么，而是关乎公义、平安和圣灵所赐的喜乐。 <verse eid="ROM 14:17"/><verse number="18" style="v" sid="ROM 14:18"/>以这样的态度事奉基督的人，才会得到上帝的喜悦和大家的称赞。<verse eid="ROM 14:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="ROM 14:19"/>所以，我们要努力追求使人和睦及彼此造就的事。 <verse eid="ROM 14:19"/><verse number="20" style="v" sid="ROM 14:20"/>不可因食物问题而破坏上帝的工作。所有的食物固然都是洁净的，但因所吃的食物绊倒别人就不对了。 <verse eid="ROM 14:20"/><verse number="21" style="v" sid="ROM 14:21"/>无论是吃肉、喝酒还是做任何别的事，如果会绊倒弟兄姊妹，就应该一概不做。 <verse eid="ROM 14:21"/><verse number="22" style="v" sid="ROM 14:22"/>你有信心认为可以做的，只要你和上帝知道就可以了。人如果在自己认为可以做的事上问心无愧，就有福了。 <verse eid="ROM 14:22"/><verse number="23" style="v" sid="ROM 14:23"/>人如果心里疑惑，却仍然吃，就有罪了，因为他不是凭信心吃。凡不凭信心去做的，就是犯罪。<verse eid="ROM 14:23"/></para>
+  <chapter eid="ROM 14"/>
+  <chapter number="15" style="c" sid="ROM 15"/>
+  <para style="s1">我为人人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 15:1"/>我们坚强的人要担待软弱者的软弱，不该只顾自己的喜好。 <verse eid="ROM 15:1"/><verse number="2" style="v" sid="ROM 15:2"/>我们每个人都应该为他人着想，造就他人。 <verse eid="ROM 15:2"/><verse number="3" style="v" sid="ROM 15:3"/>因为基督并没有专顾自己，正如圣经上说：“辱骂你之人的辱骂都落在我身上。”<note caller="+" style="f"><char style="fr" closed="false">15:3 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 69:9">诗篇69:9</ref>。</char></char></note> <verse eid="ROM 15:3"/><verse number="4" style="v" sid="ROM 15:4"/>从前写在圣经上的话都是为了教导我们，使我们靠着忍耐和圣经的鼓励而有盼望。 <verse eid="ROM 15:4"/><verse number="5" style="v" sid="ROM 15:5"/>但愿赐忍耐和鼓励的上帝给你们合一的心，去效法基督耶稣的榜样， <verse eid="ROM 15:5"/><verse number="6" style="v" sid="ROM 15:6"/>使你们一起同声颂赞我们主耶稣基督的父上帝。<verse eid="ROM 15:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="ROM 15:7"/>所以，你们应该像基督接纳你们一样彼此接纳，使上帝得荣耀。 <verse eid="ROM 15:7"/><verse number="8" style="v" sid="ROM 15:8"/>我告诉你们，基督为了上帝的真理成为受割礼之人的仆人，好实现上帝对他们祖先的应许， <verse eid="ROM 15:8"/><verse number="9" style="v" sid="ROM 15:9"/>使外族人也因祂的怜悯而将荣耀归给上帝。正如圣经上说：</para>
+  <para style="q1" vid="ROM 15:9">“因此，我要在外族人中赞美你，</para>
+  <para style="q1" vid="ROM 15:9">歌颂你的名。”<note caller="+" style="f"><char style="fr" closed="false">15:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="2SA 22:50">撒母耳记下22:50</ref>；<ref loc="PSA 18:49">诗篇18:49</ref>。</char></char></note><verse eid="ROM 15:9"/></para>
+  <para style="m">
+    <verse number="10" style="v" sid="ROM 15:10"/>又说：</para>
+  <para style="q1" vid="ROM 15:10">“外族人啊，</para>
+  <para style="q1" vid="ROM 15:10">你们当与主的子民一同欢乐。”<note caller="+" style="f"><char style="fr" closed="false">15:10 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 32:43">申命记32:43</ref>。</char></char></note><verse eid="ROM 15:10"/></para>
+  <para style="m">
+    <verse number="11" style="v" sid="ROM 15:11"/>又说：</para>
+  <para style="q1" vid="ROM 15:11">“万邦啊，你们要赞美主！</para>
+  <para style="q1" vid="ROM 15:11">万民啊，你们要颂扬祂！”<note caller="+" style="f"><char style="fr" closed="false">15:11 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 117:1">诗篇117:1</ref>。</char></char></note><verse eid="ROM 15:11"/></para>
+  <para style="m">
+    <verse number="12" style="v" sid="ROM 15:12"/>
+    <char style="pn">以赛亚</char>先知也说：</para>
+  <para style="q1" vid="ROM 15:12">“将来<char style="pn">耶西</char>的根要兴起，</para>
+  <para style="q1" vid="ROM 15:12">祂要统治外族人，</para>
+  <para style="q1" vid="ROM 15:12">外族人都要仰望祂。”<note caller="+" style="f"><char style="fr" closed="false">15:12 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 11:10">以赛亚书11:10</ref>。</char></char></note><verse eid="ROM 15:12"/></para>
+  <para style="m">
+    <verse number="13" style="v" sid="ROM 15:13"/>愿使人有盼望的上帝，因为你们信祂，将诸般的喜乐和平安充满你们的心，使你们借着圣灵的能力充满盼望！<verse eid="ROM 15:13"/></para>
+  <para style="s1">福音特使</para>
+  <para style="p">
+    <verse number="14" style="v" sid="ROM 15:14"/>弟兄姊妹，我深信你们充满良善，知识全备，能彼此劝导。 <verse eid="ROM 15:14"/><verse number="15" style="v" sid="ROM 15:15"/>但我仍放胆写信提醒你们几件事，因为我蒙上帝赐恩， <verse eid="ROM 15:15"/><verse number="16" style="v" sid="ROM 15:16"/>在外族人中做基督耶稣的仆人和上帝福音的祭司，好叫外族人借着圣灵得以圣洁，可以作上帝喜悦的祭物。 <verse eid="ROM 15:16"/><verse number="17" style="v" sid="ROM 15:17"/>因此，我在基督耶稣里以事奉上帝为荣。 <verse eid="ROM 15:17"/><verse number="18-19" style="v" sid="ROM 15:18-19"/>别的事我不敢提，只提基督借着我的言语行为，用神迹奇事和圣灵的大能叫外族人顺服，使我把基督的福音从<char style="pn">耶路撒冷</char>一直传到了<char style="pn">以利哩古</char>。 <verse eid="ROM 15:18-19"/><verse number="20" style="v" sid="ROM 15:20"/>我立志只去从未听过基督之名的地方传福音，免得我建造在别人的根基上。 <verse eid="ROM 15:20"/><verse number="21" style="v" sid="ROM 15:21"/>正如圣经上说：“对祂毫无所闻的，将要看见；未曾听过的，将要明白。”<note caller="+" style="f"><char style="fr" closed="false">15:21 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 52:15">以赛亚书52:15</ref>。</char></char></note><verse eid="ROM 15:21"/></para>
+  <para style="s1">保罗计划去罗马</para>
+  <para style="p">
+    <verse number="22" style="v" sid="ROM 15:22"/>因此，我一直受到拦阻，不能去你们那里。 <verse eid="ROM 15:22"/><verse number="23" style="v" sid="ROM 15:23"/>如今，我已经把福音传遍了这一带，况且我几年来一直盼望去你们那里， <verse eid="ROM 15:23"/><verse number="24" style="v" sid="ROM 15:24"/>所以我想去西班牙的途中路过你们那里，稍作停留，享受与你们的相聚之乐，然后由你们资助我上路。 <verse eid="ROM 15:24"/><verse number="25" style="v" sid="ROM 15:25"/>但现在我要去<char style="pn">耶路撒冷</char>服侍当地的圣徒， <verse eid="ROM 15:25"/><verse number="26" style="v" sid="ROM 15:26"/>因为<char style="pn">马其顿</char>和<char style="pn">亚该亚</char>的教会欣然捐了财物给<char style="pn">耶路撒冷</char>的穷困圣徒。 <verse eid="ROM 15:26"/><verse number="27" style="v" sid="ROM 15:27"/>这固然是他们慷慨解囊，但也可以说是他们该还的债。外族人既然分享了<char style="pn">犹太</char>圣徒属灵的福分，现在以物质报答他们也是应该的。 <verse eid="ROM 15:27"/><verse number="28" style="v" sid="ROM 15:28"/>等我办完这件事，将捐款交付他们之后，我就会途经你们那里去<char style="pn">西班牙</char>。 <verse eid="ROM 15:28"/><verse number="29" style="v" sid="ROM 15:29"/>我知道我去的时候，必把基督丰盛的恩福带给你们。<verse eid="ROM 15:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="ROM 15:30"/>弟兄姊妹，我借着我们主耶稣基督和圣灵所赐的爱心，恳求你们与我一同竭力祷告，为我祈求上帝， <verse eid="ROM 15:30"/><verse number="31" style="v" sid="ROM 15:31"/>使我脱离<char style="pn">犹太</char>地区不信之人的迫害，叫<char style="pn">耶路撒冷</char>的圣徒乐意接受我带去的捐款， <verse eid="ROM 15:31"/><verse number="32" style="v" sid="ROM 15:32"/>并使我按照上帝的旨意去与你们欢聚，一同重新得力。<verse eid="ROM 15:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="ROM 15:33"/>愿赐平安的上帝常与你们众人同在。阿们！<verse eid="ROM 15:33"/></para>
+  <chapter eid="ROM 15"/>
+  <chapter number="16" style="c" sid="ROM 16"/>
+  <para style="s1">介绍菲比</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ROM 16:1"/>现在我给你们推荐我们的姊妹<char style="pn">菲比</char>，她是<char style="pn">坚革哩</char>教会的女执事。 <verse eid="ROM 16:1"/><verse number="2" style="v" sid="ROM 16:2"/>请你们在主里照着做圣徒的本分接待她。无论她有什么需要，请你们帮助她，因为她帮助过许多人，也帮助过我。<verse eid="ROM 16:2"/></para>
+  <para style="s1">问候圣徒</para>
+  <para style="p">
+    <verse number="3" style="v" sid="ROM 16:3"/>请代我问候<char style="pn">百基拉</char>和<char style="pn">亚居拉</char>夫妇，他们是我在基督耶稣里的同工， <verse eid="ROM 16:3"/><verse number="4" style="v" sid="ROM 16:4"/>为了救我将生死置之度外。不但我感谢他们，就是外族人的教会也感谢他们。 <verse eid="ROM 16:4"/><verse number="5" style="v" sid="ROM 16:5"/>请问候在他们家中聚会的教会。请问候我所爱的<char style="pn">以拜尼土</char>，在<char style="pn">亚细亚</char>他第一个信从基督。 <verse eid="ROM 16:5"/><verse number="6" style="v" sid="ROM 16:6"/>请问候<char style="pn">玛丽亚</char>。她为你们多受劳苦。 <verse eid="ROM 16:6"/><verse number="7" style="v" sid="ROM 16:7"/>请问候<char style="pn">安多尼古</char>和<char style="pn">犹尼亚</char>，他们是我的亲人，曾与我一同坐牢，在使徒中很有名望，比我先信基督。 <verse eid="ROM 16:7"/><verse number="8" style="v" sid="ROM 16:8"/>请问候我在主里所爱的<char style="pn">暗伯利</char>。 <verse eid="ROM 16:8"/><verse number="9" style="v" sid="ROM 16:9"/>请问候在基督里与我同工的<char style="pn">耳巴奴</char>和我所爱的<char style="pn">士大古</char>。 <verse eid="ROM 16:9"/><verse number="10" style="v" sid="ROM 16:10"/>请问候<char style="pn">亚比利</char>，他在基督里曾受过考验。请问候<char style="pn">亚利多布</char>家里的人。 <verse eid="ROM 16:10"/><verse number="11" style="v" sid="ROM 16:11"/>请问候我的亲人<char style="pn">希罗天</char>。请问候<char style="pn">拿其数</char>家中的信徒。 <verse eid="ROM 16:11"/><verse number="12" style="v" sid="ROM 16:12"/>请问候<char style="pn">土非娜</char>和<char style="pn">土富撒</char>，她们都为主劳苦。请问候我所爱的<char style="pn">彼息</char>，她为主多受劳苦。 <verse eid="ROM 16:12"/><verse number="13" style="v" sid="ROM 16:13"/>请问候主所拣选的<char style="pn">鲁孚</char>，也问候他的母亲，他的母亲就是我的母亲。 <verse eid="ROM 16:13"/><verse number="14" style="v" sid="ROM 16:14"/>请问候<char style="pn">亚逊其土</char>、<char style="pn">弗勒干</char>、<char style="pn">黑米</char>、<char style="pn">八罗巴</char>、<char style="pn">黑马</char>和他们当中的其他弟兄姊妹。 <verse eid="ROM 16:14"/><verse number="15" style="v" sid="ROM 16:15"/>请问候<char style="pn">非罗罗古</char>、<char style="pn">犹利亚</char>、<char style="pn">尼利亚</char>和他的妹妹、<char style="pn">阿林巴</char>和他们那里的众圣徒。 <verse eid="ROM 16:15"/><verse number="16" style="v" sid="ROM 16:16"/>你们要以圣洁的吻彼此问候。基督的众教会都问候你们。<verse eid="ROM 16:16"/></para>
+  <para style="s1">提防悖逆者</para>
+  <para style="p">
+    <verse number="17" style="v" sid="ROM 16:17"/>弟兄姊妹，我劝你们要留意那些制造分裂和障碍、背离你们所学之道的人，你们要避开他们。 <verse eid="ROM 16:17"/><verse number="18" style="v" sid="ROM 16:18"/>他们并不是在事奉我们的主基督，只是为了满足自己的欲望，用花言巧语欺骗单纯幼稚的人。 <verse eid="ROM 16:18"/><verse number="19" style="v" sid="ROM 16:19"/>你们对主的顺服已人人皆知，我为你们高兴，我希望你们在好事上聪明，在坏事上无知。 <verse eid="ROM 16:19"/><verse number="20" style="v" sid="ROM 16:20"/>赐平安的上帝快要把撒旦践踏在你们脚下了。愿我们主耶稣的恩典与你们同在！<verse eid="ROM 16:20"/></para>
+  <para style="s1">其他人的问候</para>
+  <para style="p">
+    <verse number="21" style="v" sid="ROM 16:21"/>我的同工<char style="pn">提摩太</char>和我的亲人<char style="pn">路求</char>、<char style="pn">耶孙</char>和<char style="pn">所西巴德</char>问候你们。 <verse eid="ROM 16:21"/><verse number="22" style="v" sid="ROM 16:22"/>我这代笔写信的<char style="pn">德特</char>在主里问候你们。 <verse eid="ROM 16:22"/><verse number="23" style="v" sid="ROM 16:23"/>接待我也接待全教会的<char style="pn">该犹</char>问候你们。主管本城财政的<char style="pn">以拉都</char>问候你们，<char style="pn">括土</char>弟兄也问候你们。 <verse eid="ROM 16:23"/><verse number="24" style="v" sid="ROM 16:24"/>愿我们的主耶稣基督赐恩典给你们众人！阿们。<note caller="+" style="f"><char style="fr" closed="false">16:24 </char><char style="ft" closed="false">有古卷无24节。</char></note><verse eid="ROM 16:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="ROM 16:25"/>愿荣耀归于上帝！祂能按照我传讲的耶稣基督的福音，并通过启示万古隐藏的奥秘使你们刚强。 <verse eid="ROM 16:25"/><verse number="26" style="v" sid="ROM 16:26"/>按照永恒上帝的命令，这奥秘如今已经显明出来，并借着先知们所写的经书公诸于世，让万族的人都信从耶稣基督。 <verse eid="ROM 16:26"/><verse number="27" style="v" sid="ROM 16:27"/>愿荣耀借着耶稣基督归于独一全智的上帝，直到永远。阿们！<verse eid="ROM 16:27"/></para>
+  <chapter eid="ROM 16"/>
+</usx>

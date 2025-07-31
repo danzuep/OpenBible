@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="1CO" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">哥林多前书</para>
+  <para style="toc1">哥林多前书</para>
+  <para style="toc2">哥林多前书</para>
+  <para style="toc3">林前</para>
+  <para style="mt1">哥林多前书</para>
+  <chapter number="1" style="c" sid="1CO 1"/>
+  <para style="s1">问候</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 1:1"/>我是按上帝旨意蒙召做基督耶稣使徒的<char style="pn">保罗</char>，同<char style="pn">所提尼</char>弟兄， <verse eid="1CO 1:1"/><verse number="2" style="v" sid="1CO 1:2"/>写信给在<char style="pn">哥林多</char>的上帝的教会，就是在基督耶稣里得以圣洁、蒙召做圣徒的，以及各地求告我们主耶稣基督之名的人。基督是他们的主，也是我们的主。<verse eid="1CO 1:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="1CO 1:3"/>愿我们的父上帝和主耶稣基督赐给你们恩典和平安！<verse eid="1CO 1:3"/></para>
+  <para style="s1">保罗的感恩</para>
+  <para style="p">
+    <verse number="4" style="v" sid="1CO 1:4"/>我常常为你们感谢我的上帝，因为祂在基督耶稣里赐给了你们恩典， <verse eid="1CO 1:4"/><verse number="5" style="v" sid="1CO 1:5"/>使你们在基督里凡事富足，口才与知识兼备。 <verse eid="1CO 1:5"/><verse number="6" style="v" sid="1CO 1:6"/>这样，我为基督所做的见证就在你们身上得到了印证。 <verse eid="1CO 1:6"/><verse number="7" style="v" sid="1CO 1:7"/>因此，你们在热切等候我们的主耶稣基督再来期间，并不缺少任何属灵的恩赐。 <verse eid="1CO 1:7"/><verse number="8" style="v" sid="1CO 1:8"/>我们的主耶稣基督必扶持你们到底，使你们在祂再来的日子无可指责。 <verse eid="1CO 1:8"/><verse number="9" style="v" sid="1CO 1:9"/>上帝是信实的，祂呼召你们是要你们与祂的儿子——我们的主耶稣基督相交。<verse eid="1CO 1:9"/></para>
+  <para style="s1">信徒要同心合意</para>
+  <para style="p">
+    <verse number="10" style="v" sid="1CO 1:10"/>亲爱的弟兄姊妹，我奉主耶稣基督的名劝你们，要同心合意，不可结党纷争，要团结一致， <verse eid="1CO 1:10"/><verse number="11" style="v" sid="1CO 1:11"/>因为<char style="pn">革来</char>家的人把各位弟兄姊妹的事情告诉了我，说你们中间有纷争。 <verse eid="1CO 1:11"/><verse number="12" style="v" sid="1CO 1:12"/>我的意思是你们有人说：“我是跟随<char style="pn">保罗</char>的”，有人说：“我是跟随<char style="pn">亚波罗</char>的”，有人说：“我是跟随<char style="pn">矶法</char><note caller="+" style="f"><char style="fr" closed="false">1:12 </char><char style="ft" closed="false">即“彼得”，下同。</char></note>的”，有人说：“我是跟随基督的”。 <verse eid="1CO 1:12"/><verse number="13" style="v" sid="1CO 1:13"/>难道基督是分成几派的吗？替你们钉十字架的是<char style="pn">保罗</char>吗？你们是奉<char style="pn">保罗</char>的名受洗的吗？<verse eid="1CO 1:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="1CO 1:14"/>感谢上帝，除了<char style="pn">基利司布</char>和<char style="pn">该犹</char>以外，我没有为你们任何人施洗， <verse eid="1CO 1:14"/><verse number="15" style="v" sid="1CO 1:15"/>所以没有人能说是奉我的名受洗的。 <verse eid="1CO 1:15"/><verse number="16" style="v" sid="1CO 1:16"/>不错，我也曾为<char style="pn">司提法纳</char>的家人施洗，除此以外，我不记得还为谁施洗了。 <verse eid="1CO 1:16"/><verse number="17" style="v" sid="1CO 1:17"/>基督差遣我不是去为人施洗，而是去传扬福音，并且不用智言慧语，免得基督十字架的能力被抹杀。<verse eid="1CO 1:17"/></para>
+  <para style="s1">上帝的智慧</para>
+  <para style="p">
+    <verse number="18" style="v" sid="1CO 1:18"/>因为十字架之道在将要灭亡的人看来是愚昧的，但对我们这些得救的人来说却是上帝的大能， <verse eid="1CO 1:18"/><verse number="19" style="v" sid="1CO 1:19"/>正如圣经上说：“我要摧毁智者的智慧，废弃明哲的聪明。”<note caller="+" style="f"><char style="fr" closed="false">1:19 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 29:14">以赛亚书29:14</ref>。</char></char></note><verse eid="1CO 1:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="1CO 1:20"/>这个世代所谓的智者、学者、雄辩家在哪里？上帝岂不是把这世上的智慧都变成愚昧了吗？ <verse eid="1CO 1:20"/><verse number="21" style="v" sid="1CO 1:21"/>上帝运用自己的智慧不让世人凭世上的智慧去认识祂，祂乐意采用世人看为愚昧的讲道去拯救那些相信的人。<verse eid="1CO 1:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="1CO 1:22"/>
+    <char style="pn">犹太</char>人要看神迹，<char style="pn">希腊</char>人寻求智慧， <verse eid="1CO 1:22"/><verse number="23" style="v" sid="1CO 1:23"/>但我们传讲被钉十字架的基督。这对<char style="pn">犹太</char>人来说是绊脚石，对外族人来说是愚昧的。 <verse eid="1CO 1:23"/><verse number="24" style="v" sid="1CO 1:24"/>但对于蒙召的人来说，无论是<char style="pn">犹太</char>人还是<char style="pn">希腊</char>人，基督是上帝的能力、上帝的智慧。 <verse eid="1CO 1:24"/><verse number="25" style="v" sid="1CO 1:25"/>因为上帝的“愚昧”也胜过世人的智慧，上帝的“软弱”也胜过世人的刚强。<verse eid="1CO 1:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="1CO 1:26"/>弟兄姊妹，想想你们蒙召时的情形。按人的标准来衡量，你们当中称得上有智慧的不多，有能力的不多，出身名门望族的也不多。 <verse eid="1CO 1:26"/><verse number="27" style="v" sid="1CO 1:27"/>但上帝拣选了世上愚昧的，要使智者羞愧；上帝拣选了世上软弱的，要使强者羞愧； <verse eid="1CO 1:27"/><verse number="28" style="v" sid="1CO 1:28"/>上帝拣选了世上卑贱的、被藐视的和无足轻重的，要使世人看为举足轻重的变得无足轻重。 <verse eid="1CO 1:28"/><verse number="29" style="v" sid="1CO 1:29"/>这样，谁都不能在上帝面前自夸了。<verse eid="1CO 1:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="1CO 1:30"/>上帝使你们活在基督耶稣里，祂使基督耶稣成为我们的智慧、公义、圣洁和救赎。 <verse eid="1CO 1:30"/><verse number="31" style="v" sid="1CO 1:31"/>所以，正如圣经上说：“要夸耀，就当夸耀主的作为。”<note caller="+" style="f"><char style="fr" closed="false">1:31 </char><char style="ft" closed="false"><char style="xt"><ref loc="JER 9:24">耶利米书9:24</ref>。</char></char></note><verse eid="1CO 1:31"/></para>
+  <chapter eid="1CO 1"/>
+  <chapter number="2" style="c" sid="1CO 2"/>
+  <para style="s1">信仰的基础</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 2:1"/>弟兄姊妹，我当初到你们那里传扬上帝的奥秘，并没有用高言大智。 <verse eid="1CO 2:1"/><verse number="2" style="v" sid="1CO 2:2"/>因为我已决定在你们当中不谈别的，只谈耶稣基督和祂被钉十字架的事。 <verse eid="1CO 2:2"/><verse number="3" style="v" sid="1CO 2:3"/>那时我在你们当中很软弱，害怕，战战兢兢。 <verse eid="1CO 2:3"/><verse number="4" style="v" sid="1CO 2:4"/>我说话、讲道不是靠充满智慧的雄辩之词，而是靠圣灵的能力作明证， <verse eid="1CO 2:4"/><verse number="5" style="v" sid="1CO 2:5"/>好使你们的信仰不是以人的智慧为基础，而是以上帝的能力为基础。<verse eid="1CO 2:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="1CO 2:6"/>当然我们也跟成熟的人谈论智慧，不过并非这个世代的智慧，也不是那些在世上当权、将要衰亡之人的智慧。 <verse eid="1CO 2:6"/><verse number="7" style="v" sid="1CO 2:7"/>我们所讲的是上帝隐藏在奥秘中的智慧，是祂为了使我们得荣耀而在万世以前定好的智慧。 <verse eid="1CO 2:7"/><verse number="8" style="v" sid="1CO 2:8"/>只可惜世上当权的人没有一个明白这智慧。他们要是明白，就不会把荣耀的主钉在十字架上了。 <verse eid="1CO 2:8"/><verse number="9" style="v" sid="1CO 2:9"/>正如圣经上说：</para>
+  <para style="q1" vid="1CO 2:9">“上帝为爱祂的人所预备的，</para>
+  <para style="q1" vid="1CO 2:9">是眼睛未曾见过，</para>
+  <para style="q1" vid="1CO 2:9">耳朵未曾听闻，</para>
+  <para style="q1" vid="1CO 2:9">人心也未曾想到的。”<note caller="+" style="f"><char style="fr" closed="false">2:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 64:4">以赛亚书64:4</ref>。</char></char></note><verse eid="1CO 2:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="1CO 2:10"/>然而，上帝借着圣灵将这一切启示给我们，因为圣灵洞悉万事，连上帝深奥的事都了如指掌。 <verse eid="1CO 2:10"/><verse number="11" style="v" sid="1CO 2:11"/>除了人里面的灵，谁能了解人的事呢？照样，除了上帝的灵，谁也不能了解上帝的事。 <verse eid="1CO 2:11"/><verse number="12" style="v" sid="1CO 2:12"/>我们接受的不是这世界的灵，而是上帝的灵，使我们可以领会上帝慷慨赐给我们的一切。 <verse eid="1CO 2:12"/><verse number="13" style="v" sid="1CO 2:13"/>我们讲述这些事，不是用人类智慧所教的话，而是用圣灵所教的话，用属灵的话解释属灵的事<note caller="+" style="f"><char style="fr" closed="false">2:13 </char><char style="ft" closed="false">“用属灵的话解释属灵的事”或译“向属灵的人解释属灵的事”。</char></note>。<verse eid="1CO 2:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="1CO 2:14"/>然而，属血气的人不接受从上帝的灵而来的教导，认为愚不可及，无法明白，因为只有属灵的人才能参透。 <verse eid="1CO 2:14"/><verse number="15" style="v" sid="1CO 2:15"/>属灵的人能够参透万事，但没有人能参透他。<verse eid="1CO 2:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="1CO 2:16"/>“谁曾知道主的心意，</para>
+  <para style="q1" vid="1CO 2:16">能够指教祂呢？”<note caller="+" style="f"><char style="fr" closed="false">2:16 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 40:13">以赛亚书40:13</ref>。</char></char></note></para>
+  <para style="m" vid="1CO 2:16">但我们明白基督的心意。<verse eid="1CO 2:16"/></para>
+  <chapter eid="1CO 2"/>
+  <chapter number="3" style="c" sid="1CO 3"/>
+  <para style="s1">同是上帝的仆人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 3:1"/>弟兄姊妹，以前我对你们讲话的时候，还不能把你们看作属灵的人，只能把你们看作属肉体的人，是在基督里的婴孩。 <verse eid="1CO 3:1"/><verse number="2" style="v" sid="1CO 3:2"/>我只能用奶而不能用饭来喂养你们，因为你们当时不能消化，甚至现在也不能。 <verse eid="1CO 3:2"/><verse number="3" style="v" sid="1CO 3:3"/>你们仍是属肉体的人，因为你们中间有嫉妒、争斗。这岂不证明你们是属肉体的，行事为人和世人一样吗？ <verse eid="1CO 3:3"/><verse number="4" style="v" sid="1CO 3:4"/>你们有的说：“我是跟随<char style="pn">保罗</char>的”，有的说：“我是跟随<char style="pn">亚波罗</char>的”，这岂不证明你们和世人一样吗？<verse eid="1CO 3:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="1CO 3:5"/>
+    <char style="pn">亚波罗</char>算什么？<char style="pn">保罗</char>算什么？我们不过是上帝的仆人，各人照着主所赐的才干引导你们信靠上帝。 <verse eid="1CO 3:5"/><verse number="6" style="v" sid="1CO 3:6"/>我栽种，<char style="pn">亚波罗</char>浇灌，但使之生长的是上帝。 <verse eid="1CO 3:6"/><verse number="7" style="v" sid="1CO 3:7"/>所以栽种的和浇灌的都算不得什么，一切都在于使之生长的上帝。 <verse eid="1CO 3:7"/><verse number="8" style="v" sid="1CO 3:8"/>其实栽种的人和浇灌的人目标都一样，各人将按照自己的付出得报酬。 <verse eid="1CO 3:8"/><verse number="9" style="v" sid="1CO 3:9"/>因为我们是上帝的同工，你们是上帝的园地和建筑。<verse eid="1CO 3:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="1CO 3:10"/>我照着上帝赐给我的恩典，好像一位有智慧的建筑师打下了根基，然后让其他工人在上面建造。但每个人建造的时候要小心， <verse eid="1CO 3:10"/><verse number="11" style="v" sid="1CO 3:11"/>因为除了那已经奠定的根基耶稣基督以外，没有人能另立根基。 <verse eid="1CO 3:11"/><verse number="12" style="v" sid="1CO 3:12"/>人们用金、银、宝石、草、木或禾秸在这根基上建造， <verse eid="1CO 3:12"/><verse number="13" style="v" sid="1CO 3:13"/>每个人的工程将来都会显明出来，因为到了审判的日子，必用火试验各人工程的品质。 <verse eid="1CO 3:13"/><verse number="14" style="v" sid="1CO 3:14"/>人在这根基上所建造的工程若经得起考验，他必获得奖赏。 <verse eid="1CO 3:14"/><verse number="15" style="v" sid="1CO 3:15"/>人的工程若被烧毁了，他必遭受损失，自己虽然可以得救，却像火里逃生一样。<verse eid="1CO 3:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="1CO 3:16"/>岂不知你们就是上帝的殿，上帝的灵住在你们里面吗？ <verse eid="1CO 3:16"/><verse number="17" style="v" sid="1CO 3:17"/>若有人摧毁上帝的殿，上帝必摧毁那人，因为上帝的殿是神圣的，你们就是这殿。<verse eid="1CO 3:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="1CO 3:18"/>你们不要自欺。如果你们有人自以为在世上有智慧，他应当变成愚人，好成为真正的智者。 <verse eid="1CO 3:18"/><verse number="19" style="v" sid="1CO 3:19"/>因为这世上的智慧在上帝的眼中都是愚昧的，正如圣经上说：“上帝使智者中了自己的诡计。”<note caller="+" style="f"><char style="fr" closed="false">3:19 </char><char style="ft" closed="false"><char style="xt"><ref loc="JOB 5:13">约伯记5:13</ref>。</char></char></note> <verse eid="1CO 3:19"/><verse number="20" style="v" sid="1CO 3:20"/>又说：“主知道智者的思想虚妄。”<note caller="+" style="f"><char style="fr" closed="false">3:20 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 94:11">诗篇94:11</ref>。</char></char></note> <verse eid="1CO 3:20"/><verse number="21" style="v" sid="1CO 3:21"/>因此，谁都不要仗着人夸耀，因为万物都属于你们， <verse eid="1CO 3:21"/><verse number="22" style="v" sid="1CO 3:22"/>无论是<char style="pn">保罗</char>、<char style="pn">亚波罗</char>、<char style="pn">矶法</char>、世界、生命、死亡、现在的事或将来的事都属于你们， <verse eid="1CO 3:22"/><verse number="23" style="v" sid="1CO 3:23"/>你们属于基督，基督属于上帝。<verse eid="1CO 3:23"/></para>
+  <chapter eid="1CO 3"/>
+  <chapter number="4" style="c" sid="1CO 4"/>
+  <para style="s1">基督的使徒</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 4:1"/>因此，人应该把我们当作是基督的仆人，是上帝奥秘事的管家。 <verse eid="1CO 4:1"/><verse number="2" style="v" sid="1CO 4:2"/>对管家的要求是忠心。 <verse eid="1CO 4:2"/><verse number="3" style="v" sid="1CO 4:3"/>我对你们或别人给我的评价毫不介意，我也不评价我自己。 <verse eid="1CO 4:3"/><verse number="4" style="v" sid="1CO 4:4"/>就算我今日问心无愧，也不能自以为义，因为评价我的是主。 <verse eid="1CO 4:4"/><verse number="5" style="v" sid="1CO 4:5"/>所以，时候未到，不可妄下断语。到主耶稣再来的时候，祂会曝光暗中的隐情，揭开人心里的动机。到时候上帝会给各人应得的称赞。<verse eid="1CO 4:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="1CO 4:6"/>弟兄姊妹，为了你们的益处，我以自己和<char style="pn">亚波罗</char>作例子，好让你们效法我们不越过圣经的准则，免得有人自高自大、厚此薄彼。 <verse eid="1CO 4:6"/><verse number="7" style="v" sid="1CO 4:7"/>谁使你与众不同呢？你有哪一样不是领受的呢？既然一切都是领受的，你为什么还自夸，好像不是领受的？ <verse eid="1CO 4:7"/><verse number="8" style="v" sid="1CO 4:8"/>你们已经饱足了，富有了，不需要我们，自己已经做王了。我倒希望你们真的做王了，好让我们也和你们一同做王。 <verse eid="1CO 4:8"/><verse number="9" style="v" sid="1CO 4:9"/>我想，上帝把我们使徒排在队伍的末尾，好像被判死罪的囚犯，让我们成了一台戏，给宇宙观看，给天使和世人观看。<verse eid="1CO 4:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="1CO 4:10"/>我们为基督的缘故成了愚昧人，你们在基督里倒成了聪明人；我们软弱，你们倒刚强；你们受人尊敬，我们倒被人藐视。 <verse eid="1CO 4:10"/><verse number="11" style="v" sid="1CO 4:11"/>我们至今还是又饥又渴，衣不蔽体，遭受毒打，居无定所， <verse eid="1CO 4:11"/><verse number="12" style="v" sid="1CO 4:12"/>还要亲手劳作。我们被人咒骂，就为对方祝福；受人迫害，就逆来顺受； <verse eid="1CO 4:12"/><verse number="13" style="v" sid="1CO 4:13"/>被人毁谤，就好言相劝。人们至今仍将我们看作世上的废物，万物中的渣滓。<verse eid="1CO 4:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="1CO 4:14"/>我之所以写这些事，并非叫你们羞愧，而是像劝诫我亲爱的儿女一样劝诫你们。 <verse eid="1CO 4:14"/><verse number="15" style="v" sid="1CO 4:15"/>你们虽然在基督里有千万个导师，却没有许多父亲，因为我借着福音在基督耶稣里成为你们的父亲。 <verse eid="1CO 4:15"/><verse number="16" style="v" sid="1CO 4:16"/>所以，我劝你们效法我。 <verse eid="1CO 4:16"/><verse number="17" style="v" sid="1CO 4:17"/>正因如此，我派了<char style="pn">提摩太</char>去你们那里。他在主里忠心耿耿，是我所爱的孩子。他会提醒你们我在基督里如何行事为人，在各地、各教会如何教导人。<verse eid="1CO 4:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="1CO 4:18"/>你们当中有些人以为我不会再去你们那里，就傲慢自大起来。 <verse eid="1CO 4:18"/><verse number="19" style="v" sid="1CO 4:19"/>但主若许可，我会很快去你们那里。那时我要看看这些骄傲的人究竟是只会空谈，还是真有上帝的权能。 <verse eid="1CO 4:19"/><verse number="20" style="v" sid="1CO 4:20"/>因为上帝的国不在于空谈，而在于权能。 <verse eid="1CO 4:20"/><verse number="21" style="v" sid="1CO 4:21"/>到底你们要什么呢？要我带着刑杖去呢？还是要我带着温柔慈爱的心去呢？<verse eid="1CO 4:21"/></para>
+  <chapter eid="1CO 4"/>
+  <chapter number="5" style="c" sid="1CO 5"/>
+  <para style="s1">清除淫乱之罪</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 5:1"/>我听说在你们当中竟有人与继母乱伦。这种淫乱的事，就是连异教徒都做不出来。 <verse eid="1CO 5:1"/><verse number="2" style="v" sid="1CO 5:2"/>你们竟然还自高自大！难道你们不该痛心，把做这事的人从你们当中赶出去吗？ <verse eid="1CO 5:2"/><verse number="3" style="v" sid="1CO 5:3"/>现在，我虽然身在远方，心却在你们那里。我已经审判了做这事的人，就像亲自在场一样。 <verse eid="1CO 5:3"/><verse number="4" style="v" sid="1CO 5:4"/>你们奉我们主耶稣的名聚会时，我的心并我们主耶稣的权能也与你们同在。 <verse eid="1CO 5:4"/><verse number="5" style="v" sid="1CO 5:5"/>你们要把这人交给撒旦去毁坏他的肉体，好使这人的灵魂在主耶稣再来的日子可以得救。<verse eid="1CO 5:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="1CO 5:6"/>你们自夸不是好事，岂不知一点面酵能使整团面发起来吗？ <verse eid="1CO 5:6"/><verse number="7" style="v" sid="1CO 5:7"/>你们要把旧酵除掉，好成为真正无酵的新面团，因为我们逾越节的羔羊基督已经被献为祭了。 <verse eid="1CO 5:7"/><verse number="8" style="v" sid="1CO 5:8"/>所以，我们不可带着歹毒邪恶的旧酵守这逾越节，而要用纯洁真诚的无酵饼。<verse eid="1CO 5:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="1CO 5:9"/>我以前曾经写信吩咐你们，不可与淫乱的人交往。 <verse eid="1CO 5:9"/><verse number="10" style="v" sid="1CO 5:10"/>我的意思并不是指世上所有淫乱、贪婪、欺诈与祭拜偶像的人。那样的话，你们将不得不离开这个世界。 <verse eid="1CO 5:10"/><verse number="11" style="v" sid="1CO 5:11"/>我的意思是，若有人自称是信徒，却淫乱、贪婪、祭拜偶像、毁谤、酗酒、欺诈，你们不要和他们交往，甚至不要和他们一起吃饭。<verse eid="1CO 5:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="1CO 5:12"/>审判教会以外的人与我何干？然而，教会里面的人岂不是该由你们审判吗？ <verse eid="1CO 5:12"/><verse number="13" style="v" sid="1CO 5:13"/>上帝自会审判教会以外的人，你们要把那邪恶的人从你们当中赶出去。<note caller="+" style="f"><char style="fr" closed="false">5:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 13:15">申命记13:15</ref>；<ref loc="DEU 17:7">17:7</ref>；<ref loc="DEU 19:19">19:19</ref>；<ref loc="DEU 21:21">21:21</ref>；<ref loc="DEU 22:21">22:21</ref>、<ref loc="DEU 22:24">24</ref>；<ref loc="DEU 24:7">24:7</ref>。</char></char></note><verse eid="1CO 5:13"/></para>
+  <chapter eid="1CO 5"/>
+  <chapter number="6" style="c" sid="1CO 6"/>
+  <para style="s1">处理信徒之间的争执</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 6:1"/>你们中间发生了纠纷，不找圣徒审理，竟敢告到不义的人面前吗？ <verse eid="1CO 6:1"/><verse number="2" style="v" sid="1CO 6:2"/>难道你们不知道圣徒将来要审判这世界吗？既然这世界也要由你们审判，难道你们不能审理这些小事吗？ <verse eid="1CO 6:2"/><verse number="3" style="v" sid="1CO 6:3"/>岂不知我们将来要审判天使吗？何况今世的事呢？ <verse eid="1CO 6:3"/><verse number="4" style="v" sid="1CO 6:4"/>如果你们有什么纠纷，你们会指派不受教会敬重的人来审理吗？ <verse eid="1CO 6:4"/><verse number="5" style="v" sid="1CO 6:5"/>我说这些是要叫你们羞愧。难道你们当中没有一个有智慧的人可以审理弟兄姊妹之间的事吗？ <verse eid="1CO 6:5"/><verse number="6" style="v" sid="1CO 6:6"/>你们竟然弟兄告弟兄，还告到非信徒面前！<verse eid="1CO 6:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="1CO 6:7"/>你们互相指控，已经是很大的失败，为什么不能甘愿受欺负、吃点亏呢？ <verse eid="1CO 6:7"/><verse number="8" style="v" sid="1CO 6:8"/>你们反而欺负人、亏待人，而且欺负、亏待的是自己的弟兄姊妹。 <verse eid="1CO 6:8"/><verse number="9" style="v" sid="1CO 6:9"/>你们岂不知道不义的人不能承受上帝的国吗？不要自欺，一切淫乱的、拜偶像的、通奸的、变态的、同性恋的、 <verse eid="1CO 6:9"/><verse number="10" style="v" sid="1CO 6:10"/>偷窃的、贪婪的、酗酒的、毁谤的、欺诈的，都不能承受上帝的国。 <verse eid="1CO 6:10"/><verse number="11" style="v" sid="1CO 6:11"/>你们当中有些以前就是这样的人，但靠着主耶稣基督的名和我们上帝的灵，你们已经被洗净、得以圣洁、被称为义人了。<verse eid="1CO 6:11"/></para>
+  <para style="s1">远离淫乱的行为</para>
+  <para style="p">
+    <verse number="12" style="v" sid="1CO 6:12"/>“凡事我都可以做”，但并非事事都有益处；“凡事我都可以做”，但我不受任何事的辖制。 <verse eid="1CO 6:12"/><verse number="13" style="v" sid="1CO 6:13"/>食物是为了肚腹，肚腹也是为了食物，但将来上帝要把这两样都废弃。身体不是用来行淫的，而是为了主，主也是为了身体。 <verse eid="1CO 6:13"/><verse number="14" style="v" sid="1CO 6:14"/>上帝已经使主复活了，将来也会用祂的大能使我们复活。<verse eid="1CO 6:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="1CO 6:15"/>难道你们不知道你们的身体就是基督的肢体吗？我能将基督的肢体与妓女的肢体联合吗？绝对不能！ <verse eid="1CO 6:15"/><verse number="16" style="v" sid="1CO 6:16"/>你们不知道与妓女苟合，就是和她成为一体吗？因为主说：“二人要成为一体。”<note caller="+" style="f"><char style="fr" closed="false">6:16 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 2:24">创世记2:24</ref>。</char></char></note> <verse eid="1CO 6:16"/><verse number="17" style="v" sid="1CO 6:17"/>然而，与主联合就是与祂合为一灵。<verse eid="1CO 6:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="1CO 6:18"/>你们务要远离淫乱的行为。人无论犯什么样的罪，都是在身体以外，唯独淫乱的，是得罪自己的身体。 <verse eid="1CO 6:18"/><verse number="19" style="v" sid="1CO 6:19"/>岂不知你们的身体就是圣灵的殿吗？你们里面住着上帝所赐的圣灵。你们不再属于自己， <verse eid="1CO 6:19"/><verse number="20" style="v" sid="1CO 6:20"/>因为你们是上帝用重价买来的，所以你们要用自己的身体荣耀祂。<verse eid="1CO 6:20"/></para>
+  <chapter eid="1CO 6"/>
+  <chapter number="7" style="c" sid="1CO 7"/>
+  <para style="s1">论婚姻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 7:1"/>关于你们信上所写的事，我认为男人不亲近女人是好的。 <verse eid="1CO 7:1"/><verse number="2" style="v" sid="1CO 7:2"/>不过，为了避免发生淫乱的事，男婚女嫁也合情合理。 <verse eid="1CO 7:2"/><verse number="3" style="v" sid="1CO 7:3"/>夫妻双方都应当尽自己的本分，过正常的夫妻生活。 <verse eid="1CO 7:3"/><verse number="4" style="v" sid="1CO 7:4"/>妻子无权支配自己的身体，丈夫才有权；丈夫也无权支配自己的身体，妻子才有权。 <verse eid="1CO 7:4"/><verse number="5" style="v" sid="1CO 7:5"/>夫妻不可彼此亏负，除非双方同意，才可以暂时分房，以便专心祈祷。以后，二人仍要恢复正常的夫妻生活，免得撒旦趁你们情不自禁的时候引诱你们。 <verse eid="1CO 7:5"/><verse number="6" style="v" sid="1CO 7:6"/>我这么说是准许你们这样做，并非命令你们。 <verse eid="1CO 7:6"/><verse number="7" style="v" sid="1CO 7:7"/>虽然我希望人人都像我一样独身，但每个人从上帝所领受的恩赐不同，有的是这样，有的是那样。<verse eid="1CO 7:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="1CO 7:8"/>至于那些未婚的和寡居的，他们若能像我一样就好了。 <verse eid="1CO 7:8"/><verse number="9" style="v" sid="1CO 7:9"/>但他们若不能自制，就应该结婚，因为与其欲火攻心还不如结婚为好。 <verse eid="1CO 7:9"/><verse number="10" style="v" sid="1CO 7:10"/>我也吩咐那些已婚的人，其实不是我吩咐，而是主吩咐：妻子不可离开丈夫， <verse eid="1CO 7:10"/><verse number="11" style="v" sid="1CO 7:11"/>若是离开了，不可再嫁别人，只能与丈夫复合。丈夫也不可离弃妻子。<verse eid="1CO 7:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="1CO 7:12"/>至于其他人，主没有吩咐什么，但我要说，如果某弟兄的妻子不信主，但乐意和他同住，他就不应离弃妻子。 <verse eid="1CO 7:12"/><verse number="13" style="v" sid="1CO 7:13"/>同样，如果某姊妹的丈夫不信主，但乐意和她同住，她就不应离弃丈夫。 <verse eid="1CO 7:13"/><verse number="14" style="v" sid="1CO 7:14"/>因为不信的丈夫因妻子而得以圣洁了。同样，不信的妻子也因丈夫而得以圣洁了。否则你们的孩子就是不洁净的，但如今他们是圣洁的。 <verse eid="1CO 7:14"/><verse number="15" style="v" sid="1CO 7:15"/>如果不信的一方坚持要离开的话，就遂其所愿吧。无论是弟兄或姊妹遇到这样的事情都不必勉强。上帝呼召我们，原是要我们和睦相处。 <verse eid="1CO 7:15"/><verse number="16" style="v" sid="1CO 7:16"/>你这做妻子的，怎么知道不能救你的丈夫呢？你这做丈夫的，怎么知道不能救你的妻子呢？<verse eid="1CO 7:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="1CO 7:17"/>各人应当依照上帝的呼召和安排生活，这是我对各教会的吩咐。 <verse eid="1CO 7:17"/><verse number="18" style="v" sid="1CO 7:18"/>如果蒙召时已经受了割礼，不必消除割礼；如果蒙召时没有受割礼，也不必去受割礼。 <verse eid="1CO 7:18"/><verse number="19" style="v" sid="1CO 7:19"/>受不受割礼都算不得什么，最要紧的是遵行上帝的诫命。 <verse eid="1CO 7:19"/><verse number="20" style="v" sid="1CO 7:20"/>各人应当保持自己蒙召时的身份。 <verse eid="1CO 7:20"/><verse number="21" style="v" sid="1CO 7:21"/>如果你蒙召时是奴隶，不必因此而烦恼。不过如果你可以获得自由，也不要放过机会。 <verse eid="1CO 7:21"/><verse number="22" style="v" sid="1CO 7:22"/>因为，蒙召信主时做奴隶的，现在是主的自由人；蒙召时做自由人的，现在是基督的奴仆。 <verse eid="1CO 7:22"/><verse number="23" style="v" sid="1CO 7:23"/>你们是主用重价买来的，不要做人的奴隶。 <verse eid="1CO 7:23"/><verse number="24" style="v" sid="1CO 7:24"/>弟兄姊妹，你们要在上帝面前保持自己蒙召时的身份。<verse eid="1CO 7:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="1CO 7:25"/>关于独身的问题，主并没有给我任何命令，但我既然深受主恩，成为祂忠心的仆人，就向你们提供一些意见。<verse eid="1CO 7:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="1CO 7:26"/>鉴于目前时势艰难，我认为各人最好是安于现状。 <verse eid="1CO 7:26"/><verse number="27" style="v" sid="1CO 7:27"/>已经有妻子的，就不要设法摆脱她；还没有妻子的，就不要想着结婚。 <verse eid="1CO 7:27"/><verse number="28" style="v" sid="1CO 7:28"/>男婚女嫁并不是犯罪，只是有家室的人总免不了许多人生的苦恼，我是盼望你们能够免去这些苦恼。<verse eid="1CO 7:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="1CO 7:29"/>弟兄们，我告诉你们，时日不多了，从今以后，那些有妻子的，要像没有妻子的； <verse eid="1CO 7:29"/><verse number="30" style="v" sid="1CO 7:30"/>哭泣的，要像不哭泣的；欢喜的，要像不欢喜的；置办家业的，要像一无所有的。 <verse eid="1CO 7:30"/><verse number="31" style="v" sid="1CO 7:31"/>享用世界之物的，不要沉溺其中。因为现今的世界很快就要过去了。<verse eid="1CO 7:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="1CO 7:32"/>我希望你们无牵无挂。未婚的男子可以关心主的事，想着怎样讨主的喜悦。 <verse eid="1CO 7:32"/><verse number="33" style="v" sid="1CO 7:33"/>但已婚的男子关心世上的事，想着如何取悦妻子， <verse eid="1CO 7:33"/><verse number="34" style="v" sid="1CO 7:34"/>难免分心。没有丈夫的妇女和处女可以关心主的事，叫身体和心灵都圣洁；但已婚的妇女关心世上的事，想着如何取悦丈夫。 <verse eid="1CO 7:34"/><verse number="35" style="v" sid="1CO 7:35"/>我这样说是为了你们的好处，不是要束缚你们，而是要鼓励你们做合宜的事，好叫你们殷勤、专心事奉主。<verse eid="1CO 7:35"/></para>
+  <para style="p">
+    <verse number="36" style="v" sid="1CO 7:36"/>若有人觉得对待自己的未婚妻有不合宜之处，自己又情欲难禁，就成全他的心愿，让他们结婚吧！这并不算犯罪。 <verse eid="1CO 7:36"/><verse number="37" style="v" sid="1CO 7:37"/>如果这人心里确信自己没有结婚的需要，又能自己作主，打定主意不结婚，这样做也好。 <verse eid="1CO 7:37"/><verse number="38" style="v" sid="1CO 7:38"/>所以，与未婚妻完婚是对的，但不结婚则更好。<verse eid="1CO 7:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="1CO 7:39"/>丈夫还活着的时候，妻子必须忠于丈夫。如果丈夫去世了，她就自由了，可以再婚，只是要嫁给信主的弟兄。 <verse eid="1CO 7:39"/><verse number="40" style="v" sid="1CO 7:40"/>然而，照我的意见，她若能不再婚就更有福了。我想自己也是受了上帝的灵感动才说这番话的。<verse eid="1CO 7:40"/></para>
+  <chapter eid="1CO 7"/>
+  <chapter number="8" style="c" sid="1CO 8"/>
+  <para style="s1">祭偶像的食物</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 8:1"/>关于祭过偶像的食物，我们知道大家都有这方面的知识，但知识会使人自高，唯有爱心才能造就人。 <verse eid="1CO 8:1"/><verse number="2" style="v" sid="1CO 8:2"/>若有人自以为知道些什么，其实他仍未达到真正知道的地步。 <verse eid="1CO 8:2"/><verse number="3" style="v" sid="1CO 8:3"/>但如果有人爱上帝，这人是上帝所认识的。<verse eid="1CO 8:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="1CO 8:4"/>关于吃祭过偶像的食物，我们知道世上的偶像算不得什么，只有一位上帝，此外别无他神。 <verse eid="1CO 8:4"/><verse number="5" style="v" sid="1CO 8:5"/>虽然天上地上有许多被称为神明的，好像有许多神明、许多主， <verse eid="1CO 8:5"/><verse number="6" style="v" sid="1CO 8:6"/>但我们只有一位上帝，就是天父，祂是万物的源头，是我们的归宿。我们也只有一位主，就是耶稣基督，万物都是借着祂而存在，我们也是借着祂而存在。<verse eid="1CO 8:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="1CO 8:7"/>不过，并不是所有的人都有这种知识。有些人因为以前拜惯了偶像，现在吃到某些食物就觉得是祭过偶像的，良心因为不安而被玷污了。 <verse eid="1CO 8:7"/><verse number="8" style="v" sid="1CO 8:8"/>其实食物并不能使我们讨上帝喜悦，我们不吃也没有损失，吃了也不会更好。<verse eid="1CO 8:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="1CO 8:9"/>但你们要小心，不要让你们的自由绊倒那些软弱的人。 <verse eid="1CO 8:9"/><verse number="10" style="v" sid="1CO 8:10"/>如果有人看见你这明白以上道理的人竟然坐在偶像的庙中吃喝，他虽然良心不安，岂不还是会放胆吃祭过偶像的食物吗？ <verse eid="1CO 8:10"/><verse number="11" style="v" sid="1CO 8:11"/>这样，你的知识反而令那软弱的，就是基督舍命救回的弟兄姊妹受损。 <verse eid="1CO 8:11"/><verse number="12" style="v" sid="1CO 8:12"/>你们这样得罪弟兄姊妹，伤了他们脆弱的良心，就是得罪基督。 <verse eid="1CO 8:12"/><verse number="13" style="v" sid="1CO 8:13"/>所以，如果我吃某些食物会让我的弟兄在信仰上跌倒，我就情愿永远不吃<note caller="+" style="f"><char style="fr" closed="false">8:13 </char><char style="ft" closed="false">“不吃”希腊文是“不吃肉”。</char></note>，免得令他们跌倒。<verse eid="1CO 8:13"/></para>
+  <chapter eid="1CO 8"/>
+  <chapter number="9" style="c" sid="1CO 9"/>
+  <para style="s1">使徒的权利</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 9:1"/>我不是自由的吗？我不是使徒吗？我不是见过我们的主耶稣吗？你们不是我在主里工作的成果吗？ <verse eid="1CO 9:1"/><verse number="2" style="v" sid="1CO 9:2"/>即使对别人来说我不是使徒，对你们来说我也是使徒，因为你们就是我在主里做使徒的印证。<verse eid="1CO 9:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="1CO 9:3"/>对那些责难我的人，我的答复是这样： <verse eid="1CO 9:3"/><verse number="4" style="v" sid="1CO 9:4"/>难道我们没有权利接受弟兄姊妹供应的饮食吗？ <verse eid="1CO 9:4"/><verse number="5" style="v" sid="1CO 9:5"/>难道我们没有权利像主的兄弟、<char style="pn">矶法</char>和其他使徒一样，带着信主的妻子一同出入吗？ <verse eid="1CO 9:5"/><verse number="6" style="v" sid="1CO 9:6"/>难道只有我和<char style="pn">巴拿巴</char>要自食其力吗？ <verse eid="1CO 9:6"/><verse number="7" style="v" sid="1CO 9:7"/>有谁当兵要自备粮饷呢？有谁栽种葡萄园，却不吃园中出产的葡萄呢？有谁牧养牛羊，却不喝牛羊的奶呢？<verse eid="1CO 9:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="1CO 9:8"/>我这样说难道只是人的观点吗？律法不也是这样说的吗？ <verse eid="1CO 9:8"/><verse number="9" style="v" sid="1CO 9:9"/><char style="pn">摩西</char>的律法书上说：“牛在踩谷时，不可笼住它的嘴。”<note caller="+" style="f"><char style="fr" closed="false">9:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 25:4">申命记25:4</ref>。</char></char></note>难道上帝关心的只是牛吗？ <verse eid="1CO 9:9"/><verse number="10" style="v" sid="1CO 9:10"/>祂这样说难道不是为了我们吗？这话的确是为我们写的，因为耕耘的和打谷的农夫都应该存着分享收成的盼望劳作。 <verse eid="1CO 9:10"/><verse number="11" style="v" sid="1CO 9:11"/>我们在你们中间既然撒下了属灵的种子，难道就不能从你们那里收获物质上的供应吗？ <verse eid="1CO 9:11"/><verse number="12" style="v" sid="1CO 9:12"/>如果别人有权要求你们供应他们，我们岂不更有权吗？可是我们从来没有用过这权利，反而凡事忍耐，免得妨碍了基督的福音。<verse eid="1CO 9:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="1CO 9:13"/>你们难道不知道，在圣殿里事奉的人可以吃圣殿里的食物，在祭坛前事奉的人可以分享祭坛上的祭物吗？ <verse eid="1CO 9:13"/><verse number="14" style="v" sid="1CO 9:14"/>同样，主也曾吩咐：传福音的人理当借着福音得到生活的供应。<verse eid="1CO 9:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="1CO 9:15"/>但是，我完全没有使用这权利，如今我谈这些事，并不是要你们这样待我。因为我宁死也不要让人抹杀我所夸耀的。 <verse eid="1CO 9:15"/><verse number="16" style="v" sid="1CO 9:16"/>其实我传福音并没有什么可夸的，因为这是托付给我的任务，我不传福音就有祸了！ <verse eid="1CO 9:16"/><verse number="17" style="v" sid="1CO 9:17"/>我若甘心乐意地传福音，就可以得奖赏；我若不甘愿，责任也已经委托给我了。 <verse eid="1CO 9:17"/><verse number="18" style="v" sid="1CO 9:18"/>那么，我能得到什么奖赏呢？就是我可以把福音白白地传给人，不使用自己因传福音而应有的权利。<verse eid="1CO 9:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="1CO 9:19"/>我虽然是自由之身，不受任何人支配，但我甘愿成为众人的奴仆，为了要得到更多的人。 <verse eid="1CO 9:19"/><verse number="20" style="v" sid="1CO 9:20"/>面对<char style="pn">犹太</char>人我就做<char style="pn">犹太</char>人，为了要赢得<char style="pn">犹太</char>人。面对守律法的人，我这不受律法束缚的人就守律法，为了要赢得守律法的人。 <verse eid="1CO 9:20"/><verse number="21" style="v" sid="1CO 9:21"/>面对没有律法的人，我就像个没有律法的人，为了要赢得没有律法的人。其实我并非在上帝的律法之外，我是在基督的律法之下。 <verse eid="1CO 9:21"/><verse number="22" style="v" sid="1CO 9:22"/>面对软弱的人我就做软弱的人，为了要得软弱的人。面对什么人，我就做什么人，为了要尽可能地救一些人。 <verse eid="1CO 9:22"/><verse number="23" style="v" sid="1CO 9:23"/>我做的一切都是为了福音的缘故，为了要与人分享福音的祝福。<verse eid="1CO 9:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="1CO 9:24"/>你们不知道吗？在运动场上赛跑的人虽然个个都在跑，但冠军只有一个。同样，你们也要努力奔跑，好获得奖赏。 <verse eid="1CO 9:24"/><verse number="25" style="v" sid="1CO 9:25"/>参加比赛的选手都事事自制，以求赢得桂冠，但这桂冠终必朽坏，我们要赢得的却是永不朽坏的桂冠。 <verse eid="1CO 9:25"/><verse number="26" style="v" sid="1CO 9:26"/>因此，我奔跑不是漫无目标，我击拳不是打空气。 <verse eid="1CO 9:26"/><verse number="27" style="v" sid="1CO 9:27"/>我制服己身，掌控自己，免得我传福音给别人，自己却被淘汰了。<verse eid="1CO 9:27"/></para>
+  <chapter eid="1CO 9"/>
+  <chapter number="10" style="c" sid="1CO 10"/>
+  <para style="s1">前车之鉴</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 10:1"/>弟兄姊妹，我希望你们知道，我们的祖先曾经在云下，都曾经走过红海， <verse eid="1CO 10:1"/><verse number="2" style="v" sid="1CO 10:2"/>都在云下、在海中受洗跟从了<char style="pn">摩西</char>。 <verse eid="1CO 10:2"/><verse number="3" style="v" sid="1CO 10:3"/>他们都吃过同样的灵粮， <verse eid="1CO 10:3"/><verse number="4" style="v" sid="1CO 10:4"/>都喝过同样的灵水，因为他们从那与他们同行的属灵磐石中得水喝，那磐石就是基督。 <verse eid="1CO 10:4"/><verse number="5" style="v" sid="1CO 10:5"/>尽管如此，他们当中大多数人不讨上帝的喜悦，倒毙在旷野。<verse eid="1CO 10:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="1CO 10:6"/>如今这些事正好警戒我们，叫我们不要像他们那样贪恋罪恶。 <verse eid="1CO 10:6"/><verse number="7" style="v" sid="1CO 10:7"/>也不要祭拜偶像，像他们当中的人那样，正如圣经上说：“百姓坐下吃喝，起来狂欢。”<note caller="+" style="f"><char style="fr" closed="false">10:7 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 32:6">出埃及记32:6</ref>。</char></char></note> <verse eid="1CO 10:7"/><verse number="8" style="v" sid="1CO 10:8"/>我们也不要淫乱，像他们当中的人那样，结果一天就死了两万三千人。 <verse eid="1CO 10:8"/><verse number="9" style="v" sid="1CO 10:9"/>也不要试探主，像他们当中的人那样，结果被蛇咬死了。 <verse eid="1CO 10:9"/><verse number="10" style="v" sid="1CO 10:10"/>也不要发怨言，像他们当中的人那样，结果被灭命的天使毁灭了。 <verse eid="1CO 10:10"/><verse number="11" style="v" sid="1CO 10:11"/>发生在他们身上的这些事都是鉴戒，之所以记录下来是为了警戒我们这活在末世的人。 <verse eid="1CO 10:11"/><verse number="12" style="v" sid="1CO 10:12"/>所以，自以为站得稳的人要小心，免得跌倒。<verse eid="1CO 10:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="1CO 10:13"/>你们遇见的诱惑无非是人们常见的。上帝是信实的，祂绝不会让你们遇见无法抵挡的诱惑，祂必为你们开一条出路，使你们经得住诱惑。<verse eid="1CO 10:13"/></para>
+  <para style="s1">切勿祭拜偶像</para>
+  <para style="p">
+    <verse number="14" style="v" sid="1CO 10:14"/>所以，我亲爱的弟兄姊妹，你们要远避祭拜偶像的事。 <verse eid="1CO 10:14"/><verse number="15" style="v" sid="1CO 10:15"/>你们都是明白事理的人，可以判断我的话对不对。 <verse eid="1CO 10:15"/><verse number="16" style="v" sid="1CO 10:16"/>领圣餐时，我们为那福杯献上感谢，这不表示我们有份于基督的血吗？我们吃掰开的饼，这不表示我们有份于基督的身体吗？ <verse eid="1CO 10:16"/><verse number="17" style="v" sid="1CO 10:17"/>我们人数虽多，却同属一个身体，因为饼只有一个，我们同享一个饼。<verse eid="1CO 10:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="1CO 10:18"/>你们看<char style="pn">以色列</char>人<note caller="+" style="f"><char style="fr" closed="false">10:18 </char><char style="ft" closed="false">“以色列人”希腊文是“从血统上讲是以色列人”。</char></note>，那些吃祭物的难道不是有份于祭坛吗？ <verse eid="1CO 10:18"/><verse number="19" style="v" sid="1CO 10:19"/>我这话是什么意思呢？是说偶像和祭偶像的食物有什么特别吗？ <verse eid="1CO 10:19"/><verse number="20" style="v" sid="1CO 10:20"/>当然不是，我的意思是那些异教徒所献的祭是祭鬼魔的，而不是献给上帝的。我不愿意你们与鬼魔有任何关系。 <verse eid="1CO 10:20"/><verse number="21" style="v" sid="1CO 10:21"/>你们不能又喝主的杯又喝鬼魔的杯，不能又吃主的圣餐又吃祭鬼魔的食物。 <verse eid="1CO 10:21"/><verse number="22" style="v" sid="1CO 10:22"/>我们想惹主嫉妒吗？难道我们比祂更有能力吗？<verse eid="1CO 10:22"/></para>
+  <para style="s1">信徒的自由</para>
+  <para style="p">
+    <verse number="23" style="v" sid="1CO 10:23"/>凡事我都可以做，但并非事事都有益处；凡事我都可以行，但并非事事都造就人。 <verse eid="1CO 10:23"/><verse number="24" style="v" sid="1CO 10:24"/>无论是谁，不要求自己的好处，要求别人的好处。<verse eid="1CO 10:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="1CO 10:25"/>市场上卖的肉，你们都可以吃，不必为良心的缘故而询问什么， <verse eid="1CO 10:25"/><verse number="26" style="v" sid="1CO 10:26"/>因为大地和其中的万物都属于主。<note caller="+" style="f"><char style="fr" closed="false">10:26 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 24:1">诗篇24:1</ref>。</char></char></note> <verse eid="1CO 10:26"/><verse number="27" style="v" sid="1CO 10:27"/>如果有非信徒邀请你们吃饭，你们又愿意去，那么，只管吃桌上摆的食物，不必为良心的缘故而询问什么。 <verse eid="1CO 10:27"/><verse number="28" style="v" sid="1CO 10:28"/>不过，如果有人告诉你这些是献给偶像的祭物，你为了那告诉你的人和良心的缘故，就不要吃。 <verse eid="1CO 10:28"/><verse number="29" style="v" sid="1CO 10:29"/>不过我指的不是你的良心，而是那人的良心。也许有人说：“我的自由为什么要受别人的良心限制呢？ <verse eid="1CO 10:29"/><verse number="30" style="v" sid="1CO 10:30"/>我若存感恩的心吃，为什么还要受谴责呢？”<verse eid="1CO 10:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="1CO 10:31"/>所以，你们或吃或喝，无论做什么，都要为上帝的荣耀而做。 <verse eid="1CO 10:31"/><verse number="32" style="v" sid="1CO 10:32"/>不要成为<char style="pn">犹太</char>人、<char style="pn">希腊</char>人或上帝教会的绊脚石， <verse eid="1CO 10:32"/><verse number="33" style="v" sid="1CO 10:33"/>就像我凡事尽量让人满意，不求自己的好处，只求众人的好处，以便他们可以得救。<verse eid="1CO 10:33"/></para>
+  <chapter eid="1CO 10"/>
+  <chapter number="11" style="c" sid="1CO 11"/>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 11:1"/>你们要效法我，正如我效法基督一样。<verse eid="1CO 11:1"/></para>
+  <para style="s1">敬拜的礼仪</para>
+  <para style="p">
+    <verse number="2" style="v" sid="1CO 11:2"/>我赞赏你们，因为你们凡事都想到我，并坚守我传给你们的各种教导。<verse eid="1CO 11:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="1CO 11:3"/>我希望你们知道，基督是男人的头，丈夫是妻子的头，上帝是基督的头。 <verse eid="1CO 11:3"/><verse number="4" style="v" sid="1CO 11:4"/>男人在祷告和讲道时，若蒙着头，就是羞辱自己的头。 <verse eid="1CO 11:4"/><verse number="5" style="v" sid="1CO 11:5"/>但妇女在祷告和讲道时，若不蒙着头，就是羞辱自己的头，因为她就像剃光了头发一样。 <verse eid="1CO 11:5"/><verse number="6" style="v" sid="1CO 11:6"/>因此，妇女若不愿意把头蒙起来，就该把头发剪掉。她若觉得剪发或剃头是羞耻的，就应该蒙头。 <verse eid="1CO 11:6"/><verse number="7" style="v" sid="1CO 11:7"/>然而，男人不该蒙头，因为男人是上帝的形象和荣耀，而女人是男人的荣耀。 <verse eid="1CO 11:7"/><verse number="8" style="v" sid="1CO 11:8"/>因为男人并非出自女人，而女人却是出自男人。 <verse eid="1CO 11:8"/><verse number="9" style="v" sid="1CO 11:9"/>并且男人不是为女人而造的，女人却是为男人而造的。<verse eid="1CO 11:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="1CO 11:10"/>因此为了天使的缘故，女人在头上应该有顺服权柄的记号。 <verse eid="1CO 11:10"/><verse number="11" style="v" sid="1CO 11:11"/>不过在主里，女人不可没有男人，男人不可没有女人。 <verse eid="1CO 11:11"/><verse number="12" style="v" sid="1CO 11:12"/>因为女人从男人而来，男人又是女人生的，但万物都来自上帝。<verse eid="1CO 11:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="1CO 11:13"/>你们自行斟酌吧，女人向上帝祷告时不蒙头合适吗？ <verse eid="1CO 11:13"/><verse number="14" style="v" sid="1CO 11:14"/>按着人的天性，难道你们不知道男人留长发是他的羞辱， <verse eid="1CO 11:14"/><verse number="15" style="v" sid="1CO 11:15"/>女人留长发是她的荣耀吗？因为头发是用来给女人盖头的。 <verse eid="1CO 11:15"/><verse number="16" style="v" sid="1CO 11:16"/>如果有谁想反驳这些话，我只能说，这是我们和上帝的众教会向来遵守的规矩。<verse eid="1CO 11:16"/></para>
+  <para style="s1">守圣餐的规矩</para>
+  <para style="p">
+    <verse number="17" style="v" sid="1CO 11:17"/>现在我有话要吩咐你们，不是称赞你们，因为你们聚会不但无益，反而有害。 <verse eid="1CO 11:17"/><verse number="18" style="v" sid="1CO 11:18"/>首先，我听说你们在聚会的时候制造分裂，我相信这些话有几分真实。 <verse eid="1CO 11:18"/><verse number="19" style="v" sid="1CO 11:19"/>你们中间必然会有分裂的事，好显出谁是经得起考验的。<verse eid="1CO 11:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="1CO 11:20"/>你们聚会的时候，不是在吃主的晚餐。 <verse eid="1CO 11:20"/><verse number="21" style="v" sid="1CO 11:21"/>因为你们进餐的时候，各人只顾吃自己的，结果有些人挨饿，有些人醉酒。 <verse eid="1CO 11:21"/><verse number="22" style="v" sid="1CO 11:22"/>难道你们不能在家里吃喝吗？还是你们轻看上帝的教会，存心羞辱那些贫穷的弟兄姊妹呢？我该说什么呢？称赞你们吗？不可能！<verse eid="1CO 11:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="1CO 11:23"/>我把从主领受的传给了你们，就是：主耶稣被出卖的那天晚上，祂拿起饼来， <verse eid="1CO 11:23"/><verse number="24" style="v" sid="1CO 11:24"/>祝谢后掰开，说，“这是我为你们牺牲的身体，你们要这样做来记念我。” <verse eid="1CO 11:24"/><verse number="25" style="v" sid="1CO 11:25"/>饭后，祂照样拿起杯来，说，“这杯是用我的血立的新约。你们每逢喝的时候，要这样做来记念我。” <verse eid="1CO 11:25"/><verse number="26" style="v" sid="1CO 11:26"/>所以，每当你们吃这饼、喝这杯的时候，就是宣告主的死，一直到主再来。<verse eid="1CO 11:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="1CO 11:27"/>因此，无论是谁，若以不正确的心态吃主的饼、喝主的杯，就是得罪主的身体和主的血。 <verse eid="1CO 11:27"/><verse number="28" style="v" sid="1CO 11:28"/>所以，人要先自我省察，才可以吃这饼喝这杯。 <verse eid="1CO 11:28"/><verse number="29" style="v" sid="1CO 11:29"/>因为人若不顾这是主的身体，随便吃喝，就是自招审判。 <verse eid="1CO 11:29"/><verse number="30" style="v" sid="1CO 11:30"/>正因如此，你们当中有许多人身体软弱，疾病缠身，死亡的也不少。 <verse eid="1CO 11:30"/><verse number="31" style="v" sid="1CO 11:31"/>我们若先自我省察，就不会遭受审判了。 <verse eid="1CO 11:31"/><verse number="32" style="v" sid="1CO 11:32"/>主审判我们，是对我们的管教，免得我们和世人一同被定罪。<verse eid="1CO 11:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="1CO 11:33"/>因此，我的弟兄姊妹，当你们聚会吃圣餐时，要彼此等候。 <verse eid="1CO 11:33"/><verse number="34" style="v" sid="1CO 11:34"/>若有人饥饿，可以在家中先吃，免得你们聚会的时候自招审判。至于其余的事，等我到了以后再安排。<verse eid="1CO 11:34"/></para>
+  <chapter eid="1CO 11"/>
+  <chapter number="12" style="c" sid="1CO 12"/>
+  <para style="s1">圣灵的恩赐</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 12:1"/>弟兄姊妹，谈到圣灵的恩赐，我不希望你们无知。 <verse eid="1CO 12:1"/><verse number="2" style="v" sid="1CO 12:2"/>你们知道，自己在信主前曾受到迷惑和引诱去拜不会说话的偶像。 <verse eid="1CO 12:2"/><verse number="3" style="v" sid="1CO 12:3"/>因此我希望你们知道，一个被上帝的灵感动的人绝不会说“耶稣该受咒诅”；若不是受了圣灵的感动，没有人会说“耶稣是主”。<verse eid="1CO 12:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="1CO 12:4"/>恩赐各有不同，但圣灵是同一位。 <verse eid="1CO 12:4"/><verse number="5" style="v" sid="1CO 12:5"/>事奉各有不同，但主是同一位。 <verse eid="1CO 12:5"/><verse number="6" style="v" sid="1CO 12:6"/>工作各有不同，但上帝是同一位，祂在众人当中成就万事。 <verse eid="1CO 12:6"/><verse number="7" style="v" sid="1CO 12:7"/>圣灵给各人不同的恩赐为要使众人得益处。 <verse eid="1CO 12:7"/><verse number="8" style="v" sid="1CO 12:8"/>这人从圣灵领受智慧的话，那人从圣灵领受知识； <verse eid="1CO 12:8"/><verse number="9" style="v" sid="1CO 12:9"/>圣灵赐这人信心，赐那人医病的恩赐； <verse eid="1CO 12:9"/><verse number="10" style="v" sid="1CO 12:10"/>圣灵使这人能行神迹，使那人能做先知讲道；使这人能辨别诸灵，使那人能说方言<note caller="+" style="f"><char style="fr" closed="false">12:10 </char><char style="ft" closed="false">“方言”或译“语言”。</char></note>，又使另一人能翻译方言。 <verse eid="1CO 12:10"/><verse number="11" style="v" sid="1CO 12:11"/>这一切都是同一位圣灵所赐的，是祂按自己的旨意分别赐给各人的。<verse eid="1CO 12:11"/></para>
+  <para style="s1">同属一个身体</para>
+  <para style="p">
+    <verse number="12" style="v" sid="1CO 12:12"/>这如同一个身体有许多肢体，肢体虽多，仍同属一个身体。基督的身体也是这样。 <verse eid="1CO 12:12"/><verse number="13" style="v" sid="1CO 12:13"/>不论是<char style="pn">犹太</char>人或<char style="pn">希腊</char>人，是奴隶或自由人，我们都领受了同一位圣灵的洗礼，归入了同一个身体，同饮一位圣灵。<verse eid="1CO 12:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="1CO 12:14"/>人的身体并非只有一个肢体，而是由许多肢体组成的。 <verse eid="1CO 12:14"/><verse number="15" style="v" sid="1CO 12:15"/>如果脚说：“我不是手，所以我不属于身体”，难道它就因此不属于身体吗？ <verse eid="1CO 12:15"/><verse number="16" style="v" sid="1CO 12:16"/>如果耳朵说：“我不是眼睛，所以我不属于身体，”难道它就因此不属于身体吗？ <verse eid="1CO 12:16"/><verse number="17" style="v" sid="1CO 12:17"/>如果整个身体是一只眼睛，哪里有听觉呢？如果整个身体是一只耳朵，哪里有嗅觉呢？<verse eid="1CO 12:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="1CO 12:18"/>其实，上帝按自己的旨意将各个肢体安置在身体上了。 <verse eid="1CO 12:18"/><verse number="19" style="v" sid="1CO 12:19"/>全身如果只有一个肢体，还会是身体吗？ <verse eid="1CO 12:19"/><verse number="20" style="v" sid="1CO 12:20"/>如今肢体虽多，但身体只有一个。 <verse eid="1CO 12:20"/><verse number="21" style="v" sid="1CO 12:21"/>眼睛不能对手说：“我不需要你。”头也不能对脚说：“我不需要你。”<verse eid="1CO 12:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="1CO 12:22"/>相反，看起来不太重要的肢体其实是不可或缺的。 <verse eid="1CO 12:22"/><verse number="23" style="v" sid="1CO 12:23"/>我们认为身体上不体面的肢体，越要加以美化；不雅观的肢体，越要精心呵护。 <verse eid="1CO 12:23"/><verse number="24" style="v" sid="1CO 12:24"/>我们身上体面的肢体用不着美化。上帝把身体的各肢体安排在一起，使那些不体面的肢体更体面， <verse eid="1CO 12:24"/><verse number="25" style="v" sid="1CO 12:25"/>这样身体各肢体才可以彼此相顾，不会分门别类。 <verse eid="1CO 12:25"/><verse number="26" style="v" sid="1CO 12:26"/>如果一个肢体感到痛苦，全身也一同受苦。如果一个肢体得到荣耀，全身也一同喜乐。<verse eid="1CO 12:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="1CO 12:27"/>你们就是基督的身体，并且各自都是身体的肢体。 <verse eid="1CO 12:27"/><verse number="28" style="v" sid="1CO 12:28"/>上帝在教会中设立的第一是使徒，第二是先知，第三是教师，其次是行神迹的，然后是有医病恩赐的，帮助别人的，管理事务的，说各种方言的。 <verse eid="1CO 12:28"/><verse number="29" style="v" sid="1CO 12:29"/>岂是都做使徒吗？都做先知吗？都做教师吗？都行神迹吗？ <verse eid="1CO 12:29"/><verse number="30" style="v" sid="1CO 12:30"/>都有医病的恩赐吗？都会说方言吗？都会翻译方言吗？ <verse eid="1CO 12:30"/><verse number="31" style="v" sid="1CO 12:31"/>你们应该热心追求更大的恩赐。</para>
+  <para style="p" vid="1CO 12:31">现在，我要将一条奇妙无比的道路指示你们！<verse eid="1CO 12:31"/></para>
+  <chapter eid="1CO 12"/>
+  <chapter number="13" style="c" sid="1CO 13"/>
+  <para style="s1">爱的真谛</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 13:1"/>我就算能说人类和天使的各种语言，如果没有爱，也不过是咣咣作响的锣和钹。 <verse eid="1CO 13:1"/><verse number="2" style="v" sid="1CO 13:2"/>我就算能做先知讲道，又明白各种奥秘，而且知识渊博，甚至有移开山岭的信心，如果没有爱，也一无是处。 <verse eid="1CO 13:2"/><verse number="3" style="v" sid="1CO 13:3"/>我就算倾家荡产周济穷人，甚至舍己捐躯任人焚烧<note caller="+" style="f"><char style="fr" closed="false">13:3 </char><char style="ft" closed="false">“舍己捐躯任人焚烧”有古卷作“为了夸口而舍己捐躯”。</char></note>，如果没有爱，也一无所获。<verse eid="1CO 13:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="1CO 13:4"/>爱是恒久忍耐，又有恩慈；爱是不嫉妒，不自吹自擂，不骄傲自大， <verse eid="1CO 13:4"/><verse number="5" style="v" sid="1CO 13:5"/>不鲁莽无礼，不自私自利，不轻易动怒，不怀怨记恨， <verse eid="1CO 13:5"/><verse number="6" style="v" sid="1CO 13:6"/>不喜爱不义，只喜爱真理； <verse eid="1CO 13:6"/><verse number="7" style="v" sid="1CO 13:7"/>凡事能包容，凡事有信心，凡事有盼望，凡事能忍耐。<verse eid="1CO 13:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="1CO 13:8"/>爱永不止息。然而，先知讲道的恩赐终会过去，说方言的恩赐也会停止，知识也将成为过去。 <verse eid="1CO 13:8"/><verse number="9" style="v" sid="1CO 13:9"/>我们现在知道的有限，做先知所讲的也有限， <verse eid="1CO 13:9"/><verse number="10" style="v" sid="1CO 13:10"/>等那全备的来到，这有限的事都要被废弃。<verse eid="1CO 13:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="1CO 13:11"/>当我是小孩子的时候，我的思想、言语和推理都像小孩子，长大后，我就把一切幼稚的事丢弃了。 <verse eid="1CO 13:11"/><verse number="12" style="v" sid="1CO 13:12"/>如今我们好像对着镜子观看影像，模糊不清，但将来会面对面。现在我所知道的有限，但将来会完全知道，如同主知道我一样。<verse eid="1CO 13:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="1CO 13:13"/>如今常存的有信、望、爱这三样，其中最伟大的是爱。<verse eid="1CO 13:13"/></para>
+  <chapter eid="1CO 13"/>
+  <chapter number="14" style="c" sid="1CO 14"/>
+  <para style="s1">论讲道和说方言</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 14:1"/>你们要追求爱，也要切慕属灵的恩赐，尤其是做先知讲道的恩赐。 <verse eid="1CO 14:1"/><verse number="2" style="v" sid="1CO 14:2"/>人说方言，是对上帝说的，并非对人说的，因为没有人听得懂，他是在心灵里<note caller="+" style="f"><char style="fr" closed="false">14:2 </char><char style="ft" closed="false">“在心灵里”或译“借着圣灵”。</char></note>述说各种奥秘。 <verse eid="1CO 14:2"/><verse number="3" style="v" sid="1CO 14:3"/>但先知讲道是对人讲的，为了要造就、鼓励、安慰人。 <verse eid="1CO 14:3"/><verse number="4" style="v" sid="1CO 14:4"/>说方言只是造就自己，但做先知讲道是造就教会。 <verse eid="1CO 14:4"/><verse number="5" style="v" sid="1CO 14:5"/>我希望你们都能说方言，不过，我更希望你们都能做先知讲道。说方言的不如做先知讲道的重要，除非把方言翻译出来，使教会得造就。<verse eid="1CO 14:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="1CO 14:6"/>弟兄姊妹，我如果到你们那里只说方言，不讲解有关上帝的启示、知识、预言、教导，对你们有什么益处呢？ <verse eid="1CO 14:6"/><verse number="7" style="v" sid="1CO 14:7"/>就连没有生命的箫和琴，如果发出的声音杂乱无章，谁能知道所吹所弹的是什么曲子呢？ <verse eid="1CO 14:7"/><verse number="8" style="v" sid="1CO 14:8"/>如果号声不清楚，谁会预备打仗呢？ <verse eid="1CO 14:8"/><verse number="9" style="v" sid="1CO 14:9"/>同样，除非你们讲出清楚的信息，不然听见的人怎能明白呢？那岂不等于对空气说话吗？ <verse eid="1CO 14:9"/><verse number="10" style="v" sid="1CO 14:10"/>世上有各种语言，却没有一种是毫无意义的。 <verse eid="1CO 14:10"/><verse number="11" style="v" sid="1CO 14:11"/>如果有人对我说话，我却不明白他的语言，我们就成了彼此语言不通的人。 <verse eid="1CO 14:11"/><verse number="12" style="v" sid="1CO 14:12"/>你们也是一样，既然渴慕属灵的恩赐，就应该多多追求造就教会的恩赐。<verse eid="1CO 14:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="1CO 14:13"/>所以说方言的人应当祈求能把方言翻译出来。 <verse eid="1CO 14:13"/><verse number="14" style="v" sid="1CO 14:14"/>如果我用方言祷告，那是我的灵在祷告，但我的悟性没有发挥作用。 <verse eid="1CO 14:14"/><verse number="15" style="v" sid="1CO 14:15"/>那么，我该怎么做呢？我要用灵祷告，也要用悟性祷告；我要用灵歌唱，也要用悟性歌唱。 <verse eid="1CO 14:15"/><verse number="16" style="v" sid="1CO 14:16"/>否则，如果你在聚会中用方言<note caller="+" style="f"><char style="fr" closed="false">14:16 </char><char style="ft" closed="false">本处“方言”希腊文是“灵”。</char></note>来感恩，在座不懂方言的人不明白你在说些什么，怎能在你感恩的时候说“阿们”呢？ <verse eid="1CO 14:16"/><verse number="17" style="v" sid="1CO 14:17"/>你的感恩表达得固然美好，无奈不能造就别人。<verse eid="1CO 14:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="1CO 14:18"/>感谢上帝，我说方言比你们众人都多。 <verse eid="1CO 14:18"/><verse number="19" style="v" sid="1CO 14:19"/>但在教会中我宁可用悟性说五句教导人的话，胜过说万句别人不懂的方言。<verse eid="1CO 14:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="1CO 14:20"/>弟兄姊妹，你们的思想不要像小孩子，要长大成熟，但在罪恶的事上要像婴孩。 <verse eid="1CO 14:20"/><verse number="21" style="v" sid="1CO 14:21"/>律法书上记载：</para>
+  <para style="q1" vid="1CO 14:21">“主说，‘我要借着讲陌生语言的人和外邦人的口向这些子民说话。</para>
+  <para style="q1" vid="1CO 14:21">虽然如此，</para>
+  <para style="q1" vid="1CO 14:21">他们仍然不听从我。’<note caller="+" style="f"><char style="fr" closed="false">14:21 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 28:11">以赛亚书28:11</ref>、<ref loc="ISA 28:12">12</ref>。</char></char></note>”<verse eid="1CO 14:21"/></para>
+  <para style="m">
+    <verse number="22" style="v" sid="1CO 14:22"/>由此可见，讲方言不是显给信徒的标记，而是显给非信徒的标记；但先知讲道是显给信徒的标记，不是显给非信徒的标记。 <verse eid="1CO 14:22"/><verse number="23" style="v" sid="1CO 14:23"/>所以，如果聚会的时候，整个教会的人都说方言，偶然有不懂方言的人或非信徒进来，他们岂不会说你们全都疯了吗？ <verse eid="1CO 14:23"/><verse number="24" style="v" sid="1CO 14:24"/>但如果你们都做先知讲道，偶然有非信徒或是不懂方言的人进来，他会因所听的道而知罪，良心受到谴责， <verse eid="1CO 14:24"/><verse number="25" style="v" sid="1CO 14:25"/>心中的秘密也会显露出来，便俯伏敬拜上帝，说：“上帝真的在你们当中！”<verse eid="1CO 14:25"/></para>
+  <para style="s1">聚会的原则</para>
+  <para style="p">
+    <verse number="26" style="v" sid="1CO 14:26"/>那么，弟兄姊妹，你们该怎么做呢？你们聚会的时候，不管是唱诗、教导、讲启示、说方言或翻译方言，都应该是为了造就人。 <verse eid="1CO 14:26"/><verse number="27" style="v" sid="1CO 14:27"/>如果有人说方言，应该只限于两个人，最多三个，要轮流说，而且要有人把它翻译出来。 <verse eid="1CO 14:27"/><verse number="28" style="v" sid="1CO 14:28"/>如果没有人翻译，说方言的人就当在聚会中闭口不言，只向自己和上帝说。<verse eid="1CO 14:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="1CO 14:29"/>做先知讲道的也应该只限于两三个人，其他人应当慎思明辨。 <verse eid="1CO 14:29"/><verse number="30" style="v" sid="1CO 14:30"/>但如果上帝的启示临到在座的其他人，正在讲的人要停下来， <verse eid="1CO 14:30"/><verse number="31" style="v" sid="1CO 14:31"/>这样大家都可以轮流讲道，人人都可以得到教导和勉励。 <verse eid="1CO 14:31"/><verse number="32" style="v" sid="1CO 14:32"/>先知的灵受先知控制， <verse eid="1CO 14:32"/><verse number="33" style="v" sid="1CO 14:33"/>因为上帝不是叫人混乱的上帝，而是赐人安宁的上帝。</para>
+  <para style="p" vid="1CO 14:33">正如圣徒的各教会一样， <verse eid="1CO 14:33"/><verse number="34" style="v" sid="1CO 14:34"/>妇女<note caller="+" style="f"><char style="fr" closed="false">14:34 </char><char style="ft" closed="false">“妇女”也可译为“妻子”。</char></note>在聚会中要保持安静，因为她们不可发言，总要顺服，正如律法书所说的。 <verse eid="1CO 14:34"/><verse number="35" style="v" sid="1CO 14:35"/>她们如果想要学什么，可以在家问自己的丈夫，因为妇女在聚会中发言是可耻的。 <verse eid="1CO 14:35"/><verse number="36" style="v" sid="1CO 14:36"/>难道上帝的道是出自你们吗？难道上帝的道单单传给了你们吗？ <verse eid="1CO 14:36"/><verse number="37" style="v" sid="1CO 14:37"/>如果你们当中有人自认为是先知或属灵的人，他就应该知道我现在所写的是主的命令。 <verse eid="1CO 14:37"/><verse number="38" style="v" sid="1CO 14:38"/>如果有人对此视而不见，不必理会他。<verse eid="1CO 14:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="1CO 14:39"/>所以，我的弟兄姊妹，你们要切慕做先知讲道，也不要禁止说方言。 <verse eid="1CO 14:39"/><verse number="40" style="v" sid="1CO 14:40"/>但无论做什么事，都要按规矩，有次序。<verse eid="1CO 14:40"/></para>
+  <chapter eid="1CO 14"/>
+  <chapter number="15" style="c" sid="1CO 15"/>
+  <para style="s1">基督的复活</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 15:1"/>弟兄姊妹，我希望你们记住我传给你们的福音，就是你们所领受并向来坚持的福音。 <verse eid="1CO 15:1"/><verse number="2" style="v" sid="1CO 15:2"/>你们若持守我传给你们的，必因这福音而得救——除非你们没有真正相信。<verse eid="1CO 15:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="1CO 15:3"/>我所领受并传给你们的最重要的信息是：基督照圣经的记载为我们的罪死了， <verse eid="1CO 15:3"/><verse number="4" style="v" sid="1CO 15:4"/>然后被埋葬了；又照圣经的记载在第三天复活了， <verse eid="1CO 15:4"/><verse number="5" style="v" sid="1CO 15:5"/>并曾向<char style="pn">矶法</char>显现，又向十二使徒显现； <verse eid="1CO 15:5"/><verse number="6" style="v" sid="1CO 15:6"/>后来有一次向五百多位弟兄姊妹显现，其中有许多至今还健在，也有些已经安息了； <verse eid="1CO 15:6"/><verse number="7" style="v" sid="1CO 15:7"/>随后，祂向<char style="pn">雅各</char>显现，又向众使徒显现； <verse eid="1CO 15:7"/><verse number="8" style="v" sid="1CO 15:8"/>到最后，竟也向我这好像未按产期出生<note caller="+" style="f"><char style="fr" closed="false">15:8 </char><char style="ft" closed="false">保罗用“未按产期出生”来指自己非比寻常的蒙召经历。</char></note>的人显现。<verse eid="1CO 15:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="1CO 15:9"/>在众使徒中我最微不足道，根本不配称为使徒，因为我曾迫害上帝的教会。 <verse eid="1CO 15:9"/><verse number="10" style="v" sid="1CO 15:10"/>但靠着上帝的恩典，我成了今天的我，祂赐给我的恩典没有枉费。我比其他人更加劳苦，不过我不是靠自己，而是上帝的恩典与我同在。 <verse eid="1CO 15:10"/><verse number="11" style="v" sid="1CO 15:11"/>不论是我传的还是其他使徒传的，我们怎样传，你们也怎样相信了。<verse eid="1CO 15:11"/></para>
+  <para style="s1">死人复活</para>
+  <para style="p">
+    <verse number="12" style="v" sid="1CO 15:12"/>既然我们一直都在传扬基督已经从死里复活，怎么你们当中却有人否定死人复活的事呢？ <verse eid="1CO 15:12"/><verse number="13" style="v" sid="1CO 15:13"/>要是没有死人复活的事，基督也就没有复活。 <verse eid="1CO 15:13"/><verse number="14" style="v" sid="1CO 15:14"/>如果基督没有复活，我们所传的就是虚空，你们所信的也是虚空。 <verse eid="1CO 15:14"/><verse number="15" style="v" sid="1CO 15:15"/>而且，我们就是在为上帝做假见证，因为我们见证上帝已经使基督复活了。如果没有死人复活的事，上帝也就没有叫基督复活。 <verse eid="1CO 15:15"/><verse number="16" style="v" sid="1CO 15:16"/>如果人死了不会复活，基督也就没有复活。 <verse eid="1CO 15:16"/><verse number="17" style="v" sid="1CO 15:17"/>如果基督没有复活，你们的信仰就是虚空，你们依旧沉沦在罪中， <verse eid="1CO 15:17"/><verse number="18" style="v" sid="1CO 15:18"/>那些在基督里安息的人也灭亡了。 <verse eid="1CO 15:18"/><verse number="19" style="v" sid="1CO 15:19"/>如果我们对基督的盼望只在今世，我们就是世上最可怜的人。<verse eid="1CO 15:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="1CO 15:20"/>然而，基督已经从死里复活，祂是死人中第一个复活的<note caller="+" style="f"><char style="fr" closed="false">15:20 </char><char style="ft" closed="false">“是死人中第一个复活的”希腊文是“成为已经睡了之人初熟的果子”。</char></note>。 <verse eid="1CO 15:20"/><verse number="21" style="v" sid="1CO 15:21"/>既然死亡的到来是借着一人，复活的到来也是借着一人。 <verse eid="1CO 15:21"/><verse number="22" style="v" sid="1CO 15:22"/>因为正如在<char style="pn">亚当</char>里众人都死了，同样，在基督里众人也都要复活。 <verse eid="1CO 15:22"/><verse number="23" style="v" sid="1CO 15:23"/>然而，各人要按照先后次序复活。基督最先复活，以后祂再来时，属祂的人也要复活。 <verse eid="1CO 15:23"/><verse number="24" style="v" sid="1CO 15:24"/>最后末日来临，那时基督会废除一切执政的、掌权的、有能力的，将国度交给父上帝。 <verse eid="1CO 15:24"/><verse number="25" style="v" sid="1CO 15:25"/>因为基督必执掌王权，直到上帝将所有的仇敌都放在祂脚下。 <verse eid="1CO 15:25"/><verse number="26" style="v" sid="1CO 15:26"/>祂最后要毁灭的仇敌就是死亡。 <verse eid="1CO 15:26"/><verse number="27" style="v" sid="1CO 15:27"/>因为圣经上说：“上帝使万物降服在祂脚下。”<note caller="+" style="f"><char style="fr" closed="false">15:27 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 8:6">诗篇8:6</ref>。</char></char></note>当然，这里说的“万物都降服祂”不包括使万物降服祂的上帝。 <verse eid="1CO 15:27"/><verse number="28" style="v" sid="1CO 15:28"/>到了万物都降服基督以后，圣子基督也要归服那使万物降服祂的上帝，使上帝做万物的主宰。<verse eid="1CO 15:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="1CO 15:29"/>否则，那些人替死人受洗有什么意义呢？死人如果不会复活，为什么要替他们受洗呢？ <verse eid="1CO 15:29"/><verse number="30" style="v" sid="1CO 15:30"/>我们又何必时刻身临险境呢？ <verse eid="1CO 15:30"/><verse number="31" style="v" sid="1CO 15:31"/>我天天面对死亡。弟兄姊妹，我这样说，就跟我在主基督耶稣里以你们为荣一样，没有半点虚假。 <verse eid="1CO 15:31"/><verse number="32" style="v" sid="1CO 15:32"/>从人的角度看，我在<char style="pn">以弗所</char>与那些恶兽格斗对我有什么益处呢？如果死人不会复活，“让我们吃喝吧！因为明天我们就死了。”<note caller="+" style="f"><char style="fr" closed="false">15:32 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 22:13">以赛亚书22:13</ref>。</char></char></note> <verse eid="1CO 15:32"/><verse number="33" style="v" sid="1CO 15:33"/>你们不要上当受骗：“坏朋友会败坏好品德。” <verse eid="1CO 15:33"/><verse number="34" style="v" sid="1CO 15:34"/>你们该醒悟了！不要继续犯罪，因为你们当中有些人不认识上帝。我说这话是要叫你们羞愧。<verse eid="1CO 15:34"/></para>
+  <para style="s1">复活后的身体</para>
+  <para style="p">
+    <verse number="35" style="v" sid="1CO 15:35"/>也许有人会问：“死人怎样复活呢？复活后会有怎样的身体呢？” <verse eid="1CO 15:35"/><verse number="36" style="v" sid="1CO 15:36"/>无知的人啊！你们种下的种子必须先死，然后才能生长。 <verse eid="1CO 15:36"/><verse number="37" style="v" sid="1CO 15:37"/>而且，你们种下的并不是那将来要长成的形体，仅仅是种子，或麦种，或其他种子。 <verse eid="1CO 15:37"/><verse number="38" style="v" sid="1CO 15:38"/>上帝按自己的旨意赐给种子形体，每样种子都有自己的形体。 <verse eid="1CO 15:38"/><verse number="39" style="v" sid="1CO 15:39"/>血肉之体各不相同，人、兽、鸟、鱼都各有不同的形体。<verse eid="1CO 15:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="1CO 15:40"/>此外，有天上的形体，也有地上的形体，两者的荣光各不相同。 <verse eid="1CO 15:40"/><verse number="41" style="v" sid="1CO 15:41"/>日有日的荣光，月有月的荣光，星有星的荣光，这颗星和那颗星的荣光也有分别。<verse eid="1CO 15:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="1CO 15:42"/>死人复活也是同样的道理。种下去的会朽坏，复活的不会朽坏； <verse eid="1CO 15:42"/><verse number="43" style="v" sid="1CO 15:43"/>种下去的是羞耻的，复活的是荣耀的；种下去的是软弱的，复活的是刚强的； <verse eid="1CO 15:43"/><verse number="44" style="v" sid="1CO 15:44"/>种下去的是血肉之躯，复活的是属灵的形体。既有血肉之躯，也必有属灵的形体。 <verse eid="1CO 15:44"/><verse number="45" style="v" sid="1CO 15:45"/>圣经上也说：“第一个人<char style="pn">亚当</char>成了有生命的人”<note caller="+" style="f"><char style="fr" closed="false">15:45 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 2:7">创世记2:7</ref>。</char></char></note>，但末后的<char style="pn">亚当</char>是赐人生命的灵。 <verse eid="1CO 15:45"/><verse number="46" style="v" sid="1CO 15:46"/>先有的不是属灵的形体，而是血肉之躯，以后才有属灵的形体。 <verse eid="1CO 15:46"/><verse number="47" style="v" sid="1CO 15:47"/>第一个人<char style="pn">亚当</char>来自地上，是用尘土造的，但第二个人基督来自天上。 <verse eid="1CO 15:47"/><verse number="48" style="v" sid="1CO 15:48"/>尘土所造的那位是什么样，属地的人也是什么样；从天而来的那位是什么样，属天的人也是什么样。 <verse eid="1CO 15:48"/><verse number="49" style="v" sid="1CO 15:49"/>我们既然有属地的形象，将来也必有属天的形象。<verse eid="1CO 15:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="1CO 15:50"/>弟兄姊妹，我告诉你们，血肉之躯不能承受上帝的国，必朽坏的身体也不能承受永不朽坏的产业。 <verse eid="1CO 15:50"/><verse number="51" style="v" sid="1CO 15:51"/>听着，我要告诉你们一个奥秘：我们并不是都要死亡<note caller="+" style="f"><char style="fr" closed="false">15:51 </char><char style="ft" closed="false">“死亡”希腊文是“睡觉”。</char></note>，而是都要改变， <verse eid="1CO 15:51"/><verse number="52" style="v" sid="1CO 15:52"/>就在一刹那，眨眼之间，最后的号角吹响的时候。因为号角一吹响，死人就要复活成为永不朽坏的，我们也要改变。 <verse eid="1CO 15:52"/><verse number="53" style="v" sid="1CO 15:53"/>那时，这必朽的身体要变成不朽的，这必死的要变成不死的。 <verse eid="1CO 15:53"/><verse number="54" style="v" sid="1CO 15:54"/>当这一切发生的时候，就应验了圣经上的话：</para>
+  <para style="q1" vid="1CO 15:54">“死亡被胜利吞灭了。”<note caller="+" style="f"><char style="fr" closed="false">15:54 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 25:8">以赛亚书25:8</ref>。</char></char></note><verse eid="1CO 15:54"/></para>
+  <para style="q1">
+    <verse number="55" style="v" sid="1CO 15:55"/>“死亡啊！你得胜的权势在哪里？</para>
+  <para style="q1" vid="1CO 15:55">死亡啊！你的毒钩在哪里？”<note caller="+" style="f"><char style="fr" closed="false">15:55 </char><char style="ft" closed="false"><char style="xt"><ref loc="HOS 13:14">何西阿书13:14</ref>。</char></char></note><verse eid="1CO 15:55"/></para>
+  <para style="m">
+    <verse number="56" style="v" sid="1CO 15:56"/>死亡的毒钩就是罪，罪的权势就是律法。 <verse eid="1CO 15:56"/><verse number="57" style="v" sid="1CO 15:57"/>但感谢上帝，祂使我们靠着主耶稣基督得胜。<verse eid="1CO 15:57"/></para>
+  <para style="p">
+    <verse number="58" style="v" sid="1CO 15:58"/>所以，我亲爱的弟兄姊妹，你们务要坚定不移，总要竭力做主的工作，因为你们知道自己在主里的辛勤付出不会白费。<verse eid="1CO 15:58"/></para>
+  <chapter eid="1CO 15"/>
+  <chapter number="16" style="c" sid="1CO 16"/>
+  <para style="s1">捐助圣徒</para>
+  <para style="p">
+    <verse number="1" style="v" sid="1CO 16:1"/>至于捐款帮助圣徒这件事，你们可以照我吩咐<char style="pn">加拉太</char>各教会的方法办理。 <verse eid="1CO 16:1"/><verse number="2" style="v" sid="1CO 16:2"/>每逢周日，各人应按照自己的收入抽出一部分留起来，免得我到的时候才现凑。 <verse eid="1CO 16:2"/><verse number="3" style="v" sid="1CO 16:3"/>我到了以后，会差遣你们委托的人带着推荐信，把你们的捐款送到<char style="pn">耶路撒冷</char>。 <verse eid="1CO 16:3"/><verse number="4" style="v" sid="1CO 16:4"/>如果我也需要去的话，他们可以跟我一起去。<verse eid="1CO 16:4"/></para>
+  <para style="s1">保罗的计划</para>
+  <para style="p">
+    <verse number="5" style="v" sid="1CO 16:5"/>我正打算从<char style="pn">马其顿</char>经过，过了<char style="pn">马其顿</char>，我就去探望你们。 <verse eid="1CO 16:5"/><verse number="6" style="v" sid="1CO 16:6"/>我也许会和你们住一段时期，甚至在你们那里过冬。之后，我无论去什么地方，你们都可以给我送行。 <verse eid="1CO 16:6"/><verse number="7" style="v" sid="1CO 16:7"/>我不想只是现在顺道探望你们，主若许可，我盼望能够和你们同住一段时期。 <verse eid="1CO 16:7"/><verse number="8" style="v" sid="1CO 16:8"/>我会在<char style="pn">以弗所</char>停留到五旬节， <verse eid="1CO 16:8"/><verse number="9" style="v" sid="1CO 16:9"/>因为大门为我敞开了，工作很有成效，不过反对我的人也很多。<verse eid="1CO 16:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="1CO 16:10"/>
+    <char style="pn">提摩太</char>到了以后，你们务要好好接待他，让他在你们那里安心，因为他和我一样，都是在为主做工。 <verse eid="1CO 16:10"/><verse number="11" style="v" sid="1CO 16:11"/>所以谁也不许轻视他。你们要帮助他平安地回到我这里，我正在等候他和弟兄们同来。 <verse eid="1CO 16:11"/><verse number="12" style="v" sid="1CO 16:12"/>至于<char style="pn">亚波罗</char>弟兄，我虽然再三劝他和弟兄们去你们那里，但他目前还不愿去。不过他有机会就会去。<verse eid="1CO 16:12"/></para>
+  <para style="s1">劝勉与问候</para>
+  <para style="p">
+    <verse number="13" style="v" sid="1CO 16:13"/>你们要警醒，在信仰上坚定不移，做勇敢刚强的人。 <verse eid="1CO 16:13"/><verse number="14" style="v" sid="1CO 16:14"/>无论做什么事，都要有爱心。<verse eid="1CO 16:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="1CO 16:15"/>弟兄姊妹，你们都知道<char style="pn">司提法纳</char>一家在<char style="pn">亚该亚</char>是最早信主的<note caller="+" style="f"><char style="fr" closed="false">16:15 </char><char style="ft" closed="false">“最早信主的”希腊文是“最早的果子”。</char></note>，也知道他们怎样尽心竭力地服侍圣徒。 <verse eid="1CO 16:15"/><verse number="16" style="v" sid="1CO 16:16"/>你们要顺服这样的人，也要顺服所有同心努力服侍的人。 <verse eid="1CO 16:16"/><verse number="17" style="v" sid="1CO 16:17"/>我很高兴<char style="pn">司提法纳</char>、<char style="pn">福徒拿都</char>和<char style="pn">亚该古</char>来我这里，因为你们帮不到我的地方，他们都补足了。 <verse eid="1CO 16:17"/><verse number="18" style="v" sid="1CO 16:18"/>他们使我和你们心里都感到十分欣慰，你们要敬重这样的人。<verse eid="1CO 16:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="1CO 16:19"/>
+    <char style="pn">亚细亚</char>的各教会问候你们。<char style="pn">亚居拉</char>和<char style="pn">百基拉</char>夫妇及常在他们家里聚会的信徒，奉主的名衷心地问候你们。 <verse eid="1CO 16:19"/><verse number="20" style="v" sid="1CO 16:20"/>全体弟兄姊妹都问候你们。你们要以圣洁的吻彼此问候。<verse eid="1CO 16:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="1CO 16:21"/>我<char style="pn">保罗</char>亲笔问候你们。<verse eid="1CO 16:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="1CO 16:22"/>如果有人不爱主，这人可咒可诅！主啊，我愿你来！<verse eid="1CO 16:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="1CO 16:23"/>愿主耶稣基督的恩典与你们同在！ <verse eid="1CO 16:23"/><verse number="24" style="v" sid="1CO 16:24"/>我在基督耶稣里爱你们众人。阿们！<verse eid="1CO 16:24"/></para>
+  <chapter eid="1CO 16"/>
+</usx>

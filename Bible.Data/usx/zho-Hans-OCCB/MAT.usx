@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="MAT" style="id">- Biblica® Open Chinese Contemporary Bible 2022 (Simplified)</book>
+  <para style="h">马太福音</para>
+  <para style="toc1">马太福音</para>
+  <para style="toc2">马太福音</para>
+  <para style="toc3">太</para>
+  <para style="mt1">马太福音</para>
+  <chapter number="1" style="c" sid="MAT 1"/>
+  <para style="s1">耶稣基督的家谱</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 1:1"/>耶稣基督是<char style="pn">亚伯拉罕</char>的子孙、<char style="pn">大卫</char>的后裔，以下是祂的家谱：<verse eid="MAT 1:1"/></para>
+  <para style="li1">
+    <verse number="2" style="v" sid="MAT 1:2"/>
+    <char style="pn">亚伯拉罕</char>生<char style="pn">以撒</char>，</para>
+  <para style="li1" vid="MAT 1:2">
+    <char style="pn">以撒</char>生<char style="pn">雅各</char>，</para>
+  <para style="li1" vid="MAT 1:2">
+    <char style="pn">雅各</char>生<char style="pn">犹大</char>和他的兄弟，<verse eid="MAT 1:2"/></para>
+  <para style="li1">
+    <verse number="3" style="v" sid="MAT 1:3"/>
+    <char style="pn">犹大</char>和<char style="pn">她玛</char>生<char style="pn">法勒斯</char>和<char style="pn">谢拉</char>，</para>
+  <para style="li1" vid="MAT 1:3">
+    <char style="pn">法勒斯</char>生<char style="pn">希斯仑</char>，</para>
+  <para style="li1" vid="MAT 1:3">
+    <char style="pn">希斯仑</char>生<char style="pn">兰</char><note caller="+" style="f"><char style="fr" closed="false">1:3 </char><char style="ft" closed="false">“兰”希腊文是“亚兰”。</char></note>，<verse eid="MAT 1:3"/></para>
+  <para style="li1">
+    <verse number="4" style="v" sid="MAT 1:4"/>
+    <char style="pn">兰</char>生<char style="pn">亚米拿达</char>，</para>
+  <para style="li1" vid="MAT 1:4">
+    <char style="pn">亚米拿达</char>生<char style="pn">拿顺</char>，</para>
+  <para style="li1" vid="MAT 1:4">
+    <char style="pn">拿顺</char>生<char style="pn">撒门</char>，<verse eid="MAT 1:4"/></para>
+  <para style="li1">
+    <verse number="5" style="v" sid="MAT 1:5"/>
+    <char style="pn">撒门</char>和<char style="pn">喇合</char>生<char style="pn">波阿斯</char>，</para>
+  <para style="li1" vid="MAT 1:5">
+    <char style="pn">波阿斯</char>和<char style="pn">路得</char>生<char style="pn">俄备得</char>，</para>
+  <para style="li1" vid="MAT 1:5">
+    <char style="pn">俄备得</char>生<char style="pn">耶西</char>，<verse eid="MAT 1:5"/></para>
+  <para style="li1">
+    <verse number="6" style="v" sid="MAT 1:6"/>
+    <char style="pn">耶西</char>生<char style="pn">大卫</char>王。</para>
+  <para style="b" vid="MAT 1:6"/>
+  <para style="li1" vid="MAT 1:6">
+    <char style="pn">大卫</char>和<char style="pn">乌利亚</char>的妻子生<char style="pn">所罗门</char>，<verse eid="MAT 1:6"/></para>
+  <para style="li1">
+    <verse number="7" style="v" sid="MAT 1:7"/>
+    <char style="pn">所罗门</char>生<char style="pn">罗波安</char>，</para>
+  <para style="li1" vid="MAT 1:7">
+    <char style="pn">罗波安</char>生<char style="pn">亚比雅</char>，</para>
+  <para style="li1" vid="MAT 1:7">
+    <char style="pn">亚比雅</char>生<char style="pn">亚撒</char>，<verse eid="MAT 1:7"/></para>
+  <para style="li1">
+    <verse number="8" style="v" sid="MAT 1:8"/>
+    <char style="pn">亚撒</char>生<char style="pn">约沙法</char>，</para>
+  <para style="li1" vid="MAT 1:8">
+    <char style="pn">约沙法</char>生<char style="pn">约兰</char>，</para>
+  <para style="li1" vid="MAT 1:8">
+    <char style="pn">约兰</char>生<char style="pn">乌西雅</char>，<verse eid="MAT 1:8"/></para>
+  <para style="li1">
+    <verse number="9" style="v" sid="MAT 1:9"/>
+    <char style="pn">乌西雅</char>生<char style="pn">约坦</char>，</para>
+  <para style="li1" vid="MAT 1:9">
+    <char style="pn">约坦</char>生<char style="pn">亚哈斯</char>，</para>
+  <para style="li1" vid="MAT 1:9">
+    <char style="pn">亚哈斯</char>生<char style="pn">希西迦</char>，<verse eid="MAT 1:9"/></para>
+  <para style="li1">
+    <verse number="10" style="v" sid="MAT 1:10"/>
+    <char style="pn">希西迦</char>生<char style="pn">玛拿西</char>，</para>
+  <para style="li1" vid="MAT 1:10">
+    <char style="pn">玛拿西</char>生<char style="pn">亚们</char>，</para>
+  <para style="li1" vid="MAT 1:10">
+    <char style="pn">亚们</char>生<char style="pn">约西亚</char>，<verse eid="MAT 1:10"/></para>
+  <para style="li1">
+    <verse number="11" style="v" sid="MAT 1:11"/>
+    <char style="pn">约西亚</char>生<char style="pn">耶哥尼雅</char>和他的兄弟，</para>
+  <para style="li1" vid="MAT 1:11">那时<char style="pn">以色列</char>人被掳往<char style="pn">巴比伦</char>。<verse eid="MAT 1:11"/></para>
+  <para style="b"/>
+  <para style="li1">
+    <verse number="12" style="v" sid="MAT 1:12"/>被掳到<char style="pn">巴比伦</char>以后，</para>
+  <para style="li1" vid="MAT 1:12">
+    <char style="pn">耶哥尼雅</char>生<char style="pn">撒拉铁</char>，</para>
+  <para style="li1" vid="MAT 1:12">
+    <char style="pn">撒拉铁</char>生<char style="pn">所罗巴伯</char>，<verse eid="MAT 1:12"/></para>
+  <para style="li1">
+    <verse number="13" style="v" sid="MAT 1:13"/>
+    <char style="pn">所罗巴伯</char>生<char style="pn">亚比玉</char>，</para>
+  <para style="li1" vid="MAT 1:13">
+    <char style="pn">亚比玉</char>生<char style="pn">以利亚敬</char>，</para>
+  <para style="li1" vid="MAT 1:13">
+    <char style="pn">以利亚敬</char>生<char style="pn">亚所</char>，<verse eid="MAT 1:13"/></para>
+  <para style="li1">
+    <verse number="14" style="v" sid="MAT 1:14"/>
+    <char style="pn">亚所</char>生<char style="pn">撒督</char>，</para>
+  <para style="li1" vid="MAT 1:14">
+    <char style="pn">撒督</char>生<char style="pn">亚金</char>，</para>
+  <para style="li1" vid="MAT 1:14">
+    <char style="pn">亚金</char>生<char style="pn">以律</char>，<verse eid="MAT 1:14"/></para>
+  <para style="li1">
+    <verse number="15" style="v" sid="MAT 1:15"/>
+    <char style="pn">以律</char>生<char style="pn">以利亚撒</char>，</para>
+  <para style="li1" vid="MAT 1:15">
+    <char style="pn">以利亚撒</char>生<char style="pn">马但</char>，</para>
+  <para style="li1" vid="MAT 1:15">
+    <char style="pn">马但</char>生<char style="pn">雅各</char>，<verse eid="MAT 1:15"/></para>
+  <para style="li1">
+    <verse number="16" style="v" sid="MAT 1:16"/>
+    <char style="pn">雅各</char>生<char style="pn">约瑟</char>。</para>
+  <para style="li1" vid="MAT 1:16">
+    <char style="pn">约瑟</char>就是<char style="pn">玛丽亚</char>的丈夫，</para>
+  <para style="li1" vid="MAT 1:16">那被称为基督<note caller="+" style="f"><char style="fr" closed="false">1:16 </char><char style="ft" closed="false">“基督”意思是“受膏者”。</char></note>的耶稣就是<char style="pn">玛丽亚</char>生的。<verse eid="MAT 1:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 1:17"/>这样，从<char style="pn">亚伯拉罕</char>到<char style="pn">大卫</char>共有十四代，从<char style="pn">大卫</char>到被掳至<char style="pn">巴比伦</char>也是十四代，从被掳至<char style="pn">巴比伦</char>到基督降生也是十四代。<verse eid="MAT 1:17"/></para>
+  <para style="s1">耶稣的降生</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 1:18"/>耶稣基督降生的经过记载如下。</para>
+  <para style="p" vid="MAT 1:18">耶稣的母亲<char style="pn">玛丽亚</char>和<char style="pn">约瑟</char>订了婚，还没有成亲就从圣灵怀了孕。 <verse eid="MAT 1:18"/><verse number="19" style="v" sid="MAT 1:19"/>她未婚夫<char style="pn">约瑟</char>是个义人，不愿公开地羞辱她，就想暗中和她解除婚约。 <verse eid="MAT 1:19"/><verse number="20" style="v" sid="MAT 1:20"/>他正在考虑这事的时候，主的一位天使在梦中向他显现，说：“<char style="pn">大卫</char>的后裔<char style="pn">约瑟</char>，不要怕，把<char style="pn">玛丽亚</char>娶过来，因为她所怀的孕是从圣灵来的。 <verse eid="MAT 1:20"/><verse number="21" style="v" sid="MAT 1:21"/>她将生一个儿子，你要给祂取名叫耶稣<note caller="+" style="f"><char style="fr" closed="false">1:21 </char><char style="ft" closed="false">“耶稣”意思是“救主”。</char></note>，因为祂要把自己的子民从罪恶中救出来。”<verse eid="MAT 1:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 1:22"/>这一切应验了主借着先知所说的话： <verse eid="MAT 1:22"/><verse number="23" style="v" sid="MAT 1:23"/>“必有童贞女怀孕生子，祂的名字要叫<char style="pn">以马内利</char>。”<note caller="+" style="f"><char style="fr" closed="false">1:23 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 7:14">以赛亚书7:14</ref>。</char></char></note><char style="pn">以马内利</char>的意思是“上帝与我们同在”。 <verse eid="MAT 1:23"/><verse number="24" style="v" sid="MAT 1:24"/><char style="pn">约瑟</char>醒来，就遵从主的天使所吩咐的娶<char style="pn">玛丽亚</char>为妻， <verse eid="MAT 1:24"/><verse number="25" style="v" sid="MAT 1:25"/>只是在她生下孩子之前没有与她同房。<char style="pn">约瑟</char>给孩子取名叫耶稣。<verse eid="MAT 1:25"/></para>
+  <chapter eid="MAT 1"/>
+  <chapter number="2" style="c" sid="MAT 2"/>
+  <para style="s1">智者来朝拜</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 2:1"/>
+    <char style="pn">希律</char>王执政期间，耶稣降生在<char style="pn">犹太</char>的<char style="pn">伯利恒</char>城。</para>
+  <para style="p" vid="MAT 2:1">当时有几位智者<note caller="+" style="f"><char style="fr" closed="false">2:1 </char><char style="ft" closed="false">“智者”或译“占星家”下同7节和16节。</char></note>从东方来到<char style="pn">耶路撒冷</char>， <verse eid="MAT 2:1"/><verse number="2" style="v" sid="MAT 2:2"/>问道：“那生来做<char style="pn">犹太</char>人之王的在哪里呢？我们在东方看见祂的星，特来朝拜祂。”<verse eid="MAT 2:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 2:3"/>
+    <char style="pn">希律</char>王听后，心里不安，全城的人都感到不安。 <verse eid="MAT 2:3"/><verse number="4" style="v" sid="MAT 2:4"/><char style="pn">希律</char>王就召来祭司长和律法教师，问他们：“基督降生在哪里呢？”<verse eid="MAT 2:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 2:5"/>他们回答说：“在<char style="pn">犹太</char>的<char style="pn">伯利恒</char>，因为先知这样记载，<verse eid="MAT 2:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="MAT 2:6"/>“‘<char style="pn">犹大</char>地区的<char style="pn">伯利恒</char>啊！</para>
+  <para style="q1" vid="MAT 2:6">你在<char style="pn">犹大</char>各城中并不是最小的，</para>
+  <para style="q1" vid="MAT 2:6">因为有一位君王要从你那里出来，</para>
+  <para style="q1" vid="MAT 2:6">牧养我的<char style="pn">以色列</char>子民。’<note caller="+" style="f"><char style="fr" closed="false">2:6 </char><char style="ft" closed="false"><char style="xt"><ref loc="MIC 5:2">弥迦书5:2</ref>、<ref loc="MIC 5:4">4</ref>。</char></char></note>”<verse eid="MAT 2:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 2:7"/>于是，<char style="pn">希律</char>暗中召见那几位智者，仔细查问那星出现的准确时间， <verse eid="MAT 2:7"/><verse number="8" style="v" sid="MAT 2:8"/>然后派他们去<char style="pn">伯利恒</char>，并吩咐道：“你们去仔细寻访那个小孩，找到了，就回来报信，我也好去朝拜祂。”<verse eid="MAT 2:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 2:9"/>他们听了王的吩咐，就去了。忽然，那颗曾在东方出现的星在前引领他们，一直来到小孩所在的地方，然后停在上空。 <verse eid="MAT 2:9"/><verse number="10" style="v" sid="MAT 2:10"/>他们看见那颗星，喜出望外。<verse eid="MAT 2:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 2:11"/>他们进了屋子，看见孩子和祂母亲<char style="pn">玛丽亚</char>，就俯伏在地上拜祂，并打开盛宝物的盒子献上黄金、乳香和没药作礼物。 <verse eid="MAT 2:11"/><verse number="12" style="v" sid="MAT 2:12"/>他们在梦中得到指示，不可回<char style="pn">希律</char>那里，便改道返回了家乡。<verse eid="MAT 2:12"/></para>
+  <para style="s1">逃往埃及</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 2:13"/>他们离开之后，主的天使在梦中向<char style="pn">约瑟</char>显现，说：“起来，带着小孩子和祂母亲逃往<char style="pn">埃及</char>，住在那里等候我的通知，因为<char style="pn">希律</char>要寻找这孩子，杀害祂。” <verse eid="MAT 2:13"/><verse number="14" style="v" sid="MAT 2:14"/>于是，<char style="pn">约瑟</char>起来带着孩子和祂母亲连夜逃往<char style="pn">埃及</char>， <verse eid="MAT 2:14"/><verse number="15" style="v" sid="MAT 2:15"/>并在那里一直住到<char style="pn">希律</char>死了。这就应验了主借着先知所说的话：“我把儿子从<char style="pn">埃及</char>召出来。”<note caller="+" style="f"><char style="fr" closed="false">2:15 </char><char style="ft" closed="false"><char style="xt"><ref loc="HOS 11:1">何西阿书11:1</ref>。</char></char></note><verse eid="MAT 2:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 2:16"/>
+    <char style="pn">希律</char>见自己被智者愚弄，大为恼怒，便照着智者所说的时间推算，下令把<char style="pn">伯利恒</char>及附近两岁以下的男孩杀光。 <verse eid="MAT 2:16"/><verse number="17" style="v" sid="MAT 2:17"/>这正应验了<char style="pn">耶利米</char>先知的话：<verse eid="MAT 2:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="MAT 2:18"/>“在<char style="pn">拉玛</char>有痛哭哀号的声音，</para>
+  <para style="q1" vid="MAT 2:18">是<char style="pn">拉结</char>在为儿女哀痛，</para>
+  <para style="q1" vid="MAT 2:18">不肯接受安慰，</para>
+  <para style="q1" vid="MAT 2:18">因为他们都死了！”<note caller="+" style="f"><char style="fr" closed="false">2:18 </char><char style="ft" closed="false"><char style="xt"><ref loc="JER 31:15">耶利米书31:15</ref>。</char></char></note><verse eid="MAT 2:18"/></para>
+  <para style="s1">定居拿撒勒</para>
+  <para style="p">
+    <verse number="19" style="v" sid="MAT 2:19"/>
+    <char style="pn">希律</char>死后，主的天使在梦中向在<char style="pn">埃及</char>的<char style="pn">约瑟</char>显现，说： <verse eid="MAT 2:19"/><verse number="20" style="v" sid="MAT 2:20"/>“起来，带着孩子和祂母亲回<char style="pn">以色列</char>去吧！因为要杀害孩子的人已经死了。” <verse eid="MAT 2:20"/><verse number="21" style="v" sid="MAT 2:21"/><char style="pn">约瑟</char>就起来，带着孩子和祂母亲返回<char style="pn">以色列</char>。<verse eid="MAT 2:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 2:22"/>但<char style="pn">约瑟</char>听说<char style="pn">亚基劳</char>继承他父亲<char style="pn">希律</char>的王位统治<char style="pn">犹太</char>，就不敢回那里。这时，他在梦中得到主的指示，便前往<char style="pn">加利利</char>地区， <verse eid="MAT 2:22"/><verse number="23" style="v" sid="MAT 2:23"/>定居在<char style="pn">拿撒勒</char>镇。这应验了先知的话：“祂将被称为<char style="pn">拿撒勒</char>人。”<verse eid="MAT 2:23"/></para>
+  <chapter eid="MAT 2"/>
+  <chapter number="3" style="c" sid="MAT 3"/>
+  <para style="s1">开路先锋</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 3:1"/>那时，施洗者<char style="pn">约翰</char>来到<char style="pn">犹太</char>的旷野传道，说： <verse eid="MAT 3:1"/><verse number="2" style="v" sid="MAT 3:2"/>“悔改吧，因为天国临近了！” <verse eid="MAT 3:2"/><verse number="3" style="v" sid="MAT 3:3"/><char style="pn">以赛亚</char>先知曾说：“有人在旷野大声呼喊，‘预备主的道，修直祂的路。’”<note caller="+" style="f"><char style="fr" closed="false">3:3 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 40:3">以赛亚书40:3</ref>。</char></char></note>他指的就是<char style="pn">约翰</char>。<verse eid="MAT 3:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MAT 3:4"/>
+    <char style="pn">约翰</char>身穿骆驼毛的衣服，腰束皮带，吃的是蝗虫和野蜜。 <verse eid="MAT 3:4"/><verse number="5" style="v" sid="MAT 3:5"/>那时，<char style="pn">耶路撒冷</char>、<char style="pn">犹太</char>各地和<char style="pn">约旦</char>河一带的人都来到<char style="pn">约翰</char>那里， <verse eid="MAT 3:5"/><verse number="6" style="v" sid="MAT 3:6"/>承认他们的罪，在<char style="pn">约旦</char>河里接受他的洗礼。<verse eid="MAT 3:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 3:7"/>
+    <char style="pn">约翰</char>看见很多法利赛人和撒都该人也来受洗，就对他们说：“你们这些毒蛇的后代！谁指示你们逃避那将临的烈怒呢？ <verse eid="MAT 3:7"/><verse number="8" style="v" sid="MAT 3:8"/>你们要结出与悔改相称的果子。 <verse eid="MAT 3:8"/><verse number="9" style="v" sid="MAT 3:9"/>不要心里说，‘我们是<char style="pn">亚伯拉罕</char>的子孙。’我告诉你们，上帝可以从这些石头中兴起<char style="pn">亚伯拉罕</char>的子孙。 <verse eid="MAT 3:9"/><verse number="10" style="v" sid="MAT 3:10"/>现在斧头已经放在树根上了，凡不结好果子的树都要被砍下，扔进火里。 <verse eid="MAT 3:10"/><verse number="11" style="v" sid="MAT 3:11"/>我用水给你们施洗，叫你们悔改。但在我之后，有一位比我更有能力的要来，我连给祂提鞋都不配。祂要用圣灵和火给你们施洗。 <verse eid="MAT 3:11"/><verse number="12" style="v" sid="MAT 3:12"/>祂手里拿着簸箕，要扬净祂的麦场，把麦子收进仓库，用不灭的火把糠秕烧尽。”<verse eid="MAT 3:12"/></para>
+  <para style="s1">耶稣受洗</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 3:13"/>后来，耶稣从<char style="pn">加利利</char>来到<char style="pn">约旦</char>河受<char style="pn">约翰</char>的洗礼。 <verse eid="MAT 3:13"/><verse number="14" style="v" sid="MAT 3:14"/><char style="pn">约翰</char>想要拦住祂，就说：“我需要受你的洗，你反倒来找我吗？”<verse eid="MAT 3:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 3:15"/>耶稣答道：“你暂且这样做吧！我们理当这样履行一切的义。”于是<char style="pn">约翰</char>答应了。<verse eid="MAT 3:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 3:16"/>耶稣受了洗，刚从水里上来，天就开了。祂看见上帝的灵像鸽子一样降在祂身上， <verse eid="MAT 3:16"/><verse number="17" style="v" sid="MAT 3:17"/>又有声音从天上传来：“这是我的爱子，我喜悦祂。”<verse eid="MAT 3:17"/></para>
+  <chapter eid="MAT 3"/>
+  <chapter number="4" style="c" sid="MAT 4"/>
+  <para style="s1">耶稣受试探</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 4:1"/>后来，耶稣随圣灵的引导来到旷野，受魔鬼的试探。 <verse eid="MAT 4:1"/><verse number="2" style="v" sid="MAT 4:2"/>耶稣禁食了四十昼夜后，很饥饿。 <verse eid="MAT 4:2"/><verse number="3" style="v" sid="MAT 4:3"/>试探者前来对祂说：“你如果是上帝的儿子，就叫这些石头变成食物吧。”<verse eid="MAT 4:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MAT 4:4"/>耶稣回答说：“圣经上说，‘人活着不是单靠食物，而是靠上帝口中的每一句话。’<note caller="+" style="f"><char style="fr" closed="false">4:4 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 8:3">申命记8:3</ref>。</char></char></note>”<verse eid="MAT 4:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 4:5"/>魔鬼又带祂进圣城，让祂站在圣殿的最高处， <verse eid="MAT 4:5"/><verse number="6" style="v" sid="MAT 4:6"/>说：“你如果是上帝的儿子，就跳下去吧！因为圣经上说，‘上帝会吩咐祂的天使用手托住你，不让你的脚碰在石头上。’<note caller="+" style="f"><char style="fr" closed="false">4:6 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 91:11">诗篇91:11</ref>、<ref loc="PSA 91:12">12</ref>。</char></char></note>”<verse eid="MAT 4:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 4:7"/>耶稣回答说：“圣经上也说，‘不可试探主你的上帝。’<note caller="+" style="f"><char style="fr" closed="false">4:7 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 6:16">申命记6:16</ref>。</char></char></note>”<verse eid="MAT 4:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 4:8"/>魔鬼再带耶稣到一座极高的山上，把世上万国及其荣华展示给祂看， <verse eid="MAT 4:8"/><verse number="9" style="v" sid="MAT 4:9"/>说：“如果你俯伏敬拜我，我就把这一切都给你。”<verse eid="MAT 4:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 4:10"/>耶稣说：“撒旦，走开！圣经上说，‘要敬拜主你的上帝，单单事奉祂。’<note caller="+" style="f"><char style="fr" closed="false">4:10 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 6:13">申命记6:13</ref>。</char></char></note>”<verse eid="MAT 4:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 4:11"/>于是魔鬼离开了耶稣，这时有天使前来伺候祂。<verse eid="MAT 4:11"/></para>
+  <para style="s1">开始传道</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 4:12"/>耶稣听见<char style="pn">约翰</char>被捕入狱，就回到<char style="pn">加利利</char>。 <verse eid="MAT 4:12"/><verse number="13" style="v" sid="MAT 4:13"/>后来，祂离开<char style="pn">拿撒勒</char>去<char style="pn">迦百农</char>居住。<char style="pn">迦百农</char>靠近湖边，在<char style="pn">西布伦</char>和<char style="pn">拿弗他利</char>地区。 <verse eid="MAT 4:13"/><verse number="14" style="v" sid="MAT 4:14"/>这就应验了<char style="pn">以赛亚</char>先知的话：<verse eid="MAT 4:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="MAT 4:15"/>“<char style="pn">西布伦</char>、<char style="pn">拿弗他利</char>、</para>
+  <para style="q1" vid="MAT 4:15">沿海一带及<char style="pn">约旦</char>河东、外族人居住的<char style="pn">加利利</char>啊！<verse eid="MAT 4:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="MAT 4:16"/>那住在黑暗中的人看见了大光，</para>
+  <para style="q1" vid="MAT 4:16">活在死荫之地的人被光照亮了！”<note caller="+" style="f"><char style="fr" closed="false">4:16 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 9:1">以赛亚书9:1</ref>、<ref loc="ISA 9:2">2</ref>。</char></char></note><verse eid="MAT 4:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 4:17"/>从那时起，耶稣开始传道：“悔改吧，因为天国临近了！”<verse eid="MAT 4:17"/></para>
+  <para style="s1">呼召门徒</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 4:18"/>耶稣沿着<char style="pn">加利利</char>湖边走，看见被称为<char style="pn">彼得</char>的<char style="pn">西门</char>和他弟弟<char style="pn">安得烈</char>正向湖里撒网。他们是渔夫。 <verse eid="MAT 4:18"/><verse number="19" style="v" sid="MAT 4:19"/>耶稣对他们说：“来跟从我！我要使你们成为得人的渔夫。” <verse eid="MAT 4:19"/><verse number="20" style="v" sid="MAT 4:20"/>他们立刻撇下渔网，跟从了耶稣。 <verse eid="MAT 4:20"/><verse number="21" style="v" sid="MAT 4:21"/>耶稣再往前走，又看见<char style="pn">雅各</char>和<char style="pn">约翰</char>两兄弟正与父亲<char style="pn">西庇太</char>在船上补网。耶稣呼召他们， <verse eid="MAT 4:21"/><verse number="22" style="v" sid="MAT 4:22"/>他们马上离开渔船，辞别父亲，跟从了耶稣。<verse eid="MAT 4:22"/></para>
+  <para style="s1">教导和医治</para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 4:23"/>耶稣走遍<char style="pn">加利利</char>，在各个会堂里教导人，传讲天国的福音，医治人们各样的疾病。 <verse eid="MAT 4:23"/><verse number="24" style="v" sid="MAT 4:24"/>祂的名声传遍了整个<char style="pn">叙利亚</char>。人们把一切患病的，就是被各种疾病和疼痛折磨的、癫痫的、瘫痪的，以及被鬼附身的都带到祂面前，祂就医治了他们。 <verse eid="MAT 4:24"/><verse number="25" style="v" sid="MAT 4:25"/>因此，有大群的人跟从了祂，他们来自<char style="pn">加利利</char>、<char style="pn">低加坡里</char>、<char style="pn">耶路撒冷</char>、<char style="pn">犹太</char>和<char style="pn">约旦</char>河东。<verse eid="MAT 4:25"/></para>
+  <chapter eid="MAT 4"/>
+  <chapter number="5" style="c" sid="MAT 5"/>
+  <para style="s1">八福</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 5:1"/>耶稣看见大群的人，就上了山，并坐下，门徒走到祂跟前， <verse eid="MAT 5:1"/><verse number="2" style="v" sid="MAT 5:2"/>祂就开口教导他们，说：<verse eid="MAT 5:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="MAT 5:3"/>“心灵贫穷的人有福了，</para>
+  <para style="q1" vid="MAT 5:3">因为天国是他们的。<verse eid="MAT 5:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="MAT 5:4"/>哀痛的人有福了，</para>
+  <para style="q1" vid="MAT 5:4">因为他们必得安慰。<verse eid="MAT 5:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="MAT 5:5"/>谦和的人有福了，</para>
+  <para style="q1" vid="MAT 5:5">因为他们必承受土地。<verse eid="MAT 5:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="MAT 5:6"/>切慕公义如饥似渴的人有福了，</para>
+  <para style="q1" vid="MAT 5:6">因为他们必得饱足。<verse eid="MAT 5:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="MAT 5:7"/>心存怜悯的人有福了，</para>
+  <para style="q1" vid="MAT 5:7">因为他们必蒙怜悯。<verse eid="MAT 5:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="MAT 5:8"/>心灵纯洁的人有福了，</para>
+  <para style="q1" vid="MAT 5:8">因为他们必看见上帝。<verse eid="MAT 5:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="MAT 5:9"/>使人和睦的人有福了，</para>
+  <para style="q1" vid="MAT 5:9">因为他们必被称为上帝的儿女。<verse eid="MAT 5:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="MAT 5:10"/>为义受迫害的人有福了，</para>
+  <para style="q1" vid="MAT 5:10">因为天国是他们的。<verse eid="MAT 5:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 5:11"/>“人们若因为我的缘故侮辱、迫害、肆意毁谤你们，你们就有福了。 <verse eid="MAT 5:11"/><verse number="12" style="v" sid="MAT 5:12"/>要欢喜快乐，因为你们在天上有大赏赐。他们也曾这样迫害以前的先知。<verse eid="MAT 5:12"/></para>
+  <para style="s1">盐和光</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 5:13"/>“你们是世上的盐。盐如果失去咸味，怎能使它再变咸呢？它将毫无用处，只会被扔在外面任人践踏。 <verse eid="MAT 5:13"/><verse number="14" style="v" sid="MAT 5:14"/>你们是世上的光。建在山上的城无法隐藏。 <verse eid="MAT 5:14"/><verse number="15" style="v" sid="MAT 5:15"/>人点亮灯，不会把它放在斗底下，而是放在灯台上，好照亮全家。 <verse eid="MAT 5:15"/><verse number="16" style="v" sid="MAT 5:16"/>同样，你们的光也应当照在人面前，好让他们看见你们的善行，便赞美你们天上的父。<verse eid="MAT 5:16"/></para>
+  <para style="s1">成全律法</para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 5:17"/>“不要以为我是来废除律法和先知书，我不是来废除，而是来成全。 <verse eid="MAT 5:17"/><verse number="18" style="v" sid="MAT 5:18"/>我实在告诉你们，就是到天地都消失了，律法的一点一划都不会废除，全都要成就。 <verse eid="MAT 5:18"/><verse number="19" style="v" sid="MAT 5:19"/>所以，谁违背这些诫命中最小的一条，并教导别人违背，谁在天国将被称为最小的。但谁遵守这些诫命，并教导别人遵守，谁在天国将被称为大的。 <verse eid="MAT 5:19"/><verse number="20" style="v" sid="MAT 5:20"/>我告诉你们，你们的义若不胜过律法教师和法利赛人的义，你们绝不能进天国。<verse eid="MAT 5:20"/></para>
+  <para style="s1">论仇恨</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 5:21"/>“你们听过吩咐古人的话，‘不可杀人，杀人的要受审判。’<note caller="+" style="f"><char style="fr" closed="false">5:21 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:13">出埃及记20:13</ref>。</char></char></note> <verse eid="MAT 5:21"/><verse number="22" style="v" sid="MAT 5:22"/>但我告诉你们，凡无缘无故<note caller="+" style="f"><char style="fr" closed="false">5:22 </char><char style="ft" closed="false">有古卷无“无缘无故”。</char></note>向弟兄发怒的，要受审判；凡骂弟兄是白痴的，要受公会<note caller="+" style="f"><char style="fr" closed="false">5:22 </char><char style="ft" closed="false">“公会”是当时犹太人的最高司法机构，处理宗教、道德和伦理等事务。</char></note>的审判；凡骂弟兄是笨蛋的，难逃地狱的火。<verse eid="MAT 5:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 5:23"/>“所以，你在祭坛前献祭的时候，要是想起有弟兄和你有过节， <verse eid="MAT 5:23"/><verse number="24" style="v" sid="MAT 5:24"/>就该把祭物留在祭坛前，先去跟他和好，然后再来献祭。<verse eid="MAT 5:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 5:25"/>“趁着你和告你的人还在去法庭的路上，你要赶紧与对方和解，以免他把你交给审判官，审判官把你交给差役，把你关进监牢。 <verse eid="MAT 5:25"/><verse number="26" style="v" sid="MAT 5:26"/>我实在告诉你，要是有一分钱没有还清，你绝不能从那里出来。<verse eid="MAT 5:26"/></para>
+  <para style="s1">论通奸</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 5:27"/>“你们听过这样的话，‘不可通奸。’<note caller="+" style="f"><char style="fr" closed="false">5:27 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:14">出埃及记20:14</ref>。</char></char></note> <verse eid="MAT 5:27"/><verse number="28" style="v" sid="MAT 5:28"/>但我告诉你们，凡看见妇女就动淫念的，他在心里已经犯了通奸罪。 <verse eid="MAT 5:28"/><verse number="29" style="v" sid="MAT 5:29"/>如果你的右眼使你犯罪，就剜掉它！宁可失去身体的一部分，也比整个人被扔进地狱好。 <verse eid="MAT 5:29"/><verse number="30" style="v" sid="MAT 5:30"/>如果你的右手使你犯罪，就砍掉它！宁可失去身体的一部分，也比整个人下地狱好。<verse eid="MAT 5:30"/></para>
+  <para style="s1">论休妻</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MAT 5:31"/>“还有话说，‘人若休妻，必须给她休书’。<note caller="+" style="f"><char style="fr" closed="false">5:31 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 24:1">申命记24:1</ref>。</char></char></note> <verse eid="MAT 5:31"/><verse number="32" style="v" sid="MAT 5:32"/>但我告诉你们，除非是妻子不贞，否则休妻就是使妻子犯通奸罪，娶被休的女子也是犯通奸罪。<verse eid="MAT 5:32"/></para>
+  <para style="s1">论起誓</para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 5:33"/>“你们也听过吩咐古人的话，‘不可违背誓言，总要向主遵守所起的誓。’ <verse eid="MAT 5:33"/><verse number="34" style="v" sid="MAT 5:34"/>但我告诉你们，不可起誓。不可指着天起誓，因为天是上帝的宝座。 <verse eid="MAT 5:34"/><verse number="35" style="v" sid="MAT 5:35"/>不可指着地起誓，因为地是上帝的脚凳。不可指着<char style="pn">耶路撒冷</char>起誓，因为那是大君王的城。 <verse eid="MAT 5:35"/><verse number="36" style="v" sid="MAT 5:36"/>也不可指着自己的头起誓，因为你不能使一根头发变白或变黑。 <verse eid="MAT 5:36"/><verse number="37" style="v" sid="MAT 5:37"/>你们说话，是就说是，不是就说不是，多说的便是来自那恶者<note caller="+" style="f"><char style="fr" closed="false">5:37 </char><char style="ft" closed="false">那恶者即魔鬼，又名撒旦。</char></note>。<verse eid="MAT 5:37"/></para>
+  <para style="s1">论爱仇敌</para>
+  <para style="p">
+    <verse number="38" style="v" sid="MAT 5:38"/>“你们听过这样的话，‘以眼还眼，以牙还牙。’<note caller="+" style="f"><char style="fr" closed="false">5:38 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 21:24">出埃及记21:24</ref>；<ref loc="LEV 24:20">利未记24:20</ref>；<ref loc="DEU 19:21">申命记19:21</ref>。</char></char></note> <verse eid="MAT 5:38"/><verse number="39" style="v" sid="MAT 5:39"/>但我告诉你们，不要跟恶人作对。有人打你的右脸，连左脸也转过来让他打。 <verse eid="MAT 5:39"/><verse number="40" style="v" sid="MAT 5:40"/>有人想控告你，要夺你的内衣，连外衣也给他。 <verse eid="MAT 5:40"/><verse number="41" style="v" sid="MAT 5:41"/>有人强迫你走一里路，你就跟他走二里路。 <verse eid="MAT 5:41"/><verse number="42" style="v" sid="MAT 5:42"/>有求你的，就给他；有向你借的，不可拒绝他。<verse eid="MAT 5:42"/></para>
+  <para style="p">
+    <verse number="43" style="v" sid="MAT 5:43"/>“你们听过这样的话，‘要爱邻居，恨仇敌。’<note caller="+" style="f"><char style="fr" closed="false">5:43 </char><char style="ft" closed="false"><char style="xt"><ref loc="LEV 19:18">利未记19:18</ref>。</char></char></note> <verse eid="MAT 5:43"/><verse number="44" style="v" sid="MAT 5:44"/>但我告诉你们，要爱你们的仇敌，为迫害你们的人祷告。 <verse eid="MAT 5:44"/><verse number="45" style="v" sid="MAT 5:45"/>这样，你们才是天父的孩子。因为祂让阳光照好人也照坏人，降雨给义人也给恶人。 <verse eid="MAT 5:45"/><verse number="46" style="v" sid="MAT 5:46"/>如果你们只爱那些爱你们的人，有什么值得嘉奖的呢？就是税吏也会这样做。 <verse eid="MAT 5:46"/><verse number="47" style="v" sid="MAT 5:47"/>如果你们只问候自己的弟兄，有什么特别呢？就是外族人也会这样做。 <verse eid="MAT 5:47"/><verse number="48" style="v" sid="MAT 5:48"/>所以，你们要纯全，正如你们的天父是纯全的。<verse eid="MAT 5:48"/></para>
+  <chapter eid="MAT 5"/>
+  <chapter number="6" style="c" sid="MAT 6"/>
+  <para style="s1">论周济穷人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 6:1"/>“你们要小心，行义的时候不可张扬，故意叫人看见，否则就不能得你们天父的赏赐了。<verse eid="MAT 6:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MAT 6:2"/>“因此，周济穷人的时候，不要大吹大擂，像那些伪君子在会堂和街市上所行的一样，以博取人们的赞赏。我实在告诉你们，他们得到的赏赐仅此而已。 <verse eid="MAT 6:2"/><verse number="3" style="v" sid="MAT 6:3"/>你们周济穷人的时候，右手所做的别叫左手知道， <verse eid="MAT 6:3"/><verse number="4" style="v" sid="MAT 6:4"/>要不声不响地去做。这样，鉴察隐秘事的天父必赏赐你们。<verse eid="MAT 6:4"/></para>
+  <para style="s1">论祷告</para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 6:5"/>“你们祷告时，不要像伪君子那样。他们喜欢站在会堂里和十字路口上公开祷告，故意让人看见。我实在告诉你们，他们得到的赏赐不过是人的赞赏。 <verse eid="MAT 6:5"/><verse number="6" style="v" sid="MAT 6:6"/>你们祷告的时候，要进入内室，关上门，向你们肉眼看不见的父祈祷，鉴察隐秘事的父必赏赐你们。<verse eid="MAT 6:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 6:7"/>“你们祷告时不可像外族人那样喋喋不休，他们以为长篇大论，就必蒙垂听。 <verse eid="MAT 6:7"/><verse number="8" style="v" sid="MAT 6:8"/>不可像他们那样，因为在你们祈求以前，你们的父已经知道你们的需要了。<verse eid="MAT 6:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 6:9"/>“你们应当这样祷告，</para>
+  <para style="q1" vid="MAT 6:9">“‘我们天上的父，</para>
+  <para style="q1" vid="MAT 6:9">愿你的圣名被尊崇，<verse eid="MAT 6:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="MAT 6:10"/>愿你的国度降临，</para>
+  <para style="q1" vid="MAT 6:10">愿你的旨意在地上成就，就像在天上成就一样。<verse eid="MAT 6:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="MAT 6:11"/>求你今天赐给我们日用的饮食。<verse eid="MAT 6:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="MAT 6:12"/>饶恕我们的罪，</para>
+  <para style="q1" vid="MAT 6:12">就像我们饶恕了得罪我们的人。<verse eid="MAT 6:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="MAT 6:13"/>不要让我们陷入诱惑，</para>
+  <para style="q1" vid="MAT 6:13">救我们脱离那恶者。</para>
+  <para style="q1" vid="MAT 6:13">因为国度、权柄、荣耀都是你的，直到永远。阿们！’<verse eid="MAT 6:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 6:14"/>“如果你们饶恕别人的过犯，你们的天父也必饶恕你们的过犯。 <verse eid="MAT 6:14"/><verse number="15" style="v" sid="MAT 6:15"/>如果你们不饶恕别人的过犯，你们的天父也不会饶恕你们的过犯。<verse eid="MAT 6:15"/></para>
+  <para style="s1">论禁食</para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 6:16"/>“你们禁食的时候，不要像伪君子那样愁眉苦脸，因为他们故意蓬头垢面，好让别人知道他们在禁食。我实在告诉你们，他们得到的赏赐不过是人的赞赏。 <verse eid="MAT 6:16"/><verse number="17" style="v" sid="MAT 6:17"/>你禁食的时候要梳头洗脸， <verse eid="MAT 6:17"/><verse number="18" style="v" sid="MAT 6:18"/>不叫人们看出你在禁食，只让你肉眼看不见的父知道，鉴察隐秘事的父必赏赐你。<verse eid="MAT 6:18"/></para>
+  <para style="s1">论积财</para>
+  <para style="p">
+    <verse number="19" style="v" sid="MAT 6:19"/>“不要为自己在世上积攒财宝，世上有虫子咬，会生锈，又有贼闯进来偷。 <verse eid="MAT 6:19"/><verse number="20" style="v" sid="MAT 6:20"/>你们要把财宝积攒在天上，天上没有虫子咬，不会生锈，也没有贼闯进来偷。 <verse eid="MAT 6:20"/><verse number="21" style="v" sid="MAT 6:21"/>要知道，你的财宝在哪里，你的心也在哪里。<verse eid="MAT 6:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 6:22"/>“眼睛是身体的灯。你的眼睛若明亮，全身就光明； <verse eid="MAT 6:22"/><verse number="23" style="v" sid="MAT 6:23"/>你的眼睛若昏花<note caller="+" style="f"><char style="fr" closed="false">6:23 </char><char style="ft" closed="false">“昏花”或作“邪恶”。</char></note>，全身就黑暗。如果你里面的光黑暗了，那黑暗是多么大啊！<verse eid="MAT 6:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 6:24"/>“一个人不能服侍两位主人，因为他不是恨这位、爱那位，就是重这位、轻那位。你们不能又事奉上帝，又事奉金钱。<verse eid="MAT 6:24"/></para>
+  <para style="s1">不要忧虑衣食</para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 6:25"/>“所以我告诉你们，不要为生活忧虑，比如吃什么、喝什么，也不要为身体忧虑，比如穿什么。难道生命不比饮食重要吗？身体不比穿着重要吗？<verse eid="MAT 6:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 6:26"/>“你们看天上的飞鸟，它们不种，不收，也不在仓里积存粮食，你们的天父尚且养活它们，难道你们还不如飞鸟贵重吗？ <verse eid="MAT 6:26"/><verse number="27" style="v" sid="MAT 6:27"/>你们谁能用忧虑使自己多活片刻呢？<verse eid="MAT 6:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 6:28"/>“何必为穿着忧虑呢？你们看看野地的百合花是如何生长的，它们既不劳苦，也不纺织。 <verse eid="MAT 6:28"/><verse number="29" style="v" sid="MAT 6:29"/>但我告诉你们，就连<char style="pn">所罗门</char>王最显赫时的穿戴还不如一朵百合花！ <verse eid="MAT 6:29"/><verse number="30" style="v" sid="MAT 6:30"/>你们的信心太小了！野地的草今天还在，明天就被扔进炉中，上帝还这样装扮它们，何况你们呢？ <verse eid="MAT 6:30"/><verse number="31" style="v" sid="MAT 6:31"/>所以，你们不要忧虑‘吃什么？喝什么？穿什么？’ <verse eid="MAT 6:31"/><verse number="32" style="v" sid="MAT 6:32"/>因为这些都是外族人的追求，你们的天父知道你们的需要。<verse eid="MAT 6:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 6:33"/>“你们要先寻求上帝的国和祂的义，这一切都会赐给你们。 <verse eid="MAT 6:33"/><verse number="34" style="v" sid="MAT 6:34"/>所以，不要为明天忧虑，因为明天自有明天的忧虑，一天的难处一天担就够了。<verse eid="MAT 6:34"/></para>
+  <chapter eid="MAT 6"/>
+  <chapter number="7" style="c" sid="MAT 7"/>
+  <para style="s1">责人先责己</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 7:1"/>“不要论断人，免得你们被论断。 <verse eid="MAT 7:1"/><verse number="2" style="v" sid="MAT 7:2"/>因为你们怎样论断别人，也必照样被论断；你们用什么尺度衡量别人，也要用什么尺度衡量你们。 <verse eid="MAT 7:2"/><verse number="3" style="v" sid="MAT 7:3"/>为什么你只看见你弟兄眼中的小刺，却看不见自己眼中的大梁呢？ <verse eid="MAT 7:3"/><verse number="4" style="v" sid="MAT 7:4"/>既然你自己眼中有大梁，又怎么能对弟兄说‘让我除去你眼中的小刺’呢？ <verse eid="MAT 7:4"/><verse number="5" style="v" sid="MAT 7:5"/>你这伪君子啊！要先除掉自己眼中的大梁，才能看得清楚，好清除弟兄眼中的小刺。<verse eid="MAT 7:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MAT 7:6"/>“不要把圣物给狗，免得狗转过头来咬你们；也不要把珍珠扔在猪前，免得猪践踏珍珠。<verse eid="MAT 7:6"/></para>
+  <para style="s1">祈求、寻找、叩门</para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 7:7"/>“祈求，就会给你们；寻找，就会寻见；叩门，就会给你们开门。 <verse eid="MAT 7:7"/><verse number="8" style="v" sid="MAT 7:8"/>因为凡祈求的，就得到；寻找的，就寻见；叩门的，就给他开门。<verse eid="MAT 7:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 7:9"/>“你们谁有儿子求饼，却给他石头呢？ <verse eid="MAT 7:9"/><verse number="10" style="v" sid="MAT 7:10"/>求鱼，却给他蛇呢？ <verse eid="MAT 7:10"/><verse number="11" style="v" sid="MAT 7:11"/>你们虽然邪恶，尚且知道把好东西给儿女，你们的天父岂不更要把好东西赐给求祂的人吗？<verse eid="MAT 7:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 7:12"/>“所以，无论何事，想要别人怎样对待你们，你们就要怎样对待别人，这是律法和先知的教导。<verse eid="MAT 7:12"/></para>
+  <para style="s1">辨别与抉择</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 7:13"/>“你们要进窄门，因为通向灭亡的门宽，路阔，进去的人也多； <verse eid="MAT 7:13"/><verse number="14" style="v" sid="MAT 7:14"/>但通向永生的门小，路窄，找到的人也少。<verse eid="MAT 7:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 7:15"/>“你们要提防假先知，他们披着羊皮到你们当中，骨子里却是凶残的狼。 <verse eid="MAT 7:15"/><verse number="16" style="v" sid="MAT 7:16"/>你们可以凭他们结的果子认出他们。荆棘怎能结出葡萄呢？蒺藜怎能长出无花果呢？ <verse eid="MAT 7:16"/><verse number="17" style="v" sid="MAT 7:17"/>同样，好树结好果子，坏树结坏果子； <verse eid="MAT 7:17"/><verse number="18" style="v" sid="MAT 7:18"/>好树结不出坏果子，坏树也结不出好果子。 <verse eid="MAT 7:18"/><verse number="19" style="v" sid="MAT 7:19"/>凡不结好果子的树，都要被砍下来扔进火里。 <verse eid="MAT 7:19"/><verse number="20" style="v" sid="MAT 7:20"/>因此，你们可以凭他们结的果子认出他们。 <verse eid="MAT 7:20"/><verse number="21" style="v" sid="MAT 7:21"/>并不是所有称呼我‘主啊，主啊’的人都能进天国，只有遵行我天父旨意的人才能进去。 <verse eid="MAT 7:21"/><verse number="22" style="v" sid="MAT 7:22"/>在审判那天，很多人会对我说，‘主啊，主啊，我们不是奉你的名传道，奉你的名赶鬼，奉你的名行了许多神迹吗？’ <verse eid="MAT 7:22"/><verse number="23" style="v" sid="MAT 7:23"/>我会清楚地告诉他们，‘我从来不认识你们，你们这些作恶的人走开！’<verse eid="MAT 7:23"/></para>
+  <para style="s1">两种盖房子的人</para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 7:24"/>“所以，凡听了我的这些话就去行的人，就像聪明人把房子建在磐石上。 <verse eid="MAT 7:24"/><verse number="25" style="v" sid="MAT 7:25"/>遇到风吹雨打、洪水冲击，房子仍屹立不倒，因为它建基在磐石上。 <verse eid="MAT 7:25"/><verse number="26" style="v" sid="MAT 7:26"/>凡听了我这些话不去行的，就像愚昧人把房子建在沙土上。 <verse eid="MAT 7:26"/><verse number="27" style="v" sid="MAT 7:27"/>遇到风吹雨打、洪水冲击，房子就倒塌了，而且倒塌得很厉害。”<verse eid="MAT 7:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 7:28"/>耶稣讲完这番话后，众人对祂的教导感到惊奇， <verse eid="MAT 7:28"/><verse number="29" style="v" sid="MAT 7:29"/>因为祂教导他们时像个有权柄的人，不像他们的律法教师。<verse eid="MAT 7:29"/></para>
+  <chapter eid="MAT 7"/>
+  <chapter number="8" style="c" sid="MAT 8"/>
+  <para style="s1">麻风病痊愈</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 8:1"/>耶稣下山的时候，有许多人跟着。 <verse eid="MAT 8:1"/><verse number="2" style="v" sid="MAT 8:2"/>有一个患麻风病的人过来跪在祂跟前，说：“主啊，如果你肯，就能使我洁净。”<verse eid="MAT 8:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 8:3"/>耶稣伸手摸他，说：“我肯，你洁净了吧！”那人的麻风病就立刻洁净了。<verse eid="MAT 8:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MAT 8:4"/>耶稣对他说：“切勿把这事告诉别人，要去让祭司察看你的身体，并照<char style="pn">摩西</char>的规定献祭，向众人证明你已经洁净了。”<verse eid="MAT 8:4"/></para>
+  <para style="s1">百夫长的信心</para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 8:5"/>耶稣到了<char style="pn">迦百农</char>，一个百夫长前来向祂求助，说： <verse eid="MAT 8:5"/><verse number="6" style="v" sid="MAT 8:6"/>“主啊，我的仆人瘫痪，躺在家里，非常痛苦。”<verse eid="MAT 8:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 8:7"/>耶稣说：“我去医治他。”<verse eid="MAT 8:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 8:8"/>百夫长说：“主啊，你亲临舍下，我不敢当。只要你说一句话，我仆人就会痊愈。 <verse eid="MAT 8:8"/><verse number="9" style="v" sid="MAT 8:9"/>因为我有上司，也有部下。我命令这个部下去，他就去；要那个部下来，他就来。我吩咐奴仆做什么，他就做什么。”<verse eid="MAT 8:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 8:10"/>耶稣听了，感到惊奇，便对跟随祂的人说：“我实在告诉你们，我在<char style="pn">以色列</char>从未见过信心这么大的人。 <verse eid="MAT 8:10"/><verse number="11" style="v" sid="MAT 8:11"/>我告诉你们，将来有许多从东从西来的人会在天国与<char style="pn">亚伯拉罕</char>、<char style="pn">以撒</char>和<char style="pn">雅各</char>一同欢宴。 <verse eid="MAT 8:11"/><verse number="12" style="v" sid="MAT 8:12"/>但那些本应承受天国的人反而会被赶到外面的黑暗里，在那里哀哭切齿。”<verse eid="MAT 8:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 8:13"/>耶稣对百夫长说：“你回去吧！就照你所信的给你成就。”就在那时候，他的仆人便痊愈了。<verse eid="MAT 8:13"/></para>
+  <para style="s1">治病赶鬼</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 8:14"/>耶稣来到<char style="pn">彼得</char>家，看见<char style="pn">彼得</char>的岳母正在发烧，躺在床上。 <verse eid="MAT 8:14"/><verse number="15" style="v" sid="MAT 8:15"/>耶稣一摸她的手，她的烧就退了，她便起来服侍耶稣。<verse eid="MAT 8:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 8:16"/>当晚，有人带着许多被鬼附身的人来见耶稣。耶稣一句话就把鬼赶出去了，并治好了所有的病人。 <verse eid="MAT 8:16"/><verse number="17" style="v" sid="MAT 8:17"/>这是要应验<char style="pn">以赛亚</char>先知的话：“祂担当了我们的软弱，背负了我们的疾病。”<note caller="+" style="f"><char style="fr" closed="false">8:17 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 53:4">以赛亚书53:4</ref>。</char></char></note><verse eid="MAT 8:17"/></para>
+  <para style="s1">跟从耶稣的代价</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 8:18"/>耶稣看到人群围着祂，就吩咐门徒渡到湖对岸。 <verse eid="MAT 8:18"/><verse number="19" style="v" sid="MAT 8:19"/>这时，有一位律法教师上前对耶稣说：“老师，无论你往哪里去，我都要跟从你。”<verse eid="MAT 8:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 8:20"/>耶稣说：“狐狸有洞，飞鸟有窝，人子却没有安枕之处。”<verse eid="MAT 8:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 8:21"/>另一个门徒对耶稣说：“主啊，请让我先回去安葬我的父亲。” <verse eid="MAT 8:21"/><verse number="22" style="v" sid="MAT 8:22"/>耶稣对他说：“你跟从我，让死人去埋葬他们的死人吧！”<verse eid="MAT 8:22"/></para>
+  <para style="s1">平静风浪</para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 8:23"/>耶稣上了船，门徒也跟着祂上去。 <verse eid="MAT 8:23"/><verse number="24" style="v" sid="MAT 8:24"/>忽然，湖面上狂风大作，波涛汹涌，船快要被巨浪吞没，耶稣却在睡觉。<verse eid="MAT 8:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 8:25"/>门徒连忙叫醒耶稣，说：“主啊，救命！我们快淹死了！”<verse eid="MAT 8:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 8:26"/>耶稣答道：“你们的信心太小了，为什么害怕呢？”于是祂起来斥责风和浪，风浪就完全平静了。<verse eid="MAT 8:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 8:27"/>门徒很惊奇，说：“祂究竟是什么人？连风浪都听祂的！”<verse eid="MAT 8:27"/></para>
+  <para style="s1">治好两个被鬼附身的人</para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 8:28"/>耶稣到了对岸<char style="pn">加大拉</char><note caller="+" style="f"><char style="fr" closed="false">8:28 </char><char style="ft" closed="false">“加大拉”即格拉森地区。</char></note>人的地方，遇见两个被鬼附身的人。他们从坟墓里出来，非常凶恶，没有人敢从那里经过。 <verse eid="MAT 8:28"/><verse number="29" style="v" sid="MAT 8:29"/>他们高喊：“上帝的儿子啊！我们和你有什么关系？时候还没有到，你就来叫我们受苦吗？”<verse eid="MAT 8:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MAT 8:30"/>当时，有一大群猪在远处吃食。 <verse eid="MAT 8:30"/><verse number="31" style="v" sid="MAT 8:31"/>鬼就央求耶稣：“如果你要赶我们出去，就让我们进入猪群吧！”<verse eid="MAT 8:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 8:32"/>耶稣说：“去吧！”</para>
+  <para style="p" vid="MAT 8:32">于是，鬼从那二人身上出来，进入猪群，整群猪就一路奔下陡坡，冲进湖里淹死了。 <verse eid="MAT 8:32"/><verse number="33" style="v" sid="MAT 8:33"/>放猪的人逃进城，把事情的经过以及被鬼附身者的遭遇告诉了城里的人。 <verse eid="MAT 8:33"/><verse number="34" style="v" sid="MAT 8:34"/>于是，全城的人都出来见耶稣，见到后，便请求祂离开那里。<verse eid="MAT 8:34"/></para>
+  <chapter eid="MAT 8"/>
+  <chapter number="9" style="c" sid="MAT 9"/>
+  <para style="s1">医治瘫痪的人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 9:1"/>耶稣坐船回到湖对岸自己住的城镇。<verse eid="MAT 9:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MAT 9:2"/>有人用担架把一个瘫痪的人抬到耶稣面前。耶稣看见他们的信心，就对瘫痪的人说：“孩子，放心吧！你的罪得到赦免了。”<verse eid="MAT 9:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 9:3"/>几个律法教师听了，心里想：“这个人是在亵渎上帝。”<verse eid="MAT 9:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MAT 9:4"/>耶稣知道他们的心思，就说：“你们为什么心怀恶念呢？ <verse eid="MAT 9:4"/><verse number="5" style="v" sid="MAT 9:5"/>说‘你的罪得到赦免了’容易呢？还是说‘你起来行走’容易呢？ <verse eid="MAT 9:5"/><verse number="6" style="v" sid="MAT 9:6"/>如今我要让你们知道人子在世上有赦罪的权柄。”于是祂对瘫痪的人说：“起来！拿上你的担架回家去吧。”<verse eid="MAT 9:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 9:7"/>那人就站起来，回家去了。 <verse eid="MAT 9:7"/><verse number="8" style="v" sid="MAT 9:8"/>看见的人都充满了敬畏，就赞美把这样的权柄赐给人的上帝。<verse eid="MAT 9:8"/></para>
+  <para style="s1">呼召马太</para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 9:9"/>耶稣离开那里往前走，看见一个名叫<char style="pn">马太</char>的人坐在收税站里，便对他说：“跟从我！”<char style="pn">马太</char>就站起来跟从了耶稣。<verse eid="MAT 9:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 9:10"/>耶稣在<char style="pn">马太</char>家里坐席的时候，很多税吏和罪人前来跟耶稣和祂的门徒一起坐席。 <verse eid="MAT 9:10"/><verse number="11" style="v" sid="MAT 9:11"/>法利赛人看见了，就问耶稣的门徒：“你们的老师为何跟税吏和罪人一起吃饭？” <verse eid="MAT 9:11"/><verse number="12" style="v" sid="MAT 9:12"/>耶稣听见后，答道：“健康的人不需要医生，有病的人才需要。 <verse eid="MAT 9:12"/><verse number="13" style="v" sid="MAT 9:13"/>圣经上说，‘我要的是怜悯，而非祭物’<note caller="+" style="f"><char style="fr" closed="false">9:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="HOS 6:6">何西阿书6:6</ref>。</char></char></note>，你们去揣摩这句话的意思吧。我来不是召义人，而是召罪人。”<verse eid="MAT 9:13"/></para>
+  <para style="s1">禁食的问题</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 9:14"/>那时，<char style="pn">约翰</char>的门徒来问耶稣：“我们和法利赛人常常禁食，为什么你的门徒不禁食呢？”<verse eid="MAT 9:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 9:15"/>耶稣对他们说：“新郎和宾客还在一起的时候，宾客岂能悲伤？但有一天新郎将被带走，那时他们就要禁食了。<verse eid="MAT 9:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 9:16"/>“没有人用新布缝补旧衣，因为新布会把旧衣扯破，破洞会更大。 <verse eid="MAT 9:16"/><verse number="17" style="v" sid="MAT 9:17"/>也没有人把新酒装在旧皮囊里，否则皮囊会胀破，酒也漏了，皮囊也毁了。人们总是把新酒装在新皮囊里，以便两样都能保住。”<verse eid="MAT 9:17"/></para>
+  <para style="s1">起死回生</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 9:18"/>耶稣说话的时候，来了一个会堂主管，跪在祂面前，说：“我的女儿刚刚死了，求你去把手按在她身上，她就会活过来。” <verse eid="MAT 9:18"/><verse number="19" style="v" sid="MAT 9:19"/>耶稣和门徒就起身跟着他去了。 <verse eid="MAT 9:19"/><verse number="20" style="v" sid="MAT 9:20"/>途中，有一个患了十二年血漏病的女人挤到耶稣的背后，摸了祂衣服的穗子， <verse eid="MAT 9:20"/><verse number="21" style="v" sid="MAT 9:21"/>因为她心想：“我只要摸到祂的衣服，就会痊愈。” <verse eid="MAT 9:21"/><verse number="22" style="v" sid="MAT 9:22"/>耶稣转过头来，看见她，就说：“女儿，放心吧，你的信心救了你。”就在那一刻，她的顽疾痊愈了。<verse eid="MAT 9:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 9:23"/>耶稣来到会堂主管的家，看见殡葬的吹乐手和乱嚷嚷的人群， <verse eid="MAT 9:23"/><verse number="24" style="v" sid="MAT 9:24"/>就吩咐他们：“你们出去吧，这孩子没有死，只是睡着了。”他们都讥笑祂。<verse eid="MAT 9:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 9:25"/>耶稣让众人都出去，然后进去拉着女孩的手，女孩就起来了。 <verse eid="MAT 9:25"/><verse number="26" style="v" sid="MAT 9:26"/>这件事传遍了那一带。<verse eid="MAT 9:26"/></para>
+  <para style="s1">医治瞎眼的和哑巴</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 9:27"/>耶稣从那里往前走，有两个瞎眼的跟着祂，高声呼叫：“<char style="pn">大卫</char>的后裔啊，可怜我们吧！”<verse eid="MAT 9:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 9:28"/>耶稣进了房子，那两个瞎眼的来到祂面前。耶稣问他们：“你们相信我能做这事吗？”他们说：“主啊，我们相信。”<verse eid="MAT 9:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 9:29"/>于是，耶稣摸他们的眼睛，并说：“照你们的信心成全你们吧。” <verse eid="MAT 9:29"/><verse number="30" style="v" sid="MAT 9:30"/>他们的眼睛就看见了。耶稣郑重地叮嘱他们：“切不可张扬这件事。” <verse eid="MAT 9:30"/><verse number="31" style="v" sid="MAT 9:31"/>但他们出去后把祂所行的事传遍了那一带。<verse eid="MAT 9:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 9:32"/>他们正要离去，有人带着一个被鬼附身的哑巴来见耶稣。 <verse eid="MAT 9:32"/><verse number="33" style="v" sid="MAT 9:33"/>耶稣把鬼赶出去后，哑巴就能说话了。众人都很惊奇，说：“在<char style="pn">以色列</char>从未见过这样的事。”<verse eid="MAT 9:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 9:34"/>法利赛人却说：“祂是靠鬼王赶鬼。”<verse eid="MAT 9:34"/></para>
+  <para style="s1">耶稣怜悯众人</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MAT 9:35"/>耶稣走遍了各城各乡，在会堂里教导人，传讲天国的福音，医治各样的疾病。 <verse eid="MAT 9:35"/><verse number="36" style="v" sid="MAT 9:36"/>祂看见众人，心里怜悯他们，因为他们困苦无助，好像没有牧人的羊。 <verse eid="MAT 9:36"/><verse number="37" style="v" sid="MAT 9:37"/>耶稣对门徒说：“要收割的庄稼很多，工人却很少。 <verse eid="MAT 9:37"/><verse number="38" style="v" sid="MAT 9:38"/>因此，你们要祈求庄稼的主人派工人去收割祂的庄稼。”<verse eid="MAT 9:38"/></para>
+  <chapter eid="MAT 9"/>
+  <chapter number="10" style="c" sid="MAT 10"/>
+  <para style="s1">差遣使徒</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 10:1"/>耶稣叫了十二位门徒来，赐他们权柄，能赶出污鬼、医治各样的疾病。 <verse eid="MAT 10:1"/><verse number="2" style="v" sid="MAT 10:2"/>以下是这十二位使徒的名字：</para>
+  <para style="p" vid="MAT 10:2">首先是<char style="pn">西门</char>，又名<char style="pn">彼得</char>，还有<char style="pn">彼得</char>的兄弟<char style="pn">安得烈</char>、<char style="pn">西庇太</char>的儿子<char style="pn">雅各</char>、<char style="pn">雅各</char>的兄弟<char style="pn">约翰</char>、 <verse eid="MAT 10:2"/><verse number="3" style="v" sid="MAT 10:3"/><char style="pn">腓力</char>、<char style="pn">巴多罗买</char>、<char style="pn">多马</char>、税吏<char style="pn">马太</char>、<char style="pn">亚勒腓</char>的儿子<char style="pn">雅各</char>、<char style="pn">达太</char>、 <verse eid="MAT 10:3"/><verse number="4" style="v" sid="MAT 10:4"/>激进党人<note caller="+" style="f"><char style="fr" closed="false">10:4 </char><char style="ft" closed="false">“激进党人”指当时激进的犹太民族主义者，常以行动反抗统治他们的罗马政府。</char></note><char style="pn">西门</char>和出卖耶稣的<char style="pn">加略</char>人<char style="pn">犹大</char>。<verse eid="MAT 10:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 10:5"/>耶稣差遣这十二个人出去，嘱咐他们：“外族人的地方不要去，<char style="pn">撒玛利亚</char>人的城镇也不要进， <verse eid="MAT 10:5"/><verse number="6" style="v" sid="MAT 10:6"/>要到<char style="pn">以色列</char>人当中寻找迷失的羊。<verse eid="MAT 10:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 10:7"/>“你们要边走边传，‘天国临近了！’ <verse eid="MAT 10:7"/><verse number="8" style="v" sid="MAT 10:8"/>要医治病人，叫死人复活，使麻风病人得洁净，赶走邪灵。你们白白地得来，也应当白白地给人。 <verse eid="MAT 10:8"/><verse number="9" style="v" sid="MAT 10:9"/>出门时钱袋里不要带金、银、铜币， <verse eid="MAT 10:9"/><verse number="10" style="v" sid="MAT 10:10"/>不要带行李、备用的衣服、鞋或手杖，因为工人理应得到供应。 <verse eid="MAT 10:10"/><verse number="11" style="v" sid="MAT 10:11"/>你们无论到哪座城、哪个村，要在那里寻找配接待你们的人，然后住在他家，一直住到离开。 <verse eid="MAT 10:11"/><verse number="12" style="v" sid="MAT 10:12"/>你们进他家的时候，要祝他家平安。 <verse eid="MAT 10:12"/><verse number="13" style="v" sid="MAT 10:13"/>如果那家配得平安，你们的平安必临到那家；如果那家不配，平安仍归给你们。 <verse eid="MAT 10:13"/><verse number="14" style="v" sid="MAT 10:14"/>如果有人不接待你们，不听你们传的道，你们离开那家或那城时，要跺掉脚上的尘土。 <verse eid="MAT 10:14"/><verse number="15" style="v" sid="MAT 10:15"/>我实在告诉你们，在审判之日，那城将比<char style="pn">所多玛</char>和<char style="pn">蛾摩拉</char>受更重的刑罚！<verse eid="MAT 10:15"/></para>
+  <para style="s1">将临的迫害</para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 10:16"/>“听着，我差你们出去，就好像把羊送入狼群。所以，你们要像蛇一样机灵，像鸽子一样驯良。<verse eid="MAT 10:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 10:17"/>“你们要小心谨慎，因为你们将被送上法庭，并在会堂里被鞭打。 <verse eid="MAT 10:17"/><verse number="18" style="v" sid="MAT 10:18"/>你们要因我的缘故被带到官长和君王面前，在他们和外族人面前为我做见证。 <verse eid="MAT 10:18"/><verse number="19" style="v" sid="MAT 10:19"/>当你们被押去受审时，不要顾虑如何应对，或说什么话，那时必赐给你们当说的话。 <verse eid="MAT 10:19"/><verse number="20" style="v" sid="MAT 10:20"/>因为那时候说话的不是你们自己，而是你们父的灵借着你们说话。<verse eid="MAT 10:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 10:21"/>“那时，人将把自己的弟兄置于死地，父亲将把儿子置于死地，儿女将反叛父母，置他们于死地。 <verse eid="MAT 10:21"/><verse number="22" style="v" sid="MAT 10:22"/>你们将为我的名被众人憎恨，但坚忍到底的必定得救。 <verse eid="MAT 10:22"/><verse number="23" style="v" sid="MAT 10:23"/>你们如果在一个地方遭迫害，就逃到另一个地方。我实在告诉你们，没等你们走遍<char style="pn">以色列</char>的城镇，人子就来了。<verse eid="MAT 10:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 10:24"/>“学生不能高过老师，奴仆也不能大过主人。 <verse eid="MAT 10:24"/><verse number="25" style="v" sid="MAT 10:25"/>学生顶多和老师一样，奴仆顶多和主人一样。连家主都被骂成是<char style="pn">别西卜</char><note caller="+" style="f"><char style="fr" closed="false">10:25 </char><char style="ft" closed="false">“别西卜”是鬼王的名字。</char></note>，更何况祂的家人呢？<verse eid="MAT 10:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 10:26"/>“不要害怕那些迫害你们的人。因为掩盖的事终会暴露出来，隐藏的秘密终会被人知道。 <verse eid="MAT 10:26"/><verse number="27" style="v" sid="MAT 10:27"/>你们要把我暗中告诉你们的公布于众，你们要把听到的耳语在屋顶上传扬。 <verse eid="MAT 10:27"/><verse number="28" style="v" sid="MAT 10:28"/>那些只能杀害身体，不能毁灭灵魂的，不用怕他们。但要畏惧有权将身体和灵魂一同毁灭在地狱里的上帝。 <verse eid="MAT 10:28"/><verse number="29" style="v" sid="MAT 10:29"/>两只麻雀不是只卖一个铜钱吗？然而没有天父的许可，一只也不会掉在地上。 <verse eid="MAT 10:29"/><verse number="30" style="v" sid="MAT 10:30"/>就连你们的头发都被数过了。 <verse eid="MAT 10:30"/><verse number="31" style="v" sid="MAT 10:31"/>所以不要害怕，你们比许多麻雀要贵重！<verse eid="MAT 10:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 10:32"/>“凡在人面前承认我的，我在天父面前也必承认他； <verse eid="MAT 10:32"/><verse number="33" style="v" sid="MAT 10:33"/>凡在人面前否认我的，我在天父面前也必否认他。<verse eid="MAT 10:33"/></para>
+  <para style="s1">跟从主的代价</para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 10:34"/>“不要以为我来了会让天下太平，我不是带来和平，而是带来刀剑。 <verse eid="MAT 10:34"/><verse number="35" style="v" sid="MAT 10:35"/>因为我来是要叫儿子与父亲作对，女儿与母亲作对，媳妇与婆婆作对， <verse eid="MAT 10:35"/><verse number="36" style="v" sid="MAT 10:36"/>家人之间反目成仇。<note caller="+" style="f"><char style="fr" closed="false">10:36 </char><char style="ft" closed="false"><char style="xt"><ref loc="MIC 7:6">弥迦书7:6</ref>。</char></char></note><verse eid="MAT 10:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MAT 10:37"/>“爱父母过于爱我的人不配做我的门徒；爱儿女过于爱我的人不配做我的门徒； <verse eid="MAT 10:37"/><verse number="38" style="v" sid="MAT 10:38"/>不背起自己的十字架跟从我的，不配做我的门徒。 <verse eid="MAT 10:38"/><verse number="39" style="v" sid="MAT 10:39"/>保全自己生命的，必失去生命；但为了我失去生命的，必得到生命。<verse eid="MAT 10:39"/></para>
+  <para style="s1">得赏赐</para>
+  <para style="p">
+    <verse number="40" style="v" sid="MAT 10:40"/>“谁接待你们，就是接待我；谁接待我，就是接待差我来的那位。 <verse eid="MAT 10:40"/><verse number="41" style="v" sid="MAT 10:41"/>因为某人是先知而接待他的，必得到和先知一样的赏赐；因为某人是义人而接待他的，必得到和义人一样的赏赐。 <verse eid="MAT 10:41"/><verse number="42" style="v" sid="MAT 10:42"/>人若接待我门徒中最卑微的人，并因为他是我的门徒而给他一杯凉水喝，我实在告诉你们，那人必得到赏赐。”<verse eid="MAT 10:42"/></para>
+  <chapter eid="MAT 10"/>
+  <chapter number="11" style="c" sid="MAT 11"/>
+  <para style="s1">耶稣和施洗者约翰</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 11:1"/>耶稣嘱咐完十二个门徒，就离开那里，到附近的城镇传道和教导人。<verse eid="MAT 11:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MAT 11:2"/>
+    <char style="pn">约翰</char>在监狱中听到基督所做的事，就差门徒去问祂： <verse eid="MAT 11:2"/><verse number="3" style="v" sid="MAT 11:3"/>“你就是我们所等候的那位吗？还是我们要等别人呢？”<verse eid="MAT 11:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MAT 11:4"/>耶稣回答说：“你们回去把所见所闻告诉<char style="pn">约翰</char>， <verse eid="MAT 11:4"/><verse number="5" style="v" sid="MAT 11:5"/>就是瞎眼的看见，瘸腿的走路，麻风病人得洁净，耳聋的听见，死人复活，穷人听到福音。 <verse eid="MAT 11:5"/><verse number="6" style="v" sid="MAT 11:6"/>凡对我笃信不疑的人有福了！”<verse eid="MAT 11:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 11:7"/>他们离开后，耶稣对众人谈论<char style="pn">约翰</char>，说：“你们从前去旷野要看什么呢？看随风摇动的芦苇吗？ <verse eid="MAT 11:7"/><verse number="8" style="v" sid="MAT 11:8"/>如果不是，你们出去到底想看什么？是看穿绫罗绸缎的人吗？那些穿绫罗绸缎的人在王宫里。 <verse eid="MAT 11:8"/><verse number="9" style="v" sid="MAT 11:9"/>你们出去究竟想看什么？看先知吗？是的，我告诉你们，他不只是先知。 <verse eid="MAT 11:9"/><verse number="10" style="v" sid="MAT 11:10"/>圣经上说，‘看啊，我要差遣我的使者在你前面为你预备道路’<note caller="+" style="f"><char style="fr" closed="false">11:10 </char><char style="ft" closed="false"><char style="xt"><ref loc="MAL 3:1">玛拉基书3:1</ref>。</char></char></note>，这里所指的就是<char style="pn">约翰</char>。 <verse eid="MAT 11:10"/><verse number="11" style="v" sid="MAT 11:11"/>我实在告诉你们，凡妇人所生的，没有一个兴起来比施洗者<char style="pn">约翰</char>大，然而天国里最微不足道的也比他大。<verse eid="MAT 11:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 11:12"/>“从施洗者<char style="pn">约翰</char>到现在，天国在强劲地扩展着，暴力之徒一直在攻击它。 <verse eid="MAT 11:12"/><verse number="13" style="v" sid="MAT 11:13"/>因为到<char style="pn">约翰</char>为止，所有的先知和律法都在预言天国的事。 <verse eid="MAT 11:13"/><verse number="14" style="v" sid="MAT 11:14"/>如果你们愿意接受，<char style="pn">约翰</char>就是那要来的<char style="pn">以利亚</char>。 <verse eid="MAT 11:14"/><verse number="15" style="v" sid="MAT 11:15"/>有耳朵的，都应当听。<verse eid="MAT 11:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 11:16"/>“我用什么来比拟这个世代的人呢？他们好像一群在街上玩耍的儿童对别的孩子说，<verse eid="MAT 11:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="MAT 11:17"/>“‘我们吹娶亲的乐曲，</para>
+  <para style="q1" vid="MAT 11:17">你们不跳舞；</para>
+  <para style="q1" vid="MAT 11:17">我们唱送葬的哀歌，</para>
+  <para style="q1" vid="MAT 11:17">你们不捶胸。’<verse eid="MAT 11:17"/></para>
+  <para style="m">
+    <verse number="18" style="v" sid="MAT 11:18"/>
+    <char style="pn">约翰</char>来了，也不吃也不喝，他们就说他被鬼附身。 <verse eid="MAT 11:18"/><verse number="19" style="v" sid="MAT 11:19"/>人子来了，又吃又喝，他们就说祂是贪吃好酒之徒，与税吏和罪人为友。然而智慧通过她的作为显明为义。”<verse eid="MAT 11:19"/></para>
+  <para style="s1">不肯悔改的城</para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 11:20"/>那时，耶稣开始责备一些城镇，因为祂在那里行了许多神迹，当地的居民仍不肯悔改。 <verse eid="MAT 11:20"/><verse number="21" style="v" sid="MAT 11:21"/>祂说：“<char style="pn">哥拉汛</char>啊，你有祸了！<char style="pn">伯赛大</char>啊，你有祸了！因为如果把在你们当中所行的神迹行在<char style="pn">泰尔</char>和<char style="pn">西顿</char>，那里的人早就身披着麻衣、头蒙着灰尘悔改了。 <verse eid="MAT 11:21"/><verse number="22" style="v" sid="MAT 11:22"/>所以我告诉你们，在审判之日，你们将比<char style="pn">泰尔</char>和<char style="pn">西顿</char>受更重的刑罚！<verse eid="MAT 11:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 11:23"/>“<char style="pn">迦百农</char>啊，你将被提升到天上吗？不！你将被打落到阴间。因为如果把在你那里所行的神迹行在<char style="pn">所多玛</char>，它肯定会存留到今天。 <verse eid="MAT 11:23"/><verse number="24" style="v" sid="MAT 11:24"/>所以我告诉你们，在审判之日，你们将比<char style="pn">所多玛</char>受更重的刑罚！”<verse eid="MAT 11:24"/></para>
+  <para style="s1">劳苦者得安息</para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 11:25"/>那时，耶稣说：“父啊，天地的主，我颂赞你，因为你把这些事向聪明、有学问的人隐藏起来，却启示给像孩童一般的人。 <verse eid="MAT 11:25"/><verse number="26" style="v" sid="MAT 11:26"/>父啊，是的，这正是你的美意。 <verse eid="MAT 11:26"/><verse number="27" style="v" sid="MAT 11:27"/>我父将一切交给了我。除了父，没有人认识子；除了子和受子启示的人，没有人认识父。<verse eid="MAT 11:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 11:28"/>“所有劳苦困乏、背负重担的人啊，到我这里来吧！我要赐给你们安息。 <verse eid="MAT 11:28"/><verse number="29" style="v" sid="MAT 11:29"/>我心柔和谦卑，你们要负我的轭，向我学习，这样你们的心灵必得享安息。 <verse eid="MAT 11:29"/><verse number="30" style="v" sid="MAT 11:30"/>因为我的轭容易负，我的担子很轻省。”<verse eid="MAT 11:30"/></para>
+  <chapter eid="MAT 11"/>
+  <chapter number="12" style="c" sid="MAT 12"/>
+  <para style="s1">安息日的问题</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 12:1"/>安息日的时候，耶稣经过一片麦田。祂的门徒饿了，便掐些麦穗吃。 <verse eid="MAT 12:1"/><verse number="2" style="v" sid="MAT 12:2"/>法利赛人看见后，对耶稣说：“你看，你的门徒做了安息日不准做的事！”<verse eid="MAT 12:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 12:3"/>耶稣回答说：“你们没有读过<char style="pn">大卫</char>的事迹吗？当时他和随从饿了， <verse eid="MAT 12:3"/><verse number="4" style="v" sid="MAT 12:4"/>他进入上帝的殿，他们吃了献给上帝的供饼。这饼只有祭司才可以吃，<char style="pn">大卫</char>和随从是不准吃的。 <verse eid="MAT 12:4"/><verse number="5" style="v" sid="MAT 12:5"/>此外律法书又记载，在安息日，祭司在圣殿里干犯安息日的规条也不算有罪。你们没有读过吗？ <verse eid="MAT 12:5"/><verse number="6" style="v" sid="MAT 12:6"/>我告诉你们，这里有一位比圣殿更伟大， <verse eid="MAT 12:6"/><verse number="7" style="v" sid="MAT 12:7"/>如果你们明白‘我要的是怜悯，而非祭物’<note caller="+" style="f" category="dup"><char style="fr" closed="false">12:7 </char><char style="ft" closed="false"><char style="xt"><ref loc="HOS 6:6">何西阿书6:6</ref>。</char></char></note>这句经文的意义，就不会冤枉无辜了。 <verse eid="MAT 12:7"/><verse number="8" style="v" sid="MAT 12:8"/>因为人子是安息日的主。”<verse eid="MAT 12:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 12:9"/>耶稣离开那里，走进犹太人的会堂， <verse eid="MAT 12:9"/><verse number="10" style="v" sid="MAT 12:10"/>里面有个人，一只手是萎缩的。法利赛人企图控告耶稣，就问祂：“在安息日可以医病吗？”<verse eid="MAT 12:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 12:11"/>耶稣回答说：“你们如果有一只羊在安息日掉进坑里，难道不把它拉上来吗？ <verse eid="MAT 12:11"/><verse number="12" style="v" sid="MAT 12:12"/>人比羊要贵重多了！所以在安息日行善合情合理。”<verse eid="MAT 12:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 12:13"/>然后，耶稣对那人说：“把手伸出来！”那人一伸手，手就复原了，跟另一只手一样健康。 <verse eid="MAT 12:13"/><verse number="14" style="v" sid="MAT 12:14"/>法利赛人却走了出去，策划怎样除掉耶稣。<verse eid="MAT 12:14"/></para>
+  <para style="s1">上帝的仆人</para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 12:15"/>耶稣知道了，就离开那里。很多人跟随祂，耶稣治好了所有患病的人， <verse eid="MAT 12:15"/><verse number="16" style="v" sid="MAT 12:16"/>叮嘱他们不要泄露祂的身份。 <verse eid="MAT 12:16"/><verse number="17" style="v" sid="MAT 12:17"/>这是要应验<char style="pn">以赛亚</char>先知的话：<verse eid="MAT 12:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="MAT 12:18"/>“看啊！我所拣选、</para>
+  <para style="q1" vid="MAT 12:18">所眷爱、所喜悦的仆人，</para>
+  <para style="q1" vid="MAT 12:18">我要将我的灵赐给祂，</para>
+  <para style="q1" vid="MAT 12:18">祂要向万邦宣扬正义。<verse eid="MAT 12:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="MAT 12:19"/>祂不争竞，不喧嚷，</para>
+  <para style="q1" vid="MAT 12:19">街上也听不见祂的声音。<verse eid="MAT 12:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="MAT 12:20"/>压伤的芦苇，祂不折断；</para>
+  <para style="q1" vid="MAT 12:20">将残的灯火，祂不吹灭；</para>
+  <para style="q1" vid="MAT 12:20">祂终必使正义得胜。<verse eid="MAT 12:20"/></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="MAT 12:21"/>普世都要仰望祂的圣名。”<note caller="+" style="f"><char style="fr" closed="false">12:21 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 42:1-4">以赛亚书42:1‑4</ref>。</char></char></note><verse eid="MAT 12:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 12:22"/>有人带一个被鬼附身、又瞎又哑的人来见耶稣，耶稣便医治他，使他能说能看。 <verse eid="MAT 12:22"/><verse number="23" style="v" sid="MAT 12:23"/>众人都很惊奇，就说：“这人会不会是<char style="pn">大卫</char>的那个后裔？” <verse eid="MAT 12:23"/><verse number="24" style="v" sid="MAT 12:24"/>法利赛人听见后却说：“祂不过是靠鬼王<char style="pn">别西卜</char>赶鬼罢了。”<verse eid="MAT 12:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 12:25"/>耶稣知道他们的心思，就说：“一个国内部自相纷争，必然灭亡；一座城、一个家内部自相纷争，必无法坚立。 <verse eid="MAT 12:25"/><verse number="26" style="v" sid="MAT 12:26"/>若撒旦驱逐撒旦，就是自相纷争，它的国怎能维持呢？ <verse eid="MAT 12:26"/><verse number="27" style="v" sid="MAT 12:27"/>我若是靠<char style="pn">别西卜</char>赶鬼，你们的子弟又是靠谁赶鬼呢？因此，他们要审判你们。 <verse eid="MAT 12:27"/><verse number="28" style="v" sid="MAT 12:28"/>但我若是靠上帝的灵赶鬼，就是上帝的国已降临在你们中间了。<verse eid="MAT 12:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 12:29"/>“人如何进入壮汉家里抢夺他的财物呢？除非先把那壮汉捆绑起来，才能抢劫他的家。<verse eid="MAT 12:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MAT 12:30"/>“谁不与我为友，就是与我为敌；谁不和我一起收聚，就是在拆散。 <verse eid="MAT 12:30"/><verse number="31" style="v" sid="MAT 12:31"/>所以我告诉你们，一切罪和亵渎的话都可以得到赦免，但亵渎圣灵的罪必得不到赦免。 <verse eid="MAT 12:31"/><verse number="32" style="v" sid="MAT 12:32"/>说话得罪人子的，还可以得到赦免；但说话冒犯圣灵的，今生永世都得不到赦免。<verse eid="MAT 12:32"/></para>
+  <para style="s1">树与果</para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 12:33"/>“好树结好果子，坏树结坏果子，看果子就能知道树的好坏。 <verse eid="MAT 12:33"/><verse number="34" style="v" sid="MAT 12:34"/>你们这些毒蛇的后代！你们既然邪恶，又怎能讲出好话呢？因为心里充满的，口里自然会说出来。 <verse eid="MAT 12:34"/><verse number="35" style="v" sid="MAT 12:35"/>善人心存良善，就从他里面发出良善；恶人心存邪恶，就从他里面发出邪恶。 <verse eid="MAT 12:35"/><verse number="36" style="v" sid="MAT 12:36"/>我告诉你们，在审判之日，人将为自己所说的每一句闲话负责， <verse eid="MAT 12:36"/><verse number="37" style="v" sid="MAT 12:37"/>因为将凭你口中的话来判断你是否有罪。”<verse eid="MAT 12:37"/></para>
+  <para style="s1">求神迹</para>
+  <para style="p">
+    <verse number="38" style="v" sid="MAT 12:38"/>当时，有几个律法教师和法利赛人对耶稣说：“老师，我们想要看你行个神迹。” <verse eid="MAT 12:38"/><verse number="39" style="v" sid="MAT 12:39"/>耶稣回答说：“一个邪恶淫乱的世代想看神迹，但除了<char style="pn">约拿</char>先知的神迹以外，再没有神迹给他们看。 <verse eid="MAT 12:39"/><verse number="40" style="v" sid="MAT 12:40"/><char style="pn">约拿</char>在大鱼腹中三日三夜，人子也要在地里三日三夜。 <verse eid="MAT 12:40"/><verse number="41" style="v" sid="MAT 12:41"/>在审判的日子，<char style="pn">尼尼微</char>人要起来<note caller="+" style="f"><char style="fr" closed="false">12:41 </char><char style="ft" closed="false">“起来”或作“复活”。</char></note>定这个世代的罪，因为他们听到<char style="pn">约拿</char>的宣告，就悔改了。看啊！这里有一位比<char style="pn">约拿</char>更大。 <verse eid="MAT 12:41"/><verse number="42" style="v" sid="MAT 12:42"/>在审判的日子，南方的女王和这世代的人都要起来，她要定这个世代的罪，因为她曾不远千里来听<char style="pn">所罗门</char>王的智言慧语。看啊！这里有一位比<char style="pn">所罗门</char>王更大。<verse eid="MAT 12:42"/></para>
+  <para style="s1">乘虚而入</para>
+  <para style="p">
+    <verse number="43" style="v" sid="MAT 12:43"/>“有个污鬼离开了它所附的人，在干旱无水之地四处游荡，寻找安歇之处，却没有找到。 <verse eid="MAT 12:43"/><verse number="44" style="v" sid="MAT 12:44"/>于是它说，‘我要回到老地方。’它回去后，看见里面空着，打扫得又干净又整齐， <verse eid="MAT 12:44"/><verse number="45" style="v" sid="MAT 12:45"/>就去带来七个比自己更邪恶的鬼一起住在那里。那人的下场比从前更惨了。这个邪恶的世代也会这样。”<verse eid="MAT 12:45"/></para>
+  <para style="s1">真正的亲属</para>
+  <para style="p">
+    <verse number="46" style="v" sid="MAT 12:46"/>耶稣还在和众人说话的时候，祂的母亲和兄弟站在外面，想要跟祂说话。 <verse eid="MAT 12:46"/><verse number="47" style="v" sid="MAT 12:47"/>有人告诉祂：“你的母亲和兄弟站在外面有话要跟你说。”<verse eid="MAT 12:47"/></para>
+  <para style="p">
+    <verse number="48" style="v" sid="MAT 12:48"/>耶稣说：“谁是我的母亲？谁是我的兄弟？” <verse eid="MAT 12:48"/><verse number="49" style="v" sid="MAT 12:49"/>祂伸出手来指着门徒说：“看啊，我的母亲和我的兄弟！ <verse eid="MAT 12:49"/><verse number="50" style="v" sid="MAT 12:50"/>凡遵行我天父旨意的人都是我的弟兄、姊妹和母亲。”<verse eid="MAT 12:50"/></para>
+  <chapter eid="MAT 12"/>
+  <chapter number="13" style="c" sid="MAT 13"/>
+  <para style="s1">撒种的比喻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 13:1"/>当天，耶稣离开房子，坐在湖边。 <verse eid="MAT 13:1"/><verse number="2" style="v" sid="MAT 13:2"/>有一大群人聚集到祂周围，祂只好上船坐下，众人都站在岸上。 <verse eid="MAT 13:2"/><verse number="3" style="v" sid="MAT 13:3"/>祂用比喻给他们讲许多道理，说：“有一个农夫出去撒种。 <verse eid="MAT 13:3"/><verse number="4" style="v" sid="MAT 13:4"/>撒种的时候，有些种子落在路旁，被飞鸟吃掉了； <verse eid="MAT 13:4"/><verse number="5" style="v" sid="MAT 13:5"/>有些落在石头地上，因为泥土不深，种子很快就发芽了， <verse eid="MAT 13:5"/><verse number="6" style="v" sid="MAT 13:6"/>然而因为没有根，被太阳一晒，就枯萎了； <verse eid="MAT 13:6"/><verse number="7" style="v" sid="MAT 13:7"/>有些落在荆棘丛中，荆棘长起来便把幼苗挤住了； <verse eid="MAT 13:7"/><verse number="8" style="v" sid="MAT 13:8"/>有些落在沃土里，就结出果实，有的多达一百倍，有的六十倍，有的三十倍。 <verse eid="MAT 13:8"/><verse number="9" style="v" sid="MAT 13:9"/>有耳朵的，都应当听。”<verse eid="MAT 13:9"/></para>
+  <para style="s1">用比喻的目的</para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 13:10"/>门徒上前问耶稣：“你为什么要用比喻来教导他们呢？”<verse eid="MAT 13:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 13:11"/>耶稣回答说：“天国的奥秘只让你们知道，不让他们知道。 <verse eid="MAT 13:11"/><verse number="12" style="v" sid="MAT 13:12"/>因为凡有的，还要给他更多，让他丰富有余；凡没有的，连他仅有的也要夺去。 <verse eid="MAT 13:12"/><verse number="13" style="v" sid="MAT 13:13"/>我用比喻教导他们是因为他们视而不见，听而不闻，闻而不悟。 <verse eid="MAT 13:13"/><verse number="14" style="v" sid="MAT 13:14"/><char style="pn">以赛亚</char>的预言正应验在他们身上，</para>
+  <para style="q1" vid="MAT 13:14">“‘你们听了又听，却不明白；</para>
+  <para style="q1" vid="MAT 13:14">看了又看，却不领悟。<verse eid="MAT 13:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="MAT 13:15"/>因为这些人心灵麻木，</para>
+  <para style="q1" vid="MAT 13:15">耳朵发背，眼睛昏花，</para>
+  <para style="q1" vid="MAT 13:15">以致眼睛看不见，耳朵听不见，</para>
+  <para style="q1" vid="MAT 13:15">心里不明白，无法回心转意，</para>
+  <para style="q1" vid="MAT 13:15">得不到我的医治。’<note caller="+" style="f"><char style="fr" closed="false">13:15 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 6:9">以赛亚书6:9</ref>、<ref loc="ISA 6:10">10</ref>。</char></char></note><verse eid="MAT 13:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 13:16"/>“但你们的眼睛是有福的，因为看得见；你们的耳朵也是有福的，因为听得见。 <verse eid="MAT 13:16"/><verse number="17" style="v" sid="MAT 13:17"/>我实在告诉你们，以前有许多先知和义人曾渴望看见你们所看见的，听见你们所听见的，却未能如愿。<verse eid="MAT 13:17"/></para>
+  <para style="s1">解释比喻</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 13:18"/>“所以，你们应当留心这撒种的比喻。 <verse eid="MAT 13:18"/><verse number="19" style="v" sid="MAT 13:19"/>种子落在路旁，是指人听了天国的道理却不明白，魔鬼乘虚而入，把撒在他心里的夺走了。 <verse eid="MAT 13:19"/><verse number="20" style="v" sid="MAT 13:20"/>种子落在石头地上，是指人听了道后，立刻欢喜地接受了， <verse eid="MAT 13:20"/><verse number="21" style="v" sid="MAT 13:21"/>但他们心里没有根基，不过是暂时接受，一旦为道遭受患难或迫害，就立刻放弃了。 <verse eid="MAT 13:21"/><verse number="22" style="v" sid="MAT 13:22"/>种子落在荆棘丛中，是指人虽然听过道，但生活的忧虑和钱财的迷惑把道挤住了，以致不能结出果实。 <verse eid="MAT 13:22"/><verse number="23" style="v" sid="MAT 13:23"/>种子落在沃土里，是指人听了道，并明白了道，就结出果实，有的多达一百倍，有的六十倍，有的三十倍。”<verse eid="MAT 13:23"/></para>
+  <para style="s1">毒麦的比喻</para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 13:24"/>耶稣又给他们讲了一个比喻，说：“天国就像一个人，将好种子撒在田里。 <verse eid="MAT 13:24"/><verse number="25" style="v" sid="MAT 13:25"/>人们睡觉的时候，仇敌过来把毒麦撒在他的麦田里，就走了。 <verse eid="MAT 13:25"/><verse number="26" style="v" sid="MAT 13:26"/>当麦子长苗吐穗时，毒麦也长起来了。 <verse eid="MAT 13:26"/><verse number="27" style="v" sid="MAT 13:27"/>奴仆看见了就来对主人说，‘主人啊！你不是把好种子撒在田里了吗？从哪里来的毒麦呢？’<verse eid="MAT 13:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 13:28"/>“主人回答说，‘这是仇敌做的。’奴仆问道，‘要我们去拔掉它们吗？’<verse eid="MAT 13:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 13:29"/>“主人说，‘不用了，因为拔毒麦会连麦子一起拔掉。 <verse eid="MAT 13:29"/><verse number="30" style="v" sid="MAT 13:30"/>让它们一起生长吧。到收割的时候，我会吩咐收割的工人先把毒麦拔出来，扎成捆，留着烧，然后将麦子存入谷仓。’”<verse eid="MAT 13:30"/></para>
+  <para style="s1">芥菜种和面酵的比喻</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MAT 13:31"/>耶稣又给他们讲了一个比喻：“天国就像一粒芥菜种，人把它种在田里。 <verse eid="MAT 13:31"/><verse number="32" style="v" sid="MAT 13:32"/>它虽然是种子中最小的，长起来之后却比其他蔬菜都大，并且长成一棵树，飞鸟也来在它枝头栖息。”<verse eid="MAT 13:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 13:33"/>祂又给他们讲了个比喻：“天国就像面酵，妇人拿来掺在三斗面里，直到整团面都发起来。”<verse eid="MAT 13:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 13:34"/>耶稣用比喻对众人讲这些事，祂每次对他们讲话时都用比喻。 <verse eid="MAT 13:34"/><verse number="35" style="v" sid="MAT 13:35"/>这是要应验先知的话：“我要开口讲比喻，道出创世以来隐藏的事。”<note caller="+" style="f"><char style="fr" closed="false">13:35 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 78:2">诗篇78:2</ref>。</char></char></note><verse eid="MAT 13:35"/></para>
+  <para style="s1">解释毒麦的比喻</para>
+  <para style="p">
+    <verse number="36" style="v" sid="MAT 13:36"/>后来，耶稣离开人群，进到屋里。门徒来到祂面前，说：“请给我们解释田间毒麦的比喻。”<verse eid="MAT 13:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MAT 13:37"/>耶稣说：“那撒下好种子的就是人子， <verse eid="MAT 13:37"/><verse number="38" style="v" sid="MAT 13:38"/>麦田代表世界，那些好种子就是天国的子民。毒麦就是那些属魔鬼的人， <verse eid="MAT 13:38"/><verse number="39" style="v" sid="MAT 13:39"/>撒毒麦的仇敌就是魔鬼。收割的日子便是世界的末日，收割的工人就是天使。<verse eid="MAT 13:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="MAT 13:40"/>“毒麦怎样被拔出来扔进火里烧，在世界末日的时候也是一样， <verse eid="MAT 13:40"/><verse number="41" style="v" sid="MAT 13:41"/>人子将派天使把一切引人犯罪的和作恶的从祂国里挑出来， <verse eid="MAT 13:41"/><verse number="42" style="v" sid="MAT 13:42"/>扔进火炉里。他们将在那里哀哭切齿。 <verse eid="MAT 13:42"/><verse number="43" style="v" sid="MAT 13:43"/>那时，义人在他们天父的国度要像太阳一样发出光辉。有耳朵的，都应当听。<verse eid="MAT 13:43"/></para>
+  <para style="s1">宝藏与珍珠的比喻</para>
+  <para style="p">
+    <verse number="44" style="v" sid="MAT 13:44"/>“天国就像藏在地里的宝贝，有人发现了，就把它埋好，然后欢然变卖他所有的财产去买那块地。<verse eid="MAT 13:44"/></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MAT 13:45"/>“天国又像一个四处搜购贵重珍珠的商人。 <verse eid="MAT 13:45"/><verse number="46" style="v" sid="MAT 13:46"/>他找到一颗极贵重的珍珠，就去变卖了一切产业，把它买下来。<verse eid="MAT 13:46"/></para>
+  <para style="s1">撒网的比喻</para>
+  <para style="p">
+    <verse number="47" style="v" sid="MAT 13:47"/>“天国又像一张渔网，撒在海里捕到了各种鱼。 <verse eid="MAT 13:47"/><verse number="48" style="v" sid="MAT 13:48"/>网满了，人们把网拉上岸，然后坐下来挑选，好的就收进筐里，不好的就丢掉。 <verse eid="MAT 13:48"/><verse number="49" style="v" sid="MAT 13:49"/>世界末日的时候也是这样。天使必把恶人从义人中拣出来， <verse eid="MAT 13:49"/><verse number="50" style="v" sid="MAT 13:50"/>扔进火炉里，他们将在那里哀哭切齿。 <verse eid="MAT 13:50"/><verse number="51" style="v" sid="MAT 13:51"/>你们明白这些事了吗？”</para>
+  <para style="p" vid="MAT 13:51">他们回答说：“明白了。”<verse eid="MAT 13:51"/></para>
+  <para style="p">
+    <verse number="52" style="v" sid="MAT 13:52"/>耶稣说：“律法教师成为天国的门徒后，就像一个家主从他的库房里拿出新的和旧的东西来。”<verse eid="MAT 13:52"/></para>
+  <para style="s1">拿撒勒人厌弃耶稣</para>
+  <para style="p">
+    <verse number="53" style="v" sid="MAT 13:53"/>耶稣讲完了这些比喻，就离开那里， <verse eid="MAT 13:53"/><verse number="54" style="v" sid="MAT 13:54"/>回到自己的家乡，在会堂里教导人。人们很惊奇，说：“这个人从哪里得到如此的智慧和异能呢？ <verse eid="MAT 13:54"/><verse number="55" style="v" sid="MAT 13:55"/>这不是那木匠的儿子吗？祂母亲不是<char style="pn">玛丽亚</char>吗？祂的弟弟不是<char style="pn">雅各</char>、<char style="pn">约瑟</char>、<char style="pn">西门</char>和<char style="pn">犹大</char>吗？ <verse eid="MAT 13:55"/><verse number="56" style="v" sid="MAT 13:56"/>祂的妹妹们不也都在我们这里吗？祂究竟从哪里得了这些能力呢？” <verse eid="MAT 13:56"/><verse number="57" style="v" sid="MAT 13:57"/>他们就对祂很反感。</para>
+  <para style="p" vid="MAT 13:57">耶稣对他们说：“先知到处受人尊敬，只有在本乡本家例外。” <verse eid="MAT 13:57"/><verse number="58" style="v" sid="MAT 13:58"/>因为他们不信，耶稣就没有在那里多行神迹。<verse eid="MAT 13:58"/></para>
+  <chapter eid="MAT 13"/>
+  <chapter number="14" style="c" sid="MAT 14"/>
+  <para style="s1">施洗者约翰之死</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 14:1"/>那时，分封王<char style="pn">希律</char>听见耶稣的名声， <verse eid="MAT 14:1"/><verse number="2" style="v" sid="MAT 14:2"/>就对臣仆说：“这个人是施洗者<char style="pn">约翰</char>！他从死里复活了，所以能行这些神迹。”<verse eid="MAT 14:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 14:3"/>原来<char style="pn">希律</char>为他兄弟<char style="pn">腓力</char>的妻子<char style="pn">希罗底</char>的缘故，拘捕了<char style="pn">约翰</char>，把他捆绑起来关在监牢。 <verse eid="MAT 14:3"/><verse number="4" style="v" sid="MAT 14:4"/>因为<char style="pn">约翰</char>曾多次对他说：“你娶这个妇人不合法。” <verse eid="MAT 14:4"/><verse number="5" style="v" sid="MAT 14:5"/>他想杀掉<char style="pn">约翰</char>，但怕触怒百姓，因为他们都认为<char style="pn">约翰</char>是先知。<verse eid="MAT 14:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MAT 14:6"/>在<char style="pn">希律</char>的生日那天，<char style="pn">希罗底</char>的女儿在众人面前跳舞。<char style="pn">希律</char>非常高兴， <verse eid="MAT 14:6"/><verse number="7" style="v" sid="MAT 14:7"/>就起誓答应她无论要什么都可以。 <verse eid="MAT 14:7"/><verse number="8" style="v" sid="MAT 14:8"/>她受了母亲的指使，说：“请把施洗者<char style="pn">约翰</char>的头放在盘子里送给我。” <verse eid="MAT 14:8"/><verse number="9" style="v" sid="MAT 14:9"/><char style="pn">希律</char>感到为难，但既然在众宾客面前起了誓，只好下令给她。 <verse eid="MAT 14:9"/><verse number="10" style="v" sid="MAT 14:10"/>他派人进监牢砍了<char style="pn">约翰</char>的头， <verse eid="MAT 14:10"/><verse number="11" style="v" sid="MAT 14:11"/>放在盘子里送给女孩，她又转送给她母亲。 <verse eid="MAT 14:11"/><verse number="12" style="v" sid="MAT 14:12"/><char style="pn">约翰</char>的门徒把尸体领回安葬后，就去告诉耶稣。<verse eid="MAT 14:12"/></para>
+  <para style="s1">耶稣使五千人吃饱</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 14:13"/>耶稣听见这个消息，就独自坐船退到一处荒僻的地方。众人得知后，就从各城步行来跟随祂。 <verse eid="MAT 14:13"/><verse number="14" style="v" sid="MAT 14:14"/>耶稣上了岸，看见一大群人，心里怜悯他们，就治好了他们当中的病人。 <verse eid="MAT 14:14"/><verse number="15" style="v" sid="MAT 14:15"/>黄昏时，门徒过来对耶稣说：“这里是荒郊野外，天又晚了，请遣散众人，好让他们到村庄去自己买些吃的。”<verse eid="MAT 14:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 14:16"/>耶稣回答说：“他们不用离开，你们给他们吃的吧。”<verse eid="MAT 14:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 14:17"/>门徒答道：“我们这里只有五个饼和两条鱼。”<verse eid="MAT 14:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 14:18"/>耶稣说：“拿来给我。”<verse eid="MAT 14:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MAT 14:19"/>于是，祂叫众人坐在草地上，然后拿起那五个饼和两条鱼，举目望着天祝谢后，掰开饼递给门徒，让他们分给众人。 <verse eid="MAT 14:19"/><verse number="20" style="v" sid="MAT 14:20"/>大家都吃饱了，把剩下的零碎收拾起来，装满了十二个篮子。 <verse eid="MAT 14:20"/><verse number="21" style="v" sid="MAT 14:21"/>当时吃饭的，除了妇女和小孩，约有五千男人。<verse eid="MAT 14:21"/></para>
+  <para style="s1">耶稣在水上行走</para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 14:22"/>随后，耶稣催门徒上船，叫他们先渡到湖对岸，祂则遣散众人。 <verse eid="MAT 14:22"/><verse number="23" style="v" sid="MAT 14:23"/>等众人都离开了，祂就独自上山去祷告，在那里一直待到晚上。<verse eid="MAT 14:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 14:24"/>那时，门徒的船离岸已远，遇到逆风，船身被波浪撞击得摇摆不定。 <verse eid="MAT 14:24"/><verse number="25" style="v" sid="MAT 14:25"/>天将破晓的时候，耶稣从水面上朝门徒走去。 <verse eid="MAT 14:25"/><verse number="26" style="v" sid="MAT 14:26"/>门徒看见祂在湖面上走，都吓坏了，说：“是幽灵！”他们害怕得又喊又叫。<verse eid="MAT 14:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 14:27"/>耶稣立刻对他们说：“放心吧！是我，不要怕。”<verse eid="MAT 14:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 14:28"/>
+    <char style="pn">彼得</char>说：“主啊！如果真的是你，就叫我从水面上走到你那里。”<verse eid="MAT 14:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 14:29"/>耶稣说：“你来吧！”</para>
+  <para style="p" vid="MAT 14:29">于是，<char style="pn">彼得</char>就从船上下去，走在湖面上，要去耶稣那里。 <verse eid="MAT 14:29"/><verse number="30" style="v" sid="MAT 14:30"/>他看到风浪很大，就害怕起来，身体开始往下沉，便大喊：“主啊，救我！”<verse eid="MAT 14:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MAT 14:31"/>耶稣马上伸手拉住他，说：“你信心太小了！为什么怀疑呢？”<verse eid="MAT 14:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 14:32"/>他们上了船，风浪就平静了。 <verse eid="MAT 14:32"/><verse number="33" style="v" sid="MAT 14:33"/>船上的人都敬拜祂，说：“你真是上帝的儿子。”<verse eid="MAT 14:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 14:34"/>他们渡到湖对岸，来到<char style="pn">革尼撒勒</char>。 <verse eid="MAT 14:34"/><verse number="35" style="v" sid="MAT 14:35"/>当地的人认出是耶稣，就派人去把附近所有的病人都带到祂面前， <verse eid="MAT 14:35"/><verse number="36" style="v" sid="MAT 14:36"/>求耶稣让他们只摸一摸祂衣服的穗子，所有摸过的病人都好了。<verse eid="MAT 14:36"/></para>
+  <chapter eid="MAT 14"/>
+  <chapter number="15" style="c" sid="MAT 15"/>
+  <para style="s1">传统与诫命</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 15:1"/>有几个法利赛人和律法教师从<char style="pn">耶路撒冷</char>来质问耶稣： <verse eid="MAT 15:1"/><verse number="2" style="v" sid="MAT 15:2"/>“为什么你的门徒吃饭前不行洗手礼，破坏祖先的传统呢？”<verse eid="MAT 15:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 15:3"/>耶稣回答说：“为什么你们因拘守传统而违背上帝的诫命呢？ <verse eid="MAT 15:3"/><verse number="4" style="v" sid="MAT 15:4"/>上帝说，‘要孝敬父母’<note caller="+" style="f"><char style="fr" closed="false">15:4 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:12">出埃及记20:12</ref>；<ref loc="DEU 5:16">申命记5:16</ref>。</char></char></note>，又说，‘咒骂父母的，必被处死。’<note caller="+" style="f"><char style="fr" closed="false">15:4 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 21:17">出埃及记21:17</ref>；<ref loc="LEV 20:9">利未记20:9</ref>。</char></char></note> <verse eid="MAT 15:4"/><verse number="5" style="v" sid="MAT 15:5"/>你们却说，‘人如果宣布把供养父母的钱奉献给上帝， <verse eid="MAT 15:5"/><verse number="6" style="v" sid="MAT 15:6"/>他就不必孝敬父母了。’你们这是用传统来废掉上帝的诫命。 <verse eid="MAT 15:6"/><verse number="7" style="v" sid="MAT 15:7"/>你们这些伪君子，<char style="pn">以赛亚</char>针对你们说的预言一点没错，<verse eid="MAT 15:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="MAT 15:8"/>“‘这些人嘴上尊崇我，</para>
+  <para style="q1" vid="MAT 15:8">心却远离我，<verse eid="MAT 15:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="MAT 15:9"/>他们的教导无非是人的规条，</para>
+  <para style="q1" vid="MAT 15:9">他们敬拜我也是枉然。’<note caller="+" style="f"><char style="fr" closed="false">15:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 29:13">以赛亚书29:13</ref>。</char></char></note>”<verse eid="MAT 15:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 15:10"/>耶稣召集了众人，对他们说：“你们要听，也要明白。 <verse eid="MAT 15:10"/><verse number="11" style="v" sid="MAT 15:11"/>入口的东西不会使人污秽，从口中出来的才会使人污秽。”<verse eid="MAT 15:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 15:12"/>门徒上前对祂说：“你知道吗？法利赛人听见你的话很反感。”<verse eid="MAT 15:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 15:13"/>耶稣回答说：“凡不是我天父栽种的都要被连根拔起来。 <verse eid="MAT 15:13"/><verse number="14" style="v" sid="MAT 15:14"/>随便他们吧！他们是瞎眼的向导。瞎眼的给瞎眼的领路，二人都会掉进坑里。”<verse eid="MAT 15:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 15:15"/>
+    <char style="pn">彼得</char>对耶稣说：“请给我们解释一下这个比喻。”<verse eid="MAT 15:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 15:16"/>耶稣说：“你们也还是这样糊涂吗？ <verse eid="MAT 15:16"/><verse number="17" style="v" sid="MAT 15:17"/>岂不知入口的东西都是进到肚子里，然后排进厕所吗？ <verse eid="MAT 15:17"/><verse number="18" style="v" sid="MAT 15:18"/>可是，从口中出来的乃是发自内心，会使人污秽。 <verse eid="MAT 15:18"/><verse number="19" style="v" sid="MAT 15:19"/>因为从心里出来的有恶念、谋杀、通奸、淫乱、偷盗、假见证和毁谤， <verse eid="MAT 15:19"/><verse number="20" style="v" sid="MAT 15:20"/>这些东西才使人污秽。不洗手吃饭并不会使人污秽。”<verse eid="MAT 15:20"/></para>
+  <para style="s1">迦南妇人的信心</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 15:21"/>耶稣从那里退到<char style="pn">泰尔</char>和<char style="pn">西顿</char>境内。 <verse eid="MAT 15:21"/><verse number="22" style="v" sid="MAT 15:22"/>那地方有个<char style="pn">迦南</char>的妇人前来大声恳求耶稣：“主啊！<char style="pn">大卫</char>的后裔啊！可怜我吧！我的女儿被鬼附身，受尽折磨！” <verse eid="MAT 15:22"/><verse number="23" style="v" sid="MAT 15:23"/>耶稣却一言不答。门徒上前求祂说：“请让她走吧！她老是在我们后面喊叫。”<verse eid="MAT 15:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 15:24"/>耶稣说：“我奉差遣只是来寻找<char style="pn">以色列</char>家迷失的羊。”<verse eid="MAT 15:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 15:25"/>那妇人上前跪下，说：“主啊！求你帮帮我吧！”<verse eid="MAT 15:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 15:26"/>耶稣答道：“把儿女的食物丢给狗吃，不合适。”<verse eid="MAT 15:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 15:27"/>妇人说：“主啊，不错，可是狗也吃主人饭桌上掉下来的碎渣呀！”<verse eid="MAT 15:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 15:28"/>耶稣说：“妇人，你的信心真大！我答应你的要求。”就在那一刻，她女儿痊愈了。<verse eid="MAT 15:28"/></para>
+  <para style="s1">耶稣使四千人吃饱</para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 15:29"/>耶稣离开那里，来到<char style="pn">加利利</char>湖边，上了山，在那里坐下。 <verse eid="MAT 15:29"/><verse number="30" style="v" sid="MAT 15:30"/>大群的人把瘸腿的、瞎眼的、残疾的、哑巴及许多别的病人带来，放在祂脚前，祂就医治了他们。 <verse eid="MAT 15:30"/><verse number="31" style="v" sid="MAT 15:31"/>众人看见哑巴说话，残疾的复原，瘸腿的走路，瞎眼的看见，都很惊奇，就赞美<char style="pn">以色列</char>的上帝。<verse eid="MAT 15:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 15:32"/>耶稣把门徒召集过来，对他们说：“我怜悯这些人，他们跟我在一起已经三天，没有任何吃的。我不愿让他们饿着肚子回去，以免他们在路上体力不支。”<verse eid="MAT 15:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 15:33"/>门徒说：“在这荒郊野外，我们到哪里找足够的食物给这么多人吃呢？”<verse eid="MAT 15:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 15:34"/>耶稣问：“你们有多少饼？”</para>
+  <para style="p" vid="MAT 15:34">门徒答道：“七个，还有几条小鱼。”<verse eid="MAT 15:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MAT 15:35"/>耶稣便吩咐众人坐在地上。 <verse eid="MAT 15:35"/><verse number="36" style="v" sid="MAT 15:36"/>祂拿着那七个饼和几条鱼祝谢后，掰开，递给门徒，门徒再分给众人。 <verse eid="MAT 15:36"/><verse number="37" style="v" sid="MAT 15:37"/>大家都吃了，并且吃饱了，剩下的零碎装满了七个筐子。 <verse eid="MAT 15:37"/><verse number="38" style="v" sid="MAT 15:38"/>当时吃饭的，除了妇女和小孩，共有四千男人。 <verse eid="MAT 15:38"/><verse number="39" style="v" sid="MAT 15:39"/>耶稣遣散众人以后，就坐船去了<char style="pn">马加丹</char>地区。<verse eid="MAT 15:39"/></para>
+  <chapter eid="MAT 15"/>
+  <chapter number="16" style="c" sid="MAT 16"/>
+  <para style="s1">求神迹</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 16:1"/>有几个法利赛人和撒都该人来试探耶稣，要求祂显个天上的神迹给他们看。<verse eid="MAT 16:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MAT 16:2"/>耶稣回答说：“傍晚的时候，你们说，‘天上有红霞，明天必晴朗。’ <verse eid="MAT 16:2"/><verse number="3" style="v" sid="MAT 16:3"/>早晨的时候，你们说，‘天色又红又暗，今天必有风雨。’你们懂得分辨天色，却不能分辨时代的征兆。 <verse eid="MAT 16:3"/><verse number="4" style="v" sid="MAT 16:4"/>一个邪恶淫乱的世代想看神迹，但除了<char style="pn">约拿</char>的神迹以外，再没有神迹给他们看。”于是耶稣离开他们走了。<verse eid="MAT 16:4"/></para>
+  <para style="s1">防备法利赛人和撒都该人的酵</para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 16:5"/>门徒渡到湖对岸，忘记带饼了。 <verse eid="MAT 16:5"/><verse number="6" style="v" sid="MAT 16:6"/>耶稣对他们说：“你们要小心提防法利赛人和撒都该人的酵。”<verse eid="MAT 16:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 16:7"/>门徒彼此议论说：“这是因为我们没有带饼吧。”<verse eid="MAT 16:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 16:8"/>耶稣知道他们的心思，就说：“你们的信心太小了！为什么议论没有带饼的事呢？ <verse eid="MAT 16:8"/><verse number="9" style="v" sid="MAT 16:9"/>你们还不明白吗？你们不记得那五个饼让五千人吃饱，又装满多少篮子吗？ <verse eid="MAT 16:9"/><verse number="10" style="v" sid="MAT 16:10"/>也不记得那七个饼给四千人吃饱，又装满多少筐子吗？ <verse eid="MAT 16:10"/><verse number="11" style="v" sid="MAT 16:11"/>我并非和你们谈论饼，你们怎么不明白呢？你们要提防法利赛人和撒都该人的酵。”<verse eid="MAT 16:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 16:12"/>门徒这才恍然大悟，知道耶稣不是叫他们当心什么面酵，而是要提防法利赛人和撒都该人的教导。<verse eid="MAT 16:12"/></para>
+  <para style="s1">彼得宣告耶稣是基督</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 16:13"/>到了<char style="pn">凯撒利亚·腓立比</char>境内，耶稣问门徒：“人们说人子是谁？”<verse eid="MAT 16:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 16:14"/>门徒回答说：“有人说是施洗者<char style="pn">约翰</char>，有人说是<char style="pn">以利亚</char>，还有人说是<char style="pn">耶利米</char>或其他某位先知。”<verse eid="MAT 16:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 16:15"/>耶稣问：“那么，你们说我是谁？”<verse eid="MAT 16:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 16:16"/>
+    <char style="pn">西门·彼得</char>回答说：“你是基督，是永活上帝的儿子！”<verse eid="MAT 16:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 16:17"/>耶稣对他说：“<char style="pn">约拿</char>的儿子<char style="pn">西门</char>啊，你是有福的！因为这件事不是属血肉的人告诉你的，而是我天上的父启示你的。 <verse eid="MAT 16:17"/><verse number="18" style="v" sid="MAT 16:18"/>我告诉你，你是<char style="pn">彼得</char><note caller="+" style="f"><char style="fr" closed="false">16:18 </char><char style="ft" closed="false">“彼得”希腊文是“磐石”的意思。</char></note>，我要在这磐石上建立我的教会，阴间的势力<note caller="+" style="f"><char style="fr" closed="false">16:18 </char><char style="ft" closed="false">“势力”希腊文是“门”。</char></note>不能胜过它。 <verse eid="MAT 16:18"/><verse number="19" style="v" sid="MAT 16:19"/>我要把天国的钥匙交给你。凡你在地上捆绑的，在天上也要捆绑；凡你在地上释放的，在天上也要释放。”<verse eid="MAT 16:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 16:20"/>当下，耶稣叮嘱门徒不可告诉别人祂就是基督。<verse eid="MAT 16:20"/></para>
+  <para style="s1">耶稣预言自己的受害和复活</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 16:21"/>从此以后，耶稣开始清楚地指示门徒，祂必须去<char style="pn">耶路撒冷</char>，受长老、祭司长和律法教师许多的迫害，并且被杀害，但第三天必复活。 <verse eid="MAT 16:21"/><verse number="22" style="v" sid="MAT 16:22"/><char style="pn">彼得</char>把耶稣拉到一边，劝阻祂说：“主啊，千万不可！这件事绝不会发生在你身上！”<verse eid="MAT 16:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 16:23"/>耶稣转过身来对<char style="pn">彼得</char>说：“撒旦，退到我后面去！你是我的绊脚石，因为你不考虑上帝的意思，只考虑人的意思。”<verse eid="MAT 16:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 16:24"/>于是耶稣对门徒说：“人若想跟从我，就当舍己，背起他的十字架跟从我。 <verse eid="MAT 16:24"/><verse number="25" style="v" sid="MAT 16:25"/>因为想救自己生命的，必失去生命；但为了我失去生命的，必得到生命。 <verse eid="MAT 16:25"/><verse number="26" style="v" sid="MAT 16:26"/>人就算赚得全世界，却丧失自己的生命，又有什么益处呢？人还能拿什么换回自己的生命呢？<verse eid="MAT 16:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 16:27"/>“因为人子要在祂父的荣耀中与众天使一起降临，那时，祂将按照各人的行为报应各人。 <verse eid="MAT 16:27"/><verse number="28" style="v" sid="MAT 16:28"/>我实在告诉你们，有些站在这里的人会在有生之年看见人子降临在祂的国度里。”<verse eid="MAT 16:28"/></para>
+  <chapter eid="MAT 16"/>
+  <chapter number="17" style="c" sid="MAT 17"/>
+  <para style="s1">登山变象</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 17:1"/>六天后，耶稣带着<char style="pn">彼得</char>、<char style="pn">雅各</char>和<char style="pn">雅各</char>的兄弟<char style="pn">约翰</char>单独登上一座高山。 <verse eid="MAT 17:1"/><verse number="2" style="v" sid="MAT 17:2"/>耶稣在他们面前改变了形象，面貌如太阳一样发光，衣服洁白如光。 <verse eid="MAT 17:2"/><verse number="3" style="v" sid="MAT 17:3"/>忽然，<char style="pn">摩西</char>和<char style="pn">以利亚</char>向他们显现，他们在跟耶稣谈话。 <verse eid="MAT 17:3"/><verse number="4" style="v" sid="MAT 17:4"/><char style="pn">彼得</char>对耶稣说：“主啊，我们在这里真好！如果你愿意，我就在这里搭三座帐篷，一座给你，一座给<char style="pn">摩西</char>，一座给<char style="pn">以利亚</char>。”<verse eid="MAT 17:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 17:5"/>他正在说话的时候，一朵灿烂的云彩笼罩他们。云彩中有声音说：“这是我的爱子，我喜悦祂，你们要听从祂。”<verse eid="MAT 17:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MAT 17:6"/>门徒听见这声音，便俯伏在地，非常惧怕。 <verse eid="MAT 17:6"/><verse number="7" style="v" sid="MAT 17:7"/>耶稣就过来摸他们，说：“起来吧，别害怕。” <verse eid="MAT 17:7"/><verse number="8" style="v" sid="MAT 17:8"/>他们抬眼一看，只见耶稣一人。<verse eid="MAT 17:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 17:9"/>下山时，耶稣叮嘱他们：“人子从死里复活以前，不要把刚才看见的告诉别人。”<verse eid="MAT 17:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 17:10"/>门徒问耶稣：“律法教师为什么说<char style="pn">以利亚</char>必须先来？”<verse eid="MAT 17:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 17:11"/>耶稣回答说：“<char style="pn">以利亚</char>的确要来，他将复兴一切。 <verse eid="MAT 17:11"/><verse number="12" style="v" sid="MAT 17:12"/>但我告诉你们，<char style="pn">以利亚</char>已经来了，人们却不认识他，甚至还任意对待他。人子同样也会在他们手下受苦。” <verse eid="MAT 17:12"/><verse number="13" style="v" sid="MAT 17:13"/>门徒这才明白耶稣所说的是指施洗者<char style="pn">约翰</char>。<verse eid="MAT 17:13"/></para>
+  <para style="s1">治好被鬼附身的孩子</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 17:14"/>他们来到山下众人聚集的地方。有一个人过来跪在耶稣跟前，说： <verse eid="MAT 17:14"/><verse number="15" style="v" sid="MAT 17:15"/>“主啊！救救我的儿子吧！他患了癫痫，痛苦极了，经常跌进火中，掉进水里。 <verse eid="MAT 17:15"/><verse number="16" style="v" sid="MAT 17:16"/>我带他去见你的门徒，但他们不能医治他。”<verse eid="MAT 17:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 17:17"/>耶稣说：“唉！这又不信又败坏的世代啊，我要跟你们在一起待多久？我要容忍你们多久呢？把他带到我这里来吧。” <verse eid="MAT 17:17"/><verse number="18" style="v" sid="MAT 17:18"/>耶稣斥责附在孩子身上的鬼，鬼就离开了那孩子，他立刻就好了。<verse eid="MAT 17:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MAT 17:19"/>事后，门徒私下问耶稣：“我们为什么赶不走那鬼呢？”<verse eid="MAT 17:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 17:20"/>耶稣说：“你们的信心太小了。我实在告诉你们，你们若有像芥菜种那样大的信心，就算叫这座山从这里移到那里，它也会移开，你们将没有办不到的事。 <verse eid="MAT 17:20"/><verse number="21" style="v" sid="MAT 17:21"/>至于这一类的鬼，你们必须祷告和禁食才能把它赶走。<note caller="+" style="f"><char style="fr" closed="false">17:21 </char><char style="ft" closed="false">有古卷无21节。</char></note>”<verse eid="MAT 17:21"/></para>
+  <para style="s1">耶稣第二次预言受害和复活</para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 17:22"/>他们聚集在<char style="pn">加利利</char>的时候，耶稣对他们说：“人子将被交在人手中。 <verse eid="MAT 17:22"/><verse number="23" style="v" sid="MAT 17:23"/>他们将杀害祂，第三天祂将复活。”门徒听了，十分忧愁。<verse eid="MAT 17:23"/></para>
+  <para style="s1">从鱼口得税钱</para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 17:24"/>他们来到<char style="pn">迦百农</char>，有几个收圣殿税的来问<char style="pn">彼得</char>：“你们的老师不纳圣殿税吗？”<verse eid="MAT 17:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 17:25"/>
+    <char style="pn">彼得</char>说：“纳！”他进了屋，还没开口，耶稣便问他：“<char style="pn">西门</char>，你有何看法？世上的君王向谁征收赋税？向自己的儿子呢，还是向外人呢？”<verse eid="MAT 17:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 17:26"/>
+    <char style="pn">彼得</char>答道：“向外人。”</para>
+  <para style="p" vid="MAT 17:26">耶稣说：“所以儿子不用纳税。 <verse eid="MAT 17:26"/><verse number="27" style="v" sid="MAT 17:27"/>但为了避免得罪这些人，你就去湖边钓鱼，把钓上来的第一条鱼的嘴打开，里面有一个钱币，拿它去缴你我的税好了。”<verse eid="MAT 17:27"/></para>
+  <chapter eid="MAT 17"/>
+  <chapter number="18" style="c" sid="MAT 18"/>
+  <para style="s1">天国里谁最伟大</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 18:1"/>这时，门徒上前来，问耶稣：“在天国谁最伟大？”<verse eid="MAT 18:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MAT 18:2"/>耶稣叫了一个小孩子来站在他们当中，然后说： <verse eid="MAT 18:2"/><verse number="3" style="v" sid="MAT 18:3"/>“我实在告诉你们，你们若不回转，变得像小孩子那样，绝不能进天国。 <verse eid="MAT 18:3"/><verse number="4" style="v" sid="MAT 18:4"/>所以，凡像这小孩子一样谦卑的人，在天国才是最伟大的。<verse eid="MAT 18:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 18:5"/>“谁为了我的名接待这样一个小孩子，就是接待我。 <verse eid="MAT 18:5"/><verse number="6" style="v" sid="MAT 18:6"/>不论谁使这样一个小信徒失足犯罪，他的下场比把大磨石拴在他脖子上沉到深海里还要惨。 <verse eid="MAT 18:6"/><verse number="7" style="v" sid="MAT 18:7"/>这世界有祸了！因为里面充满了引人犯罪的事。这样的事是免不了的，但引人犯罪的人有祸了！<verse eid="MAT 18:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 18:8"/>“如果你的手或脚使你犯罪，就把它砍下来扔掉！肢体残缺着进入永生，胜过四肢健全却被扔进永远不灭的火中。 <verse eid="MAT 18:8"/><verse number="9" style="v" sid="MAT 18:9"/>如果你的一只眼睛使你犯罪，就剜出来丢掉它！独眼进入永生，胜过双目健全却被扔进地狱的火中。 <verse eid="MAT 18:9"/><verse number="10" style="v" sid="MAT 18:10"/>你们切不可轻视任何一位卑微的人。我告诉你们，他们的天使在天上常见我天父的面。<verse eid="MAT 18:10"/></para>
+  <para style="s1">迷失的羊</para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 18:11"/>“人子到世界来是要拯救迷失的人。<note caller="+" style="f"><char style="fr" closed="false">18:11 </char><char style="ft" closed="false">有古卷无11节。</char></note> <verse eid="MAT 18:11"/><verse number="12" style="v" sid="MAT 18:12"/>如果一个人有一百只羊，其中有一只走迷了路，你们认为他会怎么办呢？难道不会把那九十九只撇在山上，去找那只迷失的羊吗？ <verse eid="MAT 18:12"/><verse number="13" style="v" sid="MAT 18:13"/>我实在告诉你们，如果找到了，他会非常欢喜，甚至比有那九十九只没有迷失的羊还欢喜。 <verse eid="MAT 18:13"/><verse number="14" style="v" sid="MAT 18:14"/>同样，你们的天父也不愿任何一个卑微的人失丧。<verse eid="MAT 18:14"/></para>
+  <para style="s1">纠正信徒的过错</para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 18:15"/>“如果你的弟兄得罪了你，你要找个机会跟他单独在一起，指出他的错处。如果他肯接受劝告，你就赢得了你的弟兄。 <verse eid="MAT 18:15"/><verse number="16" style="v" sid="MAT 18:16"/>如果他不听，你就带一两位弟兄去见他，这样任何事有两三个证人作证才能定案。<note caller="+" style="f"><char style="fr" closed="false">18:16 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 19:15">申命记19:15</ref>。</char></char></note> <verse eid="MAT 18:16"/><verse number="17" style="v" sid="MAT 18:17"/>如果他仍然不听，你就应当告诉教会。如果他连教会也不听，你就把他看作异教徒或税吏<note caller="+" style="f"><char style="fr" closed="false">18:17 </char><char style="ft" closed="false">“税吏”即犹太人眼中的“汉奸”，帮助统治犹太人的罗马政府收税，常从中牟取暴利。</char></note>。 <verse eid="MAT 18:17"/><verse number="18" style="v" sid="MAT 18:18"/>我实在告诉你们，你们在地上捆绑的，在天上也要捆绑；你们在地上释放的，在天上也要释放。<verse eid="MAT 18:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MAT 18:19"/>“况且，我实在告诉你们，如果你们当中有两个人在地上同心合意地祈求，不论求什么，我天上的父必为你们成就。 <verse eid="MAT 18:19"/><verse number="20" style="v" sid="MAT 18:20"/>因为哪里有两三个人奉我的名聚会，我就在哪里与他们同在。”<verse eid="MAT 18:20"/></para>
+  <para style="s1">七十个七次</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 18:21"/>那时，<char style="pn">彼得</char>上前问耶稣：“主啊，如果我的弟兄得罪了我，我该饶恕他多少次呢？七次够了吧？”<verse eid="MAT 18:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 18:22"/>耶稣回答说：“我告诉你，不是七次，是七十个七次。<verse eid="MAT 18:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 18:23"/>“因此，天国就像一个王，他要跟奴仆清算债务。 <verse eid="MAT 18:23"/><verse number="24" style="v" sid="MAT 18:24"/>正开始清算的时候，有人带着一个欠了六千万银币<note caller="+" style="f"><char style="fr" closed="false">18:24 </char><char style="ft" closed="false">“六千万银币”希腊文是“一万他连得”，一他连得相当于当时一个普通工人20年的工钱。</char></note>的人进来。 <verse eid="MAT 18:24"/><verse number="25" style="v" sid="MAT 18:25"/>因为这个人无法清还债款，主人就下令把他及其妻儿和所有财产全部卖掉还债。 <verse eid="MAT 18:25"/><verse number="26" style="v" sid="MAT 18:26"/>那奴仆跪在王面前乞求说，‘请宽容我，我会把债务全部还清的。’ <verse eid="MAT 18:26"/><verse number="27" style="v" sid="MAT 18:27"/>主人可怜他，不但释放了他，而且免了他全部的债。<verse eid="MAT 18:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 18:28"/>“可是，那奴仆出去后，遇见一位欠他一百个银币<note caller="+" style="f"><char style="fr" closed="false">18:28 </char><char style="ft" closed="false">一个银币相当于当时普通工人一天的工钱。</char></note>的同伴，就揪住他，掐着他的喉咙说，‘还我钱！’ <verse eid="MAT 18:28"/><verse number="29" style="v" sid="MAT 18:29"/>同伴跪下哀求道，‘请宽容我，我会还你的。’<verse eid="MAT 18:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MAT 18:30"/>“那奴仆却不肯，竟把同伴送进监狱，直到他还清债务为止。 <verse eid="MAT 18:30"/><verse number="31" style="v" sid="MAT 18:31"/>其他奴仆目睹这一切，都愤愤不平，就去把这件事告诉了主人。<verse eid="MAT 18:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 18:32"/>“于是，主人把那奴仆召来，说，‘你这可恶的奴才！你哀求我，我就免了你所有的债。 <verse eid="MAT 18:32"/><verse number="33" style="v" sid="MAT 18:33"/>难道你不应该怜悯你的同伴，就像我怜悯你一样吗？’ <verse eid="MAT 18:33"/><verse number="34" style="v" sid="MAT 18:34"/>主人大怒，把他交给狱卒受刑，直到他还清全部的债务。 <verse eid="MAT 18:34"/><verse number="35" style="v" sid="MAT 18:35"/>如果你们每个人不从心里饶恕自己的弟兄，我的天父也要这样对待你们。”<verse eid="MAT 18:35"/></para>
+  <chapter eid="MAT 18"/>
+  <chapter number="19" style="c" sid="MAT 19"/>
+  <para style="s1">论休妻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 19:1"/>耶稣说完这番话，就离开<char style="pn">加利利</char>来到<char style="pn">约旦</char>河东岸的<char style="pn">犹太</char>地区。 <verse eid="MAT 19:1"/><verse number="2" style="v" sid="MAT 19:2"/>有一大群人跟着祂，祂就在那里治好了他们的病。<verse eid="MAT 19:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 19:3"/>有几个法利赛人到耶稣那里想试探祂，便问祂：“男人可以用任何理由休妻吗？”<verse eid="MAT 19:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MAT 19:4"/>耶稣回答说：“你们没有读过吗？太初，造物主造了男人和女人，<note caller="+" style="f"><char style="fr" closed="false">19:4 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 1:27">创世记1:27</ref>。</char></char></note> <verse eid="MAT 19:4"/><verse number="5" style="v" sid="MAT 19:5"/>并且说，‘因此，人要离开父母，与妻子结合，二人成为一体。’<note caller="+" style="f"><char style="fr" closed="false">19:5 </char><char style="ft" closed="false"><char style="xt"><ref loc="GEN 2:24">创世记2:24</ref>。</char></char></note> <verse eid="MAT 19:5"/><verse number="6" style="v" sid="MAT 19:6"/>这样，夫妻不再是两个人，而是一体了。因此，上帝配合的，人不可分开。”<verse eid="MAT 19:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MAT 19:7"/>他们追问：“那么，为什么<char style="pn">摩西</char>说，只要给妻子休书，就可以休她呢？”<verse eid="MAT 19:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 19:8"/>耶稣说：“因为你们心里刚硬，<char style="pn">摩西</char>才准许你们休妻。但起初并不是这样。 <verse eid="MAT 19:8"/><verse number="9" style="v" sid="MAT 19:9"/>我告诉你们，除非是妻子不贞，否则任何人休妻另娶，就是犯通奸罪<note caller="+" style="f"><char style="fr" closed="false">19:9 </char><char style="ft" closed="false">有古卷在此处有“娶被休女子的人也犯了通奸罪”。</char></note>。”<verse eid="MAT 19:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 19:10"/>门徒对耶稣说：“如果夫妻关系是这样，还不如不结婚。”<verse eid="MAT 19:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 19:11"/>耶稣说：“这话不是每个人都能接受的，只有那些得到这种恩赐的人才能接受。 <verse eid="MAT 19:11"/><verse number="12" style="v" sid="MAT 19:12"/>人不结婚的原因很多，有些是因为先天的缺陷，有些是被人阉了，也有些是为了天国而自己放弃结婚的权利。谁能接受，就让他接受吧。”<verse eid="MAT 19:12"/></para>
+  <para style="s1">耶稣为小孩子祝福</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 19:13"/>有人带着小孩子来见耶稣，要让耶稣为他们按手祷告，却受到门徒的责备。<verse eid="MAT 19:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 19:14"/>耶稣说：“让小孩子到我这里来，不要阻止他们，因为天国属于这样的人。” <verse eid="MAT 19:14"/><verse number="15" style="v" sid="MAT 19:15"/>于是，祂为他们按手，然后才离开那里。<verse eid="MAT 19:15"/></para>
+  <para style="s1">有钱的青年</para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 19:16"/>有一个人来请教耶稣：“老师，我该做什么善事才能得到永生呢？”<verse eid="MAT 19:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 19:17"/>耶稣说：“你为什么问我何为善事？善者只有一位，你如果想进入永生，就必须遵守诫命。”<verse eid="MAT 19:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 19:18"/>那人问：“什么诫命呢？”</para>
+  <para style="p" vid="MAT 19:18">耶稣答道：“不可杀人，不可通奸，不可偷盗，不可作伪证， <verse eid="MAT 19:18"/><verse number="19" style="v" sid="MAT 19:19"/>要孝敬父母，<note caller="+" style="f"><char style="fr" closed="false">19:19 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 20:12-16">出埃及记20:12‑16</ref>；<ref loc="DEU 5:16-20">申命记5:16‑20</ref>。</char></char></note>并且爱邻如己。<note caller="+" style="f"><char style="fr" closed="false">19:19 </char><char style="ft" closed="false"><char style="xt"><ref loc="LEV 19:18">利未记19:18</ref>。</char></char></note>”<verse eid="MAT 19:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 19:20"/>那青年说：“这一切我早已遵守了，还缺什么呢？”<verse eid="MAT 19:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 19:21"/>耶稣告诉他：“你如果想做到纯全，就去变卖所有的产业，送给穷人，你必有财宝存在天上，然后你来跟从我。” <verse eid="MAT 19:21"/><verse number="22" style="v" sid="MAT 19:22"/>那青年听后，便忧伤地走了，因为他有许多产业。<verse eid="MAT 19:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 19:23"/>耶稣对门徒说：“我实在告诉你们，有钱人很难进天国。 <verse eid="MAT 19:23"/><verse number="24" style="v" sid="MAT 19:24"/>我再告诉你们，骆驼穿过针眼比有钱人进上帝的国还容易呢！”<verse eid="MAT 19:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 19:25"/>门徒听了，十分惊奇，便问：“这样，谁能得救呢？”<verse eid="MAT 19:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 19:26"/>耶稣看着他们说：“对人而言，这不可能；但对上帝而言，凡事都可能。”<verse eid="MAT 19:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 19:27"/>
+    <char style="pn">彼得</char>问道：“你看，我们已经撇下一切来跟从你了，将来会有什么奖赏呢？”<verse eid="MAT 19:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 19:28"/>耶稣说：“我实在告诉你们，到万物更新、人子坐在祂荣耀的宝座上时，你们这些跟从我的人也要坐在十二个宝座上，审判<char style="pn">以色列</char>的十二个支派。 <verse eid="MAT 19:28"/><verse number="29" style="v" sid="MAT 19:29"/>任何人为了我的名撇下房屋、弟兄、姊妹、父母、儿女或田地，都要得到百倍的赏赐，而且承受永生。 <verse eid="MAT 19:29"/><verse number="30" style="v" sid="MAT 19:30"/>然而，许多为首的将要殿后，殿后的将要为首。”<verse eid="MAT 19:30"/></para>
+  <chapter eid="MAT 19"/>
+  <chapter number="20" style="c" sid="MAT 20"/>
+  <para style="s1">葡萄园工人的比喻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 20:1"/>耶稣接着说：“因为天国就像一个园主清早去外面雇工人到他的葡萄园做工。 <verse eid="MAT 20:1"/><verse number="2" style="v" sid="MAT 20:2"/>他跟工人讲好一天的工钱是一个银币，然后派他们去葡萄园。<verse eid="MAT 20:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 20:3"/>“大约上午九点钟，园主出去看见还有人站在街市上无所事事， <verse eid="MAT 20:3"/><verse number="4" style="v" sid="MAT 20:4"/>就对他们说，‘你们也到我的葡萄园来工作吧，我会给你们合理的工钱。’<verse eid="MAT 20:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 20:5"/>“他们便去了。大约正午和下午三点钟，他又出去雇用工人。 <verse eid="MAT 20:5"/><verse number="6" style="v" sid="MAT 20:6"/>到了下午五点钟的时候，他再次出去，看见还有人闲站在那里，就问他们，‘为什么你们一整天站在这里无所事事呢？’ <verse eid="MAT 20:6"/><verse number="7" style="v" sid="MAT 20:7"/>他们回答说，‘因为没有人雇用我们。’园主说，‘你们也到我的葡萄园来吧！’<verse eid="MAT 20:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 20:8"/>“到了傍晚，园主对工头说，‘叫工人来领工钱吧，最晚来的先领，最先来的后领。’<verse eid="MAT 20:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 20:9"/>“下午五点来的工人每人得了一个银币。 <verse eid="MAT 20:9"/><verse number="10" style="v" sid="MAT 20:10"/>最早来的工人来领的时候，以为可以多得一点工钱，谁知也各得一个银币。<verse eid="MAT 20:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 20:11"/>“他们拿着工钱满腹牢骚地对园主说， <verse eid="MAT 20:11"/><verse number="12" style="v" sid="MAT 20:12"/>‘那些最晚来的人只工作了一小时，而我们在烈日下辛苦了一整天，怎么会领同样的工钱呢？’<verse eid="MAT 20:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 20:13"/>“园主对他们当中的一个人说，‘朋友，我并没有欠你呀！我们不是讲好付你一个银币吗？ <verse eid="MAT 20:13"/><verse number="14" style="v" sid="MAT 20:14"/>拿着你的工钱走吧。我给那后来的和你一样的工钱，是我愿意。 <verse eid="MAT 20:14"/><verse number="15" style="v" sid="MAT 20:15"/>难道我不可随意使用自己的钱吗？因为我慷慨，你就嫉妒吗？’ <verse eid="MAT 20:15"/><verse number="16" style="v" sid="MAT 20:16"/>因此，为首的将要殿后，殿后的将要为首。”<verse eid="MAT 20:16"/></para>
+  <para style="s1">耶稣第三次预言自己受难</para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 20:17"/>在去<char style="pn">耶路撒冷</char>的路上，耶稣把十二个门徒带到一边，对他们说： <verse eid="MAT 20:17"/><verse number="18" style="v" sid="MAT 20:18"/>“看啊，我们现在前往<char style="pn">耶路撒冷</char>，人子将被交给祭司长和律法教师。他们要判祂死刑， <verse eid="MAT 20:18"/><verse number="19" style="v" sid="MAT 20:19"/>把祂交给外族人嘲弄、鞭打、钉在十字架上。但第三天祂必复活。”<verse eid="MAT 20:19"/></para>
+  <para style="s1">一个母亲的请求</para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 20:20"/>当时，<char style="pn">西庇太</char>的妻子带着两个儿子上前，跪在耶稣面前，有事要求祂。<verse eid="MAT 20:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 20:21"/>耶稣问她：“你要什么呢？”</para>
+  <para style="p" vid="MAT 20:21">她说：“在你的国度，请让我这两个儿子一个坐在你右边，一个坐在你左边。”<verse eid="MAT 20:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 20:22"/>耶稣回答说：“你们不知道自己在求什么。我要喝的那杯，你们能喝吗？”</para>
+  <para style="p" vid="MAT 20:22">他们说：“我们能。”<verse eid="MAT 20:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 20:23"/>耶稣对他们说：“我要喝的那杯，你们也要喝。不过谁坐在我的左右不是我来定，而是我父为谁预备的，就让谁坐。”<verse eid="MAT 20:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 20:24"/>其他十个门徒听见这事，都对他们兄弟二人十分恼火。 <verse eid="MAT 20:24"/><verse number="25" style="v" sid="MAT 20:25"/>于是，耶稣把他们叫来，说：“你们知道，外族人有君王统治他们，有大臣管理他们。 <verse eid="MAT 20:25"/><verse number="26" style="v" sid="MAT 20:26"/>但你们不可这样。你们中间，谁想当首领，谁就要做大家的仆人； <verse eid="MAT 20:26"/><verse number="27" style="v" sid="MAT 20:27"/>谁想居首位，谁就要做大家的奴仆。 <verse eid="MAT 20:27"/><verse number="28" style="v" sid="MAT 20:28"/>正如人子不是来受人服侍，而是来服侍人，并且牺牲性命，作许多人的赎价。”<verse eid="MAT 20:28"/></para>
+  <para style="s1">治好两个瞎眼的</para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 20:29"/>耶稣和祂的门徒离开<char style="pn">耶利哥</char>时，有一大群人跟着祂。 <verse eid="MAT 20:29"/><verse number="30" style="v" sid="MAT 20:30"/>有两个瞎眼的正坐在路旁，听说耶稣经过，就高声喊叫：“主啊，<char style="pn">大卫</char>的后裔啊，可怜我们吧！” <verse eid="MAT 20:30"/><verse number="31" style="v" sid="MAT 20:31"/>众人责备他们，叫他们不要出声，他们却喊得更大声了：“主啊，<char style="pn">大卫</char>的后裔啊，可怜我们吧！”<verse eid="MAT 20:31"/></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 20:32"/>耶稣停下脚步，叫了他们来，问他们：“你们要我为你们做什么？” <verse eid="MAT 20:32"/><verse number="33" style="v" sid="MAT 20:33"/>他们说：“主啊，我们想看见。” <verse eid="MAT 20:33"/><verse number="34" style="v" sid="MAT 20:34"/>耶稣就动了慈心，摸他们的眼睛，他们立刻得见光明，并跟从了耶稣。<verse eid="MAT 20:34"/></para>
+  <chapter eid="MAT 20"/>
+  <chapter number="21" style="c" sid="MAT 21"/>
+  <para style="s1">光荣进圣城</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 21:1"/>耶稣和门徒将近<char style="pn">耶路撒冷</char>，来到橄榄山的<char style="pn">伯法其</char>。耶稣派了两个门徒， <verse eid="MAT 21:1"/><verse number="2" style="v" sid="MAT 21:2"/>并嘱咐说：“你们到前面的村庄去，就会看见一头母驴拴在那里，旁边还有一头驴驹。你们把它们解开，牵到我这里。 <verse eid="MAT 21:2"/><verse number="3" style="v" sid="MAT 21:3"/>要是有人问起，你们就说，‘主要用它们’，那人会立刻让你们牵来。” <verse eid="MAT 21:3"/><verse number="4" style="v" sid="MAT 21:4"/>这件事发生是要应验先知的话：<verse eid="MAT 21:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 21:5"/>“要对少女<char style="pn">锡安</char>说，‘看啊，你的君王来了！祂谦卑地骑着驴，骑着一头驴驹。’<note caller="+" style="f"><char style="fr" closed="false">21:5 </char><char style="ft" closed="false"><char style="xt"><ref loc="ZEC 9:9">撒迦利亚书9:9</ref>。</char></char></note>”<verse eid="MAT 21:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MAT 21:6"/>两个门徒照着耶稣的吩咐去了， <verse eid="MAT 21:6"/><verse number="7" style="v" sid="MAT 21:7"/>把母驴和驴驹带了回来。他们把衣服搭在驴背上，让耶稣骑上去。 <verse eid="MAT 21:7"/><verse number="8" style="v" sid="MAT 21:8"/>许多人把衣服铺在路上，还有些人砍下树枝铺在路上。 <verse eid="MAT 21:8"/><verse number="9" style="v" sid="MAT 21:9"/>众人前呼后拥，高喊道：</para>
+  <para style="q1" vid="MAT 21:9">“和散那<note caller="+" style="f"><char style="fr" closed="false">21:9 </char><char style="ft" closed="false">“和散那”原意是“拯救我们”，此处有“赞美”的意思。</char></note>归于<char style="pn">大卫</char>的后裔！”</para>
+  <para style="b" vid="MAT 21:9"/>
+  <para style="q1" vid="MAT 21:9">“奉主名来的当受称颂！”<note caller="+" style="f"><char style="fr" closed="false">21:9 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 118:26">诗篇118:26</ref>。</char></char></note></para>
+  <para style="b" vid="MAT 21:9"/>
+  <para style="q1" vid="MAT 21:9">“和散那归于至高之处的上帝！”<verse eid="MAT 21:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 21:10"/>耶稣进<char style="pn">耶路撒冷</char>时，全城轰动，说：“这是谁？”<verse eid="MAT 21:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 21:11"/>众人说：“祂是先知耶稣，来自<char style="pn">加利利</char>的<char style="pn">拿撒勒</char>。”<verse eid="MAT 21:11"/></para>
+  <para style="s1">洁净圣殿</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 21:12"/>耶稣进入圣殿，赶走里面所有做买卖的人，推翻兑换钱币之人的桌子和卖鸽子之人的凳子。<verse eid="MAT 21:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 21:13"/>耶稣斥责他们说：“圣经上说，‘我的殿必称为祷告的殿。’<note caller="+" style="f"><char style="fr" closed="false">21:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 56:7">以赛亚书56:7</ref>。</char></char></note>你们竟把它变成了贼窝。<note caller="+" style="f"><char style="fr" closed="false">21:13 </char><char style="ft" closed="false"><char style="xt"><ref loc="JER 7:11">耶利米书7:11</ref>。</char></char></note>”<verse eid="MAT 21:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 21:14"/>殿中瞎眼的和瘸腿的都来到耶稣面前，祂便治好了他们。 <verse eid="MAT 21:14"/><verse number="15" style="v" sid="MAT 21:15"/>祭司长和律法教师看见祂所行的奇事，又听见小孩子在圣殿里高声喊着：“和散那归于<char style="pn">大卫</char>的后裔！”便十分恼怒。 <verse eid="MAT 21:15"/><verse number="16" style="v" sid="MAT 21:16"/>他们责问耶稣说：“你听见这些人说的了吗？”<note caller="+" style="f"><char style="fr" closed="false">21:16 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 8:2">诗篇8:2</ref>。</char></char></note></para>
+  <para style="p" vid="MAT 21:16">耶稣说：“我听见了。圣经上说，‘你使孩童和婴儿口中发出颂赞’，你们从未读过吗？” <verse eid="MAT 21:16"/><verse number="17" style="v" sid="MAT 21:17"/>然后，祂便离开他们，出城前往<char style="pn">伯大尼</char>，在那里住宿。<verse eid="MAT 21:17"/></para>
+  <para style="s1">咒诅无花果树</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 21:18"/>清早，耶稣在回城的路上饿了。 <verse eid="MAT 21:18"/><verse number="19" style="v" sid="MAT 21:19"/>祂看见路旁有一棵无花果树，便走过去，却发现除了叶子外什么也没有。</para>
+  <para style="p" vid="MAT 21:19">祂对那棵树说：“你永远不会再结果子！”那棵树立刻枯萎了。<verse eid="MAT 21:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 21:20"/>门徒见了就惊奇地问：“这棵树怎么一下子枯萎了？”<verse eid="MAT 21:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 21:21"/>耶稣回答说：“我实在告诉你们，你们如果有信心、不怀疑，不但能使无花果树枯萎，就算对这座山说，‘从这里挪开，投进大海里！’也照样可以实现。 <verse eid="MAT 21:21"/><verse number="22" style="v" sid="MAT 21:22"/>所以，只要相信，你们无论祷告求什么，都必得到。”<verse eid="MAT 21:22"/></para>
+  <para style="s1">质问耶稣的权柄</para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 21:23"/>耶稣进了圣殿，正在教导人的时候，祭司长和百姓的长老上前质问祂：“你凭什么权柄做这些事？谁授权给你了？”<verse eid="MAT 21:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 21:24"/>耶稣说：“我也要问你们一个问题，你们回答了，我就告诉你们我凭什么权柄做这些事。 <verse eid="MAT 21:24"/><verse number="25" style="v" sid="MAT 21:25"/><char style="pn">约翰</char>的洗礼是从哪里来的？从天上来的，还是从人间来的？”</para>
+  <para style="p" vid="MAT 21:25">他们便彼此议论说：“如果我们说‘是从天上来的’，祂一定会问我们，‘那你们为什么不信他？’ <verse eid="MAT 21:25"/><verse number="26" style="v" sid="MAT 21:26"/>但如果我们说‘是从人间来的’，又怕触怒百姓，因为他们都相信<char style="pn">约翰</char>是先知。” <verse eid="MAT 21:26"/><verse number="27" style="v" sid="MAT 21:27"/>于是，他们回答耶稣说：“我们不知道。”</para>
+  <para style="p" vid="MAT 21:27">耶稣说：“我也不告诉你们我凭什么权柄做这些事。”<verse eid="MAT 21:27"/></para>
+  <para style="s1">两个儿子的比喻</para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 21:28"/>耶稣又说：“你们怎样看这件事？某人有两个儿子。他对大儿子说，‘孩子，你今天到葡萄园工作吧！’<verse eid="MAT 21:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 21:29"/>“大儿子回答说，‘我不去！’但后来他改变了主意，就去了。<verse eid="MAT 21:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MAT 21:30"/>“那父亲又去对小儿子说同样的话。小儿子回答说，‘好的，父亲’，却没有去。<verse eid="MAT 21:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MAT 21:31"/>“这两个儿子到底哪一个服从父亲呢？”</para>
+  <para style="p" vid="MAT 21:31">他们回答道：“大儿子。”</para>
+  <para style="p" vid="MAT 21:31">耶稣说：“我实在告诉你们，税吏和娼妓要比你们先进上帝的国。 <verse eid="MAT 21:31"/><verse number="32" style="v" sid="MAT 21:32"/>因为<char style="pn">约翰</char>来指示你们当行的正路，你们不信他，但税吏和娼妓信了。你们亲眼看见了这些事，竟然还是执迷不悟，不肯信他。<verse eid="MAT 21:32"/></para>
+  <para style="s1">恶毒的佃户</para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 21:33"/>“你们再听一个比喻。有个园主开垦了一个葡萄园，在园子的四周围上篱笆，又在园中挖了一个榨酒池，建了一座瞭望台，然后把葡萄园租给佃户，就出远门了。 <verse eid="MAT 21:33"/><verse number="34" style="v" sid="MAT 21:34"/>到了收获的季节，园主派奴仆去佃户那里收取他的那份果实。 <verse eid="MAT 21:34"/><verse number="35" style="v" sid="MAT 21:35"/>佃户却抓住他的奴仆，打伤一个，杀死一个，又用石头打死了一个。 <verse eid="MAT 21:35"/><verse number="36" style="v" sid="MAT 21:36"/>于是，园主又派去更多奴仆，结果也遭到同样的对待。 <verse eid="MAT 21:36"/><verse number="37" style="v" sid="MAT 21:37"/>最后，园主派了自己的儿子去，心想，‘他们肯定会尊重我的儿子。’ <verse eid="MAT 21:37"/><verse number="38" style="v" sid="MAT 21:38"/>可是那些佃户看见园主的儿子，就彼此商量说，‘这是产业继承人。来吧！我们杀掉他，占了他的产业！’ <verse eid="MAT 21:38"/><verse number="39" style="v" sid="MAT 21:39"/>于是，他们抓住他，把他扔到葡萄园外杀了。 <verse eid="MAT 21:39"/><verse number="40" style="v" sid="MAT 21:40"/>那么，当园主回来的时候，他会怎样处置那些佃户呢？”<verse eid="MAT 21:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MAT 21:41"/>他们说：“他会毫不留情地除掉那些恶人，然后把葡萄园租给其他按时交果子的佃户。”<verse eid="MAT 21:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="MAT 21:42"/>耶稣说：</para>
+  <para style="q1" vid="MAT 21:42">“‘工匠丢弃的石头已成了房角石。</para>
+  <para style="q1" vid="MAT 21:42">这是主的作为，在我们看来奇妙莫测。’<note caller="+" style="f"><char style="fr" closed="false">21:42 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 118:22">诗篇118:22</ref>、<ref loc="PSA 118:23">23</ref>。</char></char></note></para>
+  <para style="m" vid="MAT 21:42">你们从未读过这段经文吗？ <verse eid="MAT 21:42"/><verse number="43" style="v" sid="MAT 21:43"/>所以，我告诉你们，上帝将把祂的国从你们那里夺去，赐给结果子的人。 <verse eid="MAT 21:43"/><verse number="44" style="v" sid="MAT 21:44"/>凡跌在这石头上的人，都会粉身碎骨；这石头落在谁身上，会把谁砸烂。”<verse eid="MAT 21:44"/></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MAT 21:45"/>祭司长和法利赛人听了耶稣的比喻，明白祂是针对他们讲的。 <verse eid="MAT 21:45"/><verse number="46" style="v" sid="MAT 21:46"/>他们试图逮捕耶稣，但又害怕百姓，因为百姓都认为耶稣是先知。<verse eid="MAT 21:46"/></para>
+  <chapter eid="MAT 21"/>
+  <chapter number="22" style="c" sid="MAT 22"/>
+  <para style="s1">王宴客的比喻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 22:1"/>耶稣又用比喻对他们说： <verse eid="MAT 22:1"/><verse number="2" style="v" sid="MAT 22:2"/>“天国就像一个王为儿子筹备婚宴。 <verse eid="MAT 22:2"/><verse number="3" style="v" sid="MAT 22:3"/>他派奴仆去请受邀的客人，可是客人都不肯来。 <verse eid="MAT 22:3"/><verse number="4" style="v" sid="MAT 22:4"/>王再派其他奴仆去，说，‘去告诉被邀请的人，我的宴席已经备好，公牛和肥畜都宰了，一切都预备妥当，来赴婚宴吧！’ <verse eid="MAT 22:4"/><verse number="5" style="v" sid="MAT 22:5"/>那些人却毫不理会地走了，一个去种田，一个去做买卖， <verse eid="MAT 22:5"/><verse number="6" style="v" sid="MAT 22:6"/>其余的竟然抓住王的奴仆，把他们羞辱一番后杀了。 <verse eid="MAT 22:6"/><verse number="7" style="v" sid="MAT 22:7"/>王大怒，派军队去剿灭凶手，烧毁他们的城。<verse eid="MAT 22:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 22:8"/>“然后，他对奴仆说，‘婚宴已预备好了，只是被邀请的人不配。 <verse eid="MAT 22:8"/><verse number="9" style="v" sid="MAT 22:9"/>所以你们到街头巷尾，把所有见到的人都请到宴席上来。’ <verse eid="MAT 22:9"/><verse number="10" style="v" sid="MAT 22:10"/>奴仆到街上把遇到的人都请了来，好人坏人都有，婚宴大厅里满了客人。<verse eid="MAT 22:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 22:11"/>“王出来会见在座的客人，发现有一个人没有穿礼服， <verse eid="MAT 22:11"/><verse number="12" style="v" sid="MAT 22:12"/>就问他，‘朋友，你来这里怎么不穿婚宴的礼服呢？’那人无言以对。 <verse eid="MAT 22:12"/><verse number="13" style="v" sid="MAT 22:13"/>王便吩咐侍从，‘把他手脚绑起来丢到外面的黑暗里，让他在那里哀哭切齿。’<verse eid="MAT 22:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 22:14"/>“因为被邀请的人多，选上的人少。”<verse eid="MAT 22:14"/></para>
+  <para style="s1">以纳税问题刁难耶稣</para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 22:15"/>那时，法利赛人出去策划怎样从耶稣的话里找把柄陷害祂。 <verse eid="MAT 22:15"/><verse number="16" style="v" sid="MAT 22:16"/>他们派了自己的门徒跟<char style="pn">希律</char>党人一同去问耶稣：“老师，我们知道你诚实无伪，按真理传上帝的道，不徇情面，因为你不以貌取人。 <verse eid="MAT 22:16"/><verse number="17" style="v" sid="MAT 22:17"/>那么请告诉我们，你认为向凯撒纳税对不对呢？”<verse eid="MAT 22:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 22:18"/>耶稣看出了他们的恶意，就说：“你们这些伪君子，为什么试探我呢？ <verse eid="MAT 22:18"/><verse number="19" style="v" sid="MAT 22:19"/>拿一个纳税用的钱币来给我看。”他们就拿给祂一个银币。<verse eid="MAT 22:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 22:20"/>耶稣问他们：“上面刻的是谁的像和名号？”<verse eid="MAT 22:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 22:21"/>他们说：“凯撒的。”</para>
+  <para style="p" vid="MAT 22:21">耶稣说：“那么，属于凯撒的东西应该给凯撒，属于上帝的东西应该给上帝。” <verse eid="MAT 22:21"/><verse number="22" style="v" sid="MAT 22:22"/>他们听了很惊奇，只好离开祂走了。<verse eid="MAT 22:22"/></para>
+  <para style="s1">论复活</para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 22:23"/>同一天，不相信死人会复活的撒都该人也来问耶稣， <verse eid="MAT 22:23"/><verse number="24" style="v" sid="MAT 22:24"/>说：“老师，<char style="pn">摩西</char>说，‘如果一个人死了，没有儿女，只留下妻子，他的兄弟就当娶嫂嫂，替哥哥传宗接代。’ <verse eid="MAT 22:24"/><verse number="25" style="v" sid="MAT 22:25"/>从前，我们这里有弟兄七人，老大结了婚，没有孩子就死了，把妻子留给了弟弟。 <verse eid="MAT 22:25"/><verse number="26" style="v" sid="MAT 22:26"/>二弟、三弟一直到七弟都相继娶了嫂嫂。 <verse eid="MAT 22:26"/><verse number="27" style="v" sid="MAT 22:27"/>最后，那女人也死了。 <verse eid="MAT 22:27"/><verse number="28" style="v" sid="MAT 22:28"/>那么，到复活的时候，她将是谁的妻子呢？因为他们都娶过她。”<verse eid="MAT 22:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 22:29"/>耶稣说：“你们弄错了。你们不明白圣经，也不知道上帝的能力。 <verse eid="MAT 22:29"/><verse number="30" style="v" sid="MAT 22:30"/>因为到复活的时候，人不娶也不嫁，就像天上的天使一样。<verse eid="MAT 22:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MAT 22:31"/>“关于死人复活的事，你们没有读过上帝对你们说过的话吗？ <verse eid="MAT 22:31"/><verse number="32" style="v" sid="MAT 22:32"/>祂说，‘我是<char style="pn">亚伯拉罕</char>的上帝，<char style="pn">以撒</char>的上帝，<char style="pn">雅各</char>的上帝。’<note caller="+" style="f"><char style="fr" closed="false">22:32 </char><char style="ft" closed="false"><char style="xt"><ref loc="EXO 3:6">出埃及记3:6</ref>。</char></char></note>上帝不是死人的上帝，而是活人的上帝。” <verse eid="MAT 22:32"/><verse number="33" style="v" sid="MAT 22:33"/>众人听到祂的教导都很惊奇。<verse eid="MAT 22:33"/></para>
+  <para style="s1">最大的诫命</para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 22:34"/>法利赛人听见耶稣使撒都该人无言以对，就聚集在一起。 <verse eid="MAT 22:34"/><verse number="35" style="v" sid="MAT 22:35"/>其中有位律法专家试探耶稣说： <verse eid="MAT 22:35"/><verse number="36" style="v" sid="MAT 22:36"/>“老师，请问律法中哪一条诫命最重要呢？”<verse eid="MAT 22:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MAT 22:37"/>耶稣回答说：“‘你要全心、全情、全意爱主你的上帝’<note caller="+" style="f"><char style="fr" closed="false">22:37 </char><char style="ft" closed="false"><char style="xt"><ref loc="DEU 6:5">申命记6:5</ref>。</char></char></note>， <verse eid="MAT 22:37"/><verse number="38" style="v" sid="MAT 22:38"/>这是第一条也是最重要的诫命。 <verse eid="MAT 22:38"/><verse number="39" style="v" sid="MAT 22:39"/>第二条也相似，就是‘要爱邻如己’<note caller="+" style="f" category="dup"><char style="fr" closed="false">22:39 </char><char style="ft" closed="false"><char style="xt"><ref loc="LEV 19:18">利未记19:18</ref>。</char></char></note>。 <verse eid="MAT 22:39"/><verse number="40" style="v" sid="MAT 22:40"/>律法和先知的全部教导都以这两条诫命为基础。”<verse eid="MAT 22:40"/></para>
+  <para style="s1">基督的身份</para>
+  <para style="p">
+    <verse number="41" style="v" sid="MAT 22:41"/>耶稣趁着法利赛人聚在那里，就问他们： <verse eid="MAT 22:41"/><verse number="42" style="v" sid="MAT 22:42"/>“你们对基督有何看法？祂是谁的后裔？”他们答道：“<char style="pn">大卫</char>的后裔。”<verse eid="MAT 22:42"/></para>
+  <para style="p">
+    <verse number="43" style="v" sid="MAT 22:43"/>耶稣说：“那么，为什么<char style="pn">大卫</char>受圣灵感动，称祂为主呢？<char style="pn">大卫</char>曾说，<verse eid="MAT 22:43"/></para>
+  <para style="q1">
+    <verse number="44" style="v" sid="MAT 22:44"/>“‘主对我主说，</para>
+  <para style="q1" vid="MAT 22:44">你坐在我的右边，</para>
+  <para style="q1" vid="MAT 22:44">等我把你的仇敌放在你脚下。’<note caller="+" style="f"><char style="fr" closed="false">22:44 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 110:1">诗篇110:1</ref>。</char></char></note><verse eid="MAT 22:44"/></para>
+  <para style="m">
+    <verse number="45" style="v" sid="MAT 22:45"/>既然<char style="pn">大卫</char>称基督为主，基督又怎么会是<char style="pn">大卫</char>的后裔呢？” <verse eid="MAT 22:45"/><verse number="46" style="v" sid="MAT 22:46"/>没人能回答耶稣的问题。此后，再没人敢用问题刁难耶稣。<verse eid="MAT 22:46"/></para>
+  <chapter eid="MAT 22"/>
+  <chapter number="23" style="c" sid="MAT 23"/>
+  <para style="s1">谴责律法教师和法利赛人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 23:1"/>随后，耶稣对众人和门徒说： <verse eid="MAT 23:1"/><verse number="2" style="v" sid="MAT 23:2"/>“律法教师和法利赛人坐在<char style="pn">摩西</char>的位子上讲授律法。 <verse eid="MAT 23:2"/><verse number="3" style="v" sid="MAT 23:3"/>你们要谨遵他们的教导，但不要效法他们的行为，因为他们言行不一。 <verse eid="MAT 23:3"/><verse number="4" style="v" sid="MAT 23:4"/>他们把难负的重担捆好，放在别人肩上，而自己连一根指头也不肯动！<verse eid="MAT 23:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 23:5"/>“他们的所作所为是为了给人看的，他们把额上佩戴的经文盒子加宽了，又将衣服的穗子加长了。 <verse eid="MAT 23:5"/><verse number="6" style="v" sid="MAT 23:6"/>他们喜欢宴席中的上座和会堂里的首位。 <verse eid="MAT 23:6"/><verse number="7" style="v" sid="MAT 23:7"/>他们喜欢别人在街市上问候他们，称呼他们为老师<note caller="+" style="f"><char style="fr" closed="false">23:7 </char><char style="ft" closed="false">“老师”希腊文是“拉比”，特指犹太教的老师。</char></note>。 <verse eid="MAT 23:7"/><verse number="8" style="v" sid="MAT 23:8"/>但你们不要让别人称呼你们为老师，因为你们只有一位老师，你们彼此都是弟兄。 <verse eid="MAT 23:8"/><verse number="9" style="v" sid="MAT 23:9"/>不要称呼地上的人为父亲，因为你们只有一位父亲，祂在天上。 <verse eid="MAT 23:9"/><verse number="10" style="v" sid="MAT 23:10"/>不要让人称你们为导师，因为你们只有一位导师基督。 <verse eid="MAT 23:10"/><verse number="11" style="v" sid="MAT 23:11"/>你们当中谁位分最大，谁就要做你们的仆人。 <verse eid="MAT 23:11"/><verse number="12" style="v" sid="MAT 23:12"/>自高的人必遭贬抑，谦卑的人必得尊荣。<verse eid="MAT 23:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 23:13"/>“虚伪的律法教师和法利赛人啊，你们有祸了！因为你们当着人们的面关闭天国之门，自己不进去，也不让别人进去。<verse eid="MAT 23:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 23:14"/>“虚伪的律法教师和法利赛人啊，你们有祸了！因为你们侵吞寡妇的家产，还假意做冗长的祷告。因此，你们会受到更严厉的刑罚。<note caller="+" style="f"><char style="fr" closed="false">23:14 </char><char style="ft" closed="false">有古卷无14节。</char></note><verse eid="MAT 23:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 23:15"/>“虚伪的律法教师和法利赛人啊，你们有祸了！因为你们走遍海洋和陆地去引人入教，等人入了教，却使他沦为地狱之子，比你们还坏一倍。<verse eid="MAT 23:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 23:16"/>“瞎眼的向导啊，你们有祸了！你们说，‘指着圣殿发誓，不算数；但是指着圣殿里的金子发誓，就要遵守誓言。’ <verse eid="MAT 23:16"/><verse number="17" style="v" sid="MAT 23:17"/>瞎眼的愚昧人啊！金子重要呢？还是使金子神圣的圣殿重要呢？ <verse eid="MAT 23:17"/><verse number="18" style="v" sid="MAT 23:18"/>你们又说，‘指着祭坛发誓不算数，但是指着坛上的供物发誓，就要遵守誓言。’ <verse eid="MAT 23:18"/><verse number="19" style="v" sid="MAT 23:19"/>瞎眼的人啊！供物重要呢？还是使供物神圣的祭坛重要呢？ <verse eid="MAT 23:19"/><verse number="20" style="v" sid="MAT 23:20"/>其实指着祭坛发誓，就是指着祭坛和坛上的一切东西发誓。 <verse eid="MAT 23:20"/><verse number="21" style="v" sid="MAT 23:21"/>指着圣殿发誓，就是指着圣殿和住在里面的上帝发誓。 <verse eid="MAT 23:21"/><verse number="22" style="v" sid="MAT 23:22"/>指着天发誓，就是指着上帝的宝座和坐在宝座上的那位发誓。<verse eid="MAT 23:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 23:23"/>“虚伪的律法教师和法利赛人啊，你们有祸了！你们把薄荷、茴香、芹菜献上十分之一，却忽略了律法中更重要的事——公正、怜悯、信实。后者是你们本该做的，前者也不可忽略。 <verse eid="MAT 23:23"/><verse number="24" style="v" sid="MAT 23:24"/>瞎眼的向导啊！你们滤出蚊虫，却吞下骆驼。<verse eid="MAT 23:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 23:25"/>“虚伪的律法教师和法利赛人啊，你们有祸了！你们洗净杯盘的外面，里面却盛满了贪婪和放纵。 <verse eid="MAT 23:25"/><verse number="26" style="v" sid="MAT 23:26"/>瞎眼的法利赛人啊！要先洗净杯盘的里面，好让外面也干净。<note caller="+" style="f"><char style="fr" closed="false">23:26 </char><char style="ft" closed="false">意思是：“里面的思想先干净了，外在的言行才会真正干净。”</char></note><verse eid="MAT 23:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 23:27"/>“虚伪的律法教师和法利赛人啊，你们有祸了！你们好像粉饰的坟墓，外表好看，里面却装满了死人的骨头和各种污秽之物。 <verse eid="MAT 23:27"/><verse number="28" style="v" sid="MAT 23:28"/>所以你们虚有公义的外表，内心却充满了虚伪和罪恶。<verse eid="MAT 23:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 23:29"/>“虚伪的律法教师和法利赛人啊，你们有祸了！你们为先知建墓，为义人修碑，并且说， <verse eid="MAT 23:29"/><verse number="30" style="v" sid="MAT 23:30"/>‘我们如果活在我们祖先的时代，绝不会和他们一起去杀害先知。’ <verse eid="MAT 23:30"/><verse number="31" style="v" sid="MAT 23:31"/>这样，你们自己证明自己是杀害先知之人的后代。 <verse eid="MAT 23:31"/><verse number="32" style="v" sid="MAT 23:32"/>去填满你们祖先的罪恶吧！ <verse eid="MAT 23:32"/><verse number="33" style="v" sid="MAT 23:33"/>你们这些蛇，这些毒蛇的后代啊，你们怎能逃脱地狱的刑罚呢？<verse eid="MAT 23:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 23:34"/>“看啊，我派先知、智者和律法教师到你们当中，有的会遭到你们的杀害，被你们钉在十字架上；有的会在会堂里被你们鞭打，被你们从这城追到那城。 <verse eid="MAT 23:34"/><verse number="35" style="v" sid="MAT 23:35"/>因此，所有义人在地上所流的血，就是从义人<char style="pn">亚伯</char>的血，直到你们在圣所和祭坛之间所杀的<char style="pn">巴拉加</char>的儿子<char style="pn">撒迦利亚</char>的血，都要归到你们身上。 <verse eid="MAT 23:35"/><verse number="36" style="v" sid="MAT 23:36"/>我实在告诉你们，这一切罪责都要归到这个世代。<verse eid="MAT 23:36"/></para>
+  <para style="s1">为耶路撒冷哀叹</para>
+  <para style="p">
+    <verse number="37" style="v" sid="MAT 23:37"/>“<char style="pn">耶路撒冷</char>啊！<char style="pn">耶路撒冷</char>啊！你常杀害先知，又用石头打死派到你那里的使者。我多次想要招聚你的儿女，像母鸡把小鸡聚集在翅膀底下，可是你们却不肯。 <verse eid="MAT 23:37"/><verse number="38" style="v" sid="MAT 23:38"/>看啊！你们的家园将一片荒凉。 <verse eid="MAT 23:38"/><verse number="39" style="v" sid="MAT 23:39"/>我告诉你们，从现在起，直到你们说‘奉主名来的当受称颂’<note caller="+" style="f" category="dup"><char style="fr" closed="false">23:39 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 118:26">诗篇118:26</ref>。</char></char></note>那天之前，你们再也见不到我了。”<verse eid="MAT 23:39"/></para>
+  <chapter eid="MAT 23"/>
+  <chapter number="24" style="c" sid="MAT 24"/>
+  <para style="s1">预言圣殿被毁</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 24:1"/>耶稣离开圣殿，正往外走的时候，门徒上前把圣殿建筑指给祂看。 <verse eid="MAT 24:1"/><verse number="2" style="v" sid="MAT 24:2"/>耶稣对他们说：“你们看见这殿宇了吗？我实在告诉你们，将来它要被完全拆毁，找不到两块叠在一起的石头。”<verse eid="MAT 24:2"/></para>
+  <para style="s1">世界末日的预兆</para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 24:3"/>耶稣正坐在橄榄山上，门徒私下来问祂：“请告诉我们，这事什么时候会发生？你再来和世界末日的时候会有什么预兆？”<verse eid="MAT 24:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MAT 24:4"/>耶稣回答说：“你们要小心，免得被人迷惑。 <verse eid="MAT 24:4"/><verse number="5" style="v" sid="MAT 24:5"/>因为将来会有许多人冒我的名来，说，‘我是基督’，欺骗许多人。 <verse eid="MAT 24:5"/><verse number="6" style="v" sid="MAT 24:6"/>你们听见战争爆发、战讯频传时，切不可惊慌，因为这些事必然发生，只是末日还没有到。 <verse eid="MAT 24:6"/><verse number="7" style="v" sid="MAT 24:7"/>民族将攻打民族，国家将攻打国家，各处将有饥荒和地震。 <verse eid="MAT 24:7"/><verse number="8" style="v" sid="MAT 24:8"/>这些只是灾难<note caller="+" style="f"><char style="fr" closed="false">24:8 </char><char style="ft" closed="false">“灾难”希腊文是“生产之痛”。</char></note>的开始。<verse eid="MAT 24:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 24:9"/>“那时，你们将遭人迫害、杀害，并因我的名而被万民憎恨。 <verse eid="MAT 24:9"/><verse number="10" style="v" sid="MAT 24:10"/>那时，许多人会放弃信仰，互相出卖，彼此憎恨。 <verse eid="MAT 24:10"/><verse number="11" style="v" sid="MAT 24:11"/>许多假先知也会出现，迷惑许多人。 <verse eid="MAT 24:11"/><verse number="12" style="v" sid="MAT 24:12"/>由于罪恶泛滥，许多人的爱心逐渐冷淡。 <verse eid="MAT 24:12"/><verse number="13" style="v" sid="MAT 24:13"/>但坚忍到底的必定得救。 <verse eid="MAT 24:13"/><verse number="14" style="v" sid="MAT 24:14"/>这天国的福音将传遍天下，让万民都听见，然后末日才会来临。<verse eid="MAT 24:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 24:15"/>“当你们看见<char style="pn">但以理</char>先知所说的‘那带来毁灭的可憎者’<note caller="+" style="f"><char style="fr" closed="false">24:15 </char><char style="ft" closed="false"><char style="xt"><ref loc="DAN 9:27">但以理书9:27</ref>；<ref loc="DAN 11:31">11:31</ref>；<ref loc="DAN 12:11">12:11</ref>。</char></char></note>站立在圣地的时候（读者须会意）， <verse eid="MAT 24:15"/><verse number="16" style="v" sid="MAT 24:16"/><char style="pn">犹太</char>地区的人要逃到山上去， <verse eid="MAT 24:16"/><verse number="17" style="v" sid="MAT 24:17"/>在屋顶上的人不要下来拿屋内的东西， <verse eid="MAT 24:17"/><verse number="18" style="v" sid="MAT 24:18"/>在田间的人也不要回家取外衣。 <verse eid="MAT 24:18"/><verse number="19" style="v" sid="MAT 24:19"/>那时，孕妇和哺育婴儿的母亲们可就遭殃了！ <verse eid="MAT 24:19"/><verse number="20" style="v" sid="MAT 24:20"/>你们要祈求上帝，不要让你们逃难的时候遇上冬天或安息日。 <verse eid="MAT 24:20"/><verse number="21" style="v" sid="MAT 24:21"/>因为那时世上将有空前绝后的大灾难。 <verse eid="MAT 24:21"/><verse number="22" style="v" sid="MAT 24:22"/>如果不缩短灾期，恐怕没有人能活命。但为了上帝的选民，灾期必被缩短。<verse eid="MAT 24:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 24:23"/>“那时，如果有人对你们说，‘看啊，基督在这里！’或说，‘基督在那里！’你们不要相信。 <verse eid="MAT 24:23"/><verse number="24" style="v" sid="MAT 24:24"/>因为假基督和假先知将出现，行很大的神迹奇事来迷惑人，如果可能，甚至要迷惑上帝的选民。 <verse eid="MAT 24:24"/><verse number="25" style="v" sid="MAT 24:25"/>你们要记住，我已经预先告诉你们了。<verse eid="MAT 24:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 24:26"/>“因此，如果有人对你们说，‘看啊，基督在旷野！’你们不要出去；或者说，‘看啊，基督在内室！’你们也不要相信。 <verse eid="MAT 24:26"/><verse number="27" style="v" sid="MAT 24:27"/>因为人子降临时的情形就像闪电从东方发出一直照到西方。 <verse eid="MAT 24:27"/><verse number="28" style="v" sid="MAT 24:28"/>尸体在哪里，秃鹰就会聚集在哪里。<verse eid="MAT 24:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MAT 24:29"/>“当灾难的日子一过，</para>
+  <para style="q1" vid="MAT 24:29">“‘太阳昏暗，</para>
+  <para style="q1" vid="MAT 24:29">月亮无光，</para>
+  <para style="q1" vid="MAT 24:29">星宿陨落，</para>
+  <para style="q1" vid="MAT 24:29">天体震动。’<note caller="+" style="f"><char style="fr" closed="false">24:29 </char><char style="ft" closed="false"><char style="xt"><ref loc="ISA 13:10">以赛亚书13:10</ref>；<ref loc="ISA 34:4">34:4</ref>。</char></char></note><verse eid="MAT 24:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MAT 24:30"/>“那时，天上会出现人子降临的预兆，地上的万族都要哀哭，他们将看见人子带着能力和极大的荣耀驾着天上的云降临。 <verse eid="MAT 24:30"/><verse number="31" style="v" sid="MAT 24:31"/>在响亮的号声中，祂将差遣天使从四面八方、天涯海角招聚祂拣选的人。<verse eid="MAT 24:31"/></para>
+  <para style="s1">无花果树的比喻</para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 24:32"/>“你们可以从无花果树学个道理。当无花果树发芽长叶的时候，你们就知道夏天快来了。 <verse eid="MAT 24:32"/><verse number="33" style="v" sid="MAT 24:33"/>同样，当你们看见这一切事发生时，就知道人子快来了，就在门口。 <verse eid="MAT 24:33"/><verse number="34" style="v" sid="MAT 24:34"/>我实在告诉你们，这个世代还没有过去，这一切都要发生。 <verse eid="MAT 24:34"/><verse number="35" style="v" sid="MAT 24:35"/>天地都要消逝，但我的话永不消逝。<verse eid="MAT 24:35"/></para>
+  <para style="s1">警醒准备</para>
+  <para style="p">
+    <verse number="36" style="v" sid="MAT 24:36"/>“但没有人知道那日子和时辰何时来到，连天上的天使也不知道，人子<note caller="+" style="f"><char style="fr" closed="false">24:36 </char><char style="ft" closed="false">“人子”希腊文是“子”。</char></note>也不知道，只有天父知道。 <verse eid="MAT 24:36"/><verse number="37" style="v" sid="MAT 24:37"/>人子降临时的情形将像<char style="pn">挪亚</char>的时代。 <verse eid="MAT 24:37"/><verse number="38" style="v" sid="MAT 24:38"/>洪水来临之前的日子里，人们吃吃喝喝，男婚女嫁，一直到<char style="pn">挪亚</char>进方舟那天； <verse eid="MAT 24:38"/><verse number="39" style="v" sid="MAT 24:39"/>他们懵然不知，直到洪水来把他们全冲走了。人子降临时的情形也是这样。 <verse eid="MAT 24:39"/><verse number="40" style="v" sid="MAT 24:40"/>那时，两个人在田里，一个将被接去，一个将被撇下； <verse eid="MAT 24:40"/><verse number="41" style="v" sid="MAT 24:41"/>两个女人推磨，一个将被接去，一个将被撇下。 <verse eid="MAT 24:41"/><verse number="42" style="v" sid="MAT 24:42"/>所以，你们要警醒，因为你们不知道你们的主会在哪一天来。 <verse eid="MAT 24:42"/><verse number="43" style="v" sid="MAT 24:43"/>你们都知道，家主若知道贼会在夜里几点来，就必警醒，不让贼入屋偷窃。 <verse eid="MAT 24:43"/><verse number="44" style="v" sid="MAT 24:44"/>同样，你们也要做好准备，因为在你们意想不到的时候，人子就来了。<verse eid="MAT 24:44"/></para>
+  <para style="s1">两种奴仆</para>
+  <para style="p">
+    <verse number="45" style="v" sid="MAT 24:45"/>“那么，谁是那个受主人委托管理家中大小仆役、按时分粮食给他们、又忠心又精明的奴仆呢？ <verse eid="MAT 24:45"/><verse number="46" style="v" sid="MAT 24:46"/>主人回家时，看见他尽忠职守，他就有福了。 <verse eid="MAT 24:46"/><verse number="47" style="v" sid="MAT 24:47"/>我实在告诉你们，主人一定会把所有产业都交给他管理。 <verse eid="MAT 24:47"/><verse number="48" style="v" sid="MAT 24:48"/>但如果奴仆邪恶，以为主人不会那么快回来， <verse eid="MAT 24:48"/><verse number="49" style="v" sid="MAT 24:49"/>就动手殴打同伴，跟醉汉一起吃喝玩乐， <verse eid="MAT 24:49"/><verse number="50" style="v" sid="MAT 24:50"/>主人会在他想不到的日子、不知道的时辰回来， <verse eid="MAT 24:50"/><verse number="51" style="v" sid="MAT 24:51"/>严厉地惩罚<note caller="+" style="f"><char style="fr" closed="false">24:51 </char><char style="ft" closed="false">“严厉地惩罚”或作“腰斩”。</char></note>他，判他和伪君子同样的罪。他必在那里哀哭切齿。<verse eid="MAT 24:51"/></para>
+  <chapter eid="MAT 24"/>
+  <chapter number="25" style="c" sid="MAT 25"/>
+  <para style="s1">十个伴娘的比喻</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 25:1"/>“那时，天国就像十个伴娘提着灯去迎接新郎， <verse eid="MAT 25:1"/><verse number="2" style="v" sid="MAT 25:2"/>其中五个是糊涂的，五个是聪明的。 <verse eid="MAT 25:2"/><verse number="3" style="v" sid="MAT 25:3"/>五个糊涂的只顾拿着灯，却不预备油； <verse eid="MAT 25:3"/><verse number="4" style="v" sid="MAT 25:4"/>那些聪明的不但拿着灯，还用器皿预备了油。 <verse eid="MAT 25:4"/><verse number="5" style="v" sid="MAT 25:5"/>新郎迟迟未到，她们等得困倦，便打盹睡着了。<verse eid="MAT 25:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MAT 25:6"/>“到了半夜，忽然听见有人喊道，‘新郎来了！出来迎接吧！’ <verse eid="MAT 25:6"/><verse number="7" style="v" sid="MAT 25:7"/>伴娘们醒来，把灯点亮。 <verse eid="MAT 25:7"/><verse number="8" style="v" sid="MAT 25:8"/>糊涂的伴娘对聪明的伴娘说，‘请给我们一些油吧，因为我们的灯快要灭了！’<verse eid="MAT 25:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MAT 25:9"/>“聪明的伴娘回答说，‘不行，我们的油不够大家用的，不如你们自己去油店买吧！’<verse eid="MAT 25:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 25:10"/>“当糊涂的伴娘去买油的时候，新郎来了。那些预备好的伴娘跟他一同进去参加婚宴，门就关了。 <verse eid="MAT 25:10"/><verse number="11" style="v" sid="MAT 25:11"/>后来，其他伴娘回来了，喊道，‘主啊！主啊！给我们开门吧！’<verse eid="MAT 25:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 25:12"/>“新郎却说，‘我实在告诉你们，我不认识你们。’<verse eid="MAT 25:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MAT 25:13"/>“所以，你们要警醒，因为你们不知道我回来的日子和时辰。<verse eid="MAT 25:13"/></para>
+  <para style="s1">才干的比喻</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 25:14"/>“天国就像一个人即将远行，他召来自己的奴仆，把产业托付给他们， <verse eid="MAT 25:14"/><verse number="15" style="v" sid="MAT 25:15"/>按各人的才干分别交给一个人五千银币，一个人两千银币，一个人一千银币，然后便离开了。 <verse eid="MAT 25:15"/><verse number="16" style="v" sid="MAT 25:16"/>得到五千银币的立刻去做买卖，结果赚了五千。 <verse eid="MAT 25:16"/><verse number="17" style="v" sid="MAT 25:17"/>同样，得到两千银币的也赚了两千。 <verse eid="MAT 25:17"/><verse number="18" style="v" sid="MAT 25:18"/>可是得到一千银币的却挖了一个洞，把主人的钱藏在地里。 <verse eid="MAT 25:18"/><verse number="19" style="v" sid="MAT 25:19"/>过了很久，这些奴仆的主人回来了，要跟他们结帐。 <verse eid="MAT 25:19"/><verse number="20" style="v" sid="MAT 25:20"/>得到五千银币的奴仆带来了另外的五千，说，‘主人，你交给我五千银币，请看，我又赚了五千。’<verse eid="MAT 25:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MAT 25:21"/>“主人说，‘做得好！你真是个又良善又忠心的奴仆。既然你在一点事上忠心，我要把更多的事交给你。进来分享你主人的快乐吧！’<verse eid="MAT 25:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 25:22"/>“得到两千银币的奴仆也上前说，‘主人，你交给我两千银币，请看，我又赚了两千。’<verse eid="MAT 25:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 25:23"/>“主人说，‘做得好！你真是个又良善又忠心的奴仆，既然你在一点事上忠心，我要把更多的事交给你。进来分享你主人的快乐吧！’<verse eid="MAT 25:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 25:24"/>“得到一千银币的奴仆也上前说，‘主人，我知道你为人苛刻，没有播种的地方也要收割，没有撒种的地方也要收获。 <verse eid="MAT 25:24"/><verse number="25" style="v" sid="MAT 25:25"/>我很害怕，就去把你的钱藏在地里。请看，这是你的钱。’<verse eid="MAT 25:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 25:26"/>“主人说，‘你这又可恶又懒惰的奴仆！你既然知道我没有播种的地方也要收割，没有撒种的地方也要收获， <verse eid="MAT 25:26"/><verse number="27" style="v" sid="MAT 25:27"/>就应该把钱存入钱庄，等我回来可以连本带利还给我。’<verse eid="MAT 25:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MAT 25:28"/>“‘所以收回他的一千银币，给那个有一万银币的奴仆。 <verse eid="MAT 25:28"/><verse number="29" style="v" sid="MAT 25:29"/>因为凡有的，还要给他更多，让他丰富有余；凡没有的，连他仅有的，也要夺去。 <verse eid="MAT 25:29"/><verse number="30" style="v" sid="MAT 25:30"/>把这没用的奴仆扔进外面的黑暗里，他必在那里哀哭切齿。’<verse eid="MAT 25:30"/></para>
+  <para style="s1">末日的审判</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MAT 25:31"/>“当人子在祂的荣耀中与众天使降临的时候，祂要坐在祂荣耀的宝座上， <verse eid="MAT 25:31"/><verse number="32" style="v" sid="MAT 25:32"/>万民要聚集在祂面前。祂要把他们分开，就像牧人把绵羊和山羊分开一样。 <verse eid="MAT 25:32"/><verse number="33" style="v" sid="MAT 25:33"/>祂要把绵羊放在右边，山羊放在左边。 <verse eid="MAT 25:33"/><verse number="34" style="v" sid="MAT 25:34"/>那时，王会对右边的人说，‘我父所赐福的人啊，来承受创世以来为你们预备的国度吧。 <verse eid="MAT 25:34"/><verse number="35" style="v" sid="MAT 25:35"/>因为我饥饿时，你们给我吃的；我口渴时，你们给我喝的；我身在异乡时，你们接待我； <verse eid="MAT 25:35"/><verse number="36" style="v" sid="MAT 25:36"/>我赤身露体时，你们给我穿的；我生病时，你们照顾我；我坐牢时，你们来看我。’<verse eid="MAT 25:36"/></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MAT 25:37"/>“那些义人会回答说，‘主啊！我们什么时候见你饿了就给你吃的？见你渴了就给你喝的？ <verse eid="MAT 25:37"/><verse number="38" style="v" sid="MAT 25:38"/>见你身在异乡就接待你？见你赤身露体就给你穿的呢？ <verse eid="MAT 25:38"/><verse number="39" style="v" sid="MAT 25:39"/>我们又什么时候见你生病或坐牢，就去看你呢？’<verse eid="MAT 25:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="MAT 25:40"/>“王会回答说，‘我实在告诉你们，你们这样对待我最卑微的一个弟兄，就是对待我了。’<verse eid="MAT 25:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MAT 25:41"/>“王又对左边的人说，‘你们这些被咒诅的人，走开！到专为魔鬼及其使者预备的永远不灭的火里去吧！ <verse eid="MAT 25:41"/><verse number="42" style="v" sid="MAT 25:42"/>因为我饥饿时，你们不给我吃的；我口渴时，你们不给我喝的； <verse eid="MAT 25:42"/><verse number="43" style="v" sid="MAT 25:43"/>我身在异乡时，你们不接待我；我赤身露体时，你们不给我衣服；我生病和我坐牢时，你们不来照顾我。’<verse eid="MAT 25:43"/></para>
+  <para style="p">
+    <verse number="44" style="v" sid="MAT 25:44"/>“他们会问，‘主啊，我们什么时候见你饿了，或渴了，或身在异乡，或赤身露体，或病了，或坐牢，却没有帮助你呢？’<verse eid="MAT 25:44"/></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MAT 25:45"/>“王会回答说，‘我实在告诉你们，你们没有帮助我最卑微的一个弟兄，就是没有帮助我。’ <verse eid="MAT 25:45"/><verse number="46" style="v" sid="MAT 25:46"/>这些人要受永远的刑罚，但义人要得到永远的生命。”<verse eid="MAT 25:46"/></para>
+  <chapter eid="MAT 25"/>
+  <chapter number="26" style="c" sid="MAT 26"/>
+  <para style="s1">谋害耶稣</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 26:1"/>耶稣讲完了这番话后，对门徒说： <verse eid="MAT 26:1"/><verse number="2" style="v" sid="MAT 26:2"/>“你们知道，两天后就是逾越节，到时人子会被出卖，被钉在十字架上。” <verse eid="MAT 26:2"/><verse number="3" style="v" sid="MAT 26:3"/>那时，祭司长和百姓的长老正聚集在大祭司<char style="pn">该亚法</char>的府里， <verse eid="MAT 26:3"/><verse number="4" style="v" sid="MAT 26:4"/>策划暗中逮捕、杀害耶稣。 <verse eid="MAT 26:4"/><verse number="5" style="v" sid="MAT 26:5"/>但他们认为在节日期间不宜下手，因为可能会在百姓中引起骚乱。<verse eid="MAT 26:5"/></para>
+  <para style="s1">耶稣受膏</para>
+  <para style="p">
+    <verse number="6" style="v" sid="MAT 26:6"/>当耶稣在<char style="pn">伯大尼</char>患过麻风病的<char style="pn">西门</char>家里时， <verse eid="MAT 26:6"/><verse number="7" style="v" sid="MAT 26:7"/>有个女人趁着祂坐席的时候，把一玉瓶珍贵的香膏倒在祂头上。<verse eid="MAT 26:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 26:8"/>门徒看见后，生气地说：“何必这样浪费？ <verse eid="MAT 26:8"/><verse number="9" style="v" sid="MAT 26:9"/>这瓶香膏能卖很多钱来周济穷人。”<verse eid="MAT 26:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 26:10"/>耶稣知道他们的心思，便说：“何必为难这女子？她在我身上做的是一件美事。 <verse eid="MAT 26:10"/><verse number="11" style="v" sid="MAT 26:11"/>因为你们身边总会有穷人，可是你们身边不会总有我。 <verse eid="MAT 26:11"/><verse number="12" style="v" sid="MAT 26:12"/>她把香膏浇在我身上是为我的安葬做准备。 <verse eid="MAT 26:12"/><verse number="13" style="v" sid="MAT 26:13"/>我实在告诉你们，无论福音传到世界哪个角落，人们都会传扬这女人的事迹，记念她。”<verse eid="MAT 26:13"/></para>
+  <para style="s1">犹大出卖耶稣</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MAT 26:14"/>后来，十二使徒中的<char style="pn">加略</char>人<char style="pn">犹大</char>去见祭司长， <verse eid="MAT 26:14"/><verse number="15" style="v" sid="MAT 26:15"/>说：“如果我把耶稣交给你们，你们肯出多少钱？”他们就给了他三十块银子。 <verse eid="MAT 26:15"/><verse number="16" style="v" sid="MAT 26:16"/>从那时起，<char style="pn">犹大</char>就伺机出卖耶稣。<verse eid="MAT 26:16"/></para>
+  <para style="s1">最后的晚餐</para>
+  <para style="p">
+    <verse number="17" style="v" sid="MAT 26:17"/>除酵节的第一天，门徒来问耶稣：“你想让我们在哪里为你预备逾越节吃的晚餐呢？”<verse eid="MAT 26:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MAT 26:18"/>耶稣说：“你们进城去，到某人那里对他说，‘老师说祂的时候快到了，祂要与门徒在你家中过逾越节。’” <verse eid="MAT 26:18"/><verse number="19" style="v" sid="MAT 26:19"/>门徒照耶稣的吩咐预备了逾越节的晚餐。<verse eid="MAT 26:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 26:20"/>傍晚，耶稣和十二使徒吃晚餐。 <verse eid="MAT 26:20"/><verse number="21" style="v" sid="MAT 26:21"/>席间，耶稣说：“我实在告诉你们，你们中间有一个人要出卖我。”<verse eid="MAT 26:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 26:22"/>他们都非常忧愁，相继追问耶稣，说：“主啊，肯定不是我吧？”<verse eid="MAT 26:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 26:23"/>祂说：“那和我一同在碗里蘸饼吃的就是要出卖我的人。 <verse eid="MAT 26:23"/><verse number="24" style="v" sid="MAT 26:24"/>人子要离世了，正如圣经对祂的记载，但那出卖人子的人有祸了，他还不如不生在这世上！”<verse eid="MAT 26:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 26:25"/>出卖耶稣的<char style="pn">犹大</char>问祂：“老师，是我吗？”</para>
+  <para style="p" vid="MAT 26:25">耶稣说：“你自己说了。”<verse eid="MAT 26:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 26:26"/>他们吃的时候，耶稣拿起饼来，祝谢后，掰开分给门徒，说：“拿去吃吧，这是我的身体。”<verse eid="MAT 26:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 26:27"/>接着祂又拿起杯来，祝谢后递给他们，说：“你们都喝吧， <verse eid="MAT 26:27"/><verse number="28" style="v" sid="MAT 26:28"/>这是我为万人所流的立约之血，为了使罪得到赦免。 <verse eid="MAT 26:28"/><verse number="29" style="v" sid="MAT 26:29"/>我告诉你们，从今天起，一直到我在我父的国与你们共饮新酒的那一天之前，我不会再喝这葡萄酒。” <verse eid="MAT 26:29"/><verse number="30" style="v" sid="MAT 26:30"/>他们唱完圣诗，就出门去了橄榄山。<verse eid="MAT 26:30"/></para>
+  <para style="s1">预言彼得不认主</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MAT 26:31"/>耶稣对门徒说：“今天晚上，你们都要背弃我。因为圣经上说，‘我要击打牧人，羊群将四散。’<note caller="+" style="f"><char style="fr" closed="false">26:31 </char><char style="ft" closed="false"><char style="xt"><ref loc="ZEC 13:7">撒迦利亚书13:7</ref>。</char></char></note> <verse eid="MAT 26:31"/><verse number="32" style="v" sid="MAT 26:32"/>但我复活后，要先你们一步去<char style="pn">加利利</char>。”<verse eid="MAT 26:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 26:33"/>
+    <char style="pn">彼得</char>说：“即使所有的人都背弃你，我也永远不会背弃你！”<verse eid="MAT 26:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MAT 26:34"/>耶稣说：“我实在告诉你，今夜鸡叫以前，你会三次不认我。”<verse eid="MAT 26:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MAT 26:35"/>
+    <char style="pn">彼得</char>说：“就算我必须跟你一起死，我也不会不认你！”其他门徒也都这样说。<verse eid="MAT 26:35"/></para>
+  <para style="s1">在客西马尼祷告</para>
+  <para style="p">
+    <verse number="36" style="v" sid="MAT 26:36"/>耶稣和门徒到了一个叫<char style="pn">客西马尼</char>的地方，祂对门徒说：“你们坐在这里，我到那边去祷告。” <verse eid="MAT 26:36"/><verse number="37" style="v" sid="MAT 26:37"/>祂带了<char style="pn">彼得</char>和<char style="pn">西庇太</char>的两个儿子一起去。祂感到忧伤和痛苦， <verse eid="MAT 26:37"/><verse number="38" style="v" sid="MAT 26:38"/>就对他们说：“我心里非常忧伤，几乎要死，你们留在这里跟我一起警醒。”<verse eid="MAT 26:38"/></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MAT 26:39"/>祂稍往前走，俯伏在地上祷告：“我父啊！如果可以，求你撤去此杯。然而，愿你的旨意成就，而非我的意愿。”<verse eid="MAT 26:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="MAT 26:40"/>耶稣回到三个门徒那里，见他们都睡着了，就对<char style="pn">彼得</char>说：“难道你们不能跟我一同警醒半个时辰吗？ <verse eid="MAT 26:40"/><verse number="41" style="v" sid="MAT 26:41"/>你们要警醒祷告，免得陷入诱惑。你们的心灵虽然愿意，肉体却很软弱。”<verse eid="MAT 26:41"/></para>
+  <para style="p">
+    <verse number="42" style="v" sid="MAT 26:42"/>祂第二次去祷告说：“我父啊！如果此杯不能撤去，必须我喝，愿你的旨意成就。” <verse eid="MAT 26:42"/><verse number="43" style="v" sid="MAT 26:43"/>祂回来时见他们又睡着了，因为他们困得眼皮发沉。 <verse eid="MAT 26:43"/><verse number="44" style="v" sid="MAT 26:44"/>耶稣再次离开他们，第三次去祷告，说了同样的话。<verse eid="MAT 26:44"/></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MAT 26:45"/>然后，祂回到门徒那里，对他们说：“你们还在睡觉，还在休息吗？看啊！时候到了，人子要被交在罪人手中了。 <verse eid="MAT 26:45"/><verse number="46" style="v" sid="MAT 26:46"/>起来，我们走吧。看啊，出卖我的人已经来了！”<verse eid="MAT 26:46"/></para>
+  <para style="s1">耶稣被捕</para>
+  <para style="p">
+    <verse number="47" style="v" sid="MAT 26:47"/>耶稣还在说话的时候，十二使徒中的<char style="pn">犹大</char>来了，同来的还有祭司长和百姓的长老派来的一大群拿着刀棍的人。 <verse eid="MAT 26:47"/><verse number="48" style="v" sid="MAT 26:48"/>出卖耶稣的<char style="pn">犹大</char>预先和他们定了暗号，说：“我亲吻谁，谁就是耶稣，你们把祂抓起来。” <verse eid="MAT 26:48"/><verse number="49" style="v" sid="MAT 26:49"/><char style="pn">犹大</char>随即走到耶稣跟前，说：“老师，你好！”然后亲吻耶稣。<verse eid="MAT 26:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="MAT 26:50"/>耶稣对他说：“朋友，你要做的事，动手吧。”于是那些人上前，下手捉拿耶稣。 <verse eid="MAT 26:50"/><verse number="51" style="v" sid="MAT 26:51"/>耶稣的跟随者中有人伸手拔出刀朝大祭司的奴仆砍去，削掉了他一只耳朵。<verse eid="MAT 26:51"/></para>
+  <para style="p">
+    <verse number="52" style="v" sid="MAT 26:52"/>耶稣对他说：“收刀入鞘吧！因为动刀的必死在刀下。 <verse eid="MAT 26:52"/><verse number="53" style="v" sid="MAT 26:53"/>难道你不知道，我可以请求我父马上派超过十二营的天使来保护我吗？ <verse eid="MAT 26:53"/><verse number="54" style="v" sid="MAT 26:54"/>我若这样做，圣经上有关此事必这样发生的话又怎能应验呢？”<verse eid="MAT 26:54"/></para>
+  <para style="p">
+    <verse number="55" style="v" sid="MAT 26:55"/>那时，耶稣对众人说：“你们像对付强盗一样拿着刀棍来抓我吗？我天天在圣殿里教导人，你们没有抓我。 <verse eid="MAT 26:55"/><verse number="56" style="v" sid="MAT 26:56"/>不过这一切事的发生，是要应验先知书上的话。”那时，所有门徒都丢下祂逃走了。<verse eid="MAT 26:56"/></para>
+  <para style="s1">大祭司审问耶稣</para>
+  <para style="p">
+    <verse number="57" style="v" sid="MAT 26:57"/>捉拿耶稣的人把祂押到大祭司<char style="pn">该亚法</char>那里。律法教师和长老已聚集在那里。 <verse eid="MAT 26:57"/><verse number="58" style="v" sid="MAT 26:58"/><char style="pn">彼得</char>远远地跟着耶稣，一直进到大祭司的院子里。他坐在卫兵当中，想知道事情的结果。<verse eid="MAT 26:58"/></para>
+  <para style="p">
+    <verse number="59" style="v" sid="MAT 26:59"/>祭司长和全公会的人正在寻找假证据来控告耶稣，好定祂死罪。 <verse eid="MAT 26:59"/><verse number="60" style="v" sid="MAT 26:60"/>很多假证人诬告祂，但都找不到真凭实据。最后有两个人上前说：<verse eid="MAT 26:60"/></para>
+  <para style="p">
+    <verse number="61" style="v" sid="MAT 26:61"/>“这个人曾经说过，‘我能拆毁上帝的殿，三天内把它重建起来。’”<verse eid="MAT 26:61"/></para>
+  <para style="p">
+    <verse number="62" style="v" sid="MAT 26:62"/>大祭司站起来质问耶稣：“你不回答吗？这些人作证控告你的是什么呢？” <verse eid="MAT 26:62"/><verse number="63" style="v" sid="MAT 26:63"/>耶稣还是沉默不语。</para>
+  <para style="p" vid="MAT 26:63">大祭司又对祂说：“我奉永活上帝的名命令你起誓告诉我们，你是不是上帝的儿子基督？”<verse eid="MAT 26:63"/></para>
+  <para style="p">
+    <verse number="64" style="v" sid="MAT 26:64"/>耶稣说：“如你所言。但我告诉你们，将来你们要看见人子坐在大能者的右边，驾着天上的云降临。”<verse eid="MAT 26:64"/></para>
+  <para style="p">
+    <verse number="65" style="v" sid="MAT 26:65"/>大祭司撕裂衣服，说：“祂亵渎了上帝！我们还需要什么证人呢？你们现在亲耳听见了祂说亵渎的话， <verse eid="MAT 26:65"/><verse number="66" style="v" sid="MAT 26:66"/>你们看怎么办？”</para>
+  <para style="p" vid="MAT 26:66">他们回应说：“祂该死！”<verse eid="MAT 26:66"/></para>
+  <para style="p">
+    <verse number="67" style="v" sid="MAT 26:67"/>他们就吐唾沫在祂脸上，挥拳打祂。还有人一边打祂耳光，一边说： <verse eid="MAT 26:67"/><verse number="68" style="v" sid="MAT 26:68"/>“基督啊！给我们说预言吧，是谁在打你？”<verse eid="MAT 26:68"/></para>
+  <para style="s1">彼得三次不认主</para>
+  <para style="p">
+    <verse number="69" style="v" sid="MAT 26:69"/>当时，<char style="pn">彼得</char>还坐在外面的院子里，有一个婢女走过来对他说：“你也跟那个<char style="pn">加利利</char>人耶稣是一伙的。”<verse eid="MAT 26:69"/></para>
+  <para style="p">
+    <verse number="70" style="v" sid="MAT 26:70"/>
+    <char style="pn">彼得</char>却当众否认：“我不知道你在说什么。”<verse eid="MAT 26:70"/></para>
+  <para style="p">
+    <verse number="71" style="v" sid="MAT 26:71"/>正当他走到门口要离开时，另一个婢女看见他，就对旁边的人说：“这个人跟<char style="pn">拿撒勒</char>人耶稣是一伙的！”<verse eid="MAT 26:71"/></para>
+  <para style="p">
+    <verse number="72" style="v" sid="MAT 26:72"/>
+    <char style="pn">彼得</char>再次否认，并发誓说：“我不认识那个人。” <verse eid="MAT 26:72"/><verse number="73" style="v" sid="MAT 26:73"/>过了一会儿，旁边站着的人过来对<char style="pn">彼得</char>说：“你肯定也跟他们是一伙的，听你的口音就知道了。”<verse eid="MAT 26:73"/></para>
+  <para style="p">
+    <verse number="74" style="v" sid="MAT 26:74"/>
+    <char style="pn">彼得</char>又赌咒又发誓，说：“我不认识那个人！”就在这时候，鸡叫了。 <verse eid="MAT 26:74"/><verse number="75" style="v" sid="MAT 26:75"/><char style="pn">彼得</char>想起耶稣说的话：“在鸡叫以前，你会三次不认我。”他就出去，失声痛哭。<verse eid="MAT 26:75"/></para>
+  <chapter eid="MAT 26"/>
+  <chapter number="27" style="c" sid="MAT 27"/>
+  <para style="s1">犹大的下场</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 27:1"/>到了清晨，众祭司长和百姓的长老商定要处死耶稣。 <verse eid="MAT 27:1"/><verse number="2" style="v" sid="MAT 27:2"/>他们把祂绑起来，押送到总督<char style="pn">彼拉多</char>那里。<verse eid="MAT 27:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MAT 27:3"/>出卖耶稣的<char style="pn">犹大</char>看见耶稣被定了罪，感到很后悔，就把那三十块银子还给祭司长和长老，说： <verse eid="MAT 27:3"/><verse number="4" style="v" sid="MAT 27:4"/>“我出卖了清白无辜的人，我犯罪了！”</para>
+  <para style="p" vid="MAT 27:4">他们说：“那是你自己的事，跟我们有什么关系？”<verse eid="MAT 27:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 27:5"/>
+    <char style="pn">犹大</char>把钱扔在圣殿里，出去上吊自尽了。<verse eid="MAT 27:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MAT 27:6"/>祭司长们捡起银子，说：“这是血钱，不可收进圣殿的库房。” <verse eid="MAT 27:6"/><verse number="7" style="v" sid="MAT 27:7"/>他们商议后，决定用这些钱买下陶匠的地作为埋葬异乡人的坟场。 <verse eid="MAT 27:7"/><verse number="8" style="v" sid="MAT 27:8"/>因此，那块地至今被称为“血田”。 <verse eid="MAT 27:8"/><verse number="9" style="v" sid="MAT 27:9"/>这就应验了<char style="pn">耶利米</char>先知的话：“他们用<char style="pn">以色列</char>人给祂估定的三十块银子， <verse eid="MAT 27:9"/><verse number="10" style="v" sid="MAT 27:10"/>买了陶匠的一块田，正如主指示我的。”<note caller="+" style="f"><char style="fr" closed="false">27:10 </char><char style="ft" closed="false"><char style="xt"><ref loc="ZEC 11:12">撒迦利亚书11:12</ref>、<ref loc="ZEC 11:13">13</ref>；<ref loc="JER 19:1-13">耶利米书19:1‑13</ref>；<ref loc="JER 32:6-9">32:6‑9</ref>。</char></char></note><verse eid="MAT 27:10"/></para>
+  <para style="s1">耶稣在彼拉多面前受审</para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 27:11"/>耶稣站在总督面前受审。总督问：“你是<char style="pn">犹太</char>人的王吗？”</para>
+  <para style="p" vid="MAT 27:11">耶稣说：“如你所言。”<verse eid="MAT 27:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MAT 27:12"/>当祭司长和长老控告祂时，祂一句话也不说。 <verse eid="MAT 27:12"/><verse number="13" style="v" sid="MAT 27:13"/><char style="pn">彼拉多</char>就问：“你没听见他们对你的诸多控告吗？” <verse eid="MAT 27:13"/><verse number="14" style="v" sid="MAT 27:14"/>耶稣仍旧一言不发。<char style="pn">彼拉多</char>感到十分惊奇。<verse eid="MAT 27:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MAT 27:15"/>每逢逾越节，总督都会照惯例按民众的意愿释放一个囚犯。 <verse eid="MAT 27:15"/><verse number="16" style="v" sid="MAT 27:16"/>那时，有一个恶名昭彰的囚犯名叫<char style="pn">巴拉巴</char>。 <verse eid="MAT 27:16"/><verse number="17" style="v" sid="MAT 27:17"/>百姓聚在一起的时候，<char style="pn">彼拉多</char>就问他们：“你们要我给你们释放谁？<char style="pn">巴拉巴</char>还是被称为基督的耶稣？” <verse eid="MAT 27:17"/><verse number="18" style="v" sid="MAT 27:18"/>因为<char style="pn">彼拉多</char>知道他们把耶稣押来是出于嫉妒。<verse eid="MAT 27:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MAT 27:19"/>
+    <char style="pn">彼拉多</char>正坐堂断案时，他夫人派人来对他说：“你不要插手这个义人的事！我今天在梦中因为这个人受了许多苦。”<verse eid="MAT 27:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MAT 27:20"/>祭司长和长老却怂恿百姓要求释放<char style="pn">巴拉巴</char>，处死耶稣。 <verse eid="MAT 27:20"/><verse number="21" style="v" sid="MAT 27:21"/>总督再次问百姓：“这两个人，你们要我释放哪一个？”他们说：“<char style="pn">巴拉巴</char>！”<verse eid="MAT 27:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MAT 27:22"/>
+    <char style="pn">彼拉多</char>问：“那么，我怎样处置被称为基督的耶稣呢？”</para>
+  <para style="p" vid="MAT 27:22">他们齐声说：“把祂钉在十字架上！”<verse eid="MAT 27:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MAT 27:23"/>
+    <char style="pn">彼拉多</char>问：“为什么？祂犯了什么罪？”</para>
+  <para style="p" vid="MAT 27:23">他们却更大声地喊叫：“把祂钉在十字架上！”<verse eid="MAT 27:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MAT 27:24"/>
+    <char style="pn">彼拉多</char>见再说也无济于事，反而会引起骚乱，于是取了一些水来，在众人面前洗手，说：“流这义人的血，罪不在我，你们自己负责。”<verse eid="MAT 27:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MAT 27:25"/>众人都说：“流祂血的责任由我们和我们的子孙承担！”<verse eid="MAT 27:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MAT 27:26"/>于是，<char style="pn">彼拉多</char>为他们释放了<char style="pn">巴拉巴</char>，下令将耶稣鞭打后交出去钉十字架。<verse eid="MAT 27:26"/></para>
+  <para style="s1">耶稣受辱</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MAT 27:27"/>总督的士兵把耶稣押进总督府，把全营士兵都集合在祂周围。 <verse eid="MAT 27:27"/><verse number="28" style="v" sid="MAT 27:28"/>他们剥下耶稣的衣服，给祂披上一件朱红色长袍， <verse eid="MAT 27:28"/><verse number="29" style="v" sid="MAT 27:29"/>用荆棘编成冠冕，戴在祂头上，又拿一根苇秆放在祂右手里，跪在祂跟前戏弄祂，说：“<char style="pn">犹太</char>人的王万岁！” <verse eid="MAT 27:29"/><verse number="30" style="v" sid="MAT 27:30"/>然后向祂吐唾沫，拿过苇秆打祂的头。 <verse eid="MAT 27:30"/><verse number="31" style="v" sid="MAT 27:31"/>他们戏弄完了，就脱去祂的袍子，给祂穿上原来的衣服，把祂押出去钉十字架。<verse eid="MAT 27:31"/></para>
+  <para style="s1">钉十字架</para>
+  <para style="p">
+    <verse number="32" style="v" sid="MAT 27:32"/>他们出去的时候，遇见一个叫<char style="pn">西门</char>的<char style="pn">古利奈</char>人，就强迫他背耶稣的十字架。<verse eid="MAT 27:32"/></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MAT 27:33"/>来到一个地方，名叫<char style="pn">各各他</char>——意思是“髑髅地”， <verse eid="MAT 27:33"/><verse number="34" style="v" sid="MAT 27:34"/>士兵给耶稣喝掺了苦胆汁的酒，祂尝了一口，不肯喝。<verse eid="MAT 27:34"/></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MAT 27:35"/>他们把耶稣钉在十字架上，还抽签分了祂的衣服， <verse eid="MAT 27:35"/><verse number="36" style="v" sid="MAT 27:36"/>然后坐在那里看守。 <verse eid="MAT 27:36"/><verse number="37" style="v" sid="MAT 27:37"/>他们在祂头顶上挂了一个牌子，上面写着祂的罪状：“这是<char style="pn">犹太</char>人的王耶稣。” <verse eid="MAT 27:37"/><verse number="38" style="v" sid="MAT 27:38"/>当时，有两个强盗也被钉在十字架上，一个在祂右边，一个在祂左边。 <verse eid="MAT 27:38"/><verse number="39" style="v" sid="MAT 27:39"/>过路的人都嘲笑祂，摇着头说： <verse eid="MAT 27:39"/><verse number="40" style="v" sid="MAT 27:40"/>“你这要把圣殿拆毁又在三天内重建的人啊，救救自己吧！你要是上帝的儿子，就从十字架上下来吧！”<verse eid="MAT 27:40"/></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MAT 27:41"/>祭司长、律法教师和长老也同样嘲讽说： <verse eid="MAT 27:41"/><verse number="42" style="v" sid="MAT 27:42"/>“祂救了别人，却救不了自己！祂可是<char style="pn">以色列</char>的王啊！现在就从十字架上下来吧！我们就信祂。 <verse eid="MAT 27:42"/><verse number="43" style="v" sid="MAT 27:43"/>祂信靠上帝，如果上帝喜悦祂，就让上帝来救祂吧！因为祂自称是上帝的儿子。” <verse eid="MAT 27:43"/><verse number="44" style="v" sid="MAT 27:44"/>跟祂一同被钉十字架的强盗也这样嘲笑祂。<verse eid="MAT 27:44"/></para>
+  <para style="s1">耶稣之死</para>
+  <para style="p">
+    <verse number="45" style="v" sid="MAT 27:45"/>从正午一直到下午三点，黑暗笼罩着整个大地。 <verse eid="MAT 27:45"/><verse number="46" style="v" sid="MAT 27:46"/>大约下午三点，耶稣大声呼喊：“以利，以利，拉马撒巴各大尼？”<note caller="+" style="f"><char style="fr" closed="false">27:46 </char><char style="ft" closed="false"><char style="xt"><ref loc="PSA 22:1">诗篇22:1</ref>。</char></char></note>意思是：“我的上帝，我的上帝，你为什么离弃我？”<verse eid="MAT 27:46"/></para>
+  <para style="p">
+    <verse number="47" style="v" sid="MAT 27:47"/>有些站在旁边的人听见了，就说：“这人在呼叫<char style="pn">以利亚</char>。” <verse eid="MAT 27:47"/><verse number="48" style="v" sid="MAT 27:48"/>其中一人连忙跑去拿了一块海绵，蘸满酸酒，绑在苇秆上送给祂喝。 <verse eid="MAT 27:48"/><verse number="49" style="v" sid="MAT 27:49"/>其他人却说：“等着吧，我们看看<char style="pn">以利亚</char>会不会来救祂。”<verse eid="MAT 27:49"/></para>
+  <para style="p">
+    <verse number="50" style="v" sid="MAT 27:50"/>耶稣又大喊了一声，就断了气。<verse eid="MAT 27:50"/></para>
+  <para style="p">
+    <verse number="51" style="v" sid="MAT 27:51"/>就在那时，圣殿里的幔子从上到下裂成两半，大地震动，岩石崩裂， <verse eid="MAT 27:51"/><verse number="52" style="v" sid="MAT 27:52"/>坟墓打开，很多死去圣徒的身体复活过来。 <verse eid="MAT 27:52"/><verse number="53" style="v" sid="MAT 27:53"/>他们在耶稣复活后离开坟墓，进圣城向许多人显现。<verse eid="MAT 27:53"/></para>
+  <para style="p">
+    <verse number="54" style="v" sid="MAT 27:54"/>看守耶稣的百夫长和士兵看见地震及所发生的一切，都惊恐万状，说：“这人真是上帝的儿子啊！” <verse eid="MAT 27:54"/><verse number="55" style="v" sid="MAT 27:55"/>有好些妇女在远处观看，她们从<char style="pn">加利利</char>就跟随了耶稣，服侍祂。 <verse eid="MAT 27:55"/><verse number="56" style="v" sid="MAT 27:56"/>其中有<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>、<char style="pn">雅各</char>和<char style="pn">约西</char>的母亲<char style="pn">玛丽亚</char>以及<char style="pn">西庇太</char>两个儿子的母亲。<verse eid="MAT 27:56"/></para>
+  <para style="s1">封石守墓</para>
+  <para style="p">
+    <verse number="57" style="v" sid="MAT 27:57"/>傍晚，从<char style="pn">亚利马太</char>来了一位名叫<char style="pn">约瑟</char>的有钱人，他是耶稣的门徒。 <verse eid="MAT 27:57"/><verse number="58" style="v" sid="MAT 27:58"/>他去求见<char style="pn">彼拉多</char>，要求领取耶稣的遗体，<char style="pn">彼拉多</char>就下令把耶稣的遗体交给他。 <verse eid="MAT 27:58"/><verse number="59" style="v" sid="MAT 27:59"/><char style="pn">约瑟</char>领了遗体，用干净的细麻布裹好， <verse eid="MAT 27:59"/><verse number="60" style="v" sid="MAT 27:60"/>安放在他为自己在岩壁上凿出的新墓穴里，又滚来一块大石头堵住墓口，然后离去。 <verse eid="MAT 27:60"/><verse number="61" style="v" sid="MAT 27:61"/>那时，<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>和另一个<char style="pn">玛丽亚</char>坐在坟墓的对面。<verse eid="MAT 27:61"/></para>
+  <para style="p">
+    <verse number="62" style="v" sid="MAT 27:62"/>第二天，就是预备日之后的那天，祭司长和法利赛人一起来见<char style="pn">彼拉多</char>，说： <verse eid="MAT 27:62"/><verse number="63" style="v" sid="MAT 27:63"/>“总督大人，我们记得那个骗子生前曾说，‘三天之后，我必复活。’ <verse eid="MAT 27:63"/><verse number="64" style="v" sid="MAT 27:64"/>所以请你命人看守坟墓三天，以防祂的门徒偷走祂的尸体，然后对百姓说祂已经从死里复活。这样的迷惑会比以前的更厉害！”<verse eid="MAT 27:64"/></para>
+  <para style="p">
+    <verse number="65" style="v" sid="MAT 27:65"/>
+    <char style="pn">彼拉多</char>说：“你们带上卫兵，去那里严加看守。”<verse eid="MAT 27:65"/></para>
+  <para style="p">
+    <verse number="66" style="v" sid="MAT 27:66"/>他们就带着卫兵去了，在墓口的石头上贴上封条，派人看守墓穴。<verse eid="MAT 27:66"/></para>
+  <chapter eid="MAT 27"/>
+  <chapter number="28" style="c" sid="MAT 28"/>
+  <para style="s1">耶稣复活</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAT 28:1"/>安息日刚过，周日黎明时分，<char style="pn">抹大拉</char>的<char style="pn">玛丽亚</char>和另一位<char style="pn">玛丽亚</char>一同到坟墓去察看。<verse eid="MAT 28:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MAT 28:2"/>突然，大地剧烈地震动，主的天使从天而降，把墓口的石头滚开，坐在上面。 <verse eid="MAT 28:2"/><verse number="3" style="v" sid="MAT 28:3"/>他的容貌如闪电，衣裳洁白如雪。 <verse eid="MAT 28:3"/><verse number="4" style="v" sid="MAT 28:4"/>看守墓穴的卫兵吓得浑身发抖，像死人一样。<verse eid="MAT 28:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MAT 28:5"/>天使对那两个女人说：“不要怕，我知道你们是在找那位被钉十字架的耶稣。 <verse eid="MAT 28:5"/><verse number="6" style="v" sid="MAT 28:6"/>祂不在这里，正如祂所说的，祂已经复活了。你们来看，这是安放祂的地方。 <verse eid="MAT 28:6"/><verse number="7" style="v" sid="MAT 28:7"/>现在你们快去告诉祂的门徒，祂已经从死里复活，要先你们一步去<char style="pn">加利利</char>，你们将在那里见到祂。记住，我已经告诉你们了。”<verse eid="MAT 28:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MAT 28:8"/>她们听了又害怕又欣喜，连忙离开坟墓，跑去告诉门徒。 <verse eid="MAT 28:8"/><verse number="9" style="v" sid="MAT 28:9"/>忽然，耶稣迎面而来，对她们说：“愿你们平安！”她们就上前抱住祂的脚敬拜祂。<verse eid="MAT 28:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MAT 28:10"/>耶稣对她们说：“不要害怕。你们去告诉我的弟兄，叫他们到<char style="pn">加利利</char>去，他们将在那里见到我。”<verse eid="MAT 28:10"/></para>
+  <para style="s1">行贿造谣</para>
+  <para style="p">
+    <verse number="11" style="v" sid="MAT 28:11"/>她们还在赶路的时候，有些守墓的卫兵已经进城把整件事告诉祭司长。 <verse eid="MAT 28:11"/><verse number="12" style="v" sid="MAT 28:12"/>祭司长和长老聚集商议，决定用重金买通守墓的卫兵，又吩咐他们： <verse eid="MAT 28:12"/><verse number="13" style="v" sid="MAT 28:13"/>“你们就说，‘夜里我们熟睡的时候，耶稣的门徒来把祂的尸体偷走了。’ <verse eid="MAT 28:13"/><verse number="14" style="v" sid="MAT 28:14"/>如果这件事传到总督那里，我们会跟他解释，保你们无事。” <verse eid="MAT 28:14"/><verse number="15" style="v" sid="MAT 28:15"/>守卫收下钱，便依照吩咐去做。于是，这说法在<char style="pn">犹太</char>人中一直流传到今天。<verse eid="MAT 28:15"/></para>
+  <para style="s1">大使命</para>
+  <para style="p">
+    <verse number="16" style="v" sid="MAT 28:16"/>十一个门徒赶到<char style="pn">加利利</char>，到了耶稣和他们约定的山上， <verse eid="MAT 28:16"/><verse number="17" style="v" sid="MAT 28:17"/>看到耶稣就敬拜祂，但有些人仍然心存疑惑。 <verse eid="MAT 28:17"/><verse number="18" style="v" sid="MAT 28:18"/>耶稣上前对门徒说：</para>
+  <para style="p" vid="MAT 28:18">“天上地下所有的权柄都交给我了。 <verse eid="MAT 28:18"/><verse number="19" style="v" sid="MAT 28:19"/>所以，你们要去使万民做我的门徒，奉父、子、圣灵的名给他们施洗， <verse eid="MAT 28:19"/><verse number="20" style="v" sid="MAT 28:20"/>教导他们遵守我吩咐你们的一切。记住，我必常与你们同在，一直到世界的末了。”<verse eid="MAT 28:20"/></para>
+  <chapter eid="MAT 28"/>
+</usx>

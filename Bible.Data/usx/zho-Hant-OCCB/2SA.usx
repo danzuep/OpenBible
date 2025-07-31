@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="2SA" style="id">- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)</book>
+  <para style="h">撒母耳記下</para>
+  <para style="toc1">撒母耳記下</para>
+  <para style="toc2">撒母耳記下</para>
+  <para style="toc3">撒下</para>
+  <para style="mt1">撒母耳記下</para>
+  <chapter number="1" style="c" sid="2SA 1"/>
+  <para style="s1">大衛得知掃羅的死訊</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 1:1"/>
+    <char style="pn">大衛</char>戰勝了<char style="pn">亞瑪力</char>人之後便回到<char style="pn">洗革拉</char>，在那裡住了兩天。那時<char style="pn">掃羅</char>已經死了。 <verse eid="2SA 1:1"/><verse number="2" style="v" sid="2SA 1:2"/>第三天，有一個衣服撕裂、頭蒙灰塵的人從<char style="pn">掃羅</char>軍營中跑到<char style="pn">大衛</char>面前，俯伏下拜。 <verse eid="2SA 1:2"/><verse number="3" style="v" sid="2SA 1:3"/><char style="pn">大衛</char>問他：「你從哪裡來？」那人答道：「我是從<char style="pn">以色列</char>軍營逃出來的。」 <verse eid="2SA 1:3"/><verse number="4" style="v" sid="2SA 1:4"/><char style="pn">大衛</char>說：「請告訴我那邊的情況。」他說：「<char style="pn">以色列</char>軍潰逃，傷亡慘重，就連<char style="pn">掃羅</char>和他兒子<char style="pn">約拿單</char>都死了！」 <verse eid="2SA 1:4"/><verse number="5" style="v" sid="2SA 1:5"/><char style="pn">大衛</char>又問報信的青年：「你怎麼知道<char style="pn">掃羅</char>和他兒子<char style="pn">約拿單</char>死了？」 <verse eid="2SA 1:5"/><verse number="6" style="v" sid="2SA 1:6"/>青年說：「我偶然到<char style="pn">基利波</char>山，看見<char style="pn">掃羅</char>在那裡倚槍而立，敵人的戰車騎兵緊緊追來。 <verse eid="2SA 1:6"/><verse number="7" style="v" sid="2SA 1:7"/>他回頭看到我，便呼喚我。我說，『我在這裡。』 <verse eid="2SA 1:7"/><verse number="8" style="v" sid="2SA 1:8"/>他問我是什麼人。我告訴他我是<char style="pn">亞瑪力</char>人。 <verse eid="2SA 1:8"/><verse number="9" style="v" sid="2SA 1:9"/><char style="pn">掃羅</char>說他痛苦不堪，卻又死不掉，要我殺了他。 <verse eid="2SA 1:9"/><verse number="10" style="v" sid="2SA 1:10"/>我知道他身受重傷，必死無疑，就把他殺了，並取下他頭上的王冠和臂上的鐲子帶來獻給我主。」<verse eid="2SA 1:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2SA 1:11"/>
+    <char style="pn">大衛</char>就撕裂衣服，他的隨從也撕裂衣服。 <verse eid="2SA 1:11"/><verse number="12" style="v" sid="2SA 1:12"/>他們因<char style="pn">掃羅</char>、他的兒子<char style="pn">約拿單</char>和耶和華的子民<char style="pn">以色列</char>同胞陣亡而悲哀痛哭，禁食直到黃昏。 <verse eid="2SA 1:12"/><verse number="13" style="v" sid="2SA 1:13"/><char style="pn">大衛</char>又問報信的青年：「你是哪裡的人？」他答道：「我是寄居在<char style="pn">以色列</char>的<char style="pn">亞瑪力</char>人。」 <verse eid="2SA 1:13"/><verse number="14" style="v" sid="2SA 1:14"/><char style="pn">大衛</char>說：「你怎麼敢下手殺耶和華所膏立的王？ <verse eid="2SA 1:14"/><verse number="15-16" style="v" sid="2SA 1:15-16"/>你是咎由自取！因為你親口承認自己殺了耶和華所膏立的王。」<char style="pn">大衛</char>隨即命令一個年輕的隨從殺死他，隨從便殺死了他。<verse eid="2SA 1:15-16"/></para>
+  <para style="s1">大衛的哀歌</para>
+  <para style="p">
+    <verse number="17" style="v" sid="2SA 1:17"/>
+    <char style="pn">大衛</char>作了一首輓歌哀悼<char style="pn">掃羅</char>和他兒子<char style="pn">約拿單</char>， <verse eid="2SA 1:17"/><verse number="18" style="v" sid="2SA 1:18"/>並吩咐人教導<char style="pn">猶大</char>人唱這首弓歌。這首歌記在《雅煞珥書》上，歌詞說：<verse eid="2SA 1:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="2SA 1:19"/>「<char style="pn">以色列</char>啊，</para>
+  <para style="q1" vid="2SA 1:19">你榮耀的王伏屍山上，</para>
+  <para style="q1" vid="2SA 1:19">勇士竟然倒下！<verse eid="2SA 1:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="2SA 1:20"/>不要在<char style="pn">迦特</char>宣告，</para>
+  <para style="q1" vid="2SA 1:20">不要在<char style="pn">亞實基倫</char>的街上傳揚，</para>
+  <para style="q1" vid="2SA 1:20">免得<char style="pn">非利士</char>的婦女幸災樂禍，</para>
+  <para style="q1" vid="2SA 1:20">免得未受割禮之人的女子歡喜雀躍。<verse eid="2SA 1:20"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="21" style="v" sid="2SA 1:21"/>「<char style="pn">基利波</char>山啊，願你沒有雨露，</para>
+  <para style="q1" vid="2SA 1:21">你的田地不長獻祭用的五穀，</para>
+  <para style="q1" vid="2SA 1:21">因為那裡有勇士鏽污的盾牌，</para>
+  <para style="q1" vid="2SA 1:21">
+    <char style="pn">掃羅</char>的盾牌沒有抹油。<verse eid="2SA 1:21"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="22" style="v" sid="2SA 1:22"/>「<char style="pn">約拿單</char>的弓射敵無數，</para>
+  <para style="q1" vid="2SA 1:22">
+    <char style="pn">掃羅</char>的劍不殺強敵不收回。<verse eid="2SA 1:22"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="23" style="v" sid="2SA 1:23"/>「<char style="pn">掃羅</char>和<char style="pn">約拿單</char>深受愛戴，</para>
+  <para style="q1" vid="2SA 1:23">生死不分離。</para>
+  <para style="q1" vid="2SA 1:23">他們比鷹更敏捷，</para>
+  <para style="q1" vid="2SA 1:23">比獅子還強壯。<verse eid="2SA 1:23"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="24" style="v" sid="2SA 1:24"/>「<char style="pn">以色列</char>的女子啊，</para>
+  <para style="q1" vid="2SA 1:24">為<char style="pn">掃羅</char>哀哭吧！</para>
+  <para style="q1" vid="2SA 1:24">他曾使你們衣服華美，</para>
+  <para style="q1" vid="2SA 1:24">穿金戴銀。<verse eid="2SA 1:24"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="25" style="v" sid="2SA 1:25"/>「勇士竟戰死沙場！</para>
+  <para style="q1" vid="2SA 1:25">
+    <char style="pn">約拿單</char>竟伏屍山上！<verse eid="2SA 1:25"/></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="2SA 1:26"/>我的兄弟<char style="pn">約拿單</char>啊，</para>
+  <para style="q1" vid="2SA 1:26">我為你悲傷，</para>
+  <para style="q1" vid="2SA 1:26">你對我情深義重，</para>
+  <para style="q1" vid="2SA 1:26">你對我的愛勝過女人的戀情。<verse eid="2SA 1:26"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="27" style="v" sid="2SA 1:27"/>「勇士竟然倒下！</para>
+  <para style="q1" vid="2SA 1:27">兵器竟然耗損！」<verse eid="2SA 1:27"/></para>
+  <chapter eid="2SA 1"/>
+  <chapter number="2" style="c" sid="2SA 2"/>
+  <para style="s1">大衛做猶大王</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 2:1"/>這事以後，<char style="pn">大衛</char>求問耶和華：「我可以回到<char style="pn">猶大</char>的城邑嗎？」耶和華說：「可以。」<char style="pn">大衛</char>又問：「我應該回到哪一座城呢？」耶和華說：「<char style="pn">希伯崙</char>。」 <verse eid="2SA 2:1"/><verse number="2" style="v" sid="2SA 2:2"/><char style="pn">大衛</char>就帶著他的兩個妻子<char style="pn">耶斯列</char>人<char style="pn">亞希暖</char>和<char style="pn">迦密</char>人<char style="pn">拿八</char>的遺孀<char style="pn">亞比該</char>，一起上到<char style="pn">希伯崙</char>。 <verse eid="2SA 2:2"/><verse number="3" style="v" sid="2SA 2:3"/>他還把部下和他們的家屬一起帶去，住在<char style="pn">希伯崙</char>地區的城邑。 <verse eid="2SA 2:3"/><verse number="4" style="v" sid="2SA 2:4"/><char style="pn">猶大</char>人到<char style="pn">希伯崙</char>膏立<char style="pn">大衛</char>做<char style="pn">猶大</char>支派的王。</para>
+  <para style="p" vid="2SA 2:4">
+    <char style="pn">大衛</char>聽說是<char style="pn">基列·雅比</char>人埋葬了<char style="pn">掃羅</char>， <verse eid="2SA 2:4"/><verse number="5" style="v" sid="2SA 2:5"/>就派使者去告訴他們：「你們這樣厚待你們的主人<char style="pn">掃羅</char>，把他安葬，願耶和華賜福給你們！ <verse eid="2SA 2:5"/><verse number="6" style="v" sid="2SA 2:6"/>願耶和華以慈愛和信實待你們，我也會厚待你們，因為你們做了這事。 <verse eid="2SA 2:6"/><verse number="7" style="v" sid="2SA 2:7"/>現在你們的主<char style="pn">掃羅</char>已經死了，<char style="pn">猶大</char>支派已經膏立我做他們的王，你們要剛強勇敢。」<verse eid="2SA 2:7"/></para>
+  <para style="s1">大衛家與掃羅家爭戰</para>
+  <para style="p">
+    <verse number="8" style="v" sid="2SA 2:8"/>那時，<char style="pn">掃羅</char>的元帥——<char style="pn">尼珥</char>的兒子<char style="pn">押尼珥</char>帶著<char style="pn">掃羅</char>的兒子<char style="pn">伊施·波設</char>過河來到<char style="pn">瑪哈念</char>， <verse eid="2SA 2:8"/><verse number="9" style="v" sid="2SA 2:9"/>立他為王統治<char style="pn">基列</char>、<char style="pn">亞書利</char>、<char style="pn">耶斯列</char>、<char style="pn">以法蓮</char>、<char style="pn">便雅憫</char>和<char style="pn">以色列</char>其餘的地方。 <verse eid="2SA 2:9"/><verse number="10" style="v" sid="2SA 2:10"/><char style="pn">掃羅</char>的兒子<char style="pn">伊施·波設</char>四十歲登基，統治<char style="pn">以色列</char>兩年。<char style="pn">猶大</char>支派則跟隨<char style="pn">大衛</char>。 <verse eid="2SA 2:10"/><verse number="11" style="v" sid="2SA 2:11"/><char style="pn">大衛</char>在<char style="pn">希伯崙</char>做王統治<char style="pn">猶大</char>支派七年半。<verse eid="2SA 2:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2SA 2:12"/>有一次，<char style="pn">尼珥</char>的兒子<char style="pn">押尼珥</char>帶領<char style="pn">掃羅</char>的兒子<char style="pn">伊施·波設</char>的軍隊，從<char style="pn">瑪哈念</char>前往<char style="pn">基遍</char>。 <verse eid="2SA 2:12"/><verse number="13" style="v" sid="2SA 2:13"/><char style="pn">洗魯雅</char>的兒子<char style="pn">約押</char>帶領<char style="pn">大衛</char>的軍隊出來，在<char style="pn">基遍</char>池與他們相遇。一方坐在池這邊，一方坐在池那邊。 <verse eid="2SA 2:13"/><verse number="14" style="v" sid="2SA 2:14"/><char style="pn">押尼珥</char>對<char style="pn">約押</char>說：「讓雙方的青年起來，在我們面前較量一下吧。」<char style="pn">約押</char>說：「好啊。」 <verse eid="2SA 2:14"/><verse number="15" style="v" sid="2SA 2:15"/>於是，<char style="pn">伊施·波設</char>的<char style="pn">便雅憫</char>人和<char style="pn">大衛</char>的僕人雙方都起身選了十二人出來， <verse eid="2SA 2:15"/><verse number="16" style="v" sid="2SA 2:16"/>他們各自抓住對方的頭髮，用刀刺對方的肋旁，同歸於盡。於是<char style="pn">基遍</char>的那個地方叫「刀田」。 <verse eid="2SA 2:16"/><verse number="17" style="v" sid="2SA 2:17"/>那天，兩軍惡戰，<char style="pn">押尼珥</char>和<char style="pn">以色列</char>人被<char style="pn">大衛</char>的人馬殺敗。 <verse eid="2SA 2:17"/><verse number="18" style="v" sid="2SA 2:18"/>當時，<char style="pn">洗魯雅</char>的三個兒子<char style="pn">約押</char>、<char style="pn">亞比篩</char>和<char style="pn">亞撒黑</char>都在場。<char style="pn">亞撒黑</char>跑得飛快如田野的鹿， <verse eid="2SA 2:18"/><verse number="19" style="v" sid="2SA 2:19"/>他跟在<char style="pn">押尼珥</char>後面，不偏不離，窮追不捨。 <verse eid="2SA 2:19"/><verse number="20" style="v" sid="2SA 2:20"/><char style="pn">押尼珥</char>回頭問道：「你是<char style="pn">亞撒黑</char>嗎？」<char style="pn">亞撒黑</char>說：「正是。」 <verse eid="2SA 2:20"/><verse number="21" style="v" sid="2SA 2:21"/><char style="pn">押尼珥</char>說：「你離開我，去追趕別人，奪取他的兵器吧。」但<char style="pn">亞撒黑</char>還是窮追不捨。 <verse eid="2SA 2:21"/><verse number="22" style="v" sid="2SA 2:22"/><char style="pn">押尼珥</char>又對他說：「別追我了，非逼我殺你嗎？我若殺了你，還有何顏面見你哥哥<char style="pn">約押</char>呢？」 <verse eid="2SA 2:22"/><verse number="23" style="v" sid="2SA 2:23"/>但<char style="pn">亞撒黑</char>還是不肯甘休。<char style="pn">押尼珥</char>就用槍柄刺入他的肚腹，穿透了他的後背，他便倒地身亡。眾人趕到那裡，都停了下來。<verse eid="2SA 2:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="2SA 2:24"/>但<char style="pn">約押</char>和<char style="pn">亞比篩</char>卻繼續追趕<char style="pn">押尼珥</char>。太陽落山時，他們追到了<char style="pn">基亞</char>附近的<char style="pn">亞瑪</char>山，通往<char style="pn">基遍</char>曠野的路旁。 <verse eid="2SA 2:24"/><verse number="25" style="v" sid="2SA 2:25"/><char style="pn">便雅憫</char>人在<char style="pn">押尼珥</char>的帶領下聚集在一個山頭上。 <verse eid="2SA 2:25"/><verse number="26" style="v" sid="2SA 2:26"/><char style="pn">押尼珥</char>向<char style="pn">約押</char>喊道：「我們非要無休止地殺下去嗎？難道你不知道這樣下去必有苦果嗎？你什麼時候才命令你的人停止追殺自己的同胞呢？」 <verse eid="2SA 2:26"/><verse number="27" style="v" sid="2SA 2:27"/><char style="pn">約押</char>說：「我憑永活的上帝起誓，你要是不這樣說，我們會一直追到天亮。」 <verse eid="2SA 2:27"/><verse number="28" style="v" sid="2SA 2:28"/>於是，<char style="pn">約押</char>吹響號角，所有的人便停止了戰鬥，不再追擊<char style="pn">以色列</char>人。<verse eid="2SA 2:28"/></para>
+  <para style="p">
+    <verse number="29" style="v" sid="2SA 2:29"/>
+    <char style="pn">押尼珥</char>和隨從連夜趕路，穿過了<char style="pn">亞拉巴</char>，過了<char style="pn">約旦</char>河，第二天又馬不停蹄地走了一個上午，回到<char style="pn">瑪哈念</char>。 <verse eid="2SA 2:29"/><verse number="30" style="v" sid="2SA 2:30"/><char style="pn">約押</char>追趕<char style="pn">押尼珥</char>回來後細點人數，發現除<char style="pn">亞撒黑</char>外<char style="pn">大衛</char>的軍隊還損失了十九個人。 <verse eid="2SA 2:30"/><verse number="31" style="v" sid="2SA 2:31"/><char style="pn">大衛</char>的軍隊殺了三百六十個跟隨<char style="pn">押尼珥</char>的<char style="pn">便雅憫</char>人。 <verse eid="2SA 2:31"/><verse number="32" style="v" sid="2SA 2:32"/><char style="pn">約押</char>和他的隨從把<char style="pn">亞撒黑</char>送到<char style="pn">伯利恆</char>，葬在他父親的墳墓裡。然後，他們整夜趕路，黎明的時候回到了<char style="pn">希伯崙</char>。<verse eid="2SA 2:32"/></para>
+  <chapter eid="2SA 2"/>
+  <chapter number="3" style="c" sid="2SA 3"/>
+  <para style="s1">押尼珥之死</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 3:1"/>
+    <char style="pn">掃羅</char>和<char style="pn">大衛</char>兩家長期爭戰，<char style="pn">大衛</char>家的勢力越來越強，<char style="pn">掃羅</char>家卻日益衰微。<verse eid="2SA 3:1"/></para>
+  <para style="p">
+    <verse number="2" style="v" sid="2SA 3:2"/>
+    <char style="pn">大衛</char>在<char style="pn">希伯崙</char>生的兒子有<char style="pn">耶斯列</char>人<char style="pn">亞希暖</char>所生的長子<char style="pn">暗嫩</char>， <verse eid="2SA 3:2"/><verse number="3" style="v" sid="2SA 3:3"/><char style="pn">迦密</char>人<char style="pn">拿八</char>的遺孀<char style="pn">亞比該</char>所生的次子<char style="pn">基利押</char>，<char style="pn">基述</char>王<char style="pn">達買</char>的女兒<char style="pn">瑪迦</char>所生的三子<char style="pn">押沙龍</char>， <verse eid="2SA 3:3"/><verse number="4" style="v" sid="2SA 3:4"/><char style="pn">哈及</char>所生的四子<char style="pn">亞多尼雅</char>，<char style="pn">亞比她</char>所生的五子<char style="pn">示法提雅</char>， <verse eid="2SA 3:4"/><verse number="5" style="v" sid="2SA 3:5"/><char style="pn">大衛</char>的妻子<char style="pn">以格拉</char>所生的六子<char style="pn">以特念</char>。<char style="pn">大衛</char>的這些兒子都是在<char style="pn">希伯崙</char>生的。<verse eid="2SA 3:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="2SA 3:6"/>在<char style="pn">掃羅</char>和<char style="pn">大衛</char>兩家爭戰期間，<char style="pn">押尼珥</char>在<char style="pn">掃羅</char>家權勢日增。 <verse eid="2SA 3:6"/><verse number="7" style="v" sid="2SA 3:7"/>他跟<char style="pn">掃羅</char>的一個妃嬪、<char style="pn">愛亞</char>的女兒<char style="pn">利斯巴</char>通姦，<char style="pn">伊施·波設</char>問他：「你為什麼睡我父親的妃嬪呢？」 <verse eid="2SA 3:7"/><verse number="8" style="v" sid="2SA 3:8"/><char style="pn">押尼珥</char>聽了非常憤怒，說：「難道我是<char style="pn">猶大</char>的走狗嗎？我至今還這樣厚待你父親<char style="pn">掃羅</char>家和他的親戚朋友，沒有把你交給<char style="pn">大衛</char>，今天你竟為了這個女人來責備我！ <verse eid="2SA 3:8"/><verse number="9-10" style="v" sid="2SA 3:9-10"/>倘若我不照著耶和華應許<char style="pn">大衛</char>的誓言，把<char style="pn">掃羅</char>的江山奪過來交給<char style="pn">大衛</char>，讓他統治全<char style="pn">以色列</char>和<char style="pn">猶大</char>，從<char style="pn">但</char>到<char style="pn">別示巴</char>，願耶和華重重地懲罰我！」<verse eid="2SA 3:9-10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2SA 3:11"/>
+    <char style="pn">伊施·波設</char>一句話也不敢答，因為他害怕<char style="pn">押尼珥</char>。<verse eid="2SA 3:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2SA 3:12"/>
+    <char style="pn">押尼珥</char>派使者送信給<char style="pn">大衛</char>，說：「這是誰的土地呢？如果你與我立約，我必幫助你統一<char style="pn">以色列</char>。」 <verse eid="2SA 3:12"/><verse number="13" style="v" sid="2SA 3:13"/><char style="pn">大衛</char>回答說：「好，我與你立約，但有一個要求：你一定要把<char style="pn">掃羅</char>的女兒<char style="pn">米甲</char>帶來才能見我。」 <verse eid="2SA 3:13"/><verse number="14" style="v" sid="2SA 3:14"/>於是，<char style="pn">大衛</char>派使者去見<char style="pn">掃羅</char>的兒子<char style="pn">伊施·波設</char>說：「請把我的妻子<char style="pn">米甲</char>送回來，因為她是我用一百個<char style="pn">非利士</char>人的包皮作聘禮娶來的。」 <verse eid="2SA 3:14"/><verse number="15" style="v" sid="2SA 3:15"/><char style="pn">伊施·波設</char>就派人把<char style="pn">米甲</char>從她丈夫、<char style="pn">拉億</char>的兒子<char style="pn">帕鐵</char>那裡接回來。 <verse eid="2SA 3:15"/><verse number="16" style="v" sid="2SA 3:16"/><char style="pn">帕鐵</char>一路跟著<char style="pn">米甲</char>，邊走邊哭，一直到<char style="pn">巴戶琳</char>。<char style="pn">押尼珥</char>對他說：「你回去吧！」他就回去了。<verse eid="2SA 3:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="2SA 3:17"/>
+    <char style="pn">押尼珥</char>和<char style="pn">以色列</char>的長老商量說：「你們以前一直都希望<char style="pn">大衛</char>做你們的王， <verse eid="2SA 3:17"/><verse number="18" style="v" sid="2SA 3:18"/>現在是時候了，因為耶和華曾說要藉著祂僕人<char style="pn">大衛</char>的手，從<char style="pn">非利士</char>人和其他所有敵人手中拯救祂的<char style="pn">以色列</char>子民。」 <verse eid="2SA 3:18"/><verse number="19" style="v" sid="2SA 3:19"/><char style="pn">押尼珥</char>也跟<char style="pn">便雅憫</char>人商談，然後到<char style="pn">希伯崙</char>把<char style="pn">以色列</char>人和<char style="pn">便雅憫</char>人的願望告訴<char style="pn">大衛</char>。 <verse eid="2SA 3:19"/><verse number="20" style="v" sid="2SA 3:20"/>當時，他帶了二十個人前往<char style="pn">希伯崙</char>見<char style="pn">大衛</char>，<char style="pn">大衛</char>就設宴款待他們。 <verse eid="2SA 3:20"/><verse number="21" style="v" sid="2SA 3:21"/><char style="pn">押尼珥</char>對<char style="pn">大衛</char>說：「我要去招聚所有<char style="pn">以色列</char>人到我主我王這裡，好跟你立約，你便可以如願以償，統治全<char style="pn">以色列</char>。」於是<char style="pn">大衛</char>為他送行，他就平安地回去了。<verse eid="2SA 3:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="2SA 3:22"/>
+    <char style="pn">大衛</char>送<char style="pn">押尼珥</char>平安離開後不久，<char style="pn">約押</char>就率領<char style="pn">大衛</char>的軍隊襲敵歸來，並帶回許多戰利品。 <verse eid="2SA 3:22"/><verse number="23" style="v" sid="2SA 3:23"/><char style="pn">約押</char>率領全軍回來後，有人告訴他：「<char style="pn">尼珥</char>的兒子<char style="pn">押尼珥</char>剛才來朝見王，王送他平安地離去了。」 <verse eid="2SA 3:23"/><verse number="24" style="v" sid="2SA 3:24"/><char style="pn">約押</char>聽後，就去見王，說：「你這做的是什麼事？<char style="pn">押尼珥</char>來見你，你為什麼放他走呢？ <verse eid="2SA 3:24"/><verse number="25" style="v" sid="2SA 3:25"/>你要知道，<char style="pn">尼珥</char>的兒子<char style="pn">押尼珥</char>想來騙你，探聽你的虛實。」<verse eid="2SA 3:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="2SA 3:26"/>
+    <char style="pn">約押</char>從<char style="pn">大衛</char>那裡出來，派使者去追<char style="pn">押尼珥</char>，他們在<char style="pn">西拉</char>井追上了他，把他帶了回來。<char style="pn">大衛</char>對這件事一無所知。 <verse eid="2SA 3:26"/><verse number="27" style="v" sid="2SA 3:27"/><char style="pn">押尼珥</char>回到<char style="pn">希伯崙</char>的時候，<char style="pn">約押</char>就把他帶到城門的甕洞，裝作與他密談，乘機用短劍刺入他的肚子，把他殺死了，為他兄弟<char style="pn">亞撒黑</char>報了仇。 <verse eid="2SA 3:27"/><verse number="28" style="v" sid="2SA 3:28"/>後來，<char style="pn">大衛</char>聽到消息就說：「我和我的國在耶和華面前永遠跟<char style="pn">尼珥</char>的兒子<char style="pn">押尼珥</char>的死無關。 <verse eid="2SA 3:28"/><verse number="29" style="v" sid="2SA 3:29"/><char style="pn">約押</char>和他全家要承擔這罪，願他的後代永遠有長瘡的、患皮膚病的、拄拐杖的、被刀劍所殺的或挨餓的。」 <verse eid="2SA 3:29"/><verse number="30" style="v" sid="2SA 3:30"/><char style="pn">約押</char>和他兄弟<char style="pn">亞比篩</char>之所以殺<char style="pn">押尼珥</char>，是因為<char style="pn">押尼珥</char>在<char style="pn">基遍</char>殺了他們的兄弟<char style="pn">亞撒黑</char>。<verse eid="2SA 3:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="2SA 3:31"/>
+    <char style="pn">大衛</char>對<char style="pn">約押</char>和部下說：「你們要撕裂衣服，腰束麻布，在<char style="pn">押尼珥</char>棺前哭喪！」<char style="pn">大衛</char>王也跟在棺後送葬。 <verse eid="2SA 3:31"/><verse number="32" style="v" sid="2SA 3:32"/>他們就把<char style="pn">押尼珥</char>葬在<char style="pn">希伯崙</char>。<char style="pn">大衛</char>王和眾人在墓旁大哭一場。 <verse eid="2SA 3:32"/><verse number="33" style="v" sid="2SA 3:33"/><char style="pn">大衛</char>王哀悼<char style="pn">押尼珥</char>，說：</para>
+  <para style="q1" vid="2SA 3:33">「<char style="pn">押尼珥</char>啊！</para>
+  <para style="q1" vid="2SA 3:33">你怎能死得糊里糊塗<note caller="+" style="f"><char style="fr" closed="false">3·33 </char><char style="ft" closed="false">「糊里糊塗」希伯來文是「像愚笨人」。</char></note>呢？<verse eid="2SA 3:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="2SA 3:34"/>你的手沒有被捆，</para>
+  <para style="q1" vid="2SA 3:34">你的腳沒有被鎖，</para>
+  <para style="q1" vid="2SA 3:34">你是死在奸惡之人的手裡啊！」</para>
+  <para style="m" vid="2SA 3:34">於是眾人都為<char style="pn">押尼珥</char>哀哭。 <verse eid="2SA 3:34"/><verse number="35" style="v" sid="2SA 3:35"/><char style="pn">大衛</char>整天沒有進食，眾人來勸他吃一點東西，但他起誓說：「我若在日落以前吃任何東西，願上帝重重地懲罰我！」 <verse eid="2SA 3:35"/><verse number="36" style="v" sid="2SA 3:36"/>眾人聽見了，都很喜悅，王做的每一件事都令他們喜悅。 <verse eid="2SA 3:36"/><verse number="37" style="v" sid="2SA 3:37"/>那天全<char style="pn">以色列</char>的人都看出<char style="pn">尼珥</char>的兒子<char style="pn">押尼珥</char>的死與大衛無關。 <verse eid="2SA 3:37"/><verse number="38" style="v" sid="2SA 3:38"/><char style="pn">大衛</char>王對他的隨從說：「你們難道不知道今天<char style="pn">以色列</char>損失了一位偉大的將領嗎？ <verse eid="2SA 3:38"/><verse number="39" style="v" sid="2SA 3:39"/>今天我雖然是被膏立的王，但仍勢單力薄，無法對付<char style="pn">洗魯雅</char>的兩個兒子，願耶和華報應他們的惡行。」<verse eid="2SA 3:39"/></para>
+  <chapter eid="2SA 3"/>
+  <chapter number="4" style="c" sid="2SA 4"/>
+  <para style="s1">伊施·波設被殺</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 4:1"/>
+    <char style="pn">掃羅</char>的兒子<char style="pn">伊施·波設</char>聽到<char style="pn">押尼珥</char>死在<char style="pn">希伯崙</char>，嚇得手腳發軟，整個<char style="pn">以色列</char>都震驚不已。 <verse eid="2SA 4:1"/><verse number="2" style="v" sid="2SA 4:2"/>那時，<char style="pn">掃羅</char>的兒子有兩個帶兵的將領，一個叫<char style="pn">巴拿</char>，一個叫<char style="pn">利甲</char>，他們是來自<char style="pn">比錄</char>的<char style="pn">便雅憫</char>人<char style="pn">臨門</char>的兒子，<char style="pn">比錄</char>被認為屬於<char style="pn">便雅憫</char>支派。 <verse eid="2SA 4:2"/><verse number="3" style="v" sid="2SA 4:3"/>原來的<char style="pn">比錄</char>人逃到<char style="pn">基他音</char>，寄居在那裡，直到今日。<verse eid="2SA 4:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="2SA 4:4"/>
+    <char style="pn">掃羅</char>的兒子<char style="pn">約拿單</char>有個兒子叫<char style="pn">米非波設</char>，雙腿是瘸的。<char style="pn">掃羅</char>和<char style="pn">約拿單</char>在<char style="pn">耶斯列</char>陣亡的消息傳來時，他才五歲。乳娘抱著他倉皇逃命，不慎把他掉在地上，摔瘸了腿。<verse eid="2SA 4:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="2SA 4:5"/>一天，<char style="pn">伊施·波設</char>正在午睡，<char style="pn">比錄</char>人<char style="pn">臨門</char>的兩個兒子<char style="pn">利甲</char>和<char style="pn">巴拿</char>來到他家。 <verse eid="2SA 4:5"/><verse number="6-7" style="v" sid="2SA 4:6-7"/>他們裝作是來取麥子，進入<char style="pn">伊施·波設</char>的寢室，趁他正躺在床上熟睡，用刀刺透他的肚子殺了他，割下他的首級，拿著連夜穿過<char style="pn">亞拉巴</char>逃跑了。 <verse eid="2SA 4:6-7"/><verse number="8" style="v" sid="2SA 4:8"/>他們把<char style="pn">伊施·波設</char>的首級帶到<char style="pn">希伯崙</char>獻給<char style="pn">大衛</char>王，說：「這便是<char style="pn">掃羅</char>的兒子<char style="pn">伊施·波設</char>的首級。<char style="pn">掃羅</char>是你的仇敵，曾試圖殺害你，今天耶和華為我主我王懲罰了<char style="pn">掃羅</char>和他的子孫。」 <verse eid="2SA 4:8"/><verse number="9" style="v" sid="2SA 4:9"/><char style="pn">大衛</char>對<char style="pn">比錄</char>人<char style="pn">臨門</char>的兒子<char style="pn">利甲</char>及其兄弟<char style="pn">巴拿</char>說：「我憑救我脫離一切危難的永活的耶和華起誓， <verse eid="2SA 4:9"/><verse number="10" style="v" sid="2SA 4:10"/>在<char style="pn">洗革拉</char>曾有人向我報信說<char style="pn">掃羅</char>死了，他以為是來報喜訊，我抓住他，把他殺了。那就是我給他的報酬。 <verse eid="2SA 4:10"/><verse number="11" style="v" sid="2SA 4:11"/>更何況你們這些惡徒在這個無辜人的家裡把他殺死在床上，我怎能不向你們討這血債，把你們從世上除掉？」 <verse eid="2SA 4:11"/><verse number="12" style="v" sid="2SA 4:12"/>於是，<char style="pn">大衛</char>命令部下殺了他們，斬斷他們的手腳，把屍體掛在<char style="pn">希伯崙</char>的池旁。他們把<char style="pn">伊施·波設</char>的頭顱葬在<char style="pn">希伯崙</char>的<char style="pn">押尼珥</char>的墳墓裡。<verse eid="2SA 4:12"/></para>
+  <chapter eid="2SA 4"/>
+  <chapter number="5" style="c" sid="2SA 5"/>
+  <para style="s1">大衛統治全以色列</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 5:1"/>
+    <char style="pn">以色列</char>各支派都來<char style="pn">希伯崙</char>見<char style="pn">大衛</char>，對他說：「看啊，我們是你的骨肉同胞。 <verse eid="2SA 5:1"/><verse number="2" style="v" sid="2SA 5:2"/>從前<char style="pn">掃羅</char>做王的時候，率領<char style="pn">以色列</char>人出征打仗的是你，耶和華也曾應許讓你做祂<char style="pn">以色列</char>子民的牧者和首領。」 <verse eid="2SA 5:2"/><verse number="3" style="v" sid="2SA 5:3"/><char style="pn">以色列</char>的長老都到<char style="pn">希伯崙</char>見<char style="pn">大衛</char>王，<char style="pn">大衛</char>與他們在耶和華面前立約，他們膏立<char style="pn">大衛</char>做<char style="pn">以色列</char>的王。 <verse eid="2SA 5:3"/><verse number="4" style="v" sid="2SA 5:4"/><char style="pn">大衛</char>三十歲登基，執政共四十年。 <verse eid="2SA 5:4"/><verse number="5" style="v" sid="2SA 5:5"/>他在<char style="pn">希伯崙</char>統治<char style="pn">猶大</char>七年半，在<char style="pn">耶路撒冷</char>統治<char style="pn">以色列</char>和<char style="pn">猶大</char>三十三年。<verse eid="2SA 5:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="2SA 5:6"/>
+    <char style="pn">大衛</char>率領軍隊來到<char style="pn">耶路撒冷</char>，要攻打那裡的<char style="pn">耶布斯</char>人。<char style="pn">耶布斯</char>人對<char style="pn">大衛</char>說：「你攻不進來，就連我們這裡瞎眼的和瘸腿的都可以把你趕走。」他們以為<char style="pn">大衛</char>攻不進去。 <verse eid="2SA 5:6"/><verse number="7" style="v" sid="2SA 5:7"/>然而，<char style="pn">大衛</char>攻取了<char style="pn">錫安</char>的堡壘，即後來的<char style="pn">大衛</char>城。 <verse eid="2SA 5:7"/><verse number="8" style="v" sid="2SA 5:8"/>那天，<char style="pn">大衛</char>下令軍隊從地下水道爬進城去，攻打那些「瞎眼的和瘸腿的」，他憎惡這些<char style="pn">耶布斯</char>人。後來便有一句俗語：「瞎眼的和瘸腿的不得進殿！」 <verse eid="2SA 5:8"/><verse number="9" style="v" sid="2SA 5:9"/><char style="pn">大衛</char>住在<char style="pn">錫安</char>的堡壘裡，並稱之為<char style="pn">大衛</char>城，他又從<char style="pn">米羅</char>向內興建環城圍牆。 <verse eid="2SA 5:9"/><verse number="10" style="v" sid="2SA 5:10"/><char style="pn">大衛</char>日漸強盛，因為萬軍之上帝耶和華與他同在。<verse eid="2SA 5:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2SA 5:11"/>
+    <char style="pn">泰爾</char>王<char style="pn">希蘭</char>差遣使者帶著香柏木、木匠和石匠去為<char style="pn">大衛</char>建造宮殿。 <verse eid="2SA 5:11"/><verse number="12" style="v" sid="2SA 5:12"/>那時，<char style="pn">大衛</char>知道耶和華已立他做<char style="pn">以色列</char>王，並因祂<char style="pn">以色列</char>子民的緣故而使他國家興旺。<verse eid="2SA 5:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="2SA 5:13"/>
+    <char style="pn">大衛</char>從<char style="pn">希伯崙</char>遷到<char style="pn">耶路撒冷</char>以後，又選立妃嬪，生了更多兒女。 <verse eid="2SA 5:13"/><verse number="14" style="v" sid="2SA 5:14"/>他在<char style="pn">耶路撒冷</char>生的孩子有<char style="pn">沙姆亞</char>、<char style="pn">朔罷</char>、<char style="pn">拿單</char>、<char style="pn">所羅門</char>、 <verse eid="2SA 5:14"/><verse number="15" style="v" sid="2SA 5:15"/><char style="pn">益轄</char>、<char style="pn">以利書亞</char>、<char style="pn">尼斐</char>、<char style="pn">雅非亞</char>、 <verse eid="2SA 5:15"/><verse number="16" style="v" sid="2SA 5:16"/><char style="pn">以利沙瑪</char>、<char style="pn">以利雅大</char>和<char style="pn">以利法列</char>。<verse eid="2SA 5:16"/></para>
+  <para style="s1">大衛戰勝非利士人</para>
+  <para style="p">
+    <verse number="17" style="v" sid="2SA 5:17"/>
+    <char style="pn">非利士</char>人聽說<char style="pn">大衛</char>已被膏立為<char style="pn">以色列</char>王，就全軍出動，搜尋<char style="pn">大衛</char>。<char style="pn">大衛</char>聽說後，便退到堡壘裡。 <verse eid="2SA 5:17"/><verse number="18" style="v" sid="2SA 5:18"/><char style="pn">非利士</char>人大軍壓境，散佈在<char style="pn">利乏音</char>谷。 <verse eid="2SA 5:18"/><verse number="19" style="v" sid="2SA 5:19"/><char style="pn">大衛</char>求問耶和華：「我可以去迎戰<char style="pn">非利士</char>人嗎？你會把他們交在我手裡嗎？」耶和華說：「去吧，我必把他們交在你手裡。」 <verse eid="2SA 5:19"/><verse number="20" style="v" sid="2SA 5:20"/><char style="pn">大衛</char>前往<char style="pn">巴力·毗拉心</char>，在那裡打敗了他們。他說：「耶和華像洪水決堤一樣為我沖垮了仇敵。」因此那地方叫<char style="pn">巴力·毗拉心</char><note caller="+" style="f"><char style="fr" closed="false">5·20 </char><char style="ft" closed="false">「巴力·毗拉心」意思是「沖垮之主」。</char></note>。 <verse eid="2SA 5:20"/><verse number="21" style="v" sid="2SA 5:21"/><char style="pn">大衛</char>和他的軍隊帶走了<char style="pn">非利士</char>人所丟棄的神像。<verse eid="2SA 5:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="2SA 5:22"/>後來<char style="pn">非利士</char>人又捲土重來，散佈在<char style="pn">利乏音</char>谷。 <verse eid="2SA 5:22"/><verse number="23" style="v" sid="2SA 5:23"/><char style="pn">大衛</char>又求問耶和華，耶和華說：「你不要正面出擊，要繞到他們後面，從桑林對面攻打他們。 <verse eid="2SA 5:23"/><verse number="24" style="v" sid="2SA 5:24"/>當你聽見桑樹梢上響起腳步聲時，就要快速進攻，因為那表示耶和華已在你前頭去攻擊<char style="pn">非利士</char>的軍隊了。」 <verse eid="2SA 5:24"/><verse number="25" style="v" sid="2SA 5:25"/><char style="pn">大衛</char>遵命而行，打敗<char style="pn">非利士</char>人，從<char style="pn">迦巴</char>一直殺到<char style="pn">基色</char>。<verse eid="2SA 5:25"/></para>
+  <chapter eid="2SA 5"/>
+  <chapter number="6" style="c" sid="2SA 6"/>
+  <para style="s1">運約櫃到耶路撒冷</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 6:1"/>
+    <char style="pn">大衛</char>又召集了三萬名<char style="pn">以色列</char>精兵， <verse eid="2SA 6:1"/><verse number="2" style="v" sid="2SA 6:2"/>率領他們到<char style="pn">猶大</char>的<char style="pn">巴拉</char>去接上帝的約櫃。這約櫃以坐在基路伯天使之間的萬軍之耶和華的名字命名。 <verse eid="2SA 6:2"/><verse number="3" style="v" sid="2SA 6:3"/>他們把上帝的約櫃從座落在山上的<char style="pn">亞比拿達</char>家抬出來，放在一輛新車上，由<char style="pn">亞比拿達</char>的兩個兒子<char style="pn">烏撒</char>和<char style="pn">亞希約</char>趕車， <verse eid="2SA 6:3"/><verse number="4" style="v" sid="2SA 6:4"/><char style="pn">亞希約</char>走在約櫃前面。 <verse eid="2SA 6:4"/><verse number="5" style="v" sid="2SA 6:5"/><char style="pn">大衛</char>和全體<char style="pn">以色列</char>人在耶和華面前用琴、瑟、鼓、鈸和鑼奏樂，盡情歌舞。 <verse eid="2SA 6:5"/><verse number="6" style="v" sid="2SA 6:6"/>他們走到<char style="pn">拿肯</char>的麥場時，拉車的牛失蹄，<char style="pn">烏撒</char>就伸手去扶上帝的約櫃。 <verse eid="2SA 6:6"/><verse number="7" style="v" sid="2SA 6:7"/>耶和華上帝便向他發怒，因他的不敬而擊殺了他。他死在了約櫃旁邊。 <verse eid="2SA 6:7"/><verse number="8" style="v" sid="2SA 6:8"/><char style="pn">大衛</char>因耶和華擊殺<char style="pn">烏撒</char>而煩惱，就稱那地方為<char style="pn">毗列斯·烏撒</char><note caller="+" style="f"><char style="fr" closed="false">6·8 </char><char style="ft" closed="false">「毗列斯·烏撒」意思是「向烏撒發怒」。</char></note>，沿用至今。<verse eid="2SA 6:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="2SA 6:9"/>那天，<char style="pn">大衛</char>懼怕耶和華，就說：「耶和華的約櫃怎能運到我這裡？」 <verse eid="2SA 6:9"/><verse number="10" style="v" sid="2SA 6:10"/>他不願把耶和華的約櫃運進<char style="pn">大衛</char>城，而是把它運到<char style="pn">迦特</char>人<char style="pn">俄別·以東</char>家。 <verse eid="2SA 6:10"/><verse number="11" style="v" sid="2SA 6:11"/>耶和華的約櫃在<char style="pn">俄別·以東</char>家存放了三個月，耶和華賜福給<char style="pn">俄別·以東</char>和他全家。<verse eid="2SA 6:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2SA 6:12"/>
+    <char style="pn">大衛</char>聽說耶和華因為約櫃而賜福給<char style="pn">俄別·以東</char>全家及其一切所有，就歡歡喜喜地去把上帝的約櫃從<char style="pn">俄別·以東</char>家接進<char style="pn">大衛</char>城。 <verse eid="2SA 6:12"/><verse number="13" style="v" sid="2SA 6:13"/>這一次，抬耶和華約櫃的人走了六步，<char style="pn">大衛</char>就獻上公牛和肥犢為祭。 <verse eid="2SA 6:13"/><verse number="14" style="v" sid="2SA 6:14"/><char style="pn">大衛</char>穿著細麻布的以弗得，在耶和華面前盡情跳舞。 <verse eid="2SA 6:14"/><verse number="15" style="v" sid="2SA 6:15"/><char style="pn">大衛</char>和全體<char style="pn">以色列</char>人在歡呼聲和號角聲中把耶和華的約櫃迎進<char style="pn">大衛</char>城。<verse eid="2SA 6:15"/></para>
+  <para style="p">
+    <verse number="16" style="v" sid="2SA 6:16"/>耶和華的約櫃進<char style="pn">大衛</char>城的時候，<char style="pn">掃羅</char>的女兒<char style="pn">米甲</char>從窗戶往外觀看，見<char style="pn">大衛</char>在耶和華面前又跳又舞，心裡就輕視他。 <verse eid="2SA 6:16"/><verse number="17" style="v" sid="2SA 6:17"/>眾人把耶和華的約櫃抬進去，安放在<char style="pn">大衛</char>所搭的帳幕裡。<char style="pn">大衛</char>在耶和華面前獻上燔祭和平安祭， <verse eid="2SA 6:17"/><verse number="18" style="v" sid="2SA 6:18"/>然後奉萬軍之耶和華的名給民眾祝福， <verse eid="2SA 6:18"/><verse number="19" style="v" sid="2SA 6:19"/>還分給所有<char style="pn">以色列</char>人，不論男女，每人一個餅、一塊肉和一個葡萄餅。眾人就各自回家去了。<verse eid="2SA 6:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="2SA 6:20"/>
+    <char style="pn">大衛</char>回到家為自己的家人祝福，<char style="pn">米甲</char>出來迎接他，說：「今天<char style="pn">以色列</char>王好光彩呀！居然像個粗俗之人，在臣僕和婢女面前露體！」 <verse eid="2SA 6:20"/><verse number="21" style="v" sid="2SA 6:21"/><char style="pn">大衛</char>對她說：「我是在耶和華面前跳舞。祂不用你父親和你父親家裡的人，而是選立我來治理祂的<char style="pn">以色列</char>子民，所以我要在祂面前歡慶。 <verse eid="2SA 6:21"/><verse number="22" style="v" sid="2SA 6:22"/>我要讓自己更卑微，自視低賤，但你說的那些婢女會尊重我。」<verse eid="2SA 6:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="2SA 6:23"/>
+    <char style="pn">掃羅</char>的女兒<char style="pn">米甲</char>終生都沒有生育。<verse eid="2SA 6:23"/></para>
+  <chapter eid="2SA 6"/>
+  <chapter number="7" style="c" sid="2SA 7"/>
+  <para style="s1">上帝對大衛的應許</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 7:1"/>
+    <char style="pn">大衛</char>住在王宮裡，耶和華使他安享太平，不受四圍的仇敵侵擾。 <verse eid="2SA 7:1"/><verse number="2" style="v" sid="2SA 7:2"/>一天，王對<char style="pn">拿單</char>先知說：「你看，我住在香柏木建的王宮中，上帝的約櫃卻還在帳幕裡。」 <verse eid="2SA 7:2"/><verse number="3" style="v" sid="2SA 7:3"/><char style="pn">拿單</char>答道：「你有什麼想法，就去做吧，因為耶和華與你同在。」 <verse eid="2SA 7:3"/><verse number="4" style="v" sid="2SA 7:4"/>當晚耶和華對<char style="pn">拿單</char>說： <verse eid="2SA 7:4"/><verse number="5" style="v" sid="2SA 7:5"/>「你去告訴我的僕人<char style="pn">大衛</char>，『耶和華說，你要建造殿宇給我居住嗎？ <verse eid="2SA 7:5"/><verse number="6" style="v" sid="2SA 7:6"/>從我把<char style="pn">以色列</char>人帶出<char style="pn">埃及</char>那天起，直到今天，我從未住過殿宇，一路上都住在帳幕裡。 <verse eid="2SA 7:6"/><verse number="7" style="v" sid="2SA 7:7"/>在我與<char style="pn">以色列</char>人同行的日子，我從未責問任何我委派牧養我子民的士師，你為何不為我建香柏木的殿宇呢？』<verse eid="2SA 7:7"/></para>
+  <para style="p">
+    <verse number="8" style="v" sid="2SA 7:8"/>「現在你要告訴我的僕人<char style="pn">大衛</char>，萬軍之耶和華說，『你原本在草場牧羊，我召你來做我<char style="pn">以色列</char>子民的首領。 <verse eid="2SA 7:8"/><verse number="9" style="v" sid="2SA 7:9"/>無論你去哪裡，我都與你同在，為你剷除所有仇敵。現在我要使你聲名遠揚，與世上的偉人齊名。 <verse eid="2SA 7:9"/><verse number="10-11" style="v" sid="2SA 7:10-11"/>我必為我的<char style="pn">以色列</char>子民預備一個地方，栽培他們，使他們住在自己的家園，不再受驚擾，不會像從前我設立士師治理他們的時候那樣受惡人壓迫。我必使你安定，免受仇敵的侵擾。我耶和華向你宣告，我必為你建立王朝。 <verse eid="2SA 7:10-11"/><verse number="12" style="v" sid="2SA 7:12"/>你離世與祖先同眠時，我必興起你親生的後裔接替你，使他的國穩固。 <verse eid="2SA 7:12"/><verse number="13" style="v" sid="2SA 7:13"/>他必為我的名建造殿宇，我必使他的國度王位永固。 <verse eid="2SA 7:13"/><verse number="14" style="v" sid="2SA 7:14"/>我要作他的父親，他要作我的兒子。如果他犯了罪，我必用人的杖、世人的鞭子來懲治他， <verse eid="2SA 7:14"/><verse number="15" style="v" sid="2SA 7:15"/>我的慈愛曾離開從你面前被廢的<char style="pn">掃羅</char>，但我的慈愛必不離開他。 <verse eid="2SA 7:15"/><verse number="16" style="v" sid="2SA 7:16"/>你的家和你的國必在我面前永遠堅立，你的王位必永遠穩固。』」<verse eid="2SA 7:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="2SA 7:17"/>
+    <char style="pn">拿單</char>就把所聽到的啟示全部告訴<char style="pn">大衛</char>。<verse eid="2SA 7:17"/></para>
+  <para style="s1">大衛的禱告</para>
+  <para style="p">
+    <verse number="18" style="v" sid="2SA 7:18"/>於是，<char style="pn">大衛</char>王進去，在耶和華面前坐下，說：「主耶和華啊，我是誰？我的家算什麼？你竟這樣厚待我。 <verse eid="2SA 7:18"/><verse number="19" style="v" sid="2SA 7:19"/>主耶和華啊，在你眼中這還不夠，你還說到僕人家的將來。主耶和華啊，你竟這樣恩待世人！ <verse eid="2SA 7:19"/><verse number="20" style="v" sid="2SA 7:20"/>主耶和華啊，<char style="pn">大衛</char>還能對你說什麼呢？因為你深知你的僕人。 <verse eid="2SA 7:20"/><verse number="21" style="v" sid="2SA 7:21"/>你讓僕人知道你憑自己的應許、按自己的心意成就這大事。 <verse eid="2SA 7:21"/><verse number="22" style="v" sid="2SA 7:22"/>主耶和華啊，你真偉大！我們從未聽過有誰能與你相比，你是獨一無二的上帝。 <verse eid="2SA 7:22"/><verse number="23" style="v" sid="2SA 7:23"/>世上哪個民族比得上你的<char style="pn">以色列</char>子民呢？你從<char style="pn">埃及</char>救贖他們，讓他們做你的子民，又彰顯你的大名，行偉大而可畏的事，把列國及其神明從你的<char style="pn">以色列</char>子民面前趕走。 <verse eid="2SA 7:23"/><verse number="24" style="v" sid="2SA 7:24"/>你讓<char style="pn">以色列</char>人永遠做你的子民，你耶和華做他們的上帝。<verse eid="2SA 7:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="2SA 7:25"/>「耶和華上帝啊，求你永遠信守你對僕人和僕人家的應許，求你成就你的應許。 <verse eid="2SA 7:25"/><verse number="26" style="v" sid="2SA 7:26"/>這樣，你的名必永遠被尊崇，人們必說，『萬軍之耶和華是<char style="pn">以色列</char>的上帝。』你僕人<char style="pn">大衛</char>的家必在你面前堅立。 <verse eid="2SA 7:26"/><verse number="27" style="v" sid="2SA 7:27"/><char style="pn">以色列</char>的上帝——萬軍之耶和華啊，因為你曾啟示僕人，說要為僕人建立王朝，僕人才敢這樣向你祈禱。 <verse eid="2SA 7:27"/><verse number="28" style="v" sid="2SA 7:28"/>主耶和華啊，唯有你是上帝，你的話真實可靠，你給了僕人美好的應許。 <verse eid="2SA 7:28"/><verse number="29" style="v" sid="2SA 7:29"/>現在求你賜福給僕人家，使僕人家在你面前永續不斷。主耶和華啊，這些都是你的應許，願你永遠賜福給僕人家。」<verse eid="2SA 7:29"/></para>
+  <chapter eid="2SA 7"/>
+  <chapter number="8" style="c" sid="2SA 8"/>
+  <para style="s1">大衛戰勝敵人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 8:1"/>後來<char style="pn">大衛</char>打敗並征服了<char style="pn">非利士</char>人，奪取了他們的都城。 <verse eid="2SA 8:1"/><verse number="2" style="v" sid="2SA 8:2"/>他又打敗了<char style="pn">摩押</char>人，讓他們並排躺在地上，然後用繩子去量，每兩繩之內的人都要被殺掉，第三繩的人留下性命。從此，<char style="pn">摩押</char>人臣服於<char style="pn">大衛</char>，向他進貢。<verse eid="2SA 8:2"/></para>
+  <para style="p">
+    <verse number="3" style="v" sid="2SA 8:3"/>
+    <char style="pn">利合</char>的兒子<char style="pn">瑣巴</char>王<char style="pn">哈大底謝</char>出來，要恢復他在<char style="pn">幼發拉底</char>河一帶的勢力，<char style="pn">大衛</char>打敗了他， <verse eid="2SA 8:3"/><verse number="4" style="v" sid="2SA 8:4"/>俘獲一千七百名騎兵和兩萬名步兵，砍斷拉戰車的馬匹的蹄筋，只留下夠拉一百輛戰車的馬匹。 <verse eid="2SA 8:4"/><verse number="5" style="v" sid="2SA 8:5"/><char style="pn">大馬士革</char>的<char style="pn">亞蘭</char>人前來支援<char style="pn">瑣巴</char>王<char style="pn">哈大底謝</char>，<char style="pn">大衛</char>殺了他們兩萬二千人， <verse eid="2SA 8:5"/><verse number="6" style="v" sid="2SA 8:6"/>還在<char style="pn">大馬士革</char>的<char style="pn">亞蘭</char>境內駐軍，<char style="pn">亞蘭</char>人臣服於<char style="pn">大衛</char>，向他進貢。耶和華使<char style="pn">大衛</char>無往而不勝。 <verse eid="2SA 8:6"/><verse number="7" style="v" sid="2SA 8:7"/><char style="pn">大衛</char>奪走<char style="pn">哈大底謝</char>侍從的金盾牌，帶回<char style="pn">耶路撒冷</char>， <verse eid="2SA 8:7"/><verse number="8" style="v" sid="2SA 8:8"/>又從<char style="pn">哈大底謝</char>統治的<char style="pn">比他</char>和<char style="pn">比羅他</char>兩座城中奪走大量的銅。 <verse eid="2SA 8:8"/><verse number="9" style="v" sid="2SA 8:9"/><char style="pn">哈馬</char>王<char style="pn">陀以</char>聽說<char style="pn">大衛</char>打敗<char style="pn">哈大底謝</char>全軍， <verse eid="2SA 8:9"/><verse number="10" style="v" sid="2SA 8:10"/>就派兒子<char style="pn">約蘭</char>帶著許多金銀銅器去朝見<char style="pn">大衛</char>王，向他請安，祝賀他打敗了<char style="pn">哈大底謝</char>。因為<char style="pn">陀以</char>常常和<char style="pn">哈大底謝</char>交戰。 <verse eid="2SA 8:10"/><verse number="11-12" style="v" sid="2SA 8:11-12"/><char style="pn">大衛</char>王把這些器皿和他征服<char style="pn">亞蘭</char>人、<char style="pn">摩押</char>人、<char style="pn">亞捫</char>人、<char style="pn">非利士</char>人、<char style="pn">亞瑪力</char>人，以及<char style="pn">利合</char>的兒子<char style="pn">瑣巴</char>王<char style="pn">哈大底謝</char>時所得的金銀都分別出來，奉獻給耶和華。 <verse eid="2SA 8:11-12"/><verse number="13" style="v" sid="2SA 8:13"/><char style="pn">大衛</char>在鹽谷殺了一萬八千<char style="pn">亞蘭</char>人歸來後，聲威大振。 <verse eid="2SA 8:13"/><verse number="14" style="v" sid="2SA 8:14"/>他又在<char style="pn">以東</char>全境駐軍，<char style="pn">以東</char>人都臣服於他。耶和華使他無往而不勝。<verse eid="2SA 8:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 8:15"/>
+    <char style="pn">大衛</char>治理全<char style="pn">以色列</char>，對百姓秉公行義。 <verse eid="2SA 8:15"/><verse number="16" style="v" sid="2SA 8:16"/>那時，<char style="pn">洗魯雅</char>的兒子<char style="pn">約押</char>做元帥；<char style="pn">亞希律</char>的兒子<char style="pn">約沙法</char>做史官； <verse eid="2SA 8:16"/><verse number="17" style="v" sid="2SA 8:17"/><char style="pn">亞希突</char>的兒子<char style="pn">撒督</char>和<char style="pn">亞比亞他</char>的兒子<char style="pn">亞希米勒</char>做祭司長；<char style="pn">西萊雅</char>做書記； <verse eid="2SA 8:17"/><verse number="18" style="v" sid="2SA 8:18"/><char style="pn">耶何耶大</char>的兒子<char style="pn">比拿雅</char>統管<char style="pn">基利提</char>人和<char style="pn">比利提</char>人。<char style="pn">大衛</char>的眾子都做祭司。<verse eid="2SA 8:18"/></para>
+  <chapter eid="2SA 8"/>
+  <chapter number="9" style="c" sid="2SA 9"/>
+  <para style="s1">大衛恩待米非波設</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 9:1"/>
+    <char style="pn">大衛</char>問：「<char style="pn">掃羅</char>一家還有什麼人嗎？我要因<char style="pn">約拿單</char>的緣故恩待他。」 <verse eid="2SA 9:1"/><verse number="2" style="v" sid="2SA 9:2"/>有人就去叫<char style="pn">掃羅</char>家一個名叫<char style="pn">洗巴</char>的僕人來見<char style="pn">大衛</char>，王問他：「你就是<char style="pn">洗巴</char>嗎？」他說：「僕人正是<char style="pn">洗巴</char>。」 <verse eid="2SA 9:2"/><verse number="3" style="v" sid="2SA 9:3"/>王說：「<char style="pn">掃羅</char>家中還有什麼人？我要以上帝的慈愛來待他。」<char style="pn">洗巴</char>答道：「<char style="pn">約拿單</char>還有一個兒子，是雙腳殘疾的。」 <verse eid="2SA 9:3"/><verse number="4" style="v" sid="2SA 9:4"/>王說：「他在哪裡？」<char style="pn">洗巴</char>答道：「他住在<char style="pn">羅·底巴</char>，在<char style="pn">亞米利</char>的兒子<char style="pn">瑪吉</char>家裡。」 <verse eid="2SA 9:4"/><verse number="5" style="v" sid="2SA 9:5"/>於是，<char style="pn">大衛</char>王派人去<char style="pn">羅·底巴</char>把他從<char style="pn">亞米利</char>的兒子<char style="pn">瑪吉</char>家裡接來。 <verse eid="2SA 9:5"/><verse number="6" style="v" sid="2SA 9:6"/><char style="pn">掃羅</char>的孫子、<char style="pn">約拿單</char>的兒子<char style="pn">米非波設</char>來到<char style="pn">大衛</char>面前，向他俯伏叩拜。<char style="pn">大衛</char>說：「<char style="pn">米非波設</char>！」<char style="pn">米非波設</char>答道：「僕人在這裡。」 <verse eid="2SA 9:6"/><verse number="7" style="v" sid="2SA 9:7"/><char style="pn">大衛</char>說：「你不要害怕，我要因你父親<char style="pn">約拿單</char>的緣故而恩待你。我要把你祖父<char style="pn">掃羅</char>所有的田地歸還給你，你要常與我同席吃飯。」 <verse eid="2SA 9:7"/><verse number="8" style="v" sid="2SA 9:8"/><char style="pn">米非波設</char>再次叩拜，說：「僕人算什麼？不過像一條死狗罷了，你竟這樣眷顧我！」<verse eid="2SA 9:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="2SA 9:9"/>王又把<char style="pn">掃羅</char>的僕人<char style="pn">洗巴</char>召來，對他說：「我已把<char style="pn">掃羅</char>全家的產業都賜給了你主人的孫子<char style="pn">米非波設</char>。 <verse eid="2SA 9:9"/><verse number="10" style="v" sid="2SA 9:10"/>你和你的兒子及僕人要為<char style="pn">米非波設</char>種田，把出產拿來供養他。他還要常常與我同席吃飯。」<char style="pn">洗巴</char>有十五個兒子，二十個僕人。 <verse eid="2SA 9:10"/><verse number="11" style="v" sid="2SA 9:11"/><char style="pn">洗巴</char>對王說：「僕人必遵行我主我王的一切吩咐。」於是，<char style="pn">米非波設</char>像王子一樣常與<char style="pn">大衛</char>同席吃飯。 <verse eid="2SA 9:11"/><verse number="12" style="v" sid="2SA 9:12"/><char style="pn">米非波設</char>有一個小兒子名叫<char style="pn">米迦</char>。<char style="pn">洗巴</char>家中的人都做了<char style="pn">米非波設</char>的僕人。 <verse eid="2SA 9:12"/><verse number="13" style="v" sid="2SA 9:13"/>從此，雙腳殘廢的<char style="pn">米非波設</char>就住在<char style="pn">耶路撒冷</char>，常常與王同席吃飯。<verse eid="2SA 9:13"/></para>
+  <chapter eid="2SA 9"/>
+  <chapter number="10" style="c" sid="2SA 10"/>
+  <para style="s1">以色列人戰勝亞捫人</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 10:1"/>後來，<char style="pn">亞捫</char>王死了，他兒子<char style="pn">哈嫩</char>繼位。 <verse eid="2SA 10:1"/><verse number="2" style="v" sid="2SA 10:2"/><char style="pn">大衛</char>說：「我要恩待<char style="pn">拿轄</char>的兒子<char style="pn">哈嫩</char>，就像他父親曾經恩待我一樣。」他便派臣僕去安慰喪父的<char style="pn">哈嫩</char>。<char style="pn">大衛</char>的臣僕來到<char style="pn">亞捫</char>境內， <verse eid="2SA 10:2"/><verse number="3" style="v" sid="2SA 10:3"/><char style="pn">亞捫</char>的官長卻對<char style="pn">哈嫩</char>說：「<char style="pn">大衛</char>派人來安慰你，你以為他是來弔唁你父親嗎？他派臣僕來見你，不過是要探聽虛實，想摧毀這城。」 <verse eid="2SA 10:3"/><verse number="4" style="v" sid="2SA 10:4"/><char style="pn">哈嫩</char>便把<char style="pn">大衛</char>的臣僕抓起來，剃去他們一半鬍鬚，從臀部割去他們下半身的衣服，然後放走他們。 <verse eid="2SA 10:4"/><verse number="5" style="v" sid="2SA 10:5"/>消息傳到<char style="pn">大衛</char>那裡，他就派人去迎接他們，因為他們倍受羞辱。王告訴他們留在<char style="pn">耶利哥</char>，等鬍鬚長好了再回來。<verse eid="2SA 10:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="2SA 10:6"/>
+    <char style="pn">亞捫</char>人知道得罪了<char style="pn">大衛</char>，便派人到<char style="pn">伯·利合</char>和<char style="pn">瑣巴</char>招募了兩萬名<char style="pn">亞蘭</char>步兵、<char style="pn">瑪迦</char>王的一千人和一萬二千名<char style="pn">陀伯</char>人。 <verse eid="2SA 10:6"/><verse number="7" style="v" sid="2SA 10:7"/><char style="pn">大衛</char>聽見消息後，就派<char style="pn">約押</char>率領全體勇士出戰。 <verse eid="2SA 10:7"/><verse number="8" style="v" sid="2SA 10:8"/><char style="pn">亞捫</char>人在城門前列陣，<char style="pn">瑣巴</char>和<char style="pn">利合</char>的<char style="pn">亞蘭</char>人、<char style="pn">陀伯</char>人以及<char style="pn">瑪迦</char>人在郊野列陣。 <verse eid="2SA 10:8"/><verse number="9" style="v" sid="2SA 10:9"/><char style="pn">約押</char>見自己腹背受敵，就從<char style="pn">以色列</char>軍中挑選一些精兵列陣迎戰<char style="pn">亞蘭</char>人， <verse eid="2SA 10:9"/><verse number="10" style="v" sid="2SA 10:10"/>把餘下的軍兵交給他的兄弟<char style="pn">亞比篩</char>帶領，列陣迎戰<char style="pn">亞捫</char>人。<verse eid="2SA 10:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2SA 10:11"/>他對<char style="pn">亞比篩</char>說：「倘若我勝不過<char style="pn">亞蘭</char>人，你便過來支援我；倘若你勝不過<char style="pn">亞捫</char>人，我便過去支援你。 <verse eid="2SA 10:11"/><verse number="12" style="v" sid="2SA 10:12"/>你要剛強，我們要為我們的人民和我們上帝的城邑奮勇作戰。願耶和華成全祂自己的旨意！」<verse eid="2SA 10:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="2SA 10:13"/>於是，<char style="pn">約押</char>率領軍兵進攻<char style="pn">亞蘭</char>人，<char style="pn">亞蘭</char>人敗逃。 <verse eid="2SA 10:13"/><verse number="14" style="v" sid="2SA 10:14"/><char style="pn">亞捫</char>人見<char style="pn">亞蘭</char>人敗逃，便也從<char style="pn">亞比篩</char>面前逃回城去。<char style="pn">約押</char>就離開<char style="pn">亞捫</char>人，回師<char style="pn">耶路撒冷</char>。<verse eid="2SA 10:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 10:15"/>
+    <char style="pn">亞蘭</char>人見自己敗給<char style="pn">以色列</char>人，便再次聚集起來。 <verse eid="2SA 10:15"/><verse number="16" style="v" sid="2SA 10:16"/><char style="pn">哈大底謝</char>派人把<char style="pn">幼發拉底</char>河那邊的<char style="pn">亞蘭</char>人調到<char style="pn">希蘭</char>來，由他的將軍<char style="pn">朔法</char>率領。 <verse eid="2SA 10:16"/><verse number="17" style="v" sid="2SA 10:17"/><char style="pn">大衛</char>聽到消息後，就召集<char style="pn">以色列</char>全軍，渡過<char style="pn">約旦</char>河，來到<char style="pn">希蘭</char>。<char style="pn">亞蘭</char>人列陣迎戰<char style="pn">大衛</char>， <verse eid="2SA 10:17"/><verse number="18" style="v" sid="2SA 10:18"/>結果又在<char style="pn">以色列</char>人面前敗逃。<char style="pn">大衛</char>殺了七百名戰車兵、四萬騎兵，還殺了他們的將軍<char style="pn">朔法</char>。 <verse eid="2SA 10:18"/><verse number="19" style="v" sid="2SA 10:19"/><char style="pn">哈大底謝</char>屬下的諸王見自己敗給<char style="pn">以色列</char>人，便向<char style="pn">以色列</char>人求和，臣服於他們。從此，<char style="pn">亞蘭</char>人不敢再支援<char style="pn">亞捫</char>人了。<verse eid="2SA 10:19"/></para>
+  <chapter eid="2SA 10"/>
+  <chapter number="11" style="c" sid="2SA 11"/>
+  <para style="s1">大衛犯罪</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 11:1"/>第二年春天，諸王又要發動戰爭。<char style="pn">大衛</char>差遣<char style="pn">約押</char>率領眾將領和<char style="pn">以色列</char>大軍出征，自己卻留在<char style="pn">耶路撒冷</char>。他們打敗了<char style="pn">亞捫</char>人之後又圍攻<char style="pn">拉巴</char>。 <verse eid="2SA 11:1"/><verse number="2" style="v" sid="2SA 11:2"/>一天黃昏，<char style="pn">大衛</char>從床上起來在王宮頂上散步，看見一個長得非常漂亮的女人在沐浴。 <verse eid="2SA 11:2"/><verse number="3" style="v" sid="2SA 11:3"/><char style="pn">大衛</char>就派人去打聽這個女人是誰，得知她是<char style="pn">以連</char>的女兒、<char style="pn">赫</char>人<char style="pn">烏利亞</char>的妻子<char style="pn">拔示巴</char>。 <verse eid="2SA 11:3"/><verse number="4" style="v" sid="2SA 11:4"/><char style="pn">大衛</char>派使者把她接來，她來了，<char style="pn">大衛</char>就與她同寢，那時她的月經剛潔淨。事後，她便回家去了。 <verse eid="2SA 11:4"/><verse number="5" style="v" sid="2SA 11:5"/><char style="pn">拔示巴</char>懷孕了，就派人去告訴<char style="pn">大衛</char>。<verse eid="2SA 11:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="2SA 11:6"/>
+    <char style="pn">大衛</char>便傳信給<char style="pn">約押</char>，說：「你派<char style="pn">赫</char>人<char style="pn">烏利亞</char>來見我。」<char style="pn">約押</char>就派<char style="pn">烏利亞</char>去見<char style="pn">大衛</char>。 <verse eid="2SA 11:6"/><verse number="7" style="v" sid="2SA 11:7"/><char style="pn">烏利亞</char>來了，<char style="pn">大衛</char>問他有關<char style="pn">約押</char>、士兵和戰爭的情況， <verse eid="2SA 11:7"/><verse number="8" style="v" sid="2SA 11:8"/>然後吩咐他回家休息。<char style="pn">烏利亞</char>離開王宮後，收到王送的一份禮物。 <verse eid="2SA 11:8"/><verse number="9" style="v" sid="2SA 11:9"/>但他跟王的其他僕人一同睡在王宮門口，沒有回家。 <verse eid="2SA 11:9"/><verse number="10" style="v" sid="2SA 11:10"/><char style="pn">大衛</char>得知<char style="pn">烏利亞</char>沒有回家，便對他說：「你遠道而來，為什麼不回家休息呢？」 <verse eid="2SA 11:10"/><verse number="11" style="v" sid="2SA 11:11"/><char style="pn">烏利亞</char>答道：「約櫃、<char style="pn">以色列</char>人和<char style="pn">猶大</char>人都在帳篷裡，而我主<char style="pn">約押</char>及其軍隊也在田間紮營，我怎麼可以回家吃喝，與妻子同房呢？我以王的性命起誓，我決不做這樣的事！」 <verse eid="2SA 11:11"/><verse number="12" style="v" sid="2SA 11:12"/><char style="pn">大衛</char>對<char style="pn">烏利亞</char>說：「你再住一天，明天我會派你回去。」於是<char style="pn">烏利亞</char>那日就留在<char style="pn">耶路撒冷</char>。 <verse eid="2SA 11:12"/><verse number="13" style="v" sid="2SA 11:13"/>第二天，<char style="pn">大衛</char>邀請他一同吃飯，把他灌醉了。可是到了晚上，<char style="pn">烏利亞</char>還是不肯回家，仍然跟王的其他士兵一同住宿。<verse eid="2SA 11:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="2SA 11:14"/>第二天早上，<char style="pn">大衛</char>給<char style="pn">約押</char>寫了一封信，要<char style="pn">烏利亞</char>帶去。 <verse eid="2SA 11:14"/><verse number="15" style="v" sid="2SA 11:15"/><char style="pn">大衛</char>在信上吩咐<char style="pn">約押</char>：「你把<char style="pn">烏利亞</char>派到前線最險惡的地方，到時其他人都要撤退，好讓敵人殺死他。」 <verse eid="2SA 11:15"/><verse number="16" style="v" sid="2SA 11:16"/>於是<char style="pn">約押</char>圍攻城池時，便派<char style="pn">烏利亞</char>到他知道的最強悍的敵人那裡。 <verse eid="2SA 11:16"/><verse number="17" style="v" sid="2SA 11:17"/>敵人出來迎戰<char style="pn">約押</char>，<char style="pn">大衛</char>的軍中有幾位陣亡，<char style="pn">赫</char>人<char style="pn">烏利亞</char>也死了。 <verse eid="2SA 11:17"/><verse number="18" style="v" sid="2SA 11:18"/><char style="pn">約押</char>就派人去向<char style="pn">大衛</char>稟告戰爭的詳情， <verse eid="2SA 11:18"/><verse number="19" style="v" sid="2SA 11:19"/>並叮囑信使：「你向王稟告戰情後， <verse eid="2SA 11:19"/><verse number="20" style="v" sid="2SA 11:20"/>他若發怒責問你，『為什麼還冒死逼近城池呢？你們難道不知道敵人會從城牆上射箭嗎？ <verse eid="2SA 11:20"/><verse number="21" style="v" sid="2SA 11:21"/>難道你們不知道<char style="pn">耶路·比設</char><note caller="+" style="f"><char style="fr" closed="false">11·21 </char><char style="ft" closed="false">「耶路·比設」又名「耶路·巴力」，參見<char style="xt"><ref loc="JDG 6:32">士師記6·32</ref></char>。</char></note>的兒子<char style="pn">亞比米勒</char>是誰殺的嗎？一個婦人從城牆上扔下一塊磨石，把他砸死在<char style="pn">提備斯</char>。你們為什麼還要逼近城牆呢？』你就對王說，『你的僕人<char style="pn">赫</char>人<char style="pn">烏利亞</char>也死了。』」<verse eid="2SA 11:21"/></para>
+  <para style="p">
+    <verse number="22" style="v" sid="2SA 11:22"/>於是，信使前來見<char style="pn">大衛</char>，照<char style="pn">約押</char>的吩咐向<char style="pn">大衛</char>稟告。 <verse eid="2SA 11:22"/><verse number="23" style="v" sid="2SA 11:23"/>他說：「敵軍勢力強大，在城外跟我們交戰，但我們把他們追到城門口。 <verse eid="2SA 11:23"/><verse number="24" style="v" sid="2SA 11:24"/>敵軍的弓箭手從城牆上射死了王的幾個士兵，<char style="pn">赫</char>人<char style="pn">烏利亞</char>也死了。」 <verse eid="2SA 11:24"/><verse number="25" style="v" sid="2SA 11:25"/><char style="pn">大衛</char>便對信使說：「你去告訴<char style="pn">約押</char>不要為這事難過，因為刀劍無情。讓他只管竭力攻陷城池。要這樣勉勵<char style="pn">約押</char>。」<verse eid="2SA 11:25"/></para>
+  <para style="p">
+    <verse number="26" style="v" sid="2SA 11:26"/>
+    <char style="pn">拔示巴</char>聽到丈夫<char style="pn">烏利亞</char>的死訊之後就為他哭喪。 <verse eid="2SA 11:26"/><verse number="27" style="v" sid="2SA 11:27"/>喪期過後，<char style="pn">大衛</char>便派人把她接進宮裡，她就做了<char style="pn">大衛</char>的妻子，並給他生了個兒子。然而，<char style="pn">大衛</char>的所作所為令耶和華十分不悅。<verse eid="2SA 11:27"/></para>
+  <chapter eid="2SA 11"/>
+  <chapter number="12" style="c" sid="2SA 12"/>
+  <para style="s1">拿單斥責大衛</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 12:1"/>耶和華派<char style="pn">拿單</char>先知去見<char style="pn">大衛</char>。<char style="pn">拿單</char>對<char style="pn">大衛</char>說：「一座城裡有兩個人，一個富有，一個貧窮。 <verse eid="2SA 12:1"/><verse number="2" style="v" sid="2SA 12:2"/>富人擁有許多牛羊， <verse eid="2SA 12:2"/><verse number="3" style="v" sid="2SA 12:3"/>窮人除了自己買來養活的一隻母羊羔外，什麼也沒有。他讓牠跟自己的兒女一起長大。他吃什麼，羊也吃什麼，他喝什麼，羊也喝什麼，甚至讓牠睡在自己懷裡，就像他女兒一樣。 <verse eid="2SA 12:3"/><verse number="4" style="v" sid="2SA 12:4"/>一天，富人家中來了客人，他捨不得拿自己的牛羊款待客人，卻宰了窮人的羊給客人吃。」 <verse eid="2SA 12:4"/><verse number="5" style="v" sid="2SA 12:5"/><char style="pn">大衛</char>聽後非常憤怒，對<char style="pn">拿單</char>說：「我憑永活的耶和華起誓，做這事的人實在該死！ <verse eid="2SA 12:5"/><verse number="6" style="v" sid="2SA 12:6"/>他這樣做真是沒有半點憐憫之心，他必須償還那窮人四倍！」<verse eid="2SA 12:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2SA 12:7"/>
+    <char style="pn">拿單</char>對<char style="pn">大衛</char>說：「那人就是你！<char style="pn">以色列</char>的上帝耶和華這樣說，『我膏立你做<char style="pn">以色列</char>的王，從<char style="pn">掃羅</char>手中救你， <verse eid="2SA 12:7"/><verse number="8" style="v" sid="2SA 12:8"/>將你主人的家業和妻妾交給你，把<char style="pn">以色列</char>和<char style="pn">猶大</char>的國權賜給你。倘若還不夠，我會再加倍地賜給你。 <verse eid="2SA 12:8"/><verse number="9" style="v" sid="2SA 12:9"/>你為什麼蔑視我的命令，做出我視為可憎的事呢？你藉<char style="pn">亞捫</char>人的刀殺了<char style="pn">赫</char>人<char style="pn">烏利亞</char>，把他的妻子據為己有。 <verse eid="2SA 12:9"/><verse number="10" style="v" sid="2SA 12:10"/>因為你藐視我，把<char style="pn">赫</char>人<char style="pn">烏利亞</char>的妻子據為己有，從今以後，殺戮流血的事必永不離開你的家。』 <verse eid="2SA 12:10"/><verse number="11" style="v" sid="2SA 12:11"/>耶和華說，『我要在你家中降下災禍，我要當著你的面把你的妻妾交給你的近臣，他必在光天化日之下與她們行淫。 <verse eid="2SA 12:11"/><verse number="12" style="v" sid="2SA 12:12"/>你在暗地裡做這惡事，我要讓這樣的惡事當著<char style="pn">以色列</char>人的面在光天化日之下臨到你。』」 <verse eid="2SA 12:12"/><verse number="13" style="v" sid="2SA 12:13"/><char style="pn">大衛</char>對<char style="pn">拿單</char>說：「我得罪了耶和華。」<char style="pn">拿單</char>說：「耶和華已經赦免了你的罪，使你不致死亡。 <verse eid="2SA 12:13"/><verse number="14" style="v" sid="2SA 12:14"/>但你做的醜事給了仇敵大肆褻瀆耶和華的機會，所以你這個孩子必定死。」 <verse eid="2SA 12:14"/><verse number="15" style="v" sid="2SA 12:15"/><char style="pn">拿單</char>說完，便回家去了。</para>
+  <para style="p" vid="2SA 12:15">耶和華擊打<char style="pn">烏利亞</char>的妻子給<char style="pn">大衛</char>生的孩子，使他患重病。 <verse eid="2SA 12:15"/><verse number="16" style="v" sid="2SA 12:16"/><char style="pn">大衛</char>為這孩子向上帝哀求，並且禁食，他進到裡面，整夜躺在地上。 <verse eid="2SA 12:16"/><verse number="17" style="v" sid="2SA 12:17"/>宮裡的老臣在旁邊伺候，想要扶他起來，他卻不肯，也不肯與他們一同吃飯。 <verse eid="2SA 12:17"/><verse number="18" style="v" sid="2SA 12:18"/>到了第七日，孩子死了。<char style="pn">大衛</char>的臣僕都不敢把這消息告訴他，因為他們心裡想：「孩子還活著的時候，我們勸他，他尚且不聽，若告訴他孩子死了，他會怎樣折磨自己呢？」 <verse eid="2SA 12:18"/><verse number="19" style="v" sid="2SA 12:19"/><char style="pn">大衛</char>看見他們交頭接耳，知道孩子死了，便問他們：「孩子死了？」他們答道：「是的，他死了。」 <verse eid="2SA 12:19"/><verse number="20" style="v" sid="2SA 12:20"/><char style="pn">大衛</char>聽後，便從地上起來，沐浴更衣，抹上香膏，然後到耶和華的殿去敬拜。他回宮以後，吩咐人擺上食物，自己開始用膳。 <verse eid="2SA 12:20"/><verse number="21" style="v" sid="2SA 12:21"/>他的臣僕詫異地問他：「你這是什麼意思？孩子還活著的時候，你禁食、哀哭。孩子死了，你反倒起來進食。」 <verse eid="2SA 12:21"/><verse number="22" style="v" sid="2SA 12:22"/><char style="pn">大衛</char>說：「不錯，孩子活著的時候我禁食、哀哭，因為我想也許耶和華會向我開恩，讓他活命。 <verse eid="2SA 12:22"/><verse number="23" style="v" sid="2SA 12:23"/>但現在他既然死了，我禁食又有什麼用呢？能讓他起死回生嗎？我必去他那裡，他卻不能返回我這裡了。」<verse eid="2SA 12:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="2SA 12:24"/>
+    <char style="pn">大衛</char>安慰妻子<char style="pn">拔示巴</char>，與她同房，她便生了一個兒子。<char style="pn">大衛</char>給孩子取名叫<char style="pn">所羅門</char>。耶和華喜愛這孩子， <verse eid="2SA 12:24"/><verse number="25" style="v" sid="2SA 12:25"/>祂差遣<char style="pn">拿單</char>先知去賜給他一個名字，叫<char style="pn">耶底底亞</char>，意思是耶和華喜愛他。<verse eid="2SA 12:25"/></para>
+  <para style="s1">大衛打敗亞捫人</para>
+  <para style="p">
+    <verse number="26" style="v" sid="2SA 12:26"/>那時，<char style="pn">約押</char>正攻打<char style="pn">亞捫</char>人的<char style="pn">拉巴</char>，佔領了王城。 <verse eid="2SA 12:26"/><verse number="27" style="v" sid="2SA 12:27"/>他派使者去向<char style="pn">大衛</char>稟告說：「我攻打<char style="pn">拉巴</char>，已經佔領了城的水源。 <verse eid="2SA 12:27"/><verse number="28" style="v" sid="2SA 12:28"/>請你趕快帶領其餘的兵馬前來圍攻並佔領這城，免得我攻取這城以後，人們用我的名字為這城命名。」 <verse eid="2SA 12:28"/><verse number="29" style="v" sid="2SA 12:29"/>於是，<char style="pn">大衛</char>便召集了所有的人去攻打<char style="pn">拉巴</char>，攻陷了那城， <verse eid="2SA 12:29"/><verse number="30" style="v" sid="2SA 12:30"/>奪取了<char style="pn">亞捫</char>王頭上的金冠。這金冠重達三十四公斤，上面還鑲著寶石，人們將它戴在<char style="pn">大衛</char>頭上。<char style="pn">大衛</char>從城裡獲得許多戰利品， <verse eid="2SA 12:30"/><verse number="31" style="v" sid="2SA 12:31"/>又把城裡的人帶出來，讓他們從事鋸木、耕田、砍樹的工作，還讓他們製作磚。他用同樣的方式對待<char style="pn">亞捫</char>其他城邑的居民。之後，<char style="pn">大衛</char>和全軍返回<char style="pn">耶路撒冷</char>。<verse eid="2SA 12:31"/></para>
+  <chapter eid="2SA 12"/>
+  <chapter number="13" style="c" sid="2SA 13"/>
+  <para style="s1">暗嫩玷污她瑪</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 13:1"/>後來，<char style="pn">大衛</char>的兒子<char style="pn">暗嫩</char>愛上了美麗的<char style="pn">她瑪</char>，<char style="pn">她瑪</char>是<char style="pn">大衛</char>的兒子<char style="pn">押沙龍</char>的妹妹。 <verse eid="2SA 13:1"/><verse number="2" style="v" sid="2SA 13:2"/>她仍是處女，住在深宮裡，<char style="pn">暗嫩</char>無法接近她，相思成病。 <verse eid="2SA 13:2"/><verse number="3" style="v" sid="2SA 13:3"/><char style="pn">暗嫩</char>有一個朋友名叫<char style="pn">約拿達</char>，是<char style="pn">大衛</char>長兄<char style="pn">示米亞</char>的兒子，生性狡猾。 <verse eid="2SA 13:3"/><verse number="4" style="v" sid="2SA 13:4"/>他問<char style="pn">暗嫩</char>：「王子，你為什麼一天比一天消沉？能告訴我嗎？」<char style="pn">暗嫩</char>答道：「我愛上了我兄弟<char style="pn">押沙龍</char>的妹妹<char style="pn">她瑪</char>。」 <verse eid="2SA 13:4"/><verse number="5" style="v" sid="2SA 13:5"/><char style="pn">約拿達</char>說：「你回去躺在床上裝病，你父親來探望你的時候，你就請求他叫你妹妹<char style="pn">她瑪</char>來，在你面前預備食物，請她親手遞給你吃。」 <verse eid="2SA 13:5"/><verse number="6" style="v" sid="2SA 13:6"/><char style="pn">暗嫩</char>就躺在床上裝病。王來看他的時候，他便對王說：「請你叫我妹妹<char style="pn">她瑪</char>來這裡，在我面前做兩個餅，請她親自遞給我吃。」<verse eid="2SA 13:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2SA 13:7"/>
+    <char style="pn">大衛</char>便派人進宮對<char style="pn">她瑪</char>說：「你去你哥哥<char style="pn">暗嫩</char>房裡為他預備食物吧。」 <verse eid="2SA 13:7"/><verse number="8" style="v" sid="2SA 13:8"/><char style="pn">她瑪</char>到了哥哥<char style="pn">暗嫩</char>的家，<char style="pn">暗嫩</char>正躺在床上裝病。她拿了麵團在他面前揉麵做餅，把餅烤熟了。 <verse eid="2SA 13:8"/><verse number="9" style="v" sid="2SA 13:9"/>她拿著鍋在他面前把餅倒出來，但<char style="pn">暗嫩</char>卻不肯吃。<char style="pn">暗嫩</char>命令僕人：「你們全都出去吧！」僕人就都退下了。 <verse eid="2SA 13:9"/><verse number="10" style="v" sid="2SA 13:10"/><char style="pn">暗嫩</char>對<char style="pn">她瑪</char>說：「你把食物拿到我的臥房來，親手遞給我吃。」<char style="pn">她瑪</char>便拿著餅進了她哥哥<char style="pn">暗嫩</char>的臥房裡， <verse eid="2SA 13:10"/><verse number="11" style="v" sid="2SA 13:11"/>上前給他吃，<char style="pn">暗嫩</char>卻抓住她，說：「妹妹，與我同寢吧！」 <verse eid="2SA 13:11"/><verse number="12" style="v" sid="2SA 13:12"/><char style="pn">她瑪</char>說：「哥哥，不要，不要玷污我！在<char style="pn">以色列</char>不應當發生這種事，不要做這種惡事。 <verse eid="2SA 13:12"/><verse number="13" style="v" sid="2SA 13:13"/>你這樣叫我怎麼見人呢？你在<char style="pn">以色列</char>也必遭人唾棄。你可以請求王，他會同意把我許配給你。」 <verse eid="2SA 13:13"/><verse number="14" style="v" sid="2SA 13:14"/><char style="pn">暗嫩</char>卻充耳不聞，因為他力氣比<char style="pn">她瑪</char>大，就把她強姦了。<verse eid="2SA 13:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 13:15"/>事後<char style="pn">暗嫩</char>非常憎恨<char style="pn">她瑪</char>，對她的恨比以前對她的愛還強烈。他對<char style="pn">她瑪</char>說：「你起來走吧！」 <verse eid="2SA 13:15"/><verse number="16" style="v" sid="2SA 13:16"/><char style="pn">她瑪</char>哀求道：「不要這樣對我！你趕我走是更大的惡行。」<char style="pn">暗嫩</char>卻不聽， <verse eid="2SA 13:16"/><verse number="17" style="v" sid="2SA 13:17"/>他吩咐隨從：「把這女人趕出去，隨後鎖上門。」 <verse eid="2SA 13:17"/><verse number="18" style="v" sid="2SA 13:18"/>他的隨從就把<char style="pn">她瑪</char>趕出去，隨後鎖上了門。那時，<char style="pn">她瑪</char>穿著彩色的長衣，沒有出嫁的公主都穿這種衣服。 <verse eid="2SA 13:18"/><verse number="19" style="v" sid="2SA 13:19"/><char style="pn">她瑪</char>把灰塵撒在頭上，撕破身上的彩衣，雙手抱著頭，一面走一面哭。 <verse eid="2SA 13:19"/><verse number="20" style="v" sid="2SA 13:20"/>她的哥哥<char style="pn">押沙龍</char>問她：「是不是你哥哥<char style="pn">暗嫩</char>污辱了你？妹妹，不要聲張，他是你哥哥，不要把這件事放在心上。」於是<char style="pn">她瑪</char>就憂憂鬱鬱地住在<char style="pn">押沙龍</char>家裡。<verse eid="2SA 13:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="2SA 13:21"/>
+    <char style="pn">大衛</char>王聽見了這件事以後，非常生氣。 <verse eid="2SA 13:21"/><verse number="22" style="v" sid="2SA 13:22"/><char style="pn">押沙龍</char>好話壞話都沒有對<char style="pn">暗嫩</char>說一句話，只是心裡暗暗地恨他，因為他玷污了妹妹<char style="pn">她瑪</char>。<verse eid="2SA 13:22"/></para>
+  <para style="s1">押沙龍為妹妹報仇</para>
+  <para style="p">
+    <verse number="23" style="v" sid="2SA 13:23"/>兩年後，<char style="pn">押沙龍</char>的工人在<char style="pn">以法蓮</char>附近的<char style="pn">巴力·夏瑣</char>剪羊毛，<char style="pn">押沙龍</char>邀請王的眾子去那裡。 <verse eid="2SA 13:23"/><verse number="24" style="v" sid="2SA 13:24"/>他去見王，說：「工人正在為僕人剪羊毛，請王和眾臣僕跟僕人一起去吧。」 <verse eid="2SA 13:24"/><verse number="25" style="v" sid="2SA 13:25"/>王說：「我兒，我們不必都去打擾你。」<char style="pn">押沙龍</char>再三邀請，王還是推辭了，但他為<char style="pn">押沙龍</char>祝福。 <verse eid="2SA 13:25"/><verse number="26" style="v" sid="2SA 13:26"/><char style="pn">押沙龍</char>說：「王若不去，請讓我兄弟<char style="pn">暗嫩</char>跟我們去吧。」<char style="pn">大衛</char>說：「何必要他同去呢？」 <verse eid="2SA 13:26"/><verse number="27" style="v" sid="2SA 13:27"/>但<char style="pn">押沙龍</char>再三懇求，王就讓<char style="pn">暗嫩</char>和其他王子一同去了。 <verse eid="2SA 13:27"/><verse number="28" style="v" sid="2SA 13:28"/><char style="pn">押沙龍</char>吩咐僕人說：「你們要留意，當<char style="pn">暗嫩</char>喝得正高興的時候，我叫你們動手，你們就要殺他。不要害怕，要剛強勇敢！因為這是我的命令。」 <verse eid="2SA 13:28"/><verse number="29" style="v" sid="2SA 13:29"/><char style="pn">押沙龍</char>的僕人就照命令把<char style="pn">暗嫩</char>殺了。王的眾子都起來騎上騾子逃走了。<verse eid="2SA 13:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="2SA 13:30"/>他們還在路上的時候，有人稟告<char style="pn">大衛</char>說：「<char style="pn">押沙龍</char>把王子都殺了，無一倖免！」 <verse eid="2SA 13:30"/><verse number="31" style="v" sid="2SA 13:31"/>王便站起來撕裂衣服，躺在地上。眾臣僕也都撕裂衣服，站在旁邊。 <verse eid="2SA 13:31"/><verse number="32" style="v" sid="2SA 13:32"/><char style="pn">大衛</char>的長兄<char style="pn">示米亞</char>的兒子<char style="pn">約拿達</char>說：「我主不要以為所有的王子都被殺了，其實只有<char style="pn">暗嫩</char>一人死了。自從<char style="pn">暗嫩</char>姦污<char style="pn">押沙龍</char>的妹妹<char style="pn">她瑪</char>以來，<char style="pn">押沙龍</char>便決定要報仇了。 <verse eid="2SA 13:32"/><verse number="33" style="v" sid="2SA 13:33"/>所以，我主我王啊，不要相信這消息，不是所有的王子都死了，只有<char style="pn">暗嫩</char>一人死了。」<verse eid="2SA 13:33"/></para>
+  <para style="p">
+    <verse number="34" style="v" sid="2SA 13:34"/>此時，<char style="pn">押沙龍</char>已經逃走了。守望的人舉目瞭望，見有一大群人從西面山坡的路上下來。 <verse eid="2SA 13:34"/><verse number="35" style="v" sid="2SA 13:35"/><char style="pn">約拿達</char>對王說：「請看，王子們都回來了！正如僕人所言。」 <verse eid="2SA 13:35"/><verse number="36" style="v" sid="2SA 13:36"/>話剛說完，眾王子已經來到他們跟前放聲大哭，王和眾臣僕也哀痛不已。<verse eid="2SA 13:36"/></para>
+  <para style="p">
+    <verse number="37-38" style="v" sid="2SA 13:37-38"/>
+    <char style="pn">押沙龍</char>逃到了<char style="pn">亞米忽</char>的兒子<char style="pn">基述</char>王<char style="pn">達買</char>那裡，在那裡住了三年。<char style="pn">大衛</char>王天天為他兒子<char style="pn">暗嫩</char>悲傷， <verse eid="2SA 13:37-38"/><verse number="39" style="v" sid="2SA 13:39"/>後來心情恢復平靜，開始想念<char style="pn">押沙龍</char>。<verse eid="2SA 13:39"/></para>
+  <chapter eid="2SA 13"/>
+  <chapter number="14" style="c" sid="2SA 14"/>
+  <para style="s1">押沙龍回耶路撒冷</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 14:1"/>
+    <char style="pn">洗魯雅</char>的兒子<char style="pn">約押</char>知道王想念<char style="pn">押沙龍</char>， <verse eid="2SA 14:1"/><verse number="2" style="v" sid="2SA 14:2"/>就派人到<char style="pn">提哥亞</char>去召來一個聰明的婦人，對她說：「你假扮哀悼的人，穿上喪服，不要用油抹身，要裝成為死者哀悼很久的婦人， <verse eid="2SA 14:2"/><verse number="3" style="v" sid="2SA 14:3"/>然後到王那裡，對他這樣這樣說。」<char style="pn">約押</char>把應該說的話都告訴婦人。<verse eid="2SA 14:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="2SA 14:4"/>
+    <char style="pn">提哥亞</char>婦人來到王面前，俯伏在地上說：「王啊，求你救救我吧！」 <verse eid="2SA 14:4"/><verse number="5" style="v" sid="2SA 14:5"/>王問她：「你有什麼事？」婦人說：「婢女是個寡婦，丈夫死了。 <verse eid="2SA 14:5"/><verse number="6" style="v" sid="2SA 14:6"/>我本來有兩個兒子，有一次他們在田間發生爭執，當時沒有人勸解，其中一個兒子被打死了。 <verse eid="2SA 14:6"/><verse number="7" style="v" sid="2SA 14:7"/>現在整個家族都起來反對婢女，說，『把那打死親兄弟的兇手交出來，我們要他以命償命，除掉這個繼承人。』他們要讓我家斷子絕孫，使婢女的丈夫既不能留名，也不能留後。」 <verse eid="2SA 14:7"/><verse number="8" style="v" sid="2SA 14:8"/>王說：「你回家去吧！我會為你作主。」 <verse eid="2SA 14:8"/><verse number="9" style="v" sid="2SA 14:9"/><char style="pn">提哥亞</char>婦人說：「我主我王，願罪過<note caller="+" style="f"><char style="fr" closed="false">14·9 </char><char style="ft" closed="false">「罪過」可能指違背摩西律法殺人償命的規定。</char></note>都落在婢女和婢女家族，跟王和王位無關。」 <verse eid="2SA 14:9"/><verse number="10" style="v" sid="2SA 14:10"/>王說：「若有人為難你，你就把他帶來，他必不敢再找你的麻煩。」 <verse eid="2SA 14:10"/><verse number="11" style="v" sid="2SA 14:11"/>婦人說：「求王憑你的上帝耶和華起誓，不許報血仇者殺人，留我兒一命。」王說：「我憑永活的耶和華起誓，你的兒子必毫髮無損。」<verse eid="2SA 14:11"/></para>
+  <para style="p">
+    <verse number="12" style="v" sid="2SA 14:12"/>婦人說：「求我主我王再容婢女說一句。」王說：「說吧！」 <verse eid="2SA 14:12"/><verse number="13" style="v" sid="2SA 14:13"/>婦人說：「王怎麼想出這樣的事來針對上帝的子民呢？王剛才所說的話正表明王的不是了，因為王不讓被流放的兒子回來。 <verse eid="2SA 14:13"/><verse number="14" style="v" sid="2SA 14:14"/>人都難免一死，就像覆水難收。然而，上帝不是要奪取人的性命，而是要設法使流亡的人重新回來。 <verse eid="2SA 14:14"/><verse number="15" style="v" sid="2SA 14:15"/>我向我主我王說出這番話，是因為人們恐嚇我。我想，不如向王請命，也許王會成全婢女的心願。 <verse eid="2SA 14:15"/><verse number="16" style="v" sid="2SA 14:16"/>有人要害我和我兒子的性命，叫我們不得承受上帝所賜的產業，也許王能從這人手中救我們。 <verse eid="2SA 14:16"/><verse number="17" style="v" sid="2SA 14:17"/>婢女想，我主我王的話必能安慰我，因為我主我王就像上帝的天使一樣能明辨是非。願王的上帝耶和華常與王同在！」<verse eid="2SA 14:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="2SA 14:18"/>王對婦人說：「我有一件事要問你，你要實實在在地回答我。」婦人說：「我主我王請說。」 <verse eid="2SA 14:18"/><verse number="19" style="v" sid="2SA 14:19"/>王說：「這是不是<char style="pn">約押</char>的主意？」婦人說：「我憑我主我王的性命起誓，王所說的一點不錯，這些話是你臣僕<char style="pn">約押</char>吩咐婢女說的。 <verse eid="2SA 14:19"/><verse number="20" style="v" sid="2SA 14:20"/>他這樣做是希望扭轉局面。我主如上帝的天使一樣有智慧，洞悉天下之事。」<verse eid="2SA 14:20"/></para>
+  <para style="p">
+    <verse number="21" style="v" sid="2SA 14:21"/>於是，王對<char style="pn">約押</char>說：「我答應你的請求，你去把年輕的<char style="pn">押沙龍</char>帶回來吧。」 <verse eid="2SA 14:21"/><verse number="22" style="v" sid="2SA 14:22"/><char style="pn">約押</char>俯伏在地，叩謝王恩，說：「今天僕人在我主我王面前蒙了恩，因為王應允了僕人的請求。」 <verse eid="2SA 14:22"/><verse number="23" style="v" sid="2SA 14:23"/><char style="pn">約押</char>便到<char style="pn">基述</char>把<char style="pn">押沙龍</char>接回<char style="pn">耶路撒冷</char>。 <verse eid="2SA 14:23"/><verse number="24" style="v" sid="2SA 14:24"/>王說：「讓<char style="pn">押沙龍</char>回自己的家，不要讓他來見我！」<char style="pn">押沙龍</char>便返回自己家中，沒有朝見王。<verse eid="2SA 14:24"/></para>
+  <para style="p">
+    <verse number="25" style="v" sid="2SA 14:25"/>在整個<char style="pn">以色列</char>，沒有人像<char style="pn">押沙龍</char>那樣因相貌英俊而為人稱道，他從頭到腳毫無瑕疵。 <verse eid="2SA 14:25"/><verse number="26" style="v" sid="2SA 14:26"/>他的頭髮濃密，每年年終會很沉重，需要剪髮，剪下的頭髮按王的重量標準約重兩公斤。 <verse eid="2SA 14:26"/><verse number="27" style="v" sid="2SA 14:27"/><char style="pn">押沙龍</char>有三兒一女，女兒名叫<char style="pn">她瑪</char>，長得非常美麗。<verse eid="2SA 14:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="2SA 14:28"/>
+    <char style="pn">押沙龍</char>在<char style="pn">耶路撒冷</char>住了兩年，沒有跟王見過面。 <verse eid="2SA 14:28"/><verse number="29" style="v" sid="2SA 14:29"/>他派人去請<char style="pn">約押</char>來，託他去求見王，但<char style="pn">約押</char>不肯來。第二次再請，他還是不肯來。 <verse eid="2SA 14:29"/><verse number="30" style="v" sid="2SA 14:30"/><char style="pn">押沙龍</char>就吩咐僕人：「你們看，<char style="pn">約押</char>的田就在我的田旁邊，他種了大麥，你們去放火把它燒了。」<char style="pn">押沙龍</char>的僕人便把麥田燒了。 <verse eid="2SA 14:30"/><verse number="31" style="v" sid="2SA 14:31"/><char style="pn">約押</char>便來到<char style="pn">押沙龍</char>家裡，問他：「你為什麼叫僕人放火燒我的田？」 <verse eid="2SA 14:31"/><verse number="32" style="v" sid="2SA 14:32"/><char style="pn">押沙龍</char>答道：「我派人請你來，希望你替我去問王，『我為什麼要從<char style="pn">基述</char>回來呢？倒不如仍然留在那裡。』現在我要見王，如果我有什麼罪過，就讓他殺了我吧！」 <verse eid="2SA 14:32"/><verse number="33" style="v" sid="2SA 14:33"/><char style="pn">約押</char>就去見王，把<char style="pn">押沙龍</char>的話告訴他，王便召見<char style="pn">押沙龍</char>。<char style="pn">押沙龍</char>來到王面前俯首叩拜，王就親吻他。<verse eid="2SA 14:33"/></para>
+  <chapter eid="2SA 14"/>
+  <chapter number="15" style="c" sid="2SA 15"/>
+  <para style="s1">押沙龍謀反</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 15:1"/>後來，<char style="pn">押沙龍</char>為自己備了車馬，又派五十個人在他前面開道。 <verse eid="2SA 15:1"/><verse number="2" style="v" sid="2SA 15:2"/>他常常清早起來，站在城門的通道旁邊。每當有人來找王審理爭訟時，<char style="pn">押沙龍</char>便問他是從哪一座城來的，那人就會報上自己所屬的支派。 <verse eid="2SA 15:2"/><verse number="3" style="v" sid="2SA 15:3"/><char style="pn">押沙龍</char>會對他說：「你的申訴合情合理，可惜王沒有派人來聽你申訴。」 <verse eid="2SA 15:3"/><verse number="4" style="v" sid="2SA 15:4"/>他接著會說：「要是我被立為國中的審判官就好了！那樣，任何人有爭訟都可以來找我，我一定會為他主持公道。」 <verse eid="2SA 15:4"/><verse number="5" style="v" sid="2SA 15:5"/>每當有人要向他叩拜，他都伸手扶他，親吻他。 <verse eid="2SA 15:5"/><verse number="6" style="v" sid="2SA 15:6"/><char style="pn">押沙龍</char>這樣對待每一個來向王申訴的<char style="pn">以色列</char>人，贏得了民心。<verse eid="2SA 15:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2SA 15:7"/>過了四年，<char style="pn">押沙龍</char>對王說：「請讓我到<char style="pn">希伯崙</char>去還我向耶和華許下的願吧。 <verse eid="2SA 15:7"/><verse number="8" style="v" sid="2SA 15:8"/>僕人住在<char style="pn">亞蘭</char>的<char style="pn">基述</char>時曾許願，如果耶和華帶領我回到<char style="pn">耶路撒冷</char>，我必在<char style="pn">希伯崙</char>敬拜祂。」 <verse eid="2SA 15:8"/><verse number="9" style="v" sid="2SA 15:9"/>王說：「你平安地去吧！」<char style="pn">押沙龍</char>就去了<char style="pn">希伯崙</char>。 <verse eid="2SA 15:9"/><verse number="10" style="v" sid="2SA 15:10"/>他派密使通知<char style="pn">以色列</char>各支派一聽見號角的響聲，便喊：「<char style="pn">押沙龍</char>在<char style="pn">希伯崙</char>做王了！」 <verse eid="2SA 15:10"/><verse number="11" style="v" sid="2SA 15:11"/>有二百人應邀隨同<char style="pn">押沙龍</char>一起從<char style="pn">耶路撒冷</char>去<char style="pn">希伯崙</char>，他們對內情一無所知。 <verse eid="2SA 15:11"/><verse number="12" style="v" sid="2SA 15:12"/><char style="pn">押沙龍</char>獻祭的時候，還派人去把<char style="pn">大衛</char>的謀士<char style="pn">亞希多弗</char>從他的故鄉<char style="pn">基羅</char>請來。反叛的勢力大增，擁護<char style="pn">押沙龍</char>的民眾越來越多。<verse eid="2SA 15:12"/></para>
+  <para style="s1">大衛逃離耶路撒冷</para>
+  <para style="p">
+    <verse number="13" style="v" sid="2SA 15:13"/>有人來稟告<char style="pn">大衛</char>：「<char style="pn">以色列</char>的民心都歸向<char style="pn">押沙龍</char>了。」 <verse eid="2SA 15:13"/><verse number="14" style="v" sid="2SA 15:14"/><char style="pn">大衛</char>便對在<char style="pn">耶路撒冷</char>跟隨他的臣僕說：「我們趕快逃命吧！否則，我們都難逃<char style="pn">押沙龍</char>的追捕。我們要馬上離開！免得他趕到殘害我們，屠殺全城。」 <verse eid="2SA 15:14"/><verse number="15" style="v" sid="2SA 15:15"/>臣僕對王說：「臣等謹遵我主我王的決定。」 <verse eid="2SA 15:15"/><verse number="16" style="v" sid="2SA 15:16"/>於是王就帶著全家逃命，只留下十個妃嬪看守宮殿。<verse eid="2SA 15:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="2SA 15:17"/>
+    <char style="pn">大衛</char>王帶著眾民離開<char style="pn">耶路撒冷</char>，走到最後的那座房子時，停了下來。 <verse eid="2SA 15:17"/><verse number="18" style="v" sid="2SA 15:18"/>他的臣僕都從他身邊過去了，包括<char style="pn">基利提</char>人、<char style="pn">比利提</char>人以及從<char style="pn">迦特</char>來的六百個隨從。 <verse eid="2SA 15:18"/><verse number="19" style="v" sid="2SA 15:19"/>王問<char style="pn">迦特</char>人<char style="pn">以太</char>說：「你為什麼要跟我們一起逃難呢？回去留在新王那裡吧！你是流亡到這裡的外族人。 <verse eid="2SA 15:19"/><verse number="20" style="v" sid="2SA 15:20"/>你剛來不久，我怎麼可以叫你跟我們一同四處飄流呢？我甚至不知道往何處去。你還是和你的弟兄回去吧，願耶和華以慈愛和信實待你！」 <verse eid="2SA 15:20"/><verse number="21" style="v" sid="2SA 15:21"/><char style="pn">以太</char>卻答道：「我憑永活的耶和華和我主我王的性命起誓，不管我王去哪裡，僕人都要誓死追隨到底！」 <verse eid="2SA 15:21"/><verse number="22" style="v" sid="2SA 15:22"/><char style="pn">大衛</char>便對<char style="pn">以太</char>說：「那就繼續前行吧！」於是，<char style="pn">迦特</char>人<char style="pn">以太</char>帶著他的人及所有的家眷繼續前行。 <verse eid="2SA 15:22"/><verse number="23" style="v" sid="2SA 15:23"/>眾人離開時，當地的百姓都放聲大哭。王帶著所有的人過了<char style="pn">汲淪</char>溪，向曠野走去。<verse eid="2SA 15:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="2SA 15:24"/>祭司<char style="pn">撒督</char>、<char style="pn">亞比亞他</char>和抬上帝約櫃的<char style="pn">利未</char>人都來了，他們把約櫃放下，讓城裡出來的人先走過去。 <verse eid="2SA 15:24"/><verse number="25" style="v" sid="2SA 15:25"/>王對<char style="pn">撒督</char>說：「你把上帝的約櫃抬回城去吧。耶和華若恩待我，必使我重返家園，重見約櫃和會幕； <verse eid="2SA 15:25"/><verse number="26" style="v" sid="2SA 15:26"/>但我若使祂不悅，也甘願聽憑祂的處置。 <verse eid="2SA 15:26"/><verse number="27" style="v" sid="2SA 15:27"/>你是個有先見之明的人，安心帶著你的兒子<char style="pn">亞希瑪斯</char>和<char style="pn">亞比亞他</char>的兒子<char style="pn">約拿單</char>回城吧。 <verse eid="2SA 15:27"/><verse number="28" style="v" sid="2SA 15:28"/>我會在曠野渡口那裡等你們的消息。」 <verse eid="2SA 15:28"/><verse number="29" style="v" sid="2SA 15:29"/>於是，<char style="pn">撒督</char>和<char style="pn">亞比亞他</char>便把上帝的約櫃抬回<char style="pn">耶路撒冷</char>，留了下來。<verse eid="2SA 15:29"/></para>
+  <para style="p">
+    <verse number="30" style="v" sid="2SA 15:30"/>
+    <char style="pn">大衛</char>蒙著頭，赤著腳登上橄欖山，邊走邊哭，他的隨從也蒙著頭，哭著走上山。 <verse eid="2SA 15:30"/><verse number="31" style="v" sid="2SA 15:31"/>有人告訴<char style="pn">大衛</char>，<char style="pn">亞希多弗</char>也叛變，投奔了<char style="pn">押沙龍</char>，<char style="pn">大衛</char>就禱告說：「耶和華啊，求你使<char style="pn">亞希多弗</char>的謀算都變得愚不可及。」 <verse eid="2SA 15:31"/><verse number="32" style="v" sid="2SA 15:32"/><char style="pn">大衛</char>來到山頂敬拜上帝的地方，看見<char style="pn">亞基</char>人<char style="pn">戶篩</char>撕破了衣服，頭蒙灰塵前來迎接他。 <verse eid="2SA 15:32"/><verse number="33" style="v" sid="2SA 15:33"/><char style="pn">大衛</char>對他說：「你跟我一同逃命，只會給我帶來不便。 <verse eid="2SA 15:33"/><verse number="34" style="v" sid="2SA 15:34"/>你若回到城中，告訴<char style="pn">押沙龍</char>你願意做他的臣僕，就像以前做我的臣僕一樣，就可以幫我破壞<char style="pn">亞希多弗</char>的計謀。 <verse eid="2SA 15:34"/><verse number="35" style="v" sid="2SA 15:35"/>祭司<char style="pn">撒督</char>和<char style="pn">亞比亞他</char>都在那裡，你在宮內聽到什麼消息就告訴他們。 <verse eid="2SA 15:35"/><verse number="36" style="v" sid="2SA 15:36"/><char style="pn">撒督</char>的兒子<char style="pn">亞希瑪斯</char>和<char style="pn">亞比亞他</char>的兒子<char style="pn">約拿單</char>也在那裡，你聽到什麼消息，可以派他們傳信給我。」 <verse eid="2SA 15:36"/><verse number="37" style="v" sid="2SA 15:37"/>於是，<char style="pn">大衛</char>的朋友<char style="pn">戶篩</char>便回到城裡。那時，<char style="pn">押沙龍</char>也進了<char style="pn">耶路撒冷</char>。<verse eid="2SA 15:37"/></para>
+  <chapter eid="2SA 15"/>
+  <chapter number="16" style="c" sid="2SA 16"/>
+  <para style="s1">大衛和洗巴</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 16:1"/>
+    <char style="pn">大衛</char>剛越過了山頂，就看見<char style="pn">米非波設</char>的僕人<char style="pn">洗巴</char>牽著兩頭驢，驢背上馱著二百個麵餅、一百個葡萄餅、一百個夏天的果餅和一皮袋酒來迎接他。 <verse eid="2SA 16:1"/><verse number="2" style="v" sid="2SA 16:2"/>王問<char style="pn">洗巴</char>說：「你帶這些來做什麼？」<char style="pn">洗巴</char>說：「驢是給王的家眷騎的，餅和夏天的水果是給你的隨從吃的，酒是供他們在曠野疲憊時喝的。」 <verse eid="2SA 16:2"/><verse number="3" style="v" sid="2SA 16:3"/>王又問他：「你主人的孫子<char style="pn">米非波設</char>在哪裡？」<char style="pn">洗巴</char>說：「他在<char style="pn">耶路撒冷</char>，因為他相信現在<char style="pn">以色列</char>人會把他祖父的國歸還給他。」 <verse eid="2SA 16:3"/><verse number="4" style="v" sid="2SA 16:4"/>王就對<char style="pn">洗巴</char>說：「<char style="pn">米非波設</char>的一切現在都歸你了。」<char style="pn">洗巴</char>說：「我叩拜我主我王，願我在你面前蒙恩。」<verse eid="2SA 16:4"/></para>
+  <para style="s1">示每咒詛大衛</para>
+  <para style="p">
+    <verse number="5" style="v" sid="2SA 16:5"/>
+    <char style="pn">大衛</char>王來到<char style="pn">巴戶琳</char>時，<char style="pn">掃羅</char>家族<char style="pn">基拉</char>的兒子<char style="pn">示每</char>出來向著<char style="pn">大衛</char>邊走邊罵， <verse eid="2SA 16:5"/><verse number="6" style="v" sid="2SA 16:6"/>還朝<char style="pn">大衛</char>和他的臣僕扔石頭，無視<char style="pn">大衛</char>身邊的眾多隨從和勇士。 <verse eid="2SA 16:6"/><verse number="7" style="v" sid="2SA 16:7"/><char style="pn">示每</char>罵<char style="pn">大衛</char>：「滾吧！滾吧！你這個殺人兇手，你這個敗類！ <verse eid="2SA 16:7"/><verse number="8" style="v" sid="2SA 16:8"/>你殺<char style="pn">掃羅</char>的家人，奪他的王位，耶和華報應了你，把江山交給了你兒子<char style="pn">押沙龍</char>。你這殺人兇手是自食惡果！」<verse eid="2SA 16:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="2SA 16:9"/>
+    <char style="pn">洗魯雅</char>的兒子<char style="pn">亞比篩</char>對王說：「這死狗竟敢咒罵我主我王，讓我過去砍掉他的頭！」 <verse eid="2SA 16:9"/><verse number="10" style="v" sid="2SA 16:10"/>王卻說：「<char style="pn">洗魯雅</char>的兒子啊，不要管我的事。如果是耶和華叫他來咒罵我，誰能干涉他呢？」 <verse eid="2SA 16:10"/><verse number="11" style="v" sid="2SA 16:11"/><char style="pn">大衛</char>對<char style="pn">亞比篩</char>和他所有臣僕說：「我的親生兒子尚且要取我的命，何況這個<char style="pn">便雅憫</char>人呢？由他去吧！讓他咒罵吧！因為這是耶和華的意思。 <verse eid="2SA 16:11"/><verse number="12" style="v" sid="2SA 16:12"/>也許耶和華會體察我的困苦，因我今天所受的咒罵而賜福給我。」 <verse eid="2SA 16:12"/><verse number="13" style="v" sid="2SA 16:13"/>於是，<char style="pn">大衛</char>和隨從繼續趕路，<char style="pn">示每</char>也沿著對面的山坡邊走邊罵，向他們扔石頭，撒灰塵。 <verse eid="2SA 16:13"/><verse number="14" style="v" sid="2SA 16:14"/>王和眾人來到<char style="pn">約旦</char>河邊時，疲憊不堪，便在那裡歇息。<verse eid="2SA 16:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 16:15"/>
+    <char style="pn">押沙龍</char>和<char style="pn">以色列</char>眾人進了<char style="pn">耶路撒冷</char>，<char style="pn">亞希多弗</char>也和他在一起。 <verse eid="2SA 16:15"/><verse number="16" style="v" sid="2SA 16:16"/><char style="pn">大衛</char>的朋友<char style="pn">亞基</char>人<char style="pn">戶篩</char>去見<char style="pn">押沙龍</char>，對他說：「願王萬歲！願王萬歲！」 <verse eid="2SA 16:16"/><verse number="17" style="v" sid="2SA 16:17"/><char style="pn">押沙龍</char>問<char style="pn">戶篩</char>說：「這就是你對朋友的忠誠嗎？你為什麼不跟你的朋友去呢？」 <verse eid="2SA 16:17"/><verse number="18" style="v" sid="2SA 16:18"/><char style="pn">戶篩</char>說：「我不去，誰是耶和華和全體<char style="pn">以色列</char>人民所揀選的，我就歸屬誰，留在誰那裡。 <verse eid="2SA 16:18"/><verse number="19" style="v" sid="2SA 16:19"/>再說，我應該服侍誰呢？難道不該服侍王的兒子嗎？我要像服侍你父親一樣服侍你。」<verse eid="2SA 16:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="2SA 16:20"/>
+    <char style="pn">押沙龍</char>問<char style="pn">亞希多弗</char>下一步應該怎麼辦。 <verse eid="2SA 16:20"/><verse number="21" style="v" sid="2SA 16:21"/><char style="pn">亞希多弗</char>說：「你父親留下幾個妃嬪看守宮殿，你要跟她們同寢，叫所有的<char style="pn">以色列</char>人知道你與父親誓不兩立，這樣支持你的人會更堅定。」 <verse eid="2SA 16:21"/><verse number="22" style="v" sid="2SA 16:22"/>於是，他們便為<char style="pn">押沙龍</char>在殿頂蓋了一座帳篷，他就當著所有<char style="pn">以色列</char>人的面與父親的妃嬪同寢。 <verse eid="2SA 16:22"/><verse number="23" style="v" sid="2SA 16:23"/>那時，<char style="pn">亞希多弗</char>出的主意如同是來自上帝的話，<char style="pn">大衛</char>曾對他言聽計從，現在<char style="pn">押沙龍</char>也是一樣。<verse eid="2SA 16:23"/></para>
+  <chapter eid="2SA 16"/>
+  <chapter number="17" style="c" sid="2SA 17"/>
+  <para style="s1">亞希多弗計謀落空</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 17:1"/>
+    <char style="pn">亞希多弗</char>對<char style="pn">押沙龍</char>說：「請讓我挑選一萬二千人，今夜啟程追趕<char style="pn">大衛</char>， <verse eid="2SA 17:1"/><verse number="2" style="v" sid="2SA 17:2"/>趁他疲憊無力的時候襲擊他，使他驚慌失措，他的隨從必逃命。我只把王一個人殺掉， <verse eid="2SA 17:2"/><verse number="3" style="v" sid="2SA 17:3"/>把他的部下全都帶來歸順你。你尋索的人既然死了，跟隨他的人必然會歸順你。這樣，大家就平安無事了。」 <verse eid="2SA 17:3"/><verse number="4" style="v" sid="2SA 17:4"/><char style="pn">押沙龍</char>和<char style="pn">以色列</char>的長老都贊成這個提議。<verse eid="2SA 17:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="2SA 17:5"/>
+    <char style="pn">押沙龍</char>說：「召<char style="pn">亞基</char>人<char style="pn">戶篩</char>進來，我們也聽聽他的意見。」 <verse eid="2SA 17:5"/><verse number="6" style="v" sid="2SA 17:6"/><char style="pn">戶篩</char>來了，<char style="pn">押沙龍</char>就把<char style="pn">亞希多弗</char>的建議告訴他，問他：「我們應該照<char style="pn">亞希多弗</char>的提議去做嗎？如果不可行，說說你的看法吧。」 <verse eid="2SA 17:6"/><verse number="7" style="v" sid="2SA 17:7"/><char style="pn">戶篩</char>答道：「<char style="pn">亞希多弗</char>這次的主意不好！ <verse eid="2SA 17:7"/><verse number="8" style="v" sid="2SA 17:8"/>你知道你父親和他的部下，他們都是勇士，現在他們就像丟了熊崽的母熊一樣兇猛。況且你父親是個身經百戰的人，他一定不會跟部下睡在一處。 <verse eid="2SA 17:8"/><verse number="9" style="v" sid="2SA 17:9"/>他現在可能藏在山洞或某個地方。要是他襲擊我們的人馬，聽見的人會說<char style="pn">押沙龍</char>的軍隊慘敗了。 <verse eid="2SA 17:9"/><verse number="10" style="v" sid="2SA 17:10"/>那時候，你手下的人再膽量過人，也會膽戰心驚。因為全<char style="pn">以色列</char>都知道你父親是英雄，他的部下都是勇士。 <verse eid="2SA 17:10"/><verse number="11" style="v" sid="2SA 17:11"/>因此，我認為你應該把從<char style="pn">但</char>到<char style="pn">別示巴</char>的那多如海沙的<char style="pn">以色列</char>人都聚集起來，然後你親自率領他們出征。 <verse eid="2SA 17:11"/><verse number="12" style="v" sid="2SA 17:12"/>這樣不管在哪裡找到<char style="pn">大衛</char>，我們就像露水一樣鋪天蓋地地襲擊他，讓他全軍覆沒。 <verse eid="2SA 17:12"/><verse number="13" style="v" sid="2SA 17:13"/>如果<char style="pn">大衛</char>退進一座城裡，我們<char style="pn">以色列</char>全軍就拿繩索把那城拉到河谷，連一塊石頭都不留。」<verse eid="2SA 17:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="2SA 17:14"/>
+    <char style="pn">押沙龍</char>和<char style="pn">以色列</char>眾人都說：「<char style="pn">亞基</char>人<char style="pn">戶篩</char>的主意比<char style="pn">亞希多弗</char>的好！」其實是耶和華決定破壞<char style="pn">亞希多弗</char>的巧計，好把災禍降在<char style="pn">押沙龍</char>身上。<verse eid="2SA 17:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 17:15"/>
+    <char style="pn">戶篩</char>把<char style="pn">亞希多弗</char>和自己為<char style="pn">押沙龍</char>及<char style="pn">以色列</char>長老所提的建議告訴祭司<char style="pn">撒督</char>和<char style="pn">亞比亞他</char>， <verse eid="2SA 17:15"/><verse number="16" style="v" sid="2SA 17:16"/>並說：「你們現在快派人去通知<char style="pn">大衛</char>，告訴他今晚不可在曠野的渡口過夜，務必要渡過<char style="pn">約旦</char>河，免得他和隨從全軍覆沒。」<verse eid="2SA 17:16"/></para>
+  <para style="p">
+    <verse number="17" style="v" sid="2SA 17:17"/>當時，<char style="pn">約拿單</char>和<char style="pn">亞希瑪斯</char>待在<char style="pn">隱·羅結</char>，不敢進城，怕被人看見。有一個婢女從城中出來給他們報信，他們便去通知<char style="pn">大衛</char>王。 <verse eid="2SA 17:17"/><verse number="18" style="v" sid="2SA 17:18"/>不料，有一個少年發現了他們，就去告訴<char style="pn">押沙龍</char>。他們二人急忙逃走，來到<char style="pn">巴戶琳</char>的一戶人家，藏到那家院子裡的一口井內， <verse eid="2SA 17:18"/><verse number="19" style="v" sid="2SA 17:19"/>那家的婦人用蓋子蓋上井口，然後在上面撒了一些麥子，沒有人知道這件事。 <verse eid="2SA 17:19"/><verse number="20" style="v" sid="2SA 17:20"/><char style="pn">押沙龍</char>的部下來到婦人家查問<char style="pn">約拿單</char>和<char style="pn">亞希瑪斯</char>的下落，婦人說他們已經過河了。<char style="pn">押沙龍</char>的部下就去搜索，結果一無所獲，就返回<char style="pn">耶路撒冷</char>。 <verse eid="2SA 17:20"/><verse number="21" style="v" sid="2SA 17:21"/><char style="pn">押沙龍</char>的部下離開後，<char style="pn">約拿單</char>和<char style="pn">亞希瑪斯</char>便從井裡爬出來，去向<char style="pn">大衛</char>王報信，把<char style="pn">亞希多弗</char>的計謀告訴他，請他趕快渡過<char style="pn">約旦</char>河。 <verse eid="2SA 17:21"/><verse number="22" style="v" sid="2SA 17:22"/><char style="pn">大衛</char>王和部下就動身過<char style="pn">約旦</char>河，在黎明之前，所有的人都過去了。<verse eid="2SA 17:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="2SA 17:23"/>
+    <char style="pn">亞希多弗</char>見自己的提議不被接納，便備上驢，啟程回鄉，安頓好家事以後，就自縊身亡了。他被安葬在他父親的墓穴裡。<verse eid="2SA 17:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="2SA 17:24"/>
+    <char style="pn">大衛</char>來到<char style="pn">瑪哈念</char>，<char style="pn">押沙龍</char>也率領<char style="pn">以色列</char>全軍渡過了<char style="pn">約旦</char>河。 <verse eid="2SA 17:24"/><verse number="25" style="v" sid="2SA 17:25"/><char style="pn">押沙龍</char>任命<char style="pn">亞瑪撒</char>為元帥，代替<char style="pn">約押</char>的位置。<char style="pn">亞瑪撒</char>是<char style="pn">以實瑪利</char>人<char style="pn">以特拉</char>的兒子，他母親是<char style="pn">拿轄</char>的女兒<char style="pn">亞比該</char>。<char style="pn">亞比該</char>與<char style="pn">約押</char>的母親<char style="pn">洗魯雅</char>是姊妹。 <verse eid="2SA 17:25"/><verse number="26" style="v" sid="2SA 17:26"/><char style="pn">押沙龍</char>和<char style="pn">以色列</char>人在<char style="pn">基列</char>地區安營。<verse eid="2SA 17:26"/></para>
+  <para style="p">
+    <verse number="27" style="v" sid="2SA 17:27"/>
+    <char style="pn">大衛</char>來到<char style="pn">瑪哈念</char>後，得到<char style="pn">亞捫</char>族<char style="pn">拉巴</char>人<char style="pn">拿轄</char>的兒子<char style="pn">朔比</char>、<char style="pn">羅·底巴</char>人<char style="pn">亞米利</char>的兒子<char style="pn">瑪吉</char>和<char style="pn">基列</char>的<char style="pn">羅基琳</char>人<char style="pn">巴西萊</char>的款待。 <verse eid="2SA 17:27"/><verse number="28" style="v" sid="2SA 17:28"/>他們帶來被褥、碗盆、瓦器、小麥、大麥、麵粉、炒麥、豆子、扁豆、 <verse eid="2SA 17:28"/><verse number="29" style="v" sid="2SA 17:29"/>蜂蜜、奶油、綿羊和乳酪，送給<char style="pn">大衛</char>和跟隨他的人，因為他們想：「眾人在曠野一定饑渴疲乏了。」<verse eid="2SA 17:29"/></para>
+  <chapter eid="2SA 17"/>
+  <chapter number="18" style="c" sid="2SA 18"/>
+  <para style="s1">押沙龍之死</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 18:1"/>
+    <char style="pn">大衛</char>召集軍隊，設立了千夫長和百夫長率領他們。 <verse eid="2SA 18:1"/><verse number="2" style="v" sid="2SA 18:2"/>他兵分三隊，一隊由<char style="pn">約押</char>率領，一隊由<char style="pn">洗魯雅</char>的兒子、<char style="pn">約押</char>的兄弟<char style="pn">亞比篩</char>率領，一隊由<char style="pn">迦特</char>人<char style="pn">以太</char>率領。<char style="pn">大衛</char>對部下說：「我必與你們一同出戰。」 <verse eid="2SA 18:2"/><verse number="3" style="v" sid="2SA 18:3"/>他們卻說：「你不要出戰。因為如果我們敗逃，敵方不會放在心上；即使我們一半人陣亡，敵方也不會放在心上。你一人比我們一萬人更寶貴。你還是留在城中支援我們吧。」 <verse eid="2SA 18:3"/><verse number="4" style="v" sid="2SA 18:4"/>王說：「你們認為怎樣好，我就怎樣做。」於是，<char style="pn">大衛</char>王站在城門旁邊，軍兵百人一隊、千人一隊地出城了。 <verse eid="2SA 18:4"/><verse number="5" style="v" sid="2SA 18:5"/><char style="pn">大衛</char>王吩咐<char style="pn">約押</char>、<char style="pn">亞比篩</char>和<char style="pn">以太</char>說：「你們要看在我的份上對年輕的<char style="pn">押沙龍</char>手下留情。」全體的軍兵都聽見了<char style="pn">大衛</char>吩咐眾將領的話。<verse eid="2SA 18:5"/></para>
+  <para style="p">
+    <verse number="6" style="v" sid="2SA 18:6"/>
+    <char style="pn">大衛</char>的軍隊在<char style="pn">以法蓮</char>的樹林裡跟<char style="pn">以色列</char>人交戰。 <verse eid="2SA 18:6"/><verse number="7" style="v" sid="2SA 18:7"/><char style="pn">以色列</char>人被<char style="pn">大衛</char>的部下打敗，傷亡慘重，有兩萬人陣亡。 <verse eid="2SA 18:7"/><verse number="8" style="v" sid="2SA 18:8"/>戰事蔓延到整個郊野，那天死在樹林裡的人比死在刀下的人還多。 <verse eid="2SA 18:8"/><verse number="9" style="v" sid="2SA 18:9"/><char style="pn">押沙龍</char>碰巧遇見<char style="pn">大衛</char>的部下。他騎著騾子逃走，騾子從一棵大橡樹的茂密枝條下經過，<char style="pn">押沙龍</char>的頭髮被樹枝纏住，整個人吊在半空中，胯下的騾子也跑了。 <verse eid="2SA 18:9"/><verse number="10" style="v" sid="2SA 18:10"/><char style="pn">大衛</char>的一個部下看見，就向<char style="pn">約押</char>稟告說：「我看見<char style="pn">押沙龍</char>正吊在橡樹上。」 <verse eid="2SA 18:10"/><verse number="11" style="v" sid="2SA 18:11"/><char style="pn">約押</char>對那報信的說：「什麼！你看見他吊在樹上，為什麼不把他殺掉呢？要是你把他殺了，我會賞你十塊銀子和一條腰帶。」 <verse eid="2SA 18:11"/><verse number="12" style="v" sid="2SA 18:12"/>他卻答道：「就是你賞我一千塊銀子，我也不敢加害王的兒子啊！我們曾聽見王吩咐你、<char style="pn">亞比篩</char>和<char style="pn">以太</char>不可傷害年輕的<char style="pn">押沙龍</char>。 <verse eid="2SA 18:12"/><verse number="13" style="v" sid="2SA 18:13"/>如果我膽敢殺死<char style="pn">押沙龍</char>，王遲早會查出真相，到時你就撒手不管了。」 <verse eid="2SA 18:13"/><verse number="14" style="v" sid="2SA 18:14"/><char style="pn">約押</char>說：「我不跟你浪費時間。」趁著<char style="pn">押沙龍</char>還吊在橡樹上，他拿起三桿矛槍剌入了他的心臟。 <verse eid="2SA 18:14"/><verse number="15" style="v" sid="2SA 18:15"/>十個為<char style="pn">約押</char>拿兵器的年輕人圍上去將<char style="pn">押沙龍</char>殺死。 <verse eid="2SA 18:15"/><verse number="16" style="v" sid="2SA 18:16"/>隨後，<char style="pn">約押</char>吹起收兵的號角，軍兵便停止追趕<char style="pn">以色列</char>人。 <verse eid="2SA 18:16"/><verse number="17" style="v" sid="2SA 18:17"/>他們把<char style="pn">押沙龍</char>的屍體扔在林中的一個坑裡，在上面堆了一大堆石頭。<char style="pn">以色列</char>人都各自逃回家去了。 <verse eid="2SA 18:17"/><verse number="18" style="v" sid="2SA 18:18"/><char style="pn">押沙龍</char>生前沒有兒子為他留名，所以他曾在王谷立了一根石柱，以自己的名字命名，稱為「<char style="pn">押沙龍</char>柱」，沿用至今。<verse eid="2SA 18:18"/></para>
+  <para style="p">
+    <verse number="19" style="v" sid="2SA 18:19"/>
+    <char style="pn">撒督</char>的兒子<char style="pn">亞希瑪斯</char>對<char style="pn">約押</char>說：「請讓我跑回去向王稟告，讓王知道耶和華已從仇敵手中救了他。」 <verse eid="2SA 18:19"/><verse number="20" style="v" sid="2SA 18:20"/>但<char style="pn">約押</char>對他說：「你今天不要去報信，改天再報吧。你今天不要去，因為王的兒子死了。」 <verse eid="2SA 18:20"/><verse number="21" style="v" sid="2SA 18:21"/><char style="pn">約押</char>吩咐一個<char style="pn">古實</char>人：「你去把所看見的稟報給王。」那人就拜別了<char style="pn">約押</char>，馬上跑回去報信。 <verse eid="2SA 18:21"/><verse number="22" style="v" sid="2SA 18:22"/><char style="pn">撒督</char>的兒子<char style="pn">亞希瑪斯</char>再次對<char style="pn">約押</char>說：「無論怎樣，求你讓我與<char style="pn">古實</char>人一同去吧！」<char style="pn">約押</char>說：「我的孩子，你何必要去呢？你報這個消息是不會得到賞賜的。」 <verse eid="2SA 18:22"/><verse number="23" style="v" sid="2SA 18:23"/>他說：「無論怎樣，我想跑去報信。」<char style="pn">約押</char>答應了。<char style="pn">亞希瑪斯</char>沿平原的路跑，跑到了<char style="pn">古實</char>人的前面。<verse eid="2SA 18:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="2SA 18:24"/>那時，<char style="pn">大衛</char>正坐在內城門和外城門中間。有一個守望者爬上城門樓頂觀望，看見一個人獨自跑來。 <verse eid="2SA 18:24"/><verse number="25" style="v" sid="2SA 18:25"/>守望者就大聲向王稟告。王說：「他若是獨自一人，帶來的一定是好消息。」那人越來越近了。 <verse eid="2SA 18:25"/><verse number="26" style="v" sid="2SA 18:26"/>這時候，守望者又看見另一個人跑來，就大聲對守城門的說：「又有一個人獨自跑來了！」王說：「他也一定是傳好消息的。」 <verse eid="2SA 18:26"/><verse number="27" style="v" sid="2SA 18:27"/>守望者又說：「從跑的姿勢看，那跑在前面的人好像<char style="pn">撒督</char>的兒子<char style="pn">亞希瑪斯</char>。」王說：「他是個好人，他一定帶來了好消息。」<verse eid="2SA 18:27"/></para>
+  <para style="p">
+    <verse number="28" style="v" sid="2SA 18:28"/>
+    <char style="pn">亞希瑪斯</char>高聲對王說：「一切平安！」他在王面前俯伏叩拜，說：「你的上帝耶和華當受稱頌，祂已經消滅了那些攻擊我主我王的敵人。」 <verse eid="2SA 18:28"/><verse number="29" style="v" sid="2SA 18:29"/>王問道：「年輕的<char style="pn">押沙龍</char>平安嗎？」<char style="pn">亞希瑪斯</char>答道：「<char style="pn">約押</char>派僕人來的時候，僕人看見一陣大騷動，但不知道是什麼事。」 <verse eid="2SA 18:29"/><verse number="30" style="v" sid="2SA 18:30"/>王說：「你先退到一邊去。」<char style="pn">亞希瑪斯</char>就退下，站在一邊。<verse eid="2SA 18:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="2SA 18:31"/>這時，<char style="pn">古實</char>人也到了，他說：「我有好消息向我主我王稟告，今日耶和華已經從一切反叛之人手中救了我主我王。」 <verse eid="2SA 18:31"/><verse number="32" style="v" sid="2SA 18:32"/>王問<char style="pn">古實</char>人：「年輕的<char style="pn">押沙龍</char>平安嗎？」<char style="pn">古實</char>人答道：「願我主我王的仇敵和一切要加害我王的人，下場都與那青年一樣。」 <verse eid="2SA 18:32"/><verse number="33" style="v" sid="2SA 18:33"/>王聽了十分難過，就走上城門樓去痛哭，邊走邊說：「我兒<char style="pn">押沙龍</char>啊！我兒，我兒<char style="pn">押沙龍</char>啊！我恨不得可以替你死！<char style="pn">押沙龍</char>，我兒啊！我兒！」<verse eid="2SA 18:33"/></para>
+  <chapter eid="2SA 18"/>
+  <chapter number="19" style="c" sid="2SA 19"/>
+  <para style="s1">約押勸告大衛</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 19:1"/>有人告訴<char style="pn">約押</char>，說：「王在為<char style="pn">押沙龍</char>哀傷痛哭。」 <verse eid="2SA 19:1"/><verse number="2" style="v" sid="2SA 19:2"/>士兵們聽說王為<char style="pn">押沙龍</char>哀痛，勝利的歡騰頓時變為一片哀愁。 <verse eid="2SA 19:2"/><verse number="3" style="v" sid="2SA 19:3"/>那一天，眾人都靜悄悄地回城去，好像敗兵一樣羞愧。 <verse eid="2SA 19:3"/><verse number="4" style="v" sid="2SA 19:4"/>王仍掩面痛哭：「我兒<char style="pn">押沙龍</char>啊！<char style="pn">押沙龍</char>！我兒！我兒啊！」 <verse eid="2SA 19:4"/><verse number="5" style="v" sid="2SA 19:5"/><char style="pn">約押</char>就進到屋裡，對王說：「你的僕人們救了你和你妻妾兒女的性命，你今天卻使他們感到羞愧。 <verse eid="2SA 19:5"/><verse number="6" style="v" sid="2SA 19:6"/>仇視你的人，你倒去愛他；那些愛你的人，你反憎惡他們。這表明我王的心中根本沒有我們這些將領和部下。如今我明白了，要是死去的不是<char style="pn">押沙龍</char>而是我們，你就高興了。 <verse eid="2SA 19:6"/><verse number="7" style="v" sid="2SA 19:7"/>你現在應該出去安撫士兵們。我憑耶和華起誓，如果你不這樣做，今晚必無一人再追隨你。那將是你一生所遭遇的最大災難！」 <verse eid="2SA 19:7"/><verse number="8" style="v" sid="2SA 19:8"/>於是王出去坐在城門口，眾人聽說後，都來到他面前。這時，跟隨<char style="pn">押沙龍</char>的<char style="pn">以色列</char>人都各自逃回家去了。<verse eid="2SA 19:8"/></para>
+  <para style="s1">大衛返回耶路撒冷</para>
+  <para style="p">
+    <verse number="9" style="v" sid="2SA 19:9"/>
+    <char style="pn">以色列</char>各支派的人都在紛紛議論：「王曾把我們從眾仇敵和<char style="pn">非利士</char>人手中救出來。如今他為了躲避<char style="pn">押沙龍</char>而逃離本國。 <verse eid="2SA 19:9"/><verse number="10" style="v" sid="2SA 19:10"/>我們膏立為王的<char style="pn">押沙龍</char>已經死了，為什麼無人說請王回來呢？」<verse eid="2SA 19:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2SA 19:11"/>
+    <char style="pn">大衛</char>王派人去對祭司<char style="pn">撒督</char>和<char style="pn">亞比亞他</char>說：「你們去問<char style="pn">猶大</char>的長老，『全<char style="pn">以色列</char>已經準備迎接王回宮，你們為什麼遲遲沒有反應？ <verse eid="2SA 19:11"/><verse number="12" style="v" sid="2SA 19:12"/>你們是王的弟兄，是王的骨肉，為什麼遲遲沒有迎接王回宮？』 <verse eid="2SA 19:12"/><verse number="13" style="v" sid="2SA 19:13"/>你們也要對<char style="pn">亞瑪撒</char>說，『你是我的骨肉，要是我不立你為元帥取代<char style="pn">約押</char>，願上帝重重地處罰我。』」 <verse eid="2SA 19:13"/><verse number="14" style="v" sid="2SA 19:14"/>王的這番話打動了所有<char style="pn">猶大</char>人的心，他們派人去請王和王的臣僕回來。<verse eid="2SA 19:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 19:15"/>王便啟程回宮。他來到<char style="pn">約旦</char>河時，<char style="pn">猶大</char>人都到<char style="pn">吉甲</char>來迎接他，要護送他過河。 <verse eid="2SA 19:15"/><verse number="16" style="v" sid="2SA 19:16"/>來自<char style="pn">巴戶琳</char>的<char style="pn">便雅憫</char>人<char style="pn">基拉</char>的兒子<char style="pn">示每</char>也急忙跟著<char style="pn">猶大</char>人趕來迎接<char style="pn">大衛</char>王， <verse eid="2SA 19:16"/><verse number="17" style="v" sid="2SA 19:17"/>有一千<char style="pn">便雅憫</char>人跟<char style="pn">示每</char>一起去迎接<char style="pn">大衛</char>王。<char style="pn">掃羅</char>的僕人<char style="pn">洗巴</char>帶著十五個兒子和二十個僕人也趕到<char style="pn">約旦</char>河。 <verse eid="2SA 19:17"/><verse number="18" style="v" sid="2SA 19:18"/>他們渡到河對面幫助王的家眷過河，為王效勞。王正要過河的時候，<char style="pn">基拉</char>的兒子<char style="pn">示每</char>就俯伏在他面前， <verse eid="2SA 19:18"/><verse number="19" style="v" sid="2SA 19:19"/>說：「求我主饒恕僕人的罪過！僕人在我主我王離開<char style="pn">耶路撒冷</char>時所犯的罪，求我王不要記在心上。 <verse eid="2SA 19:19"/><verse number="20" style="v" sid="2SA 19:20"/>僕人自知有罪，所以今天我是整個<char style="pn">約瑟</char>家族中第一個迎接我主我王的人。」 <verse eid="2SA 19:20"/><verse number="21" style="v" sid="2SA 19:21"/><char style="pn">洗魯雅</char>的兒子<char style="pn">亞比篩</char>說：「<char style="pn">示每</char>曾經咒罵耶和華所膏立的君王，難道不應該處死他嗎？」 <verse eid="2SA 19:21"/><verse number="22" style="v" sid="2SA 19:22"/><char style="pn">大衛</char>說：「<char style="pn">洗魯雅</char>的兒子，不要管我的事。你今天是在跟我作對。今天在<char style="pn">以色列</char>怎麼可以處死人呢？難道我不知道今天我是<char style="pn">以色列</char>的王嗎？」 <verse eid="2SA 19:22"/><verse number="23" style="v" sid="2SA 19:23"/>於是<char style="pn">大衛</char>起誓不殺<char style="pn">示每</char>。<verse eid="2SA 19:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="2SA 19:24"/>
+    <char style="pn">掃羅</char>的孫子<char style="pn">米非波設</char>也來迎接王。從王離開那天，直到<char style="pn">大衛</char>平安回來之日，他沒有修過腳，沒有剃過鬍子，也沒有洗過衣服。 <verse eid="2SA 19:24"/><verse number="25" style="v" sid="2SA 19:25"/>他到<char style="pn">耶路撒冷</char>來迎接王，王問他：「<char style="pn">米非波設</char>，當時你為什麼不跟我一起走呢？」 <verse eid="2SA 19:25"/><verse number="26" style="v" sid="2SA 19:26"/><char style="pn">米非波設</char>答道：「我主我王，我是瘸腿的，我本想預備一頭驢騎著與我王同去，是我的僕人<char style="pn">洗巴</char>欺騙了我。 <verse eid="2SA 19:26"/><verse number="27" style="v" sid="2SA 19:27"/>他在我主我王面前譭謗我。我主我王就像上帝的天使，請王定奪。 <verse eid="2SA 19:27"/><verse number="28" style="v" sid="2SA 19:28"/>我父全家在我主我王面前都是該死的，但王卻讓我與王同席吃飯，我還能向王要求什麼呢？」 <verse eid="2SA 19:28"/><verse number="29" style="v" sid="2SA 19:29"/>王對他說：「不要再提這事了，我決定讓你和<char style="pn">洗巴</char>平分土地。」 <verse eid="2SA 19:29"/><verse number="30" style="v" sid="2SA 19:30"/><char style="pn">米非波設</char>說：「把土地都給他吧，我主我王平安地回來就好了。」<verse eid="2SA 19:30"/></para>
+  <para style="p">
+    <verse number="31" style="v" sid="2SA 19:31"/>
+    <char style="pn">基列</char>人<char style="pn">巴西萊</char>也從<char style="pn">羅基琳</char>下來護送王過<char style="pn">約旦</char>河，然後送王上路。 <verse eid="2SA 19:31"/><verse number="32" style="v" sid="2SA 19:32"/>那時，<char style="pn">巴西萊</char>已經是八十高齡了。王留在<char style="pn">瑪哈念</char>的時候，他曾供應王食物，因為他非常富有。 <verse eid="2SA 19:32"/><verse number="33" style="v" sid="2SA 19:33"/>王對<char style="pn">巴西萊</char>說：「你跟我一同回<char style="pn">耶路撒冷</char>，我會照顧你。」 <verse eid="2SA 19:33"/><verse number="34" style="v" sid="2SA 19:34"/><char style="pn">巴西萊</char>說：「我何必跟王一同去<char style="pn">耶路撒冷</char>呢？我還能活多久呢？ <verse eid="2SA 19:34"/><verse number="35" style="v" sid="2SA 19:35"/>我已經八十歲了，美醜難分，食不知味，樂不辨音，何必為我主我王添麻煩呢？ <verse eid="2SA 19:35"/><verse number="36" style="v" sid="2SA 19:36"/>僕人只不過是陪王過<char style="pn">約旦</char>河，王何必給我這麼大的賞賜呢？ <verse eid="2SA 19:36"/><verse number="37" style="v" sid="2SA 19:37"/>請准我回去，我好死在故鄉，葬在父母的墓旁。這裡有王的僕人<char style="pn">金罕</char>，讓他跟我主我王一起去。你看怎麼好，就怎麼對待他吧。」 <verse eid="2SA 19:37"/><verse number="38" style="v" sid="2SA 19:38"/>王說：「<char style="pn">金罕</char>可以跟我去，我會照你的心願待他。無論你有什麼要求，我都會答應你。」 <verse eid="2SA 19:38"/><verse number="39" style="v" sid="2SA 19:39"/>王和眾人過了<char style="pn">約旦</char>河以後，就親吻<char style="pn">巴西萊</char>，為他祝福。<char style="pn">巴西萊</char>返回了家鄉。<verse eid="2SA 19:39"/></para>
+  <para style="p">
+    <verse number="40" style="v" sid="2SA 19:40"/>王過河後，來到<char style="pn">吉甲</char>，<char style="pn">金罕</char>跟隨著他。護送王的有<char style="pn">猶大</char>的士兵和半數的<char style="pn">以色列</char>士兵。 <verse eid="2SA 19:40"/><verse number="41" style="v" sid="2SA 19:41"/>後來，所有的<char style="pn">以色列</char>人來見王，說：「為什麼我們的弟兄<char style="pn">猶大</char>人偷偷地送王、王的家眷和王的部下渡河？」 <verse eid="2SA 19:41"/><verse number="42" style="v" sid="2SA 19:42"/><char style="pn">猶大</char>人答道：「我們這樣做是因為王是我們的親族。你們為什麼生氣呢？難道我們吃了王的供應，得了什麼禮物嗎？」 <verse eid="2SA 19:42"/><verse number="43" style="v" sid="2SA 19:43"/><char style="pn">以色列</char>人說：「但我們和王有十份的情分，我們在<char style="pn">大衛</char>身上比你們更有份。你們為什麼輕視我們？難道不是我們首先提出要請王回來的嗎？」</para>
+  <para style="p" vid="2SA 19:43">但<char style="pn">猶大</char>人的態度比<char style="pn">以色列</char>人還要強硬。<verse eid="2SA 19:43"/></para>
+  <chapter eid="2SA 19"/>
+  <chapter number="20" style="c" sid="2SA 20"/>
+  <para style="s1">示巴反叛大衛</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 20:1"/>有一個無賴名叫<char style="pn">示巴</char>，是<char style="pn">便雅憫</char>人<char style="pn">比基利</char>的兒子，當時剛好在<char style="pn">吉甲</char>。他吹響號角，大喊：「我們與<char style="pn">大衛</char>毫無關係，<char style="pn">耶西</char>兒子的產業沒有我們的份。<char style="pn">以色列</char>人啊，各自回家去吧！」 <verse eid="2SA 20:1"/><verse number="2" style="v" sid="2SA 20:2"/>於是，<char style="pn">以色列</char>人都離開了<char style="pn">大衛</char>，跟隨了<char style="pn">比基利</char>的兒子<char style="pn">示巴</char>。但<char style="pn">猶大</char>人仍然緊緊跟隨他們的王，從<char style="pn">約旦</char>河一直來到<char style="pn">耶路撒冷</char>。 <verse eid="2SA 20:2"/><verse number="3" style="v" sid="2SA 20:3"/><char style="pn">大衛</char>回到<char style="pn">耶路撒冷</char>的宮裡，把從前留下來看守王宮的十個妃嬪關進冷宮，供養她們，卻不再和她們同房。她們像寡婦一樣在軟禁中度過餘生。<verse eid="2SA 20:3"/></para>
+  <para style="p">
+    <verse number="4" style="v" sid="2SA 20:4"/>王對<char style="pn">亞瑪撒</char>說：「你要在三天內招聚<char style="pn">猶大</char>人，跟他們一起來見我。」 <verse eid="2SA 20:4"/><verse number="5" style="v" sid="2SA 20:5"/><char style="pn">亞瑪撒</char>就去招聚<char style="pn">猶大</char>人，但他超過了王所定的期限。 <verse eid="2SA 20:5"/><verse number="6" style="v" sid="2SA 20:6"/><char style="pn">大衛</char>對<char style="pn">亞比篩</char>說：「現在<char style="pn">比基利</char>的兒子<char style="pn">示巴</char>給我們帶來的危害恐怕比<char style="pn">押沙龍</char>還要大。你帶領我的部下去捉拿他，免得他佔據了堅固的城池，得以逃脫。」<verse eid="2SA 20:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2SA 20:7"/>於是，<char style="pn">約押</char>的部下和<char style="pn">基利提</char>人、<char style="pn">比利提</char>人，以及所有的勇士都跟隨<char style="pn">亞比篩</char>離開<char style="pn">耶路撒冷</char>，去追趕<char style="pn">比基利</char>的兒子<char style="pn">示巴</char>。 <verse eid="2SA 20:7"/><verse number="8" style="v" sid="2SA 20:8"/>他們來到<char style="pn">基遍</char>的巨石旁，見<char style="pn">亞瑪撒</char>迎面而來。<char style="pn">約押</char>當時身穿戰袍，腰間佩刀，他迎上去的時候，刀從鞘中滑落出來。 <verse eid="2SA 20:8"/><verse number="9" style="v" sid="2SA 20:9"/><char style="pn">約押</char>對<char style="pn">亞瑪撒</char>說：「兄弟，你好嗎？」他用右手抓住<char style="pn">亞瑪撒</char>的鬍子，親吻他。 <verse eid="2SA 20:9"/><verse number="10" style="v" sid="2SA 20:10"/><char style="pn">亞瑪撒</char>毫無防備，被<char style="pn">約押</char>一刀刺入肚子，肚破腸流而死。然後，<char style="pn">約押</char>和他兄弟<char style="pn">亞比篩</char>繼續追趕<char style="pn">比基利</char>的兒子<char style="pn">示巴</char>。<verse eid="2SA 20:10"/></para>
+  <para style="p">
+    <verse number="11" style="v" sid="2SA 20:11"/>
+    <char style="pn">約押</char>的一個部下站在<char style="pn">亞瑪撒</char>的屍體旁邊說：「擁護<char style="pn">約押</char>和<char style="pn">大衛</char>的人來跟隨<char style="pn">約押</char>吧！」 <verse eid="2SA 20:11"/><verse number="12" style="v" sid="2SA 20:12"/><char style="pn">亞瑪撒</char>的屍體倒在路中間的血泊中。那人見眾人駐足圍觀，便把屍體從路上拖到田裡，扔了一件衣服蓋上。 <verse eid="2SA 20:12"/><verse number="13" style="v" sid="2SA 20:13"/>屍體搬走以後，眾人都跟隨<char style="pn">約押</char>去追<char style="pn">比基利</char>的兒子<char style="pn">示巴</char>。<verse eid="2SA 20:13"/></para>
+  <para style="p">
+    <verse number="14" style="v" sid="2SA 20:14"/>
+    <char style="pn">示巴</char>走遍<char style="pn">以色列</char>各支派，一直到<char style="pn">伯·瑪迦</char>的<char style="pn">亞比拉</char>城。他的本族<char style="pn">比利</char>人都聚集起來跟隨他。 <verse eid="2SA 20:14"/><verse number="15" style="v" sid="2SA 20:15"/><char style="pn">約押</char>率大軍來到<char style="pn">伯·瑪迦</char>，把<char style="pn">示巴</char>圍困在<char style="pn">亞比拉</char>城內，他們修築攻城的高臺，撞擊城牆，要摧毀它。 <verse eid="2SA 20:15"/><verse number="16" style="v" sid="2SA 20:16"/>有一個聰明的婦人從城上喊：「請聽我說！請聽我說！請<char style="pn">約押</char>到這邊來，我有話要對他說。」 <verse eid="2SA 20:16"/><verse number="17" style="v" sid="2SA 20:17"/><char style="pn">約押</char>就走上前去，那婦人問道：「你是<char style="pn">約押</char>嗎？」<char style="pn">約押</char>答道：「我就是。」婦人說：「請聽婢女說幾句。」<char style="pn">約押</char>說：「你說吧！」 <verse eid="2SA 20:17"/><verse number="18" style="v" sid="2SA 20:18"/>婦人說：「古時候人們常說，『有事到<char style="pn">亞比拉</char>去請教，問題都會解決。』 <verse eid="2SA 20:18"/><verse number="19" style="v" sid="2SA 20:19"/>我們這座城的人在<char style="pn">以色列</char>素來熱愛和平、忠心耿耿，你卻要毀滅這座大城。你為什麼要吞掉耶和華的產業？」 <verse eid="2SA 20:19"/><verse number="20" style="v" sid="2SA 20:20"/><char style="pn">約押</char>答道：「我根本不想吞掉或毀滅這城。 <verse eid="2SA 20:20"/><verse number="21" style="v" sid="2SA 20:21"/>事情不是這樣。<char style="pn">以法蓮</char>山區<char style="pn">比基利</char>的兒子<char style="pn">示巴</char>背叛<char style="pn">大衛</char>王，你們只要把他交出來，我就撤退。」那婦人說：「我們一定把他的首級從城上拋下來給你。」 <verse eid="2SA 20:21"/><verse number="22" style="v" sid="2SA 20:22"/>婦人把自己的良策告訴眾人，他們便把<char style="pn">比基利</char>的兒子<char style="pn">示巴</char>的頭割下來，拋給<char style="pn">約押</char>。<char style="pn">約押</char>就吹響號角令軍隊各自回家，自己回<char style="pn">耶路撒冷</char>見王。<verse eid="2SA 20:22"/></para>
+  <para style="p">
+    <verse number="23" style="v" sid="2SA 20:23"/>
+    <char style="pn">約押</char>負責統率<char style="pn">以色列</char>全軍；<char style="pn">耶何耶大</char>的兒子<char style="pn">比拿雅</char>統管<char style="pn">基利提</char>人和<char style="pn">比利提</char>人； <verse eid="2SA 20:23"/><verse number="24" style="v" sid="2SA 20:24"/><char style="pn">亞多蘭</char>管理服勞役的；<char style="pn">亞希律</char>的兒子<char style="pn">約沙法</char>做史官； <verse eid="2SA 20:24"/><verse number="25" style="v" sid="2SA 20:25"/><char style="pn">示法</char>做書記；<char style="pn">撒督</char>和<char style="pn">亞比亞他</char>做祭司； <verse eid="2SA 20:25"/><verse number="26" style="v" sid="2SA 20:26"/><char style="pn">雅珥</char>人<char style="pn">以拉</char>做<char style="pn">大衛</char>的祭司。<verse eid="2SA 20:26"/></para>
+  <chapter eid="2SA 20"/>
+  <chapter number="21" style="c" sid="2SA 21"/>
+  <para style="s1">基遍人向掃羅家復仇</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 21:1"/>在<char style="pn">大衛</char>執政期間，連續有三年饑荒，<char style="pn">大衛</char>就求問耶和華。耶和華說：「發生這饑荒是因為<char style="pn">掃羅</char>一家人的血債，他們殺害了<char style="pn">基遍</char>人。」 <verse eid="2SA 21:1"/><verse number="2" style="v" sid="2SA 21:2"/>原來<char style="pn">基遍</char>人不是<char style="pn">以色列</char>人，他們是<char style="pn">亞摩利</char>人的遺民。<char style="pn">以色列</char>人曾起誓不傷害他們，但<char style="pn">掃羅</char>為<char style="pn">以色列</char>人和<char style="pn">猶大</char>人發熱心，試圖剷除<char style="pn">基遍</char>人。<char style="pn">大衛</char>就召來<char style="pn">基遍</char>人， <verse eid="2SA 21:2"/><verse number="3" style="v" sid="2SA 21:3"/>問他們：「我可以為你們做些什麼？我該怎樣贖罪，你們才願意祝福耶和華的子民<note caller="+" style="f"><char style="fr" closed="false">21·3 </char><char style="ft" closed="false">「子民」希伯來文是「產業」。</char></note>呢？」 <verse eid="2SA 21:3"/><verse number="4" style="v" sid="2SA 21:4"/><char style="pn">基遍</char>人答道：「金銀不能解決我們和<char style="pn">掃羅</char>一家人的問題，我們也不想處死任何<char style="pn">以色列</char>人。」<char style="pn">大衛</char>說：「你們要我怎麼辦？」 <verse eid="2SA 21:4"/><verse number="5" style="v" sid="2SA 21:5"/>他們說：「<char style="pn">掃羅</char>曾試圖滅絕我們，把我們從<char style="pn">以色列</char>境內剷除。 <verse eid="2SA 21:5"/><verse number="6" style="v" sid="2SA 21:6"/>請把他的七個子孫交給我們，我們好在耶和華面前把他們吊死在<char style="pn">基比亞</char>，就是耶和華選立<char style="pn">掃羅</char>的地方。」王說：「我必把他們交給你們。」<verse eid="2SA 21:6"/></para>
+  <para style="p">
+    <verse number="7" style="v" sid="2SA 21:7"/>
+    <char style="pn">大衛</char>王因為與<char style="pn">掃羅</char>的兒子<char style="pn">約拿單</char>在耶和華面前起過誓，就沒有把<char style="pn">掃羅</char>的孫子、<char style="pn">約拿單</char>的兒子<char style="pn">米非波設</char>交出來。 <verse eid="2SA 21:7"/><verse number="8" style="v" sid="2SA 21:8"/>他把<char style="pn">愛亞</char>的女兒<char style="pn">利斯巴</char>為<char style="pn">掃羅</char>所生的兩個兒子<char style="pn">亞摩尼</char>、<char style="pn">米非波設</char>，以及<char style="pn">掃羅</char>女兒<char style="pn">米拉</char>為<char style="pn">米何拉</char>人<char style="pn">巴西萊</char>的兒子<char style="pn">亞得列</char>所生的五個兒子交給<char style="pn">基遍</char>人。 <verse eid="2SA 21:8"/><verse number="9" style="v" sid="2SA 21:9"/><char style="pn">基遍</char>人在耶和華面前把他們七人吊死在山上。他們都一同死去，那時正好是收割大麥的時候。<verse eid="2SA 21:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="2SA 21:10"/>
+    <char style="pn">愛亞</char>的女兒<char style="pn">利斯巴</char>取麻布為自己鋪在磐石上。她白天不讓飛鳥靠近，夜間不容野獸走近，從開始收割大麥，一直守到降下雨來。 <verse eid="2SA 21:10"/><verse number="11" style="v" sid="2SA 21:11"/><char style="pn">大衛</char>知道<char style="pn">掃羅</char>的嬪妃——<char style="pn">愛亞</char>的女兒<char style="pn">利斯巴</char>的事以後， <verse eid="2SA 21:11"/><verse number="12" style="v" sid="2SA 21:12"/>就去<char style="pn">基列·雅比</char>人那裡把<char style="pn">掃羅</char>和<char style="pn">約拿單</char>的骸骨運來。從前<char style="pn">非利士</char>人在<char style="pn">基利波</char>殺死<char style="pn">掃羅</char>和<char style="pn">約拿單</char>，把他們的屍體掛在<char style="pn">伯·珊</char>的廣場，後來<char style="pn">基列·雅比</char>人把屍體偷走了。 <verse eid="2SA 21:12"/><verse number="13" style="v" sid="2SA 21:13"/><char style="pn">大衛</char>運回<char style="pn">掃羅</char>和<char style="pn">約拿單</char>的骸骨，又收殮了<char style="pn">掃羅</char>那七個子孫的骸骨。 <verse eid="2SA 21:13"/><verse number="14" style="v" sid="2SA 21:14"/>眾人按照<char style="pn">大衛</char>的吩咐，把<char style="pn">掃羅</char>和<char style="pn">約拿單</char>的骸骨埋葬在<char style="pn">掃羅</char>父親<char style="pn">基士</char>的墓裡，在<char style="pn">便雅憫</char>境內的<char style="pn">洗拉</char>。此後，上帝垂聽了人們為國家的禱告。<verse eid="2SA 21:14"/></para>
+  <para style="s1">與非利士人交戰</para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 21:15"/>
+    <char style="pn">非利士</char>人又和<char style="pn">以色列</char>人交戰，<char style="pn">大衛</char>親自出征。在他十分疲倦的時候， <verse eid="2SA 21:15"/><verse number="16" style="v" sid="2SA 21:16"/>一個名叫<char style="pn">以實·比諾</char>的巨人佩戴新刀，手拿三公斤半重的銅矛，衝上來要殺他。 <verse eid="2SA 21:16"/><verse number="17" style="v" sid="2SA 21:17"/><char style="pn">洗魯雅</char>的兒子<char style="pn">亞比篩</char>趕來救駕，殺死了<char style="pn">非利士</char>巨人。這事以後，<char style="pn">大衛</char>的部下向他起誓說：「你絕不可再跟我們一起出戰，免得<char style="pn">以色列</char>的燈熄滅。」 <verse eid="2SA 21:17"/><verse number="18" style="v" sid="2SA 21:18"/>後來，<char style="pn">以色列</char>人與<char style="pn">非利士</char>人在<char style="pn">歌伯</char>交戰，<char style="pn">戶沙</char>人<char style="pn">西比該</char>殺了另一個<char style="pn">非利士</char>巨人<char style="pn">撒弗</char>。 <verse eid="2SA 21:18"/><verse number="19" style="v" sid="2SA 21:19"/>在<char style="pn">歌伯</char>與<char style="pn">非利士</char>人的另一次交戰中，<char style="pn">伯利恆</char>人<char style="pn">雅雷</char>·<char style="pn">俄珥金</char>的兒子<char style="pn">伊勒哈難</char>殺了<char style="pn">迦特</char>人<char style="pn">歌利亞</char>。<char style="pn">歌利亞</char>的槍桿粗如織布機的軸。 <verse eid="2SA 21:19"/><verse number="20" style="v" sid="2SA 21:20"/>在<char style="pn">迦特</char>的一次交戰中，有一個<char style="pn">非利士</char>巨人每隻手和腳各有六個手指和腳趾，共二十四個手指和腳趾。 <verse eid="2SA 21:20"/><verse number="21" style="v" sid="2SA 21:21"/>他向<char style="pn">以色列</char>人罵陣，<char style="pn">大衛</char>的哥哥<char style="pn">示米亞</char>的兒子<char style="pn">約拿單</char>殺了他。 <verse eid="2SA 21:21"/><verse number="22" style="v" sid="2SA 21:22"/>這四個<char style="pn">迦特</char>巨人的後裔都死在<char style="pn">大衛</char>和他的部下手裡。<verse eid="2SA 21:22"/></para>
+  <chapter eid="2SA 21"/>
+  <chapter number="22" style="c" sid="2SA 22"/>
+  <para style="s1">大衛的頌歌</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 22:1"/>耶和華從<char style="pn">掃羅</char>及所有仇敵手中拯救<char style="pn">大衛</char>那天，他向耶和華吟唱此詩：<verse eid="2SA 22:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="2SA 22:2"/>「耶和華是我的磐石，</para>
+  <para style="q1" vid="2SA 22:2">我的堡壘，我的拯救者；<verse eid="2SA 22:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="2SA 22:3"/>我的上帝是庇護我的磐石，</para>
+  <para style="q1" vid="2SA 22:3">是我的盾牌，是拯救我的力量，</para>
+  <para style="q1" vid="2SA 22:3">是我的堅壘，我的避難所，</para>
+  <para style="q1" vid="2SA 22:3">我的救主。</para>
+  <para style="q1" vid="2SA 22:3">你救我脫離殘暴之徒。<verse eid="2SA 22:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="2SA 22:4"/>我求告當受頌讚的耶和華，</para>
+  <para style="q1" vid="2SA 22:4">祂便救我脫離仇敵。<verse eid="2SA 22:4"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="5" style="v" sid="2SA 22:5"/>「死亡的波濤環繞我，</para>
+  <para style="q1" vid="2SA 22:5">毀滅的狂流淹沒我。<verse eid="2SA 22:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="2SA 22:6"/>陰間的繩索捆綁我，</para>
+  <para style="q1" vid="2SA 22:6">死亡的網羅籠罩我。<verse eid="2SA 22:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="2SA 22:7"/>「我在苦難中呼求耶和華，</para>
+  <para style="q1" vid="2SA 22:7">向我的上帝求助，</para>
+  <para style="q1" vid="2SA 22:7">祂從殿中垂聽我的呼求，</para>
+  <para style="q1" vid="2SA 22:7">我的聲音達到祂耳中。<verse eid="2SA 22:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="2SA 22:8"/>「祂一發怒，大地震動顫抖，</para>
+  <para style="q1" vid="2SA 22:8">穹蒼的根基搖晃。<verse eid="2SA 22:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="2SA 22:9"/>祂的鼻孔冒煙，</para>
+  <para style="q1" vid="2SA 22:9">口噴烈焰和火炭。<verse eid="2SA 22:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="2SA 22:10"/>祂使穹蒼低垂，親自降臨，</para>
+  <para style="q1" vid="2SA 22:10">腳下踩著密雲。<verse eid="2SA 22:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="2SA 22:11"/>祂乘著基路伯天使飛翔，</para>
+  <para style="q1" vid="2SA 22:11">在風的翅膀上顯現。<verse eid="2SA 22:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="2SA 22:12"/>祂藏身於黑暗中，</para>
+  <para style="q1" vid="2SA 22:12">四圍以密雲作幔幕。<verse eid="2SA 22:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="2SA 22:13"/>祂面前的榮光中發出道道閃電。<verse eid="2SA 22:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="2SA 22:14"/>耶和華在天上打雷，</para>
+  <para style="q1" vid="2SA 22:14">至高者發出聲音。<verse eid="2SA 22:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="2SA 22:15"/>祂射出利箭驅散仇敵，</para>
+  <para style="q1" vid="2SA 22:15">發出閃電擊潰他們。<verse eid="2SA 22:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="2SA 22:16"/>耶和華斥責一聲，</para>
+  <para style="q1" vid="2SA 22:16">祂的鼻孔一吹氣，</para>
+  <para style="q1" vid="2SA 22:16">海底就顯現，</para>
+  <para style="q1" vid="2SA 22:16">大地也露出根基。<verse eid="2SA 22:16"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="17" style="v" sid="2SA 22:17"/>「祂從高天伸手抓住我，</para>
+  <para style="q1" vid="2SA 22:17">從大水中把我拉上來。<verse eid="2SA 22:17"/></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="2SA 22:18"/>祂救我脫離強敵，</para>
+  <para style="q1" vid="2SA 22:18">脫離我無法戰勝的仇敵。<verse eid="2SA 22:18"/></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="2SA 22:19"/>他們在我危難之時攻擊我，</para>
+  <para style="q1" vid="2SA 22:19">但耶和華扶持我。<verse eid="2SA 22:19"/></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="2SA 22:20"/>祂領我到寬闊之地；</para>
+  <para style="q1" vid="2SA 22:20">祂搭救我，因為祂喜悅我。<verse eid="2SA 22:20"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="21" style="v" sid="2SA 22:21"/>「耶和華因我公義而善待我，</para>
+  <para style="q1" vid="2SA 22:21">因我清白而賞賜我。<verse eid="2SA 22:21"/></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="2SA 22:22"/>因為我遵行祂的道，</para>
+  <para style="q1" vid="2SA 22:22">沒有作惡背棄我的上帝。<verse eid="2SA 22:22"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="23" style="v" sid="2SA 22:23"/>「我遵守祂的一切法令，</para>
+  <para style="q1" vid="2SA 22:23">沒有把祂的律例棄置一旁。<verse eid="2SA 22:23"/></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="2SA 22:24"/>我在祂面前純全無過，</para>
+  <para style="q1" vid="2SA 22:24">沒有沾染罪惡。<verse eid="2SA 22:24"/></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="2SA 22:25"/>耶和華按我的公義，</para>
+  <para style="q1" vid="2SA 22:25">照我在祂面前的清白獎賞我。<verse eid="2SA 22:25"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="26" style="v" sid="2SA 22:26"/>「仁慈的人，你以仁慈待他；</para>
+  <para style="q1" vid="2SA 22:26">純全的人，你以純全待他。<verse eid="2SA 22:26"/></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="2SA 22:27"/>純潔的人，你以純潔待他；</para>
+  <para style="q1" vid="2SA 22:27">乖謬的人，你以計謀待他。<verse eid="2SA 22:27"/></para>
+  <para style="q1">
+    <verse number="28" style="v" sid="2SA 22:28"/>你拯救謙卑的人，</para>
+  <para style="q1" vid="2SA 22:28">鑒察、貶抑高傲的人。<verse eid="2SA 22:28"/></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="2SA 22:29"/>耶和華啊！你是我的明燈，</para>
+  <para style="q1" vid="2SA 22:29">你使我的黑暗變為光明。<verse eid="2SA 22:29"/></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="2SA 22:30"/>我靠著你迎戰敵軍，</para>
+  <para style="q1" vid="2SA 22:30">靠著我的上帝躍過牆垣。<verse eid="2SA 22:30"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="31" style="v" sid="2SA 22:31"/>「上帝的道完美，</para>
+  <para style="q1" vid="2SA 22:31">耶和華的話純全，</para>
+  <para style="q1" vid="2SA 22:31">祂是一切投靠祂之人的盾牌。<verse eid="2SA 22:31"/></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="2SA 22:32"/>除了耶和華，誰是上帝呢？</para>
+  <para style="q1" vid="2SA 22:32">除了我們的上帝，誰是磐石呢？<verse eid="2SA 22:32"/></para>
+  <para style="q1">
+    <verse number="33" style="v" sid="2SA 22:33"/>上帝是我的堅固堡壘，</para>
+  <para style="q1" vid="2SA 22:33">祂使我行為純全。<verse eid="2SA 22:33"/></para>
+  <para style="q1">
+    <verse number="34" style="v" sid="2SA 22:34"/>祂使我的腳如母鹿的蹄，</para>
+  <para style="q1" vid="2SA 22:34">穩踏在高處。<verse eid="2SA 22:34"/></para>
+  <para style="q1">
+    <verse number="35" style="v" sid="2SA 22:35"/>祂訓練我的手如何爭戰，</para>
+  <para style="q1" vid="2SA 22:35">使我的臂膀能拉開銅弓。<verse eid="2SA 22:35"/></para>
+  <para style="q1">
+    <verse number="36" style="v" sid="2SA 22:36"/>你是拯救我的盾牌，</para>
+  <para style="q1" vid="2SA 22:36">你的垂顧使我強大。<verse eid="2SA 22:36"/></para>
+  <para style="q1">
+    <verse number="37" style="v" sid="2SA 22:37"/>你使我腳下的道路寬闊，</para>
+  <para style="q1" vid="2SA 22:37">不致滑倒。<verse eid="2SA 22:37"/></para>
+  <para style="q1">
+    <verse number="38" style="v" sid="2SA 22:38"/>我追趕仇敵，擊潰他們，</para>
+  <para style="q1" vid="2SA 22:38">不消滅他們決不回頭。<verse eid="2SA 22:38"/></para>
+  <para style="q1">
+    <verse number="39" style="v" sid="2SA 22:39"/>我打垮他們，</para>
+  <para style="q1" vid="2SA 22:39">使他們倒在我的腳下，</para>
+  <para style="q1" vid="2SA 22:39">再也站不起來。<verse eid="2SA 22:39"/></para>
+  <para style="q1">
+    <verse number="40" style="v" sid="2SA 22:40"/>你賜我征戰的能力，</para>
+  <para style="q1" vid="2SA 22:40">使我的仇敵降服在我腳下。<verse eid="2SA 22:40"/></para>
+  <para style="q1">
+    <verse number="41" style="v" sid="2SA 22:41"/>你使我的仇敵敗逃，</para>
+  <para style="q1" vid="2SA 22:41">我殲滅了恨我的人。<verse eid="2SA 22:41"/></para>
+  <para style="q1">
+    <verse number="42" style="v" sid="2SA 22:42"/>他們呼救，卻無人拯救。</para>
+  <para style="q1" vid="2SA 22:42">他們呼求耶和華，祂也不應允。<verse eid="2SA 22:42"/></para>
+  <para style="q1">
+    <verse number="43" style="v" sid="2SA 22:43"/>我把他們打得粉碎，如同地上的灰塵，</para>
+  <para style="q1" vid="2SA 22:43">壓碎並踐踏他們，如同街上的泥土。<verse eid="2SA 22:43"/></para>
+  <para style="q1">
+    <verse number="44" style="v" sid="2SA 22:44"/>你救我脫離我百姓的攻擊，</para>
+  <para style="q1" vid="2SA 22:44">立我做列國的元首，</para>
+  <para style="q1" vid="2SA 22:44">素不相識的民族也服侍我。<verse eid="2SA 22:44"/></para>
+  <para style="q1">
+    <verse number="45" style="v" sid="2SA 22:45"/>外族人望風而降，對我俯首稱臣。<verse eid="2SA 22:45"/></para>
+  <para style="q1">
+    <verse number="46" style="v" sid="2SA 22:46"/>他們聞風喪膽，</para>
+  <para style="q1" vid="2SA 22:46">戰戰兢兢地走出他們的城池。<verse eid="2SA 22:46"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="47" style="v" sid="2SA 22:47"/>「耶和華永遠活著，</para>
+  <para style="q1" vid="2SA 22:47">我的磐石當受頌讚，</para>
+  <para style="q1" vid="2SA 22:47">拯救我的磐石，我的上帝當受尊崇。<verse eid="2SA 22:47"/></para>
+  <para style="q1">
+    <verse number="48" style="v" sid="2SA 22:48"/>祂是為我伸冤的上帝，</para>
+  <para style="q1" vid="2SA 22:48">祂使列邦臣服於我。<verse eid="2SA 22:48"/></para>
+  <para style="q1">
+    <verse number="49" style="v" sid="2SA 22:49"/>祂救我脫離仇敵，</para>
+  <para style="q1" vid="2SA 22:49">使我勝過強敵，</para>
+  <para style="q1" vid="2SA 22:49">救我脫離殘暴之徒。<verse eid="2SA 22:49"/></para>
+  <para style="q1">
+    <verse number="50" style="v" sid="2SA 22:50"/>因此，耶和華啊，</para>
+  <para style="q1" vid="2SA 22:50">我要在列邦中讚美你，</para>
+  <para style="q1" vid="2SA 22:50">歌頌你的名。<verse eid="2SA 22:50"/></para>
+  <para style="q1">
+    <verse number="51" style="v" sid="2SA 22:51"/>你使你立的王大獲全勝，</para>
+  <para style="q1" vid="2SA 22:51">向你膏立的<char style="pn">大衛</char>及其後代廣施慈愛，</para>
+  <para style="q1" vid="2SA 22:51">直到永遠。」<verse eid="2SA 22:51"/></para>
+  <chapter eid="2SA 22"/>
+  <chapter number="23" style="c" sid="2SA 23"/>
+  <para style="s1">大衛的遺言</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 23:1"/>
+    <char style="pn">耶西</char>的兒子<char style="pn">大衛</char>是<char style="pn">雅各</char>的上帝膏立的王，他身居高位，在<char style="pn">以色列</char>能歌善詠。以下是他的遺言：<verse eid="2SA 23:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="2SA 23:2"/>「耶和華的靈藉著我說話，</para>
+  <para style="q1" vid="2SA 23:2">祂的言語在我口中。<verse eid="2SA 23:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="2SA 23:3"/>
+    <char style="pn">以色列</char>的上帝告訴我，</para>
+  <para style="q1" vid="2SA 23:3">
+    <char style="pn">以色列</char>的磐石對我說，</para>
+  <para style="q1" vid="2SA 23:3">『以公義治理人民，</para>
+  <para style="q1" vid="2SA 23:3">敬畏上帝的君王，<verse eid="2SA 23:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="2SA 23:4"/>就像旭日的光輝、</para>
+  <para style="q1" vid="2SA 23:4">晴朗的早晨，</para>
+  <para style="q1" vid="2SA 23:4">又像雨後的光芒，</para>
+  <para style="q1" vid="2SA 23:4">使大地長出青草。』<verse eid="2SA 23:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="2SA 23:5"/>我的家在上帝面前不正是如此嗎？</para>
+  <para style="q1" vid="2SA 23:5">上帝與我立下永遠的約，</para>
+  <para style="q1" vid="2SA 23:5">這約穩妥可靠。</para>
+  <para style="q1" vid="2SA 23:5">祂必拯救我，成全我的願望。<verse eid="2SA 23:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="2SA 23:6"/>但惡人要像荊棘一樣被丟棄，</para>
+  <para style="q1" vid="2SA 23:6">沒人用手拿起他們，<verse eid="2SA 23:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="2SA 23:7"/>人要拿鐵器和長矛把他們收集起來焚毀。」<verse eid="2SA 23:7"/></para>
+  <para style="s1">大衛的勇士</para>
+  <para style="p">
+    <verse number="8" style="v" sid="2SA 23:8"/>以下是<char style="pn">大衛</char>的勇士：<char style="pn">他革捫</char>人<char style="pn">約設·巴設</char>，又稱<char style="pn">伊斯尼</char>人<char style="pn">亞底挪</char>，是三勇士之首，曾在一次交戰中殺掉八百敵人。<verse eid="2SA 23:8"/></para>
+  <para style="p">
+    <verse number="9" style="v" sid="2SA 23:9"/>其次是<char style="pn">亞哈希</char>人<char style="pn">朵多</char>的兒子<char style="pn">以利亞撒</char>，他是三勇士之一。有一次，<char style="pn">以色列</char>人和<char style="pn">非利士</char>人打仗，他跟隨<char style="pn">大衛</char>向<char style="pn">非利士</char>人罵陣。<char style="pn">以色列</char>人都撤退了， <verse eid="2SA 23:9"/><verse number="10" style="v" sid="2SA 23:10"/>他卻堅守陣地，奮勇殺敵，直到手臂發麻，握刀的手無法鬆開。那天，耶和華使<char style="pn">以色列</char>人大獲全勝。<char style="pn">以色列</char>軍隊回到<char style="pn">以利亞撒</char>那裡來撿死人的財物。 <verse eid="2SA 23:10"/><verse number="11" style="v" sid="2SA 23:11"/>第三位勇士是<char style="pn">哈拉</char>人<char style="pn">亞基</char>的兒子<char style="pn">沙瑪</char>。有一次<char style="pn">非利士</char>人聚集在一塊長滿扁豆的田中和<char style="pn">以色列</char>人打仗，<char style="pn">以色列</char>人都逃跑了， <verse eid="2SA 23:11"/><verse number="12" style="v" sid="2SA 23:12"/><char style="pn">沙瑪</char>卻站在田中間堅守麥田，擊殺<char style="pn">非利士</char>人。耶和華使<char style="pn">以色列</char>人大獲全勝。<verse eid="2SA 23:12"/></para>
+  <para style="p">
+    <verse number="13" style="v" sid="2SA 23:13"/>在收割的時候，<char style="pn">非利士</char>軍隊在<char style="pn">利乏音</char>谷紮營，三十位統領中有三位到<char style="pn">亞杜蘭</char>洞見<char style="pn">大衛</char>。 <verse eid="2SA 23:13"/><verse number="14" style="v" sid="2SA 23:14"/>那時<char style="pn">大衛</char>留守在堡壘裡，<char style="pn">非利士</char>人的駐軍在<char style="pn">伯利恆</char>。 <verse eid="2SA 23:14"/><verse number="15" style="v" sid="2SA 23:15"/><char style="pn">大衛</char>渴了，說：「但願有人給我打些<char style="pn">伯利恆</char>城門旁的井水喝！」 <verse eid="2SA 23:15"/><verse number="16" style="v" sid="2SA 23:16"/>這三位勇士就衝過<char style="pn">非利士</char>人的營地，到<char style="pn">伯利恆</char>城門旁的井打水，帶回來給<char style="pn">大衛</char>。<char style="pn">大衛</char>卻不肯喝，他把水澆奠在耶和華面前， <verse eid="2SA 23:16"/><verse number="17" style="v" sid="2SA 23:17"/>說：「耶和華啊！這三人冒死去打水，這些水就像是他們的血，我決不能喝！」因此，<char style="pn">大衛</char>不肯喝。這是三勇士的事蹟。<verse eid="2SA 23:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="2SA 23:18"/>
+    <char style="pn">洗魯雅</char>的兒子、<char style="pn">約押</char>的兄弟<char style="pn">亞比篩</char>是這三位<note caller="+" style="f"><char style="fr" closed="false">23·18 </char><char style="ft" closed="false">「三位」有些希伯來文抄本作「三十位」。</char></note>勇士的統領，他曾揮矛刺死三百人，在三勇士中出了名， <verse eid="2SA 23:18"/><verse number="19" style="v" sid="2SA 23:19"/>最有聲望，因此做了他們的統領，只是不及前三位勇士。<verse eid="2SA 23:19"/></para>
+  <para style="p">
+    <verse number="20" style="v" sid="2SA 23:20"/>
+    <char style="pn">甲薛</char>人<char style="pn">耶何耶大</char>的兒子<char style="pn">比拿雅</char>是位勇士，做過非凡的事。他曾殺死<char style="pn">摩押</char>的兩個勇猛戰士，也曾在下雪天跳進坑中殺死一頭獅子， <verse eid="2SA 23:20"/><verse number="21" style="v" sid="2SA 23:21"/>還殺死了一個<char style="pn">埃及</char>勇士。當時<char style="pn">埃及</char>人拿著長矛，<char style="pn">比拿雅</char>拿著棍子迎戰，他奪了對方的長矛，用那矛刺死了對方。 <verse eid="2SA 23:21"/><verse number="22" style="v" sid="2SA 23:22"/>這是<char style="pn">耶何耶大</char>的兒子<char style="pn">比拿雅</char>的事蹟，他像那三位勇士一樣贏得了名聲。 <verse eid="2SA 23:22"/><verse number="23" style="v" sid="2SA 23:23"/>他比那三十勇士更有聲望，只是不及前三位勇士。<char style="pn">大衛</char>派他作護衛長。<verse eid="2SA 23:23"/></para>
+  <para style="p">
+    <verse number="24" style="v" sid="2SA 23:24"/>三十位勇士中有：<char style="pn">約押</char>的兄弟<char style="pn">亞撒黑</char>、<char style="pn">伯利恆</char>人<char style="pn">朵多</char>的兒子<char style="pn">伊勒哈難</char>、 <verse eid="2SA 23:24"/><verse number="25" style="v" sid="2SA 23:25"/><char style="pn">哈律</char>人<char style="pn">沙瑪</char>、<char style="pn">哈律</char>人<char style="pn">以利加</char>、 <verse eid="2SA 23:25"/><verse number="26" style="v" sid="2SA 23:26"/><char style="pn">帕勒提</char>人<char style="pn">希利斯</char>、<char style="pn">提哥亞</char>人<char style="pn">益吉</char>的兒子<char style="pn">以拉</char>、 <verse eid="2SA 23:26"/><verse number="27" style="v" sid="2SA 23:27"/><char style="pn">亞拿突</char>人<char style="pn">亞比以謝</char>、<char style="pn">戶沙</char>人<char style="pn">米本乃</char>、 <verse eid="2SA 23:27"/><verse number="28" style="v" sid="2SA 23:28"/><char style="pn">亞哈希</char>人<char style="pn">撒們</char>、<char style="pn">尼陀法</char>人<char style="pn">瑪哈萊</char>、 <verse eid="2SA 23:28"/><verse number="29" style="v" sid="2SA 23:29"/><char style="pn">尼陀法</char>人<char style="pn">巴拿</char>的兒子<char style="pn">希立</char>、<char style="pn">便雅憫</char>支派<char style="pn">基比亞</char>人<char style="pn">利拜</char>的兒子<char style="pn">以太</char>、 <verse eid="2SA 23:29"/><verse number="30" style="v" sid="2SA 23:30"/><char style="pn">比拉頓</char>人<char style="pn">比拿雅</char>、<char style="pn">迦實溪</char>人<char style="pn">希太</char>、 <verse eid="2SA 23:30"/><verse number="31" style="v" sid="2SA 23:31"/><char style="pn">伯·亞拉巴</char>人<char style="pn">亞比亞本</char>、<char style="pn">巴魯米</char>人<char style="pn">押斯瑪弗</char>、 <verse eid="2SA 23:31"/><verse number="32" style="v" sid="2SA 23:32"/><char style="pn">沙本</char>人<char style="pn">以利雅哈巴</char>、<char style="pn">雅善</char>的兒子們、<char style="pn">哈拉</char>人<char style="pn">沙瑪</char>的兒子<char style="pn">約拿單</char>、 <verse eid="2SA 23:32"/><verse number="33" style="v" sid="2SA 23:33"/><char style="pn">哈拉</char>人<char style="pn">沙拉</char>的兒子<char style="pn">亞希暗</char>、 <verse eid="2SA 23:33"/><verse number="34" style="v" sid="2SA 23:34"/><char style="pn">瑪迦</char>人<char style="pn">亞哈拜</char>的兒子<char style="pn">以利法列</char>、<char style="pn">基羅</char>人<char style="pn">亞希多弗</char>的兒子<char style="pn">以連</char>、 <verse eid="2SA 23:34"/><verse number="35" style="v" sid="2SA 23:35"/><char style="pn">迦密</char>人<char style="pn">希斯萊</char>、<char style="pn">亞巴</char>人<char style="pn">帕萊</char>、 <verse eid="2SA 23:35"/><verse number="36" style="v" sid="2SA 23:36"/><char style="pn">瑣巴</char>人<char style="pn">拿單</char>的兒子<char style="pn">以甲</char>、<char style="pn">迦得</char>人<char style="pn">巴尼</char>、 <verse eid="2SA 23:36"/><verse number="37" style="v" sid="2SA 23:37"/><char style="pn">亞捫</char>人<char style="pn">洗勒</char>、為<char style="pn">洗魯雅</char>的兒子<char style="pn">約押</char>拿兵器的<char style="pn">比錄</char>人<char style="pn">拿哈萊</char>、 <verse eid="2SA 23:37"/><verse number="38" style="v" sid="2SA 23:38"/><char style="pn">以帖</char>人<char style="pn">以拉</char>、<char style="pn">以帖</char>人<char style="pn">迦立</char>、 <verse eid="2SA 23:38"/><verse number="39" style="v" sid="2SA 23:39"/><char style="pn">赫</char>人<char style="pn">烏利亞</char>，共三十七名勇士。<verse eid="2SA 23:39"/></para>
+  <chapter eid="2SA 23"/>
+  <chapter number="24" style="c" sid="2SA 24"/>
+  <para style="s1">大衛統計人口</para>
+  <para style="p">
+    <verse number="1" style="v" sid="2SA 24:1"/>耶和華又向<char style="pn">以色列</char>人發怒，祂促使<char style="pn">大衛</char>來對付他們，讓<char style="pn">大衛</char>統計<char style="pn">以色列</char>和<char style="pn">猶大</char>的人口。 <verse eid="2SA 24:1"/><verse number="2" style="v" sid="2SA 24:2"/><char style="pn">大衛</char>對統領軍隊的<char style="pn">約押</char>說：「你去走遍<char style="pn">以色列</char>各支派，從<char style="pn">但</char>到<char style="pn">別示巴</char>，統計<char style="pn">以色列</char>和<char style="pn">猶大</char>的人口，讓我知道國民的數目。」 <verse eid="2SA 24:2"/><verse number="3" style="v" sid="2SA 24:3"/><char style="pn">約押</char>說：「我主我王，願你的上帝耶和華使國民的人數比現在增加百倍，讓你親眼看到。但我主我王為什麼要做這事呢？」 <verse eid="2SA 24:3"/><verse number="4" style="v" sid="2SA 24:4"/>但<char style="pn">大衛</char>不聽<char style="pn">約押</char>和其他將領的規勸。他們只好去統計<char style="pn">以色列</char>的人數。 <verse eid="2SA 24:4"/><verse number="5" style="v" sid="2SA 24:5"/>他們過了<char style="pn">約旦</char>河，在谷中<char style="pn">亞羅珥</char>城南面安營，又經過<char style="pn">迦得</char>前往<char style="pn">雅謝</char>。 <verse eid="2SA 24:5"/><verse number="6" style="v" sid="2SA 24:6"/>然後，他們到<char style="pn">基列</char>、<char style="pn">他停·合示</char>地區、<char style="pn">但·雅安</char>，繞到<char style="pn">西頓</char>， <verse eid="2SA 24:6"/><verse number="7" style="v" sid="2SA 24:7"/>再去<char style="pn">泰爾</char>的堡壘及<char style="pn">希未</char>人和<char style="pn">迦南</char>人的城邑。最後，他們到了<char style="pn">猶大</char>南部的<char style="pn">別示巴</char>。 <verse eid="2SA 24:7"/><verse number="8" style="v" sid="2SA 24:8"/>他們花了九個月零二十天的時間，走遍全國，最後回到<char style="pn">耶路撒冷</char>。 <verse eid="2SA 24:8"/><verse number="9" style="v" sid="2SA 24:9"/><char style="pn">約押</char>把統計的人數奏告王：「<char style="pn">以色列</char>有八十萬英勇的刀兵，<char style="pn">猶大</char>有五十萬。」<verse eid="2SA 24:9"/></para>
+  <para style="p">
+    <verse number="10" style="v" sid="2SA 24:10"/>
+    <char style="pn">大衛</char>統計了人口以後，內心不安，就對耶和華說：「我做這事犯了大罪。耶和華啊，求你赦免僕人的罪，我做了極其愚昧的事。」 <verse eid="2SA 24:10"/><verse number="11" style="v" sid="2SA 24:11"/><char style="pn">大衛</char>第二天早上起來，耶和華對<char style="pn">大衛</char>的先見<char style="pn">迦得</char>先知說： <verse eid="2SA 24:11"/><verse number="12" style="v" sid="2SA 24:12"/>「你去告訴<char style="pn">大衛</char>，耶和華說，『我有三樣災禍，你可以選擇讓我降哪一樣給你。』」 <verse eid="2SA 24:12"/><verse number="13" style="v" sid="2SA 24:13"/><char style="pn">迦得</char>就來見<char style="pn">大衛</char>，對他說：「你願意國內有七年饑荒呢？還是被敵人追殺三個月呢？還是國內發生三天瘟疫呢？請你考慮好後告訴我，我好回覆那差我來的。」 <verse eid="2SA 24:13"/><verse number="14" style="v" sid="2SA 24:14"/><char style="pn">大衛</char>說：「我實在為難！不過我寧願落在耶和華的手中，也不願落在人的手中，因為耶和華有極大的憐憫。」<verse eid="2SA 24:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="2SA 24:15"/>於是，耶和華在<char style="pn">以色列</char>降下瘟疫，從那天早晨一直持續到所定的時間，從<char style="pn">但</char>到<char style="pn">別示巴</char>共有七萬人死亡。 <verse eid="2SA 24:15"/><verse number="16" style="v" sid="2SA 24:16"/>當天使準備伸手毀滅<char style="pn">耶路撒冷</char>的時候，耶和華心生憐憫，就對滅命天使說：「夠了，住手吧！」當時，耶和華的天使正站在<char style="pn">耶布斯</char>人<char style="pn">亞勞拿</char>的麥場上。 <verse eid="2SA 24:16"/><verse number="17" style="v" sid="2SA 24:17"/><char style="pn">大衛</char>看見滅命天使，就對耶和華說：「是我犯了罪，做了惡事，這些百姓有什麼過錯呢？願你的手懲罰我和我的家族。」<verse eid="2SA 24:17"/></para>
+  <para style="p">
+    <verse number="18" style="v" sid="2SA 24:18"/>就在那天，<char style="pn">迦得</char>來見<char style="pn">大衛</char>，對他說：「你要去<char style="pn">耶布斯</char>人<char style="pn">亞勞拿</char>的麥場，在那裡為耶和華建一座壇。」 <verse eid="2SA 24:18"/><verse number="19" style="v" sid="2SA 24:19"/><char style="pn">大衛</char>就照耶和華藉<char style="pn">迦得</char>所說的話去了麥場。 <verse eid="2SA 24:19"/><verse number="20" style="v" sid="2SA 24:20"/><char style="pn">亞勞拿</char>看見王及他的臣僕來了，就上前俯伏在地，向王下拜， <verse eid="2SA 24:20"/><verse number="21" style="v" sid="2SA 24:21"/>說：「我主我王到僕人這裡有什麼事？」<char style="pn">大衛</char>說：「我要買你的麥場，好在這裡為耶和華築一座壇，使民中的瘟疫止息。」 <verse eid="2SA 24:21"/><verse number="22" style="v" sid="2SA 24:22"/><char style="pn">亞勞拿</char>說：「我主我王喜歡什麼，就拿去獻祭吧。這裡有牛可以作燔祭，還有打麥的器具和牛軛可以作柴。 <verse eid="2SA 24:22"/><verse number="23" style="v" sid="2SA 24:23"/>王啊，僕人<char style="pn">亞勞拿</char>願意把這一切都獻給你，願你的上帝耶和華悅納你。」 <verse eid="2SA 24:23"/><verse number="24" style="v" sid="2SA 24:24"/>王卻說：「不可，我一定要出錢買，我不要用白白得來之物作為燔祭獻給我的上帝耶和華。」<char style="pn">大衛</char>就用十兩銀子買了<char style="pn">亞勞拿</char>的麥場和牛。 <verse eid="2SA 24:24"/><verse number="25" style="v" sid="2SA 24:25"/><char style="pn">大衛</char>在那裡為耶和華建了一座壇，獻上燔祭和平安祭，耶和華垂聽了他的禱告，瘟疫就在<char style="pn">以色列</char>止住了。<verse eid="2SA 24:25"/></para>
+  <chapter eid="2SA 24"/>
+</usx>
