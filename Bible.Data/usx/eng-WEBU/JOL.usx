@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="JOL" style="id">29-JOL-web.sfm World English Bible (WEB)</book>
+  <para style="ide">UTF-8</para>
+  <para style="h">Joel</para>
+  <para style="toc1">The Book of Joel</para>
+  <para style="toc2">Joel</para>
+  <para style="toc3">Jol</para>
+  <para style="mt2">The Book of</para>
+  <para style="mt1">Joel</para>
+  <chapter number="1" style="c" sid="JOL 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="JOL 1:1" />
+    <char style="w" strong="H3068">Yahweh</char>’s<note caller="+" style="f"><char style="fr" closed="false">1:1 </char><char style="ft" closed="false">“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.</char></note> <char style="w" strong="H1697">word</char> <char style="w" strong="H3068">that</char> <char style="w" strong="H1961">came</char> <char style="w" strong="H3068">to</char> <char style="w" strong="H3100">Joel</char>, <char style="w" strong="H3068">the</char> <char style="w" strong="H1121">son</char> <char style="w" strong="H1121">of</char> <char style="w" strong="H6602">Pethuel</char>.<verse eid="JOL 1:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOL 1:2" />
+    <char style="w" strong="H8085">Hear</char> <char style="w" strong="H2063">this</char>, <char style="w" strong="H3605">you</char> <char style="w" strong="H2205">elders</char>,</para>
+  <para style="q2" vid="JOL 1:2">
+    <char style="w" strong="H3117">and</char> <char style="w" strong="H8085">listen</char>, <char style="w" strong="H3605">all</char> <char style="w" strong="H3605">you</char> <char style="w" strong="H3427">inhabitants</char> <char style="w" strong="H3117">of</char> <char style="w" strong="H3605">the</char> land!</para>
+  <para style="q1" vid="JOL 1:2">
+    <char style="w" strong="H1961">Has</char> <char style="w" strong="H2063">this</char> <char style="w" strong="H3117">ever</char> <char style="w" strong="H1961">happened</char> <char style="w" strong="H3427">in</char> <char style="w" strong="H3605">your</char> <char style="w" strong="H3117">days</char>,</para>
+  <para style="q2" vid="JOL 1:2">
+    <char style="w" strong="H8085">or</char> <char style="w" strong="H3427">in</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H3117">days</char> <char style="w" strong="H3117">of</char> <char style="w" strong="H3605">your</char> fathers?<verse eid="JOL 1:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOL 1:3" />
+    <char style="w" strong="H5608">Tell</char> <char style="w" strong="H5921">your</char> <char style="w" strong="H1121">children</char> <char style="w" strong="H5921">about</char> <char style="w" strong="H5921">it</char>,</para>
+  <para style="q2" vid="JOL 1:3">
+    <char style="w" strong="H1121">and</char> <char style="w" strong="H1121">have</char> <char style="w" strong="H5921">your</char> <char style="w" strong="H1121">children</char> <char style="w" strong="H5608">tell</char> <char style="w" strong="H5921">their</char> <char style="w" strong="H1121">children</char>,</para>
+  <para style="q2" vid="JOL 1:3">
+    <char style="w" strong="H1121">and</char> <char style="w" strong="H5921">their</char> <char style="w" strong="H1121">children</char>, <char style="w" strong="H1755">another</char> <char style="w" strong="H1755">generation</char>.<verse eid="JOL 1:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOL 1:4" />
+    <char style="w" strong="H3499">What</char> <char style="w" strong="H3499">the</char> swarming <char style="w" strong="H3218">locust</char> <char style="w" strong="H3218">has</char> <char style="w" strong="H3499">left</char>, <char style="w" strong="H3499">the</char> great <char style="w" strong="H3218">locust</char> <char style="w" strong="H3218">has</char> eaten.</para>
+  <para style="q2" vid="JOL 1:4">
+    <char style="w" strong="H3499">What</char> <char style="w" strong="H3499">the</char> great <char style="w" strong="H3218">locust</char> <char style="w" strong="H3218">has</char> <char style="w" strong="H3499">left</char>, <char style="w" strong="H3499">the</char> <char style="w" strong="H2625">grasshopper</char> <char style="w" strong="H3218">has</char> eaten.</para>
+  <para style="q2" vid="JOL 1:4">
+    <char style="w" strong="H3499">What</char> <char style="w" strong="H3499">the</char> <char style="w" strong="H2625">grasshopper</char> <char style="w" strong="H3218">has</char> <char style="w" strong="H3499">left</char>, <char style="w" strong="H3499">the</char> <char style="w" strong="H2625">caterpillar</char> <char style="w" strong="H3218">has</char> eaten.<verse eid="JOL 1:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOL 1:5" />
+    <char style="w" strong="H6974">Wake</char> <char style="w" strong="H5921">up</char>, <char style="w" strong="H3588">you</char> <char style="w" strong="H7910">drunkards</char>, <char style="w" strong="H8354">and</char> <char style="w" strong="H1058">weep</char>!</para>
+  <para style="q2" vid="JOL 1:5">
+    <char style="w" strong="H3213">Wail</char>, <char style="w" strong="H3605">all</char> <char style="w" strong="H3588">you</char> <char style="w" strong="H8354">drinkers</char> <char style="w" strong="H6310">of</char> <char style="w" strong="H3196">wine</char>, <char style="w" strong="H3588">because</char> <char style="w" strong="H6310">of</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H6071">sweet</char> <char style="w" strong="H3196">wine</char>,</para>
+  <para style="q2" vid="JOL 1:5">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H5921">it</char> <char style="w" strong="H3605">is</char> <char style="w" strong="H3772">cut</char> <char style="w" strong="H3772">off</char> <char style="w" strong="H3772">from</char> <char style="w" strong="H3605">your</char> <char style="w" strong="H6310">mouth</char>.<verse eid="JOL 1:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOL 1:6" />
+    <char style="w" strong="H3588">For</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H1471">nation</char> <char style="w" strong="H3588">has</char> <char style="w" strong="H5927">come</char> <char style="w" strong="H5927">up</char> <char style="w" strong="H5921">on</char> <char style="w" strong="H5921">my</char> land, <char style="w" strong="H6099">strong</char>, <char style="w" strong="H1471">and</char> <char style="w" strong="H3588">without</char> <char style="w" strong="H4557">number</char>.</para>
+  <para style="q2" vid="JOL 1:6">
+    <char style="w" strong="H5921">His</char> <char style="w" strong="H8127">teeth</char> <char style="w" strong="H1471">are</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H8127">teeth</char> <char style="w" strong="H4557">of</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H3833">lion</char>,</para>
+  <para style="q2" vid="JOL 1:6">
+    <char style="w" strong="H1471">and</char> <char style="w" strong="H3588">he</char> <char style="w" strong="H3588">has</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H4973">fangs</char> <char style="w" strong="H4557">of</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H3833">lioness</char>.<verse eid="JOL 1:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOL 1:7" />
+    <char style="w" strong="H7760">He</char> <char style="w" strong="H8384">has</char> <char style="w" strong="H7760">laid</char> <char style="w" strong="H7760">my</char> <char style="w" strong="H1612">vine</char> <char style="w" strong="H8047">waste</char>,</para>
+  <para style="q2" vid="JOL 1:7">
+    <char style="w" strong="H1612">and</char> <char style="w" strong="H2834">stripped</char> <char style="w" strong="H7760">my</char> <char style="w" strong="H8384">fig</char> <char style="w" strong="H8384">tree</char>.</para>
+  <para style="q2" vid="JOL 1:7">
+    <char style="w" strong="H7760">He</char> <char style="w" strong="H8384">has</char> <char style="w" strong="H2834">stripped</char> <char style="w" strong="H7760">its</char> bark, <char style="w" strong="H1612">and</char> <char style="w" strong="H7993">thrown</char> <char style="w" strong="H7760">it</char> <char style="w" strong="H7993">away</char>.</para>
+  <para style="q2" vid="JOL 1:7">
+    <char style="w" strong="H7760">Its</char> <char style="w" strong="H8299">branches</char> <char style="w" strong="H8299">are</char> <char style="w" strong="H7760">made</char> <char style="w" strong="H3835">white</char>.<verse eid="JOL 1:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOL 1:8" />
+    <char style="w" strong="H5921">Mourn</char> <char style="w" strong="H5921">like</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H1330">virgin</char> <char style="w" strong="H2296">dressed</char> <char style="w" strong="H5921">in</char> <char style="w" strong="H8242">sackcloth</char></para>
+  <para style="q2" vid="JOL 1:8">
+    <char style="w" strong="H5921">for</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H1167">husband</char> <char style="w" strong="H5921">of</char> <char style="w" strong="H5921">her</char> <char style="w" strong="H5271">youth</char>!<verse eid="JOL 1:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOL 1:9" />
+    <char style="w" strong="H3068">The</char> <char style="w" strong="H4503">meal</char> <char style="w" strong="H4503">offering</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">the</char> <char style="w" strong="H5262">drink</char> <char style="w" strong="H4503">offering</char> <char style="w" strong="H3068">are</char> <char style="w" strong="H3772">cut</char> <char style="w" strong="H3772">off</char> <char style="w" strong="H3772">from</char> <char style="w" strong="H3068">Yahweh</char>’s <char style="w" strong="H1004">house</char>.</para>
+  <para style="q2" vid="JOL 1:9">
+    <char style="w" strong="H3068">The</char> <char style="w" strong="H3548">priests</char>, <char style="w" strong="H3068">Yahweh</char>’s <char style="w" strong="H8334">ministers</char>, mourn.<verse eid="JOL 1:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOL 1:10" />
+    <char style="w" strong="H3588">The</char> <char style="w" strong="H7704">field</char> <char style="w" strong="H7704">is</char> laid <char style="w" strong="H7703">waste</char>.</para>
+  <para style="q2" vid="JOL 1:10">
+    <char style="w" strong="H3588">The</char> <char style="w" strong="H7704">land</char> mourns, <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H1715">grain</char> <char style="w" strong="H7704">is</char> <char style="w" strong="H7703">destroyed</char>,</para>
+  <para style="q2" vid="JOL 1:10">
+    <char style="w" strong="H3588">The</char> <char style="w" strong="H8492">new</char> <char style="w" strong="H8492">wine</char> <char style="w" strong="H3588">has</char> <char style="w" strong="H3001">dried</char> <char style="w" strong="H3001">up</char>,</para>
+  <para style="q2" vid="JOL 1:10">
+    <char style="w" strong="H7704">and</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H3323">oil</char> languishes.<verse eid="JOL 1:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOL 1:11" />
+    <char style="w" strong="H3588">Be</char> confounded, <char style="w" strong="H3588">you</char> farmers!</para>
+  <para style="q2" vid="JOL 1:11">
+    <char style="w" strong="H3213">Wail</char>, <char style="w" strong="H3588">you</char> vineyard keepers,</para>
+  <para style="q2" vid="JOL 1:11">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H2406">wheat</char> <char style="w" strong="H7704">and</char> <char style="w" strong="H3588">for</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H8184">barley</char>;</para>
+  <para style="q2" vid="JOL 1:11">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H7105">harvest</char> <char style="w" strong="H7704">of</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H7704">field</char> <char style="w" strong="H3588">has</char> perished.<verse eid="JOL 1:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOL 1:12" />
+    <char style="w" strong="H3605">The</char> <char style="w" strong="H1612">vine</char> <char style="w" strong="H1571">has</char> <char style="w" strong="H3001">dried</char> <char style="w" strong="H3001">up</char>, <char style="w" strong="H1121">and</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H8384">fig</char> <char style="w" strong="H6086">tree</char> <char style="w" strong="H3001">withered</char>—</para>
+  <para style="q2" vid="JOL 1:12">
+    <char style="w" strong="H3605">the</char> <char style="w" strong="H7416">pomegranate</char> <char style="w" strong="H6086">tree</char>, <char style="w" strong="H3605">the</char> <char style="w" strong="H8558">palm</char> <char style="w" strong="H6086">tree</char> <char style="w" strong="H1571">also</char>, <char style="w" strong="H1121">and</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H8598">apple</char> <char style="w" strong="H6086">tree</char>,</para>
+  <para style="q2" vid="JOL 1:12">
+    <char style="w" strong="H1571">even</char> <char style="w" strong="H3605">all</char> <char style="w" strong="H1121">of</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H6086">trees</char> <char style="w" strong="H1121">of</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H7704">field</char> <char style="w" strong="H1121">are</char> <char style="w" strong="H3001">withered</char>;</para>
+  <para style="q2" vid="JOL 1:12">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H8342">joy</char> <char style="w" strong="H1571">has</char> <char style="w" strong="H3001">withered</char> <char style="w" strong="H4480">away</char> <char style="w" strong="H4480">from</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H1121">sons</char> <char style="w" strong="H1121">of</char> <char style="w" strong="H1121">men</char>.<verse eid="JOL 1:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOL 1:13" />
+    <char style="w" strong="H2296">Put</char> <char style="w" strong="H2296">on</char> <char style="w" strong="H8242">sackcloth</char> <char style="w" strong="H1004">and</char> <char style="w" strong="H5594">mourn</char>, <char style="w" strong="H3588">you</char> <char style="w" strong="H3548">priests</char>!</para>
+  <para style="q2" vid="JOL 1:13">
+    <char style="w" strong="H3213">Wail</char>, <char style="w" strong="H3588">you</char> <char style="w" strong="H8334">ministers</char> <char style="w" strong="H1004">of</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4196">altar</char>.</para>
+  <para style="q1" vid="JOL 1:13">
+    <char style="w" strong="H2296">Come</char>, <char style="w" strong="H3885">lie</char> <char style="w" strong="H3885">all</char> <char style="w" strong="H3885">night</char> <char style="w" strong="H1004">in</char> <char style="w" strong="H8242">sackcloth</char>, <char style="w" strong="H3588">you</char> <char style="w" strong="H8334">ministers</char> <char style="w" strong="H1004">of</char> <char style="w" strong="H3588">my</char> God,<note caller="+" style="f"><char style="fr" closed="false">1:13 </char><char style="ft" closed="false">The Hebrew word rendered “God” is “<char style="wh">אֱלֹהִ֑ים</char>” (Elohim).</char></note></para>
+  <para style="q2" vid="JOL 1:13">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4503">meal</char> <char style="w" strong="H4503">offering</char> <char style="w" strong="H1004">and</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H5262">drink</char> <char style="w" strong="H4503">offering</char> <char style="w" strong="H1004">are</char> <char style="w" strong="H4513">withheld</char> <char style="w" strong="H4513">from</char> <char style="w" strong="H3588">your</char> God’s <char style="w" strong="H1004">house</char>.<verse eid="JOL 1:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOL 1:14" />
+    <char style="w" strong="H6942">Sanctify</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H6685">fast</char>.</para>
+  <para style="q2" vid="JOL 1:14">
+    <char style="w" strong="H7121">Call</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H6116">solemn</char> <char style="w" strong="H6116">assembly</char>.</para>
+  <para style="q2" vid="JOL 1:14">Gather <char style="w" strong="H3605">the</char> <char style="w" strong="H2205">elders</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H3605">all</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H3427">inhabitants</char> <char style="w" strong="H1004">of</char> <char style="w" strong="H3605">the</char> land <char style="w" strong="H3068">to</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H1004">house</char> <char style="w" strong="H1004">of</char> <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H3068">your</char> <char style="w" strong="H3068">God</char>,</para>
+  <para style="q2" vid="JOL 1:14">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H7121">cry</char> <char style="w" strong="H3068">to</char> <char style="w" strong="H3068">Yahweh</char>.<verse eid="JOL 1:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOL 1:15" />Alas <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H3117">day</char>!</para>
+  <para style="q2" vid="JOL 1:15">
+    <char style="w" strong="H3588">For</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H3117">day</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3068">Yahweh</char> <char style="w" strong="H3068">is</char> <char style="w" strong="H3068">at</char> <char style="w" strong="H7138">hand</char>,</para>
+  <para style="q2" vid="JOL 1:15">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H3588">it</char> <char style="w" strong="H3068">will</char> come <char style="w" strong="H3117">as</char> <char style="w" strong="H7701">destruction</char> <char style="w" strong="H3117">from</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H7706">Almighty</char>.<verse eid="JOL 1:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOL 1:16" />Isn’t <char style="w" strong="H3772">the</char> <char style="w" strong="H1004">food</char> <char style="w" strong="H3772">cut</char> <char style="w" strong="H3772">off</char> <char style="w" strong="H5048">before</char> <char style="w" strong="H5048">our</char> <char style="w" strong="H5869">eyes</char>,</para>
+  <para style="q2" vid="JOL 1:16">
+    <char style="w" strong="H8057">joy</char> <char style="w" strong="H1004">and</char> <char style="w" strong="H8057">gladness</char> <char style="w" strong="H3772">from</char> <char style="w" strong="H3772">the</char> <char style="w" strong="H1004">house</char> <char style="w" strong="H1004">of</char> <char style="w" strong="H5048">our</char> <char style="w" strong="H3808">God</char>?<verse eid="JOL 1:16" /></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOL 1:17" />
+    <char style="w" strong="H3588">The</char> <char style="w" strong="H6507">seeds</char> rot <char style="w" strong="H8478">under</char> <char style="w" strong="H3588">their</char> <char style="w" strong="H4053">clods</char>.</para>
+  <para style="q2" vid="JOL 1:17">
+    <char style="w" strong="H3588">The</char> granaries <char style="w" strong="H8074">are</char> <char style="w" strong="H8074">laid</char> <char style="w" strong="H8074">desolate</char>.</para>
+  <para style="q2" vid="JOL 1:17">
+    <char style="w" strong="H3588">The</char> <char style="w" strong="H4460">barns</char> <char style="w" strong="H8074">are</char> <char style="w" strong="H2040">broken</char> <char style="w" strong="H2040">down</char>, <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H1715">grain</char> <char style="w" strong="H3588">has</char> <char style="w" strong="H3001">withered</char>.<verse eid="JOL 1:17" /></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOL 1:18" />
+    <char style="w" strong="H4100">How</char> <char style="w" strong="H3588">the</char> animals groan!</para>
+  <para style="q2" vid="JOL 1:18">
+    <char style="w" strong="H3588">The</char> <char style="w" strong="H1241">herds</char> <char style="w" strong="H6629">of</char> livestock <char style="w" strong="H1992">are</char> perplexed, <char style="w" strong="H3588">because</char> <char style="w" strong="H1992">they</char> <char style="w" strong="H1571">have</char> no <char style="w" strong="H4829">pasture</char>.</para>
+  <para style="q2" vid="JOL 1:18">
+    <char style="w" strong="H3588">Yes</char>, <char style="w" strong="H3588">the</char> <char style="w" strong="H6629">flocks</char> <char style="w" strong="H6629">of</char> <char style="w" strong="H6629">sheep</char> <char style="w" strong="H1992">are</char> <char style="w" strong="H1571">made</char> desolate.<verse eid="JOL 1:18" /></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOL 1:19" />
+    <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H3588">I</char> <char style="w" strong="H7121">cry</char> <char style="w" strong="H3068">to</char> <char style="w" strong="H3588">you</char>,</para>
+  <para style="q2" vid="JOL 1:19">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H3857">fire</char> <char style="w" strong="H3068">has</char> devoured <char style="w" strong="H3605">the</char> <char style="w" strong="H4999">pastures</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H4057">wilderness</char>,</para>
+  <para style="q2" vid="JOL 1:19">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H3852">flame</char> <char style="w" strong="H3068">has</char> <char style="w" strong="H3857">burned</char> <char style="w" strong="H3605">all</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H6086">trees</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H7704">field</char>.<verse eid="JOL 1:19" /></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOL 1:20" />
+    <char style="w" strong="H3588">Yes</char>, <char style="w" strong="H3588">the</char> animals <char style="w" strong="H4325">of</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H7704">field</char> <char style="w" strong="H6165">pant</char> <char style="w" strong="H4325">to</char> <char style="w" strong="H3588">you</char>,</para>
+  <para style="q2" vid="JOL 1:20">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4325">water</char> brooks <char style="w" strong="H1571">have</char> <char style="w" strong="H3001">dried</char> <char style="w" strong="H3001">up</char>,</para>
+  <para style="q2" vid="JOL 1:20">
+    <char style="w" strong="H7704">and</char> <char style="w" strong="H3588">the</char> fire <char style="w" strong="H1571">has</char> devoured <char style="w" strong="H3588">the</char> <char style="w" strong="H4999">pastures</char> <char style="w" strong="H4325">of</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4057">wilderness</char>.<verse eid="JOL 1:20" /></para>
+  <para style="b" />
+  <chapter eid="JOL 1" />
+  <chapter number="2" style="c" sid="JOL 2" />
+  <para style="q1">
+    <verse number="1" style="v" sid="JOL 2:1" />
+    <char style="w" strong="H8628">Blow</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H7782">trumpet</char> <char style="w" strong="H3427">in</char> <char style="w" strong="H6726">Zion</char>,</para>
+  <para style="q2" vid="JOL 2:1">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H7321">sound</char> <char style="w" strong="H8628">an</char> <char style="w" strong="H7321">alarm</char> <char style="w" strong="H3427">in</char> <char style="w" strong="H3605">my</char> <char style="w" strong="H6944">holy</char> <char style="w" strong="H2022">mountain</char>!</para>
+  <para style="q1" vid="JOL 2:1">Let <char style="w" strong="H3605">all</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H3427">inhabitants</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3605">the</char> land <char style="w" strong="H7264">tremble</char>,</para>
+  <para style="q2" vid="JOL 2:1">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H3117">day</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3068">Yahweh</char> <char style="w" strong="H3117">comes</char>,</para>
+  <para style="q2" vid="JOL 2:1">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">it</char> <char style="w" strong="H3068">is</char> <char style="w" strong="H7138">close</char> <char style="w" strong="H3427">at</char> <char style="w" strong="H7138">hand</char>:<verse eid="JOL 2:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOL 2:2" />
+    <char style="w" strong="H3068">A</char> <char style="w" strong="H3117">day</char> <char style="w" strong="H3117">of</char> <char style="w" strong="H2822">darkness</char> <char style="w" strong="H3117">and</char> gloominess,</para>
+  <para style="q2" vid="JOL 2:2">
+    <char style="w" strong="H3068">a</char> <char style="w" strong="H3117">day</char> <char style="w" strong="H3117">of</char> <char style="w" strong="H6051">clouds</char> <char style="w" strong="H3117">and</char> <char style="w" strong="H6205">thick</char> <char style="w" strong="H2822">darkness</char>.</para>
+  <para style="q1" vid="JOL 2:2">
+    <char style="w" strong="H5704">As</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H7837">dawn</char> <char style="w" strong="H6566">spreading</char> <char style="w" strong="H5921">on</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H2022">mountains</char>,</para>
+  <para style="q2" vid="JOL 2:2">
+    <char style="w" strong="H3068">a</char> <char style="w" strong="H7227">great</char> <char style="w" strong="H3117">and</char> <char style="w" strong="H6099">strong</char> <char style="w" strong="H5971">people</char>;</para>
+  <para style="q2" vid="JOL 2:2">
+    <char style="w" strong="H1961">there</char> <char style="w" strong="H1961">has</char> <char style="w" strong="H3808">never</char> <char style="w" strong="H1961">been</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H3644">like</char>,</para>
+  <para style="q2" vid="JOL 2:2">
+    <char style="w" strong="H3808">neither</char> <char style="w" strong="H1961">will</char> <char style="w" strong="H1961">there</char> <char style="w" strong="H1961">be</char> <char style="w" strong="H4480">any</char> <char style="w" strong="H3254">more</char> <char style="w" strong="H4480">after</char> <char style="w" strong="H5921">them</char>,</para>
+  <para style="q2" vid="JOL 2:2">
+    <char style="w" strong="H5704">even</char> <char style="w" strong="H5704">to</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H8141">years</char> <char style="w" strong="H3117">of</char> <char style="w" strong="H7227">many</char> <char style="w" strong="H1755">generations</char>.<verse eid="JOL 2:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="JOL 2:3" />
+    <char style="w" strong="H3068">A</char> <char style="w" strong="H3857">fire</char> devours <char style="w" strong="H6440">before</char> <char style="w" strong="H6440">them</char>,</para>
+  <para style="q2" vid="JOL 2:3">
+    <char style="w" strong="H6440">and</char> behind <char style="w" strong="H6440">them</char>, <char style="w" strong="H3068">a</char> <char style="w" strong="H3852">flame</char> <char style="w" strong="H3857">burns</char>.</para>
+  <para style="q1" vid="JOL 2:3">
+    <char style="w" strong="H6440">The</char> <char style="w" strong="H6440">land</char> <char style="w" strong="H1571">is</char> <char style="w" strong="H1961">as</char> <char style="w" strong="H6440">the</char> <char style="w" strong="H1588">garden</char> <char style="w" strong="H6440">of</char> <char style="w" strong="H5731">Eden</char> <char style="w" strong="H6440">before</char> <char style="w" strong="H6440">them</char>,</para>
+  <para style="q2" vid="JOL 2:3">
+    <char style="w" strong="H6440">and</char> behind <char style="w" strong="H6440">them</char>, <char style="w" strong="H3068">a</char> <char style="w" strong="H8077">desolate</char> <char style="w" strong="H4057">wilderness</char>.</para>
+  <para style="q1" vid="JOL 2:3">
+    <char style="w" strong="H1571">Yes</char>, <char style="w" strong="H6440">and</char> <char style="w" strong="H3808">no</char> <char style="w" strong="H3808">one</char> <char style="w" strong="H1961">has</char> <char style="w" strong="H6413">escaped</char> <char style="w" strong="H6440">them</char>.<verse eid="JOL 2:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="JOL 2:4" />
+    <char style="w" strong="H3651">Their</char> <char style="w" strong="H4758">appearance</char> <char style="w" strong="H3651">is</char> <char style="w" strong="H3651">as</char> <char style="w" strong="H3651">the</char> <char style="w" strong="H4758">appearance</char> <char style="w" strong="H4758">of</char> <char style="w" strong="H5483">horses</char>,</para>
+  <para style="q2" vid="JOL 2:4">
+    <char style="w" strong="H5483">and</char> <char style="w" strong="H3651">they</char> <char style="w" strong="H7323">run</char> <char style="w" strong="H3651">as</char> <char style="w" strong="H6571">horsemen</char>.<verse eid="JOL 2:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOL 2:5" />
+    <char style="w" strong="H7540">Like</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H6963">noise</char> <char style="w" strong="H2022">of</char> <char style="w" strong="H4818">chariots</char> <char style="w" strong="H5921">on</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H7218">tops</char> <char style="w" strong="H2022">of</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H2022">mountains</char>, <char style="w" strong="H5921">they</char> <char style="w" strong="H7540">leap</char>,</para>
+  <para style="q2" vid="JOL 2:5">
+    <char style="w" strong="H7540">like</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H6963">noise</char> <char style="w" strong="H2022">of</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H3851">flame</char> <char style="w" strong="H2022">of</char> fire <char style="w" strong="H5971">that</char> devours <char style="w" strong="H5921">the</char> <char style="w" strong="H7179">stubble</char>,</para>
+  <para style="q2" vid="JOL 2:5">
+    <char style="w" strong="H7540">like</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H6099">strong</char> <char style="w" strong="H5971">people</char> <char style="w" strong="H6186">set</char> <char style="w" strong="H5921">in</char> <char style="w" strong="H4421">battle</char> <char style="w" strong="H6186">array</char>.<verse eid="JOL 2:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="JOL 2:6" />
+    <char style="w" strong="H6908">At</char> <char style="w" strong="H3605">their</char> <char style="w" strong="H6440">presence</char> <char style="w" strong="H3605">the</char> <char style="w" strong="H5971">peoples</char> <char style="w" strong="H5971">are</char> <char style="w" strong="H6440">in</char> <char style="w" strong="H2342">anguish</char>.</para>
+  <para style="q2" vid="JOL 2:6">
+    <char style="w" strong="H3605">All</char> <char style="w" strong="H6440">faces</char> <char style="w" strong="H5971">have</char> <char style="w" strong="H6908">grown</char> <char style="w" strong="H6289">pale</char>.<verse eid="JOL 2:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOL 2:7" />
+    <char style="w" strong="H3808">They</char> <char style="w" strong="H7323">run</char> <char style="w" strong="H3808">like</char> <char style="w" strong="H1368">mighty</char> <char style="w" strong="H1368">men</char>.</para>
+  <para style="q2" vid="JOL 2:7">
+    <char style="w" strong="H3808">They</char> <char style="w" strong="H5927">climb</char> <char style="w" strong="H5927">the</char> <char style="w" strong="H2346">wall</char> <char style="w" strong="H3808">like</char> <char style="w" strong="H1368">warriors</char>.</para>
+  <para style="q2" vid="JOL 2:7">
+    <char style="w" strong="H3808">They</char> each <char style="w" strong="H3212">march</char> <char style="w" strong="H3212">in</char> <char style="w" strong="H3808">his</char> <char style="w" strong="H1870">line</char>, <char style="w" strong="H3212">and</char> <char style="w" strong="H3808">they</char> don’t swerve <char style="w" strong="H5927">off</char> <char style="w" strong="H1870">course</char>.<verse eid="JOL 2:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOL 2:8" />
+    <char style="w" strong="H3808">One</char> doesn’t <char style="w" strong="H1766">jostle</char> <char style="w" strong="H3808">another</char>.</para>
+  <para style="q2" vid="JOL 2:8">
+    <char style="w" strong="H3808">They</char> each <char style="w" strong="H3212">march</char> <char style="w" strong="H3212">in</char> <char style="w" strong="H5307">their</char> own <char style="w" strong="H4546">path</char>.</para>
+  <para style="q2" vid="JOL 2:8">
+    <char style="w" strong="H3808">They</char> <char style="w" strong="H5307">burst</char> <char style="w" strong="H1157">through</char> <char style="w" strong="H3808">the</char> <char style="w" strong="H7973">defenses</char></para>
+  <para style="q2" vid="JOL 2:8">
+    <char style="w" strong="H3212">and</char> don’t <char style="w" strong="H1214">break</char> <char style="w" strong="H1214">ranks</char>.<verse eid="JOL 2:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="JOL 2:9" />
+    <char style="w" strong="H7323">They</char> <char style="w" strong="H8264">rush</char> <char style="w" strong="H5927">on</char> <char style="w" strong="H5927">the</char> <char style="w" strong="H5892">city</char>.</para>
+  <para style="q2" vid="JOL 2:9">
+    <char style="w" strong="H7323">They</char> <char style="w" strong="H7323">run</char> <char style="w" strong="H5927">on</char> <char style="w" strong="H5927">the</char> <char style="w" strong="H2346">wall</char>.</para>
+  <para style="q2" vid="JOL 2:9">
+    <char style="w" strong="H7323">They</char> <char style="w" strong="H5927">climb</char> <char style="w" strong="H5927">up</char> <char style="w" strong="H5927">into</char> <char style="w" strong="H5927">the</char> <char style="w" strong="H1004">houses</char>.</para>
+  <para style="q2" vid="JOL 2:9">
+    <char style="w" strong="H7323">They</char> <char style="w" strong="H5927">enter</char> <char style="w" strong="H1004">in</char> <char style="w" strong="H1004">at</char> <char style="w" strong="H5927">the</char> <char style="w" strong="H2474">windows</char> <char style="w" strong="H1004">like</char> <char style="w" strong="H1590">thieves</char>.<verse eid="JOL 2:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="JOL 2:10" />
+    <char style="w" strong="H6440">The</char> <char style="w" strong="H8121">earth</char> <char style="w" strong="H7264">quakes</char> <char style="w" strong="H6440">before</char> <char style="w" strong="H6440">them</char>.</para>
+  <para style="q2" vid="JOL 2:10">
+    <char style="w" strong="H6440">The</char> <char style="w" strong="H8064">heavens</char> <char style="w" strong="H7264">tremble</char>.</para>
+  <para style="q2" vid="JOL 2:10">
+    <char style="w" strong="H6440">The</char> <char style="w" strong="H8121">sun</char> <char style="w" strong="H8064">and</char> <char style="w" strong="H6440">the</char> <char style="w" strong="H3394">moon</char> <char style="w" strong="H8064">are</char> <char style="w" strong="H6937">darkened</char>,</para>
+  <para style="q2" vid="JOL 2:10">
+    <char style="w" strong="H8064">and</char> <char style="w" strong="H6440">the</char> <char style="w" strong="H3556">stars</char> withdraw <char style="w" strong="H6440">their</char> <char style="w" strong="H5051">shining</char>.<verse eid="JOL 2:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOL 2:11" />
+    <char style="w" strong="H3068">Yahweh</char> <char style="w" strong="H6963">thunders</char> <char style="w" strong="H5414">his</char> <char style="w" strong="H6963">voice</char> <char style="w" strong="H6440">before</char> <char style="w" strong="H5414">his</char> <char style="w" strong="H4264">army</char>,</para>
+  <para style="q2" vid="JOL 2:11">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H5414">his</char> <char style="w" strong="H4264">forces</char> <char style="w" strong="H3117">are</char> <char style="w" strong="H3966">very</char> <char style="w" strong="H1419">great</char>;</para>
+  <para style="q2" vid="JOL 2:11">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">he</char> <char style="w" strong="H3068">is</char> <char style="w" strong="H6099">strong</char> <char style="w" strong="H4310">who</char> <char style="w" strong="H6963">obeys</char> <char style="w" strong="H5414">his</char> <char style="w" strong="H1697">command</char>;</para>
+  <para style="q2" vid="JOL 2:11">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H6440">the</char> <char style="w" strong="H3117">day</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3068">Yahweh</char> <char style="w" strong="H3068">is</char> <char style="w" strong="H1419">great</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H3966">very</char> <char style="w" strong="H3372">awesome</char>,</para>
+  <para style="q2" vid="JOL 2:11">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H4310">who</char> <char style="w" strong="H4310">can</char> <char style="w" strong="H3557">endure</char> <char style="w" strong="H5414">it</char>?<verse eid="JOL 2:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOL 2:12" />“<char style="w" strong="H1571">Yet</char> <char style="w" strong="H1571">even</char> <char style="w" strong="H6258">now</char>,” <char style="w" strong="H5002">says</char> <char style="w" strong="H3068">Yahweh</char>, “<char style="w" strong="H7725">turn</char> <char style="w" strong="H5704">to</char> <char style="w" strong="H7725">me</char> <char style="w" strong="H3068">with</char> <char style="w" strong="H3605">all</char> <char style="w" strong="H3068">your</char> <char style="w" strong="H3824">heart</char>,</para>
+  <para style="q2" vid="JOL 2:12">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">with</char> <char style="w" strong="H6685">fasting</char>, <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">with</char> <char style="w" strong="H1065">weeping</char>, <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">with</char> <char style="w" strong="H4553">mourning</char>.”<verse eid="JOL 2:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOL 2:13" />
+    <char style="w" strong="H7167">Tear</char> <char style="w" strong="H3068">your</char> <char style="w" strong="H3824">heart</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H3588">not</char> <char style="w" strong="H3068">your</char> garments,</para>
+  <para style="q2" vid="JOL 2:13">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H7725">turn</char> <char style="w" strong="H7725">to</char> <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H3068">your</char> <char style="w" strong="H3068">God</char>;</para>
+  <para style="q2" vid="JOL 2:13">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H1931">he</char> <char style="w" strong="H3068">is</char> <char style="w" strong="H2587">gracious</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H7349">merciful</char>,</para>
+  <para style="q2" vid="JOL 2:13">slow <char style="w" strong="H7725">to</char> <char style="w" strong="H3824">anger</char>, <char style="w" strong="H3068">and</char> <char style="w" strong="H7227">abundant</char> <char style="w" strong="H5921">in</char> loving <char style="w" strong="H2617">kindness</char>,</para>
+  <para style="q2" vid="JOL 2:13">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H5162">relents</char> <char style="w" strong="H7725">from</char> sending <char style="w" strong="H7451">calamity</char>.<verse eid="JOL 2:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOL 2:14" />
+    <char style="w" strong="H4310">Who</char> <char style="w" strong="H3045">knows</char>? <char style="w" strong="H3068">He</char> <char style="w" strong="H3068">may</char> <char style="w" strong="H7725">turn</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H5162">relent</char>,</para>
+  <para style="q2" vid="JOL 2:14">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H7604">leave</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H1293">blessing</char> <char style="w" strong="H7604">behind</char> <char style="w" strong="H7725">him</char>,</para>
+  <para style="q2" vid="JOL 2:14">
+    <char style="w" strong="H3068">even</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H4503">meal</char> <char style="w" strong="H4503">offering</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H5262">drink</char> <char style="w" strong="H4503">offering</char> <char style="w" strong="H7725">to</char> <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H3068">your</char> <char style="w" strong="H3068">God</char>.<verse eid="JOL 2:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOL 2:15" />
+    <char style="w" strong="H8628">Blow</char> <char style="w" strong="H7121">the</char> <char style="w" strong="H7782">trumpet</char> <char style="w" strong="H7782">in</char> <char style="w" strong="H6726">Zion</char>!</para>
+  <para style="q2" vid="JOL 2:15">
+    <char style="w" strong="H6942">Sanctify</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H6685">fast</char>.</para>
+  <para style="q2" vid="JOL 2:15">
+    <char style="w" strong="H7121">Call</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H6116">solemn</char> <char style="w" strong="H6116">assembly</char>.<verse eid="JOL 2:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOL 2:16" />
+    <char style="w" strong="H6908">Gather</char> <char style="w" strong="H3318">the</char> <char style="w" strong="H5971">people</char>.</para>
+  <para style="q2" vid="JOL 2:16">
+    <char style="w" strong="H6942">Sanctify</char> <char style="w" strong="H3318">the</char> <char style="w" strong="H6951">assembly</char>.</para>
+  <para style="q2" vid="JOL 2:16">
+    <char style="w" strong="H6908">Assemble</char> <char style="w" strong="H3318">the</char> <char style="w" strong="H2205">elders</char>.</para>
+  <para style="q2" vid="JOL 2:16">
+    <char style="w" strong="H6908">Gather</char> <char style="w" strong="H3318">the</char> <char style="w" strong="H5768">children</char>, <char style="w" strong="H5971">and</char> <char style="w" strong="H3318">those</char> <char style="w" strong="H5971">who</char> <char style="w" strong="H3243">nurse</char> <char style="w" strong="H3318">from</char> <char style="w" strong="H7699">breasts</char>.</para>
+  <para style="q1" vid="JOL 2:16">Let <char style="w" strong="H3318">the</char> <char style="w" strong="H2860">bridegroom</char> <char style="w" strong="H3318">go</char> <char style="w" strong="H3318">out</char> <char style="w" strong="H2205">of</char> <char style="w" strong="H6942">his</char> <char style="w" strong="H2315">room</char>,</para>
+  <para style="q2" vid="JOL 2:16">
+    <char style="w" strong="H5971">and</char> <char style="w" strong="H3318">the</char> <char style="w" strong="H3618">bride</char> <char style="w" strong="H3318">out</char> <char style="w" strong="H2205">of</char> <char style="w" strong="H3318">her</char> <char style="w" strong="H2315">chamber</char>.<verse eid="JOL 2:16" /></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOL 2:17" />
+    <char style="w" strong="H5414">Let</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H3548">priests</char>, <char style="w" strong="H5921">the</char> <char style="w" strong="H8334">ministers</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H1058">weep</char> <char style="w" strong="H5921">between</char> <char style="w" strong="H5921">the</char> porch <char style="w" strong="H3068">and</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H4196">altar</char>,</para>
+  <para style="q2" vid="JOL 2:17">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H5414">let</char> <char style="w" strong="H5414">them</char> say, “<char style="w" strong="H2347">Spare</char> <char style="w" strong="H3068">your</char> <char style="w" strong="H5971">people</char>, <char style="w" strong="H3068">Yahweh</char>,</para>
+  <para style="q2" vid="JOL 2:17">
+    <char style="w" strong="H3068">and</char> don’t <char style="w" strong="H5414">give</char> <char style="w" strong="H3068">your</char> <char style="w" strong="H5159">heritage</char> <char style="w" strong="H3068">to</char> <char style="w" strong="H2781">reproach</char>,</para>
+  <para style="q2" vid="JOL 2:17">
+    <char style="w" strong="H5971">that</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H1471">nations</char> <char style="w" strong="H3068">should</char> <char style="w" strong="H4910">rule</char> <char style="w" strong="H5921">over</char> <char style="w" strong="H5414">them</char>.</para>
+  <para style="q1" vid="JOL 2:17">
+    <char style="w" strong="H4100">Why</char> <char style="w" strong="H3068">should</char> <char style="w" strong="H3068">they</char> say <char style="w" strong="H5921">among</char> <char style="w" strong="H5921">the</char> <char style="w" strong="H5971">peoples</char>,</para>
+  <para style="q2" vid="JOL 2:17">‘<char style="w" strong="H4100">Where</char> <char style="w" strong="H3068">is</char> <char style="w" strong="H3068">their</char> <char style="w" strong="H3068">God</char>?’”<verse eid="JOL 2:17" /></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOL 2:18" />
+    <char style="w" strong="H3068">Then</char> <char style="w" strong="H3068">Yahweh</char> <char style="w" strong="H3068">was</char> <char style="w" strong="H7065">jealous</char> <char style="w" strong="H5921">for</char> <char style="w" strong="H3068">his</char> land,</para>
+  <para style="q2" vid="JOL 2:18">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">had</char> <char style="w" strong="H2550">pity</char> <char style="w" strong="H5921">on</char> <char style="w" strong="H3068">his</char> <char style="w" strong="H5971">people</char>.<verse eid="JOL 2:18" /></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOL 2:19" />
+    <char style="w" strong="H3068">Yahweh</char> <char style="w" strong="H6030">answered</char> <char style="w" strong="H5414">his</char> <char style="w" strong="H5971">people</char>,</para>
+  <para style="q2" vid="JOL 2:19">“<char style="w" strong="H2005">Behold</char>,<note caller="+" style="f"><char style="fr" closed="false">2:19 </char><char style="ft" closed="false">“Behold”, from “<char style="wh">הִנֵּה</char>”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.</char></note> <char style="w" strong="H2005">I</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H7971">send</char> <char style="w" strong="H5414">you</char> <char style="w" strong="H1715">grain</char>, <char style="w" strong="H8492">new</char> <char style="w" strong="H8492">wine</char>, <char style="w" strong="H3068">and</char> <char style="w" strong="H3323">oil</char>,</para>
+  <para style="q2" vid="JOL 2:19">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H5414">you</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H5750">be</char> <char style="w" strong="H7646">satisfied</char> <char style="w" strong="H7646">with</char> <char style="w" strong="H5414">them</char>;</para>
+  <para style="q2" vid="JOL 2:19">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H2005">I</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H3808">no</char> <char style="w" strong="H5750">more</char> <char style="w" strong="H5414">make</char> <char style="w" strong="H5414">you</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H2781">reproach</char> <char style="w" strong="H5971">among</char> <char style="w" strong="H5414">the</char> <char style="w" strong="H1471">nations</char>.<verse eid="JOL 2:19" /></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOL 2:20" />
+    <char style="w" strong="H3588">But</char> <char style="w" strong="H3588">I</char> <char style="w" strong="H3220">will</char> <char style="w" strong="H7368">remove</char> <char style="w" strong="H6440">the</char> <char style="w" strong="H6830">northern</char> <char style="w" strong="H5927">army</char> <char style="w" strong="H7368">far</char> <char style="w" strong="H5080">away</char> <char style="w" strong="H6440">from</char> <char style="w" strong="H3588">you</char>,</para>
+  <para style="q2" vid="JOL 2:20">
+    <char style="w" strong="H6440">and</char> <char style="w" strong="H3220">will</char> <char style="w" strong="H5080">drive</char> <char style="w" strong="H5921">it</char> <char style="w" strong="H5927">into</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H6723">barren</char> <char style="w" strong="H6440">and</char> <char style="w" strong="H8077">desolate</char> <char style="w" strong="H6723">land</char>,</para>
+  <para style="q2" vid="JOL 2:20">
+    <char style="w" strong="H5921">its</char> <char style="w" strong="H6440">front</char> <char style="w" strong="H5927">into</char> <char style="w" strong="H6440">the</char> <char style="w" strong="H6931">eastern</char> <char style="w" strong="H3220">sea</char>,</para>
+  <para style="q2" vid="JOL 2:20">
+    <char style="w" strong="H6440">and</char> <char style="w" strong="H5921">its</char> <char style="w" strong="H5927">back</char> <char style="w" strong="H5927">into</char> <char style="w" strong="H6440">the</char> <char style="w" strong="H3220">western</char> <char style="w" strong="H3220">sea</char>;</para>
+  <para style="q2" vid="JOL 2:20">
+    <char style="w" strong="H6440">and</char> <char style="w" strong="H5921">its</char> stench <char style="w" strong="H3220">will</char> <char style="w" strong="H5927">come</char> <char style="w" strong="H5927">up</char>,</para>
+  <para style="q2" vid="JOL 2:20">
+    <char style="w" strong="H6440">and</char> <char style="w" strong="H5921">its</char> bad <char style="w" strong="H6709">smell</char> <char style="w" strong="H3220">will</char> <char style="w" strong="H5927">rise</char>.”</para>
+  <para style="q1" vid="JOL 2:20">
+    <char style="w" strong="H3588">Surely</char> <char style="w" strong="H3588">he</char> <char style="w" strong="H3588">has</char> <char style="w" strong="H6213">done</char> <char style="w" strong="H1431">great</char> <char style="w" strong="H1431">things</char>.<verse eid="JOL 2:20" /></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOL 2:21" />Land, don’t <char style="w" strong="H3068">be</char> <char style="w" strong="H3372">afraid</char>.</para>
+  <para style="q2" vid="JOL 2:21">
+    <char style="w" strong="H3068">Be</char> <char style="w" strong="H8055">glad</char> <char style="w" strong="H3068">and</char> <char style="w" strong="H8055">rejoice</char>, <char style="w" strong="H3588">for</char> <char style="w" strong="H3068">Yahweh</char> <char style="w" strong="H3068">has</char> <char style="w" strong="H6213">done</char> <char style="w" strong="H1431">great</char> <char style="w" strong="H1431">things</char>.<verse eid="JOL 2:21" /></para>
+  <para style="q1">
+    <verse number="22" style="v" sid="JOL 2:22" />Don’t <char style="w" strong="H5414">be</char> <char style="w" strong="H3372">afraid</char>, <char style="w" strong="H3588">you</char> animals <char style="w" strong="H7704">of</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H7704">field</char>;</para>
+  <para style="q2" vid="JOL 2:22">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4999">pastures</char> <char style="w" strong="H7704">of</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4057">wilderness</char> <char style="w" strong="H1876">spring</char> <char style="w" strong="H5375">up</char>,</para>
+  <para style="q2" vid="JOL 2:22">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H6086">tree</char> <char style="w" strong="H5375">bears</char> <char style="w" strong="H5414">its</char> <char style="w" strong="H6529">fruit</char>.</para>
+  <para style="q2" vid="JOL 2:22">
+    <char style="w" strong="H3588">The</char> <char style="w" strong="H8384">fig</char> <char style="w" strong="H6086">tree</char> <char style="w" strong="H6086">and</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H1612">vine</char> <char style="w" strong="H5414">yield</char> <char style="w" strong="H5375">their</char> <char style="w" strong="H2428">strength</char>.<verse eid="JOL 2:22" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="23" style="v" sid="JOL 2:23" />“<char style="w" strong="H3068">Be</char> <char style="w" strong="H8055">glad</char> <char style="w" strong="H5414">then</char>, <char style="w" strong="H3588">you</char> <char style="w" strong="H1121">children</char> <char style="w" strong="H1121">of</char> <char style="w" strong="H6726">Zion</char>,</para>
+  <para style="q2" vid="JOL 2:23">
+    <char style="w" strong="H1121">and</char> <char style="w" strong="H8055">rejoice</char> <char style="w" strong="H3068">in</char> <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H3068">your</char> <char style="w" strong="H3068">God</char>;</para>
+  <para style="q2" vid="JOL 2:23">
+    <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">he</char> <char style="w" strong="H5414">gives</char> <char style="w" strong="H3588">you</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4175">early</char> <char style="w" strong="H1653">rain</char> <char style="w" strong="H3068">in</char> <char style="w" strong="H6666">just</char> measure,</para>
+  <para style="q2" vid="JOL 2:23">
+    <char style="w" strong="H1121">and</char> <char style="w" strong="H3588">he</char> <char style="w" strong="H5414">causes</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H1653">rain</char> <char style="w" strong="H3381">to</char> <char style="w" strong="H3381">come</char> <char style="w" strong="H3381">down</char> <char style="w" strong="H3588">for</char> <char style="w" strong="H3588">you</char>,</para>
+  <para style="q2" vid="JOL 2:23">
+    <char style="w" strong="H3588">the</char> <char style="w" strong="H4175">early</char> <char style="w" strong="H1653">rain</char> <char style="w" strong="H1121">and</char> <char style="w" strong="H3588">the</char> <char style="w" strong="H4456">latter</char> <char style="w" strong="H1653">rain</char>, <char style="w" strong="H3068">as</char> <char style="w" strong="H7223">before</char>.<verse eid="JOL 2:23" /></para>
+  <para style="q1">
+    <verse number="24" style="v" sid="JOL 2:24" />
+    <char style="w" strong="H4390">The</char> <char style="w" strong="H1637">threshing</char> <char style="w" strong="H1637">floors</char> <char style="w" strong="H3342">will</char> be <char style="w" strong="H4390">full</char> <char style="w" strong="H4390">of</char> <char style="w" strong="H1250">wheat</char>,</para>
+  <para style="q2" vid="JOL 2:24">
+    <char style="w" strong="H8492">and</char> <char style="w" strong="H4390">the</char> <char style="w" strong="H3342">vats</char> <char style="w" strong="H3342">will</char> <char style="w" strong="H7783">overflow</char> <char style="w" strong="H4390">with</char> <char style="w" strong="H8492">new</char> <char style="w" strong="H8492">wine</char> <char style="w" strong="H8492">and</char> <char style="w" strong="H3323">oil</char>.<verse eid="JOL 2:24" /></para>
+  <para style="q1">
+    <verse number="25" style="v" sid="JOL 2:25" />
+    <char style="w" strong="H8141">I</char> <char style="w" strong="H2428">will</char> <char style="w" strong="H7999">restore</char> <char style="w" strong="H7971">to</char> <char style="w" strong="H7971">you</char> <char style="w" strong="H7971">the</char> <char style="w" strong="H8141">years</char> <char style="w" strong="H8141">that</char> <char style="w" strong="H7971">the</char> swarming <char style="w" strong="H3218">locust</char> <char style="w" strong="H3218">has</char> eaten,</para>
+  <para style="q2" vid="JOL 2:25">
+    <char style="w" strong="H7971">the</char> <char style="w" strong="H1419">great</char> <char style="w" strong="H3218">locust</char>, <char style="w" strong="H7971">the</char> <char style="w" strong="H2625">grasshopper</char>, <char style="w" strong="H7971">and</char> <char style="w" strong="H7971">the</char> <char style="w" strong="H2625">caterpillar</char>,</para>
+  <para style="q2" vid="JOL 2:25">
+    <char style="w" strong="H7971">my</char> <char style="w" strong="H1419">great</char> <char style="w" strong="H2428">army</char>, <char style="w" strong="H2428">which</char> <char style="w" strong="H8141">I</char> <char style="w" strong="H7971">sent</char> among <char style="w" strong="H7971">you</char>.<verse eid="JOL 2:25" /></para>
+  <para style="q1">
+    <verse number="26" style="v" sid="JOL 2:26" />
+    <char style="w" strong="H6213">You</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H3068">have</char> <char style="w" strong="H7646">plenty</char> <char style="w" strong="H3068">to</char> eat <char style="w" strong="H3068">and</char> <char style="w" strong="H3808">be</char> <char style="w" strong="H7646">satisfied</char>,</para>
+  <para style="q2" vid="JOL 2:26">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H1984">praise</char> <char style="w" strong="H6213">the</char> <char style="w" strong="H8034">name</char> <char style="w" strong="H3068">of</char> <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H3068">your</char> <char style="w" strong="H3068">God</char>,</para>
+  <para style="q2" vid="JOL 2:26">
+    <char style="w" strong="H5971">who</char> <char style="w" strong="H3068">has</char> <char style="w" strong="H6213">dealt</char> <char style="w" strong="H6381">wondrously</char> <char style="w" strong="H5973">with</char> <char style="w" strong="H6213">you</char>;</para>
+  <para style="q2" vid="JOL 2:26">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H3068">my</char> <char style="w" strong="H5971">people</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H3808">never</char> again <char style="w" strong="H3808">be</char> disappointed.<verse eid="JOL 2:26" /></para>
+  <para style="q1">
+    <verse number="27" style="v" sid="JOL 2:27" />
+    <char style="w" strong="H3588">You</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H3045">know</char> <char style="w" strong="H3588">that</char> <char style="w" strong="H3588">I</char> <char style="w" strong="H3068">am</char> <char style="w" strong="H7130">among</char> <char style="w" strong="H3478">Israel</char>,</para>
+  <para style="q2" vid="JOL 2:27">
+    <char style="w" strong="H3478">and</char> <char style="w" strong="H3588">that</char> <char style="w" strong="H3588">I</char> <char style="w" strong="H3068">am</char> <char style="w" strong="H3068">Yahweh</char>, <char style="w" strong="H3068">your</char> <char style="w" strong="H3068">God</char>, <char style="w" strong="H3478">and</char> <char style="w" strong="H3045">there</char> <char style="w" strong="H3068">is</char> <char style="w" strong="H3808">no</char> <char style="w" strong="H3808">one</char> <char style="w" strong="H5750">else</char>;</para>
+  <para style="q2" vid="JOL 2:27">
+    <char style="w" strong="H3478">and</char> <char style="w" strong="H3068">my</char> <char style="w" strong="H5971">people</char> <char style="w" strong="H3068">will</char> <char style="w" strong="H3808">never</char> <char style="w" strong="H5750">again</char> <char style="w" strong="H5750">be</char> disappointed.<verse eid="JOL 2:27" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="28" style="v" sid="JOL 2:28" />“It will happen afterward, that I will pour out my Spirit on all flesh;</para>
+  <para style="q2" vid="JOL 2:28">and your sons and your daughters will prophesy.</para>
+  <para style="q2" vid="JOL 2:28">Your old men will dream dreams.</para>
+  <para style="q2" vid="JOL 2:28">Your young men will see visions.<verse eid="JOL 2:28" /></para>
+  <para style="q1">
+    <verse number="29" style="v" sid="JOL 2:29" />And also on the servants and on the handmaids in those days,</para>
+  <para style="q2" vid="JOL 2:29">I will pour out my Spirit.<verse eid="JOL 2:29" /></para>
+  <para style="q1">
+    <verse number="30" style="v" sid="JOL 2:30" />I will show wonders in the heavens and in the earth:</para>
+  <para style="q2" vid="JOL 2:30">blood, fire, and pillars of smoke.<verse eid="JOL 2:30" /></para>
+  <para style="q1">
+    <verse number="31" style="v" sid="JOL 2:31" />The sun will be turned into darkness,</para>
+  <para style="q2" vid="JOL 2:31">and the moon into blood,</para>
+  <para style="q2" vid="JOL 2:31">before the great and terrible day of <char style="w" strong="H3068">Yahweh</char> comes.<verse eid="JOL 2:31" /></para>
+  <para style="q1">
+    <verse number="32" style="v" sid="JOL 2:32" />It will happen that whoever will call on <char style="w" strong="H3068">Yahweh</char>’s name shall be saved;</para>
+  <para style="q2" vid="JOL 2:32">for in Mount Zion and in Jerusalem there will be those who escape,</para>
+  <para style="q2" vid="JOL 2:32">as <char style="w" strong="H3068">Yahweh</char> has said,</para>
+  <para style="q2" vid="JOL 2:32">and among the remnant, those whom <char style="w" strong="H3068">Yahweh</char> calls.<verse eid="JOL 2:32" /></para>
+  <para style="b" />
+  <chapter eid="JOL 2" />
+  <chapter number="3" style="c" sid="JOL 3" />
+  <para style="q1">
+    <verse number="1" style="v" sid="JOL 3:1" />“<char style="w" strong="H5921">For</char>, <char style="w" strong="H7200">behold</char>, <char style="w" strong="H5921">in</char> <char style="w" strong="H3605">those</char> days,</para>
+  <para style="q2" vid="JOL 3:1">
+    <char style="w" strong="H1121">and</char> <char style="w" strong="H5921">in</char> <char style="w" strong="H7200">that</char> <char style="w" strong="H1961">time</char>,</para>
+  <para style="q2" vid="JOL 3:1">
+    <char style="w" strong="H1961">when</char> <char style="w" strong="H5921">I</char> <char style="w" strong="H2492">restore</char> <char style="w" strong="H3605">the</char> fortunes <char style="w" strong="H1121">of</char> Judah <char style="w" strong="H1121">and</char> Jerusalem,<verse eid="JOL 3:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="JOL 3:2" />
+    <char style="w" strong="H3117">I</char> <char style="w" strong="H5650">will</char> gather <char style="w" strong="H3117">all</char> nations,</para>
+  <para style="q2" vid="JOL 3:2">
+    <char style="w" strong="H3117">and</char> <char style="w" strong="H5650">will</char> bring <char style="w" strong="H1992">them</char> <char style="w" strong="H5921">down</char> <char style="w" strong="H5921">into</char> <char style="w" strong="H5921">the</char> valley <char style="w" strong="H3117">of</char> Jehoshaphat;</para>
+  <para style="q2" vid="JOL 3:2">
+    <char style="w" strong="H3117">and</char> <char style="w" strong="H3117">I</char> <char style="w" strong="H5650">will</char> execute judgment <char style="w" strong="H5921">on</char> <char style="w" strong="H1992">them</char> <char style="w" strong="H1992">there</char> <char style="w" strong="H5921">for</char> <char style="w" strong="H5921">my</char> <char style="w" strong="H1571">people</char>,</para>
+  <para style="q2" vid="JOL 3:2">
+    <char style="w" strong="H3117">and</char> <char style="w" strong="H5921">for</char> <char style="w" strong="H5921">my</char> heritage, Israel, <char style="w" strong="H1992">whom</char> <char style="w" strong="H1992">they</char> <char style="w" strong="H5650">have</char> scattered <char style="w" strong="H5921">among</char> <char style="w" strong="H5921">the</char> nations.</para>
+  <para style="q2" vid="JOL 3:2">
+    <char style="w" strong="H1992">They</char> <char style="w" strong="H5650">have</char> divided <char style="w" strong="H5921">my</char> land,<verse eid="JOL 3:2" /></para>
+  <para style="q2">
+    <verse number="3" style="v" sid="JOL 3:3" />
+    <char style="w" strong="H8064">and</char> <char style="w" strong="H5414">have</char> <char style="w" strong="H5414">cast</char> lots <char style="w" strong="H5414">for</char> <char style="w" strong="H5414">my</char> <char style="w" strong="H1818">people</char>,</para>
+  <para style="q2" vid="JOL 3:3">
+    <char style="w" strong="H8064">and</char> <char style="w" strong="H5414">have</char> <char style="w" strong="H5414">given</char> <char style="w" strong="H3068">a</char> boy <char style="w" strong="H5414">for</char> <char style="w" strong="H3068">a</char> prostitute,</para>
+  <para style="q2" vid="JOL 3:3">
+    <char style="w" strong="H8064">and</char> sold <char style="w" strong="H3068">a</char> girl <char style="w" strong="H5414">for</char> wine, <char style="w" strong="H5414">that</char> <char style="w" strong="H5414">they</char> <char style="w" strong="H5414">may</char> drink.<verse eid="JOL 3:3" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="4" style="v" sid="JOL 3:4" />“Yes, <char style="w" strong="H3068">and</char> <char style="w" strong="H3372">what</char> <char style="w" strong="H3117">are</char> <char style="w" strong="H6440">you</char> <char style="w" strong="H3068">to</char> <char style="w" strong="H6440">me</char>, Tyre <char style="w" strong="H3068">and</char> Sidon,</para>
+  <para style="q2" vid="JOL 3:4">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H1419">all</char> <char style="w" strong="H6440">the</char> regions <char style="w" strong="H3068">of</char> Philistia?</para>
+  <para style="q1" vid="JOL 3:4">
+    <char style="w" strong="H3068">Will</char> <char style="w" strong="H6440">you</char> repay <char style="w" strong="H6440">me</char>?</para>
+  <para style="q2" vid="JOL 3:4">
+    <char style="w" strong="H3068">And</char> if <char style="w" strong="H6440">you</char> repay <char style="w" strong="H6440">me</char>,</para>
+  <para style="q2" vid="JOL 3:4">
+    <char style="w" strong="H3117">I</char> <char style="w" strong="H3068">will</char> swiftly <char style="w" strong="H3068">and</char> speedily return <char style="w" strong="H3068">your</char> repayment <char style="w" strong="H3117">on</char> <char style="w" strong="H3068">your</char> <char style="w" strong="H6440">own</char> <char style="w" strong="H6440">head</char>.<verse eid="JOL 3:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="JOL 3:5" />
+    <char style="w" strong="H3588">Because</char> <char style="w" strong="H3588">you</char> <char style="w" strong="H1961">have</char> <char style="w" strong="H1961">taken</char> <char style="w" strong="H3605">my</char> silver <char style="w" strong="H3068">and</char> <char style="w" strong="H3605">my</char> gold,</para>
+  <para style="q2" vid="JOL 3:5">
+    <char style="w" strong="H3068">and</char> <char style="w" strong="H1961">have</char> <char style="w" strong="H3068">carried</char> <char style="w" strong="H3605">my</char> finest treasures <char style="w" strong="H1961">into</char> <char style="w" strong="H3068">your</char> temples,<verse eid="JOL 3:5" /></para>
+  <para style="q2">
+    <verse number="6" style="v" sid="JOL 3:6" />and have sold the children of Judah and the children of Jerusalem to the sons of the Greeks,</para>
+  <para style="q2" vid="JOL 3:6">that you may remove them far from their border.<verse eid="JOL 3:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="JOL 3:7" />Behold, I will stir them up out of the place where you have sold them,</para>
+  <para style="q2" vid="JOL 3:7">and will return your repayment on your own head;<verse eid="JOL 3:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="JOL 3:8" />and I will sell your sons and your daughters into the hands of the children of Judah,</para>
+  <para style="q2" vid="JOL 3:8">and they will sell them to the men of Sheba,</para>
+  <para style="q2" vid="JOL 3:8">to <char style="w" strong="H3068">a</char> faraway nation,</para>
+  <para style="q2" vid="JOL 3:8">for <char style="w" strong="H3068">Yahweh</char> has spoken it.”<verse eid="JOL 3:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="JOL 3:9" />Proclaim this among the nations:</para>
+  <para style="q2" vid="JOL 3:9">“Prepare for war!</para>
+  <para style="q2" vid="JOL 3:9">Stir up the mighty men.</para>
+  <para style="q1" vid="JOL 3:9">Let all the warriors draw near.</para>
+  <para style="q2" vid="JOL 3:9">Let them come up. <verse eid="JOL 3:9" /><verse number="10" style="v" sid="JOL 3:10" />Beat your plowshares into swords,</para>
+  <para style="q2" vid="JOL 3:10">and your pruning hooks into spears.</para>
+  <para style="q2" vid="JOL 3:10">Let the weak say, ‘I am strong.’<verse eid="JOL 3:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="JOL 3:11" />Hurry and come, all you surrounding nations,</para>
+  <para style="q2" vid="JOL 3:11">and gather yourselves together.”</para>
+  <para style="q1" vid="JOL 3:11">Cause your mighty ones to come down there, <char style="w" strong="H3068">Yahweh</char>.<verse eid="JOL 3:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="JOL 3:12" />“Let the nations arouse themselves,</para>
+  <para style="q2" vid="JOL 3:12">and come up to the valley of Jehoshaphat;</para>
+  <para style="q2" vid="JOL 3:12">for there I will sit to judge all the surrounding nations.<verse eid="JOL 3:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="JOL 3:13" />Put in the sickle;</para>
+  <para style="q2" vid="JOL 3:13">for the harvest is ripe.</para>
+  <para style="q2" vid="JOL 3:13">Come, tread, for the wine press is full,</para>
+  <para style="q2" vid="JOL 3:13">the vats overflow, for their wickedness is great.”<verse eid="JOL 3:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="JOL 3:14" />Multitudes, multitudes in the valley of decision!</para>
+  <para style="q2" vid="JOL 3:14">For the day of <char style="w" strong="H3068">Yahweh</char> is near in the valley of decision.<verse eid="JOL 3:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="JOL 3:15" />The sun and the moon are darkened,</para>
+  <para style="q2" vid="JOL 3:15">and the stars withdraw their shining.<verse eid="JOL 3:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="JOL 3:16" />
+    <char style="w" strong="H3068">Yahweh</char> will roar from Zion,</para>
+  <para style="q2" vid="JOL 3:16">and thunder from Jerusalem;</para>
+  <para style="q2" vid="JOL 3:16">and the heavens and the earth will shake;</para>
+  <para style="q2" vid="JOL 3:16">but <char style="w" strong="H3068">Yahweh</char> will be <char style="w" strong="H3068">a</char> refuge to his people,</para>
+  <para style="q2" vid="JOL 3:16">and <char style="w" strong="H3068">a</char> stronghold to the children of Israel.<verse eid="JOL 3:16" /></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="JOL 3:17" />“So you will know that I am <char style="w" strong="H3068">Yahweh</char>, your God,</para>
+  <para style="q2" vid="JOL 3:17">dwelling in Zion, my holy mountain.</para>
+  <para style="q1" vid="JOL 3:17">Then Jerusalem will be holy,</para>
+  <para style="q2" vid="JOL 3:17">and no strangers will pass through her any more.<verse eid="JOL 3:17" /></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="JOL 3:18" />It will happen in that day,</para>
+  <para style="q2" vid="JOL 3:18">that the mountains will drop down sweet wine,</para>
+  <para style="q2" vid="JOL 3:18">the hills will flow with milk,</para>
+  <para style="q2" vid="JOL 3:18">all the brooks of Judah will flow with waters;</para>
+  <para style="q2" vid="JOL 3:18">and <char style="w" strong="H3068">a</char> fountain will flow out from <char style="w" strong="H3068">Yahweh</char>’s house,</para>
+  <para style="q2" vid="JOL 3:18">and will water the valley of Shittim.<verse eid="JOL 3:18" /></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="JOL 3:19" />Egypt will be <char style="w" strong="H3068">a</char> desolation</para>
+  <para style="q2" vid="JOL 3:19">and Edom will be <char style="w" strong="H3068">a</char> desolate wilderness,</para>
+  <para style="q2" vid="JOL 3:19">for the violence done to the children of Judah,</para>
+  <para style="q2" vid="JOL 3:19">because they have shed innocent blood in their land.<verse eid="JOL 3:19" /></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="JOL 3:20" />But Judah will be inhabited forever,</para>
+  <para style="q2" vid="JOL 3:20">and Jerusalem from generation to generation.<verse eid="JOL 3:20" /></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="JOL 3:21" />I will cleanse their blood</para>
+  <para style="q2" vid="JOL 3:21">that I have not cleansed,</para>
+  <para style="q2" vid="JOL 3:21">for <char style="w" strong="H3068">Yahweh</char> dwells in Zion.”<verse eid="JOL 3:21" /></para>
+  <chapter eid="JOL 3" />
+</usx>
