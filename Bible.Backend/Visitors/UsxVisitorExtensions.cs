@@ -45,7 +45,7 @@ public static class UsxVisitorExtensions
             visitor.Accept(item);
     }
 
-    public static void Accept(this IUsxVisitor visitor, UsxScriptureBook? book)
+    public static void Accept(this IUsxVisitor visitor, UsxBook? book)
     {
         if (book == null) return;
         if (book.Translation != null)

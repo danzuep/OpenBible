@@ -6,7 +6,7 @@ using Microsoft.Extensions.Options;
 
 /// <see href="https://ubsicap.github.io/"/>
 [XmlRoot("usx")]
-public sealed class UsxScriptureBook : IUsxBase
+public sealed class UsxBook : IUsxBase
 {
     [XmlAttribute("version")]
     public string UsxVersion { get; set; }
@@ -117,7 +117,7 @@ public interface IUsxText : IUsxBase
 public abstract class UsxStyleBase : IUsxBase
 {
     [XmlAttribute("style")]
-    public string Style { get; set; }
+    public string? Style { get; set; }
 
     public override string ToString() => $"({Style})";
 }

@@ -13,7 +13,7 @@ namespace Bible.Backend.Tests
         public void BibleParser_WithValidUsx_DeserializesToMarkdown(string usxFilePath)
         {
             var deserializer = new XDocDeserializer();
-            var book = deserializer.Deserialize<UsxScriptureBook>(usxFilePath);
+            var book = deserializer.Deserialize<UsxBook>(usxFilePath);
             Assert.NotNull(book);
             var markdown = UsxToMarkdownVisitor.GetFullText(book);
             Debug.WriteLine(markdown);
@@ -23,7 +23,7 @@ namespace Bible.Backend.Tests
         public void BibleParser_WithUsx_DeserializesToMarkdown()
         {
             var deserializer = new XDocDeserializer();
-            var book = deserializer.DeserializeXml<UsxScriptureBook>(BibleUsxSamples.UsxWebbeMat5);
+            var book = deserializer.DeserializeXml<UsxBook>(BibleUsxSamples.UsxWebbeMat5);
             Assert.NotNull(book);
             var html = UsxToHtmlVisitor.GetFullText(book);
             Debug.WriteLine(html);
@@ -36,7 +36,7 @@ namespace Bible.Backend.Tests
         {
             var xmlParser = new XDocDeserializer();
             var usxFilePath = Path.Combine(translation, $"{bookCode}.usx");
-            var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
+            var book = xmlParser.Deserialize<UsxBook>(usxFilePath);
             Assert.NotNull(book);
             var paragraphs = book.Content.OfType<UsxPara>().Where(b => b.Style == "p");
             foreach (var paragraph in paragraphs)
@@ -78,7 +78,7 @@ namespace Bible.Backend.Tests
         {
             var xmlParser = new XDocDeserializer();
             var usxFilePath = Path.Combine(translation, $"{bookCode}.usx");
-            var book = xmlParser.Deserialize<UsxScriptureBook>(usxFilePath);
+            var book = xmlParser.Deserialize<UsxBook>(usxFilePath);
             Assert.NotNull(book);
             var stringBuilder = new StringBuilder();
             var paragraphs = book.Content.OfType<UsxContent>().Where(b => b.Style == "p");

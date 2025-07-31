@@ -18,10 +18,18 @@ namespace Bible.Backend.Services
 
         public async Task<BibleBook?> ParseAsync(string version, string bookName, CancellationToken cancellationToken = default)
         {
+            var resourceName = $"Bible.Data.usx.{version}.{bookName}.usx".Replace("-", "_");
+            var bibleBook = await _deserializer.DeserializeResourceAsync<UsxBook, BibleBook>(
+                resourceName, b => b.ToBibleFormat(), cancellationToken);
+            return bibleBook;
+        }
+
+        public async Task<BibleBook?> ParseFilesAsync(string version, string bookName, CancellationToken cancellationToken = default)
+        {
             var files = GetFiles(GetBibleAssetFolder(version, _fileType), _fileType, bookName);
             var usxPath = files.FirstOrDefault(f => f.EndsWith($"{bookName}.{_fileType}"));
             if (usxPath == null) return null;
-            var bibleBook = await _deserializer.DeserializeAsync<UsxScriptureBook, BibleBook>(
+            var bibleBook = await _deserializer.DeserializeAsync<UsxBook, BibleBook>(
                 usxPath, b => b.ToBibleFormat(), cancellationToken);
             return bibleBook;
         }
@@ -37,8 +45,14 @@ namespace Bible.Backend.Services
 
         internal static string GetPathAbove(string project)
         {
+            var count = 0;
             while (!Directory.Exists(project))
             {
+                if (++count > 4)
+                {
+                    project = string.Empty;
+                    break;
+                }
                 project = Path.Combine("..", project);
             }
 

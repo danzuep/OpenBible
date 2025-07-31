@@ -1,7 +1,5 @@
-﻿using System.Net.Http.Json;
+﻿using System.Reflection;
 using System.Text.Json;
-using System.Xml.Linq;
-using System.Xml.Serialization;
 using Bible.Backend.Abstractions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
@@ -30,6 +28,15 @@ namespace Bible.Backend.Services
             using var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             var options = null as JsonSerializerOptions;
             var deserialized = await JsonSerializer.DeserializeAsync<TIn>(stream, options, cancellationToken);
+            return transform(deserialized);
+        }
+
+        public async Task<TOut?> DeserializeResourceAsync<TIn, TOut>(string resourceName, Func<TIn?, TOut?> transform, CancellationToken cancellationToken = default)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            using var fileStream = assembly.GetManifestResourceStream(resourceName);
+            if (fileStream == null) return default;
+            var deserialized = await JsonSerializer.DeserializeAsync<TIn>(fileStream);
             return transform(deserialized);
         }
 

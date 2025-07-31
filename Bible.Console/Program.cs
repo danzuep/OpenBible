@@ -14,45 +14,65 @@ public class Program
     public static async Task Main()
     {
         using var loggerFactory = LoggerFactory.Create(builder =>
-            builder.AddDebug().AddConsole());
+            builder.SetMinimumLevel(LogLevel.Trace).AddDebug().AddConsole());
         var logger = loggerFactory.CreateLogger<Program>();
 
+        //Sample.UnifiedScripture(logger);
         //LoadBible(loggerFactory);
         await LoadBibleBookAsync(loggerFactory);
+
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
         //var unihan = await converter.LoadUnihanAsync();
-
+        //ScriptureBookVisitorExample(converter);
         //MarkdownVisitorExample(converter);
         //HtmlVisitorExample(converter, unihan);
         //await DeserializeToHtmlAsync(converter, unihan);
 
         Console.WriteLine();
-        //Console.WriteLine("Press any key to exit...");
-        //Console.ReadKey();
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 
     private static async Task<BibleBook?> LoadBibleBookAsync(ILoggerFactory loggerFactory, string version = "eng-WEBBE", string bookName = "JHN")
     {
-        var deserializer = new XDocDeserializer(loggerFactory.CreateLogger<XDocDeserializer>());
+        var logger = loggerFactory.CreateLogger<XDocDeserializer>();
+        var deserializer = new XDocDeserializer(logger);
         var usxParser = new UsxToBibleBookParser(deserializer);
         var bibleBook = await usxParser.ParseAsync(version, bookName);
         var verse = bibleBook?.Chapters[0].Verses[0];
+        logger.LogInformation(verse?.ToString());
         return bibleBook;
     }
 
-    private static BibleModel LoadBible(ILoggerFactory loggerFactory, string version = "eng-WEBBE")
+    //private static BibleModel LoadBible(ILoggerFactory loggerFactory, string version = "eng-WEBBE")
+    //{
+    //    var deserializer = new XDocDeserializer(loggerFactory.CreateLogger<XDocDeserializer>());
+    //    var usxParser = new UsxVersionParser(deserializer);
+    //    var dataService = new UsxToBibleModelParser(usxParser);
+    //    var bible = dataService.Load(version);
+    //    return bible;
+    //}
+
+    private static void ScriptureBookVisitorExample(XmlConverter converter)
     {
-        var deserializer = new XDocDeserializer(loggerFactory.CreateLogger<XDocDeserializer>());
-        var usxParser = new UsxVersionParser(deserializer);
-        var dataService = new UsxToBibleModelParser(usxParser);
-        var bible = dataService.Load(version);
-        return bible;
+        converter.Visitor<UsxBook>((bookModel, outputPath) =>
+        {
+            if (!bookModel.Translation.BookCode.Equals("3JN"))
+            {
+                return null!;
+            }
+            var book = UsxToScriptureBookVisitor.GetBook(bookModel);
+            var textV = book.GetChapter(1).ToText();
+            converter.Logger.LogInformation(textV);
+            var text = book.Name;
+            return text;
+        }, sample: "eng-WEBBE");
     }
 
     private static void MarkdownVisitorExample(XmlConverter converter)
     {
-        converter.Visitor<UsxScriptureBook>((book, outputPath) =>
+        converter.Visitor<UsxBook>((book, outputPath) =>
         {
             var text = UsxToMarkdownVisitor.GetFullText(book);
             converter.Logger.LogInformation(text);
@@ -62,7 +82,7 @@ public class Program
 
     private static void HtmlVisitorExample(XmlConverter converter, UnihanLookup? unihan)
     {
-        converter.Visitor<UsxScriptureBook>((book, outputPath) =>
+        converter.Visitor<UsxBook>((book, outputPath) =>
         {
             if (!book.Translation.BookCode.Equals("3JN"))
             {
@@ -89,7 +109,7 @@ public class Program
     {
         await converter.XmlMetadataToJsonAsync();
 
-        converter.Visitor<UsxScriptureBook>((book, outputPath) =>
+        converter.Visitor<UsxBook>((book, outputPath) =>
         {
             if (unihan != null)
             {

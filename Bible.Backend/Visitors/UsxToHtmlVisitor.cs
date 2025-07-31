@@ -8,7 +8,7 @@ using Microsoft.Extensions.Options;
 
 public sealed class UsxToHtmlVisitor : IUsxVisitor
 {
-    public static string GetFullText(UsxScriptureBook? usxScriptureBook, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
+    public static string GetFullText(UsxBook? usxScriptureBook, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
     {
         var visitor = new UsxToHtmlVisitor(options);
         visitor.Unihan = unihan;
@@ -58,7 +58,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     public void Visit(UsxPara para)
     {
-        if (para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
+        if (!string.IsNullOrEmpty(para.Style) &&
+            para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
             para.Text is string heading)
         {
             if (string.IsNullOrEmpty(_reference.BookCode))
@@ -69,7 +70,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         }
         else
         {
-            var hide = _paraStylesToHide.Any(h => para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase));
+            var hide = _paraStylesToHide.Any(h => !string.IsNullOrEmpty(para.Style) &&
+            para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase));
             _sb.AppendFormat("<p id=\"{0}-{1}\" class=\"usx-{0}\" {2}>",
                 para.Style, _reference, hide ? "hidden" : string.Empty);
             this.Accept(para?.Content);

@@ -1,4 +1,7 @@
-﻿using System.Xml.Linq;
+﻿using System.IO;
+using System.Reflection;
+using System.Threading;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 using Bible.Backend.Abstractions;
 using Microsoft.Extensions.Logging;
@@ -14,6 +17,8 @@ namespace Bible.Backend.Services
         {
             _logger = logger ?? NullLogger<XDocDeserializer>.Instance;
         }
+
+        public static Assembly? Assembly { get; set; }
 
         public LoadOptions Settings { get; set; } = LoadOptions.PreserveWhitespace;
 
@@ -35,13 +40,24 @@ namespace Bible.Backend.Services
             return deserialized;
         }
 
+        public async Task<TOut?> DeserializeResourceAsync<TIn, TOut>(string resourceName, Func<TIn?, TOut?> transform, CancellationToken cancellationToken = default)
+        {
+            Assembly ??= Assembly.GetExecutingAssembly();
+            using var fileStream = Assembly.GetManifestResourceStream(resourceName);
+            if (fileStream == null) return default;
+            var xdoc = await XDocument.LoadAsync(fileStream, Settings, cancellationToken);
+            var deserialized = Deserialize<TIn>(xdoc);
+            _logger.LogDebug($"Deserialized {resourceName}");
+            return transform(deserialized);
+        }
+
         public async Task<TOut?> DeserializeAsync<TIn, TOut>(string filePath, Func<TIn?, TOut?> transform, CancellationToken cancellationToken = default)
         {
             var deserialized = await DeserializeAsync<TIn>(filePath, cancellationToken);
             return transform(deserialized);
         }
 
-        public async Task<T?> DeserializeAsync<T>(string filePath, CancellationToken cancellationToken)
+        public async Task<T?> DeserializeAsync<T>(string filePath, CancellationToken cancellationToken = default)
         {
             using var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             var xdoc = await XDocument.LoadAsync(stream, Settings, cancellationToken);

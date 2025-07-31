@@ -25,7 +25,7 @@ namespace Bible.Web
             await builder.Build().RunAsync();
         }
 
-        static IServiceCollection RegisterIoC(IServiceCollection services)
+        static void RegisterIoC(IServiceCollection services)
         {
 #if DEBUG
             services.AddLogging(o => o.AddDebug());
@@ -35,6 +35,7 @@ namespace Bible.Web
             services.AddScoped<IBibleBookNameService, BibleBookNameService>();
             services.AddScoped<IMenuService, MenuService>();
             services.AddSingleton<IBibleDataService, DataService>();
+            //services.AddScoped<IBibleDataService, BasicDataService>();
             services.AddScoped<IDeserializer, XDocDeserializer>();
             services.AddScoped<IBulkParser, UsxVersionParser>();
             services.AddScoped<IParser<BibleBook>, UsxToBibleBookParser>();
@@ -42,7 +43,26 @@ namespace Bible.Web
             //services.AddScoped<IUnihanReadings, UnihanSerializer>();
             //services.AddScoped<IUsxVisitor, UsxToBibleBookVisitor>();
 
-            return services;
+            _provider = services.BuildServiceProvider();
+        }
+
+        static IServiceProvider? _provider;
+
+        /// <inheritdoc cref="IServiceProvider.GetService(Type)"/>
+        public static T? GetService<T>()
+        {
+            if (_provider == null)
+                return default;
+            return _provider.GetService<T>();
+        }
+
+        /// <inheritdoc cref="ServiceProviderServiceExtensions.GetRequiredService{T}(IServiceProvider)(Type)"/>
+        public static T GetRequiredService<T>() where T : notnull
+        {
+            if (_provider == null)
+                throw new ArgumentNullException(nameof(_provider));
+            return _provider.GetRequiredService<T>() ??
+                throw new InvalidOperationException($"There is no service of type {typeof(T).FullName}");
         }
     }
 }

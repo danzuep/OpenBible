@@ -1,58 +1,72 @@
-﻿using System;
-using Bible.Backend.Abstractions;
-using Bible.Backend.Services;
+﻿using Bible.Backend.Abstractions;
 using Bible.Core.Abstractions;
 using Bible.Core.Models;
+using Bible.Data.Services;
 
 namespace Bible.Web.Services
 {
     public class DataService : IBibleDataService
     {
         private BibleModel? _bible;
+        private IBibleDataService? _kjvDataService;
         private readonly IDataService<BibleModel> _dataService;
         private readonly IParser<BibleBook> _parser;
 
-        public DataService(IDataService<BibleModel> dataService, IParser<BibleBook> parser)
+        public DataService()
         {
-            _dataService = dataService;
-            _parser = parser;
+            _dataService = Program.GetRequiredService<IDataService<BibleModel>>();
+            _parser = Program.GetRequiredService<IParser<BibleBook>>();
         }
 
-        public Task<BibleModel> LoadAsync(string version = "eng-WEBBE")
+        public async Task<BibleModel> LoadAsync(string bibleVersion = "eng-WEBBE")
         {
-            _bible ??= Load(version);
-            return Task.FromResult(_bible);
+            if (bibleVersion == "KJV")
+            {
+                _kjvDataService ??= new BasicDataService();
+                _bible = await _kjvDataService.LoadAsync("KJV");
+                return _bible;
+            }
+            _bible ??= _dataService.Load(bibleVersion);
+            return _bible;
         }
 
-        private BibleBook? LoadBook(string? bookCode)
+        private async Task<BibleModel> InternalLoadAsync(string bibleVersion = "eng-WEBBE")
         {
-            _bible ??= Load();
-            var book = _bible?.FirstOrDefault(b =>
-                b.Reference.BookCode.Equals(bookCode, StringComparison.OrdinalIgnoreCase) ||
-                b.Reference.BookName.Equals(bookCode, StringComparison.OrdinalIgnoreCase) ||
-                b.Aliases.Contains(bookCode, StringComparer.OrdinalIgnoreCase));
-            return book;
+            if (_bible == null || !_bible.Information.Translation.Equals(bibleVersion, StringComparison.OrdinalIgnoreCase))
+                _bible = await SerializerService.GetBibleFromResourceAsync(bibleVersion);
+            return _bible;
         }
 
         public async Task<BibleBook?> LoadBookAsync(string? bibleVersion, string? bookCode)
         {
+            if (bibleVersion == "KJV")
+            {
+                _kjvDataService ??= new BasicDataService();
+                var book = await _kjvDataService.LoadBookAsync("KJV", bookCode);
+                return book;
+            }
             if (string.IsNullOrEmpty(bibleVersion) || string.IsNullOrEmpty(bookCode)) return null;
             var bible = await _parser.ParseAsync(bibleVersion, bookCode);
             return bible;
         }
 
-        public BibleChapter? LoadChapter(string? bookName = "JHN", int chapterNumber = 1)
+        public async Task<BibleChapter?> LoadChapterAsync(string? bibleVersion, string? bookCode = "JHN", int chapterNumber = 1)
         {
-            _bible ??= Load();
-            var bibleBooks = _bible.Books;
-            var book = bibleBooks.Where(b => b.Reference.BookName == bookName || b.Aliases.Contains(bookName)).FirstOrDefault();
-            var chapter = book?.Chapters.Where(c => c.Id == chapterNumber).FirstOrDefault();
+            var bibleBook = _bible != null ?
+                LoadBook(_bible, bookCode) :
+                await LoadBookAsync("eng-WEBBE", bookCode).ConfigureAwait(false);
+            var chapter = bibleBook?.Chapters.Where(c => c.Id == chapterNumber).FirstOrDefault();
             return chapter;
         }
 
-        private BibleModel Load(string version = "eng-WEBBE")
+        private BibleBook? LoadBook(BibleModel? _bible, string? bookCode)
         {
-            return _dataService.Load(version);
+            _bible ??= _dataService.Load(_bible.Information.Translation);
+            var book = _bible?.FirstOrDefault(b =>
+                b.Reference.BookCode.Equals(bookCode, StringComparison.OrdinalIgnoreCase) ||
+                b.Reference.BookName.Equals(bookCode, StringComparison.OrdinalIgnoreCase) ||
+                b.Aliases.Contains(bookCode, StringComparer.OrdinalIgnoreCase));
+            return book;
         }
     }
 }

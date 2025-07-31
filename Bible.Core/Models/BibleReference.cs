@@ -37,7 +37,7 @@ namespace Bible.Core.Models
         /// <summary>
         /// Optional chapter reference.
         /// </summary>
-        public string Chapter { get; set; }
+        public int Chapter { get; set; }
 
         /// <summary>
         /// Optional verse reference.
@@ -72,7 +72,7 @@ namespace Bible.Core.Models
                 return $"{BookCode}.{Reference}?v={Translation}";
             if (!string.IsNullOrEmpty(Verse))
                 return $"{BookCode}.{Chapter}.{Verse}?v={Translation}";
-            else if (!string.IsNullOrEmpty(Chapter))
+            else if (Chapter > 0)
                 return $"{BookCode}.{Chapter}?v={Translation}";
             else if (!string.IsNullOrEmpty(BookCode))
                 return $"{BookCode}?v={Translation}";

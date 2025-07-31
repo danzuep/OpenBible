@@ -3,6 +3,7 @@
 @inject IJSRuntime JsRuntime
 
 <MudThemeProvider @ref="@_mudThemeProvider" @bind-IsDarkMode="@_isDarkMode" />
+<MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
 
@@ -60,7 +61,7 @@
     {
         if (firstRender)
         {
-            var systemThem = await _mudThemeProvider.GetSystemPreference();
+            var systemThem = await _mudThemeProvider.GetSystemDarkModeAsync();
             if (systemThem != _isDarkMode)
             {
                 _isDarkMode = systemThem;

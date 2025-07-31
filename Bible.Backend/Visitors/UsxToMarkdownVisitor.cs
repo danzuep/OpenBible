@@ -9,7 +9,7 @@ using Microsoft.Extensions.Options;
 
 public sealed class UsxToMarkdownVisitor : IUsxVisitor
 {
-    public static string GetFullText(UsxScriptureBook? usxScriptureBook, UsxVisitorOptions? options = null)
+    public static string GetFullText(UsxBook? usxScriptureBook, UsxVisitorOptions? options = null)
     {
         var visitor = new UsxToMarkdownVisitor(options);
         visitor.Accept(usxScriptureBook);
@@ -45,13 +45,15 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
 
     public void Visit(UsxPara para)
     {
-        if (para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
+        if (!string.IsNullOrEmpty(para.Style) &&
+            para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
             para.Text is string heading)
         {
             _sb.AppendLine($"## {heading}");
             _sb.AppendLine();
         }
-        else if (!ParaStylesToHide.Any(h => para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase)))
+        else if (!ParaStylesToHide.Any(h => !string.IsNullOrEmpty(para.Style) &&
+            para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase)))
         {
             this.Accept(para?.Content);
         }
@@ -75,7 +77,7 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
     {
         if (!string.IsNullOrEmpty(marker.Number))
         {
-            _sb.Append($"**{marker.Number}** ");
+            _sb.AppendFormat("**{0}** ", marker.Number);
         }
     }
 

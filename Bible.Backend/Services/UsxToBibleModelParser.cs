@@ -1,4 +1,5 @@
-﻿using Bible.Backend.Abstractions;
+﻿using System.Reflection;
+using Bible.Backend.Abstractions;
 using Bible.Backend.Adapters;
 using Bible.Backend.Models;
 using Bible.Core.Abstractions;
@@ -18,7 +19,7 @@ namespace Bible.Backend.Services
         public BibleModel Load(string version = "eng-WEBBE", string suffix = ".usx")
         {
             var usxPath = UsxToBibleBookParser.GetBibleAssetFolder(version, suffix);
-            var usxBooks = _parser.Enumerate<UsxScriptureBook>(usxPath);
+            var usxBooks = _parser.Enumerate<UsxBook>(usxPath);
             var books = usxBooks.Select(b => b.ToBibleFormat()).ToList();
             var bible = new BibleModel
             {

@@ -2,12 +2,13 @@
 using System.Text;
 using Bible.Backend.Models;
 using Bible.Core.Models;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Bible.Backend.Adapters
 {
     public static class UsxScriptureBookToBibleBookAdapter
     {
-        public static BibleBook? ToBibleFormat(this UsxScriptureBook? book)
+        public static BibleBook? ToBibleFormat(this UsxBook? book)
         {
             if (book == null)
             {
@@ -83,7 +84,7 @@ namespace Bible.Backend.Adapters
 
         internal static IEnumerable<BibleVerse> ToBibleFormat(this UsxContent paragraph, BibleReference bibleReference, StringBuilder stringBuilder)
         {
-            if (paragraph == null || paragraph.Content == null || paragraph.Style != "p")
+            if (paragraph == null || paragraph.Content == null)
             {
                 yield break;
             }
@@ -128,7 +129,7 @@ namespace Bible.Backend.Adapters
                 {
                     foreach (var verse in usx.ToBibleFormat(bibleReference, stringBuilder))
                     {
-                        yield return verse;
+                        bibleVerse.Text += verse.Text;
                     }
                 }
                 else if (item is string text)

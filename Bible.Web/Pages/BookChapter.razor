@@ -1,5 +1,6 @@
-﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookName=JHN}/{ChapterNumber:int}"
+﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=JHN}/{ChapterNumber:int}"
 @using System.Diagnostics.CodeAnalysis
+@using Bible.Backend.Services
 @using Bible.Core.Models
 @using Bible.Data;
 @using System.Text
@@ -24,11 +25,13 @@ else
         <MudPagination BoundaryCount="1" MiddleCount="5" Count="@_chapterCount" Selected="@ChapterNumber" SelectedChanged="ChapterChanged" Class="mt-4" />
     </div>
 
-    <h2>@_reference</h2>
+    <h2 style="color: dimgrey;">@_reference</h2>
 
     <p>
         @_bibleVerses
     </p>
+
+    <br />
 
     @foreach (var note in _verseNotes)
     {
@@ -53,12 +56,12 @@ else
     public string? BibleVersion { get; set; }
 
     [Parameter, EditorRequired]
-    public string? BookName { get; set; }
+    public string? BookCode { get; set; }
 
     [Parameter]
     public int ChapterNumber { get; set; } = 1;
 
-    string page => $"{BookName}/{ChapterNumber}";
+    string page => $"{BookCode}/{ChapterNumber}";
     string? _reference;
     BibleBook? _bibleBook;
     int _chapterCount => _bibleBook?.ChapterCount ?? 0;
@@ -70,8 +73,16 @@ else
         base.OnParametersSet();
         Task.Run(async () =>
         {
+            XDocDeserializer.Assembly = DataAssembly.GetAssembly();
             var version = string.Join("-", Language, BibleVersion);
-            _bibleBook = await DataService.LoadBookAsync(version, BookName);
+            try
+            {
+                _bibleBook = await DataService.LoadBookAsync(version, BookCode);
+            }
+            catch (Exception)
+            {
+                _bibleBook = await DataService.LoadBookAsync("KJV", BookCode);
+            }
             ChapterChanged(ChapterNumber);
         });
     }
