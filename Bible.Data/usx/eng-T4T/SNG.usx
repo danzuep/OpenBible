@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="SNG" style="id">- Translation 4 Translators 1</book>
+  <para style="ide">65001 - Unicode (UTF-8)</para>
+  <para style="h">SONG OF SONGS</para>
+  <para style="toc1">Song of Songs</para>
+  <para style="toc2">Song of Songs</para>
+  <para style="toc3">Sng</para>
+  <para style="mt2">This book contains songs that King Solomon sang with his beloved. We call this book</para>
+  <para style="mt1">Song of Songs</para>
+  <chapter number="1" style="c" sid="SNG 1"/>
+  <para style="p">
+    <verse number="1" style="v" sid="SNG 1:1"/>This is <char style="add">King</char> Solomon’s most beautiful song.<verse eid="SNG 1:1"/></para>
+  <para style="b"/>
+  <para style="s1">The young woman speaks to her lover</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 1:2"/>Kiss me <char style="add">on my lips</char>,</para>
+  <para style="q2" vid="SNG 1:2">because your love <char style="add">for me</char> is more delightful than wine.<verse eid="SNG 1:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 1:3"/>The fragrance of the cologne on your <char style="add">skin</char> is <char style="add">very</char> sweet/pleasing [CHI].</para>
+  <para style="q2" vid="SNG 1:3">And your reputation is <char style="add">very</char> good and spreads,</para>
+  <para style="q2" vid="SNG 1:3">
+    <char style="add">like</char> [SIM] the fragrance of the special oil spread on your skin.</para>
+  <para style="q1" vid="SNG 1:3">That is why the <char style="add">other</char> young women are attracted to you.<verse eid="SNG 1:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 1:4"/>Take me quickly;</para>
+  <para style="q2" vid="SNG 1:4">take me to your home.</para>
+  <para style="q1" vid="SNG 1:4">
+    <char style="add">It is as though</char> you are my king;</para>
+  <para style="q2" vid="SNG 1:4">take me into your room.</para>
+  <para style="s1" vid="SNG 1:4">Their friends speak to the man</para>
+  <para style="q1" vid="SNG 1:4">We are very happy [DOU] about you;</para>
+  <para style="q2" vid="SNG 1:4">we say that your love <char style="add">for each other</char> is better than wine.</para>
+  <para style="q2" vid="SNG 1:4">It is not surprising that the other young women adore you.<verse eid="SNG 1:4"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 1:5"/>You women of Jerusalem,</para>
+  <para style="q2" vid="SNG 1:5">I am dark but beautiful;</para>
+  <para style="q1" vid="SNG 1:5">my dark skin is like [SIM] the tents in Kedar,</para>
+  <para style="q2" vid="SNG 1:5">
+    <char style="add">or</char> like the beautiful curtains in Solomon’s palace.<verse eid="SNG 1:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 1:6"/>
+    <char style="add">But</char> do not stare at me because of the sun having caused my skin to become dark;</para>
+  <para style="q1" vid="SNG 1:6">my brothers were angry with me,</para>
+  <para style="q1" vid="SNG 1:6">
+    <char style="add">so</char> they forced me to work <char style="add">out in the sunshine</char> in the vineyards,</para>
+  <para style="q2" vid="SNG 1:6">so I was not able to take good care of my body/skin [CHI, MET].<verse eid="SNG 1:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 1:7"/>You whom I [SYN] love, where will you take your flock of sheep today?</para>
+  <para style="q2" vid="SNG 1:7">Where will you allow them to rest at noontime?</para>
+  <para style="q1" vid="SNG 1:7">I want to know because it is not right [RHQ] for me to wander around like a prostitute</para>
+  <para style="q2" vid="SNG 1:7">looking for you among the flocks that belong to your friends.<verse eid="SNG 1:7"/></para>
+  <para style="s1">The man speaks</para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 1:8"/>You who are the most beautiful of all the women,</para>
+  <para style="q2" vid="SNG 1:8">if you <char style="add">search for me and</char> do not know <char style="add">where I will take my sheep</char>,</para>
+  <para style="q1" vid="SNG 1:8">follow the tracks/footprints of the sheep.</para>
+  <para style="q2" vid="SNG 1:8">
+    <char style="add">Then</char> allow your young goats to ◄graze/eat grass► near the shepherds’ tents.<verse eid="SNG 1:8"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 1:9"/>You <char style="add">are beautiful</char>, my darling, like the young female horse</para>
+  <para style="q2" vid="SNG 1:9">that pulls the chariot of the king of Egypt.<verse eid="SNG 1:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 1:10"/>Your cheeks are decorated with jewelry,</para>
+  <para style="q2" vid="SNG 1:10">and there are strings of beads/pearls around your neck.<verse eid="SNG 1:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 1:11"/>We will make for you <char style="add">some</char> gold earrings</para>
+  <para style="q2" vid="SNG 1:11">that are decorated/inlaid with silver.<verse eid="SNG 1:11"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 1:12"/>While the king was on his couch,</para>
+  <para style="q2" vid="SNG 1:12">the smell of my perfume spread <char style="add">around the room</char>.<verse eid="SNG 1:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 1:13"/>The man who loves me is <char style="add">as delightful as [MET]</char> a ◄sachet/small cloth bag► of myrrh between my breasts.<verse eid="SNG 1:13"/></para>
+  <para style="q2">
+    <verse number="14" style="v" sid="SNG 1:14"/>He is like [MET] a bunch of flowers from the vineyards at En-Gedi.<verse eid="SNG 1:14"/></para>
+  <para style="s1">The man speaks</para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 1:15"/>You whom I love, you are beautiful;</para>
+  <para style="q2" vid="SNG 1:15">you are very beautiful!</para>
+  <para style="q1" vid="SNG 1:15">Your eyes are <char style="add">as delightful/charming as</char> doves.<verse eid="SNG 1:15"/></para>
+  <para style="s1">The woman replies</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 1:16"/>You who love me, you are very delightful/handsome,</para>
+  <para style="q2" vid="SNG 1:16">you are wonderful!</para>
+  <para style="q2" vid="SNG 1:16">This green grass will be <char style="add">like</char> a couch <char style="add">where we lie down</char>.<verse eid="SNG 1:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="SNG 1:17"/>
+    <char style="add">Branches of</char> cedar <char style="add">trees</char> will shade us;</para>
+  <para style="q2" vid="SNG 1:17">
+    <char style="add">it is as though branches of</char> juniper/pine <char style="add">trees</char> will be like [MET] a roof <char style="add">over our heads</char>.<verse eid="SNG 1:17"/></para>
+  <chapter eid="SNG 1"/>
+  <chapter number="2" style="c" sid="SNG 2"/>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 2:1"/>I am <char style="add">like</char> [MET] a flower/rose from the Sharon <char style="add">Plain</char>,</para>
+  <para style="q2" vid="SNG 2:1">and <char style="add">like</char> [MET] a lily <char style="add">that grows</char> in a valley.<verse eid="SNG 2:1"/></para>
+  <para style="s1">The man speaks</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 2:2"/>Among the <char style="add">other</char> young women,</para>
+  <para style="q2" vid="SNG 2:2">the one whom I love is like [MET] a lily <char style="add">growing</char> among thorns!<verse eid="SNG 2:2"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 2:3"/>And among <char style="add">the other</char> men, you, the man who loves me, are like [MET] an apple/fruit tree <char style="add">that grows</char> in the forest.</para>
+  <para style="q2" vid="SNG 2:3">
+    <char style="add">You are like a tree whose</char> shadow <char style="add">protects me from the sun</char>,</para>
+  <para style="q1" vid="SNG 2:3">and your <char style="add">being close to me</char> [EUP] is like [MET] eating sweet fruit.<verse eid="SNG 2:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 2:4"/>You led me to the ◄banquet room/room where we could make love►,</para>
+  <para style="q2" vid="SNG 2:4">and it is evident that you love me very much.<verse eid="SNG 2:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 2:5"/>Refresh me and strengthen me <char style="add">with your lovemaking</char></para>
+  <para style="q2" vid="SNG 2:5">
+    <char style="add">like I am refreshed by eating</char> [MET, EUP] raisins and other fruit,</para>
+  <para style="q2" vid="SNG 2:5">because I very much desire that you love me even more.<verse eid="SNG 2:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 2:6"/>Put your left arm under my head</para>
+  <para style="q2" vid="SNG 2:6">and with your right arm hold me close.<verse eid="SNG 2:6"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 2:7"/>You young women of Jerusalem,</para>
+  <para style="q2" vid="SNG 2:7">solemnly promise me, while the does and gazelles <char style="add">are listening</char>, that you will not</para>
+  <para style="q1" vid="SNG 2:7">disturb us while we are making love</para>
+  <para style="q2" vid="SNG 2:7">until we are ready to quit.<verse eid="SNG 2:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 2:8"/>I hear the voice of the man who loves me.</para>
+  <para style="q2" vid="SNG 2:8">
+    <char style="add">It is as though</char> [MET] he is leaping over the mountains</para>
+  <para style="q1" vid="SNG 2:8">and skipping over the hills<verse eid="SNG 2:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 2:9"/>like [SIM] a deer or a gazelle.</para>
+  <para style="q2" vid="SNG 2:9">Now he is standing outside the wall of our house,</para>
+  <para style="q1" vid="SNG 2:9">looking in the window,</para>
+  <para style="q2" vid="SNG 2:9">and peering through the ◄lattice/wooden strips inside the window frame►.<verse eid="SNG 2:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 2:10"/>He spoke to me and said,</para>
+  <para style="q2" vid="SNG 2:10">“You whom I love, get up;</para>
+  <para style="q2" vid="SNG 2:10">my beautiful one, come with me [CHI]!<verse eid="SNG 2:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 2:11"/>Look, the ◄winter/cold season► is ended;</para>
+  <para style="q2" vid="SNG 2:11">the rain has stopped;<verse eid="SNG 2:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 2:12"/>flowers are blooming throughout the country/land.</para>
+  <para style="q2" vid="SNG 2:12">It is now time to sing;</para>
+  <para style="q1" vid="SNG 2:12">we hear the doves cooing.<verse eid="SNG 2:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 2:13"/>There are young/new figs on the fig trees,</para>
+  <para style="q2" vid="SNG 2:13">and there are blossoms on the grapevines</para>
+  <para style="q1" vid="SNG 2:13">and their fragrance fills the air.</para>
+  <para style="q2" vid="SNG 2:13">You whom I love, get up;</para>
+  <para style="q2" vid="SNG 2:13">my beautiful one, come with me!<verse eid="SNG 2:13"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 2:14"/>
+    <char style="add">You are like</char> [MET] a dove that is hiding <char style="add">far from me</char> in an opening/crack in the rocky cliff.</para>
+  <para style="q1" vid="SNG 2:14">Show me your face,</para>
+  <para style="q2" vid="SNG 2:14">and allow me to hear your voice,</para>
+  <para style="q2" vid="SNG 2:14">because your voice is sweet-sounding</para>
+  <para style="q1" vid="SNG 2:14">and your face is lovely [CHI].”<verse eid="SNG 2:14"/></para>
+  <para style="s1">The woman continues to speak</para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 2:15"/>
+    <char style="add">There are other men who are like</char> [MET] little jackals/foxes that ruin vineyards;</para>
+  <para style="q2" vid="SNG 2:15">do not allow <char style="add">those men to attack me</char>.<verse eid="SNG 2:15"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 2:16"/>You who love me, I belong to you and you belong to me,</para>
+  <para style="q2" vid="SNG 2:16">and you <char style="add">experience pleasure when you kiss</char> my lips</para>
+  <para style="q2" vid="SNG 2:16">
+    <char style="add">like</char> [MET] a shepherd enjoys taking care of his sheep.<verse eid="SNG 2:16"/></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="SNG 2:17"/>You who love me, come and be like [SIM] a gazelle or like a young deer on the hills of Bether,</para>
+  <para style="q2" vid="SNG 2:17">and then flee like a deer at dawn <char style="add">tomorrow morning</char>,</para>
+  <para style="q1" vid="SNG 2:17">when the darkness fades.<verse eid="SNG 2:17"/></para>
+  <chapter eid="SNG 2"/>
+  <chapter number="3" style="c" sid="SNG 3"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 3:1"/>All through the night <char style="add">while I lay</char> on my bed,</para>
+  <para style="q2" vid="SNG 3:1">I longed for the one whom I love.</para>
+  <para style="q1" vid="SNG 3:1">I desired for him <char style="add">to come</char>,</para>
+  <para style="q2" vid="SNG 3:1">but he did not come.<verse eid="SNG 3:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 3:2"/>
+    <char style="add">So I said to myself</char>,</para>
+  <para style="q1" vid="SNG 3:2">“I will get up now and walk around the city,</para>
+  <para style="q2" vid="SNG 3:2">through the streets and plazas,</para>
+  <para style="q2" vid="SNG 3:2">to search for the one whom I love.”</para>
+  <para style="q1" vid="SNG 3:2">
+    <char style="add">So</char> I <char style="add">got up and</char> searched for him,</para>
+  <para style="q2" vid="SNG 3:2">but I could not find him.<verse eid="SNG 3:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 3:3"/>The city watchmen saw me</para>
+  <para style="q2" vid="SNG 3:3">while they were patrolling/walking around the city.</para>
+  <para style="q1" vid="SNG 3:3">
+    <char style="add">I asked them</char>,</para>
+  <para style="q2" vid="SNG 3:3">“Have you seen the one whom I love?”<verse eid="SNG 3:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 3:4"/>As soon as I walked past them,</para>
+  <para style="q2" vid="SNG 3:4">I found the one whom I love.</para>
+  <para style="q1" vid="SNG 3:4">I clung to him and would not let him go</para>
+  <para style="q2" vid="SNG 3:4">until I had brought him to my mother’s house,</para>
+  <para style="q2" vid="SNG 3:4">to the room where my mother had conceived me (OR, where I was born).<verse eid="SNG 3:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 3:5"/>You women of Jerusalem,</para>
+  <para style="q2" vid="SNG 3:5">solemnly promise me, while the does and gazelles <char style="add">are listening</char>, that you will not</para>
+  <para style="q1" vid="SNG 3:5">disturb us while we are making love</para>
+  <para style="q2" vid="SNG 3:5">until we are ready to quit.<verse eid="SNG 3:5"/></para>
+  <para style="b"/>
+  <para style="s1">One of their friends speaks</para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 3:6"/>Who is it that is coming from the desert,</para>
+  <para style="q2" vid="SNG 3:6">who is <char style="add">stirring up dust</char> like a column of smoke</para>
+  <para style="q1" vid="SNG 3:6">from burning myrrh and incense</para>
+  <para style="q2" vid="SNG 3:6">
+    <char style="add">made from</char> spices <char style="add">imported by</char> merchants?<verse eid="SNG 3:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 3:7"/>It is <char style="add">Solomon</char>, <char style="add">sitting in</char> his portable chair</para>
+  <para style="q2" vid="SNG 3:7">surrounded by 60 bodyguards</para>
+  <para style="q2" vid="SNG 3:7">chosen from the strongest/greatest warriors in Israel.<verse eid="SNG 3:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 3:8"/>They all have swords</para>
+  <para style="q2" vid="SNG 3:8">and they <char style="add">all</char> ◄are trained to/know well how to► use them.</para>
+  <para style="q1" vid="SNG 3:8">Each one has his sword <char style="add">strapped to</char> his side</para>
+  <para style="q2" vid="SNG 3:8">and <char style="add">is prepared to defend Solomon from</char> dangers that might occur even during the night.<verse eid="SNG 3:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 3:9"/>King Solomon <char style="add">commanded his servants</char> to make that portable chair for him;</para>
+  <para style="q2" vid="SNG 3:9">
+    <char style="add">it was made</char> with wood from Lebanon.<verse eid="SNG 3:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 3:10"/>The <char style="add">canopy that covered it</char> was ◄held up/supported► by posts made of silver,</para>
+  <para style="q2" vid="SNG 3:10">and the back of the chair was <char style="add">embroidered</char> with gold.</para>
+  <para style="q1" vid="SNG 3:10">The seat/cushion was covered with purple cloth</para>
+  <para style="q2" vid="SNG 3:10">lovingly made/woven by the women of Jerusalem.<verse eid="SNG 3:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 3:11"/>You women of Jerusalem,</para>
+  <para style="q2" vid="SNG 3:11">come and look at King Solomon</para>
+  <para style="q1" vid="SNG 3:11">wearing the headdress that his mother put on his head</para>
+  <para style="q2" vid="SNG 3:11">on the day when he was married,</para>
+  <para style="q1" vid="SNG 3:11">the day when he [SYN] was very happy.<verse eid="SNG 3:11"/></para>
+  <chapter eid="SNG 3"/>
+  <chapter number="4" style="c" sid="SNG 4"/>
+  <para style="s1">The man speaks</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 4:1"/>My darling, you are beautiful,</para>
+  <para style="q2" vid="SNG 4:1">you are very beautiful!</para>
+  <para style="q2" vid="SNG 4:1">Underneath your veil, your eyes are <char style="add">as gentle as</char> [MET] doves.</para>
+  <para style="q1" vid="SNG 4:1">Your <char style="add">long black</char> hair <char style="add">moves from side to side</char> like [SIM] a flock of <char style="add">black</char> goats</para>
+  <para style="q2" vid="SNG 4:1">moving down the slopes of Gilead Mountain.<verse eid="SNG 4:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 4:2"/>Your teeth are <char style="add">very white</char></para>
+  <para style="q2" vid="SNG 4:2">like [SIM] a flock of sheep <char style="add">whose wool</char> has <char style="add">just</char> been ◄shorn/cut off►</para>
+  <para style="q1" vid="SNG 4:2">and that have come up from being washed <char style="add">in a stream</char>.</para>
+  <para style="q1" vid="SNG 4:2">You have all of your teeth;</para>
+  <para style="q2" vid="SNG 4:2">none of them is missing.<verse eid="SNG 4:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 4:3"/>Your lips are like [SIM] a scarlet ribbon,</para>
+  <para style="q2" vid="SNG 4:3">and your mouth is lovely.</para>
+  <para style="q1" vid="SNG 4:3">Beneath your veil,</para>
+  <para style="q2" vid="SNG 4:3">your <char style="add">round, rosy/red</char> cheeks are like [SIM] the halves of a pomegranate.<verse eid="SNG 4:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 4:4"/>Your <char style="add">long</char> neck is <char style="add">beautiful</char> like [SIM] the tower of <char style="add">King</char> David</para>
+  <para style="q2" vid="SNG 4:4">that was built using layers/rows of stone.</para>
+  <para style="q1" vid="SNG 4:4">
+    <char style="add">The ornaments on your necklaces are like</char> 1,000 [HYP] shields that are hanging <char style="add">on the walls of a tower</char>;</para>
+  <para style="q2" vid="SNG 4:4">each one belongs to a warrior.<verse eid="SNG 4:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 4:5"/>Your breasts are <char style="add">as beautiful</char> [SIM] as two ◄fawns/young gazelles►</para>
+  <para style="q2" vid="SNG 4:5">that eat <char style="add">grass</char> among lilies.<verse eid="SNG 4:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 4:6"/>Until dawn <char style="add">tomorrow morning</char></para>
+  <para style="q2" vid="SNG 4:6">and the nighttime shadows/darkness disappear,</para>
+  <para style="q1" vid="SNG 4:6">I will <char style="add">lie close to your breasts</char></para>
+  <para style="q2" vid="SNG 4:6">that are <char style="add">like</char> [MET] hills that are covered with incense [DOU].<verse eid="SNG 4:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 4:7"/>My darling, you are completely beautiful;</para>
+  <para style="q2" vid="SNG 4:7">your body is perfectly <char style="add">formed</char>!<verse eid="SNG 4:7"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 4:8"/>My bride, <char style="add">it is as though you are in</char> [MET] Lebanon</para>
+  <para style="q2" vid="SNG 4:8">
+    <char style="add">far away, where I cannot reach you</char>;</para>
+  <para style="q1" vid="SNG 4:8">come back to me.</para>
+  <para style="q1" vid="SNG 4:8">
+    <char style="add">It is as though you are inaccessible</char> [MET]</para>
+  <para style="q2" vid="SNG 4:8">on the top of Hermon Mountain or the nearby peaks.</para>
+  <para style="q1" vid="SNG 4:8">Come from where the lions have their dens</para>
+  <para style="q2" vid="SNG 4:8">and where the leopards live on the mountains.<verse eid="SNG 4:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 4:9"/>My bride [DOU], you who are dearer to me than my sister, you have captured my affection [IDM]</para>
+  <para style="q2" vid="SNG 4:9">by only once quickly looking at me,</para>
+  <para style="q2" vid="SNG 4:9">and by one <char style="add">strand of</char> jewels in your necklace.<verse eid="SNG 4:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 4:10"/>My bride, your love for me is delightful!</para>
+  <para style="q2" vid="SNG 4:10">It more delightful than wine!</para>
+  <para style="q1" vid="SNG 4:10">And the fragrance of your perfume</para>
+  <para style="q2" vid="SNG 4:10">is more pleasing than any spice!<verse eid="SNG 4:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 4:11"/>Being kissed by you is <char style="add">as enjoyable as eating</char> [MTY] honey;</para>
+  <para style="q2" vid="SNG 4:11">your kisses are as sweet as milk <char style="add">mixed with</char> honey.</para>
+  <para style="q2" vid="SNG 4:11">The aroma of your clothes</para>
+  <para style="q2" vid="SNG 4:11">is like [SIM] the aroma of <char style="add">cedar trees in</char> Lebanon.<verse eid="SNG 4:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 4:12"/>My bride, <char style="add">you who are dearer to me than</char> [MET] my sister, you are <char style="add">like</char> [MET] a garden that is locked</para>
+  <para style="q2" vid="SNG 4:12">
+    <char style="add">in order that other men cannot enter it</char>;</para>
+  <para style="q1" vid="SNG 4:12">
+    <char style="add">you are like</char> [MET] a spring or a fountain that is covered</para>
+  <para style="q2" vid="SNG 4:12">
+    <char style="add">in order that others may not drink from it</char>.<verse eid="SNG 4:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 4:13"/>You are <char style="add">like</char> [MET] an orchard of pomegranate trees</para>
+  <para style="q2" vid="SNG 4:13">full of delicious fruit,</para>
+  <para style="q2" vid="SNG 4:13">and plenty of <char style="add">plants that produce</char> henna and nard <char style="add">spices</char>,<verse eid="SNG 4:13"/></para>
+  <para style="q2">
+    <verse number="14" style="v" sid="SNG 4:14"/>and saffron and calamus and cinnamon</para>
+  <para style="q2" vid="SNG 4:14">and many other kinds of incense,</para>
+  <para style="q2" vid="SNG 4:14">and myrrh and aloes</para>
+  <para style="q2" vid="SNG 4:14">and many <char style="add">other</char> fine spices.<verse eid="SNG 4:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 4:15"/>
+    <char style="add">You are like</char> [MET] a fountain in a garden,</para>
+  <para style="q2" vid="SNG 4:15">
+    <char style="add">like</char> [MET] a spring of clear water</para>
+  <para style="q2" vid="SNG 4:15">that flows <char style="add">down</char> from <char style="add">the mountains of</char> Lebanon.<verse eid="SNG 4:15"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 4:16"/>
+    <char style="add">I want</char> the north wind and the south wind to come,</para>
+  <para style="q2" vid="SNG 4:16">and blow on my garden,</para>
+  <para style="q1" vid="SNG 4:16">
+    <char style="add">in order that</char> the fragrance <char style="add">of the spices will</char> spread through the air.</para>
+  <para style="q1" vid="SNG 4:16">
+    <char style="add">Similarly</char>, I want the one who loves me to come and enjoy <char style="add">cuddling up to me</char></para>
+  <para style="q2" vid="SNG 4:16">
+    <char style="add">like</char> [MET, EUP] someone comes into a garden and enjoys eating the fruit <char style="add">that grows there</char>.<verse eid="SNG 4:16"/></para>
+  <chapter eid="SNG 4"/>
+  <chapter number="5" style="c" sid="SNG 5"/>
+  <para style="s1">The man speaks</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 5:1"/>My bride, <char style="add">you who are dearer to me than</char> my sister,</para>
+  <para style="q2" vid="SNG 5:1">I have come <char style="add">to cuddle up to you</char> [MET, EUP];</para>
+  <para style="q1" vid="SNG 5:1">
+    <char style="add">it will be as though</char> I will be gathering myrrh with my other spices,</para>
+  <para style="q2" vid="SNG 5:1">and eating my honey and my honeycomb,</para>
+  <para style="q2" vid="SNG 5:1">and drinking my wine and my milk.</para>
+  <para style="s1" vid="SNG 5:1">Their friends speak</para>
+  <para style="q1" vid="SNG 5:1">You two who love each other, enjoy your lovemaking;</para>
+  <para style="q2" vid="SNG 5:1">enjoy all that you want to.<verse eid="SNG 5:1"/></para>
+  <para style="b"/>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 5:2"/>I was partially asleep, but my mind was <char style="add">still</char> awake.</para>
+  <para style="q2" vid="SNG 5:2">Then I heard the one who loves me knocking <char style="add">at the door</char>.</para>
+  <para style="q1" vid="SNG 5:2">
+    <char style="add">He said</char>, “My darling, <char style="add">you who are dearer to me than</char> my sister, my dear friend, my perfect one, my dove [MET],</para>
+  <para style="q2" vid="SNG 5:2">open the door for me!</para>
+  <para style="q1" vid="SNG 5:2">My hair is wet from the dew,</para>
+  <para style="q2" vid="SNG 5:2">from the mist <char style="add">that has fallen during</char> the night.”<verse eid="SNG 5:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 5:3"/>
+    <char style="add">But</char> I had already taken off my robe;</para>
+  <para style="q2" vid="SNG 5:3">I did not [RHQ] want to put it on again <char style="add">to open the door</char>.</para>
+  <para style="q1" vid="SNG 5:3">I had <char style="add">already</char> washed my feet;</para>
+  <para style="q2" vid="SNG 5:3">I did not [RHQ] want them to become dirty again.<verse eid="SNG 5:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 5:4"/>The one who loves me put his hand through the opening <char style="add">in the wall</char>,</para>
+  <para style="q2" vid="SNG 5:4">and I was thrilled <char style="add">that he was there</char>.<verse eid="SNG 5:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 5:5"/>I got up to open <char style="add">the door</char> for the one who loves me,</para>
+  <para style="q2" vid="SNG 5:5">
+    <char style="add">but first I put a lot of</char> myrrh on my hands.</para>
+  <para style="q1" vid="SNG 5:5">The myrrh was dripping from my fingers</para>
+  <para style="q2" vid="SNG 5:5">while I unlatched the bolt.<verse eid="SNG 5:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 5:6"/>I opened <char style="add">the door</char> for the man who loves me,</para>
+  <para style="q2" vid="SNG 5:6">but he had left.</para>
+  <para style="q1" vid="SNG 5:6">He had turned away and was gone!</para>
+  <para style="q2" vid="SNG 5:6">I was very disappointed [IDM];</para>
+  <para style="q1" vid="SNG 5:6">I searched for him, but I could not find him.</para>
+  <para style="q2" vid="SNG 5:6">I called him, but he did not answer.<verse eid="SNG 5:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 5:7"/>The city watchmen saw me while they were walking around the city.</para>
+  <para style="q1" vid="SNG 5:7">They beat me and wounded me</para>
+  <para style="q2" vid="SNG 5:7">
+    <char style="add">because they thought I must be a prostitute</char>;</para>
+  <para style="q2" vid="SNG 5:7">those men who were guarding the city walls took my robe.<verse eid="SNG 5:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 5:8"/>You young women of Jerusalem,</para>
+  <para style="q2" vid="SNG 5:8">I plead with you,</para>
+  <para style="q1" vid="SNG 5:8">if you see the man who loves me,</para>
+  <para style="q2" vid="SNG 5:8">tell him [DOU] that I am very disappointed that we did not make love.<verse eid="SNG 5:8"/></para>
+  <para style="s1">Their friends speak</para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 5:9"/>You who are the ◄fairest/most beautiful► among women,</para>
+  <para style="q2" vid="SNG 5:9">why <char style="add">do you think that</char> the one who loves you is better than other men?</para>
+  <para style="q1" vid="SNG 5:9">In what way is the man who loves you better than other men</para>
+  <para style="q2" vid="SNG 5:9">with the result that you ask us to tell him that?<verse eid="SNG 5:9"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 5:10"/>The man who loves me is handsome and healthy,</para>
+  <para style="q2" vid="SNG 5:10">◄outstanding among/better than► ◄10,000/an uncountable number of► <char style="add">other men</char>.<verse eid="SNG 5:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 5:11"/>His head is <char style="add">beautiful, like</char> [MET] purest gold;</para>
+  <para style="q2" vid="SNG 5:11">his hair is wavy</para>
+  <para style="q2" vid="SNG 5:11">and as black as [SIM] a raven/crow.<verse eid="SNG 5:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 5:12"/>His eyes <char style="add">are as gentle</char> as [SIM] doves</para>
+  <para style="q2" vid="SNG 5:12">along the streams;</para>
+  <para style="q1" vid="SNG 5:12">
+    <char style="add">the white parts of</char> his eyes are as white as [MET] milk,</para>
+  <para style="q2" vid="SNG 5:12">
+    <char style="add">with what resembles</char> jewels inlaid in them.<verse eid="SNG 5:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 5:13"/>His cheeks are like [SIM] a garden full of spice trees</para>
+  <para style="q2" vid="SNG 5:13">that produce <char style="add">sweet-smelling</char> perfume.</para>
+  <para style="q1" vid="SNG 5:13">His lips are <char style="add">like</char> [SIM] lilies</para>
+  <para style="q2" vid="SNG 5:13">that have myrrh/perfume dripping from them.<verse eid="SNG 5:13"/></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 5:14"/>His arms are like [MET] gold bars/rods</para>
+  <para style="q2" vid="SNG 5:14">that are decorated with precious stones/jewels.</para>
+  <para style="q1" vid="SNG 5:14">His body is like [SIM] <char style="add">a column/pillar of</char> ivory</para>
+  <para style="q2" vid="SNG 5:14">that is decorated with ◄sapphires/valuable <char style="add">blue</char> stones►.<verse eid="SNG 5:14"/></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 5:15"/>His legs are <char style="add">like</char> [MET] pillars of marble</para>
+  <para style="q2" vid="SNG 5:15">that are set in bases made of pure gold.</para>
+  <para style="q1" vid="SNG 5:15">He is <char style="add">majestic, like the mountains of</char> [SIM] Lebanon,</para>
+  <para style="q2" vid="SNG 5:15">as delightful/beautiful as [SIM] cedar <char style="add">trees</char>.<verse eid="SNG 5:15"/></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 5:16"/>His kisses [MTY] are extremely sweet;</para>
+  <para style="q2" vid="SNG 5:16">he is very handsome.</para>
+  <para style="q1" vid="SNG 5:16">You young women of Jerusalem,</para>
+  <para style="q2" vid="SNG 5:16">all that tells you why the one who loves me and who is my friend <char style="add">is better than other men</char>.<verse eid="SNG 5:16"/></para>
+  <chapter eid="SNG 5"/>
+  <chapter number="6" style="c" sid="SNG 6"/>
+  <para style="s1">Their friends speak to the woman</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 6:1"/>You who are the most beautiful of all the women,</para>
+  <para style="q2" vid="SNG 6:1">where has the one who loves you gone?</para>
+  <para style="q1" vid="SNG 6:1">
+    <char style="add">If you tell us</char> which [RHQ] direction he went,</para>
+  <para style="q2" vid="SNG 6:1">we will go with you to search for him.<verse eid="SNG 6:1"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 6:2"/>The one who loves me has now come <char style="add">to me, who am like</char> [MET, EUP] his garden,</para>
+  <para style="q2" vid="SNG 6:2">He has come to <char style="add">enjoy my ◄charms/physical attractions► which are like</char> [MET, EUP] spices,</para>
+  <para style="q1" vid="SNG 6:2">to enjoy cuddling up to me [EUP, MET],</para>
+  <para style="q2" vid="SNG 6:2">and <char style="add">kissing my lips, which are like</char> [MET] lilies.<verse eid="SNG 6:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 6:3"/>I belong to the one who loves me, and the one who loves me belongs to me;</para>
+  <para style="q2" vid="SNG 6:3">he <char style="add">enjoys kissing</char> my lips</para>
+  <para style="q2" vid="SNG 6:3">like [MET] <char style="add">a shepherd enjoys</char> taking care of <char style="add">his sheep</char>.<verse eid="SNG 6:3"/></para>
+  <para style="b"/>
+  <para style="s1">The man speaks</para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 6:4"/>My darling, you are beautiful,</para>
+  <para style="q2" vid="SNG 6:4">like [SIM] Tirzah <char style="add">the capital city of Israel</char> and Jerusalem <char style="add">the capital city of Judah are beautiful</char>;</para>
+  <para style="q2" vid="SNG 6:4">you are as exciting [MET] as a <char style="add">group/battalion of</char> troops holding up their banners.<verse eid="SNG 6:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 6:5"/>Quit looking at me like that,</para>
+  <para style="q2" vid="SNG 6:5">because your eyes excite me very much.</para>
+  <para style="q1" vid="SNG 6:5">Your <char style="add">long black</char> hair <char style="add">moves from side to side</char> like [SIM] a flock of <char style="add">black</char> goats</para>
+  <para style="q2" vid="SNG 6:5">
+    <char style="add">moving down the slopes</char> of Gilead <char style="add">Mountain</char>.<verse eid="SNG 6:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 6:6"/>Your teeth are <char style="add">very white</char></para>
+  <para style="q2" vid="SNG 6:6">like [SIM] a flock of sheep <char style="add">whose wool</char> has just been shorn</para>
+  <para style="q1" vid="SNG 6:6">and that have come up from being washed <char style="add">in a stream</char>.</para>
+  <para style="q1" vid="SNG 6:6">You have all of your teeth;</para>
+  <para style="q2" vid="SNG 6:6">none of them is missing.<verse eid="SNG 6:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 6:7"/>Beneath your veil,</para>
+  <para style="q2" vid="SNG 6:7">your cheeks are like [SIM] the halves of a pomegranate.<verse eid="SNG 6:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 6:8"/>Even if a king had 60 queens and 80 ◄concubines/slave wives►</para>
+  <para style="q2" vid="SNG 6:8">and more young women than anyone can count,<verse eid="SNG 6:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 6:9"/>
+    <char style="add">none of them would be like</char> my dove, who is perfect,</para>
+  <para style="q2" vid="SNG 6:9">you who are your mother’s only daughter,</para>
+  <para style="q2" vid="SNG 6:9">whom your mother considers to be very precious.</para>
+  <para style="q1" vid="SNG 6:9">
+    <char style="add">Other</char> young women who see you say that you are fortunate,</para>
+  <para style="q2" vid="SNG 6:9">and the queens and concubines recognize that you <char style="add">are very beautiful</char>.<verse eid="SNG 6:9"/></para>
+  <para style="s1">Their friends speaks</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 6:10"/>Who is [RHQ] this woman who is <char style="add">as delightful</char> as [SIM] the dawn,</para>
+  <para style="q2" vid="SNG 6:10">as fair/delightful <char style="add">to look at</char> as <char style="add">the light of</char> the moon,</para>
+  <para style="q2" vid="SNG 6:10">as exciting as a <char style="add">group/battalion of</char> troops holding up their banners?<verse eid="SNG 6:10"/></para>
+  <para style="s1">The man speaks</para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 6:11"/>I went down to some walnut trees</para>
+  <para style="q2" vid="SNG 6:11">to look at the new plants that were growing in the valley.</para>
+  <para style="q1" vid="SNG 6:11">I wanted to see if the grapevines had budded</para>
+  <para style="q2" vid="SNG 6:11">or if the pomegranate trees were blooming.<verse eid="SNG 6:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 6:12"/>
+    <char style="add">But</char> before I realized it,</para>
+  <para style="q2" vid="SNG 6:12">my desire <char style="add">to make love caused me to be as excited as</char> a prince riding in a chariot.<verse eid="SNG 6:12"/></para>
+  <para style="s1">Their friends speak</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 6:13"/>You who are the perfect one,</para>
+  <para style="q2" vid="SNG 6:13">come back <char style="add">to us</char>, in order that we may see you!</para>
+  <para style="s1" vid="SNG 6:13">The man speaks</para>
+  <para style="q1" vid="SNG 6:13">Why do you want to look at this woman who is perfect,</para>
+  <para style="q2" vid="SNG 6:13">like [SIM] you like to watch two rows/lines of people dancing?<verse eid="SNG 6:13"/></para>
+  <chapter eid="SNG 6"/>
+  <chapter number="7" style="c" sid="SNG 7"/>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 7:1"/>You who are the daughter of a prince/king,</para>
+  <para style="q2" vid="SNG 7:1">you have lovely feet in your sandals.</para>
+  <para style="q1" vid="SNG 7:1">Your curved hips/thighs are like [SIM] jewels</para>
+  <para style="q2" vid="SNG 7:1">that have been made by a ◄skilled craftsman/man who shapes jewels very well►.<verse eid="SNG 7:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 7:2"/>Your navel is <char style="add">like</char> [MET] a round bowl</para>
+  <para style="q2" vid="SNG 7:2">that is always full of wine mixed <char style="add">with spices</char>.</para>
+  <para style="q1" vid="SNG 7:2">Your waist is <char style="add">like</char> [SIM] a mound/bundle of wheat</para>
+  <para style="q2" vid="SNG 7:2">with lilies <char style="add">growing</char> around it.<verse eid="SNG 7:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 7:3"/>Your breasts are as <char style="add">as beautiful</char> as [SIM] two ◄fawns/young gazelles►.<verse eid="SNG 7:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 7:4"/>Your neck is like [SIM] a tower <char style="add">made of</char> ivory.</para>
+  <para style="q1" vid="SNG 7:4">Your eyes <char style="add">sparkle/shine like</char> [MET] the pools in Heshbon <char style="add">city</char>,</para>
+  <para style="q2" vid="SNG 7:4">near the Bath-Rabbim gate.</para>
+  <para style="q1" vid="SNG 7:4">Your nose is <char style="add">is as lovely</char> as [SIM] the tower of Lebanon</para>
+  <para style="q2" vid="SNG 7:4">which faces toward Damascus.<verse eid="SNG 7:4"/></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 7:5"/>Your head is <char style="add">majestic</char> like [SIM] Carmel Mountain.</para>
+  <para style="q2" vid="SNG 7:5">Your long hair is shiny [SIM] and black;</para>
+  <para style="q2" vid="SNG 7:5">
+    <char style="add">it is as though</char> I, your king, am captured by your tresses.<verse eid="SNG 7:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 7:6"/>You whom I love, who have many charming features that attract me,</para>
+  <para style="q2" vid="SNG 7:6">are very beautiful and pleasant/pleasing.<verse eid="SNG 7:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 7:7"/>You are stately like [SIM] a palm tree,</para>
+  <para style="q2" vid="SNG 7:7">and your breasts are like [SIM] clusters/bunches of dates/fruit.<verse eid="SNG 7:7"/></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 7:8"/>I said <char style="add">to myself</char>, “I will climb that palm tree</para>
+  <para style="q2" vid="SNG 7:8">and take hold of those clusters of dates.”</para>
+  <para style="q1" vid="SNG 7:8">To me, your breasts are like clusters of grapes <char style="add">that I can feel</char></para>
+  <para style="q2" vid="SNG 7:8">and your breath is like the sweet fragrance of apples<verse eid="SNG 7:8"/></para>
+  <para style="q2">
+    <verse number="9" style="v" sid="SNG 7:9"/>and your kisses are like very good wine.</para>
+  <para style="s1" vid="SNG 7:9">The woman speaks</para>
+  <para style="q1" vid="SNG 7:9">My kisses [MTY] go to the one who loves me</para>
+  <para style="q2" vid="SNG 7:9">and flow <char style="add">like wine</char> over his lips and his teeth.<verse eid="SNG 7:9"/></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 7:10"/>I belong to the man who loves me,</para>
+  <para style="q2" vid="SNG 7:10">and he desires me.<verse eid="SNG 7:10"/></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 7:11"/>You who love me, let’s go to the countryside,</para>
+  <para style="q2" vid="SNG 7:11">and sleep among the henna bushes (OR, in one of the villages).<verse eid="SNG 7:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 7:12"/>And let’s go early to the vineyards</para>
+  <para style="q2" vid="SNG 7:12">to see if the grapevines have budded</para>
+  <para style="q2" vid="SNG 7:12">and if there are blossoms on them that have opened,</para>
+  <para style="q1" vid="SNG 7:12">and to see if the pomegranate <char style="add">trees</char> are blooming,</para>
+  <para style="q2" vid="SNG 7:12">and there I will make love to you.<verse eid="SNG 7:12"/></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 7:13"/>The mandrakes/love-apples are producing a fragrant odor,</para>
+  <para style="q2" vid="SNG 7:13">and we are surrounded by delightful <char style="add">pleasures</char> [MET, EUP],</para>
+  <para style="q1" vid="SNG 7:13">new ones and old ones,</para>
+  <para style="q2" vid="SNG 7:13">pleasures that I have been saving to give to you, who love me.<verse eid="SNG 7:13"/></para>
+  <chapter eid="SNG 7"/>
+  <chapter number="8" style="c" sid="SNG 8"/>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 8:1"/>I wish that you were my brother</para>
+  <para style="q2" vid="SNG 8:1">who ◄nursed at/drank milk from► my mother’s breasts <char style="add">when you were a baby</char>,</para>
+  <para style="q1" vid="SNG 8:1">
+    <char style="add">because, if you were my brother</char>, if I saw you when you were outside <char style="add">the house</char>,</para>
+  <para style="q2" vid="SNG 8:1">I could kiss you,</para>
+  <para style="q2" vid="SNG 8:1">and no one would say that my doing that was wrong.<verse eid="SNG 8:1"/></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 8:2"/>
+    <char style="add">No one would object if</char> I led you to my mother’s house,</para>
+  <para style="q2" vid="SNG 8:2">to where my mother, who taught me <char style="add">many things</char>, lives.</para>
+  <para style="q1" vid="SNG 8:2">I would like to take you to my mother’s house because I would <char style="add">like to make love to you</char> [EUP],</para>
+  <para style="q1" vid="SNG 8:2">
+    <char style="add">and that would be as delightful as</char> [MET] juice <char style="add">squeezed</char> from pomegranates.<verse eid="SNG 8:2"/></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 8:3"/>You would put your left arm under my head</para>
+  <para style="q2" vid="SNG 8:3">and with your right arm hold me close.<verse eid="SNG 8:3"/></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 8:4"/>
+    <char style="add">I would say to</char> you women of Jerusalem,</para>
+  <para style="q2" vid="SNG 8:4">“Solemnly promise me</para>
+  <para style="q1" vid="SNG 8:4">that you will not disturb us while we are making love</para>
+  <para style="q2" vid="SNG 8:4">until we are ready to quit.”<verse eid="SNG 8:4"/></para>
+  <para style="b"/>
+  <para style="s1">Their friends speak</para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 8:5"/>Who is that <char style="add">woman</char> who is coming up from the desert,</para>
+  <para style="q2" vid="SNG 8:5">◄leaning on/clinging close to► the man who loves her?</para>
+  <para style="s1" vid="SNG 8:5">The woman speaks</para>
+  <para style="q1" vid="SNG 8:5">I woke you up <char style="add">when you were</char> under the apple tree</para>
+  <para style="q2" vid="SNG 8:5">at the place where your mother conceived you,</para>
+  <para style="q2" vid="SNG 8:5">which is the same place where she gave birth to you.<verse eid="SNG 8:5"/></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 8:6"/>Keep me <char style="add">close to you</char>,</para>
+  <para style="q2" vid="SNG 8:6">like [SIM] a seal on your heart,</para>
+  <para style="q1" vid="SNG 8:6">
+    <char style="add">or</char> like [SIM] a bracelet on your arm.</para>
+  <para style="q1" vid="SNG 8:6">Our love <char style="add">for each other</char> is as powerful as death,</para>
+  <para style="q2" vid="SNG 8:6">it is as enduring as the grave.</para>
+  <para style="q1" vid="SNG 8:6">
+    <char style="add">It is as though</char> our love <char style="add">for each other</char> bursts into flames</para>
+  <para style="q2" vid="SNG 8:6">and burns like a hot fire.<verse eid="SNG 8:6"/></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 8:7"/>Nothing can extinguish our love <char style="add">for each other</char>,</para>
+  <para style="q2" vid="SNG 8:7">not <char style="add">even</char> a flood.</para>
+  <para style="q1" vid="SNG 8:7">If a man tried to cause a woman to love him by saying he would give her everything that is in his house,</para>
+  <para style="q2" vid="SNG 8:7">she would refuse.<verse eid="SNG 8:7"/></para>
+  <para style="s1">Their friends speak</para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 8:8"/>We have a younger sister,</para>
+  <para style="q2" vid="SNG 8:8">and her breasts are still small.</para>
+  <para style="q1" vid="SNG 8:8">So this is [RHQ] what we should do for her on the day that we promise <char style="add">some young man</char> that he can marry her:<verse eid="SNG 8:8"/></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 8:9"/>If <char style="add">her chest is flat like</char> [MET] a wall,</para>
+  <para style="q2" vid="SNG 8:9">we will <char style="add">decorate it by</char> putting silver <char style="add">jewels that are like</char> [MET] towers on it.</para>
+  <para style="q1" vid="SNG 8:9">Or, if she is <char style="add">flat like</char> [MET] a door,</para>
+  <para style="q2" vid="SNG 8:9">we will decorate her with bits/pieces of cedar wood.<verse eid="SNG 8:9"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 8:10"/>My <char style="add">chest was previously flat like</char> [MET] a wall,</para>
+  <para style="q2" vid="SNG 8:10">
+    <char style="add">but now</char> my breasts are <char style="add">big</char> like [SIM] towers.</para>
+  <para style="q1" vid="SNG 8:10">So the one who loves me is delighted with me.<verse eid="SNG 8:10"/></para>
+  <para style="b"/>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 8:11"/>
+    <char style="add">King</char> Solomon had a vineyard at Baal-Hamon,</para>
+  <para style="q1" vid="SNG 8:11">and he rented it to people for them to take care of it.</para>
+  <para style="q2" vid="SNG 8:11">He required each one to pay him 1,000 pieces of silver <char style="add">each year</char> for the grapes <char style="add">that they harvested</char>.<verse eid="SNG 8:11"/></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 8:12"/>
+    <char style="add">But my body is like</char> [MET] my own vineyard,</para>
+  <para style="q2" vid="SNG 8:12">and Solomon, I am giving it to you.</para>
+  <para style="q1" vid="SNG 8:12">
+    <char style="add">You do not need to pay me</char> 1,000 pieces of silver <char style="add">to enjoy my body</char>,</para>
+  <para style="q2" vid="SNG 8:12">but I will give 200 pieces of silver to those who take care of me [MET].<verse eid="SNG 8:12"/></para>
+  <para style="s1">The man speaks to the woman</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 8:13"/>You are staying in the gardens</para>
+  <para style="q2" vid="SNG 8:13">and my friends are listening to your voice;</para>
+  <para style="q2" vid="SNG 8:13">
+    <char style="add">so</char> allow me to hear it, <char style="add">too.</char><verse eid="SNG 8:13"/></para>
+  <para style="s1">The woman speaks</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 8:14"/>You who love me, come <char style="add">to me</char> quickly;</para>
+  <para style="q2" vid="SNG 8:14">
+    <char style="add">run to me</char> [MET, EUP] as fast as [SIM] a gazelle or young deer</para>
+  <para style="q1" vid="SNG 8:14">runs across [MET] hills of spices.<verse eid="SNG 8:14"/></para>
+  <chapter eid="SNG 8"/>
+</usx>
