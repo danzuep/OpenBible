@@ -3,7 +3,7 @@ using Bible.Core.Abstractions;
 using Bible.Core.Models;
 using Bible.Data.Services;
 
-namespace Bible.Web.Services
+namespace Bible.Wasm.Services
 {
     public class DataService : IBibleDataService
     {

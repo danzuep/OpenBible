@@ -1,4 +1,4 @@
-﻿namespace Bible.Web.Models
+﻿namespace Bible.Wasm.Models
 {
     public sealed class BibleBookNav
     {

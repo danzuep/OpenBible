@@ -25,7 +25,7 @@ jobs:
     needs: [ version ]
     uses: ./.github/workflows/_build-web.yml
     with:
-      project_name: "Bible.Web"
+      project_name: "Bible.Wasm"
       project_version: ${{ needs.version.outputs.semVer }}
 
   deploy:

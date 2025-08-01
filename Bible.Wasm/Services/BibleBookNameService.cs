@@ -1,4 +1,4 @@
-﻿namespace Bible.Web.Services
+﻿namespace Bible.Wasm.Services
 {
     public interface IBibleBookNameService
     {

@@ -1,7 +1,7 @@
 ﻿using Bible.Core.Models;
 using Bible.Data.Services;
 
-namespace Bible.Web.Services
+namespace Bible.Wasm.Services
 {
     public interface ILoaderService<T>
     {

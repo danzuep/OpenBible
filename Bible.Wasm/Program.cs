@@ -1,14 +1,13 @@
 using Bible.Backend.Abstractions;
 using Bible.Backend.Services;
-using Bible.Backend.Visitors;
 using Bible.Core.Abstractions;
 using Bible.Core.Models;
-using Bible.Web.Services;
+using Bible.Wasm.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
 
-namespace Bible.Web
+namespace Bible.Wasm
 {
     public class Program
     {

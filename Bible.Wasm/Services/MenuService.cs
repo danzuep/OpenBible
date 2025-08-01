@@ -1,9 +1,9 @@
 ﻿using Bible.Core.Models;
 using Bible.Data.Models;
 using Bible.Data.Services;
-using Bible.Web.Models;
+using Bible.Wasm.Models;
 
-namespace Bible.Web.Services
+namespace Bible.Wasm.Services
 {
     public interface IMenuService
     {
