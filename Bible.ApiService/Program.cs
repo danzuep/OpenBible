@@ -1,3 +1,5 @@
+using Scalar.AspNetCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add service defaults & Aspire client integrations.
@@ -12,34 +14,41 @@ builder.Services.AddOpenApi();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseExceptionHandler();
-
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.MapOpenApi();
+    app.MapScalarApiReference();
+}
+else
+{
+    app.UseExceptionHandler();
 }
 
-string[] summaries = ["Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"];
+app.UseHttpsRedirection();
+app.MapGet("/hello", static () => "Hello!")
+    .WithName("GetHello")
+    .AllowAnonymous();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+app.MapGet("/hello/{name}", Hello)
+    .WithName("GetHelloName");
 
 app.MapDefaultEndpoints();
 
-app.Run();
+await app.RunAsync();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+static partial class Program
 {
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    /// <summary>
+    /// Sends a greeting.
+    /// </summary>
+    /// <remarks>
+    /// Greeting a person by their name.
+    /// </remarks>
+    /// <param name="name">The name of the person to greet.</param>
+    /// <returns>A greeting.</returns>
+    public static string Hello(string name)
+    {
+        return $"Hello, {name}!";
+    }
 }
