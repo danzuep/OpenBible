@@ -7,18 +7,16 @@ namespace Bible.Backend.Models
     public class UnihanSerializer : IUnihanReadings, IDisposable
     {
         private JsonBufferWriter<UnihanJsonEntry>? _jsonBufferWriter;
-        private readonly UnihanRelay _unihanRelay;
 
         public UnihanSerializer()
         {
-            _unihanRelay = new UnihanRelay { Action = AddEntry };
         }
 
         /// <inheritdoc cref="UnihanParserService.ParseAsync{T}(StreamReader)"/>
         public async Task ParseAsync(string inputPath, string outputPath)
         {
             OutputPath = outputPath;
-            await UnihanParserService.ParseAsync(inputPath, _unihanRelay);
+            await UnihanParserService.ParseAsync(inputPath, this);
             _jsonBufferWriter?.Dispose();
             _jsonBufferWriter = null;
         }
@@ -27,7 +25,11 @@ namespace Bible.Backend.Models
 
         public void AddEntry(string codepoint, string field, string value)
         {
-            _unihanRelay.AddEntry(codepoint, field, value);
+            var unicodeCodepoint = UnihanParserService.ConvertToCodepoint(codepoint);
+            // Parse field string to UnihanField enum (Unknown by default)
+            _ = Enum.TryParse<UnihanField>(field, out var unihanField);
+            // Invoke action with these values
+            AddEntry(unicodeCodepoint, unihanField, value);
         }
 
         // Adds entry to an ansynchronous write buffer

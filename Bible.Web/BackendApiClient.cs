@@ -7,6 +7,7 @@ namespace Bible.Web;
 
 public class BackendApiClient(HttpClient httpClient)
 {
+    [Obsolete("Use PostConvertedAsync instead.")]
     public async Task<string> GetConvertedAsync(string text, CancellationToken cancellationToken = default)
     {
         var encodedText = Uri.EscapeDataString(text);

@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="json\BibleContentsCanonBookChapters.json" />
-    <EmbeddedResource Include="json\kjv.json" />
+    <EmbeddedResource Include="txt\*.txt" />
+    <EmbeddedResource Include="json\*.json" />
     <EmbeddedResource Include="usx\*\*.usx" />
   </ItemGroup>
 

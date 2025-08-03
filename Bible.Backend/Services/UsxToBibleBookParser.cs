@@ -16,11 +16,19 @@ namespace Bible.Backend.Services
 
         private static readonly string _fileType = "usx";
 
+        [Obsolete("Use ParseAsync instead.")]
         public async Task<BibleBook?> ParseAsync(string version, string bookName, CancellationToken cancellationToken = default)
         {
             var resourceName = $"Bible.Data.usx.{version}.{bookName}.usx".Replace("-", "_");
             var bibleBook = await _deserializer.DeserializeResourceAsync<UsxBook, BibleBook>(
                 resourceName, b => b.ToBibleFormat(), cancellationToken);
+            return bibleBook;
+        }
+
+        public async Task<BibleBook?> ParseAsync(Stream stream, CancellationToken cancellationToken = default)
+        {
+            var usxBook = await _deserializer.DeserializeAsync<UsxBook>(stream, cancellationToken);
+            var bibleBook = usxBook.ToBibleFormat();
             return bibleBook;
         }
 

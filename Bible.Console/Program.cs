@@ -7,6 +7,7 @@ using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
 using Bible.Core.Models;
+using Bible.Data;
 using Microsoft.Extensions.Logging;
 
 public class Program
@@ -39,7 +40,8 @@ public class Program
         var logger = loggerFactory.CreateLogger<XDocDeserializer>();
         var deserializer = new XDocDeserializer(logger);
         var usxParser = new UsxToBibleBookParser(deserializer);
-        var bibleBook = await usxParser.ParseAsync(version, bookName);
+        var stream = ResourceHelper.GetStream($"usx.{version}.{bookName}.usx");
+        var bibleBook = await usxParser.ParseAsync(stream);
         var verse = bibleBook?.Chapters[0].Verses[0];
         logger.LogInformation(verse?.ToString());
         return bibleBook;

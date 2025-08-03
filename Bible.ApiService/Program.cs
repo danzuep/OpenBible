@@ -1,3 +1,11 @@
+using System.Data;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Text;
+using System.Text.Json;
+using Bible.Backend.Models;
+using Bible.Backend.Services;
+using Bible.Data;
 using Bible.ServiceDefaults.Models;
 using Microsoft.AspNetCore.Mvc;
 using Scalar.AspNetCore;
@@ -29,20 +37,20 @@ else
 
 app.UseHttpsRedirection();
 
-app.MapGet("/convert", GetConvert)
-    .WithName(nameof(GetConvert));
+app.MapGet("/convert", GetConvertAsync)
+    .WithName(nameof(GetConvertAsync));
 
-static string GetConvert([FromQuery] string text)
+static Task<string> GetConvertAsync([FromQuery] string text)
 {
-    return $"Yay! {text}";
+    return ConvertAsync(text);
 }
 
-app.MapPost("/convert", PostConvert)
-    .WithName(nameof(PostConvert));
+app.MapPost("/convert", PostConvertAsync)
+    .WithName(nameof(PostConvertAsync));
 
-static string PostConvert([FromBody] string text)
+static Task<string> PostConvertAsync([FromBody] string text)
 {
-    return $"Yay! {text}";
+    return ConvertAsync(text);
 }
 
 app.MapGet("/unihan", Unihan)
@@ -71,3 +79,68 @@ static IList<UnihanCharacter> Unihan(string? text)
 app.MapDefaultEndpoints();
 
 await app.RunAsync();
+
+
+static async Task<string> ConvertAsync(string text)
+{
+    //await ParseToFileAsync();
+    return await ParseFromFileAsync(text);
+    return await ParseDemoAsync(text);
+}
+
+static async Task<string> ParseDemoAsync(string? text, IEnumerable<UnihanField>? fields = null)
+{
+    if (string.IsNullOrWhiteSpace(text))
+    {
+        text = char.ConvertFromUtf32(23383); // test char
+    }
+    if (fields is null || !fields.Any())
+    {
+        fields = [
+            UnihanField.kDefinition,
+            UnihanField.kMandarin,
+            UnihanField.kCantonese,
+            UnihanField.kJapanese
+        ];
+    }
+    await using var stream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
+    var unihanLookup = await UnihanParserService.ParseAsync(stream, fields);
+    return ParseToString(text, unihanLookup);
+}
+
+static async Task<string> ParseFromFileAsync(string? text, IEnumerable<UnihanField>? fields = null)
+{
+    if (string.IsNullOrWhiteSpace(text))
+    {
+        text = char.ConvertFromUtf32(23383); // test char
+    }
+    await using var inputStream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.json");
+    var ser = new JsonDeserializer();
+    var unihanLookup = await ser.DeserializeAsync<UnihanLookup>(inputStream);
+    return ParseToString(text, unihanLookup);
+}
+
+static async Task ParseToFileAsync()
+{
+    await using var inputStream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
+    await using var outputStream = await UnihanParserService.ParseToStreamAsync(inputStream);
+    await ResourceHelper.WriteStreamAsync("Unihan_Readings.json", outputStream);
+    Debug.WriteLine("Unihan_Readings.json created successfully.");
+}
+
+static string ParseToString(string text, UnihanLookup unihanLookup)
+{
+    var stringBuilder = new StringBuilder();
+    foreach (Rune rune in text.EnumerateRunes())
+    {
+        stringBuilder.AppendLine($"Rune: {rune.ToString()} ({rune.Value})");
+        if (unihanLookup.TryGetValue(rune.Value, out var metadata))
+        {
+            foreach (var kvp in metadata)
+            {
+                stringBuilder.AppendLine($"{kvp.Key}: {string.Join("; ", kvp.Value)}");
+            }
+        }
+    }
+    return stringBuilder.ToString();
+}

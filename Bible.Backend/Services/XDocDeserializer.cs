@@ -66,6 +66,14 @@ namespace Bible.Backend.Services
             return deserialized;
         }
 
+        public async Task<T?> DeserializeAsync<T>(Stream stream, CancellationToken cancellationToken = default)
+        {
+            if (stream == null) return default;
+            var xDocument = await XDocument.LoadAsync(stream, Settings, cancellationToken);
+            var deserialized = Deserialize<T>(xDocument);
+            return deserialized;
+        }
+
         private static T? Deserialize<T>(XDocument xDocument)
         {
             var serializer = new XmlSerializer(typeof(T));

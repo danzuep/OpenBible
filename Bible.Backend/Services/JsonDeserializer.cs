@@ -40,6 +40,13 @@ namespace Bible.Backend.Services
             return transform(deserialized);
         }
 
+        public async Task<T?> DeserializeAsync<T>(Stream stream, CancellationToken cancellationToken = default)
+        {
+            var options = null as JsonSerializerOptions;
+            var deserialized = await JsonSerializer.DeserializeAsync<T>(stream, options, cancellationToken);
+            return deserialized;
+        }
+
         public void Serialize<T>(T data, string jsonOutputPath)
         {
             var options = new JsonSerializerOptions { WriteIndented = true };

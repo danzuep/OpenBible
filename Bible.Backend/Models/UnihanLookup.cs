@@ -1,41 +1,32 @@
 ﻿using System.Data;
 using System.Text;
 using Bible.Backend.Abstractions;
+using Bible.Backend.Services;
 
 namespace Bible.Backend.Models
 {
     /// <inheritdoc cref="IUnihanReadings"/>
-    public class UnihanLookup : Dictionary<int, Dictionary<UnihanField, IList<string>>>, IUnihanReadings
+    public class UnihanLookup : Dictionary<int, UnihanFieldLookup>, IUnihanReadings
     {
-        private readonly UnihanRelay _unihanRelay;
-
-        public UnihanLookup()
-        {
-            _unihanRelay = new UnihanRelay { Action = AddEntry };
-        }
-
         public UnihanField? Field { get; set; }
 
         public void AddEntry(string codepoint, string field, string value)
         {
-            _unihanRelay.AddEntry(codepoint, field, value);
+            var unicodeCodepoint = UnihanParserService.ConvertToCodepoint(codepoint);
+            // Parse field string to UnihanField enum (Unknown by default)
+            _ = Enum.TryParse<UnihanField>(field, out var unihanField);
+            // Invoke action with these values
+            AddEntry(unicodeCodepoint, unihanField, value);
         }
 
         public void AddEntry(int codepoint, UnihanField field, string value)
         {
-            if (!this.ContainsKey(codepoint))
+            if (!TryGetValue(codepoint, out var record))
             {
-                this[codepoint] = new Dictionary<UnihanField, IList<string>>();
+                record = new UnihanFieldLookup();
+                this[codepoint] = record;
             }
-
-            if (!this[codepoint].ContainsKey(field))
-            {
-                this[codepoint][field] = new List<string> { value };
-            }
-            else
-            {
-                this[codepoint][field].Add(value);
-            }
+            record.Add(field, value);
         }
 
         public bool TryGetEntryText(int codepoint, IList<UnihanField>? fields, out string entryText)
