@@ -12,14 +12,14 @@ public sealed class UsxBook : IUsxBase
     public string UsxVersion { get; set; }
 
     [XmlElement("book")]
-    public UsxIdentification Translation { get; set; }
+    public UsxIdentification Metadata { get; set; }
 
     [XmlElement("chapter", typeof(UsxChapterMarker))]
     [XmlElement("para", typeof(UsxPara))]
     public UsxStyleBase[] Content { get; set; }
 
     public override string ToString() =>
-        $"{Translation?.BookCode}";
+        $"{Metadata?.BookCode}";
 }
 
 public sealed class UsxIdentification : UsxStyleBase
@@ -28,16 +28,16 @@ public sealed class UsxIdentification : UsxStyleBase
     public string BookCode { get; set; }
 
     [XmlText]
-    public string BookName { get; set; }
+    public string VersionName { get; set; }
 
     public static implicit operator string?(UsxIdentification text) =>
-        text?.BookName;
+        text?.VersionName;
 
     public static implicit operator UsxIdentification(string value) =>
-        new UsxIdentification { BookName = value };
+        new UsxIdentification { VersionName = value };
 
     public override string ToString() =>
-        $"{BookName} ({Style}, {BookCode})";
+        $"{VersionName} ({Style}, {BookCode})";
 }
 
 public abstract class UsxMarker : UsxSidEidBase
@@ -180,6 +180,7 @@ public sealed class UsxVisitorOptions : IOptions<UsxVisitorOptions>
     public bool EnableCrossReferences { get; set; }
     public bool EnableChapterLinks { get; set; }
     public bool EnableRubyText { get; set; }
+    public UnihanField? EnableRunes { get; set; }
 
     public UsxVisitorOptions Value => this;
 }

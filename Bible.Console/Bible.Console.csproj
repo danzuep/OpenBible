@@ -18,4 +18,8 @@
     <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="bin/Debug/*/Uploads/*.*" LinkBase="Uploads" />
+  </ItemGroup>
+
 </Project>

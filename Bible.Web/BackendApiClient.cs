@@ -1,6 +1,8 @@
 using System.Net.Mime;
 using System.Text;
 using System.Text.Json;
+using Bible.Core.Models;
+using Bible.Core.Models.Scripture;
 using Bible.ServiceDefaults.Models;
 
 namespace Bible.Web;
@@ -42,5 +44,38 @@ public class BackendApiClient(HttpClient httpClient)
         }
 
         return unicodeHanCharacters?.ToArray() ?? [];
+    }
+
+    public async Task<BibleBook?> GetBibleBookAsync(string? language, string? version, string? book, CancellationToken cancellationToken = default)
+    {
+        if (string.IsNullOrEmpty(language) || string.IsNullOrEmpty(version) || string.IsNullOrEmpty(book))
+        {
+            return null;
+        }
+        var url = $"/BibleBook/{language}/{version}/{book}";
+        var result = await httpClient.GetFromJsonAsync<BibleBook>(url, cancellationToken);
+        return result;
+    }
+
+    public async Task<ScriptureBook?> GetScriptureBookAsync(string? language, string? version, string? book, CancellationToken cancellationToken = default)
+    {
+        if (string.IsNullOrEmpty(language) || string.IsNullOrEmpty(version) || string.IsNullOrEmpty(book))
+        {
+            return null;
+        }
+        var url = $"/{language}/{version}/{book}";
+        var result = await httpClient.GetFromJsonAsync<ScriptureBook>(url, cancellationToken);
+        return result;
+    }
+
+    public async Task<ScriptureRange?> GetScriptureBookChapterAsync(string? language, string? version, string? book, int chapter, CancellationToken cancellationToken = default)
+    {
+        if (string.IsNullOrEmpty(language) || string.IsNullOrEmpty(version) || string.IsNullOrEmpty(book))
+        {
+            return null;
+        }
+        var url = $"/{language}/{version}/{book}/{chapter}";
+        var result = await httpClient.GetFromJsonAsync<ScriptureRange>(url, cancellationToken);
+        return result;
     }
 }

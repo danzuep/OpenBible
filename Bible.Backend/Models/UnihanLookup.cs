@@ -98,6 +98,24 @@ namespace Bible.Backend.Models
             { "zho-Hant", new List<UnihanField> { UnihanField.kCantonese, UnihanField.kSMSZD2003Readings, UnihanField.kTang, UnihanField.kTGHZ2013 } },
         };
 
+        public static readonly Dictionary<string, string> NameISO6393Lookup = new Dictionary<string, string>
+        {
+            { "cmn", "zho-Hans" },
+            { "yue", "zho-Hant" }
+        };
+
+        public static readonly Dictionary<string, UnihanField> ISO6393UnihanLookup = new Dictionary<string, UnihanField>
+        {
+            { "cmn", UnihanField.kMandarin },
+            { "jpn", UnihanField.kJapanese },
+            { "kor", UnihanField.kHangul },
+            { "ltc", UnihanField.kTang },
+            { "vie", UnihanField.kVietnamese },
+            { "yue", UnihanField.kCantonese },
+            { "zha", UnihanField.kZhuang },
+            { "zho", UnihanField.kMandarin },
+        };
+
         /// <see href="https://www.unicode.org/reports/tr38/"/>
         public static Dictionary<UnihanField, string> UnihanNameLookup = new Dictionary<UnihanField, string>
         {

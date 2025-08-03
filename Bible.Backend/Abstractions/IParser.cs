@@ -1,8 +1,10 @@
-﻿namespace Bible.Backend.Abstractions
+﻿using Bible.Core.Models;
+
+namespace Bible.Backend.Abstractions
 {
     public interface IParser<T>
     {
-        Task<T?> ParseAsync(string version, string bookName, CancellationToken cancellationToken = default);
+        Task<T?> ParseAsync(Stream stream, CancellationToken cancellationToken = default);
     }
 
     public interface IBulkParser

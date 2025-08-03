@@ -91,6 +91,7 @@ internal static class HtmlCssBuilder
         }
         if (options.EnableRubyText)
         {
+            //stringBuilder.Append(_rtHideStyle);
             stringBuilder.Append(_rubyStyle);
         }
         stringBuilder.AppendLine("    </style>");

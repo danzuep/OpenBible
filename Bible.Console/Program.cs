@@ -1,12 +1,15 @@
 ﻿namespace Bible.Console;
 
 using System;
+using System.IO;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
 using Bible.Core.Models;
+using Bible.Core.Models.Scripture;
 using Bible.Data;
 using Microsoft.Extensions.Logging;
 
@@ -18,9 +21,12 @@ public class Program
             builder.SetMinimumLevel(LogLevel.Trace).AddDebug().AddConsole());
         var logger = loggerFactory.CreateLogger<Program>();
 
+        //await ParseToFileAsync(logger);
+        //await ParseFromFileAsync(char.ConvertFromUtf32(23383));
         //Sample.UnifiedScripture(logger);
         //LoadBible(loggerFactory);
-        await LoadBibleBookAsync(loggerFactory);
+        //await LoadBibleBookAsync(loggerFactory);
+        await ParseScriptureBookAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -31,43 +37,65 @@ public class Program
         //await DeserializeToHtmlAsync(converter, unihan);
 
         Console.WriteLine();
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadKey();
+        //Console.WriteLine("Press any key to exit...");
+        //Console.ReadKey();
     }
 
-    private static async Task<BibleBook?> LoadBibleBookAsync(ILoggerFactory loggerFactory, string version = "eng-WEBBE", string bookName = "JHN")
+    private static async Task<ScriptureBook?> ParseScriptureBookAsync(ILogger logger, string path = "zho-Hant-OCCB/3JN.usx") // "eng/webbe/3jn"
     {
-        var logger = loggerFactory.CreateLogger<XDocDeserializer>();
-        var deserializer = new XDocDeserializer(logger);
-        var usxParser = new UsxToBibleBookParser(deserializer);
-        var stream = ResourceHelper.GetStream($"usx.{version}.{bookName}.usx");
-        var bibleBook = await usxParser.ParseAsync(stream);
-        var verse = bibleBook?.Chapters[0].Verses[0];
-        logger.LogInformation(verse?.ToString());
-        return bibleBook;
+        (var unihan, var options) = await TryGetUnihanOptionsAsync(path);
+        await using var stream = ResourceHelper.GetStreamFromExtension(path);
+        var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
+        if (scriptureBook != null)
+        {
+            logger.LogInformation(scriptureBook.ToMarkdown());
+            //var result = scriptureBook.ToChapterDto(1);
+        }
+        return scriptureBook;
     }
 
-    //private static BibleModel LoadBible(ILoggerFactory loggerFactory, string version = "eng-WEBBE")
-    //{
-    //    var deserializer = new XDocDeserializer(loggerFactory.CreateLogger<XDocDeserializer>());
-    //    var usxParser = new UsxVersionParser(deserializer);
-    //    var dataService = new UsxToBibleModelParser(usxParser);
-    //    var bible = dataService.Load(version);
-    //    return bible;
-    //}
+    private static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
+    {
+        UnihanLookup? unihan = null;
+        UsxVisitorOptions? options = null;
+        var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
+        if (UnihanLookup.NameUnihanLookup.TryGetValue(isoLanguage, out var unihanFields))
+        {
+            unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>("Unihan_Readings.json");
+            options = new UsxVisitorOptions { EnableRunes = unihanFields?.FirstOrDefault() };
+        }
+        return (unihan, options);
+    }
+
+    private static async Task ScriptureBookVisitorAsync(XmlConverter converter, string version = "eng-WEBBE")
+    {
+        (var unihan, var options) = await TryGetUnihanOptionsAsync(version);
+        converter.Visitor<UsxBook>((bookModel, outputPath) =>
+        {
+            if (!bookModel.Metadata.BookCode.Equals("3JN"))
+            {
+                return null!;
+            }
+            var book = UsxToScriptureBookVisitor.GetBook(bookModel, unihan, options);
+            var textV = book.GetChapter(1).ToMarkdown();
+            converter.Logger.LogInformation(textV);
+            var text = book.Metadata.Name;
+            return text;
+        }, sample: version);
+    }
 
     private static void ScriptureBookVisitorExample(XmlConverter converter)
     {
         converter.Visitor<UsxBook>((bookModel, outputPath) =>
         {
-            if (!bookModel.Translation.BookCode.Equals("3JN"))
+            if (!bookModel.Metadata.BookCode.Equals("3JN"))
             {
                 return null!;
             }
             var book = UsxToScriptureBookVisitor.GetBook(bookModel);
-            var textV = book.GetChapter(1).ToText();
+            var textV = book.GetChapter(1).ToMarkdown();
             converter.Logger.LogInformation(textV);
-            var text = book.Name;
+            var text = book.Metadata.Name;
             return text;
         }, sample: "eng-WEBBE");
     }
@@ -86,7 +114,7 @@ public class Program
     {
         converter.Visitor<UsxBook>((book, outputPath) =>
         {
-            if (!book.Translation.BookCode.Equals("3JN"))
+            if (!book.Metadata.BookCode.Equals("3JN"))
             {
                 return null!;
             }
@@ -100,7 +128,7 @@ public class Program
                 }
             }
             var text = UsxToHtmlVisitor.GetFullText(book, unihan);
-            var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");
             File.WriteAllText(outFilePath, text, Encoding.UTF8);
             converter.Logger.LogInformation(outFilePath);
             return text;
@@ -123,10 +151,86 @@ public class Program
                 }
             }
             var html = UsxToHtmlVisitor.GetFullText(book, unihan);
-            var outFilePath = Path.Combine(outputPath, $"{book?.Translation.BookCode}.html");
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");
             File.WriteAllText(outFilePath, html, Encoding.UTF8);
             converter.Logger.LogInformation(outFilePath);
             return html;
         });
+    }
+
+    private static async Task<BibleBook?> LoadBibleBookAsync(ILoggerFactory loggerFactory, string version = "eng-WEBBE", string bookName = "JHN")
+    {
+        var logger = loggerFactory.CreateLogger<XDocDeserializer>();
+        var deserializer = new XDocDeserializer(logger);
+        var usxParser = new UsxToBibleBookParser(deserializer);
+        await using var stream = ResourceHelper.GetStreamFromExtension($"{version}.{bookName}.usx");
+        var bibleBook = await usxParser.ParseAsync(stream);
+        var verse = bibleBook?.Chapters[0].Verses[0];
+        logger.LogInformation(verse?.ToString());
+        return bibleBook;
+    }
+
+    public static async Task<string> ParseDemoAsync(string? text, IEnumerable<UnihanField>? fields = null)
+    {
+        if (string.IsNullOrWhiteSpace(text))
+        {
+            text = char.ConvertFromUtf32(23383); // test char
+        }
+        if (fields is null || !fields.Any())
+        {
+            fields = [
+                UnihanField.kDefinition,
+                UnihanField.kMandarin,
+                UnihanField.kCantonese,
+                UnihanField.kJapanese
+            ];
+        }
+        await using var stream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
+        var unihanLookup = await UnihanParserService.ParseAsync(stream, fields);
+        return ParseToString(text, unihanLookup);
+    }
+
+    private static async Task<string> ParseFromFileAsync(string text)
+    {
+        var unihanLookup = await ResourceHelper.GetFromJsonAsync<UnihanLookup>("Unihan_Readings.json");
+        return ParseToString(text, unihanLookup);
+    }
+
+    private static async Task ParseToFileAsync(ILogger logger)
+    {
+        await using var inputStream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
+        await using var outputStream = await UnihanParserService.ParseToStreamAsync(inputStream);
+        var filePath = await ResourceHelper.WriteStreamAsync("Unihan_Readings.json", outputStream);
+        logger.LogInformation("{Path} created successfully.", filePath);
+    }
+
+    private static async Task ParseScriptureBookToFileAsync(ILogger logger, string path = "eng/webbe/3jn")
+    {
+        await using var inputStream = ResourceHelper.GetUsxBookStream(path);
+        var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(inputStream);
+        await using var outputStream = new MemoryStream();
+        await JsonSerializer.SerializeAsync(outputStream, scriptureBook);
+        outputStream.Position = 0;
+        var jsonPath = path.ToLowerInvariant() + ".json";
+        var filePath = await ResourceHelper.WriteStreamAsync(jsonPath, outputStream);
+        logger.LogInformation("{Path} created successfully.", filePath);
+    }
+
+    private static string ParseToString(string text, UnihanLookup? unihanLookup)
+    {
+        if (string.IsNullOrWhiteSpace(text)) return string.Empty;
+        var stringBuilder = new StringBuilder();
+        foreach (Rune rune in text.EnumerateRunes())
+        {
+            stringBuilder.AppendLine($"Rune: {rune.ToString()} ({rune.Value})");
+            if (unihanLookup != null && unihanLookup.TryGetValue(rune.Value, out var metadata))
+            {
+                foreach (var kvp in metadata)
+                {
+                    stringBuilder.AppendLine($"{kvp.Key}: {string.Join("; ", kvp.Value)}");
+                }
+            }
+        }
+        return stringBuilder.ToString();
     }
 }

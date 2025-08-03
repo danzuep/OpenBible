@@ -1,0 +1,129 @@
+﻿@page "/{language}/{version}/{book}"
+@using Bible.Core.Models
+@using Bible.Core.Models.Scripture
+@rendermode InteractiveServer
+
+@inject BackendApiClient BackendApi
+
+@if (scriptureBook == null)
+{
+    <p>Loading Scripture book...</p>
+}
+else
+{
+    <h5>@scriptureBook.Metadata.Version</h5>
+
+    <h3>@scriptureBook.Metadata.Name</h3>
+
+    @foreach (var chapterNumber in scriptureBook.GetAllChapterRanges().Keys.OrderBy(c => c))
+    {
+        if (chapterNumber == 0) continue; // skip book metadata
+
+        <h3>Chapter @chapterNumber</h3>
+
+        @if (chapterParagraphs.TryGetValue(chapterNumber, out var paragraphs))
+        {
+            foreach (var paragraphNumber in paragraphs.OrderBy(p => p))
+            {
+                var paragraphSpan = scriptureBook.GetParagraph(paragraphNumber);
+
+                <p>
+                    @foreach (var segment in paragraphSpan)
+                    {
+                        @RenderSegment(segment)
+                    }
+                </p>
+            }
+        }
+    }
+}
+
+@code {
+    [Parameter] public string? language { get; set; }
+    [Parameter] public string? version { get; set; }
+    [Parameter] public string? book { get; set; }
+
+    private ScriptureBook? scriptureBook;
+
+    private Dictionary<byte, List<ushort>> chapterParagraphs = new();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        scriptureBook = await BackendApi.GetScriptureBookAsync(language!, version!, book!);
+
+        if (scriptureBook != null)
+        {
+            BuildChapterParagraphMap();
+        }
+    }
+
+    private void BuildChapterParagraphMap()
+    {
+        chapterParagraphs.Clear();
+
+        var chapters = scriptureBook!.GetAllChapterRanges();
+        var paragraphs = scriptureBook.GetAllParagraphRanges();
+
+        foreach (var chapter in chapters)
+        {
+            if (chapter.Key == 0) continue;
+
+            chapterParagraphs[chapter.Key] = new List<ushort>();
+
+            foreach (var paragraph in paragraphs)
+            {
+                var paraRange = paragraph.Value;
+                var chapRange = chapter.Value;
+
+                if (paraRange.Start.Value >= chapRange.Start.Value && paraRange.End.Value <= chapRange.End.Value)
+                {
+                    chapterParagraphs[chapter.Key].Add(paragraph.Key);
+                }
+            }
+        }
+    }
+
+    private RenderFragment RenderSegment(ScriptureSegment segment) => segment.Category switch
+    {
+        MetadataCategory.Text => builder =>
+        {
+            builder.AddContent(0, segment.Text);
+        },
+        
+        MetadataCategory.Chapter => builder =>
+        {
+            builder.OpenElement(0, "h4");
+            builder.AddContent(1, segment.Text);
+            builder.CloseElement();
+        },
+
+        MetadataCategory.Verse => builder =>
+        {
+            builder.OpenElement(0, "sup");
+            builder.AddContent(1, segment.Text);
+            builder.CloseElement();
+        },
+
+        MetadataCategory.Style => builder =>
+        {
+            if (segment.Text.Equals("p"))
+            {
+                builder.OpenElement(0, "br");
+                builder.CloseElement();
+            }
+        },
+
+        MetadataCategory.Footnote => builder =>
+        {
+            builder.OpenElement(0, "sup");
+            builder.AddContent(1, segment.Text);
+            builder.CloseElement();
+        },
+
+        _ => builder =>
+        {
+            // Render other categories as plain text with parentheses
+            builder.AddContent(0, $"({segment.Text})");
+        }
+    };
+}

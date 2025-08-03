@@ -1,146 +1,179 @@
-using System.Data;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
+using System.IO;
 using System.Text;
 using System.Text.Json;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
+using Bible.Backend.Visitors;
+using Bible.Core.Models;
+using Bible.Core.Models.Scripture;
 using Bible.Data;
 using Bible.ServiceDefaults.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Scalar.AspNetCore;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add service defaults & Aspire client integrations.
-builder.AddServiceDefaults();
-
-// Add services to the container.
-builder.Services.AddProblemDetails();
-
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+/// <summary>
+/// The main entry point for the Bible API Service application.
+/// </summary>
+public static partial class Program
 {
-    app.UseDeveloperExceptionPage();
-    app.MapOpenApi();
-    app.MapScalarApiReference();
-}
-else
-{
-    app.UseExceptionHandler();
-}
-
-app.UseHttpsRedirection();
-
-app.MapGet("/convert", GetConvertAsync)
-    .WithName(nameof(GetConvertAsync));
-
-static Task<string> GetConvertAsync([FromQuery] string text)
-{
-    return ConvertAsync(text);
-}
-
-app.MapPost("/convert", PostConvertAsync)
-    .WithName(nameof(PostConvertAsync));
-
-static Task<string> PostConvertAsync([FromBody] string text)
-{
-    return ConvertAsync(text);
-}
-
-app.MapGet("/unihan", Unihan)
-    .WithName($"Get{nameof(Unihan)}");
-
-static IList<UnihanCharacter> Unihan(string? text)
-{
-    // Unicode range for common Han characters
-    int start = 0x4E00;
-    int end = 0x9FFF;
-
-    var hanChars = Enumerable.Range(1, 5).Select(index =>
-        new UnihanCharacter
-        (
-            char.ConvertFromUtf32(Random.Shared.Next(start, end + 1)),
-            new Dictionary<string, IList<string>>()
-            {
-                [ "kDefinition" ] = [ "Chinese character" ],
-                [ "kMandarin" ] = [ "hàn", "kan" ]
-            }
-        ))
-        .ToArray();
-    return hanChars;
-}
-
-app.MapDefaultEndpoints();
-
-await app.RunAsync();
-
-
-static async Task<string> ConvertAsync(string text)
-{
-    //await ParseToFileAsync();
-    return await ParseFromFileAsync(text);
-    return await ParseDemoAsync(text);
-}
-
-static async Task<string> ParseDemoAsync(string? text, IEnumerable<UnihanField>? fields = null)
-{
-    if (string.IsNullOrWhiteSpace(text))
+    /// <summary>
+    /// Application entry point.
+    /// </summary>
+    /// <param name="args">Command-line arguments.</param>
+    public static async Task Main(string[] args)
     {
-        text = char.ConvertFromUtf32(23383); // test char
-    }
-    if (fields is null || !fields.Any())
-    {
-        fields = [
-            UnihanField.kDefinition,
-            UnihanField.kMandarin,
-            UnihanField.kCantonese,
-            UnihanField.kJapanese
-        ];
-    }
-    await using var stream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
-    var unihanLookup = await UnihanParserService.ParseAsync(stream, fields);
-    return ParseToString(text, unihanLookup);
-}
+        var builder = WebApplication.CreateBuilder(args);
 
-static async Task<string> ParseFromFileAsync(string? text, IEnumerable<UnihanField>? fields = null)
-{
-    if (string.IsNullOrWhiteSpace(text))
-    {
-        text = char.ConvertFromUtf32(23383); // test char
-    }
-    await using var inputStream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.json");
-    var ser = new JsonDeserializer();
-    var unihanLookup = await ser.DeserializeAsync<UnihanLookup>(inputStream);
-    return ParseToString(text, unihanLookup);
-}
+        // Add service defaults & Aspire client integrations.
+        builder.AddServiceDefaults();
 
-static async Task ParseToFileAsync()
-{
-    await using var inputStream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
-    await using var outputStream = await UnihanParserService.ParseToStreamAsync(inputStream);
-    await ResourceHelper.WriteStreamAsync("Unihan_Readings.json", outputStream);
-    Debug.WriteLine("Unihan_Readings.json created successfully.");
-}
+        // Add services to the container.
+        builder.Services.AddProblemDetails();
 
-static string ParseToString(string text, UnihanLookup unihanLookup)
-{
-    var stringBuilder = new StringBuilder();
-    foreach (Rune rune in text.EnumerateRunes())
-    {
-        stringBuilder.AppendLine($"Rune: {rune.ToString()} ({rune.Value})");
-        if (unihanLookup.TryGetValue(rune.Value, out var metadata))
+        // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+        builder.Services.AddOpenApi();
+
+        var app = builder.Build();
+
+        // Configure the HTTP request pipeline.
+        if (app.Environment.IsDevelopment())
         {
-            foreach (var kvp in metadata)
+            app.UseDeveloperExceptionPage();
+            app.MapOpenApi();
+            app.MapScalarApiReference();
+        }
+        else
+        {
+            app.UseExceptionHandler();
+        }
+
+        app.UseHttpsRedirection();
+
+        app.MapGet("/unihan", Unihan)
+            .WithName($"Get{nameof(Unihan)}");
+
+        app.MapGet("/convert", static ([FromQuery] string text) => ParseAsync(text));
+
+        app.MapPost("/convert", static ([FromBody] string text) => ParseAsync(text));
+
+        app.MapGet("/BibleBook/{language}/{version}/{book}",
+            static (string language, string version, string book) =>
+            ParseBibleBookAsync(language, version, book));
+
+        app.MapGet("/{language}/{version}/{book}",
+            static (string language, string version, string book) =>
+            ParseScriptureBookAsync(language, version, book));
+
+        app.MapGet("/{language}/{version}/{book}/{chapter}",
+            static (string language, string version, string book, byte chapter) =>
+            ParseScriptureBookChapterAsync(language, version, book, chapter));
+
+        app.MapDefaultEndpoints();
+
+        await app.RunAsync();
+    }
+
+    static async Task<ScriptureRange?> ParseScriptureBookChapterAsync(string language, string version, string book, byte chapter)
+    {
+        //language = "zho-Hant"; version = "OCCB"; book = "3JN"; chapter = 1;
+        var scriptureBook = await ParseScriptureBookAsync(language, version, book);
+        return scriptureBook?.ToChapterDto(chapter);
+    }
+
+    static async Task<ScriptureBook?> ParseScriptureBookAsync(string language, string version, string book)
+    {
+        (var unihan, var options) = await TryGetUnihanOptionsAsync(language);
+        await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
+        var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
+        return scriptureBook;
+    }
+
+    static async Task<ScriptureBook?> ParseScriptureBookAsync(string path)
+    {
+        var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
+        (var unihan, var options) = await TryGetUnihanOptionsAsync(path);
+        await using var stream = ResourceHelper.GetStreamFromExtension(path);
+        var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
+        return scriptureBook;
+    }
+
+    static async Task<ScriptureBook?> ParseScriptureBookAsync(ILogger logger, string path = "zho-Hant-OCCB/3JN.usx") // "eng-webbe/3jn"
+    {
+        var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
+        (var unihan, var options) = await TryGetUnihanOptionsAsync(isoLanguage);
+        await using var stream = ResourceHelper.GetStreamFromExtension(path);
+        var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
+        if (scriptureBook != null)
+        {
+            logger.LogInformation(scriptureBook.ToMarkdown());
+            //var result = scriptureBook.ToChapterDto(1);
+        }
+        return scriptureBook;
+    }
+
+    static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string isoLanguage, string fileName = "Unihan_Readings.json")
+    {
+        UnihanLookup? unihan = null;
+        UsxVisitorOptions? options = null;
+        if (UnihanLookup.NameUnihanLookup.TryGetValue(isoLanguage, out var unihanFields))
+        {
+            unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName);
+            options = new UsxVisitorOptions { EnableRunes = unihanFields?.FirstOrDefault() };
+        }
+        return (unihan, options);
+    }
+
+    static async Task<BibleBook?> ParseBibleBookAsync(string language = "eng", string version = "WEBBE", string book = "JHN")
+    {
+        await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
+        var deserializer = new XDocDeserializer();
+        var usxParser = new UsxToBibleBookParser(deserializer);
+        var bibleBook = await usxParser.ParseAsync(stream);
+        return bibleBook;
+    }
+
+    static async Task<string> ParseAsync(string text)
+    {
+        var unihanLookup = await ResourceHelper.GetFromJsonAsync<UnihanLookup>("Unihan_Readings.json");
+        return ParseToString(text, unihanLookup);
+    }
+
+    static string ParseToString(string text, UnihanLookup? unihanLookup)
+    {
+        if (string.IsNullOrWhiteSpace(text)) return string.Empty;
+        var stringBuilder = new StringBuilder();
+        foreach (Rune rune in text.EnumerateRunes())
+        {
+            stringBuilder.AppendLine($"Rune: {rune.ToString()} ({rune.Value})");
+            if (unihanLookup != null && unihanLookup.TryGetValue(rune.Value, out var metadata))
             {
-                stringBuilder.AppendLine($"{kvp.Key}: {string.Join("; ", kvp.Value)}");
+                foreach (var kvp in metadata)
+                {
+                    stringBuilder.AppendLine($"{kvp.Key}: {string.Join("; ", kvp.Value)}");
+                }
             }
         }
+        return stringBuilder.ToString();
     }
-    return stringBuilder.ToString();
+
+    static IReadOnlyList<UnihanCharacter> Unihan(string? text)
+    {
+        // Unicode range for common Han characters
+        int start = 0x4E00;
+        int end = 0x9FFF;
+
+        var hanChars = Enumerable.Range(1, 5).Select(index =>
+            new UnihanCharacter
+            (
+                char.ConvertFromUtf32(Random.Shared.Next(start, end + 1)),
+                new Dictionary<string, IList<string>>()
+                {
+                    ["kDefinition"] = ["Chinese character"],
+                    ["kMandarin"] = ["hàn", "kan"]
+                }
+            ))
+            .ToArray();
+        return hanChars;
+    }
 }

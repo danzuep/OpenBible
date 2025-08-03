@@ -1,7 +1,7 @@
 ﻿using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
 
-public static class UsxVisitorExtensions
+internal static class UsxVisitorExtensions
 {
     /// <summary>
     /// UsxScripture
@@ -48,8 +48,8 @@ public static class UsxVisitorExtensions
     public static void Accept(this IUsxVisitor visitor, UsxBook? book)
     {
         if (book == null) return;
-        if (book.Translation != null)
-            visitor.Visit(book.Translation);
+        if (book.Metadata != null)
+            visitor.Visit(book.Metadata);
         visitor.Accept(book.Content);
     }
 

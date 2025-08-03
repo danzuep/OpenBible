@@ -17,7 +17,7 @@ namespace Bible.Backend.Adapters
 
             var bibleReference = new BibleReference
             {
-                BookName = book.Translation.BookCode
+                BookName = book.Metadata.BookCode
             };
 
             var bibleBook = new BibleBook { Reference = bibleReference };

@@ -12,8 +12,7 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
     {
         var visitor = new UsxToHtmlVisitor(options);
         visitor.Unihan = unihan;
-        visitor.Accept(usxScriptureBook);
-        return visitor.GetFullText();
+        return visitor.GetFullText(usxScriptureBook);
     }
 
     public UsxToHtmlVisitor(IOptions<UsxVisitorOptions>? options = null)
@@ -44,14 +43,17 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     public void Visit(UsxIdentification identification)
     {
-        if (!string.IsNullOrEmpty(identification.BookName))
+        if (!string.IsNullOrEmpty(identification.VersionName))
         {
             _reference.BookCode = identification.BookCode;
-            //int firstSpaceIndex = identification.Name.IndexOf(' ') + 1;
-            //var bookName = identification.Name[firstSpaceIndex..];
-            var bookName = identification.BookName;
+            string versionName;
+            int firstSpaceIndex = identification.VersionName.IndexOf(' ') + 1;
+            if (identification.VersionName[..firstSpaceIndex].Contains('.'))
+                versionName = identification.VersionName[firstSpaceIndex..];
+            else
+                versionName = identification.VersionName;
             _sb.AppendFormat("<{0} id=\"{2}-{1}\" class=\"usx-{2}\">{3}</{0}>",
-                "h1", _reference, identification.Style, WebUtility.HtmlEncode(bookName));
+                "h1", _reference, identification.Style, WebUtility.HtmlEncode(versionName));
             _sb.AppendLine();
         }
     }
@@ -62,8 +64,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
             para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
             para.Text is string heading)
         {
-            if (string.IsNullOrEmpty(_reference.BookCode))
-                _reference.BookCode = heading;
+            if (string.IsNullOrEmpty(_reference.Title))
+                _reference.Title = heading;
             _sb.AppendFormat("<a href=\"#{1}\"><{0} id=\"{1}\" class=\"usx-{2}\">{3}</{0}></a>",
                 "h2", _reference, para.Style, WebUtility.HtmlEncode(heading));
             _sb.AppendLine();
@@ -200,8 +202,10 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         }
     }
 
-    public string GetFullText()
+    public string GetFullText(UsxBook? usxScriptureBook)
     {
+        this.Accept(usxScriptureBook);
+
         if (_footnotes.Any())
         {
             _sb.AppendLine("<section id=\"footnotes\">");

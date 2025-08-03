@@ -1,133 +1,185 @@
 ﻿namespace Bible.Backend.Visitors;
 
+using System.Data;
+using System.Text;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
-using Bible.Core.Models;
+using Bible.Backend.Services;
+using Bible.Core.Models.Scripture;
 using Microsoft.Extensions.Options;
 
 public sealed class UsxToScriptureBookVisitor : IUsxVisitor
 {
+    public static async Task<ScriptureBook?> DeserializeAsync(Stream stream, UnihanLookup? unihan = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
+    {
+        var deserializer = new XDocDeserializer();
+        var usxBook = await deserializer.DeserializeAsync<UsxBook>(stream, cancellationToken);
+        return GetBook(usxBook, unihan, options);
+    }
+
     public static ScriptureBook GetBook(UsxBook? usxScriptureBook, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
     {
         var visitor = new UsxToScriptureBookVisitor(options);
         visitor.Unihan = unihan;
-        visitor.Accept(usxScriptureBook);
-        return visitor.GetBibleBook();
+        return visitor.GetBook(usxScriptureBook);
     }
 
-    public UsxToScriptureBookVisitor(IOptions<UsxVisitorOptions>? options = null)
+    public UsxToScriptureBookVisitor(IOptions<UsxVisitorOptions>? options = null, ScriptureSegmentBuilder? builder = null)
     {
         _options = options?.Value ?? new UsxVisitorOptions();
+        _builder = builder ?? new ScriptureSegmentBuilder();
+        if (!string.IsNullOrEmpty(_builder.BookMetadata.IsoLanguage) &&
+            UnihanLookup.ISO6393UnihanLookup.TryGetValue(_builder.BookMetadata.IsoLanguage, out var unihanField))
+        {
+            _options.EnableRunes = unihanField;
+        }
     }
 
     public UnihanLookup? Unihan { get; set; }
-
-    private readonly BibleReference _bibleReference = new();
 
     private readonly List<UsxFootnote> _footnotes = new();
 
     private readonly UsxVisitorOptions _options;
 
-    private readonly ScriptureBook _bibleBook = new();
+    private readonly ScriptureSegmentBuilder _builder;
 
     private readonly IReadOnlyList<string> _headingParaStyles =
-        ["h", .. UsxToMarkdownVisitor.ParaStylesToHide];
+        UsxToMarkdownVisitor.ParaStylesToHide;
 
     public void Visit(UsxIdentification identification)
     {
-        _bibleBook.AddBookMetadata(identification.Style, MetadataCategory.Style);
-        if (!string.IsNullOrEmpty(identification.BookName) ||
-            !string.IsNullOrEmpty(identification.BookCode))
-        {
-            _bibleBook.Name = identification.BookName;
-            _bibleReference.BookName = identification.BookName;
-            _bibleReference.BookCode = identification.BookCode;
-        }
+        _builder.BookMetadata.Segments.Add(new(identification.Style, MetadataCategory.Style));
+        _builder.BookMetadata.Id = identification.BookCode;
+        int firstSpaceIndex = identification.VersionName.IndexOf(' ') + 1;
+        if (identification.VersionName[..firstSpaceIndex].Contains('.'))
+            _builder.BookMetadata.Version = identification.VersionName[firstSpaceIndex..];
+        else
+            _builder.BookMetadata.Version = identification.VersionName;
     }
 
     public void Visit(UsxPara para)
     {
-        _bibleBook.AddScriptureSegment(para.Style, MetadataCategory.Style);
-        if (_headingParaStyles.Any(h => !string.IsNullOrEmpty(para.Style) &&
-            para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase)) &&
+        _builder.AddScriptureSegment(para.Style, MetadataCategory.Style);
+        if (!string.IsNullOrEmpty(para.Style) &&
+            para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
             para.Text is string heading)
         {
-            if (string.IsNullOrEmpty(_bibleReference.BookName))
-                _bibleReference.BookName = heading;
-            _bibleBook.AddBookMetadata(heading);
+            if (string.IsNullOrEmpty(_builder.BookMetadata.Name))
+                _builder.BookMetadata.Name = heading;
+            else
+                _builder.BookMetadata.Segments.Add(new(heading, MetadataCategory.Text));
+        }
+        else if (_headingParaStyles.Any(h => !string.IsNullOrEmpty(para.Style) &&
+            para.Style.StartsWith(h, StringComparison.OrdinalIgnoreCase)) &&
+            para.Text is string metadata)
+        {
+            _builder.BookMetadata.Segments.Add(new(metadata, MetadataCategory.Meta));
         }
         else
         {
-            _bibleBook.AddScriptureSegment("\n", MetadataCategory.Text);
+            _builder.AddScriptureSegment("\n", MetadataCategory.Markup);
             this.Accept(para.Content);
         }
     }
 
     public void Visit(UsxChapterMarker chapterMarker)
     {
-        if (int.TryParse(chapterMarker.Number, out var chapterNumber))
+        if (byte.TryParse(chapterMarker.Number, out var chapterNumber))
         {
-            _bibleReference.Chapter = chapterNumber;
-            _bibleReference.Verse = null;
-            _bibleBook.HandleChapterChange((byte)chapterNumber);
-            _bibleBook.AddScriptureSegment(chapterMarker.StartId, MetadataCategory.Marker);
+            _builder.HandleChapterChange(chapterNumber);
+            _builder.AddScriptureSegment(chapterMarker.Number, MetadataCategory.Chapter);
+            _builder.AddScriptureSegment(chapterMarker.StartId, MetadataCategory.Meta);
         }
     }
 
     public void Visit(UsxVerseMarker verseMarker)
     {
-        if (int.TryParse(verseMarker.Number, out var verseNumber))
+        if (byte.TryParse(verseMarker.Number, out var verseNumber))
         {
-            _bibleReference.Verse = verseMarker.Number;
-            _bibleBook.HandleVerseChange((byte)verseNumber);
-            _bibleBook.AddScriptureSegment(verseMarker.Number, MetadataCategory.Marker);
+            _builder.HandleVerseChange(verseNumber);
+            _builder.AddScriptureSegment(verseMarker.Number, MetadataCategory.Verse);
+            _builder.AddScriptureSegment(verseMarker.StartId, MetadataCategory.Meta);
         }
     }
 
     public void Visit(UsxChar usxChar)
     {
-        _bibleBook.AddScriptureSegment(usxChar.Style, MetadataCategory.Style);
+        _builder.AddScriptureSegment(usxChar.Style, MetadataCategory.Style);
         this.Accept(usxChar.Content);
     }
 
     public void Visit(string text)
     {
-        _bibleBook.AddScriptureSegment(text);
+        if (_options.EnableRunes.HasValue)
+        {
+            foreach (var rune in text.EnumerateRunes())
+            {
+                AddUnihan(rune.Value, _options.EnableRunes.Value);
+                _builder.AddScriptureSegment(rune.ToString());
+            }
+        }
+        else
+        {
+            _builder.AddScriptureSegment(text);
+        }
+    }
+
+    private void AddUnihan(int codepoint, UnihanField unihanField)
+    {
+        if (Unihan != null && Unihan.TryGetValue(codepoint, out var metadata))
+        {
+            foreach (var kvp in metadata)
+            {
+                Extract(kvp, unihanField, MetadataCategory.Pronunciation);
+                //Extract(kvp, UnihanField.kDefinition, MetadataCategory.Definition);
+            }
+        }
+
+        void Extract(KeyValuePair<UnihanField, IList<string>> kvp, UnihanField field, MetadataCategory category)
+        {
+            if (kvp.Key == field)
+            {
+                foreach (var value in kvp.Value)
+                {
+                    _builder.AddScriptureSegment(value, category);
+                }
+            }
+        }
     }
 
     public void Visit(UsxMilestone milestone)
     {
-        _bibleBook.AddScriptureSegment(milestone.Style, MetadataCategory.Style);
+        _builder.AddScriptureSegment(milestone.Style, MetadataCategory.Markup);
     }
 
     public void Visit(UsxLineBreak lineBreak)
     {
-        _bibleBook.AddScriptureSegment("\n", MetadataCategory.Text);
+        _builder.AddScriptureSegment("\n", MetadataCategory.Markup);
     }
 
     public void Visit(UsxCrossReference reference)
     {
         if (_options.EnableCrossReferences)
         {
-            _bibleBook.AddScriptureSegment(reference.Location, MetadataCategory.Reference);
+            _builder.AddScriptureSegment(reference.Location, MetadataCategory.Reference);
             this.Accept(reference.Content);
         }
     }
 
     public void Visit(UsxFootnote footnote)
     {
-        _bibleBook.AddScriptureSegment(footnote.Style, MetadataCategory.Style);
+        _builder.AddScriptureSegment(footnote.Style, MetadataCategory.Style);
         if (_options.EnableFootnotes)
         {
             _footnotes.Add(footnote);
-            _bibleBook.AddScriptureSegment(footnote.Caller, MetadataCategory.Footnote);
+            _builder.AddScriptureSegment(footnote.Caller, MetadataCategory.Footnote);
             this.Accept(footnote.Content);
         }
     }
 
-    public ScriptureBook GetBibleBook()
+    public ScriptureBook GetBook(UsxBook? usxScriptureBook)
     {
-        _bibleBook.Seal();
-        return _bibleBook;
+        this.Accept(usxScriptureBook);
+        return _builder.Build();
     }
 }

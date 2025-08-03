@@ -12,8 +12,7 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
     public static string GetFullText(UsxBook? usxScriptureBook, UsxVisitorOptions? options = null)
     {
         var visitor = new UsxToMarkdownVisitor(options);
-        visitor.Accept(usxScriptureBook);
-        return visitor.GetFullText();
+        return visitor.GetFullText(usxScriptureBook);
     }
 
     public UsxToMarkdownVisitor(IOptions<UsxVisitorOptions>? options = null)
@@ -36,9 +35,9 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
 
     public void Visit(UsxIdentification identification)
     {
-        if (!string.IsNullOrEmpty(identification.BookName))
+        if (!string.IsNullOrEmpty(identification.VersionName))
         {
-            _sb.AppendLine($"# {identification.BookName}");
+            _sb.AppendLine($"# {identification.VersionName}");
             _sb.AppendLine();
         }
     }
@@ -116,8 +115,10 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
         }
     }
 
-    public string GetFullText()
+    public string GetFullText(UsxBook? usxScriptureBook)
     {
+        this.Accept(usxScriptureBook);
+
         if (_footnotes.Any())
         {
             _sb.AppendLine();

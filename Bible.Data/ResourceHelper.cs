@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Text.Json;
 
 namespace Bible.Data
 {
@@ -6,10 +7,25 @@ namespace Bible.Data
     {
         private const string Namespace = "Bible.Data";
 
-        public static Stream? GetManifestResourceStream(string resourceName)
+        public static Stream GetUsxBookStream(string path)
         {
-            var assembly = Assembly.GetExecutingAssembly();
-            var stream = assembly.GetManifestResourceStream(resourceName);
+            var parts = path.Split(['-', '/', '\\']);
+            var language = parts.FirstOrDefault()?.ToLowerInvariant();
+            var translation = parts.Skip(1)?.FirstOrDefault()?.ToUpperInvariant();
+            var book = parts.Skip(2)?.FirstOrDefault()?.ToUpperInvariant();
+            var fileExtension = Path.GetExtension(path)?.ToLowerInvariant();
+            var stream = GetUsxBookStream(language, translation, book, fileExtension);
+            return stream;
+        }
+
+        public static Stream GetUsxBookStream(string? language, string? version, string? book, string? fileExtension = null)
+        {
+            language = language ?? "eng";
+            version = version?.ToUpperInvariant() ?? "WEBBE";
+            book = book?.ToUpperInvariant() ?? "JHN";
+            fileExtension = string.IsNullOrEmpty(fileExtension) ? ".usx" : fileExtension.ToLowerInvariant();
+            var resourcePath = $"{language}_{version}.{book}{fileExtension}";
+            var stream = GetStreamFromExtension(resourcePath);
             return stream;
         }
 
@@ -24,7 +40,7 @@ namespace Bible.Data
             {
                 fileName = Path.GetFileName(filePath).Replace('-', '_');
                 var resources = assembly.GetManifestResourceNames();
-                var altNames = resources.Where(n => n.Contains(fileName));
+                var altNames = resources.Where(n => n.Contains(fileName, StringComparison.OrdinalIgnoreCase));
                 var alt = altNames.FirstOrDefault();
                 if (!string.IsNullOrEmpty(alt))
                 {
@@ -46,7 +62,20 @@ namespace Bible.Data
             return stream;
         }
 
-        public static async Task WriteStreamAsync(string fileName, Stream inputStream)
+        public static Stream? GetManifestResourceStream(string resourceName)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            var stream = assembly.GetManifestResourceStream(resourceName);
+            return stream;
+        }
+
+        public static async Task<T?> GetFromJsonAsync<T>(string filePath, JsonSerializerOptions? options = null, CancellationToken cancellationToken = default)
+        {
+            await using var inputStream = GetStreamFromExtension(filePath);
+            return await JsonSerializer.DeserializeAsync<T>(inputStream, options, cancellationToken);
+        }
+
+        public static async Task<string> WriteStreamAsync(string fileName, Stream inputStream, bool normalizeFileName = true)
         {
             ArgumentNullException.ThrowIfNull(inputStream);
             ArgumentException.ThrowIfNullOrWhiteSpace(fileName);
@@ -58,12 +87,26 @@ namespace Bible.Data
                 Directory.CreateDirectory(uploadsFolder);
             }
 
+            if (normalizeFileName)
+            {
+                fileName = fileName.Replace('\\', '_').Replace('/', '_').ToLowerInvariant();
+            }
             var filePath = Path.Combine(uploadsFolder, fileName);
+            if (!normalizeFileName)
+            {
+                var directory = Path.GetDirectoryName(filePath);
+                if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+                {
+                    Directory.CreateDirectory(directory);
+                }
+            }
 
             // Save the file to the server's file system
             await using var fileStream = new FileStream(filePath, FileMode.Create);
             await inputStream.CopyToAsync(fileStream);
             inputStream.Position = 0; // Reset the position of the input stream
+
+            return filePath;
         }
     }
 }

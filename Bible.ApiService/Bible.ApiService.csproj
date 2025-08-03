@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bible.Backend\Bible.Backend.csproj" />
-    <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
     <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
     <ProjectReference Include="..\Bible.ServiceDefaults\Bible.ServiceDefaults.csproj" />
   </ItemGroup>
