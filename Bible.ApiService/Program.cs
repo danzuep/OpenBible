@@ -1,3 +1,5 @@
+using Bible.ServiceDefaults.Models;
+using Microsoft.AspNetCore.Mvc;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,29 +28,46 @@ else
 }
 
 app.UseHttpsRedirection();
-app.MapGet("/hello", static () => "Hello!")
-    .WithName("GetHello")
-    .AllowAnonymous();
 
-app.MapGet("/hello/{name}", Hello)
-    .WithName("GetHelloName");
+app.MapGet("/convert", GetConvert)
+    .WithName(nameof(GetConvert));
+
+static string GetConvert([FromQuery] string text)
+{
+    return $"Yay! {text}";
+}
+
+app.MapPost("/convert", PostConvert)
+    .WithName(nameof(PostConvert));
+
+static string PostConvert([FromBody] string text)
+{
+    return $"Yay! {text}";
+}
+
+app.MapGet("/unihan", Unihan)
+    .WithName($"Get{nameof(Unihan)}");
+
+static IList<UnihanCharacter> Unihan(string? text)
+{
+    // Unicode range for common Han characters
+    int start = 0x4E00;
+    int end = 0x9FFF;
+
+    var hanChars = Enumerable.Range(1, 5).Select(index =>
+        new UnihanCharacter
+        (
+            char.ConvertFromUtf32(Random.Shared.Next(start, end + 1)),
+            new Dictionary<string, IList<string>>()
+            {
+                [ "kDefinition" ] = [ "Chinese character" ],
+                [ "kMandarin" ] = [ "hàn", "kan" ]
+            }
+        ))
+        .ToArray();
+    return hanChars;
+}
 
 app.MapDefaultEndpoints();
 
 await app.RunAsync();
-
-static partial class Program
-{
-    /// <summary>
-    /// Sends a greeting.
-    /// </summary>
-    /// <remarks>
-    /// Greeting a person by their name.
-    /// </remarks>
-    /// <param name="name">The name of the person to greet.</param>
-    /// <returns>A greeting.</returns>
-    public static string Hello(string name)
-    {
-        return $"Hello, {name}!";
-    }
-}
