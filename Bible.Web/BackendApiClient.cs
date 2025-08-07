@@ -1,4 +1,5 @@
 using System.Net.Mime;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
 using Bible.Core.Models;
@@ -77,5 +78,48 @@ public class BackendApiClient(HttpClient httpClient)
         var url = $"/{language}/{version}/{book}/{chapter}";
         var result = await httpClient.GetFromJsonAsync<ScriptureRange>(url, cancellationToken);
         return result;
+    }
+
+    public async Task<ScriptureBookMetadata?> GetScriptureBookMetadataAsync(string? language, string? version, string? book, int chapter, CancellationToken cancellationToken = default)
+    {
+        if (string.IsNullOrEmpty(language) || string.IsNullOrEmpty(version) || string.IsNullOrEmpty(book))
+        {
+            return null;
+        }
+        var url = $"/{language}/{version}/{book}/{chapter}/metadata";
+        var result = await httpClient.GetFromJsonAsync<ScriptureBookMetadata>(url, cancellationToken);
+        return result;
+    }
+
+    public async IAsyncEnumerable<ScriptureSegmentDto> GetScriptureRecordsStreamAsync(string? language, string? version, string? book, int chapter, [EnumeratorCancellation] CancellationToken cancellationToken = default)
+    {
+        if (string.IsNullOrEmpty(language) || string.IsNullOrEmpty(version) || string.IsNullOrEmpty(book))
+        {
+            yield break;
+        }
+        var url = $"/{language}/{version}/{book}/{chapter}/stream";
+        await foreach (var result in httpClient.GetFromJsonAsAsyncEnumerable<ScriptureSegmentDto>(url, cancellationToken))
+        {
+            if (result is not null)
+            {
+                yield return result;
+            }
+        }
+    }
+
+    public async IAsyncEnumerable<ScriptureSegmentDto> GetRuneMetadataStreamAsync(string? language, string? version, string? book, int chapter, [EnumeratorCancellation] CancellationToken cancellationToken = default)
+    {
+        if (string.IsNullOrEmpty(language) || string.IsNullOrEmpty(version) || string.IsNullOrEmpty(book))
+        {
+            yield break;
+        }
+        var url = $"/{language}/{version}/{book}/{chapter}/unihan";
+        await foreach (var result in httpClient.GetFromJsonAsAsyncEnumerable<ScriptureSegmentDto>(url, cancellationToken))
+        {
+            if (result is not null)
+            {
+                yield return result;
+            }
+        }
     }
 }

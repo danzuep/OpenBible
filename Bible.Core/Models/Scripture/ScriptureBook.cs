@@ -62,11 +62,5 @@
 
         public string ToChapterMarkdown(byte chapter)
             => IndexManager.GetChapter(chapter).ToMarkdown(Metadata);
-
-        public ScriptureRange ToDto()
-            => IndexManager.GetBook().ToDto(Metadata);
-
-        public ScriptureRange ToChapterDto(byte chapter)
-            => IndexManager.GetChapter(chapter).ToDto(Metadata);
     }
 }

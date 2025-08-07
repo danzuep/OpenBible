@@ -1,4 +1,7 @@
+using System.Collections.Immutable;
 using System.IO;
+using System.Net.Http;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
 using Bible.Backend.Models;
@@ -69,16 +72,47 @@ public static partial class Program
             static (string language, string version, string book, byte chapter) =>
             ParseScriptureBookChapterAsync(language, version, book, chapter));
 
+        app.MapGet("/{language}/{version}/{book}/{chapter}/stream",
+            static (string language, string version, string book, byte chapter, CancellationToken cancellationToken) =>
+            GetScriptureRecordsStreamAsync(language, version, book, chapter, cancellationToken));
+
         app.MapDefaultEndpoints();
 
         await app.RunAsync();
+
+        app.MapDefaultEndpoints();
+
+        await app.RunAsync();
+    }
+
+    static async IAsyncEnumerable<ScriptureSegmentDto> GetScriptureRecordsStreamAsync(string language, string version, string book, byte chapter, [EnumeratorCancellation] CancellationToken cancellationToken = default)
+    {
+        var scriptureBook = await ParseScriptureBookAsync(language, version, book);
+        if (scriptureBook == null)
+        {
+            yield break;
+        }
+        yield return scriptureBook.Metadata.ToDto();
+        var segments = scriptureBook.IndexManager.GetChapter(chapter);
+        foreach (var segment in segments.ToImmutableArray())
+        {
+            cancellationToken.ThrowIfCancellationRequested();
+            yield return segment.ToDto();
+        }
     }
 
     static async Task<ScriptureRange?> ParseScriptureBookChapterAsync(string language, string version, string book, byte chapter)
     {
         //language = "zho-Hant"; version = "OCCB"; book = "3JN"; chapter = 1;
         var scriptureBook = await ParseScriptureBookAsync(language, version, book);
-        return scriptureBook?.ToChapterDto(chapter);
+        var scriptureRange = scriptureBook?.ToChapterDto(chapter);
+        return scriptureRange;
+    }
+
+    static async Task<ScriptureBookMetadata?> ParseScriptureBookMetadataAsync(string language, string version, string book, byte chapter)
+    {
+        var scriptureBook = await ParseScriptureBookAsync(language, version, book);
+        return scriptureBook?.Metadata;
     }
 
     static async Task<ScriptureBook?> ParseScriptureBookAsync(string language, string version, string book)

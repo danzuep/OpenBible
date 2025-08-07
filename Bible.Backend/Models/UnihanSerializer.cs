@@ -8,10 +8,6 @@ namespace Bible.Backend.Models
     {
         private JsonBufferWriter<UnihanJsonEntry>? _jsonBufferWriter;
 
-        public UnihanSerializer()
-        {
-        }
-
         /// <inheritdoc cref="UnihanParserService.ParseAsync{T}(StreamReader)"/>
         public async Task ParseAsync(string inputPath, string outputPath)
         {

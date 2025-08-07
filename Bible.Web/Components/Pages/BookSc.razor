@@ -1,6 +1,7 @@
 ﻿@page "/{language}/{version}/{book}/{chapter:int}"
 @using Bible.Core.Models
 @using Bible.Core.Models.Scripture
+@using Bible.ServiceDefaults.Models
 @using System.Diagnostics.CodeAnalysis
 @rendermode InteractiveServer
 
@@ -12,11 +13,11 @@
 }
 else
 {
-    <h5>@scriptureRange.BookMetadata.Version</h5>
-    <h3>@scriptureRange.BookMetadata.Name</h3>
+    <h5>@scriptureRange.BookMetadata?.Version</h5>
+    <h3>@scriptureRange.BookMetadata?.Name</h3>
 
     <p>
-        @foreach (var fragment in GetRenderFragments(scriptureRange.ScriptureRecords))
+        @foreach (var fragment in GetRenderFragments())
         {
             @fragment
         }
@@ -39,8 +40,9 @@ else
     /// <summary>
     /// Enumerates RenderFragments by pairing Text + Pronunciation segments together.
     /// </summary>
-    private IEnumerable<RenderFragment> GetRenderFragments(IReadOnlyList<ScriptureRecord> segments)
+    private IEnumerable<RenderFragment> GetRenderFragments()
     {
+        var segments = scriptureRange?.ScriptureRecords ?? new List<ScriptureSegmentDto>();
         for (int i = 0; i < segments.Count; i++)
         {
             var segment = segments[i];
@@ -60,7 +62,7 @@ else
         }
     }
 
-    private RenderFragment RenderSegment(ScriptureRecord segment, ScriptureRecord? nextSegment = null) => builder =>
+    private RenderFragment RenderSegment(ScriptureSegmentDto segment, ScriptureSegmentDto? nextSegment = null) => builder =>
     {
         switch (segment.Category)
         {

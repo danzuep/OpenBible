@@ -47,24 +47,5 @@ namespace Bible.Core.Models.Scripture
             }
             return sb.ToString();
         }
-
-        public static ScriptureRange ToDto(this ReadOnlySpan<ScriptureSegment> segments, ScriptureBookMetadata metadata)
-        {
-            var records = new List<ScriptureRecord>(segments.Length);
-            foreach (var segment in segments)
-            {
-                records.Add(new ScriptureRecord
-                {
-                    Text = segment.Text,
-                    Category = segment.Category
-                });
-            }
-            var scriptureRange = new ScriptureRange
-            {
-                BookMetadata = metadata.GetSealedCopy(),
-                ScriptureRecords = records.ToArray()
-            };
-            return scriptureRange;
-        }
     }
 }
