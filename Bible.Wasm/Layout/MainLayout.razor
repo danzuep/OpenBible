@@ -38,7 +38,7 @@
     public string? SearchText { get; set; } = "John 1";
 
     static readonly string library = "https://app.thedigitalbiblelibrary.org/entries/open_access_entries?type=text";
-    static readonly string _sourceCodeUrl = "https://github.com/danzuep/BibleApp";
+    static readonly string _sourceCodeUrl = "https://github.com/danzuep/OpenBible";
     string? informationalVersion;
     string? displayVersion;
     bool _drawerOpen = true;
@@ -61,12 +61,8 @@
     {
         if (firstRender)
         {
-            var systemThem = await _mudThemeProvider.GetSystemDarkModeAsync();
-            if (systemThem != _isDarkMode)
-            {
-                _isDarkMode = systemThem;
-                StateHasChanged();
-            }
+            _isDarkMode = await _mudThemeProvider.GetSystemDarkModeAsync();
+            StateHasChanged();
         }
     }
 

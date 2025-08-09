@@ -1,0 +1,269 @@
+﻿@page "/stream"
+@implements IAsyncDisposable
+@inject JsScrollService _scrollService
+<h2>Streaming Book with Virtual Chapters</h2>
+
+<label>
+    <input type="checkbox" @bind="showPronunciation" />
+    Show Pronunciation (ruby text)
+</label>
+
+<div style="height: 600px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;" @ref="scrollContainer">
+    @if (isLoadingPrevious)
+    {
+        <p><em>Loading previous chapter...</em></p>
+    }
+
+    @foreach (var chapter in loadedChapters.Values.OrderBy(c => c.Number))
+    {
+        <VisibilitySensor OnVisibilityChanged="visible => OnChapterVisibilityChanged(chapter.Number, visible)">
+            <div class="chapter" style="margin-bottom: 2rem;">
+                <h3>Chapter @chapter.Number</h3>
+                @foreach (var verse in chapter.Verses)
+                {
+                    <p>
+                        @if (showPronunciation)
+                        {
+                            @((MarkupString)AddRuby(verse.Text, verse.Pronunciation))
+                        }
+                        else
+                        {
+                            @verse.Text
+                        }
+                    </p>
+                }
+            </div>
+        </VisibilitySensor>
+    }
+
+    @if (isLoadingNext)
+    {
+        <p><em>Loading next chapter...</em></p>
+    }
+    @if (allChaptersLoaded)
+    {
+        <p><strong>End of book reached.</strong></p>
+    }
+</div>
+
+@code {
+    private ElementReference scrollContainer;
+
+    private bool showPronunciation = false;
+
+    private bool isLoadingNext = false;
+    private bool isLoadingPrevious = false;
+    private bool allChaptersLoaded = false;
+
+    private readonly Dictionary<int, Chapter> loadedChapters = new();
+
+    private IAsyncEnumerator<Chapter>? chapterEnumerator;
+
+    protected override async Task OnInitializedAsync()
+    {
+        chapterEnumerator = StreamChaptersAsync().GetAsyncEnumerator();
+
+        await LoadNextChapterAsync();
+    }
+
+    private async Task LoadNextChapterAsync()
+    {
+        if (isLoadingNext || allChaptersLoaded) return;
+
+        isLoadingNext = true;
+
+        try
+        {
+            if (await chapterEnumerator!.MoveNextAsync())
+            {
+                var chapter = chapterEnumerator.Current;
+                if (!loadedChapters.ContainsKey(chapter.Number))
+                {
+                    loadedChapters.Add(chapter.Number, chapter);
+                    chapter.IsVisible = false;
+                }
+            }
+            else
+            {
+                allChaptersLoaded = true;
+            }
+        }
+        finally
+        {
+            isLoadingNext = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task LoadPreviousChapterAsync()
+    {
+        if (isLoadingPrevious)
+            return;
+
+        if (loadedChapters.Count == 0)
+            return;
+
+        var firstLoadedChapterNumber = loadedChapters.Keys.Min();
+
+        if (firstLoadedChapterNumber <= 1)
+        {
+            return;
+        }
+
+        isLoadingPrevious = true;
+
+        try
+        {
+            int previousChapterNumber = firstLoadedChapterNumber - 1;
+
+            // Get scroll height before insertion
+            var oldScrollHeight = await _scrollService.GetScrollHeightAsync(scrollContainer);
+            var oldScrollTop = await _scrollService.GetScrollTopAsync(scrollContainer);
+
+            var previousChapter = await FetchChapterAsync(previousChapterNumber);
+
+            if (previousChapter != null && !loadedChapters.ContainsKey(previousChapter.Number))
+            {
+                loadedChapters.Add(previousChapter.Number, previousChapter);
+                previousChapter.IsVisible = false;
+
+                StateHasChanged();
+
+                // Wait for UI to update so DOM is updated
+                await Task.Yield();
+
+                // Get scroll height after insertion
+                var newScrollHeight = await _scrollService.GetScrollHeightAsync(scrollContainer);
+
+                // Adjust scrollTop by the increase in scrollHeight to maintain position
+                var scrollDifference = newScrollHeight - oldScrollHeight;
+                var newScrollTop = oldScrollTop + scrollDifference;
+
+                await _scrollService.SetScrollTopAsync(scrollContainer, newScrollTop);
+            }
+        }
+        finally
+        {
+            isLoadingPrevious = false;
+        }
+    }
+
+    private async void OnChapterVisibilityChanged(int chapterNumber, bool isVisible)
+    {
+        if (loadedChapters.TryGetValue(chapterNumber, out var chapter))
+        {
+            chapter.IsVisible = isVisible;
+        }
+
+        var visibleChapters = loadedChapters.Values.Where(c => c.IsVisible).Select(c => c.Number).ToList();
+        if (visibleChapters.Any() && loadedChapters.Keys.Any())
+        {
+            const int VisibleChapterLimit = 10;
+
+            var loadedChapterNumbers = loadedChapters.Keys.ToList();
+
+            // Remove chapters outside visible window
+            var firstCutoff = visibleChapters.Min() - VisibleChapterLimit;
+            var lastCutoff = visibleChapters.Max() + VisibleChapterLimit;
+            var chaptersToRemove = loadedChapterNumbers.Where(k => k < firstCutoff || k > lastCutoff).ToList();
+            foreach (var key in chaptersToRemove)
+            {
+                loadedChapters.Remove(key);
+            }
+
+            if (chaptersToRemove.Any())
+            {
+                StateHasChanged();
+            }
+
+            var maxLoaded = loadedChapterNumbers.Max();
+            if (loadedChapters.TryGetValue(maxLoaded, out var lastChapter) && lastChapter.IsVisible)
+            {
+                await LoadNextChapterAsync();
+            }
+
+            var minLoaded = loadedChapterNumbers.Min();
+            if (loadedChapters.TryGetValue(minLoaded, out var firstChapter) && firstChapter.IsVisible)
+            {
+                await LoadPreviousChapterAsync();
+            }
+        }
+    }
+
+    private static string AddRuby(string text, string? ruby)
+    {
+        if (string.IsNullOrWhiteSpace(ruby))
+            return text;
+
+        return $"<ruby>{text}<rt>{ruby}</rt></ruby>";
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (chapterEnumerator != null)
+        {
+            await chapterEnumerator.DisposeAsync();
+        }
+    }
+
+    // Simulated streaming chapters of a book (e.g., Bible)
+    private async IAsyncEnumerable<Chapter> StreamChaptersAsync()
+    {
+        for (int chapterNum = 1; chapterNum <= 50; chapterNum++)
+        {
+            await Task.Delay(1000); // Simulate async load
+
+            var chapter = await FetchChapterAsync(chapterNum);
+            if (chapter == null)
+            {
+                allChaptersLoaded = true;
+                yield break;
+            }
+            else
+            {
+                yield return chapter;
+            }
+        }
+    }
+
+    // Example async method to fetch chapter by number
+    private async Task<Chapter?> FetchChapterAsync(int chapterNumber)
+    {
+        // Replace this with your actual data fetching logic
+        // For example, call an API, database, or simulate a delay
+
+        await Task.Delay(500); // Simulate async call latency
+
+        if (chapterNumber < 1 || chapterNumber > 50) // Assume 50 chapters max
+            return null;
+
+        var verses = new List<Verse>();
+        for (int verseNum = 1; verseNum <= 20; verseNum++)
+        {
+            verses.Add(new Verse
+            {
+                Text = $"Chapter {chapterNumber} Verse {verseNum}",
+                Pronunciation = $"Pronunciation-{verseNum}"
+            });
+        }
+
+        return new Chapter
+        {
+            Number = chapterNumber,
+            Verses = verses
+        };
+    }
+
+    private class Chapter
+    {
+        public bool IsVisible { get; set; }
+        public int Number { get; set; }
+        public List<Verse> Verses { get; set; } = new();
+    }
+
+    private class Verse
+    {
+        public string Text { get; set; } = string.Empty;
+        public string? Pronunciation { get; set; }
+    }
+}

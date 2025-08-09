@@ -2,7 +2,6 @@
 using System.Text;
 using Bible.Backend.Models;
 using Bible.Core.Models;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Bible.Backend.Adapters
 {

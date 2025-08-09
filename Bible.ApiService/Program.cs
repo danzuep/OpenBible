@@ -66,7 +66,7 @@ public static partial class Program
 
         app.MapGet("/{language}/{version}/{book}",
             static (string language, string version, string book) =>
-            ParseScriptureBookAsync(language, version, book));
+            ParseScriptureBookDtoAsync(language, version, book));
 
         app.MapGet("/{language}/{version}/{book}/{chapter}",
             static (string language, string version, string book, byte chapter) =>
@@ -109,6 +109,13 @@ public static partial class Program
         return scriptureRange;
     }
 
+    static async Task<ScriptureRange?> ParseScriptureBookDtoAsync(string language, string version, string book)
+    {
+        var scriptureBook = await ParseScriptureBookAsync(language, version, book);
+        var scriptureRange = scriptureBook?.ToDto();
+        return scriptureRange;
+    }
+
     static async Task<ScriptureBookMetadata?> ParseScriptureBookMetadataAsync(string language, string version, string book, byte chapter)
     {
         var scriptureBook = await ParseScriptureBookAsync(language, version, book);
@@ -120,6 +127,10 @@ public static partial class Program
         (var unihan, var options) = await TryGetUnihanOptionsAsync(language);
         await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
         var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
+        if (scriptureBook != null)
+        {
+            scriptureBook.Metadata.IsoLanguage = language;
+        }
         return scriptureBook;
     }
 

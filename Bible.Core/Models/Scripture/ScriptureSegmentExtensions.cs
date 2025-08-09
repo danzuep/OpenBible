@@ -47,5 +47,18 @@ namespace Bible.Core.Models.Scripture
             }
             return sb.ToString();
         }
+
+        public static string ToVerseHtml(this ReadOnlySpan<ScriptureSegment> segments)
+        {
+            var sb = new StringBuilder();
+            foreach (var segment in segments)
+            {
+                if (segment.Category == MetadataCategory.Text)
+                    sb.Append(segment.Text);
+                else if (segment.Category == MetadataCategory.Markup)
+                    sb.AppendFormat("{0}", segment.Text.Replace("\n", "<br />"));
+            }
+            return sb.ToString();
+        }
     }
 }

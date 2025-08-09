@@ -4,7 +4,6 @@
 @using Bible.Core.Models
 @using Bible.Data;
 @using System.Text
-@inject IBibleDataService DataService
 
 @* See also: https://github.com/MeysamMoghaddam/BlazorEpubReader/blob/master/Epub.razor *@
 
@@ -22,7 +21,7 @@
 else
 {
     <div class="d-flex flex-column align-center">
-        <MudPagination BoundaryCount="1" MiddleCount="5" Count="@_chapterCount" Selected="@ChapterNumber" SelectedChanged="ChapterChanged" Class="mt-4" />
+        <MudPagination BoundaryCount="1" MiddleCount="3" Count="@_chapterCount" Selected="@ChapterNumber" SelectedChanged="ChapterChanged" Class="mt-4" />
     </div>
 
     <h2 style="color: dimgrey;">@_reference</h2>
@@ -38,7 +37,7 @@ else
         <div id="footnote-@note.Id" class="footnote">[@note.Id] @note.Content</div>
     }
 
-    @* <ListGenericItems1 TItem="BibleFootnote" ItemList="@verseNotes" /> *@
+    @* <ListGenericItems TItem="BibleFootnote" ItemList="@verseNotes" /> *@
     
     <style>
         .footnote {
@@ -61,6 +60,9 @@ else
     [Parameter]
     public int ChapterNumber { get; set; } = 1;
 
+    internal static readonly string EngLanguage = "eng";
+    internal static readonly string KjvVersion = "KJV";
+
     string page => $"{BookCode}/{ChapterNumber}";
     string? _reference;
     BibleBook? _bibleBook;
@@ -73,15 +75,24 @@ else
         base.OnParametersSet();
         Task.Run(async () =>
         {
-            XDocDeserializer.Assembly = DataAssembly.GetAssembly();
-            var version = string.Join("-", Language, BibleVersion);
-            try
+            if (Language == EngLanguage && BibleVersion == KjvVersion)
             {
-                _bibleBook = await DataService.LoadBookAsync(version, BookCode);
+                var dataService = new BasicDataService();
+                _bibleBook = await dataService.LoadBookAsync(KjvVersion, BookCode);
             }
-            catch (Exception)
+            else
             {
-                _bibleBook = await DataService.LoadBookAsync("KJV", BookCode);
+                XDocDeserializer.Assembly = DataAssembly.GetAssembly();
+                try
+                {
+                    var streamDataService = StreamDataService.Create(Language, BibleVersion, BookCode);
+                    _bibleBook = await streamDataService.LoadBookAsync(Language, BibleVersion, BookCode);
+                }
+                catch (Exception)
+                {
+                    var dataService = new BasicDataService();
+                    _bibleBook = await dataService.LoadBookAsync(KjvVersion, BookCode);
+                }
             }
             ChapterChanged(ChapterNumber);
         });

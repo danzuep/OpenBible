@@ -1,7 +1,23 @@
 ﻿@page "/"
+@using Bible.Core.Models
+@using System.Diagnostics.CodeAnalysis
+@inject NavigationManager Navigation
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Bible</PageTitle>
 
-<h1>Hello, world!</h1>
+<p><em>Loading...</em></p>
+@* <BookChapter BookName="@_bookName" ChapterNumber="@_chapterNumber" /> *@
 
-Welcome to your new app.
+@code {
+    [CascadingParameter]
+    public string? SearchText { get; set; } //= "John 1";
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        if (firstRender)
+        {
+            Console.WriteLine(SearchText);
+        }
+    }
+}

@@ -22,8 +22,12 @@ namespace Bible.Data
         {
             language = language ?? "eng";
             version = version?.ToUpperInvariant() ?? "WEBBE";
-            book = book?.ToUpperInvariant() ?? "JHN";
             fileExtension = string.IsNullOrEmpty(fileExtension) ? ".usx" : fileExtension.ToLowerInvariant();
+            book = book?.ToUpperInvariant() ?? "JHN";
+            if (book.EndsWith(fileExtension))
+            {
+                book = book[..^fileExtension.Length];
+            }
             var resourcePath = $"{language}_{version}.{book}{fileExtension}";
             var stream = GetStreamFromExtension(resourcePath);
             return stream;
@@ -77,8 +81,14 @@ namespace Bible.Data
 
         public static async Task<string> WriteStreamAsync(string fileName, Stream inputStream, bool normalizeFileName = true)
         {
-            ArgumentNullException.ThrowIfNull(inputStream);
-            ArgumentException.ThrowIfNullOrWhiteSpace(fileName);
+            if (inputStream == null || inputStream.Length == 0)
+            {
+                throw new ArgumentNullException(nameof(inputStream), "Input stream cannot be null.");
+            }
+            if (string.IsNullOrWhiteSpace(fileName))
+            {
+                throw new ArgumentException("File name cannot be null or empty.", nameof(fileName));
+            }
 
             // Define the path where the file will be saved on the server
             var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");

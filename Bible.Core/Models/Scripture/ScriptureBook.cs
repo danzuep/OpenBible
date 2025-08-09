@@ -42,25 +42,23 @@
         public ReadOnlySpan<ScriptureSegment> GetParagraph(ushort paragraph)
             => IndexManager.GetParagraph(paragraph);
 
-        public ReadOnlySpan<ScriptureSegment> GetSection(string section)
-            => IndexManager.GetSection(section);
-
         public IReadOnlyDictionary<byte, Range> GetAllChapterRanges()
             => IndexManager.ChapterRanges;
 
         public IReadOnlyDictionary<(byte chapter, byte verse), Range> GetAllVerseRanges()
             => IndexManager.VerseRanges;
 
+        public IReadOnlyDictionary<byte, Range> GetChapterVerseRanges(byte chapter)
+            => IndexManager.VerseRanges.Where(r => r.Key.chapter == chapter)
+                .ToDictionary(v => v.Key.verse, v => v.Value);
+
         public IReadOnlyDictionary<ushort, Range> GetAllParagraphRanges()
             => IndexManager.ParagraphRanges;
-
-        public IReadOnlyDictionary<string, Range> GetAllSectionRanges()
-            => IndexManager.SectionRanges;
 
         public string ToMarkdown()
             => IndexManager.GetBook().ToMarkdown(Metadata);
 
-        public string ToChapterMarkdown(byte chapter)
+        public string ToMarkdownChapter(byte chapter)
             => IndexManager.GetChapter(chapter).ToMarkdown(Metadata);
     }
 }

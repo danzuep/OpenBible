@@ -9,19 +9,14 @@ namespace Bible.Core.Models.Scripture
         private readonly Dictionary<byte, (int start, int end)> _chapterPositions = new();
         private readonly Dictionary<(byte chapter, byte verse), (int start, int end)> _versePositions = new();
         private readonly Dictionary<ushort, (int start, int end)> _paragraphPositions = new();
-        private readonly Dictionary<string, (int start, int end)> _sectionPositions = new(StringComparer.Ordinal);
 
-        private ushort _currentParagraph = 0;
-        private string _currentSection = null;
         private byte _currentChapter = 0;
         private byte _currentVerse = 0;
+        private ushort _currentParagraph = 0;
 
         private int _currentChapterStart = 0;
         private int _currentVerseStart = 0;
         private int _currentParagraphStart = 0;
-        private int _currentSectionStart = 0;
-
-        private ushort _lastParagraphNumber = 0;
 
         private bool _sealed = false;
 
@@ -51,25 +46,22 @@ namespace Bible.Core.Models.Scripture
             _currentVerseStart = _segments.Count;
         }
 
+        private void HandleParagraphChange()
+        {
+            CloseCurrentParagraph();
+            _currentParagraph++;
+            _currentParagraphStart = _segments.Count;
+        }
+
         public void AddScriptureSegment(string text, MetadataCategory category = MetadataCategory.Text)
         {
-            if (_sealed) throw new InvalidOperationException("Cannot add after sealing");
+            ThrowIfSealed();
             if (text is null) throw new ArgumentNullException(nameof(text));
 
-            // Paragraph start
+            // Handle paragraph change
             if (category == MetadataCategory.Style && text == "p")
             {
-                CloseCurrentParagraph();
-                _currentParagraph = (ushort)(_lastParagraphNumber + 1);
-                _lastParagraphNumber = _currentParagraph;
-                _currentParagraphStart = _segments.Count;
-            }
-            // Section start
-            else if (category == MetadataCategory.Style && text == "s")
-            {
-                CloseCurrentSection();
-                _currentSection = $"Section{_sectionPositions.Count + 1}";
-                _currentSectionStart = _segments.Count;
+                HandleParagraphChange();
             }
 
             _segments.Add(new ScriptureSegment(text, category));
@@ -85,7 +77,6 @@ namespace Bible.Core.Models.Scripture
             CloseCurrentVerse();
             CloseCurrentChapter();
             CloseCurrentParagraph();
-            CloseCurrentSection();
 
             _sealed = true;
 
@@ -101,9 +92,6 @@ namespace Bible.Core.Models.Scripture
 
             foreach (var kvp in _paragraphPositions)
                 indexManager.SetParagraphRange(kvp.Key, kvp.Value.start, kvp.Value.end);
-
-            foreach (var kvp in _sectionPositions)
-                indexManager.SetSectionRange(kvp.Key, kvp.Value.start, kvp.Value.end);
 
             return new ScriptureBook { Metadata = BookMetadata.GetSealedCopy(), IndexManager = indexManager };
         }
@@ -115,7 +103,6 @@ namespace Bible.Core.Models.Scripture
             CloseCurrentVerse();
             CloseCurrentChapter();
             CloseCurrentParagraph();
-            CloseCurrentSection();
 
             _sealed = true;
 
@@ -131,9 +118,6 @@ namespace Bible.Core.Models.Scripture
 
             foreach (var kvp in _paragraphPositions)
                 indexManager.SetParagraphRange(kvp.Key, kvp.Value.start, kvp.Value.end);
-
-            foreach (var kvp in _sectionPositions)
-                indexManager.SetSectionRange(kvp.Key, kvp.Value.start, kvp.Value.end);
 
             return new ScriptureBook { Metadata = BookMetadata.GetSealedCopy(), IndexManager = indexManager };
         }
@@ -155,12 +139,6 @@ namespace Bible.Core.Models.Scripture
         {
             if (_currentParagraph != 0)
                 _paragraphPositions[_currentParagraph] = (_currentParagraphStart, _segments.Count);
-        }
-
-        private void CloseCurrentSection()
-        {
-            if (_currentSection is not null)
-                _sectionPositions[_currentSection] = (_currentSectionStart, _segments.Count);
         }
 
         [MethodImpl(MethodImplOptions.NoInlining)]

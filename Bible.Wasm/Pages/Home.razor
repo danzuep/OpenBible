@@ -10,7 +10,7 @@
 
 @code {
     [CascadingParameter]
-    public string? SearchText { get; set; } //= "John 1";
+    public string? SearchText { get; set; } = "John 1";
 
     string? _bookName;
     int _chapterNumber = 1;
@@ -23,8 +23,10 @@
             Task.Run(() =>
             {
                 GetBookAndChapter();
-                // Navigation.NavigateTo($"{_bookName}/{_chapterNumber}");
-                Navigation.NavigateTo($"eng/WEBBE/JHN/{_chapterNumber}");
+                Navigation.NavigateTo($"eng/KJV/{_bookName}/{_chapterNumber}");
+                // Navigation.NavigateTo($"zho-Hant/OCCB/3JN/{_chapterNumber}");
+                // Navigation.NavigateTo($"scroll/zho-Hant/OCCB/3JN/{_chapterNumber}");
+                // Navigation.NavigateTo("stream");
             });
         }
     }

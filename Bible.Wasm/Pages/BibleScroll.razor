@@ -1,0 +1,140 @@
+﻿@page "/scroll/{IsoLanguage=eng}/{BibleVersion=WEBBE}/{BookCode=JHN}"
+@using Bible.Core.Models
+@using Bible.Core.Models.Scripture
+@implements IAsyncDisposable
+@inject JsScrollService ScrollService
+
+<h2>@BookCode @BibleVersion (@IsoLanguage)</h2>
+
+<label for="pronunciationToggle" class="mb-3 d-inline-flex align-items-center" style="cursor:pointer;">
+    <input id="pronunciationToggle" type="checkbox" @bind="_showPronunciation" class="me-2" />
+    Show Pronunciation (ruby text)
+</label>
+
+<div class="scroll-container">
+    @foreach (var chapter in _loadedChapters.Values)
+    {
+        <VisibilitySensor OnVisibilityChanged="visible => OnChapterVisibilityChangedAsync(chapter.Id, visible)">
+            <section class="chapter mb-4">
+                <h3>Chapter @chapter.Id</h3>
+                @foreach (var verse in chapter.Verses)
+                {
+                    <p>
+                        @if (_showPronunciation)
+                        {
+                            @((MarkupString)AddRuby(verse.Text, verse.VerseReference))
+                        }
+                        else
+                        {
+                            @((MarkupString)verse.Text)
+                        }
+                    </p>
+                }
+            </section>
+        </VisibilitySensor>
+    }
+
+    @if (_isLoadingNext)
+    {
+        <p><em>Loading next chapter...</em></p>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public string? IsoLanguage { get; set; }
+
+    [Parameter, EditorRequired]
+    public string? BibleVersion { get; set; }
+
+    [Parameter, EditorRequired]
+    public string? BookCode { get; set; }
+
+    private bool _showPronunciation;
+    private bool _isLoadingNext;
+    private bool _isLoadingPrevious;
+    private bool _allChaptersLoaded;
+
+    private IAsyncEnumerator<BibleChapter>? _chapterEnumerator;
+
+    // Limits how many chapters are kept in memory around visible chapters
+    private const int VisibleChapterLimit = 10;
+
+    private readonly Dictionary<int, bool> _chapterVisibility = new();
+    private readonly Dictionary<int, BibleChapter> _loadedChapters = new();
+    private readonly CancellationTokenSource _cts = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (IsoLanguage == null || BibleVersion == null || BookCode == null)
+        {
+            throw new InvalidOperationException("Required parameters not set.");
+        }
+
+        _chapterEnumerator = StreamDataService.GetAsyncEnumerator(IsoLanguage, BibleVersion, BookCode);
+
+        // Load initial chapter(s)
+        await LoadNextChapterAsync(_cts.Token);
+    }
+
+    private async Task LoadNextChapterAsync(CancellationToken ct)
+    {
+        if (_isLoadingNext || _allChaptersLoaded || ct.IsCancellationRequested)
+            return;
+
+        _isLoadingNext = true;
+
+        try
+        {
+            if (_chapterEnumerator != null && await _chapterEnumerator.MoveNextAsync())
+            {
+                var chapter = _chapterEnumerator.Current;
+                if (chapter != null && !_loadedChapters.ContainsKey(chapter.Id))
+                {
+                    _loadedChapters.Add(chapter.Id, chapter);
+                    _chapterVisibility[chapter.Id] = false;
+                }
+            }
+            else
+            {
+                _allChaptersLoaded = true;
+            }
+        }
+        finally
+        {
+            _isLoadingNext = false;
+            StateHasChanged();
+        }
+    }
+
+    // Use async Task instead of async void to enable proper async flow
+    private async Task OnChapterVisibilityChangedAsync(int chapterId, bool isVisible)
+    {
+        _chapterVisibility[chapterId] = isVisible;
+
+        // Trigger load next if last visible chapter is visible
+        if (!_loadedChapters.Any() || _chapterVisibility.TryGetValue(_loadedChapters.Keys.Max(), out var isLastVisible) && isLastVisible)
+        {
+            await LoadNextChapterAsync(_cts!.Token);
+        }
+    }
+
+    private static string AddRuby(string text, string? ruby)
+    {
+        if (string.IsNullOrWhiteSpace(ruby))
+            return text;
+
+        // Sanitize inputs if needed, here we assume they are safe.
+        return $"<ruby>{text}<rt>{ruby}</rt></ruby>";
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        _cts?.Cancel();
+        _cts?.Dispose();
+        if (_chapterEnumerator != null)
+        {
+            await _chapterEnumerator.DisposeAsync();
+        }
+    }
+}

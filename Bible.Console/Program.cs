@@ -48,7 +48,7 @@ public class Program
         var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
         if (scriptureBook != null)
         {
-            logger.LogInformation(scriptureBook.ToMarkdown());
+            logger.LogInformation(scriptureBook.ToMarkdownChapter(1));
             //var result = scriptureBook.ToChapterDto(1);
         }
         return scriptureBook;
@@ -190,13 +190,13 @@ public class Program
         return ParseToString(text, unihanLookup);
     }
 
-    private static async Task<string> ParseFromFileAsync(string text)
+    private static async Task<string> ParseUnihanReadingsFromFileAsync(string text)
     {
         var unihanLookup = await ResourceHelper.GetFromJsonAsync<UnihanLookup>("Unihan_Readings.json");
         return ParseToString(text, unihanLookup);
     }
 
-    private static async Task ParseToFileAsync(ILogger logger)
+    private static async Task ParseUnihanReadingsToFileAsync(ILogger logger)
     {
         await using var inputStream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
         await using var outputStream = await UnihanParserService.ParseToStreamAsync(inputStream);
@@ -204,7 +204,7 @@ public class Program
         logger.LogInformation("{Path} created successfully.", filePath);
     }
 
-    private static async Task ParseScriptureBookToFileAsync(ILogger logger, string path = "eng/webbe/3jn")
+    private static async Task ParseScriptureBookToFileAsync(ILogger logger, string path = "eng/webbe/3jn") // "zho-Hant-OCCB/3JN.usx"
     {
         await using var inputStream = ResourceHelper.GetUsxBookStream(path);
         var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(inputStream);

@@ -56,7 +56,7 @@ namespace Bible.Data.Services
 
         public static async Task<BibleModel> GetBibleFromResourceAsync(string bibleTranslation = "KJV")
         {
-            var resourceName = $"Bible.Data.Json.{bibleTranslation.ToLowerInvariant()}.json";
+            var resourceName = $"Bible.Data.json.{bibleTranslation.ToLowerInvariant()}.json";
             var bibleJson = await GetFromJsonResourceAsync<SimpleBibleBookJson[]>(resourceName) ?? [];
             var books = bibleJson.Select(b => b.GetBibleBook(bibleTranslation));
             var bible = new BibleModel() { Books = books.ToArray(), Information = new() { Translation = bibleTranslation } };

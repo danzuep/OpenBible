@@ -64,7 +64,7 @@ public class BackendApiClient(HttpClient httpClient)
         {
             return null;
         }
-        var url = $"/{language}/{version}/{book}";
+        var url = $"/ScriptureBook/{language}/{version}/{book}";
         var result = await httpClient.GetFromJsonAsync<ScriptureBook>(url, cancellationToken);
         return result;
     }

@@ -133,7 +133,7 @@ namespace Bible.Reader.Services
 
         async Task<Stream> DownloadAsync(string downloadUrl, string filePath, CancellationToken cancellationToken = default)
         {
-            await using var downloadStream = await _httpClient.GetStreamAsync(downloadUrl, cancellationToken).ConfigureAwait(false);
+            await using var downloadStream = await _httpClient.GetStreamAsync(downloadUrl).ConfigureAwait(false);
             var fileStream = await SaveToFileAsync(downloadStream, filePath).ConfigureAwait(false);
             _logger.LogDebug($"File saved to {filePath} (downloaded from {downloadUrl})");
             return fileStream;

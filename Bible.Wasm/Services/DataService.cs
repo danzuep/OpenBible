@@ -1,4 +1,5 @@
 ﻿using Bible.Backend.Abstractions;
+using Bible.Backend.Services;
 using Bible.Core.Abstractions;
 using Bible.Core.Models;
 using Bible.Data.Services;
@@ -10,12 +11,12 @@ namespace Bible.Wasm.Services
         private BibleModel? _bible;
         private IBibleDataService? _kjvDataService;
         private readonly IDataService<BibleModel> _dataService;
-        private readonly IParser<BibleBook> _parser;
+        private readonly UsxToBibleBookParser _parser;
 
         public DataService()
         {
             _dataService = Program.GetRequiredService<IDataService<BibleModel>>();
-            _parser = Program.GetRequiredService<IParser<BibleBook>>();
+            _parser = (UsxToBibleBookParser)Program.GetRequiredService<IParser<BibleBook>>();
         }
 
         public async Task<BibleModel> LoadAsync(string bibleVersion = "eng-WEBBE")
@@ -46,7 +47,7 @@ namespace Bible.Wasm.Services
                 return book;
             }
             if (string.IsNullOrEmpty(bibleVersion) || string.IsNullOrEmpty(bookCode)) return null;
-            var bible = await _parser.ParseAsync(bibleVersion, bookCode);
+            var bible = await _parser.ParseFilesAsync(bibleVersion, bookCode);
             return bible;
         }
 
@@ -59,9 +60,9 @@ namespace Bible.Wasm.Services
             return chapter;
         }
 
-        private BibleBook? LoadBook(BibleModel? _bible, string? bookCode)
+        private BibleBook? LoadBook(BibleModel? _bible, string? bookCode, string? version = null)
         {
-            _bible ??= _dataService.Load(_bible.Information.Translation);
+            _bible ??= _dataService.Load(version); // _bible.Information.Translation
             var book = _bible?.FirstOrDefault(b =>
                 b.Reference.BookCode.Equals(bookCode, StringComparison.OrdinalIgnoreCase) ||
                 b.Reference.BookName.Equals(bookCode, StringComparison.OrdinalIgnoreCase) ||

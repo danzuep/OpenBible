@@ -1,5 +1,7 @@
 using Bible.Web;
 using Bible.Web.Components;
+using Bible.Web.Services;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +20,9 @@ builder.Services.AddHttpClient<BackendApiClient>(client =>
         // Learn more about service discovery scheme resolution at https://aka.ms/dotnet/sdschemes.
         client.BaseAddress = new("https+http://apiservice");
     });
+
+builder.Services.AddMudServices();
+builder.Services.AddSingleton<IMenuService, MenuService>();
 
 var app = builder.Build();
 

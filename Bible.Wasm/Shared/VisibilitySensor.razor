@@ -1,0 +1,37 @@
+﻿<div @ref="container" style="width:100%">
+    @ChildContent
+</div>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public EventCallback<bool> OnVisibilityChanged { get; set; }
+
+    private ElementReference container;
+    private DotNetObjectReference<VisibilitySensor>? objRef;
+
+    [Inject] private IJSRuntime JS { get; set; } = default!;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            objRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("visibilityObserver.observe", container, objRef);
+        }
+    }
+
+    [JSInvokable]
+    public async Task NotifyVisibilityChanged(bool isVisible)
+    {
+        await OnVisibilityChanged.InvokeAsync(isVisible);
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (objRef is not null)
+        {
+            await JS.InvokeVoidAsync("visibilityObserver.unobserve", container);
+            objRef.Dispose();
+        }
+    }
+}

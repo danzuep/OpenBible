@@ -1,6 +1,4 @@
-﻿using Bible.Core.Models;
-
-namespace Bible.Backend.Abstractions
+﻿namespace Bible.Backend.Abstractions
 {
     public interface IParser<T>
     {

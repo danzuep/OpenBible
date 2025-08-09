@@ -1,12 +1,13 @@
 @using Bible.Wasm.Models
+@using Bible.Wasm.Pages
 @inject NavigationManager Navigation
 
 <MudNavGroup Title="@Title" Expanded="@Expanded" ExpandIcon="@Icons.Material.Filled.ExpandMore">
-    <ListGenericItems2 TItem="BibleBookNav" ItemList="@ItemList" Context="book">
+    <ListGenericItemsTemplate TItem="BibleBookNav" ItemList="@ItemList" Context="book">
         <ItemTemplate>
-            <MudNavLink href="@($"{book.Name}/1")">@book.Name</MudNavLink>
+            <MudNavLink href="@($"{IsoLanguage}/{Version}/{(_isKjvSelected ? book.Name : book.Id)}/1")">@book.Name</MudNavLink>
         </ItemTemplate>
-    </ListGenericItems2>
+    </ListGenericItemsTemplate>
 </MudNavGroup>
 
 @code {
@@ -18,4 +19,12 @@
 
     [Parameter]
     public IEnumerable<BibleBookNav>? ItemList { get; set; }
+
+    [CascadingParameter(Name = "SelectedLanguage")]
+    public string IsoLanguage { get; set; } = "eng";
+
+    [CascadingParameter(Name = "SelectedVersion")]
+    public string Version { get; set; } = "WEBBE";
+
+    private bool _isKjvSelected => IsoLanguage == BookChapter.EngLanguage && Version == BookChapter.KjvVersion;
 }

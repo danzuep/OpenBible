@@ -1,27 +1,143 @@
 ﻿@using System.Diagnostics.CodeAnalysis
 @using Bible.Wasm.Models
-@inject IMenuService MenuService
+@inject IBibleBookNavService MenuService
 
 <MudNavMenu>
+    <MudExpansionPanels Elevation="0" Class="mb-2">
+        <MudExpansionPanel Text="Select Language & Version" Expanded="true">
+            <MudSelect T="string" Label="Language" @bind-Value="_selectedLanguage" Dense="true" Class="ml-2">
+                @foreach (var lang in _isoLanguages)
+                {
+                    <MudSelectItem T="string" Value="@lang.Key">@lang.Value[0]</MudSelectItem>
+                }
+            </MudSelect>
+            <MudSelect T="string" Label="Version" @bind-Value="_selectedVersion" Dense="true" Class="ml-2">
+                @foreach (var version in CurrentVersions)
+                {
+                    <MudSelectItem T="string" Value="@version">@version</MudSelectItem>
+                }
+            </MudSelect>
+        </MudExpansionPanel>
+    </MudExpansionPanels>
+
     <MudNavLink Href="" Match="NavLinkMatch.All">Open Bible</MudNavLink>
     <MudNavLink Href="feed" Match="NavLinkMatch.Prefix">Daily Verse</MudNavLink>
-    <SideSelector Title="Old Testament" ItemList="@oldTestament" />
-    <SideSelector Title="New Testament" ItemList="@newTestament" Expanded="true" />
+    <MudNavLink Href="stream" Match="NavLinkMatch.Prefix">Stream Demo</MudNavLink>
+
+    <CascadingValue Name="SelectedLanguage" Value="_selectedLanguage">
+        <CascadingValue Name="SelectedVersion" Value="_selectedVersion">
+            <SideSelector Title="Old Testament" ItemList="@oldTestament" />
+            <SideSelector Title="New Testament" ItemList="@newTestament" Expanded="true" />
+        </CascadingValue>
+    </CascadingValue>
 </MudNavMenu>
 
 @code {
     [Parameter]
-    public EventCallback<int> SelectionChanged { get; set; }
+    public EventCallback<string> SelectedLanguageChanged { get; set; }
+
+    [Parameter]
+    public EventCallback<string> SelectedVersionChanged { get; set; }
+
+    [Parameter]
+    public string SelectedLanguage { get; set; } = default!;
+
+    [Parameter]
+    public string SelectedVersion { get; set; } = default!;
 
     private IReadOnlyList<BibleBookNav>? oldTestament;
-
     private IReadOnlyList<BibleBookNav>? newTestament;
+
+    // ISO 639-3 language, ISO 15924 script, English name, native name
+    private static readonly Dictionary<string, IReadOnlyList<string>> _isoLanguages = new()
+    {
+        ["eng"] = ["English"],
+        ["tha"] = ["ไทย", "Thai"],
+        ["zho-Hans"] = ["中文（简体）", "Chinese (Simplified)"],
+        ["zho-Hant"] = ["中文（繁體）", "Chinese (Traditional)"],
+    };
+
+    // ISO 639-3 language, bible version acronyms
+    private static readonly Dictionary<string, IReadOnlyList<string>> _bibleVersions = new()
+    {
+        ["eng"] = ["KJV", "WEBBE", "WEBU", "T4T"],
+        ["tha"] = ["KJV"],
+        ["zho-Hans"] = ["OCCB"],
+        ["zho-Hant"] = ["OCCB"],
+    };
+
+    // Bible version acronyms, English name, native name, copyright
+    private static readonly Dictionary<string, IReadOnlyList<string>> _bibleAcronyms = new()
+    {
+        { "eng-WEBU", ["World English Bible USA"] },
+        { "eng-WEBBE", ["World English Bible British Edition"] },
+        { "eng-T4T", ["Translation for Translators (ENG-USA)"] },
+        { "eng-KJV", ["King James Version"] },
+        { "tha-KJV", ["Thai King James Version"] },
+        { "zho-Hans-OCCB", ["Biblica® Open Chinese Contemporary Bible 2022 (Simplified)", "圣经当代译本开放资源", "Copyright © 1979,2005,2007,2011,2022 Biblica, Inc." ] },
+        { "zho-Hant-OCCB", ["Biblica® Open Chinese Contemporary Bible 2023 (Traditional)", "聖經，當代譯本開放資源", "Copyright © 1979,2005,2007,2012,2023 Biblica, Inc."] }
+    };
+
+    private IReadOnlyList<string> CurrentVersions =>
+        _bibleVersions.TryGetValue(_selectedLanguage, out var versions) ? versions : Array.Empty<string>();
+
+    private string _selectedLanguage = default!;
+    private string _selectedVersion = default!;
 
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        var bibleBooks = await MenuService.LoadAsync();
-        oldTestament = bibleBooks.Where(b => !b.IsNewTestament).ToList();
-        newTestament = bibleBooks.Where(b => b.IsNewTestament).ToList();
+        oldTestament = MenuService.OldTestamentBooks;
+        newTestament = MenuService.NewTestamentBooks;
+
+        // Initialize selections with parameters or defaults
+        _selectedLanguage = SelectedLanguage ?? _isoLanguages.Keys.First();
+        _selectedVersion = SelectedVersion ?? (_bibleVersions.TryGetValue(_selectedLanguage, out var versions) ? versions.First() : null!);
+    }
+
+    private async Task OnLanguageChanged(string lang)
+    {
+        if (_selectedLanguage != lang)
+        {
+            _selectedLanguage = lang;
+
+            // Update versions accordingly
+            if (_bibleVersions.TryGetValue(_selectedLanguage, out var versions) && versions.Any())
+            {
+                _selectedVersion = versions.First();
+            }
+            else
+            {
+                _selectedVersion = null!;
+            }
+
+            await SelectedLanguageChanged.InvokeAsync(_selectedLanguage);
+            await SelectedVersionChanged.InvokeAsync(_selectedVersion);
+
+            StateHasChanged();
+        }
+    }
+
+    private async Task OnVersionChanged(string version)
+    {
+        if (_selectedVersion != version)
+        {
+            _selectedVersion = version;
+            await SelectedVersionChanged.InvokeAsync(_selectedVersion);
+            StateHasChanged();
+        }
+    }
+
+    // Two-way bind helpers for MudSelect components
+    private string LanguageValue
+    {
+        get => _selectedLanguage;
+        set => _ = OnLanguageChanged(value);
+    }
+
+    private string VersionValue
+    {
+        get => _selectedVersion;
+        set => _ = OnVersionChanged(value);
     }
 }

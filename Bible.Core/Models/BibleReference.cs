@@ -62,8 +62,8 @@ namespace Bible.Core.Models
         public string ToReference()
         {
             if (string.IsNullOrEmpty(Reference))
-                return $"{BookName} ({Translation})";
-            return $"{BookName} {Reference} ({Translation})";
+                return $"{BookName} - {Translation}";
+            return $"{BookName} {Reference} - {Translation}";
         }
 
         public string ToSearch()
