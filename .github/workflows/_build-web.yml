@@ -25,7 +25,7 @@ jobs:
     name: 🧱 ${{ inputs.project_name }} 🏗 ${{ inputs.project_version }}
     runs-on: 'ubuntu-latest'
     env:
-      NET_VERSION: '8.x'
+      NET_VERSION: '10.x'
       PROJECT_PATH: "./${{ inputs.project_name }}/${{ inputs.project_name }}.csproj"
     outputs:
       project_path: ${{ env.PROJECT_PATH }}
