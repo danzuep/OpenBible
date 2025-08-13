@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Bible.Backend.Adapters;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
@@ -12,6 +13,7 @@ using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 public class Program
 {
@@ -26,7 +28,8 @@ public class Program
         //Sample.UnifiedScripture(logger);
         //LoadBible(loggerFactory);
         //await LoadBibleBookAsync(loggerFactory);
-        await ParseScriptureBookAsync(logger);
+        //await ParseScriptureBookAsync(logger);
+        await ParseBibleBookAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -39,6 +42,25 @@ public class Program
         Console.WriteLine();
         //Console.WriteLine("Press any key to exit...");
         //Console.ReadKey();
+    }
+
+    static async Task<BibleBook?> ParseBibleBookAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
+    {
+        var metadata = new ScriptureBookMetadata
+        {
+            IsoLanguage = language,
+            Version = version,
+            Id = book
+        };
+        await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
+        var bibleBook = await UsxToBibleBookVisitor.DeserializeAsync(stream, metadata);
+        if (bibleBook != null)
+        {
+            var unihan = await GetUnihanAsync(language);
+            //logger.LogInformation(bibleBook.GetMarkdown());
+            logger.LogInformation(bibleBook.GetHtml(unihan));
+        }
+        return bibleBook;
     }
 
     private static async Task<ScriptureBook?> ParseScriptureBookAsync(ILogger logger, string path = "zho-Hant-OCCB/3JN.usx") // "eng/webbe/3jn"
@@ -56,15 +78,25 @@ public class Program
 
     private static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
     {
-        UnihanLookup? unihan = null;
-        UsxVisitorOptions? options = null;
         var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
+        var unihan = await GetUnihanAsync(isoLanguage);
+        var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
+        return (unihan, options);
+    }
+
+    private static async Task<UnihanLookup?> GetUnihanAsync(string isoLanguage, string fileName = "Unihan_Readings.json")
+    {
+        UnihanLookup? unihan = null;
         if (UnihanLookup.NameUnihanLookup.TryGetValue(isoLanguage, out var unihanFields))
         {
-            unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>("Unihan_Readings.json");
-            options = new UsxVisitorOptions { EnableRunes = unihanFields?.FirstOrDefault() };
+            unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName);
+            if (unihan != null)
+            {
+                unihan.IsoLanguage = isoLanguage;
+                unihan.Field = unihanFields.FirstOrDefault();
+            }
         }
-        return (unihan, options);
+        return unihan;
     }
 
     private static async Task ScriptureBookVisitorAsync(XmlConverter converter, string version = "eng-WEBBE")

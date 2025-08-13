@@ -8,6 +8,21 @@ namespace Bible.Backend.Models
     /// <inheritdoc cref="IUnihanReadings"/>
     public class UnihanLookup : Dictionary<int, UnihanFieldLookup>, IUnihanReadings
     {
+        private string? _isoLanguage;
+        public string? IsoLanguage
+        {
+            get => _isoLanguage;
+            set
+            {
+                _isoLanguage = value;
+                if (!string.IsNullOrEmpty(value) &&
+                    ISO6393UnihanLookup.TryGetValue(value, out var unihanField))
+                {
+                    Field = unihanField;
+                }
+            }
+        }
+
         public UnihanField? Field { get; set; }
 
         public void AddEntry(string codepoint, string field, string value)

@@ -61,12 +61,12 @@ internal static class HtmlCssBuilder
       }
 ";
 
-    private static readonly string _rtHideStyle = @"
-      /* Hide the rt elements by default */
-      rt.unihan {
-        display: none;
-      }
-";
+//    private static readonly string _rtHideStyle = @"
+//      /* Hide the rt elements by default */
+//      rt.unihan {
+//        display: none;
+//      }
+//";
 
     private static readonly string _rubyStyle = @"
       /* When checkbox is checked, show the ruby text */

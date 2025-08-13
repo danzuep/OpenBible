@@ -14,7 +14,7 @@ namespace Bible.Data
         {
             var reference = new BibleReference
             {
-                Translation = version.Trim(),
+                Version = version.Trim(),
                 BookName = jsonBook.Name
             };
             var chapters = GetBibleChapters(jsonBook.Content, reference);

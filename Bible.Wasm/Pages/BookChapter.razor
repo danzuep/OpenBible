@@ -101,6 +101,7 @@ else
     private void ChapterChanged(int chapterNumber)
     {
         ChapterNumber = chapterNumber;
+        _verseNotes.Clear();
         var bibleChapter = _bibleBook?.Chapters.FirstOrDefault(c => c.Id == ChapterNumber);
         if (bibleChapter == null)
             return;

@@ -10,7 +10,7 @@ namespace Bible.Reader.Adapters
     {
         public static BibleModel ToBibleFormat(this XmlZefania05 xmlBible, string language = null, string translation = null)
         {
-            var bibleReference = new BibleReference { Translation = translation };
+            var bibleReference = new BibleReference { Version = translation };
             bool isDate = DateTime.TryParse(xmlBible.Information?.Date, out DateTime date);
             var bible = new BibleModel
             {

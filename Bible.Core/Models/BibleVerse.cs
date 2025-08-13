@@ -6,7 +6,7 @@ namespace Bible.Core.Models
     {
         public BibleReference Reference { get; set; } = default!;
 
-        public string VerseReference => $"{Reference}:{Id}";
+        public string VerseReference => Reference.ToString();
 
         public int Id { get; set; }
 

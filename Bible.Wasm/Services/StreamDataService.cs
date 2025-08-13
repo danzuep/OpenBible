@@ -65,8 +65,9 @@ namespace Bible.Wasm.Services
             }
             if (_bibleBook == null)
             {
-                var book = await ParseScriptureBookAsync(isoLanguage, bibleVersion, bookName).ConfigureAwait(false);
-                _bibleBook = GetBibleBook(book);
+                _bibleBook = await ParseBibleBookAsync(isoLanguage, bibleVersion, bookName).ConfigureAwait(false);
+                //var book = await ParseScriptureBookAsync(isoLanguage, bibleVersion, bookName).ConfigureAwait(false);
+                //_bibleBook = GetBibleBook(book);
             }
             return _bibleBook;
         }
@@ -86,7 +87,7 @@ namespace Bible.Wasm.Services
             }
             var reference = new BibleReference
             {
-                Translation = book.Metadata.Version,
+                Version = book.Metadata.Version,
                 BookCode = book.Metadata.Id,
                 BookName = book.Metadata.Name
             };
@@ -130,6 +131,20 @@ namespace Bible.Wasm.Services
             return chapters?.ToArray() ?? [];
         }
 
+        static async Task<BibleBook?> ParseBibleBookAsync(string language, string version, string book)
+        {
+            var metadata = new ScriptureBookMetadata
+            {
+                IsoLanguage = language,
+                Version = version,
+                Id = book
+            };
+            //var unihan = await GetUnihanAsync(language).ConfigureAwait(false);
+            await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
+            var bibleBook = await UsxToBibleBookVisitor.DeserializeAsync(stream, metadata, null);
+            return bibleBook;
+        }
+
         static async Task<ScriptureBook?> ParseScriptureBookAsync(string language, string version, string book)
         {
             // language = "zho-Hant"; version = "OCCB"; book = "3JN";
@@ -143,16 +158,26 @@ namespace Bible.Wasm.Services
             return scriptureBook;
         }
 
-        static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string isoLanguage, string fileName = "Unihan_Readings.json")
+        static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string isoLanguage)
+        {
+            var unihan = await GetUnihanAsync(isoLanguage);
+            var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
+            return (unihan, options);
+        }
+
+        static async Task<UnihanLookup?> GetUnihanAsync(string isoLanguage, string fileName = "Unihan_Readings.json")
         {
             UnihanLookup? unihan = null;
-            UsxVisitorOptions? options = null;
             if (UnihanLookup.NameUnihanLookup.TryGetValue(isoLanguage, out var unihanFields))
             {
                 unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName);
-                options = new UsxVisitorOptions { EnableRunes = unihanFields?.FirstOrDefault() };
+                if (unihan != null)
+                {
+                    unihan.IsoLanguage = isoLanguage;
+                    unihan.Field = unihanFields.FirstOrDefault();
+                }
             }
-            return (unihan, options);
+            return unihan;
         }
     }
 }

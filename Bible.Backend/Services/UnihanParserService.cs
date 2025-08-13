@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
-using System.IO;
 using System.Text.Json;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Models;

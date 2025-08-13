@@ -10,7 +10,7 @@ namespace Bible.Reader.Adapters
         {
             var bibleReference = new BibleReference
             {
-                Translation = translation ?? xmlBible.Version.ToString(),
+                Version = translation ?? xmlBible.Version.ToString(),
             };
             var bible = new BibleModel
             {

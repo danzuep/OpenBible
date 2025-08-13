@@ -8,15 +8,27 @@ namespace Bible.Core.Models
 
         public BibleReference(BibleReference bibleReference)
         {
-            Translation = bibleReference.Translation;
+            Language = bibleReference.Language;
+            Version = bibleReference.Version;
+            VersionName = bibleReference.VersionName;
             BookName = bibleReference.BookName;
             Reference = bibleReference.Reference;
         }
 
         /// <summary>
-        /// Version of the bible used.
+        /// ISO language of the bible used.
         /// </summary>
-        public string Translation { get; set; } = default!;
+        public string Language { get; set; }
+
+        /// <summary>
+        /// Translation version of the bible used.
+        /// </summary>
+        public string Version { get; set; } = default!;
+
+        /// <summary>
+        /// Translation version name of the bible used.
+        /// </summary>
+        public string VersionName { get; set; } = default!;
 
         /// <summary>
         /// Unabreviated name of the book.
@@ -47,39 +59,39 @@ namespace Bible.Core.Models
         public int CompareTo(BibleReference other)
         {
             if (other == null) return 1;
-            return (other.Translation, other.BookName, other.Reference).CompareTo((Translation, BookName, Reference));
+            return (other.Version, other.BookName, other.Reference).CompareTo((Version, BookName, Reference));
         }
 
         public override bool Equals(object other) =>
             other is BibleReference p && p.Equals(this);
 
         public bool Equals(BibleReference other) => other is BibleReference p &&
-            (p.Translation, p.BookName, p.Reference).Equals((Translation, BookName, Reference));
+            (p.Version, p.BookName, p.Reference).Equals((Version, BookName, Reference));
 
         public override int GetHashCode() =>
-            (Translation, BookName, Reference).GetHashCode();
+            (Version, BookName, Reference).GetHashCode();
 
         public string ToReference()
         {
             if (string.IsNullOrEmpty(Reference))
-                return $"{BookName} - {Translation}";
-            return $"{BookName} {Reference} - {Translation}";
+                return $"{BookName} - {Version}";
+            return $"{BookName} {Reference} - {Version}";
         }
 
         public string ToSearch()
         {
             if (!string.IsNullOrEmpty(Reference))
-                return $"{BookCode}.{Reference}?v={Translation}";
+                return $"{BookCode}.{Reference}?v={Version}";
             if (!string.IsNullOrEmpty(Verse))
-                return $"{BookCode}.{Chapter}.{Verse}?v={Translation}";
+                return $"{BookCode}.{Chapter}.{Verse}?v={Version}";
             else if (Chapter > 0)
-                return $"{BookCode}.{Chapter}?v={Translation}";
+                return $"{BookCode}.{Chapter}?v={Version}";
             else if (!string.IsNullOrEmpty(BookCode))
-                return $"{BookCode}?v={Translation}";
+                return $"{BookCode}?v={Version}";
             else if (!string.IsNullOrEmpty(BookName))
-                return $"{BookName}?v={Translation}";
+                return $"{BookName}?v={Version}";
             else
-                return Translation ?? "_";
+                return Version ?? "_";
         }
 
         public string ToPath()
@@ -95,8 +107,8 @@ namespace Bible.Core.Models
         public override string ToString()
         {
             if (string.IsNullOrEmpty(Reference))
-                return $"{Translation} {BookName}";
-            return $"{Translation} {BookName} {Reference}";
+                return $"{Version} {BookName}";
+            return $"{Version} {BookName} {Reference}";
         }
     }
 }

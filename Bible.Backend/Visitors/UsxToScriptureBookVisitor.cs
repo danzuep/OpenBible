@@ -27,11 +27,6 @@ namespace Bible.Backend.Visitors
         {
             _options = options?.Value ?? new UsxVisitorOptions();
             _builder = builder ?? new ScriptureSegmentBuilder();
-            if (!string.IsNullOrEmpty(_builder.BookMetadata.IsoLanguage) &&
-                UnihanLookup.ISO6393UnihanLookup.TryGetValue(_builder.BookMetadata.IsoLanguage, out var unihanField))
-            {
-                _options.EnableRunes = unihanField;
-            }
         }
 
         public UnihanLookup? Unihan { get; set; }
@@ -109,11 +104,11 @@ namespace Bible.Backend.Visitors
 
         public void Visit(string text)
         {
-            if (_options.EnableRunes.HasValue)
+            if (Unihan?.Field != null)
             {
                 foreach (var rune in text.EnumerateRunes())
                 {
-                    AddUnihan(rune.Value, _options.EnableRunes.Value);
+                    AddUnihan(rune.Value, Unihan.Field.Value);
                     _builder.AddScriptureSegment(rune.ToString());
                 }
             }
