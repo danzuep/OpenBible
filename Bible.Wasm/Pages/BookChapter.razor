@@ -1,5 +1,6 @@
 ﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=JHN}/{ChapterNumber:int}"
 @using System.Diagnostics.CodeAnalysis
+@using Bible.Backend.Adapters
 @using Bible.Backend.Services
 @using Bible.Core.Models
 @using Bible.Data;
@@ -30,6 +31,13 @@ else
         @_bibleVerses
     </p>
 
+    <br />
+@* 
+    <label for="pronunciationToggle" class="mb-3 d-inline-flex align-items-center" style="cursor:pointer;">
+        <input id="pronunciationToggle" type="checkbox" @bind="_showPronunciation" class="me-2" />
+        Show Pronunciation (ruby text)
+    </label>
+ *@
     <br />
 
     @foreach (var note in _verseNotes)
@@ -64,56 +72,62 @@ else
     internal static readonly string KjvVersion = "KJV";
 
     string page => $"{BookCode}/{ChapterNumber}";
+    bool _showPronunciation = true;
     string? _reference;
     BibleBook? _bibleBook;
     int _chapterCount => _bibleBook?.ChapterCount ?? 0;
     MarkupString? _bibleVerses;
     List<BibleFootnote> _verseNotes = new();
 
-    protected override void OnParametersSet()
+    [Inject]
+    private BasicDataService BasicDataService { get; set; } = default!;
+
+    [Inject]
+    private BibleBookService BibleBookService { get; set; } = default!;
+
+    [Inject]
+    private IServiceProvider ServiceProvider { get; set; } = default!;
+
+    protected override async Task OnParametersSetAsync()
     {
-        base.OnParametersSet();
-        Task.Run(async () =>
+        if (Language == EngLanguage && BibleVersion == KjvVersion)
         {
-            if (Language == EngLanguage && BibleVersion == KjvVersion)
-            {
-                var dataService = new BasicDataService();
-                _bibleBook = await dataService.LoadBookAsync(KjvVersion, BookCode);
-            }
-            else
-            {
-                XDocDeserializer.Assembly = DataAssembly.GetAssembly();
-                try
-                {
-                    var streamDataService = StreamDataService.Create(Language, BibleVersion, BookCode);
-                    _bibleBook = await streamDataService.LoadBookAsync(Language, BibleVersion, BookCode);
-                }
-                catch (Exception)
-                {
-                    var dataService = new BasicDataService();
-                    _bibleBook = await dataService.LoadBookAsync(KjvVersion, BookCode);
-                }
-            }
-            ChapterChanged(ChapterNumber);
-        });
+            _bibleBook = await BasicDataService.LoadBookAsync(KjvVersion, BookCode);
+        }
+        else
+        {
+            _bibleBook = await BibleBookService.GetBibleBookAsync(Language, BibleVersion, BookCode);
+        }
+
+        await LoadChapterAsync(ChapterNumber);
     }
 
-    private void ChapterChanged(int chapterNumber)
+    private async Task LoadChapterAsync(int chapterNumber)
     {
         ChapterNumber = chapterNumber;
         _verseNotes.Clear();
+
         var bibleChapter = _bibleBook?.Chapters.FirstOrDefault(c => c.Id == ChapterNumber);
         if (bibleChapter == null)
             return;
+
         _reference = bibleChapter.Reference.ToReference();
+
         var chapter = new StringBuilder();
         foreach (var bibleVerse in bibleChapter.Verses)
         {
             (var verseMarkup, var footnotes) = bibleVerse.SplitVerseFootnotes();
-            chapter.Append(verseMarkup).Append(" ");
+            var verse = BibleBookExtensions.ToRubyRunes(verseMarkup, BibleBookService.Unihan);
+            chapter.Append(verse).Append(" ");
             _verseNotes.AddRange(footnotes);
         }
         _bibleVerses = (MarkupString)chapter.ToString();
-        StateHasChanged();
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void ChapterChanged(int chapterNumber)
+    {
+        _ = LoadChapterAsync(chapterNumber);
     }
 }

@@ -32,9 +32,6 @@ namespace Bible.Wasm
             // Services
             services.AddMudServices();
             services.AddScoped<IBibleBookNavService, BibleBookNavService>();
-            services.AddSingleton<IBibleDataService, DataService>();
-            //services.AddSingleton<IBibleDataService, StreamDataService>();
-            //services.AddScoped<IBibleDataService, BasicDataService>();
             services.AddScoped<IDeserializer, XDocDeserializer>();
             services.AddScoped<IBulkParser, UsxVersionParser>();
             services.AddScoped<IParser<BibleBook>, UsxToBibleBookParser>();
@@ -44,6 +41,10 @@ namespace Bible.Wasm
             services.AddScoped<JsScrollService>();
             services.AddScoped<IDimensionService, JsDimensionService>();
             services.AddScoped<IDownloadService, JsDownloadService>();
+            services.AddSingleton<StreamDataService>();
+            services.AddSingleton<IBibleDataService, DataService>();
+            services.AddScoped<BasicDataService>();
+            services.AddSingleton<BibleBookService>();
 
             _provider = services.BuildServiceProvider();
         }

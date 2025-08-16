@@ -1,11 +1,18 @@
 ﻿using System.Reflection;
 using System.Text.Json;
+using Bible.Core.Models;
 
 namespace Bible.Data
 {
     public static class ResourceHelper
     {
         private const string Namespace = "Bible.Data";
+
+        public static Stream GetUsxBookStream(BibleBookMetadata metadata)
+        {
+            var stream = GetUsxBookStream(metadata.IsoLanguage, metadata.BibleVersion, metadata.BookCode);
+            return stream;
+        }
 
         public static Stream GetUsxBookStream(string path)
         {

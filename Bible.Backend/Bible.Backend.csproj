@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
+    <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
   </ItemGroup>
 
 </Project>

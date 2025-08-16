@@ -46,19 +46,13 @@ public class Program
 
     static async Task<BibleBook?> ParseBibleBookAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
     {
-        var metadata = new ScriptureBookMetadata
-        {
-            IsoLanguage = language,
-            Version = version,
-            Id = book
-        };
-        await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
-        var bibleBook = await UsxToBibleBookVisitor.DeserializeAsync(stream, metadata);
+        var bibleBookService = new BibleBookService(logger);
+        var bibleBook = await bibleBookService.GetBibleBookAsync(language, version, book);
         if (bibleBook != null)
         {
-            var unihan = await GetUnihanAsync(language);
+            var unihan = await BibleBookService.GetUnihanAsync(language);
             //logger.LogInformation(bibleBook.GetMarkdown());
-            logger.LogInformation(bibleBook.GetHtml(unihan));
+            logger.LogInformation(bibleBook.GetHtml());
         }
         return bibleBook;
     }
@@ -79,24 +73,9 @@ public class Program
     private static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
     {
         var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
-        var unihan = await GetUnihanAsync(isoLanguage);
+        var unihan = await BibleBookService.GetUnihanAsync(isoLanguage);
         var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
         return (unihan, options);
-    }
-
-    private static async Task<UnihanLookup?> GetUnihanAsync(string isoLanguage, string fileName = "Unihan_Readings.json")
-    {
-        UnihanLookup? unihan = null;
-        if (UnihanLookup.NameUnihanLookup.TryGetValue(isoLanguage, out var unihanFields))
-        {
-            unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName);
-            if (unihan != null)
-            {
-                unihan.IsoLanguage = isoLanguage;
-                unihan.Field = unihanFields.FirstOrDefault();
-            }
-        }
-        return unihan;
     }
 
     private static async Task ScriptureBookVisitorAsync(XmlConverter converter, string version = "eng-WEBBE")

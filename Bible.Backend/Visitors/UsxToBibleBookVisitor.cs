@@ -9,21 +9,20 @@ namespace Bible.Backend.Visitors
 {
     public sealed class UsxToBibleBookVisitor : IUsxVisitor
     {
-        public static async Task<BibleBook?> DeserializeAsync(Stream stream, ScriptureBookMetadata? metadata, UnihanLookup? unihan = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
+        public static async Task<BibleBook?> DeserializeAsync(Stream stream, BibleBookMetadata? metadata, UnihanLookup? unihan = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
         {
             var deserializer = new XDocDeserializer();
             var usxBook = await deserializer.DeserializeAsync<UsxBook>(stream, cancellationToken);
             return GetBook(usxBook, metadata, unihan, options);
         }
 
-        public static BibleBook GetBook(UsxBook? usxBibleBook, ScriptureBookMetadata? metadata, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
+        public static BibleBook GetBook(UsxBook? usxBibleBook, BibleBookMetadata? metadata, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
         {
             var builder = new BibleBookBuilder();
             if (metadata != null)
             {
-                builder.SetBookCode(metadata.Id)
-                       .SetBookName(metadata.Name)
-                       .SetVersionName(metadata.Version)
+                builder.SetBookCode(metadata.BookCode)
+                       .SetVersionName(metadata.BibleVersion)
                        .SetLanguage(metadata.IsoLanguage);
             }
             builder.Unihan = unihan;

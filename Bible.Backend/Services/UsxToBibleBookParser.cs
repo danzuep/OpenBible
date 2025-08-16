@@ -2,16 +2,20 @@
 using Bible.Backend.Adapters;
 using Bible.Backend.Models;
 using Bible.Core.Models;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Bible.Backend.Services
 {
     public class UsxToBibleBookParser : ParsingStrategy, IParser<BibleBook>
     {
         private readonly IDeserializer _deserializer;
+        private readonly ILogger _logger;
 
-        public UsxToBibleBookParser(IDeserializer deserializer)
+        public UsxToBibleBookParser(IDeserializer deserializer, ILogger? logger = null)
         {
             _deserializer = deserializer;
+            _logger = logger ?? NullLogger.Instance;
         }
 
         private static readonly string _fileType = "usx";

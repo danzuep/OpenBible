@@ -38,21 +38,42 @@ namespace Bible.Backend.Adapters
             // Iterate chapters
             foreach (var chapter in bibleBook.Chapters)
             {
-                sb.AppendLine($"<h3>{chapter.Reference.Chapter}</h3>");
-                // Iterate verses
-                foreach (var verse in chapter.Verses)
-                {
-                    sb.AppendFormat("<sup>{0}</sup>", verse.Reference.Verse);
-                    var html = ToRubyRunes(WebUtility.HtmlEncode(verse.Text), unihan);
-                    sb.AppendLine(html.Replace("\n", "<br />"));
-                }
+                sb.Append(chapter.GetHtml(unihan));
             }
             sb.AppendLine();
 
             return sb.ToString();
         }
 
-        private static string ToRubyRunes(string text, UnihanLookup? unihan)
+        public static string GetHtml(this BibleChapter? chapter, UnihanLookup? unihan = null)
+        {
+            if (chapter == null) return string.Empty;
+
+            var sb = new StringBuilder();
+
+            sb.AppendLine($"<h3>{chapter.Reference.Chapter}</h3>");
+            // Iterate verses
+            foreach (var verse in chapter.Verses)
+            {
+                sb.Append(verse.GetHtml(unihan));
+            }
+
+            return sb.ToString();
+        }
+
+        public static string GetHtml(this BibleVerse? verse, UnihanLookup? unihan = null)
+        {
+            if (verse == null) return string.Empty;
+            var sb = new StringBuilder();
+
+            sb.AppendFormat("<sup>{0}</sup>", verse.Reference.Verse);
+            var html = ToRubyRunes(WebUtility.HtmlEncode(verse.Text), unihan);
+            sb.AppendLine(html.Replace("\n", "<br />"));
+
+            return sb.ToString();
+        }
+
+        public static string ToRubyRunes(string text, UnihanLookup? unihan)
         {
             var sb = new StringBuilder();
 
@@ -61,8 +82,8 @@ namespace Bible.Backend.Adapters
                 sb.Append("<ruby>");
                 foreach (var rune in text.EnumerateRunes())
                 {
-                    AddUnihan(rune.Value, unihan.Field.Value);
                     sb.Append(rune.ToString());
+                    AddUnihan(rune.Value, unihan.Field.Value);
                 }
                 sb.Append("</ruby>");
             }

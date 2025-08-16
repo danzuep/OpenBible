@@ -5,7 +5,7 @@ using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
 
-namespace Bible.Wasm.Services
+namespace Bible.Backend.Services
 {
     public class StreamDataService
     {
@@ -133,11 +133,11 @@ namespace Bible.Wasm.Services
 
         static async Task<BibleBook?> ParseBibleBookAsync(string language, string version, string book)
         {
-            var metadata = new ScriptureBookMetadata
+            var metadata = new BibleBookMetadata
             {
                 IsoLanguage = language,
-                Version = version,
-                Id = book
+                BibleVersion = version,
+                BookCode = book
             };
             //var unihan = await GetUnihanAsync(language).ConfigureAwait(false);
             await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
