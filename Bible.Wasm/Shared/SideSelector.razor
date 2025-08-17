@@ -26,5 +26,5 @@
     [CascadingParameter(Name = "SelectedVersion")]
     public string Version { get; set; } = "WEBBE";
 
-    private bool _isKjvSelected => IsoLanguage == BookChapter.EngLanguage && Version == BookChapter.KjvVersion;
+    private bool _isKjvSelected => IsoLanguage == BookChapterBasic.EngLanguage && Version == BookChapterBasic.KjvVersion;
 }

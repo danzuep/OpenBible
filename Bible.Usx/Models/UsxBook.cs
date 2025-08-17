@@ -1,12 +1,13 @@
-﻿namespace Bible.Backend.Models;
-
-using System.Xml;
+﻿using System.Xml;
 using System.Xml.Serialization;
-using Microsoft.Extensions.Options;
+
+namespace Bible.Usx.Models;
+
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
 
 /// <see href="https://ubsicap.github.io/"/>
 [XmlRoot("usx")]
-public sealed class UsxBook : IUsxBase
+public sealed class UsxBook : IUsxNode
 {
     [XmlAttribute("version")]
     public string UsxVersion { get; set; }
@@ -91,11 +92,11 @@ public sealed class UsxMilestone : UsxSidEidBase
 {
 }
 
-public sealed class UsxLineBreak : IUsxBase
+public sealed class UsxLineBreak : IUsxNode
 {
 }
 
-public sealed class UsxCrossReference : IUsxBase
+public sealed class UsxCrossReference : IUsxNode
 {
     [XmlAttribute("loc")]
     public string Location { get; set; }
@@ -107,14 +108,14 @@ public sealed class UsxCrossReference : IUsxBase
     public override string ToString() => Location;
 }
 
-public interface IUsxBase { }
+public interface IUsxNode { }
 
-public interface IUsxText : IUsxBase
+public interface IUsxText : IUsxNode
 {
     string Text { get; }
 }
 
-public abstract class UsxStyleBase : IUsxBase
+public abstract class UsxStyleBase : IUsxNode
 {
     [XmlAttribute("style")]
     public string? Style { get; set; }
@@ -164,43 +165,4 @@ public abstract class UsxContent : UsxStyleBase
     public string? Text => _text?.Value;
 }
 
-
-[XmlRoot("usx")]
-public sealed class UsxParaBaseTest : IUsxBase
-{
-    [XmlElement("para", typeof(UsxPara))]
-    public UsxPara Para { get; set; }
-}
-
-public sealed class UsxVisitorOptions : IOptions<UsxVisitorOptions>
-{
-    public bool EnableStrongs { get; set; }
-    public bool EnableRedLetters { get; set; }
-    public bool EnableFootnotes { get; set; }
-    public bool EnableCrossReferences { get; set; }
-    public bool EnableChapterLinks { get; set; }
-    public bool EnableRubyText { get; set; }
-    public UnihanField? EnableRunes { get; set; }
-
-    public UsxVisitorOptions Value => this;
-}
-
-internal sealed class UsxVisitorReference
-{
-    public string Title { get; set; } = "Bible";
-    public string? BookCode { get; set; }
-    public string? Chapter { get; set; }
-    public string? Verse { get; set; }
-
-    public override string ToString()
-    {
-        if (Verse != null)
-            return $"{BookCode}.{Chapter}.{Verse}";
-        else if (Chapter != null)
-            return $"{BookCode}.{Chapter}";
-        else
-            return BookCode ?? "_";
-    }
-}
-
-
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.

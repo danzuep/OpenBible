@@ -1,7 +1,4 @@
-﻿using System.Text.Json;
-using System.Xml;
-using Bible.Backend.Models;
-using Bible.Backend.Visitors;
+﻿using System.Xml;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Formatting = Newtonsoft.Json.Formatting;
@@ -18,41 +15,6 @@ namespace Bible.Backend.Services
         }
 
         public ILogger Logger => _logger;
-
-        public async Task ParseUnihanAsync()
-        {
-            (var sitePath, var assetPath) = GetPaths();
-            var inputPath = Path.Combine(sitePath, "Unihan_Readings.txt");
-            var outputPath = Path.Combine(sitePath, "Unihan_Readings.json");
-            var unihanSerializer = new UnihanSerializer();
-            await unihanSerializer.ParseAsync(inputPath, outputPath);
-        }
-
-        public async Task<UnihanLookup> LoadUnihanAsync()
-        {
-            (var sitePath, var assetPath) = GetPaths();
-            var inputPath = Path.Combine(sitePath, "Unihan_Readings.txt");
-            var outputPath = Path.Combine(sitePath, "Unihan_Readings.json");
-            if (File.Exists(outputPath))
-            {
-                try
-                {
-                    var unihanText = await File.ReadAllTextAsync(outputPath);
-                    var deserialized = JsonSerializer.Deserialize<UnihanLookup>(unihanText);
-                    if (deserialized != null)
-                    {
-                        return deserialized;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    _logger.LogDebug(ex, ex.Message);
-                }
-            }
-            var parser = new UnihanParserService();
-            var unihan = await parser.ParseAsync<UnihanLookup>(inputPath, outputPath);
-            return unihan;
-        }
 
         public void Visitor<T>(Func<T, string, string> function, string suffix = "-usx", string? sample = null)
         {
@@ -146,7 +108,7 @@ namespace Bible.Backend.Services
             return json;
         }
 
-        private static (string, string) GetPaths(string? biblePath = null)
+        internal static (string, string) GetPaths(string? biblePath = null)
         {
             biblePath ??= GetBiblePath();
             var sitePath = Path.Combine(biblePath, "_site");

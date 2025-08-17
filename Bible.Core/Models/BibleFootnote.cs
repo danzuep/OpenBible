@@ -17,4 +17,6 @@
         public override string ToString() =>
             $"<div id=\"{_prefix}{Id}\">[{Id}] {Content}</div>";
     }
+
+    public class BibleFootnoteList : List<BibleFootnote> { }
 }

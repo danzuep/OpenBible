@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Bible.Core.Models
+﻿namespace Bible.Core.Models
 {
     public sealed class BibleVerse : IEquatable<BibleVerse>
     {
@@ -10,7 +8,36 @@ namespace Bible.Core.Models
 
         public int Id { get; set; }
 
-        public string Text { get; set; } = default;
+        private Lazy<string> _text;
+        public string Text
+        {
+            get => _text?.Value ?? string.Empty;
+            set
+            {
+                if (value == null)
+                {
+                    _text = new Lazy<string>(() => string.Empty);
+                    return;
+                }
+                _text = new Lazy<string>(() => value);
+            }
+        }
+
+        private BibleWord[] _words;
+        public IReadOnlyList<BibleWord> Words
+        {
+            get => _words ?? Array.Empty<BibleWord>();
+            set
+            {
+                if (value == null || value.Count == 0)
+                {
+                    _words = Array.Empty<BibleWord>();
+                    _text = new Lazy<string>(() => string.Empty);
+                    return;
+                }
+                _text = new Lazy<string>(() => string.Concat(Words));
+            }
+        }
 
         public override bool Equals(object other) =>
             other is BibleVerse p && p.Equals(this);

@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using System.Text;
-using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
+using Bible.Usx.Models;
 
 namespace Bible.Backend.Tests
 {
@@ -43,6 +43,7 @@ namespace Bible.Backend.Tests
             {
                 var stringBuilder = new StringBuilder();
                 var isInitialized = false;
+                if (paragraph?.Content == null) continue;
                 foreach (var item in paragraph.Content)
                 {
                     if (item is UsxMarker verseMarker &&
@@ -84,6 +85,7 @@ namespace Bible.Backend.Tests
             var paragraphs = book.Content.OfType<UsxContent>().Where(b => b.Style == "p");
             foreach (var paragraph in paragraphs)
             {
+                if (paragraph?.Content == null) continue;
                 foreach (var item in paragraph.Content)
                 {
                     if (item is UsxMarker verseMarker &&

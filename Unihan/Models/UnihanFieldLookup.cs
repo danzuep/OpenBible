@@ -1,4 +1,4 @@
-﻿namespace Bible.Backend.Models
+﻿namespace Unihan.Models
 {
     public class UnihanFieldLookup : Dictionary<UnihanField, IList<string>>
     {

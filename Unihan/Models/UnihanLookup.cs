@@ -1,9 +1,8 @@
 ﻿using System.Data;
 using System.Text;
-using Bible.Backend.Abstractions;
-using Bible.Backend.Services;
+using Unihan.Services;
 
-namespace Bible.Backend.Models
+namespace Unihan.Models
 {
     /// <inheritdoc cref="IUnihanReadings"/>
     public class UnihanLookup : Dictionary<int, UnihanFieldLookup>, IUnihanReadings
@@ -46,7 +45,7 @@ namespace Bible.Backend.Models
 
         public bool TryGetEntryText(int codepoint, IList<UnihanField>? fields, out string entryText)
         {
-            if (!this.ContainsKey(codepoint))
+            if (!ContainsKey(codepoint))
             {
                 entryText = string.Empty;
                 return false;
@@ -82,16 +81,32 @@ namespace Bible.Backend.Models
             return true;
         }
 
+        public static readonly Dictionary<string, UnihanField> ISO6393UnihanLookup = new Dictionary<string, UnihanField>
+        {
+            { "cmn", UnihanField.kMandarin },
+            { "zho", UnihanField.kMandarin },
+            { "zho-Hans", UnihanField.kMandarin },
+            { "zho-Hant", UnihanField.kCantonese },
+            { "yue", UnihanField.kCantonese },
+            { "nan", UnihanField.kBopomofo },
+            { "jpn", UnihanField.kJapanese },
+            { "kor", UnihanField.kHangul },
+            { "ltc", UnihanField.kTang },
+            { "vie", UnihanField.kVietnamese },
+            { "zha", UnihanField.kZhuang },
+        };
+
         public static readonly Dictionary<string, string> ISO_639_3_Unihan_Languages = new Dictionary<string, string>
         {
             { "cmn", "Mandarin Chinese" },
+            { "yue", "Cantonese Chinese" },
+            { "nan", "Taiwanese Hokkien" },
+            { "zho", "Han language group" },
+            { "zha", "Zhuang Chinese" },
+            { "ltc", "Middle Chinese" },
             { "jpn", "Japanese" },
             { "kor", "Korean" },
-            { "ltc", "Middle Chinese" },
             { "vie", "Vietnamese" },
-            { "yue", "Cantonese Chinese" },
-            { "zha", "Zhuang Chinese" },
-            { "zho", "Chinese (generic)" },
         };
 
         public static readonly Dictionary<string, string> ISO_15924_Unihan_Scripts = new Dictionary<string, string>
@@ -104,31 +119,13 @@ namespace Bible.Backend.Models
             { "Latn", "Latin alphabet" },               // Used for romanization of Chinese, Vietnamese, and other languages
         };
 
-        public static Dictionary<string, List<UnihanField>> NameUnihanLookup = new Dictionary<string, List<UnihanField>>
+        public static Dictionary<string, List<UnihanField>> ScriptUnihanLookup = new Dictionary<string, List<UnihanField>>
         {
-            { "jpn", new List<UnihanField> { UnihanField.kJapanese, UnihanField.kJapaneseKun, UnihanField.kJapaneseOn } },
-            { "kor", new List<UnihanField> { UnihanField.kHangul, UnihanField.kKorean } },
-            { "vie", new List<UnihanField> { UnihanField.kVietnamese } },
-            { "zho-Hans", new List<UnihanField> { UnihanField.kMandarin, UnihanField.kFanqie, UnihanField.kHanyuPinlu, UnihanField.kXHC1983, UnihanField.kZhuang } },
-            { "zho-Hant", new List<UnihanField> { UnihanField.kCantonese, UnihanField.kSMSZD2003Readings, UnihanField.kTang, UnihanField.kTGHZ2013 } },
-        };
-
-        public static readonly Dictionary<string, string> NameISO6393Lookup = new Dictionary<string, string>
-        {
-            { "cmn", "zho-Hans" },
-            { "yue", "zho-Hant" }
-        };
-
-        public static readonly Dictionary<string, UnihanField> ISO6393UnihanLookup = new Dictionary<string, UnihanField>
-        {
-            { "cmn", UnihanField.kMandarin },
-            { "jpn", UnihanField.kJapanese },
-            { "kor", UnihanField.kHangul },
-            { "ltc", UnihanField.kTang },
-            { "vie", UnihanField.kVietnamese },
-            { "yue", UnihanField.kCantonese },
-            { "zha", UnihanField.kZhuang },
-            { "zho", UnihanField.kMandarin },
+            { "Hans", new List<UnihanField> { UnihanField.kMandarin, UnihanField.kFanqie, UnihanField.kHanyuPinlu, UnihanField.kXHC1983, UnihanField.kZhuang } },
+            { "Hant", new List<UnihanField> { UnihanField.kCantonese, UnihanField.kSMSZD2003Readings, UnihanField.kTang, UnihanField.kTGHZ2013 } },
+            { "Hang", new List<UnihanField> { UnihanField.kHangul, UnihanField.kKorean } },
+            { "Kana", new List<UnihanField> { UnihanField.kJapanese, UnihanField.kJapaneseKun, UnihanField.kJapaneseOn } },
+            { "Latn", new List<UnihanField> { UnihanField.kVietnamese } },
         };
 
         /// <see href="https://www.unicode.org/reports/tr38/"/>

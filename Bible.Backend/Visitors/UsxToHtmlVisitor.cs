@@ -4,7 +4,9 @@ using System.Net;
 using System.Text;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
+using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
+using Unihan.Models;
 
 public sealed class UsxToHtmlVisitor : IUsxVisitor
 {
@@ -123,7 +125,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
             this.Accept(usxChar.Content);
             _sb.Append("</span>");
         }
-        else if (!_options.EnableStrongs && usxChar.Style.Equals("w", StringComparison.OrdinalIgnoreCase))
+        else if (!_options.EnableStrongs && !string.IsNullOrEmpty(usxChar.Style) &&
+            usxChar.Style.Equals("w", StringComparison.OrdinalIgnoreCase))
         {
             this.Accept(usxChar.Content);
         }
@@ -190,7 +193,7 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
             _sb.AppendLine("</a>");
         }
     }
-    
+
     public void Visit(UsxFootnote note)
     {
         if (_options.EnableFootnotes)

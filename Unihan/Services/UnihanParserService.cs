@@ -1,10 +1,9 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text.Json;
-using Bible.Backend.Abstractions;
-using Bible.Backend.Models;
+using Unihan.Models;
 
-namespace Bible.Backend.Services
+namespace Unihan.Services
 {
     public sealed class UnihanParserService
     {
@@ -151,7 +150,7 @@ namespace Bible.Backend.Services
         /// Extract codepoint from key string hex code like "U+XXXX" or "U+XXXXX"
         /// <seealso cref="System.Text.Rune"/> `var unicode = char.ConvertFromUtf32(codepoint);`
         /// </summary>
-        internal static int ConvertToCodepoint(string codepointStr)
+        public static int ConvertToCodepoint(string codepointStr)
         {
             if (!codepointStr.AsSpan(0, 2).Equals("U+", StringComparison.OrdinalIgnoreCase))
                 throw new ArgumentException("Invalid format", nameof(codepointStr));

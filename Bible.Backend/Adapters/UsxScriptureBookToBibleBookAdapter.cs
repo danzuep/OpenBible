@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Text;
-using Bible.Backend.Models;
 using Bible.Core.Models;
+using Bible.Usx.Models;
 
 namespace Bible.Backend.Adapters
 {

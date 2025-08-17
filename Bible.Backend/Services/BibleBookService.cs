@@ -1,10 +1,10 @@
 ﻿using Bible.Backend.Adapters;
-using Bible.Backend.Models;
 using Bible.Backend.Visitors;
 using Bible.Core.Models;
 using Bible.Data;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
+using Unihan.Models;
 
 namespace Bible.Backend.Services
 {
@@ -65,25 +65,10 @@ namespace Bible.Backend.Services
                 _bibleBooks.TryAdd(bibleBookMetadata, bibleBook);
                 if (_unihan == null)
                 {
-                    _unihan = await GetUnihanAsync(bibleBookMetadata.IsoLanguage);
+                    _unihan = await UnihanHelper.GetUnihanAsync(bibleBookMetadata.IsoLanguage);
                 }
             }
             return bibleBook;
-        }
-
-        public static async Task<UnihanLookup?> GetUnihanAsync(string isoLanguage, string fileName = "Unihan_Readings.json")
-        {
-            UnihanLookup? unihan = null;
-            if (UnihanLookup.NameUnihanLookup.TryGetValue(isoLanguage, out var unihanFields))
-            {
-                unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName);
-                if (unihan != null)
-                {
-                    unihan.IsoLanguage = isoLanguage;
-                    unihan.Field = unihanFields.FirstOrDefault();
-                }
-            }
-            return unihan;
         }
     }
 }

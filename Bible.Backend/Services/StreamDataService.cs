@@ -148,7 +148,8 @@ namespace Bible.Backend.Services
         static async Task<ScriptureBook?> ParseScriptureBookAsync(string language, string version, string book)
         {
             // language = "zho-Hant"; version = "OCCB"; book = "3JN";
-            (var unihan, var options) = await TryGetUnihanOptionsAsync(language);
+            var unihan = await UnihanHelper.GetUnihanAsync(language);
+            var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
             await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
             var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
             if (scriptureBook != null)
@@ -156,28 +157,6 @@ namespace Bible.Backend.Services
                 scriptureBook.Metadata.IsoLanguage = language;
             }
             return scriptureBook;
-        }
-
-        static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string isoLanguage)
-        {
-            var unihan = await GetUnihanAsync(isoLanguage);
-            var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
-            return (unihan, options);
-        }
-
-        static async Task<UnihanLookup?> GetUnihanAsync(string isoLanguage, string fileName = "Unihan_Readings.json")
-        {
-            UnihanLookup? unihan = null;
-            if (UnihanLookup.NameUnihanLookup.TryGetValue(isoLanguage, out var unihanFields))
-            {
-                unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName);
-                if (unihan != null)
-                {
-                    unihan.IsoLanguage = isoLanguage;
-                    unihan.Field = unihanFields.FirstOrDefault();
-                }
-            }
-            return unihan;
         }
     }
 }

@@ -12,8 +12,11 @@ using Bible.Backend.Visitors;
 using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
+using Bible.Usx.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Unihan.Models;
+using Unihan.Services;
 
 public class Program
 {
@@ -29,7 +32,8 @@ public class Program
         //LoadBible(loggerFactory);
         //await LoadBibleBookAsync(loggerFactory);
         //await ParseScriptureBookAsync(logger);
-        await ParseBibleBookAsync(logger);
+        //await ParseBibleBookAsync(logger);
+        await ParseToJsonAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -44,13 +48,26 @@ public class Program
         //Console.ReadKey();
     }
 
+    static async Task<string?> ParseToJsonAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
+    {
+        var bibleBookService = new BibleBookService(logger);
+        await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
+        var json = await UsxToUsjDemo.ConvertAsync(stream);
+        if (json != null)
+        {
+            var unihan = await UnihanHelper.GetUnihanAsync(language);
+            logger.LogInformation(json);
+        }
+        return json;
+    }
+
     static async Task<BibleBook?> ParseBibleBookAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
     {
         var bibleBookService = new BibleBookService(logger);
         var bibleBook = await bibleBookService.GetBibleBookAsync(language, version, book);
         if (bibleBook != null)
         {
-            var unihan = await BibleBookService.GetUnihanAsync(language);
+            var unihan = await UnihanHelper.GetUnihanAsync(language);
             //logger.LogInformation(bibleBook.GetMarkdown());
             logger.LogInformation(bibleBook.GetHtml());
         }
@@ -73,7 +90,7 @@ public class Program
     private static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
     {
         var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
-        var unihan = await BibleBookService.GetUnihanAsync(isoLanguage);
+        var unihan = await UnihanHelper.GetUnihanAsync(isoLanguage);
         var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
         return (unihan, options);
     }
@@ -133,10 +150,7 @@ public class Program
             {
                 var fileName = Path.GetFileNameWithoutExtension(outputPath);
                 var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var unihanFields))
-                {
-                    unihan.Field = unihanFields.FirstOrDefault();
-                }
+                unihan.IsoLanguage = langScript;
             }
             var text = UsxToHtmlVisitor.GetFullText(book, unihan);
             var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");
@@ -156,10 +170,7 @@ public class Program
             {
                 var fileName = Path.GetFileNameWithoutExtension(outputPath);
                 var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                if (UnihanLookup.NameUnihanLookup.TryGetValue(langScript, out var unihanFields))
-                {
-                    unihan.Field = unihanFields.FirstOrDefault();
-                }
+                unihan.IsoLanguage = langScript;
             }
             var html = UsxToHtmlVisitor.GetFullText(book, unihan);
             var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");

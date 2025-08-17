@@ -1,4 +1,4 @@
-﻿using Bible.Backend.Models;
+﻿using Bible.Usx.Models;
 
 namespace Bible.Backend.Abstractions
 {

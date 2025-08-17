@@ -1,11 +1,11 @@
-﻿namespace Bible.Backend.Visitors;
-
-using System;
-using System.Net;
+﻿using System.Net;
 using System.Text;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
+using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
+
+namespace Bible.Backend.Visitors;
 
 public sealed class UsxToMarkdownVisitor : IUsxVisitor
 {

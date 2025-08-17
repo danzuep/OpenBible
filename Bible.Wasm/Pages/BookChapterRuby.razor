@@ -1,4 +1,4 @@
-﻿@page "/original/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=JHN}/{ChapterNumber:int}"
+﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=JHN}/{ChapterNumber:int}"
 @using System.Diagnostics.CodeAnalysis
 @using Bible.Backend.Adapters
 @using Bible.Backend.Services
@@ -8,14 +8,7 @@
 
 @if (_bibleBook is null)
 {
-    <h1>John 1:1-4 (NIV)</h1>
-
-    <p>
-        <sup>1</sup> In the beginning was the Word, and the Word was with God, and the Word was God.
-        <sup>2</sup> He was with God in the beginning.
-        <sup>3</sup> Through him all things were made; without him nothing was made that has been made.
-        <sup>4</sup> In him was life, and that life was the light of all mankind.
-    </p>
+    <p><em>Loading...</em></p>
 }
 else
 {
@@ -25,32 +18,9 @@ else
 
     <h2 style="color: dimgrey;">@_reference</h2>
 
-    <p>
-        @_bibleVerses
-    </p>
+    <RubyText Paragraphs="@_paragraphs" Footnotes="@_footnotes" />
 
     <br />
-@* 
-    <label for="pronunciationToggle" class="mb-3 d-inline-flex align-items-center" style="cursor:pointer;">
-        <input id="pronunciationToggle" type="checkbox" @bind="_showPronunciation" class="me-2" />
-        Show Pronunciation (ruby text)
-    </label>
- *@
-    <br />
-
-    @foreach (var note in _verseNotes)
-    {
-        <div id="footnote-@note.Id" class="footnote">[@note.Id] @note.Content</div>
-    }
-
-    @* <ListGenericItems TItem="BibleFootnote" ItemList="@verseNotes" /> *@
-    
-    <style>
-        .footnote {
-            font-size: 0.8em;
-            font-style: italic;
-        }
-    </style>
 }
 
 @code {
@@ -70,6 +40,8 @@ else
 
     string? _reference;
     BibleBook? _bibleBook;
+    BibleParagraphList? _paragraphs;
+    BibleFootnoteList? _footnotes;
     int _chapterCount => _bibleBook?.ChapterCount ?? 0;
     MarkupString? _bibleVerses;
     List<BibleFootnote> _verseNotes = new();

@@ -1,4 +1,4 @@
-﻿namespace Bible.Backend.Abstractions
+﻿namespace Unihan.Services
 {
     /// <summary>
     /// Unicode Unihan readings, see

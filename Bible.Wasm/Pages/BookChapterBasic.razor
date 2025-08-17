@@ -1,4 +1,4 @@
-﻿@page "/original/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=JHN}/{ChapterNumber:int}"
+﻿@page "/KJV/{BookCode=John}/{ChapterNumber:int}"
 @using System.Diagnostics.CodeAnalysis
 @using Bible.Backend.Adapters
 @using Bible.Backend.Services
@@ -6,16 +6,11 @@
 @using Bible.Data;
 @using System.Text
 
+@* See also: https://github.com/MeysamMoghaddam/BlazorEpubReader/blob/master/Epub.razor *@
+
 @if (_bibleBook is null)
 {
-    <h1>John 1:1-4 (NIV)</h1>
-
-    <p>
-        <sup>1</sup> In the beginning was the Word, and the Word was with God, and the Word was God.
-        <sup>2</sup> He was with God in the beginning.
-        <sup>3</sup> Through him all things were made; without him nothing was made that has been made.
-        <sup>4</sup> In him was life, and that life was the light of all mankind.
-    </p>
+    <p><em>Loading KJV chapter...</em></p>
 }
 else
 {
@@ -30,21 +25,12 @@ else
     </p>
 
     <br />
-@* 
-    <label for="pronunciationToggle" class="mb-3 d-inline-flex align-items-center" style="cursor:pointer;">
-        <input id="pronunciationToggle" type="checkbox" @bind="_showPronunciation" class="me-2" />
-        Show Pronunciation (ruby text)
-    </label>
- *@
-    <br />
 
     @foreach (var note in _verseNotes)
     {
         <div id="footnote-@note.Id" class="footnote">[@note.Id] @note.Content</div>
     }
 
-    @* <ListGenericItems TItem="BibleFootnote" ItemList="@verseNotes" /> *@
-    
     <style>
         .footnote {
             font-size: 0.8em;
@@ -55,19 +41,15 @@ else
 
 @code {
     [Parameter, EditorRequired]
-    public string? Language { get; set; }
-
-    [Parameter, EditorRequired]
-    public string? BibleVersion { get; set; }
-
-    [Parameter, EditorRequired]
     public string? BookCode { get; set; }
 
     [Parameter]
     public int ChapterNumber { get; set; } = 1;
 
-    string page => $"{BookCode}/{ChapterNumber}";
+    internal static readonly string EngLanguage = "eng";
+    internal static readonly string KjvVersion = "KJV";
 
+    string page => $"{BookCode}/{ChapterNumber}";
     string? _reference;
     BibleBook? _bibleBook;
     int _chapterCount => _bibleBook?.ChapterCount ?? 0;
@@ -75,11 +57,14 @@ else
     List<BibleFootnote> _verseNotes = new();
 
     [Inject]
-    private BibleBookService BibleBookService { get; set; } = default!;
+    private BasicDataService BasicDataService { get; set; } = default!;
+
+    [Inject]
+    private IServiceProvider ServiceProvider { get; set; } = default!;
 
     protected override async Task OnParametersSetAsync()
     {
-        _bibleBook = await BibleBookService.GetBibleBookAsync(Language, BibleVersion, BookCode);
+        _bibleBook = await BasicDataService.LoadBookAsync(KjvVersion, BookCode);
         await LoadChapterAsync(ChapterNumber);
     }
 
@@ -98,8 +83,7 @@ else
         foreach (var bibleVerse in bibleChapter.Verses)
         {
             (var verseMarkup, var footnotes) = bibleVerse.SplitVerseFootnotes();
-            var verse = BibleBookExtensions.ToRubyRunes(verseMarkup, BibleBookService.Unihan);
-            chapter.Append(verse).Append(" ");
+            chapter.Append(verseMarkup).Append(" ");
             _verseNotes.AddRange(footnotes);
         }
         _bibleVerses = (MarkupString)chapter.ToString();

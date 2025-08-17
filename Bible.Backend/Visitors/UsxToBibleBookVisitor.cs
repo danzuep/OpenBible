@@ -3,7 +3,9 @@ using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
+using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
+using Unihan.Models;
 
 namespace Bible.Backend.Visitors
 {
@@ -126,13 +128,26 @@ namespace Bible.Backend.Visitors
             {
                 _footnotes.Add(footnote);
                 _builder.AddScriptureSegment(footnote.Caller, MetadataCategory.Footnote);
-                this.Accept(footnote.Content);
+                _builder.AddScriptureSegment(_footnotes.Count.ToString(), MetadataCategory.Footnote);
+            }
+        }
+
+        private void AppendAnyFootnotes()
+        {
+            if (_footnotes.Any())
+            {
+                _builder.HandleVerseChange("0");
+                for (var i = 0; i < _footnotes.Count; i++)
+                {
+                    this.Accept(_footnotes[i].Content);
+                }
             }
         }
 
         public BibleBook GetBook(UsxBook? usxBibleBook)
         {
             this.Accept(usxBibleBook);
+            //AppendAnyFootnotes();
             return _builder.Build();
         }
     }

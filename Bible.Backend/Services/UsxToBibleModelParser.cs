@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Adapters;
-using Bible.Backend.Models;
 using Bible.Core.Abstractions;
 using Bible.Core.Models;
+using Bible.Usx.Models;
 
 namespace Bible.Backend.Services
 {

@@ -2,7 +2,9 @@
 using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Core.Models.Scripture;
+using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
+using Unihan.Models;
 
 namespace Bible.Backend.Visitors
 {

@@ -8,12 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.7" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.7" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
+    <ProjectReference Include="..\Bible.Usx\Bible.Usx.csproj" />
+    <ProjectReference Include="..\Unihan\Unihan.csproj" />
   </ItemGroup>
 
 </Project>

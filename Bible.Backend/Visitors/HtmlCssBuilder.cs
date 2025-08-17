@@ -2,6 +2,7 @@
 
 using System.Text;
 using Bible.Backend.Models;
+using Bible.Usx.Models;
 
 internal static class HtmlCssBuilder
 {

@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Text;
-using Bible.Backend.Models;
 using Bible.Core.Models;
+using Unihan.Models;
 
 namespace Bible.Backend.Adapters
 {

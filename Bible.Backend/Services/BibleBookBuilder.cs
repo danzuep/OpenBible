@@ -1,31 +1,23 @@
-﻿using System.Data;
-using System.Text;
-using Bible.Backend.Models;
+﻿using System.Text;
 using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
+using Unihan.Models;
 
 namespace Bible.Backend.Services
 {
     public class BibleBookBuilder
     {
-        private readonly List<ScriptureSegment> _segments = new();
-
-        private BibleBook _bibleBook;
-        private BibleReference _bibleReference;
-        private List<BibleChapter> _chapters;
-        private List<BibleVerse> _verses;
-        private BibleChapter _currentChapter = new();
         private BibleVerse _currentVerse = new();
-        private StringBuilder _stringBuilder;
+        private BibleChapter _currentChapter = new();
+        private readonly BibleBook _bibleBook = new();
+        private readonly BibleReference _bibleReference = new();
+        private readonly List<BibleChapter> _chapters = new();
+        private readonly List<BibleVerse> _verses = new();
+        private readonly List<ScriptureSegment> _segments = new();
 
         public BibleBookBuilder()
         {
-            _bibleBook = new BibleBook();
-            _bibleReference = new BibleReference();
             _bibleBook.Reference = _bibleReference;
-            _chapters = new List<BibleChapter>();
-            _verses = new List<BibleVerse>();
-            _stringBuilder = new StringBuilder();
         }
 
         public UnihanLookup? Unihan { get; set; }
@@ -73,6 +65,40 @@ namespace Bible.Backend.Services
             return this;
         }
 
+        private static readonly IReadOnlyList<MetadataCategory> _metadataCategoriesToShow =
+            [MetadataCategory.Text, MetadataCategory.Markup];
+
+        private void AddCurrentVerse()
+        {
+            if (_currentVerse.Id < 1) return;
+            var _stringBuilder = new StringBuilder();
+            foreach (var segment in _segments)
+            {
+                if (_metadataCategoriesToShow.Contains(segment.Category))
+                {
+                    _stringBuilder.Append(segment.Text);
+                }
+                else if (segment.Category == MetadataCategory.Footnote)
+                {
+                    _stringBuilder.AppendFormat("{0}", segment.Text);
+                }
+            }
+            _currentVerse.Text = _stringBuilder.ToString();
+            //_currentVerse.Pronunciation = string.Concat(_segments
+            //    .Where(s => s.Category == MetadataCategory.Pronunciation)
+            //    .Select(s => s.Text));
+            _verses.Add(_currentVerse);
+            _segments.Clear();
+        }
+
+        private void AddCurrentChapter()
+        {
+            if (_currentChapter.Id < 1) return;
+            _currentChapter.Verses = [.. _verses];
+            _chapters.Add(_currentChapter);
+            _verses.Clear();
+        }
+
         public BibleBookBuilder HandleChapterChange(string chapterNumber, string? startId = null)
         {
             if (string.IsNullOrEmpty(chapterNumber)) return this;
@@ -108,14 +134,6 @@ namespace Bible.Backend.Services
             };
 
             return this;
-        }
-
-        private void AddCurrentChapter()
-        {
-            if (_currentChapter.Id < 1) return;
-            _currentChapter.Verses = [.. _verses];
-            _chapters.Add(_currentChapter);
-            _verses.Clear();
         }
 
         public BibleBookBuilder HandleVerseChange(string verseNumber, string? startId = null)
@@ -155,54 +173,9 @@ namespace Bible.Backend.Services
             return this;
         }
 
-        private static readonly IReadOnlyList<MetadataCategory> _metadataCategoriesToShow =
-            [MetadataCategory.Text, MetadataCategory.Markup];
-
-        private void AddCurrentVerse()
-        {
-            if (_currentVerse.Id < 1) return;
-            var sb = new StringBuilder();
-            foreach (var segment in _segments)
-            {
-                if (_metadataCategoriesToShow.Contains(segment.Category))
-                {
-                    sb.Append(segment.Text);
-                }
-                else if (segment.Category == MetadataCategory.Footnote)
-                {
-                    sb.AppendFormat("{0}", segment.Text);
-                }
-            }
-            _currentVerse.Text = sb.ToString();
-            //_currentVerse.Pronunciation = string.Concat(_segments
-            //    .Where(s => s.Category == MetadataCategory.Pronunciation)
-            //    .Select(s => s.Text));
-            _verses.Add(_currentVerse);
-            _segments.Clear();
-        }
-
-        /// <summary>
-        /// Adds verses from a UsxPara paragraph with style "p"
-        /// </summary>
-        /// <param name="paragraph"></param>
-        /// <returns></returns>
-        public BibleBookBuilder AddVersesFromParagraph(UsxPara paragraph)
-        {
-            if (paragraph?.Content == null)
-                return this;
-
-            foreach (var verse in ToBibleVerses(paragraph, _bibleReference, _stringBuilder))
-            {
-                _verses.Add(verse);
-            }
-
-            return this;
-        }
-
         /// <summary>
         /// Finalize and get the built BibleBook object
         /// </summary>
-        /// <returns></returns>
         public BibleBook Build()
         {
             AddCurrentVerse();
@@ -214,83 +187,5 @@ namespace Bible.Backend.Services
 
             return _bibleBook;
         }
-
-        #region Private Helper Methods
-
-        private IEnumerable<BibleVerse> ToBibleVerses(UsxContent paragraph, BibleReference bibleReference, StringBuilder stringBuilder)
-        {
-            if (paragraph == null || paragraph.Content == null)
-            {
-                yield break;
-            }
-
-            var bibleVerse = new BibleVerse();
-
-            foreach (var item in paragraph.Content)
-            {
-                switch (item)
-                {
-                    case UsxHeading textValue:
-                        stringBuilder.Append(textValue.Text);
-                        break;
-
-                    case UsxMarker verseMarker when verseMarker.Style == "v":
-                        if (!string.IsNullOrEmpty(verseMarker.Number))
-                        {
-                            if (int.TryParse(verseMarker.Number, out var verseNumber))
-                            {
-                                bibleVerse.Id = verseNumber;
-                            }
-
-                            if (!string.IsNullOrEmpty(verseMarker.StartId))
-                            {
-                                var chapterVerse = verseMarker.StartId.Split(' ').LastOrDefault();
-                                if (!string.IsNullOrEmpty(chapterVerse))
-                                {
-                                    bibleVerse.Reference = new BibleReference(bibleReference) { Reference = chapterVerse };
-                                }
-                                else
-                                {
-                                    bibleVerse.Reference = new BibleReference(bibleReference) { Reference = verseMarker.Number };
-                                }
-                            }
-                            else
-                            {
-                                bibleVerse.Reference = new BibleReference(bibleReference) { Reference = verseMarker.Number };
-                            }
-                        }
-
-                        bibleVerse.Text = stringBuilder.ToString();
-
-                        if (!string.IsNullOrEmpty(bibleVerse.Text))
-                        {
-                            yield return bibleVerse;
-
-                            stringBuilder.Clear();
-                            bibleVerse = new BibleVerse();
-                        }
-                        break;
-
-                    case UsxContent nestedContent when nestedContent.Content != null:
-                        foreach (var nestedVerse in ToBibleVerses(nestedContent, bibleReference, stringBuilder))
-                        {
-                            bibleVerse.Text += nestedVerse.Text;
-                        }
-                        break;
-
-                    case string text:
-                        bibleVerse.Text += text;
-                        break;
-                }
-            }
-
-            // Yield last verse if it has text
-            if (!string.IsNullOrEmpty(bibleVerse.Text))
-            {
-                yield return bibleVerse;
-            }
-        }
-
-        #endregion
     }
 }

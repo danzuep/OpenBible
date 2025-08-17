@@ -1,7 +1,7 @@
 ﻿using Bible.Backend.Abstractions;
 using Bible.Backend.Adapters;
-using Bible.Backend.Models;
 using Bible.Core.Models;
+using Bible.Usx.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 
