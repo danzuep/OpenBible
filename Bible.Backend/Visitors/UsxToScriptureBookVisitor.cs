@@ -5,19 +5,20 @@ using Bible.Core.Models.Scripture;
 using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
 using Unihan.Models;
+using Unihan.Services;
 
 namespace Bible.Backend.Visitors
 {
     public sealed class UsxToScriptureBookVisitor : IUsxVisitor
     {
-        public static async Task<ScriptureBook?> DeserializeAsync(Stream stream, UnihanLookup? unihan = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
+        public static async Task<ScriptureBook?> DeserializeAsync(Stream stream, UnihanLanguage? unihan = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
         {
             var deserializer = new XDocDeserializer();
             var usxBook = await deserializer.DeserializeAsync<UsxBook>(stream, cancellationToken);
             return GetBook(usxBook, unihan, options);
         }
 
-        public static ScriptureBook GetBook(UsxBook? usxScriptureBook, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
+        public static ScriptureBook GetBook(UsxBook? usxScriptureBook, UnihanLanguage? unihan = null, UsxVisitorOptions? options = null)
         {
             var visitor = new UsxToScriptureBookVisitor(options);
             visitor.Unihan = unihan;
@@ -31,7 +32,7 @@ namespace Bible.Backend.Visitors
             _builder = builder ?? new ScriptureSegmentBuilder();
         }
 
-        public UnihanLookup? Unihan { get; set; }
+        public UnihanLanguage? Unihan { get; set; }
 
         private readonly List<UsxFootnote> _footnotes = new();
 
@@ -106,11 +107,11 @@ namespace Bible.Backend.Visitors
 
         public void Visit(string text)
         {
-            if (Unihan?.Field != null)
+            if (Unihan != null && Unihan.Field != UnihanField.Unknown)
             {
                 foreach (var rune in text.EnumerateRunes())
                 {
-                    AddUnihan(rune.Value, Unihan.Field.Value);
+                    AddUnihan(rune.Value, Unihan.Field);
                     _builder.AddScriptureSegment(rune.ToString());
                 }
             }
@@ -122,7 +123,7 @@ namespace Bible.Backend.Visitors
 
         private void AddUnihan(int codepoint, UnihanField unihanField)
         {
-            if (Unihan != null && Unihan.TryGetValue(codepoint, out var metadata))
+            if (Unihan?.Dictionary != null && Unihan.Dictionary.TryGetValue(codepoint, out var metadata))
             {
                 foreach (var kvp in metadata)
                 {

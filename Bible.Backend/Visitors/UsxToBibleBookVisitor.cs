@@ -5,20 +5,20 @@ using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
 using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
-using Unihan.Models;
+using Unihan.Services;
 
 namespace Bible.Backend.Visitors
 {
     public sealed class UsxToBibleBookVisitor : IUsxVisitor
     {
-        public static async Task<BibleBook?> DeserializeAsync(Stream stream, BibleBookMetadata? metadata, UnihanLookup? unihan = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
+        public static async Task<BibleBook?> DeserializeAsync(Stream stream, BibleBookMetadata? metadata, UnihanLanguage? unihan = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
         {
             var deserializer = new XDocDeserializer();
             var usxBook = await deserializer.DeserializeAsync<UsxBook>(stream, cancellationToken);
             return GetBook(usxBook, metadata, unihan, options);
         }
 
-        public static BibleBook GetBook(UsxBook? usxBibleBook, BibleBookMetadata? metadata, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
+        public static BibleBook GetBook(UsxBook? usxBibleBook, BibleBookMetadata? metadata, UnihanLanguage? unihan = null, UsxVisitorOptions? options = null)
         {
             var builder = new BibleBookBuilder();
             if (metadata != null)

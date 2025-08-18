@@ -1,15 +1,17 @@
 ﻿@using Bible.Usx.Models
 
-<sup class="@($"usj-footnote-caller {Footnote.Style}")">@Footnote.Caller</sup>
-<aside class="@($"usj-footnote-content {Footnote.Style}")">
-    @if (Footnote.Content != null)
-    {
-        @foreach (var node in Footnote.Content)
+<span class="footnote-wrapper @Footnote.Style">
+    <sup class="usj-footnote-caller">@Footnote.Caller</sup>
+    <aside class="usj-footnote-content">
+        @if (Footnote.Content != null)
         {
-            <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+            @foreach (var node in Footnote.Content)
+            {
+                <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+            }
         }
-    }
-</aside>
+    </aside>
+</span>
 
 @code {
     [Parameter, EditorRequired]

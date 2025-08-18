@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
-using Unihan.Models;
+using Unihan.Services;
 
 namespace Bible.Backend.Services
 {
@@ -20,7 +20,7 @@ namespace Bible.Backend.Services
             _bibleBook.Reference = _bibleReference;
         }
 
-        public UnihanLookup? Unihan { get; set; }
+        public UnihanLanguage? Unihan { get; set; }
 
         public BibleBookBuilder SetBookCode(string bookCode)
         {

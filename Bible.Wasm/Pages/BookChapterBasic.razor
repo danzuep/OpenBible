@@ -41,7 +41,7 @@ else
 
 @code {
     [Parameter, EditorRequired]
-    public string? BookCode { get; set; }
+    public string? BookName { get; set; }
 
     [Parameter]
     public int ChapterNumber { get; set; } = 1;
@@ -49,7 +49,7 @@ else
     internal static readonly string EngLanguage = "eng";
     internal static readonly string KjvVersion = "KJV";
 
-    string page => $"{BookCode}/{ChapterNumber}";
+    string page => $"{BookName}/{ChapterNumber}";
     string? _reference;
     BibleBook? _bibleBook;
     int _chapterCount => _bibleBook?.ChapterCount ?? 0;
@@ -64,7 +64,7 @@ else
 
     protected override async Task OnParametersSetAsync()
     {
-        _bibleBook = await BasicDataService.LoadBookAsync(KjvVersion, BookCode);
+        _bibleBook = await BasicDataService.LoadBookAsync(KjvVersion, BookName);
         await LoadChapterAsync(ChapterNumber);
     }
 

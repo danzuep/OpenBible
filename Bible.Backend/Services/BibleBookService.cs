@@ -4,13 +4,13 @@ using Bible.Core.Models;
 using Bible.Data;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
-using Unihan.Models;
+using Unihan.Services;
 
 namespace Bible.Backend.Services
 {
     public class BibleBookService
     {
-        private static UnihanLookup? _unihan;
+        private static UnihanLanguage? _unihan;
         private readonly Dictionary<BibleBookMetadata, BibleBook> _bibleBooks = new();
 
         private readonly ILogger _logger;
@@ -20,7 +20,7 @@ namespace Bible.Backend.Services
             _logger = logger ?? NullLogger.Instance;
         }
 
-        public UnihanLookup? Unihan => _unihan;
+        public UnihanLanguage? Unihan => _unihan;
 
         public string? GetHtml(BibleBookMetadata bibleBookMetadata)
         {
@@ -65,7 +65,7 @@ namespace Bible.Backend.Services
                 _bibleBooks.TryAdd(bibleBookMetadata, bibleBook);
                 if (_unihan == null)
                 {
-                    _unihan = await UnihanHelper.GetUnihanAsync(bibleBookMetadata.IsoLanguage);
+                    _unihan = await UnihanService.GetUnihanAsync(bibleBookMetadata.IsoLanguage);
                 }
             }
             return bibleBook;

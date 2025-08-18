@@ -1,9 +1,10 @@
 ﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=3JN}/{ChapterNumber:int?}"
+@using Bible.Backend.Services
 @using Bible.Data
 @using Bible.Usx.Models
 @using Bible.Usx.Services
 @using Bible.Wasm.Shared.Usj
-@inject UsjRenderVisitor UsjRenderVisitor
+@inject UsjBookService UsjBookService
 
 @if (UsjBook == null)
 {
@@ -11,6 +12,10 @@
 }
 else
 {
+    @* <div class="d-flex flex-column align-center">
+        <MudPagination BoundaryCount="1" MiddleCount="3" Count="@_chapterCount" Selected="@ChapterNumber" SelectedChanged="ChapterChanged" Class="mt-4" />
+    </div> *@
+
     <UsjRenderer Node="@UsjBook" ShowRuby="@_showRuby" />
 }
 
@@ -26,12 +31,20 @@ else
 
     [Parameter]
     public int? ChapterNumber { get; set; } = 1;
+    
+    // [Inject]
+    // private BibleBookService BibleBookService { get; set; } = default!;
+
+    // int _chapterCount => UsjBook?.ChapterCount ?? 0;
 
     private bool _showRuby = false;
     private UsjBook? UsjBook;
 
     protected override async Task OnParametersSetAsync()
     {
-        UsjBook = await UsjRenderVisitor.DeserializeAsync(Language, BibleVersion, BookCode);
+        // _bibleBook = await BibleBookService.GetBibleBookAsync(Language, BibleVersion, BookCode);
+        // var verse = BibleBookExtensions.ToRubyRunes(verseMarkup, BibleBookService.Unihan);
+        // UsjBook = await UsjRenderVisitor.DeserializeAsync(Language, BibleVersion, BookCode);
+        UsjBook = await UsjBookService.GetBookAsync(Language, BibleVersion, BookCode);
     }
 }

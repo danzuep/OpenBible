@@ -20,6 +20,8 @@
         /// </summary>
         public string IsoLanguage { get; set; } = string.Empty;
 
+        public int Chapter { get; set; }
+
         public BibleBookMetadata Copy()
         {
             var copy = (BibleBookMetadata)MemberwiseClone();
@@ -31,6 +33,11 @@
             if (other is null) return false;
             if (ReferenceEquals(this, other)) return true;
             return BookCode == other.BookCode && BibleVersion == other.BibleVersion && IsoLanguage == other.IsoLanguage;
+        }
+
+        public override string ToString()
+        {
+            return $"{IsoLanguage}:{BibleVersion}:{BookCode}:{Chapter}";
         }
     }
 }

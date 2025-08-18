@@ -2,6 +2,7 @@
 using System.Text;
 using Bible.Core.Models;
 using Unihan.Models;
+using Unihan.Services;
 
 namespace Bible.Backend.Adapters
 {
@@ -27,7 +28,7 @@ namespace Bible.Backend.Adapters
             return sb.ToString();
         }
 
-        public static string GetHtml(this BibleBook bibleBook, UnihanLookup? unihan = null)
+        public static string GetHtml(this BibleBook bibleBook, UnihanLanguage? unihan = null)
         {
             var sb = new StringBuilder();
 
@@ -45,7 +46,7 @@ namespace Bible.Backend.Adapters
             return sb.ToString();
         }
 
-        public static string GetHtml(this BibleChapter? chapter, UnihanLookup? unihan = null)
+        public static string GetHtml(this BibleChapter? chapter, UnihanLanguage? unihan = null)
         {
             if (chapter == null) return string.Empty;
 
@@ -61,7 +62,7 @@ namespace Bible.Backend.Adapters
             return sb.ToString();
         }
 
-        public static string GetHtml(this BibleVerse? verse, UnihanLookup? unihan = null)
+        public static string GetHtml(this BibleVerse? verse, UnihanLanguage? unihan = null)
         {
             if (verse == null) return string.Empty;
             var sb = new StringBuilder();
@@ -73,7 +74,7 @@ namespace Bible.Backend.Adapters
             return sb.ToString();
         }
 
-        public static string ToRubyRunes(string text, UnihanLookup? unihan)
+        public static string ToRubyRunes(string text, UnihanLanguage? unihan)
         {
             var sb = new StringBuilder();
 
@@ -83,7 +84,7 @@ namespace Bible.Backend.Adapters
                 foreach (var rune in text.EnumerateRunes())
                 {
                     sb.Append(rune.ToString());
-                    AddUnihan(rune.Value, unihan.Field.Value);
+                    AddUnihan(rune.Value, unihan.Field);
                 }
                 sb.Append("</ruby>");
             }
@@ -96,7 +97,7 @@ namespace Bible.Backend.Adapters
 
             void AddUnihan(int codepoint, UnihanField unihanField)
             {
-                if (unihan != null && unihan.TryGetValue(codepoint, out var metadata))
+                if (unihan?.Dictionary != null && unihan.Dictionary.TryGetValue(codepoint, out var metadata))
                 {
                     sb.Append("<rt>");
                     foreach (var kvp in metadata)

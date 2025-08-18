@@ -1,6 +1,7 @@
 ﻿namespace Bible.Console;
 
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Net.Security;
 using System.Text;
@@ -35,7 +36,8 @@ public class Program
         //await LoadBibleBookAsync(loggerFactory);
         //await ParseScriptureBookAsync(logger);
         //await ParseBibleBookAsync(logger);
-        await ParseAsync(logger);
+        //await ParseAsync(logger);
+        await ParseToUnihanAsync();
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -46,15 +48,24 @@ public class Program
         //await DeserializeToHtmlAsync(converter, unihan);
 
         Console.WriteLine();
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadKey();
+        //Console.WriteLine("Press any key to exit...");
+        //Console.ReadKey();
+    }
+
+    static async Task ParseToUnihanAsync(UnihanField unihanField = UnihanField.kCantonese, string text = "中文和合本 繁體中文版連史特朗經文滙篇")
+    {
+        var unihanRuneMetadata = await UnihanService.ParseAsync("中 文", unihanField);
+        foreach (var kvp in unihanRuneMetadata)
+        {
+            Debug.Write(kvp);
+            // Example: [ [ '食', 'た' ], 'べる。', [ '例', 'たと' ], 'えば、テスト' ]
+        }
     }
 
     static async Task ParseAsync(ILogger logger, string language = "eng", string version = "WEBBE", string book = "3JN")
     {
         var bibleBookService = new BibleBookService(logger);
         await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
-        //var json = await UsxToUsjDemo.ConvertAsync(stream);
         var converter = new UsxToUsjConverter();
         var usjBook = await converter.ConvertUsxStreamToUsjBookAsync(stream);
         logger.LogInformation(UsjToMarkdownVisitor.GetFullText(usjBook));
@@ -66,7 +77,7 @@ public class Program
         var bibleBook = await bibleBookService.GetBibleBookAsync(language, version, book);
         if (bibleBook != null)
         {
-            var unihan = await UnihanHelper.GetUnihanAsync(language);
+            var unihan = await UnihanService.GetUnihanAsync(language);
             //logger.LogInformation(bibleBook.GetMarkdown());
             logger.LogInformation(bibleBook.GetHtml());
         }
@@ -89,7 +100,7 @@ public class Program
     private static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
     {
         var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
-        var unihan = await UnihanHelper.GetUnihanAsync(isoLanguage);
+        var unihan = await UnihanService.GetUnihanAsync(isoLanguage);
         var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
         return (unihan, options);
     }

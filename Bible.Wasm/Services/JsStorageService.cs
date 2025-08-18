@@ -1,9 +1,11 @@
 ﻿using System.Text.Json;
+using Bible.Backend.Abstractions;
 using Microsoft.JSInterop;
 
 namespace Bible.Wasm.Services
 {
-    public class JsStorageService
+
+    public class JsStorageService : IStorageService
     {
         private static readonly string _jsGetItem = "localStorage.getItem";
         private static readonly string _jsSetItem = "localStorage.setItem";

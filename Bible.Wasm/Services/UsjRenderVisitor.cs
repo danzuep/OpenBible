@@ -141,9 +141,9 @@ namespace Bible.Wasm.Services
                 {
                     builder.OpenElement(0, "span");
                     builder.AddAttribute(1, "class", $"usj-char {metatext.Style}");
-                    if (!string.IsNullOrEmpty(metatext.Strong))
+                    if (!string.IsNullOrEmpty(metatext.Metadata))
                     {
-                        builder.AddAttribute(2, "data-strong", metatext.Strong);
+                        builder.AddAttribute(2, "data-strong", metatext.Metadata);
                     }
                     builder.AddContent(3, metatext.Text);
                     builder.CloseElement();

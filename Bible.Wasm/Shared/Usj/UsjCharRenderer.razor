@@ -1,9 +1,9 @@
 ﻿@using Bible.Usx.Models
 
-@if (ShowRuby && !string.IsNullOrEmpty(Char.Strong))
+@if (ShowRuby && !string.IsNullOrEmpty(Char.Metadata))
 {
     <ruby class="@($"usj-char {Char.Style}")">
-        @Char.Text<rt>@Char.Strong</rt>
+        @Char.Text<rt>@Char.Metadata</rt>
     </ruby>
 }
 else
@@ -19,5 +19,5 @@ else
     public bool ShowRuby { get; set; } = true;
 
     private Dictionary<string, object>? GetStrongAttribute()
-        => !string.IsNullOrEmpty(Char.Strong) ? new() { ["data-strong"] = Char.Strong } : null;
+        => !string.IsNullOrEmpty(Char.Metadata) ? new() { ["data-strong"] = Char.Metadata } : null;
 }

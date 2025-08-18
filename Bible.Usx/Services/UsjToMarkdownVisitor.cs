@@ -81,9 +81,9 @@ namespace Bible.Usx.Services
 
         public void Visit(UsjChar metatext)
         {
-            if (!string.IsNullOrEmpty(metatext.Strong))
+            if (!string.IsNullOrEmpty(metatext.Metadata))
             {
-                _builder.AppendFormat("{0}[{1}]", metatext.Text, metatext.Strong);
+                _builder.AppendFormat("{0}[{1}]", metatext.Text, metatext.Metadata);
             }
             else
             {

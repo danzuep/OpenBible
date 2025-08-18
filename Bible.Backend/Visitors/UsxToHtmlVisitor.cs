@@ -1,16 +1,17 @@
-﻿namespace Bible.Backend.Visitors;
-
-using System.Net;
+﻿using System.Net;
 using System.Text;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
 using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
 using Unihan.Models;
+using Unihan.Services;
+
+namespace Bible.Backend.Visitors;
 
 public sealed class UsxToHtmlVisitor : IUsxVisitor
 {
-    public static string GetFullText(UsxBook? usxScriptureBook, UnihanLookup? unihan = null, UsxVisitorOptions? options = null)
+    public static string GetFullText(UsxBook? usxScriptureBook, UnihanLanguage? unihan = null, UsxVisitorOptions? options = null)
     {
         var visitor = new UsxToHtmlVisitor(options);
         visitor.Unihan = unihan;
@@ -30,7 +31,7 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
         };
     }
 
-    public UnihanLookup? Unihan { get; set; }
+    public UnihanLanguage? Unihan { get; set; }
 
     private readonly List<UsxFootnote> _footnotes = new();
 
@@ -108,12 +109,12 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     public void Visit(UsxChar usxChar)
     {
-        if (Unihan != null && Unihan.Field.HasValue && usxChar.Text is string text)
+        if (Unihan != null && Unihan.Field != UnihanField.Unknown && usxChar.Text is string text)
         {
             _sb.AppendFormat("<span class=\"usx-{0}\">", usxChar.Style);
             foreach (var rune in text.EnumerateRunes())
             {
-                AddRubyText(rune.Value, Unihan.Field.Value);
+                AddRubyText(rune.Value, Unihan.Field);
             }
             _sb.Append("</span>");
         }
@@ -143,8 +144,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
     {
         var fields = new UnihanField[] { unihanField }; // UnihanField.kDefinition
         var unihanCharacter = char.ConvertFromUtf32(codepoint);
-        if (Unihan != null &&
-            Unihan.TryGetEntryText(codepoint, fields, out var entryText))
+        if (Unihan?.Dictionary != null &&
+            Unihan.Dictionary.TryGetEntryText(codepoint, fields, out var entryText))
         {
             _sb.Append("<ruby>");
             _sb.Append(unihanCharacter);
@@ -159,11 +160,11 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
 
     public void Visit(string text)
     {
-        if (Unihan != null && Unihan.Field.HasValue)
+        if (Unihan != null && Unihan.Field != UnihanField.Unknown)
         {
             foreach (var rune in text.EnumerateRunes())
             {
-                AddRubyText(rune.Value, Unihan.Field.Value);
+                AddRubyText(rune.Value, Unihan.Field);
             }
         }
         else

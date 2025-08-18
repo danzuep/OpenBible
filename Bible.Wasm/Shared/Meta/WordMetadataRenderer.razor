@@ -1,0 +1,29 @@
+﻿@using Bible.Core.Models.Meta
+@using Bible.Core.Extensions
+
+@if (Word.Metadata.IsNullOrEmpty())
+{
+    @Word.Text
+}
+else if (ShowRuby)
+{
+    @Word.Text<rt>@JoinedMetadata</rt>
+}
+else
+{
+    <span @attributes="MetaData">@Word.Text</span>
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public WordMetadata Word { get; set; } = default!;
+
+    [Parameter]
+    public bool ShowRuby { get; set; } = true;
+
+    private Dictionary<string, object> MetaData
+        => new() { ["data-strong"] = JoinedMetadata };
+
+    private string JoinedMetadata
+        => string.Join("; ", Word.Metadata);
+}

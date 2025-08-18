@@ -21,7 +21,7 @@ public enum UsjNodeType
 public sealed record UsjBook(
     string SchemaVersion,
     UsjIdentification Metadata,
-    List<IUsjNode> Content
+    IList<IUsjNode> Content
 ) : IUsjNode
 {
     public UsjNodeType Type => UsjNodeType.Book;
@@ -62,7 +62,7 @@ public sealed record UsjVerseMarker(
 
 public sealed record UsjPara(
     string Style,
-    List<IUsjNode>? Content
+    IList<IUsjNode>? Content
 ) : IUsjNode
 {
     public UsjNodeType Type => UsjNodeType.Para;
@@ -75,7 +75,7 @@ public sealed record UsjPara(
 public sealed record UsjChar(
     string Style,
     bool Closed,
-    string? Strong,
+    string? Metadata,
     string Text
 ) : IUsjNode
 {
@@ -86,7 +86,7 @@ public sealed record UsjChar(
 public sealed record UsjFootnote(
     string Caller,
     string Style,
-    List<IUsjNode> Content
+    IList<IUsjNode> Content
 ) : IUsjNode
 {
     public UsjNodeType Type => UsjNodeType.Footnote;
@@ -112,7 +112,7 @@ public sealed record UsjLineBreak(string Style) : IUsjNode
 public sealed record UsjCrossReference(
     string Location,
     string Style,
-    List<IUsjNode> Content
+    IList<IUsjNode> Content
 ) : IUsjNode
 {
     public UsjNodeType Type => UsjNodeType.CrossReference;

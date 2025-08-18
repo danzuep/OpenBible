@@ -1,0 +1,50 @@
+﻿.footnote-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.usj-footnote-caller {
+    cursor: help;
+    color: #007bff;
+    font-size: smaller;
+    vertical-align: super;
+}
+
+.usj-footnote-content {
+    visibility: hidden;
+    opacity: 0;
+    width: 250px; /* Adjust width as needed */
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+    /* Positioning */
+    position: absolute;
+    z-index: 100;
+    bottom: 125%; /* Position above the sup */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Smooth fade-in */
+    transition: opacity 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.footnote-wrapper:hover .usj-footnote-content,
+.footnote-wrapper:focus-within .usj-footnote-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Optional arrow below tooltip */
+.usj-footnote-content::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* At the bottom of tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ccc transparent transparent transparent;
+}
