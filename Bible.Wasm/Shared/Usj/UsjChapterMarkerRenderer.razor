@@ -1,0 +1,11 @@
+﻿@using Bible.Usx.Models
+
+@if (!string.IsNullOrEmpty(ChapterMarker.Number))
+{
+    <h3 class="@($"chapter-marker {ChapterMarker.Style}")">Chapter @ChapterMarker.Number</h3>
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjChapterMarker ChapterMarker { get; set; } = default!;
+}

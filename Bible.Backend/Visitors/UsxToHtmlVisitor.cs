@@ -41,7 +41,7 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
     private readonly StringBuilder _sb = new();
 
     private static readonly IReadOnlyList<string> _paraStylesToHide =
-        UsxToMarkdownVisitor.ParaStylesToHide;
+        UsjConstants.ParaStylesToHide;
 
     public void Visit(UsxIdentification identification)
     {

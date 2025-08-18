@@ -1,0 +1,29 @@
+﻿@using Bible.Usx.Models
+
+@if (!string.IsNullOrEmpty(Para.Style) && Para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) && !string.IsNullOrEmpty(Para.Text))
+{
+    <h2>@Para.Text</h2>
+}
+else if (string.IsNullOrEmpty(Para.Style) || !ParaStylesToHide.Any(p => Para.Style.StartsWith(p, StringComparison.OrdinalIgnoreCase)))
+{
+    <p class="@($"usj-para {Para.Style}")">
+        @if (Para.Content != null)
+        {
+            @foreach (var node in Para.Content)
+            {
+                <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+            }
+        }
+    </p>
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjPara Para { get; set; } = default!;
+
+    [Parameter]
+    public bool ShowRuby { get; set; } = true;
+
+    [Parameter]
+    public IReadOnlyList<string> ParaStylesToHide { get; set; } = UsjConstants.ParaStylesToHide;
+}

@@ -31,7 +31,7 @@ public sealed class UsxToMarkdownVisitor : IUsxVisitor
     private readonly StringBuilder _sb = new();
 
     internal static readonly IReadOnlyList<string> ParaStylesToHide =
-        ["ide", "toc", "mt"];
+        UsjConstants.ParaStylesToHide;
 
     public void Visit(UsxIdentification identification)
     {

@@ -1,0 +1,19 @@
+﻿@using Bible.Usx.Models
+
+<a href="@($"#{CrossReference.Location}")" class="@($"usj-crossref {CrossReference.Style}")">
+    @if (CrossReference.Content != null)
+    {
+        @foreach (var node in CrossReference.Content)
+        {
+            <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+        }
+    }
+</a>
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjCrossReference CrossReference { get; set; } = default!;
+
+    [Parameter]
+    public bool ShowRuby { get; set; } = true;
+}

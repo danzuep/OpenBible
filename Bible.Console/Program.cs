@@ -2,6 +2,7 @@
 
 using System;
 using System.IO;
+using System.Net.Security;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
 using Bible.Usx.Models;
+using Bible.Usx.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Unihan.Models;
@@ -33,7 +35,7 @@ public class Program
         //await LoadBibleBookAsync(loggerFactory);
         //await ParseScriptureBookAsync(logger);
         //await ParseBibleBookAsync(logger);
-        await ParseToJsonAsync(logger);
+        await ParseAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -44,21 +46,18 @@ public class Program
         //await DeserializeToHtmlAsync(converter, unihan);
 
         Console.WriteLine();
-        //Console.WriteLine("Press any key to exit...");
-        //Console.ReadKey();
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 
-    static async Task<string?> ParseToJsonAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
+    static async Task ParseAsync(ILogger logger, string language = "eng", string version = "WEBBE", string book = "3JN")
     {
         var bibleBookService = new BibleBookService(logger);
         await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
-        var json = await UsxToUsjDemo.ConvertAsync(stream);
-        if (json != null)
-        {
-            var unihan = await UnihanHelper.GetUnihanAsync(language);
-            logger.LogInformation(json);
-        }
-        return json;
+        //var json = await UsxToUsjDemo.ConvertAsync(stream);
+        var converter = new UsxToUsjConverter();
+        var usjBook = await converter.ConvertUsxStreamToUsjBookAsync(stream);
+        logger.LogInformation(UsjToMarkdownVisitor.GetFullText(usjBook));
     }
 
     static async Task<BibleBook?> ParseBibleBookAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")

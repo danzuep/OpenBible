@@ -124,3 +124,10 @@ public sealed record UsjText(string Text) : IUsjNode
     public UsjNodeType Type => UsjNodeType.Text;
     public UsjText() : this(string.Empty) { }
 }
+
+public static class UsjConstants
+{
+    public const string SchemaVersion = "3.0";
+    public const string DefaultBookCode = "GEN";
+    public static readonly IReadOnlyList<string> ParaStylesToHide = ["ide", "toc", "mt"];
+}

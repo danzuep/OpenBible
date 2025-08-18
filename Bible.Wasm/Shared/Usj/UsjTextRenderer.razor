@@ -1,0 +1,8 @@
+﻿@using Bible.Usx.Models
+
+@Text.Text
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjText Text { get; set; } = default!;
+}

@@ -1,0 +1,65 @@
+﻿.usj-identification {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.chapter-marker {
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.verse-marker {
+    font-size: smaller;
+    vertical-align: super;
+    color: #555;
+}
+
+.usj-para {
+    margin-bottom: 1rem;
+}
+
+/* Ruby text styling */
+ruby.usj-char {
+    cursor: help;
+    text-decoration: underline dotted;
+    color: #222;
+}
+
+    ruby.usj-char rt {
+        font-size: 0.6em;
+        font-weight: normal;
+        color: #666;
+        user-select: none;
+        position: relative;
+        top: -0.4em;
+    }
+
+.usj-milestone {
+    font-style: italic;
+    color: #888;
+}
+
+.usj-linebreak {
+    margin: 0.5rem 0;
+}
+
+.usj-crossref {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.usj-footnote-caller {
+    font-size: smaller;
+    vertical-align: super;
+    cursor: help;
+}
+
+.usj-footnote-content {
+    font-size: smaller;
+    background-color: #f9f9f9;
+    border-left: 3px solid #ccc;
+    padding-left: 0.5rem;
+    margin: 0.5rem 0 1rem 0;
+}

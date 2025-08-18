@@ -3,7 +3,7 @@ using Bible.Usx.Models;
 using Bible.Usx.Services;
 
 namespace Bible.Usx.Parsers;
-public class ParaParser : IUsxElementParser
+public class ParagraphParser : IUsxElementParser
 {
     public static readonly string Key = "para";
 
@@ -11,7 +11,7 @@ public class ParaParser : IUsxElementParser
 
     private readonly UsxParserFactory _factory;
 
-    public ParaParser(UsxParserFactory factory)
+    public ParagraphParser(UsxParserFactory factory)
     {
         _factory = factory;
     }
@@ -36,10 +36,13 @@ public class ParaParser : IUsxElementParser
                 else
                     await reader.SkipAsync();
             }
-            else if (reader.NodeType == XmlNodeType.Text || reader.NodeType == XmlNodeType.CDATA)
+            else if (reader.NodeType == XmlNodeType.Text ||
+                reader.NodeType == XmlNodeType.Whitespace ||
+                reader.NodeType == XmlNodeType.SignificantWhitespace ||
+                reader.NodeType == XmlNodeType.CDATA)
             {
                 var text = reader.Value;
-                if (!string.IsNullOrWhiteSpace(text))
+                if (!string.IsNullOrEmpty(text))
                     content.Add(new UsjText(text!));
             }
         }

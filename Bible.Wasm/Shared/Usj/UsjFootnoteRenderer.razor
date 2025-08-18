@@ -1,0 +1,20 @@
+﻿@using Bible.Usx.Models
+
+<sup class="@($"usj-footnote-caller {Footnote.Style}")">@Footnote.Caller</sup>
+<aside class="@($"usj-footnote-content {Footnote.Style}")">
+    @if (Footnote.Content != null)
+    {
+        @foreach (var node in Footnote.Content)
+        {
+            <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+        }
+    }
+</aside>
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjFootnote Footnote { get; set; } = default!;
+
+    [Parameter]
+    public bool ShowRuby { get; set; } = true;
+}

@@ -2,6 +2,7 @@ using Bible.Backend.Abstractions;
 using Bible.Backend.Services;
 using Bible.Core.Abstractions;
 using Bible.Core.Models;
+using Bible.Usx.Services;
 using Bible.Wasm.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -45,6 +46,8 @@ namespace Bible.Wasm
             services.AddSingleton<IBibleDataService, DataService>();
             services.AddScoped<BasicDataService>();
             services.AddSingleton<BibleBookService>();
+            services.AddSingleton<UsjRenderVisitor>();
+            services.AddSingleton<UsxToUsjConverter>();
 
             _provider = services.BuildServiceProvider();
         }

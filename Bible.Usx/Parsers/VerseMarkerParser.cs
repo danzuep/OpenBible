@@ -3,7 +3,7 @@ using Bible.Usx.Models;
 
 namespace Bible.Usx.Parsers;
 
-public class VerseParser : IUsxElementParser
+public class VerseMarkerParser : IUsxElementParser
 {
     public static readonly string Key = "verse";
 

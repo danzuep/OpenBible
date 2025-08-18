@@ -1,0 +1,23 @@
+﻿@using Bible.Usx.Models
+
+<section class="usj-book">
+    @if (Book.Metadata != null)
+    {
+        <UsjIdentificationRenderer Identification="Book.Metadata" />
+    }
+    @if (Book.Content != null)
+    {
+        @foreach (var node in Book.Content)
+        {
+            <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+        }
+    }
+</section>
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjBook Book { get; set; } = default!;
+
+    [Parameter]
+    public bool ShowRuby { get; set; } = true;
+}

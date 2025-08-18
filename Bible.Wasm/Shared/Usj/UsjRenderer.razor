@@ -1,0 +1,56 @@
+﻿@using Bible.Usx.Models
+
+@if (Node == null)
+{
+    <p>No content to render.</p>
+}
+else
+{
+    @switch (Node)
+    {
+        case UsjBook book:
+            <UsjBookRenderer Book="book" ShowRuby="ShowRuby" />
+            break;
+        case UsjIdentification id:
+            <UsjIdentificationRenderer Identification="id" />
+            break;
+        case UsjChapterMarker chapter:
+            <UsjChapterMarkerRenderer ChapterMarker="chapter" />
+            break;
+        case UsjVerseMarker verse:
+            <UsjVerseMarkerRenderer VerseMarker="verse" />
+            break;
+        case UsjPara para:
+            <UsjParaRenderer Para="para" ShowRuby="ShowRuby" />
+            break;
+        case UsjChar ch:
+            <UsjCharRenderer Char="ch" ShowRuby="ShowRuby" />
+            break;
+        case UsjText text:
+            <UsjTextRenderer Text="text" />
+            break;
+        case UsjMilestone milestone:
+            <UsjMilestoneRenderer Milestone="milestone" />
+            break;
+        case UsjLineBreak lb:
+            <UsjLineBreakRenderer LineBreak="lb" />
+            break;
+        case UsjCrossReference crossRef:
+            <UsjCrossReferenceRenderer CrossReference="crossRef" ShowRuby="ShowRuby" />
+            break;
+        case UsjFootnote footnote:
+            <UsjFootnoteRenderer Footnote="footnote" ShowRuby="ShowRuby" />
+            break;
+        default:
+            <p>[Unsupported node type: @Node.GetType().Name]</p>
+            break;
+    }
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public IUsjNode? Node { get; set; }
+
+    [Parameter]
+    public bool ShowRuby { get; set; } = true;
+}

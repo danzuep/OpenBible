@@ -40,7 +40,7 @@ namespace Bible.Backend.Visitors
         private readonly ScriptureSegmentBuilder _builder;
 
         private readonly IReadOnlyList<string> _headingParaStyles =
-            UsxToMarkdownVisitor.ParaStylesToHide;
+            UsjConstants.ParaStylesToHide;
 
         public void Visit(UsxIdentification identification)
         {

@@ -3,7 +3,7 @@ using Bible.Usx.Models;
 
 namespace Bible.Usx.Parsers;
 
-public class ChapterParser : IUsxElementParser
+public class ChapterMarkerParser : IUsxElementParser
 {
     public static readonly string Key = "chapter";
 

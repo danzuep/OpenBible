@@ -1,0 +1,37 @@
+﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=3JN}/{ChapterNumber:int?}"
+@using Bible.Data
+@using Bible.Usx.Models
+@using Bible.Usx.Services
+@using Bible.Wasm.Shared.Usj
+@inject UsjRenderVisitor UsjRenderVisitor
+
+@if (UsjBook == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <UsjRenderer Node="@UsjBook" ShowRuby="@_showRuby" />
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public string? Language { get; set; }
+
+    [Parameter, EditorRequired]
+    public string? BibleVersion { get; set; }
+
+    [Parameter, EditorRequired]
+    public string? BookCode { get; set; }
+
+    [Parameter]
+    public int? ChapterNumber { get; set; } = 1;
+
+    private bool _showRuby = false;
+    private UsjBook? UsjBook;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        UsjBook = await UsjRenderVisitor.DeserializeAsync(Language, BibleVersion, BookCode);
+    }
+}

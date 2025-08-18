@@ -3,7 +3,7 @@ using Bible.Usx.Models;
 
 namespace Bible.Usx.Parsers;
 
-public class CharParser : IUsxElementParser
+public class CharacterParser : IUsxElementParser
 {
     public static readonly string Key = "char";
 

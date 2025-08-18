@@ -1,0 +1,8 @@
+﻿@using Bible.Usx.Models
+
+<br class="@($"usj-linebreak {LineBreak.Style}")" />
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjLineBreak LineBreak { get; set; } = default!;
+}

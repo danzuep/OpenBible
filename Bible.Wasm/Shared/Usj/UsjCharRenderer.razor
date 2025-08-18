@@ -1,0 +1,23 @@
+﻿@using Bible.Usx.Models
+
+@if (ShowRuby && !string.IsNullOrEmpty(Char.Strong))
+{
+    <ruby class="@($"usj-char {Char.Style}")">
+        @Char.Text<rt>@Char.Strong</rt>
+    </ruby>
+}
+else
+{
+    <span class="@($"usj-char {Char.Style}")" @attributes="GetStrongAttribute()">@Char.Text</span>
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjChar Char { get; set; } = default!;
+
+    [Parameter]
+    public bool ShowRuby { get; set; } = true;
+
+    private Dictionary<string, object>? GetStrongAttribute()
+        => !string.IsNullOrEmpty(Char.Strong) ? new() { ["data-strong"] = Char.Strong } : null;
+}

@@ -11,14 +11,14 @@ public class UsxParserFactory
         _lazyParsers = new Dictionary<string, Lazy<IUsxElementParser>>(StringComparer.OrdinalIgnoreCase)
         {
             [BookParser.Key] = new Lazy<IUsxElementParser>(() => new BookParser()),
-            [ChapterParser.Key] = new Lazy<IUsxElementParser>(() => new ChapterParser()),
-            [VerseParser.Key] = new Lazy<IUsxElementParser>(() => new VerseParser()),
+            [ChapterMarkerParser.Key] = new Lazy<IUsxElementParser>(() => new ChapterMarkerParser()),
+            [VerseMarkerParser.Key] = new Lazy<IUsxElementParser>(() => new VerseMarkerParser()),
             [MilestoneParser.Key] = new Lazy<IUsxElementParser>(() => new MilestoneParser()),
             [LineBreakParser.Key] = new Lazy<IUsxElementParser>(() => new LineBreakParser()),
-            [CharParser.Key] = new Lazy<IUsxElementParser>(() => new CharParser()),
+            [CharacterParser.Key] = new Lazy<IUsxElementParser>(() => new CharacterParser()),
             [FootnoteParser.Key] = new Lazy<IUsxElementParser>(() => new FootnoteParser(this)),
             [CrossReferenceParser.Key] = new Lazy<IUsxElementParser>(() => new CrossReferenceParser(this)),
-            [ParaParser.Key] = new Lazy<IUsxElementParser>(() => new ParaParser(this)),
+            [ParagraphParser.Key] = new Lazy<IUsxElementParser>(() => new ParagraphParser(this)),
         };
     }
 
