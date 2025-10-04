@@ -46,7 +46,7 @@ namespace Bible.Wasm
             services.AddSingleton<IBibleDataService, DataService>();
             services.AddScoped<BasicDataService>();
             services.AddSingleton<BibleBookService>();
-            services.AddSingleton<UsjRenderVisitor>();
+            //services.AddSingleton<UsjRenderVisitor>();
             services.AddSingleton<UsxToUsjConverter>();
             services.AddSingleton<IStorageService, JsStorageService>();
             services.AddSingleton<UsjBookService>();

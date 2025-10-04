@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Backend", "Bible.Back
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Data", "Bible.Data\Bible.Data.csproj", "{58BD71DB-5A70-8D8B-A8E2-B5B24B62C4B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unihan", "Unihan\Unihan.csproj", "{0DC17A11-6304-7C05-7E98-68F0E66CBF18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Usx", "Bible.Usx\Bible.Usx.csproj", "{6F769CC7-BA5F-5765-42F1-C70C1E51D115}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{58BD71DB-5A70-8D8B-A8E2-B5B24B62C4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58BD71DB-5A70-8D8B-A8E2-B5B24B62C4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58BD71DB-5A70-8D8B-A8E2-B5B24B62C4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC17A11-6304-7C05-7E98-68F0E66CBF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC17A11-6304-7C05-7E98-68F0E66CBF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC17A11-6304-7C05-7E98-68F0E66CBF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC17A11-6304-7C05-7E98-68F0E66CBF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F769CC7-BA5F-5765-42F1-C70C1E51D115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F769CC7-BA5F-5765-42F1-C70C1E51D115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F769CC7-BA5F-5765-42F1-C70C1E51D115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F769CC7-BA5F-5765-42F1-C70C1E51D115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
