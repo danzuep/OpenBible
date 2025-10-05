@@ -43,7 +43,7 @@ namespace Bible.Wasm
             services.AddScoped<JsScrollService>();
             services.AddScoped<IDimensionService, JsDimensionService>();
             services.AddScoped<IDownloadService, JsDownloadService>();
-            services.AddSingleton<StreamDataService>();
+            //services.AddSingleton<StreamDataService>();
             services.AddSingleton<IBibleDataService, DataService>();
             services.AddScoped<BasicDataService>();
             services.AddSingleton<BibleBookService>();
