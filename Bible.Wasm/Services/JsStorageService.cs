@@ -4,11 +4,11 @@ using Microsoft.JSInterop;
 
 namespace Bible.Wasm.Services
 {
-
     public class JsStorageService : IStorageService
     {
-        private static readonly string _jsGetItem = "localStorage.getItem";
-        private static readonly string _jsSetItem = "localStorage.setItem";
+        private static readonly string _jsStorage = "window.cookieStorage";
+        private static readonly string _jsGetItem = $"{_jsStorage}.get";
+        private static readonly string _jsSetItem = $"{_jsStorage}.set";
 
         private readonly IJSRuntime _jsRuntime;
 

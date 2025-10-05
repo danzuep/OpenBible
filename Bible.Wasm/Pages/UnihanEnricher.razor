@@ -53,6 +53,7 @@
             if (string.IsNullOrEmpty(ParagraphContent))
                 ParagraphContent = "新改訳聖書刊行会";
             #endif
+            // var metadata = await UnihanService.ParseAsync(ParagraphContent, UnihanField.kCantonese);
             var metadata = await UnihanService.ParseUnihanRunesAsync(ParagraphContent, UnihanField.kCantonese);
             ParagraphResult = metadata.ToString();
         }

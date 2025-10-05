@@ -15,7 +15,16 @@ else
     @* <div class="d-flex flex-column align-center">
         <MudPagination BoundaryCount="1" MiddleCount="3" Count="@_chapterCount" Selected="@ChapterNumber" SelectedChanged="ChapterChanged" Class="mt-4" />
     </div> *@
-
+@* 
+    <label for="pronunciationToggle" class="mb-3 d-inline-flex align-items-center" style="cursor:pointer;">
+        <input id="pronunciationToggle"
+               type="checkbox"
+               checked="_showRuby"
+               @onchange="OnPronunciationToggleChanged"
+               class="me-2" />
+        Show Anglicised Pronunciation (ruby text)
+    </label>
+ *@
     <UsjRenderer Node="@UsjBook" ShowRuby="@_showRuby" />
 }
 
@@ -31,12 +40,13 @@ else
 
     [Parameter]
     public int? ChapterNumber { get; set; } = 1;
-    
+
     // [Inject]
     // private BibleBookService BibleBookService { get; set; } = default!;
 
     // int _chapterCount => UsjBook?.ChapterCount ?? 0;
 
+    private bool _isEnriching = false;
     private bool _showRuby = false;
     private UsjBook? UsjBook;
 
@@ -46,5 +56,32 @@ else
         // var verse = BibleBookExtensions.ToRubyRunes(verseMarkup, BibleBookService.Unihan);
         // UsjBook = await UsjRenderVisitor.DeserializeAsync(Language, BibleVersion, BookCode);
         UsjBook = await UsjBookService.GetBookAsync(Language, BibleVersion, BookCode);
+    }
+
+    private async Task OnPronunciationToggleChanged(ChangeEventArgs? e)
+    {
+        await Task.CompletedTask;
+
+        if (!(e?.Value is bool selection) || UsjBook is null || Language is null || _isEnriching) return;
+
+        _isEnriching = true;
+
+        try
+        {
+            var versionDescription = UsjBook.Metadata.VersionDescription;
+            System.Diagnostics.Debug.WriteLine(versionDescription);
+            // var metadata = await UnihanService.ParseAsync(versionDescription, Language);
+            // UsjBook.Content.Add() = metadata.ToString();
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine(ex.Message);
+            System.Diagnostics.Debugger.Break();
+        }
+        finally
+        {
+            _isEnriching = false;
+            StateHasChanged();
+        }
     }
 }

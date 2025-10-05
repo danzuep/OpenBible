@@ -5,7 +5,7 @@
 <MudNavGroup Title="@Title" Expanded="@Expanded" ExpandIcon="@Icons.Material.Filled.ExpandMore">
     <ListGenericItemsTemplate TItem="BibleBookNav" ItemList="@ItemList" Context="book">
         <ItemTemplate>
-            <MudNavLink href="@($"{IsoLanguage}/{Version}/{(_isKjvSelected ? book.Name : book.Id)}/1")">@book.Name</MudNavLink>
+            <MudNavLink href="@($"{(_isKjvSelected ? Version : $"{IsoLanguage}/{Version}")}/{(_isKjvSelected ? book.Name : book.Id)}/1")">@book.Name</MudNavLink>
         </ItemTemplate>
     </ListGenericItemsTemplate>
 </MudNavGroup>

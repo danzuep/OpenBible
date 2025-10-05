@@ -54,13 +54,16 @@ public class Program
 
     static async Task ParseToUnihanAsync(UnihanField unihanField = UnihanField.kCantonese, string text = "中文和合本 繁體中文版連史特朗經文滙篇")
     {
-        var unihanRuneMetadata = await UnihanService.ParseAsync("中 文", unihanField);
-        foreach (var kvp in unihanRuneMetadata)
-        {
-            Debug.Write(kvp);
-            // Example: [ [ '食', 'た' ], 'べる。', [ '例', 'たと' ], 'えば、テスト' ]
-        }
+        var unihanMetadata = await UnihanService.ParseAsync(text, unihanField);
+        Debug.WriteLine(unihanMetadata.ToString());
     }
+
+    //static async Task ParseUnihanRunesAsync(string isoLanguage = "cmn", string text = "中文和合本 繁體中文版連史特朗經文滙篇")
+    //{
+    //    var unihanService = new UnihanService(new InMemoryStorageService(), null);
+    //    var unihanMetadata = await unihanService.ParseUnihanRunesAsync(text, isoLanguage);
+    //    Debug.WriteLine(unihanMetadata.ToString());
+    //}
 
     static async Task ParseAsync(ILogger logger, string language = "eng", string version = "WEBBE", string book = "3JN")
     {
@@ -97,7 +100,7 @@ public class Program
         return scriptureBook;
     }
 
-    private static async Task<(UnihanLookup?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
+    private static async Task<(UnihanLanguage?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
     {
         var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
         var unihan = await UnihanService.GetUnihanAsync(isoLanguage);
@@ -148,7 +151,7 @@ public class Program
         }, sample: "eng-WEBBE");
     }
 
-    private static void HtmlVisitorExample(XmlConverter converter, UnihanLookup? unihan)
+    private static void HtmlVisitorExample(XmlConverter converter, UnihanLanguage? unihan)
     {
         converter.Visitor<UsxBook>((book, outputPath) =>
         {
@@ -160,7 +163,7 @@ public class Program
             {
                 var fileName = Path.GetFileNameWithoutExtension(outputPath);
                 var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                unihan.IsoLanguage = langScript;
+                //unihan.IsoLanguage = langScript;
             }
             var text = UsxToHtmlVisitor.GetFullText(book, unihan);
             var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");
@@ -170,7 +173,7 @@ public class Program
         }, sample: "zho-Hant-OCCB");
     }
 
-    private static async Task DeserializeToHtmlAsync(XmlConverter converter, UnihanLookup? unihan)
+    private static async Task DeserializeToHtmlAsync(XmlConverter converter, UnihanLanguage? unihan)
     {
         await converter.XmlMetadataToJsonAsync();
 
@@ -180,7 +183,7 @@ public class Program
             {
                 var fileName = Path.GetFileNameWithoutExtension(outputPath);
                 var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                unihan.IsoLanguage = langScript;
+                //unihan.IsoLanguage = langScript;
             }
             var html = UsxToHtmlVisitor.GetFullText(book, unihan);
             var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");

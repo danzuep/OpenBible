@@ -5,7 +5,6 @@ using Bible.Usx.Models;
 using Bible.Usx.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Bible.Backend.Services
 {

@@ -31,6 +31,7 @@ namespace Bible.Wasm
             services.AddLogging(o => o.AddDebug());
 #endif
             // Services
+            services.AddMemoryCache();
             services.AddMudServices();
             services.AddScoped<IBibleBookNavService, BibleBookNavService>();
             services.AddScoped<IDeserializer, XDocDeserializer>();
@@ -48,7 +49,9 @@ namespace Bible.Wasm
             services.AddSingleton<BibleBookService>();
             //services.AddSingleton<UsjRenderVisitor>();
             services.AddSingleton<UsxToUsjConverter>();
-            services.AddSingleton<IStorageService, JsStorageService>();
+            //services.AddSingleton<IStorageService, JsStorageService>();
+            //services.AddSingleton<IStorageService, DictionaryStorageService>();
+            services.AddSingleton<IStorageService, MemoryCacheStorageService>();
             services.AddSingleton<UsjBookService>();
             services.AddSingleton<UnihanService>();
 

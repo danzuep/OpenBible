@@ -51,6 +51,12 @@ namespace Bible.Backend.Services
             }
         }
 
+        public static async Task<WordsWithMetadata> ParseAsync(string text, string isoLanguage)
+        {
+            var language = new UnihanLanguage(isoLanguage);
+            return await ParseAsync(text, language.Field);
+        }
+
         public static async Task<WordsWithMetadata> ParseAsync(string text, UnihanField unihanField)
         {
             _unihan = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(_filePath);

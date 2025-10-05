@@ -85,22 +85,39 @@ window.cookieStorage = {
     }
 };
 
-window.storeLocally = {
+window.storage = {
     get: (key) => {
-        return window.localStorage.getItem(key);
+        const encodedValue = window.sessionStorage.getItem(key);
+        if (!encodedValue) return null;
+        try {
+            const { value, expires } = JSON.parse(encodedValue);
+            if (expires && new Date().getTime() > expires) {
+                window.sessionStorage.removeItem(key);
+                return null;
+            }
+            return value;
+        } catch {
+            return null;
+        }
     },
     set: (key, value, absoluteExpiryMs, relativeExpiryMs) => {
         const expiryTime = absoluteExpiryMs ? absoluteExpiryMs :
             new Date().getTime() + (relativeExpiryMs || 0);
-        const cookie = { value: value, expires: expiryTime };
-        const encodedValue = JSON.stringify(cookie);
-        window.localStorage.setItem(key, encodedValue);
+        const payload = { value: value, expires: expiryTime };
+        const encodedValue = JSON.stringify(payload);
+        try {
+            window.sessionStorage.setItem(key, encodedValue);
+        } catch (e) {
+            if (e.name === 'QuotaExceededError') {
+                console.warn('Storage quota exceeded. Consider cleaning up or using IndexedDB.');
+            }
+        }
     },
     delete: (key) => {
-        window.localStorage.removeItem(key);
+        window.sessionStorage.removeItem(key);
     },
     clear: () => {
-        window.localStorage.clear();
+        window.sessionStorage.clear();
     },
     eventListener: (componentRef) => {
         window.addEventListener("storage", async e => {
