@@ -6,7 +6,9 @@ using Bible.Usx.Services;
 using Bible.Wasm.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
+using SQLitePCL;
 
 namespace Bible.Wasm
 {
@@ -49,13 +51,42 @@ namespace Bible.Wasm
             services.AddSingleton<BibleBookService>();
             //services.AddSingleton<UsjRenderVisitor>();
             services.AddSingleton<UsxToUsjConverter>();
-            //services.AddSingleton<IStorageService, JsStorageService>();
-            //services.AddSingleton<IStorageService, DictionaryStorageService>();
-            services.AddSingleton<IStorageService, MemoryCacheStorageService>();
             services.AddSingleton<UsjBookService>();
             services.AddSingleton<UnihanService>();
 
+            //services.AddSingleton<IStorageService, JsStorageService>();
+            //services.AddSingleton<IStorageService, DictionaryStorageService>();
+            services.AddSingleton<IStorageService, MemoryCacheStorageService>();
+            //RegisterStorage(services);
             _provider = services.BuildServiceProvider();
+            CreateDbContext(_provider);
+        }
+
+        static void RegisterStorage(IServiceCollection services)
+        {
+            // Initialize SQLite for WASM provider (required when using SQLite in Blazor WASM)
+            Batteries_V2.Init();
+
+            // Register EF Core DbContext factory for SQLite (WASM)
+            services.AddDbContextFactory<StorageDbContext>(options =>
+                options.UseSqlite("Filename=storage.db"));
+            // Use the EF-backed storage service
+            services.AddSingleton<IStorageService, DatabaseStorageService>();
+        }
+
+        static void CreateDbContext(IServiceProvider serviceProvider)
+        {
+            // Ensure DB is created at startup
+            try
+            {
+                var factory = serviceProvider.GetRequiredService<IDbContextFactory<StorageDbContext>>();
+                using var db = factory.CreateDbContext();
+                db.Database.EnsureCreated();
+            }
+            catch
+            {
+                // ignore creation errors at bootstrap; log or handle as needed
+            }
         }
 
         static IServiceProvider? _provider;
