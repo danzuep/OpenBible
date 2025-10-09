@@ -7,12 +7,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bible.Core\Bible.Core.csproj" />
+    <ProjectReference Include="..\Unihan\Unihan.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="txt\*.txt" />
-    <EmbeddedResource Include="json\*.json" />
-    <EmbeddedResource Include="usx\*\*.usx" />
+    <EmbeddedResource Include="txt\*.txt" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="json\*.json" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="usx\*\*.usx" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

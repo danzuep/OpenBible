@@ -1,9 +1,8 @@
-﻿namespace Bible.Backend.Models;
+﻿using System.Text.Json.Serialization;
 
-using System;
-using System.Collections.Generic;
-using System.Text.Json.Serialization;
+namespace Bible.Backend.Models;
 
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
 public class MetadataRoot
 {
     [JsonPropertyName("metadata")]
@@ -36,3 +35,4 @@ public class MetadataItem
     [JsonPropertyName("rights")]
     public string Rights { get; set; }
 }
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.

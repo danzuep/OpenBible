@@ -123,7 +123,7 @@ namespace Bible.Backend.Visitors
 
         private void AddUnihan(int codepoint, UnihanField unihanField)
         {
-            if (Unihan?.Dictionary != null && Unihan.Dictionary.TryGetValue(codepoint, out var metadata))
+            if (Unihan?.Lookup != null && Unihan.Lookup.TryGetValue(codepoint, out var metadata))
             {
                 foreach (var kvp in metadata)
                 {

@@ -5,8 +5,32 @@ using Unihan.Models;
 
 namespace Unihan.Services
 {
-    public sealed class UnihanParserService
+    public sealed class UnihanParserService : IUnihanParserService
     {
+        public async Task<Stream> ProcessStreamAsync(Stream inputStream)
+        {
+            return await ParseToStreamAsync(inputStream, null);
+        }
+
+        public static async Task<T> ParseUnihanAsync<T>(string sitePath, string fileName = "Unihan_Readings")
+            where T : class, IUnihanReadings, new()
+        {
+            var inputPath = Path.Combine(sitePath, $"{fileName}.txt");
+            var outputPath = Path.Combine(sitePath, $"{fileName}.json");
+            if (File.Exists(outputPath))
+            {
+                var unihanText = await File.ReadAllTextAsync(outputPath);
+                var deserialized = JsonSerializer.Deserialize<T>(unihanText);
+                if (deserialized != null)
+                {
+                    return deserialized;
+                }
+            }
+            var parser = new UnihanParserService();
+            var unihan = await parser.ParseAsync<T>(inputPath, outputPath);
+            return unihan;
+        }
+
         /// <summary>
         /// Parses the input stream asynchronously and populates an instance of <typeparamref name="T"/> with Unihan readings.
         /// </summary>
@@ -61,18 +85,34 @@ namespace Unihan.Services
                     UnihanField.kJapanese
                 ];
             }
-            var results = await ParseAsync(inputStream, fields);
+            var results = await ParseAsync<UnihanLookup>(inputStream, fields);
             var outputStream = new MemoryStream();
             await JsonSerializer.SerializeAsync(outputStream, results);
             outputStream.Position = 0;
             return outputStream;
         }
 
-        public static async Task<UnihanLookup> ParseAsync(Stream stream, IEnumerable<UnihanField>? fields = null)
+        public static async Task<T> ParseFilteredToStreamAsync<T>(Stream inputStream, IEnumerable<UnihanField>? fields = null)
+            where T : IUnihanReadings, new()
+        {
+            if (fields is null || !fields.Any())
+            {
+                fields = [
+                    UnihanField.kDefinition,
+                    UnihanField.kMandarin,
+                    UnihanField.kCantonese,
+                    UnihanField.kJapanese
+                ];
+            }
+            return await ParseAsync<T>(inputStream, fields);
+        }
+
+        public static async Task<T> ParseAsync<T>(Stream stream, IEnumerable<UnihanField>? fields = null)
+            where T : IUnihanReadings, new()
         {
             var hashtable = fields == null ? null : new HashSet<UnihanField>(fields);
             using var reader = new StreamReader(stream);
-            var results = new UnihanLookup();
+            var results = new T();
             await ParseAsync(reader, ParseEntry);
             stream.Seek(0, SeekOrigin.Begin); // Reset stream position
             return results;
@@ -82,16 +122,10 @@ namespace Unihan.Services
                 bool continueParsing = true;
                 if (!TryParseLine(line, out var parts))
                     return continueParsing; // malformed line, skip
-
-                var codepoint = ConvertToCodepoint(parts[0]);
-
-                _ = Enum.TryParse<UnihanField>(parts[1], out var unihanField);
-
-                if (hashtable != null && !hashtable.Contains(unihanField))
+                var field = parts[1];
+                if (hashtable != null && (!Enum.TryParse<UnihanField>(field, out var unihanField) || !hashtable.Contains(unihanField)))
                     return continueParsing; // skip fields not in the provided list
-
-                results.AddEntry(codepoint, unihanField, value: parts[2]);
-
+                results.AddEntry(codepoint: parts[0], field, value: parts[2]);
                 return continueParsing;
             }
         }

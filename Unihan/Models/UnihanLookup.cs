@@ -5,7 +5,7 @@ using Unihan.Services;
 namespace Unihan.Models
 {
     /// <inheritdoc cref="IUnihanReadings"/>
-    public class UnihanLookup : Dictionary<int, UnihanFieldLookup>, IUnihanReadings
+    public sealed class UnihanLookup : Dictionary<int, UnihanFieldLookup>, IUnihanReadings
     {
         public void AddEntry(string codepoint, string field, string value)
         {

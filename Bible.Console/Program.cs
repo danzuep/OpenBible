@@ -29,6 +29,7 @@ public class Program
             builder.SetMinimumLevel(LogLevel.Trace).AddDebug().AddConsole());
         var logger = loggerFactory.CreateLogger<Program>();
 
+        await SplitUnihanReadingsToFilesAsync(logger);
         //await ParseToFileAsync(logger);
         //await ParseFromFileAsync(char.ConvertFromUtf32(23383));
         //Sample.UnifiedScripture(logger);
@@ -37,7 +38,7 @@ public class Program
         //await ParseScriptureBookAsync(logger);
         //await ParseBibleBookAsync(logger);
         //await ParseAsync(logger);
-        await ParseToUnihanAsync();
+        //await ParseToUnihanAsync();
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -205,26 +206,6 @@ public class Program
         return bibleBook;
     }
 
-    public static async Task<string> ParseDemoAsync(string? text, IEnumerable<UnihanField>? fields = null)
-    {
-        if (string.IsNullOrWhiteSpace(text))
-        {
-            text = char.ConvertFromUtf32(23383); // test char
-        }
-        if (fields is null || !fields.Any())
-        {
-            fields = [
-                UnihanField.kDefinition,
-                UnihanField.kMandarin,
-                UnihanField.kCantonese,
-                UnihanField.kJapanese
-            ];
-        }
-        await using var stream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
-        var unihanLookup = await UnihanParserService.ParseAsync(stream, fields);
-        return ParseToString(text, unihanLookup);
-    }
-
     private static async Task<string> ParseUnihanReadingsFromFileAsync(string text)
     {
         var unihanLookup = await ResourceHelper.GetFromJsonAsync<UnihanLookup>("Unihan_Readings.json");
@@ -233,10 +214,18 @@ public class Program
 
     private static async Task ParseUnihanReadingsToFileAsync(ILogger logger)
     {
-        await using var inputStream = ResourceHelper.GetStreamFromExtension("Unihan_Readings.txt");
-        await using var outputStream = await UnihanParserService.ParseToStreamAsync(inputStream);
-        var filePath = await ResourceHelper.WriteStreamAsync("Unihan_Readings.json", outputStream);
+        var filePath = await ResourceHelper.ParseUnihanReadingsToFileAsync();
         logger.LogInformation("{Path} created successfully.", filePath);
+    }
+
+    private static async Task SplitUnihanReadingsToFilesAsync(ILogger logger)
+    {
+        var filePaths = await ResourceHelper.SplitUnihanReadingsToFilesAsync();
+        logger.LogInformation("Paths created successfully.");
+        foreach (var filePath in filePaths)
+        {
+            logger.LogInformation("{Path}", filePath);
+        }
     }
 
     private static async Task ParseScriptureBookToFileAsync(ILogger logger, string path = "eng/webbe/3jn") // "zho-Hant-OCCB/3JN.usx"

@@ -8,6 +8,16 @@ namespace Unihan.Services
     {
         private JsonBufferWriter<UnihanJsonEntry>? _jsonBufferWriter;
 
+        public string? OutputPath { get; set; }
+
+        public static async Task ParseUnihanAsync(string sitePath, string fileName = "Unihan_Readings")
+        {
+            var inputPath = Path.Combine(sitePath, $"{fileName}.txt");
+            var outputPath = Path.Combine(sitePath, $"{fileName}.json");
+            var unihanSerializer = new UnihanSerializer();
+            await unihanSerializer.ParseAsync(inputPath, outputPath);
+        }
+
         /// <inheritdoc cref="UnihanParserService.ParseAsync{T}(StreamReader)"/>
         public async Task ParseAsync(string inputPath, string outputPath)
         {
@@ -16,8 +26,6 @@ namespace Unihan.Services
             _jsonBufferWriter?.Dispose();
             _jsonBufferWriter = null;
         }
-
-        public string? OutputPath { get; set; }
 
         public void AddEntry(string codepoint, string field, string value)
         {

@@ -144,8 +144,8 @@ public sealed class UsxToHtmlVisitor : IUsxVisitor
     {
         var fields = new UnihanField[] { unihanField }; // UnihanField.kDefinition
         var unihanCharacter = char.ConvertFromUtf32(codepoint);
-        if (Unihan?.Dictionary != null &&
-            Unihan.Dictionary.TryGetEntryText(codepoint, fields, out var entryText))
+        if (Unihan?.Lookup != null &&
+            Unihan.Lookup.TryGetEntryText(codepoint, fields, out var entryText))
         {
             _sb.Append("<ruby>");
             _sb.Append(unihanCharacter);

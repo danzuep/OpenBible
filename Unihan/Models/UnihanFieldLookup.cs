@@ -1,6 +1,6 @@
 ﻿namespace Unihan.Models
 {
-    public class UnihanFieldLookup : Dictionary<UnihanField, IList<string>>
+    public sealed class UnihanFieldLookup : Dictionary<UnihanField, IList<string>>
     {
         public void Add(UnihanField field, string value)
         {

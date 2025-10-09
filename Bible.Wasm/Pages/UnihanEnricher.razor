@@ -44,6 +44,7 @@
 
     private async Task EnrichContent()
     {
+		await Task.Yield();
         IsEnriching = true;
         StatusMessage = string.Empty;
 

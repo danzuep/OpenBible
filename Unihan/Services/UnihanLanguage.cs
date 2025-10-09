@@ -24,7 +24,9 @@ namespace Unihan.Services
 
         public UnihanField Field { get; }
 
-        public UnihanLookup? Dictionary { get; set; }
+        public UnihanLookup? Lookup { get; set; }
+
+        public UnihanDictionary? Dictionary { get; set; }
 
         public static readonly Dictionary<string, UnihanField> ISO6393UnihanLookup = new Dictionary<string, UnihanField>
         {

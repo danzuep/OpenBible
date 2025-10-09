@@ -14,7 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Bible.Data\Bible.Data.csproj" />
     <ProjectReference Include="..\Bible.Usx\Bible.Usx.csproj" />
-    <ProjectReference Include="..\Unihan\Unihan.csproj" />
   </ItemGroup>
 
 </Project>

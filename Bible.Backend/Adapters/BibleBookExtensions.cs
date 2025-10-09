@@ -97,7 +97,7 @@ namespace Bible.Backend.Adapters
 
             void AddUnihan(int codepoint, UnihanField unihanField)
             {
-                if (unihan?.Dictionary != null && unihan.Dictionary.TryGetValue(codepoint, out var metadata))
+                if (unihan?.Lookup != null && unihan.Lookup.TryGetValue(codepoint, out var metadata))
                 {
                     sb.Append("<rt>");
                     foreach (var kvp in metadata)
