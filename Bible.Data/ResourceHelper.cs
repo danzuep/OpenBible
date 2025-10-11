@@ -89,12 +89,40 @@ namespace Bible.Data
             return await JsonSerializer.DeserializeAsync<T>(inputStream, options, cancellationToken);
         }
 
-        public static async Task<string> WriteStreamAsync(string fileName, Stream inputStream, bool normalizeFileName = true)
+        public static async Task<string> WriteJsonAsync<T>(T input, string fileName, bool normalizeFileName = true, JsonSerializerOptions? options = null, CancellationToken cancellationToken = default)
+        {
+            if (input == null)
+            {
+                throw new ArgumentNullException(nameof(input), "Input cannot be null.");
+            }
+
+            var filePath = GetFilePath(fileName, normalizeFileName);
+
+            await using var outputStream = new FileStream(filePath, FileMode.Create);
+            await JsonSerializer.SerializeAsync(outputStream, input, options, cancellationToken);
+
+            return filePath;
+        }
+
+        public static async Task<string> WriteStreamAsync(Stream inputStream, string fileName, bool normalizeFileName = true)
         {
             if (inputStream == null || inputStream.Length == 0)
             {
                 throw new ArgumentNullException(nameof(inputStream), "Input stream cannot be null.");
             }
+
+            var filePath = GetFilePath(fileName, normalizeFileName);
+
+            // Save the file to the server's file system
+            await using var fileStream = new FileStream(filePath, FileMode.Create);
+            await inputStream.CopyToAsync(fileStream);
+            inputStream.Position = 0; // Reset the position of the input stream
+
+            return filePath;
+        }
+
+        private static string GetFilePath(string fileName, bool normalizeFileName = true)
+        {
             if (string.IsNullOrWhiteSpace(fileName))
             {
                 throw new ArgumentException("File name cannot be null or empty.", nameof(fileName));
@@ -120,11 +148,6 @@ namespace Bible.Data
                     Directory.CreateDirectory(directory);
                 }
             }
-
-            // Save the file to the server's file system
-            await using var fileStream = new FileStream(filePath, FileMode.Create);
-            await inputStream.CopyToAsync(fileStream);
-            inputStream.Position = 0; // Reset the position of the input stream
 
             return filePath;
         }

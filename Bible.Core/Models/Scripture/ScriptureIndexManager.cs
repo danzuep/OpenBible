@@ -1,4 +1,6 @@
-﻿namespace Bible.Core.Models.Scripture
+﻿using System.Text.Json;
+
+namespace Bible.Core.Models.Scripture
 {
     public class ScriptureIndexManager
     {
@@ -40,5 +42,10 @@
 
         public ReadOnlySpan<ScriptureSegment> GetParagraph(ushort paragraph)
             => _paragraphRanges.TryGetValue(paragraph, out var r) ? _segmentStorage.Slice(r.Start.Value, r.End.Value - r.Start.Value) : ReadOnlySpan<ScriptureSegment>.Empty;
+
+        public async Task<Stream> SerializeAsync()
+        {
+            return await _segmentStorage.SerializeAsync().ConfigureAwait(false);
+        }
     }
 }

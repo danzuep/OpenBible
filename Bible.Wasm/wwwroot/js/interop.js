@@ -212,3 +212,12 @@ window.scroll = {
     getInnerHeight: () => window.innerHeight,
     getInnerWidth: () => window.innerWidth
 };
+
+window.downloadFileFromBase64 = (filename, base64) => {
+    const link = document.createElement('a');
+    link.href = 'data:application/octet-stream;base64,' + base64;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};

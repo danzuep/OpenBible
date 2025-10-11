@@ -4,6 +4,8 @@
 @using Bible.Usx.Models
 @using Bible.Usx.Services
 @using Bible.Wasm.Shared.Usj
+@using Unihan.Models
+@using Unihan.Services
 @inject UsjBookService UsjBookService
 
 @if (UsjBook == null)
@@ -12,20 +14,18 @@
 }
 else
 {
-    @* <div class="d-flex flex-column align-center">
-        <MudPagination BoundaryCount="1" MiddleCount="3" Count="@_chapterCount" Selected="@ChapterNumber" SelectedChanged="ChapterChanged" Class="mt-4" />
-    </div> *@
-@* 
-    <label for="pronunciationToggle" class="mb-3 d-inline-flex align-items-center" style="cursor:pointer;">
-        <input id="pronunciationToggle"
-               type="checkbox"
-               checked="_showRuby"
-               @onchange="OnPronunciationToggleChanged"
-               class="me-2" />
-        Show Anglicised Pronunciation (ruby text)
-    </label>
- *@
-    <UsjRenderer Node="@UsjBook" ShowRuby="@_showRuby" />
+    @*<div class="d-flex align-items-center mb-3" style="gap:12px;">
+        <MudCheckBox T="bool"
+            Disabled="_isEnriching"
+            Label="Show Anglicised Pronunciation (ruby text)"
+            ValueChanged="@OnPronunciationToggled" />
+        @if (_isEnriching)
+        {
+            <MudProgressCircular StrokeWidth="20" Color="Color.Primary" Indeterminate="true" />
+        }
+    </div>*@
+
+    <UsjRenderer Node="@UsjBook" Ruby="@Ruby" />
 }
 
 @code {
@@ -41,47 +41,25 @@ else
     [Parameter]
     public int? ChapterNumber { get; set; } = 1;
 
-    // [Inject]
-    // private BibleBookService BibleBookService { get; set; } = default!;
-
-    // int _chapterCount => UsjBook?.ChapterCount ?? 0;
-
     private bool _isEnriching = false;
-    private bool _showRuby = false;
+    private bool _isChecked = false;
+    private UnihanField? _unihanType;
+    private UnihanField? Ruby;
     private UsjBook? UsjBook;
 
     protected override async Task OnParametersSetAsync()
     {
-        // _bibleBook = await BibleBookService.GetBibleBookAsync(Language, BibleVersion, BookCode);
-        // var verse = BibleBookExtensions.ToRubyRunes(verseMarkup, BibleBookService.Unihan);
-        // UsjBook = await UsjRenderVisitor.DeserializeAsync(Language, BibleVersion, BookCode);
+        var unihanLanguage = new UnihanLanguage(Language);
+        _unihanType = unihanLanguage.Field;
         UsjBook = await UsjBookService.GetBookAsync(Language, BibleVersion, BookCode);
     }
 
-    private async Task OnPronunciationToggleChanged(ChangeEventArgs? e)
+    private async Task OnPronunciationToggled(bool isChecked)
     {
         await Task.CompletedTask;
-
-        if (!(e?.Value is bool selection) || UsjBook is null || Language is null || _isEnriching) return;
-
-        _isEnriching = true;
-
-        try
-        {
-            var versionDescription = UsjBook.Metadata.VersionDescription;
-            System.Diagnostics.Debug.WriteLine(versionDescription);
-            // var metadata = await UnihanService.ParseAsync(versionDescription, Language);
-            // UsjBook.Content.Add() = metadata.ToString();
-        }
-        catch (Exception ex)
-        {
-            System.Diagnostics.Debug.WriteLine(ex.Message);
-            System.Diagnostics.Debugger.Break();
-        }
-        finally
-        {
-            _isEnriching = false;
-            StateHasChanged();
-        }
+        _isChecked = isChecked;
+        if (UsjBook is null || _isEnriching || !_unihanType.HasValue || _unihanType == UnihanField.Unknown) return;
+        _ = UsjBookService.AddUnihanAsync(UsjBook, _unihanType.Value);
+        Ruby = _isChecked ? _unihanType : null;
     }
 }

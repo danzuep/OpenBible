@@ -1,4 +1,5 @@
 ﻿@using Bible.Usx.Models
+@using Unihan.Models
 
 <section class="usj-book">
     @if (Book.Metadata != null)
@@ -9,7 +10,7 @@
     {
         @foreach (var node in Book.Content)
         {
-            <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+            <UsjRenderer Node="node" Ruby="Ruby" />
         }
     }
 </section>
@@ -19,5 +20,5 @@
     public UsjBook Book { get; set; } = default!;
 
     [Parameter]
-    public bool ShowRuby { get; set; } = true;
+    public UnihanField? Ruby { get; set; }
 }

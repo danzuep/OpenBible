@@ -148,7 +148,7 @@ namespace Bible.Backend.Services
         static async Task<ScriptureBook?> ParseScriptureBookAsync(string language, string version, string book)
         {
             // language = "zho-Hant"; version = "OCCB"; book = "3JN";
-            var unihan = await UnihanService.GetUnihanAsync(language);
+            var unihan = await UnihanService.GetUnihanAsync(language, dictionary: true);
             var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
             await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
             var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);

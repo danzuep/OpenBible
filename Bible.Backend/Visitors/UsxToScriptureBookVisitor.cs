@@ -61,6 +61,7 @@ namespace Bible.Backend.Visitors
                 para.Style.StartsWith("h", StringComparison.OrdinalIgnoreCase) &&
                 para.Text is string heading)
             {
+                //Visit(heading);
                 if (string.IsNullOrEmpty(_builder.BookMetadata.Name))
                     _builder.BookMetadata.Name = heading;
                 else
@@ -107,11 +108,11 @@ namespace Bible.Backend.Visitors
 
         public void Visit(string text)
         {
-            if (Unihan != null && Unihan.Field != UnihanField.Unknown)
+            if (Unihan?.Dictionary != null)
             {
                 foreach (var rune in text.EnumerateRunes())
                 {
-                    AddUnihan(rune.Value, Unihan.Field);
+                    AddUnihan(rune.Value, Unihan.Dictionary);
                     _builder.AddScriptureSegment(rune.ToString());
                 }
             }
@@ -121,25 +122,20 @@ namespace Bible.Backend.Visitors
             }
         }
 
-        private void AddUnihan(int codepoint, UnihanField unihanField)
+        private void AddUnihan(int codepoint, UnihanDictionary unihanDictionary)
         {
-            if (Unihan?.Lookup != null && Unihan.Lookup.TryGetValue(codepoint, out var metadata))
+            if (unihanDictionary == null) return;
+            if (unihanDictionary.TryGetValue(codepoint, out var metadata))
             {
-                foreach (var kvp in metadata)
-                {
-                    Extract(kvp, unihanField, MetadataCategory.Pronunciation);
-                    //Extract(kvp, UnihanField.kDefinition, MetadataCategory.Definition);
-                }
+                AddScriptureSegments(metadata, MetadataCategory.Pronunciation);
             }
 
-            void Extract(KeyValuePair<UnihanField, IList<string>> kvp, UnihanField field, MetadataCategory category)
+            void AddScriptureSegments(IList<string> values, MetadataCategory category)
             {
-                if (kvp.Key == field)
+                if (values == null) return;
+                foreach (var value in values)
                 {
-                    foreach (var value in kvp.Value)
-                    {
-                        _builder.AddScriptureSegment(value, category);
-                    }
+                    _builder.AddScriptureSegment(value, category);
                 }
             }
         }

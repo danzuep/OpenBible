@@ -5,6 +5,8 @@ using Bible.Usx.Models;
 using Bible.Usx.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
+using Unihan.Models;
+using Unihan.Services;
 
 namespace Bible.Backend.Services
 {
@@ -49,8 +51,10 @@ namespace Bible.Backend.Services
                     await using var usxStream = ResourceHelper.GetUsxBookStream(bibleBookMetadata);
                     usjBook = await _usxToUsjConverter.ConvertUsxStreamToUsjBookAsync(usxStream, cancellationToken);
                     _ = SetSerializedItemAsync(bibleBookMetadata, usjBook, cancellationToken);
+                    //var unihanLanguage = new UnihanLanguage(bibleBookMetadata.IsoLanguage);
+                    //if (unihanLanguage.Field != UnihanField.Unknown)
+                    //    _ = AddUnihanAsync(usjBook, unihanLanguage.Field);
                 }
-                //await AddUnihanAsync(usjBook, bibleBookMetadata.IsoLanguage, cancellationToken);
                 return usjBook;
             }
             catch (Exception ex)
@@ -60,7 +64,7 @@ namespace Bible.Backend.Services
             }
         }
 
-        private async Task AddUnihanAsync(IUsjNode usjNode, string isoLanguage, CancellationToken cancellationToken = default)
+        public async Task AddUnihanAsync(IUsjNode usjNode, UnihanField type, CancellationToken cancellationToken = default)
         {
             if (usjNode is UsjBook usjBook)
             {
@@ -69,23 +73,28 @@ namespace Bible.Backend.Services
                     if (para.Content == null) continue;
                     foreach (var node in para.Content)
                     {
-                        await AddUnihanAsync(node, isoLanguage);
+                        await AddUnihanAsync(node, type);
                     }
                 }
             }
             else if (usjNode is UsjText usjText && usjText.Text is string text)
             {
-                var metadata = await _unihanService.ParseUnihanRunesAsync(text, isoLanguage);
+                var metadata = await _unihanService.ParseUnihanRunesAsync(text, type);
                 var words = new List<UsjChar>();
                 foreach (var word in metadata.Words)
                 {
+                    if (word.Metadata == null)
+                    {
+                        words.Add(new UsjChar { Text = word.Text });
+                        continue;
+                    }
                     words.Add(new UsjChar
                     {
                         Text = word.Text,
                         Metadata = string.Join("; ", word.Metadata)
                     });
                 }
-                usjNode = new UsjPara { Content = words.ToArray() };
+                //usjNode = new UsjPara { Content = words.ToArray() };
             }
         }
 

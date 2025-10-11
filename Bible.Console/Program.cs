@@ -30,14 +30,14 @@ public class Program
             builder.SetMinimumLevel(LogLevel.Trace).AddDebug().AddConsole());
         var logger = loggerFactory.CreateLogger<Program>();
 
-        await PaginatedSearch.DemoAsync();
+        //await PaginatedSearch.DemoAsync();
         //await SplitUnihanReadingsToFilesAsync(logger);
         //await ParseToFileAsync(logger);
         //await ParseFromFileAsync(char.ConvertFromUtf32(23383));
         //Sample.UnifiedScripture(logger);
         //LoadBible(loggerFactory);
         //await LoadBibleBookAsync(loggerFactory);
-        //await ParseScriptureBookAsync(logger);
+        await ParseScriptureBookAsync(logger);
         //await ParseBibleBookAsync(logger);
         //await ParseAsync(logger);
         //await ParseToUnihanAsync();
@@ -83,30 +83,36 @@ public class Program
         var bibleBook = await bibleBookService.GetBibleBookAsync(language, version, book);
         if (bibleBook != null)
         {
-            var unihan = await UnihanService.GetUnihanAsync(language);
-            //logger.LogInformation(bibleBook.GetMarkdown());
-            logger.LogInformation(bibleBook.GetHtml());
+            //var unihan = await UnihanService.GetUnihanAsync(language);
+            logger.LogInformation(bibleBook.GetMarkdown());
+            //logger.LogInformation(bibleBook.GetHtml());
+            var path = string.Join("/", [language, version, book]);
+            //var filePath = await ResourceHelper.WriteJsonAsync(bibleBook, $"{path}.json");
+            //logger.LogInformation("{Path} created successfully.", filePath);
         }
         return bibleBook;
     }
 
     private static async Task<ScriptureBook?> ParseScriptureBookAsync(ILogger logger, string path = "zho-Hant-OCCB/3JN.usx") // "eng/webbe/3jn"
     {
-        (var unihan, var options) = await TryGetUnihanOptionsAsync(path);
+        (var unihan, var options) = await TryGetUnihanOptionsAsync(path, dictionary: true);
         await using var stream = ResourceHelper.GetStreamFromExtension(path);
         var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan, options);
         if (scriptureBook != null)
         {
-            logger.LogInformation(scriptureBook.ToMarkdownChapter(1));
+            //logger.LogInformation(scriptureBook.ToMarkdownChapter(1));
             //var result = scriptureBook.ToChapterDto(1);
+            var serializedStream = await scriptureBook.SerializeAsync().ConfigureAwait(false);
+            var filePath = await ResourceHelper.WriteStreamAsync(serializedStream, $"{path}.json");
+            logger.LogInformation("{Path} created successfully.", filePath);
         }
         return scriptureBook;
     }
 
-    private static async Task<(UnihanLanguage?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path)
+    private static async Task<(UnihanLanguage?, UsxVisitorOptions?)> TryGetUnihanOptionsAsync(string path, bool dictionary = false)
     {
         var isoLanguage = string.Join("-", path.Split('-').SkipLast(1));
-        var unihan = await UnihanService.GetUnihanAsync(isoLanguage);
+        var unihan = await UnihanService.GetUnihanAsync(isoLanguage, dictionary);
         var options = new UsxVisitorOptions { EnableRunes = unihan?.Field };
         return (unihan, options);
     }
@@ -234,7 +240,7 @@ public class Program
         await JsonSerializer.SerializeAsync(outputStream, scriptureBook);
         outputStream.Position = 0;
         var jsonPath = path.ToLowerInvariant() + ".json";
-        var filePath = await ResourceHelper.WriteStreamAsync(jsonPath, outputStream);
+        var filePath = await ResourceHelper.WriteStreamAsync(outputStream, jsonPath);
         logger.LogInformation("{Path} created successfully.", filePath);
     }
 

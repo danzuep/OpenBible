@@ -1,4 +1,5 @@
 ﻿@using Bible.Usx.Models
+@using Unihan.Models
 
 <span class="footnote-wrapper @Footnote.Style">
     <sup class="usj-footnote-caller">@Footnote.Caller</sup>
@@ -7,7 +8,7 @@
         {
             @foreach (var node in Footnote.Content)
             {
-                <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+                <UsjRenderer Node="node" Ruby="Ruby" />
             }
         }
     </aside>
@@ -18,5 +19,5 @@
     public UsjFootnote Footnote { get; set; } = default!;
 
     [Parameter]
-    public bool ShowRuby { get; set; } = true;
+    public UnihanField? Ruby { get; set; }
 }

@@ -25,13 +25,19 @@ namespace Bible.Backend.Services
 
         private static string GetName(UnihanField field) => $"unihan_{field}";
 
-        public static async Task<UnihanLanguage> GetUnihanAsync(string isoLanguage, string? fileName = null)
+        public static async Task<UnihanLanguage> GetUnihanAsync(string isoLanguage, bool dictionary = false, string? fileName = null)
         {
             UnihanLanguage unihan = new(isoLanguage);
             if (unihan.Field != UnihanField.Unknown)
             {
-                unihan.Lookup = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName ?? _filePath);
-                //unihan.Dictionary = await ResourceHelper.GetFromJsonAsync<UnihanDictionary>($"{GetName(unihan.Field)}.json");
+                if (dictionary)
+                {
+                    unihan.Dictionary = await ResourceHelper.GetFromJsonAsync<UnihanDictionary>($"{GetName(unihan.Field)}.json");
+                }
+                else
+                {
+                    unihan.Lookup = await ResourceHelper.GetFromJsonAsync<UnihanLookup>(fileName ?? _filePath);
+                }
             }
             return unihan;
         }

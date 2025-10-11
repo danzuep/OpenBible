@@ -1,4 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
+using Unihan.Models;
 
 namespace Bible.Core.Models.Scripture
 {
@@ -54,6 +55,20 @@ namespace Bible.Core.Models.Scripture
         }
 
         public void AddScriptureSegment(string text, MetadataCategory category = MetadataCategory.Text)
+        {
+            ThrowIfSealed();
+            if (text is null) throw new ArgumentNullException(nameof(text));
+
+            // Handle paragraph change
+            if (category == MetadataCategory.Style && text == "p")
+            {
+                HandleParagraphChange();
+            }
+
+            _segments.Add(new ScriptureSegment(text, category));
+        }
+
+        public void AddScriptureText(string text, MetadataCategory category = MetadataCategory.Text)
         {
             ThrowIfSealed();
             if (text is null) throw new ArgumentNullException(nameof(text));

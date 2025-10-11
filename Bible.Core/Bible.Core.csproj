@@ -16,4 +16,8 @@
     <None Include="../.github/**" LinkBase="Solution Items/Pipeline" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Unihan\Unihan.csproj" />
+  </ItemGroup>
+
 </Project>

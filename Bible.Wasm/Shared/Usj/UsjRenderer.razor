@@ -1,4 +1,5 @@
 ﻿@using Bible.Usx.Models
+@using Unihan.Models
 
 @if (Node == null)
 {
@@ -9,7 +10,7 @@ else
     @switch (Node)
     {
         case UsjBook book:
-            <UsjBookRenderer Book="book" ShowRuby="ShowRuby" />
+            <UsjBookRenderer Book="book" Ruby="Ruby" />
             break;
         case UsjIdentification id:
             <UsjIdentificationRenderer Identification="id" />
@@ -21,10 +22,10 @@ else
             <UsjVerseMarkerRenderer VerseMarker="verse" />
             break;
         case UsjPara para:
-            <UsjParaRenderer Para="para" ShowRuby="ShowRuby" />
+            <UsjParaRenderer Para="para" Ruby="Ruby" />
             break;
         case UsjChar ch:
-            <UsjCharRenderer Char="ch" ShowRuby="ShowRuby" />
+            <UsjCharRenderer Char="ch" Ruby="Ruby" />
             break;
         case UsjText text:
             <UsjTextRenderer Text="text" />
@@ -36,10 +37,10 @@ else
             <UsjLineBreakRenderer LineBreak="lb" />
             break;
         case UsjCrossReference crossRef:
-            <UsjCrossReferenceRenderer CrossReference="crossRef" ShowRuby="ShowRuby" />
+            <UsjCrossReferenceRenderer CrossReference="crossRef" Ruby="Ruby" />
             break;
         case UsjFootnote footnote:
-            <UsjFootnoteRenderer Footnote="footnote" ShowRuby="ShowRuby" />
+            <UsjFootnoteRenderer Footnote="footnote" Ruby="Ruby" />
             break;
         default:
             <p>[Unsupported node type: @Node.GetType().Name]</p>
@@ -52,5 +53,5 @@ else
     public IUsjNode? Node { get; set; }
 
     [Parameter]
-    public bool ShowRuby { get; set; } = true;
+    public UnihanField? Ruby { get; set; }
 }

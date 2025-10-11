@@ -39,7 +39,7 @@ namespace Bible.Data.Services
             unihanParserService ??= new UnihanParserService();
             await using var inputStream = ResourceHelper.GetStreamFromExtension($"{fileName}.txt");
             await using var outputStream = await unihanParserService.ProcessStreamAsync(inputStream);
-            var filePath = await ResourceHelper.WriteStreamAsync($"{fileName}.json", outputStream);
+            var filePath = await ResourceHelper.WriteStreamAsync(outputStream, $"{fileName}.json");
             return filePath;
         }
 
@@ -64,7 +64,7 @@ namespace Bible.Data.Services
                     var pageItems = page.Value;
                     var fileName = $"{prefix}_{field}_{pageId:D4}.json";
                     var outputStream = await SerializeAsync(pageItems);
-                    var filePath = await ResourceHelper.WriteStreamAsync(fileName, outputStream, normalizeFileName: false);
+                    var filePath = await ResourceHelper.WriteStreamAsync(outputStream, fileName, normalizeFileName: false);
                     progress?.Report(filePath);
                 }
             }

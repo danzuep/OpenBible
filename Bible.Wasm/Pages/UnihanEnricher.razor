@@ -1,71 +1,148 @@
 ﻿@page "/enrich"
 @using Bible.Backend.Services
+@using System.Text
 @using Unihan.Models
 @using Unihan.Services
 @inject UnihanService UnihanService
+@inject MudBlazor.ISnackbar Snackbar
 
 <PageTitle>Converter</PageTitle>
 
-<h3>Send Paragraph Content</h3>
+<MudPaper Class="pa-6 mx-auto" Elevation="2" Style="max-width:1100px;">
+    <MudStack Spacing="2">
+        <MudText Typo="Typo.h5">Send Paragraph Content</MudText>
+        <MudText Typo="Typo.body2" Color="Color.Tertiary">
+            This component enriches Unicode Han characters with metadata.
+        </MudText>
 
-<p>This component enriches Unicode Han characters with metadata.</p>
+        <MudGrid GutterSize="3" Class="mt-2">
+            <MudItem xs="12" md="6">
+                <MudText Typo="Typo.subtitle2" Class="mb-1">Enter paragraph(s)</MudText>
+                <MudTextField @bind-Value="ParagraphContent"
+                              Placeholder="Enter text here..."
+                              Lines="8"
+                              Immediate="true"
+                              TextAlign="TextAlign.Left"
+                              Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.Clear"
+                              AdornmentColor="Color.Default"
+                              OnAdornmentClick="ClearInput"
+                              MaxLength="5000"
+                              FullWidth="true"
+                              Variant="Variant.Outlined"
+                              T="string" />
+                <MudText Typo="Typo.caption" Color="Color.Tertiary">
+                    Characters: @ParagraphContent?.Length ?? 0
+                </MudText>
+            </MudItem>
 
-<div class="mb-3">
-    <label for="contentInput" class="form-label">Enter paragraph(s):</label>
-    <br />
-    <textarea id="contentInput" class="form-control" rows="8" @bind="ParagraphContent" placeholder="Enter text here..."></textarea>
-</div>
+            <MudItem xs="12" md="6">
+                <MudText Typo="Typo.subtitle2" Class="mb-1">Result</MudText>
+                <MudTextField @bind-Value="ParagraphResult"
+                              Lines="8"
+                              ReadOnly="true"
+                              FullWidth="true"
+                              Variant="Variant.Outlined"
+                              T="string" />
+                <MudStack Direction="Row" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center" Class="mt-1">
+                    <MudText Typo="Typo.caption" Color="Color.Tertiary">Paste below or use the Enrich button</MudText>
+                    <MudStack Direction="Row" Spacing="1">
+                        <MudIconButton Icon="@Icons.Material.Filled.ContentCopy" OnClick="CopyResult" Disabled="@string.IsNullOrWhiteSpace(ParagraphResult)" Color="Color.Primary" Size="Size.Small" />
+                        <MudIconButton Icon="@Icons.Material.Filled.Download" OnClick="DownloadResult" Disabled="@string.IsNullOrWhiteSpace(ParagraphResult)" Color="Color.Default" Size="Size.Small" />
+                    </MudStack>
+                </MudStack>
+            </MudItem>
+        </MudGrid>
 
-<button class="btn btn-primary" @onclick="EnrichContent" disabled="@IsEnriching">
-    @(IsEnriching ? "Enriching..." : "Enrich Text")
-</button>
+        <MudDivider Class="my-2" />
 
-<br />
-
-<div class="mb-3">
-    <label for="contentOutput" class="form-label">Result:</label>
-    <br />
-    <textarea id="contentOutput" class="form-control" rows="8" @bind="ParagraphResult"></textarea>
-</div>
-
-@if (!string.IsNullOrEmpty(StatusMessage))
-{
-    <div class="mt-3 alert @StatusClass" role="alert">
-        @StatusMessage
-    </div>
-}
+        <MudStack Direction="Row" Justify="Justify.FlexEnd" AlignItems="AlignItems.Center" Spacing="2">
+            <MudText Typo="Typo.caption" Color="Color.Tertiary">Processing may take a few seconds for large input</MudText>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="EnrichContent" Disabled="@(IsEnriching)">
+                @* string.IsNullOrWhiteSpace(ParagraphContent) *@
+                @* @if (IsEnriching)
+                {
+                    <MudProgressCircular Size="20" Indeterminate="true" Class="me-2" />
+                } *@
+                @ButtonText
+            </MudButton>
+        </MudStack>
+    </MudStack>
+</MudPaper>
 
 @code {
     private string ParagraphContent { get; set; } = string.Empty;
     private string ParagraphResult { get; set; } = string.Empty;
-    private bool IsEnriching = false;
-    private string StatusMessage = string.Empty;
-    private string StatusClass = "";
+    private bool IsEnriching { get; set; } = false;
+	private string ButtonText => IsEnriching ? "Enriching..." : "Enrich Text";
 
     private async Task EnrichContent()
     {
-		await Task.Yield();
-        IsEnriching = true;
-        StatusMessage = string.Empty;
+#if DEBUG
+        if (string.IsNullOrEmpty(ParagraphContent))
+            ParagraphContent = "新改訳聖書刊行会";
+#endif
+        if (string.IsNullOrWhiteSpace(ParagraphContent))
+        {
+            Snackbar.Add("Please enter some text to enrich.", Severity.Warning);
+            return;
+        }
 
         try
         {
-            #if DEBUG
-            if (string.IsNullOrEmpty(ParagraphContent))
-                ParagraphContent = "新改訳聖書刊行会";
-            #endif
+            IsEnriching = true;
+            ParagraphResult = string.Empty;
+
             // var metadata = await UnihanService.ParseAsync(ParagraphContent, UnihanField.kCantonese);
-            var metadata = await UnihanService.ParseUnihanRunesAsync(ParagraphContent, UnihanField.kCantonese);
-            ParagraphResult = metadata.ToString();
+            var enriched = await UnihanService.ParseUnihanRunesAsync(ParagraphContent, UnihanField.kCantonese);
+            ParagraphResult = enriched?.ToString() ?? string.Empty;
+            Snackbar.Add("Enrichment complete.", Severity.Success);
         }
         catch (Exception ex)
         {
-            StatusMessage = $"Exception: {ex.Message}";
-            StatusClass = "alert-danger";
+            Snackbar.Add($"Error enriching content: {ex.Message}", Severity.Error);
         }
         finally
         {
             IsEnriching = false;
         }
+    }
+
+    private void ClearInput()
+    {
+        ParagraphContent = string.Empty;
+    }
+
+    private async Task CopyResult()
+    {
+        if (string.IsNullOrWhiteSpace(ParagraphResult))
+            return;
+
+        await JSCopyToClipboard(ParagraphResult);
+        Snackbar.Add("Result copied to clipboard.", Severity.Success);
+    }
+
+    private async Task DownloadResult()
+    {
+        if (string.IsNullOrWhiteSpace(ParagraphResult))
+            return;
+
+        var filename = "enriched-result.txt";
+        await JSDownloadFile(filename, ParagraphResult);
+    }
+
+    // JS interop helpers
+    [Inject] private IJSRuntime JS { get; set; } = default!;
+
+    private async Task JSCopyToClipboard(string text)
+    {
+        await JS.InvokeVoidAsync("navigator.clipboard.writeText", text);
+    }
+
+    private async Task JSDownloadFile(string filename, string content)
+    {
+        var bytes = Encoding.UTF8.GetBytes(content);
+        var base64 = Convert.ToBase64String(bytes);
+        await JS.InvokeVoidAsync("downloadFileFromBase64", filename, base64);
     }
 }

@@ -2,7 +2,7 @@
 {
     /// <summary>
     /// Immutable readonly struct representing a single scripture segment.
-    /// Chapter and Verse are no longer stored in this struct.
+    /// TODO consider using MessagePack for more compact serialization.
     /// </summary>
     public readonly struct ScriptureSegment
     {

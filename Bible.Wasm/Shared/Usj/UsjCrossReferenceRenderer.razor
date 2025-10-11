@@ -1,11 +1,12 @@
 ﻿@using Bible.Usx.Models
+@using Unihan.Models
 
 <a href="@($"#{CrossReference.Location}")" class="@($"usj-crossref {CrossReference.Style}")">
     @if (CrossReference.Content != null)
     {
         @foreach (var node in CrossReference.Content)
         {
-            <UsjRenderer Node="node" ShowRuby="ShowRuby" />
+            <UsjRenderer Node="node" Ruby="Ruby" />
         }
     }
 </a>
@@ -15,5 +16,5 @@
     public UsjCrossReference CrossReference { get; set; } = default!;
 
     [Parameter]
-    public bool ShowRuby { get; set; } = true;
+    public UnihanField? Ruby { get; set; }
 }

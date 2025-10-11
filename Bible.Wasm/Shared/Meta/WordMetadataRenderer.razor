@@ -1,11 +1,12 @@
 ﻿@using Bible.Core.Models.Meta
 @using Bible.Core.Extensions
+@using Unihan.Models
 
 @if (Word.Metadata.IsNullOrEmpty())
 {
     @Word.Text
 }
-else if (ShowRuby)
+else if (Ruby != null)
 {
     @Word.Text<rt>@JoinedMetadata</rt>
 }
@@ -19,7 +20,7 @@ else
     public WordMetadata Word { get; set; } = default!;
 
     [Parameter]
-    public bool ShowRuby { get; set; } = true;
+    public UnihanField? Ruby { get; set; }
 
     private Dictionary<string, object> MetaData
         => new() { ["data-strong"] = JoinedMetadata };

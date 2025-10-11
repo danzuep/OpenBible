@@ -1,12 +1,13 @@
 ﻿@using Bible.Core.Models.Meta
 @using Bible.Core.Extensions
+@using Unihan.Models
 
 @if (Text.Words is null || Text.Words.Count == 0)
 {
     return;
 }
 
-@if (ShowRuby)
+@if (Ruby != null)
 {
     <ruby>@Content</ruby>
 }
@@ -20,7 +21,7 @@ else
     public WordsWithMetadata Text { get; set; } = default!;
 
     [Parameter]
-    public bool ShowRuby { get; set; } = true;
+    public UnihanField? Ruby { get; set; }
 
     RenderFragment Content => _builder =>
     {
@@ -28,7 +29,7 @@ else
         {
             _builder.OpenComponent<WordMetadataRenderer>(0);
             _builder.AddAttribute(1, "Word", word);
-            _builder.AddAttribute(2, "ShowRuby", ShowRuby);
+            _builder.AddAttribute(2, "Ruby", Ruby);
             _builder.CloseComponent();
         }
     };

@@ -8,7 +8,7 @@
     /// ScriptureBook (Facade)
     ///  ├─ ScriptureSegmentStorage (Immutable segment array)
     ///  ├─ ScriptureIndexManager (Manages ranges and mappings)
-    ///  ├─ ScriptureMetadata (Book-level metadata)
+    ///  ├─ ScriptureBookMetadata (Book-level metadata)
     ///  └─ ScriptureSegmentBuilder (Builds segments, manages state before sealing)
     /// </remarks>
     public sealed class ScriptureBook
@@ -60,5 +60,10 @@
 
         public string ToMarkdownChapter(byte chapter)
             => IndexManager.GetChapter(chapter).ToMarkdown(Metadata);
+
+        public async Task<Stream> SerializeAsync()
+        {
+            return await IndexManager.SerializeAsync().ConfigureAwait(false);
+        }
     }
 }

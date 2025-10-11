@@ -4,9 +4,9 @@ namespace Unihan.Services
 {
     public sealed class UnihanLanguage
     {
-        private readonly string _isoLanguage;
+        private readonly string? _isoLanguage;
 
-        public UnihanLanguage(string isoLanguage)
+        public UnihanLanguage(string? isoLanguage)
         {
             _isoLanguage = isoLanguage;
             if (!string.IsNullOrEmpty(isoLanguage) &&
@@ -20,7 +20,7 @@ namespace Unihan.Services
             }
         }
 
-        public string IsoLanguage => _isoLanguage;
+        public string? IsoLanguage => _isoLanguage;
 
         public UnihanField Field { get; }
 
