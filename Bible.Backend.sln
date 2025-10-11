@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11109.219 d18.0-oob
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Core", "Bible.Core\Bible.Core.csproj", "{CE0A785A-B367-8FEC-BC0F-7F0EA735AAC8}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Usx", "Bible.Usx\Bible.Usx.csproj", "{BE41B242-7D92-404A-AC76-3457CA6290BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unihan", "Unihan\Unihan.csproj", "{FD4B0244-5A97-4B9C-A6E5-61101C0C5124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginatedSearch", "PaginatedSearch\PaginatedSearch.csproj", "{1300F0C8-7E4D-43CB-B7D6-7A366C3FE61E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FD4B0244-5A97-4B9C-A6E5-61101C0C5124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4B0244-5A97-4B9C-A6E5-61101C0C5124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4B0244-5A97-4B9C-A6E5-61101C0C5124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1300F0C8-7E4D-43CB-B7D6-7A366C3FE61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1300F0C8-7E4D-43CB-B7D6-7A366C3FE61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1300F0C8-7E4D-43CB-B7D6-7A366C3FE61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1300F0C8-7E4D-43CB-B7D6-7A366C3FE61E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

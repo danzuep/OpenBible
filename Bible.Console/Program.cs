@@ -30,7 +30,8 @@ public class Program
             builder.SetMinimumLevel(LogLevel.Trace).AddDebug().AddConsole());
         var logger = loggerFactory.CreateLogger<Program>();
 
-        await SplitUnihanReadingsToFilesAsync(logger);
+        await PaginatedSearch.DemoAsync();
+        //await SplitUnihanReadingsToFilesAsync(logger);
         //await ParseToFileAsync(logger);
         //await ParseFromFileAsync(char.ConvertFromUtf32(23383));
         //Sample.UnifiedScripture(logger);
