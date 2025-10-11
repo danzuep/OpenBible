@@ -1,6 +1,6 @@
 ﻿namespace Unihan.Models
 {
-    public sealed class UnihanDictionary : Dictionary<int, IList<string>>
+    public sealed class UnihanDictionary : SortedDictionary<int, IList<string>>
     {
         public UnihanField Field { get; set; }
 

@@ -92,21 +92,6 @@ namespace Unihan.Services
             return outputStream;
         }
 
-        public static async Task<T> ParseFilteredToStreamAsync<T>(Stream inputStream, IEnumerable<UnihanField>? fields = null)
-            where T : IUnihanReadings, new()
-        {
-            if (fields is null || !fields.Any())
-            {
-                fields = [
-                    UnihanField.kDefinition,
-                    UnihanField.kMandarin,
-                    UnihanField.kCantonese,
-                    UnihanField.kJapanese
-                ];
-            }
-            return await ParseAsync<T>(inputStream, fields);
-        }
-
         public static async Task<T> ParseAsync<T>(Stream stream, IEnumerable<UnihanField>? fields = null)
             where T : IUnihanReadings, new()
         {

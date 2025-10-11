@@ -14,6 +14,7 @@ using Bible.Backend.Visitors;
 using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
+using Bible.Data.Services;
 using Bible.Usx.Models;
 using Bible.Usx.Services;
 using Microsoft.Extensions.Logging;
@@ -214,13 +215,14 @@ public class Program
 
     private static async Task ParseUnihanReadingsToFileAsync(ILogger logger)
     {
-        var filePath = await ResourceHelper.ParseUnihanReadingsToFileAsync();
+        var filePath = await UnihanFileService.ParseUnihanReadingsToFileAsync();
         logger.LogInformation("{Path} created successfully.", filePath);
     }
 
     private static async Task SplitUnihanReadingsToFilesAsync(ILogger logger)
     {
-        var filePaths = await ResourceHelper.SplitUnihanReadingsToFilesAsync();
+        var unihanFileService = new UnihanFileService(new UnihanSplitterOptions());
+        var filePaths = await unihanFileService.SplitUnihanReadingsToFilesAsync();
         logger.LogInformation("Paths created successfully.");
         foreach (var filePath in filePaths)
         {

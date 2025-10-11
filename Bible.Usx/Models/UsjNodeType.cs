@@ -2,7 +2,7 @@
 
 namespace Bible.Usx.Models;
 
-[JsonConverter(typeof(JsonStringEnumConverter))]
+[JsonConverter(typeof(JsonStringEnumConverter<UsjNodeType>))]
 public enum UsjNodeType
 {
     Book,

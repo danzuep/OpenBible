@@ -128,52 +128,5 @@ namespace Bible.Data
 
             return filePath;
         }
-
-        public static async Task<string> ParseUnihanReadingsToFileAsync(string fileName = "Unihan_Readings", IUnihanParserService? unihanParserService = null)
-        {
-            unihanParserService ??= new UnihanParserService();
-            await using var inputStream = ResourceHelper.GetStreamFromExtension($"{fileName}.txt");
-            await using var outputStream = await unihanParserService.ProcessStreamAsync(inputStream);
-            var filePath = await ResourceHelper.WriteStreamAsync($"{fileName}.json", outputStream);
-            return filePath;
-        }
-
-        public static async Task<IList<string>> SplitUnihanReadingsToFilesAsync(string fileName = "Unihan_Readings")
-        {
-            await using var inputStream = GetStreamFromExtension($"{fileName}.txt");
-            var unihan = await UnihanParserService.ParseAsync<UnihanFieldDictionary>(inputStream);
-
-            var results = new List<string>();
-            foreach (var kvp in unihan)
-            {
-                if (kvp.Value == null) continue;
-                var result = await SplitAsync(kvp.Key, kvp.Value);
-                results.Add(result);
-            }
-            return results;
-
-            async Task<string> SplitAsync(UnihanField field, UnihanDictionary fieldMap, string prefix = "unihan_")
-            {
-                var outputStream = await SerializeAsync(fieldMap);
-                var filePath = await WriteStreamAsync($"{prefix}{field}.json", outputStream, normalizeFileName: false);
-                return filePath;
-
-                //foreach (var fv in fieldMap)
-                //{
-                //    var codepoint = fv.Key;
-                //    var values = fv.Value;
-                //    if (values == null) continue;
-                //}
-            }
-        }
-
-        private static async Task<MemoryStream> SerializeAsync<T>(T target, CancellationToken cancellationToken = default)
-        {
-            var options = null as JsonSerializerOptions;
-            var outputStream = new MemoryStream();
-            await JsonSerializer.SerializeAsync(outputStream, target, options, cancellationToken);
-            outputStream.Position = 0;
-            return outputStream;
-        }
     }
 }

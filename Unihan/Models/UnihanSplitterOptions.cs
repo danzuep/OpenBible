@@ -1,13 +1,15 @@
-﻿namespace Unihan.Models
+﻿using Microsoft.Extensions.Options;
+
+namespace Unihan.Models
 {
-    public sealed class UnihanSplitterOptions
+    public sealed class UnihanSplitterOptions : IOptions<UnihanSplitterOptions>
     {
-        public int PageSize { get; set; } = 256;
+        public int PageSize { get; set; } = 1000;
         public string FileName { get; set; } = "Unihan_Readings";
         public string InputPath => $"{FileName}.txt";
-        public string OutputPath => $"{FileName}.json";
-        public string OutputDirectory { get; set; } = "unihan";
-        public bool WriteIndented { get; set; } = false;
+        public string Prefix { get; set; } = "unihan";
         public bool Precompress { get; set; } = true;
+
+        public UnihanSplitterOptions Value => this;
     }
 }
