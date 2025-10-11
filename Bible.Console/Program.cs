@@ -221,13 +221,8 @@ public class Program
 
     private static async Task SplitUnihanReadingsToFilesAsync(ILogger logger)
     {
-        var unihanFileService = new UnihanFileService(new UnihanSplitterOptions());
-        var filePaths = await unihanFileService.SplitUnihanReadingsToFilesAsync();
-        logger.LogInformation("Paths created successfully.");
-        foreach (var filePath in filePaths)
-        {
-            logger.LogInformation("{Path}", filePath);
-        }
+        var unihanFileService = new UnihanFileService(logger);
+        await unihanFileService.SplitUnihanReadingsToFilesAsync();
     }
 
     private static async Task ParseScriptureBookToFileAsync(ILogger logger, string path = "eng/webbe/3jn") // "zho-Hant-OCCB/3JN.usx"

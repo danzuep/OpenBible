@@ -2,6 +2,8 @@
 using System.IO.Compression;
 using System.Text.Json;
 using Bible.Backend.Services;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Options;
 using Unihan.Models;
 using Unihan.Services;
@@ -18,10 +20,18 @@ namespace Bible.Data.Services
     public sealed class UnihanFileService
     {
         private readonly UnihanSplitterOptions _options;
+        private readonly ILogger _logger;
 
-        public UnihanFileService(IOptions<UnihanSplitterOptions> optionsAccessor)
+        public UnihanFileService(IOptions<UnihanSplitterOptions> optionsAccessor, ILogger<UnihanFileService>? logger = null)
         {
             _options = optionsAccessor.Value;
+            _logger = logger ?? NullLogger<UnihanFileService>.Instance;
+        }
+
+        public UnihanFileService(ILogger logger, UnihanSplitterOptions? optionsAccessor = null)
+        {
+            _options = optionsAccessor ?? new();
+            _logger = logger ?? NullLogger.Instance;
         }
 
         public static async Task<string> ParseUnihanReadingsToFileAsync(string fileName = "Unihan_Readings", IUnihanParserService? unihanParserService = null)
@@ -33,42 +43,30 @@ namespace Bible.Data.Services
             return filePath;
         }
 
-        public async Task<IList<string>> SplitUnihanReadingsToFilesAsync()
+        public async Task SplitUnihanReadingsToFilesAsync()
         {
             await using var inputStream = ResourceHelper.GetStreamFromExtension(_options.InputPath);
             var unihan = await UnihanParserService.ParseAsync<UnihanFieldDictionary>(inputStream);
+            var progress = new Progress<string>(fileName => _logger.LogDebug($"File created: {fileName}"));
 
-            var results = new List<string>();
-            
             foreach (var kvp in unihan)
             {
                 if (kvp.Value == null) continue;
-                var filePaths = await SplitAsync(kvp.Key, kvp.Value);
-                results.AddRange(filePaths);
-            }
-            return results;
-
-            async Task<IList<string>> SplitAsync(UnihanField field, UnihanDictionary fieldMap)
-            {
-                var pages = new PaginatedUnihanDictionary(_options.PageSize, fieldMap);
-                return await PaginateAsync(field, pages);
+                var pages = new PaginatedUnihanDictionary(_options.PageSize, kvp.Value);
+                await PaginateAsync(kvp.Key, pages, _options.Prefix, progress);
             }
 
-            async Task<IList<string>> PaginateAsync(UnihanField field, PaginatedUnihanDictionary pages)
+            static async Task PaginateAsync(UnihanField field, PaginatedUnihanDictionary pages, string prefix, IProgress<string>? progress)
             {
-                var results = new List<string>();
-
                 foreach (var page in pages)
                 {
                     int pageId = page.Key;
                     var pageItems = page.Value;
-                    var fileName = $"{_options.Prefix}_{field}_{pageId:D4}.json";
+                    var fileName = $"{prefix}_{field}_{pageId:D4}.json";
                     var outputStream = await SerializeAsync(pageItems);
                     var filePath = await ResourceHelper.WriteStreamAsync(fileName, outputStream, normalizeFileName: false);
-                    results.Add(filePath);
+                    progress?.Report(filePath);
                 }
-
-                return results;
             }
         }
 
