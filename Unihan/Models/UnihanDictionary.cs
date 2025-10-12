@@ -13,5 +13,13 @@
             }
             record.Add(value);
         }
+
+        public IList<string> GetValue(int codepoint)
+        {
+            if (!TryGetValue(codepoint, out var metadata) || metadata == null) return Array.Empty<string>();
+            return metadata;
+        }
+
+        public Func<int, IList<string>> GetValueDelegate => GetValue;
     }
 }

@@ -31,7 +31,13 @@ public class ParagraphParser : IUsxElementParser
 
             if (reader.NodeType == XmlNodeType.Element)
             {
-                if (_factory.TryGetParser(reader.Name, out var parser) && parser != null)
+                var hasParser = _factory.TryGetParser(reader.Name, out var parser);
+                if (hasParser && parser is CharacterParser cpar)
+                {
+                    var usjChar = (UsjChar)await cpar.ParseAsync(reader);
+                    content.AddRange(_factory.TextParser.ParseEnriched(usjChar));
+                }
+                else if (hasParser && parser != null)
                     content.Add(await parser.ParseAsync(reader));
                 else
                     await reader.SkipAsync();
@@ -41,9 +47,7 @@ public class ParagraphParser : IUsxElementParser
                 reader.NodeType == XmlNodeType.SignificantWhitespace ||
                 reader.NodeType == XmlNodeType.CDATA)
             {
-                var text = reader.Value;
-                if (!string.IsNullOrEmpty(text))
-                    content.Add(new UsjText(text!));
+                content.AddRange(_factory.TextParser.ParseEnriched(reader.Value));
             }
         }
 

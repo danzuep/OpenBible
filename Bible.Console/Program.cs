@@ -1,6 +1,7 @@
 ﻿namespace Bible.Console;
 
 using System;
+using System.Data;
 using System.Diagnostics;
 using System.IO;
 using System.Net.Security;
@@ -12,6 +13,7 @@ using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
 using Bible.Core.Models;
+using Bible.Core.Models.Meta;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
 using Bible.Data.Services;
@@ -37,9 +39,9 @@ public class Program
         //Sample.UnifiedScripture(logger);
         //LoadBible(loggerFactory);
         //await LoadBibleBookAsync(loggerFactory);
-        await ParseScriptureBookAsync(logger);
+        //await ParseScriptureBookAsync(logger);
         //await ParseBibleBookAsync(logger);
-        //await ParseAsync(logger);
+        await ParseAsync(logger);
         //await ParseToUnihanAsync();
 
         //var converter = new XmlConverter(logger);
@@ -68,13 +70,32 @@ public class Program
     //    Debug.WriteLine(unihanMetadata.ToString());
     //}
 
-    static async Task ParseAsync(ILogger logger, string language = "eng", string version = "WEBBE", string book = "3JN")
+    static async Task ParseAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
     {
+        var unihan = await UnihanService.GetUnihanAsync(language, dictionary: true);
+        var enrichRune = (Action<Rune>)((rune) =>
+        {
+            if (unihan?.Dictionary == null) return;
+            var metadata = unihan.Dictionary.GetValue(rune.Value);
+            logger.LogDebug("{Rune}({Metadata})", char.ConvertFromUtf32(rune.Value), string.Join(", ", metadata));
+        });
+        var enrich = (Func<int, IList<string>>?)((codepoint) =>
+        {
+            if (unihan?.Dictionary == null) return Array.Empty<string>();
+            var metadata = unihan.Dictionary.GetValue(codepoint);
+            return metadata;
+        });
+        var unihanDictionary = unihan.Dictionary ?? new();
         var bibleBookService = new BibleBookService(logger);
         await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
-        var converter = new UsxToUsjConverter();
+        var usxParserFactory = new UsxParserFactory();
+        usxParserFactory.SetTextParser(unihanDictionary.GetValue);
+        var converter = new UsxToUsjConverter(usxParserFactory);
         var usjBook = await converter.ConvertUsxStreamToUsjBookAsync(stream);
-        logger.LogInformation(UsjToMarkdownVisitor.GetFullText(usjBook));
+        //logger.LogInformation(UsjToMarkdownVisitor.GetFullText(usjBook));
+        var path = string.Join("/", [language, version, book]);
+        var filePath = await ResourceHelper.WriteJsonAsync(usjBook, $"{path}.json");
+        logger.LogInformation("{Path} created successfully.", filePath);
     }
 
     static async Task<BibleBook?> ParseBibleBookAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
@@ -86,7 +107,7 @@ public class Program
             //var unihan = await UnihanService.GetUnihanAsync(language);
             logger.LogInformation(bibleBook.GetMarkdown());
             //logger.LogInformation(bibleBook.GetHtml());
-            var path = string.Join("/", [language, version, book]);
+            //var path = string.Join("/", [language, version, book]);
             //var filePath = await ResourceHelper.WriteJsonAsync(bibleBook, $"{path}.json");
             //logger.LogInformation("{Path} created successfully.", filePath);
         }

@@ -15,10 +15,11 @@ public class UsxParserFactory
             [VerseMarkerParser.Key] = new Lazy<IUsxElementParser>(() => new VerseMarkerParser()),
             [MilestoneParser.Key] = new Lazy<IUsxElementParser>(() => new MilestoneParser()),
             [LineBreakParser.Key] = new Lazy<IUsxElementParser>(() => new LineBreakParser()),
-            [CharacterParser.Key] = new Lazy<IUsxElementParser>(() => new CharacterParser()),
             [FootnoteParser.Key] = new Lazy<IUsxElementParser>(() => new FootnoteParser(this)),
             [CrossReferenceParser.Key] = new Lazy<IUsxElementParser>(() => new CrossReferenceParser(this)),
             [ParagraphParser.Key] = new Lazy<IUsxElementParser>(() => new ParagraphParser(this)),
+            [CharacterParser.Key] = new Lazy<IUsxElementParser>(() => new CharacterParser()),
+            [TextParser.Key] = new Lazy<IUsxElementParser>(() => new TextParser()),
         };
     }
 
@@ -32,4 +33,11 @@ public class UsxParserFactory
         parser = null;
         return false;
     }
+
+    public void SetTextParser(Func<int, IList<string>>? enrich = null)
+    {
+        _lazyParsers[TextParser.Key] = new Lazy<IUsxElementParser>(() => new TextParser(enrich));
+    }
+
+    public TextParser TextParser => TryGetParser(TextParser.Key, out var parser) && parser is TextParser tp ? tp: new TextParser();
 }

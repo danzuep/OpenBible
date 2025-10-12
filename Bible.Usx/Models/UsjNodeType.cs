@@ -69,6 +69,7 @@ public sealed record UsjPara(
     public UsjPara() : this(string.Empty, new List<IUsjNode>()) { }
 
     // Helper to get concatenated text content of child UsjText nodes
+    [JsonIgnore]
     public string? Text => Content == null ? null : string.Concat(Content.OfType<UsjText>().Select(t => t.Text));
 }
 
@@ -127,7 +128,5 @@ public sealed record UsjText(string Text) : IUsjNode
 
 public static class UsjConstants
 {
-    public const string SchemaVersion = "3.0";
-    public const string DefaultBookCode = "GEN";
     public static readonly IReadOnlyList<string> ParaStylesToHide = ["ide", "toc", "mt"];
 }

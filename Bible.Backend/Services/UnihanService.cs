@@ -20,7 +20,6 @@ namespace Bible.Backend.Services
             _logger = logger ?? NullLogger.Instance;
         }
 
-
         private static readonly string _filePath = "Unihan_Readings.json";
 
         private static string GetName(UnihanField field) => $"unihan_{field}";
@@ -40,6 +39,36 @@ namespace Bible.Backend.Services
                 }
             }
             return unihan;
+        }
+
+        public async Task<UnihanDictionary?> GetUnihanDictionaryAsync(UnihanField unihanField)
+        {
+            var key = GetName(unihanField);
+            var unihan = await _storageService.GetSerializedItemAsync<UnihanDictionary>(key);
+            if (unihan == null)
+            {
+                unihan = await ResourceHelper.GetFromJsonAsync<UnihanDictionary>($"{key}.json");
+                _ = _storageService.SetSerializedItemAsync(key, unihan);
+            }
+            unihan?.Field = unihanField;
+            return unihan;
+        }
+
+        public async Task<IList<string>> ParseAsync(int codepoint, UnihanField unihanField)
+        {
+            var unihan = await GetUnihanDictionaryAsync(unihanField);
+            if (unihan == null || !unihan.TryGetValue(codepoint, out var values)) return Array.Empty<string>();
+            return values;
+        }
+
+        public Func<int, IList<string>> GetEnrichDelegate(UnihanDictionary unihanDictionary)
+        {
+            return codepoint =>
+            {
+                if (unihanDictionary == null) return Array.Empty<string>();
+                var metadata = unihanDictionary.GetValue(codepoint);
+                return metadata;
+            };
         }
 
         public static async Task<WordsWithMetadata> ParseAsync(string text, string isoLanguage)
@@ -64,14 +93,7 @@ namespace Bible.Backend.Services
 
         public async Task<WordsWithMetadata> ParseUnihanRunesAsync(string text, UnihanField unihanField)
         {
-            var key = GetName(unihanField);
-            var unihan = await _storageService.GetSerializedItemAsync<UnihanDictionary>(key);
-            if (unihan == null)
-            {
-                unihan = await ResourceHelper.GetFromJsonAsync<UnihanDictionary>($"{key}.json");
-                _ = _storageService.SetSerializedItemAsync(key, unihan);
-            }
-            unihan?.Field = unihanField;
+            var unihan = await GetUnihanDictionaryAsync(unihanField);
             return ParseWords(text, unihan);
         }
 
