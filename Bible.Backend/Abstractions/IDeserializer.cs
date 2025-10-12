@@ -1,6 +1,4 @@
-﻿
-
-namespace Bible.Backend.Abstractions
+﻿namespace Bible.Backend.Abstractions
 {
     public interface IDeserializer
     {

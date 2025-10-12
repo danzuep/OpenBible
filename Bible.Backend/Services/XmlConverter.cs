@@ -1,4 +1,5 @@
 ﻿using System.Xml;
+using Bible.Backend.Abstractions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Formatting = Newtonsoft.Json.Formatting;
@@ -7,10 +8,12 @@ namespace Bible.Backend.Services
 {
     public class XmlConverter
     {
+        private readonly IDeserializer _deserializer;
         private readonly ILogger _logger;
 
-        public XmlConverter(ILogger? logger = null)
+        public XmlConverter(IDeserializer? deserializer = null, ILogger? logger = null)
         {
+            _deserializer = deserializer ?? new XDocDeserializer();
             _logger = logger ?? NullLogger.Instance;
         }
 
@@ -21,8 +24,7 @@ namespace Bible.Backend.Services
             (var sitePath, var assetPath) = GetPaths();
             this._logger.LogInformation(assetPath);
 
-            var deserializer = new XDocDeserializer();
-            var usxParser = new UsxVersionParser(deserializer);
+            var usxParser = new UsxVersionParser(_deserializer);
 
             foreach (var versionPath in Directory.EnumerateDirectories(sitePath))
             {
@@ -36,6 +38,7 @@ namespace Bible.Backend.Services
 
                 var outputPath = Path.Combine(assetPath, versionName);
                 Directory.CreateDirectory(outputPath);
+                this._logger.LogDebug(outputPath);
 
                 var books = usxParser.Enumerate<T>(versionPath);
 
@@ -66,7 +69,8 @@ namespace Bible.Backend.Services
                     continue;
                 }
 
-                var xmlFilePath = Directory.EnumerateFiles(versionPath, "metadata.xml").FirstOrDefault();
+                var xmlFilePath = Directory.EnumerateFiles(versionPath, "metadata.xml").FirstOrDefault() ??
+                    Directory.EnumerateFiles(versionPath, "extra/metadata.xml").FirstOrDefault();
                 if (xmlFilePath == null)
                 {
                     return;
@@ -108,22 +112,34 @@ namespace Bible.Backend.Services
             return json;
         }
 
-        internal static (string, string) GetPaths(string? biblePath = null)
+        internal static (string, string) GetPaths(string? biblePath = null, string indir = "Bible.Data/usx", string outdir = "Bible.Data/Uploads")
         {
-            biblePath ??= GetBiblePath();
-            var sitePath = Path.Combine(biblePath, "_site");
-            var assetPath = Path.Combine(biblePath, "texts");
+            biblePath ??= GetThisProjectPath();
+            var sitePath = Path.Combine(biblePath, indir);
+            var assetPath = Path.Combine(biblePath, outdir);
             return (sitePath, assetPath);
+        }
+
+        private static string GetThisProjectPath(string thisProject = "OpenBible")
+        {
+            var filePath = thisProject;
+            do
+            {
+                filePath = Path.Combine("..", filePath);
+            }
+            while (!Directory.Exists(filePath));
+            filePath = filePath.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+            filePath = filePath[..^(thisProject.Length)];
+            filePath = filePath.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+            filePath = filePath[..^("..".Length)];
+            System.Diagnostics.Debug.Assert(Directory.Exists(filePath), $"Project path not found: {filePath}");
+
+            return filePath;
         }
 
         private static string GetBiblePath(string thisProject = "OpenBible", string bibleProjectName = "Bible")
         {
-            do
-            {
-                thisProject = Path.Combine("..", thisProject);
-            }
-            while (!Directory.Exists(thisProject));
-
+            thisProject = GetThisProjectPath(thisProject);
             var biblePath = Path.Combine(thisProject, "..", bibleProjectName);
 
             return biblePath;

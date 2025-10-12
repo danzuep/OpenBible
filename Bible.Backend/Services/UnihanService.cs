@@ -41,6 +41,12 @@ namespace Bible.Backend.Services
             return unihan;
         }
 
+        public static async Task<UnihanFieldDictionary?> GetUnihanFieldDictionaryAsync(string fileName = "unihan.json")
+        {
+            var unihan = await ResourceHelper.GetFromJsonAsync<UnihanFieldDictionary>(fileName);
+            return unihan;
+        }
+
         public async Task<UnihanDictionary?> GetUnihanDictionaryAsync(UnihanField unihanField)
         {
             var key = GetName(unihanField);

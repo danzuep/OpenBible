@@ -33,6 +33,7 @@ public class Program
         var logger = loggerFactory.CreateLogger<Program>();
 
         //await PaginatedSearch.DemoAsync();
+        //await ParseUnihanReadingsToDictionaryAsync(logger);
         //await SplitUnihanReadingsToFilesAsync(logger);
         //await ParseToFileAsync(logger);
         //await ParseFromFileAsync(char.ConvertFromUtf32(23383));
@@ -41,8 +42,9 @@ public class Program
         //await LoadBibleBookAsync(loggerFactory);
         //await ParseScriptureBookAsync(logger);
         //await ParseBibleBookAsync(logger);
-        await ParseAsync(logger);
         //await ParseToUnihanAsync();
+        //await ParseAsync(logger);
+        await DeserializeToUsjAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -73,18 +75,6 @@ public class Program
     static async Task ParseAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
     {
         var unihan = await UnihanService.GetUnihanAsync(language, dictionary: true);
-        var enrichRune = (Action<Rune>)((rune) =>
-        {
-            if (unihan?.Dictionary == null) return;
-            var metadata = unihan.Dictionary.GetValue(rune.Value);
-            logger.LogDebug("{Rune}({Metadata})", char.ConvertFromUtf32(rune.Value), string.Join(", ", metadata));
-        });
-        var enrich = (Func<int, IList<string>>?)((codepoint) =>
-        {
-            if (unihan?.Dictionary == null) return Array.Empty<string>();
-            var metadata = unihan.Dictionary.GetValue(codepoint);
-            return metadata;
-        });
         var unihanDictionary = unihan.Dictionary ?? new();
         var bibleBookService = new BibleBookService(logger);
         await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
@@ -223,6 +213,12 @@ public class Program
         });
     }
 
+    private static async Task DeserializeToUsjAsync(ILogger logger)
+    {
+        var deserializer = new XmlReaderDeserializer(logger);
+        await deserializer.ParseVisitor();
+    }
+
     private static async Task<BibleBook?> LoadBibleBookAsync(ILoggerFactory loggerFactory, string version = "eng-WEBBE", string bookName = "JHN")
     {
         var logger = loggerFactory.CreateLogger<XDocDeserializer>();
@@ -244,6 +240,12 @@ public class Program
     private static async Task ParseUnihanReadingsToFileAsync(ILogger logger)
     {
         var filePath = await UnihanFileService.ParseUnihanReadingsToFileAsync();
+        logger.LogInformation("{Path} created successfully.", filePath);
+    }
+
+    private static async Task ParseUnihanReadingsToDictionaryAsync(ILogger logger)
+    {
+        var filePath = await UnihanFileService.ParseUnihanReadingsToDictionaryAsync();
         logger.LogInformation("{Path} created successfully.", filePath);
     }
 

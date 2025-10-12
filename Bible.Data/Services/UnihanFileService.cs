@@ -19,6 +19,7 @@ namespace Bible.Data.Services
     /// </summary>
     public sealed class UnihanFileService
     {
+        private const string _defaultFileName = "Unihan_Readings";
         private readonly UnihanSplitterOptions _options;
         private readonly ILogger _logger;
 
@@ -34,12 +35,28 @@ namespace Bible.Data.Services
             _logger = logger ?? NullLogger.Instance;
         }
 
-        public static async Task<string> ParseUnihanReadingsToFileAsync(string fileName = "Unihan_Readings", IUnihanParserService? unihanParserService = null)
+        public static async Task<string> ParseUnihanReadingsToFileAsync(string fileName = _defaultFileName, IUnihanParserService? unihanParserService = null)
         {
             unihanParserService ??= new UnihanParserService();
             await using var inputStream = ResourceHelper.GetStreamFromExtension($"{fileName}.txt");
             await using var outputStream = await unihanParserService.ProcessStreamAsync(inputStream);
             var filePath = await ResourceHelper.WriteStreamAsync(outputStream, $"{fileName}.json");
+            return filePath;
+        }
+
+        public static async Task<string> ParseUnihanReadingsToDictionaryAsync(string fileName = "unihan.json", IEnumerable<UnihanField>? fields = null)
+        {
+            if (fields is null || !fields.Any())
+            {
+                fields = [
+                    UnihanField.kMandarin,
+                    UnihanField.kCantonese,
+                    UnihanField.kJapanese
+                ];
+            }
+            await using var inputStream = ResourceHelper.GetStreamFromExtension($"{_defaultFileName}.txt");
+            var unihan = await UnihanParserService.ParseAsync<UnihanFieldDictionary>(inputStream, fields);
+            var filePath = await ResourceHelper.WriteJsonAsync(unihan, fileName);
             return filePath;
         }
 
@@ -60,30 +77,11 @@ namespace Bible.Data.Services
             {
                 foreach (var page in pages)
                 {
-                    int pageId = page.Key;
-                    var pageItems = page.Value;
-                    var fileName = $"{prefix}_{field}_{pageId:D4}.json";
-                    var outputStream = await SerializeAsync(pageItems);
-                    var filePath = await ResourceHelper.WriteStreamAsync(outputStream, fileName, normalizeFileName: false);
+                    var fileName = $"{prefix}_{field}_{page.Key:D4}.json";
+                    var filePath = await ResourceHelper.WriteJsonAsync(page.Value, fileName, normalizeFileName: false);
                     progress?.Report(filePath);
                 }
             }
-        }
-
-        private static async Task<T?> DeserializeAsync<T>(Stream stream, CancellationToken cancellationToken = default)
-        {
-            var options = null as JsonSerializerOptions;
-            var deserialized = await JsonSerializer.DeserializeAsync<T>(stream, options, cancellationToken);
-            return deserialized;
-        }
-
-        private static async Task<MemoryStream> SerializeAsync<T>(T target, CancellationToken cancellationToken = default)
-        {
-            var options = null as JsonSerializerOptions;
-            var outputStream = new MemoryStream();
-            await JsonSerializer.SerializeAsync(outputStream, target, options, cancellationToken);
-            outputStream.Position = 0;
-            return outputStream;
         }
 
         /// <summary>

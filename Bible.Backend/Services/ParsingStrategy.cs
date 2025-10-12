@@ -32,12 +32,12 @@ namespace Bible.Backend.Services
             return sorted?.FirstOrDefault();
         }
 
-        protected static IEnumerable<string> GetFiles(string path, string fileType, string filter = "*")
+        internal static IEnumerable<string> GetFiles(string path, string fileType, string filter = "*")
         {
             var folder = GetLatestVersionFolder(path, $"*{fileType}*");
             if (string.IsNullOrEmpty(folder))
             {
-                return Array.Empty<string>();
+                return Directory.EnumerateFiles(path, $"{filter}.{fileType}");
             }
             return Directory.EnumerateFiles(folder, $"{filter}.{fileType}");
         }
