@@ -14,7 +14,7 @@
 }
 else
 {
-    @*<div class="d-flex align-items-center mb-3" style="gap:12px;">
+    <div class="d-flex align-items-center mb-3" style="gap:12px;">
         <MudCheckBox T="bool"
             Disabled="_isEnriching"
             Label="Show Anglicised Pronunciation (ruby text)"
@@ -23,7 +23,7 @@ else
         {
             <MudProgressCircular StrokeWidth="20" Color="Color.Primary" Indeterminate="true" />
         }
-    </div>*@
+    </div>
 
     <UsjRenderer Node="@UsjBook" Ruby="@Ruby" />
 }
@@ -59,7 +59,7 @@ else
         await Task.CompletedTask;
         _isChecked = isChecked;
         if (UsjBook is null || _isEnriching || !_unihanType.HasValue || _unihanType == UnihanField.Unknown) return;
-        _ = UsjBookService.AddUnihanAsync(UsjBook, _unihanType.Value);
+        // _ = UsjBookService.AddUnihanAsync(UsjBook, _unihanType.Value);
         Ruby = _isChecked ? _unihanType : null;
     }
 }

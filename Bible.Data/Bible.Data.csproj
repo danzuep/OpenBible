@@ -11,9 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="txt\*.txt" CopyToOutputDirectory="PreserveNewest" />
-    <EmbeddedResource Include="json\*.json" CopyToOutputDirectory="PreserveNewest" />
-    <EmbeddedResource Include="usx\*\*.usx" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="txt\*.txt" />
+    <EmbeddedResource Include="json\*.json" />
+    <EmbeddedResource Include="usx\*\*.usx" />
+    <EmbeddedResource Include="usj\*\*.usj" />
   </ItemGroup>
 
 </Project>

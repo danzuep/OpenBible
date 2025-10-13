@@ -56,9 +56,10 @@ namespace Bible.Wasm
             services.AddScoped<BasicDataService>();
             services.AddSingleton<BibleBookService>();
             //services.AddSingleton<UsjRenderVisitor>();
-            services.AddHostedService<InitializationHostedService>();
-            services.AddSingleton<UnihanLanguage>(sp => new UnihanLanguage("yue"));
-            services.AddSingleton<UnihanDictionary>(sp => sp.GetRequiredService<UnihanLanguage>().Dictionary ?? new());
+            //services.AddHostedService<InitializationHostedService>();
+            //services.AddSingleton<UnihanLanguage>(sp => new UnihanLanguage("yue"));
+            //services.AddSingleton<UnihanDictionary>(sp => sp.GetRequiredService<UnihanLanguage>().Dictionary ?? new());
+            services.AddSingleton<XmlReaderDeserializer>();
             services.AddSingleton<UsxParserFactory>();
             services.AddSingleton<UsxToUsjConverter>();
             services.AddSingleton<UsjBookService>();

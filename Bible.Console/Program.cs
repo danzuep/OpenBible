@@ -44,7 +44,8 @@ public class Program
         //await ParseBibleBookAsync(logger);
         //await ParseToUnihanAsync();
         //await ParseAsync(logger);
-        await DeserializeToUsjAsync(logger);
+        //await DeserializeToUsjAsync(logger);
+        await DeserializeOneToUsjAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -77,7 +78,7 @@ public class Program
         var unihan = await UnihanService.GetUnihanAsync(language, dictionary: true);
         var unihanDictionary = unihan.Dictionary ?? new();
         var bibleBookService = new BibleBookService(logger);
-        await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
+        await using var stream = ResourceHelper.GetBookStream(language, version, book, ".usx");
         var usxParserFactory = new UsxParserFactory();
         usxParserFactory.SetTextParser(unihanDictionary.GetValue);
         var converter = new UsxToUsjConverter(usxParserFactory);
@@ -211,6 +212,17 @@ public class Program
             converter.Logger.LogInformation(outFilePath);
             return html;
         });
+    }
+
+    private static async Task DeserializeOneToUsjAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
+    {
+        var metadata = new BibleBookMetadata
+        {
+            IsoLanguage = language,
+            BibleVersion = version,
+            BookCode = book
+        };
+        var usjBook = await UsjBookService.SerializeBookAsync(metadata, logger);
     }
 
     private static async Task DeserializeToUsjAsync(ILogger logger)

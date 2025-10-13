@@ -1,4 +1,5 @@
-﻿using Bible.Backend.Abstractions;
+﻿using System.Text.Json;
+using Bible.Backend.Abstractions;
 using Bible.Core.Models;
 using Bible.Data;
 using Bible.Usx.Models;
@@ -40,7 +41,22 @@ namespace Bible.Backend.Services
             return await GetBookAsync(metadata, cancellationToken);
         }
 
-        public async Task<UsjBook> GetBookAsync(BibleBookMetadata bibleBookMetadata, CancellationToken cancellationToken = default)
+        public async Task<UsjBook?> GetBookAsync(BibleBookMetadata bibleBookMetadata, CancellationToken cancellationToken = default)
+        {
+            var usjBook = await _storageService.GetSerializedItemAsync<UsjBook>(bibleBookMetadata.ToString());
+            if (usjBook == null)
+            {
+                await using var usxStream = ResourceHelper.GetUsjBookStream(bibleBookMetadata);
+                usjBook = await DeserializeAsync<UsjBook>(usxStream, null, cancellationToken);
+                if (usjBook != null)
+                {
+                    _ = SetSerializedItemAsync(bibleBookMetadata, usjBook, cancellationToken);
+                }
+            }
+            return usjBook;
+        }
+
+        public async Task<UsjBook> ConvertUsxStreamToUsjBookAsync(BibleBookMetadata bibleBookMetadata, CancellationToken cancellationToken = default)
         {
             try
             {
@@ -50,9 +66,6 @@ namespace Bible.Backend.Services
                     await using var usxStream = ResourceHelper.GetUsxBookStream(bibleBookMetadata);
                     usjBook = await _usxToUsjConverter.ConvertUsxStreamToUsjBookAsync(usxStream, cancellationToken);
                     _ = SetSerializedItemAsync(bibleBookMetadata, usjBook, cancellationToken);
-                    //var unihanLanguage = new UnihanLanguage(bibleBookMetadata.IsoLanguage);
-                    //if (unihanLanguage.Field != UnihanField.Unknown)
-                    //    _ = AddUnihanAsync(usjBook, unihanLanguage.Field);
                 }
                 return usjBook;
             }
@@ -63,7 +76,7 @@ namespace Bible.Backend.Services
             }
         }
 
-        public async Task AddUnihanAsync(IUsjNode usjNode, UnihanField type, CancellationToken cancellationToken = default)
+        private async Task AddUnihanAsync(IUsjNode usjNode, UnihanField type, CancellationToken cancellationToken = default)
         {
             if (usjNode is UsjBook usjBook)
             {
@@ -95,6 +108,29 @@ namespace Bible.Backend.Services
                 }
                 //usjNode = new UsjPara { Content = words.ToArray() };
             }
+        }
+
+        public static async Task<UsjBook?> SerializeBookAsync(BibleBookMetadata bibleBookMetadata, ILogger? logger = null, CancellationToken cancellationToken = default)
+        {
+            var usxToUsjConverter = new UsxToUsjConverter();
+            await using var usxStream = ResourceHelper.GetUsxBookStream(bibleBookMetadata);
+            var usjBook = await usxToUsjConverter.ConvertUsxStreamToUsjBookAsync(usxStream, cancellationToken);
+            if (usjBook != null)
+            {
+                var filePath = await ResourceHelper.WriteJsonAsync(usjBook, $"{bibleBookMetadata}.json", true, null, cancellationToken);
+                logger?.LogInformation("Upload: {Path}", filePath);
+            }
+            return usjBook;
+        }
+
+        private static async Task<T?> DeserializeAsync<T>(Stream stream, JsonSerializerOptions? options = null, CancellationToken cancellationToken = default)
+        {
+            if (stream.CanSeek)
+            {
+                stream.Seek(0, SeekOrigin.Begin);
+            }
+            var result = await JsonSerializer.DeserializeAsync<T>(stream, options, cancellationToken).ConfigureAwait(false);
+            return result;
         }
 
         private async Task SetSerializedItemAsync(BibleBookMetadata bibleBookMetadata, UsjBook usjBook, CancellationToken cancellationToken = default)

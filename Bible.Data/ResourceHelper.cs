@@ -1,9 +1,6 @@
-﻿using System.IO;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Text.Json;
 using Bible.Core.Models;
-using Unihan.Models;
-using Unihan.Services;
 
 namespace Bible.Data
 {
@@ -11,9 +8,15 @@ namespace Bible.Data
     {
         private const string Namespace = "Bible.Data";
 
+        public static Stream GetUsjBookStream(BibleBookMetadata metadata)
+        {
+            var stream = GetBookStream(metadata.IsoLanguage, metadata.BibleVersion, metadata.BookCode, ".usj");
+            return stream;
+        }
+
         public static Stream GetUsxBookStream(BibleBookMetadata metadata)
         {
-            var stream = GetUsxBookStream(metadata.IsoLanguage, metadata.BibleVersion, metadata.BookCode);
+            var stream = GetBookStream(metadata.IsoLanguage, metadata.BibleVersion, metadata.BookCode, ".usx");
             return stream;
         }
 
@@ -24,11 +27,11 @@ namespace Bible.Data
             var translation = parts.Skip(1)?.FirstOrDefault()?.ToUpperInvariant();
             var book = parts.Skip(2)?.FirstOrDefault()?.ToUpperInvariant();
             var fileExtension = Path.GetExtension(path)?.ToLowerInvariant();
-            var stream = GetUsxBookStream(language, translation, book, fileExtension);
+            var stream = GetBookStream(language, translation, book, fileExtension);
             return stream;
         }
 
-        public static Stream GetUsxBookStream(string? language, string? version, string? book, string? fileExtension = null)
+        public static Stream GetBookStream(string? language, string? version, string? book, string? fileExtension = null)
         {
             language = language ?? "eng";
             version = version?.ToUpperInvariant() ?? "WEBBE";
@@ -137,7 +140,13 @@ namespace Bible.Data
 
             if (normalizeFileName)
             {
-                fileName = fileName.Replace('\\', '_').Replace('/', '_').ToLowerInvariant();
+                var charsToReplace = Path.GetInvalidFileNameChars()
+                    .Concat(['\\', ':']).ToArray();
+                foreach (var c in charsToReplace)
+                {
+                    fileName = fileName.Replace(c, '_');
+                }
+                fileName = fileName.ToLowerInvariant();
             }
             var filePath = Path.Combine(uploadsFolder, fileName);
             if (!normalizeFileName)

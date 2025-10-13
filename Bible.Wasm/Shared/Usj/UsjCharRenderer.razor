@@ -5,13 +5,6 @@
 @inject UnihanService UnihanService
 
 <div class="usj-content">
-    @if (IsBusy)
-    {
-        <div class="usj-loading">
-            <MudProgressCircular Indeterminate="true" StrokeWidth="18" Color="Color.Primary" />
-        </div>
-    }
-
     @if (HasRuby)
     {
         <ruby class="@($"usj-char {Char.Style}")" title="@Char.Metadata">
@@ -32,77 +25,8 @@
     [Parameter]
     public UnihanField? Ruby { get; set; }
 
-    // Optional: allow parent to control auto-parse behavior
-    [Parameter]
-    public bool AutoParse { get; set; } = true;
-
-    // Expose an event callback so parent can know when Char updates
-    [Parameter]
-    public EventCallback<UsjChar> CharChanged { get; set; }
-
-    private bool IsBusy { get; set; }
     private bool HasRuby => Ruby.HasValue && !string.IsNullOrEmpty(Char?.Metadata);
-
-    protected override async Task OnParametersSetAsync()
-    {
-        // If Ruby changed (or AutoParse requested) re-parse
-        if (AutoParse && Ruby.HasValue)
-        {
-            // If there's already metadata, you might still want to enrich it;
-            // call the parser but avoid redundant work if not necessary.
-            // await ParseUnihanRunesAsync();
-        }
-
-        await base.OnParametersSetAsync();
-    }
 
     private Dictionary<string, object>? GetStrongAttribute()
         => !string.IsNullOrEmpty(Char.Metadata) ? new() { ["data-strong"] = Char.Metadata } : null;
-
-    // private async Task ParseUnihanRunesAsync()
-    // {
-    //     if (!Ruby.HasValue || string.IsNullOrEmpty(Char?.Text))
-    //         return;
-
-    //     try
-    //     {
-    //         IsBusy = true;
-    //         StateHasChanged();
-
-    //         var enriched = await UnihanService.ParseAsync(Char.Text, Ruby.Value);
-
-    //         if (enriched?.Words?.SingleOrDefault() is WordMetadata wordMetadata)
-    //         {
-    //             // Only update if we have a meaningful change
-    //             var newText = wordMetadata.Text ?? Char.Text;
-    //             var newMetadata = wordMetadata.Metadata?.FirstOrDefault() ?? Char.Metadata;
-
-    //             if (newText != Char.Text || newMetadata != Char.Metadata)
-    //             {
-    //                 Char = new UsjChar
-    //                 {
-    //                     Style = Char.Style,
-    //                     Text = newText,
-    //                     Metadata = newMetadata
-    //                 };
-
-    //                 // notify parent if interested
-    //                 if (CharChanged.HasDelegate)
-    //                     await CharChanged.InvokeAsync(Char);
-
-    //                 // allow UI to reflect changes
-    //                 StateHasChanged();
-    //             }
-    //         }
-    //     }
-    //     catch
-    //     {
-    //         // swallow errors - you can surface via a logger or an optional OnError callback
-    //     }
-    //     finally
-    //     {
-    //         IsBusy = false;
-    //         StateHasChanged();
-    //     }
-    // }
 }
