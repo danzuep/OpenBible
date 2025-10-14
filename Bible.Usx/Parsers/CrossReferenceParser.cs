@@ -17,18 +17,19 @@ public class CrossReferenceParser : IUsxElementParser
         _parserFactory = parserFactory;
     }
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
-        var location = reader.GetAttribute("loc") ?? string.Empty;
         var style = reader.GetAttribute("style") ?? string.Empty;
+        var location = reader.GetAttribute("loc") ?? string.Empty;
         var content = new List<IUsjNode>();
 
         if (reader.IsEmptyElement)
-            return new UsjCrossReference(location, style, content);
+            return new UsjCrossReference(style, location, content);
 
         while (await reader.ReadAsync())
         {
-            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "ref")
+            cancellationToken.ThrowIfCancellationRequested();
+            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == Key)
                 break;
 
             if (reader.NodeType == XmlNodeType.Element)
@@ -50,6 +51,6 @@ public class CrossReferenceParser : IUsxElementParser
             }
         }
 
-        return new UsjCrossReference(location, style, content);
+        return new UsjCrossReference(style, location, content);
     }
 }

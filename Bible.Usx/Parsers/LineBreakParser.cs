@@ -9,7 +9,7 @@ public class LineBreakParser : IUsxElementParser
 
     public string ElementName => Key;
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
         var style = reader.GetAttribute("style") ?? string.Empty;
 
@@ -17,7 +17,8 @@ public class LineBreakParser : IUsxElementParser
         {
             while (await reader.ReadAsync())
             {
-                if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "optbreak")
+                cancellationToken.ThrowIfCancellationRequested();
+                if (reader.NodeType == XmlNodeType.EndElement && reader.Name == Key)
                     break;
             }
         }

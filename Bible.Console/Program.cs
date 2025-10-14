@@ -44,8 +44,8 @@ public class Program
         //await ParseBibleBookAsync(logger);
         //await ParseToUnihanAsync();
         //await ParseAsync(logger);
-        //await DeserializeToUsjAsync(logger);
-        await DeserializeOneToUsjAsync(logger);
+        await DeserializeToUsjAsync(logger);
+        //await DeserializeOneToUsjAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -228,7 +228,7 @@ public class Program
     private static async Task DeserializeToUsjAsync(ILogger logger)
     {
         var deserializer = new XmlReaderDeserializer(logger);
-        await deserializer.ParseVisitor();
+        await deserializer.ParseVisitor("eng-WEBBE");
     }
 
     private static async Task<BibleBook?> LoadBibleBookAsync(ILoggerFactory loggerFactory, string version = "eng-WEBBE", string bookName = "JHN")

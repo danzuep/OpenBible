@@ -14,5 +14,5 @@ public interface IUsxElementParser
     /// Parse the current element from the XmlReader (positioned at start element).
     /// Returns a USJ node representing the element.
     /// </summary>
-    Task<IUsjNode> ParseAsync(XmlReader reader);
+    Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default);
 }

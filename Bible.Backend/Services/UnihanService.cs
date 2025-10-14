@@ -79,8 +79,8 @@ namespace Bible.Backend.Services
 
         public static async Task<WordsWithMetadata> ParseAsync(string text, string isoLanguage)
         {
-            var language = new UnihanLanguage(isoLanguage);
-            return await ParseAsync(text, language.Field);
+            var unihanField = UnihanLanguage.GetUnihanField(isoLanguage);
+            return await ParseAsync(text, unihanField);
         }
 
         public static async Task<WordsWithMetadata> ParseAsync(string text, UnihanField unihanField)
@@ -93,8 +93,8 @@ namespace Bible.Backend.Services
 
         public async Task<WordsWithMetadata> ParseUnihanRunesAsync(string text, string isoLanguage)
         {
-            var language = new UnihanLanguage(isoLanguage);
-            return await ParseUnihanRunesAsync(text, language.Field);
+            var unihanField = UnihanLanguage.GetUnihanField(isoLanguage);
+            return await ParseUnihanRunesAsync(text, unihanField);
         }
 
         public async Task<WordsWithMetadata> ParseUnihanRunesAsync(string text, UnihanField unihanField)

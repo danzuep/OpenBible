@@ -9,6 +9,8 @@ namespace Bible.Usx.Services;
 
 public class UsxToUsjConverter
 {
+    public static readonly string Key = "usx";
+
     private readonly UsxParserFactory _parserFactory;
 
     public UsxToUsjConverter(UsxParserFactory? parserFactory = null)
@@ -29,7 +31,7 @@ public class UsxToUsjConverter
         {
             cancellationToken.ThrowIfCancellationRequested();
 
-            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "usx")
+            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == Key)
                 break;
 
             if (reader.NodeType == XmlNodeType.Element)

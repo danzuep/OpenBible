@@ -9,7 +9,7 @@ public class MilestoneParser : IUsxElementParser
 
     public string ElementName => Key;
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
         var style = reader.GetAttribute("style") ?? string.Empty;
         var sid = reader.GetAttribute("sid");
@@ -19,7 +19,8 @@ public class MilestoneParser : IUsxElementParser
         {
             while (await reader.ReadAsync())
             {
-                if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "ms")
+                cancellationToken.ThrowIfCancellationRequested();
+                if (reader.NodeType == XmlNodeType.EndElement && reader.Name == Key)
                     break;
             }
         }

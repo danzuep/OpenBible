@@ -34,9 +34,11 @@ public class UsxParserFactory
         return false;
     }
 
+    public bool HasTextEnrichment { get; private set; }
     public void SetTextParser(Func<int, IList<string>>? enrich = null)
     {
         _lazyParsers[TextParser.Key] = new Lazy<IUsxElementParser>(() => new TextParser(enrich));
+        HasTextEnrichment = true;
     }
 
     public TextParser TextParser => TryGetParser(TextParser.Key, out var parser) && parser is TextParser tp ? tp: new TextParser();

@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 using Bible.Usx.Models;
 using Bible.Usx.Services;
 using Microsoft.Extensions.Logging;
@@ -21,7 +22,7 @@ namespace Bible.Backend.Services
             _logger = logger ?? NullLogger.Instance;
         }
 
-        public async Task ParseVisitor(string fileType = "usx")
+        public async Task ParseVisitor(string filter = "zho", string fileType = "usx")
         {
             (var sitePath, var assetPath) = XmlConverter.GetPaths(outdir: "Bible.Data/usj");
             _logger.LogInformation(assetPath);
@@ -38,7 +39,7 @@ namespace Bible.Backend.Services
                 var suffix = $"-{fileType}";
                 var suffixLength = versionPath.EndsWith(suffix) ? suffix.Length : 0;
                 var versionName = Path.GetFileName(versionPath)[..^suffixLength];
-                if (!versionName.StartsWith("zho"))
+                if (!versionName.StartsWith(filter))
                 {
                     _logger.LogInformation("Skipped {VersionName}.", versionName);
                     continue;
@@ -59,19 +60,14 @@ namespace Bible.Backend.Services
 
             async Task ParseToFileAsync(string filePath, string outputPath)
             {
-                var type = UnihanField.Unknown;
-                UnihanDictionary? unihanDictionary = null;
                 var fileName = Path.GetFileNameWithoutExtension(outputPath);
                 var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                var language = new UnihanLanguage(langScript);
-                type = language.Field;
-                unihanDictionary = unihan.GetValueOrDefault(type);
-                if (unihanDictionary == null)
+                var type = UnihanLanguage.GetUnihanField(langScript);
+                var unihanDictionary = unihan.GetValueOrDefault(type);
+                if (unihanDictionary != null)
                 {
-                    _logger.LogInformation("Skipped {UnihanField}, dictionary not found.", type);
-                    return;
+                    _parserFactory.SetTextParser(unihanDictionary.GetValue);
                 }
-                _parserFactory.SetTextParser(unihanDictionary.GetValue);
                 var book = await DeserializeToUsjBookAsync(filePath);
                 var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.usj");
                 await WriteJsonAsync(book, outFilePath);
@@ -81,6 +77,7 @@ namespace Bible.Backend.Services
 
         private static async Task WriteJsonAsync<T>(T input, string filePath, JsonSerializerOptions? options = null, CancellationToken cancellationToken = default)
         {
+            options ??= new JsonSerializerOptions { DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
             await using var outputStream = new FileStream(filePath, FileMode.Create);
             await JsonSerializer.SerializeAsync(outputStream, input, options, cancellationToken);
         }

@@ -18,6 +18,6 @@ namespace Bible.Usx.Models;
 [JsonDerivedType(typeof(UsjText), "text")]
 public interface IUsjNode
 {
-    [JsonPropertyOrder(-1)] // ensure discriminator is first in JSON
+    [JsonIgnore]
     UsjNodeType Type { get; }
 }

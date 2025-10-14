@@ -9,10 +9,10 @@ public class VerseMarkerParser : IUsxElementParser
 
     public string ElementName => Key;
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
+        var style = reader.GetAttribute("style") ?? string.Empty;
         var number = reader.GetAttribute("number") ?? string.Empty;
-        var style = "verse";
         var sid = reader.GetAttribute("sid");
         var eid = reader.GetAttribute("eid");
 
@@ -20,11 +20,12 @@ public class VerseMarkerParser : IUsxElementParser
         {
             while (await reader.ReadAsync())
             {
-                if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "verse")
+                cancellationToken.ThrowIfCancellationRequested();
+                if (reader.NodeType == XmlNodeType.EndElement && reader.Name == Key)
                     break;
             }
         }
 
-        return new UsjVerseMarker(number, style, sid, eid);
+        return new UsjVerseMarker(style, number, sid, eid);
     }
 }

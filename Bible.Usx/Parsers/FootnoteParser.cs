@@ -17,18 +17,19 @@ public class FootnoteParser : IUsxElementParser
         _parserFactory = parserFactory;
     }
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
-        var caller = reader.GetAttribute("caller") ?? string.Empty;
         var style = reader.GetAttribute("style") ?? string.Empty;
+        var caller = reader.GetAttribute("caller") ?? string.Empty;
         var content = new List<IUsjNode>();
 
         if (reader.IsEmptyElement)
-            return new UsjFootnote(caller, style, content);
+            return new UsjFootnote(style, caller, content);
 
         while (await reader.ReadAsync())
         {
-            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "note")
+            cancellationToken.ThrowIfCancellationRequested();
+            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == Key)
                 break;
 
             if (reader.NodeType == XmlNodeType.Element)
@@ -50,6 +51,6 @@ public class FootnoteParser : IUsxElementParser
             }
         }
 
-        return new UsjFootnote(caller, style, content);
+        return new UsjFootnote(style, caller, content);
     }
 }

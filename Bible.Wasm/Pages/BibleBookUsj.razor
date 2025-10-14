@@ -58,8 +58,8 @@ else
     {
         await Task.CompletedTask;
         _isChecked = isChecked;
-        if (UsjBook is null || _isEnriching || !_unihanType.HasValue || _unihanType == UnihanField.Unknown) return;
-        // _ = UsjBookService.AddUnihanAsync(UsjBook, _unihanType.Value);
+        if (UsjBook is null || _isEnriching) return;
+        if (!_unihanType.HasValue) _unihanType = UnihanField.Unknown;
         Ruby = _isChecked ? _unihanType : null;
     }
 }

@@ -20,6 +20,12 @@ namespace Unihan.Services
             }
         }
 
+        public static UnihanField GetUnihanField(string? isoLanguage)
+        {
+            var language = new UnihanLanguage(isoLanguage);
+            return language.Field;
+        }
+
         public string? IsoLanguage => _isoLanguage;
 
         public UnihanField Field { get; }

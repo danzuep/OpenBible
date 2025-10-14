@@ -9,14 +9,15 @@ public class BookParser : IUsxElementParser
 
     public string ElementName => Key;
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
+        var style = reader.GetAttribute("style") ?? string.Empty;
         var code = reader.GetAttribute("code") ?? string.Empty;
         string versionName = string.Empty;
 
         if (reader.IsEmptyElement)
         {
-            return new UsjIdentification(code, versionName, "book");
+            return new UsjIdentification(style, code, versionName);
         }
 
         await reader.ReadAsync();
@@ -26,11 +27,12 @@ public class BookParser : IUsxElementParser
             await reader.ReadAsync();
         }
 
-        while (!(reader.NodeType == XmlNodeType.EndElement && reader.Name == "book"))
+        while (!(reader.NodeType == XmlNodeType.EndElement && reader.Name == Key))
         {
+            cancellationToken.ThrowIfCancellationRequested();
             await reader.ReadAsync();
         }
 
-        return new UsjIdentification(code, versionName, "book");
+        return new UsjIdentification(style, code, versionName);
     }
 }

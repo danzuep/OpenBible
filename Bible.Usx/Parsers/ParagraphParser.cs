@@ -16,7 +16,7 @@ public class ParagraphParser : IUsxElementParser
         _factory = factory;
     }
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
         var style = reader.GetAttribute("style") ?? string.Empty;
         var content = new List<IUsjNode>();
@@ -26,16 +26,18 @@ public class ParagraphParser : IUsxElementParser
 
         while (await reader.ReadAsync())
         {
-            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "para")
+            cancellationToken.ThrowIfCancellationRequested();
+            if (reader.NodeType == XmlNodeType.EndElement && reader.Name == Key)
                 break;
 
             if (reader.NodeType == XmlNodeType.Element)
             {
                 var hasParser = _factory.TryGetParser(reader.Name, out var parser);
-                if (hasParser && parser is CharacterParser cpar)
+                if (hasParser && _factory.HasTextEnrichment && parser is CharacterParser cpar)
                 {
                     var usjChar = (UsjChar)await cpar.ParseAsync(reader);
-                    content.AddRange(_factory.TextParser.ParseEnriched(usjChar));
+                    var enrichedUsjChar = _factory.TextParser.Enrich(usjChar);
+                    content.Add(enrichedUsjChar);
                 }
                 else if (hasParser && parser != null)
                     content.Add(await parser.ParseAsync(reader));

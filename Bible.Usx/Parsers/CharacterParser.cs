@@ -9,16 +9,16 @@ public class CharacterParser : IUsxElementParser
 
     public string ElementName => Key;
 
-    public async Task<IUsjNode> ParseAsync(XmlReader reader)
+    public async Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
         var style = reader.GetAttribute("style") ?? string.Empty;
-        var closed = bool.TryParse(reader.GetAttribute("closed"), out var c) && c;
         var strong = reader.GetAttribute("strong");
+        var closed = reader.GetAttribute("closed");
 
         string text = string.Empty;
 
         if (reader.IsEmptyElement)
-            return new UsjChar(style, closed, strong, text);
+            return new UsjChar(style, text, strong, closed, null);
 
         await reader.ReadAsync();
         if (reader.NodeType == XmlNodeType.Text || reader.NodeType == XmlNodeType.CDATA)
@@ -27,11 +27,12 @@ public class CharacterParser : IUsxElementParser
             await reader.ReadAsync();
         }
 
-        while (!(reader.NodeType == XmlNodeType.EndElement && reader.Name == "char"))
+        while (!(reader.NodeType == XmlNodeType.EndElement && reader.Name == Key))
         {
+            cancellationToken.ThrowIfCancellationRequested();
             await reader.ReadAsync();
         }
 
-        return new UsjChar(style, closed, strong, text);
+        return new UsjChar(style, text, strong, closed, null);
     }
 }
