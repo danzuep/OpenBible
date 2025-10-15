@@ -40,10 +40,10 @@ jobs:
 
       # https://github.com/actions/setup-dotnet
       - name: Get .NET ${{ env.NET_VERSION }} externals
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: ${{ env.NET_VERSION }}
-          dotnet-quality: 'ga'
+          dotnet-quality: 'preview'
 
       # https://github.com/actions/cache/blob/main/examples.md#c---nuget
       - name: Get any cached NuGet packages from the last run
@@ -62,7 +62,7 @@ jobs:
         run: dotnet restore
 
       - name: Version and publish the project
-        run: dotnet publish ${{ env.PROJECT_PATH }} -c:Release -f:${{ inputs.target_framework }} -p:GHPages=true -p:Version=${{ inputs.project_version }} -o:${{ inputs.project_output }} --no-restore --nologo
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c:Release -f:${{ inputs.target_framework }} -p:GHPages=true -p:Version=${{ inputs.project_version }} -o:${{ inputs.project_output }} --no-restore --nologo # --self-contained
 
       # "https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-8.0#github-pages"
       - name: Add an empty .nojekyll file to deploy folders starting with an underscore

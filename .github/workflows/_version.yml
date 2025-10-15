@@ -27,7 +27,6 @@ jobs:
     outputs: # alternative usage: $GitVersion_<outputName>
       semVer: ${{ steps.gitversion.outputs.semVer }}
       fullSemVer: ${{ steps.gitversion.outputs.fullSemVer }}
-      nuGetVersion: ${{ steps.gitversion.outputs.nuGetVersion }}
       majorMinorPatch: ${{ steps.gitversion.outputs.majorMinorPatch }}
       preReleaseLabel: ${{ steps.gitversion.outputs.preReleaseLabel }}
       commitDate: ${{ steps.gitversion.outputs.commitDate }}
@@ -43,16 +42,16 @@ jobs:
 
       # https://github.com/GitTools/actions/blob/main/docs/examples/github/gitversion/setup/usage-examples.md#example-1
       - name: Set up GitVersion
-        uses: gittools/actions/gitversion/setup@v3
+        uses: gittools/actions/gitversion/setup@v4.1.0
         with:
-          versionSpec: '5.x'
+          versionSpec: '6.3.x'
 
       # https://github.com/GitTools/actions/blob/main/docs/examples/github/gitversion/execute/usage-examples.md#example-5
       # For a list of all GitVersion Version Variables, see https://gitversion.net/docs/reference/variables
       # pwsh> dotnet-gitversion | ConvertFrom-Json
       - name: Use GitVersion to determine version
         id: gitversion # e.g. steps.gitversion.outputs.<outputName>
-        uses: gittools/actions/gitversion/execute@v3
+        uses: gittools/actions/gitversion/execute@v4.1.0
 
       - run: |
           echo 'Get the repository project name.'
