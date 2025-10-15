@@ -42,10 +42,10 @@ namespace Bible.Wasm
             services.AddMemoryCache();
             services.AddMudServices();
             services.AddScoped<IBibleBookNavService, BibleBookNavService>();
-            services.AddScoped<IDeserializer, XDocDeserializer>();
-            services.AddScoped<IBulkParser, UsxVersionParser>();
-            services.AddScoped<IParser<BibleBook>, UsxToBibleBookParser>();
-            services.AddScoped<IDataService<BibleModel>, UsxToBibleModelParser>();
+            //services.AddScoped<IDeserializer, XDocDeserializer>();
+            //services.AddScoped<IBulkParser, UsxVersionParser>();
+            //services.AddScoped<IParser<BibleBook>, UsxToBibleBookParser>();
+            //services.AddScoped<IDataService<BibleModel>, UsxToBibleModelParser>();
             //services.AddScoped<IUnihanReadings, UnihanSerializer>();
             //services.AddScoped<IUsxVisitor, UsxToBibleBookVisitor>();
             services.AddScoped<JsScrollService>();
@@ -55,10 +55,6 @@ namespace Bible.Wasm
             services.AddSingleton<IBibleDataService, DataService>();
             services.AddScoped<BasicDataService>();
             services.AddSingleton<BibleBookService>();
-            //services.AddSingleton<UsjRenderVisitor>();
-            //services.AddHostedService<InitializationHostedService>();
-            //services.AddSingleton<UnihanLanguage>(sp => new UnihanLanguage("yue"));
-            //services.AddSingleton<UnihanDictionary>(sp => sp.GetRequiredService<UnihanLanguage>().Dictionary ?? new());
             services.AddSingleton<XmlReaderDeserializer>();
             services.AddSingleton<UsxParserFactory>();
             services.AddSingleton<UsxToUsjConverter>();
