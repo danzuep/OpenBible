@@ -14,7 +14,7 @@
     <EmbeddedResource Include="txt\*.txt" />
     <EmbeddedResource Include="json\*.json" />
     <EmbeddedResource Include="usx\*\*.usx" />
-    <EmbeddedResource Include="usj\*\*.usj" />
+    <!--<EmbeddedResource Include="usj\*\*.usj" />-->
   </ItemGroup>
 
 </Project>

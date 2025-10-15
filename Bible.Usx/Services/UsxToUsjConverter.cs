@@ -18,6 +18,11 @@ public class UsxToUsjConverter
         _parserFactory = parserFactory ?? new UsxParserFactory();
     }
 
+    public void SetTextParser(Func<int, IList<string>> enrich)
+    {
+        _parserFactory.SetTextParser(enrich);
+    }
+
     public async Task<UsjBook> ParseUsxBookAsync(XmlReader reader, CancellationToken cancellationToken = default)
     {
         var version = reader.GetAttribute("version") ?? string.Empty;
