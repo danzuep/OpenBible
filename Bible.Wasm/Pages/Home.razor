@@ -19,16 +19,23 @@
     int _chapterNumber = 1;
     private bool _isLoading = true;
 
-    protected override async Task OnParametersSetAsync()
+    protected override void OnAfterRender(bool firstRender)
     {
-        GetBookAndChapter();
-        // Navigation.NavigateTo("enrich");
-        // Navigation.NavigateTo($"eng/WEBBE/1JN");
-        Navigation.NavigateTo($"zho-Hant/OCCB/3JN/{_chapterNumber}");
-        // Navigation.NavigateTo($"KJV/{_bookName}/{_chapterNumber}");
-        // Navigation.NavigateTo($"scroll/zho-Hant/OCCB/3JN/{_chapterNumber}");
-        // Navigation.NavigateTo("stream");
-        _isLoading = false;
+        base.OnAfterRender(firstRender);
+        if (firstRender)
+        {
+            Task.Run(() =>
+            {
+                GetBookAndChapter();
+                // Navigation.NavigateTo("enrich");
+                // Navigation.NavigateTo($"eng/WEBBE/1JN");
+                Navigation.NavigateTo($"zho-Hant/OCCB/3JN/{_chapterNumber}");
+                // Navigation.NavigateTo($"KJV/{_bookName}/{_chapterNumber}");
+                // Navigation.NavigateTo($"scroll/zho-Hant/OCCB/3JN/{_chapterNumber}");
+                // Navigation.NavigateTo("stream");
+            });
+            _isLoading = false;
+        }
     }
 
     void GetBookAndChapter()
