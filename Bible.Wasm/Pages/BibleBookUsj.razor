@@ -1,5 +1,6 @@
-﻿@page "/{Language=eng}/{BibleVersion=WEBBE}/{BookCode=3JN}/{ChapterNumber:int?}"
+﻿@page "/{IsoLanguage=eng}/{BibleVersion=WEBBE}/{BookCode=3JN}/{ChapterNumber:int?}"
 @using Bible.Backend.Services
+@using Bible.Core.Models
 @using Bible.Data
 @using Bible.Usx.Models
 @using Bible.Usx.Services
@@ -8,21 +9,20 @@
 @using Unihan.Services
 @inject UsjBookService UsjBookService
 
-@if (UsjBook == null)
+@if (_isLoading)
 {
-    <p><em>Loading...</em></p>
+    <MudProgressCircular StrokeWidth="20" Color="Color.Primary" Indeterminate="true" />
+}
+else if (UsjBook == null)
+{
+    <p>"@_bibleBookMetadata" could not be loaded.</p>
 }
 else
 {
     <div class="d-flex align-items-center mb-3" style="gap:12px;">
         <MudCheckBox T="bool"
-            Disabled="_isEnriching"
             Label="Show Anglicised Pronunciation (ruby text)"
             ValueChanged="@OnPronunciationToggled" />
-        @if (_isEnriching)
-        {
-            <MudProgressCircular StrokeWidth="20" Color="Color.Primary" Indeterminate="true" />
-        }
     </div>
 
     <UsjRenderer Node="@UsjBook" Ruby="@Ruby" />
@@ -30,7 +30,7 @@ else
 
 @code {
     [Parameter, EditorRequired]
-    public string? Language { get; set; }
+    public string? IsoLanguage { get; set; }
 
     [Parameter, EditorRequired]
     public string? BibleVersion { get; set; }
@@ -41,25 +41,26 @@ else
     [Parameter]
     public int? ChapterNumber { get; set; } = 1;
 
-    private bool _isEnriching = false;
-    private bool _isChecked = false;
-    private UnihanField? _unihanType;
+    private bool _isLoading = true;
+    private UnihanField _unihanType;
     private UnihanField? Ruby;
     private UsjBook? UsjBook;
+    private BibleBookMetadata _bibleBookMetadata => new BibleBookMetadata
+    {
+        IsoLanguage = IsoLanguage,
+        BibleVersion = BibleVersion,
+        BookCode = BookCode
+    };
 
     protected override async Task OnParametersSetAsync()
     {
-        var unihanLanguage = new UnihanLanguage(Language);
-        _unihanType = unihanLanguage.Field;
-        UsjBook = await UsjBookService.GetBookAsync(Language, BibleVersion, BookCode);
+        _unihanType = UnihanLanguage.GetUnihanField(IsoLanguage);
+        UsjBook = await UsjBookService.GetBookAsync(IsoLanguage, BibleVersion, BookCode);
+        _isLoading = false;
     }
 
-    private async Task OnPronunciationToggled(bool isChecked)
+    private void OnPronunciationToggled(bool isChecked)
     {
-        await Task.CompletedTask;
-        _isChecked = isChecked;
-        if (UsjBook is null || _isEnriching) return;
-        if (!_unihanType.HasValue) _unihanType = UnihanField.Unknown;
-        Ruby = _isChecked ? _unihanType : null;
+        Ruby = isChecked ? _unihanType : null;
     }
 }

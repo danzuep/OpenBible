@@ -228,7 +228,7 @@ public class Program
     private static async Task DeserializeToUsjAsync(ILogger logger)
     {
         var deserializer = new XmlReaderDeserializer(logger);
-        await deserializer.ParseVisitor("eng-WEBBE");
+        await deserializer.ParseVisitor(); // "eng-WEBBE"
     }
 
     private static async Task<BibleBook?> LoadBibleBookAsync(ILoggerFactory loggerFactory, string version = "eng-WEBBE", string bookName = "JHN")

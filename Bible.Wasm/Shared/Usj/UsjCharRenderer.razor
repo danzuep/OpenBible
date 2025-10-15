@@ -4,19 +4,17 @@
 @using Unihan.Models
 @inject UnihanService UnihanService
 
-<div class="usj-content">
-    @if (HasRuby)
-    {
-        <ruby class="@($"usj-char {Char.Style}")" title="@Char.Metadata">
-            @Char.Text
-            <rt>@Char.Metadata</rt>
-        </ruby>
-    }
-    else
-    {
-        <span class="@($"usj-char {Char.Style}")" @attributes="GetStrongAttribute()">@Char.Text</span>
-    }
-</div>
+@if (HasRuby)
+{
+    <ruby class="@($"usj-char {Char.Style}")" title="@Char.Metadata">
+        @Char.Text
+        <rt>@Char.Metadata</rt>
+    </ruby>
+}
+else
+{
+    <span class="@($"usj-char {Char.Style}")" @attributes="GetStrongAttribute()">@Char.Text</span>
+}
 
 @code {
     [Parameter, EditorRequired]

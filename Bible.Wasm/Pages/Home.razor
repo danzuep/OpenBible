@@ -5,7 +5,10 @@
 
 <PageTitle>Bible</PageTitle>
 
-<p><em>Loading...</em></p>
+@if (_isLoading)
+{
+    <p><em>Loading...</em></p>
+}
 @* <BookChapter BookName="@_bookName" ChapterNumber="@_chapterNumber" /> *@
 
 @code {
@@ -14,23 +17,18 @@
 
     string? _bookName;
     int _chapterNumber = 1;
+    private bool _isLoading = true;
 
-    protected override void OnAfterRender(bool firstRender)
+    protected override async Task OnParametersSetAsync()
     {
-        base.OnAfterRender(firstRender);
-        if (firstRender)
-        {
-            Task.Run(() =>
-            {
-                GetBookAndChapter();
-                // Navigation.NavigateTo("enrich");
-                Navigation.NavigateTo($"eng/WEBBE/1JN");
-                // Navigation.NavigateTo($"zho-Hant/OCCB/3JN/{_chapterNumber}");
-                // Navigation.NavigateTo($"KJV/{_bookName}/{_chapterNumber}");
-                // Navigation.NavigateTo($"scroll/zho-Hant/OCCB/3JN/{_chapterNumber}");
-                // Navigation.NavigateTo("stream");
-            });
-        }
+        GetBookAndChapter();
+        // Navigation.NavigateTo("enrich");
+        // Navigation.NavigateTo($"eng/WEBBE/1JN");
+        Navigation.NavigateTo($"zho-Hant/OCCB/3JN/{_chapterNumber}");
+        // Navigation.NavigateTo($"KJV/{_bookName}/{_chapterNumber}");
+        // Navigation.NavigateTo($"scroll/zho-Hant/OCCB/3JN/{_chapterNumber}");
+        // Navigation.NavigateTo("stream");
+        _isLoading = false;
     }
 
     void GetBookAndChapter()

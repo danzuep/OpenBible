@@ -43,17 +43,25 @@ namespace Bible.Backend.Services
 
         public async Task<UsjBook?> GetBookAsync(BibleBookMetadata bibleBookMetadata, CancellationToken cancellationToken = default)
         {
-            var usjBook = await _storageService.GetSerializedItemAsync<UsjBook>(bibleBookMetadata.ToString());
-            if (usjBook == null)
+            try
             {
-                await using var usxStream = ResourceHelper.GetUsjBookStream(bibleBookMetadata);
-                usjBook = await DeserializeAsync<UsjBook>(usxStream, null, cancellationToken);
-                if (usjBook != null)
+                var usjBook = await _storageService.GetSerializedItemAsync<UsjBook>(bibleBookMetadata.ToString());
+                if (usjBook == null)
                 {
-                    _ = SetSerializedItemAsync(bibleBookMetadata, usjBook, cancellationToken);
+                    await using var usxStream = ResourceHelper.GetUsjBookStream(bibleBookMetadata);
+                    usjBook = await DeserializeAsync<UsjBook>(usxStream, null, cancellationToken);
+                    if (usjBook != null)
+                    {
+                        _ = SetSerializedItemAsync(bibleBookMetadata, usjBook, cancellationToken);
+                    }
                 }
+                return usjBook;
             }
-            return usjBook;
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting USJ book for {BibleBookMetadata}", bibleBookMetadata);
+                return null;
+            }
         }
 
         public async Task<UsjBook> ConvertUsxStreamToUsjBookAsync(BibleBookMetadata bibleBookMetadata, CancellationToken cancellationToken = default)
