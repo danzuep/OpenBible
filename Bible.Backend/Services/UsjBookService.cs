@@ -7,7 +7,6 @@ using Bible.Usx.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Unihan.Models;
-using Unihan.Services;
 
 namespace Bible.Backend.Services
 {

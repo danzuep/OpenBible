@@ -3,6 +3,9 @@ run-name: Get version and build release notes
 
 on:
   workflow_dispatch:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.*'
 
 # Cancel any other running workflows with the same ID
 concurrency:
@@ -13,3 +16,12 @@ concurrency:
 jobs:
   version:
     uses: ./.github/workflows/_version.yml
+    with:
+      project_search: "Bible.*"
+
+  # build:
+  #   needs: [ version ]
+  #   uses: ./.github/workflows/_build-web.yml
+  #   with:
+  #     project_name: "Bible.SPA"
+  #     project_version: ${{ needs.version.outputs.semVer }}

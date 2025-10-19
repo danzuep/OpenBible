@@ -56,7 +56,10 @@ namespace Bible.Backend.Services
                 unihan = await ResourceHelper.GetFromJsonAsync<UnihanDictionary>($"{key}.json");
                 _ = _storageService.SetSerializedItemAsync(key, unihan);
             }
-            unihan?.Field = unihanField;
+            if (unihan?.Field != null)
+            {
+                unihan.Field = unihanField;
+            }
             return unihan;
         }
 
@@ -87,7 +90,10 @@ namespace Bible.Backend.Services
         {
             var fileName = $"{GetName(unihanField)}.json";
             var unihan = await ResourceHelper.GetFromJsonAsync<UnihanDictionary>(fileName);
-            unihan?.Field = unihanField;
+            if (unihan?.Field != null)
+            {
+                unihan.Field = unihanField;
+            }
             return ParseWords(text, unihan);
         }
 

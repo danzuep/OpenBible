@@ -1,0 +1,100 @@
+﻿@using Bible.Backend.Models
+@using Bible.Backend.Services
+@using Bible.Razor.Services
+@using Bible.Razor.Shared
+@inherits MainLayout
+@inject IBibleBookNavService MenuService
+
+@Body
+
+<ListGenericItemsTemplate TItem="string" ItemList="@BibleBookNavService.IsoLanguages.Keys" />
+<ListGenericItemsTemplate TItem="string" ItemList="@CurrentVersions" />
+
+<a Href="" Match="NavLinkMatch.All">Open Bible</a>
+<a Href="feed" Match="NavLinkMatch.Prefix">Daily Verse</a>
+
+<CascadingValue Name="SelectedLanguage" Value="_selectedLanguage">
+    <CascadingValue Name="SelectedVersion" Value="_selectedVersion">
+        <SideSelector Title="Old Testament" ItemList="@oldTestament" />
+        <SideSelector Title="New Testament" ItemList="@newTestament" Expanded="true" />
+    </CascadingValue>
+</CascadingValue>
+
+@code {
+    [Parameter]
+    public EventCallback<string> SelectedLanguageChanged { get; set; }
+
+    [Parameter]
+    public EventCallback<string> SelectedVersionChanged { get; set; }
+
+    [Parameter]
+    public string SelectedLanguage { get; set; } = default!;
+
+    [Parameter]
+    public string SelectedVersion { get; set; } = default!;
+
+    private IReadOnlyList<BibleBookNav>? oldTestament;
+    private IReadOnlyList<BibleBookNav>? newTestament;
+
+    private IReadOnlyList<string> CurrentVersions =>
+        BibleBookNavService.BibleVersions.TryGetValue(_selectedLanguage, out var versions) ? versions : Array.Empty<string>();
+
+    private string _selectedLanguage = default!;
+    private string _selectedVersion = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        oldTestament = MenuService.OldTestamentBooks;
+        newTestament = MenuService.NewTestamentBooks;
+
+        // Initialize selections with parameters or defaults
+        _selectedLanguage = SelectedLanguage ?? BibleBookNavService.IsoLanguages.Keys.First();
+        _selectedVersion = SelectedVersion ?? (BibleBookNavService.BibleVersions.TryGetValue(_selectedLanguage, out var versions) ? versions.First() : null!);
+    }
+
+    private async Task OnLanguageChanged(string lang)
+    {
+        if (_selectedLanguage != lang)
+        {
+            _selectedLanguage = lang;
+
+            // Update versions accordingly
+            if (BibleBookNavService.BibleVersions.TryGetValue(_selectedLanguage, out var versions) && versions.Any())
+            {
+                _selectedVersion = versions.First();
+            }
+            else
+            {
+                _selectedVersion = null!;
+            }
+
+            await SelectedLanguageChanged.InvokeAsync(_selectedLanguage);
+            await SelectedVersionChanged.InvokeAsync(_selectedVersion);
+
+            StateHasChanged();
+        }
+    }
+
+    private async Task OnVersionChanged(string version)
+    {
+        if (_selectedVersion != version)
+        {
+            _selectedVersion = version;
+            await SelectedVersionChanged.InvokeAsync(_selectedVersion);
+            StateHasChanged();
+        }
+    }
+
+    private string LanguageValue
+    {
+        get => _selectedLanguage;
+        set => _ = OnLanguageChanged(value);
+    }
+
+    private string VersionValue
+    {
+        get => _selectedVersion;
+        set => _ = OnVersionChanged(value);
+    }
+}

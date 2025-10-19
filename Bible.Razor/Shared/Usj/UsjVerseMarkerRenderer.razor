@@ -1,0 +1,11 @@
+﻿@using Bible.Usx.Models
+
+@if (!string.IsNullOrEmpty(VerseMarker.Number))
+{
+    <sup class="@($"verse-marker {VerseMarker.Style}")">@VerseMarker.Number</sup>
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public UsjVerseMarker VerseMarker { get; set; } = default!;
+}

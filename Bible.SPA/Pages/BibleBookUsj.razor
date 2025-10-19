@@ -1,0 +1,66 @@
+﻿@page "/{IsoLanguage=eng}/{BibleVersion=WEBBE}/{BookCode=3JN}/{ChapterNumber:int?}"
+@using Bible.Backend.Services
+@using Bible.Core.Models
+@using Bible.Data
+@using Bible.Usx.Models
+@using Bible.Usx.Services
+@using Bible.Razor.Shared.Usj
+@using Unihan.Models
+@using Unihan.Services
+@inject UsjBookService UsjBookService
+
+@if (_isLoading)
+{
+    <p><em>Loading...</em></p>
+}
+else if (UsjBook == null)
+{
+    <p>"@_bibleBookMetadata" could not be loaded.</p>
+}
+else
+{
+    <label>
+        <input type="checkbox" onchange="@(async (ChangeEventArgs e) => OnPronunciationToggled(e))" />
+        Show Anglicised Pronunciation (ruby text)
+    </label>
+    <br />
+    <UsjRenderer Node="@UsjBook" Ruby="@Ruby" />
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public string? IsoLanguage { get; set; }
+
+    [Parameter, EditorRequired]
+    public string? BibleVersion { get; set; }
+
+    [Parameter, EditorRequired]
+    public string? BookCode { get; set; }
+
+    [Parameter]
+    public int? ChapterNumber { get; set; } = 1;
+
+    private bool _isLoading = true;
+    private UnihanField _unihanType;
+    private UnihanField? Ruby;
+    private UsjBook? UsjBook;
+    private BibleBookMetadata _bibleBookMetadata => new BibleBookMetadata
+    {
+        IsoLanguage = IsoLanguage,
+        BibleVersion = BibleVersion,
+        BookCode = BookCode
+    };
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _unihanType = UnihanLanguage.GetUnihanField(IsoLanguage);
+        UsjBook = await UsjBookService.GetBookAsync(IsoLanguage, BibleVersion, BookCode);
+        _isLoading = false;
+    }
+
+    private void OnPronunciationToggled(ChangeEventArgs? changed)
+    {
+        var isChecked = changed?.Value is bool b && b;
+        Ruby = isChecked ? _unihanType : null;
+    }
+}

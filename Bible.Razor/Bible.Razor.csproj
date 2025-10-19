@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--<RazorLangVersion>10.0</RazorLangVersion>-->
+    <!-- Optional: expose components for the component discovery -->
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="9.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.10" />
+    <PackageReference Include="System.ServiceModel.Syndication" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(Configuration)'!='Release'">
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bible.Backend\Bible.Backend.csproj" />
+  </ItemGroup>
+
+</Project>

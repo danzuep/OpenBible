@@ -17,7 +17,11 @@ on:
         type: string
       target_framework:
         description: "The target framework to build for"
-        default: "net10.0"
+        default: "net9.0"
+        type: string
+      dotnet_version:
+        description: "The version of .NET to use"
+        default: "9.x"
         type: string
     outputs:
       project_path:
@@ -29,7 +33,7 @@ jobs:
     name: 🧱 ${{ inputs.project_name }} 🏗 ${{ inputs.project_version }}
     runs-on: 'ubuntu-latest'
     env:
-      NET_VERSION: '10.x'
+      NET_VERSION: "${{ inputs.dotnet_version }}"
       PROJECT_PATH: "./${{ inputs.project_name }}/${{ inputs.project_name }}.csproj"
     outputs:
       project_path: ${{ env.PROJECT_PATH }}
@@ -43,7 +47,7 @@ jobs:
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: ${{ env.NET_VERSION }}
-          dotnet-quality: 'preview'
+          dotnet-quality: 'ga' # 'preview'
 
       # https://github.com/actions/cache/blob/main/examples.md#c---nuget
       - name: Get any cached NuGet packages from the last run
@@ -62,7 +66,7 @@ jobs:
         run: dotnet restore
 
       - name: Version and publish the project
-        run: dotnet publish ${{ env.PROJECT_PATH }} -c:Release -f:${{ inputs.target_framework }} -p:GHPages=true -p:Version=${{ inputs.project_version }} -o:${{ inputs.project_output }} --no-restore --nologo # --self-contained
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release -f:${{ inputs.target_framework }} -p:GHPages=true -p:Version=${{ inputs.project_version }} -o:${{ inputs.project_output }} --no-restore --nologo
 
       # "https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-8.0#github-pages"
       - name: Add an empty .nojekyll file to deploy folders starting with an underscore
@@ -74,6 +78,22 @@ jobs:
           repositoryName=$(basename '${{ github.repository }}')
           echo "Renaming base-tag in index.html from '/' to the repository name: $repositoryName"
           sed -i "s/<base href=\"\\/\" \/>/<base href=\"\\/${repositoryName}\\/\" \/>/g" "${{ inputs.project_output }}/wwwroot/index.html"
+
+      # - name: Show the modified index.html
+      #   run: |
+      #     index="${{ inputs.project_output }}/wwwroot/index.html"
+      #     echo "=== $index ==="
+      #     cat "$index" || true
+      #     echo "========================================================"
+
+      # - name: Print the publish output so we can confirm files exist locally in CI
+      #   run: ls -laR ${{ inputs.project_output }}/wwwroot | sed -n '1,500p'
+
+      # - name: Quick serve check
+      #   run: |
+      #     python3 -m http.server --directory "${{ inputs.project_output }}/wwwroot" 8000 & sleep 1
+      #     curl -I http://localhost:8000/_framework/blazor.boot.json || true
+      #     kill %1 || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

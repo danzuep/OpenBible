@@ -1,0 +1,23 @@
+﻿@page "/"
+@inject NavigationManager Navigation
+
+<PageTitle>Home</PageTitle>
+
+<h1>Welcome!</h1>
+
+Welcome to the Open Bible initiative.
+
+@code{
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        if (firstRender)
+        {
+            Task.Run(() =>
+            {
+                // Navigation.NavigateTo("feed");
+                Navigation.NavigateTo($"zho-Hant/OCCB/3JN");
+            });
+        }
+    }
+}
