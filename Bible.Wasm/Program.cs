@@ -1,23 +1,16 @@
-using System.IO.Compression;
+using Bible.Backend;
 using Bible.Backend.Abstractions;
 using Bible.Backend.Services;
-using Bible.Core.Abstractions;
-using Bible.Core.Models;
-using Bible.Data;
+using Bible.Razor.Services;
 using Bible.Usx.Services;
-using Bible.Wasm.Models;
 using Bible.Wasm.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
 using MudBlazor.Services;
-using Unihan.Models;
-using Unihan.Services;
 
 namespace Bible.Wasm
 {
-    public class Program
+    public sealed class Program : ServiceProviderBase
     {
         public static async Task Main(string[] args)
         {
@@ -27,64 +20,27 @@ namespace Bible.Wasm
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-            RegisterIoC(builder.Services);
+            RegisterServices(builder.Services);
             //await ResourceHelper.SplitUnihanReadingsToFilesAsync();
 
             await builder.Build().RunAsync();
         }
 
-        static void RegisterIoC(IServiceCollection services)
+        static void RegisterServices(IServiceCollection services)
         {
-#if DEBUG
-            services.AddLogging(o => o.AddDebug());
-#endif
-            // Services
             services.AddMemoryCache();
             services.AddMudServices();
-            services.AddScoped<IBibleBookNavService, BibleBookNavService>();
-            //services.AddScoped<IDeserializer, XDocDeserializer>();
-            //services.AddScoped<IBulkParser, UsxVersionParser>();
-            //services.AddScoped<IParser<BibleBook>, UsxToBibleBookParser>();
-            //services.AddScoped<IDataService<BibleModel>, UsxToBibleModelParser>();
-            //services.AddScoped<IUnihanReadings, UnihanSerializer>();
-            //services.AddScoped<IUsxVisitor, UsxToBibleBookVisitor>();
             services.AddScoped<JsScrollService>();
             services.AddScoped<IDimensionService, JsDimensionService>();
             services.AddScoped<IDownloadService, JsDownloadService>();
-            //services.AddSingleton<StreamDataService>();
             services.AddSingleton<IBibleDataService, DataService>();
-            services.AddScoped<BasicDataService>();
             services.AddSingleton<BibleBookService>();
-            services.AddSingleton<XmlReaderDeserializer>();
-            services.AddSingleton<UsxParserFactory>();
-            services.AddSingleton<UsxToUsjConverter>();
-            services.AddSingleton<UsjBookService>();
-            services.AddSingleton<UnihanService>();
 
             //services.AddSingleton<IStorageService, JsStorageService>();
             //services.AddSingleton<IStorageService, DictionaryStorageService>();
             services.AddSingleton<IStorageService, MemoryCacheStorageService>();
 
-            _provider = services.BuildServiceProvider();
-        }
-
-        static IServiceProvider? _provider;
-
-        /// <inheritdoc cref="IServiceProvider.GetService(Type)"/>
-        public static T? GetService<T>()
-        {
-            if (_provider == null)
-                return default;
-            return _provider.GetService<T>();
-        }
-
-        /// <inheritdoc cref="ServiceProviderServiceExtensions.GetRequiredService{T}(IServiceProvider)(Type)"/>
-        public static T GetRequiredService<T>() where T : notnull
-        {
-            if (_provider == null)
-                throw new ArgumentNullException(nameof(_provider));
-            return _provider.GetRequiredService<T>() ??
-                throw new InvalidOperationException($"There is no service of type {typeof(T).FullName}");
+            RegisterIoC(services);
         }
     }
 }

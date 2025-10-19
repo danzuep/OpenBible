@@ -12,7 +12,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components" Version="9.0.10" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.10" />
-    <PackageReference Include="System.ServiceModel.Syndication" Version="9.0.10" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(Configuration)'!='Release'">

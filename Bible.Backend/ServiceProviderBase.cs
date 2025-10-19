@@ -13,9 +13,7 @@ namespace Bible.Backend
 #if DEBUG
             services.AddLogging(o => o.AddDebug());
 #endif
-            //// Services
-            //services.AddMemoryCache();
-            //services.AddSingleton<IStorageService, MemoryCacheStorageService>();
+            // Services
             services.AddSingleton<IStorageService, DictionaryStorageService>();
             services.AddScoped<IBibleBookNavService, BibleBookNavService>();
             services.AddSingleton<UsxParserFactory>();

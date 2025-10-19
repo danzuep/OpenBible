@@ -88,6 +88,11 @@ namespace Bible.Backend.Services
             new() { Id = "REV", Name = "Revelation", ChapterCount = 22 }
         ];
 
+        public static readonly string DefaultLanguage = "zho-Hant";
+
+        public static string GetVersion(string isoLanguage) =>
+            BibleVersions.TryGetValue(isoLanguage, out var versions) ? versions.First() : "OCCB";
+
         // ISO 639-3 language, ISO 15924 script, English name, native name
         public static readonly Dictionary<string, IReadOnlyList<string>> IsoLanguages = new()
         {

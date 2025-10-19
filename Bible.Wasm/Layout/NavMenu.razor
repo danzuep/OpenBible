@@ -1,12 +1,14 @@
 ﻿@using System.Diagnostics.CodeAnalysis
-@using Bible.Wasm.Models
+@using Bible.Backend.Models
+@using Bible.Backend.Services
+@using Bible.Wasm.Shared
 @inject IBibleBookNavService MenuService
 
 <MudNavMenu>
     <MudExpansionPanels Elevation="0" Class="mb-2">
         <MudExpansionPanel Text="Select Language & Version" Expanded="true">
             <MudSelect T="string" Label="Language" @bind-Value="_selectedLanguage" Dense="true" Class="ml-2">
-                @foreach (var lang in _isoLanguages)
+                @foreach (var lang in BibleBookNavService.IsoLanguages)
                 {
                     <MudSelectItem T="string" Value="@lang.Key">@lang.Value[0]</MudSelectItem>
                 }
@@ -49,38 +51,8 @@
     private IReadOnlyList<BibleBookNav>? oldTestament;
     private IReadOnlyList<BibleBookNav>? newTestament;
 
-    // ISO 639-3 language, ISO 15924 script, English name, native name
-    private static readonly Dictionary<string, IReadOnlyList<string>> _isoLanguages = new()
-    {
-        ["eng"] = ["English"],
-        // ["tha"] = ["ไทย", "Thai"],
-        ["zho-Hans"] = ["中文（简体）", "Chinese (Simplified)"],
-        ["zho-Hant"] = ["中文（繁體）", "Chinese (Traditional)"],
-    };
-
-    // ISO 639-3 language, bible version acronyms
-    private static readonly Dictionary<string, IReadOnlyList<string>> _bibleVersions = new()
-    {
-        ["eng"] = ["WEBBE", "WEBU", "T4T"],
-        ["tha"] = ["KJV"],
-        ["zho-Hans"] = ["OCCB"],
-        ["zho-Hant"] = ["OCCB"],
-    };
-
-    // Bible version acronyms, English name, native name, copyright
-    private static readonly Dictionary<string, IReadOnlyList<string>> _bibleAcronyms = new()
-    {
-        { "eng-WEBU", ["World English Bible USA"] },
-        { "eng-WEBBE", ["World English Bible British Edition"] },
-        { "eng-T4T", ["Translation for Translators (ENG-USA)"] },
-        { "eng-KJV", ["King James Version"] },
-        { "tha-KJV", ["Thai King James Version"] },
-        { "zho-Hans-OCCB", ["Biblica® Open Chinese Contemporary Bible 2022 (Simplified)", "圣经当代译本开放资源", "Copyright © 1979,2005,2007,2011,2022 Biblica, Inc." ] },
-        { "zho-Hant-OCCB", ["Biblica® Open Chinese Contemporary Bible 2023 (Traditional)", "聖經，當代譯本開放資源", "Copyright © 1979,2005,2007,2012,2023 Biblica, Inc."] }
-    };
-
     private IReadOnlyList<string> CurrentVersions =>
-        _bibleVersions.TryGetValue(_selectedLanguage, out var versions) ? versions : Array.Empty<string>();
+        BibleBookNavService.BibleVersions.TryGetValue(_selectedLanguage, out var versions) ? versions : Array.Empty<string>();
 
     private string _selectedLanguage = default!;
     private string _selectedVersion = default!;
@@ -92,8 +64,8 @@
         newTestament = MenuService.NewTestamentBooks;
 
         // Initialize selections with parameters or defaults
-        _selectedLanguage = SelectedLanguage ?? _isoLanguages.Keys.First();
-        _selectedVersion = SelectedVersion ?? (_bibleVersions.TryGetValue(_selectedLanguage, out var versions) ? versions.First() : null!);
+        _selectedLanguage = SelectedLanguage ?? BibleBookNavService.DefaultLanguage;
+        _selectedVersion = SelectedVersion ?? BibleBookNavService.GetVersion(_selectedLanguage);
     }
 
     private async Task OnLanguageChanged(string lang)
@@ -103,7 +75,7 @@
             _selectedLanguage = lang;
 
             // Update versions accordingly
-            if (_bibleVersions.TryGetValue(_selectedLanguage, out var versions) && versions.Any())
+            if (BibleBookNavService.BibleVersions.TryGetValue(_selectedLanguage, out var versions) && versions.Any())
             {
                 _selectedVersion = versions.First();
             }

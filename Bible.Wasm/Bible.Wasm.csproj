@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
-    <!--<TargetFrameworks>$(NetVersion);net10.0</TargetFrameworks>-->
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>$(NetVersion)</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
@@ -10,23 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.10" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.0-rc.2.25502.107" /> <!--10.0.100-rtm.25479.115-->
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.0-rc.2.25502.107" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.10" PrivateAssets="all" />
     <PackageReference Include="MudBlazor" Version="8.13.0" />
     <PackageReference Include="System.ServiceModel.Syndication" Version="9.0.10" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(Configuration)'!='Release'">
-    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.10" />
-  </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\Bible.Backend\Bible.Backend.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <StaticWebAssetFingerprintPattern Include="JS" Pattern="*.js" Expression="#[.{fingerprint}]!" />
+    <ProjectReference Include="..\Bible.Razor\Bible.Razor.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 @using Bible.Backend.Models
+@using Bible.Backend.Services
 
 <ListGenericItemsTemplate TItem="BibleBookNav" ItemList="@ItemList" Context="book">
     <ItemTemplate>
@@ -17,8 +18,8 @@
     public IEnumerable<BibleBookNav>? ItemList { get; set; }
 
     [CascadingParameter(Name = "SelectedLanguage")]
-    public string IsoLanguage { get; set; } = "eng";
+    public string IsoLanguage { get; set; } = BibleBookNavService.DefaultLanguage;
 
     [CascadingParameter(Name = "SelectedVersion")]
-    public string Version { get; set; } = "WEBBE";
+    public string Version { get; set; } = BibleBookNavService.GetVersion(BibleBookNavService.DefaultLanguage);
 }
