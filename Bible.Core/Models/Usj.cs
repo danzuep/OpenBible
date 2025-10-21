@@ -89,8 +89,8 @@ namespace Bible.Core.Models
     {
         public override KVP Read(ref System.Text.Json.Utf8JsonReader reader, Type typeToConvert, System.Text.Json.JsonSerializerOptions options)
         {
-            if (reader.TokenType != System.Text.Json.JsonTokenType.StartObject)
-                throw new System.Text.Json.JsonException("Expected start of object for KVP.");
+            //if (reader.TokenType != System.Text.Json.JsonTokenType.StartObject)
+            //    throw new System.Text.Json.JsonException("Expected start of object for KVP.");
 
             if (!reader.Read())
                 throw new System.Text.Json.JsonException("Unexpected end when reading KVP.");
@@ -120,8 +120,8 @@ namespace Bible.Core.Models
             if (!reader.Read())
                 throw new System.Text.Json.JsonException("Unexpected end after KVP value.");
 
-            if (reader.TokenType != System.Text.Json.JsonTokenType.EndObject)
-                throw new System.Text.Json.JsonException("Expected end of object after KVP.");
+            //if (reader.TokenType != System.Text.Json.JsonTokenType.EndObject)
+            //    throw new System.Text.Json.JsonException("Expected end of object after KVP.");
 
             return new KVP(key, value);
         }
