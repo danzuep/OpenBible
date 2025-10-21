@@ -1,0 +1,273 @@
+{
+  "usx": "3.0",
+  "code": "3JN",
+  "book": "Biblica\u00AE Open Chinese Contemporary Bible 2023 (Traditional)",
+  "metadata": [
+    {
+      "key": "h",
+      "value": "\u7D04\u7FF0\u4E09\u66F8"
+    },
+    {
+      "key": "toc1",
+      "value": "\u7D04\u7FF0\u4E09\u66F8"
+    },
+    {
+      "key": "toc2",
+      "value": "\u7D04\u7FF0\u4E09\u66F8"
+    },
+    {
+      "key": "toc3",
+      "value": "\u7D04\u53C1"
+    },
+    {
+      "key": "mt1",
+      "value": "\u7D04\u7FF0\u4E09\u66F8"
+    }
+  ],
+  "contents": [
+    {
+      "key": "c",
+      "value": "1"
+    },
+    {
+      "key": "style",
+      "value": "p"
+    },
+    {
+      "key": "text",
+      "value": "\n    "
+    },
+    {
+      "key": "v",
+      "value": "1"
+    },
+    {
+      "key": "text",
+      "value": "\u6211\u9019\u4F5C\u9577\u8001\u7684\u5BEB\u4FE1\u7D66\u89AA\u611B\u7684"
+    },
+    {
+      "key": "pn",
+      "value": "\u8A72\u7336"
+    },
+    {
+      "key": "text",
+      "value": "\u8A72\u7336"
+    },
+    {
+      "key": "text",
+      "value": "\uFF0C\u4F60\u662F\u6211\u672C\u8457\u771F\u7406\u6240\u611B\u7684\u4EBA\u3002 "
+    },
+    {
+      "key": "v",
+      "value": "2"
+    },
+    {
+      "key": "text",
+      "value": "\u89AA\u611B\u7684\u5F1F\u5144\uFF0C\u6211\u9858\u4F60\u51E1\u4E8B\u9806\u5229\uFF0C\u8EAB\u9AD4\u50CF\u9748\u9B42\u4E00\u6A23\u5065\u5EB7\u3002"
+    },
+    {
+      "key": "style",
+      "value": "s1"
+    },
+    {
+      "key": "text",
+      "value": "\u8A72\u7336\u7684\u597D\u54C1\u884C"
+    },
+    {
+      "key": "style",
+      "value": "p"
+    },
+    {
+      "key": "text",
+      "value": "\n    "
+    },
+    {
+      "key": "v",
+      "value": "3"
+    },
+    {
+      "key": "text",
+      "value": "\u4E00\u4E9B\u5F1F\u5144\u4F86\u70BA\u4F60\u4F5C\u898B\u8B49\uFF0C\u8AAA\u4F60\u5FE0\u5FC3\u5730\u9075\u884C\u771F\u7406\uFF0C\u9019\u4F7F\u6211\u975E\u5E38\u6B61\u559C\u3002 "
+    },
+    {
+      "key": "v",
+      "value": "4"
+    },
+    {
+      "key": "text",
+      "value": "\u6C92\u6709\u6BD4\u807D\u898B\u81EA\u5DF1\u7684\u5B69\u5B50\u9075\u884C\u771F\u7406\u66F4\u4F7F\u6211\u6B61\u559C\u4E86\u3002"
+    },
+    {
+      "key": "style",
+      "value": "p"
+    },
+    {
+      "key": "text",
+      "value": "\n    "
+    },
+    {
+      "key": "v",
+      "value": "5"
+    },
+    {
+      "key": "text",
+      "value": "\u89AA\u611B\u7684\u5F1F\u5144\uFF0C\u4F60\u5E38\u5E38\u5FE0\u5FC3\u5730\u7167\u9867\u7D20\u4E0D\u76F8\u8B58\u7684\u5F1F\u5144\uFF0C "
+    },
+    {
+      "key": "v",
+      "value": "6"
+    },
+    {
+      "key": "text",
+      "value": "\u4ED6\u5011\u628A\u4F60\u7684\u611B\u5FC3\u544A\u8A34\u4E86\u6559\u6703\u3002\u9858\u4F60\u7167\u8457\u4E0A\u5E1D\u559C\u6085\u7684\u65B9\u5F0F\u7E7C\u7E8C\u5E6B\u52A9\u4ED6\u5011\u51FA\u884C\uFF0C "
+    },
+    {
+      "key": "v",
+      "value": "7"
+    },
+    {
+      "key": "text",
+      "value": "\u56E0\u70BA\u4ED6\u5011\u70BA\u4E86\u4E3B\u7684\u540D\u56DB\u8655\u50B3\u9053\uFF0C\u4E0D\u63A5\u53D7\u975E\u4FE1\u5F92\u7684\u4EFB\u4F55\u5E6B\u52A9\u3002 "
+    },
+    {
+      "key": "v",
+      "value": "8"
+    },
+    {
+      "key": "text",
+      "value": "\u6211\u5011\u7406\u7576\u63A5\u5F85\u9019\u6A23\u7684\u4EBA\uFF0C\u597D\u6210\u70BA\u4ED6\u5011\u50B3\u63DA\u771F\u7406\u7684\u540C\u5DE5\u3002"
+    },
+    {
+      "key": "style",
+      "value": "s1"
+    },
+    {
+      "key": "text",
+      "value": "\u4E1F\u7279\u8153\u7684\u60E1\u884C"
+    },
+    {
+      "key": "style",
+      "value": "p"
+    },
+    {
+      "key": "text",
+      "value": "\n    "
+    },
+    {
+      "key": "v",
+      "value": "9"
+    },
+    {
+      "key": "text",
+      "value": "\u6211\u66FE\u5BEB\u4FE1\u7D66\u4F60\u90A3\u88E1\u7684\u6559\u6703\uFF0C\u4F46\u611B\u7576\u982D\u9818\u7684"
+    },
+    {
+      "key": "pn",
+      "value": "\u4E1F\u7279\u8153"
+    },
+    {
+      "key": "text",
+      "value": "\u4E1F\u7279\u8153"
+    },
+    {
+      "key": "text",
+      "value": "\u4E0D\u63A5\u5F85\u6211\u5011\u3002 "
+    },
+    {
+      "key": "v",
+      "value": "10"
+    },
+    {
+      "key": "text",
+      "value": "\u56E0\u6B64\uFF0C\u6211\u82E5\u53BB\u4F60\u5011\u90A3\u88E1\uFF0C\u5FC5\u63ED\u9732\u4ED6\u7684\u6240\u4F5C\u6240\u70BA\uFF0C\u4ED6\u600E\u6A23\u60E1\u8A00\u4E2D\u50B7\u6211\u5011\u3002\u4E0D\u50C5\u5982\u6B64\uFF0C\u4ED6\u9084\u62D2\u7D55\u63A5\u5F85\u5F1F\u5144\uFF0C\u4E26\u4E14\u7981\u6B62\u5225\u4EBA\u63A5\u5F85\uFF0C\u751A\u81F3\u5C07\u63A5\u5F85\u7684\u4EBA\u8D95\u51FA\u6559\u6703\u3002"
+    },
+    {
+      "key": "style",
+      "value": "s1"
+    },
+    {
+      "key": "text",
+      "value": "\u6291\u60E1\u63DA\u5584"
+    },
+    {
+      "key": "style",
+      "value": "p"
+    },
+    {
+      "key": "text",
+      "value": "\n    "
+    },
+    {
+      "key": "v",
+      "value": "11"
+    },
+    {
+      "key": "text",
+      "value": "\u89AA\u611B\u7684\u5F1F\u5144\uFF0C\u4E0D\u8981\u6548\u6CD5\u7F6A\u60E1\uFF0C\u8981\u6548\u6CD5\u7F8E\u5584\u3002\u884C\u5584\u7684\u4EBA\u5C6C\u65BC\u4E0A\u5E1D\uFF0C\u884C\u60E1\u7684\u4EBA\u4E0D\u8A8D\u8B58\u4E0A\u5E1D\u3002 "
+    },
+    {
+      "key": "v",
+      "value": "12"
+    },
+    {
+      "key": "pn",
+      "value": "\u4F4E\u7C73\u4E1F"
+    },
+    {
+      "key": "text",
+      "value": "\u4F4E\u7C73\u4E1F"
+    },
+    {
+      "key": "text",
+      "value": "\u5F97\u5230\u4E86\u773E\u4EBA\u7684\u597D\u8A55\uFF0C\u771F\u7406\u4E5F\u70BA\u4ED6\u4F5C\u898B\u8B49\uFF0C\u6211\u5011\u4E5F\u70BA\u4ED6\u4F5C\u898B\u8B49\u3002\u4F60\u77E5\u9053\u6211\u5011\u7684\u898B\u8B49\u662F\u771F\u5BE6\u7684\u3002"
+    },
+    {
+      "key": "style",
+      "value": "s1"
+    },
+    {
+      "key": "text",
+      "value": "\u7D50\u8A9E"
+    },
+    {
+      "key": "style",
+      "value": "p"
+    },
+    {
+      "key": "text",
+      "value": "\n    "
+    },
+    {
+      "key": "v",
+      "value": "13"
+    },
+    {
+      "key": "text",
+      "value": "\u6211\u9084\u6709\u8A31\u591A\u4E8B\u8981\u544A\u8A34\u4F60\uFF0C\u4F46\u4E0D\u60F3\u85C9\u52A9\u7B46\u58A8\uFF0C "
+    },
+    {
+      "key": "v",
+      "value": "14"
+    },
+    {
+      "key": "text",
+      "value": "\u53EA\u5E0C\u671B\u5F88\u5FEB\u898B\u5230\u4F60\uFF0C\u8DDF\u4F60\u7576\u9762\u66A2\u8AC7\u3002"
+    },
+    {
+      "key": "style",
+      "value": "p"
+    },
+    {
+      "key": "text",
+      "value": "\n    "
+    },
+    {
+      "key": "v",
+      "value": "15"
+    },
+    {
+      "key": "text",
+      "value": "\u9858\u4F60\u5E73\u5B89\uFF01\u9019\u88E1\u7684\u670B\u53CB\u5011\u90FD\u554F\u5019\u4F60\uFF0C\u8ACB\u4EE3\u6211\u4E00\u4E00\u554F\u5019\u4F60\u90A3\u908A\u7684\u670B\u53CB\u3002"
+    }
+  ]
+}

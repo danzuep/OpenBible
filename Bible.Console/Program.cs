@@ -44,8 +44,9 @@ public class Program
         //await ParseBibleBookAsync(logger);
         //await ParseToUnihanAsync();
         //await ParseAsync(logger);
-        await DeserializeToUsjAsync(logger);
+        //await DeserializeToUsjAsync(logger);
         //await DeserializeOneToUsjAsync(logger);
+        await UsjVisitorExampleAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -194,6 +195,29 @@ public class Program
         }, sample: "zho-Hant-OCCB");
     }
 
+    private static async Task UsjVisitorExampleAsync(ILogger logger)
+    {
+        await Task.CompletedTask;
+        //var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var converter = new XmlConverter(null, logger);
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            if (!book.Metadata.BookCode.Equals("3JN"))
+            {
+                return null!;
+            }
+            //var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            //var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            //var field = UnihanLanguage.GetUnihanField(langScript);
+            //var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToUsjVisitor.GetBook(book); // dictionary
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.usj");
+            Serialize(usj, outFilePath);
+            logger.LogInformation(outFilePath);
+            return outFilePath;
+        }, sample: "zho-Hant-OCCB");
+    }
+
     private static async Task DeserializeToHtmlAsync(XmlConverter converter, UnihanLanguage? unihan)
     {
         await converter.XmlMetadataToJsonAsync();
@@ -295,5 +319,12 @@ public class Program
             }
         }
         return stringBuilder.ToString();
+    }
+
+    public static void Serialize<T>(T data, string jsonOutputPath, JsonSerializerOptions? options = null)
+    {
+        options ??= new JsonSerializerOptions { WriteIndented = true };
+        var jsonString = JsonSerializer.Serialize(data, options);
+        File.WriteAllText(jsonOutputPath, jsonString);
     }
 }

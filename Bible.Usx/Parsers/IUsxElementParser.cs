@@ -16,3 +16,8 @@ public interface IUsxElementParser
     /// </summary>
     Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default);
 }
+
+public interface IXmlReaderParser
+{
+    Task<T> ParseAsync<T>(XmlReader reader, CancellationToken cancellationToken = default);
+}

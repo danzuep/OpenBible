@@ -1,15 +1,15 @@
 {
-    "book": {
-        "usx": "3.0",
-        "code": "3JN",
-        "title": "Biblica® Open Chinese Contemporary Bible 2023 (Traditional)",
+    "usx": "3.0",
+    "code": "3JN",
+    "book": "Biblica® Open Chinese Contemporary Bible 2023 (Traditional)",
+    "metadata": {
         "h": "約翰三書",
         "toc1": "約翰三書",
         "toc2": "約翰三書",
         "toc3": "約叁",
         "mt1": "約翰三書"
     },
-    "body": [
+    "contents": [
         { "chapter": "1" },
         { "section": "該猶的好品行" },
         { "style": "p" },
