@@ -1,0 +1,202 @@
+{
+    "usx": {
+        "version": "3.0",
+        "book": {
+            "code": "3JN",
+            "style": "id",
+            "text": "- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)"
+        },
+        "paras": [
+            {
+                "style": "h",
+                "text": "約翰三書"
+            },
+            {
+                "style": "toc1",
+                "text": "約翰三書"
+            },
+            {
+                "style": "toc2",
+                "text": "約翰三書"
+            },
+            {
+                "style": "toc3",
+                "text": "約叁"
+            },
+            {
+                "style": "mt1",
+                "text": "約翰三書"
+            },
+            {
+                "chapter": {
+                    "number": "1",
+                    "style": "c"
+                }
+            },
+            {
+                "style": "p",
+                "verses": [
+                    {
+                        "number": "1",
+                        "style": "v",
+                        "textParts": [
+                            "我這作長老的寫信給親愛的"
+                        ]
+                    },
+                    {
+                        "inline": {
+                            "type": "char",
+                            "style": "pn",
+                            "text": "該猶"
+                        }
+                    },
+                    {
+                        "text": "，你是我本著真理所愛的人。"
+                    },
+                    {
+                        "number": "2",
+                        "style": "v",
+                        "text": "親愛的弟兄，我願你凡事順利，身體像靈魂一樣健康。"
+                    }
+                ]
+            },
+            {
+                "style": "s1",
+                "text": "該猶的好品行"
+            },
+            {
+                "style": "p",
+                "verses": [
+                    {
+                        "number": "3",
+                        "style": "v",
+                        "text": "一些弟兄來為你作見證，說你忠心地遵行真理，這使我非常歡喜。"
+                    },
+                    {
+                        "number": "4",
+                        "style": "v",
+                        "text": "沒有比聽見自己的孩子遵行真理更使我歡喜了。"
+                    }
+                ]
+            },
+            {
+                "style": "p",
+                "verses": [
+                    {
+                        "number": "5",
+                        "style": "v",
+                        "text": "親愛的弟兄，你常常忠心地照顧素不相識的弟兄，"
+                    },
+                    {
+                        "number": "6",
+                        "style": "v",
+                        "text": "他們把你的愛心告訴了教會。願你照著上帝喜悅的方式繼續幫助他們出行，"
+                    },
+                    {
+                        "number": "7",
+                        "style": "v",
+                        "text": "因為他們為了主的名四處傳道，不接受非信徒的任何幫助。"
+                    },
+                    {
+                        "number": "8",
+                        "style": "v",
+                        "text": "我們理當接待這樣的人，好成為他們傳揚真理的同工。"
+                    }
+                ]
+            },
+            {
+                "style": "s1",
+                "text": "丟特腓的惡行"
+            },
+            {
+                "style": "p",
+                "verses": [
+                    {
+                        "number": "9",
+                        "style": "v",
+                        "textParts": [
+                            "我曾寫信給你那裡的教會，但愛當頭領的"
+                        ]
+                    },
+                    {
+                        "inline": {
+                            "type": "char",
+                            "style": "pn",
+                            "text": "丟特腓"
+                        }
+                    },
+                    {
+                        "text": "不接待我們。"
+                    },
+                    {
+                        "number": "10",
+                        "style": "v",
+                        "text": "因此，我若去你們那裡，必揭露他的所作所為，他怎樣惡言中傷我們。不僅如此，他還拒絕接待弟兄，並且禁止別人接待，甚至將接待的人趕出教會。"
+                    }
+                ]
+            },
+            {
+                "style": "s1",
+                "text": "抑惡揚善"
+            },
+            {
+                "style": "p",
+                "verses": [
+                    {
+                        "number": "11",
+                        "style": "v",
+                        "text": "親愛的弟兄，不要效法罪惡，要效法美善。行善的人屬於上帝，行惡的人不認識上帝。"
+                    },
+                    {
+                        "number": "12",
+                        "style": "v",
+                        "textParts": [
+                            {
+                                "inline": {
+                                    "type": "char",
+                                    "style": "pn",
+                                    "text": "低米丟"
+                                }
+                            },
+                            "得到了眾人的好評，真理也為他作見證，我們也為他作見證。你知道我們的見證是真實的。"
+                        ]
+                    }
+                ]
+            },
+            {
+                "style": "s1",
+                "text": "結語"
+            },
+            {
+                "style": "p",
+                "verses": [
+                    {
+                        "number": "13",
+                        "style": "v",
+                        "text": "我還有許多事要告訴你，但不想藉助筆墨，"
+                    },
+                    {
+                        "number": "14",
+                        "style": "v",
+                        "text": "只希望很快見到你，跟你當面暢談。"
+                    }
+                ]
+            },
+            {
+                "style": "p",
+                "verses": [
+                    {
+                        "number": "15",
+                        "style": "v",
+                        "text": "願你平安！這裡的朋友們都問候你，請代我一一問候你那邊的朋友。"
+                    }
+                ]
+            },
+            {
+                "chapter": {
+                    "end": "1"
+                }
+            }
+        ]
+    }
+}
