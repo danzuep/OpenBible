@@ -46,7 +46,8 @@ public class Program
         //await ParseAsync(logger);
         //await DeserializeToUsjAsync(logger);
         //await DeserializeOneToUsjAsync(logger);
-        await UsjVisitorExampleAsync(logger);
+        //await UsjVisitorExampleAsync(logger);
+        await VisitDeserializeToUsjAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -195,6 +196,26 @@ public class Program
         }, sample: "zho-Hant-OCCB");
     }
 
+    private static async Task DeserializeToHtmlAsync(XmlConverter converter, UnihanLanguage? unihan)
+    {
+        await converter.XmlMetadataToJsonAsync();
+
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            if (unihan != null)
+            {
+                var fileName = Path.GetFileNameWithoutExtension(outputPath);
+                var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+                //unihan.IsoLanguage = langScript;
+            }
+            var html = UsxToHtmlVisitor.GetFullText(book, unihan);
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");
+            File.WriteAllText(outFilePath, html, Encoding.UTF8);
+            converter.Logger.LogInformation(outFilePath);
+            return html;
+        });
+    }
+
     private static async Task UsjVisitorExampleAsync(ILogger logger)
     {
         await Task.CompletedTask;
@@ -218,23 +239,23 @@ public class Program
         }, sample: "zho-Hant-OCCB");
     }
 
-    private static async Task DeserializeToHtmlAsync(XmlConverter converter, UnihanLanguage? unihan)
+    private static async Task VisitDeserializeToUsjAsync(ILogger logger)
     {
+        //var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var converter = new XmlConverter(null, logger);
         await converter.XmlMetadataToJsonAsync();
 
         converter.Visitor<UsxBook>((book, outputPath) =>
         {
-            if (unihan != null)
-            {
-                var fileName = Path.GetFileNameWithoutExtension(outputPath);
-                var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-                //unihan.IsoLanguage = langScript;
-            }
-            var html = UsxToHtmlVisitor.GetFullText(book, unihan);
-            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.html");
-            File.WriteAllText(outFilePath, html, Encoding.UTF8);
-            converter.Logger.LogInformation(outFilePath);
-            return html;
+            //var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            //var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            //var field = UnihanLanguage.GetUnihanField(langScript);
+            //var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToUsjVisitor.GetBook(book); // dictionary
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.json");
+            Serialize(usj, outFilePath);
+            logger.LogInformation(outFilePath);
+            return outFilePath;
         });
     }
 
