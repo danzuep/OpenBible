@@ -28,8 +28,6 @@ namespace Bible.Backend.Visitors
         public UsxToUsjVisitor(IOptions<UsxVisitorOptions>? options = null)
         {
             _options = options?.Value ?? new UsxVisitorOptions();
-            _usj.Metadata = new List<KVP>();
-            _usj.Contents = new List<KVP>();
         }
 
         public UnihanDictionary? UnihanDictionary { get; set; }
@@ -144,6 +142,8 @@ namespace Bible.Backend.Visitors
         {
             _usj.UsxVersion = usxScriptureBook?.UsxVersion;
             this.Accept(usxScriptureBook);
+            //_usj.Meta = _usj.Metadata.ToLookup(kv => kv.Key, kv => kv.Value);
+            //_usj.Cont = _usj.Contents.ToLookup(kv => kv.Key, kv => kv.Value);
             return _usj;
         }
     }
