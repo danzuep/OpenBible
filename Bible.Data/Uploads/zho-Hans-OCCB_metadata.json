@@ -1,0 +1,1803 @@
+{
+  "DBLMetadata": {
+    "@version": "2.2.1",
+    "@id": "7ea794434e9ea7ee",
+    "@revision": "3",
+    "identification": {
+      "name": "Biblica® Open Chinese Contemporary Bible 2022 (Simplified)",
+      "nameLocal": "Biblica® 圣经当代译本开放资源",
+      "description": "Chinese, Mandarin: Biblica® 圣经当代译本开放资源 (Bible)",
+      "descriptionLocal": "圣经",
+      "abbreviation": "OCCB",
+      "abbreviationLocal": "OCCB",
+      "scope": "Bible",
+      "dateCompleted": "2023-01-01",
+      "bundleProducer": "Paratext/9.4.101.7",
+      "systemId": [
+        {
+          "@type": "paratext",
+          "id": "7ea794434e9ea7eebf30948dee25ae5085598bbf",
+          "csetId": "dec1a89561fcf5fdf3a603977092637199adc245",
+          "name": "zhsOCC22",
+          "fullName": "Biblica® Open Chinese Contemporary Bible 2022 (Simplified)"
+        },
+        {
+          "@type": "ptreg",
+          "id": "XcsvnfSwr2eQ8oL79"
+        }
+      ]
+    },
+    "type": {
+      "medium": "text",
+      "isConfidential": "false",
+      "hasCharacters": "true",
+      "isTranslation": "true",
+      "isExpression": "true",
+      "translationType": "Revision",
+      "audience": "Basic",
+      "projectType": "Standard"
+    },
+    "relationships": null,
+    "agencies": {
+      "rightsHolder": {
+        "abbr": "Biblica",
+        "url": "http://www.Biblica.com/permissions",
+        "nameLocal": "Biblica, Inc.",
+        "uid": "545d2cb00fd5dca263562474",
+        "name": "Biblica, Inc."
+      },
+      "rightsAdmin": {
+        "url": "http://www.Biblica.com/permissions",
+        "uid": "545d2cb00fd5dca263562474",
+        "name": "Biblica, Inc."
+      },
+      "contributor": {
+        "content": "true",
+        "publication": "true",
+        "management": "true",
+        "finance": "true",
+        "qa": "true",
+        "uid": "545d2cb00fd5dca263562474",
+        "name": "Biblica, Inc."
+      }
+    },
+    "language": {
+      "iso": "cmn",
+      "name": "Chinese, Mandarin",
+      "nameLocal": "中文",
+      "script": "Han (Simplified variant)",
+      "scriptCode": "Hans",
+      "scriptDirection": "LTR",
+      "ldml": "cmn-Hans",
+      "numerals": "Arabic"
+    },
+    "countries": {
+      "country": [
+        {
+          "iso": "CN",
+          "name": "China"
+        },
+        {
+          "iso": "MY",
+          "name": "Malaysia"
+        },
+        {
+          "iso": "SG",
+          "name": "Singapore"
+        }
+      ]
+    },
+    "format": {
+      "usxVersion": "3.0",
+      "versedParagraphs": "false"
+    },
+    "names": {
+      "name": [
+        {
+          "@id": "book-gen",
+          "abbr": "创",
+          "short": "创世记",
+          "long": "创世记"
+        },
+        {
+          "@id": "book-exo",
+          "abbr": "出",
+          "short": "出埃及记",
+          "long": "出埃及记"
+        },
+        {
+          "@id": "book-lev",
+          "abbr": "利",
+          "short": "利未记",
+          "long": "利未记"
+        },
+        {
+          "@id": "book-num",
+          "abbr": "民",
+          "short": "民数记",
+          "long": "民数记"
+        },
+        {
+          "@id": "book-deu",
+          "abbr": "申",
+          "short": "申命记",
+          "long": "申命记"
+        },
+        {
+          "@id": "book-jos",
+          "abbr": "书",
+          "short": "约书亚记",
+          "long": "约书亚记"
+        },
+        {
+          "@id": "book-jdg",
+          "abbr": "士",
+          "short": "士师记",
+          "long": "士师记"
+        },
+        {
+          "@id": "book-rut",
+          "abbr": "得",
+          "short": "路得记",
+          "long": "路得记"
+        },
+        {
+          "@id": "book-1sa",
+          "abbr": "撒上",
+          "short": "撒母耳记上",
+          "long": "撒母耳记上"
+        },
+        {
+          "@id": "book-2sa",
+          "abbr": "撒下",
+          "short": "撒母耳记下",
+          "long": "撒母耳记下"
+        },
+        {
+          "@id": "book-1ki",
+          "abbr": "王上",
+          "short": "列王纪上",
+          "long": "列王纪上"
+        },
+        {
+          "@id": "book-2ki",
+          "abbr": "王下",
+          "short": "列王纪下",
+          "long": "列王纪下"
+        },
+        {
+          "@id": "book-1ch",
+          "abbr": "代上",
+          "short": "历代志上",
+          "long": "历代志上"
+        },
+        {
+          "@id": "book-2ch",
+          "abbr": "代下",
+          "short": "历代志下",
+          "long": "历代志下"
+        },
+        {
+          "@id": "book-ezr",
+          "abbr": "拉",
+          "short": "以斯拉记",
+          "long": "以斯拉记"
+        },
+        {
+          "@id": "book-neh",
+          "abbr": "尼",
+          "short": "尼希米记",
+          "long": "尼希米记"
+        },
+        {
+          "@id": "book-est",
+          "abbr": "斯",
+          "short": "以斯帖记",
+          "long": "以斯帖记"
+        },
+        {
+          "@id": "book-job",
+          "abbr": "伯",
+          "short": "约伯记",
+          "long": "约伯记"
+        },
+        {
+          "@id": "book-psa",
+          "abbr": "诗",
+          "short": "诗篇",
+          "long": "诗篇"
+        },
+        {
+          "@id": "book-pro",
+          "abbr": "箴",
+          "short": "箴言",
+          "long": "箴言"
+        },
+        {
+          "@id": "book-ecc",
+          "abbr": "传",
+          "short": "传道书",
+          "long": "传道书"
+        },
+        {
+          "@id": "book-sng",
+          "abbr": "歌",
+          "short": "雅歌",
+          "long": "雅歌"
+        },
+        {
+          "@id": "book-isa",
+          "abbr": "赛",
+          "short": "以赛亚书",
+          "long": "以赛亚书"
+        },
+        {
+          "@id": "book-jer",
+          "abbr": "耶",
+          "short": "耶利米书",
+          "long": "耶利米书"
+        },
+        {
+          "@id": "book-lam",
+          "abbr": "哀",
+          "short": "耶利米哀歌",
+          "long": "耶利米哀歌"
+        },
+        {
+          "@id": "book-ezk",
+          "abbr": "结",
+          "short": "以西结书",
+          "long": "以西结书"
+        },
+        {
+          "@id": "book-dan",
+          "abbr": "但",
+          "short": "但以理书",
+          "long": "但以理书"
+        },
+        {
+          "@id": "book-hos",
+          "abbr": "何",
+          "short": "何西阿书",
+          "long": "何西阿书"
+        },
+        {
+          "@id": "book-jol",
+          "abbr": "珥",
+          "short": "约珥书",
+          "long": "约珥书"
+        },
+        {
+          "@id": "book-amo",
+          "abbr": "摩",
+          "short": "阿摩司书",
+          "long": "阿摩司书"
+        },
+        {
+          "@id": "book-oba",
+          "abbr": "俄",
+          "short": "俄巴底亚书",
+          "long": "俄巴底亚书"
+        },
+        {
+          "@id": "book-jon",
+          "abbr": "拿",
+          "short": "约拿书",
+          "long": "约拿书"
+        },
+        {
+          "@id": "book-mic",
+          "abbr": "弥",
+          "short": "弥迦书",
+          "long": "弥迦书"
+        },
+        {
+          "@id": "book-nam",
+          "abbr": "鸿",
+          "short": "那鸿书",
+          "long": "那鸿书"
+        },
+        {
+          "@id": "book-hab",
+          "abbr": "哈",
+          "short": "哈巴谷书",
+          "long": "哈巴谷书"
+        },
+        {
+          "@id": "book-zep",
+          "abbr": "番",
+          "short": "西番雅书",
+          "long": "西番雅书"
+        },
+        {
+          "@id": "book-hag",
+          "abbr": "该",
+          "short": "哈该书",
+          "long": "哈该书"
+        },
+        {
+          "@id": "book-zec",
+          "abbr": "亚",
+          "short": "撒迦利亚书",
+          "long": "撒迦利亚书"
+        },
+        {
+          "@id": "book-mal",
+          "abbr": "玛",
+          "short": "玛拉基书",
+          "long": "玛拉基书"
+        },
+        {
+          "@id": "book-mat",
+          "abbr": "太",
+          "short": "马太福音",
+          "long": "马太福音"
+        },
+        {
+          "@id": "book-mrk",
+          "abbr": "可",
+          "short": "马可福音",
+          "long": "马可福音"
+        },
+        {
+          "@id": "book-luk",
+          "abbr": "路",
+          "short": "路加福音",
+          "long": "路加福音"
+        },
+        {
+          "@id": "book-jhn",
+          "abbr": "约",
+          "short": "约翰福音",
+          "long": "约翰福音"
+        },
+        {
+          "@id": "book-act",
+          "abbr": "徒",
+          "short": "使徒行传",
+          "long": "使徒行传"
+        },
+        {
+          "@id": "book-rom",
+          "abbr": "罗",
+          "short": "罗马书",
+          "long": "罗马书"
+        },
+        {
+          "@id": "book-1co",
+          "abbr": "林前",
+          "short": "哥林多前书",
+          "long": "哥林多前书"
+        },
+        {
+          "@id": "book-2co",
+          "abbr": "林后",
+          "short": "哥林多后书",
+          "long": "哥林多后书"
+        },
+        {
+          "@id": "book-gal",
+          "abbr": "加",
+          "short": "加拉太书",
+          "long": "加拉太书"
+        },
+        {
+          "@id": "book-eph",
+          "abbr": "弗",
+          "short": "以弗所书",
+          "long": "以弗所书"
+        },
+        {
+          "@id": "book-php",
+          "abbr": "腓",
+          "short": "腓立比书",
+          "long": "腓立比书"
+        },
+        {
+          "@id": "book-col",
+          "abbr": "西",
+          "short": "歌罗西书",
+          "long": "歌罗西书"
+        },
+        {
+          "@id": "book-1th",
+          "abbr": "帖前",
+          "short": "帖撒罗尼迦前书",
+          "long": "帖撒罗尼迦前书"
+        },
+        {
+          "@id": "book-2th",
+          "abbr": "帖后",
+          "short": "帖撒罗尼迦后书",
+          "long": "帖撒罗尼迦后书"
+        },
+        {
+          "@id": "book-1ti",
+          "abbr": "提前",
+          "short": "提摩太前书",
+          "long": "提摩太前书"
+        },
+        {
+          "@id": "book-2ti",
+          "abbr": "提后",
+          "short": "提摩太后书",
+          "long": "提摩太后书"
+        },
+        {
+          "@id": "book-tit",
+          "abbr": "多",
+          "short": "提多书",
+          "long": "提多书"
+        },
+        {
+          "@id": "book-phm",
+          "abbr": "门",
+          "short": "腓利门书",
+          "long": "腓利门书"
+        },
+        {
+          "@id": "book-heb",
+          "abbr": "来",
+          "short": "希伯来书",
+          "long": "希伯来书"
+        },
+        {
+          "@id": "book-jas",
+          "abbr": "雅",
+          "short": "雅各书",
+          "long": "雅各书"
+        },
+        {
+          "@id": "book-1pe",
+          "abbr": "彼前",
+          "short": "彼得前书",
+          "long": "彼得前书"
+        },
+        {
+          "@id": "book-2pe",
+          "abbr": "彼后",
+          "short": "彼得后书",
+          "long": "彼得后书"
+        },
+        {
+          "@id": "book-1jn",
+          "abbr": "约壹",
+          "short": "约翰一书",
+          "long": "约翰一书"
+        },
+        {
+          "@id": "book-2jn",
+          "abbr": "约贰",
+          "short": "约翰二书",
+          "long": "约翰二书"
+        },
+        {
+          "@id": "book-3jn",
+          "abbr": "约叁",
+          "short": "约翰三书",
+          "long": "约翰三书"
+        },
+        {
+          "@id": "book-jud",
+          "abbr": "犹",
+          "short": "犹大书",
+          "long": "犹大书"
+        },
+        {
+          "@id": "book-rev",
+          "abbr": "启",
+          "short": "启示录",
+          "long": "启示录"
+        }
+      ]
+    },
+    "manifest": {
+      "resource": [
+        {
+          "@checksum": "473820337ace1e9993026e81fcf12b8d",
+          "@mimeType": "application/xml",
+          "@size": "249958",
+          "@uri": "release/USX_1/1CH.usx"
+        },
+        {
+          "@checksum": "42834944ae6687b0216160016af8c792",
+          "@mimeType": "application/xml",
+          "@size": "89341",
+          "@uri": "release/USX_1/1CO.usx"
+        },
+        {
+          "@checksum": "67944cf11aa8e606b5724d03ea7f7d68",
+          "@mimeType": "application/xml",
+          "@size": "21479",
+          "@uri": "release/USX_1/1JN.usx"
+        },
+        {
+          "@checksum": "57096cb1355ffe9d358c4348def6bfdf",
+          "@mimeType": "application/xml",
+          "@size": "194546",
+          "@uri": "release/USX_1/1KI.usx"
+        },
+        {
+          "@checksum": "62f1b52fa6a3bf2cc5d1ec0bdf2dda41",
+          "@mimeType": "application/xml",
+          "@size": "24788",
+          "@uri": "release/USX_1/1PE.usx"
+        },
+        {
+          "@checksum": "79d20a93118408c2381cefc76f9d6a96",
+          "@mimeType": "application/xml",
+          "@size": "207481",
+          "@uri": "release/USX_1/1SA.usx"
+        },
+        {
+          "@checksum": "4d13d66c0fad8ff449896f7092ce12cc",
+          "@mimeType": "application/xml",
+          "@size": "18117",
+          "@uri": "release/USX_1/1TH.usx"
+        },
+        {
+          "@checksum": "48880a7c4a34f1179f40cbd00431f005",
+          "@mimeType": "application/xml",
+          "@size": "22628",
+          "@uri": "release/USX_1/1TI.usx"
+        },
+        {
+          "@checksum": "06e6ca74e1761ddea7912b8a55879bea",
+          "@mimeType": "application/xml",
+          "@size": "218930",
+          "@uri": "release/USX_1/2CH.usx"
+        },
+        {
+          "@checksum": "1e7479943e5a3a101873fda7e8a63cae",
+          "@mimeType": "application/xml",
+          "@size": "55823",
+          "@uri": "release/USX_1/2CO.usx"
+        },
+        {
+          "@checksum": "155c56ce8215a8c4e18fec2935cf2f2b",
+          "@mimeType": "application/xml",
+          "@size": "3163",
+          "@uri": "release/USX_1/2JN.usx"
+        },
+        {
+          "@checksum": "292aaa32106250da41ba5a293199c616",
+          "@mimeType": "application/xml",
+          "@size": "194284",
+          "@uri": "release/USX_1/2KI.usx"
+        },
+        {
+          "@checksum": "c8398597bfaf5d9c4c98e227edf30cd0",
+          "@mimeType": "application/xml",
+          "@size": "13953",
+          "@uri": "release/USX_1/2PE.usx"
+        },
+        {
+          "@checksum": "123c025524e9906bd91e4f354adf4926",
+          "@mimeType": "application/xml",
+          "@size": "183836",
+          "@uri": "release/USX_1/2SA.usx"
+        },
+        {
+          "@checksum": "d9debbcc1733f51126189c07d4ba5b6f",
+          "@mimeType": "application/xml",
+          "@size": "9875",
+          "@uri": "release/USX_1/2TH.usx"
+        },
+        {
+          "@checksum": "edb4655073260dfadbe7b0e3cf510330",
+          "@mimeType": "application/xml",
+          "@size": "17591",
+          "@uri": "release/USX_1/2TI.usx"
+        },
+        {
+          "@checksum": "381367507387e529ae3c136ddd977dc0",
+          "@mimeType": "application/xml",
+          "@size": "3390",
+          "@uri": "release/USX_1/3JN.usx"
+        },
+        {
+          "@checksum": "275a8b8315a61dceefbe5cded4593ad0",
+          "@mimeType": "application/xml",
+          "@size": "234742",
+          "@uri": "release/USX_1/ACT.usx"
+        },
+        {
+          "@checksum": "855f2aa1f6c2d14c9190714a28ba6605",
+          "@mimeType": "application/xml",
+          "@size": "52539",
+          "@uri": "release/USX_1/AMO.usx"
+        },
+        {
+          "@checksum": "c9f237470e413c8dcac7b02c55743efb",
+          "@mimeType": "application/xml",
+          "@size": "19589",
+          "@uri": "release/USX_1/COL.usx"
+        },
+        {
+          "@checksum": "504204ad77bb0566cea683f3ea11b04c",
+          "@mimeType": "application/xml",
+          "@size": "80998",
+          "@uri": "release/USX_1/DAN.usx"
+        },
+        {
+          "@checksum": "5810eada53bdf163f32c440211fd0f8f",
+          "@mimeType": "application/xml",
+          "@size": "212136",
+          "@uri": "release/USX_1/DEU.usx"
+        },
+        {
+          "@checksum": "5fbbeff75b8203c001ee678ee38769a9",
+          "@mimeType": "application/xml",
+          "@size": "44755",
+          "@uri": "release/USX_1/ECC.usx"
+        },
+        {
+          "@checksum": "23be770852374e735d2f1376f106dde1",
+          "@mimeType": "application/xml",
+          "@size": "28238",
+          "@uri": "release/USX_1/EPH.usx"
+        },
+        {
+          "@checksum": "5852abf1e82f84ddbd0308b9b0d4d213",
+          "@mimeType": "application/xml",
+          "@size": "43132",
+          "@uri": "release/USX_1/EST.usx"
+        },
+        {
+          "@checksum": "6bb94fd2b1d572bd8bfba11b467147a7",
+          "@mimeType": "application/xml",
+          "@size": "251708",
+          "@uri": "release/USX_1/EXO.usx"
+        },
+        {
+          "@checksum": "2a8daa826533abab946b44ca2fe9ad72",
+          "@mimeType": "application/xml",
+          "@size": "278552",
+          "@uri": "release/USX_1/EZK.usx"
+        },
+        {
+          "@checksum": "e9358f53698c80c7025c4f36e0210acf",
+          "@mimeType": "application/xml",
+          "@size": "71668",
+          "@uri": "release/USX_1/EZR.usx"
+        },
+        {
+          "@checksum": "255f36d430df7fc7814ec566e922734c",
+          "@mimeType": "application/xml",
+          "@size": "34244",
+          "@uri": "release/USX_1/GAL.usx"
+        },
+        {
+          "@checksum": "ac4b6fb6b20833169cfedd623231043a",
+          "@mimeType": "application/xml",
+          "@size": "356015",
+          "@uri": "release/USX_1/GEN.usx"
+        },
+        {
+          "@checksum": "00e9e3571ebbc7835f0df88268fc7574",
+          "@mimeType": "application/xml",
+          "@size": "19385",
+          "@uri": "release/USX_1/HAB.usx"
+        },
+        {
+          "@checksum": "4b5edaf9a1afff8e984ed93bc14da10f",
+          "@mimeType": "application/xml",
+          "@size": "9202",
+          "@uri": "release/USX_1/HAG.usx"
+        },
+        {
+          "@checksum": "262f32b9054e6b4656ce6cacb1ef36b0",
+          "@mimeType": "application/xml",
+          "@size": "74095",
+          "@uri": "release/USX_1/HEB.usx"
+        },
+        {
+          "@checksum": "52a2d4cb79b3d16d6cba47543eea2628",
+          "@mimeType": "application/xml",
+          "@size": "73945",
+          "@uri": "release/USX_1/HOS.usx"
+        },
+        {
+          "@checksum": "0eb776f0956803fb7f79191033b0f1f9",
+          "@mimeType": "application/xml",
+          "@size": "423862",
+          "@uri": "release/USX_1/ISA.usx"
+        },
+        {
+          "@checksum": "ef267c660852fcf50fddb7b91bce06d5",
+          "@mimeType": "application/xml",
+          "@size": "21668",
+          "@uri": "release/USX_1/JAS.usx"
+        },
+        {
+          "@checksum": "232e289bf8312d63070061da8da3786b",
+          "@mimeType": "application/xml",
+          "@size": "160482",
+          "@uri": "release/USX_1/JDG.usx"
+        },
+        {
+          "@checksum": "b6ac22db302ebef11020f95ca006284b",
+          "@mimeType": "application/xml",
+          "@size": "402101",
+          "@uri": "release/USX_1/JER.usx"
+        },
+        {
+          "@checksum": "9bf607977416c16c69d5efe4074350c2",
+          "@mimeType": "application/xml",
+          "@size": "183899",
+          "@uri": "release/USX_1/JHN.usx"
+        },
+        {
+          "@checksum": "882326a150746e69c98dbd78ab933d88",
+          "@mimeType": "application/xml",
+          "@size": "239356",
+          "@uri": "release/USX_1/JOB.usx"
+        },
+        {
+          "@checksum": "00001b345fd43046da748f35eb7a5619",
+          "@mimeType": "application/xml",
+          "@size": "25064",
+          "@uri": "release/USX_1/JOL.usx"
+        },
+        {
+          "@checksum": "926de3e969c071e85b21f38026902c9a",
+          "@mimeType": "application/xml",
+          "@size": "12013",
+          "@uri": "release/USX_1/JON.usx"
+        },
+        {
+          "@checksum": "d3535533842e0a3d8eb047717c80cafb",
+          "@mimeType": "application/xml",
+          "@size": "168556",
+          "@uri": "release/USX_1/JOS.usx"
+        },
+        {
+          "@checksum": "ca321a15bb21e77a625a29001a092e9b",
+          "@mimeType": "application/xml",
+          "@size": "6528",
+          "@uri": "release/USX_1/JUD.usx"
+        },
+        {
+          "@checksum": "7772325d97fdd857e4ffb2f2e1313608",
+          "@mimeType": "application/xml",
+          "@size": "44913",
+          "@uri": "release/USX_1/LAM.usx"
+        },
+        {
+          "@checksum": "df016205e82b537bfc9e078e9cd36612",
+          "@mimeType": "application/xml",
+          "@size": "163836",
+          "@uri": "release/USX_1/LEV.usx"
+        },
+        {
+          "@checksum": "995f53713e28b24b8ba5d89eafcd18fb",
+          "@mimeType": "application/xml",
+          "@size": "244778",
+          "@uri": "release/USX_1/LUK.usx"
+        },
+        {
+          "@checksum": "3eafb9982526de365777b02464c4e268",
+          "@mimeType": "application/xml",
+          "@size": "14101",
+          "@uri": "release/USX_1/MAL.usx"
+        },
+        {
+          "@checksum": "8ca2860903bdf238d1e9e9426ecfaea4",
+          "@mimeType": "application/xml",
+          "@size": "230763",
+          "@uri": "release/USX_1/MAT.usx"
+        },
+        {
+          "@checksum": "49b74a1f90f0d2429dc658da4890d22f",
+          "@mimeType": "application/xml",
+          "@size": "41094",
+          "@uri": "release/USX_1/MIC.usx"
+        },
+        {
+          "@checksum": "916d2183cf04139be38d381a5971034f",
+          "@mimeType": "application/xml",
+          "@size": "140483",
+          "@uri": "release/USX_1/MRK.usx"
+        },
+        {
+          "@checksum": "7fbaf2762a69d22aa441c75c98f40560",
+          "@mimeType": "application/xml",
+          "@size": "17421",
+          "@uri": "release/USX_1/NAM.usx"
+        },
+        {
+          "@checksum": "caf2d12d1b567bf20c340dcdb8bb2c41",
+          "@mimeType": "application/xml",
+          "@size": "104587",
+          "@uri": "release/USX_1/NEH.usx"
+        },
+        {
+          "@checksum": "3a201d610031d571fc746b4c76ee2f7c",
+          "@mimeType": "application/xml",
+          "@size": "273260",
+          "@uri": "release/USX_1/NUM.usx"
+        },
+        {
+          "@checksum": "16032a228c5c4935773793287910da0f",
+          "@mimeType": "application/xml",
+          "@size": "8701",
+          "@uri": "release/USX_1/OBA.usx"
+        },
+        {
+          "@checksum": "57bb93d9cbc5876c9c81d85fd46330a4",
+          "@mimeType": "application/xml",
+          "@size": "5363",
+          "@uri": "release/USX_1/PHM.usx"
+        },
+        {
+          "@checksum": "ff5d4e36a0348e01c41340b367b2c2b0",
+          "@mimeType": "application/xml",
+          "@size": "21183",
+          "@uri": "release/USX_1/PHP.usx"
+        },
+        {
+          "@checksum": "92550dff275c22046a1ae6fe9c755ea0",
+          "@mimeType": "application/xml",
+          "@size": "199500",
+          "@uri": "release/USX_1/PRO.usx"
+        },
+        {
+          "@checksum": "59bd201690a4fbeaad2c8426b8bcaa73",
+          "@mimeType": "application/xml",
+          "@size": "620058",
+          "@uri": "release/USX_1/PSA.usx"
+        },
+        {
+          "@checksum": "2e8f9a1f354b9eed02a6d364d5d24320",
+          "@mimeType": "application/xml",
+          "@size": "95754",
+          "@uri": "release/USX_1/REV.usx"
+        },
+        {
+          "@checksum": "d2e55322ddee3894d804cd922b9b1e70",
+          "@mimeType": "application/xml",
+          "@size": "101507",
+          "@uri": "release/USX_1/ROM.usx"
+        },
+        {
+          "@checksum": "986f6a4c0f4ad1c28daa1abfa9e4e29a",
+          "@mimeType": "application/xml",
+          "@size": "22642",
+          "@uri": "release/USX_1/RUT.usx"
+        },
+        {
+          "@checksum": "a18cf75049f4f04711269bb19560368c",
+          "@mimeType": "application/xml",
+          "@size": "38649",
+          "@uri": "release/USX_1/SNG.usx"
+        },
+        {
+          "@checksum": "9776b97919e731e4f267a814d3a6305a",
+          "@mimeType": "application/xml",
+          "@size": "9227",
+          "@uri": "release/USX_1/TIT.usx"
+        },
+        {
+          "@checksum": "3ef889c6001adbf12976a724f78fd7f1",
+          "@mimeType": "application/xml",
+          "@size": "55380",
+          "@uri": "release/USX_1/ZEC.usx"
+        },
+        {
+          "@checksum": "5eae38cd4971de6b1f21feed8e864c47",
+          "@mimeType": "application/xml",
+          "@size": "19165",
+          "@uri": "release/USX_1/ZEP.usx"
+        },
+        {
+          "@checksum": "23d2acbd65a2ae6a503a1a0682b450a9",
+          "@mimeType": "application/xml",
+          "@size": "3792",
+          "@uri": "release/cmn-Hans.ldml"
+        },
+        {
+          "@checksum": "5fd20c3678c7034a06319ae5c0651e4d",
+          "@mimeType": "application/xml",
+          "@size": "105535",
+          "@uri": "release/styles.xml"
+        },
+        {
+          "@checksum": "ad829a7d2ac2acbed7a573364ce818df",
+          "@mimeType": "text/plain",
+          "@size": "15359",
+          "@uri": "release/versification.vrs"
+        },
+        {
+          "@checksum": "21f687a7d90644eddfc261a2f63aad2c",
+          "@mimeType": "application/zip",
+          "@size": "1422558",
+          "@uri": "source/source.zip"
+        }
+      ]
+    },
+    "source": {
+      "canonicalContent": {
+        "book": [
+          {
+            "@code": "1CH"
+          },
+          {
+            "@code": "1CO"
+          },
+          {
+            "@code": "1JN"
+          },
+          {
+            "@code": "1KI"
+          },
+          {
+            "@code": "1PE"
+          },
+          {
+            "@code": "1SA"
+          },
+          {
+            "@code": "1TH"
+          },
+          {
+            "@code": "1TI"
+          },
+          {
+            "@code": "2CH"
+          },
+          {
+            "@code": "2CO"
+          },
+          {
+            "@code": "2JN"
+          },
+          {
+            "@code": "2KI"
+          },
+          {
+            "@code": "2PE"
+          },
+          {
+            "@code": "2SA"
+          },
+          {
+            "@code": "2TH"
+          },
+          {
+            "@code": "2TI"
+          },
+          {
+            "@code": "3JN"
+          },
+          {
+            "@code": "ACT"
+          },
+          {
+            "@code": "AMO"
+          },
+          {
+            "@code": "COL"
+          },
+          {
+            "@code": "DAN"
+          },
+          {
+            "@code": "DEU"
+          },
+          {
+            "@code": "ECC"
+          },
+          {
+            "@code": "EPH"
+          },
+          {
+            "@code": "EST"
+          },
+          {
+            "@code": "EXO"
+          },
+          {
+            "@code": "EZK"
+          },
+          {
+            "@code": "EZR"
+          },
+          {
+            "@code": "GAL"
+          },
+          {
+            "@code": "GEN"
+          },
+          {
+            "@code": "HAB"
+          },
+          {
+            "@code": "HAG"
+          },
+          {
+            "@code": "HEB"
+          },
+          {
+            "@code": "HOS"
+          },
+          {
+            "@code": "ISA"
+          },
+          {
+            "@code": "JAS"
+          },
+          {
+            "@code": "JDG"
+          },
+          {
+            "@code": "JER"
+          },
+          {
+            "@code": "JHN"
+          },
+          {
+            "@code": "JOB"
+          },
+          {
+            "@code": "JOL"
+          },
+          {
+            "@code": "JON"
+          },
+          {
+            "@code": "JOS"
+          },
+          {
+            "@code": "JUD"
+          },
+          {
+            "@code": "LAM"
+          },
+          {
+            "@code": "LEV"
+          },
+          {
+            "@code": "LUK"
+          },
+          {
+            "@code": "MAL"
+          },
+          {
+            "@code": "MAT"
+          },
+          {
+            "@code": "MIC"
+          },
+          {
+            "@code": "MRK"
+          },
+          {
+            "@code": "NAM"
+          },
+          {
+            "@code": "NEH"
+          },
+          {
+            "@code": "NUM"
+          },
+          {
+            "@code": "OBA"
+          },
+          {
+            "@code": "PHM"
+          },
+          {
+            "@code": "PHP"
+          },
+          {
+            "@code": "PRO"
+          },
+          {
+            "@code": "PSA"
+          },
+          {
+            "@code": "REV"
+          },
+          {
+            "@code": "ROM"
+          },
+          {
+            "@code": "RUT"
+          },
+          {
+            "@code": "SNG"
+          },
+          {
+            "@code": "TIT"
+          },
+          {
+            "@code": "ZEC"
+          },
+          {
+            "@code": "ZEP"
+          }
+        ]
+      },
+      "structure": {
+        "content": {
+          "@src": "source/source.zip",
+          "@role": "sourceZip"
+        }
+      }
+    },
+    "publications": {
+      "publication": {
+        "@id": "p1",
+        "@default": "true",
+        "name": "Biblica® Open Chinese Contemporary Bible Simplified 2022",
+        "nameLocal": "当代译本",
+        "description": "Bible",
+        "descriptionLocal": "圣经",
+        "abbreviation": "OCCB",
+        "canonicalContent": {
+          "book": [
+            {
+              "@code": "1CH"
+            },
+            {
+              "@code": "1CO"
+            },
+            {
+              "@code": "1JN"
+            },
+            {
+              "@code": "1KI"
+            },
+            {
+              "@code": "1PE"
+            },
+            {
+              "@code": "1SA"
+            },
+            {
+              "@code": "1TH"
+            },
+            {
+              "@code": "1TI"
+            },
+            {
+              "@code": "2CH"
+            },
+            {
+              "@code": "2CO"
+            },
+            {
+              "@code": "2JN"
+            },
+            {
+              "@code": "2KI"
+            },
+            {
+              "@code": "2PE"
+            },
+            {
+              "@code": "2SA"
+            },
+            {
+              "@code": "2TH"
+            },
+            {
+              "@code": "2TI"
+            },
+            {
+              "@code": "3JN"
+            },
+            {
+              "@code": "ACT"
+            },
+            {
+              "@code": "AMO"
+            },
+            {
+              "@code": "COL"
+            },
+            {
+              "@code": "DAN"
+            },
+            {
+              "@code": "DEU"
+            },
+            {
+              "@code": "ECC"
+            },
+            {
+              "@code": "EPH"
+            },
+            {
+              "@code": "EST"
+            },
+            {
+              "@code": "EXO"
+            },
+            {
+              "@code": "EZK"
+            },
+            {
+              "@code": "EZR"
+            },
+            {
+              "@code": "GAL"
+            },
+            {
+              "@code": "GEN"
+            },
+            {
+              "@code": "HAB"
+            },
+            {
+              "@code": "HAG"
+            },
+            {
+              "@code": "HEB"
+            },
+            {
+              "@code": "HOS"
+            },
+            {
+              "@code": "ISA"
+            },
+            {
+              "@code": "JAS"
+            },
+            {
+              "@code": "JDG"
+            },
+            {
+              "@code": "JER"
+            },
+            {
+              "@code": "JHN"
+            },
+            {
+              "@code": "JOB"
+            },
+            {
+              "@code": "JOL"
+            },
+            {
+              "@code": "JON"
+            },
+            {
+              "@code": "JOS"
+            },
+            {
+              "@code": "JUD"
+            },
+            {
+              "@code": "LAM"
+            },
+            {
+              "@code": "LEV"
+            },
+            {
+              "@code": "LUK"
+            },
+            {
+              "@code": "MAL"
+            },
+            {
+              "@code": "MAT"
+            },
+            {
+              "@code": "MIC"
+            },
+            {
+              "@code": "MRK"
+            },
+            {
+              "@code": "NAM"
+            },
+            {
+              "@code": "NEH"
+            },
+            {
+              "@code": "NUM"
+            },
+            {
+              "@code": "OBA"
+            },
+            {
+              "@code": "PHM"
+            },
+            {
+              "@code": "PHP"
+            },
+            {
+              "@code": "PRO"
+            },
+            {
+              "@code": "PSA"
+            },
+            {
+              "@code": "REV"
+            },
+            {
+              "@code": "ROM"
+            },
+            {
+              "@code": "RUT"
+            },
+            {
+              "@code": "SNG"
+            },
+            {
+              "@code": "TIT"
+            },
+            {
+              "@code": "ZEC"
+            },
+            {
+              "@code": "ZEP"
+            }
+          ]
+        },
+        "structure": {
+          "content": [
+            {
+              "@name": "book-gen",
+              "@src": "release/USX_1/GEN.usx",
+              "@role": "GEN"
+            },
+            {
+              "@name": "book-exo",
+              "@src": "release/USX_1/EXO.usx",
+              "@role": "EXO"
+            },
+            {
+              "@name": "book-lev",
+              "@src": "release/USX_1/LEV.usx",
+              "@role": "LEV"
+            },
+            {
+              "@name": "book-num",
+              "@src": "release/USX_1/NUM.usx",
+              "@role": "NUM"
+            },
+            {
+              "@name": "book-deu",
+              "@src": "release/USX_1/DEU.usx",
+              "@role": "DEU"
+            },
+            {
+              "@name": "book-jos",
+              "@src": "release/USX_1/JOS.usx",
+              "@role": "JOS"
+            },
+            {
+              "@name": "book-jdg",
+              "@src": "release/USX_1/JDG.usx",
+              "@role": "JDG"
+            },
+            {
+              "@name": "book-rut",
+              "@src": "release/USX_1/RUT.usx",
+              "@role": "RUT"
+            },
+            {
+              "@name": "book-1sa",
+              "@src": "release/USX_1/1SA.usx",
+              "@role": "1SA"
+            },
+            {
+              "@name": "book-2sa",
+              "@src": "release/USX_1/2SA.usx",
+              "@role": "2SA"
+            },
+            {
+              "@name": "book-1ki",
+              "@src": "release/USX_1/1KI.usx",
+              "@role": "1KI"
+            },
+            {
+              "@name": "book-2ki",
+              "@src": "release/USX_1/2KI.usx",
+              "@role": "2KI"
+            },
+            {
+              "@name": "book-1ch",
+              "@src": "release/USX_1/1CH.usx",
+              "@role": "1CH"
+            },
+            {
+              "@name": "book-2ch",
+              "@src": "release/USX_1/2CH.usx",
+              "@role": "2CH"
+            },
+            {
+              "@name": "book-ezr",
+              "@src": "release/USX_1/EZR.usx",
+              "@role": "EZR"
+            },
+            {
+              "@name": "book-neh",
+              "@src": "release/USX_1/NEH.usx",
+              "@role": "NEH"
+            },
+            {
+              "@name": "book-est",
+              "@src": "release/USX_1/EST.usx",
+              "@role": "EST"
+            },
+            {
+              "@name": "book-job",
+              "@src": "release/USX_1/JOB.usx",
+              "@role": "JOB"
+            },
+            {
+              "@name": "book-psa",
+              "@src": "release/USX_1/PSA.usx",
+              "@role": "PSA"
+            },
+            {
+              "@name": "book-pro",
+              "@src": "release/USX_1/PRO.usx",
+              "@role": "PRO"
+            },
+            {
+              "@name": "book-ecc",
+              "@src": "release/USX_1/ECC.usx",
+              "@role": "ECC"
+            },
+            {
+              "@name": "book-sng",
+              "@src": "release/USX_1/SNG.usx",
+              "@role": "SNG"
+            },
+            {
+              "@name": "book-isa",
+              "@src": "release/USX_1/ISA.usx",
+              "@role": "ISA"
+            },
+            {
+              "@name": "book-jer",
+              "@src": "release/USX_1/JER.usx",
+              "@role": "JER"
+            },
+            {
+              "@name": "book-lam",
+              "@src": "release/USX_1/LAM.usx",
+              "@role": "LAM"
+            },
+            {
+              "@name": "book-ezk",
+              "@src": "release/USX_1/EZK.usx",
+              "@role": "EZK"
+            },
+            {
+              "@name": "book-dan",
+              "@src": "release/USX_1/DAN.usx",
+              "@role": "DAN"
+            },
+            {
+              "@name": "book-hos",
+              "@src": "release/USX_1/HOS.usx",
+              "@role": "HOS"
+            },
+            {
+              "@name": "book-jol",
+              "@src": "release/USX_1/JOL.usx",
+              "@role": "JOL"
+            },
+            {
+              "@name": "book-amo",
+              "@src": "release/USX_1/AMO.usx",
+              "@role": "AMO"
+            },
+            {
+              "@name": "book-oba",
+              "@src": "release/USX_1/OBA.usx",
+              "@role": "OBA"
+            },
+            {
+              "@name": "book-jon",
+              "@src": "release/USX_1/JON.usx",
+              "@role": "JON"
+            },
+            {
+              "@name": "book-mic",
+              "@src": "release/USX_1/MIC.usx",
+              "@role": "MIC"
+            },
+            {
+              "@name": "book-nam",
+              "@src": "release/USX_1/NAM.usx",
+              "@role": "NAM"
+            },
+            {
+              "@name": "book-hab",
+              "@src": "release/USX_1/HAB.usx",
+              "@role": "HAB"
+            },
+            {
+              "@name": "book-zep",
+              "@src": "release/USX_1/ZEP.usx",
+              "@role": "ZEP"
+            },
+            {
+              "@name": "book-hag",
+              "@src": "release/USX_1/HAG.usx",
+              "@role": "HAG"
+            },
+            {
+              "@name": "book-zec",
+              "@src": "release/USX_1/ZEC.usx",
+              "@role": "ZEC"
+            },
+            {
+              "@name": "book-mal",
+              "@src": "release/USX_1/MAL.usx",
+              "@role": "MAL"
+            },
+            {
+              "@name": "book-mat",
+              "@src": "release/USX_1/MAT.usx",
+              "@role": "MAT"
+            },
+            {
+              "@name": "book-mrk",
+              "@src": "release/USX_1/MRK.usx",
+              "@role": "MRK"
+            },
+            {
+              "@name": "book-luk",
+              "@src": "release/USX_1/LUK.usx",
+              "@role": "LUK"
+            },
+            {
+              "@name": "book-jhn",
+              "@src": "release/USX_1/JHN.usx",
+              "@role": "JHN"
+            },
+            {
+              "@name": "book-act",
+              "@src": "release/USX_1/ACT.usx",
+              "@role": "ACT"
+            },
+            {
+              "@name": "book-rom",
+              "@src": "release/USX_1/ROM.usx",
+              "@role": "ROM"
+            },
+            {
+              "@name": "book-1co",
+              "@src": "release/USX_1/1CO.usx",
+              "@role": "1CO"
+            },
+            {
+              "@name": "book-2co",
+              "@src": "release/USX_1/2CO.usx",
+              "@role": "2CO"
+            },
+            {
+              "@name": "book-gal",
+              "@src": "release/USX_1/GAL.usx",
+              "@role": "GAL"
+            },
+            {
+              "@name": "book-eph",
+              "@src": "release/USX_1/EPH.usx",
+              "@role": "EPH"
+            },
+            {
+              "@name": "book-php",
+              "@src": "release/USX_1/PHP.usx",
+              "@role": "PHP"
+            },
+            {
+              "@name": "book-col",
+              "@src": "release/USX_1/COL.usx",
+              "@role": "COL"
+            },
+            {
+              "@name": "book-1th",
+              "@src": "release/USX_1/1TH.usx",
+              "@role": "1TH"
+            },
+            {
+              "@name": "book-2th",
+              "@src": "release/USX_1/2TH.usx",
+              "@role": "2TH"
+            },
+            {
+              "@name": "book-1ti",
+              "@src": "release/USX_1/1TI.usx",
+              "@role": "1TI"
+            },
+            {
+              "@name": "book-2ti",
+              "@src": "release/USX_1/2TI.usx",
+              "@role": "2TI"
+            },
+            {
+              "@name": "book-tit",
+              "@src": "release/USX_1/TIT.usx",
+              "@role": "TIT"
+            },
+            {
+              "@name": "book-phm",
+              "@src": "release/USX_1/PHM.usx",
+              "@role": "PHM"
+            },
+            {
+              "@name": "book-heb",
+              "@src": "release/USX_1/HEB.usx",
+              "@role": "HEB"
+            },
+            {
+              "@name": "book-jas",
+              "@src": "release/USX_1/JAS.usx",
+              "@role": "JAS"
+            },
+            {
+              "@name": "book-1pe",
+              "@src": "release/USX_1/1PE.usx",
+              "@role": "1PE"
+            },
+            {
+              "@name": "book-2pe",
+              "@src": "release/USX_1/2PE.usx",
+              "@role": "2PE"
+            },
+            {
+              "@name": "book-1jn",
+              "@src": "release/USX_1/1JN.usx",
+              "@role": "1JN"
+            },
+            {
+              "@name": "book-2jn",
+              "@src": "release/USX_1/2JN.usx",
+              "@role": "2JN"
+            },
+            {
+              "@name": "book-3jn",
+              "@src": "release/USX_1/3JN.usx",
+              "@role": "3JN"
+            },
+            {
+              "@name": "book-jud",
+              "@src": "release/USX_1/JUD.usx",
+              "@role": "JUD"
+            },
+            {
+              "@name": "book-rev",
+              "@src": "release/USX_1/REV.usx",
+              "@role": "REV"
+            }
+          ]
+        }
+      }
+    },
+    "copyright": {
+      "fullStatement": {
+        "statementContent": {
+          "@type": "xhtml",
+          "p": [
+            "Biblica® 圣经当代译本™开放资源",
+            "版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.",
+            "Biblica® Open Chinese Contemporary Bible™ (Simplified Script)",
+            "Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.",
+            "“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。",
+            "“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission."
+          ]
+        }
+      }
+    },
+    "promotion": {
+      "promoVersionInfo": {
+        "@contentType": "xhtml",
+        "p": [
+          "Biblica® 圣经当代译本™开放资源",
+          "版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.",
+          "Biblica® Open Chinese Contemporary Bible™ (Simplified Script)",
+          "Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.",
+          "“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。",
+          "“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.",
+          "――――――",
+          {
+            "#text": [
+              "本《圣经/新约/音频》或“作品”是按照知识共享协议-同样分享4.0国际许可证（CC BY-SA）提供的。许可证详情，请访问",
+              "，或发邮件到Creative Commons, PO Box 1866, Mountain View, CA 94042, USA."
+            ],
+            "a": {
+              "@href": "https://creativecommons.org/licenses/by-sa/4.0",
+              "#text": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+          },
+          {
+            "#text": [
+              "“Biblica”是国际圣经协会注册的商标。若使用Biblica®商标，必须先获得国际圣经协会的书面许可。只要保持内容不变，包括“Biblica®”商标，就可以获准拷贝和分发本作品。改变或翻译本作品将产生衍生作品，生产方需要删除Biblica®商标。若出版衍生作品，则必须在可查阅的地方，如网站列出修改内容。也必须提供原作品的来源：原作品属于国际圣经协会，“在",
+              " and ",
+              "可以免费使用.”"
+            ],
+            "a": [
+              {
+                "@href": "https://biblica.com",
+                "#text": "www.biblica.com"
+              },
+              {
+                "@href": "https://open.bible",
+                "#text": "open.bible"
+              }
+            ]
+          },
+          "无论是保持本作品原貌，还是创造了衍生作品，必须在作品书名页或版权页写上如下版权声明：",
+          "Biblica® 圣经当代译本™开放资源",
+          "版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.",
+          "Biblica® Open Chinese Contemporary Bible™ (Simplified Script)",
+          "Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.",
+          "“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。",
+          "“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.",
+          "必须同意按照同样的许可证（CC BY-SA）和规则提供您的衍生作品。",
+          {
+            "#text": [
+              "如果想通知国际圣经协会有关您对本作品的翻译，请通过",
+              "联系我们。"
+            ],
+            "a": {
+              "@href": "https://open.bible/#feedback",
+              "#text": "https://open.bible/#feedback"
+            }
+          },
+          "――――――",
+          {
+            "#text": [
+              "This work is made available under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). To view a copy of this license, visit ",
+              " or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA."
+            ],
+            "a": {
+              "@href": "https://creativecommons.org/licenses/by-sa/4.0",
+              "#text": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+          },
+          {
+            "#text": [
+              "Biblica® is a trademark registered by Biblica, Inc., and use of the Biblica® trademark requires the written permission of Biblica, Inc. Under the terms of the CC BY-SA license, you may copy and redistribute this unmodified work as long as you keep the Biblica® trademark intact. If you modify a copy or translate this work, thereby creating a derivative work, you must remove the Biblica® trademark. On the derivative work, you must indicate what changes you have made and attribute the work as follows: “The original work by Biblica, Inc. is available for free at ",
+              " and ",
+              ".”"
+            ],
+            "a": [
+              {
+                "@href": "https://biblica.com/",
+                "#text": "www.biblica.com"
+              },
+              {
+                "@href": "https://open.bible/",
+                "#text": "open.bible"
+              }
+            ]
+          },
+          "Notice of copyright must appear on the title or copyright page of the work as follows:",
+          "Biblica® 圣经当代译本™开放资源",
+          "版权所有©1979, 2005, 2007, 2011, 2022 Biblica, Inc.",
+          "Biblica® Open Chinese Contemporary Bible™ (Simplified Script)",
+          "Copyright © 1979, 2005, 2007, 2011, 2022 by Biblica, Inc.",
+          "“Biblica”是国际圣经协会在美国专利和商标局注册的商标。获得授权使用。",
+          "“Biblica” is a trademark registered in the United States Patent and Trademark Office by Biblica, Inc. Used with permission.",
+          "You must also make your derivative work available under the same license (CC BY-SA).",
+          {
+            "#text": [
+              "If you would like to notify Biblica, Inc. regarding your translation of this work, please contact us at ",
+              ". "
+            ],
+            "a": {
+              "@href": "https://open.bible/#feedback",
+              "#text": "https://open.bible/#feedback"
+            }
+          }
+        ],
+        "h3": "Creative Commons License"
+      }
+    },
+    "archiveStatus": {
+      "archivistName": "John Dunham",
+      "dateArchived": "2023-10-29T15:00:03.259387",
+      "dateUpdated": "2024-04-29T21:47:16.627434",
+      "comments": "Remove checkboxes"
+    }
+  }
+}

@@ -41,6 +41,7 @@ namespace Bible.Backend.Visitors
         public void Visit(UsxIdentification identification)
         {
             _usj.BookCode = identification.BookCode;
+            if (string.IsNullOrEmpty(identification.VersionName)) return;
             var versionName = identification.VersionName.Trim([' ','-']);
             int firstSpaceIndex = versionName.IndexOf(' ') + 1;
             if (versionName[..firstSpaceIndex].Contains('.'))

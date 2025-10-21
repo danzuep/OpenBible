@@ -1,0 +1,1686 @@
+{
+  "DBLMetadata": {
+    "@version": "2.2.1",
+    "@id": "66c22495370cdfc0",
+    "@revision": "15",
+    "identification": {
+      "name": "Translation for Translators [eng] USA",
+      "nameLocal": "The Holy Bible: A Translation for Translators",
+      "description": "An English translation of the Holy Bible that makes implicit information explicit",
+      "abbreviation": "T4T",
+      "abbreviationLocal": "T4T",
+      "scope": "Bible",
+      "bundleProducer": "Paratext/9.3.103.12",
+      "systemId": [
+        {
+          "@type": "paratext",
+          "id": "66c22495370cdfc0906f59e46edbf7a8281dd38e",
+          "csetId": "23efc1e705f14d142832d84410cf2eecb987bf21",
+          "name": "engT4Teb",
+          "fullName": "Translation for Translators [eng] USA"
+        },
+        {
+          "@type": "ptreg",
+          "id": "yyohqCmhJbiLJoBdZ"
+        }
+      ]
+    },
+    "type": {
+      "medium": "text",
+      "isConfidential": "false",
+      "hasCharacters": "true",
+      "isTranslation": "true",
+      "isExpression": "true",
+      "translationType": "First",
+      "audience": "Common",
+      "projectType": "Standard"
+    },
+    "relationships": null,
+    "agencies": {
+      "rightsHolder": {
+        "abbr": "eBible.org",
+        "url": "http://eBible.org",
+        "nameLocal": "eBible.org",
+        "uid": "545d2cb0ae307afa44b390fc",
+        "name": "eBible.org"
+      },
+      "rightsAdmin": {
+        "url": "https://eBible.org",
+        "uid": "545d2cb0ae307afa44b390fc",
+        "name": "eBible.org"
+      },
+      "contributor": {
+        "content": "true",
+        "publication": "true",
+        "management": "true",
+        "finance": "true",
+        "qa": "true",
+        "uid": "545d2cb0ae307afa44b390fc",
+        "name": "eBible.org"
+      }
+    },
+    "language": {
+      "iso": "eng",
+      "name": "English",
+      "nameLocal": "English",
+      "script": "Latin",
+      "scriptCode": "Latn",
+      "scriptDirection": "LTR",
+      "ldml": "en",
+      "rod": "00025",
+      "numerals": "Arabic"
+    },
+    "countries": {
+      "country": {
+        "iso": "US",
+        "name": "United States of America"
+      }
+    },
+    "format": {
+      "usxVersion": "3.0",
+      "versedParagraphs": "false"
+    },
+    "names": {
+      "name": [
+        {
+          "@id": "book-gen",
+          "abbr": "Gen",
+          "short": "Genesis",
+          "long": "Genesis"
+        },
+        {
+          "@id": "book-exo",
+          "abbr": "Exo",
+          "short": "Exodus",
+          "long": "Exodus"
+        },
+        {
+          "@id": "book-lev",
+          "abbr": "Lev",
+          "short": "Leviticus",
+          "long": "Leviticus"
+        },
+        {
+          "@id": "book-num",
+          "abbr": "Num",
+          "short": "Numbers",
+          "long": "Numbers"
+        },
+        {
+          "@id": "book-deu",
+          "abbr": "Deu",
+          "short": "Deuteronomy",
+          "long": "Deuteronomy"
+        },
+        {
+          "@id": "book-jos",
+          "abbr": "Jos",
+          "short": "Joshua",
+          "long": "Joshua"
+        },
+        {
+          "@id": "book-jdg",
+          "abbr": "Jdg",
+          "short": "Judges",
+          "long": "Judges"
+        },
+        {
+          "@id": "book-rut",
+          "abbr": "Rut",
+          "short": "Ruth",
+          "long": "Ruth"
+        },
+        {
+          "@id": "book-1sa",
+          "abbr": "1Sa",
+          "short": "1 Samuel",
+          "long": "1 Samuel"
+        },
+        {
+          "@id": "book-2sa",
+          "abbr": "2Sa",
+          "short": "2 Samuel",
+          "long": "2 Samuel"
+        },
+        {
+          "@id": "book-1ki",
+          "abbr": "1 Ki",
+          "short": "1 Kings",
+          "long": "1 Kings"
+        },
+        {
+          "@id": "book-2ki",
+          "abbr": "2 Ki",
+          "short": "2 Kings",
+          "long": "2 Kings"
+        },
+        {
+          "@id": "book-1ch",
+          "abbr": "1Ch",
+          "short": "1 Chronicles",
+          "long": "1 Chronicles"
+        },
+        {
+          "@id": "book-2ch",
+          "abbr": "2Ch",
+          "short": "2 Chronicles",
+          "long": "2 Chronicles"
+        },
+        {
+          "@id": "book-ezr",
+          "abbr": "EZR",
+          "short": "Ezra",
+          "long": "Ezra"
+        },
+        {
+          "@id": "book-neh",
+          "abbr": "Neh",
+          "short": "Nehemiah",
+          "long": "Nehemiah"
+        },
+        {
+          "@id": "book-est",
+          "abbr": "Est",
+          "short": "Esther",
+          "long": "Esther"
+        },
+        {
+          "@id": "book-job",
+          "abbr": "Job",
+          "short": "Job",
+          "long": "Job"
+        },
+        {
+          "@id": "book-psa",
+          "abbr": "Psa",
+          "short": "Psalms",
+          "long": "Psalms"
+        },
+        {
+          "@id": "book-pro",
+          "abbr": "Pro",
+          "short": "Proverbs",
+          "long": "Proverbs"
+        },
+        {
+          "@id": "book-ecc",
+          "abbr": "Ecc",
+          "short": "Ecclesiastes",
+          "long": "Ecclesiastes"
+        },
+        {
+          "@id": "book-sng",
+          "abbr": "Sng",
+          "short": "Song of Songs",
+          "long": "Song of Songs"
+        },
+        {
+          "@id": "book-isa",
+          "abbr": "Isa",
+          "short": "Isaiah",
+          "long": "Isaiah"
+        },
+        {
+          "@id": "book-jer",
+          "abbr": "Jer",
+          "short": "Jeremiah",
+          "long": "Jeremiah"
+        },
+        {
+          "@id": "book-lam",
+          "abbr": "Lam",
+          "short": "Lamentations",
+          "long": "Lamentations"
+        },
+        {
+          "@id": "book-ezk",
+          "abbr": "Ezk",
+          "short": "Ezekiel",
+          "long": "Ezekiel"
+        },
+        {
+          "@id": "book-dan",
+          "abbr": "Dan",
+          "short": "Daniel",
+          "long": "Daniel"
+        },
+        {
+          "@id": "book-hos",
+          "abbr": "Hos",
+          "short": "Hosea",
+          "long": "Hosea"
+        },
+        {
+          "@id": "book-jol",
+          "abbr": "Jol",
+          "short": "Joel",
+          "long": "Joel"
+        },
+        {
+          "@id": "book-amo",
+          "abbr": "Amo",
+          "short": "Amos",
+          "long": "Amos"
+        },
+        {
+          "@id": "book-oba",
+          "abbr": "Oba",
+          "short": "Obadiah",
+          "long": "Obadiah"
+        },
+        {
+          "@id": "book-jon",
+          "abbr": "Jon",
+          "short": "Jonah",
+          "long": "Jonah"
+        },
+        {
+          "@id": "book-mic",
+          "abbr": "Mic",
+          "short": "Micah",
+          "long": "Micah"
+        },
+        {
+          "@id": "book-nam",
+          "abbr": "Nam",
+          "short": "Nahum",
+          "long": "Nahum"
+        },
+        {
+          "@id": "book-hab",
+          "abbr": "Hab",
+          "short": "Habakkuk",
+          "long": "Habakkuk"
+        },
+        {
+          "@id": "book-zep",
+          "abbr": "Zep",
+          "short": "Zephaniah",
+          "long": "Zephaniah"
+        },
+        {
+          "@id": "book-hag",
+          "abbr": "HAG",
+          "short": "Haggai",
+          "long": "Haggai"
+        },
+        {
+          "@id": "book-zec",
+          "abbr": "Zec",
+          "short": "Zechariah",
+          "long": "Zechariah"
+        },
+        {
+          "@id": "book-mal",
+          "abbr": "Mal",
+          "short": "Malachi",
+          "long": "Malachi"
+        },
+        {
+          "@id": "book-mat",
+          "abbr": "Mat",
+          "short": "Matthew",
+          "long": "Matthew"
+        },
+        {
+          "@id": "book-mrk",
+          "abbr": "Mrk",
+          "short": "Mark",
+          "long": "Mark"
+        },
+        {
+          "@id": "book-luk",
+          "abbr": "Luk",
+          "short": "Luke",
+          "long": "Luke"
+        },
+        {
+          "@id": "book-jhn",
+          "abbr": "Jhn",
+          "short": "John",
+          "long": "John"
+        },
+        {
+          "@id": "book-act",
+          "abbr": "Act",
+          "short": "Acts",
+          "long": "Acts"
+        },
+        {
+          "@id": "book-rom",
+          "abbr": "Rom",
+          "short": "Romans",
+          "long": "Romans"
+        },
+        {
+          "@id": "book-1co",
+          "abbr": "1Co",
+          "short": "1 Corinthians",
+          "long": "1 Corinthians"
+        },
+        {
+          "@id": "book-2co",
+          "abbr": "2Co",
+          "short": "2 Corinthians",
+          "long": "2 Corinthians"
+        },
+        {
+          "@id": "book-gal",
+          "abbr": "Gal",
+          "short": "Galatians",
+          "long": "Galatians"
+        },
+        {
+          "@id": "book-eph",
+          "abbr": "Eph",
+          "short": "Ephesians",
+          "long": "Ephesians"
+        },
+        {
+          "@id": "book-php",
+          "abbr": "Php",
+          "short": "Philippians",
+          "long": "Philippians"
+        },
+        {
+          "@id": "book-col",
+          "abbr": "Col",
+          "short": "Colossians",
+          "long": "Colossians"
+        },
+        {
+          "@id": "book-1th",
+          "abbr": "1Th",
+          "short": "1 Thessalonians",
+          "long": "1 Thessalonians"
+        },
+        {
+          "@id": "book-2th",
+          "abbr": "2Th",
+          "short": "2 Thessalonians",
+          "long": "2 Thessalonians"
+        },
+        {
+          "@id": "book-1ti",
+          "abbr": "1Ti",
+          "short": "1 Timothy",
+          "long": "1 Timothy"
+        },
+        {
+          "@id": "book-2ti",
+          "abbr": "2Ti",
+          "short": "2 Timothy",
+          "long": "2 Timothy"
+        },
+        {
+          "@id": "book-tit",
+          "abbr": "Tit",
+          "short": "Titus",
+          "long": "Titus"
+        },
+        {
+          "@id": "book-phm",
+          "abbr": "Phm",
+          "short": "Philemon",
+          "long": "Philemon"
+        },
+        {
+          "@id": "book-heb",
+          "abbr": "Heb",
+          "short": "Hebrews",
+          "long": "Hebrews"
+        },
+        {
+          "@id": "book-jas",
+          "abbr": "Jas",
+          "short": "James",
+          "long": "James"
+        },
+        {
+          "@id": "book-1pe",
+          "abbr": "1Pe",
+          "short": "1 Peter",
+          "long": "1 Peter"
+        },
+        {
+          "@id": "book-2pe",
+          "abbr": "2Pe",
+          "short": "2 Peter",
+          "long": "2 Peter"
+        },
+        {
+          "@id": "book-1jn",
+          "abbr": "1Jn",
+          "short": "1 John",
+          "long": "1 John"
+        },
+        {
+          "@id": "book-2jn",
+          "abbr": "2Jn",
+          "short": "2 John",
+          "long": "2 John"
+        },
+        {
+          "@id": "book-3jn",
+          "abbr": "3Jn",
+          "short": "3 John",
+          "long": "3 John"
+        },
+        {
+          "@id": "book-jud",
+          "abbr": "Jude",
+          "short": "Jude",
+          "long": "Jude"
+        },
+        {
+          "@id": "book-rev",
+          "abbr": "Rev",
+          "short": "Revelation",
+          "long": "Revelation"
+        }
+      ]
+    },
+    "manifest": {
+      "resource": [
+        {
+          "@checksum": "5b2c8764e9ed39bdcddf3e767a2bc570",
+          "@mimeType": "application/xml",
+          "@size": "258416",
+          "@uri": "release/USX_1/1CH.usx"
+        },
+        {
+          "@checksum": "9c64c413e992bdea4d387a5f835e60e8",
+          "@mimeType": "application/xml",
+          "@size": "181105",
+          "@uri": "release/USX_1/1CO.usx"
+        },
+        {
+          "@checksum": "f97a0a438aa13672737bdc2e84348ed4",
+          "@mimeType": "application/xml",
+          "@size": "47372",
+          "@uri": "release/USX_1/1JN.usx"
+        },
+        {
+          "@checksum": "126349787c5a93b844069bd02939c4bd",
+          "@mimeType": "application/xml",
+          "@size": "243596",
+          "@uri": "release/USX_1/1KI.usx"
+        },
+        {
+          "@checksum": "fb009d597f76cdd3ab6b397ef5690ea4",
+          "@mimeType": "application/xml",
+          "@size": "48685",
+          "@uri": "release/USX_1/1PE.usx"
+        },
+        {
+          "@checksum": "3d449efd560cf64daf5dc4a36bf7d513",
+          "@mimeType": "application/xml",
+          "@size": "256564",
+          "@uri": "release/USX_1/1SA.usx"
+        },
+        {
+          "@checksum": "676942cf56846182d0a5fc84a122249c",
+          "@mimeType": "application/xml",
+          "@size": "41349",
+          "@uri": "release/USX_1/1TH.usx"
+        },
+        {
+          "@checksum": "eed768d6a7ea950a436f17936933927a",
+          "@mimeType": "application/xml",
+          "@size": "46236",
+          "@uri": "release/USX_1/1TI.usx"
+        },
+        {
+          "@checksum": "8516fa3bae9ebb600745d6e6ba16fa69",
+          "@mimeType": "application/xml",
+          "@size": "258865",
+          "@uri": "release/USX_1/2CH.usx"
+        },
+        {
+          "@checksum": "ecb5e0d75b81dba581d840451068dfe1",
+          "@mimeType": "application/xml",
+          "@size": "137034",
+          "@uri": "release/USX_1/2CO.usx"
+        },
+        {
+          "@checksum": "d2a903def83b2e0066ee3b090dfdb4c7",
+          "@mimeType": "application/xml",
+          "@size": "6996",
+          "@uri": "release/USX_1/2JN.usx"
+        },
+        {
+          "@checksum": "e689bbaab32c7dd937cf9ce89021ac94",
+          "@mimeType": "application/xml",
+          "@size": "238363",
+          "@uri": "release/USX_1/2KI.usx"
+        },
+        {
+          "@checksum": "39d448f2ca6c762dd0b87d977c81e932",
+          "@mimeType": "application/xml",
+          "@size": "32960",
+          "@uri": "release/USX_1/2PE.usx"
+        },
+        {
+          "@checksum": "e65ed7a8489278f40418259bac32b448",
+          "@mimeType": "application/xml",
+          "@size": "221591",
+          "@uri": "release/USX_1/2SA.usx"
+        },
+        {
+          "@checksum": "67b33ccf66292829f1dd9a6babb29a9d",
+          "@mimeType": "application/xml",
+          "@size": "23984",
+          "@uri": "release/USX_1/2TH.usx"
+        },
+        {
+          "@checksum": "2a2edf278b9ef97f5ad42b936c4f06b3",
+          "@mimeType": "application/xml",
+          "@size": "36506",
+          "@uri": "release/USX_1/2TI.usx"
+        },
+        {
+          "@checksum": "19fb1d542e437a10f05455c60c11bed8",
+          "@mimeType": "application/xml",
+          "@size": "7338",
+          "@uri": "release/USX_1/3JN.usx"
+        },
+        {
+          "@checksum": "58b376ca80af10fd304adbfeb065aa2f",
+          "@mimeType": "application/xml",
+          "@size": "431556",
+          "@uri": "release/USX_1/ACT.usx"
+        },
+        {
+          "@checksum": "1f36b9455d59700a4e875605a6c8f907",
+          "@mimeType": "application/xml",
+          "@size": "74119",
+          "@uri": "release/USX_1/AMO.usx"
+        },
+        {
+          "@checksum": "bb0e027af8c73b07524b344d0587374e",
+          "@mimeType": "application/xml",
+          "@size": "40894",
+          "@uri": "release/USX_1/COL.usx"
+        },
+        {
+          "@checksum": "755be832b146dac7c8ab74d709460098",
+          "@mimeType": "application/xml",
+          "@size": "123134",
+          "@uri": "release/USX_1/DAN.usx"
+        },
+        {
+          "@checksum": "7cacc33e4aa0f2fe82b7a0426ebe56c2",
+          "@mimeType": "application/xml",
+          "@size": "294264",
+          "@uri": "release/USX_1/DEU.usx"
+        },
+        {
+          "@checksum": "733cc32c09ba48dfc0e26544c00b21ad",
+          "@mimeType": "application/xml",
+          "@size": "83111",
+          "@uri": "release/USX_1/ECC.usx"
+        },
+        {
+          "@checksum": "c5b02a46c838b5949e48150b93e93918",
+          "@mimeType": "application/xml",
+          "@size": "59479",
+          "@uri": "release/USX_1/EPH.usx"
+        },
+        {
+          "@checksum": "41a07d32ac1fea64f00fcb8f30876e6c",
+          "@mimeType": "application/xml",
+          "@size": "53938",
+          "@uri": "release/USX_1/EST.usx"
+        },
+        {
+          "@checksum": "7100e6cf9722beb69b7a812b8684f106",
+          "@mimeType": "application/xml",
+          "@size": "347142",
+          "@uri": "release/USX_1/EXO.usx"
+        },
+        {
+          "@checksum": "1992ec0591a4a7a0db552afb6954a30d",
+          "@mimeType": "application/xml",
+          "@size": "413205",
+          "@uri": "release/USX_1/EZK.usx"
+        },
+        {
+          "@checksum": "573f70607600e8276f3b96935f31e5f5",
+          "@mimeType": "application/xml",
+          "@size": "86888",
+          "@uri": "release/USX_1/EZR.usx"
+        },
+        {
+          "@checksum": "2e815de55c80c577701658a9ae44e5ee",
+          "@mimeType": "application/xml",
+          "@size": "70591",
+          "@uri": "release/USX_1/GAL.usx"
+        },
+        {
+          "@checksum": "8b5dc5e5deb1448b9edbb2c2dd01e361",
+          "@mimeType": "application/xml",
+          "@size": "390656",
+          "@uri": "release/USX_1/GEN.usx"
+        },
+        {
+          "@checksum": "b1f74bea6c11d5f18c434a404cb1ddec",
+          "@mimeType": "application/xml",
+          "@size": "27509",
+          "@uri": "release/USX_1/HAB.usx"
+        },
+        {
+          "@checksum": "5850752ea987c2c71b815cb8a3d31fdd",
+          "@mimeType": "application/xml",
+          "@size": "12926",
+          "@uri": "release/USX_1/HAG.usx"
+        },
+        {
+          "@checksum": "37b63e0f4ac6592a4abb74e589517285",
+          "@mimeType": "application/xml",
+          "@size": "136706",
+          "@uri": "release/USX_1/HEB.usx"
+        },
+        {
+          "@checksum": "b057f9b634b0eea405a6cceada7a7183",
+          "@mimeType": "application/xml",
+          "@size": "100961",
+          "@uri": "release/USX_1/HOS.usx"
+        },
+        {
+          "@checksum": "c48a6d063ad45941da94736a1cf56f0c",
+          "@mimeType": "application/xml",
+          "@size": "603717",
+          "@uri": "release/USX_1/ISA.usx"
+        },
+        {
+          "@checksum": "65297579db62e0f12038388c0eb56727",
+          "@mimeType": "application/xml",
+          "@size": "52992",
+          "@uri": "release/USX_1/JAS.usx"
+        },
+        {
+          "@checksum": "d845e031a3f7546f7a4e216d7f611358",
+          "@mimeType": "application/xml",
+          "@size": "190191",
+          "@uri": "release/USX_1/JDG.usx"
+        },
+        {
+          "@checksum": "03a36f5d2d0a9fe8e07917c2e67c011d",
+          "@mimeType": "application/xml",
+          "@size": "563111",
+          "@uri": "release/USX_1/JER.usx"
+        },
+        {
+          "@checksum": "f3a5490a32d155e1e77185273e1384ee",
+          "@mimeType": "application/xml",
+          "@size": "288751",
+          "@uri": "release/USX_1/JHN.usx"
+        },
+        {
+          "@checksum": "27b4a07ea41f9e93644f464812f853c3",
+          "@mimeType": "application/xml",
+          "@size": "330369",
+          "@uri": "release/USX_1/JOB.usx"
+        },
+        {
+          "@checksum": "77724261148e676b1ef47df7d2e14b92",
+          "@mimeType": "application/xml",
+          "@size": "32779",
+          "@uri": "release/USX_1/JOL.usx"
+        },
+        {
+          "@checksum": "f72ee1e1a25f7c41ce96bb19dd95e55f",
+          "@mimeType": "application/xml",
+          "@size": "18106",
+          "@uri": "release/USX_1/JON.usx"
+        },
+        {
+          "@checksum": "9a7b6be2a4dcb5233ce0b6c29289fab9",
+          "@mimeType": "application/xml",
+          "@size": "187477",
+          "@uri": "release/USX_1/JOS.usx"
+        },
+        {
+          "@checksum": "416ad717b3c1f2256c75c416815f464d",
+          "@mimeType": "application/xml",
+          "@size": "17001",
+          "@uri": "release/USX_1/JUD.usx"
+        },
+        {
+          "@checksum": "bc542b06b8ada00624060697cb52a512",
+          "@mimeType": "application/xml",
+          "@size": "65312",
+          "@uri": "release/USX_1/LAM.usx"
+        },
+        {
+          "@checksum": "9e83a0aea40b06b47843af4ded321746",
+          "@mimeType": "application/xml",
+          "@size": "227318",
+          "@uri": "release/USX_1/LEV.usx"
+        },
+        {
+          "@checksum": "1caeffd46672867b8121c8e94d9bf269",
+          "@mimeType": "application/xml",
+          "@size": "414816",
+          "@uri": "release/USX_1/LUK.usx"
+        },
+        {
+          "@checksum": "969f50eb366168acd89c40ef0637706c",
+          "@mimeType": "application/xml",
+          "@size": "25515",
+          "@uri": "release/USX_1/MAL.usx"
+        },
+        {
+          "@checksum": "8ee894ea8978e7b37c995cf90f8ede4e",
+          "@mimeType": "application/xml",
+          "@size": "423977",
+          "@uri": "release/USX_1/MAT.usx"
+        },
+        {
+          "@checksum": "0624461a6a2885ebc197a31082541999",
+          "@mimeType": "application/xml",
+          "@size": "56415",
+          "@uri": "release/USX_1/MIC.usx"
+        },
+        {
+          "@checksum": "ab61a5340c3531f787d67c1b3db363d5",
+          "@mimeType": "application/xml",
+          "@size": "252054",
+          "@uri": "release/USX_1/MRK.usx"
+        },
+        {
+          "@checksum": "12069eadd6f114340c00bdba16565101",
+          "@mimeType": "application/xml",
+          "@size": "25612",
+          "@uri": "release/USX_1/NAM.usx"
+        },
+        {
+          "@checksum": "a256e9400058ebddd3f04ad7c3d98dcc",
+          "@mimeType": "application/xml",
+          "@size": "123811",
+          "@uri": "release/USX_1/NEH.usx"
+        },
+        {
+          "@checksum": "2b38f9906db94a7310e922fe43eaf20f",
+          "@mimeType": "application/xml",
+          "@size": "302029",
+          "@uri": "release/USX_1/NUM.usx"
+        },
+        {
+          "@checksum": "8f0cae498f756bb56ec153d3b7da3a81",
+          "@mimeType": "application/xml",
+          "@size": "10494",
+          "@uri": "release/USX_1/OBA.usx"
+        },
+        {
+          "@checksum": "9bccf64ad74f66dfb92c6546837e624b",
+          "@mimeType": "application/xml",
+          "@size": "10411",
+          "@uri": "release/USX_1/PHM.usx"
+        },
+        {
+          "@checksum": "c4b401ceaf7d61dda0d87d2ba5db912a",
+          "@mimeType": "application/xml",
+          "@size": "48927",
+          "@uri": "release/USX_1/PHP.usx"
+        },
+        {
+          "@checksum": "65aea7f5df136bbd8380662bfc71832f",
+          "@mimeType": "application/xml",
+          "@size": "308996",
+          "@uri": "release/USX_1/PRO.usx"
+        },
+        {
+          "@checksum": "a0451b90039b568d777b60fafef02ae4",
+          "@mimeType": "application/xml",
+          "@size": "829212",
+          "@uri": "release/USX_1/PSA.usx"
+        },
+        {
+          "@checksum": "5b22ee0bf07ffc71c121651dbe774611",
+          "@mimeType": "application/xml",
+          "@size": "183855",
+          "@uri": "release/USX_1/REV.usx"
+        },
+        {
+          "@checksum": "5afcd349eec3ae87a303c926a364ce3f",
+          "@mimeType": "application/xml",
+          "@size": "216588",
+          "@uri": "release/USX_1/ROM.usx"
+        },
+        {
+          "@checksum": "cd68d692eeded6ecc4251ce7dd777d5d",
+          "@mimeType": "application/xml",
+          "@size": "27811",
+          "@uri": "release/USX_1/RUT.usx"
+        },
+        {
+          "@checksum": "2e276238f6d7e46130c48a72da70faf0",
+          "@mimeType": "application/xml",
+          "@size": "52572",
+          "@uri": "release/USX_1/SNG.usx"
+        },
+        {
+          "@checksum": "a9a0d66b3eb76cccff8737098bebc0ec",
+          "@mimeType": "application/xml",
+          "@size": "24284",
+          "@uri": "release/USX_1/TIT.usx"
+        },
+        {
+          "@checksum": "ed21fb8ac072d91c9a969d967f429ce7",
+          "@mimeType": "application/xml",
+          "@size": "82474",
+          "@uri": "release/USX_1/ZEC.usx"
+        },
+        {
+          "@checksum": "9fea56127c1c210c2e0902079553f406",
+          "@mimeType": "application/xml",
+          "@size": "29489",
+          "@uri": "release/USX_1/ZEP.usx"
+        },
+        {
+          "@checksum": "ad4886d3fb012dfbb2876e30e1fe6fae",
+          "@mimeType": "application/xml",
+          "@size": "4039",
+          "@uri": "release/eng_en.ldml"
+        },
+        {
+          "@checksum": "babd9f40e6396f3b83545f1b97ac6a5b",
+          "@mimeType": "application/xml",
+          "@size": "104523",
+          "@uri": "release/styles.xml"
+        },
+        {
+          "@checksum": "ad829a7d2ac2acbed7a573364ce818df",
+          "@mimeType": "text/plain",
+          "@size": "15359",
+          "@uri": "release/versification.vrs"
+        },
+        {
+          "@checksum": "2f44c734fc6b60a9427d287845048927",
+          "@mimeType": "application/zip",
+          "@size": "2079801",
+          "@uri": "source/source.zip"
+        }
+      ]
+    },
+    "source": {
+      "canonicalContent": {
+        "book": [
+          {
+            "@code": "1CH"
+          },
+          {
+            "@code": "1CO"
+          },
+          {
+            "@code": "1JN"
+          },
+          {
+            "@code": "1KI"
+          },
+          {
+            "@code": "1PE"
+          },
+          {
+            "@code": "1SA"
+          },
+          {
+            "@code": "1TH"
+          },
+          {
+            "@code": "1TI"
+          },
+          {
+            "@code": "2CH"
+          },
+          {
+            "@code": "2CO"
+          },
+          {
+            "@code": "2JN"
+          },
+          {
+            "@code": "2KI"
+          },
+          {
+            "@code": "2PE"
+          },
+          {
+            "@code": "2SA"
+          },
+          {
+            "@code": "2TH"
+          },
+          {
+            "@code": "2TI"
+          },
+          {
+            "@code": "3JN"
+          },
+          {
+            "@code": "ACT"
+          },
+          {
+            "@code": "AMO"
+          },
+          {
+            "@code": "COL"
+          },
+          {
+            "@code": "DAN"
+          },
+          {
+            "@code": "DEU"
+          },
+          {
+            "@code": "ECC"
+          },
+          {
+            "@code": "EPH"
+          },
+          {
+            "@code": "EST"
+          },
+          {
+            "@code": "EXO"
+          },
+          {
+            "@code": "EZK"
+          },
+          {
+            "@code": "EZR"
+          },
+          {
+            "@code": "GAL"
+          },
+          {
+            "@code": "GEN"
+          },
+          {
+            "@code": "HAB"
+          },
+          {
+            "@code": "HAG"
+          },
+          {
+            "@code": "HEB"
+          },
+          {
+            "@code": "HOS"
+          },
+          {
+            "@code": "ISA"
+          },
+          {
+            "@code": "JAS"
+          },
+          {
+            "@code": "JDG"
+          },
+          {
+            "@code": "JER"
+          },
+          {
+            "@code": "JHN"
+          },
+          {
+            "@code": "JOB"
+          },
+          {
+            "@code": "JOL"
+          },
+          {
+            "@code": "JON"
+          },
+          {
+            "@code": "JOS"
+          },
+          {
+            "@code": "JUD"
+          },
+          {
+            "@code": "LAM"
+          },
+          {
+            "@code": "LEV"
+          },
+          {
+            "@code": "LUK"
+          },
+          {
+            "@code": "MAL"
+          },
+          {
+            "@code": "MAT"
+          },
+          {
+            "@code": "MIC"
+          },
+          {
+            "@code": "MRK"
+          },
+          {
+            "@code": "NAM"
+          },
+          {
+            "@code": "NEH"
+          },
+          {
+            "@code": "NUM"
+          },
+          {
+            "@code": "OBA"
+          },
+          {
+            "@code": "PHM"
+          },
+          {
+            "@code": "PHP"
+          },
+          {
+            "@code": "PRO"
+          },
+          {
+            "@code": "PSA"
+          },
+          {
+            "@code": "REV"
+          },
+          {
+            "@code": "ROM"
+          },
+          {
+            "@code": "RUT"
+          },
+          {
+            "@code": "SNG"
+          },
+          {
+            "@code": "TIT"
+          },
+          {
+            "@code": "ZEC"
+          },
+          {
+            "@code": "ZEP"
+          }
+        ]
+      },
+      "structure": {
+        "content": {
+          "@src": "source/source.zip",
+          "@role": "sourceZip"
+        }
+      }
+    },
+    "publications": {
+      "publication": {
+        "@id": "p1",
+        "@default": "true",
+        "name": "Translation for Translators",
+        "nameLocal": "Translation for Translators",
+        "description": "common",
+        "descriptionLocal": "common",
+        "abbreviation": "T4T",
+        "abbreviationLocal": "T4T",
+        "canonicalContent": {
+          "book": [
+            {
+              "@code": "1CH"
+            },
+            {
+              "@code": "1CO"
+            },
+            {
+              "@code": "1JN"
+            },
+            {
+              "@code": "1KI"
+            },
+            {
+              "@code": "1PE"
+            },
+            {
+              "@code": "1SA"
+            },
+            {
+              "@code": "1TH"
+            },
+            {
+              "@code": "1TI"
+            },
+            {
+              "@code": "2CH"
+            },
+            {
+              "@code": "2CO"
+            },
+            {
+              "@code": "2JN"
+            },
+            {
+              "@code": "2KI"
+            },
+            {
+              "@code": "2PE"
+            },
+            {
+              "@code": "2SA"
+            },
+            {
+              "@code": "2TH"
+            },
+            {
+              "@code": "2TI"
+            },
+            {
+              "@code": "3JN"
+            },
+            {
+              "@code": "ACT"
+            },
+            {
+              "@code": "AMO"
+            },
+            {
+              "@code": "COL"
+            },
+            {
+              "@code": "DAN"
+            },
+            {
+              "@code": "DEU"
+            },
+            {
+              "@code": "ECC"
+            },
+            {
+              "@code": "EPH"
+            },
+            {
+              "@code": "EST"
+            },
+            {
+              "@code": "EXO"
+            },
+            {
+              "@code": "EZK"
+            },
+            {
+              "@code": "EZR"
+            },
+            {
+              "@code": "GAL"
+            },
+            {
+              "@code": "GEN"
+            },
+            {
+              "@code": "HAB"
+            },
+            {
+              "@code": "HAG"
+            },
+            {
+              "@code": "HEB"
+            },
+            {
+              "@code": "HOS"
+            },
+            {
+              "@code": "ISA"
+            },
+            {
+              "@code": "JAS"
+            },
+            {
+              "@code": "JDG"
+            },
+            {
+              "@code": "JER"
+            },
+            {
+              "@code": "JHN"
+            },
+            {
+              "@code": "JOB"
+            },
+            {
+              "@code": "JOL"
+            },
+            {
+              "@code": "JON"
+            },
+            {
+              "@code": "JOS"
+            },
+            {
+              "@code": "JUD"
+            },
+            {
+              "@code": "LAM"
+            },
+            {
+              "@code": "LEV"
+            },
+            {
+              "@code": "LUK"
+            },
+            {
+              "@code": "MAL"
+            },
+            {
+              "@code": "MAT"
+            },
+            {
+              "@code": "MIC"
+            },
+            {
+              "@code": "MRK"
+            },
+            {
+              "@code": "NAM"
+            },
+            {
+              "@code": "NEH"
+            },
+            {
+              "@code": "NUM"
+            },
+            {
+              "@code": "OBA"
+            },
+            {
+              "@code": "PHM"
+            },
+            {
+              "@code": "PHP"
+            },
+            {
+              "@code": "PRO"
+            },
+            {
+              "@code": "PSA"
+            },
+            {
+              "@code": "REV"
+            },
+            {
+              "@code": "ROM"
+            },
+            {
+              "@code": "RUT"
+            },
+            {
+              "@code": "SNG"
+            },
+            {
+              "@code": "TIT"
+            },
+            {
+              "@code": "ZEC"
+            },
+            {
+              "@code": "ZEP"
+            }
+          ]
+        },
+        "structure": {
+          "content": [
+            {
+              "@name": "book-gen",
+              "@src": "release/USX_1/GEN.usx",
+              "@role": "GEN"
+            },
+            {
+              "@name": "book-exo",
+              "@src": "release/USX_1/EXO.usx",
+              "@role": "EXO"
+            },
+            {
+              "@name": "book-lev",
+              "@src": "release/USX_1/LEV.usx",
+              "@role": "LEV"
+            },
+            {
+              "@name": "book-num",
+              "@src": "release/USX_1/NUM.usx",
+              "@role": "NUM"
+            },
+            {
+              "@name": "book-deu",
+              "@src": "release/USX_1/DEU.usx",
+              "@role": "DEU"
+            },
+            {
+              "@name": "book-jos",
+              "@src": "release/USX_1/JOS.usx",
+              "@role": "JOS"
+            },
+            {
+              "@name": "book-jdg",
+              "@src": "release/USX_1/JDG.usx",
+              "@role": "JDG"
+            },
+            {
+              "@name": "book-rut",
+              "@src": "release/USX_1/RUT.usx",
+              "@role": "RUT"
+            },
+            {
+              "@name": "book-1sa",
+              "@src": "release/USX_1/1SA.usx",
+              "@role": "1SA"
+            },
+            {
+              "@name": "book-2sa",
+              "@src": "release/USX_1/2SA.usx",
+              "@role": "2SA"
+            },
+            {
+              "@name": "book-1ki",
+              "@src": "release/USX_1/1KI.usx",
+              "@role": "1KI"
+            },
+            {
+              "@name": "book-2ki",
+              "@src": "release/USX_1/2KI.usx",
+              "@role": "2KI"
+            },
+            {
+              "@name": "book-1ch",
+              "@src": "release/USX_1/1CH.usx",
+              "@role": "1CH"
+            },
+            {
+              "@name": "book-2ch",
+              "@src": "release/USX_1/2CH.usx",
+              "@role": "2CH"
+            },
+            {
+              "@name": "book-ezr",
+              "@src": "release/USX_1/EZR.usx",
+              "@role": "EZR"
+            },
+            {
+              "@name": "book-neh",
+              "@src": "release/USX_1/NEH.usx",
+              "@role": "NEH"
+            },
+            {
+              "@name": "book-est",
+              "@src": "release/USX_1/EST.usx",
+              "@role": "EST"
+            },
+            {
+              "@name": "book-job",
+              "@src": "release/USX_1/JOB.usx",
+              "@role": "JOB"
+            },
+            {
+              "@name": "book-psa",
+              "@src": "release/USX_1/PSA.usx",
+              "@role": "PSA"
+            },
+            {
+              "@name": "book-pro",
+              "@src": "release/USX_1/PRO.usx",
+              "@role": "PRO"
+            },
+            {
+              "@name": "book-ecc",
+              "@src": "release/USX_1/ECC.usx",
+              "@role": "ECC"
+            },
+            {
+              "@name": "book-sng",
+              "@src": "release/USX_1/SNG.usx",
+              "@role": "SNG"
+            },
+            {
+              "@name": "book-isa",
+              "@src": "release/USX_1/ISA.usx",
+              "@role": "ISA"
+            },
+            {
+              "@name": "book-jer",
+              "@src": "release/USX_1/JER.usx",
+              "@role": "JER"
+            },
+            {
+              "@name": "book-lam",
+              "@src": "release/USX_1/LAM.usx",
+              "@role": "LAM"
+            },
+            {
+              "@name": "book-ezk",
+              "@src": "release/USX_1/EZK.usx",
+              "@role": "EZK"
+            },
+            {
+              "@name": "book-dan",
+              "@src": "release/USX_1/DAN.usx",
+              "@role": "DAN"
+            },
+            {
+              "@name": "book-hos",
+              "@src": "release/USX_1/HOS.usx",
+              "@role": "HOS"
+            },
+            {
+              "@name": "book-jol",
+              "@src": "release/USX_1/JOL.usx",
+              "@role": "JOL"
+            },
+            {
+              "@name": "book-amo",
+              "@src": "release/USX_1/AMO.usx",
+              "@role": "AMO"
+            },
+            {
+              "@name": "book-oba",
+              "@src": "release/USX_1/OBA.usx",
+              "@role": "OBA"
+            },
+            {
+              "@name": "book-jon",
+              "@src": "release/USX_1/JON.usx",
+              "@role": "JON"
+            },
+            {
+              "@name": "book-mic",
+              "@src": "release/USX_1/MIC.usx",
+              "@role": "MIC"
+            },
+            {
+              "@name": "book-nam",
+              "@src": "release/USX_1/NAM.usx",
+              "@role": "NAM"
+            },
+            {
+              "@name": "book-hab",
+              "@src": "release/USX_1/HAB.usx",
+              "@role": "HAB"
+            },
+            {
+              "@name": "book-zep",
+              "@src": "release/USX_1/ZEP.usx",
+              "@role": "ZEP"
+            },
+            {
+              "@name": "book-hag",
+              "@src": "release/USX_1/HAG.usx",
+              "@role": "HAG"
+            },
+            {
+              "@name": "book-zec",
+              "@src": "release/USX_1/ZEC.usx",
+              "@role": "ZEC"
+            },
+            {
+              "@name": "book-mal",
+              "@src": "release/USX_1/MAL.usx",
+              "@role": "MAL"
+            },
+            {
+              "@name": "book-mat",
+              "@src": "release/USX_1/MAT.usx",
+              "@role": "MAT"
+            },
+            {
+              "@name": "book-mrk",
+              "@src": "release/USX_1/MRK.usx",
+              "@role": "MRK"
+            },
+            {
+              "@name": "book-luk",
+              "@src": "release/USX_1/LUK.usx",
+              "@role": "LUK"
+            },
+            {
+              "@name": "book-jhn",
+              "@src": "release/USX_1/JHN.usx",
+              "@role": "JHN"
+            },
+            {
+              "@name": "book-act",
+              "@src": "release/USX_1/ACT.usx",
+              "@role": "ACT"
+            },
+            {
+              "@name": "book-rom",
+              "@src": "release/USX_1/ROM.usx",
+              "@role": "ROM"
+            },
+            {
+              "@name": "book-1co",
+              "@src": "release/USX_1/1CO.usx",
+              "@role": "1CO"
+            },
+            {
+              "@name": "book-2co",
+              "@src": "release/USX_1/2CO.usx",
+              "@role": "2CO"
+            },
+            {
+              "@name": "book-gal",
+              "@src": "release/USX_1/GAL.usx",
+              "@role": "GAL"
+            },
+            {
+              "@name": "book-eph",
+              "@src": "release/USX_1/EPH.usx",
+              "@role": "EPH"
+            },
+            {
+              "@name": "book-php",
+              "@src": "release/USX_1/PHP.usx",
+              "@role": "PHP"
+            },
+            {
+              "@name": "book-col",
+              "@src": "release/USX_1/COL.usx",
+              "@role": "COL"
+            },
+            {
+              "@name": "book-1th",
+              "@src": "release/USX_1/1TH.usx",
+              "@role": "1TH"
+            },
+            {
+              "@name": "book-2th",
+              "@src": "release/USX_1/2TH.usx",
+              "@role": "2TH"
+            },
+            {
+              "@name": "book-1ti",
+              "@src": "release/USX_1/1TI.usx",
+              "@role": "1TI"
+            },
+            {
+              "@name": "book-2ti",
+              "@src": "release/USX_1/2TI.usx",
+              "@role": "2TI"
+            },
+            {
+              "@name": "book-tit",
+              "@src": "release/USX_1/TIT.usx",
+              "@role": "TIT"
+            },
+            {
+              "@name": "book-phm",
+              "@src": "release/USX_1/PHM.usx",
+              "@role": "PHM"
+            },
+            {
+              "@name": "book-heb",
+              "@src": "release/USX_1/HEB.usx",
+              "@role": "HEB"
+            },
+            {
+              "@name": "book-jas",
+              "@src": "release/USX_1/JAS.usx",
+              "@role": "JAS"
+            },
+            {
+              "@name": "book-1pe",
+              "@src": "release/USX_1/1PE.usx",
+              "@role": "1PE"
+            },
+            {
+              "@name": "book-2pe",
+              "@src": "release/USX_1/2PE.usx",
+              "@role": "2PE"
+            },
+            {
+              "@name": "book-1jn",
+              "@src": "release/USX_1/1JN.usx",
+              "@role": "1JN"
+            },
+            {
+              "@name": "book-2jn",
+              "@src": "release/USX_1/2JN.usx",
+              "@role": "2JN"
+            },
+            {
+              "@name": "book-3jn",
+              "@src": "release/USX_1/3JN.usx",
+              "@role": "3JN"
+            },
+            {
+              "@name": "book-jud",
+              "@src": "release/USX_1/JUD.usx",
+              "@role": "JUD"
+            },
+            {
+              "@name": "book-rev",
+              "@src": "release/USX_1/REV.usx",
+              "@role": "REV"
+            }
+          ]
+        }
+      }
+    },
+    "copyright": {
+      "fullStatement": {
+        "statementContent": {
+          "@type": "xhtml",
+          "p": "Copyright © 2008-2017 Ellis W. Deibler. Released under the Creative Commons Attribution Share-Alike license 4.0."
+        }
+      }
+    },
+    "promotion": {
+      "promoVersionInfo": {
+        "@contentType": "xhtml",
+        "p": "Many thanks to Ellis W. Deibler and his translation team for sharing this great work!"
+      }
+    },
+    "archiveStatus": {
+      "archivistName": "KMPJ",
+      "dateArchived": "2023-05-24T23:06:12.385949",
+      "dateUpdated": "2023-07-04T06:15:03.771759",
+      "comments": "Corrected numerous missing letters after an opening quotation mark."
+    }
+  }
+}
