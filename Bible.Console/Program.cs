@@ -6,7 +6,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Net.Security;
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Bible.Backend.Adapters;
 using Bible.Backend.Models;
@@ -46,8 +48,8 @@ public class Program
         //await ParseAsync(logger);
         //await DeserializeToUsjAsync(logger);
         //await DeserializeOneToUsjAsync(logger);
-        //await UsjVisitorExampleAsync(logger);
-        await VisitDeserializeToUsjAsync(logger);
+        await UsjVisitorExampleAsync(logger);
+        //await VisitDeserializeToUsjAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -344,7 +346,13 @@ public class Program
 
     public static void Serialize<T>(T data, string jsonOutputPath, JsonSerializerOptions? options = null)
     {
-        options ??= new JsonSerializerOptions { WriteIndented = true };
+        options ??= new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        };
         var jsonString = JsonSerializer.Serialize(data, options);
         File.WriteAllText(jsonOutputPath, jsonString);
     }

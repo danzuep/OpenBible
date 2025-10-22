@@ -52,14 +52,17 @@ namespace Bible.Backend.Visitors
 
         public void Visit(UsxPara para)
         {
-            if (_usj.Contents == null || !_usj.Contents.Any())
+            if (!string.IsNullOrEmpty(para?.Style))
             {
-                _usj.Metadata.Add(new(para.Style, para.Text));
-            }
-            else
-            {
-                _usj.Contents.Add(new("style", para.Style));
-                this.Accept(para.Content);
+                if ((_usj.Contents == null || !_usj.Contents.Any()))
+                {
+                    _usj.Metadata.Add(para.Style, para.Text);
+                }
+                else
+                {
+                    _usj.Contents.Add(new("style", para.Style));
+                    this.Accept(para.Content);
+                }
             }
         }
 
@@ -88,13 +91,13 @@ namespace Bible.Backend.Visitors
             {
                 foreach (var rune in text.EnumerateRunes())
                 {
-                    _usj.Contents.Add(new("text", rune.ToString()));
+                    _usj.Contents.Add(new(null, rune.ToString()));
                     AddUnihan(rune.Value, UnihanDictionary);
                 }
             }
             else
             {
-                _usj.Contents.Add(new("text", text));
+                _usj.Contents.Add(new(null, text));
             }
         }
 
