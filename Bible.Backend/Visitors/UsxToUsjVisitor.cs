@@ -60,7 +60,14 @@ namespace Bible.Backend.Visitors
                 }
                 else
                 {
-                    _usj.Contents.Add(new("style", para.Style));
+                    if (para.Style.Equals("p"))
+                    {
+                        _usj.Contents.Add(new("style", para.Style));
+                    }
+                    else
+                    {
+                        _usj.Contents.Add(new(para.Style, para.Text));
+                    }
                     this.Accept(para.Content);
                 }
             }
