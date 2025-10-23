@@ -48,8 +48,9 @@ public class Program
         //await ParseAsync(logger);
         //await DeserializeToUsjAsync(logger);
         //await DeserializeOneToUsjAsync(logger);
-        await UsjVisitorExampleAsync(logger);
+        //await UsjVisitorExampleAsync(logger);
         //await VisitDeserializeToUsjAsync(logger);
+        await StringArraysVisitorExampleAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -216,6 +217,29 @@ public class Program
             converter.Logger.LogInformation(outFilePath);
             return html;
         });
+    }
+
+    private static async Task StringArraysVisitorExampleAsync(ILogger logger)
+    {
+        await Task.CompletedTask;
+        //var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var converter = new XmlConverter(null, logger);
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            if (!book.Metadata.BookCode.Equals("3JN"))
+            {
+                return null!;
+            }
+            //var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            //var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            //var field = UnihanLanguage.GetUnihanField(langScript);
+            //var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToStringArraysVisitor.GetBook(book); // dictionary
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.usj");
+            Serialize(usj, outFilePath);
+            logger.LogInformation(outFilePath);
+            return outFilePath;
+        }, sample: "zho-Hant-OCCB");
     }
 
     private static async Task UsjVisitorExampleAsync(ILogger logger)
