@@ -222,8 +222,7 @@ public class Program
 
     private static async Task StringArraysVisitorExampleAsync(ILogger logger)
     {
-        await Task.CompletedTask;
-        //var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
         var converter = new XmlConverter(null, logger);
         converter.Visitor<UsxBook>((book, outputPath) =>
         {
@@ -231,14 +230,19 @@ public class Program
             {
                 return null!;
             }
-            //var fileName = Path.GetFileNameWithoutExtension(outputPath);
-            //var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
-            //var field = UnihanLanguage.GetUnihanField(langScript);
-            //var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
-            var usj = UsxToStringArraysVisitor.GetBook(book); // dictionary
-            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.json");
-            Serialize(usj, outFilePath);
-            logger.LogInformation(outFilePath);
+            var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            var field = UnihanLanguage.GetUnihanField(langScript);
+            var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToStringArraysVisitor.GetBook(book, dictionary);
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}");
+            Serialize(usj.Chapters[0], $"{outFilePath}.json");
+            for (var chapter = 1; chapter < usj.Chapters.Count; chapter++)
+            {
+                Serialize(usj.Chapters[chapter], $"{outFilePath}-{chapter}.json");
+            }
+            Serialize(usj.RuneCount, $"{outFilePath}-runes.json");
+            logger.LogInformation("'{Path}' has {ChapterCount} chapter(s)", outFilePath, usj.Chapters.Count);
             return outFilePath;
         }, sample: "zho-Hant-OCCB");
     }
@@ -384,7 +388,7 @@ public class Program
         return stringBuilder.ToString();
     }
 
-    public static void Serialize<T>(T data, string jsonOutputPath, bool writeIndented = true, JsonSerializerOptions? options = null)
+    public static void Serialize<T>(T data, string jsonOutputPath, bool writeIndented = false, JsonSerializerOptions? options = null)
     {
         options ??= new JsonSerializerOptions
         {

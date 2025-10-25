@@ -1,43 +1,46 @@
-﻿using Bible.Backend.Abstractions;
+﻿using System.Collections.Concurrent;
+using Bible.Backend.Abstractions;
 using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
-using Newtonsoft.Json.Linq;
 using Unihan.Models;
 
 namespace Bible.Backend.Visitors
 {
     public sealed class UsxToStringArraysVisitor : IUsxVisitor
     {
-        public static async Task<IList<IList<IList<string?>>>?> DeserializeAsync(Stream stream, UnihanDictionary? unihanDictionary = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
+        public static async Task<UsjChapters?> DeserializeAsync(Stream stream, UnihanDictionary? unihanDictionary = null, UsxVisitorOptions? options = null, CancellationToken cancellationToken = default)
         {
             var deserializer = new XDocDeserializer();
             var usxBook = await deserializer.DeserializeAsync<UsxBook>(stream, cancellationToken);
             return GetBook(usxBook, unihanDictionary, options);
         }
 
-        public static IList<IList<IList<string?>>> GetBook(UsxBook? usxScriptureBook, UnihanDictionary? unihanDictionary = null, UsxVisitorOptions? options = null)
+        public static UsjChapters GetBook(UsxBook? usxScriptureBook, UnihanDictionary? unihanDictionary = null, UsxVisitorOptions? options = null)
         {
-            var visitor = new UsxToStringArraysVisitor(options);
-            visitor.UnihanDictionary = unihanDictionary;
+            var visitor = new UsxToStringArraysVisitor(options, unihanDictionary);
             var book = visitor.GetBook(usxScriptureBook);
             return book;
         }
 
-        public UsxToStringArraysVisitor(IOptions<UsxVisitorOptions>? options = null)
+        public UsxToStringArraysVisitor(IOptions<UsxVisitorOptions>? options = null, UnihanDictionary? unihanDictionary = null)
         {
             _options = options?.Value ?? new UsxVisitorOptions();
+            if (unihanDictionary != null)
+            {
+                UnihanDictionary = unihanDictionary;
+                _usj.RuneCount = new();
+            }
         }
+
+        private readonly UsxVisitorOptions _options;
 
         public UnihanDictionary? UnihanDictionary { get; set; }
 
         private readonly List<UsxFootnote> _footnotes = new();
 
-        private readonly UsxVisitorOptions _options;
-
-        private readonly IList<IList<IList<string?>>> _usj =
-            new List<IList<IList<string?>>>();
+        private readonly UsjChapters _usj = new();
 
         private IList<IList<string?>> _items = new List<IList<string?>>();
         private string?[] _values = new string[2];
@@ -74,9 +77,9 @@ namespace Bible.Backend.Visitors
         {
             if (!string.IsNullOrEmpty(para?.Style))
             {
-                if (para.Style.Equals("p"))
+                if (para.Style.StartsWith("p"))
                 {
-                    AddEntry(para.Style, "");
+                    AddEntry("p", para.Style != "p" ? para.Style : "");
                 }
                 else
                 {
@@ -90,7 +93,7 @@ namespace Bible.Backend.Visitors
         {
             if (!string.IsNullOrEmpty(chapterMarker.Style) && !string.IsNullOrEmpty(chapterMarker.Number))
             {
-                _usj.Add(_items);
+                _usj.Chapters.Add(_items);
                 _items = new List<IList<string?>>();
                 AddEntry(chapterMarker.Style, chapterMarker.Number);
             }
@@ -111,30 +114,19 @@ namespace Bible.Backend.Visitors
 
         public void Visit(string text)
         {
+            if (text == "\n    ") return;
             if (UnihanDictionary != null)
             {
                 foreach (var rune in text.EnumerateRunes())
                 {
-                    AddEntry(rune.ToString());
-                    AddUnihan(rune.Value, UnihanDictionary);
+                    var codepoint = rune.Value;
+                    if (UnihanDictionary.ContainsKey(codepoint))
+                    {
+                        _usj.RuneCount!.AddOrUpdate(codepoint, 1, (key, count) => count + 1);
+                    }
                 }
             }
-            else if (text != "\n    ")
-            {
-                AddEntry(text);
-            }
-        }
-
-        private void AddUnihan(int codepoint, UnihanDictionary unihanDictionary, string category = "unihan")
-        {
-            if (unihanDictionary == null) return;
-            if (unihanDictionary.TryGetValue(codepoint, out var metadata) && metadata != null)
-            {
-                foreach (var value in metadata)
-                {
-                    AddEntry(category, value);
-                }
-            }
+            AddEntry(text);
         }
 
         public void Visit(UsxMilestone milestone)
@@ -166,13 +158,21 @@ namespace Bible.Backend.Visitors
             }
         }
 
-        public IList<IList<IList<string?>>> GetBook(UsxBook? usxScriptureBook)
+        public UsjChapters GetBook(UsxBook? usxScriptureBook)
         {
             AddEntry("usx", usxScriptureBook?.UsxVersion);
             this.Accept(usxScriptureBook);
-            _usj.Add(_items);
+            _usj.Chapters.Add(_items);
             _items = Array.Empty<IList<string?>>();
             return _usj;
         }
+    }
+
+    public sealed class UsjChapters
+    {
+        public ConcurrentDictionary<int, int>? RuneCount { get; set; }
+
+        public IList<IList<IList<string?>>> Chapters { get; set; } =
+            new List<IList<IList<string?>>>();
     }
 }
