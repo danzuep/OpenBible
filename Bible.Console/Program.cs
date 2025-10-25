@@ -226,7 +226,7 @@ public class Program
         var converter = new XmlConverter(null, logger);
         converter.Visitor<UsxBook>((book, outputPath) =>
         {
-            if (!book.Metadata.BookCode.Equals("3JN"))
+            if (!book.Metadata.BookCode.Equals("HAG"))
             {
                 return null!;
             }
@@ -235,7 +235,7 @@ public class Program
             //var field = UnihanLanguage.GetUnihanField(langScript);
             //var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
             var usj = UsxToStringArraysVisitor.GetBook(book); // dictionary
-            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.usj");
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.json");
             Serialize(usj, outFilePath);
             logger.LogInformation(outFilePath);
             return outFilePath;
