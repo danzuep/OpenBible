@@ -50,8 +50,8 @@ public class Program
         //await DeserializeOneToUsjAsync(logger);
         //await UsjVisitorExampleAsync(logger);
         //await VisitDeserializeToUsjAsync(logger);
-        await StringArraysVisitorExampleAsync(logger);
-        //await VisitDeserializeToArraysAsync(logger);
+        //await StringArraysVisitorExampleAsync(logger);
+        await VisitDeserializeToArraysAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -241,7 +241,7 @@ public class Program
             {
                 Serialize(usj.Chapters[chapter], $"{outFilePath}-{chapter}.json");
             }
-            Serialize(usj.RuneCount, $"{outFilePath}-runes.json");
+            Serialize(usj.Runes, $"{outFilePath}-runes.json");
             logger.LogInformation("'{Path}' has {ChapterCount} chapter(s)", outFilePath, usj.Chapters.Count);
             return outFilePath;
         }, sample: "zho-Hant-OCCB");
@@ -249,15 +249,26 @@ public class Program
 
     private static async Task VisitDeserializeToArraysAsync(ILogger logger)
     {
-        await Task.CompletedTask;
+        var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
         var converter = new XmlConverter(null, logger);
-        //await converter.XmlMetadataToJsonAsync();
         converter.Visitor<UsxBook>((book, outputPath) =>
         {
-            var usj = UsxToStringArraysVisitor.GetBook(book); // dictionary
-            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.json");
-            Serialize(usj, outFilePath, writeIndented: false);
-            logger.LogInformation(outFilePath);
+            var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            var field = UnihanLanguage.GetUnihanField(langScript);
+            var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToStringArraysVisitor.GetBook(book, dictionary);
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}");
+            Serialize(usj.Chapters[0], $"{outFilePath}.json");
+            for (var chapter = 1; chapter < usj.Chapters.Count; chapter++)
+            {
+                Serialize(usj.Chapters[chapter], $"{outFilePath}-{chapter,3}.json");
+            }
+            if (usj.Runes != null)
+            {
+                Serialize(usj.Runes, $"{outFilePath}-runes.json");
+            }
+            logger.LogInformation("'{Path}' has {ChapterCount} chapter(s)", outFilePath, usj.Chapters.Count);
             return outFilePath;
         });
     }

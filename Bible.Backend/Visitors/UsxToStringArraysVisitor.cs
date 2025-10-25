@@ -30,7 +30,7 @@ namespace Bible.Backend.Visitors
             if (unihanDictionary != null)
             {
                 UnihanDictionary = unihanDictionary;
-                _usj.RuneCount = new();
+                _usj.Runes = new();
             }
         }
 
@@ -122,7 +122,7 @@ namespace Bible.Backend.Visitors
                     var codepoint = rune.Value;
                     if (UnihanDictionary.ContainsKey(codepoint))
                     {
-                        _usj.RuneCount!.AddOrUpdate(codepoint, 1, (key, count) => count + 1);
+                        _usj.Runes!.AddOrUpdate(codepoint, 1, (key, count) => count + 1);
                     }
                 }
             }
@@ -170,7 +170,7 @@ namespace Bible.Backend.Visitors
 
     public sealed class UsjChapters
     {
-        public ConcurrentDictionary<int, int>? RuneCount { get; set; }
+        public ConcurrentDictionary<int, int>? Runes { get; set; }
 
         public IList<IList<IList<string?>>> Chapters { get; set; } =
             new List<IList<IList<string?>>>();
