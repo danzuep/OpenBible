@@ -262,7 +262,7 @@ public class Program
             Serialize(usj.Chapters[0], $"{outFilePath}.json");
             for (var chapter = 1; chapter < usj.Chapters.Count; chapter++)
             {
-                Serialize(usj.Chapters[chapter], $"{outFilePath}-{chapter,3}.json");
+                Serialize(usj.Chapters[chapter], $"{outFilePath}-{chapter:D3}.json");
             }
             if (usj.Runes != null)
             {
