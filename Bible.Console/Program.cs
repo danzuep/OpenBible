@@ -51,6 +51,7 @@ public class Program
         //await UsjVisitorExampleAsync(logger);
         //await VisitDeserializeToUsjAsync(logger);
         await StringArraysVisitorExampleAsync(logger);
+        //await VisitDeserializeToArraysAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -242,6 +243,21 @@ public class Program
         }, sample: "zho-Hant-OCCB");
     }
 
+    private static async Task VisitDeserializeToArraysAsync(ILogger logger)
+    {
+        await Task.CompletedTask;
+        var converter = new XmlConverter(null, logger);
+        //await converter.XmlMetadataToJsonAsync();
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            var usj = UsxToStringArraysVisitor.GetBook(book); // dictionary
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.json");
+            Serialize(usj, outFilePath, writeIndented: false);
+            logger.LogInformation(outFilePath);
+            return outFilePath;
+        });
+    }
+
     private static async Task UsjVisitorExampleAsync(ILogger logger)
     {
         await Task.CompletedTask;
@@ -368,11 +384,11 @@ public class Program
         return stringBuilder.ToString();
     }
 
-    public static void Serialize<T>(T data, string jsonOutputPath, JsonSerializerOptions? options = null)
+    public static void Serialize<T>(T data, string jsonOutputPath, bool writeIndented = true, JsonSerializerOptions? options = null)
     {
         options ??= new JsonSerializerOptions
         {
-            WriteIndented = true,
+            WriteIndented = writeIndented,
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping

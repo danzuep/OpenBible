@@ -39,8 +39,8 @@ namespace Bible.Backend.Visitors
         private readonly IList<IList<IList<string?>>> _usj =
             new List<IList<IList<string?>>>();
 
-        private static IList<IList<string?>> _items = new List<IList<string?>>();
-        private static string?[] _values = new string[2];
+        private IList<IList<string?>> _items = new List<IList<string?>>();
+        private string?[] _values = new string[2];
         private void AddEntry(string? key, string? value)
         {
             _values[0] = key;
