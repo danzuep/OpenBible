@@ -3,6 +3,7 @@ using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Usx.Models;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json.Linq;
 using Unihan.Models;
 
 namespace Bible.Backend.Visitors
@@ -48,6 +49,15 @@ namespace Bible.Backend.Visitors
             _values = new string[2];
         }
 
+        private void AddEntry(string? value)
+        {
+            if (_values[0] == null)
+                _values[0] = string.Empty;
+            _values[1] = value;
+            _items.Add(_values);
+            _values = new string[2];
+        }
+
         public void Visit(UsxIdentification identification)
         {
             AddEntry("code", identification.BookCode);
@@ -64,15 +74,15 @@ namespace Bible.Backend.Visitors
         {
             if (!string.IsNullOrEmpty(para?.Style))
             {
-                if (_usj.Count < 1)
+                if (para.Style.Equals("p"))
                 {
-                    AddEntry(para.Style, para.Text);
+                    AddEntry(para.Style, "");
                 }
                 else
                 {
-                    AddEntry(para.Style, "");
-                    this.Accept(para.Content);
+                    _values[0] = para.Style;
                 }
+                this.Accept(para.Content);
             }
         }
 
@@ -95,7 +105,7 @@ namespace Bible.Backend.Visitors
         public void Visit(UsxChar usxChar)
         {
             if (!string.IsNullOrEmpty(usxChar.Style))
-                AddEntry(usxChar.Style, "");
+                _values[0] = usxChar.Style;
             this.Accept(usxChar.Content);
         }
 
@@ -105,13 +115,13 @@ namespace Bible.Backend.Visitors
             {
                 foreach (var rune in text.EnumerateRunes())
                 {
-                    AddEntry("", rune.ToString());
+                    AddEntry(rune.ToString());
                     AddUnihan(rune.Value, UnihanDictionary);
                 }
             }
-            else if (!string.IsNullOrEmpty(text) && !text.Equals("\n    "))
+            else if (text != "\n    ")
             {
-                AddEntry("", text);
+                AddEntry(text);
             }
         }
 
