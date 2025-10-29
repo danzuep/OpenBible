@@ -1,6 +1,6 @@
 ﻿using Bible.Core.Models.Scripture;
 
-namespace Bible.ServiceDefaults.Models
+namespace Bible.Razor.Models
 {
     [Serializable]
     public class ScriptureSegmentDto

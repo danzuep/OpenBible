@@ -1,92 +1,17 @@
 using System.Collections.Immutable;
-using System.IO;
-using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
-using System.Text.Json;
-using Bible.Backend.Models;
 using Bible.Backend.Services;
 using Bible.Backend.Visitors;
 using Bible.Core.Models;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
-using Bible.ServiceDefaults.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Scalar.AspNetCore;
+using Bible.Razor.Models;
+using Microsoft.Extensions.Logging;
 using Unihan.Models;
-using Unihan.Services;
 
-/// <summary>
-/// The main entry point for the Bible API Service application.
-/// </summary>
-public static partial class Program
+public static class Examples
 {
-    /// <summary>
-    /// Application entry point.
-    /// </summary>
-    /// <param name="args">Command-line arguments.</param>
-    public static async Task Main(string[] args)
-    {
-        var builder = WebApplication.CreateBuilder(args);
-
-        // Add service defaults & Aspire client integrations.
-        builder.AddServiceDefaults();
-
-        // Add services to the container.
-        builder.Services.AddProblemDetails();
-
-        // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-        builder.Services.AddOpenApi();
-
-        var app = builder.Build();
-
-        // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseDeveloperExceptionPage();
-            app.MapOpenApi();
-            app.MapScalarApiReference();
-        }
-        else
-        {
-            app.UseExceptionHandler();
-        }
-
-        app.UseHttpsRedirection();
-
-        app.MapGet("/unihan", Unihan)
-            .WithName($"Get{nameof(Unihan)}");
-
-        app.MapGet("/convert", static ([FromQuery] string text) => ParseAsync(text));
-
-        app.MapPost("/convert", static ([FromBody] string text) => ParseAsync(text));
-
-        app.MapGet("/BibleBook/{language}/{version}/{book}",
-            static (string language, string version, string book) =>
-            ParseBibleBookAsync(language, version, book));
-
-        app.MapGet("/{language}/{version}/{book}",
-            static (string language, string version, string book) =>
-            ParseScriptureBookDtoAsync(language, version, book));
-
-        app.MapGet("/{language}/{version}/{book}/{chapter}",
-            static (string language, string version, string book, byte chapter) =>
-            ParseScriptureBookChapterAsync(language, version, book, chapter));
-
-        app.MapGet("/{language}/{version}/{book}/{chapter}/stream",
-            static (string language, string version, string book, byte chapter, CancellationToken cancellationToken) =>
-            GetScriptureRecordsStreamAsync(language, version, book, chapter, cancellationToken));
-
-        app.MapDefaultEndpoints();
-
-        await app.RunAsync();
-
-        app.MapDefaultEndpoints();
-
-        await app.RunAsync();
-    }
-
     static async IAsyncEnumerable<ScriptureSegmentDto> GetScriptureRecordsStreamAsync(string language, string version, string book, byte chapter, [EnumeratorCancellation] CancellationToken cancellationToken = default)
     {
         var scriptureBook = await ParseScriptureBookAsync(language, version, book);
@@ -127,7 +52,7 @@ public static partial class Program
     static async Task<ScriptureBook?> ParseScriptureBookAsync(string isoLanguage, string version, string book)
     {
         var unihan = await UnihanService.GetUnihanAsync(isoLanguage);
-        await using var stream = ResourceHelper.GetUsxBookStream(isoLanguage, version, book);
+        await using var stream = GetUsxBookStream(isoLanguage, version, book);
         var scriptureBook = await UsxToScriptureBookVisitor.DeserializeAsync(stream, unihan);
         if (scriptureBook != null)
         {
@@ -161,11 +86,26 @@ public static partial class Program
 
     static async Task<BibleBook?> ParseBibleBookAsync(string language = "eng", string version = "WEBBE", string book = "JHN")
     {
-        await using var stream = ResourceHelper.GetUsxBookStream(language, version, book);
+        await using var stream = GetUsxBookStream(language, version, book);
         var deserializer = new XDocDeserializer();
         var usxParser = new UsxToBibleBookParser(deserializer);
         var bibleBook = await usxParser.ParseAsync(stream);
         return bibleBook;
+    }
+
+    static Stream GetUsxBookStream(string? language, string? version, string? book)
+    {
+        if (string.IsNullOrEmpty(language) || string.IsNullOrEmpty(version) || string.IsNullOrEmpty(book))
+        {
+            throw new ArgumentException("Language, version, and book parameters must be provided.");
+        }
+        var metadata = new BibleBookMetadata
+        {
+            IsoLanguage = language,
+            BibleVersion = version,
+            BookCode = book
+        };
+        return ResourceHelper.GetUsxBookStream(metadata);
     }
 
     static async Task<string> ParseAsync(string text)
