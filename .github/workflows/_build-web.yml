@@ -100,6 +100,6 @@ jobs:
 
       # https://github.com/actions/upload-pages-artifact
       - name: Upload GitHub Pages artifact for web
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "${{ inputs.project_output }}/wwwroot"
