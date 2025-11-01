@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="3JN" style="id">- Biblica® Open Chinese Contemporary Bible 2023 (Traditional)</book>
+  <para style="h">約翰三書</para>
+  <para style="toc1">約翰三書</para>
+  <para style="toc2">約翰三書</para>
+  <para style="toc3">約叁</para>
+  <para style="mt1">約翰三書</para>
+  <chapter number="1" style="c" sid="3JN 1"/>
+  <para style="p">
+    <verse number="1" style="v" sid="3JN 1:1"/>我這作長老的寫信給親愛的<char style="pn">該猶</char>，你是我本著真理所愛的人。 <verse eid="3JN 1:1"/><verse number="2" style="v" sid="3JN 1:2"/>親愛的弟兄，我願你凡事順利，身體像靈魂一樣健康。<verse eid="3JN 1:2"/></para>
+  <para style="s1">該猶的好品行</para>
+  <para style="p">
+    <verse number="3" style="v" sid="3JN 1:3"/>一些弟兄來為你作見證，說你忠心地遵行真理，這使我非常歡喜。 <verse eid="3JN 1:3"/><verse number="4" style="v" sid="3JN 1:4"/>沒有比聽見自己的孩子遵行真理更使我歡喜了。<verse eid="3JN 1:4"/></para>
+  <para style="p">
+    <verse number="5" style="v" sid="3JN 1:5"/>親愛的弟兄，你常常忠心地照顧素不相識的弟兄， <verse eid="3JN 1:5"/><verse number="6" style="v" sid="3JN 1:6"/>他們把你的愛心告訴了教會。願你照著上帝喜悅的方式繼續幫助他們出行， <verse eid="3JN 1:6"/><verse number="7" style="v" sid="3JN 1:7"/>因為他們為了主的名四處傳道，不接受非信徒的任何幫助。 <verse eid="3JN 1:7"/><verse number="8" style="v" sid="3JN 1:8"/>我們理當接待這樣的人，好成為他們傳揚真理的同工。<verse eid="3JN 1:8"/></para>
+  <para style="s1">丟特腓的惡行</para>
+  <para style="p">
+    <verse number="9" style="v" sid="3JN 1:9"/>我曾寫信給你那裡的教會，但愛當頭領的<char style="pn">丟特腓</char>不接待我們。 <verse eid="3JN 1:9"/><verse number="10" style="v" sid="3JN 1:10"/>因此，我若去你們那裡，必揭露他的所作所為，他怎樣惡言中傷我們。不僅如此，他還拒絕接待弟兄，並且禁止別人接待，甚至將接待的人趕出教會。<verse eid="3JN 1:10"/></para>
+  <para style="s1">抑惡揚善</para>
+  <para style="p">
+    <verse number="11" style="v" sid="3JN 1:11"/>親愛的弟兄，不要效法罪惡，要效法美善。行善的人屬於上帝，行惡的人不認識上帝。 <verse eid="3JN 1:11"/><verse number="12" style="v" sid="3JN 1:12"/><char style="pn">低米丟</char>得到了眾人的好評，真理也為他作見證，我們也為他作見證。你知道我們的見證是真實的。<verse eid="3JN 1:12"/></para>
+  <para style="s1">結語</para>
+  <para style="p">
+    <verse number="13" style="v" sid="3JN 1:13"/>我還有許多事要告訴你，但不想藉助筆墨， <verse eid="3JN 1:13"/><verse number="14" style="v" sid="3JN 1:14"/>只希望很快見到你，跟你當面暢談。<verse eid="3JN 1:14"/></para>
+  <para style="p">
+    <verse number="15" style="v" sid="3JN 1:15"/>願你平安！這裡的朋友們都問候你，請代我一一問候你那邊的朋友。<verse eid="3JN 1:15"/></para>
+  <chapter eid="3JN 1"/>
+</usx>

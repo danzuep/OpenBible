@@ -6,7 +6,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Net.Security;
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Bible.Backend.Adapters;
 using Bible.Backend.Models;
@@ -17,6 +19,7 @@ using Bible.Core.Models.Meta;
 using Bible.Core.Models.Scripture;
 using Bible.Data;
 using Bible.Data.Services;
+using Bible.Scraper;
 using Bible.Usx.Models;
 using Bible.Usx.Services;
 using Microsoft.Extensions.Logging;
@@ -47,7 +50,11 @@ public class Program
         //await DeserializeToUsjAsync(logger);
         //await DeserializeOneToUsjAsync(logger);
         //await WebsiteParser.TranslationScannerAsync(logger);
-        await Bible.Scraper.WebsiteParser.TableScannerDemoAsync(logger);
+        //await WebsiteParser.TableScannerDemoAsync(logger);
+        //await UsjVisitorExampleAsync(logger);
+        //await VisitDeserializeToUsjAsync(logger);
+        await StringArraysVisitorExampleAsync(logger);
+        //await VisitDeserializeToArraysAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();
@@ -216,6 +223,102 @@ public class Program
         });
     }
 
+    private static async Task StringArraysVisitorExampleAsync(ILogger logger)
+    {
+        var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var converter = new XmlConverter(null, logger);
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            if (!book.Metadata.BookCode.Equals("HAG"))
+            {
+                return null!;
+            }
+            var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            var field = UnihanLanguage.GetUnihanField(langScript);
+            var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToStringArraysVisitor.GetBook(book, dictionary);
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}");
+            Serialize(usj.Chapters[0], $"{outFilePath}.json");
+            for (var chapter = 1; chapter < usj.Chapters.Count; chapter++)
+            {
+                Serialize(usj.Chapters[chapter], $"{outFilePath}-{chapter}.json");
+            }
+            Serialize(usj.Runes, $"{outFilePath}-runes.json");
+            logger.LogInformation("'{Path}' has {ChapterCount} chapter(s)", outFilePath, usj.Chapters.Count);
+            return outFilePath;
+        }, sample: "zho-Hant-OCCB");
+    }
+
+    private static async Task VisitDeserializeToArraysAsync(ILogger logger)
+    {
+        var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var converter = new XmlConverter(null, logger);
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            var field = UnihanLanguage.GetUnihanField(langScript);
+            var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToStringArraysVisitor.GetBook(book, dictionary);
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}");
+            Serialize(usj.Chapters[0], $"{outFilePath}.json");
+            for (var chapter = 1; chapter < usj.Chapters.Count; chapter++)
+            {
+                Serialize(usj.Chapters[chapter], $"{outFilePath}-{chapter:D3}.json");
+            }
+            if (usj.Runes != null)
+            {
+                Serialize(usj.Runes, $"{outFilePath}-runes.json");
+            }
+            logger.LogInformation("'{Path}' has {ChapterCount} chapter(s)", outFilePath, usj.Chapters.Count);
+            return outFilePath;
+        });
+    }
+
+    private static async Task UsjVisitorExampleAsync(ILogger logger)
+    {
+        await Task.CompletedTask;
+        //var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var converter = new XmlConverter(null, logger);
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            if (!book.Metadata.BookCode.Equals("3JN"))
+            {
+                return null!;
+            }
+            //var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            //var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            //var field = UnihanLanguage.GetUnihanField(langScript);
+            //var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToUsjVisitor.GetBook(book); // dictionary
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.usj");
+            Serialize(usj, outFilePath);
+            logger.LogInformation(outFilePath);
+            return outFilePath;
+        }, sample: "zho-Hant-OCCB");
+    }
+
+    private static async Task VisitDeserializeToUsjAsync(ILogger logger)
+    {
+        //var unihan = await UnihanService.GetUnihanFieldDictionaryAsync();
+        var converter = new XmlConverter(null, logger);
+        await converter.XmlMetadataToJsonAsync();
+
+        converter.Visitor<UsxBook>((book, outputPath) =>
+        {
+            //var fileName = Path.GetFileNameWithoutExtension(outputPath);
+            //var langScript = string.Join("-", fileName.Split('-').SkipLast(1));
+            //var field = UnihanLanguage.GetUnihanField(langScript);
+            //var dictionary = unihan != null && unihan.TryGetValue(field, out var dict) ? dict : null;
+            var usj = UsxToUsjVisitor.GetBook(book); // dictionary
+            var outFilePath = Path.Combine(outputPath, $"{book?.Metadata.BookCode}.json");
+            Serialize(usj, outFilePath);
+            logger.LogInformation(outFilePath);
+            return outFilePath;
+        });
+    }
+
     private static async Task DeserializeOneToUsjAsync(ILogger logger, string language = "zho-Hant", string version = "OCCB", string book = "3JN")
     {
         var metadata = new BibleBookMetadata
@@ -297,5 +400,18 @@ public class Program
             }
         }
         return stringBuilder.ToString();
+    }
+
+    public static void Serialize<T>(T data, string jsonOutputPath, bool writeIndented = false, JsonSerializerOptions? options = null)
+    {
+        options ??= new JsonSerializerOptions
+        {
+            WriteIndented = writeIndented,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        };
+        var jsonString = JsonSerializer.Serialize(data, options);
+        File.WriteAllText(jsonOutputPath, jsonString);
     }
 }
