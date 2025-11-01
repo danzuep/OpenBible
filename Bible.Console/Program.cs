@@ -44,8 +44,10 @@ public class Program
         //await ParseBibleBookAsync(logger);
         //await ParseToUnihanAsync();
         //await ParseAsync(logger);
-        await DeserializeToUsjAsync(logger);
+        //await DeserializeToUsjAsync(logger);
         //await DeserializeOneToUsjAsync(logger);
+        //await WebsiteParser.TranslationScannerAsync(logger);
+        await Bible.Scraper.WebsiteParser.TableScannerDemoAsync(logger);
 
         //var converter = new XmlConverter(logger);
         //await converter.ParseUnihanAsync();

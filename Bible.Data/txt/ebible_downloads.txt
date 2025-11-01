@@ -1,0 +1,1542 @@
+Territory	Language	Language (English)	Vernacular Title	English Title	Home
+Albania	Armãneashti/Arumanisht	Armãneashti/Arumanisht	Biblija tu limba Rrãmãnã	Aromanian Bible	rup
+Algeria	Arabic, Algerian Spoken	Arabic, Algerian Spoken	العهد الجديد باللهجة الجزائرية	Arabic, Algerian Spoken: Arabe Algerian NT	arq
+Algeria	Tamahaq, Tahaggart	Tamahaq, Tahaggart	Awal n Messineɣ s Tamahaq	Tahaggart Tamahaq Bible	thv
+Angola	Nkangala	Nkangala	Nkangala Bible Translation	Nkangala NT	nkn
+Australia	Adnyamathanha	Adnyamathanha	Adnyamathanha Christmas Story	Adnyamathanha Christmas Story	adt
+Australia	Alawa	Alawa	Alawa Song Buk	Alawa Song Book	alh
+Australia	Alyawarr	Alyawarr	Alyawarr Bible	Alyawarr Bible	aly
+Australia	Anindilyakwa	Anindilyakwa	Anindilyakwa Bible	Anindilyakwa Bible	aoi
+Australia	Anmayerr	Anmatyerre	Anmatyerr Bible	Anmatyerr Bible	amx
+Australia	Western Arrarnta	Arrarnta, Western	Altjirraka angkatja  - Arrarnturna kngartiwukala	Western Arrarnta NT	are
+Australia	Eastern Arrente	Arrernte, Eastern	Angkentye Mwerre	Eastern Arrente Bible	aer
+Australia	Awabakalkoba	Awabakal	EUANGELION UNNI TA JESU-ÚBA CHRIST-KO-BA UPATOARA LUKA-UMBA	Awabakal Luke	awk
+Australia	Burarra	Burarra	Nyanyapa Arrku Gun-nika Gun-molamola Janguny: Minypa Jesus Christ Guna-ganyja Arrburrwa Gun-geka Rum	Burarra Scriptures	bvr
+Australia	Marraŋu	Dhuwal	Marraŋu Selections	Dhuwal Selections	dwu
+Australia	Ḻiyagawumirr	Dhuwal	Luke	Liyagawumirr Luke	dwuliv
+Australia	Dhuwaya	Dhuwaya	Djesuwalaŋuwuy latjuꞌ dhäwuꞌ Markkuŋu wukirriwuy	Dhuwaya Mark + Acts 1:8-11	dwy
+Australia	Dieri	Dieri	TESTAMENTA MARRA	Dieri NT	dif
+Australia	Djambarrpuyŋu	Djambarrpuyngu	God-Waŋarrwu Walŋamirr Dhäruk	Djambarrpuyngu NT	djr
+Australia	Dhuwa-Dhaŋu'mi	Djangu	Dhuwa Dhaŋu'mi Mäk+	Dhuwa-Dhaŋu'mi Mark + Selections	dhgduwadha
+Australia	Wangurri	Djangu	Djangu Selections	Djangu Bible Portions	dhg
+Australia	Warramiri Ḏolttji	Djangu	Warramiri Ḏolttji Selections	Warramiri Ḏolttji Selections	dhgdol
+Australia	Ndjébbana	Djeebbana	Ndjébbana Bible Portions	Ndjébbana Bible Portions	djj
+Australia	Djinang	Djinang	Djinang Bible	Djinang Bible Portions	dji
+Australia	Barkly English	English	Barkly Bible Portions	Barkly Bible Portions	engbarkly
+Australia	English	English	Nyangumarta English Bible	Nyangumarta English Bible	engnna
+Australia	Aboriginal English	English	Plain English Version	Plain English Version	engPEV
+Australia	Gamilaraay	Gamilaraay	GURRE KAMILAROI	KAMILAROI SAYINGS	kld
+Australia	Garrwa	Garrwa	Shorter New Testament	Garrwa Shorter New Testament	wrk
+Australia	Gumatj	Gumatj	Gumatj Bible	Gumatj Bible	gnn
+Australia	Kunwinjku	Gunwinggu	God Nuye Kunwok	Kunwinjku Bible	gup
+Australia	Mayali	Gunwinggu	Mayali Selections	Mayali Selections	gupmay
+Australia	Gupapuyŋu	Gupapuyngu	Selections	Gupapuyngu Bible Portions	guf
+Australia	Gurrgoni	Guragone	Gurrgoni Selections	Gurrgoni Selections	gge
+Australia	Gurindji	Gurinji	Ruth + selections	Gurindji Scripture Portions	gue
+Australia	Gugu Yimidhirr	Guugu Yimidhirr	Matthew sample	Gugu Yimidhirr Matthew Sample	kky
+Australia	Iwaidja	Iwaidja	Iwaidja Selections	Iwaidja Selections	ibd
+Australia	Kala Lagaw	Kala Lagaw Ya	Minar Poelayzimayl	Kala Lagaw Bible	mwp
+Australia	Kitja	Kitja	Jawunany	Kitja Jonah	gia
+Australia	Kriol	Kriol	Holi Baibul	Kriol Bible	rop
+Australia	Kukatja	Kukatja	Kukatja Scriptures	Kukatja Bible portions	kux
+Australia	Kuku Yalanji	Kuku-Yalanji	Godumu Kuku	Kuku-Yalanji Bible	gvn
+Australia	Kunbarlang	Kunbarlang	Kunbarlang Christmas Story and Part of Acts 1	Kunbarlang Bible Portions	wlg
+Australia	Guguminjen	Kunjen	Kunjen Mark Portions	Kunjen Mark Portions	kjn
+Australia	Kuninjku	Kunwinjku	Kuninjku Selections	Kuninjku Selections	gupk
+Australia	Larrakia	Larrakia	Larrakia Christmas Story	Larrakia Christmas Story	lrg
+Australia	Martu Wangka	Martu Wangka	Mamamili Wangka	Martu Wangka Bible	mpj
+Australia	Mawng	Mawng	Mawng Mark and other Scripture portions	Mawng Bible Portions	mph
+Australia	Meriam Mir	Meriam	Meriam Mir Bible	Meriam Mir Bible	ulk
+Australia	Meriam Mir	Meriam	Meriam Mir Bible	Meriam Mir Bible	ulk1902
+Australia	Murrinhpatha	Murrinh-Patha	Murrinhpatha Bible	Murrinhpatha Bible	mwf2018
+Australia	Nakara	Nakara	Nakara Selections	Nakara Selections	nck
+Australia	Ngarrindjeri	Narrinyeri	Tungarar Jehobald YARILDEWALLIN	Ngarrindjeri Scriptures	nay
+Australia	Ngaanyatjarra	Ngaanyatjarra	Mama Kuurrku Wangka	Ngaanyatjarra Shorter Bible	ntj
+Australia	Noongar	Noongar	Noongar Bible	Noongar Bible	nys
+Australia	Wubuy	Nunggubuyu	Ana-Maṉngulg Ana-Wubiba -- Anu-gadhuwa Ana-lhaawu	Wubuy Shorter  Bible	nuy
+Australia	Nyangumarta	Nyangumarta	Nyangumarta Bible	Nyangumarta Bible	nna
+Australia	Luritja	Pintupi-Luritja	Luritja Bible	Luritja Bible	piu2006
+Australia	Pitjantjatjara	Pitjantjatjara	Tjukurpa Palya	Pitjantjatjara Shorter Bible	pjt
+Australia	Rembarrnga	Rembarunga	Rembarrnga Christmas Story	Rembarrnga Christmas Story	rmb
+Australia	Kuuk Thayorre	Thayore	Kuuk Thayorre Bible Portions	Thayorre Bible Portions	thd
+Australia	Tiwi	Tiwi	Tiwi Bible	Tiwi Gospels	tiw
+Australia	Tiwi	Tiwi	Tiwi Selections	Tiwi Selections	tiwm
+Australia	Yumplatok	Torres Strait Creole	Baibol Tores Streit Yumplatok	Yumplatok Bible	tcs
+Australia	Walmajarri	Walmajarri	Wangki Wulyu Jirrkirlikanujuwal	Walmajarri Bible	wmt
+Australia	Warlpiri	Warlpiri	Warlpiri Short Bible	Warlpiri Bible	wbp
+Australia	Wik-Mungkan	Wik-Mungkan	Wik Inangan Kan-Kanam God.antama	Wik-Mungkan NT	wim
+Australia	Worrorra	Worrorra	Worrorra Mark & Luke	Worrorra Mark and Luke	wro
+Australia	Yän-nhaŋu	Yan-nhangu	Yän-nhaŋu Selections	Yan-nhangu Selections	jay
+Australia	Yanyuwa	Yanyuwa	Selections from Luke, Mark, Acts, Genesis, Ruth, and Romans	Yanyuwa Bible portions	jao
+Australia	Yindjibarndi	Yindjibarndi	NYIRTINGU MANYKA WANTHARNA NGURRAY	Yindjibarndi Luke	yij
+Azerbaijan	Ts‘əxna miz	Tsakhur	Tsakhur	Tsakhur Bible	tkr
+Azerbaijan	Udi	Udi	Udi Bible	Udi Bible	udi
+Bangladesh	বাংলা	Bengali	পবিত্র বাইবেল	Bengali Bible (ERV)	ben2006
+Bangladesh	বাংলা	Bengali	ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী	Bengali Indian Revised Version Bible: ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী	benirv
+Bangladesh	বাংলা	Bengali	Biblica® মুক্তভাবে বাংলা সমকালীন সংস্করণের	Open Bengali Contemporary Version Bible	benobcv
+Bangladesh	Koda	Koda	কড়া অনুবাদ	Koda Bible	cdz
+Bangladesh	Sylheti	Sylheti	Sylheti Bible (Latin script)	Sylheti NT (Latin)	syll
+Bangladesh	Sylheti	Sylheti	Sylheti Bible (Bangla script)	Sylheti NT Bangla	syl
+Bangladesh	Sylheti	Sylheti	Sylheti Bible (Nagri script)	Sylheti NT+ Nagri	syls
+Belarus	Belarusian	Belarusian	Біблія (пераклад А.Бокуна)	Belarusan Bible, A. Boken	bel
+Belarus	беларуская	беларуская	Новы Запавет і Кнігі Старога Запавету	Belarusian New Testament and Books of Old Testament	beln
+Belgium	Nederlands	Nederlands	Gods Boek	Dutch: Gods Boek	nldgbv
+Belize	Bileez Kriol	Belize Kriol English	Di Nyoo Testiment eena Bileez Kriol	New Testament in Belize Kriol English (BH:bzj:Belize Kriol English)	bzj
+Belize	Maya, Mopán	Maya, Mopán	Le'ec Ada' U T'an A Dios A Tumulbene	Mopán Maya NT	mopNT
+Benin	Bariba	Baatonum	Bibeli Gusunɔn Gari	Bariba Bible	bba
+Benin	Ditammari	Ditammari	Bibiri Kuyie Nnɑ́ɑǹtì Pɑ́tíri	Ditammari Bible	tbzsim
+Benin	Fulfulde Borgu	Fulfulde, Borgu	Alkawal Kesal	Fulfulde Borgu NT	fue
+Benin	Fulfulde Burkina	Fulfulde, Western Niger	Fulfulfe Burkina, Dewtere Laamɗo Amaana Keso	Fulfulde Burkina NT	fuhbkf
+Benin	Lokpa	Lukpa	PIIPILI ƖSƆ TƆM TAKƎLAƔA	Lokpa Bible	dop
+Benin	Sola	Miyobe	Nkomine Fal Ritɛlɛ́	Sola NT	soy
+Benin	Monkole	Mokole	Akabuu Titɔ̃i Idei Ilaaɔ	Monkole NT	mkl
+Bolivia	Cavineña	Cavineña	Yusuja Quisarati	Cavineña NT	cavNT
+Bolivia	Chácobo	Chácobo	Dios Chani	Chácobo NT	caoNT
+Bolivia	Chipaya	Chipaya	Ew Testamento: Chipay Tawkquiztan	Chipaya NT	capNT
+Bolivia	Chiquitano	Chiquitano	Manitanati Tuparrü	Chiquitano NT	caxNT
+Bolivia	Ese Ejja	Ese Ejja	Eyacuiñajjija Esohui	Ese Ejja NT	eseNT
+Bolivia	Guaraní, Eastern Bolivian	Guaraní, Eastern Bolivian	Nuevo Testamento Guaraní Pe	Eastern Bolivian Guaraní NT	guiNT
+Bolivia	Guaraní, Western Bolivian	Guaraní, Western Bolivian	Nuevo Testamento Guaraní Pe	Western Bolivian Guaraní NT	gnwNT
+Bolivia	Guarayu	Guarayu	Tũpa Ñehengagüer	Guarayu NT	gyrNT
+Bolivia	Ignaciano	Ignaciano	Eta Táurinaquene máechajiriruvahi ema Viya eta viyehe, ticaijare puito Eta Nuevo Testamento	Ignaciano NT	ignNT
+Bolivia	Quechua, North Bolivian	Quechua, North Bolivian	Mosoj Testamento	North Bolivian Quechua NT	qulNT
+Bolivia	Quechua, South Bolivian	Quechua, South Bolivian	Dios Parlapawanchej	South Bolivian Quechua NT	quhNT
+Bolivia	Sirionó	Sirionó	Mbia Cheẽ	Sirionó NT	srqNT
+Bolivia	Tacana	Tacana	Diusu sa mimi	Tacana NT	tnaNT
+Botswana	Naro	Naro	Ka̱bas Qae-xg'ae sa	Naro NT	nhr
+Botswana	Tswana	Setswana	Biblica® Open Lefoko: La Botshelo Kgolagano e Ntsha	Open Tswana Living NT	tsn
+Brazil	Apalaí	Apalaí	Ritonõpo Omiry: A Bíblia Sagrada na língua Aparai do Brasil	Apalai NT	apyNT
+Brazil	Apinayé	Apinayé	Tĩrtũm kapẽr ã kagà nyw	Apinayé NT	apnNT
+Brazil	Apurinã	Apurinã	Teoso sãkire amaneri	Apurinã NT	apuNT
+Brazil	Bakairí	Bakairí	Deus Itaumbyry	Bakairí NT	bkqNT
+Brazil	Borôro	Borôro	Pao Kurireu Bataru Kurireu; O Novo Testamento	Borôro: Pao Kurireu Bataru Kurireu; O Novo Testamento (New Testament)	bor
+Brazil	Canela	Canela	Canela	Canela Bible	ram
+Brazil	Desano	Desano	Desano	Desano: Goãmʉ Yare Wereripʉ New Testament	des
+Brazil	Guajajára	Guajajára	Tupàn ze'eg	Guajajára Bible	gubBl
+Brazil	Mbyá Guaraní	Guaraní, Mbyá	Nhanderuete ayvu iky'a e'ỹ va'e	Mbyá Guaraní NT	gun
+Brazil	Hixkaryána	Hixkaryána	Khoryenkom Karyehtanà	Hixkaryána NT	hixNT
+Brazil	Jamamadí	Jamamadí	Teoso Ka Yama Hani	Jarawara NT	jaa
+Brazil	Kaapor	Kaapor	Tupã Je'ẽha	Kaapor NT	urbNT
+Brazil	Kadiwéu	Kadiwéu	Gela Liwai Lotaɡ̶anaɡ̶axi Aneotedoɡ̶oji	Kadiwéu NT	kbcNT
+Brazil	Kaingang	Kaingang	Topẽ vĩ rá	Kaingang NT	kgpNT
+Brazil	Kaiwá	Kaiwá	Nhandejáry Nhe'ẽ	Kaiwá NT	kgkNT
+Brazil	Karajá	Karajá	Deuxu Rybe Tyyriti	Karajá NT	kpjNT
+Brazil	Kayabí	Kayabí	Janeruwarete 'Ga Je'eg	Kayabí NT	kyzNT
+Brazil	Kayapó	Kayapó	Metĩndjwỳnh Kute Memã Kabẽn Ny Jarẽnh	Kayapó NT	txuNT
+Brazil	Culina	Kulina	El Nuevo Testamento en el idioma Culina (mádija) del Perú	Culina NT	cul
+Brazil	Macushi	Macushi	Macushi	Macushi NT	mbcNT
+Brazil	Maxakalí	Maxakalí	Topa Yõg Tappet	Maxakalí NT	mblNT
+Brazil	Mundurukú	Mundurukú	Deus ekawẽntup Kawẽn iisuat ekawẽn	Mundurukú NT	myu
+Brazil	Nadëb	Nadeb	Pop Hagä Do Panyyg Hanäm Do Hahỹỹh	Nadëb NT	mbjNT
+Brazil	Nambikuára, Southern	Nambikuára, Southern	Txa²wã¹sũ̱³na² Wãn³txa²	Southern Nambikuára NT	nabNT
+Brazil	Palikúr	Palikúr	Uhokri Gannasan	Palikúr NT	plu
+Brazil	Parecís	Parecís	Waitare Wenati Aho	Parecís NT	pabNT
+Brazil	Paumarí	Paumarí	Deus Athi Kapapirani Hida	Paumarí NT	padNT
+Brazil	Português	Português	Biblia Livre Para Todos	Portuguese Free Bible for All	porblt
+Brazil	Português	Português	Biblica® Open Nova Bíblia Viva 2007	Portuguese ONBV	poronbv
+Brazil	Português	Portuguese	Novo Testamento: Versão Fácil de Ler	Brazillian Portuguese NT, Easy Reading Version	por-WBTC
+Brazil	Português	Portuguese	Bíblia Livre	Portuguese Bíblia Livre	porbr2018
+Brazil	portugues	Portuguese	A Bíblia Sagrada, Tradução para Tradutores	Portuguese Translation for Translators	portft
+Brazil	Português	Portuguese	Bíblia Portuguesa Mundial	World Portuguese Bible	porbrbsl
+Brazil	Rikbaktsa	Rikbaktsa	Deus Harere Aibaky Sesus mymyspirikpoko naha	Rikbaktsa NT	rkbNT
+Brazil	Sateré-Mawé	Sateré-Mawé	Tupana Ehay Satere Mawe Pusupuo	Sateré-Mawé NT	mavNT
+Brazil	Tenharim	Tenharim	Tupanaʼga nhiʼig̃a	Tenharim NT	pahNT
+Brazil	Terêna	Terêna	Emo'u Itukó'oviti	Terêna NT	terNT
+Brazil	Tucano	Tucano	Õ'âkĩ̶ hɨ yeere uúkũri turi Tukano	Tucano NT	tuoNT
+Brazil	Xavánte	Xavánte	'Re ĩhâimana u'âsi mono zadawa wasu'u	Xavánte NT	xavNT
+Burkina Faso	Bissa	Bissa	Bissa	Bisa: Wosoci Gʊaasɩbabaa Daa New Testament	bib
+Burkina Faso	Buamu	Buamu	Dónbeenì páaníi fĩnle vũahṹ	Buamu NT	boxNT
+Burkina Faso	Cerma	Cerma	Diiloŋ-nelma Tobisĩfɛlɛnni	New Testament in Cerma (UV:cme:Cerma)	cmeNT
+Burkina Faso	Eastern Karaboro	Eastern Karaboro	Yãhã Naambiyãrfãn Saba	Karaboro, Eastern: YÃHÃ NAAMBIYÃRFÃN SABA New Testament	xrb
+Burkina Faso	Gourma	Gourmanchéma	Bible Gourma	Gourmanchéma NT	gux
+Burkina Faso	Gourmantche	Gourmanchéma	Bible Gourmantche	Gourmanchéma NT	guxg
+Burkina Faso	Julakan	Julakan	Jula	Jula Bible	dyu
+Burkina Faso	Kasem	Kasem	Kasem	Kasem NT	xsm
+Burkina Faso	Nuni, Southern	Nuni, Southern	Nuni, Southern	Southern Nuni NT	nnw
+Burkina Faso	Southern Toussian	Toussian, Southern	Toussian, Southern	Southern Toussian NT	wib
+Cambodia	Khmer	Central Khmer	ព្រះគម្ពីរខ្មែរបកប្រែចាស់ ១៩៥៤	Khmer Hammond Translation	khm-h
+Cambodia	Khmer	Central Khmer	ព្រះគម្ពីរខ្មែរបច្ចុប្បន្ន ២០០៥	Khmer Standard Version	khm
+Cambodia	Tampuan	Tampuan	គម្ពីរ​ភាសា​ទំពួន	Tampuan: គម្ពីរ​ភាសា​ទំពួន (Bible)	tpu
+Cameroon	Akoose	Akoose	Melɛ̌ Mékɔ̄ɔ̄lē	Akoose NT	bssNT
+Cameroon	Bafut	Bafut	Bafut	Bafut: Ǹtoò Kristo yî Ǹsɨgɨ̀nǝ̀: mɨ̀kàà yî mfiì New Testament	bfd
+Cameroon	Bambalang	Bambalang	Ŋwaʼaŋlɨ Kɨǹ a Fhi	Bambalang: Ŋwaʼaŋlɨ Kɨǹ a Fhi (New Testament+)	bmo
+Cameroon	Bana	Bana	Zliya Yǝwǝn kwǝma wǝzǝ naa dzǝkǝn Yesǝw Kǝristǝw	Bana: Zliya Yǝwǝn kwǝma wǝzǝ naa dzǝkǝn Yesǝw Kǝristǝw New Testament	bcw
+Cameroon	Cameroon Mambila	Cameroon Mambila	Mvù Ŋgɔ̀ŋ Feê	Mambilla NT	mcu
+Cameroon	Chung	Cung	Kiŋwakti ki Nyɔ Miŋkaiŋ Mifiaŋ	Chung NT+	cug
+Cameroon	Denya	Denya	Ŋwɛ menomenyɛɛ́ mekɛ́	New Testament in Denya (CM:anv:Denya)	anvNT
+Cameroon	Hdi	Hdi	Deftera Lfiɗa Dzratawi	Hdi NT	xed
+Cameroon	Kako	Kako	Kako	Kako NT	kkj
+Cameroon	Kenyang	Kenyang	Ɛkáti Nku Nkɔ	Kenyang NT	kenNT
+Cameroon	Makaa	Makaa	Kálaad Zɛmbî : Sɔ ̧ á Gúgwáan	Makaa NT	mcp
+Cameroon	Matal	Matal	Wakità Zəzagəla Wakità Aŋa Makəs Vok Slawda Mawga (Cameroun)	Matal NT	mfh
+Cameroon	Mbuko	Mbuko	Mbuko: Aɓan 'am wiya awan	Mbuko NT	mqbNT
+Cameroon	Merey	Merey	Dzam Weɗeye	Merey NT	meq
+Cameroon	Mofu-Gudur	Mofu-Gudur	Mofu-Gudur	Mofu-Gudur NT	mif
+Cameroon	Muyang	Muyang	Ma Mʉweni Sulumani ge Melefit	Muyang NT	muy
+Cameroon	Nchane	Ncane	Nchane (Ncane)	Ncane NT	ncr
+Cameroon	Noone	Noone	Ŋwa' Nyo' Moŋkan mo Monfɛm	Noone NT	nhuNT
+Cameroon	Sari	Sari	Sari	Sari NT+	asj
+Cameroon	Wandala	Wandala	Wandala	Wandala Bible	mfi
+Cameroon	Yamba	Yamba	Yamba	Yamba NT	yam
+Canada	Algonquin	Algonquin	Kije Manido Odikido8in: Ocki Mazinaigan	Algonquin NT	alqALGNT
+Canada	Dane Zaa	Beaver	OOTECH OOCHU TAKEHNIYA TINKLES ST. MARK	Beaver Mark	bea
+Canada	Siksiká	Blackfoot	ŎKHS' I TSĬN IK SĬN NI ST. MATTHEW OT SĬN AI PI.	Blackfoot Matthew	bla
+Canada	Carrier	Carrier	Yak'usda Ooghuni	Carrier NT	crxNTpo
+Canada	Carrier, Southern	Carrier, Southern	Yakʼusda bughunek: k’andit khunek neba lhaidinla	Southern Carrier NT	cafNT
+Canada	Cree, Northern East	Cree, Northern East	Īyiyū Ayimūn	Cree, Northern East: Cree: Coastal (East Coast) New Testament	crl
+Canada	Dogrib	Dogrib	Nǫ̀htsı̨̨ Nı̨̨htł'è	Dogrib Bible	dgrDOGNT
+Canada	Īnū Ayimūn	Īnū Ayimūn	Cree: Eastern. Chishemanituu Utayimuwin kaa uskaach testimint.	Cree, Southern East: Cree: Eastern. Chishemanituu Utayimuwin kaa uskaach testimint. New Testament	crj
+Canada	Mi'kmaq	Mi'kmaq	Gelulg Glusuaqan: Gisiteget Agnutmugsi'gw	Mi'kmaq NT	micMIQNT
+Central African Republic	Kabba	Kabba	Tar le Lubba ke tar Kabba	Kaba Bible	ksp
+Chad	Bedjond	Bedjond	KƗLӘ-MƗNDƗ KƗ SƗGƗ	Bedjond NT	bjvNT
+Chad	Dangaléat	Dangaléat	Jamaw ta Marbinto: Kabarre ta Gala ɗo bi ka Iisa Masi iŋ daŋla	Dangaléat NT	daaNT
+Chad	Gor	Gor	Ta lǝ Luwǝ Kunmindɨ kɨ Sigɨ	New Testament in Gor	gqr
+Chad	Kenga	Kenga	Kitapm kɛn Raa dɔɔko kiji ute jeege	Kenga NT	kyq
+Chad	Kimré	Kimré	Kimré	Kimré: Magtubu tôô toɲ biɲare to kôrbi New Testament	kqp
+Chad	Kuo	Kuo	Kuo	Kuo NT	xuo
+Chad	Mango	Mango	Mango	Mango NT	mge
+Chad	Guerguiko	Mukulu	Mattup ki Taasuwa ere Aware	Mukulu NT	moz
+Chad	Somrai	Somrai	Maktubu dɨnə Mãr̰ĩ duwa	Somrai Bible	sor
+Chile	Mapudungun	Mapudungun	Ngünechen ñi Küme Dungu	Mapudungun NT	arnNT
+China	Bisu	Bisu	Bisu	Bisu: จี่วีดม้าม้า พระคัมภีร์ อางซื่อ บี่ซู่ ต่าง New Testament	bzi
+China	中国语文	Chinese	圣 经 普通话本	Chinese (simplified) Easy Reading Version	cmn2006
+China	中国语文	Chinese	新译本	Chinese New Version (simplified)	cmn-ncvs
+China	中國語文	Chinese	新譯本	Chinese New Version (traditional)	cmn-ncvt
+China	中国语文	Chinese	新标点和合本	Chinese Union Version (simplified)	cmn-cu89s
+China	中國語文	Chinese	新標點和合本	Chinese Union Version (traditional)	cmn-cu89t
+China	中國語文	Chinese	免费的易读圣经 Free Easy-to-read Bible	Chinese, Mandarin: 免费的易读圣经 Free Easy-to-read Bible (Bible)	cmnfeb
+China	Dongxiang	Dongxiang	Hudani Kielien	Donxian NT	sce
+China	Lahu Si	Lahu Si	Lahu Shi	Lahu Shi: Lad hur Si Liq Phu Awg Suhx New Testament	lhi
+China	中文	Mandarin Chinese	Biblica® 聖經，當代譯本開放資源	Chinese, Mandarin: Biblica® 聖經，當代譯本開放資源 (Bible)	cmncbt
+China	中文	Mandarin Chinese	Biblica® 圣经当代译本开放资源	Mandarin Chinese Open Contemporary Bible (Simplified)	cmncbs
+China	བོད་ཡིག	Tibetan	Central Tibetan Bible	Central Tibetan Bible	bod
+China	བོད་ཡིག	Tibetan	དམ་པའི་གསུང་རབ་བོད་འགྱུར་གསར་མ།	New Tibetan Bible	bodn
+China	Uyghur tili	Uyghur	مۇقېددېس كالام (يەنگى يېزىق)	Uyghur Bible (arabic script)	uigara
+China	Uyghur tili	Uyghur	Муқеддес Калам (кирил йезиқ)	Uyghur Bible (cyrillic script)	uigcyr
+China	Uyghur tili	Uyghur	Muⱪeddes Kalam (yǝngi yeziⱪ)	Uyghur Bible (former latin script)	uigpin
+China	Uyghur tili	Uyghur	Muqeddes Kalam (latin yéziq)	Uyghur Bible (modern latin script)	uiglat
+Colombia	Achagua	Achagua	Liáꞌa Chuánshi Dios Shínaa	Achagua Partial NT [aca] -Colombia 2013	aca
+Colombia	Awa-Cuaiquer	Awa-Cuaiquer	Masas Pit Jesucristowa	Awa-Cuaiquer NT	kwi
+Colombia	Barasana-Eduria	Barasana-Eduria	Dios oca gotirituti	Barasana-Eduria NT	bsnNT
+Colombia	Cacua	Cacua	Dios ã jáap naáwát tólih	Cacua NT	cbv
+Colombia	Camsá	Camsá	Bëngbe Bëtsa Cabëngaftaca Entsoyebuambna	Camsá NT	kbh
+Colombia	Carapana	Carapana	Dios Cʉ̃ Cauetibʉjʉ Cũrĩcã Tuti	Carapana NT	cbcNT
+Colombia	Cubeo	Cubeo	Majepacʉ jʉ̃menijicʉi yávaiye mamaene coyʉitucubo	Cubeo NT	cubNT
+Colombia	Cuiba	Cuiba	Nacom Pejume Diwesi po diwesi pena jume diwesi xua Jesucristo yabara tinatsi	Cuiba NT	cui
+Colombia	Epena	Epena	Tachi ak'õre pedee	Epena NT	sjaNT
+Colombia	Guahibo	Guahibo	Dios pejumelivaisibaxuto pejanalivaisibaxuto	Guahibo NT	guh
+Colombia	Guambiano	Guambiano	Nacom Pejume Diwesi po diwesi pena jume diwesi xua Jesucristo yabara tinatsi	Guambiano NT	gum
+Colombia	Guanano	Guanano	Cohamacʉ Yare Yahari Tjuel	Guanano NT	gvc
+Colombia	Guayabero	Guayabero	Pajelwʉajan Dios pejjamechan	Guayabero NT	guoNT
+Colombia	Minica Huitoto	Huitoto, Minica	Juziñamui Ñuera Uai	Minica Huitoto NT	hto
+Colombia	Inga	Inga	Kaipimi Taita Dius Rimaku	Inga NT	inb
+Colombia	Kogi	Kogi	Kogi	Kogi NT	kog
+Colombia	Koreguaje	Koreguaje	Koreguaje	Koreguaje: Dios Chʉ'o Kʉaphʉro New Testament	coe
+Colombia	Macuna	Macuna	Dios Oca Tuti	New Testament in Macuna	myy
+Colombia	Muinane	Muinane	Moocaani iijɨ	Muinane NT	bmrNT
+Colombia	Páez	Páez	Páez	Páez NT	pbb
+Colombia	Piapoco	Piapoco	El Nuevo Testamento de nuestro Señor Jesucristo en el idioma piapoco	Piapoco NT	pioNT
+Colombia	Piratapuyo	Piratapuyo	Cohãcjʉ̃ Yere Yahuducuri Tju	Piratapuyo NT	pirNT
+Colombia	Siona	Siona	Riusu cocabera: mai ëjaguë Jesucristo  ba'iyete toyani jo'case'e'ë	Siona NT	snnNT
+Colombia	Siriano	Siriano	Marĩpʉya Kerere Wereri Turi	Siriano NT	sri
+Colombia	Tanimuca-Retuarã	Tanimuca-Retuarã	Tuᵽarã Majaroka	Tanimuca-Retuarã NT portions	tnc
+Colombia	Tatuyo	Tatuyo	Dio Wadarique	New Testament in Tatuyo	tav
+Colombia	Central Tunebo	Tunebo, Central	Sir chihtá	Central Tunebo NT	tuf
+Colombia	Tuyuca	Tuyuca	Cõãmacʉ̃ mecʉ̃ã wedesei	Tuyuca NT	tue
+Colombia	Waimaja	Waimaha	U̶mʉreco pacʉ wederique	Waimaha NT	baoNT
+Colombia	Wayuu	Wayuu	Wayuu	Wayuu: Tü nüchikimaajatkat Jesucristo New Testament	guc
+Colombia	Woun Meu	Woun Meu	Ẽwandam Iek	Woun Meu NT	noaE
+Colombia	Woun Meu	Woun Meu	Hẽwandam Hiek	Woun Meu NT	noaH
+Colombia	Yucuna	Yucuna	Tupana Puraca'alo Mari	Yucuna NT	ycn
+Congo	Bekwel	Bekwel	Bekwel	Bekwel NT	bkw
+Congo	Kituba	Kituba	Mambu ya Nzambi	Kituba Bible	mkw
+Congo	Teke-Tyee	Teke-Tyee	Teke Sud-Ouest	Teke-Tyee NT	tyx
+Congo	Ivatan	Yaka	New Testament in the Yaka language (Congo-Brazzaville)	Ivatan Bible	iyx
+Costa Rica	Bribri	Bribri	Tte Pa̱'a̱li̱ Me' Skëköl tö Se' a̱	Bribri Bible	bzdNTpo
+Côte d'Ivoire	Adioukrou	Adioukrou	Adioukrou	Adioukrou: Amani Owr New Testament	adj
+Côte d'Ivoire	Agni Sanvi	Agni Sanvi	Anyin	Anyin: Nyɩhyɛ Fʋfɔlɛʼn New Testament	any
+Côte d'Ivoire	Dan	Dan	'WUN SË ‑NAƆ 'SËËDHƐ	Dan: 'WUN SË ‑NAƆ 'SËËDHƐ New Testament	dnj
+Côte d'Ivoire	Dan	Dan	NAƆ ‑SË 'SËËDHƐ	Dan: NAƆ ‑SË 'SËËDHƐ New Testament	daf
+Côte d'Ivoire	Djimini Senoufo	Djimini Senoufo	Bibulu Jinmiire ni	Sénoufo, Djimini: Bibulu Jinmiire ni Bible	dyi
+Côte d'Ivoire	Kouya	Kouya	ʼWʋsuslolue loluu ʼsɛbhɛ	Kouya NT	kyf
+Côte d'Ivoire	Mwan	Mwan	Mwan	Mwan NT	moa
+Côte d'Ivoire	Nyaboa	Nyabwa	Nyaboa (Nyabwa)	Nyabwa NT	nwb
+Côte d'Ivoire	Plapo Krumen	Plapo Krumen	Krumen, Plapo	Plapo Krumen NT	ktj
+Côte d'Ivoire	Tepo Krumen	Tepo Krumen	Krumen, Tepo	Ted NT	ted
+Côte d'Ivoire	Wè Northern	Wè Northern	Wè Northern	Wè Northern NT	wob
+Côte d'Ivoire	Yaouré	Yaouré	Bali -le 'fluba 'trɛ Zozi blamin pli Bali man 'e 'pee	Yaouré NT	yreNT
+Croatia	Hrvatski	Croatian	Sveta Biblija	Croatian Bible	hrv
+Croatia	Hrvatski	Hrvatski	Biblica® Open Knjiga O Kristu	Croatian NT (Biblica)	hrvbib
+Croatia	Ludari	Romanian	Luka	Ludari Luke	ronludari
+Czech Republic	český	Czech	Bible Kralická 1613	Czech Kralická Bible 1613	ces1613
+Czech Republic	Čeština	Czech	Biblica® Open Slovo na cestu	Czech Living New Testament	ceslb
+Czech Republic	Češka	Czech	Nova Bible Kralicka	Czech NBK NT	cesnkb
+Democratic Republic of the Congo	Fuliiru	Fuliiru	Kifuliiru	Fuliiru: Ibibiriya: Igambo lya Rurema mu ndeto ye'kifuliiru (Bible)	flr
+Democratic Republic of the Congo	Havu	Havu	Nouveau Testament Havu	Havu NT	hav
+Democratic Republic of the Congo	Kiyombi	Kiyombi	Biblica® Open Nkanda wu Moyo, Nguizani Yimona ayi Minkunga 2002	Yombe: Biblica® Open Nkanda wu Moyo, Nguizani Yimona ayi Minkunga 2002 (Bible)	yom
+Democratic Republic of the Congo	Lika	Lika	AGɄMƐ WAMBƗYA	Lika: AGɄMƐ WAMBƗYA (New Testament+)	lik
+Democratic Republic of the Congo	Lingála	Lingála	Biblica® Salela na bonsomi Mokanda na Bomoi	Lingala Bible	lin
+Democratic Republic of the Congo	Lobala	Lobala	Lobala NT	Lobala NT	loq
+Democratic Republic of the Congo	Logo	Logo	Logo (Logoti)	Logoti (Logo) NT	log
+Democratic Republic of the Congo	Mayogo	Mayogo	Mayogo	Mayogo: Gandja na Mbɨa (New Testament)	mdm
+Democratic Republic of the Congo	Mono	Mono	Mono	Mono New Testament	mnh
+Democratic Republic of the Congo	Ndrǔna	Ngiti	Ndruna	Ndrǔna NT	niy
+Democratic Republic of the Congo	Mashi	Shi	BIBLIYA NTAGATIFU OMU MASHI	Mashi Bible	shr
+Democratic Republic of the Congo	Kitaabua	Taabwa	Kitaabua New Testament	Kitaabua NT	tap
+Democratic Republic of the Congo	Yaka	Yaka	Yaka NT	Yaka NT	yaf
+Democratic Republic of the Congo	Yansi	Yansi	Bible Iyansi	Yansi NT	yns
+Denmark	Dansk	Danish	Hellig Bibel	Danish Bible 1931	dan1931
+Ecuador	Chachi	Chachi	Diosa' kiika; Génesis, Éxodo y El Nuevo Testamento	Chachi Bible	cbiNTpo
+Ecuador	Cofán	Cofán	Chiga Tevaen'Jema Atesuja 1, Aisheve Caña'cho	Cofán Bible	conNTpo
+Ecuador	Colorado	Colorado	Diosichi Pila	Colorado NT	cofNT
+Ecuador	Quichua, Northern Pastaza	Quichua, Northern Pastaza	Diospa shimi	Northern Pastaza Quichua NT	qvzNT
+Ecuador	Salasakaguna	Salasakaguna	Diosbuj Shimi - Mushuj Testamento (Quichua, Salasaca)	Salasaca Highland Quichua NT	qxl
+Ecuador	Secoya	Secoya	Maija'quë Huajë Ca Nëose'e	Secoya NT	seyNT
+Ecuador	Shuar	Shuar	Yus Papí: Shuarja̱i̱ Yus Yamaram Chicham Najanamu	New Testament in Shuar	jivNT
+Ecuador	Waorani	Waorani	Wængonguï nänö Apæ̈negaïnö	Waorani NT	aucNT
+Egypt	العربية	Arabic	الكتاب المقدس باللغة العربية - الترجمة المبسطة	WBTC Arabic Bible	arbwbtc
+Egypt	العربية	Arabic, Standard	Ketab El Hayat Majani/كتاب الحياة مجانى	New Arabic Version (Book of Life)	arbnav
+Egypt	ⲘⲉⲧⲢⲉⲙ̀ⲛⲭⲏⲙⲓ	Coptic	القبطية البحيرية العهد الجديد	Coptic Boharic NT	copbhc
+Egypt	ⲘⲉⲧⲢⲉⲙ̀ⲛⲭⲏⲙⲓ	Coptic	القبطية العهد الجديد	Coptic NT	copcnt
+Egypt	ⲘⲉⲧⲢⲉⲙ̀ⲛⲭⲏⲙⲓ	Coptic	Sahidica - طبعة جديدة من العهد الجديد باللغة القبطية الصعيدية	Coptic Sahidic NT	copshc
+Estonia	Eesti	Eestonian	Piibel Kõigile	Estonian Bible: Piibel Kõigile	ekkpkp
+Estonia	Eesti	Estonian, Standard	Biblica® Vaba kasutusega Uus Testament, Pühakiri kaasaegses eesti keeles	Estonian Contemporary NT	ekk
+Ethiopia	Alaba-K’abeena	Alaba-K'abeena	ሃዕሮ ወኣድ መጻፈ	Alaba-K’abeena NT	alw
+Ethiopia	አማርኛ	Amharic	መጽሐፍ ቅዱስ	Amharic NT	amh
+Ethiopia	Bayso	Baiso	Ammato Oɂusub	Baiso NT (Latin)	bswl
+Ethiopia	Bayso	Baiso	አማቶ ኦኡሱብ	Baiso: አማቶ ኦኡሱብ (New Testament)	bswe
+Ethiopia	Borni	Borna	Handr Taara	Borna NT Latin Version	bwo
+Ethiopia	Dawro	Dawro	ጌሻ ማጻፋ	Dawro Bible (Ethoipic script)	dwrENT
+Ethiopia	Dawro	Dawro	Ooratha Caaquwaa	Dawro NT (Latin script)	dwrNT
+Ethiopia	Dawro	Dawro	Geeshsha Mas'aafaa	The Holy Bible in the Dawuro language of Ethiopia, Latin script	dwrl
+Ethiopia	Gamotso	Gamo	ጌሻ ማጻፋ	Gamo Bible	gmve
+Ethiopia	Gamotso	Gamo	Geeshsha Mexaafa	Gamo Bible (Latin)	gmvl
+Ethiopia	Gamo	Gamo	Ooratha Caaqo Maxaafa Gamoththo	Gamo NT	gmvRNT
+Ethiopia	Gamotso	Gamotso	Gamo Geesha Maxxafa New Testament	Gamo NT	gmvggm
+Ethiopia	Gayil	Gayil	ክለ ጫቃ	Goyil NT	gyl
+Ethiopia	Goofa	Gofa	Geeshsha Maxaafa	Gofa Bible Latin	gofl
+Ethiopia	Goofa	Gofa	Gofa New Testament	Gofa NT	gofwftw
+Ethiopia	Gofa	Gofa	ኦራꬃ ጫቁዋ ጎፋꬆ	Gofa NT (Ethiopic script)	gofENT
+Ethiopia	Gofa	Gofa	Ooratha Caaquwa Goofatho	Gofa NT (Latin script)	gofRNT
+Ethiopia	Goofa	Goofa	ጌሻ ማፃፋ	Gofa: ጌሻ ማፃፋ Bible	gofe
+Ethiopia	gujii	gujii	Kitaaba Woyyuu	Guji Oromo Bible	gax
+Ethiopia	Banna	Hamer-Banna	Haalin Mallano	Banna NT	amf
+Ethiopia	Maale	Male	ጌኤዦ ማፃኣፖ	Maale Bible (Ethiopic script)	mdyeth
+Ethiopia	Male	Male	Maale New Testament	Maale NT	mdybse
+Ethiopia	Melo	Melo	Oroth Caaqo	Melo NT	mfxl
+Ethiopia	Melo	Melo	ኦሮꬅ ጫቆ	Melo NT Ethiopic	mfxe
+Ethiopia	Afaan Oromoo	Oromo, West Central	Kitaaba Qulqulluu, Biblica® Hiikkaa Ammayyaa Banamaa Haaraa, Loqoda Dhiʼaa	New Oromo Contemporary Version	gaz
+Ethiopia	West Central Oromo	Oromo, West Central	ክታበ ቁልቁሉ, Biblica® ሂካ አመያ በነማ ሃራ, ሎቆደ ዽኣ	West Central Oromo Bible	gaze
+Ethiopia	Oyda	Oyda	Kille Caaqo	Oyda NT Latin	oydl
+Ethiopia	Oyda	Oyda	ክለ ጫቆ	Oyde NT Ethiopic	oyde
+Ethiopia	Wolaytta	Wolaytta	Wolaytta Bible	Wolaytta Bible	wal
+Ethiopia	Yemsa	Yemsa	ጋዶ ቴያ	Yemsa NT Ethiopic	jnje
+Ethiopia	Yemsa	Yemsa	Gaddo Teyya	Yemsa NT Latin	jnjl
+Finland	Suomi	Finnish	Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna	Finnish: Biblica® Avoin Elävä uutinen: Uusi testamentti vapaasti kerrottuna (New Testament)	fin
+France	Brezhoneg	Breton	an Bibl	Breton Gospels	breBRG
+France	français	French	Sainte Bible libre pour le monde	French Free Holy Bible for the World	frasbl
+France	français	French	Louis Segond 1910	French Louis Segond 1910 Bible	fraLSG
+France	français	French	Sainte Bible néo-Crampon Libre	French néo-Crampon Libre	francl
+France	français	French	La Sainte Bible	French Ostervald Bible	fra_fob
+France	Français	French	Bible J.N. Darby	French: Bible J.N. Darby	frajnd
+Gabon	Yipunu	Yipunu	Mbembu Nzambi o Ipunu	Punu NT+	puu
+Germany	Deutsch	German	Elberfelder Übersetzung (Version von bibelkommentare.de)	German ELBBK Bible	deuelbbk
+Germany	Deutsch	German, Standard	Lutherbibel 1912	German Luther Bible 1912	deu1912
+Germany	Deutsch	German, Standard	Die Schlachter-Bibel 1951	German Schlachter Bible 1951	deu1951
+Germany	Deutsch	German, Standard	Textbibel von Kautzsch und Weizsäcker	German Textbibel	deutkw
+Germany	Deutsch	German, Standard	Darby Unrevidierte Elberfelder	German Unrevised Elberfelder Bible	deuelo
+Ghana	Anufo	Anufo	Nyεmε Jɔrε Kadasi	The New Testament in Anufo (Chokosi)	cko
+Ghana	Bimoba	Bimoba	Yennu Gbouŋ Mɔɔr	Bimoba: Yennu Gbouŋ Mɔɔr Bible	bim
+Ghana	Birifor, Southern	Birifor, Southern	A Nãaŋmɩn Nɛtɩr Oaalaa Gãn, Bɩrfʊɔr	Southern Birifor NT	biv
+Ghana	Buli (Ghana)	Buli (Ghana)	Buli	Buli: The New Testament in the Buli language (Ghana) (New Testament)	bwu
+Ghana	Chumburung	Chumburung	Abware̱se̱ŋ Wo̱re̱-ɔ	Chumburung NT	ncuNT
+Ghana	Delo	Delo	WURUBURƐ NOMBIA KPAAKPAA NƆƆKEBAKESEE WƆLE	Delo NT	ntr
+Ghana	eʋegbe	eʋegbe	Biblica® Se aɖeke mebla Biblia zazã o Agbenya La™	Éwé Bible	ewe
+Ghana	Gikyode	Gikyode	GɛnÞ PobÞrÞ	The New Testament in the Gikyode language	acd
+Ghana	Konkomba	Konkomba	Uwumbɔr aagbaŋ	Konkomba	xon
+Ghana	Konni	Konni	Konni	Konni NT (Ghana)	kma
+Ghana	Nawuri	Nawuri	Nawuri	Nawuri NT	naw
+Ghana	Nkonya	Nkonya	Bulu ntam pɔpwɛ; Nkonya	New Testament in Nkonya (GH:nko:Nkonya)	nkoNT
+Ghana	Sekpele	Sekpele	Sekpele	Sekpele NT	lip
+Ghana	Selee	Selee	Selee	Selee NT	snw
+Ghana	Sisaala, Tumulung	Sisaala, Tumulung	Yesu Kiristito Wu-Zɔŋŋɔɔ (Ghana)	Sisaala-Tumulunŋ NT Ghana	sil
+Ghana	Sisaala-Paasaal	Sisaala-Paasaal	Sisaala-Paasaal	Paasaal NT	sig
+Ghana	Siwu	Siwu	Siwu	Siwu NT	akp
+Ghana	Tuwuli	Tuwuli	Tuwuli	Tuwuli NT	bov
+Ghana	Akuapem Twi	Twi	Biblica® Wonhia ɛho kwamma nhoma Akuapem Twi Nkwa Asɛm	Akuapem Twi Bible	twi
+Ghana	Twi	Twi	Biblica® Wɔnhia ɛho kwamma nwoma Asante Twi Nkwa Asɛm	Asante Twi Bible	twiasante
+Greece	Ἑλληνική	Greek, Ancient	μετάφραση των εβδομήκοντα	Brenton Septuagint	grcbrent
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	Byzantine Greek  NT	grcbyz
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	Greek Majority Text NT	grcmt
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	Greek NT Family 35	grcf35
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	SBL Greek NT	grcsbl
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	Solid Rock Greek New Testament	grcsr
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	Text-Critical Greek NT	grctcgnt
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	Textus Receptus	grctr
+Greece	Ελληνικά	Greek, Ancient	Η Καινή Διαθήκη	Tischendorf Greek NT	grc-tisch
+Guam	Chamorro	Chamorro	Y CUATRO EBANGELIO SIJA YAN Y CHECHO Y APOSTOLES  YAN Y SALMO SIJA	Chamorro Gospels, Acts, and Psalms	cha
+Guatemala	Achi	Achi	Ri utzilaj tzij re ri kanimajawal Jesucristo	Achi Rabinal NT (new orthography)	acrNNT
+Guatemala	Achi	Achi	Ri utzilaj tzij re ri kanimajawal Jesucristo	Achi Rabinal NT (traditional orthography)	acrTNT
+Guatemala	Achi	Achi	I 'utz laj tzij re i dios	New Testament in Achi	acr-acc
+Guatemala	Aguacateco	Aguacateco	Yi Antiw Bible / Yi Ac'aj Testament	Aguacateco Bible	aguBl
+Guatemala	Akateko	Akateko	Ja' An Nuevo Testamento	Akateko NT	knjNT
+Guatemala	Chortí	Chorti	Uyojroner e Dios xeꞌ Tzꞌijbꞌabꞌir Tama e Onian Tiempo	Chorti Bible	caa
+Guatemala	Chuj de San Mateo Ixtatán	Chuj	A Ch'an Biblia D'a Chuj San Mateo	Chuj San Mateo Bible	cac
+Guatemala	Ixil	Ixil	Viakʼla txumbʼal u tioxh	Ixil Cotzal NT	ixlCNT
+Guatemala	Ixil	Ixil	U ak' Testamento tu kuyob'al	Ixil Nebaj NT	ixlNNT
+Guatemala	Jakalteko	Jakalteko	Nuevo Testamento yin̈ abxubal	Eastern Jakalteko NT	jacNT
+Guatemala	K'iche'	K'iche'	Ru Loqꞌ Pixabꞌ Ri Dios	K'iche' Cantel NT, new spelling	qucNNT
+Guatemala	K'iche'	K'iche'	Ru Lokꞌ Pixab Ri Dios	K'iche' Cantel NT, traditional spelling	qucTNT
+Guatemala	Qach’abel	K'iche'	RI KꞌAKꞌ TESTAMENTO PA TZIJOBꞌAL KꞌICHEꞌ	K’iche’ of Totonicapan NT	quctt
+Guatemala	Kaqchikel,	Kaqchikel	RI DIOS NCH'O PA KACH'ABÜL CHEKE	Eastern Kaqchikel NT	cakENT
+Guatemala	Kaqchikel	Kaqchikel	GT:cak:Kaqchikel	Kaqchikel Chimaltenango NT	cak
+Guatemala	Kaqchikel	Kaqchikel	Ri C'ac'a Trato ri Xuben ri Dios Quiq'uin ri Vinek	Kaqchikel NT	cakCNT
+Guatemala	Kaqchikel	Kaqchikel	Ri utzilaj rutzij ri Dios pa kachʼabel	Kaqchikel Sur de Sacatepequez NT	cakNT
+Guatemala	Kaqchikel	Kaqchikel	Ri c'ac'ac' Testamento pa kach'ab'al	Santa Maria de Jesus Kaqchikel NT	cakSNT
+Guatemala	Kaqchikel	Kaqchikel	Re C'ac'a Testamento pa Kach'abal	SW Yepocapa and Acatenango Kaqchikel NT	cakYNT
+Guatemala	Kaqchikel	Kaqchikel	Ri C'ac'ac' Testamento pa Kach'abel	Western Solola Kaqchikel NT	cakWNT
+Guatemala	Mam	Mam	Mam Central (Comitancillo)	Mam Comitancillo NT	mamC
+Guatemala	Mam	Mam	Acʼaj testamento (El Nuevo testamento in Mam de Todos Santos)	Mam Todos Santos NT	mamNT
+Guatemala	Poqomchi'	Poqomchi'	Reꞌ Lokꞌ Laj Hu̱j Wilic wi̱ꞌ Ribiral i Jesus	Poqomchi' Occidental NT	pohNT
+Guatemala	Q'eqchi'	Q'eqchi'	Li Santil hu	Q'eqchi' Bible	kekNT
+Guatemala	Tektiteko	Tektiteko	Te akʼaʼj tuʼjal tuj tuʼjal qtata Dios	Tektiteko NT	ttcNT
+Guatemala	Tz'utujil	Tz'utujil	Cꞌacꞌ Chuminem	Eastern Tz'utujil NT	tzjE
+Guatemala	Tz'utujil	Tz'utujil	Ja Cꞌacꞌa Chominem	Western Tz'utujil NT	tzjNT
+Guatemala	Uspanteko	Uspanteko	Lok'laj Jyolj Kakaj Dios	Uspanteko NT	uspNT
+Guinea	Baga Sitemu	Baga Sitemu	Kitabu ka Kanu	Baga Sitemu Bible Portions	bsp
+Guinea	Pular	Pular	Version Pular Fuuta-Jallon	Pular Fuuta-Jallon New Testament	fuf
+Guinea	Sankaran Maninka	Sankaran Maninka	Alla la Kitabu Seniman	Sankaran Maninka Bible Portions	msc
+Guinea	Susu	Susu	Soso Kitaabuie: Tawureta, Yabura, Inyila	Susu Bible	sus
+Guinea	Susu	Susu	Ala xa Kitaabui Sosoe bɛ	Susu Bible (Arabic script)	susa
+Guinea	Toma	Toma	GALA Daawoo Zɛʋɛi	Toma Bible Portions	tod
+Guinea	Yalunka	Yalunka	Kisin Kiraan Kitabuna	Yalunka Bible	yal
+Guyana	Akawaio	Akawaio	Wakʉ Itekare: Emenna' Pe Ekonekan Nɨto'	Akawaio NT	akeNT
+Guyana	Wapishana	Wapishana	Kaimana'o Tominkaru Paradan	Wapishana NT	wapNT
+Haiti	Kreyòl Ayisyen	Haitian	Bib La	Haitian Creole Bible 1985	hat
+Haiti	Kreyòl Ayisyen	Haitian	Bib Sen An	Haitian Creole Bible 2023	hatbsa
+Honduras	Garifuna	Garifuna	Lerérun Búngiu To Lánina Iséri Darádu	Suau Bible	cabNT
+Honduras	Tol	Tol	Dios Tjevele Jupj 'Üsüs La Qjuisiji Jesucristo Mpes	Tol NT	jicNT
+Hungary	Magyar	Magyar	Biblica® Nyitott Újszövetség: élet, igazság és világosság	Hungarian Bible	hun
+Iceland	Íslenska	Icelandic	Biblica® Opna Lifandi Orð Nýja testamentið og Sálmarnir™	Icelandic: Biblica® Opna Lifandi Orð Nýja testamentið og Sálmarnir™ (New Testament+)	isl
+India	Aheri Gondi	Aheri Gondi	Pavitra Polle	Aheri Gondi: Besta Kabur (Bible)	esg
+India	अहिराणी‎	Ahirani	प्रेम संदेश	Ahirani Matthew and Mark	ahr
+India	অসমীয়া	Assamese	ইণ্ডিয়ান ৰিভাইচ ভাৰচন (IRV) আচামিচ - 2019	Assamese Indian Revised Version Bible	asmfb
+India	Pali	Bareli, Palya	भगवान ना खरला बोल	Bareli, Palya: भगवान ना खरला बोल (Bible)	bpx
+India	भद्रवाही‎	Bhadrawahi	भड्लाई बाइबिल	Bhadrawahi Bible	bhd
+India	भटियाली‎	Bhattiyali	भटियाली नोआ नियम	Bhattiyali Bible	bht
+India	Bhilali	Bhilali	भगवानेन छाचला बुल	Bhilali: भगवानेन छाचला बुल (Bible)	bhi
+India	Bhumiya	Bhunjia	भगवान कर सच्चा बचन	Bhumiya Bible	bhu
+India	ବଡ଼ ପରଜା	Bodo Parja	ସଃର୍ଗାର୍‌ ବାଟ୍‌ ନଃଉଁଆ ନିଅମ୍‌	Bodo Parja: BOPO Bible	bdv
+India	Kho	Bugun	Iwo Surua Mua Wie Pha Bible	Bugun Bible	bgg
+India	Chhattisgarhi	Chhattisgarhi	Biblica® सुतंतर समकालीन छत्तीसगढ़ी अनुवाद	Chhattisgarhi Bible	hne
+India	Chongthu	Chin, Thado	PATHEN LEKHABU THENG	Chongthu Bible	tczchongthu
+India	ଦେଶିଆ	Desiya	ସତିଅର୍‌ ବାଟ୍‌	Desiya NT	dso
+India	Dhanki	Dhanki	परमेश्वरन सत्य वचन	Dhanki: परमेश्वरन सत्य वचन The New Testament in the Dhanki language of India, Devanagari script	dhn
+India	Gamit	Gamit	ગામીત નોવો કરાર	Gamit Bible	gbl
+India	Didayi	Gata'	ସତ୍‌ ଗାଲି	Gata Didayi NT	gaq
+India	Gowlan	Gowlan	परमेश्वर को पवित्र वचन	Gowlan NT	goj
+India	Gowli	Gowli	ದೆವಾಚಿ ಖರಿ ಕಬರ್	Gawli NT	gok
+India	ગુજરાતી	Gujarati	પવિત્ર બાઇબલ	Gujarati Bible	guj2009
+India	ગુજરાતી	Gujarati	ઇન્ડિયન રીવાઇઝ્ડ વર્ઝન ગુજરાતી - 2019	Gujarati Indian Revised Version Bible	guj2017
+India	Halbi	Halbi	परमेस्वर को सच्चो वचन ख जाननू	Halbi NT	hlb
+India	हरियाणवी‎	Haryanvi	हरियाणवी बाइबिल	Haryanvi Bible	bgc
+India	हिन्दी	Hindi	Biblica® हिंदी समकालीन संस्करण-स्वतंत्र उपलब्धि	Hindi Contemporary Version Bible	hincv
+India	हिंदी	Hindi	पवित्र बाइबल	Hindi Easy Reading Version	hin2010
+India	मानक हिन्दी‎	Hindi	इंडियन रिवाइज्ड वर्जन (IRV) हिंदी - 2019	Hindi Indian Revised Version Bible	hin2017
+India	Gohllaru	Holiya	परमेश्‍वर उन वचन	Holiya Bible	hoy
+India	Hruso	Hruso	Aka (Hrusso) Bible	Hruso: Aka (Hrusso) Bible (Portions)	hru
+India	Juray	Juray	ଆଜାଡ଼ି ତଙରନ୍‌	Juray: ଆଜାଡ଼ି ତଙରନ୍‌ (Bible)	juy
+India	ಕನ್ನಡ	Kannada	Biblica® ಉಚಿತ ಕನ್ನಡ ಸಮಕಾಲಿಕ ಭಾಷಾಂತರ	Kanada Open Contemporary Version Bible	kanokcv
+India	ಕನ್ನಡ	Kannada	ಪವಿತ್ರ ಬೈಬಲ್, ಈಸಿ ಓದುವಿಕೆ ಆವೃತ್ತಿ	Kannada Easy Reading Version	kan2010
+India	ಕನ್ನಡ	Kannada	ಇಂಡಿಯನ್ ರಿವೈಜ್ಡ್ ವರ್ಸನ್ (IRV) - ಕನ್ನಡ - 2019	Kannada Indian Revised Version Bible	kanirv
+India	Southeastern Kolami	Kolami, Southeastern	కొత్త కరార్	Kolami, Southeastern: కొత్త కరార్ (Bible)	nit
+India	Konda-Dora	Konda-Dora	Konda: కొండ బాసదు నెగ్గి కబ్రు	Konda NT	kfc
+India	Konda Porja	Konda-Dora	ମାପୁରୁଦି ସତ୍‌ ବାକ୍ୟ	The New Testament in the Konda Porja Language of India. Konda-Dora: ମାପୁରୁଦି ସତ୍‌ ବାକ୍ୟ (Bible)	kfcp
+India	Koya	Koya	ପୁନାଦ୍ ଆର୍ର୍	Koya NT	kff
+India	Kupia	Kupia	Kupia	Kupia NT	key
+India	కువి	Kuvi	ପୁଃନି ମେ଼ରା	The New Testament in the Kuvi language of India: ପୁଃନି ମେ଼ରା (Bible)	kxv
+India	Kusaal	Kuvi	ପୁଃନି ମେ଼ରା	The New Testament the Kusaal language (Ghana)	kus
+India	Ladakhi	Ladakhi	Ladakhi	Ladakhi Bible	lbj
+India	Lodha	Lodhi	जीवन को वचन	Lodhi NT	lbm
+India	Maithili	Maithili	Maithili	Maithili: jivən səndesh (New Testament)	mai
+India	മലയാളം	Malayalam	മലയാളം സത്യവേദപുസ്തകം 1910 - പരിഷ്കരിച്ച പതിപ്പ്, സമകാലിക ലിപിയിൽ	Malayalam 1910  Contemporary Orthography	mal2015
+India	മലയാളം	Malayalam	ഇന്ത്യൻ റിവൈസ്ഡ് വേർഷൻ (IRV) - മലയാളം	Malayalam Indian Revised Version Bible	mal
+India	मराठी	Marathi	इंडियन रीवाइज्ड वर्जन (IRV) - मराठी	Marathi Indian Revised Version Bible	mar
+India	Maria	Maria	Hill Madia	Hill Madia standard translation	mrr
+India	মৈতৈলোন্‎ (Meiteilon)	Meitei	ANOUBA WAREPNABA	Meitei Bible	mni
+India	মুন্ডা‎ (Muɳɖa)	Munda	ପାର୍‌ମେଶ୍ୱାର୍‌ଆଃ ଜୀନିଦ୍‌ ବାଚାନ୍‌	Munda NT	unx
+India	Nagamiz	Naga Pidgin	Indian Standard Version (ISV) Nagamese	Nagamese NT	nag
+India	Kharam	Naga, Kharam	The New Testament in Kharam	Kharam NT	kfw
+India	Totcha	Naga, Tutsa	Esa Leedap Ena Banlam	Tutsa Naga NT	tvt
+India	Nahali	Nahali	खेरलो वचन	Nahali: खेरलो वचन (Bible)	nlx
+India	ଓଡ଼ିଆ‎	Oriya	ଇଣ୍ଡିୟାନ ରିୱାଇସ୍ଡ୍ ୱରସନ୍ ଓଡିଆ	Oriya Indian Revised Version Bible	ory
+India	Mahasui	Pahari, Mahasu	बघल्याणी  नवां विधान	Baghlayani Bible	bfz
+India	ਪੰਜਾਬੀ	Panjabi, Eastern	ਇੰਡਿਅਨ ਰਿਵਾਇਜ਼ਡ ਵਰਜ਼ਨ (IRV) - ਪੰਜਾਬੀ	Punjabi Indian Revised Version Bible	pan
+India	Pengu	Pengo	ସତ୍‌ ବଚନ୍‌	Pengo NT	peg
+India	Powari	Powari	सत मारग पर चलन वारो किताब	Powari NT	pwr
+India	Purum	Purum	Mark Ning Amije Chongkahoi	First Purum Bible Translation	pub
+India	Relli	Reli	సొత్తొ పురువురొ పవిత్రొ కొత	Reli Bible	rei
+India	Sakechep	Sakachep	Pathien Lekhabu Inthieng Chongtung Thar	Sakachep NT	sch
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Kannada Script	Sanskrit NT in Kannada Script	sankan
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Khmer Script	Sanskrit NT in Khmer Script	sankhm
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Malayalam Script (സത്യവേദഃ।)	Sanskrit NT in Malayalam Script	sanmal
+India	Saṃskṛtam	Saṃskṛtam	0 Sanskrit Bible (NT) in Oriya Script (ସତ୍ୟୱେଦଃ।)	Sanskrit NT in Oriya Script	sanori
+India	Saṃskṛtam	Saṃskṛtam	0 Sanskrit Bible (NT) in Punjabi Script (ਸਤ੍ਯਵੇਦਃ।)	Sanskrit NT in Punjabi Script	sanpun
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Sinhala Script (සත්‍යවේදඃ।)	Sanskrit NT in Sinhala Script	sansin
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Tamil Script	Sanskrit NT in Tamil Script	santam
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Telugu Script (సత్యవేదః।)	Sanskrit NT in Telugu Script	santel
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Thai Script (สตฺยเวท:ฯ)	Sanskrit NT in Thai Script	santha
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Tibetan Script (སཏྱཝེདཿ།)	Sanskrit NT in Tibetan Script	santib
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Urdu Script (سَتْیَویدَح۔)	Sanskrit NT in Urdu Script	sanurd
+India	Saṃskṛtam	Saṃskṛtam	Sanskrit Bible (NT) in Velthuis Script (satyaveda.h|)	Sanskrit NT in Velthuis Script	sanvel
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in Cologne Script	New Testament in Sanskrit Language; printed in Cologne Script	sancol
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in IAST Script (satyavedaḥ|)	New Testament in Sanskrit Language; printed in IAST Script	sanias
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in Burmese Script (သတျဝေဒး၊)	Sanskrit Language NT in Burmese Script	sanbur
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in Assamese Script	Sanskrit New Testament in Assamese Script	sanasm
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in Bengali Script	Sanskrit NT in Bengali Script	sanben
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in Devanagari Script (सत्यवेदः।)	Sanskrit NT in Devanagari Script	sandev
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in Gujarati Script	Sanskrit NT in Gujarati Script	sanguj
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in Harvard-Kyoto Script	Sanskrit NT in Harvard-Kyoto Script	sanhk
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in ISO Script (satyavēdaḥ|)	Sanskrit NT in ISO Script	saniso
+India	Sanskrit	Sanskrit	Sanskrit Bible (NT) in ITRANS Script	Sanskrit NT in ITRANS Script	sanitr
+India	Sholaga	Sholaga	ಕ್ಹುದಾನಿ ಕ್ಹರಿನಿ ವಾಕ್ಯಾ	Sholaga NT	sle
+India	Tagin	Tagin	ANWNV GAMLV	Tagin first Bible translation based on TEV (Good News)	tgj
+India	தமிழ்	Tamil	Biblica® திறந்தநிலை தமிழ் சமகால பதிப்பு	Biblica® திறந்தநிலை தமிழ் சமகால பதிப்பு	tamtcv
+India	தமிழ்	Tamil	புனித பைபிள் படிக்க எளிதாக	Tamil Easy Reading Version	tam2008
+India	தமிழ்	Tamil	இண்டியன் ரிவைஸ்டு வெர்ஸன் (IRV) - தமிழ்	Tamil Indian Revised Version Bible	tam2017
+India	తెలుగు	Telugu	హోలీ బైబిల్	Telugu Easy Reading Version	tel2010
+India	తెలుగు	Telugu	ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2019	Telugu Indian Revised Version Bible	tel2017
+India	తెలుగు	Telugu	Biblica® ఉచిత తెలుగు సమకాలీన అనువాదం	Telugu OTSA	telotsa
+India	Rana Tharu	Tharu, Rana	परमेस्वर को सच्चो वचन	Rana Tharu NT	thr
+India	उर्दू	Urdu	किताबे-मुक़द्दस	Urdu Geo Bible, Hindi Script	urdgvh
+India	Vaagri Booli	Vaagri Booli	ದೇವ್ನಿ ಖ್ಹಾಚಿ ವಚನ್	Vaagri Booli NT	vaa
+India	Waddar	Waddar	वडार	Waddar Bible	wbq
+India	मराठी	मराठी	Biblica® मराठी समकालीन स्वतंत्र संस्करण	Marathi: Biblica®	marc
+India	ಕನ್ನಡ	ಕನ್ನಡ	ದೆವಾಚಿ ಖರಿ ಖಬರ್	Siddi NT	kans
+India	മലയാളം	മലയാളം	Biblica® സ്വതന്ത്രം സമകാലിക മലയാളവിവർത്തനം	Malayalam Contemporary Bible	malc
+Indonesia	Alune	Alune	Janji beluke	Alune NT	alpNT
+Indonesia	Amarasi	Amarasi	Uisneno In Kabin ma Prenat: Rais Manba'an Fe'u nok Reta' Ahun-hunut	Amarasi Bible	aaz
+Indonesia	Ambai	Ambai	Sempaisi Ne Kaiwo Mirarebanai	Ambai NT	amk
+Indonesia	Auye	Auye	Ogatamee Me Etokaa Gipii See Menaa	Auye: Ogatamee Me Etokaa Gipii See Menaa (Bible)	auu
+Indonesia	Balantak	Balantak	Kitap molinas men ringkat na alaata'ala: perjanjian baru	Balantak NT	blzNT
+Indonesia	Bambam	Bambam	Suha' Maseho: Kadadiam anna Pa'dandiam Bakahu	Bambam Bible	ptu
+Indonesia	Pura	Blagar	Pura Alkitab	Pura Bible	beu
+Indonesia	Rote Dela	Dela-Oenale	Rote Dela Alkitab	Rote Dela Bible	row
+Indonesia	Dhao	Dhao	Dhao Alkitab	Dhao Bible	nfa
+Indonesia	Fordata	Fordata	Surat Ralan na'a Vaidida	Fordata: Surat Ralan na'a Vaidida (New Testament)	frd
+Indonesia	Hawu	Hawu	Maꞌu	Hawu Mark	hvn
+Indonesia	Helong	Helong	Buk Niu In Hida Balu nol Dehet deng Apan-kloma ki in Dadi ka	Helong Bible	hegNTpo
+Indonesia	bahasa Indonesia	Indonesian	Alkitab Yang Terbuka	Indonesian AYT Bible	indayt
+Indonesia	bahasa Indonesia	Indonesian	Alkitab Terjemahan Sederhana Indonesia, Edisi Ketiga	Indonesian Bible (TSI)	ind
+Indonesia	bahasa Indonesia	Indonesian	Alkitab Gratis untuk Semua	Indonesian Bible for All	indags
+Indonesia	Kisar	Kisar	Makromod lalap lirna wawan	Kisar NT	kjeNT
+Indonesia	Kupang Malay	Kupang Malay	Kupang Malay Bible	Kupang Malay Bible	mkn
+Indonesia	Rote Lole	Lole	Rote Lole Alkitab	Rote Lole Bible	llg
+Indonesia	Luang	Luang	Puka Lululi	Luang Bible	lex
+Indonesia	Mai Brat	Mai Brat	Watum ro Tuhan Bosi ro Tna	Mai Brat: Watum ro Tuhan Bosi ro Tna (New Testament+)	ayz
+Indonesia	Malay, Papuan	Malay, Papuan	Melayu Papua	Malay, Papuan: Melayu Papua (Bible)	pmy
+Indonesia	Mamasa	Mamasa	Buku Masero: Pa'dandi Bakaru	Mamasa NT	mqjNT
+Indonesia	Mori Atas	Mori Atas	Alkitab Tambee	Mori Atas NT+	mzq
+Indonesia	Nggem	Nggem	Ala wene Nggem enane vaga dirup warek	Nggem NT	nbq
+Indonesia	Nuaulu, South	Nuaulu, South	Anahatana ne Anamanaya tau Sou Naunue	South Nuaulu Bible	nxl
+Indonesia	Orya	Orya	Orya	Orya NT	ury
+Indonesia	Padoe	Padoe	Akitab Padoe	Padoe NT+	pdo
+Indonesia	Rote Rikou	Rikou	Rote Rikou Alkitab	Rote Rikou Bible	rgu
+Indonesia	Selaru	Selaru	Maslyarw	Selaru: Maslyarw (New Testament+)	slu
+Indonesia	Sentani	Sentani	Sentani: Allahle a neme heteungekoke homofae	Sentani NT	set
+Indonesia	Tutun Belu	Tetun	Tetun Alkitab	Tetun Bible	tet
+Indonesia	Rote Tii	Tii	Rote Tii Alkitab	Rote Tii Bible	txq
+Indonesia	Wolio	Wolio	Kitabi Momangkilona Wolio	Wolio: Kitabi Momangkilona Wolio (New Testament+)	wlo
+Indonesia	Mek Kosarek	Yale, Kosarek	Allah Yubu	Mek Kosarek Bible	kkl
+Indonesia	Yawa	Yawa	Yawa	Yawa NT+	yvaNT
+Iran	Azeri	Azerbaijani, South	Azərbaycan dilində Müqəddəs Kitab	Azerbaijani Bible	azb
+Iran	Gilaki	Gilaki	Gilaki John	Gilaki John	glk
+Iran	فارسی	Iranian Persian	Biblica® Open Persian Contemporary Bible 2022	Open Persian Contemporary Bible	pesopcb
+Iran	فارسی	Persian	ترجمه قدیم	Old Persion Version Bible	pesOPV
+Iraq	ܐܵܬ݂ܘܼܪܵܝܲܐ ܠܸܫܵܢܵܐ	Assyrian Neo-Aramaic	ܕܝܬܩܐ ܚܕܬܐ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܘܡܙܡܘܪ̈ܐ ܒܠܫܢܐ ܐܬܘܪܝܐ	Assyrian Neo-Aramaic NT+Psalms	aii
+Iraq	كوردی سۆرانی	Central Kurdish	Biblica® وەشانی بێبەرامبەری کوردیی سۆرانیی ستاندەر	Kurdish Sorani Bible	ckb
+Israel	עברית	Hebrew	Biblica®‎ ‫הברית החדשה/הדרך זכויות פתוחות	Hebrew Living NT	heblb
+Israel	עברית	Hebrew	כתבי הקודש	Hebrew Masoretic OT	hbo
+Israel	עברית	Hebrew	תנ ך עברי מודרני	Modern Hebrew Bible	heb
+Israel	עברית	Hebrew	הברית החדשה של סלקינסון	Salkinson Hebrew NT	hebsg
+Israel	עברית	Hebrew	כתבי הקודש	Westminster Leningrad Codex Hebrew OT	hboWLC
+Israel	יידיש מזרחית	Yiddish, Eastern	דער ארטאדאקסישע יידישער ברית חדשה	Eastern Yiddish NT	ydd
+Israel	עברית	עברית	Westminster Leningrad Codex	Hebrew OT (WLC)	hebwlc
+Italy	Italiano	Italian	Diodati Bibbia 1885	Italian Diodati Bible	ita1885
+Italy	lingua italiana	Italian	Riveduta Bibbia 1927	Italian Riveduta Bible	ita1927
+Japan	日本語	Japanese	新改訳新約聖書(1965年版)	New Japanese NT	jpn1965
+Kenya	Digo	Chidigo	Digo	Digo Bible	dig
+Kenya	Dholuo	Dholuo	Biblica® Ochiw Thuolo Motingʼo Loko Manyien™	Dholuo Bible	luo
+Kenya	Ekegusii	Ekegusii	EBIBILIA ENCHENU	Ekegusii Revised Bible	guz
+Kenya	Kikuyu	Gikuyu	Biblica® Kiugo Gĩtheru Kĩa Ngai Kĩhingũre	Kikuyu Bible	kik
+Kenya	Giryama	Giryama	Kilagane Kisha (Kenya)	Kigiryama: Kilagane Kisha NT	nyf
+Kenya	Sabaot	Sabaot	Biibilya Nyēē Tiliil	Sabaot NT	spyNT
+Kenya	Suba	Suba	Endagano Empia	Suba NT	sxbNT
+Kenya	Kiswahili	Swahili	Biblica® Toleo Wazi Neno: Bibilia Takatifu™	Kiswahili Contemporary Version	swhonen
+Laos	Brao	Brao	ព្រះគម្ពីរ ព្រៅ	Brao Cambodia NT	brb
+Laos	Eastern Bru	Eastern Bru	Parnai Yiang Sursĩ - Kinh Thánh tiếng Bru	Bru, Eastern: Parnai Yiang Sursĩ - Kinh Thánh tiếng Bru Bible	bru
+Laos	Northern Katang	Northern Katang	ປັຣນາຍ ເຢືາງ ເຈົາຣາຊີ  ປັຣຄັນ ຕາໄມ ປັຣນາຍ ກາຕາງ (ພາສາກາຕາງ)	Northern Katang Bible	ncq
+Laos	Pacoh (Cado)	Pacoh (Cado)	Pacoh, Cado	Pacoh NT	pac
+Lebanon	العربية	Arabic	الكتاب المقدس باللغة العربية، فان دايك	Arabic Van Dyck Bible	arb-vd
+Lithuania	Lietuvių	Lietuvių	Biblica® Naudojimo teisės atviros „Jėzus ir Jo pasekėjai“	Open Lithuanian Scriptures	litb
+Lithuania	lietuvių	Lithuanian	Tikinčiųjų paveldo vertimas	Lithuanian Believers' Heritage Translation	lit
+Madagascar	Tandroy	Malagasy, Tandroy-Mahafaly	Saontsin’ Añahare	Tandroy Bible	tdx
+Malawi	Chichewa	Chichewa	Biblica® Tsekulani Mawu a Mulungu mu Chichewa Chalero	Chichewa Bible	nya
+Malawi	Ciyawo	Chiyawo	Lilangano lya Sambano	Yao NT	yao
+Malaysia	Banjar	Banjar	Bahasa Banjar	Jon, Rut	bjn
+Malaysia	Bahasa Malaysia	Malay	Kitab Suci Zabur dan Injil	Contextualized Malay NT	zlmKSZI
+Maldives	Dhivehi	Dhivehi	ކިތާބުލް މުޤައްދަސް	Maldivian: ކިތާބުލް މުޤައްދަސް NT	div
+Mali	Maasina Fulfulde	Fulfulde, Maasina	Aadi keyri: linjiila iisaa almasiihu	Maasina Fulfulde NT	ffm
+Mali	Mamara Sénoufo	Sénoufo, Mamara	KARIƝƐƐGƐ ƝƆMƐƐ NIVONƆ	Mamara Sénoufo NT and portions of the OT	myk
+Mali	Supyire Sénoufo	Sénoufo, Supyire	KILE JWUMPE SEMƐŊI JWUMPE NINTANMPE	Supyire Sénoufo NT	spp
+Mali	Songhai de Gao	Songhai de Gao	Songhai de Gao	Songhai de Gao Bible	ses
+Mali	Tamasheq	Tamasheq	Tamasheq	Tamasheq NT	taq
+Mauritania	Hassaniyya	Hassaniyya	اكتاب مولانا المقدس	Hassaniyya Bible	mey
+Mexico	Guerrero Amuzgo	Amuzgo, Guerrero	Ñʼoom xco na tqueⁿ tyʼo̱o̱tsʼom cantxja ʼnaaʼ Jesucristo	New Testament in Amuzgo, Guerrero (MX:amu:Amuzgo, Guerrero)	amuNT
+Mexico	Amuzgo, San Pedro Amuzgos	Amuzgo, San Pedro Amuzgos	Jnʼoon xco na tquen tyoʼtsʼon	San Pedro Amuzgos NT	azgNT
+Mexico	Ayutla Mixtec	Ayutla Mixtec	El Nuevo Testamento en el Mixteco de Ayutla	Mixtec, Ayutla: El Nuevo Testamento en el Mixteco de Ayutla New Testament	miy
+Mexico	Nopala Chatino	Chatino, Nopala	El Nuevo Testamento	Nopala Chatino NT	cya
+Mexico	Chatino, Tataltepec	Chatino, Tataltepec	Chaʼ tsoʼo nu nchcuiʼ jiʼi̱ Jesucristo nu xuʼna na	Tataltepec Chatino NT	ctaNT
+Mexico	Chatino, Western Highland	Chatino, Western Highland	Chaʼ suʼwe nu nchkwiʼ chaʼ ʼin Jesucristo nu nka xʼnaan	Western Highland Chatino NT	ctpNT
+Mexico	Chinantec, Comaltepec	Chinantec, Comaltepec	Júu ʼmɨ́ɨ e cacuo fidiée	Comaltepec Chinantec NT	ccoNT
+Mexico	Chinantec, Lalana	Chinantec, Lalana	Júu² 'mɨɨn³² 'e³ ca²³ŋɨń² Dios	Lalana Chinantec NT	cnlNT
+Mexico	Chinantec, Lealao	Chinantec, Lealao	Ja̱³la³ fáh⁴dxa⁴²dxú⁴ hi³mɨɨ³² chiáh² Ñúh³a² Jesucristo; Salmos	Lealao Chinantec NT	cleNT
+Mexico	Chinantec, Ozumacín	Chinantec, Ozumacín	Hmooh hmëë he- ga-jmee Jesucristo; Salmos	Ozumacín Chinantec NT	chzNTps
+Mexico	Chinantec, Palantla	Chinantec, Palantla	El Nuevo Testamento de nuestro señor Jesucristo: Versión chinanteca	Palantla Chinantec NT	cpaNT
+Mexico	Chinantec, Quiotepec	Chinantec, Quiotepec	Juu³ tyʉ² ʼe gafaaʼ²¹ Dios tyaʼ tsá²	Quiotepec Chinantec NT	chqNT
+Mexico	Chinantec, Sochiapam	Chinantec, Sochiapam	Jú¹ chú³² quioh²¹ Jesús tsá² lɨn³ Cristo	Sochiapam Chinantec NT	csoNT
+Mexico	Chinantec, Tepetotutla	Chinantec, Tepetotutla	Jag₁ ʼmɨ́₂ a₂ma₂lɨʼ₅₄ quianʼ₅₄ Diu₄	Tepetotutla Chinantec NT	cntNT
+Mexico	Chinantec, Usila	Chinantec, Usila	Jau²³ hm²³ i⁴ra³tya²³ nei² quieh¹ re¹ Jesucristo quian⁴-¹	Usila Chinantec NT	cucNT
+Mexico	Chol de Tila	Chol	JINI WEN BΛ T'AN	Chol de Tila Bible	ctucti
+Mexico	Chol	Chol	Jini wen bʌ tʼan	Chol NT	ctu76
+Mexico	Chol	Chol	I T’an Dios	Chol Tumbala Bible	ctuBl
+Mexico	Chontal, Highland Oaxaca	Chontal, Highland Oaxaca	Lataiquiʼ loyaʼapa iƚe al cʼa lixpicʼepa L̵anDios	Highland Oaxaca Chontal NT	chdNT
+Mexico	Chontal, Tabasco	Chontal, Tabasco	U Chʼuʼul Tʼan Dios	Tabasco Chontal NT	chfNT
+Mexico	Cora, El Nayar	Cora, El Nayar	Ɨ niuucari tɨ jejcua, tɨ ajta jɨme'en ra'axa a'ɨjna ɨ tavastara'a, ɨ Cɨriistu'u tɨ ji'i Jesús tɨ̀ tu'irájtuaa	El Nayar Presidio De Los Reyes Cora NT	crnNT
+Mexico	Cora, Santa Teresa	Cora, Santa Teresa	Cora, Santa Teresa	Santa Teresa Cora Bible	cok
+Mexico	Cuicatec, Tepeuxila	Cuicatec, Tepeuxila	Nduudu nʼdai yeⁿʼe Ndyuūs yeⁿʼe cuicateco yeⁿʼe Tepeuxila	Tepeuxila Cuicatec NT	cuxNT
+Mexico	Cuicatec, Teutila	Cuicatec, Teutila	El Nuevo Testamento: Cuicateco de Teutila	Teutila NT	cutNT
+Mexico	Español	Español	Biblica® Open Nueva Biblia Viva 2008	Spanish ONBV	spaonbv
+Mexico	Guevea De Humboldt Zapotec	Guevea De Humboldt Zapotec	Zapoteco, Guevea de Humboldt NT	Zapotec, Guevea de Humboldt: Zapoteco, Guevea de Humboldt NT (New Testament)	zpg
+Mexico	Huarijio	Huarijio	Riosia Warijio Nayewani Ahpo Tisiwa Kaaweruma Tuuyewari	Huarijío: Riosia Warijio Nayewani Ahpo Tisiwa Kaaweruma Tuuyewari New Testament	var
+Mexico	Huastec	Huastec	Nin tének káwintal an okˀóxláb	Huastec Aquiche NT	husNT2005
+Mexico	Huastec	Huastec	An it jilchith cau cʼal i Ajatic Jesucristo	Huastec San Luis Potosi NT	husNT1971
+Mexico	Huave, San Mateo Del Mar	Huave, San Mateo Del Mar	Jayats nanderac wüx miteatiiüts Jesucristo	San Mateo Del Mar Huave NT	huvNT
+Mexico	Huichol	Huichol	KAKAƗYARI NIUKIEYA XAPAYARI WIXARIKAKƗ	Huichol Bible 2020	hch
+Mexico	Huichol	Huichol	Cacaüyari niuquieya xapayari türatu hecuame hepaüsita tatiʼaitüvame tasivicueisitüvame Quesusi Cürisitu miʼatüa	Huichol NT 1988	hchNT
+Mexico	Lacandon	Lacandon	Lacandon	Lacandon NT	lacNT
+Mexico	Mayo	Mayo	Mayo	Mayo NT	mfy
+Mexico	Mazahua, Central	Mazahua, Central	Nu o̱ jña mizhocjimi nu mama ja ga cja e Jesucristo	Central Mazahua NT	mazNT
+Mexico	Mazatec, Chiquihuitlán	Mazatec, Chiquihuitlán	Compromisu xi majo xi casahmi nina cojo xuta (El Nuevo Testamento en el mazateco de Chiquihuitlán de Juárez ... y en español)	Chiquihuitlán Mazatec NT	maqNT
+Mexico	Mazatec, Huautla	Mazatec, Huautla	Xon⁴-le⁴ ni³na¹ xi³ tʔa³tsʔe⁴ Jesucristo	Huautla Mazatec NT	mauNT
+Mexico	Mazatec, Jalapa de Díaz	Mazatec, Jalapa de Díaz	Éhe̱n Nti̱a̱ná	Jalapa de Díaz Mazatec NT	majNT
+Mexico	Mazatec, San Jerónimo Tecóatl	Mazatec, San Jerónimo Tecóatl	Mazatec, San Jerónimo Tecóatl	San Jerónimo Tecóatl Mazatec NT	maaNT
+Mexico	Mazateco, Ayautla	Mazateco, Ayautla	El Nuevo Testamento Mazateco de Ayautla	NT in Ayautla Mazateco	vmyNT
+Mexico	Me'phaa Xma'íín (Teocuitlapa)	Me'phaa Xma'íín (Teocuitlapa)	Me'phaa Xma'íín (Teocuitlapa)	Acatepec Me’phaa Jonah	tpx
+Mexico	Metlatónoc Mixtec	Metlatónoc Mixtec	Mixteco, Metlatónoc	Mayogo NT	mxv
+Mexico	Coatlán Mixe	Mixe, Coatlán	El Nuevo Testamento en mixe de Coatlán	Coatlán Mixe NT	mcoNT
+Mexico	Mixe, Isthmus	Mixe, Isthmus	El Nuevo Testamento en mixe de Guichicovi	Isthmus Mixe NT	mirNT
+Mexico	Mixe, Juquila	Mixe, Juquila	Ja jembyʉ kajxy'átypyʉ mʉdʉ Jesukristʉkyʉjxm: El Nuevo Testamento de nuestro Señor Jesucristo en el mixe de Juquila	Juquila Mixe NT	mxqNT
+Mexico	Mixe, Tlahuitoltepec	Mixe, Tlahuitoltepec	Ja øgyajpxy ja ømyadya̱ʼa̱ky midi xukpa̱a̱jtɨmp ja nɨtsoʼokʼajtɨn	Tlahuitoltepec Mixe NT	mxpNT
+Mexico	Totontepec Mixe,	Mixe, Totontepec	Ya̱ʼa̱ tseʼe je̱ nam ko̱jtstán juuʼ veʼe je̱ Nteʼyamˍ xyaktaajnjimdu je̱ nMa̱j Vintsá̱namda Jesucristo ka̱jx	Totontepec Mixe NT	mtoNT
+Mexico	Mixtec, Alacatlatzala	Mixtec, Alacatlatzala	Alacatlatzala Mixtec New Testament	Alacatlatzala Mixtec NT+	mim
+Mexico	Mixtec, Atatláhuca	Mixtec, Atatláhuca	Nuevo Testamento en mixteco	Atatláhuca Mixtec	mibNT
+Mexico	Mixtec, Chayuco	Mixtec, Chayuco	Tuhun Ndyoo sihin tyehen ñi	Chayuco Mixtec NT	mihNT
+Mexico	Mixtec, Coatzospan	Mixtec, Coatzospan	Tūʼún xuva kō vatā ó ntákaʼan ña ñuú Coatzospan	Coatzospan Mixtec NT	mizNT
+Mexico	Mixtec, Diuxi-tilantongo	Mixtec, Diuxi-tilantongo	Tnuʼu vaʼa tnuʼu Jesucristo	Diuxi-tilantongo Mixtec NT	xtdNT
+Mexico	Mixtec, Jamiltepec	Mixtec, Jamiltepec	Tuhun cha sañahá ra Jesucristo chi yo	Jamiltepec Mixtec NT	mxtNT
+Mexico	Mixtec, Magdalena Peñasco	Mixtec, Magdalena Peñasco	Tnu'u vii tnu'u va'a Su'si ma	Magdalena Peñasco Mixtec Bible	xtmNTpp
+Mexico	Northern Tlaxiaco Mixtec	Mixtec, Northern Tlaxiaco	Mixtec, Northern Tlaxiaco	Northern Tlaxiaco Mixtec Bible	xtn
+Mexico	Mixtec, Ocotepec	Mixtec, Ocotepec	Nuevo Testamento en mixteco de Ocotepec	Ocotepec Mixtec	mieNT
+Mexico	Mixtec, Peñoles	Mixtec, Peñoles	Tnúhu ní cáháⁿ yǎ ndiǒxí xito cùu uú	Peñoles Mixtec NT	milNT
+Mexico	Mixtec, Pinotepa Nacional	Mixtec, Pinotepa Nacional	Tutu chaa cha iyo cuenda ra hahnu Jesucristo (El Nuevo Testamento de nuestro señor Jesucristo)	Pinotepa Nacional Mixtec NT	mioNT
+Mexico	Mixtec, San Juan Colorado	Mixtec, San Juan Colorado	Tuhun tsaa tsa nacoo̱ jutu mañi yo Jesucristo tsi yo	San Juan Colorado Mixtec NT	mjcNT
+Mexico	Mixtec, San Miguel el Grande	Mixtec, San Miguel el Grande	Mixtec, San Miguel el Grande	San Miguel el Grande Mixtec NT	migNT
+Mexico	Mixtec, Santa María Zacatepec	Mixtec, Santa María Zacatepec	Mixtec, Santa María Zacatepec	Mixteco, Santa María Zacatepec NT	mza
+Mexico	Mixtec, Silacayoapan	Mixtec, Silacayoapan	Tu̱hun sa̱á ña̱ na̱jándacoo Jesucristo nu̱ yo̱: El Nuevo Testamento en el mixteco de Silacayoapan	Silacayoapan Mixtec NT	mksNT
+Mexico	Mixtec, Southern Puebla	Mixtec, Southern Puebla	Ley saa ni nacoo Jesucristu	New Testament in Mixtec, Southern Puebla (MX:mit:Mixtec, Southern Puebla)	mitNT
+Mexico	Mixtec, Tezoatlán	Mixtec, Tezoatlán	Tuti yó'o kúú to̱'on Ndios, ta xí'o ña kuendá sa'a̱ Jesús	Tezoatlán Mixtec NT	mxbNT
+Mexico	Mixtec, Yosondúa	Mixtec, Yosondúa	Nuevo Testamento en mixteco de Yosondúa	Yosondúa Mixtec NT	mpmNT
+Mexico	Nahuatl	Nahuatl	Itlajtol Totajtzin Dios	Sierra Negra Nahuatl NT	nsu
+Mexico	Nahuatl,  Huasteca Occidental	Nahuatl,  Huasteca Occidental	Icamanal toteco; Santa Bíblia	Huasteca Occidental Nahuatl Bible	nhwBl
+Mexico	Nahuatl,  Huasteca Oriental	Nahuatl,  Huasteca Oriental	Ya ni nopa yancuic tlajtoli tlen toteco toca mocajtoc; El Nuevo Testamento de nuestro Señor Jesucristo en el náhuatl de la Huasteca Oriental	Huasteca Oriental Nahuatl NT 2009	nheNT
+Mexico	Nahuatl, Guerrero	Nahuatl, Guerrero	In yencuic iyectlajtoltzin Dios itech ica toTeco Jesucristo	Guerrero Nahuatl NT	nguNT
+Mexico	Nahuatl, Highland Puebla	Nahuatl, Highland Puebla	In cuali tajtoltzin de Dios	Highland Puebla Nahuatl NT	azzNT
+Mexico	Nahuatl, Huasteca Central	Nahuatl, Huasteca Central	Icamanal toteco; Santa Biblia	Huasteca Central Nahuatl Bible	nchBl
+Mexico	Nahuatl, Huasteca Oriental	Nahuatl, Huasteca Oriental	Itlajtol toteco: Santa Biblia	Huasteca Oriental Nahuatl Bible 2005	nheBl
+Mexico	Nahuatl, Isthmus-Mecayapan	Nahuatl, Isthmus-Mecayapan	Isthmus-Mecayapan Nahuatl	Nahuatl, Isthmus-Mecayapan: Itájto̱l toTe̱ko ipan melaꞌtájto̱l New Testament	nhx
+Mexico	Nahuatl, Michoacán	Nahuatl, Michoacán	Ilajtulisli Yancuic toTata Jesucristo	Michoacán Nahuatl NT	nclNT
+Mexico	Nahuatl, Northern Oaxaca	Nahuatl, Northern Oaxaca	Itlajtol totajtzin Dios = El Nuevo Testamento	Northern Oaxaca Nahuatl NT	nhyNT
+Mexico	Nahuatl, Northern Puebla	Nahuatl, Northern Puebla	In yancuic mononotzalistli ica Totecohtzin Jesucristo	Northern Puebla Nahuatl NT	ncjNT
+Mexico	Nahuatl, Southeastern Puebla	Nahuatl, Southeastern Puebla	Itlajtol Totajtsi Dios	Southeastern Puebla Nahuatl NT	nplNT
+Mexico	Nahuatl, Tetelcingo	Nahuatl, Tetelcingo	El Nuevo Testamento en nahuatl de Tetelcingo	Tetelcingo Nahuatl NT	nhgNT
+Mexico	Nahuatl, Zacatlán-Ahuacatlán-Tepetzintla	Nahuatl, Zacatlán-Ahuacatlán-Tepetzintla	In Yancuic Tlahtolsintilil	Zacatlán-Ahuacatlán-Tepetzintla Nahuatl NT	nhiNT
+Mexico	Otomi, Eastern Highland	Otomi, Eastern Highland	Ra ʼdaʼyonhogui nangue ma Hmuhʉ ra Jesucristo	Eastern Highland Otomi NT	otmNT
+Mexico	Otomi, Estado de México	Otomi, Estado de México	El Nuevo Testamento en otomí de San Felipe Santiago, Edo. de México	Estado de México Otomi NT	otsNT
+Mexico	Otomi, Mezquital	Otomi, Mezquital	Ra 'Ra'yo Testamento	Mezquital Otomi NT	oteNT
+Mexico	Otomi, Querétaro	Otomi, Querétaro	Àr 'ra'yo nkohi Jö har ñhöñhö maxei nto̱ngwi ár mahwifi har ha̱i m'onda ne har ñhömfo̱	Querétaro Otomi NT	otqNT
+Mexico	Otomi, Tenango	Otomi, Tenango	Ja ua ra̱ ʼdaʼyo cohi bi gomi̱ Oja̱ yø ja̱ʼi̱	Tenango Otomi NT	otnNT
+Mexico	Popoloca, San Juan Atzingo	Popoloca, San Juan Atzingo	Tí Nuevo Testamento cuènte Inchéni Jesucristo Cʼóna Nquìva	San Juan Atzingo Popoloca NT	poeNT
+Mexico	Popoloca, San Luís Temalacayuca	Popoloca, San Luís Temalacayuca	Popoloca, San Luís Temalacayuca	Popoloca, San Luís Temalacayuca: Chijnie ndo Jesucristo New Testament	pps
+Mexico	San Marcos Tlalcoyalco  Popoloca	Popoloca, San Marcos Tlalcoyalco	Tti jian joajné Jesucristo	San Marcos Tlalcoyalco Popoloca NT	plsNT
+Mexico	Popoluca, Highland	Popoluca, Highland	Jém jomipɨc trato jém iwatnewɨɨp tánomi Jesucristo	Highland Popoluca NT	poiNT
+Mexico	San Martín Itunyoso Triqui	San Martín Itunyoso Triqui	Triqui, Itunyoso	Triqui, San Martín Itunyoso: Si-nu̱guanꞌ Yanꞌanj Xa̱ngaꞌ NT	trq
+Mexico	Español	Spanish	La Biblia en Español Sencillo	La Biblia en Español Sencillo	spabes
+Mexico	Español	Spanish	Palabra de Dios para ti	Spanish Bible (God's Word for You)	spapddpt
+Mexico	Tarahumara, Western	Tarahumara, Western	Onorúgame nila ra'íchali	Western Tarahumara NT	tacNT
+Mexico	Tepehua, Huehuetla	Tepehua, Huehuetla	Ixchivinti Dios	Huehuetla Tepehua NT	teeNT
+Mexico	Tepehua, Pisaflores	Tepehua, Pisaflores	Tepehua, Pisaflores	Pisaflores Tepehua NT	tpp
+Mexico	Tepehua, Tlachichilco	Tepehua, Tlachichilco	Ixchivinti Dios: ni sastʼi chivinti yu Dios jatʼatamakaul ixlapanakni laka lhimasipijni	Tlachichilco Tepehua NT	tptNT
+Mexico	Tepehuan, Northern	Tepehuan, Northern	Diuusi ñiooquidʌ utuducami oodamicʌdʌ	Northern Tepehuan NT	ntpNT
+Mexico	Tepehuan, Southeastern	Tepehuan, Southeastern	Gu ñio'ki'ñ gu Dios na bhaan tu a'ga guch xoi'kam	Southeastern Tepehuan NT	stpNT
+Mexico	Tojolabal	Tojolabal	Ja yajcʼachil testamento sbaj ja cajualtic Jesucristo	Tojolabal NT	tojNT
+Mexico	Totonac, Coyutla	Totonac, Coyutla	Xasasti talacaxlan	Coyutla Totonac NT	tocNT
+Mexico	Totonac, Highland	Totonac, Highland	Hua̱ xasa̱sti talacca̱xlan quinTla̱tican Jesucristo	Highland Totonac NT	tosNT
+Mexico	Totonac, Papantla	Totonac, Papantla	Xasasti talaccaxlan	Papantla Totonac NT	topNT
+Mexico	Totonac, Upper Necaxa	Totonac, Upper Necaxa	Xasāstiʼ testamento (Xatze tachihuīn ixpālacata Jesucristo)	Upper Necaxa Totonac	tkuNT
+Mexico	Totonac, Xicotepec De Juárez	Totonac, Xicotepec De Juárez	Huan Xasāstiʼ testamento: Huan xatzey tachihuīn ixpālacata Jesucristo	Xicotepec De Juárez Totonac NT	tooNT
+Mexico	Triqui, Copala	Triqui, Copala	Se-nānā Diosē nanā sāʼ me rá catūū nimán níʼ a	Copala Triqui NT	trcNT
+Mexico	Tzotzil	Tzotzil	Tzotzil, San Andres	San Andres Tzotzil NT	tzoSA
+Mexico	Tzotzil de Chamula	Tzotzil	TI ACHꞌ REXTOMENTO YUꞌUN TI JESUCRISTOE	Tzotzil de Chamula NT	tzotzc
+Mexico	Tzotzil de Chenalhó	Tzotzil	ACH' TESTAMENTO	Tzotzil de Chenalhó NT	tzotze
+Mexico	Tzotzil	Tzotzil	Jaʼ ti achʼ Testamento: jaʼ scʼopilal ti Jesucristoe jaʼ ti Jcoltavanej cuʼuntique	Tzotzil Huixtan NT	tzoNT
+Mexico	Tzotzil	Tzotzil	Sc'op riox: ja' li' yaloj ti chac' jcuxlejaltic ta sbatel osli ti cajvaltic Jesucristoe	Tzotzil Zinacantan NT	tzoZNT
+Mexico	Yaqui	Yaqui	Yoʼowe Jesukrijtota itom yaʼariakaʼu betchiʼbo juʼu bemelaka liojta betana lutuʼuria yaʼari (El Nuevo Testamento en yaqui)	Yaqui NT	yaqNT
+Mexico	Zapotec, Amatlán	Zapotec, Amatlán	Wdizh kwaan nyaadno yalnaban	Amatlán Zapotec NT	zpoNT
+Mexico	Zapotec, Cajonos	Zapotec, Cajonos	Dillꞌ wen dillꞌ   Kob C̱he   Jesucrístonaꞌ	Cajonos Zapotec NT	zadNT
+Mexico	Zapotec, Chichicapan	Zapotec, Chichicapan	Xchiʼdxyi cuubi dxiohs nin bieʼgaluuʼyi daada Jesucristu (El Nuevo Testamento en el zapoteco de Chichicapan y en español)	Chichicapan Zapotec NT	zpvNT
+Mexico	Zapotec, Choapan	Zapotec, Choapan	Xtiʼidzaʼ Diuzi	Choapan Zapotec NT	zpcNT
+Mexico	Zapotec, Coatecas Altas	Zapotec, Coatecas Altas	Widi'zh che'n Jesukrist kwa'n kinu yalnaban	Coatecas Altas Zapotec	zcaNT
+Mexico	Zapotec, Isthmus	Zapotec, Isthmus	Stiidxa Dios didxazá (El Nuevo Testamento de nuestro señor Jesucristo en el Zapoteco del Istmo)	Isthmus Zapotec NT	zaiNT
+Mexico	Zapotec, Lachixío	Zapotec, Lachixío	Stichia' Diose dialu	Lachixío Zapotec NT	zplNT
+Mexico	Loxicha Zapotec	Zapotec, Loxicha	El Nuevo Testament en el idioma Zapoteco de Loxicha	Loxicha Zapotec NT	ztp
+Mexico	Zapotec, Miahuatlán	Zapotec, Miahuatlán	Testament cub coʼ nac diʼs ndac cheʼn Tad Jesucrist	Miahuatlán Zapotec NT	zamNT
+Mexico	Zapotec, Mitla	Zapotec, Mitla	Xtidxcoob Dios ni biädnä dad Jesucrist	Mitla Zapotec NT	zawNT
+Mexico	Mixtepec Zapotec	Zapotec, Mixtepec	Diidz ne rdeed guielmban	Mixtepec Zapotec NT	zpmNT
+Mexico	Zapotec, Ocotlán	Zapotec, Ocotlán	Dizaʼquë shtë Dios con dizë	Ocotlán Zapotec	zacNT
+Mexico	Zapotec, Ozolotepec	Zapotec, Ozolotepec	Diiz kuu ndyaadno yalnaban	Ozolotepec Zapotec NT	zaoNT
+Mexico	Zapotec, Quioquitani-Quierí	Zapotec, Quioquitani-Quierí	Tiits nii xnee kyalmbañ; El Nuevo Testamento en el zapoteco de Quioquitani	Quioquitani-Quierí Zapotec NT	ztqNT
+Mexico	Zapotec, Rincón	Zapotec, Rincón	Didza' cubi rucá'ana tsahui'	Rincón Zapotec NT	zarNT
+Mexico	Zapotec, San Juan Guelavía	Zapotec, San Juan Guelavía	Xtiidx Dios cun ditsa	San Juan Guelavía Zapotec	zabNT
+Mexico	Zapotec, San Vicente Coatlán	Zapotec, San Vicente Coatlán	Zapoteco, San Vicente Coatlán	San Vicente Coatlán Zapotec NT	zpt
+Mexico	Zapotec, Santa María Quiegolani	Zapotec, Santa María Quiegolani	Zapotec, Santa María Quiegolani	New Testament in Zapotec, Santa María Quiegolani (MX:zpi:Zapotec, Santa María Quiegolani)	zpi
+Mexico	Zapotec, Santa María Quiegolani	Zapotec, Santa María Quiegolani	Xdiiz Dëdyuzh kon disa	Santa María Quiegolani Zapotec NT	zapNT
+Mexico	Zapotec, Santo Domingo Albarradas	Zapotec, Santo Domingo Albarradas	Xtiidx Dios	Santo Domingo Albarradas Zapotec NT	zasNT
+Mexico	Zapotec, Sierra de Juárez	Zapotec, Sierra de Juárez	Ca titsaʼ de laʼlabani para iyate ca enneʼ	Sierra de Juárez Zapotec NT	zaaNT
+Mexico	Zapotec, Southern Rincon	Zapotec, Southern Rincon	Didzaʼ cub rucáʼn tsahuiʼ	Southern Rincon Zapotec NT	zsrNT
+Mexico	Zapotec, Tabaa	Zapotec, Tabaa	Xela wezria cube nen salmo caʼ	Tabaa Zapotec NT & Psalms	zatNTps
+Mexico	Zapotec, Texmelucan	Zapotec, Texmelucan	De riidz ni trat cub nu bicy nu Ñgyoozh mbecy: Salmos; Proverbios	Texmelucan Zapotec Bible	zpzNTpp
+Mexico	Zapotec, Yalálag	Zapotec, Yalálag	Diʼll danʼ nsaʼa yel nban (El Nuevo Testamento en el Zapoteco de Yalálag)	Yalálag Zapotec NT	zpuNT
+Mexico	Yareni Zapotec	Zapotec, Yareni	Zapotec, Yareni	Yareni Zapotec NT	zae
+Mexico	Zapotec, Yatee	Zapotec, Yatee	Dižaʼ chaweʼ kub len Salmo kaʼ	Yatee Zapotec NT & Psalms	ztyNTps
+Mexico	Zapotec, Yatzachi	Zapotec, Yatzachi	Testament Cobə deʼen choeʼ dižəʼ c̱he ancho Jesocristənʼ	Yatzachi Zapotec NT	zavNT
+Mexico	Zapotec, Zoogocho	Zapotec, Zoogocho	Dižaʼ güen c̱he ancho Jesucristo	Zoogocho Zapotec NT	zpqNT
+Mexico	Zoque, Francisco León	Zoque, Francisco León	Jomepø Testamento	Francisco León Zoque NT	zosNT
+Micronesia	Chuukese	Chuukese	Paipel	Chuukese Bible	chk
+Micronesia	Kapingamarangi	Kapingamarangi	Beebaa Dabu	Kapingamarangi Bible	kpg
+Micronesia	Kosrae	Kosraean	BIBLE MUTAL	Kosraean Bible	kos
+Micronesia	Mwoakilloa	Mokilese	Mokilese Bible	Mokilese Bible	mkj
+Micronesia	Nukuoro	Nukuoro	De Beebaa Dabu	The Holy Bible in the Nukuoro language of Micronesia	nkr
+Micronesia	Pohnpeian	Pohnpeian	Pohnpeian Bible	Pohnpeian Bible 2006	pon2006
+Micronesia	Pohnpeian	Pohnpeian	Pohnpeian Bible with Apocrypha	Pohnpeian Bible with Apocrypha 2006	pon2006a
+Micronesia	Pohnpeian	Pohnpeian	Kadede Kap Psam Akan	Pohnpeian NT & Psalms, new alphabet	pon-pdn
+Micronesia	Pohnpeian	Pohnpeian	Kadede Kap Pjam Akan	Pohnpeian NT & Psalms, old alphabet	pon
+Micronesia	Satawalese	Satawalese	Pwapwior we e Santus	Satawalese: Pwapwior we e Santus (New Testament)	stw
+Micronesia	Ulithian	Ulithian	Bogtag we ye Tefoy	Ulithian NT	uli
+Micronesia	Yapese	Yapese	Bible Ni Thothup	Yapese Bible	yap
+Morocco	ثْرِيفيثْ	Tarifit	أَذْلِيسْ إِقدّْسنْ	Tarifit Bible (Arabic Script)	rifa
+Morocco	Tarifit	Tarifit	Adlis Iqeddsen	Tarifit Bible Latin Script	rifl
+Morocco	ⵜⴰⵔⵉⴼⵉⵜ	Tarifit	ⴰⴷⵍⵉⵙ ⵉⵇⴻⴷⴷⵙⴻⵏ	Tarifit Bible Tifinagh Script	rift
+Mozambique	Kote	Kote	Kote New Testament	Kote Bible	eko
+Mozambique	Makhuwa-Meetto	Makhuwa-Meetto	Makhuwa-Meetto do Novo Testamento	Makhuwa-Meetto NT	mgh
+Mozambique	Makhuwa-Meetto	Makhuwa-Meetto	Makua New Testament 2015	Makhuwa-Meetto: Makua New Testament 2015 New Testament	mgh2016
+Mozambique	Makonde	Makonde	Lilailano Lyahambi Lya Nnungu Kwa Vanu Vammalele	Makonde Bible	kde
+Mozambique	Mwani	Mwani	Habari Ngema	Mwani NT	wmw
+Mozambique	Nyungwe	Nyungwe	ciNyungwe Bibliya	Nyungwe NT+	nyu
+Mozambique	Sena	Sena	Sena do Novo Testamento	Sena NT	seh
+Mozambique	Takwane	Takwane	Takwane do Novo Testamento	Takwane NT	tke
+Myanmar	Plang	Blang	Plang	Blang NT	blr
+Myanmar	Mynmar language	Burmese	Common Language Bible	Burmese Common Language Bible	mya
+Myanmar	ဗမာ	Burmese	မြန်မာကျမ်းစာ	Judson Burmese Bible	myajvb
+Myanmar	Daai	Chin, Daai	Dai Cangcim Kthai	Daai Chin NT	dao
+Myanmar	Asang Khongca	Chin, Eastern Khumi	Asang Khongca Bible (2019)	Asang Khongca Bible	cekak
+Myanmar	Matupi Chin	Chin, Matu	Baibal Olcim	Matupi Chin Standard Bible 2019	hltmcsb
+Myanmar	Matupi Chin	Chin, Matu	Baibal Olcim	Matupi Chin Standard Bible w/ Strongs	hlt
+Myanmar	Tuivang	Chin, Matu	Tuivang Holy Bible	Tuivang Matu Chin Bible	hltthb
+Myanmar	Siyin Chin	Chin, Siyin	Tinaung Takluem	Siyin Chin NT	csy
+Myanmar	Thai Phum	Chin, Thaiphum	Thai Phum Holy Bible	Thai Phum Bible	cth
+Myanmar	Danu	Danu	ဓမ္မသစ်ကျမ်း ဓနုဘာသာစကား	Danu NT	dnv
+Myanmar	Falam	Falam	Thukam Thar Lente Ṭon	Falam Chin Bible	cfm
+Myanmar	Western Kayah	Kayah, Western	ꤜꤤ꤬ꤡꤢ꤭ꤏꤢꤧ꤭ ꤢ꤬ꤞꤢꤧ꤭ ꤔꤢ ꤜꤤ꤬ꤡꤢ꤭ꤏꤢꤧ꤭ ꤢ꤬ꤜꤟꤛꤢꤩ꤭ ꤒꤢ꤬ꤟꤢꤩ꤬ ꤊꤢ꤬ꤛꤢ꤭ꤜꤟꤤ꤬ꤍꤟꤥ	Kayah, Western: ꤜꤤ꤬ꤡꤢ꤭ꤏꤢꤧ꤭ ꤢ꤬ꤞꤢꤧ꤭ ꤔꤢ ꤜꤤ꤬ꤡꤢ꤭ꤏꤢꤧ꤭ ꤢ꤬ꤜꤟꤛꤢꤩ꤭ ꤒꤢ꤬ꤟꤢꤩ꤬ ꤊꤢ꤬ꤛꤢ꤭ꤜꤟꤤ꤬ꤍꤟꤥ (Bible)	kyuk
+Myanmar	Kayah, Western	Kayah, Western	Western Kayah (Latin) NT	Western Kayah NT	kyu
+Myanmar	Manumanaw	Manumanaw	TAFO AYO	Manumanaw NT	kxf
+Myanmar	Shwe Palaung	Palaung, Shwe	The New Testament in Shwe Palaung	Shwe Palaung NT	pll
+Myanmar	ရခိုင်	Rakhine	ဓမ္မသစ်ကျမ်း ရခိုင်ဘာသာစကား	Rakhine Bible	rki
+Myanmar	Rohingya	Rohingya	Kitabul Mukaddos or Injil Córif	Rohingya: Kitabul Mukaddos or Injil Córif (Bible)	rhgc
+Myanmar	Rohingya	Rohingya	Rohingya Bible Translation Project	Rohingya: Rohingya Bible Translation Project (Bible)	rhg
+Myanmar	Tavoyan	Tavoyan	ဓမ္မသစ်ကျမ်း ထားဝယ်ဘာသာစကား	Tavoyan Bible	tvn
+Myanmar (Burma)	Chin, Zyphe	Chin, Zyphe	Biahrai Tha, Zyphe rei	Zyphe Chin NT	zypNT
+Myanmar (Burma)	Zaiwa	Zaiwa	Chyoiyúng chyumlaiká: dangshikaq asik; Zaiwa	Zaiwa NT	atbNT
+Namibia	Chikuahane	Kuhane	Kuhane Bible	Kuhane NT	sbs
+Nepal	Gurung	Gurung, Western	Gurung Central Adapt It Study Bible	Gurung Bible	gvr
+Nepal	Kham, Western Parbate	Kham, Western Parbate	साःरो बाचा	Magar Kham NT	kjl
+Nepal	Limbu	Limbu	Yesu khristarɛ kunisaam	Limbu NT (Devangari Script)	lifNT2
+Nepal	Limbu	Limbu	ᤏᤡᤱᤘᤠ᤹ᤑᤢ ᤐᤠ᤺ᤴᤈᤠᤰ ᤁᤢᤛᤱ ᤔᤠᤱᤜᤢᤵ	Limbu NT (Limbu Script)	lifNT
+Nepal	नेपाली	Nepali	पवित्र बाइबल	Nepali Bible	npiulb
+Nepal	नेपाली	Nepali	The Holy Bible, Easy Reading Version, in Nepali	Nepali Easy Reading Version	npi2010
+Nepal	Newar	Newar	Newar	Newar Bible	new
+Nepal	Sherpa	Sherpa	कोन्छ्‌योककी सुङ	Sherpa NT	xsr
+Nepal	Sunwar	Sunwar	परमप्रभु यावे आ लोव़	Sunwar Bible	suzBl
+Nepal	Eastern Tamang	Tamang, Eastern	परमेश्वरला बचन छार कबुल	Eastern Tamang NT	taj
+Nepal	Tichurong	Tichurong	तिचुरोङ क्येला सारबा करारयि किताबतेबा	Tichurong: तिचुरोङ क्येला सारबा करारयि किताबतेबा (Bible with Deuterocanon)	tcn
+Nepal	नेपाली	नेपाली	Biblica® नेपाली समकालीन सर्वसुलभ संस्करण	Nepali Contemporary Bible	npioncb
+Netherlands	Nederlands	Dutch	De Heilige Schrift 1917	Dutch Bible 1917	nld
+Netherlands	Nederlandse taal	Dutch	De Heilige Schrift, Petrus Canisiusvertaling, 1939	Dutch Bible, Petrus Canisius	nld1939
+Netherlands	Nederlandse taal	Dutch	NBG-vertaling 1951	Dutch NBG 1951 Bible	nldnbg
+New Caledonia	Cemuhî	Cemuhî	Tii Iitihi: Élele Iitihi na mwo Coho	Cemuhî: Tii Iitihi: Élele Iitihi na mwo Coho (New Testament)	cam
+New Caledonia	Paicî	Paicî	Tii Pwicîri: Âmu Aamwari naa na cî	Paicî NT	priNT
+New Zealand	Māori	Māori	Paipera Tapu 2012	Maori: Paipera Tapu 2012 (Bible)	mri2012
+New Zealand	Māori	Māori	Te Kawenata Hou	Mauri NT	mri
+Niger	Fulfulde, Western Niger	Fulfulde, Western Niger	Fulfulde,  Niger West	Western Niger Fulfulde NT	fuh
+Niger	Kanuri, Manga	Kanuri, Manga	Kanuri Manga NT Translation	Kanuri, Manga: Manga Kanuri Translation (Portions)	kby
+Niger	Tamajaq, Tawallammat	Tamajaq, Tawallammat	Tamajaq, Tawallammat	Tawallammat Tamajaq (Berber) NT	ttqt
+Niger	Tamajaq, Tawallammat	Tamajaq, Tawallammat	Tamajaq, Tawallammat (Latin)	Tawallammat Tamajaq NT (Latin)	ttq
+Nigeria	Abureni	Abureni	Abureni NT Portions	Abureni NT	mgj
+Nigeria	Ajiya	Ajiya	Ajigha NT Portion	Ajiya: Ajigha NT Portion (New Testament)	idc
+Nigeria	Timap	Amo	Amo New Testament	Amo NT	amo
+Nigeria	Aninka	Aninka	Aninka NT Portion	Aninka Bible	aqk
+Nigeria	Bangunji	Bangwinji	Bangwinji	Bangwinji NT	bsj
+Nigeria	Basa-Gurmana	Basa-Gurmana	Basa-Gurmana	Basa-Gurmana MAT	buj
+Nigeria	Boga	Boga	Boga New Testament Portion	Boga NT	bvw
+Nigeria	Boko	Boko	Bibeli Luayãtaalá	Boko (Benin) Bible	bqcsim
+Nigeria	Bokobaru	Bokobaru	Luda yã takada kↄ̃n Bokobaru yão	Bokobaru Bible	bus
+Nigeria	Jida	Bu	Bu New Testament	Bu NT	jid
+Nigeria	Bu (Bauchi State)	Bu (Bauchi State)	Bu New Testament	Bu NT	zbu
+Nigeria	Bisã	Busa	Luda yã takada kũ Bisã yão	Bisa Bible	bqp
+Nigeria	Cishingini	Cishingini	Cishingini Agwara Kambari [asg]	Cishingini Bible	asg
+Nigeria	Duya	Duya	Ibibemuwe-Num Iyiki Ifa Ru Dũya	Duya NT	ldb
+Nigeria	Ekajuk	Ekajuk	Ekajuk Scriptures Bible Portions	Ekajuk Bible	eka
+Nigeria	Etulo	Etulo	Etulo NT	Etulo NT+	utr
+Nigeria	Fulfulde Caka Nigeria	Fulfulde Caka Nigeria	الَکْوَلَ ک ٜسَلْ (Fulfulde)	Nigerian Fulfulde NT	fuv
+Nigeria	Ga'anda	Ga'anda	Ga'anda	Ga'anda NT+	gqa
+Nigeria	Geji	Geji	Geji New Testament Portions	Geji NT	gyz
+Nigeria	Glavda	Glavda	Glavda NT Portion	Glavda NT Portion	glwl
+Nigeria	Gude	Gude	Gude: Kura Aləkawalə ŋga Əntaŋfə	Gude: Kura Aləkawalə ŋga Əntaŋfə New Testament	gde
+Nigeria	Guduf-Gava	Guduf-Gava	Gava NT	Guduf-Gava NT	gdf
+Nigeria	Hausa	Hausa	Biblica® Buɗaɗɗen Littafi Mai Tsarki, Sabon Rai Don Kowa™	Hausa Contemporary Bible	hausa
+Nigeria	Hausa	Hausa	Litafi Mai-tsarki	Hausa NT	hauulb
+Nigeria	Hun-Saare	Hun-Saare	ut-Hun New Testament	Hun-Saare: ut-Hun New Testament New Testament	dud
+Nigeria	Hona	Hwana	Hona Bible	Hwana Bible	hwo
+Nigeria	Igbo	Igbo	Biblica® Baịbụlụ Nsọ nʼIgbo Ndị Ugbu a nke dịrị onye ọbụla ịgụ	Igbo Bible	ibo
+Nigeria	Ika	Ika	Elu Ọhụn: Ẹkụkwọ-Nsọ (Azụụn Ọhụn rịn'a)	Ika NT	ikkNT
+Nigeria	Ikwere	Ikwere	Tẹsitamenti Ikne n'Ọnu Ikwere	Ikwere NT	ikwNT
+Nigeria	Ikwo	Ikwo	Bayịburu Ikwo	Ikwo: Bayịburu Ikwo Bible	iqw
+Nigeria	Ivbie North-Okpela-Arhe	Ivbie North-Okpela-Arhe	Ebe-No-Pfuasẹ Ishobọ Onogbọ	Ivbie North-Okpela-Arhe NT	atgNT
+Nigeria	Izii	Izii	Izii	Izii Bible	izz
+Nigeria	Ajanji	Janji	Janji Bible	Janji NT	jni
+Nigeria	Jibu	Jibu	Jibu	Jibu NT	jib
+Nigeria	Kurama	Kurama	Akurumi NT Portion	Kurama: Akurumi NT Portion (New Testament)	krh
+Nigeria	Kuturmi	Kuturmi	Kuturmi NT Portion	Kuturmi NT	khj
+Nigeria	Marghi South	Marghi South	Ndǝshiguˈyar Foɗǝu Ənga Thlǝr Camaˈyar	Marghi South NT	mfm
+Nigeria	Mbe	Mbe	Mbembe Okohm	Mbe OT	mfo
+Nigeria	Mbula	Mbula-Bwazza	Mbula-Bwazza	Mbula-Bwazza NT+	mbu
+Nigeria	Mupun	Mwaghavul	Manji Yiljep	Mwaghavul NT	sur
+Nigeria	Nigerian Pidgin	Nigerian Pidgin	Nigerian Pidgin	Nigerian Pidgin English Bible	pcm
+Nigeria	Ninzo	Ninzo	Ungbamvu Ku Abachi Azhi Ahe̲he̲ Ka	Ninzo NT	ninNT
+Nigeria	Polci	Polci	Zul	Polci NT	plj
+Nigeria	Sanga	Sanga	Sanga Language Project	Sanga Bible	xsn
+Nigeria	Tarok	Tarok	Tarok Bible	The Holy Bible in the Tarok language of Nigeria	yer
+Nigeria	Tsikimba	Tsikimba	Kazuwamgbani ka savu n Tsikimba n aɓon a ɗa a ɗanga̱sai a kazuwamgbani ka cau	Tsikimba NT	kdlNT
+Nigeria	Auna	Tsikimba	Tsikimba OT	Tsikimba OT	kdl
+Nigeria	Tsishingini	Tsishingini	Nzuwulai n Sa'avu na̱ Tsishingini na̱ a̱ɗiva̱ a na a ɗangulai a Nzuwulai mu Ufaru	Tsishingini NT	tswNT
+Nigeria	Tsishingini	Tsishingini	Tsishingini (tsw) OT	Tsishingini OT	tsw
+Nigeria	ut-Ma'in	ut-Ma'in	ut-Mai'n Scripture portions	ut-Ma’in: ut-Mai'n Scripture portions (Bible)	gel
+Nigeria	u̱t-Hun	u̱t-Hun	ut-Hun	ut-Hun NT	uth
+Nigeria	Waja	Waja	Waja	Waja Bible	wja
+Nigeria	Yorùbá	Yorùbá	Biblica® ní oore ọ̀fẹ́ láti lo Bíbélì Mímọ́ ní Èdè Yorùbá Òde-Òní	Yoruba Bible	yor
+Norway	Norsk: Bokmål	Norwegian	Biblica® Open En Levende Bok: Det Nye Testamentet	Norwegian Living NT	noblb
+Pakistan	Balochi, Southern	Balochi, Southern	Balóchi Balochi	Balochi, Southern: بلۆچی      Balochi (New Testament+)	bcc
+Pakistan	Balochi, Southern	Balochi, Southern	Balóchi Balochi	Latin version of the Balochi Bible	bccl
+Pakistan	Urdu	Urdu	Kitab-i Muqaddas	The Holy Bible in Urdu, Urdu Geo Version, Roman Script	urdgvr
+Pakistan	اردو	Urdu	کتابِ مقدّس	Urdu Geo Bible (Urdu Script)	urdgvu
+Pakistan	اردو	Urdu	इंडियन रिवाइज्ड वर्जन (IRV) उर्दू - 2019	Urdu IRV Bible	urd
+Pakistan	Kolami	Vaghri	పవిత్ర్ బైబిల్‍	Vaghri NT	vgr
+Pakistan	اردو	اردو	Biblica® آزادانہ اردو ہم عصر ترجمہ	Urdu: Biblica® آزادانہ اردو ہم عصر ترجمہ (Bible)	urdoucv
+Panama	Buglere	Buglere	Chube gerua jagere Jesucristo giti degaba kwian ulita alin: El Nuevo Testamento de nuestro Señor Jesucristo en el idioma buglere	Buglere NT	sabNT
+Panama	Emberá, Northern	Emberá, Northern	Ãcõrẽ Bed̶ea	Northern Emberá NT	empNTpo
+Panama	Kuna, Border	Kuna, Border	Pab tummad karta pab Jesucristobal igal-pin mezhijad	Border Kuna NT	kvnNT
+Panama	San Blas Kuna	Kuna, San Blas	Bab dummad Jesucristoba igar mesisad garda	San Blas Kuna NT 2009	cuk09
+Panama	Ngäbere	Ngäbere	Kukwe kuin ngöbökwe	Ngäbere NT	gymNT
+Panama	San Blas Cuna	San Blas Kuna	Bab-Dummad-Garda-Islidikid	San Blas Kuna Bible	cuk
+Panama	Teribe	Teribe	Sbö Tjl̈õkwo	Teribe Bible	tfrNTpo
+Papua New Guinea	'Auhelawa	'Auhelawa	YAUBADA YANA WALO YEMIDI VAUVAUNA	'Auhelawa NT	kud
+Papua New Guinea	Abau	Abau	God so Sokior-ok Iwon	Abau NT	aau
+Papua New Guinea	Adzera	Adzera	Adzera Baibel	Adzera Bible	adz
+Papua New Guinea	Agarabi	Agarabi	YISASINI KAMA VAYA	Agarabi NT	agd
+Papua New Guinea	Akukem	Akukem	Mak Osɨrisira Akaman Aghuuŋ ko Iesusɨm Mbɨsevisir Gumasi	Published Mark & Acts	spm
+Papua New Guinea	Alamblak	Alamblak	Bro Nkifrarhu Mrokfot	Alamblak NT	amp
+Papua New Guinea	Alekano (Gahuku)	Alekano or Gahuku	Monoq Gotola Gosohaq	Alekano Bible	gah
+Papua New Guinea	Sawiyanu	Ama	Kotoni Imo Itouniyaimo	Ama NT	amm
+Papua New Guinea	Amanab (Naineri)	Amanab	Godna mo Awai mona go	Amanab Naineri NT	amn-n
+Papua New Guinea	Amanab	Amanab	Godna mo Awai mona go	Amanab NT	amn-amanab
+Papua New Guinea	Ambulas (Maprik)	Ambulas	Gotna Kudi	Ambulas Maprik NT	abt-maprik
+Papua New Guinea	Amele	Amele	BAL CEHEC JE HAUN	Amele Genesis	aey
+Papua New Guinea	Aneme Wake	Aneme Wake	GODINU IRAU WAKE	Aneme Wake NT	aby
+Papua New Guinea	Angaataha	Angaataha	Autaahaatɨhomɨ Pɨwɨha Gaaha Wanɨha	Angaataha NT	agm
+Papua New Guinea	Angal Heneng	Angal Heneng	Angal Heneng	Angal Heneg NT	akh
+Papua New Guinea	Angor	Angor	Godɨndɨ Hoafɨ	Angor NT	agg
+Papua New Guinea	Anjam	Anjam	Yesus Aqa Anjam Bole 2000	Anjam NT 2000	boj
+Papua New Guinea	Anjam	Anjam	Yesus Aqa Anjam Bole 2014 + Qotei qa Lou	Anjam NT 2014 + Psalms	boj2014
+Papua New Guinea	Angave	Ankave	Xwɨyí̵á Gorɨxoyá Sɨŋí̵pɨrɨnɨ	Minaifia NT	aak
+Papua New Guinea	Anuki	Anuki	Buk Baibel long Anuki	Anuki Bible Portions	aui
+Papua New Guinea	Apalɨ	Apal	Asɨ dɨ manasɨŋ	Apali NT	ena
+Papua New Guinea	Arapesh	Arapesh	IRUHIN ANANIN BARAEN	Arapesh NT	aon
+Papua New Guinea	Are	Are	God Wonana Kaoaobaisiyena	Are Bible	mwc
+Papua New Guinea	Arop-Lokep	Arop-Lokep	Rau Ke Maro	Arop-Lokep	apr
+Papua New Guinea	Aruamu	Aruamu	Godɨn Eghaghanim: Akar Gavgavir Dɨkɨrɨzir Ghurim ko Igiam	Aruamu Bible	msy2020
+Papua New Guinea	Aruamu	Aruamu	Godɨn Akar Aghuim; Akar Dɨkɨrɨzir Gavgavir Igiam	Aruamu NT	msy
+Papua New Guinea	Au	Au	Hɨm Yaaim Me God	Au NT	avt
+Papua New Guinea	Awa	Awa	Manikáne O Ehwehne	Awa NT	awb
+Papua New Guinea	Awara	Awara	Awara Baibel	Awara Bible portions	awx
+Papua New Guinea	Awiyaana	Awiyaana	Aú-aai símai kááísamakain-aai	Awiyaana NT	auy
+Papua New Guinea	Barai	Barai	GODIDO VUA MAEJE	Barai Bible	bbb
+Papua New Guinea	Bargam	Bargam	God Ago Maror Muturta Agamukan	Bargam NT	mlp
+Papua New Guinea	Bariai	Bariai	Deo Ele Posanga	Bariai Bible	bch
+Papua New Guinea	Barok	Barok	A Xuxubus Maxat	Barok NT	bjk
+Papua New Guinea	Baruga	Baruga	God Da Gaga Reka Re	Baruga NT	bjz
+Papua New Guinea	Yipma	Baruya	Yipma Genesis and New Testament	Baruya NT+Genesis	byr
+Papua New Guinea	Bau	Bau	Ifan Uqacan Totqec Louqec Niea	Bau Bible Story	bbd
+Papua New Guinea	Bedamuni	Beami	GODE EA SIA: IDA:IWANE GALA	Bedamuni Bible	beo
+Papua New Guinea	Bena-bena	Benabena	Ka Lamana'a Mono'i Lu Mu Tifi'ehina Ka Yabe	Benabena NT	bef
+Papua New Guinea	Biangai	Biangai	Anotogi Ngago Wik Yisu Kilisiyegi Langaira	Biangai NT	big
+Papua New Guinea	Biangai	Biangai	Biangai	New Testament in Biangai	big2013
+Papua New Guinea	Bimin	Bimin	Sunbin-Got em Kitakamin Weng	Bimin NT	bhl
+Papua New Guinea	Binandere	Binandere	God da Ge Wasiride	Binandere NT	bhg
+Papua New Guinea	Bine	Bine	Ireclota Mene	Bine NT	bon
+Papua New Guinea	Binumarien	Binumarien	Fúka Moodaanaki Kira Ufa Afaqínaasa Ufa	Binumarien Bible	bjr
+Papua New Guinea	Bo-Ung (Mara-Gomu)	Bo-Ung	PULU YILI-NGA UNG KONALE	Bo-Ung NT	mux
+Papua New Guinea	Bola	Bola	A Nitana Vure	Bola Bible	bnp
+Papua New Guinea	Borei	Borei	Raraŋ Aetaniacna Kam Wembaŋ Laŋ	New Testament in Mborena Kam language	gai
+Papua New Guinea	Borong	Borong	Uumeleembaa Buŋa Tere Soomoŋgo Gbilia	Borong NT + OT portions	ksr
+Papua New Guinea	Buang, Central/Mapos	Buang	Ġaġek Mewis	Buang NT	bzh
+Papua New Guinea	Mangga Buang	Buang, Mangga	Mangga Buang New Testament	Mangga Buang NT	mmo
+Papua New Guinea	Bugawac	Bugawac	Anötö ndê Yom Lêŋsêm Wakuc	Bugawac: Anötö ndê Yom Lêŋsêm Wakuc New Testament	buk2013
+Papua New Guinea	Buhutu	Buhutu	Buka Tabuna Tefadi	Buhutu Bible	bxh
+Papua New Guinea	Buhutu	Buhutu	Buhutu Matiu	Buhutu: Buhutu Matiu (Portions)	bxh24
+Papua New Guinea	Bukawa	Bukawa	Anötö ndê Yom Lêŋsêm Wakuc	Bukawa NT	buk
+Papua New Guinea	Bukiyip	Bukiyip	God Ananin Balan	Bukiyip NT	apeB
+Papua New Guinea	Coastal Arapesh	Bukiyip	IRUHIN ANANIN BARAEN	Coastal Arapesh NT	apec
+Papua New Guinea	Bunama	Bunama	LOINA HAUHAUNA	Bunama NT	bdd
+Papua New Guinea	Tubetube (Bwanabwana)	Bwanabwana	Buki Tabu Waluwaluna	Bwanabwana NT	tte
+Papua New Guinea	Tubetube (Bwanabwana)	Bwanabwana	Buki Tabu Beyabeyana	Bwanabwana OT	tteo
+Papua New Guinea	Chuave	Chuave	YAI GUMAN GUNOM KAM	Chuave NT	cjv
+Papua New Guinea	Dadibi	Dadibi	Godigo dwagi yai po buku	Dadibi Bible	mps
+Papua New Guinea	Daga	Daga	Daga New Testament	Daga Bible	dgz
+Papua New Guinea	Dano	Dano	MONO' GODOLO GOSOHO'	Dano NT	aso
+Papua New Guinea	Dawawa	Dawawa	Vari Verenama	Dawawa NT	dww
+Papua New Guinea	Dedua	Dedua	Yoac kekehagocac Dzadzahac gboria nga Mitiyegec	Dedua NT+Psalms	ded
+Papua New Guinea	Dobu	Dobu	Loina Tabu Auwauna	Dobu NT	dob
+Papua New Guinea	Doromu-Koki	Doromu-Koki	Sei di Uka Ago Ruaka	Doromu-Koki Bible	kqc
+Papua New Guinea	East Kewa	East Kewa	Gotena Epe Agale	East Kewa NT	kjs
+Papua New Guinea	Edolo	Edolo	Edolo Bible	Edolo Bible	etr
+Papua New Guinea	Enga	Enga	Enga New Testament (2023 Edition)	Enga NT	enq2
+Papua New Guinea	Managalasi	Ese or Managalasi	Godoni Vu'a Maiu'ina	Managalasi NT	mcq
+Papua New Guinea	Ewage-Notu	Ewage-Notu	BINGA EWAMEI IESU KERISO DA JAWO DA	Ewage-Notu NT	nou
+Papua New Guinea	Faiwol	Faiwol	GOT WENG ABEM Alokso Abino Kalin	Faiwol NT	fai
+Papua New Guinea	Fanamaket	Fanamaket	Fanamaket Baibel	Fanamaket NT	bjp
+Papua New Guinea	Fasu	Fasu	Kotimo Kawe Someaka Masane Oyapo	Fasu NT	faa
+Papua New Guinea	Filifita	Filifita dialect of Mufian	BASEF BUꞋWAMI GODI	Filifita NT	aoj-filifita
+Papua New Guinea	Finogen	Finongan	Ibot Tenen Man	Finongan NT+	fag
+Papua New Guinea	Folopa	Folopa	Yesu Kerisoné So Whi̧ Tao Sere Kisi Fo Wisi	Folopa NT	ppo
+Papua New Guinea	Fore	Fore	Fore New Testament	Fore NT	for
+Papua New Guinea	Gapapaiwa	Gapapaiwa	Gapapaiwa New Testament	Gapapaiwa NT	pwg
+Papua New Guinea	Ghayavi	Ghayavi	Ghayavi Mak	Ghayavi Mark	bmk
+Papua New Guinea	Girawa	Girawa	Anut nukan Ämän Eposek	Girawa NT	bbr
+Papua New Guinea	Girawa	Girawa	Anut nukan Ämän Eposek	New Testament in Girawa	bbr2013
+Papua New Guinea	Gizrra	Gizrra	Godón Buk	Gizrra Bible	tof
+Papua New Guinea	Golin	Golin	Golin New Testament	Golin NT	gvf
+Papua New Guinea	Guhu-Samane	Guhu-Samane	PORO TONGO USAQE	Guhu-Samane NT	ghs
+Papua New Guinea	Gumawana	Gumawana	Buki Kimaasabaina	Gumawana Bible	gvs
+Papua New Guinea	Gwahatike	Gwahatike	Al Kuruŋyen Mere Igiŋ	Gwahatike NT	dah
+Papua New Guinea	Halia	Halia	U BULUNGANA U NIGA	Halia NT	hla
+Papua New Guinea	Hanga Hundi	Hanga Hundi	Godna Hundi	Hanga Hundi Bible	wos
+Papua New Guinea	Haruai	Haruai	MÖNÖ KÖMÖ	Haruai NT	tmd
+Papua New Guinea	Huli	Huli	Habo nalolene bi gahenge lo winigo ogo	Huli Bible	hui
+Papua New Guinea	Ubuvala	Iamalele	YAUBADA YANA VONA'AWAUFAUFA 'IVAUNA	Ubuvala (Iamalele) NT	yml
+Papua New Guinea	Ngepma Kwundi	Iatmul	GOD WAA NYAAGƗT	Iatmul NT	ian
+Papua New Guinea	Iduna	Iduna	YAUBADA BONANA VEYAO IVAGUNA Bona Iduna	Iduna NT	viv
+Papua New Guinea	Imbo Ungu	Imbo Ungu	UNGU TUKUMEMU	Imbo Ungu NT	imo
+Papua New Guinea	Inoke-Yate	Inoke-Yate	Anumaya Koti'a Saufa Lami'nea Ke	Inoke-Yate NT	ino
+Papua New Guinea	Inoke-Yate	Inoke-Yate	Anumaya Kotiꞌa Saufa Lamiꞌnea Ke	New Testament in Inoke-Yate	ino2013
+Papua New Guinea	Ipili	Ipili	IPILI NUTESAMENE	Ipili Bible	ipi
+Papua New Guinea	Iwal	Iwal	YISU KILISI ANE BINGE VIE GIENGK IWAL AVOS	Iwal NT	kbm
+Papua New Guinea	Sepik Iwam	Iwam, Sepik	Yai Wɨn Kɨbiya	Sepik Iwam NT	iws
+Papua New Guinea	Iyo	Iyo	Iyo New Testament	Iyo NT	nca
+Papua New Guinea	Kakabai	Kakabai	Giu visuvisuna	Kakabai Bible portions	kqf
+Papua New Guinea	Kalam	Kalam	Kalam Baybol Buk Gor minim nuk kisin angayak	Kalam NT	kmh
+Papua New Guinea	Kaluli	Kaluli	Godeya꞉ To Nafayo꞉ We	Kaluli Bible portions	bco
+Papua New Guinea	Kamano-Kafe	Kamano	Anumzamofo Ruotage Avontafere	Kamano-Kafe Bible	kbq
+Papua New Guinea	Kamasau	Kamasau	Yumbui Ningg Wand Yuwon Ye	Kamasau NT	kms
+Papua New Guinea	Kamula	Kamula	Ka꞉dle Yu	Kamula Bible	xla
+Papua New Guinea	Kanasi	Kanasi	Ina Sanaa Gagalowa	Kanasi NT	soq
+Papua New Guinea	Kandas	Kandas	Buk Baibel long tokples Kandas	Kandas NT	kqw
+Papua New Guinea	Kandawo	Kandawo	Jisas Kandjiyebe Wopake	Kandawo NT	gam
+Papua New Guinea	Kaninuwa	Kaninuwa	Buk Baibel long Kaninuwa	Kaninuwa Bible	wat
+Papua New Guinea	Kanite	Kanite	Anumayamo'a Haegafa Alino Hagelafilatenea Kea	Kanite NT	kmu
+Papua New Guinea	Kanite	Kanite	Anumayamoa Haegafa Alino Hagelafilatenea Kea	Lubuagan Kalinga NT	knb
+Papua New Guinea	Kapin	Kapin	Kapin	Kapin Bible	tbx
+Papua New Guinea	Kara	Kara	Kara New Testament	Kara NT	leu
+Papua New Guinea	Karkar-Yuri	Karkar-Yuri	Kwaromp Kwapwe Kare Kar	Karkar-Yuri NT	yuj
+Papua New Guinea	Kasua	Kasua	Kokolo Kao Tesene Solo	Kasua NT	khs
+Papua New Guinea	Kâte	Kate	Kâte Bible	Kâte NT	kmg
+Papua New Guinea	Kuanua or Tinata Tuna or Tolai	Kauana	A BUK TABU A MAULANA KUNUBU ma A KALAMANA KUNUBU	Kauana Bible	ksd
+Papua New Guinea	Kalo (Keapara)	Keapara	VEKAPAWAI VALIGUNA	Keapara Kalo NT	khz
+Papua New Guinea	Kein	Kein	Uwait nugau Ze Naliu	Kein NT	bmh
+Papua New Guinea	Keyagana	Keyagana	Saufa Kotalake Gemae	Keyagana Bible	kyg
+Papua New Guinea	Kiriwina	Kilivila	Buki Pilabumaboma Kabutubogwa Deli Kabutuvau	Kilivila: Buki Pilabumaboma Kabutubogwa Deli Kabutuvau Bible	kij
+Papua New Guinea	Kire	Kire	Fhe Bakɨmen Kaman Kameŋ	Kire NT	geb
+Papua New Guinea	Kope	Kiwai, Northeast	Pai meai Ruka-ro iꞌati emerai-ka	Kope Luke	kiw
+Papua New Guinea	Kobon	Kobon	Manö Kamɨŋ	Kobon NT	kpw
+Papua New Guinea	Mountain Koiali	Koiali, Mountain	Buka Tumute	Mountain Koiali NT	kpx
+Papua New Guinea	Komba	Komba	SIŊGI ÂLIP EKAP	Komba NT	kpf
+Papua New Guinea	Kombio Wampukuamp	Kombio	Kombio Wampukuamp Bible Portions	Kombio Wampukuamp Bible	xbi-w
+Papua New Guinea	Kombio Yanimoi	Kombio	Kombio Yanimoi Bible Portions	Kombio Yanimoi Bible	xbi-y
+Papua New Guinea	Konai	Konai	Konai	Konai NT	kxw
+Papua New Guinea	Korafe-Yegha	Korafe	God Da Geka Seka	Korafe NT+Psalms	kpr
+Papua New Guinea	Kosena	Kosena	aúná-aimba simái tarúmakain-kwasai	Kosena NT	kze
+Papua New Guinea	Mongi	Kube	SISIPAC AC ɊELIA	Kube NT+Psalms	kgf
+Papua New Guinea	Kuman	Kuman	YESUS KAMO WAKAI	Kuman NT	kue
+Papua New Guinea	Kuni-Boazi	Kuni-Boazi	Mbumbukiam-qa Manqat Mbomambaqape	Kuni-Boazi Bible	kvg
+Papua New Guinea	Kunimaipa	Kunimaipa	Baiñetinavoz Tep Tokatit	Kunimaipa NT	kup
+Papua New Guinea	Kuot	Kuot	Bais Ula Mumuru Aime Iesu	Kuot NT	kto
+Papua New Guinea	Kurti	Kurti	Kurti Baibel	Kurti Scripture Portions	ktm
+Papua New Guinea	Kwanga	Kwanga	Kwanga New Testament	Kwanga NT	kwj
+Papua New Guinea	Washkuk	Kwoma	GOD RIITI MAJI KEPI	Washkuk NT	kmo
+Papua New Guinea	Glefe	Kwomtari	Oofulilu Na	Kwomtari (Glefe) Bible	kwo
+Papua New Guinea	Kyaka Eŋa	Kyaka Enga	BUKU BAEPOLE	Kyaka Enga Bible	kyc
+Papua New Guinea	Kyenele	Kyenele	Mak - Kiañiŋ Balaŋ	Kyenele Mark	kql
+Papua New Guinea	Label	Label	Label Buk Baibel	Label NT	lbb
+Papua New Guinea	Nara	Lala	Luva'ana'i Namana Makamakana	Nara NT	nrz
+Papua New Guinea	Nomad	Lavatbura-Lamusong	Nomad New Testament Portions	Nomad NT	lbv
+Papua New Guinea	Lote	Lote	Tomunga Hel Heueu Ngana	Lote Bible	uvl
+Papua New Guinea	Madak	Madak	Lenavolo Lovoang Kaala Maxat La Sam	Madak NT+Psalms	mmx
+Papua New Guinea	Maiadomu	Maiadomu	Maiadomu Malika	Maiadomu Mark	mzz
+Papua New Guinea	Maiwa	Maiwa	GAE  MATAIWA	Maiwa NT	mti
+Papua New Guinea	Hotê-Malê	Malei-Hote	Wapômbêŋ Anêŋ Abô Matheŋ	Malei-Hote NT	hot
+Papua New Guinea	Manam	Manam	Testamen Oauoau	Manam NT	mva
+Papua New Guinea	Manambu	Manambu	Nupela Testamen long Manambu	Manabu NT	mle
+Papua New Guinea	Mandara	Mandara	Mi Namani Tino	Mandara Bible	tbf
+Papua New Guinea	Mangseng	Mangseng	God Ile Riong Kinnga Ponganga nge Mangsengre Okei	Mangseng NT	mbh
+Papua New Guinea	Mape	Mape	Maŋkekerisiere Biŋe Quraŋ Jojofo Gariine	Mape NT	mlh
+Papua New Guinea	Marik	Marik	Mata Ifenẽya Nẽ Od	Marik NT	dad
+Papua New Guinea	Mato	Mato	Urana Xuana	Mato Bible	met
+Papua New Guinea	Mauwake	Mauwake	YEESUS OPOR ELIWA	Mauwake NT	mhl
+Papua New Guinea	Mbula	Mbula	Anutu Sua Kini Potomaxana	Mbula Bible	mna
+Papua New Guinea	Mekeo	Mekeo	Mauni Mamaga Iifaga	Mekeo NT	mek
+Papua New Guinea	Tok Pisin	Melanesian Pidgin	Buk Baibel long Tok Pisin	Tok Pisin Bible	tpiOTNT
+Papua New Guinea	Tok Pisin	Melanesian Pidgin	Buk Baibel long Tok Pisin	Tok Pisin Bible with Deuterocanon	tpi
+Papua New Guinea	Melpa	Melpa	Got Nga Nambuha Ik Kai	Melpa NT	med
+Papua New Guinea	Mende	Mende	Mashi Avui Wasilakahi	Mende NT	sim
+Papua New Guinea	Mengen	Mengen	Piunga Ba Bonga A Pau	Mengen NT	mee
+Papua New Guinea	Menya	Menya	Goti Hanjuwä Iqueqä Kukŋui	Menya NT	mcr
+Papua New Guinea	Meramera	Meramera	Laulau na Vinalu mine Salemo	Meramera NT	mxm
+Papua New Guinea	Mian Weng	Mian	Gode Dowan Wengobe	Mian NT	mpt
+Papua New Guinea	Migabac	Migabac	Migabac Bible Portions	Migabac Bible	mpp
+Papua New Guinea	Minaveha	Minaveha	Awaeha Vovouna Minaveha Movia	Minaveha NT	mvn
+Papua New Guinea	Miniafia	Miniafia	TUR GEWASIN O BAIBASIT BOUBUN	Minaifia NT	aai
+Papua New Guinea	Minimib	Minimib dialect of Kalam	MƗNƗM KOMIŊ	Minimib NT	kmh-m
+Papua New Guinea	Misima-Paneati	Misima-Paneati	Bateli Vavaluna	Misima-Paneati Bible	mpx
+Papua New Guinea	Molima	Molima	Molima New Testament	Molima NT	mox
+Papua New Guinea	Motu	Motu	Buk Baibel long tokples Motu	Motu Bible	meu
+Papua New Guinea	Hiri Motu	Motu, Hiri	Buka Helaga	Hiri Motu Bible	hmo
+Papua New Guinea	Mufian	Mufian	Basef Buꞌwafi Godi	Mufian NT	aoj
+Papua New Guinea	Mum	Mum	Kuyu Avi Matyu Yɨhimbɨvɨrami	Mum NT Portions	kqa
+Papua New Guinea	Mussau-Emira	Mussau-Emira	Mussau-Emira Bible	Mussau-Emira Bible	emi
+Papua New Guinea	Saveeng	Mutu	Maaron Saveeŋ Toni Patabuaŋ	Saveeng Oov Bible	tuc-o
+Papua New Guinea	Saveeng	Mutu	Maaron Saveeŋ Tooni Patabuyaaŋ	Saveeng Tuam Bible	tuc-t
+Papua New Guinea	Muyuw	Muyuw	KALEIWAG KWEIVAW	Muyuw NT	myw
+Papua New Guinea	Naasioi	Naasioi	Kara Naroong-anta Nerakung Kongarana'	Naasioi NT	nas
+Papua New Guinea	Nabak	Nabak	Kawawaŋgalen Tâtâ Alakŋaŋ	Nabak NT	naf
+Papua New Guinea	Nakanai	Nakanai	Nakanai New Testament	Nakanai NT	nak
+Papua New Guinea	Nali	Nali	Nongan Hiyan	Nali Bible	nss
+Papua New Guinea	Nalik	Nalik	A Dorang Daxa Zin Nakmai	Nalik NT	nal
+Papua New Guinea	Namiai (Barai)	Namiae	Godon Vuak Ma Ijin	Namiai NT	nvm
+Papua New Guinea	Nehan	Nehan	Nehan New Testament	Nehan NT	nsn
+Papua New Guinea	Nek	Nek	Nek Bible	Nek NT	nif
+Papua New Guinea	Nend	Nend	MAK Yakŋ Ohɨrand Ya Imbɨr Makɨv Mpamar	Mark in Nend	anh
+Papua New Guinea	Nii	Nii	Gos Nge Ek Ka Ei Sinim Kin Ngołum	Nii NT	nii
+Papua New Guinea	Saisai	Nimoa	Metiu ge Efeso	Saisai Matthew + Ephesians	nmws
+Papua New Guinea	Nobonob	Nobonob	KAYAKNU NAI Tituanak Bau	Nobnob NT	gaw
+Papua New Guinea	Arau	North Tairora	Isuva Soqe Uva Kuama	North Tairora Arau Bible	tbg-a
+Papua New Guinea	Notsi	Notsi	Inesaait Mamainaang Laa Sin Notsi	Notsi NT	ncf
+Papua New Guinea	Nukna	Nukna	Miti yan Papia	Nukna Bible	klt
+Papua New Guinea	Nukumanu	Nukumanu	Nukumanu	Nukumanu NT	nuq
+Papua New Guinea	Numaŋgaŋ	Numanggang	Bepaŋ'Walaŋ Folofolok Kobuli	Numanggang Bible	nop
+Papua New Guinea	Nyindrou	Nyindrou	Sahou ta Kindrei	Nyndrou NT + OT portions	lid
+Papua New Guinea	Odoodee	Odoodee	Godeeyo To Tekepo	Odoodee partial NT	kkc
+Papua New Guinea	Ogea	Ogea	ITOU NOMO HILOU BEELE	Ogea NT	eri
+Papua New Guinea	Oksapmin	Oksapmin	Got orhe meng brak ban	Oksapmin NT	opm
+Papua New Guinea	Olo	Olo	Il Teingipe Ma Ili Topwepe Lapiri Lirouku	Olo NT	ong
+Papua New Guinea	Ömie	Omie	God-are Jögoru I'oho	Omie NT	aom
+Papua New Guinea	Veqaura	Omwunra-Toqura or South Tairora	Veqaura Baibel	South Tairora Veqaura NT	omw-v
+Papua New Guinea	Ono	Ono	Waom Yesu Wane Sigi Maep Don	Ono NT	ons
+Papua New Guinea	Orokaiva Ehija	Orokaiva	God Ta Duru Javotoho	Orokaiva Ehija NT	okvh
+Papua New Guinea	Orokaiva	Orokaiva	God Ta Duru Javotoho	Orokaiva Etija NT	okv
+Papua New Guinea	Patep	Patep	Yesu Xolac	Patep NT	ptp
+Papua New Guinea	Hinsaal	Patpatar	No Tahut na Hinhinawas	Hinsaal NT	gfkh
+Papua New Guinea	Patpatar	Patpatar	No Sigar Kunubus tika ma Ira Ninge na Lotu	Patpatar NT and Psalms	gfk
+Papua New Guinea	Sokarek	Patpatar	No Tahut na Hininaawas	Sokarek NT	gfks
+Papua New Guinea	Pele-Ata	Pele-Ata	Vaikala Noxou Lataua	Ata Bible	ata
+Papua New Guinea	Qaqet	Qaqet	A SLURLKA AA LANGINKA AMA IAMESKA	Qaqet Bible	byx
+Papua New Guinea	Ramoaaina	Ramoaaina	BUK TAABU MATAKIN + TURPAAINA	Ramoaaina NT+	rai
+Papua New Guinea	Karo (Rawa)	Rawa	Anutlo Sumange Mande Keda	Rawa Karo NT	rwo-karo
+Papua New Guinea	Rawa (Rawa)	Rawa	ANUTRO MANDE KETA	Rawa NT	rwo-rawa
+Papua New Guinea	Rotokas	Rotokas	AIREPA VAE REO OVOI	Rotokas NT	roo
+Papua New Guinea	Ampeeli-Wojokeso	Safeyoka	Mpohwoe Hungkuno Songofoho	Ampeeli-Wojokeso NT+Genesis	apz
+Papua New Guinea	Saliba	Saliba	Yaubada wasana: Buka Hauhauna tupwana	Saliba NT	sbe
+Papua New Guinea	Salt-Yui	Salt-Yui	Salt-Yui New Testament	Salt-Yui NT	sll
+Papua New Guinea	Songumsam	Sam	Xotei ido Sam Mak ana Inggrengalox	Sam Mark	snx
+Papua New Guinea	Saniyo-Hiyewe	Saniyo-Hiyewe	Owane Sitewi lo Peri Teꞌe Naneiyei Heꞌi	Saniyo-Hiyewe NT	sny
+Papua New Guinea	Saposa	Saposa	U VURUNGAN ROF FOUN TEN GOV NANE JISAS KRAIS	Saposa NT	sps
+Papua New Guinea	Seimat	Seimat	KAKAI HAEU	Seimat NT	ssg
+Papua New Guinea	Selepet	Selepet	Yeshuât Den Pat Âlepŋe	Selepet NT	spl
+Papua New Guinea	Sembeleke	Sembeleke	Sembeleke	Sembeleke Bible	ssx
+Papua New Guinea	Siane	Siane	Gotiki olu kutifi ledami ka kofawa	Siane Komongu NT	snp
+Papua New Guinea	Siane-Lambau	Siane	Goti Ukuwala Hala	Siane Lambau NT	snp-lambau
+Papua New Guinea	Sinaugoro	Sinaugoro	GINITAḠO VARIḠUNA	Sinaugoro NT	snc
+Papua New Guinea	Sio	Sio	MARO KINDENI KAWA ŊGUA	Sio NT + Psalms	xsi
+Papua New Guinea	Siroi	Siroi	KUATE TUKU PASA	Siroi Bible	ssd
+Papua New Guinea	Somau Karia	Somau Karia	Xoiteupo Kuna	Somau Karia NT	six
+Papua New Guinea	Burum-Mindik or Somba-Siawari	Somba-Siawari or Burum-Mindik	Burum-Mindik Bible	Somba-Siawari Bible	bmu
+Papua New Guinea	Sob Dora	Sop	Profet Yonab Budi / Dora Nama Lukde Feiaga	Sop Jonah and Luke	urw
+Papua New Guinea	Omwunra Toqura	South Tairora	Aatasara Ioni + Maaki	South Tairora Aatasara John & Mark	omw-a
+Papua New Guinea	Suau	Suau	RIBA HARIHARIUNA	Suau Bible	swp
+Papua New Guinea	Sudest	Sudest	Toto Thovuye Loi Ghalɨŋae	Sudest Bible Portions	tgo
+Papua New Guinea	Suena	Suena	TUA YESU KRISTORA OZIGA EWANANA	Suena NT	sue
+Papua New Guinea	Sulka	Sulka	E Nut Ka Meer Mang Ka Mokpom To A Gunngar	Sulka NT	sua
+Papua New Guinea	Sursurunga	Sursurunga	Hutngin kamkabat si Káláu	Sursurunga NT	sgz
+Papua New Guinea	Tabo (Aramia)	Tabo	GODOKONO HIDO TABO	Tabo Aramia NT	knv-aramia
+Papua New Guinea	Tabo (Fly River)	Tabo	GODOKONO WADE TABO	Tabo Fly River NT	knv-fly_river
+Papua New Guinea	Tay	Tai	Jisas Klays Takaw Teplep Ne	Tai NT	taw
+Papua New Guinea	Tairora	Tairora	Kotira Uva	North Tairora	tbg
+Papua New Guinea	Omwunra-Toqura (South Tairora)	Tairora, South	QARAAKYA QUA TIMWATORA	South Tairora NT	omw
+Papua New Guinea	Takia	Takia	Anut san bilaluŋ foun	Takia NT	tbc
+Papua New Guinea	Takuu	Takuu	Na Taratara TeAtua i naa taratara Takuu	Takuu NT	nho
+Papua New Guinea	Taupota	Taupota	Taupota Mark	Taupota Mark	tpa
+Papua New Guinea	Tawala	Tawala	YAUBADA A WOGATALA WOUNA	Tawala NT	tbo
+Papua New Guinea	Telefol Weng	Telefol	GOD IMI WENG	Telefol NT	tlf
+Papua New Guinea	Tifal	Tifal	God Ami Alokso Weng	Tifal NT	tif
+Papua New Guinea	Timbe	Timbe	Yusugât Pat Âlep Den	Timbe NT	tim
+Papua New Guinea	Vasui (Tinputz)	Tinputz	SOE A TOꞌTOꞌ	Tinputz Vasui NT	tpz
+Papua New Guinea	Tuma-Irumu	Tuma-Irumu	Tuma-Irumu	Tuma-Irumu Bible	iou
+Papua New Guinea	Tungag	Tungag	AKUS RO NA PALATUNG TANGINANG ANI IESU KARISTO	Tungag Bible	lcm
+Papua New Guinea	Uare	Uare	Buka Zaḡoḡa Ḡoitore Iziga	Uare NT	ksj
+Papua New Guinea	Ubir	Ubir	God An Dura Bobaibasit Boboun	Ubir Bible	ubr
+Papua New Guinea	Umanakaina	Umanakaina	IYA YONAI	Umanakaina NT	gdn
+Papua New Guinea	Umbu-Ungu Andelale	Umbu-Ungu	PULU YEMONGA UNGU KONDEMO	Umbu-Ungu Andelale NT	ubu-andelale
+Papua New Guinea	Umbu-Ungu Kala	Umbu-Ungu	PULU YEMONGA UNGU KONDEMO	Umbu-Ungu Kala NT	ubu-kala
+Papua New Guinea	Umbu-Ungu No Penge	Umbu-Ungu	PULU YEMONGA UNGU KONDEMO	Umbu-Ungu No Penge NT	ubu-nopenge
+Papua New Guinea	Ura	Ura	Ama Iaräs Na Ngät Ama Rharesbane	Ura NT	uro
+Papua New Guinea	Urat	Urat	Wusyep Bwore tikin Got	Urat New Testament	urt
+Papua New Guinea	Urii	Uri	ANUTUNING MIDI TOTANGAKA INGA'NI	Urii NT	uvh
+Papua New Guinea	Urim	Urim	Kla Weten A Maur Wailen Lam	Urim NT	urim
+Papua New Guinea	Urim	Urim	Urim-Kalpm	Urim: Wurkapm a Maur Wailen Portions	uri
+Papua New Guinea	Usan	Usan	Qenu Qob Uber	Usan NT	wnu
+Papua New Guinea	Usarufa	Usarufa	aúgen-anona-anon-aimma	Usarufa Bible	usa
+Papua New Guinea	Pole Vitu	Vitu	Kalohua Kemi ke Iesus na Polea Vitu	Vitu NT	wiv
+Papua New Guinea	Waffa	Waffa	Karaasa Yeena Rau Kioo Kuaivovee	Waffa NT	waj
+Papua New Guinea	Wagi	Wagi	Wagi	Wagi Luke	fad
+Papua New Guinea	Waima	Waima	'Abi'uai Apa'uana Mahamahana	Waima NT	rro
+Papua New Guinea	Wantoat	Wantoat	Anututane Wam Kwikwiu Kayuk Kaknga Jesu Kraisda Takepbut Taknga Anin gatu Sam Kuupbam Lotutane Kap Taknga	Wantoat NT	wnc
+Papua New Guinea	Walsa/Waris	Waris	Sesoana Besal Nemelmoa Walsana Moana	Waris Bible	wrs
+Papua New Guinea	Feni	Warwar Feni	Konona Sunwar lo Yesus Kristus	Feni NT	hrw
+Papua New Guinea	Waskia	Waskia	KAEM KO DEN	Waskia Bible	wsk
+Papua New Guinea	Wedau	Wedau	Wedau Mark	Wedau Mark	wed
+Papua New Guinea	Topura (Wedau)	Wedau	Topura (Wedau) Mark	Wedau Topura Mark	wed-topura
+Papua New Guinea	Weri	Weri	NGÖNËN PEPEWER	Weri NT	wer
+Papua New Guinea	West Kewa	West Kewa	Gotena Epe Agaa	West Kewa Bible	kew
+Papua New Guinea	Wipi	Wipi	Wipi Yɨt God ma Yɨna Sisɨl Yɨna Peba	Wipi NT	gdr
+Papua New Guinea	Witu	Wiru	Weneya Totono Keraisu Yesunomo	Witu NT	wiu
+Papua New Guinea	Ambulas (Wosera)	Wosera-Kamu dialect of Ambulas	Gotna Kundi	Ambulas Wosera NT	abt-wosera
+Papua New Guinea	Wuvalu-Aua	Wuvalu-Aua	Wuvulu Manufau Fi'ugaia	Wuvalu-Aua NT	wuv
+Papua New Guinea	Jabem	Yabem	BIBOLO DABUŊ	Yabem Bible	jae
+Papua New Guinea	Yalë	Yale	Ëhwati Gali	Portions of the Holy Bible in the Yalë language of Papua New Guinea	nce
+Papua New Guinea	Yamap	Yamap	Yamap	Yamap NT+	ymp
+Papua New Guinea	Yareba	Yareba	Yareba Nupela Testamen	Yareba NT	yrb
+Papua New Guinea	Yau	Yau	Fat Mata ogepma	Yau NT	yuw
+Papua New Guinea	Yaweyuha	Yaweyuha	Yaweyuha New Testament	Yaweyuha NT	yby
+Papua New Guinea	Yele Rossel	Yele	NMÎ MÎ U KÓPU DYUU	Rossel NT	yle
+Papua New Guinea	Yessan-Mayo (Yamano)	Yessan-Mayo	God Reri Teiktem Tuma Ager	Yessan-Mayo Yamano NT	yss-yamano
+Papua New Guinea	Yawu (Yessan-Mayo)	Yessan-Mayo	GOD ETER AGERKE NAMDERASEM TUMA YENBO	Yessan-Mayo Yawu NT	yss-yawu
+Papua New Guinea	Yipma/Wagamwa	Yipma	Selected Scriptures in Yipma/Wagamwa	Yipma Wagamwa NT	byr-w
+Papua New Guinea	Yongkom	Yongkom	Buk Baibel long tokples Yongkom	Yongkom NT + partial OT	yon
+Papua New Guinea	Yopno	Yopno	PIŊKOP GEN	Yopno NT & Psalms	yut
+Papua New Guinea	Zia	Zia	TUWA YESU KRISTORA BOWI IWAING	Zia NT	zia
+Papua New Guinea	'Auhelawa	’Auhelawa	Yaubada Yana Walo Yemidi Vauvauna	’Auhelawa: Yaubada Yana Walo Yemidi Vauvauna New Testament	kud2014
+Paraguay	Maka	Maka	INTATA ȽE'ȽIJEI	Maka NT	mca
+Peru	Achuar-shiwiar	Achuar-shiwiar	Achuar Peru: Yuse Chichame Aarmauri	Achuar-shiwiar Bible	acuNT
+Peru	Aguaruna	Aguaruna	Awajún [Aguaruna]	Aguaruna Bible	agr
+Peru	Ajyíninka Apurucayali	Ajyíninka Apurucayali	KAMIITHARI ÑAANTSI	Ajyíninka Apurucayali NT	cpcNT
+Peru	Amarakaeri	Amarakaeri	Jesucristo oy oa’pak: Kenda Jesucristoa; monigka’uyatenok; Diostaj mo’manopo’yarea’ika’ne	New Testament in Amarakaeri (PE:amr:Amarakaeri)	amrNT
+Peru	Arabela	Arabela	Quiarinio pueyaso rupaa pa jiyaniijia Jesucristojiniji pueyano rupaajinia	Arabela NT	arlNT
+Peru	Asháninka	Asháninka	Irineane tasorentsi oquenquetsatacotaqueri Avincatsarite Jesoquirishito	Asháninka NT	cniNT
+Peru	Ashéninka Pajonal	Ashéninka Pajonal	Iwaperite tajorentsi ikenkithatakoetziri awinkatharite Jesokirishito: owakirari inimotakiri tajorentsi	Ashéninka Pajonal NT	cjoNT
+Peru	Ashéninka Perené	Ashéninka Perené	Ashéninka Perené	Ashéninka Perené: Ashéninka Perené (New Testament+)	prq
+Peru	Ashéninka, Pichis	Ashéninka, Pichis	KAMEETHARI ÑAANTSI: Iñaaventaitzirira Avinkatharite Jesucristo	Pichis Ashéninka NT	cpuNT
+Peru	Ashéninka Ucayali del Sur	Ashéninka, South Ucayali	Las Escrituras en Ashéninka Ucayali del Sur del Perú	South Ucayali Ashéninka Bible	cpy
+Peru	Ashéninka, Ucayali-yurúa	Ashéninka, Ucayali-yurúa	Kameethari Ñaantsi: ikenkitha-takoitziri awinkatharite Jesucristo; Owakerari aapatziya-wakagaantsi	Ucayali-yurúa Ashéninka NT	cpbNT
+Peru	Bora	Bora	Píívyéébé ihjyu: jetsocríjyodítyú cáátúnuháámɨ	Bora NT	boaNT
+Peru	Candoshi-Shapra	Candoshi-Shapra	Candoshi-Shapra	Candoshi-Shapra NT	cbuNT
+Peru	Capanahua	Capanahua	Noquen hihbaan joi	Capanahua NT	kaqNT
+Peru	Caquinte	Caquinte	Iroaquerari Itioncacaantaqueca Aapani Irioshi: Tsavetacoquerica Amajirote Jesoquirishito	New Testament in Caquinte (PE:cot:Caquinte)	cotNT
+Peru	Cashibo-Cacataibo	Cashibo-Cacataibo	Nukën 'Ibu Diosan ain unikama 'inan ain bana	Cashibo-Cacataibo NT	cbrNT
+Peru	Chayahuita	Chayahuita	Yosë nanamën	Chayahuita NT	cbtNTpo
+Peru	Huambisa	Huambisa	Yuusa chichame yaunchukia tura yamaram chichamjai aarmau	Huambisa NT	hubNT
+Peru	Huitoto, Murui	Huitoto, Murui	Jusiñamui uai: Jusiñamui jito rafue illa rabenico	Murui Huitoto	huuNT
+Peru	Kashinawa	Kashinawa	Diosun Jesúswen taexun yuba bena yiniki	Kashinawa NT	cbsNT
+Peru	Machiguenga	Machiguenga	Iriniane Tasorintsi	Machiguenga NT	mcbNT
+Peru	Matsés	Matsés	Esuquidistu Chuiquin Tantiamete	Matsés NT	mcfNT
+Peru	Nomatsiguenga	Nomatsiguenga	Irinibare Tosorintsi Ocomantëgotëri Antigomi Jesoquirisito	Nomatsiguenga NT	notNT
+Peru	Quechua, Ambo-Pasco	Quechua, Ambo-Pasco	Quechua, Ambo-Pasco (Mushog)	Ambo-Pascq Quechua NT	qva
+Peru	Quechua, Cajamarca	Quechua, Cajamarca	Mushuq Tistamintu	Cajamarca Quechua NT	qvcNT
+Peru	Quechua, Eastern Apurímac	Quechua, Eastern Apurímac	Mosoq Testamento	Eastern Apurímac Quechua NT	qveNT
+Peru	Huallaga Huánuco Quechua	Quechua, Huallaga Huánuco	Tayta Diosninchi Isquirbichishan	Huallaga Huánuco Quechua NT	qub
+Peru	Quechua, Huamalíes-Dos de Mayo Huánuco	Quechua, Huamalíes-Dos de Mayo Huánuco	Mushog Testamento	Huamalíes-Dos de Mayo Huánuco Quechua NT	qvhNT
+Peru	Quechua, Huaylas Ancash	Quechua, Huaylas Ancash	Teyta Diospa Mushoq Testamentun	Huaylas Ancash Quechua NT	qwhNT
+Peru	Quechua, Huaylla Wanca	Quechua, Huaylla Wanca	Muśhü limalicuy	Huaylla Wanca Quechua NT	qvwNT
+Peru	Quechua, Lambayeque	Quechua, Lambayeque	Mushuq Testamento	Lambayeque Quechua NT	qufNT
+Peru	Quechua, Margos-Yarowilca-Lauricocha	Quechua, Margos-Yarowilca-Lauricocha	Mushog Testamento	Margos-Yarowilca-Lauricocha Quechua NT	qvmNT
+Peru	Quechua, Napo	Quechua, Napo	Quichua, Napo	Napo Quichua Mark	qvo
+Peru	Quechua, North Junín	Quechua, North Junín	Tayta Diospa Guepacag Testamentun	North Junín Quechua NT	qvnNT
+Peru	Quechua, Northern Conchucos Ancash	Quechua, Northern Conchucos Ancash	Señor Jesucristopa alli willacuynin	Northern Conchucos Ancash Quechua NT	qxnNT
+Peru	Quechua, Panao Huánuco	Quechua, Panao Huánuco	Mushug Testamento	Panao Huánuco Quechua NT	qxhNT
+Peru	Quechua, San Martín	Quechua, San Martín	Tata Diospa Mushuk Rimanan	San Martín Quechua NT	qvsNT
+Peru	Quechua, Southern Conchucos Ancash	Quechua, Southern Conchucos Ancash	Mushog Testamento	Southern Conchucos Ancash Quechua NT	qxoNT
+Peru	Quechua, Southern Pastaza	Quechua, Southern Pastaza	Yaya Diospa mushu killkachishkan shimi	Southern Pastaza Quechua NT	qupNT
+Peru	Sharanahua	Sharanahua	Diospan Tsain	Sharanahua NT	mcdNT
+Peru	Shipibo-Conibo	Shipibo-Conibo	Diossen joi jatíxonbi onanti joi	Shipibo-Conibo Bible	shpNTpo
+Peru	Ticuna	Ticuna	Tupanaarü Ore i Tórü Cori ya Ngechuchu ya Cristuchiga	Ticuna NT	tcaNT
+Peru	Urarina	Urarina	Cana Coaunera Ere	Urarina NT	uraNT
+Peru	Yagua	Yagua	Ju̱denu jto̱ nijya̱nvamyu	Yagua NT	yadNT
+Peru	Yaminahua	Yaminahua	Niospa meka fena Jesucristoõnoa	Yaminahua NT	yaaNT
+Peru	Yanesha'	Yanesha'	Yompor Poʼñoñ ñeñt ̃ attõ Yepartseshar Jesucristo eʼñe etserra aʼpoctaterrnay Yomporesho	Yanesha' NT	ameNT
+Peru	Yine	Yine	Gerotu Tokanchi Gipiratkaluru	Yine NT	pibNT
+Philippines	Casiguran Dumagat Agta	Agta, Casiguran Dumagat	Bigu a tipan: I mahusay a baheta para ta panahun tam	Casiguran Dumagat Agta NT	dgc
+Philippines	Central Cagayan Agta	Agta, Central Cagayan	Uhohug Na Namaratu Gafu Te Hesus Kristu	Central Cagayan Agta	agt
+Philippines	Agta, Dupaninan	Agta, Dupaninan	Agta, Dupaninan	Agta, Dupaninan: Agta, Dupaninan (New Testament)	duo
+Philippines	Agta, Umiray Dumaget	Agta, Umiray Dumaget	I bowon a pagpakikasungdu	Agta, Umiray Dumaget: I bowon a pagpakikasungdu (New Testament)	due
+Philippines	Agutaynen	Agutaynen	ANG BITALA TANG DIOS: Ba-long Inigoan	Agutaynen NT	agn
+Philippines	Antipolo Ifugao	Antipolo Ifugao	Kallahan, Keley-i	Antipolo Ifugao Bible	ify
+Philippines	Pamplona Atta	Atta, Pamplona	Yù bilin ni Namarò nga meyannung kâ Apu Kesu Kiristu: Yù bagu nga tarátu ni Namarò sù ira nga mangikatalà kâ Apu Kesu Kiristu	Pamplona Atta NT	att
+Philippines	Ayta, Abellen	Ayta, Abellen	Ayta Abellen	Ayta, Abellen: Ayta Abellen (New Testament+)	abp
+Philippines	Ambala Ayta	Ayta, Ambala	Ayta Ambala NT Portions	Ayta Ambala NT Portions	abc
+Philippines	Mag-antsi Ayta	Ayta, Mag-antsi	Ya habi ni apo namalyari: Bayon tsipan - Ayta Mag-antsi	Mag-antsi Ayta NT	sgb
+Philippines	Mag-Indi Ayata	Ayta, Mag-Indi	Aytan Mag-Indi	Ayta Mag-Indi Bible	blx
+Philippines	Balangao	Balangao	Hen alen Apudyus	Balangao NT	blw
+Philippines	Bantoanon	Bantoanon	Bag-ong Kasuyatan ag Henesis — Exodo	Bantoanon: Bag-ong Kasuyatan ag Henesis — Exodo New Testament+	bno
+Philippines	Batad Ifugao	Batad Ifugao	Nan Hapit Apo Dios	Ifugao, Batad: Nan Hapit Apo Dios (Bible)	ifb
+Philippines	Binukid	Binukid	Lalang hu Dios	Binukid NT	bkd
+Philippines	Koronadal Blaan	Blaan, Koronadal	I Falami Kasafnè (New Testament)	Koronadal Blaan NT	bpr
+Philippines	Sarangani Blaan	Blaan, Sarangani	I tnalù dwata	Sarangani Blaan NT	bps
+Philippines	Bolinao	Bolinao	Si Biblia	Bolinao NT	smkNT
+Philippines	Central Bontok	Bontok, Central	Nan kalin Apo Dios	Central Bontok NT	lbk
+Philippines	Eastern Bontok	Bontok, Eastern	Nan kalen apo Dios (Nan fiarú ay turag)	Eastern Bontok NT	ebk
+Philippines	Botolan Sambal	Botolan Sambal	Hay halitá nin Diyos hay kawkanta boy kawkahalita-an (The New Testament Psalms and Proverbs)	Sambal, Botolan: Hay halitá nin Diyos hay kawkanta boy kawkahalita-an (The New Testament Psalms and Proverbs) New Testament+	sbl
+Philippines	Brooke's Point Palawano	Brooke's Point Palawano	Bagung Pinegsulutan et Empu'	Brooke's Point Palawano: Bagung Pinegsulutan et Empuꞌ New Testament+	plw
+Philippines	Butbut Kalinga	Butbut Kalinga	Kalinga, Butbut	Kalinga, Butbut: Nan Ukud Apudyus (New Testament)	kyb
+Philippines	Caluyanun	Caluyanun	Anang ambal ang Dios: Magandang balita Biblia	Caluyanun NT	clu
+Philippines	Cebuano	Cebuano	Balaan nga Bibliya	Cebuano Bible	cebulb
+Philippines	Cebuano	Cebuano	Biblica® Open Ang Pulong sa Dios	Cebuano: Biblica® Open Ang Pulong sa Dios (Bible)	cebocb
+Philippines	Central Sama	Central Sama	Central Sinama 2008 NT	Central Sama: New Testament & Old Testament portions	sml
+Philippines	Central Subanen	Central Subanen	Subanen, Central	Central Subanen NT	syb
+Philippines	Chavacano	Chavacano	El Nuevo Testamento	Chavacano NT	cbk
+Philippines	Dibabawon Manobo	Dibabawon Manobo	Dibabawon Manobo texts	Manobo, Dibabawon: Dibabawon Manobo texts New Testament	did
+Philippines	Dibabawon Manobo	Dibabawon Manobo	Dibabawon Manobo	Manobo, Dibabawon: Dibabawon Manobo texts New Testament	mbd
+Philippines	Ga'dang	Ga'dang	Ga'dang	Ga'dang: Ga'dang New Testament	gdg
+Philippines	Ibaloi	Ibaloi	Dibshon Mengi-kan Ni Pansigshan	Ibaloi NT	ibl
+Philippines	Ibatan	Ibatan	Ibatan	Ibatan Bible	ivb
+Philippines	Ifugao, Amganad	Ifugao, Amganad	Ifugao, Amganad	Ifugao, Amganad: Nan Hapit Apu Dios Bible	ifa
+Philippines	Ifugao, Mayoyao	Ifugao, Mayoyao	Mayoyao Ifugao	Ifugao, Mayoyao: Hapit apo jos New Testament	ifu
+Philippines	Ifugao, Tuwali	Ifugao, Tuwali	Nan Kalin Apu Dios	Tuwali Ifugao Bible	ifk
+Philippines	Ilocano	Ilocano	Ti Biblia	Ilocano Bible	iloulb
+Philippines	Ilonggo	Ilonggo	Biblica® Libre Ang Pulong Sang Dios	Hiligaynon: Biblica® Libre Ang Pulong Sang Dios (Bible) for the Philippines	hil
+Philippines	Inabaknon	Inabaknon	I Baha'o Kasuratan	Inabaknon NT	abx
+Philippines	Isnag	Isnag	Ya bàbànán ne Dios nga nesúrát kiya baru wa túlag Genesis se Exodus	Isnag: Ya bàbànán ne Dios nga nesúrát kiya baru wa túlag Genesis se Exodus New Testament+	isd
+Philippines	Ivatan	Ivatan	Ivatan	Ivatan Bible	ivv
+Philippines	Kagayanen	Kagayanen	Pulong ta Dyos: Genesis daw bag-o na kasugtanan	Kagayanen NT	cgc
+Philippines	Eastern Kalagan	Kalagan	Kalagan	Eastern Kalagan NT	kqe
+Philippines	Kalagan Western	Kalagan Western	Kitab Injil	Western Kalagan NT	kqew
+Philippines	Limos Kalinga	Kalinga, Limos	Ugud apudyus = Ti baro tulag	Limos Kalinga NT	kmk
+Philippines	Kalinga, Southern	Kalinga, Southern	Kalinga, Southern	Kalinga, Southern: Na ukud Apudyus New Testament	ksc
+Philippines	Kankanaey	Kankanaey	Kankanaey Bible	Kankanaey Bible	kne
+Philippines	Kankanay, Northern	Kankanay, Northern	Kalin Apo Dios	New Testament in Kankanay, Northern	xnn
+Philippines	Kinaray-a	Kinaray-a	Kinaray-a	Kinaray-a NT	krj
+Philippines	Mamanwa	Mamanwa	Mamanwa	Mamanwa NT	mmn
+Philippines	Manobo, Agusan	Manobo, Agusan	Kasuyatan to Diyus	Agusan Manobo NT	msmNT
+Philippines	Manobo, Ata	Manobo, Ata	Kasulatan to Magboboot	Ata Manobo NT	atdNT
+Philippines	Manobo, Cotabato	Manobo, Cotabato	Manobo, Cotabato	Cotabato Manobo NT	mta
+Philippines	Manobo, Ilianen	Manobo, Ilianen	Manobo, Ilianen	Manobo, Ilianen: Ke meupiya ne tudtul mekeatag ki Hisu Kristu New Testament	mbi
+Philippines	Manobo, Matigsalug	Manobo, Matigsalug	Meupiya ne panugtulen: Bibliya ne Matigsalug	Matigsalug Manobo NT	mbtNT
+Philippines	Manobo, Obo	Manobo, Obo	Moppiyon Dinoggan, Moka-atag ki Disas Krays	Obo Manobo NT	oboNT
+Philippines	Sarangani Manobo	Manobo, Sarangani	Se kaling peokit	Sarangani Manobo NT	mbs
+Philippines	Manobo, Western Bukidnon	Manobo, Western Bukidnon	Is Lalag te Megbevayà	Western Bukidnon Manobo OT	mbbOT
+Philippines	Mansaka	Mansaka	Yang Bago na Togon Kanatu	Mansaka NT	msk
+Philippines	Masbatenyo	Masbatenyo	An Maayo na Barita Hali sa Dios	Masbatenyo NT	msb
+Philippines	Paranan	Paranan	En Maganda A Bareta Biblia	New Testament in Paranan (RP:prf:Paranan)	prfNT
+Philippines	Romblomanon	Romblomanon	Romblomanon	Romblomanon NT	rol
+Philippines	Pangutaran Sama	Sama, Pangutaran	Kitab Injil	Pangutaran Sama NT	slm
+Philippines	Sambal	Sambal	Tina Sambal	Tina Sambal NT	xsb
+Philippines	Subanen, Northern	Subanen, Northern	Subanen, Northern	Northern Subanen NT	stb
+Philippines	Subanon, Western	Subanon, Western	Subanon, Western	Western Subanon NT	suc
+Philippines	Tagabawa	Tagabawa	Kagi Ka Manama	Tagabawa Bible	bgs
+Philippines	Tagakaulo	Tagakaulo	Tagakaulo New Testament	Tagakaulo NT	klg
+Philippines	Tagalog	Tagalog	banal na Bibliya	Tagalog Bible	tglulb
+Philippines	Tagbanwa, Calamian	Tagbanwa, Calamian	Tagbanwa, Calamian	Calamian Tagbanwa NT	tbk
+Philippines	Tausug	Tausug	Tausug	Tausug NT	tsg
+Philippines	Tboli	Tboli	Udél dwata: gna kesfasad ne lomi kesfasad	Tboli NT	tblNT
+Philippines	Tiruray	Tiruray	I Fiyowe Uret	Tiruray NT	tiy
+Philippines	Yakan	Yakan	Yakan Bible	Yakan Bible	yka
+Poland	Esperanto	Esperanto	Londona Biblio	Esperanto Bible	epo
+Poland	Polski	Polish	Biblica® Słowo Życia, otwarty dostęp	Polish OPLNT	polsz
+Poland	Polskie	Polish	Święta Biblia	Polish Updated Gdansk Bible	polubg
+Romania	Bayash	Romanian	Sfanta Biblie	Bayash Bible	ronBayash
+Romania	Romanian	Romanian	Библия Думитру Корнилеску 1924 (БДК)	Romanian Bible (Cyrillic)	ron1924
+Romania	Română	Romanian	Biblia Traducerea Fidela	Romanian BTF Bible	ronbtf
+Romania	Română	Romanian	Liber Sfanta Biblie	Romanian Free Holy Bible	ronlsb
+Russian Federation	ханты ясаң‎	Khanty	Хӑнты Перевод Библии	Khanty Bible	kca
+Russian Federation	русский	Russian	Синодальный перевод	Russian Synodal Bible	russyn
+Saint Lucia	Saint Lucian Creole French	Saint Lucian Creole French	Tèstèman nèf-la: Épi an posyòn an liv samz-la	Saint Lucian Creole French NT	acfNT
+Senegal	Bandial	Bandial	Firim fafu fal Aláemit	Bandial: Firim fafu fal Aláemit Bible	bqj
+Senegal	Karon	Karon	Kuloonaay	Kuloonaay Luke	krx
+Senegal	Mankanya	Mankanya	Ulibra wi Naşibaţi	Mankanya NT and partial OT	knf
+Senegal	Ndut	Ndut	Séréel Ndút: Unni Koope	Ndut Bible	ndv
+Senegal	Noon	Noon	Noon	Noon: Hewhewii winéwí'wii Kooh Kifiiliimunkii ki'askii New Testament	snf
+Senegal	Oniyan	Oniyan	Oniyan	Oniyan Bible	bsc
+Senegal	Saafi-Saafi	Saafi-Saafi	Saafi-Saafi	Saafi-Saafi Bible	sav
+Senegal	Wamey	Wamey	Wamey	Wamey New Testament + Genesis	cou
+Senegal	Wolof	Wolof	Kàddug Yàlla	Wolof Bible (MBS)	wolmbs
+Senegal	Wolof	Wolof	Téereb Injiil	Wolof NT 2010	wol2010
+Serbia	Romani	Romani	I Biblija ki Arli romani čhib Srbija	Balkans Arli Bible	rmna
+Serbia	Arli	Romani, Vlax	Luka	Arli Luke	rmyArli
+Serbia	Chergash	Romani, Vlax	Biblija pe romani Čergarsko čhib Srbija (Vojvodin Romani/Shiyak)	Chergash NT	rmyChergash
+Serbia	Gurbet	Romani, Vlax	E Devleso Lafi ko Gurbetsko dijalekt Srbija	Gurbet NT	rmyGurbet
+Serbia	srpski jezik	Serbian	Sveta Biblija	Serbian Bible	srp1865
+Serbia	Српски/ Srpski	Serbian	Biblica® Нови српски превод, слободна права	Serbian ONSP Cyrillic	srponspc
+Serbia	Српски/ Srpski	Serbian	Biblica® Novi srpski prevod, slobodna prava	Serbian ONST Latin	srponstl
+Slovakia	Romanes	Romani, Carpathian	Le Devleskero Lav Andre Romaňi Čhib, Slovensko 2022	Eastern Slovak Romani Bible	rmc
+Slovakia	Slovenčina	Slovak	Biblica® Nádej pre každého, verejne dostupné	Slovak NT	slk
+Solomon Islands	Arosi	Arosi	Taroha Goro mana Usuusu Maea	Arosi New Testament	aia
+Solomon Islands	Baegu	Baeggu	Na Alangaia Falu 'ana Baea 'i Baegu	Baegu New Testament	bvd
+Solomon Islands	Bughotu	Bughotu	Na Rorongo Ke Toke Eigna a Jisas Krais	Bughotu New Testament	bgt
+Solomon Islands	Fataleka	Fataleka	Farongoe Lea Ana Fataleka	Fataleka New Testament	far
+Solomon Islands	Gela	Gela	Na Rongorongo Uto nina Jesus Christ	Gela Bible	nlg
+Solomon Islands	Ghanongga	Ghanongga	Kubokota Adapt New Testament	Ghanongga: Kubokota Adapt New Testament (Bible)	ghn
+Solomon Islands	Ghari	Ghari	Ghari Bible	Ghari Bible	gri
+Solomon Islands	Kwaio	Kwaio	Fatalana God	Kwaio NT	kwd
+Solomon Islands	Kwara'ae	Kwara'ae	Fau Alanga'inga Faolu Ana Ala'anga Kwara'ae	Kwara'ae Bible	kwf
+Solomon Islands	Lau	Lau	Lau New Testament	Lau: Lau New Testament (New Testament)	llu
+Solomon Islands	Luqa	Lungga	Luqa Full Bible	Lungga Bible	lga
+Solomon Islands	Natqgu	Natügu	Nzryrngrkxtr Kc Ate Rut x Sam	Natqgu NT+Ruth and Psalms	ntu
+Solomon Islands	Rennell-Bellona	Rennell-Bellona	Rennell-Bellona	Rennell-Bellona Gospels	mnv
+Solomon Islands	Roviana	Roviana	Buka Hope	Roviana Bible	rug
+Solomon Islands	Sa'a	Sa'a	Tataroha Diana i Sulie Aalaha Ikie a Jisas Kraes	Sa'a New Testament	apb
+Solomon Islands	Wala	Wala	Alafuuna Fa'alu Ala Saena 'I Wala	Wala New Testament	lgl
+Somalia	Somali	Somali	Kitaabka Quduuska Ah	Somali Bible	som
+South Korea	한국인	Korean	한국어 성경	Korean Bible 1910	kor
+South Sudan	Sudanese Creole Arabic	Arabic, Sudanese Creole	Kitab al Mukadas ma Arabi Juba	Sudanese Creole Arabic Bible	pga
+South Sudan	Avokaya	Avokaya	Tã-drı̣̃ Lẽlẽ Óꞌdí Óvârí Kâ	Avokaya NT	avu
+South Sudan	Baka	Baka	Mɨkánda Lorụ ꞌBɨ Lomo Kɨ́ Dosị́ Éyị́ E	Baka: MƗKÁNDA LORỤ ꞌBƗ LOMO KƗ́ DOSỊ́ ÉYỊ́ E New Testament+	bdh
+South Sudan	Jur Mödö	Jur Mödö	Jur Mödö	Jur Mödö NT, Genesis, and Exodus	bex
+South Sudan	Keliko	Keliko	Keliko	Keliko Bible	kbo
+South Sudan	Luwo	Luwo	Luwo	Luwo: Anweehd Me Nyaahn New Testament	lwo
+South Sudan	Morokodo	Morokodo	Morokodo	Morokodo Bible Portions	mgc
+South Sudan	Mündü	Mündü	Mündü	Mündü NT+Genesis	muh
+South Sudan	Murle	Murle	Murle	Murle Bible	mur
+South Sudan	Ndogo	Ndogo	Ndogo	Ndogo NT	ndz
+Spain	Español	Spanish	Santa Biblia — Reina Valera 1909	Reina Valera 1909	spaRV1909
+Spain	Español	Spanish	Santa Biblia Reina Valera Gómez	RVG Spanish Bible	sparvg
+Spain	Español	Spanish	Santa Biblia libre para el mundo	Spanish Free Bible for the World	spablm
+Spain	Español	Spanish	Versión Biblia Libre	Spanish Free Bible Version	spavbl
+Spain	Español	Spanish	La Biblia de las Américas	Spanish LBLA	spaLBLA
+Spain	Español	Spanish	Nueva Biblia Latinoamericana de Hoy	Spanish NBLH	spanblh
+Spain	Español	Spanish	Santa Biblia Valera 1602 Purificada	Spanish Valera Purificada	spav1602p
+Sudan	Dinka, Southwestern	Dinka, Southwestern	Lëk yam	Southwestern Dinka NT	dikNT
+Sudan	Jumjum	Jumjum	Meeŋka Jooŋ	Jumjum Bible	jum
+Sudan	Katcha-Kadugli-Miri	Katcha-Kadugli-Miri	Katcha	Katcha Bible	xtc
+Sudan	Laro	Laro	Laro	Laro Bible	lro
+Sudan	Lumun	Lumun	Lumun	Lumun: Lumun (Bible)	lmd
+Sudan	Shatt	Shatt	Sorunu Kaläg na Ikä Caning	Caning Bible Translation	shj
+Sudan	Uduk	Uduk	Gwo Ma Arumgimis	Uduk Bible	udu
+Suriname	Eastern Maroon Creole	Eastern Maroon Creole	Beibel: okanisi tongo	Eastern Maroon Creole NT	djkNT
+Suriname	Hindustani, Caribbean	Hindustani, Caribbean	Parmeswar ke naawa poestak	Caribbean Hindustani NT	hnsNT
+Suriname	Javanese, Caribbean	Javanese, Caribbean	Kitab sutyi prejanjian anyar ing Basa Jawa Suriname sing gampang	Caribbean Javanese NT	jvnNT
+Suriname	Saramaccan	Saramaccan	Gadu Buku	Saramaccan NT	srmNT
+Suriname	Sranan	Sranan	Nyun Testamenti	Sranan NT	srnNT
+Sweden	Svenska	Swedish	Svenska Folkbibeln	Swedish Folkbibleln	swef
+Sweden	Swedish	Swedish	Svenska Kärnbibeln - en expanderad översättning	Swedish NT+	swe
+Sweden	Swedish	Swedish	Svenska Standardbibeln	Swedish Standard Bible	swessb
+Tajikistan	тоҷикӣ	Tajik	Хушхабар	Tajik Bible	tgk
+Tanzania	Bondei	Bondei	Bondei Bible Version	Bondei Bible	bou
+Tanzania	Burunge	Burunge	Burunge	Burunge: Ila⁄imbidu Gu ⁄abu hari Burungaisoo (Bible)	bds
+Tanzania	Ikizu	Ikizu	Ʉbhʉragɨ Ubhuhya Mʉkɨgambʉ chi Ikikiizʉ	Ikizu NT	ikz
+Tanzania	Kiisanzu	Isanzu	Isanzu Bible	Isanzu NT	isn
+Tanzania	Kikara	Kara	Kara Bible	Kara NT	reg
+Tanzania	Mahanji	Kinga	Mahanji Bible	Mahanji NT	zgam
+Tanzania	Kese	Kisi	Kisi Bible	Kisi NT	kiz
+Tanzania	Kizalamo	Kizalamo	Bibilia ya Kizalamo	Zaramo: Bibilia ya Kizalamo (Bible)	zajp
+Tanzania	Kutu	Kutu	Biblia Kikutu	Kutu NT	kdc
+Tanzania	Kutu	Kutu	Lagano da Sambi kwa Wanhu Wose	Kutu NT 2014	kdc2014
+Tanzania	Kwere	Kwere	Biblia Ching'hwele	Kwere NT	cwe
+Tanzania	Luguru	Luguru	Laghano Lya Sambi Kwe Iwanu Wose	Luguru NT	ruf
+Tanzania	Malila	Malila	Malila	Malila NT+	mgq
+Tanzania	Matengo	Matengo	Amatengu	Matengo: Amatengu (New Testament)	mgv
+Tanzania	Matumbi	Matumbi	Injili ya Yesu	Matumbi NT	mgw
+Tanzania	Mpoto	Mpoto	Chimpoto	Mpoto NT	mpa
+Tanzania	Mwera	Mwera	Malagano ga Ambi	Mwera Bible	mwe
+Tanzania	Ndali	Ndali	Ndali	Ndali Bible	ndh
+Tanzania	Ndamba	Ndamba	Lilaghanu lya shonu	Ndamba New Testament	ndj
+Tanzania	Ndendeule	Ndendeule	Ndendeule	Ndendeule NT	dne
+Tanzania	Kindengereko	Ndengereko	Ndengereko Bible	Ndengereko NT	ndg
+Tanzania	Ndondehamba	Ndonde Hamba	Ndondehamba	Ndonde Hamba NT	njd
+Tanzania	Ndwewe	Ndwewe	Ndwewe Bible Version	Ndwewe NT	nww
+Tanzania	Ngindo	Ngindo	Ngindo New Testament 2015	Ngindo New Testament	nnq
+Tanzania	Chingoni	Ngoni	Ngoni Bible Version Translation Project	Ngoni NT	xnj
+Tanzania	Nguu	Nguu	Ndagano mp'ya kwa wanth'u wose	Nguu New Testament	ngp
+Tanzania	Nyakyusa-Ngonde	Nyakyusa-Ngonde	Ʉlwitɨkano Ʉlʉpya	Nyakyusa-Ngonde Bible	nyy
+Tanzania	Pogolo	Pogolo	Lipatanu Lya Syayi Kwa Wantu Woseri	The New Testament in Pogoro	poy
+Tanzania	Rangi	Rangi	Rangi	Rangi NT	lag
+Tanzania	Kisafwa	Safwa	Biblia Takatifu	Safwa NT	sbk
+Tanzania	Kiswahili	Swahili	Biblia Takatifu	Swahili Bible	swh1850
+Tanzania	Kiswahili	Swahili	Biblica® Toleo Wazi Neno: Maandiko Matakatifu	Swahili ONMM	swhonmm
+Tanzania	Kiswahili	Swahili	Biblia Takatifu	Swahili Unlocked Literal Bible	swhulb
+Tanzania	Vidunda	Vidunda	Ilagano lya Katali, Ilagano Linyale kwa Wanhu Weng’ha	Vidunda NT+	vid
+Tanzania	Kivwanji	Vwanji	Vwanji Bible	Vwanji NT	wbi
+Tanzania	Zanaki	Zanaki	Eriiragano Eriihya	Zanaki NT	zak
+Tanzania	Zaramo	Zaramo	Lagano da Isambi da Mndewa na Mkombola Wetu Yesu Kilisto	Zaramo Bible	zaj
+Tanzania	Zigua	Zigua	Lagano hya	Zigua New Testament	ziw
+Tanzania	Zinza	Zinza	Endagano Eénsha omu Chiziinza	Zinza NT+	zin
+Thailand	Western Lawa	Lawa, Western	Lawa, Western (พระคัมภีร์ละว้า)	Western Lawa Bible	lcp
+Thailand	ไทย	Thai	ใหม่ฉบับภาษาไทย	New Thai Version	thantv
+Thailand	ไทย	Thai	พระคัมภีร์ภาษาไทยฉบับ KJV	Thai KJV Bible	thaKJV
+Thailand	Thai, Northern	Thai, Northern	พระคริสตธรรมคัมภีร ภาคพันธสัญญาใหม	Thai, Northern: พระคริสตธรรมคัมภีร ภาคพันธสัญญาใหม New Testament	nod
+Timor Leste	Baikeno	Baikeno	Naꞌ Markus	Baikeno Mark	bkx
+Timor Leste	Tetun Dili	Tetun Dili	Testamentu Foun ba Ema Hotu	Tetun Dili NT	tdt
+Togo	Ngangam	Ngangam	Uwien ya Jɔtiefɛ̀nku ya gbɔnku	Ngangam NT	gngNT
+Togo	Tem	Tem	Ɩsɔ́ɔ-dɛ́ɛ Tɔ́m Tákaraɖá	Tem Matthew	kdh
+Tonga	Niuafo'ou	Niuafo'ou	Te Fuakava Fo'ou	Niuafo'ou NT	num
+Tonga	Tongan	Tongan	KO E TOHI TAPU KĀTOA	Revised West Version	ton
+Tunisia	Gaolkheel	Arabic, Tunisian Spoken	العهد الجديد بالدارجة التونسية 2022	Akeu NT	aeu
+Tunisia	العهد الجديد بالدارجة التونسية 2022	العهد الجديد بالدارجة التونسية 2022	العهد الجديد بالدارجة التونسية 2022	Arabic, Tunisian Spoken: العهد الجديد بالعربية التونسية (New Testament)	aeb
+Turkey	Türkçe	Turkish	Open Basic Turkish New Testament	Open Basic Turkish New Testament	turobt
+Turkey	Türkçe	Turkish	Yorumsuz Türkçe Çeviri (YTC)	Turkish WEB	turytc
+Uganda	Aringa	Aringa	Aringa	Aringa Bible	luc
+Uganda	Gungu	Gungu	Bitabbu bya Ndagaanu Ghyaka na Bitabbu 6 bya Ndagaanu Gi̱gu̱lu̱u̱su̱ (Lugungu)	Gungu: Ndagaanu Gihyaka NT	rub
+Uganda	Gwere	Gwere	ENdagaano eMpyaka oMu Lugwere	Gwere: Endagaano Empyaka Omu Lugwere (Bible)	gwr
+Uganda	Luganda	Luganda	Biblica® Bayibuli Entukuvu, Endagaano Enkadde nʼEndagaano Empya ekwatiddwa ku katambi™	Luganda Bible	lug
+Uganda	Nyole	Nyole	Endagaano Epyaha ko n'ebitabo ebindi eby'Endagaano Ekayire mu Lunyole	Nyole: Endagaano Epyaha mu Lunyole (Bible)	nuj
+Uganda	Talinga-Bwisi	Talinga-Bwisi	Ndaghaano Mpyaka na bimui haa bitabo byꞌomu Ndaghaano Nkulu mu Lubwisi	Talinga-Bwisi Bible	tlj
+Uganda	Thur	Thur	Leb-Thur	Thur NT+	lth
+Ukraine	Romani	Romani	Библия пэ влахицко романи шыб	Eastern Vlakh Romani	rmyvlakh
+Ukraine	Romani	Romani	Библия пэ ловарицко романы щиб	Lovari Vlax Romani Bible	rmylovari
+Ukraine	Romani	Romani, Balkan	Библия опэр крымски романи чиб	Balkan Romani Bible portions	rmn
+Ukraine	Romanes	Romani, Carpathian	Біблія про закарпатцько романо чіб	Carpathian Romani Luke	rmczrb
+Ukraine	Romani	Romani, Vlax	Библия пы сэрвицко ромско чиб	Servi Romani Bible portions	rmyservi
+Ukraine	Українська	Ukrainian	Біблія в пер. П.Куліша та І.Пулюя, 1905	Ukrainian Bible by P. Kulish	ukr1871
+Ukraine	Українська	Ukrainian	Біблія	Ukrainian Bible, BJU 1996	ukr1996
+Ukraine	Українська	Ukrainian	Біблія свободи	Ukrainian Freedom Bible	ukrfb
+Ukraine	Українська	Ukranian	Бібліка ® Відкрита Новий Переклад Українською	New Ukranian Translation NT+Psalms	ukronpu
+United Kingdom	English	English	The Amplified Bible (2015)	Amplified Bible 2015	engamp
+United Kingdom	English	English	Anindilyakwa English Bible	Anindilyakwa English Bible	engaoi
+United Kingdom	English	English	Bible in Basic English	Bible in Basic English	engBBE
+United Kingdom	English	English	Brenton Septuagint Translation	Brenton English Septuagint	eng-Brenton
+United Kingdom	English	English	LXX2012: Septuagint in British/International English 2012	British English Septuagint 2012	eng-uk-lxx2012
+United Kingdom	English	English	Darby Translation	Darby Translation	engDBY
+United Kingdom	English	English	Douay-Rheims 1899	Douay-Rheims 1899	engDRA
+United Kingdom	English	English	English Majority Text Version	English Majority Text Version	engemtv
+United Kingdom	English	English	Wycliffe's Bible with Modern Spelling (Enhanced)	English: Wycliffe's Bible Modern Spelling (Enhanced) (with Deuterocanon)	engwyc2018
+United Kingdom	English	English	Wycliffe's Bible with Modern Spelling	English: Wycliffe's Bible Modern Spelling (with Deuterocanon)	engwyc2017
+United Kingdom	English	English	Geneva Bible 1599	Geneva Bible 1599	enggnv
+United Kingdom	English	English	King James (Authorized) Version	King James Version	eng-kjv2006
+United Kingdom	English	English	King James Version + Apocrypha	King James Version + Apocrypha	eng-kjv
+United Kingdom	English	English	KJV Cambridge Paragraph Bible	KJV Cambridge Paragraph	engkjvcpb
+United Kingdom	English	English	Isaac Leeser Tanakh	Leeser Tanakh	englee
+United Kingdom	English	English	George Noyes Bible	Noyes Bible	engnoy
+United Kingdom	English	English	Open English Bible (Commonwealth Spelling)	Open English Bible (Commonwealth)	engoebcw
+United Kingdom	English	English	Revised Version with Apocrypha (1895)	Revised Version	eng-rv
+United Kingdom	English	English	Targum Onkelos Etheridge	Targum Onkelos Etheridge	engoke
+United Kingdom	English	English	The Orthodox Jewish Bible	The Orthodox Jewish Bible -  Tanakh and Orthodox Jewish Brit Chadasha - The Holy Bible	engojb
+United Kingdom	English	English	Tyndale New Testament	Tyndale NT	engtnt
+United Kingdom	English	English	World English Bible British Edition	World English Bible British Edition	engwebpb
+United Kingdom	English	English	World English Bible British Edition with Deuterocanon	World English Bible British Edition with Deuterocanon	eng-webbe
+United Kingdom	English	English	World Messianic Bible British Edition	World Messianic Bible British Edition	engwmbb
+United Kingdom	Middle English	English	Wycliffe Bible	Wycliffe Bible portions	engWycliffe
+United Kingdom	ENGLISH	English	Young's Literal Translation	Young's Literal Translation	engylt
+United States	Western Apache	Apache, Western	The New Testament of our Lord and Saviour Jesus Christ	Western Apache NT	apwNT
+United States	Arapaho	Arapaho	Hethadenee waunauyaunee vadan Luke Vanenāna	Arapaho Luke	arp
+United States	English	English	American Standard Version (1901)	American Standard Version (1901)	eng-asv
+United States	English	English	American Standard Version Byzantine Text	ASV Byzantine Text	engasvbt
+United States	English	English	Easy to Translate English Jonah	E2E Jonah	enge2t
+United States	English	English	Literal Standard Version	English LSV	englsv
+United States	English	English	God's Living Word	God's Living Word	eng-glw
+United States	English	English	LXX2012: Septuagint in American English 2012	LXX2012 U. S. English	eng-lxx2012
+United States	English	English	Majority Standard Bible	Majority Standard BIble	engmsb
+United States	English	English	New American Standard Bible	NASB 1995	engnasb
+United States	English	English	NET Bible	NET Bible	engnet
+United States	English	English	One Unity Resource Bible	One Unity Resource Bible	engourb
+United States	English	English	Open English Bible (U. S. spelling)	Open English Bible (US)	engoebus
+United States	English	English	Text-Critical English New Testament	Text-Critical English NT	engtcent
+United States	English	English	Translation for Translators	Translation for Translators	eng-t4t
+United States	English	English	Unlocked Literal Bible	Unlocked Literal Bible	engULB
+United States	English	English	Noah Webster Bible	Webster Bible	engwebster
+United States	English	English	World English Bible	World English Bible	engwebp
+United States	English	English	World English Bible (Catholic)	World English Bible (Catholic)	eng-web-c
+United States	English	English	World English Bible Classic	World English Bible Classic	eng-web
+United States	English	English	World English Bible Updated	World English Bible Updated	engwebu
+United States	English	English	World Messianic Bible	World Messianic Bible	engwmb
+United States	Gwich'in	Gwich'in	Vit'eegwijyąhchy'aa Vagwandak Nizįį	Gwich'in NT	gwiNT
+United States	Hawai'i Pidgin	Hawai'i Pidgin	Da Good An Spesho Book	Hawaii Pidgin Bible	hwc
+United States	'Olelo Hawai'i	Hawaiian	Baibala Hemolele	Hawaiian Bible 1868	haw1868
+United States	Hopi	Hopi	God Lavayiyat Aṅ Puhuvasiwni	Hopi NT	hopNT
+United States	Paiute, Northern	Paiute, Northern	Te Naa Besa Unnepu	Northern Paiute NT	paoNT
+United States	Pennsilfaanisch Deitsch	Pennsilfaanisch Deitsch	Pennsylvania Dutch Bible	Pennsylvania German Bible	pdc
+United States	Sea Island Creole English	Sea Island Creole English	De Nyew Testament	Sea Island Creole English NT	gulNT
+United States	Tewa	Tewa	Naˀinbí Sedó Yôesiví Tu̖u̖ / Nanbí Sedó Jôesiví Tun	Tewa NT	tew
+United States	Tohono O'odham	Tohono O'odham	Jiosh Wechij O'ohana	Tohono O'odham NT	oodNT
+United States of America	English	English	Easy-to-Read Version	Easy-to-Read Version	engerv
+United States of America	English	English	Berean Standard Bible	English Berean Standard Bible	engbsb
+United States of America	English	English	GOD'S WORD	English: GOD'S WORD	enggw
+United States of America	English	English	The New Testament with Commentary	Family 35 NT	engf35
+United States of America	English	English	Free Bible Version	Free Bible Version	engfbv
+United States of America	English	English	JPS TaNaKH 1917	JPS TaNaKH 1917	engjps
+United States of America	English	English	Updated Brenton English Septuagint	Updated Brenton English Septuagint	englxxup
+United States of America	Inupiatun, Northwest Alaska	Northwest Alaska Eskimo	Ipqitchuat Makpiġaat - Agaayyutim Uqałhi Iñupiatun	Northwest Alaska Eskimo NT	eskNT
+Vanuatu	Havai	Ambae, East	Waratau Siaga Tatuei mo Vilegi	Ambae, East: Waratau Siaga Tatuei mo Vilegi (Old Testament)	omb
+Vanuatu	Southeast Ambrym	Ambrym, Southeast	Vanuvei Eo e sepinien Vatlongos na mol-Vatimol xil niutestamen e rute te oltestamen	Southeast Ambrym Bible portions	tvk
+Vanuatu	Apma	Apma	Jona	Apma Jona	app
+Vanuatu	Baki	Baki	Verikariano Vou Na Baki	Baki NT	bki
+Vanuatu	Lewo	Lewo	Lologena Wo Kienane Yesu Kristo Kome Kewo	Lewo NT	lww
+Vanuatu	Maskelynes	Maskelynes	Nasoruan siGot len nasoruan ta Uluveu	Maskelynes NT	klv
+Vanuatu	Nəfe	Nafe	Nǝkukuǝ Ikinan	Nafe NT	tnk
+Vanuatu	North Tanna	North Tanna	North Tanna New Testament	North Tanna NT	tnn
+Vanuatu	Paama	Paama	Paama Bible	Paama Bible	pma
+Vanuatu	Southwest Tanna	Southwest Tanna	Nəkwəkwə imərhakə kape kughen: nɨrpenien vi	Southwest Tanna NT	nwi
+Vanuatu	Tangoa	Tangoa	Tangoa New Testament	Tangoa NT	tgp
+Vanuatu	Uripiv	Uripiv-Wala-Rano-Atchin	Naul On Nga Mimerr Uripiv	Uripiv New Testament	upv
+Vanuatu	Whitesands	Whitesands	Nauəuə Asim Rəha Uhgɨn Nəmtətiən Vi	Whitesands NT	tnp
+Vatican State	Latine	Latin	Bibbia Vulgata Clementina na 1598	Clementine Vulgate 1598	latVUC
+Venezuela	Carib	Carib	Asery Tamusi karetary	New Testament in Carib (NS:car:Carib)	car
+Viet Nam	Central Mnong	Central Mnong	Bunong	Mnong, Central: Nau Kôranh Brah Ngơi Nau Tâm Rnglăp Mhe New Testament	cmo
+Viet Nam	Central Mnong	Central Mnong	នាវ​កោរាញ​ឞ្រាស​​ងើយ​តា​នាវ​ងើយ​ឞូន៝ង	Mnong, Central: នាវ​កោរាញ​ឞ្រាស​ងើយ​​នាវ​តឹម​រាង្លាប់​មហែ New Testament	cmok
+Viet Nam	Chru	Chru	Chru	Chru: Chru (New Testament)	cje
+Viet Nam	Hre	Hre	Hset Hadròeh	Hre NT (Baq Thi)	hrebt
+Viet Nam	Hre	Hre	Sech Hadròih	Sech Hadròih	hre
+Viet Nam	Thai Den	Thai Den	Tai Dam	Tai Dam NT	blt
+Viet Nam	Tiếng Việt	Tiếng Việt	Biblica® Thiên Ban Kinh Thánh Hiện Đại™	Vietnamese Contemporary Bible	vieovcb
+Viet Nam	Tiếng Việt	Vietnamese	Kinh Thánh	Vietnamese Bible 1923	vie1934
+Viet Nam	Việt	Vietnamese	Thánh Kinh Bản Phổ thông	Vietnamese Easy Reading Verson	vie2011
+Zambia	Bwile	Bwile	Bwile Bible Translation	Bwile: Bwile Bible Translation (Bible)	bwc
+Zambia	Luyana	Luyana	Luyana Bible Translation	Luyana NT	lyn
+Zambia	Chisoli	Soli	Soli New Testament	Soli NT	sby
+Zimbabwe	chiShona	chiShona	Biblica® Bhaibheri Dzvene Rakasununguka MuChiShona Chanhasi 2017	Shona Bible	sna
+Zimbabwe	Toka-Leya-Dombe	Dombe	Dombe New Testament	Dombe NT	dov
+Zimbabwe	isiNdebele	Ndebele	Biblica® IBhayibhili Elingcwele LesiNdebele Elifinyelelekayo	Ndebele Bible	nde
