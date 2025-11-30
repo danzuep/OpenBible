@@ -25,7 +25,7 @@ namespace Bible.Backend.Tests
             var deserializer = new XDocDeserializer();
             var book = deserializer.DeserializeXml<UsxBook>(BibleUsxSamples.UsxWebbeMat5);
             Assert.NotNull(book);
-            var html = UsjToHtmlVisitor.GetFullText(book);
+            var html = UsxToHtmlVisitor.GetFullText(book);
             Debug.WriteLine(html);
         }
 
