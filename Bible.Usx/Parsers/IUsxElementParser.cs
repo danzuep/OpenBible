@@ -3,7 +3,18 @@ using Bible.Usx.Models;
 
 namespace Bible.Usx.Parsers;
 
-public interface IUsxElementParser
+public interface IParser<TIn, TOut>
+{
+    /// <inheritdoc cref="Convert"/>
+    Task<TOut> ParseAsync(TIn input, CancellationToken cancellationToken = default);
+}
+
+public interface IXmlReaderParser<T> : IParser<XmlReader, T>
+{
+    new Task<T> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default);
+}
+
+public interface IUsxElementParser : IXmlReaderParser<IUsjNode>
 {
     /// <summary>
     /// Element name this parser handles.
@@ -14,10 +25,5 @@ public interface IUsxElementParser
     /// Parse the current element from the XmlReader (positioned at start element).
     /// Returns a USJ node representing the element.
     /// </summary>
-    Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default);
-}
-
-public interface IXmlReaderParser
-{
-    Task<T> ParseAsync<T>(XmlReader reader, CancellationToken cancellationToken = default);
+    new Task<IUsjNode> ParseAsync(XmlReader reader, CancellationToken cancellationToken = default);
 }
