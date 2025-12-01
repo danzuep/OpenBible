@@ -28,7 +28,7 @@ jobs:
     environment: ${{ inputs.environment }}
     steps:
       - name: Checkout the source repository from Git
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # - name: Download artifacts from the restore job
       #   uses: actions/download-artifact@v4
@@ -83,6 +83,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: ${{ inputs.environment }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Statically validate Fastlane metadata for Android
         uses: ashutoshgngwr/validate-fastlane-supply-metadata@v2
