@@ -42,7 +42,7 @@ jobs:
 
       # https://github.com/GitTools/actions/blob/main/docs/examples/github/gitversion/setup/usage-examples.md#example-1
       - name: Set up GitVersion
-        uses: gittools/actions/gitversion/setup@v4.1.0
+        uses: gittools/actions/gitversion/setup@v4.2.0
         with:
           versionSpec: '6.3.x'
 
@@ -51,7 +51,7 @@ jobs:
       # pwsh> dotnet-gitversion | ConvertFrom-Json
       - name: Use GitVersion to determine version
         id: gitversion # e.g. steps.gitversion.outputs.<outputName>
-        uses: gittools/actions/gitversion/execute@v4.1.0
+        uses: gittools/actions/gitversion/execute@v4.2.0
 
       - run: |
           echo 'Get the repository project name.'
